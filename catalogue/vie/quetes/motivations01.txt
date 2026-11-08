@@ -1,0 +1,236 @@
+# Quêtes de motivation · lot 1 (8 nov. 2026)
+# Pour tout héros sans quête de champion ni de gamme : la quête naît de sa motivation.
+# {pays} = la région que le héros aime (ou celle du repère) ; {lieu1} et {lieu2} = deux lieux de cette région, toujours les mêmes pour ce héros.
+# Avec leur préposition : {a_lieu1} (« à Bel'Zhun », « aux Docks… », « à la Clairière »), {A_lieu1}, {de_lieu1}, {jusqua_lieu1}, {vers_lieu1}.
+# Textes sans accord de genre sur {nom} : ils servent à des centaines de héros.
+
+=== QUM-OR | La dette d'autrefois
+motivation: or
+demande: « On me doit de l'argent {a_lieu1}. Beaucoup, et depuis des années. Le type qui me doit tout ça vient d'ouvrir une boutique, paraît-il. Il est temps qu'il paie. Je reviens avec ma part, et peut-être un peu plus pour la guilde. »
+eveil: {nom} recompte une vieille reconnaissance de dette, jaunie, cornée, signée d'un nom que personne au repère ne connaît.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 7
+e1_epreuves: poursuite 1 ; diplomatie 2
+e1_recit: retrouver le débiteur {a_lieu1} et le mettre face à sa dette
+e1_reussite: Le débiteur reconnaît sa signature. Il pâlit, puis il ouvre son coffre. Il ne lui reste presque rien : la boutique a tout coûté.
+e1_echec: Le débiteur nie tout, devant témoins. {nom} repart sans un sou, mais avec une adresse, et une idée.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 7
+e2_epreuves: diplomatie 2 ; discretion 1
+e2_recit: trouver, {a_lieu2}, un arrangement qui ne ruine personne, ou un moyen de se faire payer quand même
+e2_reussite: L'arrangement est signé : une part de la boutique, chaque mois, pendant dix ans. {nom} a maintenant une rente. Et un associé qui le regrette.
+e2_echec: Le débiteur a quitté la région. {nom} garde la reconnaissance de dette. Elle a de la valeur. Un jour.
+fin: {nom} rentre au repère en sifflotant, une bourse bien remplie à la ceinture, et paie une tournée. La première depuis longtemps.
+refus: {nom} plie la reconnaissance de dette et la range. « D'accord. Mais l'argent, lui, n'attend pas. Il s'en va. »
+
+=== QUM-GLOIRE | Le défi de {pays}
+motivation: gloire
+demande: « {A_lieu1}, un champion local se vante de n'avoir jamais été battu. On chante ses exploits jusqu'ici. J'en ai assez de les entendre. Je veux aller le battre, et c'est la guilde qu'on chantera après. »
+eveil: {nom} s'entraîne devant un public imaginaire, dans la cour, et salue à la fin. Personne n'applaudit. {chien} remue la queue, ce qui compte un peu.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 6
+e1_epreuves: diplomatie 1 ; combat 2
+e1_recit: lancer un défi public au champion {de_lieu1}, et le faire accepter
+e1_reussite: Le champion accepte, devant toute la ville. Le combat aura lieu {a_lieu2}, dans trois jours. Les paris sont ouverts.
+e1_echec: Le champion refuse, prétextant une blessure. {nom} décide d'aller l'attendre là où il se cache.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 6
+e2_epreuves: combat 2 ; diplomatie 1
+e2_recit: affronter le champion devant une foule qui n'est pas de son côté
+e2_reussite: {nom} gagne. La foule se tait, puis elle scande le nom de la guilde. Le soir même, quelqu'un compose une nouvelle chanson. Elle n'est pas très bonne. Elle est parfaite.
+e2_echec: {nom} perd, mais de peu, et debout. Le champion lui serre la main. Dans la chanson suivante, il y a un couplet sur un adversaire « qui ne savait pas tomber ».
+fin: {nom} rentre au repère et fait semblant de ne pas entendre la chanson qu'on fredonne déjà dans la salle commune. Puis finit par la fredonner, très fort.
+refus: {nom} soupire. « Les chansons continueront sans moi, alors. » On l'entend en chanter une, mal, dans les couloirs.
+
+=== QUM-CAUSE | Ceux qui n'ont personne
+motivation: cause
+demande: « Il y a un hospice {a_lieu1}, qui accueille ceux dont personne ne veut. Il va fermer. Plus d'argent, plus de bras. Je ne peux pas laisser faire ça. Je reviendrai quand j'aurai trouvé une solution. Ou quand il n'y aura vraiment plus rien à faire. »
+eveil: {nom} lit et relit une lettre, puis la range dans sa poche, puis la relit encore. Au dîner, sa part reste presque intacte.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 7
+e1_epreuves: diplomatie 2 ; voyage 1
+e1_recit: comprendre ce dont l'hospice a vraiment besoin, et qui pourrait l'aider
+e1_reussite: Les religieuses de l'hospice ouvrent leurs registres. Il ne manque pas grand-chose : un toit à refaire, et quelqu'un d'assez connu pour convaincre les donateurs.
+e1_echec: L'hospice est déjà à moitié vide. {nom} aide à porter les derniers lits jusqu'à la charrette, en serrant les dents.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 7
+e2_epreuves: diplomatie 2 ; siege 1
+e2_recit: convaincre les notables {de_lieu2} de payer, et remettre le toit en état de ses propres mains
+e2_reussite: Les notables paient, piqués au vif. Le toit est refait. L'hospice restera ouvert. Les pensionnaires offrent à {nom} un dessin collectif, maladroit, magnifique.
+e2_echec: Les notables refusent. {nom} trouve quand même une famille d'accueil pour chacun des pensionnaires. Il en reste un. {nom} le ramène au repère.
+fin: {nom} rentre au repère et ne raconte presque rien. Mais chaque mois, désormais, une part de sa paie part {vers_lieu1}. Personne ne pose de question.
+refus: {nom} hoche la tête, et écrit une longue lettre, qu'on porte au courrier le soir même. On ne sait pas à qui elle est adressée. On devine.
+
+=== QUM-VENGEANCE | Le visage dans la foule
+motivation: vengeance
+demande: « Je l'ai revu. Celui qui m'a fait ça, il y a des années. Il passe {a_lieu1} chaque semaine, comme si de rien n'était. Je ne te demande pas ta bénédiction. Je te demande de me laisser partir avant que je change d'avis. »
+eveil: {nom} aiguise une lame qui n'en a pas besoin, toute la soirée. Le bruit de la pierre sur l'acier s'entend jusque dans les chambres.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 6
+e1_epreuves: discretion 2 ; poursuite 1
+e1_recit: retrouver l'homme {a_lieu1} sans se faire repérer, et le suivre jusque chez lui
+e1_reussite: {nom} le trouve. Il a vieilli. Il a des enfants. Et lui ne se souvient même pas de {nom}. C'est peut-être le plus dur.
+e1_echec: L'homme a disparu de la ville. {nom} garde sa colère intacte, faute de mieux.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 6
+e2_epreuves: diplomatie 2 ; combat 1
+e2_recit: l'affronter {a_lieu2}, et décider enfin quoi faire de cette vengeance qui dure depuis des années
+e2_reussite: {nom} parle, longtemps. L'homme écoute, puis pleure. {nom} repart sans avoir levé la main. La colère reste. Mais elle pèse moins.
+e2_echec: Le face-à-face tourne mal. Il y a des coups, des cris, un garde qui accourt. {nom} rentre avec des bleus, et la vengeance intacte.
+fin: {nom} rentre au repère et dort une nuit entière, d'une traite. Depuis, plus un mot sur cet homme. On sait seulement que ça va mieux.
+refus: {nom} pose la lame sur la table, lentement. « Pour cette fois. » On sent que ce n'est pas fini.
+
+=== QUM-SAVOIR | Le livre qui manque
+motivation: savoir
+demande: « Il existe un livre, {a_lieu1}, que personne n'a lu depuis cent ans. On dit qu'il explique pourquoi les étoiles changent de place au-dessus de {pays}. Je veux le lire. Je veux savoir. C'est plus fort que moi. »
+eveil: {nom} dessine des cartes du ciel sur la table de la salle commune, à la craie, jusque tard dans la nuit. Au matin, quelqu'un les a effacées par erreur. Il faut tout recommencer.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 7
+e1_epreuves: diplomatie 2 ; discretion 1
+e1_recit: obtenir le droit de consulter un livre que ses gardiens ne prêtent à personne
+e1_reussite: Les gardiens cèdent devant tant d'insistance polie. {nom} lit toute la nuit. Le livre pose plus de questions qu'il n'en résout. C'est parfait.
+e1_echec: Les gardiens refusent. Mais l'un d'eux glisse un nom : celui d'un vieux savant qui l'a lu, autrefois, {a_lieu2}.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 6
+e2_epreuves: voyage 1 ; diplomatie 2
+e2_recit: vérifier sur place, {a_lieu2}, ce que le livre raconte
+e2_reussite: Le phénomène est là, exactement comme le livre le décrit. {nom} le note, le dessine, et rentre avec une théorie entière. Elle est peut-être fausse. Elle est à {nom}.
+e2_echec: Les nuages ont caché le ciel toutes les nuits. {nom} rentre avec des notes, des engelures, et l'intention de revenir.
+fin: {nom} rentre au repère et passe une semaine à écrire. Le résultat fait quarante pages. Personne ne les lit en entier. {nom} s'en moque : c'est écrit.
+refus: {nom} soupire, et retourne à ses livres. « Le monde ne va pas disparaître. Pas tout de suite. » On l'entend tourner les pages très fort.
+
+=== QUM-PROTEGER | La maison d'enfance
+motivation: proteger
+demande: « La maison où j'ai grandi, {a_lieu1}, est menacée. Des bandits rôdent, et ceux qui y vivent maintenant sont des gens âgés. Je les connais à peine. Mais c'est ma maison. Je veux qu'ils y soient en sûreté. »
+eveil: Le soir, au coin du feu, {nom} sculpte une petite maison en bois. Avec une porte, des fenêtres, et un arbre devant.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 7
+e1_epreuves: voyage 1 ; diplomatie 2
+e1_recit: retrouver la maison et gagner la confiance de ceux qui y vivent
+e1_reussite: Le vieux couple ouvre avec méfiance. Puis {nom} montre, gravées sur le linteau, ses initiales d'enfant. Le soir même, on lui sert à dîner.
+e1_echec: Le vieux couple refuse d'ouvrir. {nom} campe devant la maison. Le lendemain, une assiette de soupe attend sur le perron.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 7
+e2_epreuves: combat 2 ; discretion 1
+e2_recit: remonter jusqu'au repaire des bandits, {a_lieu2}, et faire en sorte qu'ils ne reviennent plus
+e2_reussite: Les bandits sont chassés de la région. Le vieux couple fait graver un nouveau nom sur le linteau : celui de la guilde.
+e2_echec: Les bandits ont fui, mais ils reviendront peut-être. {nom} répare les volets, renforce la porte, et laisse son adresse.
+fin: {nom} rentre au repère avec un pot de confiture faite par le vieux couple. Il trône désormais sur l'étagère de la cuisine. Personne n'a le droit d'y toucher.
+refus: {nom} pose la petite maison en bois sur le rebord de sa fenêtre, tournée vers {pays}. Elle y reste longtemps.
+
+=== QUM-POUVOIR | Le siège vide
+motivation: pouvoir
+demande: « Un siège s'est libéré au conseil {de_lieu1}. Un siège qui compte. Avec ce que la guilde a déjà fait, j'ai mes chances. Je ne quitterai pas la guilde : j'aurai simplement plus de poids. Pour nous tous. Surtout pour moi. »
+eveil: {nom} s'entraîne à des discours devant le miroir de la salle commune, puis devant {chien}, qui ne vote pas, mais qui écoute très bien.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 7
+e1_epreuves: diplomatie 2 ; discretion 1
+e1_recit: rallier des soutiens {a_lieu1}, par la parole, les promesses, et quelques dîners bien choisis
+e1_reussite: Trois conseillers promettent leur voix. {nom} sait qu'ils mentent tous un peu. Mais pour une fois, ça arrange.
+e1_echec: Les conseillers restent prudents. Pour les convaincre, il va falloir un coup d'éclat.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 6
+e2_epreuves: diplomatie 2 ; combat 1
+e2_recit: régler {a_lieu2} un problème que le conseil n'arrive pas à résoudre, et le faire savoir
+e2_reussite: Le problème est réglé, et tout le monde le sait. Le siège revient à {nom}, par un vote serré. La guilde a désormais une voix au conseil {de_lieu1}.
+e2_echec: Le problème est réglé, mais quelqu'un d'autre s'en attribue le mérite. C'est cette personne qui obtient le siège. {nom} retient son nom. Pour plus tard.
+fin: {nom} rentre au repère avec un sceau tout neuf et une nouvelle façon de marcher. Tout le monde le remarque. Personne ne dit rien. On sourit en coin.
+refus: {nom} incline la tête, très poliment. « Bien sûr. Le pouvoir peut attendre. » On devine que {nom} compte déjà les jours.
+
+=== QUM-LIBERTE | La route sans fin
+motivation: liberte
+demande: « J'étouffe. Ce n'est pas la guilde, c'est moi. J'ai besoin de marcher quelques jours, sans but, du côté {de_lieu1}. Juste marcher. Je reviendrai, promis. C'est justement parce que je veux revenir que j'ai besoin de partir un peu. »
+eveil: {nom} passe la soirée sur le mur du repère, à regarder la route qui part vers {pays}. Le vent souffle. Il fait nuit noire quand {nom} rentre enfin.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 8
+e1_epreuves: voyage 2 ; poursuite 1
+e1_recit: partir sans plan {jusqua_lieu1}, et laisser la route décider
+e1_reussite: La route mène à une fête de village, où {nom} danse jusqu'à l'aube avec des inconnus. Ça faisait des années que ça n'était pas arrivé.
+e1_echec: Il pleut trois jours. {nom} marche quand même. Le corps est trempé. La tête, elle, est un peu plus légère.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 8
+e2_epreuves: voyage 2 ; diplomatie 1
+e2_recit: continuer {jusqua_lieu2}, dormir à la belle étoile, et décider, au matin, de rentrer ou non
+e2_reussite: Au matin, sur la colline {de_lieu2}, {nom} regarde le soleil se lever, et décide de rentrer. Pas par devoir. Par envie.
+e2_echec: {nom} se perd un peu en route. Et se retrouve beaucoup. Le retour prend deux jours de plus. Personne ne s'en plaint.
+fin: {nom} rentre au repère avec de la boue sur les bottes et des fleurs sauvages dans les cheveux. Au dîner, on entend son rire plus souvent que d'habitude. Ça fait du bien à tout le monde.
+refus: {nom} serre les poings, puis les desserre. « D'accord. » Le soir, {nom} tourne en rond dans la cour pendant des heures, comme un animal en cage.
+
+=== QUM-REDEMPTION | Ce que j'ai fait {a_lieu1}
+motivation: redemption
+demande: « Il y a des années, j'ai fait du mal à des gens {de_lieu1}. Je n'étais pas la même personne, mais pour eux, ça ne change rien. Je veux aller réparer ce qui peut encore l'être. Même si on me ferme la porte au nez. Surtout si on me ferme la porte au nez. »
+eveil: {nom} n'arrive pas à dormir. Toute la nuit, on entend ses pas dans sa chambre. Ils s'arrêtent, puis ils reprennent.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 7
+e1_epreuves: diplomatie 2 ; voyage 1
+e1_recit: retourner {a_lieu1}, et frapper à la première porte
+e1_reussite: La porte s'ouvre. La femme qui apparaît reconnaît {nom}, et ne dit rien pendant longtemps. Puis elle s'écarte pour laisser entrer. Elle ne pardonne pas. Mais elle écoute.
+e1_echec: Toutes les portes restent fermées. {nom} laisse un mot sous chacune. Personne ne répond.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 7
+e2_epreuves: siege 2 ; diplomatie 1
+e2_recit: reconstruire {a_lieu2}, de ses propres mains, ce qui avait été détruit autrefois
+e2_reussite: Le mur est rebâti, la grange relevée. Les gens du village apportent de l'eau, puis du pain, puis des bras. Au dernier jour, un enfant demande le nom de {nom}. On le lui donne.
+e2_echec: Le travail est à moitié fait quand {nom} doit repartir. Mais une pierre porte désormais ses initiales, à côté de celles du village.
+fin: Au retour, {nom} ne dit presque rien. Puis un soir, tout sort d'un coup, devant qui veut bien écouter. Après, ça va mieux. Rien n'est réglé. Mais ça va mieux.
+refus: {nom} baisse la tête. « Je comprends. Attendre, je sais faire. Trop bien, même. » La nuit suivante, on entend encore ses pas.
+
+=== QUM-APPARTENANCE | Les miens
+motivation: appartenance
+demande: « J'ai appris qu'il me reste de la famille {a_lieu1}. Un cousin, peut-être, ou une tante. Je ne les connais pas, et eux non plus. Mais j'ai besoin de savoir s'il existe quelque part des gens qui me ressemblent. »
+eveil: {nom} feuillette, le soir, un vieux carnet plein de noms et de dates, en passant le doigt sur chaque ligne.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 7
+e1_epreuves: poursuite 1 ; diplomatie 2
+e1_recit: retrouver la famille {a_lieu1}, à partir d'un nom et d'un vieux carnet
+e1_reussite: Une vieille femme ouvre la porte, regarde {nom} longtemps, puis dit : « Tu as les yeux de ton père. » Le thé dure tout l'après-midi.
+e1_echec: La famille est partie depuis longtemps. Un voisin se souvient d'eux. Ils sont allés vivre {a_lieu2}.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 6
+e2_epreuves: diplomatie 2 ; voyage 1
+e2_recit: passer quelques jours avec ces inconnus qui sont de la famille, et voir si l'on se reconnaît
+e2_reussite: Ça colle tout de suite. Pas à cause du sang : à cause des manies, des rires, de la façon de tenir une tasse. {nom} repart avec une invitation pour la fête des moissons.
+e2_echec: Ils sont polis, mais lointains. {nom} comprend que la famille, ce n'est pas qu'une affaire de sang. Ça fait mal. Ça aide aussi.
+fin: {nom} rentre au repère et serre {chien} très fort. Puis regarde la salle commune, les autres, le feu, et dit juste : « J'ai deux familles. » Personne ne répond. Tout le monde a compris.
+refus: {nom} range le carnet, sans un mot. Au dîner, on lui laisse la meilleure place, sans trop savoir pourquoi.
+
+=== QUM-PLAISIR | La grande fête de {pays}
+motivation: plaisir
+demande: « La plus grande fête de {pays} a lieu {a_lieu1} dans une semaine. Musique, danse, concours de cuisine et de bêtises. Je ne peux pas rater ça. Personne ne devrait rater ça. Dis oui, et je te rapporte un souvenir. Un gros. »
+eveil: {nom} répète des pas de danse dans le couloir, au risque de renverser tout le monde. Puis tente d'apprendre à {chien} à danser aussi. {chien} refuse.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 6
+e1_epreuves: diplomatie 2 ; voyage 1
+e1_recit: arriver à la fête, s'inscrire à un concours au hasard, et se faire des amis pour la vie en une seule soirée
+e1_reussite: {nom} s'inscrit au concours de cuisine sans savoir cuisiner, et termine troisième sur quarante. Personne ne comprend comment. {nom} non plus.
+e1_echec: {nom} arrive trop tard pour les concours. Tant pis : la nuit se passe à danser, sur une fanfare qui joue faux.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 6
+e2_epreuves: combat 1 ; diplomatie 2
+e2_recit: suivre la fête quand elle se déplace {a_lieu2} pour la grande nuit, et empêcher une bagarre de tout gâcher
+e2_reussite: La bagarre est évitée par une chanson, entonnée à pleine voix au bon moment. La nuit est inoubliable. Des enfants nés cette année-là porteront le nom de cette fête.
+e2_echec: La bagarre éclate. {nom} y gagne un œil au beurre noir et un nouveau meilleur ami : celui qui a donné le coup.
+fin: {nom} rentre au repère sans voix et sans forces, mais avec un sourire immense, et un souvenir énorme et parfaitement inutile pour chaque héros de la guilde. La salle commune ressemble à une foire pendant une semaine.
+refus: {nom} pousse un soupir déchirant, puis organise une petite fête dans la cour, pour se consoler. Elle est très réussie. Ce n'est pas pareil.

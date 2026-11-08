@@ -1,0 +1,194 @@
+# Répliques des héros · lot 1 (8 nov. 2026)
+# Ce que disent les héros dans les scènes : {a:taquine} dans une scène est remplacé par une réplique de a pour la situation « taquine ».
+# Format : Qui|situation|réplique, guillemets compris. Qui = un champion, ou « registre:xxx » pour la voix commune d'un registre de lettre
+# (noble, rue, sage, brut, joyeux, sombre, singulier). La réplique d'un champion passe avant celle de son registre.
+# Situations : salut, taquine, console, vante, plainte, merci, accueil, colere, rire, excuse.
+# {b} peut apparaître dans une réplique : c'est l'autre héros de la scène. Les répliques de registre n'ont aucun accord de genre ;
+# celles d'un champion peuvent accorder pour le champion lui-même, jamais pour {b}.
+
+# --- Voix communes, par registre (8 nov. 2026, réécrites) ---
+# Elles ne servent plus dans les scènes du fil : seulement pour les demandes posées sur le bureau du maître (congés, augmentation,
+# soirée, départ, plaidoyer après une dispute), quand le champion n'a pas encore de réplique à lui. Aucun accord de genre.
+registre:noble|plaide|« Je ne demande pas de vengeance, je demande que les choses soient dites. {b} a manqué à sa parole devant toute la guilde. Tu étais là. Tu sais. »
+registre:noble|plaide|« Je reconnais avoir haussé le ton. Mais {b} a dépassé les bornes, et je ne peux pas laisser passer ça sans que tu tranches. »
+registre:rue|plaide|« C'est {b} qui a commencé, demande à n'importe qui. Moi, j'ai juste répondu. Un peu fort, ok. »
+registre:rue|plaide|« Franchement, t'aurais entendu ce que {b} m'a sorti. N'importe qui aurait réagi pareil. Même toi. »
+registre:sage|plaide|« Je ne cherche pas à avoir raison. Je cherche la paix. Mais {b} ne m'en laisse aucune, et je fatigue. »
+registre:sage|plaide|« Chacun de nous a sa part dans cette histoire. La mienne, je la reconnais. J'aimerais que {b} reconnaisse la sienne. »
+registre:brut|plaide|« {b} a cherché. {b} a trouvé. Tranche. »
+registre:brut|plaide|« Pas d'excuses. C'est {b} ou moi. »
+registre:joyeux|plaide|« Bon, j'ai peut-être un peu exagéré. Mais {b} aussi ! Beaucoup plus ! Demande-lui ! Non, en fait, ne lui demande pas. »
+registre:joyeux|plaide|« Je déteste quand ça se passe mal entre nous. Tu peux nous aider à arranger ça ? Je ferai un gâteau pour la réconciliation. »
+registre:sombre|plaide|« Laisse-moi régler ça à ma manière. Ou règle-le à la tienne. Mais vite. Ma patience a des limites, et {b} les a trouvées. »
+registre:sombre|plaide|« Je n'ai rien fait que {b} ne méritait pas. Mais je t'écoute. Pour cette fois. »
+registre:singulier|plaide|(un long regard vers {b}, puis vers toi : la question est posée)
+registre:singulier|plaide|(un objet abîmé, posé sur ton bureau, qui appartenait visiblement à {b})
+registre:noble|demande_conges|« Je sers sans relâche depuis mon arrivée. Je te demande deux jours de repos, si la guilde peut s'en passer. Je reviendrai en meilleure forme. »
+registre:noble|demande_conges|« Je n'ai pas l'habitude de demander. Cette fois, j'ai besoin de quelques jours loin du repère. Je compte sur ta compréhension. »
+registre:rue|demande_conges|« J'en peux plus. Deux jours. Juste deux. Sinon je vais finir par frapper quelqu'un, et pas forcément un ennemi. »
+registre:rue|demande_conges|« J'ai besoin de souffler. Genre vraiment. Je reviens lundi, promis, en pleine forme. »
+registre:sage|demande_conges|« Mon esprit est las. Quelques jours loin d'ici me rendraient plus utile à mon retour. »
+registre:sage|demande_conges|« Il y a un endroit où je vais quand le bruit devient trop fort. J'aimerais y aller quelques jours. »
+registre:brut|demande_conges|« Repos. Deux jours. »
+registre:brut|demande_conges|« Je pars deux jours. Je reviens. »
+registre:joyeux|demande_conges|« Dis oui, dis oui, dis oui ! J'ai besoin de voir autre chose que ces murs, même s'ils sont très jolis ! »
+registre:joyeux|demande_conges|« Petite pause ? J'ai trop donné ces derniers temps, et ma bonne humeur commence à fatiguer. Deux jours, et je reviens avec le plein d'énergie ! »
+registre:sombre|demande_conges|« J'ai besoin de m'éloigner un moment. Ne me demande pas pourquoi. Tu préfères ne pas savoir. »
+registre:sombre|demande_conges|« Quelques jours de silence. Ou je ne réponds plus de mon humeur. »
+registre:singulier|demande_conges|(un baluchon posé devant ta porte, et un regard vers la route)
+registre:singulier|demande_conges|(une carte posée sur ton bureau, avec un endroit entouré, et un nombre : deux)
+registre:noble|demande_augmentation|« Mes services valent davantage que ce que la guilde me verse. Je te le dis en face, comme il se doit. »
+registre:noble|demande_augmentation|« Je ne réclame pas de faveur. Je demande que ma solde corresponde à ce que j'apporte. Tu connais les chiffres aussi bien que moi. »
+registre:rue|demande_augmentation|« Faut qu'on parle de ma paie. Avec tout ce que je risque dehors, ce que je touche paie même pas les bandages. »
+registre:rue|demande_augmentation|« Je vais pas tourner autour du pot : je veux plus. Je le mérite, et tu le sais. »
+registre:sage|demande_augmentation|« Je ne cours pas après l'or. Mais une paie mal mesurée finit par peser sur le cœur, et sur le travail. »
+registre:sage|demande_augmentation|« Je te demande de regarder ma solde avec des yeux justes. Je me contenterai de ce que tu jugeras équitable. »
+registre:brut|demande_augmentation|« Plus d'or. »
+registre:brut|demande_augmentation|« Je travaille plus. Je veux plus. »
+registre:joyeux|demande_augmentation|« Petite question, toute petite : et si je gagnais un tout petit peu plus ? Genre beaucoup plus ? »
+registre:joyeux|demande_augmentation|« Je t'adore, tu le sais. Mais j'adorerais encore plus ma paie si elle était un peu plus grosse ! »
+registre:sombre|demande_augmentation|« Mes talents ont un prix. D'autres guildes le paieraient sans discuter. Je préfère te le dire avant elles. »
+registre:sombre|demande_augmentation|« On m'a fait une offre. Je ne l'ai pas encore acceptée. À toi de voir si je dois. »
+registre:singulier|demande_augmentation|(une bourse vide posée sur ton bureau, ouverte, très ostensiblement)
+registre:singulier|demande_augmentation|(trois pièces alignées sur ton bureau, et une quatrième dessinée à côté)
+registre:noble|demande_soiree|« La guilde a bien combattu. Une soirée pour l'honorer serait digne d'elle. »
+registre:noble|demande_soiree|« Il est des moments où une guilde doit se retrouver autrement qu'au combat. Celui-ci en est un. »
+registre:rue|demande_soiree|« On se fait une soirée ? Tout le monde en a besoin. Moi aussi. Surtout moi. »
+registre:rue|demande_soiree|« Ce soir, on oublie les missions, on pousse les tables et on fait la fête. T'en dis quoi ? »
+registre:sage|demande_soiree|« Les liens se tissent autour d'une table plus qu'au combat. Une soirée ferait du bien à tous. »
+registre:sage|demande_soiree|« Le repère est tendu, ces jours-ci. Un peu de musique et un bon repas apaiseraient bien des cœurs. »
+registre:brut|demande_soiree|« Fête. Ce soir. »
+registre:brut|demande_soiree|« On a gagné. On fête. »
+registre:joyeux|demande_soiree|« UNE SOIRÉE ! Il nous faut une soirée ! Avec de la musique, des gâteaux, et encore de la musique ! »
+registre:joyeux|demande_soiree|« J'ai déjà accroché les lanternes. Bon, il manque juste ton accord. Et un peu d'or. Dis oui ! »
+registre:sombre|demande_soiree|« Ils ont besoin d'oublier. Laisse-les boire. Je surveillerai. »
+registre:sombre|demande_soiree|« Une fête. Pourquoi pas. On apprend beaucoup de choses sur les gens quand ils ont bu. »
+registre:singulier|demande_soiree|(des lanternes accrochées dans la salle commune, et un regard qui demande la permission)
+registre:singulier|demande_soiree|(un tambour posé devant ta porte, et une baguette à côté)
+registre:noble|depart|« Je ne trouve plus ici ce qui m'avait fait venir. Je préfère te le dire en face, avant de prendre une décision. »
+registre:noble|depart|« J'ai réfléchi longtemps avant d'écrire ces lignes. Si rien ne change, je partirai. Je te devais cette franchise. »
+registre:rue|depart|« J'ai fait mon sac. Je l'ai pas encore pris. Dis-moi pourquoi je devrais rester. »
+registre:rue|depart|« Je vais être honnête : j'ai plus vraiment ma place ici. Convaincs-moi du contraire, sinon je bouge. »
+registre:sage|depart|« Mon chemin s'éloigne peut-être du vôtre. Je voulais t'en parler avant de le suivre. »
+registre:sage|depart|« Je sens que mon temps ici touche à sa fin. Si tu vois les choses autrement, dis-le-moi. »
+registre:brut|depart|« Je pars. Sauf raison. »
+registre:brut|depart|« Plus rien à faire ici. Convaincs-moi. »
+registre:joyeux|depart|« Ce n'est pas facile à écrire. Je n'ai plus le cœur à rire, ici. Et chez moi, c'est grave. »
+registre:joyeux|depart|« Je crois que je vais partir. Ça me rend super triste de l'écrire. Tu peux me donner une bonne raison de rester ? »
+registre:sombre|depart|« Ce repère m'étouffe. Bientôt, je ne serai plus qu'un nom sur ton registre. »
+registre:sombre|depart|« Je m'ennuie. Et quand je m'ennuie, je pars. Ou pire. Je préfère partir. »
+registre:singulier|depart|(le lit fait au carré, et les affaires déjà rassemblées au pied)
+registre:singulier|depart|(un mot posé sur ton bureau, avec un seul dessin : une porte ouverte)
+
+# --- Garen ---
+Garen|salut|« Bonjour, {b}. Tu as bien dormi ? On s'entraîne après le repas. »
+Garen|taquine|« Si tu tiens ta lame comme ça en mission, {b}, je ne réponds pas de ta survie. »
+Garen|console|« Je suis tombé plus souvent que tu ne le crois. Ce qui compte, c'est de se relever. »
+Garen|vante|« Pour Demacia. Et pour la guilde, bien sûr. »
+Garen|plainte|« Il y a des bottes dans l'armurerie. Encore. Qui laisse traîner ses bottes ? »
+Garen|merci|« Merci, {b}. Je ne suis pas doué pour ces choses-là, mais merci. »
+Garen|accueil|« Bienvenue, {b}. Ici, on se tient les uns les autres. Tu peux compter sur moi. »
+Garen|colere|« Assez. Dans cette guilde, on ne se parle pas comme ça. »
+Garen|rire|« Ha ! Même Jarvan n'aurait pas osé celle-là. »
+Garen|excuse|« J'ai parlé trop vite. Ce n'est pas digne de moi. Pardonne-moi. »
+# --- Lux ---
+Lux|salut|« Coucou {b} ! Tu veux voir un truc ? Regarde bien… »
+Lux|taquine|« Oh, {b}, tu fais exactement la même tête que mon frère quand il réfléchit trop. »
+Lux|console|« Hé. Je suis là, d'accord ? On va s'en sortir ensemble. »
+Lux|vante|« Tu as vu comme j'ai ébloui le chef ? Il voit encore des étoiles, je parie ! »
+Lux|plainte|« Garen a encore rangé mes livres « dans l'ordre ». Je ne retrouve plus rien. »
+Lux|merci|« Merci, {b}. Sincèrement. Ça me touche beaucoup. »
+Lux|accueil|« Bienvenue, {b} ! Je m'appelle Lux. Si tu as besoin de lumière, littéralement, je suis là ! »
+Lux|colere|« Non, {b}. Là, tu vas trop loin. »
+Lux|rire|« Hahaha ! Arrête, j'ai mal aux joues ! »
+Lux|excuse|« Je suis désolée. Vraiment. Tu veux un biscuit ? J'ai des biscuits. »
+# --- Katarina ---
+Katarina|salut|« {b}. »
+Katarina|taquine|« Tu bouges comme un Demacien, {b}. Ce n'est pas un compliment. »
+Katarina|console|« Les cicatrices, ça se porte. Crois-moi. »
+Katarina|vante|« Rapide, propre, sans témoin. Comme d'habitude. »
+Katarina|plainte|« Qui a touché à mes dagues ? Je les compte, vous savez. »
+Katarina|merci|« Hm. Merci. Ne t'y habitue pas. »
+Katarina|accueil|« Bienvenue. Ne prends pas le lit près de la fenêtre. C'est le mien. »
+Katarina|colere|« Encore un mot, {b}, et tu recomptes tes doigts. »
+Katarina|rire|« Pff. Bon. C'était drôle. Un peu. »
+Katarina|excuse|« J'ai été dure. C'est… ma façon d'être. Ce n'est pas contre toi. »
+# --- Jinx ---
+Jinx|salut|« SALUT {b} ! Tu veux voir mon nouveau truc qui fait BOUM ? Non ? Trop tard ! »
+Jinx|taquine|« Ooooh, {b} fait la tête ! {b} fait la tête ! Hihihi ! »
+Jinx|console|« Pas de larmes, d'accord ? Les larmes, ça rouille les gâchettes. »
+Jinx|vante|« Vous avez vu l'explosion ? Hein ? HEIN ? C'était MOI ! »
+Jinx|plainte|« Rien n'explose ici. RIEN. Je vais mourir d'ennui. »
+Jinx|merci|« T'es pas une catastrophe, {b}. Pour une personne normale. Bref. Merci. »
+Jinx|accueil|« Un nouveau ! Règle numéro un : ne touche JAMAIS à Fishbones. Règle numéro deux : voir règle numéro un. »
+Jinx|colere|« Toi, {b}, t'es sur ma liste maintenant. Tu sais ce qu'il arrive aux gens sur ma liste ? »
+Jinx|rire|« HAHAHAHAHA ! »
+Jinx|excuse|« Bon, ok, j'ai peut-être fait sauter un truc qu'il ne fallait pas. Mais c'était joli, avoue. »
+# --- Vi ---
+Vi|salut|« Salut, {b}. T'as l'air d'avoir besoin d'un café. Ou d'un coup de poing. »
+Vi|taquine|« Allez, {b}, frappe. Plus fort. Tu frappes comme un agent de Piltover. »
+Vi|console|« Viens là. On n'abandonne pas les siens. Jamais. »
+Vi|vante|« Deux crochets, un uppercut, terminé. Qui veut un autographe ? »
+Vi|plainte|« Mes gantelets grincent. Quelqu'un a de l'huile ? Ou un mécanicien ? »
+Vi|merci|« Merci, {b}. Je te dois une tournée. Voire deux. »
+Vi|accueil|« Bienvenue, {b}. Si quelqu'un t'embête ici, tu viens me voir. »
+Vi|colere|« Recule, {b}. Tout de suite. »
+Vi|rire|« Ha ! Celle-là, je la raconte à Cait. »
+Vi|excuse|« J'ai tapé avant de réfléchir. Encore. Désolée. »
+# --- Riven ---
+Riven|salut|« Bonjour, {b}. »
+Riven|taquine|« Ta garde est ouverte à gauche, {b}. Depuis le début. »
+Riven|console|« Je sais ce que c'est. Vraiment. Ça ne part pas, mais ça s'allège. »
+Riven|vante|« Ce n'était pas grand-chose. »
+Riven|plainte|« Trop de bruit, ce soir. Je vais sur les remparts. »
+Riven|merci|« Merci, {b}. Ça compte plus que tu ne le crois. »
+Riven|accueil|« Bienvenue, {b}. Ici, personne ne te demandera d'où tu viens. C'est ce qui m'a fait rester. »
+Riven|colere|« Ne me parle pas de la guerre, {b}. Pas comme ça. »
+Riven|rire|(un petit rire surpris, comme si elle avait oublié qu'elle savait le faire)
+Riven|excuse|« J'ai mal réagi. Ce n'est pas toi. C'est moi, et ce que je porte. »
+# --- Nami ---
+Nami|salut|« Bonjour, {b} ! Les marées sont douces aujourd'hui, je le sens jusqu'ici. »
+Nami|taquine|« Tu as l'air d'un poisson hors de l'eau, {b}. Respire, ça va aller. »
+Nami|console|« La vague recule toujours avant de revenir plus forte. Toi aussi, tu reviendras. »
+Nami|vante|« La marée était de mon côté. Elle l'est souvent, à vrai dire. »
+Nami|plainte|« Il n'y a pas assez d'eau dans ce repère. Même la fontaine est triste. »
+Nami|merci|« Merci, {b}. Chez moi, on offrirait un coquillage. Tiens, prends celui-ci. »
+Nami|accueil|« Bienvenue, {b} ! Que les courants te soient favorables ici. »
+Nami|colere|« Attention, {b}. La mer aussi sait être en colère. »
+Nami|rire|(un rire clair, comme de l'eau qui court sur des galets)
+Nami|excuse|« Je me suis emportée comme une vague de tempête. Pardonne-moi. »
+# --- Zeri ---
+Zeri|salut|« Yo, {b} ! T'es debout ? Moi je suis debout depuis UNE HEURE ! »
+Zeri|taquine|« T'avances au ralenti, {b}. Sérieux, j'ai le temps de faire deux fois le tour du repère. »
+Zeri|console|« Hé, on a tous des journées pourries. Viens, on va courir, ça aide. »
+Zeri|vante|« Zap, zap, terminé ! Vous avez à peine eu le temps de cligner des yeux ! »
+Zeri|plainte|« Personne ne veut faire la course avec moi. Personne. C'est un complot. »
+Zeri|merci|« Merci, {b} ! T'es trop cool. Électrique, même. Dans le bon sens. »
+Zeri|accueil|« Bienvenue, {b} ! Moi c'est Zeri, de Zaun ! Tu cours vite ? »
+Zeri|colere|« Hé ! Ça, c'était pas cool du tout, {b}. »
+Zeri|rire|« Hahaha ! J'en ai des étincelles dans les cheveux ! »
+Zeri|excuse|« Oups. J'ai foncé sans réfléchir. Encore. Désolée ! »
+# --- Teemo ---
+Teemo|salut|« Capitaine Teemo, au rapport ! Bonjour, {b} ! »
+Teemo|taquine|« Ton camouflage est nul, {b}. Je t'ai repéré à trois lieues. »
+Teemo|console|« Un bon éclaireur ne reste jamais à terre. Allez, debout, et en avant ! »
+Teemo|vante|« Mission accomplie ! Personne ne m'a vu. Personne ne me voit jamais. »
+Teemo|plainte|« Quelqu'un a marché sur mes champignons. Encore. »
+Teemo|merci|« Merci, {b} ! Je te ferai un rapport élogieux ! »
+Teemo|accueil|« Bienvenue dans la guilde, {b} ! Attention où tu mets les pieds dans la cour. Très attention. »
+Teemo|colere|« Ce n'est pas réglementaire, {b}. Pas réglementaire DU TOUT. »
+Teemo|rire|« Hihihi ! Celle-là, je la note dans mon carnet ! »
+Teemo|excuse|« Oups. Le champignon, c'était moi. Mais c'était pour l'entraînement ! »
+
+# --- Plaidoyers et demandes (8 nov. 2026) : ce que les héros disent au maître sur son bureau ---
+# plaide : un héros défend sa version contre {b} ; demande_conges, demande_augmentation, demande_soiree, depart : ce qu'il écrit.
+Jinx|plaide|« C'est PAS MA FAUTE. Enfin si. Un peu. Mais {b} l'a CHERCHÉ. Tu vois sa tête ? Non mais tu la vois ? »
+Garen|plaide|« Je n'ai fait que rappeler les règles de la guilde. Si {b} ne peut pas les respecter, c'est à toi de le lui dire. »
+Katarina|plaide|« Je ne me justifie pas. Je te dis ce qui s'est passé : {b} a parlé de trop. Fin de l'histoire. »
+Lux|plaide|« Je ne veux de mal à personne, vraiment. Mais {b} a dit des choses qu'on ne dit pas. Je veux juste qu'on s'excuse, des deux côtés. »
+Vi|plaide|« Écoute, j'ai cogné, ok. Mais t'aurais entendu ce que {b} a dit… N'importe qui aurait cogné. »
+Riven|plaide|« Je ne cherchais pas la querelle. Elle m'a trouvée. Je te laisse juger. »
+Jinx|demande_conges|« Je m'ennuie, je m'ennuie, JE M'ENNUIE. Laisse-moi sortir deux jours ou je repeins le repère en rose. Avec des explosifs. »
+Riven|demande_conges|« J'ai besoin de quelques jours loin d'ici. Rien de grave. Juste… loin. »
+Zeri|demande_soiree|« Une soirée ce soir ? Allez, tout le monde est à plat ! Je m'occupe de la musique. Je m'occupe de tout ! »
+Lux|demande_soiree|« Et si on faisait une petite fête ? Rien de grand, juste nous, des bougies, et peut-être un gâteau. Ou deux. »

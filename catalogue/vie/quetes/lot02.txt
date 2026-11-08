@@ -1,0 +1,376 @@
+# Quêtes personnelles · lot 2 : les champions des autres pays (8 nov. 2026)
+# Même format que le lot 1. Bilgewater, Shurima, Targon, Ixtal, Bandle, et quelques grandes figures du Freljord, de Noxus, de Piltover, de Zaun et d'Ionia.
+
+=== QUE-MISS-FORTUNE | Le nom sur la liste
+champion: Miss Fortune
+motivation: vengeance
+demande: « Il reste un nom sur ma liste. Le dernier homme qui était sur le quai le jour où ma mère est morte. On le dit caché dans les Grottes du marché noir. J'ai attendu vingt ans. Je peux attendre que tu dises oui. Pas beaucoup plus. »
+eveil: {nom} passe la nuit à nettoyer ses deux pistolets, lentement, sans un mot. Au matin, il y a sur la table un vieux portrait de femme.
+e1_region: bilgewater
+e1_lieu: Grottes du marché noir
+e1_duree: 6
+e1_epreuves: discretion 2 ; diplomatie 1
+e1_recit: retrouver dans les grottes un homme qui a changé de nom, et le faire parler sans faire fuir ceux qui le protègent
+e1_reussite: L'homme est retrouvé. Il est vieux, aveugle, et il demande pardon avant même que {nom} ait dit un mot.
+e1_echec: L'homme a fui par les canaux. {nom} trouve seulement sa chambre vide, et un dessin d'enfant au mur : le quai, ce jour-là.
+e2_region: bilgewater
+e2_lieu: Quai Blanc
+e2_duree: 6
+e2_epreuves: diplomatie 2 ; combat 1
+e2_recit: décider, au Quai Blanc, devant la tombe de sa mère, ce qu'on fait d'un vieil homme qui n'est plus que l'ombre de son crime
+e2_reussite: {nom} range son pistolet. Le vieil homme passera le reste de ses jours à entretenir la tombe. Sarah dit que c'est pire que la mort. Elle n'en est pas sûre.
+e2_echec: Le coup part, ou ne part pas : {nom} ne le racontera jamais. Seulement qu'il n'y a plus de nom sur la liste.
+fin: {nom} rentre au repère et brûle la liste dans la cheminée de la salle commune. Elle regarde le papier se tordre. Puis elle commande une tournée pour tout le monde.
+refus: {nom} remet ses pistolets à la ceinture et ne dit rien. Le soir, la liste est toujours dans sa poche. On la voit la toucher, parfois, au dîner.
+
+=== QUE-PYKE | Les noms dans l'eau
+champion: Pyke
+motivation: vengeance
+demande: « Ils m'ont jeté à l'eau. Les noms sont revenus avec moi. Il y a un nouveau nom, cette nuit. Un capitaine qui vend ses hommes aux Crochets. Laisse-moi descendre aux Docks de l'Abattoir. Je reviendrai. Je reviens toujours. »
+eveil: Au matin, on trouve des flaques d'eau de mer dans le couloir, jusqu'à la porte de {nom}. Personne n'a entendu de pas.
+e1_region: bilgewater
+e1_lieu: Docks de l'Abattoir
+e1_duree: 7
+e1_epreuves: discretion 2 ; poursuite 1
+e1_recit: retrouver le capitaine parmi les baleiniers, sans qu'il se doute de rien
+e1_reussite: Le capitaine est trouvé. Ses hommes, eux, sont libérés pendant la nuit. Ils ne sauront jamais qui a ouvert les cales.
+e1_echec: Le capitaine a pris la mer avant l'aube. {nom} regarde le navire s'éloigner. Le nom reste, gravé dans sa mémoire.
+e2_region: bilgewater
+e2_lieu: Cimetières marins
+e2_duree: 6
+e2_epreuves: combat 2 ; discretion 1
+e2_recit: attendre le capitaine là où les morts flottent, et lui rendre ce qu'il a donné aux autres
+e2_reussite: Une bouée de plus au cimetière marin. Elle ne porte pas de nom. {nom} rentre trempé, plus calme qu'au départ.
+e2_echec: Le capitaine a survécu, et il le sait. {nom} rentre sans un mot. Le nom est toujours là. Il le sera longtemps.
+fin: {nom} reste toute une nuit sur les remparts du repère, à regarder vers la mer. Au matin, il dit : « Un de moins. » Pour la première fois, il dort jusqu'à midi.
+refus: {nom} ne discute pas. Mais cette nuit-là, les flaques d'eau de mer vont jusqu'au bureau du maître de guilde, et s'arrêtent devant la porte.
+
+=== QUE-ILLAOI | L'épreuve de la déesse
+champion: Illaoi
+motivation: cause
+demande: « La Mère Serpent ne veut pas qu'on reste immobile. Au temple, un jeune prêtre a peur de la mer. Il doit passer son épreuve. Je vais l'aider. À ma manière. C'est-à-dire en lui faisant très peur, puis en lui apprenant à nager. »
+eveil: {nom} transporte l'idole de pierre jusqu'au bord du bassin de la cour, et la regarde longtemps. Puis elle se met à chanter, très fort.
+e1_region: bilgewater
+e1_lieu: Temple de la Mère Serpent
+e1_duree: 6
+e1_epreuves: diplomatie 2 ; voyage 1
+e1_recit: convaincre un jeune prêtre terrifié qu'il est capable d'affronter la mer
+e1_reussite: Le jeune prêtre se tient enfin au bord de l'eau sans trembler. {nom} lui tape sur l'épaule si fort qu'il manque de tomber dedans.
+e1_echec: Le jeune prêtre s'est enfui dans les ruelles. {nom} le laisse partir. Elle dit qu'il reviendra quand la déesse le poussera.
+e2_region: bilgewater
+e2_lieu: Îles du Serpent
+e2_duree: 8
+e2_epreuves: voyage 2 ; combat 1
+e2_recit: l'accompagner en pirogue jusqu'aux îles, et le laisser affronter seul le courant du récif
+e2_reussite: Le jeune prêtre passe le récif, crie de joie, et boit la tasse. {nom} rit si fort qu'on l'entend depuis la plage.
+e2_echec: La pirogue s'est retournée. {nom} ramène le jeune prêtre sur son dos, en nageant. Il a eu peur. Il a survécu. C'est déjà une épreuve.
+fin: {nom} revient au repère en sifflant, une couronne de fleurs de corail sur la tête. Elle ne dit rien de l'épreuve. Elle dit seulement que la déesse est contente.
+refus: {nom} hausse ses larges épaules. « La déesse ne demande pas la permission. Moi, si. Pour cette fois. »
+
+=== QUE-SIVIR | Le prix de la lame
+champion: Sivir
+motivation: or
+demande: « On m'offre une fortune pour un vieux trésor de l'Empire, au fond d'une nécropole près de Saikhal. Facile. Trop facile. Je veux y aller, et je veux savoir qui paie vraiment. Je te ramène ta part. Une petite part. »
+eveil: {nom} compte ses économies sur la table de la salle commune, deux fois, puis range le tout en soupirant : « Pas assez. Jamais assez. »
+e1_region: shurima
+e1_lieu: Saikhal
+e1_duree: 8
+e1_epreuves: voyage 2 ; discretion 1
+e1_recit: entrer dans une nécropole oubliée et trouver le trésor promis
+e1_reussite: Le trésor est là : une simple couronne de bronze. Et sous la couronne, un nom gravé : celui de l'ancêtre de {nom}.
+e1_echec: La nécropole est vide. Quelqu'un est passé avant. {nom} rentre avec du sable dans les bottes et un très mauvais caractère.
+e2_region: shurima
+e2_lieu: Shurima, la capitale
+e2_duree: 6
+e2_epreuves: diplomatie 2 ; combat 1
+e2_recit: rencontrer le commanditaire, un serviteur de l'empereur qui veut la couronne pour le palais, et décider à qui elle appartient
+e2_reussite: {nom} garde la couronne. Elle la pose au-dessus de son lit, au repère. Elle dit qu'elle ne vaut rien. Elle ne la vendra jamais.
+e2_echec: Le palais a payé, et la couronne est partie. {nom} compte les pièces. Elle a gagné beaucoup. Elle n'a pas l'air contente.
+fin: {nom} rentre au repère et paie une tournée générale, ce qu'elle ne fait jamais. Quand on lui demande pourquoi, elle répond seulement : « Une histoire de famille. »
+refus: {nom} hausse les épaules. « Je ne travaille pas gratuitement. Toi non plus, apparemment. » Elle reste. Elle grogne beaucoup.
+
+=== QUE-TALIYAH | Le fil de la maison
+champion: Taliyah
+motivation: proteger
+demande: « Ma famille vit près de Zirima, avec les troupeaux. Des pillards approchent du camp. Ma mère ne me demanderait jamais de revenir. Mais je veux y aller. Je sais tisser les pierres, maintenant. Je peux les protéger. »
+eveil: {nom} tisse toute la soirée, au coin du feu, une couverture aux couleurs de son clan. Elle s'arrête souvent pour regarder vers le sud.
+e1_region: shurima
+e1_lieu: Zirima
+e1_duree: 7
+e1_epreuves: voyage 1 ; diplomatie 1
+e1_recit: retrouver le camp de sa famille, et convaincre sa mère de la laisser se battre pour eux
+e1_reussite: Sa mère la serre longtemps, puis lui tend un fuseau : « Tu as grandi. Tisse, alors. »
+e1_echec: Sa mère refuse qu'elle se batte. {nom} reste quand même, à l'écart du camp, et veille sans rien dire.
+e2_region: shurima
+e2_lieu: Grand Sai
+e2_duree: 8
+e2_epreuves: combat 2 ; nuee 1
+e2_recit: arrêter les pillards dans les dunes, en tissant un mur de pierre entre eux et le camp
+e2_reussite: Un mur de pierre surgit du sable, au coucher du soleil. Les pillards font demi-tour. Le camp fête {nom} toute la nuit.
+e2_echec: Le mur s'effondre avant la fin. Les pillards prennent quelques chèvres, mais personne n'est blessé. Sa mère dit que c'était bien tissé quand même.
+fin: {nom} rentre au repère avec un panier de dattes et une lettre de sa mère, qu'elle relit chaque soir. Elle dit qu'elle n'a plus peur de partir loin de chez elle.
+refus: {nom} baisse les yeux et retourne à son métier à tisser. Le motif qu'elle tisse, cette semaine-là, est plein de murs.
+
+=== QUE-NASUS | La bibliothèque engloutie
+champion: Nasus
+motivation: proteger
+demande: « Sous Vekaura dort une salle de l'ancienne bibliothèque impériale. Les ouvriers de l'empereur creusent juste au-dessus. Si les murs cèdent, mille ans de savoir disparaîtront dans le sable. Je dois y descendre. Ce n'est pas une prière : c'est une nécessité. »
+eveil: {nom} lit toute la nuit à la lueur d'une seule chandelle. Au matin, il a recopié de mémoire trois pages d'un livre que personne au repère n'a jamais vu.
+e1_region: shurima
+e1_lieu: Vekaura
+e1_duree: 8
+e1_epreuves: siege 2 ; voyage 1
+e1_recit: descendre sous le chantier impérial et étayer la salle avant qu'elle ne s'effondre
+e1_reussite: Les poutres tiennent. La salle est sauve. {nom} pose une patte sur les étagères de pierre, longuement, comme on salue un ami.
+e1_echec: Un mur s'est effondré. Une partie des tablettes est perdue. {nom} ramasse les morceaux, un par un, sans un mot.
+e2_region: shurima
+e2_lieu: Shurima, la capitale
+e2_duree: 6
+e2_epreuves: diplomatie 2 ; siege 1
+e2_recit: convaincre les prêtres de l'empereur de déplacer le chantier, au nom du savoir de l'Empire
+e2_reussite: Les prêtres cèdent. Le chantier est déplacé de cent pas. La bibliothèque sera ouverte aux scribes, un jour. {nom} dit que c'est assez.
+e2_echec: Les prêtres refusent. {nom} passe une semaine à recopier tout ce qu'il peut, avant que les ouvriers n'arrivent.
+fin: {nom} revient au repère avec une seule tablette sous le bras, qu'il dépose dans la bibliothèque. Il dit qu'elle contient le nom de tous les gardiens de l'ancien Empire. Le sien y est. Celui de son frère aussi.
+refus: {nom} incline la tête, longuement. « Le savoir attendra. Il a l'habitude. » Il ne dit rien d'autre de la semaine.
+
+=== QUE-LEONA | La lumière et l'ombre
+champion: Leona
+motivation: cause
+demande: « Une prêtresse lunaris est cachée près du Temple du Solstice. Mes frères solaris la cherchent. Si ce sont eux qui la trouvent, ils la tueront. Je veux la trouver la première. Je ne sais pas encore ce que je ferai ensuite. Et ça me fait peur. »
+eveil: {nom} s'entraîne seule dans la cour à l'aube, face au soleil levant. Puis elle reste longtemps immobile, le bouclier baissé, à regarder la lune encore visible.
+e1_region: targon
+e1_lieu: Temple du Solstice
+e1_duree: 8
+e1_epreuves: poursuite 2 ; discretion 1
+e1_recit: retrouver la prêtresse lunaris avant les patrouilles solaris, sur les sentiers du versant est
+e1_reussite: {nom} trouve la prêtresse dans une grotte. La jeune femme ne fuit pas. Elle dit seulement : « Je sais qui tu es. Assieds-toi. »
+e1_echec: Les patrouilles solaris ont trouvé la grotte d'abord. Elle était vide. {nom} respire, malgré elle.
+e2_region: targon
+e2_lieu: Sanctuaires de prière
+e2_duree: 6
+e2_epreuves: diplomatie 2 ; combat 1
+e2_recit: escorter la prêtresse jusqu'aux sanctuaires, où les tribus pourront la cacher, sans trahir ni sa propre foi, ni celle de la prêtresse
+e2_reussite: La prêtresse disparaît dans l'Anneau. Avant de partir, elle laisse à {nom} un petit croissant d'argent. {nom} le garde, caché sous son armure.
+e2_echec: Une patrouille les a vues ensemble. {nom} l'a laissée partir et a menti à ses frères. Elle ne sait pas si elle a eu raison.
+fin: {nom} rentre au repère et passe une nuit entière sur les remparts, à regarder le ciel. Elle dit au matin que le soleil et la lune n'ont jamais été si loin l'un de l'autre. Ni si proches.
+refus: {nom} serre la mâchoire et retourne s'entraîner. Le bruit de son épée contre le bouclier dure jusqu'à minuit.
+
+=== QUE-DIANA | Les reliques de la lune
+champion: Diana
+motivation: cause
+demande: « Le Temple des Lunaris cache encore des reliques. Les Solaris se rapprochent. Il faut les déplacer, une nuit sans lune, quand personne ne les cherchera. Je ne demande pas ta bénédiction. Je demande quelques jours. »
+eveil: {nom} disparaît chaque nuit de pleine lune. Au matin, on retrouve de la poussière d'argent sur son oreiller.
+e1_region: targon
+e1_lieu: Temple des Lunaris
+e1_duree: 9
+e1_epreuves: discretion 2 ; voyage 1
+e1_recit: entrer dans le temple caché et emporter les reliques avant l'aube
+e1_reussite: Les reliques sont sorties, enveloppées de tissu noir. Les gardiens survivants pleurent en voyant le croissant de {nom}.
+e1_echec: Une patrouille solaris rôdait autour du temple. {nom} n'a sorti qu'une relique. Les autres sont cachées plus profond, pour l'instant.
+e2_region: targon
+e2_lieu: Lac gelé
+e2_duree: 9
+e2_epreuves: voyage 2 ; combat 1
+e2_recit: porter les reliques jusqu'au Lac gelé, où personne ne viendra les chercher, et affronter ce qui garde le lac
+e2_reussite: Les reliques reposent sous la glace millénaire. La lune les voit. Les Solaris, jamais.
+e2_echec: La tempête a forcé {nom} à cacher les reliques plus bas. Elles sont en sûreté, mais pas pour toujours.
+fin: {nom} rentre au repère et dort deux jours d'affilée. Au réveil, elle sourit, ce qui est rare. Elle dit que la lune a des amis, maintenant.
+refus: {nom} ne discute pas. Mais la nuit suivante, la lune est pleine, et son lit est vide.
+
+=== QUE-QIYANA | L'héritière d'Ixaocan
+champion: Qiyana
+motivation: pouvoir
+demande: « Une préfète conteste mon droit au trône d'Ixaocan. Elle prétend que j'ai trop voyagé, que je suis devenue une étrangère. Je vais aller lui prouver le contraire. Devant tout le conseil. Avec élégance, évidemment. »
+eveil: {nom} passe la soirée à essayer des bijoux devant le miroir de la salle commune. Elle ne sourit pas. Elle répète un discours, à voix basse.
+e1_region: ixtal
+e1_lieu: Arcologie cardinale
+e1_duree: 7
+e1_epreuves: diplomatie 2 ; discretion 1
+e1_recit: rallier en secret trois mages de haut rang avant la séance du conseil
+e1_reussite: Trois mages promettent leur soutien. Le quatrième aussi, ce que {nom} n'avait pas prévu.
+e1_echec: Les mages restent prudents. Ils attendront de voir qui gagne. {nom} dit qu'elle s'en souviendra.
+e2_region: ixtal
+e2_lieu: Ixaocan
+e2_duree: 6
+e2_epreuves: diplomatie 2 ; combat 1
+e2_recit: affronter la préfète devant le conseil, en duel élémentaire si nécessaire
+e2_reussite: La préfète s'incline. {nom} reste l'héritière. Elle pardonne publiquement, ce qui est plus humiliant pour la préfète que n'importe quelle punition.
+e2_echec: Le conseil ajourne sa décision. {nom} rentre furieuse, mais avec des alliés. Elle dit que le prochain conseil sera le bon.
+fin: {nom} rentre au repère avec une nouvelle couronne de jade. Elle la porte au dîner, le premier soir. Puis elle la range, et ne la remet plus. Elle dit qu'elle n'en a plus besoin pour savoir qui elle est.
+refus: {nom} lève un sourcil, très haut. « Intéressant. On ne m'avait jamais dit non. » Elle reste, mais elle note quelque chose dans un petit carnet.
+
+=== QUE-NEEKO | Le village qui ne connaît pas Neeko
+champion: Neeko
+motivation: appartenance
+demande: « Neeko a trouvé un village vastaya qui ressemble à Neeko ! Enfin, un peu. Les couleurs. Les yeux. Neeko veut aller les voir. Neeko a peur qu'ils ne veuillent pas d'elle. Neeko a besoin de courage. Et de quelques jours. »
+eveil: {nom} change d'apparence plus souvent que d'habitude, cette semaine-là. Une fois, elle prend la forme d'une vieille femme aux yeux violets, que personne ne connaît.
+e1_region: ixtal
+e1_lieu: Village de Kiilash
+e1_duree: 7
+e1_epreuves: voyage 1 ; diplomatie 2
+e1_recit: entrer dans le village vastaya sous sa vraie forme, sans se cacher derrière une autre
+e1_reussite: Une vieille vastaya la regarde longtemps, puis lui prend les mains : « Tu as les yeux de ma sœur. » Neeko ne comprend pas tout. Elle pleure quand même.
+e1_echec: Les villageois ont eu peur de ses transformations. {nom} est repartie sous la forme d'un oiseau. Elle dit qu'elle reviendra, et cette fois sous sa vraie forme.
+e2_region: ixtal
+e2_lieu: Jungle d'Ixtal
+e2_duree: 6
+e2_epreuves: voyage 2 ; diplomatie 1
+e2_recit: suivre la vieille vastaya jusqu'à l'arbre où son peuple gravait ses noms, il y a longtemps
+e2_reussite: Sur l'arbre, un nom ressemble à celui de Neeko. Ce n'est peut-être pas elle. Neeko décide que si.
+e2_echec: L'arbre est mort depuis longtemps. Mais la vieille vastaya grave le nom de Neeko dessus, à côté des autres, pour qu'il y en ait au moins un.
+fin: {nom} rentre au repère et serre tout le monde dans ses bras, un par un, même ceux qui n'aiment pas ça. Elle dit : « Neeko a une famille là-bas. Et une famille ici. Neeko est riche. »
+refus: {nom} prend la forme d'un petit lézard tout gris et passe la journée sous un meuble. Le soir, elle ressort, et fait comme si de rien n'était. Presque.
+
+=== QUE-TRISTANA | Le canon de Bandle
+champion: Tristana
+motivation: cause
+demande: « Les Artilleurs de Bandle n'ont plus de grand canon depuis qu'il est tombé dans un portail. Il est quelque part de l'autre côté, et je sais où ! Enfin, à peu près. Il me faut quelques jours, et un peu de poudre. Beaucoup de poudre. »
+eveil: {nom} passe l'après-midi sur le toit du repère, une longue-vue à l'œil, à viser des nuages imaginaires. Puis elle descend en chantonnant une marche militaire.
+e1_region: bandle
+e1_lieu: Arche de pierre
+e1_duree: 6
+e1_epreuves: voyage 2 ; poursuite 1
+e1_recit: passer l'Arche au bon moment et retrouver le canon de l'autre côté
+e1_reussite: Le canon est là, dans un champ de Demacia, entouré de vaches perplexes. {nom} lui fait un bisou.
+e1_echec: L'Arche a déposé {nom} au Freljord. Le canon n'y était pas. La neige, si.
+e2_region: bandle
+e2_lieu: La Clairière
+e2_duree: 6
+e2_epreuves: siege 2 ; combat 1
+e2_recit: ramener le canon jusqu'à la Clairière et le remettre en état pour la grande parade des Artilleurs
+e2_reussite: Le canon tire pendant la parade. Le boulet monte si haut qu'on le perd de vue. Bandle applaudit pendant dix minutes.
+e2_echec: Le canon tire de travers et envoie le boulet dans l'étang. Tout le monde est mouillé. Tout le monde rit.
+fin: {nom} rentre au repère avec un insigne tout neuf : Artilleuse en chef, pour de vrai, cette fois. Elle le montre à tout le monde. Deux fois.
+refus: {nom} soupire très fort, puis repart nettoyer son canon. « Pas grave ! Il ne va nulle part, de toute façon. Enfin, il est déjà parti. »
+
+=== QUE-POPPY | Le héros du marteau
+champion: Poppy
+motivation: cause
+demande: « On m'a parlé d'un héros, à Demacia, qui pourrait porter mon marteau. Un vrai. Je dois aller le voir. Je sais, je dis ça à chaque fois. Mais cette fois, j'ai un bon pressentiment. Enfin, un pressentiment. »
+eveil: {nom} répare tout ce qui traîne au repère : une chaise, une porte, une armure qui n'est pas la sienne. Elle ne dit pas pourquoi. Elle a l'air de chercher quelque chose à faire de ses mains.
+e1_region: demacia
+e1_lieu: Uwendale
+e1_duree: 8
+e1_epreuves: voyage 1 ; diplomatie 2
+e1_recit: trouver le « héros » dont on lui a parlé, et voir s'il est digne du marteau
+e1_reussite: Le héros est un jeune forgeron qui a sauvé un village de la crue. Il est modeste. Il a peur. {nom} le trouve parfait. Il n'est pas d'accord.
+e1_echec: Le héros est un vantard qui raconte des histoires dans les tavernes. {nom} repart, déçue, mais pas surprise.
+e2_region: demacia
+e2_lieu: Evenmoor
+e2_duree: 7
+e2_epreuves: combat 2 ; diplomatie 1
+e2_recit: affronter avec le jeune forgeron une meute de loups qui menace son village, pour voir ce qu'il vaut vraiment
+e2_reussite: Le forgeron tient bon. {nom} lui tend le marteau. Il le rend. Il dit que ce n'est pas à lui de le porter. {nom} sourit : c'est exactement ce qu'aurait dit le vrai héros.
+e2_echec: Le forgeron s'est enfui devant les loups. {nom} les a chassés seule. Elle le console après, en lui disant que c'est normal d'avoir peur.
+fin: {nom} rentre au repère avec son marteau sur l'épaule. Elle dit qu'elle n'a pas trouvé de héros. Mais quand on lui demande qui a chassé les loups, elle rougit et change de sujet.
+refus: {nom} hoche la tête, très sérieusement. « D'accord. Le héros attendra. Ça fait longtemps qu'il attend, de toute façon. »
+
+=== QUE-SEJUANI | L'hiver de la Griffe
+champion: Sejuani
+motivation: cause
+demande: « Un clan de la Griffe hivernale refuse de me suivre. Leur chef dit que je suis devenue molle à vivre parmi des étrangers. Je vais lui montrer ce que vaut la mollesse. À coups de fléau. Je reviendrai avant la fin de la lune. »
+eveil: {nom} sort dormir dehors, dans la cour, sous la neige, avec Bristle. Au matin, elle rentre couverte de givre, de très bonne humeur.
+e1_region: freljord
+e1_lieu: Vathcaer
+e1_duree: 9
+e1_epreuves: voyage 2 ; combat 1
+e1_recit: traverser la toundra jusqu'au camp du clan rebelle, en plein blizzard
+e1_reussite: {nom} arrive au camp au milieu de la tempête, à dos de sanglier, sans une plainte. Les guerriers du clan se taisent.
+e1_echec: Le blizzard a forcé {nom} à s'abriter trois jours. Elle arrive en retard, mais elle arrive. Le chef ricane.
+e2_region: freljord
+e2_lieu: Monts Ridgeback
+e2_duree: 9
+e2_epreuves: combat 2 ; diplomatie 1
+e2_recit: affronter le chef du clan en combat singulier, devant tous les siens
+e2_reussite: Le chef tombe dans la neige. {nom} lui tend la main pour le relever. Il la prend. Le clan entier s'agenouille.
+e2_echec: Le combat se termine sans vainqueur : ils sont épuisés tous les deux. Le chef reconnaît qu'elle n'est pas molle. Il ne la suit pas. Il ne l'attaquera pas non plus.
+fin: {nom} rentre au repère avec un nouveau trophée accroché à la selle de Bristle et un sourire carnassier. Elle dit que la Griffe est unie. Pour cet hiver, au moins.
+refus: {nom} fait claquer son fléau contre le sol de la cour. « Bien. Mais quand ils viendront me défier ici, c'est toi qui leur ouvriras la porte. »
+
+=== QUE-DARIUS | Le neveu
+champion: Darius
+motivation: cause
+demande: « Mon neveu s'est engagé dans la légion. Il a seize ans. Son commandant envoie les plus jeunes en première ligne, pour économiser les vétérans. Je ne vais pas le ramener à la maison : ce serait le déshonorer. Mais je vais parler à ce commandant. »
+eveil: {nom} s'entraîne à la hache dans la cour jusqu'à la tombée de la nuit, puis s'assoit et écrit une lettre. Il la déchire. Il en écrit une autre.
+e1_region: noxus
+e1_lieu: Drakkengate
+e1_duree: 8
+e1_epreuves: voyage 1 ; diplomatie 2
+e1_recit: retrouver la légion de son neveu, et obtenir une entrevue avec le commandant
+e1_reussite: Le commandant reçoit {nom}. Il pâlit en reconnaissant la Main de Noxus. L'entrevue est courte.
+e1_echec: Le commandant refuse de le recevoir. {nom} attend devant sa tente toute la nuit, debout, sans bouger. Le lendemain, il est reçu.
+e2_region: noxus
+e2_lieu: Plaine de Dalamor
+e2_duree: 8
+e2_epreuves: combat 2 ; diplomatie 1
+e2_recit: se battre aux côtés de la légion, en première ligne, pour montrer au commandant ce qu'est un vrai chef
+e2_reussite: La légion tient. Le neveu de {nom} est vivant, blessé à l'épaule, fier. Le commandant est remplacé la semaine suivante.
+e2_echec: La bataille est perdue, mais le neveu est vivant. {nom} le porte jusqu'au camp sur ses épaules, sans un mot.
+fin: {nom} rentre au repère et ne dit rien de la mission. Mais on le voit, ce soir-là, sourire en lisant une lettre écrite d'une main maladroite de jeune soldat.
+refus: {nom} se lève, très lentement. « Je comprends. » Il quitte la pièce. On l'entend frapper le mannequin d'entraînement pendant une heure.
+
+=== QUE-CAITLYN | L'affaire des Lucioles
+champion: Caitlyn
+motivation: cause
+demande: « Une série de vols à Piltover, signés d'une luciole dessinée à la craie. Le conseil veut un coupable avant la fin du mois. Il en a déjà choisi un : un gamin de Zaun qui n'a rien fait. Je veux trouver le vrai coupable avant qu'on pende le mauvais. »
+eveil: {nom} couvre un mur entier de sa chambre de notes, de fils rouges et de cartes de Piltover. Quand on frappe, elle crie : « Pas maintenant, je tiens quelque chose ! »
+e1_region: piltover
+e1_lieu: Docks du Nord
+e1_duree: 6
+e1_epreuves: discretion 2 ; poursuite 1
+e1_recit: surveiller les docks la nuit où le voleur doit frapper, d'après ses calculs
+e1_reussite: Le voleur est surpris en pleine action. Ce n'est pas un gamin de Zaun : c'est le fils d'un conseiller.
+e1_echec: Le voleur a frappé ailleurs. Mais il a laissé une empreinte de botte, et les bottes de Zaun n'ont pas ce talon-là.
+e2_region: piltover
+e2_lieu: Archives du Conseil
+e2_duree: 6
+e2_epreuves: diplomatie 2 ; discretion 1
+e2_recit: présenter les preuves au conseil, alors que le père du coupable y siège
+e2_reussite: Le conseil libère le gamin de Zaun. Le fils du conseiller est jugé. Le père démissionne. {nom} reçoit une lettre de menace, qu'elle épingle sur son mur avec les autres.
+e2_echec: Le conseil enterre l'affaire, mais libère le gamin, faute de preuves contre lui. {nom} dit que c'est une demi-victoire. Elle déteste les demi-victoires.
+fin: {nom} rentre au repère et décroche les fils rouges de son mur, un par un. Elle garde seulement une luciole dessinée à la craie, qu'elle colle au-dessus de son lit.
+refus: {nom} pose sa tasse de thé avec beaucoup de précision. « Bien. Je noterai que la justice a dû attendre. » Elle note. Vraiment.
+
+=== QUE-EKKO | Le dernier mur des Lucioles
+champion: Ekko
+motivation: proteger
+demande: « Les Lucioles ont un repaire dans les Failles. Un baron de la chimie veut le raser pour agrandir son usine. Mes amis sont là-dedans. Je connais les Failles mieux que personne. Je reviens vite. Je reviens toujours à temps. Enfin, presque toujours. »
+eveil: {nom} démonte et remonte son appareil trois fois dans la soirée, le regard ailleurs. Puis il dessine sur une feuille une luciole, et une carte des Failles.
+e1_region: zaun
+e1_lieu: Repaire des Lucioles
+e1_duree: 6
+e1_epreuves: discretion 1 ; diplomatie 2
+e1_recit: rejoindre les Lucioles et organiser la défense avec des gamins qui n'ont jamais combattu
+e1_reussite: Les Lucioles l'acclament comme un frère. En une nuit, le repaire est truffé de pièges, avec des inventions bricolées et beaucoup d'enthousiasme.
+e1_echec: Les Lucioles sont divisées. Certains veulent fuir. {nom} reste avec ceux qui restent. C'est assez.
+e2_region: zaun
+e2_lieu: Raffineries de Shimmer
+e2_duree: 7
+e2_epreuves: combat 2 ; discretion 1
+e2_recit: aller saboter, dans l'usine du baron, les machines qui devaient raser le repaire
+e2_reussite: Les machines s'arrêtent net. Le baron perd des mois de travail. Le repaire des Lucioles est sauvé. Les gamins dessinent {nom} sur un mur, en héros.
+e2_echec: Une machine a été sabotée, pas les autres. Le repaire tient, pour l'instant. {nom} promet de revenir. Il tiendra parole.
+fin: {nom} rentre au repère avec une luciole en verre accrochée au cou, un cadeau des plus jeunes. Il ne l'enlève jamais. Il dit qu'elle lui rappelle pourquoi il remonte le temps.
+refus: {nom} tapote son appareil, nerveusement. « D'accord. Si je pouvais revenir en arrière, je trouverais les mots pour te convaincre. » Il sourit. Pas tout à fait.
+
+=== QUE-AKALI | L'élève de l'ombre
+champion: Akali
+motivation: cause
+demande: « Une gamine de Weh'le veut devenir assassin, comme moi. Elle a quatorze ans, et elle s'est entraînée seule, avec des couteaux de cuisine. Si personne ne lui apprend à se battre correctement, elle va se faire tuer. Ou pire, rejoindre un mauvais maître. »
+eveil: {nom} s'entraîne au lancer de kunaï dans la cour, en visant des cibles de plus en plus petites. Puis elle reste longtemps assise, à regarder la cible du milieu.
+e1_region: ionia
+e1_lieu: Weh'le
+e1_duree: 8
+e1_epreuves: poursuite 1 ; diplomatie 2
+e1_recit: retrouver la jeune fille et la convaincre de suivre un vrai entraînement plutôt que de partir chasser seule
+e1_reussite: La gamine accepte, après avoir essayé de voler la bourse d'{nom}. Elle a raté. {nom} est impressionnée quand même.
+e1_echec: La gamine a refusé et s'est enfuie dans la forêt. {nom} la suit de loin, sans se montrer. Elle ne la lâchera pas.
+e2_region: ionia
+e2_lieu: Forêt de Nistaram
+e2_duree: 8
+e2_epreuves: combat 2 ; discretion 1
+e2_recit: lui apprendre, en une semaine, à survivre plutôt qu'à tuer, face aux bêtes de la forêt
+e2_reussite: La gamine rentre au village avec un regard nouveau. Elle ne veut plus devenir assassin. Elle veut devenir gardienne. {nom} dit que c'est mieux. Elle le pense.
+e2_echec: La semaine a été trop courte. La gamine repart avec ses couteaux et quelques bons conseils. {nom} prie pour elle, à sa manière.
+fin: {nom} rentre au repère et reste silencieuse toute une soirée. Puis elle dit : « C'est dur, d'être celle qui enseigne. Je comprends mieux, maintenant. » Elle ne précise pas à qui elle pense.
+refus: {nom} remet son masque. « Ok. Mais si elle se fait tuer, je reviendrai te le dire. » Elle ne revient pas en parler. Mais on sent qu'elle y pense.

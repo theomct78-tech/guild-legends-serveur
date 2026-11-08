@@ -1,0 +1,503 @@
+# Bandle · palier Inconnue · lot 2 (missions 026 à 050 ; 041 à 050 : contrats publics relayés par la Chambre des Bannières, que personne ne trouve deux fois au même endroit)
+
+=== BAN-I-026 | Le chemin du retour
+source: privee
+region: bandle
+palier: inconnue
+type: escorte
+ton: tendre
+lieu: Les Chemins bas
+demandeur: Pennywhit, yordle qui a vécu trente ans à Ionia et rentre enfin à Bandle
+accroche: « J'ai vécu à Ionia, chez une famille d'humains. Ils m'ont élevé comme leur fils, sans savoir ce que j'étais. Ils sont tous morts, maintenant. Il est temps que je rentre. Je ne me souviens plus du chemin. Je ne me souviens plus de grand-chose de Bandle, en fait. »
+postes: Healer, Support
+duree: 4
+dangereuse: non
+epreuves: voyage 30 (guider un yordle qui a oublié les Chemins bas) ; diplomatie 29 (l'aider à retrouver sa famille yordle, s'il en a encore une)
+complication: Sa sœur vit toujours à Bandle. Elle a cru pendant trente ans qu'il était mort, et elle lui en veut d'être vivant.
+eclatante: {meneur} ramène Pennywhit jusqu'à la porte de sa sœur. Elle ouvre, le voit, et lui claque la porte au nez. Puis elle la rouvre. Ils se crient dessus pendant une heure, sous les fenêtres de tout le quartier. Puis elle lui fait un thé. Il lui raconte Ionia. Elle lui raconte trente ans de Bandle. Ils ne finissent pas avant l'aube. Ils ne finiront jamais, sans doute.
+reussite: Pennywhit retrouve Bandle et sa sœur. Elle est froide, au début. Elle l'invite à dîner la semaine suivante.
+partielle: Pennywhit est arrivé à Bandle, mais sa sœur ne veut pas le voir. Il s'installe dans la rue d'à côté. Il attend.
+echec: Pennywhit s'est perdu sur les Chemins bas, et il est ressorti à Ionia. Il a dit que c'était peut-être un signe.
+recompenses: po 15 ; reputation 2 ; objet Charme féerique 8
+
+=== BAN-I-027 | Le grand bal des citrouilles
+source: privee
+region: bandle
+palier: inconnue
+type: livraison
+ton: drole
+lieu: Bandle
+demandeur: Pumpernickel, organisateur du bal des citrouilles, dont les citrouilles sont restées de l'autre côté d'un portail
+accroche: « Le bal des citrouilles, c'est ce soir. Les citrouilles sont à Demacia, dans un champ. Elles devaient arriver par le portail du marais, ce matin. Il pleut à Demacia : le portail ne s'ouvre pas sous la pluie. Il faut aller les chercher par l'Arche. Toutes. Il y en a quatre-vingts. »
+postes: Tank
+duree: 3
+dangereuse: non
+epreuves: voyage 28 (faire passer quatre-vingts citrouilles par un portail étroit) ; siege 29 (les porter jusqu'à la salle du bal sans en écraser une seule)
+complication: Les citrouilles ont été enchantées pour danser au bal. L'enchantement s'est activé trop tôt. Elles dansent déjà, dans le champ.
+eclatante: {meneur} fait danser les citrouilles jusqu'à l'Arche, en file indienne, en frappant le rythme dans ses mains. Elles traversent toutes en dansant. Le bal commence avec un cortège de quatre-vingts citrouilles dansantes que personne n'avait prévu. Pumpernickel dit que c'est le plus beau bal de l'histoire. Il ne dit pas que c'était un accident.
+reussite: Les citrouilles arrivent à temps, un peu cabossées. Le bal a lieu. Elles dansent toutes, sauf une, qui boude.
+partielle: Soixante citrouilles sont arrivées. Les autres dansent encore dans un champ de Demacia. Les paysans sont perplexes.
+echec: Les citrouilles sont arrivées le lendemain. Le bal a eu lieu sans elles. Elles ont dansé seules, dans la salle vide.
+recompenses: po 10 ; reputation 1 ; objet Potion de soin 6
+
+=== BAN-I-028 | La graine d'étoile
+source: privee
+region: bandle
+palier: inconnue
+type: recuperation
+ton: mystere
+lieu: Arbre de Bandle
+demandeur: Starling, jardinière de l'Arbre de Bandle, qui a vu une graine tomber du ciel et se coincer dans l'écorce
+accroche: « Une étoile est tombée cette nuit. Pas loin : sur l'Arbre. Elle a laissé une graine, coincée dans l'écorce, tout en haut. Elle brille. Je veux la planter. Mais elle est à cent mètres de haut, et je ne grimpe plus aussi bien qu'avant. »
+postes: Éclaireur
+duree: 3
+dangereuse: non
+epreuves: voyage 30 (grimper au sommet de l'Arbre de Bandle) ; diplomatie 27 (décoincer la graine sans abîmer l'écorce)
+complication: La graine germe déjà. Elle a poussé une racine dans l'Arbre, et elle refuse d'en partir.
+eclatante: {meneur} comprend que la graine a choisi sa place. Plutôt que de l'arracher, l'équipe la laisse pousser dans l'Arbre. En une semaine, une petite branche lumineuse apparaît au sommet. Elle éclaire Bandle chaque nuit, comme une lanterne. Starling dit que l'Arbre a reçu un cadeau. Les yordles l'appellent maintenant l'Arbre étoilé.
+reussite: La graine est récupérée et plantée dans le jardin de Starling. Elle pousse lentement. Elle brille, la nuit.
+partielle: La graine s'est brisée en deux. Starling en a planté une moitié. Elle pousse de travers. Elle brille quand même.
+echec: La graine est tombée de l'Arbre et a roulé dans un portail. On dit qu'une étoile pousse maintenant quelque part à Ionia.
+recompenses: po 15 ; reputation 2 ; objet Cristal de saphir 8
+
+=== BAN-I-029 | La maison qui rétrécit
+source: privee
+region: bandle
+palier: inconnue
+type: sauvetage
+ton: horreur
+lieu: Maison de Norra
+demandeur: Thistledown, yordle qui s'est réfugié chez Norra pendant un orage, et dont la maison rétrécit autour de lui
+accroche: « Je suis entré chez Norra pour m'abriter. Les murs se rapprochent. Un peu chaque heure. Je ne trouve plus la porte. Il y a des portes partout. Elles mènent toutes à la même pièce. Qui rétrécit. Venez vite. Pas trop vite, il n'y a plus beaucoup de place. »
+postes: Mage, Tank, Éclaireur
+duree: 3
+dangereuse: non
+epreuves: discretion 30 (entrer dans une maison qui change de forme) ; siege 31 (tenir les murs écartés le temps de trouver la bonne porte)
+complication: La maison ne rétrécit pas : elle range. Norra lui a appris à se ranger quand il y a du désordre, et Thistledown a mis ses bottes mouillées sur le tapis.
+eclatante: {meneur} comprend en voyant les bottes mouillées. Il les retire, essuie le tapis, et remet un coussin à sa place. Les murs s'écartent, lentement. Une seule porte reste : la vraie. Thistledown sort en tremblant. La maison, elle, semble contente : la lampe près de la fenêtre s'allume toute seule. Pomkin, la voisine, dit qu'elle n'avait jamais vu la maison aussi propre.
+reussite: Thistledown est sorti de justesse. La maison a repris sa taille. Personne ne veut plus y entrer sans s'essuyer les pieds.
+partielle: Thistledown est sorti, mais sa cape est restée prise dans un mur. La maison la garde. Elle l'a pliée.
+echec: L'équipe a dû défoncer une fenêtre pour sortir Thistledown. La maison a boudé une semaine. Les fenêtres refusaient de s'ouvrir.
+recompenses: po 20 ; reputation 2 ; objet Cape de négation 6
+
+=== BAN-I-030 | La pêche aux lumières
+source: privee
+region: bandle
+palier: inconnue
+type: chasse
+ton: tendre
+lieu: Caverne des marées
+demandeur: Wavelet, petite yordle, qui veut pêcher une lumière de la caverne pour sa grand-mère malade
+accroche: « Dans la caverne, il y a des poissons qui brillent. Si on en met un dans un bocal, il éclaire toute une chambre. Grand-mère a peur du noir, maintenant qu'elle est malade. Je veux lui en pêcher un. Mais la caverne fait peur. Et je ne sais pas pêcher. »
+postes: Tireur
+duree: 3
+dangereuse: non
+epreuves: poursuite 27 (trouver les poissons lumineux dans les bassins de la caverne) ; combat 28 (en attraper un sans le blesser, à l'épuisette)
+complication: Les poissons lumineux s'éteignent hors de la caverne, sauf si on emporte aussi un peu de l'eau des cercles runiques.
+eclatante: {meneur} apprend à Wavelet à pêcher, patiemment, et elle attrape elle-même son poisson. L'équipe remplit le bocal avec l'eau des cercles. Le poisson brille toute la nuit chez la grand-mère, qui s'endort en souriant. Wavelet revient chaque semaine à la caverne, seule maintenant, changer l'eau du bocal. Elle n'a plus peur. Sa grand-mère non plus.
+reussite: Un poisson est pêché et rapporté. Il brille trois nuits, puis s'éteint. Wavelet le relâche dans la caverne. Elle en pêchera un autre.
+partielle: Le poisson s'est éteint en route. Wavelet a pleuré. Puis elle a mis une bougie dans le bocal. Sa grand-mère a trouvé ça beau.
+echec: Les poissons se sont cachés. Wavelet est repartie avec un bocal vide. Sa grand-mère lui a dit que sa présence suffisait.
+recompenses: po 10 ; reputation 2 ; objet Potion de soin 7
+
+=== BAN-I-031 | Les fées du marais
+source: privee
+region: bandle
+palier: inconnue
+type: defense
+ton: aventure
+lieu: Portail du marais
+demandeur: Reedwhistle, pêcheur du marais, dont la cabane est envahie de fées farceuses
+accroche: « Elles nouent mes lacets. Elles mettent du sel dans mon thé. Elles ont repeint ma barque en rose. Ce sont des fées du marais. Elles sont minuscules, elles sont des centaines, et elles trouvent tout ça très drôle. Moi aussi, au début. Plus maintenant. »
+postes: Mage, Combattant, Support
+duree: 4
+dangereuse: non
+epreuves: nuee 31 (repousser des centaines de fées farceuses qui attaquent en riant) ; diplomatie 30 (négocier une trêve avec leur reine)
+complication: Les fées ne sont pas venues pour s'amuser : le portail du marais déverse de la boue chez elles depuis que Reedwhistle a bâti sa cabane dessus.
+eclatante: {meneur} rencontre la reine des fées, grande comme un pouce, et entend ses griefs. La cabane a été construite sur leur maison. L'équipe aide Reedwhistle à déplacer sa cabane de dix mètres. Les fées font la fête toute la nuit. Le lendemain, la barque de Reedwhistle est repeinte en bleu, avec des étoiles. Il trouve ça très beau. Il ne le dit pas aux fées.
+reussite: Les fées sont repoussées. Reedwhistle retrouve sa cabane. Ses lacets restent noués, un jour sur deux.
+partielle: Une trêve est conclue : les fées ne viennent plus que le dimanche. Reedwhistle part pêcher le dimanche.
+echec: Les fées ont gagné. Reedwhistle a déménagé. Les fées ont gardé la cabane. Elles l'ont repeinte en vert.
+recompenses: po 20 ; reputation 2 ; objet Élixir de rage 6
+
+=== BAN-I-032 | La lettre au mortel
+source: privee
+region: bandle
+palier: inconnue
+type: livraison
+ton: tragique
+lieu: Arche de pierre
+demandeur: Bluebell, yordle, qui veut écrire au mortel qu'elle a aimé, pour lui dire au revoir
+accroche: « Je l'ai rencontré à Demacia, il y a ce qui me semble un an. Je suis rentrée à Bandle sans lui dire au revoir. Je veux lui écrire. Mais je ne sais pas combien de temps a passé, là-bas. Il faut lui porter la lettre. Et me dire ce qu'il est devenu. »
+postes: Assassin
+duree: 3
+dangereuse: non
+epreuves: voyage 29 (passer l'Arche jusqu'à Demacia) ; diplomatie 28 (retrouver le mortel, s'il vit encore)
+complication: De l'autre côté, il s'est écoulé quarante ans. Le mortel est un vieil homme. Il a gardé un dessin de Bluebell sur sa table de chevet toute sa vie.
+eclatante: {meneur} trouve le vieil homme et lui donne la lettre. Il la lit, et sourit. Il dit qu'il savait qu'elle n'était pas un rêve. Il écrit une réponse, d'une main tremblante, et l'équipe la rapporte à Bandle. Bluebell la lit. Elle pleure. Puis elle range la lettre avec le dessin qu'il lui avait fait, il y a quarante ans pour lui, un an pour elle.
+reussite: La lettre est remise. Le vieil homme la lit, en silence. Il ne répond pas. L'équipe rapporte à Bluebell qu'il souriait.
+partielle: Le mortel était mort depuis dix ans. L'équipe a laissé la lettre sur sa tombe. Bluebell dit que c'est bien, aussi.
+echec: L'Arche a déposé l'équipe au mauvais endroit. La lettre n'a jamais été remise. Bluebell l'a gardée. Elle la relit.
+recompenses: po 10 ; reputation 2 ; objet Charme féerique 9
+
+=== BAN-I-033 | L'élève de Norra
+source: privee
+region: bandle
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Maison de Norra
+demandeur: Quillby, ancien élève de Norra, qui a trouvé dans la maison une carte qu'il ne comprend pas
+accroche: « J'étais l'élève de Norra. J'ai trouvé dans sa maison une carte de tous les portails de Bandle. Il y a une croix sur un portail que je ne connais pas. Et à côté, de sa main : « Si je ne reviens pas, c'est par là. » Je veux savoir où mène ce portail. Je n'ose pas y aller seul. »
+postes: Mage, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: poursuite 31 (retrouver le portail marqué d'une croix sur la carte) ; voyage 30 (passer la tête de l'autre côté, prudemment)
+complication: Le portail mène à une pièce vide, avec une seule chose dedans : une page du Livre des Seuils, arrachée, qui montre un autre portail.
+eclatante: {meneur} rapporte la page du Livre des Seuils. Quillby la lit et comprend : Norra a laissé une piste, page par page, pour qu'on la retrouve. Il décide de suivre la piste. Il part la semaine suivante, avec la page, la carte et un sac de provisions. Il écrit à la guilde de chaque portail. Ses lettres arrivent dans le désordre. Elles disent toutes qu'il se rapproche.
+reussite: Le portail est trouvé, et la page rapportée. Quillby ne sait pas encore quoi en faire. Il l'étudie, chaque soir.
+partielle: L'équipe a trouvé le portail, mais il était fermé. Quillby attend qu'il se rouvre. Il campe devant.
+echec: La croix ne correspondait à aucun portail connu. Quillby cherche toujours. Il dit que Norra aimait les énigmes.
+recompenses: po 20 ; reputation 2 ; objet Tome d'amplification 8
+
+=== BAN-I-034 | Le jardin des souvenirs
+source: privee
+region: bandle
+palier: inconnue
+type: exploration
+ton: tendre
+lieu: La Clairière
+demandeur: Larkspur, vieille yordle, qui veut retrouver le jardin où elle a joué enfant
+accroche: « Quand j'étais petite, il y avait un jardin près de la Clairière où les fleurs changeaient de couleur quand on riait. Je n'arrive plus à le retrouver. Mes enfants disent que je l'ai inventé. Je ne l'ai pas inventé. Je voudrais rire dedans une dernière fois. »
+postes: Healer
+duree: 3
+dangereuse: non
+epreuves: poursuite 28 (chercher un jardin que personne d'autre ne se souvient avoir vu) ; voyage 27 (y conduire une vieille yordle qui marche lentement)
+complication: Le jardin existe toujours, mais il ne s'ouvre qu'aux enfants. Il faut qu'un enfant y entre le premier.
+eclatante: {meneur} demande à un enfant du quartier de venir avec eux. L'enfant entre le premier, rit, et le jardin apparaît, plein de fleurs qui changent de couleur. Larkspur entre à sa suite. Elle rit. Les fleurs deviennent dorées. Ses enfants, venus voir, n'en croient pas leurs yeux. Ils rient aussi. Le jardin est rouge, vert, bleu, tout à la fois.
+reussite: Le jardin est retrouvé. Les fleurs ne changent plus de couleur, ou très peu. Larkspur dit qu'elles sont vieilles, comme elle.
+partielle: L'équipe a trouvé l'endroit, mais le jardin n'est pas apparu. Larkspur s'est assise là, longtemps. Elle a ri quand même.
+echec: Personne n'a trouvé le jardin. Larkspur a dit que ce n'était pas grave, qu'elle l'avait dans la tête. Elle a eu raison.
+recompenses: po 10 ; reputation 2 ; objet Charme féerique 7
+
+=== BAN-I-035 | La nuit des ombres
+source: privee
+region: bandle
+palier: inconnue
+type: defense
+ton: horreur
+lieu: Bois de Bandle
+demandeur: Nettlewick, gardien du Bois, qui a vu des ombres sortir d'un portail fermé
+accroche: « Un portail du Bois s'est ouvert tout seul, cette nuit. Il était fermé depuis cent ans. Des ombres en sont sorties. Elles n'ont pas de forme. Elles éteignent tout ce qu'elles touchent : les lucioles, les feux, les yordles qui ont peur. Il faut refermer le portail avant la prochaine nuit. »
+postes: Mage, Tank
+duree: 4
+dangereuse: non
+epreuves: nuee 33 (repousser les ombres avec de la lumière, autour du portail) ; siege 32 (refermer un portail ancien qui ne veut pas se fermer)
+complication: Le portail donne sur les Îles obscures. Les ombres sont des fragments de la Brume noire, attirés par la lumière de Bandle.
+eclatante: {meneur} repousse les ombres avec une lumière constante, pendant que l'équipe referme le portail. Au dernier moment, une ombre plus grande essaie de passer. {meneur} chante, très fort, une chanson de Bandle : la Brume ne supporte pas la joie. Le portail se ferme. Le Bois de Bandle allume des feux de joie pendant trois nuits. Nettlewick grave sur le portail : « Fermé. Pour toujours. »
+reussite: Le portail est refermé. Les ombres qui étaient sorties se sont dissipées au lever du soleil. Le Bois a eu peur. Il oubliera.
+partielle: Le portail est refermé, mais une ombre est restée dans le Bois. On ne la voit que les nuits sans lune.
+echec: Le portail s'est refermé tout seul, au matin. Les ombres sont restées. Les yordles du Bois dorment avec la lumière allumée.
+recompenses: po 25 ; reputation 3 ; objet Cristal de saphir 7
+
+=== BAN-I-036 | Les noix de la discorde
+source: privee
+region: bandle
+palier: inconnue
+type: recuperation
+ton: drole
+lieu: Arbre de Bandle
+demandeur: Hazelnut, cueilleur, qui accuse les écureuils de l'Arbre de lui avoir volé sa récolte
+accroche: « Toute ma récolte de noix. Disparue. Il ne reste que des coquilles, et des traces de petites pattes. Ce sont les écureuils de l'Arbre. Je le sais. Ils me regardent en mâchant. Je veux mes noix. Ou des excuses. Les écureuils ne s'excusent jamais. »
+postes: DPS
+duree: 2
+dangereuse: non
+epreuves: poursuite 27 (trouver la cachette des écureuils dans l'Arbre) ; diplomatie 28 (récupérer ce qui reste de la récolte)
+complication: Les écureuils n'ont rien volé : c'est Hazelnut lui-même, somnambule, qui a caché ses noix partout dans l'Arbre, comme un écureuil.
+eclatante: {meneur} surprend Hazelnut, la nuit suivante, en train de grimper dans l'Arbre, les yeux fermés, avec des noix dans les joues. L'équipe le suit, et note toutes ses cachettes. Le matin, Hazelnut récupère sa récolte. Il présente des excuses aux écureuils. Ils le regardent en mâchant. On dit qu'ils ont accepté.
+reussite: La récolte est récupérée dans les cachettes de l'Arbre. Hazelnut accuse toujours les écureuils. Ils s'en moquent.
+partielle: La moitié des noix est retrouvée. L'autre moitié a germé. L'Arbre de Bandle a des petits noyers, maintenant.
+echec: Les noix ne sont pas retrouvées. Hazelnut a porté plainte contre les écureuils. Le maire l'a reçue. Il n'a aucun pouvoir.
+recompenses: po 10 ; reputation 1 ; objet Pioche 5
+
+=== BAN-I-037 | Le passeur des marées
+source: privee
+region: bandle
+palier: inconnue
+type: escorte
+ton: aventure
+lieu: Caverne des marées
+demandeur: Tidegrin, marchand yordle, qui doit faire passer un chargement de sel de Bilgewater par le portail de la caverne
+accroche: « Le portail de la caverne ne reste ouvert qu'une heure, à marée haute. J'ai trois chariots de sel à faire passer, et un seul passage. Si un chariot reste de l'autre côté, il est pour les pirates. Ils sont déjà là, ils attendent. »
+postes: Combattant, Tank
+duree: 4
+dangereuse: non
+epreuves: voyage 31 (faire passer trois chariots dans l'heure d'ouverture du portail) ; combat 32 (tenir les pirates à distance pendant le passage)
+complication: Un des pirates est un yordle de Bandle, qui a choisi la vie de pirate à Bilgewater. Il ne veut pas se battre contre les siens.
+eclatante: {meneur} reconnaît le yordle parmi les pirates, et lui parle en yordle au milieu de la mêlée. Il hésite, puis il retourne ses compagnons contre leur propre capitaine, en criant que le sel est maudit. Les pirates fuient. Les trois chariots passent. Le yordle pirate passe avec eux, et rentre à Bandle après vingt ans. Il raconte des histoires de mer. Elles sont toutes fausses. Tout le monde les adore.
+reussite: Les trois chariots passent. Les pirates repartent bredouilles. Tidegrin vend son sel le double. Il dit que c'est le prix du danger.
+partielle: Deux chariots sur trois sont passés. Le troisième est resté aux pirates. Ils mangeront salé pendant un an.
+echec: Le portail s'est refermé au milieu du passage. Un chariot a été coupé en deux. Le sel s'est répandu dans la caverne. Les poissons sont furieux.
+recompenses: po 25 ; reputation 2 ; objet Bouclier de Doran 7
+
+=== BAN-I-038 | L'apprenti artilleur
+source: privee
+region: bandle
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: La Clairière
+demandeur: Cogsworth, vieux canonnier, dont l'apprenti a été blessé pendant un exercice
+accroche: « Il voulait impressionner Tristana. Il a mis trop de poudre. Le canon a explosé. Il est vivant, mais il ne voit plus d'un œil. Il ne veut plus sortir de sa chambre. Il dit qu'il n'est plus bon à rien. Il avait seize ans de yordle. C'est très jeune, même pour nous. »
+postes: Healer, Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 31 (parler à un jeune yordle qui ne veut plus voir personne) ; diplomatie 30 (lui trouver une raison de sortir de nouveau)
+complication: L'apprenti ne regrette pas son œil : il a honte d'avoir désobéi, et il croit que Tristana ne voudra plus jamais le voir.
+eclatante: {meneur} reste une après-midi entière devant sa porte, à lui raconter les erreurs les plus stupides de la guilde. Il finit par rire. Puis il sort. Et le lendemain, une lettre arrive, de Tristana elle-même : elle aussi a fait exploser un canon, à son âge. Elle lui envoie un cache-œil d'artilleur, avec une étoile dessus. Il le porte avec fierté. Il est devenu le meilleur pointeur de Bandle. Il dit qu'on vise mieux avec un œil fermé.
+reussite: L'apprenti sort de sa chambre. Il ne retourne pas aux canons, mais il aide Cogsworth à les réparer. Il sourit de nouveau.
+partielle: L'apprenti accepte de sortir, le soir seulement. Il regarde les exercices de loin. C'est un début.
+echec: L'apprenti n'a pas ouvert sa porte. Cogsworth lui laisse un plat chaque soir. Le plat est vide le matin. C'est déjà ça.
+recompenses: po 15 ; reputation 2 ; objet Potion de soin 9
+
+=== BAN-I-039 | Les gnomes de jardin
+source: privee
+region: bandle
+palier: inconnue
+type: chasse
+ton: horreur
+lieu: Portail du marais
+demandeur: Primrose, jardinière, dont le jardin est envahi par des statues de jardin vivantes venues d'un portail
+accroche: « Quelqu'un a laissé passer des statues de jardin, de Piltover. Elles sont vivantes. Elles bougent quand on ne les regarde pas. Elles sont déjà douze dans mon jardin. Ce matin, elles étaient devant ma fenêtre. Toutes. Elles me regardaient dormir. »
+postes: Éclaireur, DPS
+duree: 4
+dangereuse: non
+epreuves: discretion 32 (surveiller les statues sans jamais cesser de les regarder) ; combat 31 (les renvoyer par le portail, une par une)
+complication: Les statues ne sont pas méchantes : elles ont été jetées à la poubelle à Piltover, et elles cherchent un jardin où être utiles.
+eclatante: {meneur} comprend leur détresse en voyant l'une d'elles arroser une fleur, maladroitement, dès qu'on détourne les yeux. Primrose, émue, les garde, à condition qu'elles travaillent le jour. Le jardin devient le plus beau de Bandle. Les statues bougent toujours quand on ne les regarde pas. Mais maintenant, c'est pour tailler les haies.
+reussite: Les statues sont renvoyées par le portail. Primrose dort de nouveau. Elle sursaute devant chaque statue de jardin.
+partielle: Onze statues sont renvoyées. La douzième s'est cachée. Primrose ne la trouve pas. Elle sait qu'elle est là.
+echec: Les statues sont restées. Primrose a déménagé. Les statues entretiennent son ancien jardin. Il est magnifique.
+recompenses: po 20 ; reputation 2 ; objet Élixir de fer 6
+
+=== BAN-I-040 | Les jumeaux et l'escalier
+source: privee
+region: bandle
+palier: inconnue
+type: sauvetage
+ton: aventure
+lieu: Les Chemins bas
+demandeur: Marigold, mère de jumeaux yordles, perdus sur un escalier qui ne finit pas
+accroche: « Mes jumeaux ont pris l'escalier sans fin, sur les Chemins bas. Ils voulaient voir le haut. Il n'y a pas de haut. Ça fait deux jours. Ils ont emporté des tartines. Il ne doit plus leur en rester. »
+postes: Éclaireur, Tank
+duree: 5
+dangereuse: non
+risque: oui
+epreuves: voyage 42 (grimper un escalier qui monte sans fin) ; poursuite 41 (retrouver deux enfants sur un escalier où chaque marche se ressemble) ; voyage 40 (redescendre sans se perdre)
+complication: L'escalier n'est pas sans fin : il tourne en rond. Les jumeaux sont passés devant leur propre point de départ trois fois, sans le reconnaître.
+eclatante: {meneur} trace une marque à la craie sur une marche, et la retrouve une heure plus tard. L'escalier tourne. L'équipe attend les jumeaux sur la marche marquée, avec des tartines. Ils arrivent, épuisés, et tombent dans les bras de l'équipe. Marigold les serre, puis les gronde, puis les serre encore. Les jumeaux disent qu'ils ont vu le haut. Ils mentent. Mais ils le diront toute leur vie.
+reussite: Les jumeaux sont retrouvés, affamés, fiers. Ils jurent qu'ils n'iront plus jamais sur l'escalier. Ils y retourneront.
+partielle: Un jumeau est retrouvé. L'autre redescend seul, le lendemain. Il dit qu'il a vu une porte. Personne ne le croit.
+echec: L'équipe s'est perdue à son tour. Tout le monde est redescendu trois jours plus tard, guidé par l'odeur des tartines de Marigold.
+recompenses: po 140 ; reputation 3 ; objet Bottes 10
+
+=== BAN-I-041 | Le relevé des portails
+source: institution
+region: bandle
+palier: inconnue
+type: exploration
+ton: politique
+lieu: Bois de Bandle
+demandeur: la Chambre des Bannières, qui essaie, sans grand succès, de tenir une carte des portails de Bandle
+accroche: « Contrat public. Relever l'état des douze portails du Bois de Bandle : ouverts, fermés, ou « autre ». La dernière carte date de dix ans. Elle est fausse depuis neuf ans et demi. »
+postes: Éclaireur, Mage
+duree: 5
+dangereuse: non
+epreuves: voyage 32 (rejoindre les douze portails du Bois, qui ne sont jamais au même endroit) ; poursuite 31 (noter où chacun mène, sans y tomber)
+complication: Trois portails mènent à des endroits que la Chambre ne veut pas voir sur une carte : un coffre de Noxus, une cuisine de palais demacien et une salle de classe de Piltover.
+eclatante: {meneur} relève les douze portails, et note avec une précision parfaite où chacun mène, y compris les trois embarrassants. La Chambre publie une carte des neuf autres, et garde les trois derniers dans un tiroir fermé à clé. La carte est juste pendant six mois, ce qui est un record pour Bandle. La Chambre l'encadre.
+reussite: Les douze portails sont relevés. La carte est publiée. Elle est fausse au bout de trois mois. C'est déjà bien.
+partielle: Huit portails relevés. Les autres ont bougé pendant le relevé. La Chambre publie une carte « indicative ».
+echec: L'équipe est passée par un portail sans le vouloir. Elle est revenue d'Ionia, trois jours plus tard. La carte n'a pas été faite.
+recompenses: po 25 ; reputation 3 ; objet Bottes 7
+
+=== BAN-I-042 | Le convoi de miel
+source: institution
+region: bandle
+palier: inconnue
+type: livraison
+ton: drole
+lieu: Bandle
+demandeur: la Chambre des Bannières, pour le marché de Bandle
+accroche: « Contrat public. Acheminer douze tonneaux de miel du rucher de la Clairière jusqu'au marché de Bandle. Attention : le miel de Bandle attire les ours, les abeilles géantes, et les yordles gourmands. Surtout les yordles gourmands. »
+postes: Tank, Support
+duree: 3
+dangereuse: non
+epreuves: voyage 28 (transporter douze tonneaux de miel à travers la ville) ; diplomatie 29 (repousser poliment les yordles gourmands qui suivent le convoi)
+complication: Les abeilles géantes suivent le convoi : elles veulent récupérer leur miel, et elles sont très bien organisées.
+eclatante: {meneur} négocie avec la reine des abeilles géantes : un tonneau pour elles, onze pour le marché. Elle accepte, et escorte le convoi jusqu'au marché, en éloignant les gourmands. Le marché ouvre avec onze tonneaux, et une haie d'honneur d'abeilles géantes. La Chambre note dans son rapport : « Livraison réussie, avec l'aide inattendue des abeilles. » Personne ne sait comment classer ça.
+reussite: Les douze tonneaux arrivent, un peu entamés. Le marché ouvre. Les yordles gourmands ont mal au ventre.
+partielle: Huit tonneaux sont arrivés. Les autres ont été mangés en route. On ne sait pas par qui. Tout le monde a les doigts collants.
+echec: Les abeilles géantes ont repris le miel. La Chambre a reçu une plainte des marchands. Les abeilles, elles, sont ravies.
+recompenses: po 15 ; reputation 2 ; objet Potion de soin 7
+
+=== BAN-I-043 | Les mortels perdus
+source: institution
+region: bandle
+palier: inconnue
+type: escorte
+ton: tragique
+lieu: Arche de pierre
+demandeur: la Chambre des Bannières, qui recueille les mortels égarés à Bandle
+accroche: « Contrat public. Sept mortels sont arrivés à Bandle ce mois-ci, par accident. Les reconduire chez eux, chacun par le bon portail. Les prévenir avant de passer : le temps n'a pas coulé de la même façon de l'autre côté. »
+postes: Healer, Support
+duree: 5
+dangereuse: non
+epreuves: diplomatie 31 (annoncer à sept mortels ce qui les attend peut-être chez eux) ; voyage 30 (les reconduire, un par un, par les bons portails)
+complication: L'un des sept ne veut pas rentrer : de l'autre côté, il était prisonnier. À Bandle, il est libre.
+eclatante: {meneur} reconduit six mortels, et prépare chacun à ce qui l'attend : deux mois, dix ans, trois jours. Pour le septième, l'équipe plaide sa cause auprès de la Chambre. Il reste à Bandle, comme apprenti chez un inventeur. Il ne parle jamais de ce qu'il a fui. La Chambre écrit, pour la première fois, la mention « accueilli » dans son registre des mortels.
+reussite: Six mortels sont rentrés chez eux. Le septième s'est caché. On le retrouvera, ou pas.
+partielle: Quatre mortels sont rentrés. Trois sont passés par le mauvais portail. Ils vont bien. Ils sont juste au Freljord.
+echec: L'Arche a refusé de s'ouvrir. Les sept mortels attendent à Bandle. Certains commencent à aimer ça.
+recompenses: po 20 ; reputation 3 ; objet Charme féerique 8
+
+=== BAN-I-044 | La plainte de Piltover
+source: institution
+region: bandle
+palier: inconnue
+type: enquete
+ton: politique
+lieu: Arche de pierre
+demandeur: la Chambre des Bannières, saisie d'une plainte officielle de Piltover
+accroche: « Contrat public. Le conseil de Piltover se plaint : des créatures de Bandle volent les boulons de ses machines. Le maire de Bandle nie, mais il n'a aucun pouvoir, donc ça ne compte pas. Établir les faits. Préserver la paix. »
+postes: Support, Assassin
+duree: 4
+dangereuse: non
+epreuves: discretion 32 (surveiller les ateliers de Piltover la nuit, depuis l'autre côté de l'Arche) ; diplomatie 31 (présenter les faits au conseil de Piltover sans déclencher une guerre de boulons)
+complication: Les voleurs de boulons sont de petits automates de Piltover, construits par un inventeur yordle installé là-bas, et qui « recyclent » les pièces.
+eclatante: {meneur} suit les automates jusqu'à l'atelier de l'inventeur yordle, qui est sincèrement désolé. L'équipe propose un arrangement : les automates répareront les machines de Piltover la nuit, en échange des boulons usés. Le conseil de Piltover, ravi d'avoir des réparations gratuites, retire sa plainte. La Chambre classe l'affaire sous « coopération inattendue ».
+reussite: Les faits sont établis. L'inventeur est prié de cesser. Piltover retire sa plainte, en grognant.
+partielle: Les faits sont établis, mais Piltover exige des excuses officielles. Le maire de Bandle s'excuse. Il n'a aucun pouvoir.
+echec: L'équipe n'a rien trouvé. Piltover a fermé un portail à coups de canon. Bandle en a ouvert un autre, à côté.
+recompenses: po 25 ; reputation 3 ; objet Tome d'amplification 7
+
+=== BAN-I-045 | La nuit sans lune
+source: institution
+region: bandle
+palier: inconnue
+type: defense
+ton: horreur
+lieu: Caverne des marées
+demandeur: la Chambre des Bannières, pour le quartier qui vit près de la caverne
+accroche: « Contrat public. Les nuits sans lune, des choses remontent de la caverne des marées. Trois maisons ont été visitées. Rien n'a été volé, mais les habitants se réveillent couverts d'algues. Garder la caverne la prochaine nuit sans lune. »
+postes: Tank, Mage, Éclaireur
+duree: 4
+dangereuse: non
+risque: oui
+epreuves: nuee 44 (tenir l'entrée de la caverne face à ce qui remonte dans le noir) ; discretion 42 (comprendre ce qui remonte sans allumer de lumière qui l'attire) ; combat 45 (repousser la plus grande des créatures)
+complication: Les créatures sont des enfants des marées, des esprits de l'eau, qui cherchent un des leurs, enlevé par un collectionneur yordle et gardé dans un aquarium.
+eclatante: {meneur} repousse la première vague, puis comprend en voyant les créatures pleurer. L'équipe trouve l'aquarium du collectionneur, et rend le petit esprit à la caverne. Les créatures redescendent, et ne remontent plus. Le quartier se réveille sans algues. Le collectionneur, honteux, consacre désormais son aquarium à des poissons ordinaires. Il les relâche tous les ans.
+reussite: La caverne est tenue. Les créatures redescendent au matin. Le quartier pose des grilles. Ça devrait suffire.
+partielle: Les créatures sont repoussées, mais l'une d'elles est entrée dans une maison. L'habitant va bien. Il a juste des algues partout.
+echec: L'équipe a dû se replier. Les créatures sont entrées dans tout le quartier. Personne n'a été blessé. Tout le monde a été mouillé.
+recompenses: po 140 ; reputation 4 ; objet Cape de négation 10
+
+=== BAN-I-046 | L'arbre qui ne fleurit plus
+source: institution
+region: bandle
+palier: inconnue
+type: exploration
+ton: tendre
+lieu: Arbre de Bandle
+demandeur: la Chambre des Bannières, pour les jardiniers de l'Arbre de Bandle
+accroche: « Contrat public. L'Arbre de Bandle n'a pas fleuri ce printemps, pour la première fois depuis que la Chambre tient des registres. Les jardiniers ne savent pas pourquoi. Explorer l'Arbre et trouver la cause. »
+postes: Support, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: voyage 31 (explorer l'Arbre, des racines au sommet) ; diplomatie 30 (interroger les yordles qui vivent dans ses branches)
+complication: L'Arbre n'est pas malade : il est triste. Le vieux jardinier qui lui parlait chaque matin est mort cet hiver. Personne ne l'a remplacé.
+eclatante: {meneur} comprend en lisant le carnet du vieux jardinier, retrouvé dans le creux d'une branche : il parlait à l'Arbre chaque matin. L'équipe trouve une jeune yordle qui accepte de reprendre l'habitude. Elle lui parle de sa journée, de ses amis, de ses peines. Une semaine plus tard, une première fleur s'ouvre. Puis mille. La Chambre note : « Cause : solitude. Remède : conversation. »
+reussite: La cause est trouvée. Les jardiniers parlent à l'Arbre, à tour de rôle. Il fleurit, timidement, à la fin de l'été.
+partielle: L'équipe n'a pas trouvé de cause. Les jardiniers essaient tout. L'Arbre a fleuri d'une seule branche.
+echec: L'Arbre n'a pas fleuri. Les jardiniers sont inquiets. La Chambre a classé le rapport. L'Arbre attend.
+recompenses: po 20 ; reputation 2 ; objet Cristal de rubis 6
+
+=== BAN-I-047 | L'inventaire du maire
+source: institution
+region: bandle
+palier: inconnue
+type: recuperation
+ton: politique
+lieu: Maison de Norra
+demandeur: la Chambre des Bannières, à la demande du maire de Bandle, qui n'a aucun pouvoir mais qui insiste
+accroche: « Contrat public. Le maire demande l'inventaire des objets magiques de la maison de Norra, « pour les protéger ». La maison n'est pas d'accord. Faire l'inventaire. Sans vexer la maison. »
+postes: Combattant
+duree: 3
+dangereuse: non
+epreuves: diplomatie 28 (convaincre la maison de se laisser inventorier) ; discretion 29 (compter les objets sans réveiller ceux qui mordent)
+complication: La maison accepte, à une condition : que le maire vienne lui-même s'essuyer les pieds sur le paillasson.
+eclatante: {meneur} va chercher le maire, qui vient, s'essuie les pieds, s'incline devant la porte, et demande poliment la permission d'entrer. La maison, flattée, ouvre tous ses placards. L'inventaire est fait en une heure. Il compte trois cent douze objets magiques, et un parapluie ordinaire, que la maison considère comme le plus précieux. Le maire repart avec un sentiment de pouvoir. Il n'en a toujours aucun.
+reussite: L'inventaire est fait. La maison a fermé deux placards. La Chambre note « inventaire partiel, maison réticente ».
+partielle: L'inventaire est à moitié fait. La maison a éteint toutes les lumières. L'équipe a compté le reste à tâtons.
+echec: La maison a mis l'équipe dehors. Avec la porte. Le maire a dit que c'était un affront. La maison a dit que c'était un paillasson.
+recompenses: po 10 ; reputation 1 ; objet Tome d'amplification 5
+
+=== BAN-I-048 | Les enfants des Chemins
+source: institution
+region: bandle
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Les Chemins bas
+demandeur: la Chambre des Bannières, alertée par plusieurs familles du quartier des Chemins bas
+accroche: « Contrat public. Cinq enfants yordles ont disparu sur les Chemins bas cette semaine. Ils jouaient à « qui va le plus loin ». Le plus loin, c'est trop loin. Les retrouver. »
+postes: Éclaireur, Healer
+duree: 5
+dangereuse: non
+epreuves: poursuite 32 (retrouver les traces de cinq enfants qui ont pris des chemins différents) ; voyage 31 (les ramener par des chemins qui ne mènent pas tous à Bandle)
+complication: Quatre enfants sont retrouvés vite. Le cinquième est passé par un portail vers le monde des mortels, et le temps y passe plus vite.
+eclatante: {meneur} retrouve les quatre premiers, puis passe le portail pour le cinquième. De l'autre côté, trois jours ont passé. L'enfant a été recueilli par une famille de fermiers de Demacia, qui l'ont nourri sans poser de question. L'équipe le ramène. La famille de Demacia pleure en le voyant partir. Depuis, à chaque saison, un panier de pommes de Demacia arrive par le portail. Avec un dessin.
+reussite: Les cinq enfants sont ramenés. Le cinquième a grandi d'une semaine, pour une nuit passée. Ses parents le trouvent changé.
+partielle: Quatre enfants sont ramenés. Le cinquième revient seul, deux jours plus tard, avec une pomme et une histoire.
+echec: Trois enfants sont ramenés. Les deux autres sont toujours de l'autre côté. Les familles attendent devant le portail, jour et nuit.
+recompenses: po 20 ; reputation 3 ; objet Potion de soin 9
+
+=== BAN-I-049 | La fête de la Clairière
+source: institution
+region: bandle
+palier: inconnue
+type: protection
+ton: tendre
+lieu: La Clairière
+demandeur: la Chambre des Bannières, pour la grande fête de printemps de Bandle
+accroche: « Contrat public. Assurer la sécurité de la fête de printemps à la Clairière. Prévoir : danse, musique, inventions, et les yordles qui reviennent du monde des mortels pour l'occasion, souvent changés, parfois tristes. »
+postes: Support, Combattant
+duree: 4
+dangereuse: non
+epreuves: diplomatie 30 (accueillir les yordles qui reviennent après des années dans le monde des mortels) ; combat 29 (calmer une dispute entre deux inventeurs dont les machines se sont percutées)
+complication: Un yordle revenu de Noxus ne sait plus danser. Il ne sait plus rire non plus. Il reste au bord de la Clairière, sans oser entrer.
+eclatante: {meneur} remarque le yordle revenu de Noxus, et s'assoit à côté de lui, sans rien dire. Au bout d'une heure, il raconte. L'équipe ne lui apprend pas à danser. Elle l'emmène à la table des inventeurs, où il répare une machine cassée en deux minutes. Les inventeurs l'acclament. Il sourit pour la première fois depuis des années. Il ne danse pas. Mais il reste jusqu'au matin.
+reussite: La fête se passe bien. Les inventeurs se sont disputés, puis réconciliés autour d'une bière. Personne ne s'est blessé.
+partielle: Une machine a explosé pendant la fête. Les dégâts sont légers. Les yordles disent que c'était le meilleur moment.
+echec: Une dispute a dégénéré, et la fête a été écourtée. La Chambre a reçu dix plaintes, dont une du maire. Il n'a aucun pouvoir.
+recompenses: po 15 ; reputation 2 ; objet Charme féerique 7
+
+=== BAN-I-050 | La marée des siècles
+source: institution
+region: bandle
+palier: inconnue
+type: exploration
+ton: mystere
+lieu: Caverne des marées
+demandeur: la Chambre des Bannières, pour les savants yordles qui étudient les cercles runiques de la caverne
+accroche: « Contrat public. La plus grande marée du siècle a lieu dans trois jours. Les cercles runiques de la caverne vont tous se remplir en même temps. Personne ne sait ce qui se passera. Observer, noter, et revenir. »
+postes: Mage, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: voyage 32 (descendre au fond de la caverne avant la marée) ; discretion 31 (observer sans être emporté par ce qui s'ouvre)
+complication: Quand tous les cercles se remplissent, ils n'ouvrent pas un portail : ils ouvrent tous les portails de Bandle en même temps, pendant une minute.
+eclatante: {meneur} observe, pendant une minute, tous les portails de Bandle ouverts à la fois, comme des fenêtres sur tout Runeterra. L'équipe note tout ce qu'elle voit : un désert, une forêt bleue, une ville de cuivre, une mer de glace. La Chambre fait de ces notes la première carte complète des destinations de Bandle. Elle est fausse dès le lendemain. Elle reste le plus beau document de ses archives.
+reussite: L'équipe observe la grande marée et rapporte des notes précises. Les savants yordles les étudient pour un siècle. Jusqu'à la prochaine.
+partielle: L'équipe a vu une lumière immense, puis plus rien. Ses notes sont confuses. Les savants disent qu'elles sont « poétiques ».
+echec: La marée est montée plus vite que prévu. L'équipe est remontée en courant, trempée. Les savants attendront cent ans de plus.
+recompenses: po 25 ; reputation 3 ; objet Cristal de saphir 8

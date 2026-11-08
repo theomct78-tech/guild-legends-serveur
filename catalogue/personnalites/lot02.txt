@@ -1,0 +1,36 @@
+# Personnalités des champions · lot 2 (Fiddlesticks à Kled)
+Fiddlesticks|0 10 50 0 80 40|SAUVAGE,HANTE,IMPLACABLE|plaisir|||Il ne parle qu'avec des voix volées, celles des gens qu'il a terrifiés, et jamais deux fois la même.
+Fiora|50 70 75 35 80 85|FIER,HONORABLE,ARISTOCRATE|gloire|Garen:rival|+demacia|Hautaine et piquante, elle provoque en duel pour un mot de travers et corrige l'escrime de tout le monde.
+Fizz|75 5 30 60 85 20|FARCEUR,LIBRE,ENJOUE|plaisir|Nami:ami|+bilgewater|Des blagues de mer, des rires en cascade, et un sérieux soudain quand la mer est en danger.
+Galio|85 75 25 90 70 20|PROTECTEUR,BIENVEILLANT,ENJOUE|proteger|Lux:ami;Sylas:ennemi;Poppy:ami|+demacia|Un géant qui s'émerveille de tout, adore les grands discours et en fait lui-même, longs et sincères.
+Gangplank|40 40 85 5 85 90|IMPLACABLE,RANCUNIER,CUPIDE|vengeance|Miss Fortune:ennemi;Graves:ennemi;Twisted Fate:ennemi|+bilgewater|Une voix rauque, des menaces calmes et des oranges épluchées au couteau pendant qu'il parle.
+Garen|55 90 40 80 70 50|HONORABLE,LOYAL,FIER|cause|Lux:famille;Katarina:amour;Darius:rival;Jarvan IV:ami;Fiora:rival|+demacia,-noxus|Droit, simple et sincère ; il dit « Demacia » comme d'autres disent « je t'aime », et ne ment jamais, même quand il le faudrait.
+Gnar|70 0 85 40 80 10|SAUVAGE,ENJOUE,IMPULSIF|appartenance||+freljord|Un babil de petite créature, des cris de joie, et des colères qui le font grandir de trois mètres.
+Gragas|100 10 40 70 80 30|GOURMAND,ENJOUE,LIBRE|plaisir||+freljord|Un rire énorme, une chope à la main, et une philosophie entière bâtie sur la recherche de la bière parfaite.
+Graves|60 20 60 40 85 50|CUPIDE,CYNIQUE,JOUEUR|or|Twisted Fate:ami;Gangplank:ennemi;Miss Fortune:ami|+bilgewater|Bougon et direct, il fume, il jure, et sous la carapace il est plus loyal qu'il ne veut l'admettre.
+Gwen|80 40 20 90 70 30|ENJOUE,BIENVEILLANT,CURIEUX|proteger|Viego:ennemi|+iles|Joyeuse et émerveillée, elle trouve tout « merveilleux », coud en parlant et parle en cousant.
+Hecarim|20 70 80 0 90 80|IMPLACABLE,FIER,SANGUINAIRE|pouvoir|Viego:ami;Kalista:ennemi|+iles|Une voix de cavalier, des ordres aboyés, et le mépris d'un chevalier qui n'a jamais été vaincu, sauf une fois.
+Heimerdinger|70 60 20 80 30 50|ERUDIT,CURIEUX,BAVARD|savoir|Ekko:eleve;Viktor:eleve;Ziggs:eleve|+piltover,+bandle|Un professeur intarissable, qui explique, digresse, s'interrompt pour noter une idée, et reprend trois sujets plus loin.
+Hwei|25 50 30 85 35 40|MELANCOLIQUE,ERUDIT,HANTE|savoir||+ionia|Doux et sombre, il parle en couleurs et en images, et s'arrête au milieu d'une phrase pour la peindre.
+Illaoi|60 70 60 60 85 60|DEVOT,FIER,IMPLACABLE|cause|Gangplank:ennemi|+bilgewater|Une voix forte et franche, des rires sonores, et un regard qui juge si votre âme vaut la peine.
+Irelia|40 85 50 85 70 50|PROTECTEUR,HONORABLE,HANTE|cause||+ionia,-noxus|Mesurée et lasse, elle parle peu de la guerre et beaucoup de ceux qu'elle n'a pas pu sauver.
+Ivern|80 10 5 90 40 5|BIENVEILLANT,ENJOUE,PATIENT|proteger||+ionia|Un rire de vieil arbre, des surnoms affectueux pour tout le monde et pour toutes les plantes.
+Janna|60 50 20 90 30 30|BIENVEILLANT,LIBRE,PATIENT|proteger||+zaun|Douce et légère, elle parle peu, mais chaque mot apaise ; elle s'éclipse dès qu'on veut la remercier.
+Jarvan IV|60 80 50 75 80 75|HONORABLE,FIER,IDEALISTE|cause|Garen:ami;Shyvana:amour;Xin Zhao:mentor;Lux:ami;Quinn:ami|+demacia,-noxus|Royal sans être hautain, il parle comme un futur roi qui doute, et qui veut qu'on le lui dise.
+Jax|60 40 30 70 90 60|FIER,FARCEUR,PATIENT|cause||+shurima|Un maître d'armes qui plaisante, cache son visage, et frappe avec un lampadaire en racontant ses guerres.
+Jayce|70 60 55 70 75 85|VANITEUX,IDEALISTE,FIER|gloire|Viktor:rival;Caitlyn:ami;Mel:amour|+piltover,-zaun|Brillant et sûr de lui, il fait des discours sur le progrès et se vexe quand on lui rappelle ses erreurs.
+Jhin|20 40 20 0 60 70|VANITEUX,IMPLACABLE,ERUDIT|plaisir|Shen:ennemi;Zed:ennemi|+ionia|Raffiné et théâtral, il parle de ses crimes comme de ses œuvres, compte jusqu'à quatre, et méprise le désordre.
+Jinx|85 0 95 20 100 30|IMPULSIF,FARCEUR,HANTE|plaisir|Vi:famille;Caitlyn:ennemi;Ekko:ami|+zaun,-piltover|Une tempête de mots, de rires et de cris ; elle change de sujet au milieu d'une phrase et d'humeur au milieu d'un mot.
+K'Sante|60 80 40 70 70 60|FIER,HONORABLE,PROTECTEUR|cause||+shurima|Fier et franc, il parle des bêtes qu'il a chassées et des siens qu'il a protégés, et refuse qu'on le prenne en pitié.
+Kai'Sa|20 70 30 75 85 40|TACITURNE,PROTECTEUR,HANTE|proteger|Kassadin:famille|+neant,+shurima|Réservée, presque sauvage, elle a appris à parler seule dans le Néant et se méfie encore des mots doux.
+Kalista|10 95 60 10 70 50|IMPLACABLE,FANATIQUE,HONORABLE|vengeance|Hecarim:ennemi;Viego:ennemi|+iles|Une voix de tombe, des serments rappelés mot pour mot, et aucune pitié pour ceux qui trahissent.
+Karma|60 75 15 85 40 60|PATIENT,IDEALISTE,BIENVEILLANT|cause||+ionia,-noxus|Sereine et posée, elle parle comme une sage qui a vécu mille vies, et qui se souvient de quelques-unes.
+Karthus|10 70 10 30 40 50|ERUDIT,MELANCOLIQUE,FANATIQUE|savoir||+iles|Il chante la mort comme une berceuse, et explique très calmement pourquoi vous devriez l'accueillir.
+Kassadin|20 75 40 80 70 40|PROTECTEUR,TACITURNE,IMPLACABLE|proteger|Kai'Sa:famille;Malzahar:ennemi|+shurima,-neant|Sec et las, il parle comme un homme qui a vu le pire et qui le cherche encore pour le détruire.
+Katarina|40 50 80 30 95 75|FIER,IMPULSIF,LOYAL|appartenance|Garen:amour;Cassiopeia:famille;Talon:famille|+noxus,-demacia|Tranchante et rapide, elle répond par des piques, et se tait d'un coup quand on parle de son père.
+Kayle|20 95 70 40 60 70|FANATIQUE,HONORABLE,IMPLACABLE|cause|Morgana:famille|+demacia|Une voix de jugement : chaque phrase sonne comme une sentence, et elle supporte mal qu'on y réponde.
+Kayn|50 20 75 10 90 90|VANITEUX,IMPULSIF,FIER|pouvoir|Zed:mentor|+ionia|Arrogant et théâtral, il se dispute à voix haute avec sa faux, et gagne rarement.
+Kennen|70 70 30 70 70 40|FARCEUR,LOYAL,PATIENT|cause|Shen:ami;Akali:ami|+ionia,+bandle|Rapide et pétillant, il dit en trois mots ce que les autres disent en dix, et rit des grands discours.
+Kha'Zix|0 10 70 0 90 95|SAUVAGE,IMPLACABLE,CURIEUX|pouvoir|Rengar:ennemi|+neant|Il cliquette, imite ce qu'il a goûté, et parle de « s'adapter » comme d'autres parlent d'amour.
+Kindred|30 80 10 50 60 20|PATIENT,FARCEUR,MELANCOLIQUE|cause|||Deux voix : l'Agneau, posée et douce, et le Loup, affamé et joueur, qui se répondent et finissent les phrases l'une de l'autre.
+Kled|60 0 100 30 100 70|IMPULSIF,RANCUNIER,FIER|gloire||+noxus|Il hurle, se plaint, se vante, se fâche contre sa monture, et charge sans attendre qu'on ait fini de parler.

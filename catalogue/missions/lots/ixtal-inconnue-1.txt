@@ -1,0 +1,505 @@
+# Ixtal · palier Inconnue · lot 1 (missions 001 à 025)
+# {meneur} : le héros qui a mené l'épreuve décisive. La Chambre des Bannières : l'organisme supérieur aux guildes.
+# À Ixtal, tout contrat passe par l'autorisation d'un préfet : les demandeurs sont des gens des marges, des villages, ou des mages de bas rang.
+
+=== IXT-I-001 | Le basilic de bât
+source: privee
+region: ixtal
+palier: inconnue
+type: recuperation
+ton: drole
+lieu: Kumungu
+demandeur: Tecuani, dresseur de basilics, dont la meilleure bête de bât s'est sauvée avec la cargaison
+accroche: « Elle s'appelle Xoco. Elle porte cent kilos sans se plaindre, sauf le mardi. Aujourd'hui, c'est mardi. Elle s'est sauvée dans la jungle de Kumungu avec les herbes du préfet sur le dos. Si le préfet ne reçoit pas ses herbes ce soir, c'est moi qu'on chargera à sa place. »
+postes: Éclaireur
+duree: 4
+dangereuse: non
+epreuves: poursuite 30 (suivre les traces d'un basilic chargé dans la jungle épaisse) ; diplomatie 28 (convaincre un basilic têtu de revenir, un mardi)
+complication: Xoco ne s'est pas sauvée par caprice : elle a senti un nid de basilics sauvages, et elle veut y retrouver un mâle.
+eclatante: {meneur} retrouve Xoco près du nid, en grande conversation avec un mâle magnifique. Plutôt que de les séparer, l'équipe ramène les deux. Le mâle porte la moitié de la charge, sans qu'on lui demande rien. Les herbes arrivent chez le préfet avant la nuit. Tecuani a maintenant deux basilics de bât, et bientôt des petits. Ils se plaignent tous le mardi.
+reussite: Xoco est ramenée, avec les herbes. Le préfet est servi. Tecuani dort chez lui, pas dans l'écurie.
+partielle: Xoco est ramenée, mais elle a mangé la moitié des herbes en route. Le préfet est servi à moitié. Tecuani aussi.
+echec: Xoco est restée avec son mâle. Le préfet a fait porter les herbes par Tecuani. Il les a portées. Le mardi.
+recompenses: po 15 ; reputation 1 ; objet Bottes 6
+
+=== IXT-I-002 | Les prospecteurs de Tikras
+source: privee
+region: ixtal
+palier: inconnue
+type: defense
+ton: politique
+lieu: Tikras
+demandeur: Itzel, préfète de Tikras, dont le village a déjà été à moitié détruit par des mineurs de Piltover
+accroche: « Ils sont revenus. Des prospecteurs de Piltover, avec des machines, à une heure de mon village. La dernière fois, ils ont fait sauter une colline, et la colline est tombée sur la moitié de nos maisons. Je n'ai plus assez de mages pour les chasser. Les arcologies ne répondent pas. »
+postes: Tank, Mage, Support
+duree: 6
+dangereuse: non
+risque: oui
+epreuves: combat 44 (repousser les gardes armés des prospecteurs) ; siege 42 (mettre leurs machines hors d'usage sans faire sauter la jungle avec) ; diplomatie 41 (les convaincre de ne pas revenir avec une armée)
+complication: Parmi les prospecteurs, un jeune ingénieur a dessiné les plans du village détruit. Il est venu pour s'excuser, pas pour creuser.
+eclatante: {meneur} repousse les gardes, met les machines hors d'usage, et découvre le jeune ingénieur, venu seul avec ses plans et ses remords. Il témoigne contre sa compagnie devant la préfète. Le témoignage part pour Piltover, et la compagnie perd son permis. L'ingénieur reste à Tikras, pour aider à rebâtir. Itzel le surveille. Mais elle le laisse travailler.
+reussite: Les prospecteurs sont repoussés, leurs machines abandonnées. Tikras respire. Pour combien de temps, personne ne sait.
+partielle: Les machines sont détruites, mais les prospecteurs promettent de revenir. Itzel fait creuser des fossés.
+echec: Les prospecteurs ont tenu leur position. Une deuxième colline est tombée. Itzel a écrit aux arcologies, encore.
+recompenses: po 140 ; reputation 3 ; objet Bouclier de Doran 12
+
+=== IXT-I-003 | L'eau de fleur de taffa
+source: privee
+region: ixtal
+palier: inconnue
+type: livraison
+ton: tendre
+lieu: Paretha
+demandeur: Nalia, vieille femme de Paretha, qui veut envoyer de l'eau de taffa à sa petite-fille, mage à Ixaocan
+accroche: « Ma petite-fille est entrée à l'arcologie il y a trois ans. Les mages ne rentrent pas chez eux. Mais l'eau de taffa de Paretha, c'est l'odeur de son enfance. Je veux qu'elle la reçoive, pour qu'elle se souvienne d'où elle vient. Sans que ses maîtres le sachent. Ils trouveraient ça faible. »
+postes: Assassin
+duree: 4
+dangereuse: non
+epreuves: voyage 30 (porter un flacon fragile à travers la jungle jusqu'à Ixaocan) ; discretion 31 (le remettre à une apprentie mage sans que ses maîtres le voient)
+complication: La petite-fille a demandé à sa grand-mère, dans une lettre interceptée, de ne plus jamais lui écrire. Ses maîtres l'y ont forcée.
+eclatante: {meneur} remet le flacon en secret, dans un couloir de l'arcologie. La jeune mage le débouche, respire, et se met à pleurer sans un bruit. Elle donne en échange un mot pour sa grand-mère, écrit à la hâte sur un morceau de soie : « Je n'ai rien oublié. » Nalia le garde sur elle jusqu'à la fin de ses jours.
+reussite: Le flacon est remis. La jeune mage ne répond pas, mais elle garde le flacon. Nalia dit que c'est une réponse.
+partielle: Le flacon a été remis à une autre apprentie, qui promet de le transmettre. Nalia attend des nouvelles.
+echec: Un maître a vu le flacon, et l'a brisé. L'odeur de taffa est restée une semaine dans le couloir de l'arcologie.
+recompenses: po 15 ; reputation 2 ; objet Charme féerique 10
+
+=== IXT-I-004 | La fleur de mort
+source: privee
+region: ixtal
+palier: inconnue
+type: chasse
+ton: horreur
+lieu: Jardins de Zyr
+demandeur: Oxomoco, cueilleuse, dont le frère a été pris par une fleur de mort
+accroche: « On cueillait dans les Jardins de Zyr. La nuit est tombée plus vite que prévu. Les fleurs de mort ne poussent que dans le noir. Il y en a une qui a poussé sous ses pieds. Elle l'a pris jusqu'à la taille. Il est encore vivant. Je l'entends crier. »
+postes: Tank, Healer
+duree: 5
+dangereuse: non
+epreuves: voyage 33 (retrouver le cueilleur dans les jardins de plantes carnivores, de nuit) ; combat 34 (arracher la fleur de mort sans arracher l'homme avec) ; nuee 32 (repousser les autres fleurs qui se ferment autour du bruit)
+complication: La fleur de mort se nourrit de lumière autant que de chair : allumer une torche l'endort, mais réveille toutes les autres.
+eclatante: {meneur} comprend le piège de la lumière, et l'équipe travaille dans le noir complet, à tâtons, en se parlant à voix basse. Le frère d'Oxomoco est libéré au bout d'une heure, la jambe en sang, vivant. Les fleurs ne se sont pas réveillées. En sortant des jardins, Oxomoco jure qu'elle ne cueillera plus jamais la nuit. Son frère jure qu'il ne cueillera plus jamais.
+reussite: Le frère est sauvé, gravement blessé. Il guérira, lentement. Les Jardins de Zyr restent ce qu'ils sont.
+partielle: Le frère est sauvé, mais la fleur a gardé sa jambe. Il marchera avec une canne. Il dit qu'il a eu de la chance. Il a raison.
+echec: La fleur a refermé ses pétales avant l'arrivée de l'équipe. Oxomoco n'entend plus crier. Elle a planté une torche devant.
+recompenses: po 35 ; reputation 3 ; objet Potion de soin 12
+
+=== IXT-I-005 | Le concours d'irrigation
+source: privee
+region: ixtal
+palier: inconnue
+type: diplomatie
+ton: drole
+lieu: Arcologie de l'eau
+demandeur: Atl, mage de l'eau de bas rang, inscrit au concours d'irrigation contre son propre maître
+accroche: « Chaque année, les mages de l'eau se disputent l'honneur d'irriguer les terrasses. Cette année, je suis inscrit contre mon maître. Si je gagne, il me déteste. Si je perds, je reste apprenti dix ans de plus. J'ai besoin de conseils. De beaucoup de conseils. »
+postes: Mage
+duree: 3
+dangereuse: non
+epreuves: diplomatie 28 (trouver une stratégie qui ne vexe pas un vieux maître orgueilleux) ; voyage 29 (aider à canaliser l'eau sur les terrasses le jour du concours)
+complication: Le maître d'Atl a peur de perdre, lui aussi. Il a demandé à une autre guilde de l'aider en secret.
+eclatante: {meneur} propose à Atl une idée simple : relier ses canaux à ceux de son maître, au lieu de les opposer. Le jour du concours, l'eau des deux mages coule ensemble sur les terrasses, en dessinant une spirale parfaite. Les juges n'ont jamais vu ça. Ils déclarent les deux mages vainqueurs. Le vieux maître, ému malgré lui, nomme Atl mage à part entière le soir même.
+reussite: Atl gagne de peu. Son maître le félicite du bout des lèvres. Il le félicitera mieux l'an prochain, peut-être.
+partielle: Atl perd de peu, avec honneur. Son maître lui accorde une année d'apprentissage en moins, au lieu de dix ans de plus.
+echec: Les canaux d'Atl ont débordé. Il a inondé une terrasse. Les juges ont ri. Son maître, non.
+recompenses: po 15 ; reputation 1 ; objet Tome d'amplification 6
+
+=== IXT-I-006 | L'expédition disparue
+source: privee
+region: ixtal
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Delta du Serpentin
+demandeur: Marisol, sœur d'un explorateur de Piltover disparu dans le delta il y a deux mois
+accroche: « La guilde des explorateurs dit que mon frère est mort. Elle n'a envoyé personne le chercher. Moi, j'ai reçu une lettre de lui, la semaine dernière. Une lettre datée d'il y a un mois. Il est vivant, quelque part dans le delta. Ixtal ne laisse pas entrer les gens de Piltover. Vous, oui. »
+postes: Éclaireur, Healer
+duree: 8
+dangereuse: non
+epreuves: voyage 35 (remonter le delta du Serpentin, entre les crues et les bras morts) ; poursuite 34 (retrouver les traces d'un homme qui se cache)
+complication: Le frère de Marisol n'est pas perdu : il est prisonnier d'un village ixtali qui l'a recueilli blessé, et qui ne peut pas le laisser partir sans l'accord du préfet.
+eclatante: {meneur} retrouve le village, et l'explorateur, guéri, qui apprend à tisser avec les enfants. L'équipe va jusqu'au préfet de la région et obtient sa libération, contre la promesse qu'il ne révélera jamais l'emplacement du village. Il rentre à Piltover. Il tient sa promesse. Il écrit seulement, dans son rapport : « Ixtal m'a sauvé la vie. Je ne dirai pas comment. »
+reussite: L'explorateur est retrouvé et ramené. Il ne parle pas de ce qu'il a vécu. Marisol ne pose pas de question.
+partielle: L'explorateur a été retrouvé, mais le village a refusé de le laisser partir. Il va bien. Il écrit à sa sœur, maintenant.
+echec: Le delta a été en crue toute la semaine. L'équipe n'a rien trouvé. Marisol a reçu une deuxième lettre, un mois plus tard. Elle a cessé d'espérer.
+recompenses: po 30 ; reputation 3 ; objet Potion rechargeable 6
+
+=== IXT-I-007 | La ruine du dragon
+source: privee
+region: ixtal
+palier: inconnue
+type: exploration
+ton: aventure
+lieu: Ruines anciennes
+demandeur: Quetza, jeune archiviste, qui veut dessiner une ruine habitée par un dragon élémentaire
+accroche: « Il y a une ruine, dans la jungle, avec des fresques que personne n'a jamais copiées. Un dragon de pierre y dort. Il ne se réveille que si on fait du bruit. Je dessine en silence. Mais j'ai besoin de quelqu'un pour veiller, au cas où je fais tomber mon pinceau. »
+postes: Tank, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: discretion 34 (approcher la ruine sans réveiller le dragon de pierre) ; voyage 32 (garder l'archiviste en sécurité pendant huit heures de dessin) ; combat 33 (si le dragon se réveille, le calmer ou fuir)
+complication: Le dragon ne dort pas : il fait semblant, depuis des années, pour qu'on le laisse tranquille. Il est très curieux des dessins.
+eclatante: {meneur} voit l'œil du dragon s'ouvrir, et l'équipe ne bouge pas. Quetza continue de dessiner. Le dragon regarde, longtemps, par-dessus son épaule. Quand elle a fini, il souffle doucement sur le dessin, qui sèche en une seconde, puis referme l'œil. Quetza rentre avec la plus belle copie de fresque jamais faite. Et une histoire que personne ne croira.
+reussite: Les fresques sont copiées, le dragon n'a pas bougé. Quetza est la première archiviste à avoir vu ces murs. Elle dort mal pendant une semaine.
+partielle: Un pinceau est tombé. Le dragon a ouvert un œil. L'équipe est partie très vite. Quetza a la moitié des fresques.
+echec: Le dragon s'est réveillé en grondant. L'équipe a fui. Quetza a laissé ses pinceaux. Elle dit qu'il les garde, maintenant.
+recompenses: po 35 ; reputation 2 ; objet Cristal de saphir 7
+
+=== IXT-I-008 | La caste du marié
+source: privee
+region: ixtal
+palier: inconnue
+type: diplomatie
+ton: tragique
+lieu: Ixaocan
+demandeur: Citlali, tisserande, qui veut épouser un mage de haute caste
+accroche: « Il est mage du feu. Je suis tisserande. À Ixaocan, ça ne se fait pas. Sa famille dit qu'il perdra son rang s'il m'épouse. Il dit qu'il s'en moque. Je ne veux pas qu'il perde tout pour moi. Je veux qu'on trouve un moyen. Ou qu'on me dise qu'il n'y en a pas. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 32 (obtenir une audience auprès de la famille du mage) ; diplomatie 31 (trouver dans la loi d'Ixtal une porte que personne n'a jamais ouverte)
+complication: Il existe une loi ancienne : une personne de basse caste peut s'élever, si elle maîtrise un élément devant le conseil. Citlali n'a jamais pratiqué la magie. Mais elle tisse la soie avec des fils d'eau sans le savoir.
+eclatante: {meneur} remarque que les tissus de Citlali ne sont jamais mouillés par la pluie. Elle tisse l'eau sans le savoir. Le conseil l'examine, sceptique, puis stupéfait. Elle est admise dans la caste des mages de l'eau, au rang le plus bas. Elle épouse son mage du feu un mois plus tard. Les arcologies en parlent encore. La vapeur, disent-ils, c'est l'avenir.
+reussite: La famille accepte d'attendre un an, pour éprouver l'amour du couple. C'est déjà une victoire, à Ixaocan.
+partielle: La famille refuse, mais le mage refuse de renoncer. Ils se voient en secret. Pour l'instant.
+echec: Le mage a été envoyé dans une arcologie de montagne. Citlali tisse. Elle tisse des choses très tristes.
+recompenses: po 20 ; reputation 2 ; objet Charme féerique 8
+
+=== IXT-I-009 | Les crabes de la faille
+source: privee
+region: ixtal
+palier: inconnue
+type: chasse
+ton: drole
+lieu: Fleuve Serpentin
+demandeur: Ollin, pêcheur, dont le ponton est occupé par un crabe de la faille de la taille d'un chariot
+accroche: « Il s'est installé sur mon ponton il y a trois jours. Il ne bouge pas. Il ne mange pas. Il me regarde. Quand j'approche, il claque des pinces. Ma femme dit qu'il est malade. Moi, je dis qu'il m'a pris mon ponton. On a tous les deux raison. »
+postes: Tireur
+duree: 3
+dangereuse: non
+epreuves: combat 29 (déloger un crabe géant sans abîmer le ponton) ; poursuite 27 (le mener jusqu'à la rivière, s'il accepte de partir)
+complication: Le crabe n'est pas malade : il mue. Sa nouvelle carapace est molle, et il a peur.
+eclatante: {meneur} comprend qu'il mue, et que le déloger maintenant le tuerait. L'équipe construit un abri de branches autour de lui, et Ollin pêche sur un ponton voisin pendant trois jours. Le crabe repart avec sa carapace neuve. Avant de plonger, il laisse sur le ponton son ancienne carapace, vide et parfaite. Ollin en fait une barque. C'est la meilleure barque du fleuve.
+reussite: Le crabe est délogé, doucement, et rejoint le fleuve. Ollin récupère son ponton. Il y a des marques de pinces partout.
+partielle: Le crabe est parti, mais il a cassé la moitié du ponton en partant. Ollin répare. Il marmonne.
+echec: Le crabe est resté. Ollin pêche ailleurs. Le crabe regarde toujours son ponton. Il semble satisfait.
+recompenses: po 15 ; reputation 1 ; objet Armure de tissu 6
+
+=== IXT-I-010 | Le pont de lianes
+source: privee
+region: ixtal
+palier: inconnue
+type: defense
+ton: aventure
+lieu: Jungle d'Ixtal
+demandeur: Yaretzi, cheffe d'un village de la jungle, dont le pont de lianes est attaqué par des singes hurleurs
+accroche: « Le pont de lianes relie notre village au marché. Depuis la saison des pluies, une troupe de singes hurleurs le prend pour son territoire. Ils mordent, ils volent, ils lancent des choses. Des choses que je préfère ne pas nommer. Il nous faut le pont. Et les singes ne comprennent que la force. Ou les fruits. »
+postes: Tank, DPS, Support
+duree: 5
+dangereuse: non
+epreuves: nuee 34 (traverser le pont sous une pluie de singes hurleurs) ; diplomatie 31 (trouver ce que veut le chef de la troupe)
+complication: Le chef des singes défend un petit, coincé dans les lianes sous le pont depuis des jours.
+eclatante: {meneur} voit le petit singe coincé, et le libère, suspendu sous le pont, au-dessus du vide. Le chef de la troupe le récupère, regarde l'équipe un long moment, puis emmène toute la troupe ailleurs. Le pont est libre. Le lendemain, les villageois trouvent un tas de fruits au bout du pont. Personne ne sait qui l'a posé là. Tout le monde le sait.
+reussite: La troupe est chassée du pont. Les villageois peuvent aller au marché. Les singes hurlent, de loin.
+partielle: Les singes reviennent chaque soir, mais le pont est utilisable le jour. Le village s'adapte. Il va au marché le matin.
+echec: Les singes ont gardé le pont. Le village va au marché par le fleuve, en pirogue. C'est deux fois plus long.
+recompenses: po 30 ; reputation 2 ; objet Élixir de rage 6
+
+=== IXT-I-011 | Le secret de Kiilash
+source: privee
+region: ixtal
+palier: inconnue
+type: escorte
+ton: mystere
+lieu: Village de Kiilash
+demandeur: Ivrel, jeune vastaya, qui doit présenter une humaine à son clan, et redoute la réaction des anciens
+accroche: « Elle s'appelle Sara. Elle vient de Piltover. Elle a été recueillie par mon clan quand elle s'est perdue, il y a un an. Maintenant, elle veut rester. Les anciens doivent décider. Ils n'ont jamais dit oui à un humain. Je veux qu'elle arrive au conseil vivante, et que quelqu'un parle pour elle. »
+postes: Support, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: voyage 32 (traverser la jungle jusqu'à Kiilash avec une humaine que la jungle ne connaît pas) ; diplomatie 34 (parler au conseil des anciens vastayas)
+complication: Sara a un secret : elle a été envoyée par la guilde des explorateurs pour trouver Kiilash. Elle ne l'a jamais dit. Elle n'a jamais envoyé de rapport.
+eclatante: {meneur} conseille à Sara de tout avouer, avant que les anciens ne l'apprennent autrement. Elle le fait, devant le conseil, en tremblant. Les anciens restent silencieux. Puis la plus vieille dit que quelqu'un qui avoue avant d'être pris a déjà choisi son camp. Sara est acceptée. Elle brûle ses notes devant tout le village. Ivrel la regarde comme on regarde quelqu'un qui revient de loin.
+reussite: Le conseil accepte Sara, pour un an d'essai. Ivrel dit que c'est la première fois. Sara dit que ça lui suffit.
+partielle: Le conseil n'a pas décidé. Sara reste aux portes du village, en attendant. Ivrel lui apporte à manger.
+echec: Le conseil a refusé. Sara est repartie vers Piltover. On ne sait pas si elle a gardé le secret de Kiilash.
+recompenses: po 25 ; reputation 2 ; objet Cristal de saphir 8
+
+=== IXT-I-012 | Le marché aux lys
+source: privee
+region: ixtal
+palier: inconnue
+type: protection
+ton: politique
+lieu: Kumangra
+demandeur: Amaru, marchand de lys-kraken, accusé par un préfet de vendre des fleurs volées
+accroche: « Le préfet de Kumangra dit que mes lys viennent des jardins de l'arcologie. C'est faux, je les cultive moi-même. Il veut fermer mon étal, et donner l'emplacement à son cousin. Demain, ses gardes viennent saisir mes fleurs. Je veux qu'on les en empêche. Légalement, si possible. »
+postes: Assassin, Support
+duree: 4
+dangereuse: non
+epreuves: discretion 32 (trouver, dans les papiers du préfet, la preuve que l'accusation est fausse) ; diplomatie 33 (tenir tête aux gardes avec cette preuve, sans qu'on en vienne aux mains)
+complication: Le cousin du préfet cultive vraiment des lys volés dans l'arcologie. C'est pour masquer son trafic qu'il veut l'étal d'Amaru.
+eclatante: {meneur} trouve les registres du cousin, plein de lys de l'arcologie. Le lendemain, quand les gardes arrivent, la preuve est déjà entre les mains d'un mage de l'arcologie, venu exprès. Le cousin est arrêté sur le marché même. Le préfet perd sa charge. Amaru garde son étal. Il offre à la guilde un lys-kraken, qui mord un peu. Il est très beau.
+reussite: Les gardes repartent sans rien saisir. Le préfet ne peut rien prouver. Amaru garde son étal, et ses ennemis.
+partielle: Les gardes ont saisi la moitié des fleurs. Amaru garde l'étal. Il cultive deux fois plus.
+echec: L'étal a été fermé. Amaru vend ses lys au bord de la route. Le cousin du préfet s'est installé à sa place.
+recompenses: po 30 ; reputation 2 ; objet Dague 6
+
+=== IXT-I-013 | Les fourmis de feu
+source: privee
+region: ixtal
+palier: inconnue
+type: defense
+ton: horreur
+lieu: Arcologie du magma
+demandeur: Tlacotl, gardien des réserves de l'arcologie du magma, dont les greniers sont envahis
+accroche: « Des fourmis de feu. Elles vivent dans la roche chaude, sous l'arcologie. D'habitude, elles restent en bas. Cette année, elles montent. Elles ont mangé un grenier entier. Et un garde. Pas entièrement. Mais assez pour qu'on ne le reconnaisse plus. »
+postes: Mage, Tank
+duree: 6
+dangereuse: non
+epreuves: nuee 36 (tenir un couloir de l'arcologie contre une marée de fourmis de feu) ; voyage 33 (descendre dans la roche chaude trouver d'où elles viennent) ; combat 34 (fermer la faille par où elles montent)
+complication: Les fourmis fuient : sous la roche, une coulée de magma nouvelle a détruit leur fourmilière. Elles n'ont plus nulle part où aller.
+eclatante: {meneur} trouve la coulée, et une ancienne galerie de lave refroidie, à côté, où les fourmis pourraient vivre. L'équipe leur ouvre le passage. La marée change de direction, et descend dans la galerie. L'arcologie est sauvée, sans massacre. Les mages du magma, surpris, étudient maintenant les fourmis. Ils découvrent qu'elles creusent des tunnels parfaits pour la chaleur. Ils les utilisent.
+reussite: La faille est fermée, les fourmis repoussées. L'arcologie a perdu deux greniers. Elle en rebâtit trois.
+partielle: La faille est fermée, mais il reste des fourmis dans les murs. Les mages dorment avec leurs bottes.
+echec: Les fourmis ont pris un étage entier de l'arcologie. Les mages l'ont fermé. Il brûle encore, la nuit.
+recompenses: po 35 ; reputation 3 ; objet Élixir de fer 7
+
+=== IXT-I-014 | L'inventaire du préfet
+source: privee
+region: ixtal
+palier: inconnue
+type: enquete
+ton: drole
+lieu: Arcologie cardinale
+demandeur: Ehecatl, intendant d'un préfet, qui a perdu un objet que le préfet n'a jamais vu
+accroche: « Mon préfet m'a demandé de faire l'inventaire de ses trésors. J'ai fini. Il manque un objet. Le problème, c'est que je ne sais pas ce que c'est. Il est noté « l'objet » dans l'ancien registre, depuis cent ans. Personne ne l'a jamais vu. Le préfet veut le voir demain. »
+postes: Mage
+duree: 3
+dangereuse: non
+epreuves: discretion 29 (fouiller les réserves sans déranger les mages qui y étudient) ; diplomatie 30 (interroger les plus vieux intendants de l'arcologie)
+complication: L'objet n'a jamais existé : un intendant, il y a cent ans, l'a inscrit pour arrondir un compte. Tous ses successeurs l'ont recopié.
+eclatante: {meneur} remonte les registres jusqu'au premier, et trouve la note d'un intendant mort il y a un siècle : « Ajouté pour faire un compte rond. » Ehecatl rit si fort qu'on l'entend dans toute l'arcologie. Le lendemain, il présente au préfet le registre et la note. Le préfet ne rit pas. Puis si. L'objet est rayé, cent ans après. Ehecatl offre à la guilde une boîte vide, étiquetée « l'objet ».
+reussite: L'objet est déclaré « perdu depuis toujours ». Le préfet hausse les épaules. Ehecatl ne dort plus avec la peur de mal compter.
+partielle: L'équipe n'a rien trouvé. Ehecatl a présenté au préfet une pierre polie en disant que c'était l'objet. Le préfet a trouvé ça décevant.
+echec: Le préfet a cru qu'Ehecatl avait volé l'objet. Ehecatl a été renvoyé. Il cherche encore quelque chose qui n'existe pas.
+recompenses: po 15 ; reputation 1 ; objet Tome d'amplification 6
+
+=== IXT-I-015 | Les coureurs de la Brume d'argent
+source: privee
+region: ixtal
+palier: inconnue
+type: traque
+ton: aventure
+lieu: Vallée de la Brume d'argent
+demandeur: Nayeli, éclaireuse de la frontière sud, qui piste des intrus dans la vallée
+accroche: « Trois intrus ont passé la frontière la nuit dernière. Ils sont dans la vallée de la Brume d'argent. Ce ne sont pas des marchands : ils évitent les villages. La brume y est si épaisse qu'on n'y voit pas sa propre main. Il faut les trouver avant qu'ils trouvent quelque chose. »
+postes: Éclaireur, Assassin
+duree: 7
+dangereuse: non
+epreuves: poursuite 35 (suivre des traces dans une brume qui efface tout) ; discretion 34 (approcher les intrus sans être entendu) ; combat 33 (les arrêter avant qu'ils fuient)
+complication: Les intrus sont des éclaireurs noxiens, et l'un d'eux a une carte d'Ixtal presque complète.
+eclatante: {meneur} surprend les trois Noxiens au bivouac et s'empare de la carte avant qu'ils puissent la brûler. Nayeli les ramène aux préfets. La carte est étudiée, puis détruite. Ixtal découvre jusqu'où Noxus l'a déjà cartographiée, et change trois chemins secrets dans la semaine. Les préfets envoient à la guilde un message sans signature : « Ixtal se souvient. »
+reussite: Les intrus sont arrêtés. La carte est récupérée. Les préfets ne disent rien de plus. C'est leur façon de remercier.
+partielle: Deux intrus sont arrêtés. Le troisième a fui avec un morceau de la carte. Les préfets ferment la vallée.
+echec: Les intrus ont fui la vallée. Les préfets ont fait changer tous les chemins de la frontière sud. Il leur a fallu un mois.
+recompenses: po 35 ; reputation 3 ; objet Bottes 8
+
+=== IXT-I-016 | L'arbre qui pleure
+source: privee
+region: ixtal
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Arbre de la Peste
+demandeur: Xochi, guérisseuse, qui récolte la sève de l'Arbre de la Peste pour soigner les fièvres
+accroche: « La sève de l'Arbre de la Peste soigne les fièvres, si on sait la doser. Depuis une semaine, il pleure une sève noire. Ceux qui la boivent ne guérissent pas : ils dorment, et ils ne se réveillent plus. J'ai dû arrêter. La fièvre, elle, n'arrête pas. »
+postes: Éclaireur, Mage
+duree: 6
+dangereuse: non
+epreuves: voyage 33 (atteindre l'arbre dans la jungle du sud, en pleine saison des fièvres) ; discretion 32 (étudier l'arbre sans respirer ses spores)
+complication: L'arbre n'est pas malade : quelqu'un a planté un clou de fer runique dans son tronc, pour l'empoisonner. Un concurrent de Xochi, qui vend des remèdes de Piltover.
+eclatante: {meneur} trouve le clou, gravé de runes, profondément enfoncé. Une fois retiré, l'arbre pleure encore une nuit, puis sa sève redevient claire. Xochi soigne tous les fiévreux en une semaine. Le concurrent est découvert : ses remèdes de Piltover se vendaient soudain très bien. Le préfet le chasse. Xochi offre à la guilde un flacon de sève claire. Il soigne, si on sait le doser.
+reussite: Le clou est trouvé et retiré. L'arbre guérit. La sève est de nouveau bonne. Xochi reprend son travail.
+partielle: Le clou est retiré, mais l'arbre a perdu une branche. La sève est moins abondante. Xochi la dose au compte-gouttes.
+echec: L'équipe n'a rien trouvé. L'arbre pleure toujours du noir. Xochi achète des remèdes de Piltover. Ils marchent mal.
+recompenses: po 30 ; reputation 3 ; objet Potion de soin 10
+
+=== IXT-I-017 | L'enfant aux deux éléments
+source: privee
+region: ixtal
+palier: inconnue
+type: escorte
+ton: tendre
+lieu: Arcologie de l'eau
+demandeur: Zyanya, mère d'une fillette qui maîtrise à la fois l'eau et le feu
+accroche: « Ma fille a six ans. Elle fait bouillir l'eau rien qu'en la regardant. À Ixtal, chaque mage n'a qu'un élément. Ceux qui en ont deux, on ne sait pas ce qu'on en fait. On murmure qu'on les enferme. Je dois l'emmener à l'examen de l'arcologie de l'eau. Je ne veux pas qu'on me la prenne. »
+postes: Healer
+duree: 4
+dangereuse: non
+epreuves: voyage 28 (conduire la mère et la fillette à l'arcologie sans attirer l'attention) ; diplomatie 30 (rester aux côtés de la petite pendant l'examen, et parler pour elle)
+complication: L'examinatrice a elle-même deux éléments, et elle l'a caché toute sa vie.
+eclatante: {meneur} reste aux côtés de la fillette pendant l'examen. Quand la petite fait bouillir l'eau, l'examinatrice pâlit, puis, d'un geste discret, fait geler la vapeur. Elle sourit à la fillette. Elle la prend comme élève, personnelle, en secret. La mère rentre seule, mais rassurée : sa fille est entre les mains de quelqu'un qui sait. La petite écrit chaque semaine. Ses lettres sentent la vapeur.
+reussite: L'examen se passe bien. La fillette est admise comme mage de l'eau. On n'a pas remarqué le feu. Pour l'instant.
+partielle: L'examinatrice a remarqué quelque chose. La fillette est admise « en observation ». La mère ne dort plus.
+echec: La fillette a pris peur et a mis le feu à la table d'examen. On l'a renvoyée chez elle. Sa mère dit que c'est mieux ainsi.
+recompenses: po 15 ; reputation 2 ; objet Charme féerique 9
+
+=== IXT-I-018 | La pierre du préfet
+source: privee
+region: ixtal
+palier: inconnue
+type: livraison
+ton: politique
+lieu: Arcologie du magma
+demandeur: Coatl, porteur, chargé de livrer une pierre de magma à un préfet qui ne doit pas savoir d'où elle vient
+accroche: « Une pierre chaude, grosse comme une tête. Elle ne refroidit jamais. Je dois la porter du village jusqu'à l'arcologie du magma. Si on me demande d'où elle vient, je dois dire que je l'ai trouvée. Je n'aime pas mentir. Je n'aime pas porter des pierres chaudes non plus. »
+postes: Tank
+duree: 5
+dangereuse: non
+epreuves: voyage 31 (porter une pierre brûlante à travers la jungle sans se brûler) ; diplomatie 29 (répondre aux questions des gardes de l'arcologie)
+complication: La pierre est un cœur de dragon élémentaire, mort dans un village. Le village veut l'offrir en échange de la protection du préfet, sans avouer qu'il a tué le dragon.
+eclatante: {meneur} livre la pierre, et devine sa nature au regard des mages. Plutôt que de mentir, il dit la vérité : le dragon est mort de vieillesse, et le village l'a veillé jusqu'à la fin. C'était vrai, et Coatl l'ignorait. Le préfet, touché, accorde sa protection au village. Le cœur du dragon chauffe maintenant les bains de l'arcologie. Les mages disent qu'on y fait de très beaux rêves.
+reussite: La pierre est livrée. Les gardes ne posent pas trop de questions. Coatl rentre avec les mains brûlées et la conscience lourde.
+partielle: Les gardes ont deviné. Le village a perdu la protection qu'il espérait, mais il n'a pas été puni. Coatl dit que c'est juste.
+echec: La pierre est tombée dans un ravin. On dit qu'elle brûle encore au fond. Le village n'a rien obtenu.
+recompenses: po 25 ; reputation 2 ; objet Cristal de rubis 6
+
+=== IXT-I-019 | Le jardin interdit
+source: privee
+region: ixtal
+palier: inconnue
+type: recuperation
+ton: horreur
+lieu: Jardins de Zyr
+demandeur: Ilhuica, botaniste de l'arcologie, qui a besoin d'une graine précise au cœur des Jardins de Zyr
+accroche: « Au centre des Jardins de Zyr pousse une fleur qui ne fleurit qu'une fois tous les dix ans. Elle fleurit cette semaine. Sa graine peut soigner la cécité. Il y a juste une chose : le chemin jusqu'au centre est fait de plantes qui mangent. »
+postes: Tank, Mage
+duree: 6
+dangereuse: non
+epreuves: voyage 34 (traverser les Jardins de Zyr sans finir dans une plante) ; combat 35 (repousser une liane-étrangleuse qui garde le centre)
+complication: La fleur est entourée de graines d'autres plantes carnivores, toutes semblables. Une seule est la bonne.
+eclatante: {meneur} repousse la liane, et Ilhuica choisit la bonne graine à l'odeur, les yeux fermés. Elle a passé dix ans à la sentir dans ses livres. La graine soigne un enfant aveugle de l'arcologie la semaine suivante. Ilhuica plante les autres graines dans un jardin fermé, pour les étudier. Elle donne à la guilde un pot avec une petite plante. Elle mord. Elle est inoffensive. Presque.
+reussite: La graine est rapportée. Ilhuica commence ses essais. Elle croit qu'elle tient quelque chose. Elle a sans doute raison.
+partielle: Une graine est rapportée, mais pas la bonne. Il faudra attendre dix ans. Ilhuica les attendra.
+echec: La liane a pris le sac de l'équipe. La graine est restée au centre. Ilhuica a pleuré, puis noté la date dans dix ans.
+recompenses: po 35 ; reputation 2 ; objet Potion de soin 8
+
+=== IXT-I-020 | Le vieux qui parlait à la pluie
+source: privee
+region: ixtal
+palier: inconnue
+type: diplomatie
+ton: tendre
+lieu: Paretha
+demandeur: les habitants de Paretha, inquiets pour un vieil homme qui ne rentre plus chez lui
+accroche: « Le vieux Tonatiuh vit sous le grand arbre de la place, maintenant. Il dit qu'il parle à la pluie, et que la pluie lui répond. Il refuse de rentrer. Sa maison tombe en ruine. Il va attraper la mort. Il faut quelqu'un qu'il écoute. Il n'écoute plus personne d'ici. »
+postes: Support
+duree: 3
+dangereuse: non
+epreuves: diplomatie 29 (écouter un vieil homme qui parle à la pluie, et l'entendre vraiment) ; diplomatie 28 (trouver ce qui pourrait le faire rentrer)
+complication: Tonatiuh a été mage de l'eau, autrefois, chassé de son arcologie. Il parle vraiment à la pluie. Et elle répond.
+eclatante: {meneur} reste sous l'arbre avec lui, une après-midi, sous l'averse. À un moment, la pluie s'arrête net au-dessus d'eux, comme un toit. Tonatiuh sourit. Il dit qu'elle aime bien la guilde. Le village décide de lui construire une petite maison sans toit, sous l'arbre. Il y vit, au sec quand il veut, mouillé quand il préfère. Les enfants lui apportent à manger. La pluie, elle, tombe moins fort sur Paretha.
+reussite: Tonatiuh accepte de dormir chez lui les nuits d'orage. Le reste du temps, il reste sous l'arbre. C'est un compromis.
+partielle: Tonatiuh accepte une couverture et un abri de branches, sous l'arbre. Il ne rentre pas. Il ne tombe pas malade.
+echec: Tonatiuh n'a pas parlé à l'équipe. Il parle à la pluie. Le village le nourrit, de loin.
+recompenses: po 10 ; reputation 2 ; objet Charme féerique 7
+
+=== IXT-I-021 | Les contrebandiers de la côte
+source: privee
+region: ixtal
+palier: inconnue
+type: traque
+ton: politique
+lieu: Côte amarantine
+demandeur: Tenoch, pêcheur de la côte, dont le frère s'est mis à faire passer des étrangers en Ixtal
+accroche: « Mon frère fait entrer des gens de Piltover par la côte, la nuit. Il dit qu'ils sont gentils, qu'ils paient bien, qu'ils veulent juste voir. Si les préfets l'apprennent, c'est la prison, ou pire. Je veux qu'il arrête. Je ne veux pas qu'il soit puni. »
+postes: Assassin, Support
+duree: 7
+dangereuse: non
+epreuves: poursuite 33 (surprendre le frère et ses passagers sur la côte, de nuit) ; diplomatie 34 (convaincre le frère d'arrêter, et les passagers de repartir sans faire de vagues)
+complication: Parmi les passagers, une femme de Piltover est née à Ixtal. Elle a été vendue enfant à des marchands. Elle veut seulement revoir son village.
+eclatante: {meneur} surprend le débarquement, et écoute la femme raconter son histoire. L'équipe convainc le frère d'arrêter son trafic, et emmène la femme, seule, jusqu'à son village natal, de jour, sous l'autorité de la guilde. Sa mère est vivante. Elle la reconnaît à sa façon de marcher. Le préfet, informé, ferme les yeux. Pour une fois.
+reussite: Le frère arrête le trafic. Les passagers repartent par la mer. Les préfets n'en sauront rien.
+partielle: Le frère arrête, mais un passager a vu trop de choses. Il raconte tout dans une taverne de Piltover. Personne ne le croit.
+echec: Les préfets ont surpris le débarquement. Le frère de Tenoch est en prison. Tenoch apporte à manger, chaque jour.
+recompenses: po 30 ; reputation 2 ; objet Dague 7
+
+=== IXT-I-022 | La pluie de grenouilles
+source: privee
+region: ixtal
+palier: inconnue
+type: enquete
+ton: drole
+lieu: Village de Kiilash
+demandeur: Avra, vastaya, dont le village reçoit chaque soir une pluie de grenouilles
+accroche: « Tous les soirs, à la même heure, il pleut des grenouilles sur Kiilash. Des vertes, des bleues, une rouge, toujours la même rouge. Les enfants adorent. Les anciens, beaucoup moins. Les grenouilles aussi, beaucoup moins. Il faut que ça s'arrête. Mais gentiment, pour la rouge. »
+postes: Éclaireur
+duree: 3
+dangereuse: non
+epreuves: poursuite 29 (remonter la trajectoire des grenouilles jusqu'à leur point de départ) ; diplomatie 27 (expliquer au responsable qu'on ne fait pas pleuvoir des grenouilles sur ses voisins)
+complication: Le responsable est un jeune mage du vent qui s'entraîne en cachette, et qui aspire, sans le vouloir, l'étang d'à côté.
+eclatante: {meneur} remonte jusqu'au jeune mage, qui s'entraîne près de l'étang avec une énergie remarquable. Il est mortifié. L'équipe lui montre un autre terrain, au-dessus d'une rivière vide. Les grenouilles restent dans leur étang. La rouge, elle, s'est attachée au village : elle y vit maintenant, sur la fontaine. Les enfants l'ont appelée Cheffe.
+reussite: Le jeune mage est trouvé et prié d'aller s'entraîner ailleurs. Les grenouilles cessent de tomber. Les enfants sont déçus.
+partielle: La pluie de grenouilles est moins forte, mais elle continue un soir sur deux. Le mage s'entraîne moins. La rouge tombe encore.
+echec: L'équipe n'a pas trouvé la source. Il pleut toujours des grenouilles. Le village a construit des toits très solides.
+recompenses: po 10 ; reputation 1 ; objet Potion de soin 5
+
+=== IXT-I-023 | Les fondeurs de jade
+source: privee
+region: ixtal
+palier: inconnue
+type: protection
+ton: tragique
+lieu: Ixaocan
+demandeur: Tezca, artisan de basse caste, dont l'atelier de jade est menacé de fermeture
+accroche: « Ma famille taille le jade pour les mages depuis douze générations. Un mage de haute caste a décidé que notre atelier gênait la vue de sa terrasse. Demain, on vient le raser. On n'a pas le droit de se plaindre. On a seulement le droit de partir. Je ne veux pas partir. »
+postes: Tank, Support
+duree: 5
+dangereuse: non
+epreuves: diplomatie 34 (trouver un mage de haute caste prêt à défendre un artisan) ; combat 32 (tenir l'atelier, sans violence, face aux ouvriers venus le raser)
+complication: Le mage qui veut raser l'atelier porte un bijou de jade taillé par le grand-père de Tezca. Il ne le sait pas.
+eclatante: {meneur} reconnaît le style de la taille sur le bijou du mage, et le lui fait remarquer devant les ouvriers. Tezca sort de l'atelier le carnet de commandes de son grand-père : la pièce y est, avec le nom du mage, enfant. Le mage reste longtemps silencieux. Puis il renvoie les ouvriers. L'atelier reste. Le mage revient, la semaine suivante, pour commander un bijou pour sa fille.
+reussite: Les ouvriers repartent sans raser l'atelier. Pour l'instant. Tezca sait qu'ils reviendront. Il taille plus vite.
+partielle: L'atelier a été déplacé, pas rasé. Tezca taille dans une cave, plus loin. Le jade est moins beau sans la lumière.
+echec: L'atelier a été rasé. Tezca a sauvé ses outils et le carnet de son grand-père. Il taille dehors, sous un arbre.
+recompenses: po 20 ; reputation 2 ; objet Bouclier de Doran 6
+
+=== IXT-I-024 | Le serpent de rivière
+source: privee
+region: ixtal
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Fleuve Serpentin
+demandeur: Mixtli, cheffe des passeurs du fleuve, dont les pirogues sont renversées chaque nuit
+accroche: « Un serpent de rivière, plus long que trois pirogues. Il renverse les bateaux, il ne mange personne, il repart. On dirait qu'il joue. Mes passeurs n'osent plus traverser. Les marchandises s'entassent sur la rive. Il faut qu'il joue ailleurs. »
+postes: Tireur, Tank
+duree: 7
+dangereuse: non
+risque: oui
+epreuves: voyage 42 (attirer le serpent en pirogue, au milieu du courant) ; combat 45 (le repousser quand il attaque la pirogue) ; poursuite 41 (le suivre jusqu'à son repaire, au fond du fleuve)
+complication: Le serpent ne joue pas : il chasse les pirogues parce qu'elles ressemblent à un rival, un mâle plus grand qui vit plus bas.
+eclatante: {meneur} tient la pirogue pendant trois assauts, et le serpent s'arrête, perplexe. L'équipe le mène plus bas, vers le vrai rival, et les deux bêtes s'affrontent dans une gerbe d'écume. Le vainqueur ne remonte plus jamais vers les passeurs. Mixtli peint sur la proue de sa pirogue un serpent, et le nom de la guilde. Les autres passeurs l'imitent.
+reussite: Le serpent est repoussé, blessé, vers l'aval. Les passeurs traversent de nouveau. Ils regardent l'eau.
+partielle: Le serpent revient une nuit sur trois. Les passeurs ne traversent plus que le jour. Les marchandises passent, lentement.
+echec: Le serpent a renversé la pirogue de l'équipe. Tout le monde a nagé jusqu'à la rive. Les passeurs ont attendu la saison sèche.
+recompenses: po 150 ; reputation 4 ; objet Élixir de fer 10
+
+=== IXT-I-025 | Le maître qui ne voulait pas d'élève
+source: privee
+region: ixtal
+palier: inconnue
+type: escorte
+ton: mystere
+lieu: Vallée de la Brume d'argent
+demandeur: Itzli, jeune mage de la terre, qui veut retrouver un maître légendaire vivant seul dans la vallée
+accroche: « On dit qu'un maître de la terre vit dans la vallée de la Brume d'argent, seul depuis cinquante ans. Il a refusé cent élèves. Je veux être le cent unième. On dit qu'il fait tomber des pierres sur ceux qui insistent. J'ai un casque. »
+postes: Support, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: voyage 33 (trouver la maison du maître dans une vallée où l'on ne voit rien) ; diplomatie 34 (obtenir qu'il écoute le jeune mage au lieu de le chasser)
+complication: Le maître ne refuse pas les élèves par orgueil : il est aveugle depuis vingt ans, et il ne veut pas qu'on le sache.
+eclatante: {meneur} comprend, à la façon dont le vieil homme se déplace, qu'il ne voit plus. L'équipe ne dit rien devant Itzli. Elle dit seulement au maître que le jeune mage pourrait être ses yeux, et lui, ses mains. Le maître réfléchit longtemps, puis il accepte. Itzli ne sait pas encore pourquoi. Il le devinera dans une semaine. Il ne dira rien non plus.
+reussite: Le maître accepte Itzli pour un mois d'essai. Il fait tomber une pierre sur lui le premier jour. C'est une forme de bienvenue.
+partielle: Le maître a refusé, mais il a laissé Itzli camper devant sa porte. On verra au printemps.
+echec: Le maître a fait tomber une pierre sur le casque d'Itzli. Il est rentré. Avec une bosse, et une admiration intacte.
+recompenses: po 25 ; reputation 2 ; objet Tome d'amplification 7

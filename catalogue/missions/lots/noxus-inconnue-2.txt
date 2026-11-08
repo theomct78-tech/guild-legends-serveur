@@ -1,0 +1,505 @@
+# Noxus · palier Inconnue · lot 2 (missions 026 à 050, dont les institutionnelles 041 à 050)
+
+=== NOX-I-026 | Les tubes de Fallgren
+source: privee
+region: noxus
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Fallgren
+demandeur: Lada, ouvrière des ateliers de Medicila Elastica
+accroche: « On fabrique des tubes souples pour les médecins. Depuis deux semaines, chaque caisse livrée en compte un de moins. Personne ne vole un tube. Ça ne vaut rien, un tube. Sauf pour quelqu'un. »
+postes: Assassin, Support
+duree: 4
+dangereuse: non
+epreuves: discretion 37 (surveiller les ateliers et les quais pendant le chargement) ; diplomatie 34 (faire parler les ouvriers, qui se méfient de tout étranger)
+complication: Les tubes servent à un vieil herboriste de l'île, qui fabrique en secret des appareils pour faire respirer les enfants malades des poumons. Il n'a pas les moyens d'en acheter.
+eclatante: {meneur} suit le voleur jusqu'à une cabane où un vieil homme assemble des soufflets et des masques. Trois enfants de l'île respirent grâce à lui. Lada convainc les ateliers de lui céder les tubes défectueux, chaque mois, au lieu de les jeter. Le vieil herboriste offre à la guilde une fiole de remède pour la gorge, qui marche vraiment.
+reussite: Le voleur est identifié et les vols s'arrêtent. Lada ne dit pas son nom au contremaître. Elle sait pourquoi.
+partielle: Les vols se sont arrêtés pendant la surveillance. Le voleur, prudent, a trouvé une autre source.
+echec: L'équipe a accusé le mauvais ouvrier. Il a été renvoyé. Les vols continuent, et Lada ne parle plus à la guilde.
+recompenses: po 20 ; reputation 2 ; objet Potion de soin 8
+
+=== NOX-I-027 | La forge muette de Krexor
+source: privee
+region: noxus
+palier: inconnue
+type: enquete
+ton: tragique
+lieu: Krexor
+demandeur: Nadia, fille du forgeron Anatoli, le plus célèbre de Krexor
+accroche: « Mon père n'a pas allumé la forge depuis que mon frère est mort en Ionie. L'intendante lui a commandé une lame pour son fils, à livrer avant la fin du mois. S'il ne la livre pas, on perd l'atelier. Il ne parle plus. Il regarde le feu éteint. »
+postes: Support, Combattant
+duree: 4
+dangereuse: non
+epreuves: diplomatie 38 (rendre au vieux forgeron l'envie de travailler, ou au moins de parler) ; siege 33 (l'aider à remettre la forge en route : soufflets, charbon, enclume)
+complication: Le fils d'Anatoli n'est pas mort au combat : il a été exécuté pour avoir refusé un ordre. Son père le sait, et il ne veut plus forger pour ceux qui l'ont tué.
+eclatante: {meneur} s'assoit avec le vieil homme devant la forge éteinte, et l'écoute. Il raconte son fils, pendant des heures. À l'aube, il rallume le feu. Il ne forge pas la lame de l'intendante : il forge une lame pour son fils, qu'il dépose au Sanctuaire du Loup. Puis il forge celle de la commande, en silence. L'atelier est sauvé. Nadia pleure, enfin.
+reussite: Anatoli forge la lame commandée, sans un mot. L'atelier est sauvé. Il n'a pas parlé de son fils, mais il a repris le marteau.
+partielle: Anatoli a accepté de laisser sa fille forger à sa place, sous son regard. La lame est passable. L'intendante n'est pas satisfaite, mais elle paie.
+echec: Anatoli n'a pas rallumé la forge. L'atelier sera vendu à la fin du mois. Nadia a demandé à la guilde de ne plus revenir.
+recompenses: po 20 ; reputation 2 ; objet Épée longue 7
+
+=== NOX-I-028 | Le passeur de Basilich
+source: privee
+region: noxus
+palier: inconnue
+type: escorte
+ton: politique
+lieu: Basilich
+demandeur: Viktor, marchand de lampes, ancien partisan de la révolte de Basilich
+accroche: « Mon nom est sur une liste. Ce n'est pas encore la liste des Bourreaux, mais ça viendra. Je veux faire sortir ma femme et mes filles de la ville, pour rejoindre ma sœur à Fallgren. Moi, je reste. Je ne pars pas. »
+postes: Éclaireur, Support
+duree: 5
+dangereuse: non
+epreuves: discretion 39 (faire franchir les postes de garde du port à une famille qui ne sait pas mentir) ; voyage 33 (traverser jusqu'à Fallgren dans une barque de pêche, de nuit)
+complication: La femme de Viktor ne veut pas partir sans lui. Elle préférerait qu'ils soient arrêtés ensemble.
+eclatante: {meneur} fait passer la famille en la cachant parmi les filets d'un bateau de pêche. Au dernier moment, Viktor monte à bord : sa femme l'a convaincu. Ils arrivent tous les quatre à Fallgren avant l'aube. Viktor offre à la guilde la plus belle lampe de sa boutique, dont il n'aura plus besoin.
+reussite: La femme et les filles de Viktor arrivent à Fallgren. Viktor reste à Basilich. Il a l'air soulagé, et très seul.
+partielle: Les gardes ont arrêté la barque. La famille a été renvoyée chez elle, sans arrestation, mais elle est surveillée.
+echec: L'équipe a été repérée. Viktor a été arrêté le lendemain. On ne sait pas où il est.
+recompenses: po 25 ; reputation 3 ; objet Dague 6
+
+=== NOX-I-029 | Les chèvres de Bel'Zhun
+source: privee
+region: noxus
+palier: inconnue
+type: chasse
+ton: drole
+lieu: Drakkengate
+demandeur: Monsieur Edouard, marchand de laine, débordé
+accroche: « Vingt hwatis importées de Bel'Zhun. Ce sont des chèvres, au fond. Des chèvres qui sautent par-dessus les murs, qui grimpent aux toits et mangent les chapeaux des passants. Elles se sont échappées sur le port. Il me les faut toutes, avant l'inspection de la douane. »
+postes: DPS
+duree: 3
+dangereuse: non
+epreuves: poursuite 34 (rattraper vingt chèvres agiles à travers tout le port) ; combat 27 (en maîtriser une qui a décidé que le port lui appartenait)
+complication: La plus grosse des chèvres est la chef du troupeau. Tant qu'elle reste libre, les autres s'échappent dès qu'on les lâche.
+eclatante: {meneur} coince la chef du troupeau sur le toit de la douane, au moment où l'inspecteur arrive. Les dix-neuf autres suivent leur cheffe dans l'enclos. Le douanier, qui a perdu son chapeau dans l'affaire, demande une chèvre en compensation. Monsieur Edouard la lui donne avec plaisir : c'est la cheffe.
+reussite: Dix-huit chèvres sur vingt sont récupérées. Les deux dernières vivent désormais sur les toits du port et ne seront jamais rattrapées.
+partielle: Douze chèvres sont rattrapées. Le reste du port a perdu beaucoup de chapeaux.
+echec: Les chèvres ont gagné. Monsieur Edouard a payé une amende à la douane pour chèvres errantes, et une autre pour les chapeaux.
+recompenses: po 15 ; reputation 1 ; objet Bottes 5
+
+=== NOX-I-030 | Les larmes du Loup
+source: privee
+region: noxus
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Sanctuaire du Loup
+demandeur: Gardienne Raïssa, servante du sanctuaire
+accroche: « Depuis la dernière lune, la statue du Loup pleure. Des larmes rouges, qui coulent de ses yeux d'obsidienne. Les soldats viennent les recueillir comme des présages. Je dois savoir ce que c'est avant que quelqu'un ne décide d'en faire une prophétie. »
+postes: Support, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: discretion 35 (monter dans les étages du sanctuaire la nuit, sans être vu par les fidèles) ; diplomatie 36 (calmer les soldats qui veulent faire des larmes un signe de guerre)
+complication: Les larmes viennent d'une infiltration d'eau de pluie qui traverse un ancien dépôt de minerai de fer, caché dans le mur du sanctuaire. Le dépôt contient aussi un coffret, déposé là il y a longtemps, marqué d'une rose noire.
+eclatante: {meneur} trouve l'infiltration et le dépôt de minerai, qui rougit l'eau. Raïssa fait réparer le toit, et les larmes s'arrêtent. Les soldats, déçus, repartent. Personne d'autre ne sait que l'équipe a vu le coffret à la rose noire, refermé, et l'a laissé en place. Pour l'instant.
+reussite: L'équipe trouve l'infiltration et la colmate. La statue ne pleure plus. Raïssa remercie, soulagée.
+partielle: Les larmes se sont arrêtées pendant la nuit de guet, puis ont repris. Raïssa ne sait toujours pas pourquoi.
+echec: Un groupe de soldats a surpris l'équipe dans les hauts du sanctuaire, et l'a accusée de profaner le Loup. Il a fallu partir en vitesse.
+recompenses: po 20 ; reputation 2 ; objet Cristal de rubis 6
+suite: NOX-L-004
+
+=== NOX-I-031 | La route des maçons de guerre
+source: privee
+region: noxus
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Kilgrove
+demandeur: Vieux Matveï, propriétaire du verger que la nouvelle route doit traverser
+accroche: « Les maçons de guerre ont planté leurs piquets au milieu de mon verger. Ils disent que l'empire a besoin de cette route, et que l'empire ne fait pas de détours. Mon grand-père a planté ces arbres. Je les ai greffés de mes mains. »
+postes: Support, Tank
+duree: 4
+dangereuse: non
+epreuves: diplomatie 39 (convaincre le chef des maçons de guerre de déplacer le tracé) ; voyage 33 (trouver un autre passage praticable dans les collines, et le prouver)
+complication: Le chef des maçons ne peut pas changer le tracé sans un ordre écrit de l'intendant. Mais il peut le faire s'il prouve que l'autre passage est plus court.
+eclatante: {meneur} trouve dans les collines un passage plus court de deux lieues, et le montre au chef des maçons, mesures à l'appui. Le tracé est déplacé. Le chef des maçons, impressionné, propose même à l'équipe de travailler pour lui un jour. Matveï offre à la guilde une greffe de son plus vieux pommier, pour planter devant le repère.
+reussite: Le tracé est déplacé, mais il passe au bord du verger. Matveï perd trois arbres. Il en a sauvé quarante.
+partielle: Le chef des maçons a accepté de différer les travaux d'un an. Matveï a une saison de plus.
+echec: Les arbres ont été coupés la semaine suivante. Matveï n'est plus sorti de chez lui.
+recompenses: po 20 ; reputation 2 ; objet Pioche 6
+
+=== NOX-I-032 | Le colporteur du Dalamor
+source: privee
+region: noxus
+palier: inconnue
+type: escorte
+ton: aventure
+lieu: Plaine de Dalamor
+demandeur: Fiodor le colporteur, qui traverse la plaine depuis trente ans et n'a jamais eu peur
+accroche: « Je n'ai jamais eu besoin d'escorte. Cette année, j'ai mal au dos, une charrette pleine d'aiguilles et de sel pour Drugne, et des pillards qui ont appris à compter les colporteurs. Disons que je vous paie pour la compagnie. »
+postes: Tank, Éclaireur
+duree: 7
+dangereuse: non
+epreuves: voyage 40 (traverser la plaine de Dalamor en neuf jours, à la vitesse d'une mule) ; combat 36 (repousser une bande de pillards qui attend les marchands au puits sec)
+complication: Fiodor ne transporte pas que des aiguilles : sous le sel, il a des remèdes pour Drugne, interdits à l'exportation sans licence. Il n'a pas de licence.
+eclatante: Les pillards sont mis en fuite au puits sec. {meneur} découvre les remèdes sous le sel et décide de ne rien dire. À Drugne, Fiodor distribue les remèdes à ceux qui en ont besoin, et l'équipe voit pour quoi il risque sa vie chaque année. Il lui offre son couteau de colporteur, qui a traversé trente fois la plaine.
+reussite: Fiodor arrive à Drugne avec sa charrette et sa cargaison. Il paie l'équipe et dit qu'il a été bien accompagné, « pour une fois ».
+partielle: Les pillards ont pris la moitié du sel. Fiodor arrive à Drugne avec les aiguilles et les remèdes. Il dit que c'est l'essentiel.
+echec: Les pillards ont pris la charrette, la mule et le sel. Fiodor est arrivé à Drugne à pied, sur le dos de l'équipe.
+recompenses: po 30 ; reputation 2 ; objet Bottes 7
+
+=== NOX-I-033 | Le chiot de Mortoraa
+source: privee
+region: noxus
+palier: inconnue
+type: recuperation
+ton: tendre
+lieu: Mortoraa
+demandeur: Pavel, onze ans, valet d'écurie dans une maison noble de Mortoraa
+accroche: « J'ai laissé la porte ouverte. Le chiot de Madame s'est sauvé dans les rues. C'est un chien-drake, il vaut plus cher que ma famille entière. Si je ne le retrouve pas avant ce soir, on me renvoie. Et à Mortoraa, la nuit, il n'y a pas de lumière. »
+postes: Support
+duree: 3
+dangereuse: non
+epreuves: poursuite 33 (suivre un chiot-drake affolé dans les ruelles sans lumière de Mortoraa) ; diplomatie 29 (le rapporter à la maîtresse de maison, et sauver la place du garçon)
+complication: Le chiot n'a pas fugué : un autre domestique l'a volé pour le revendre et faire accuser Pavel.
+eclatante: {meneur} retrouve le chiot dans un sac, chez un receleur, et le domestique voleur avec lui. La maîtresse de maison renvoie le voleur et garde Pavel. Elle lui confie même le chiot, puisqu'il ne veut plus quitter le garçon. Pavel est devenu le seul valet de Mortoraa à avoir un chien-drake qui le suit partout.
+reussite: Le chiot est rapporté avant la nuit, et Pavel garde sa place. Il ne saura jamais qui l'avait volé, mais il fermera toutes les portes deux fois désormais.
+partielle: Le chiot est retrouvé tard dans la nuit. Pavel est puni, mais il garde sa place.
+echec: Le chiot n'a pas été retrouvé. Pavel a été renvoyé. Sa famille aussi, par la même occasion.
+recompenses: po 15 ; reputation 2 ; objet Charme féerique 8
+
+=== NOX-I-034 | L'épouvantail de Rokrund
+source: privee
+region: noxus
+palier: inconnue
+type: enquete
+ton: horreur
+lieu: Plaines de Rokrund
+demandeur: Les fermiers du hameau de Rokrund, qui se sont réunis chez le meunier
+accroche: « Tout le monde connaît l'histoire de l'épouvantail, celui des soldats, qui revient chasser les voyageurs dans les champs. On ne l'avait jamais vu. Depuis une semaine, il y en a un nouveau au milieu des naaps. Personne ne l'a planté. Et il change de place la nuit. »
+postes: Éclaireur, Tank
+duree: 5
+dangereuse: non
+epreuves: discretion 38 (guetter l'épouvantail toute la nuit, dans les hautes herbes) ; combat 33 (affronter ce qui se cache dessous, quand il se met à bouger)
+complication: Sous les haillons, il y a un déserteur à moitié fou de faim, qui se cache dans les champs depuis des semaines et se déguise pour faire peur aux fermiers et voler leur nourriture.
+eclatante: Quand l'épouvantail se met à marcher, {meneur} lui saute dessus. Dessous, un homme maigre comme un clou, qui pleure. Les fermiers voulaient le pendre. L'équipe les convainc de le nourrir d'abord. Il aide aux récoltes depuis, en échange de son silence et du leur. Il dit que dans le champ, la nuit, il a vu le vrai épouvantail une fois. Personne ne le croit. Presque personne.
+reussite: L'équipe a démasqué le faux épouvantail. Le déserteur s'enfuit dans la nuit, en abandonnant ses haillons. Les fermiers les brûlent.
+partielle: L'épouvantail n'a pas bougé cette nuit-là. Le lendemain, il avait disparu, et un panier d'œufs avec.
+echec: L'équipe a fui en voyant l'épouvantail marcher vers elle. Le hameau entier a déménagé chez des cousins.
+recompenses: po 20 ; reputation 2 ; objet Cape de négation 6
+
+=== NOX-I-035 | Deux pour un galon
+source: privee
+region: noxus
+palier: inconnue
+type: diplomatie
+ton: drole
+lieu: Bloodcliffs
+demandeur: Le capitaine Tarkhov, commandant d'une petite garnison, qui en a assez
+accroche: « Un seul galon de caporal, deux soldats qui le veulent. Ils se battent pour ça tous les soirs à la taverne. Je n'ai rien contre une bagarre. Mais ils ont cassé trois tables, deux chaises et la mâchoire du tavernier. Organisez-leur une épreuve. Ou assommez-les. »
+postes: Support
+duree: 3
+dangereuse: non
+epreuves: diplomatie 30 (convaincre deux têtes brûlées d'accepter une épreuve plutôt qu'une bagarre) ; combat 32 (les départager sur le terrain, s'ils refusent tout le reste)
+complication: Les deux soldats sont jumeaux. Le capitaine ne le sait pas : il les croit cousins.
+eclatante: {meneur} leur propose une épreuve de Noxus, une vraie : mener une patrouille en terrain inconnu. Ils échouent tous les deux, parce que chacun refuse d'écouter l'autre. La deuxième fois, ils réussissent ensemble. Le capitaine, désespéré, nomme les deux caporaux, l'un de jour, l'autre de nuit. Le tavernier envoie la facture à la guilde. La guilde la renvoie au capitaine.
+reussite: L'épreuve a lieu, un des deux gagne, l'autre boude. La taverne est sauvée, le tavernier aussi.
+partielle: L'épreuve a tourné à la bagarre générale, mais sur le terrain d'entraînement, pas à la taverne. Le capitaine considère que c'est un progrès.
+echec: Ils se sont battus à la taverne le soir même, et {meneur} aussi, par la même occasion. Quatre tables cassées.
+recompenses: po 15 ; reputation 1 ; objet Élixir de fer 6
+
+=== NOX-I-036 | Le pont d'Urtis
+source: privee
+region: noxus
+palier: inconnue
+type: livraison
+ton: aventure
+lieu: Urtis
+demandeur: Docteur Zoya, seule médecin d'Urtis
+accroche: « La crue a emporté le pont, et une fièvre court dans les fermes de l'autre rive. J'ai les remèdes. Il me faut quelqu'un pour les porter, et me porter moi avec, parce que je ne sais pas nager et que j'ai peur des chevaux. »
+postes: Healer
+duree: 6
+dangereuse: non
+epreuves: voyage 36 (trouver un passage sur une rivière en crue, avec une médecin terrifiée et une malle de remèdes) ; diplomatie 28 (convaincre les fermiers isolés de se laisser soigner par une étrangère venue de la ville)
+complication: Les fermiers de l'autre rive se méfient de la médecin : elle est de Noxus Prime, et eux sont d'Urtis, ancienne terre conquise.
+eclatante: {meneur} fait traverser la médecin sur un tronc, en la tenant par la main. Elle crie tout le long. De l'autre côté, il faut convaincre les fermiers, un par un. À la fin de la journée, la fièvre est soignée dans toutes les fermes. Une vieille femme d'Urtis offre à la docteure un châle brodé aux anciennes couleurs. Docteur Zoya le porte en rentrant.
+reussite: Les remèdes sont livrés et la plupart des fermes soignées. Docteur Zoya rentre épuisée, trempée, et ravie.
+partielle: La moitié des remèdes a été emportée par le courant. Les fermes les plus touchées ont été soignées en priorité.
+echec: {meneur} n'a pas trouvé de passage avant la nuit. Docteur Zoya a attendu sur la rive, avec ses remèdes inutiles.
+recompenses: po 25 ; reputation 2 ; objet Potion de soin 10
+
+=== NOX-I-037 | L'enfant des catacombes
+source: privee
+region: noxus
+palier: inconnue
+type: exploration
+ton: mystere
+lieu: Catacombes du Bastion
+demandeur: Lioudmila, lavandière, dont la fille est descendue dans les catacombes pour un pari
+accroche: « Les gamins du quartier se mettent au défi de descendre dans les catacombes et de rapporter un caillou. Ma Sacha est descendue hier soir. Elle n'est pas remontée. Les autres disent qu'ils ont vu une rose peinte sur une arche, et qu'ils ont eu trop peur pour continuer. »
+postes: Éclaireur, Tank
+duree: 5
+dangereuse: non
+epreuves: voyage 38 (se repérer dans un labyrinthe de passages sans fin) ; discretion 36 (passer devant les arches marquées de la rose sans attirer l'attention de ceux qui y vivent)
+complication: Sacha a vu quelque chose qu'elle n'aurait pas dû voir : une réunion de gens en masques, sous une arche marquée de la rose noire. Elle s'est cachée, et elle n'ose plus bouger.
+eclatante: {meneur} retrouve Sacha recroquevillée dans une niche, à trois arches de la rose noire. L'équipe la remonte sans un bruit, par un autre chemin. Elle raconte ce qu'elle a vu à sa mère, puis à personne. Lioudmila fait jurer à sa fille de ne plus jamais en parler. La guilde, elle, sait désormais où ont lieu certaines réunions.
+reussite: Sacha est retrouvée, affamée mais indemne. Elle refuse de dire ce qu'elle a vu. Lioudmila paie et l'emmène loin du quartier.
+partielle: L'équipe a retrouvé Sacha, mais a dû fuir quand des voix se sont approchées. Il faudra quitter le quartier, au cas où.
+echec: L'équipe s'est perdue dans les catacombes. Sacha est remontée seule, le lendemain. Elle ne parle plus à personne.
+recompenses: po 20 ; reputation 2 ; objet Cristal de saphir 7
+
+=== NOX-I-038 | La porte du vieux légionnaire
+source: privee
+region: noxus
+palier: inconnue
+type: escorte
+ton: tendre
+lieu: Glorft
+demandeur: Sergent Ivo, retraité de la Légion, qui a construit une Noxtoraa il y a cinquante ans
+accroche: « La porte noire sur la route de Glorft, c'est moi qui l'ai taillée, avec ma compagnie. J'avais vingt ans. Je voudrais la toucher une dernière fois. Ma fille dit que je suis trop vieux. Ma fille a raison. J'y vais quand même. »
+postes: Support
+duree: 5
+dangereuse: non
+epreuves: voyage 31 (conduire un vieil homme sur une route de montagne, qu'il veut faire à pied) ; diplomatie 28 (le faire parler à la garnison de la porte, qui n'a jamais entendu parler de lui)
+complication: Le nom de la compagnie d'Ivo est gravé sur la porte, à l'envers. Personne n'a jamais su lire cette inscription. Lui, si.
+eclatante: Au pied de la porte, Ivo pose la main sur la pierre, et lit à voix haute l'inscription que personne n'avait jamais comprise : les noms de sa compagnie, gravés à l'envers par un tailleur qui ne savait pas écrire. {meneur} les recopie. La garnison écoute, puis salue le vieil homme comme un général. Il rentre chez lui en souriant. Sa fille ne lui dit plus qu'il est trop vieux.
+reussite: Ivo touche la pierre de sa porte. Il ne dit rien pendant longtemps. Sur le chemin du retour, il raconte ses vingt ans à {meneur}, jusqu'au soir.
+partielle: La montée était trop dure. Ivo a vu la porte de loin, depuis un coude de la route. Il dit que c'est assez.
+echec: Ivo a fait un malaise sur la route, et il a fallu le redescendre d'urgence. Sa fille ne parle plus à la guilde.
+recompenses: po 15 ; reputation 3 ; objet Bouclier de Doran 6
+
+=== NOX-I-039 | Le grain de Delverhold
+source: privee
+region: noxus
+palier: inconnue
+type: protection
+ton: politique
+lieu: Delverhold
+demandeur: Dame Kasia, qui tient le grenier des familles de mineurs
+accroche: « La forteresse fournit les armes de l'empire. L'empire fournit le grain. Trois convois de grain ont été pillés ce mois-ci, et l'intendant dit qu'il ne peut rien faire. Les mineurs ont faim. Les mineurs affamés, ça finit en révolte. »
+postes: Tank, DPS, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: combat 38 (défendre le prochain convoi de grain contre les pillards) ; discretion 34 (découvrir qui renseigne les pillards sur les horaires des convois)
+complication: Les pillards sont renseignés par le commis de l'intendant, qui veut provoquer une révolte pour que l'armée occupe Delverhold et qu'il en devienne le gouverneur.
+eclatante: Le convoi passe, les pillards sont repoussés. {meneur} retrouve dans les sacoches d'un pillard un horaire écrit de la main du commis. Dame Kasia le porte directement à l'intendant, devant toute la forteresse. Le commis est arrêté. La révolte n'a pas lieu. Les familles de mineurs mangent à leur faim, et Delverhold se souviendra du nom de la guilde.
+reussite: Le convoi passe, et les pillards se retirent. Le grain est distribué. On ne sait pas qui les renseignait, mais pour l'instant, on mange.
+partielle: La moitié du convoi est sauvée. Les familles rationnent. La colère gronde dans les galeries.
+echec: Le convoi a été pillé. Des mineurs ont lancé des pierres sur la maison de l'intendant. La garnison a été appelée.
+recompenses: po 30 ; reputation 3 ; objet Armure de tissu 7
+
+=== NOX-I-040 | Le tambour volé
+source: privee
+region: noxus
+palier: inconnue
+type: recuperation
+ton: drole
+lieu: Monts Varju
+demandeur: Bastian, porte-tambour de la bande de guerre des Varju, très inquiet
+accroche: « Le tambour de la bande a disparu de la tente du chef cette nuit. Il a cent ans. Le chef ne s'est pas encore réveillé. Quand il va se réveiller, je vais mourir. Les Hurleurs de la vallée d'en face ont ri très fort hier soir. »
+postes: Combattant, Éclaireur
+duree: 3
+dangereuse: non
+epreuves: discretion 36 (s'introduire dans le camp de la bande rivale pour reprendre le tambour) ; combat 33 (s'échapper du camp avec un tambour de la taille d'un tonneau)
+complication: Les Hurleurs n'ont pas volé le tambour pour le garder. Ils veulent que les Varju viennent le reprendre, parce que c'est la seule façon d'organiser une fête entre les deux bandes sans perdre la face.
+eclatante: {meneur} entre dans le camp des Hurleurs avec le tambour en vue, et comprend que c'est un piège à fête. L'équipe ramène le tambour, et invite les Hurleurs au camp des Varju. Le chef se réveille au milieu d'une fête de deux bandes, avec son tambour et sans mal de tête. Il nomme Bastian porte-tambour à vie.
+reussite: Le tambour est ramené avant le réveil du chef. Bastian est sauvé. Les Hurleurs sont vexés qu'on ne soit pas venu à leur fête.
+partielle: Le tambour est ramené, mais avec un trou dedans. Le chef se réveille, le voit, et Bastian passe une semaine de corvées.
+echec: Le chef s'est réveillé sans tambour. Bastian a été envoyé garder les chèvres, loin, longtemps.
+recompenses: po 15 ; reputation 1 ; objet Élixir de rage 6
+
+=== NOX-I-041 | Les bandits du Dalamor
+source: institution
+region: noxus
+palier: inconnue
+type: traque
+ton: aventure
+lieu: Plaine de Dalamor
+demandeur: La Chambre des Bannières, à la demande de l'intendant de Drugne
+accroche: « Une bande de pillards attaque les caravanes de la route du nord depuis l'été. Ils frappent et disparaissent dans la steppe. La garnison de Drugne ne compte que vingt hommes. Trouvez leur repaire. »
+postes: Éclaireur, Tireur, Tank
+duree: 9
+dangereuse: non
+risque: oui
+epreuves: voyage 45 (sillonner la steppe à la recherche de traces) ; poursuite 44 (suivre une piste qui se perd dans la poussière) ; combat 42 (affronter la bande dans son repaire)
+complication: Le repaire est un ancien fortin de la conquête, abandonné. Les pillards y vivent avec leurs familles : ce sont d'anciens habitants d'un village rasé.
+eclatante: {meneur} repère la fumée du fortin. La bande est vaincue et les pillards se rendent. Mais l'équipe découvre les familles, les enfants, et le récit du village rasé. Le rapport à l'organisme le mentionne. L'intendant de Drugne propose aux familles de s'installer en ville, en échange de la fin des pillages. La route du nord est sûre, et quelques bras de plus travaillent à Drugne.
+reussite: Le repaire est trouvé et la bande dispersée. La route est sûre, pour un temps.
+partielle: L'équipe a trouvé le repaire vide. Les pillards l'ont quitté la veille. Ils ont été vus plus au nord.
+echec: Les pillards ont tendu une embuscade à l'équipe dans la steppe. L'organisme note l'échec.
+recompenses: po 160 ; reputation 3 ; objet Bottes 8
+
+=== NOX-I-042 | Le recensement de Basilich
+source: institution
+region: noxus
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Basilich
+demandeur: La Chambre des Bannières, à la demande de l'intendante Invetia Varn
+accroche: « Le recensement doit être achevé avant l'hiver. Les recenseurs de l'intendante se font claquer les portes au nez, ou pire. Il faut des gens que la ville ne connaît pas, et qui sachent parler. »
+postes: Support, Éclaireur
+duree: 7
+dangereuse: non
+epreuves: diplomatie 39 (faire ouvrir les portes d'une ville qui se méfie de tout ce qui porte le sceau de l'empire) ; discretion 34 (repérer les maisons qui cachent des habitants non déclarés)
+complication: Le recensement sert aussi à dresser la liste des anciens rebelles. Les habitants le savent. L'organisme, peut-être pas.
+eclatante: {meneur} convainc les habitants que les recensés recevront les distributions de grain de l'hiver, ce qui est vrai. Les portes s'ouvrent. Le recensement est complet. Ce que l'équipe a vu, ou choisi de ne pas noter, sur les anciens rebelles reste entre elle et sa conscience. L'organisme est satisfait. L'intendante aussi.
+reussite: Le recensement est achevé, avec quelques trous. L'intendante s'en contente.
+partielle: La moitié des quartiers a été recensée. Le reste attendra l'an prochain.
+echec: Une émeute a éclaté dans le quartier du port pendant le recensement. L'intendante blâme l'organisme, qui blâme la guilde.
+recompenses: po 35 ; reputation 3 ; objet Tome d'amplification 6
+
+=== NOX-I-043 | La toux des Ironspike
+source: institution
+region: noxus
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Monts Ironspike
+demandeur: La Chambre des Bannières, à la demande des Tallymen de la région
+accroche: « Une toux noire frappe les villages de mineurs des Ironspike. Les Tallymen ne suffisent plus à soigner les malades ni à enterrer les morts. Il faut des mains, et des gens qui n'ont pas peur de la maladie. »
+postes: Healer, Support
+duree: 8
+dangereuse: non
+epreuves: voyage 37 (aller de village en village par les sentiers de montagne) ; diplomatie 38 (convaincre les mineurs de cesser de descendre tant que la toux n'est pas passée)
+complication: La toux vient d'un nouveau filon d'acier noir, dont la poussière est toxique. Les mineurs le savent, mais l'intendant exige qu'ils continuent.
+eclatante: {meneur} soigne les malades et comprend d'où vient la toux. Le rapport de l'équipe à l'organisme est précis, et il est transmis au Bastion. L'exploitation du filon est suspendue le temps qu'on trouve un moyen de se protéger de la poussière. Les Tallymen enterrent moins de morts. Ils inscrivent le nom de la guilde dans leur registre, du côté des vivants.
+reussite: Les malades sont soignés et la toux recule. Les mineurs reprennent le travail, prudemment.
+partielle: Les remèdes ont soulagé les malades, mais les mineurs sont retournés au filon. La toux reviendra.
+echec: La toux a gagné trois villages de plus. Les Tallymen comptent, et comptent encore.
+recompenses: po 45 ; reputation 4 ; objet Potion de soin 15
+
+=== NOX-I-044 | L'armurerie qui fuit
+source: institution
+region: noxus
+palier: inconnue
+type: enquete
+ton: politique
+lieu: Bloodcliffs
+demandeur: La Chambre des Bannières, à la demande du quartier-maître de la garnison de Bloodcliffs
+accroche: « Des épées de l'armurerie se retrouvent en vente au marché noir, avec le poinçon de la Légion. Cinquante en trois mois. Le quartier-maître jure que les comptes sont justes. Les comptes sont justes. Les épées partent quand même. »
+postes: Assassin, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: discretion 40 (fouiller l'armurerie et ses registres après la relève de la garde) ; poursuite 35 (suivre les épées jusqu'à leur acheteur)
+complication: Les épées volées sont remplacées par des copies de moins bonne qualité, forgées à Krexor. Les soldats de Bloodcliffs partent au combat avec des lames qui cassent.
+eclatante: {meneur} découvre que les épées de l'armurerie sont des copies, et remonte jusqu'à l'atelier de Krexor et au sergent qui organise l'échange. Le rapport remis à l'organisme fait grand bruit : des soldats auraient pu mourir. Le sergent est arrêté, les lames remplacées. La garnison de Bloodcliffs se souviendra de qui a vérifié leurs épées.
+reussite: Le voleur est identifié et arrêté. On ne sait pas encore combien de copies circulent, mais le trafic est coupé.
+partielle: L'équipe a trouvé l'acheteur, mais pas le voleur. Le trafic s'arrête, pour l'instant.
+echec: L'équipe a été repérée en fouillant l'armurerie. Le voleur a eu le temps de brûler ses registres.
+recompenses: po 40 ; reputation 3 ; objet Épée longue 8
+
+=== NOX-I-045 | La digue de Fallgren
+source: institution
+region: noxus
+palier: inconnue
+type: defense
+ton: tragique
+lieu: Fallgren
+demandeur: La Chambre des Bannières, à la demande des ateliers de l'île
+accroche: « Une tempête monte sur la mer du Gardien. La digue de l'île est vieille de deux cents ans. Si elle cède, les ateliers et les maisons du bas seront sous l'eau. Il faut la renforcer cette nuit. »
+postes: Tank, Combattant, Support
+duree: 8
+dangereuse: non
+epreuves: siege 40 (renforcer la digue sous les vagues, à la lueur des torches) ; voyage 35 (évacuer les maisons basses vers les hauteurs de l'île) ; nuee 32 (repousser les pillards qui profitent de la tempête pour vider les ateliers abandonnés)
+complication: La digue ne tiendra pas partout. Il faudra choisir de protéger soit les ateliers, qui font vivre l'île, soit le quartier des pêcheurs, où vivent ses familles les plus pauvres.
+eclatante: {meneur} organise l'évacuation du quartier des pêcheurs tout en renforçant la digue devant les ateliers. Quand la mer franchit la brèche, les maisons sont vides. Les ateliers tiennent. Les pêcheurs sont relogés dans les ateliers pendant la reconstruction. L'organisme note que la mission a été « menée avec discernement ».
+reussite: La digue tient pour l'essentiel. Une partie du quartier bas est inondée, mais personne n'est blessé.
+partielle: La digue a cédé à deux endroits. Les ateliers et une partie des maisons ont été touchés. On reconstruira.
+echec: La digue a cédé dans la nuit. L'île a perdu ses ateliers, et plusieurs familles leurs maisons.
+recompenses: po 50 ; reputation 4 ; objet Ceinture du géant 5
+
+=== NOX-I-046 | La meute des Varju
+source: institution
+region: noxus
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Monts Varju
+demandeur: La Chambre des Bannières, à la demande des villages de la vallée
+accroche: « Une meute de chiens-drakes descend des Varju. Pas cinq ou six : trente, menés par une femelle énorme. Ils ont déjà vidé deux fermes. La bande de guerre locale est partie en campagne. »
+postes: Tank, Tireur, Healer
+duree: 8
+dangereuse: non
+risque: oui
+epreuves: poursuite 42 (traquer une meute qui se déplace vite, de nuit) ; nuee 46 (tenir face à trente chiens-drakes sur un terrain choisi) ; combat 44 (abattre la femelle qui mène la meute)
+complication: La meute descend parce que les chasseurs de la bande de guerre ont vidé la montagne de gibier pour nourrir la troupe avant la campagne. Les chiens-drakes ont faim.
+eclatante: {meneur} abat la femelle à la tombée du jour, et la meute se disperse dans les montagnes. Le rapport à l'organisme explique pourquoi elle était descendue. Les villages décident de laisser du gibier dans la montagne à l'avenir. La peau de la femelle orne désormais le mur de la guilde.
+reussite: La meute est repoussée et la femelle blessée. Les fermes sont tranquilles pour la saison.
+partielle: La meute a perdu des bêtes et s'est retirée. Elle reviendra au prochain hiver.
+echec: La meute a mis l'équipe en fuite. Les villages font appel à la bande de guerre, qui revient de campagne, furieuse.
+recompenses: po 160 ; reputation 4 ; objet Dague 9
+
+=== NOX-I-047 | Les cendres de Hvardis
+source: institution
+region: noxus
+palier: inconnue
+type: exploration
+ton: horreur
+lieu: Hvardis
+demandeur: La Chambre des Bannières, à la demande de l'intendant de la frontière sud
+accroche: « Des rebelles utiliseraient les ruines de Hvardis comme cache d'armes. Personne de la garnison ne veut y aller : on dit qu'on entend les morts, la nuit, appeler les vivants par leur nom. »
+postes: Éclaireur, Tank
+duree: 6
+dangereuse: non
+epreuves: voyage 34 (traverser les ruines de nuit, dans les rues encombrées de pierres calcinées) ; discretion 39 (repérer la cache sans tomber dans un piège)
+complication: Les voix sont réelles : des réfugiés de Hvardis reviennent chaque nuit dans les ruines pour appeler leurs morts. Il n'y a pas de cache d'armes. Il n'y en a jamais eu.
+eclatante: {meneur} suit les voix et trouve une dizaine de silhouettes, debout dans la cendre, qui appellent des noms. Ce sont les survivants. Le rapport de l'équipe à l'organisme est clair : pas d'armes, pas de rebelles, seulement du deuil. L'intendant retire ses patrouilles. Les réfugiés peuvent revenir en paix. Certains, depuis, saluent la guilde quand ils la croisent.
+reussite: L'équipe a fouillé les ruines sans trouver de cache. Le rapport conclut qu'il n'y a rien. Les voix, elle ne les explique pas.
+partielle: L'équipe a fui les ruines à minuit, effrayée par les voix. Le rapport est incomplet.
+echec: L'équipe a fait arrêter des réfugiés, en croyant capturer des rebelles. L'organisme apprend son erreur deux semaines plus tard.
+recompenses: po 35 ; reputation 3 ; objet Cape de négation 7
+
+=== NOX-I-048 | Le granit de Kimir
+source: institution
+region: noxus
+palier: inconnue
+type: escorte
+ton: politique
+lieu: Kimir
+demandeur: La Chambre des Bannières, pour le compte du Bastion immortel
+accroche: « Vingt chariots de granit de Kimir pour les fondations d'un nouveau bâtiment au Bastion. Le convoi part dans deux jours. Morrin a promis qu'il n'arriverait jamais. Morrin promet beaucoup de choses. »
+postes: Tank, DPS, Éclaireur
+duree: 9
+dangereuse: non
+epreuves: voyage 38 (mener vingt chariots lourds sur la route du sud) ; discretion 33 (repérer les sabotages préparés sur le trajet) ; combat 36 (repousser une attaque de jeunes de Morrin, plus bruyants que dangereux)
+complication: Le bâtiment du Bastion devait être construit en granit de Morrin. Kimir a remporté le contrat en soudoyant un commis. Morrin a de bonnes raisons d'être en colère.
+eclatante: Le convoi arrive au Bastion, intact. {meneur} a appris, en interrogeant un jeune de Morrin, l'histoire du contrat truqué. Le rapport à l'organisme le mentionne. Le contrat est révisé : la moitié du granit viendra de Morrin. Les deux bourgs n'ont jamais été aussi d'accord pour détester la guilde. C'est une forme de paix.
+reussite: Le convoi arrive au Bastion, avec un chariot de moins. L'organisme est satisfait. Morrin, non.
+partielle: Trois chariots ont versé dans un fossé saboté. Le convoi arrive en retard, et l'organisme le fait remarquer.
+echec: Le convoi a été bloqué sur la route par Morrin. Le granit est arrivé au Bastion avec deux semaines de retard, et l'organisme a dû s'en excuser.
+recompenses: po 55 ; reputation 4 ; objet Bouclier de Doran 8
+
+=== NOX-I-049 | Le fugitif de l'arène
+source: institution
+region: noxus
+palier: inconnue
+type: traque
+ton: mystere
+lieu: Arène du Fleshing
+demandeur: La Chambre des Bannières, à la demande des maîtres de l'arène
+accroche: « Un combattant s'est échappé la veille du Fleshing. Il a tué personne, volé personne. Il est simplement parti. Les maîtres de l'arène veulent le retrouver. Ils n'ont pas dit pourquoi c'était si important. »
+postes: Éclaireur, Assassin, Support
+duree: 6
+dangereuse: non
+epreuves: poursuite 38 (suivre un combattant entraîné qui sait effacer ses traces) ; discretion 36 (le surprendre dans sa cachette) ; diplomatie 34 (le convaincre de parler avant de décider de son sort)
+complication: Le combattant a découvert que les combats du Fleshing sont arrangés depuis des années au profit de parieurs nobles. Il a une liste de noms, et c'est elle que les maîtres de l'arène veulent récupérer.
+eclatante: {meneur} retrouve le fugitif dans un grenier des bas-quartiers, et il raconte tout. La liste est entre les mains de l'équipe. Ce qu'elle en fait, la rendre, la garder, la transmettre, l'organisme ne le saura pas forcément. Le combattant, lui, est libre. La guilde a désormais un secret qui vaut cher, et des ennemis qui ne savent pas encore qu'elle le détient.
+reussite: Le fugitif est retrouvé et ramené à l'arène. L'organisme est satisfait. Ce qu'il voulait dire, personne ne l'a écouté.
+partielle: L'équipe a retrouvé sa cachette, mais il s'est enfui juste avant. Il a laissé derrière lui une page déchirée, couverte de noms.
+echec: Le fugitif a semé l'équipe. On a retrouvé son corps dans l'estuaire trois jours plus tard. Quelqu'un d'autre l'avait trouvé avant.
+recompenses: po 40 ; reputation 3 ; objet Dague 7
+suite: NOX-L-005
+
+=== NOX-I-050 | Le ravitaillement des Portes du Deuil
+source: institution
+region: noxus
+palier: inconnue
+type: protection
+ton: tragique
+lieu: Portes du Deuil
+demandeur: La Chambre des Bannières, à la demande du commandant de l'avant-poste
+accroche: « L'avant-poste des Portes du Deuil n'a pas été ravitaillé depuis six semaines. Les chariots de l'armée sont tous partis vers le nord. Les hommes mangent leurs ceintures. Il faut leur apporter du grain, des remèdes, et des nouvelles de chez eux. »
+postes: Tank, Healer, Éclaireur
+duree: 8
+dangereuse: non
+epreuves: voyage 37 (mener le convoi par les routes de la frontière, sous la pluie) ; discretion 35 (éviter les éclaireurs demaciens qui surveillent la route) ; combat 33 (repousser des pillards qui suivent les convois depuis la vallée)
+complication: Parmi les soldats de l'avant-poste, un vieux sergent garde dans son paquetage des lettres demaciennes trouvées dans le mur de la tour. Il les lit le soir. Il voudrait qu'elles retournent à leur destinataire.
+eclatante: Le convoi arrive. Les hommes mangent, les malades sont soignés, et le courrier est distribué. {meneur} reçoit du vieux sergent un paquet de lettres demaciennes, écrites par un soldat mort, avec le nom de sa mère. Il demande que quelqu'un les lui rapporte un jour. La guilde a désormais une dette envers un homme de chaque côté de la frontière.
+reussite: Le convoi arrive, et les hommes de l'avant-poste mangent enfin. Le commandant remercie l'organisme, et l'organisme remercie la guilde.
+partielle: Le convoi est arrivé avec la moitié du grain. Les hommes tiendront jusqu'au prochain.
+echec: Le convoi a été attaqué dans la vallée. L'avant-poste attend toujours.
+recompenses: po 50 ; reputation 4 ; objet Potion de soin 12

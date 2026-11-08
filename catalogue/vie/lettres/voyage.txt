@@ -1,0 +1,145 @@
+# Guild Legends — lettres de voyage (8 nov. 2026)
+# Écrites à la main, une par une. Rien n'est assemblé : le jeu choisit une lettre entière, il ne colle pas des morceaux.
+#
+# Format : moment|région|registre|texte
+#   moment : route (milieu du trajet, un seul voyageur), route2 (milieu du trajet, à plusieurs ; écrite par le premier),
+#            arrivee, arrivee2 (à plusieurs).
+#   région : demacia, noxus, freljord, ionia, piltover, zaun, shurima, targon, bilgewater, ixtal, bandle, ou * (partout).
+#   registre : la voix de l'auteur, celle de sa lettre de candidature (noble, rue, sage, brut, joyeux, sombre, singulier), ou *.
+# Jetons : {chien}, {reste} (« deux jours »), {compagnon} (l'autre voyageur), {a_lieu} (« à Navori »), {de_lieu}.
+# Règles : français parlé d'aujourd'hui, tel qu'on l'écrit à des proches dans un message ; aucun accord de genre sur l'auteur
+# (pas de « je suis arrivé », « fatigué », « seul ») ; pas d'émojis : on est à Runeterra.
+
+# ---------- Demacia ----------
+route|demacia|noble|« Les routes de Demacia sont impeccables, les patrouilles aussi. J'ai eu droit à trois contrôles depuis ce matin, et j'avoue que ça me rassure plus que ça ne m'agace. Encore {reste}. Saluez {chien} de ma part. »
+route|demacia|rue|« Demacia, c'est joli, c'est propre, et tout le monde te regarde comme si t'allais voler les cuillères. Un garde m'a demandé mes papiers devant une boulangerie. Encore {reste}. Gardez-moi une part de quelque chose. »
+route|demacia|sage|« Ici, les murs sont faits d'une pierre qui boit la magie. On sent son silence dès qu'on s'en approche, comme une pièce où quelqu'un vient de pleurer. Encore {reste} de marche. Tout va bien. »
+route|demacia|brut|« Routes droites. Soldats partout. Pas d'ennuis. Encore {reste}. »
+route|demacia|joyeux|« Coucou le repère ! Un fermier m'a offert une pomme parce que j'avais l'air d'avoir faim. J'avais faim. Les gens sont méfiants ici, mais une fois qu'ils t'adoptent, c'est pour la vie. Encore {reste} ! »
+route|demacia|sombre|« Demacia est fière de ses murs blancs. Je me demande toujours ce qu'on cache derrière des murs aussi propres. Encore {reste}. Ne m'attendez pas pour dîner. »
+route|demacia|singulier|(Un caillou blanc, poli, arrive enroulé dans un ruban bleu. Il est froid au toucher et la lampe vacille quand on l'approche. Rien d'autre. On le pose sur la cheminée.)
+
+# ---------- Noxus ----------
+route|noxus|noble|« Noxus est exactement comme on la décrit : efficace, bruyante et sûre d'elle. On ne m'a pas demandé mon nom, seulement ce que je savais faire. J'ai répondu poliment. Encore {reste}. »
+route|noxus|rue|« Les routes de Noxus sont tellement droites que j'ai l'impression de marcher sur une règle. Et à chaque borne, une plaque pour te rappeler qui ils ont écrasé. Super ambiance. Encore {reste}. »
+route|noxus|sage|« J'ai croisé une colonne de légionnaires qui chantaient. Ils étaient jeunes, si jeunes. La route est longue, et elle me laisse le temps de penser à eux. Encore {reste}. »
+route|noxus|brut|« Noxus respecte la force. On me laisse passer. Encore {reste}. »
+route|noxus|joyeux|« Bon, Noxus, ça fait un peu peur au début. Puis un aubergiste m'a servi le meilleur ragoût de ma vie en me fixant sans cligner des yeux. Je reviendrai. Pour le ragoût. Encore {reste} ! »
+route|noxus|sombre|« À Noxus, tout le monde surveille tout le monde. J'adore. Je me sens presque chez moi. Encore {reste}. »
+route|noxus|singulier|(Un morceau de tissu rouge arrive, noué autour d'une plume de corbeau. Le nœud est très serré. Il faut une demi-heure pour le défaire, et il n'y a rien dedans.)
+
+# ---------- Freljord ----------
+route|freljord|noble|« Le froid du Freljord ne pardonne rien, mais l'hospitalité y est réelle. Une tribu m'a fait une place près de son feu sans rien demander d'autre qu'une histoire. Encore {reste}. Couvrez bien {chien}. »
+route|freljord|rue|« Il fait tellement froid que j'ai arrêté de sentir mes orteils hier. Je les cherche encore. Les gens d'ici rigolent quand je me plains. Encore {reste}. Gardez le feu allumé, sérieux. »
+route|freljord|sage|« Ici, la nuit dure plus longtemps que le jour, et les étoiles semblent assez proches pour qu'on les touche. Le vent raconte des choses très anciennes. J'écoute. Encore {reste}. »
+route|freljord|brut|« Neige. Vent. Un ours au loin. Il regardait ailleurs. Encore {reste}. »
+route|freljord|joyeux|« J'ai vu un poro ! En vrai ! Il a mangé la moitié de mon pain et il est reparti comme un prince. Le froid pique un peu. Beaucoup. Encore {reste} ! Bisous à {chien}. »
+route|freljord|sombre|« La neige efface les traces derrière moi. Devant, il n'y en a aucune. Personne ne saurait me retrouver ici. C'est reposant. Encore {reste}. »
+route|freljord|singulier|(La lettre est un morceau de glace, gravé d'un seul trait. Le temps qu'on l'apporte au feu, il a fondu. Il reste une flaque, et une odeur de neige.)
+
+# ---------- Ionia ----------
+route|ionia|noble|« Ionia est d'une beauté qui oblige à ralentir. Les gens me reçoivent avec politesse, mais les plus âgés me regardent encore comme un soldat d'une guerre qu'ils n'ont pas oubliée. Encore {reste}. »
+route|ionia|rue|« Ici, même les arbres ont l'air de te juger. Un vieux m'a offert du thé, puis il a fixé ma tasse pendant dix minutes sans rien dire. Jamais une tasse ne m'a autant stressé. Encore {reste}. »
+route|ionia|sage|« Les arbres chantent quand le vent passe. J'ai dormi près d'un sanctuaire, et pour la première fois depuis longtemps, je n'ai rêvé de rien. C'est un cadeau. Encore {reste}. »
+route|ionia|brut|« Beau pays. Gens silencieux. Bon thé. Encore {reste}. »
+route|ionia|joyeux|« Ionia, c'est trop beau, je vous jure. Il y a des fleurs qui brillent la nuit et des renards qui te suivent pour voir ce que tu fais. Encore {reste}, et je vous ramène des graines ! »
+route|ionia|sombre|« Ionia est belle, et blessée. On voit encore les traces de la guerre, sous les fleurs. J'aime les endroits qui se souviennent. Encore {reste}. »
+route|ionia|singulier|(Une feuille rouge arrive par la fenêtre, sans messager. Elle est pliée en forme d'oiseau. Le soir, elle n'est plus sur la table, et personne ne l'a déplacée.)
+
+# ---------- Piltover ----------
+route|piltover|noble|« Piltover mérite sa réputation : des rues propres, des vitrines éclatantes et des gens qui marchent comme s'ils étaient déjà en retard. On m'a très poliment fait payer deux péages. Encore {reste}. »
+route|piltover|rue|« Piltover, ville du progrès. Le progrès, c'est payer pour monter sur un pont et payer encore pour en descendre. Bref. Tout brille, tout coûte. Encore {reste}. »
+route|piltover|sage|« Ici, on mesure le temps à la seconde près. Les horloges sont partout, et pourtant personne n'a le temps de rien. Je marche lentement exprès. Encore {reste}. »
+route|piltover|brut|« Trop de monde. Trop de bruit. Je continue. Encore {reste}. »
+route|piltover|joyeux|« J'ai vu un ascenseur qui monte toute la falaise en une minute ! Je l'ai pris trois fois. Le garde a fini par me demander d'arrêter. Encore {reste} ! »
+route|piltover|sombre|« Les riches de Piltover dorment bien. Ils ne regardent jamais vers le bas, vers Zaun. Moi, si. Encore {reste}. »
+route|piltover|singulier|(Un petit engrenage de cuivre arrive dans une enveloppe. Quand on le pose sur la table, il tourne tout seul, trois tours, puis s'arrête.)
+
+# ---------- Zaun ----------
+route|zaun|noble|« L'air de Zaun pique la gorge, et je comprends mieux pourquoi on y vit si fort. Les gens d'en bas sont rudes, mais ils partagent tout. Je ne m'y attendais pas. Encore {reste}. »
+route|zaun|rue|« Zaun, c'est chez les miens, ou presque. Ça pue, ça tousse, ça rigole fort, et personne te demande d'où tu viens. Un gamin m'a vendu un plan faux. Puis un deuxième, pour s'excuser. Faux aussi. Encore {reste}. »
+route|zaun|sage|« Ici, la lumière ne descend jamais jusqu'au fond. Les gens en fabriquent, avec des tubes de couleur. C'est une ville qui refuse le noir. Encore {reste}. »
+route|zaun|brut|« Air sale. Gens durs. Personne ne m'embête. Encore {reste}. »
+route|zaun|joyeux|« Les passerelles de Zaun bougent quand tu marches dessus, c'est terrifiant et génial à la fois. Il y a des néons partout, on se croirait dans une fête qui ne s'arrête jamais. Encore {reste} ! »
+route|zaun|sombre|« Zaun sait très bien ce que la ville du dessus lui a fait. Elle ne l'oublie pas une seule seconde. J'aime cette rancune. Encore {reste}. »
+route|zaun|singulier|(Une fiole de verre arrive, fermée à la cire. Dedans, un peu de brume verte qui tourne lentement. Personne n'ose l'ouvrir.)
+
+# ---------- Shurima ----------
+route|shurima|noble|« Le soleil de Shurima est un adversaire honnête : il frappe fort et ne s'en cache pas. Nous voyageons la nuit et nous nous abritons le jour. Les ruines sont plus grandes que nos villes. Encore {reste}. »
+route|shurima|rue|« Le sable rentre partout. Partout. Je vous épargne les détails. Le jour, ça brûle, la nuit, ça gèle, et le chameau de tête me déteste. C'est réciproque. Encore {reste}. »
+route|shurima|sage|« Ce matin, à l'horizon, j'ai vu une ville qui n'était pas là hier. Le guide dit que c'est un mirage. Il ne la regarde pas en le disant. Encore {reste}. »
+route|shurima|brut|« Chaleur. Sable. De l'eau un jour sur deux. Ça va. Encore {reste}. »
+route|shurima|joyeux|« J'ai suivi une caravane pendant trois jours, ils m'ont appris à faire du pain sur une pierre chaude ! Il était raté. Je l'ai mangé quand même. Encore {reste} ! »
+route|shurima|sombre|« Sous le sable, il y a des tombes. Sous les tombes, il y a autre chose. Les ruines murmurent, la nuit. J'écoute. Encore {reste}. »
+route|shurima|singulier|(L'enveloppe ne contient que du sable, une bonne poignée, très fin et encore chaud. On ne sait pas comment, mais il est toujours chaud le lendemain.)
+
+# ---------- Targon ----------
+route|targon|noble|« La montée est rude, et chaque pas se mérite. Les pèlerins avancent en silence. Je fais de mon mieux pour les imiter, ce qui n'est pas toujours simple. Encore {reste}. »
+route|targon|rue|« Ça monte. Ça monte encore. Et quand t'arrives en haut d'une pente, devine quoi : ça remonte. Les pèlerins me regardent souffler comme si c'était un manque de foi. Encore {reste}. »
+route|targon|sage|« Chaque nuit, les étoiles semblent un peu plus proches. On dit qu'au sommet, elles vous répondent. Je ne sais pas encore ce que je leur demanderai. Encore {reste}. »
+route|targon|brut|« Montagne. Froid. On grimpe. Encore {reste}. »
+route|targon|joyeux|« J'ai vu une étoile filante, puis une deuxième, puis j'ai arrêté de compter ! Le ciel ici est complètement fou. J'ai le souffle court, mais le cœur plein. Encore {reste} ! »
+route|targon|sombre|« Les Solaris prient le soleil, les Lunaris la lune. Personne ne prie ce qui se trouve entre les deux. Dommage. Encore {reste}. »
+route|targon|singulier|(Un éclat de pierre arrive, qui brille faiblement dans le noir. Il réchauffe la main qui le tient. Le soir, on le surprend à briller un peu plus fort.)
+
+# ---------- Bilgewater ----------
+route|bilgewater|noble|« Bilgewater a ses codes, et ils ne sont écrits nulle part. Je garde une main sur ma bourse et l'autre sur ma réputation. Les deux tiennent pour l'instant. Encore {reste}. »
+route|bilgewater|rue|« Bilgewater, ça sent le poisson, la poudre et les mauvaises idées. Trois types ont essayé de me vendre la même carte au trésor. Le troisième était vraiment convaincant. Encore {reste}. »
+route|bilgewater|sage|« La mer donne et elle reprend, disent les gens d'ici. Ils vivent comme s'ils allaient tout perdre demain. Ils ont peut-être raison. Encore {reste}. »
+route|bilgewater|brut|« Port. Bagarres. J'en ai évité deux. Encore {reste}. »
+route|bilgewater|joyeux|« On m'a proposé de rejoindre un équipage pirate, j'ai dit non, mais j'ai gardé le chapeau ! Il est énorme. Je le mets en arrivant. Encore {reste} ! »
+route|bilgewater|sombre|« À Bilgewater, on peut acheter n'importe quoi. Même un nom. Même une mort. J'ai pris des notes. Encore {reste}. »
+route|bilgewater|singulier|(Une bouteille arrive, bouchée, avec un papier roulé à l'intérieur. Le papier est vierge. Il sent la mer, et une odeur de poudre.)
+
+# ---------- Ixtal ----------
+route|ixtal|noble|« La jungle d'Ixtal se referme derrière chaque pas, et les gens d'ici ne se montrent qu'à ceux qu'ils ont décidé d'accepter. Je n'ai encore vu personne. J'ai senti beaucoup de regards. Encore {reste}. »
+route|ixtal|rue|« Il pleut tous les jours à la même heure. Pile. Les gens d'ici règlent leur journée dessus. J'ai commencé à faire pareil. Je crois que la jungle me change. Encore {reste}. »
+route|ixtal|sage|« Ici, la terre, l'eau et le feu ne sont pas des choses, ce sont des voisins. On leur demande la permission avant de passer. Je demande. Encore {reste}. »
+route|ixtal|brut|« Jungle épaisse. Bêtes partout. On coupe. On avance. Encore {reste}. »
+route|ixtal|joyeux|« Il y a des fleurs plus grandes que moi, et des oiseaux de toutes les couleurs qui se moquent de ma démarche ! J'ai trempé mes chaussettes trois fois aujourd'hui. Encore {reste} ! »
+route|ixtal|sombre|« La jungle ne veut pas de nous. Elle le dit à chaque pas, très poliment, avec des épines. Encore {reste}. »
+route|ixtal|singulier|(Une graine arrive, grosse comme un poing. On la pose sur le rebord de la fenêtre. Le lendemain matin, elle a germé.)
+
+# ---------- Bandle ----------
+route|bandle|noble|« Les portails de Bandle n'obéissent à aucune logique que je connaisse. J'ai traversé trois saisons en un après-midi, et un yordle très aimable m'a servi le thé onze fois. Encore {reste}. »
+route|bandle|rue|« Bandle, c'est n'importe quoi. J'ai traversé un été puis une tempête de neige en trois pas. Un yordle m'a dit que c'était « normal pour un mardi ». On est jeudi. Encore {reste}. »
+route|bandle|sage|« Ici, le chemin dépend de l'humeur de celui qui marche. J'essaie d'avoir l'humeur juste. Ce n'est pas facile. Encore {reste}. »
+route|bandle|brut|« Tout est petit. Je me cogne. Encore {reste}. »
+route|bandle|joyeux|« J'ai pris le thé avec un yordle ! La tasse était minuscule, alors il m'en a servi onze. On est potes, maintenant. Il me propose de venir à son anniversaire, qui est tous les jours. Encore {reste} ! »
+route|bandle|sombre|« Les yordles ont l'air inoffensifs. C'est précisément ce qui m'inquiète. Encore {reste}. »
+route|bandle|singulier|(La lettre change de taille quand on la regarde. Petite, puis grande, puis petite. On finit par la ranger dans un tiroir, qui grince d'un air vexé.)
+
+# ---------- À plusieurs (écrite par le premier voyageur, à la première personne du pluriel ou avec « on ») ----------
+route2|demacia|*|« Petit point depuis Demacia : on s'est fait contrôler trois fois aujourd'hui, et {compagnon} a fini par connaître les gardes par leur prénom. Encore {reste}. Tout va bien. »
+route2|demacia|*|« {compagnon} a voulu discuter avec une statue de héros demacien. La statue n'a rien dit, un garde si. On repart. Encore {reste}. »
+route2|noxus|*|« Les routes de Noxus sont tellement droites qu'on n'a même pas pu se disputer sur le chemin. {compagnon} trouve ça dommage. Moi aussi, un peu. Encore {reste}. »
+route2|noxus|*|« On a dormi dans une auberge où tout le monde se regardait en coin. {compagnon} a gagné trois parties de dés et on est partis très vite. Encore {reste}. »
+route2|freljord|*|« {compagnon} ronfle comme un ours, mais par ce froid, avoir quelqu'un à côté de soi, ça n'a pas de prix. Encore {reste}. Gardez le feu allumé. »
+route2|freljord|*|« Une tribu nous a fait une place près du feu, contre une histoire. On a raconté le repère. Ils ont adoré le passage avec {chien}. Encore {reste}. »
+route2|ionia|*|« Ionia est sublime. {compagnon} s'arrête toutes les dix minutes pour regarder un arbre, et j'ai arrêté de râler parce que j'en fais autant. Encore {reste}. »
+route2|ionia|*|« Un moine nous a offert du thé et a demandé à {compagnon} de méditer avec lui. Ça a duré une heure. J'ai piqué du nez. Encore {reste}. »
+route2|piltover|*|« À Piltover, on a payé deux péages pour traverser un pont. {compagnon} a voulu négocier. Ça a coûté un troisième péage. Encore {reste}. »
+route2|piltover|*|« {compagnon} a collé son nez à toutes les vitrines de l'avenue. On a mis trois heures à faire cent mètres. Encore {reste}. »
+route2|zaun|*|« L'air de Zaun pique, alors on a acheté des foulards. {compagnon} a choisi le plus moche exprès. Encore {reste}. »
+route2|zaun|*|« Un gamin nous a vendu un plan de la ville. Faux. {compagnon} lui a acheté le deuxième pour l'encourager. Faux aussi. On a trouvé quand même. Encore {reste}. »
+route2|shurima|*|« On voyage la nuit, on dort le jour, et {compagnon} trouve le moyen de se plaindre du sable même en dormant. Encore {reste}. »
+route2|shurima|*|« On a vu une ville au loin, ce matin. {compagnon} dit que c'est un mirage. Je dis que non. On a parié le dîner. Encore {reste}. »
+route2|targon|*|« Ça monte, ça monte encore. {compagnon} chante pour se donner du courage. Ça ne m'en donne pas, mais ça fait rire les pèlerins. Encore {reste}. »
+route2|targon|*|« Cette nuit, on a compté les étoiles filantes avec {compagnon}. On n'est pas d'accord sur le nombre. Encore {reste}. »
+route2|bilgewater|*|« À Bilgewater, on se tient à côté et on garde chacun une main sur la bourse de l'autre. Ça marche. Pour l'instant. Encore {reste}. »
+route2|bilgewater|*|« {compagnon} a failli s'engager sur un bateau pirate pour le chapeau. J'ai réussi à l'en empêcher. Pour le chapeau, trop tard. Encore {reste}. »
+route2|ixtal|*|« La jungle est trempée, nous aussi. {compagnon} a juré à une liane, la liane a gagné. Encore {reste}. »
+route2|ixtal|*|« Il pleut tous les jours à la même heure. Avec {compagnon}, on a pris l'habitude de faire la sieste pile à ce moment-là. Encore {reste}. »
+route2|bandle|*|« On a traversé trois saisons en un après-midi. {compagnon} a gardé son écharpe tout le long, et pour une fois, c'était la bonne décision. Encore {reste}. »
+route2|bandle|*|« Un yordle nous a offert le thé. {compagnon} a cassé une tasse minuscule et a demandé pardon pendant une heure. Encore {reste}. »
+
+# ---------- À l'arrivée ----------
+arrivee|*|noble|« Je suis sur place, {a_lieu}. Ce que je cherche est ici, je le sens. Je vous écris dès que c'est terminé. »
+arrivee|*|rue|« Bon, j'y suis. {a_lieu}, enfin. Maintenant, le plus dur. Je vous raconte quand c'est réglé. »
+arrivee|*|sage|« Le chemin s'arrête ici, {a_lieu}. Le reste ne dépend plus de mes pieds. Pensez à moi ce soir. »
+arrivee|*|brut|« Sur place. Je m'en occupe. »
+arrivee|*|joyeux|« J'y suis ! {a_lieu} ! J'ai le trac, mais le bon trac. Croisez les doigts pour moi ce soir, au dîner ! »
+arrivee|*|sombre|« J'ai atteint l'endroit où les choses commencent vraiment, {a_lieu}. Ne m'attendez pas trop vite. »
+arrivee|*|singulier|(Un messager apporte un mot daté {de_lieu}. Il n'y a qu'un seul signe dessus, tracé très soigneusement. Tout le monde comprend que c'est « j'y suis ».)
+arrivee2|*|*|« On y est, {a_lieu}. Le voyage est fini, le vrai travail commence. On vous écrit dès que c'est réglé. »
+arrivee2|*|*|« Arrivée {a_lieu}. Tout le monde va bien, tout le monde a faim. Le plus dur commence demain. Pensez à nous au dîner. »

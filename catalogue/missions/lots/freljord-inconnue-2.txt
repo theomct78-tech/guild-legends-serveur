@@ -1,0 +1,504 @@
+# Freljord · palier Inconnue · lot 2 (missions 026 à 050, dont les institutionnelles 041 à 050)
+
+=== FRE-I-026 | La conteuse d'Avarosa
+source: privee
+region: freljord
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Avarosan
+demandeur: Grand-mère Thyra, conteuse, cent histoires dans la tête et presque autant d'années
+accroche: « Je raconte les histoires d'Avarosa depuis soixante ans. Un prêtre en robe bleue est venu me dire que certaines histoires sont fausses, et que si je continue, il y aura des conséquences. Je suis trop vieille pour avoir peur. Pas mes petits-enfants. »
+postes: Support, Tank
+duree: 4
+dangereuse: non
+epreuves: diplomatie 38 (convaincre les anciens d'Avarosan de protéger la conteuse publiquement) ; combat 32 (tenir à distance les deux hommes du prêtre, venus « parler » à la famille)
+complication: L'histoire que le prêtre veut interdire raconte le retour d'Avarosa. C'est précisément celle que les Gardiens du givre étouffent partout depuis des siècles.
+eclatante: {meneur} obtient des anciens qu'ils viennent écouter la conteuse, tous ensemble, devant la grande maison. Thyra raconte l'histoire interdite, à voix haute, devant tout le village. Les hommes du prêtre repartent sans un mot. Les petits-enfants de Thyra l'apprennent par cœur. Elle offre à la guilde une histoire qu'elle n'avait jamais racontée à personne, et qui parle d'un repère, d'une guilde, et d'un feu qui ne s'éteint pas.
+reussite: Les anciens accordent leur protection à la conteuse. Le prêtre ne revient pas. Thyra continue, un peu moins fort.
+partielle: Les hommes du prêtre sont repartis, mais Thyra a décidé de ne plus raconter cette histoire-là. Les autres, si.
+echec: Les hommes du prêtre ont brûlé la porte de la famille. Thyra est partie vivre chez sa fille, à l'autre bout du pays.
+recompenses: po 20 ; reputation 3 ; objet Tome d'amplification 6
+
+=== FRE-I-027 | Le vendeur de Glace pure
+source: privee
+region: freljord
+palier: inconnue
+type: traque
+ton: drole
+lieu: Quchar
+demandeur: Hrafn, ancien du village, qui s'est fait avoir
+accroche: « Un marchand nous a vendu un éclat de Glace pure. La vraie, la glace qui ne fond jamais. Elle a fondu dans la nuit. Toute la sacoche d'ambre du village est partie avec lui. Il ne peut pas être loin : il boite, il chante faux, et il porte un chapeau à plumes. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: poursuite 32 (rattraper un escroc qui a deux jours d'avance, mais qui boite) ; diplomatie 30 (récupérer l'ambre sans le battre, parce que les Ebrataal ne veulent pas de sang)
+complication: Le marchand a déjà vendu la même fausse glace dans trois villages. Les trois villages le cherchent aussi.
+eclatante: {meneur} retrouve le marchand dans une auberge, en train de vendre son quatrième éclat. {meneur} le force à rendre l'ambre aux quatre villages, puis le laisse partir sans son chapeau à plumes, qui est remis à Hrafn. Le vieil homme le porte désormais aux fêtes, en racontant l'histoire de « l'homme qui vendait de l'eau ». Quchar rit beaucoup. Elle n'avait pas ri depuis longtemps.
+reussite: L'ambre est récupéré, l'escroc s'enfuit en chantant faux. Hrafn ne fait plus confiance à aucun marchand, ce qui est peut-être une bonne chose.
+partielle: {meneur} a récupéré la moitié de l'ambre. L'autre moitié a été dépensée dans une taverne, en hydromel et en chansons.
+echec: L'escroc a disparu vers le sud. Quchar a perdu son ambre, et Hrafn sa réputation de sage.
+recompenses: po 20 ; reputation 1 ; objet Charme féerique 6
+
+=== FRE-I-028 | Les loups blancs du col
+source: privee
+region: freljord
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Monts Ridgeback
+demandeur: Ingrid, guide des cols, qui refuse de faire passer qui que ce soit tant que la meute est là
+accroche: « Ils sont blancs comme la neige, alors on ne les voit qu'au dernier moment. Une meute de douze. Ils suivent les voyageurs pendant des jours, ils attendent qu'ils soient fatigués. Ils sont patients. Moi, non. »
+postes: Tireur
+duree: 6
+dangereuse: non
+epreuves: poursuite 33 (repérer une meute blanche dans la neige blanche) ; nuee 36 (tenir face à douze loups qui attaquent ensemble, au crépuscule)
+complication: La meute est menée par un vieux loup borgne que les guides connaissent depuis quinze ans. Il n'a jamais attaqué un homme avant cet hiver. Quelque chose l'a chassé de son territoire.
+eclatante: {meneur} abat le vieux loup borgne au moment où il mène la charge. La meute se disperse. En remontant sa piste, {meneur} trouve son ancien territoire : une vallée où un clan de trolls des glaces s'est installé cet automne. Ingrid ouvre de nouveau le col. Elle prévient aussi les villages : les trolls descendent.
+reussite: La meute est chassée et le col rouvert. Ingrid reprend ses passages, prudemment, avec une lance de plus.
+partielle: {meneur} a tué quatre loups. La meute s'est retirée. Elle reviendra.
+echec: La meute a eu le dessus. Ingrid garde le col fermé jusqu'au printemps, et les marchands le reprochent à la guilde.
+recompenses: po 30 ; reputation 2 ; objet Épée longue 7
+
+=== FRE-I-029 | La femme qui sourit dans la glace
+source: privee
+region: freljord
+palier: inconnue
+type: enquete
+ton: horreur
+lieu: Ghulfrost
+demandeur: Bodvar, chasseur, qui a trouvé quelque chose sur les falaises
+accroche: « Une femme, debout dans la glace, les yeux ouverts. Elle sourit. Je l'ai vue il y a trois jours. Hier, elle souriait encore, mais elle avait tourné la tête vers moi. »
+postes: Éclaireur, Healer
+duree: 4
+dangereuse: non
+epreuves: voyage 36 (remonter jusqu'aux falaises de Ghulfrost malgré le vent) ; discretion 37 (approcher la femme gelée, et la regarder sans s'y perdre)
+complication: La femme n'est pas morte. C'est une voyageuse, tombée dans une crevasse, que le froid a figée dans un sommeil profond. Elle respire encore, très lentement. Le sourire, c'est le froid.
+eclatante: {meneur} remarque une fine buée sur la glace, devant les lèvres. Elle respire. L'équipe taille la glace pendant des heures, avec des gestes infinis, puis réchauffe la femme petit à petit. Elle se réveille deux jours plus tard. Elle s'appelle Rán, elle était partie seule chercher son frère. Elle ne se souvient que d'un rêve très bleu, où quelqu'un lui disait d'attendre.
+reussite: La femme est sortie de la glace, morte. L'équipe lui donne une sépulture. Le sourire, lui, ne s'efface pas.
+partielle: L'équipe n'a pas osé l'approcher. Le lendemain, la glace était vide.
+echec: Un membre de l'équipe a regardé trop longtemps. Il a fallu le traîner loin des falaises. Il ne se souvient pas de ce qu'il a vu.
+recompenses: po 20 ; reputation 2 ; objet Potion de soin 9
+
+=== FRE-I-030 | La sentence de la mère de guerre
+source: privee
+region: freljord
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Yadulsk
+demandeur: Gerd, dont le fils de dix-sept ans doit être exilé à l'aube
+accroche: « Mon fils a refusé de piller un village pendant un raid, parce qu'il y avait des enfants. La mère de guerre de notre bande l'a déclaré lâche. Lâche, chez nous, c'est l'exil, en hiver, sans arme. C'est la mort, mais lente. »
+postes: Support, Combattant
+duree: 4
+dangereuse: non
+epreuves: diplomatie 40 (plaider la cause du garçon devant une mère de guerre qui ne revient jamais sur ses décisions) ; combat 34 (s'il le faut, défendre le garçon dans un duel de réparation)
+complication: La mère de guerre n'a pas le choix : si elle pardonne, d'autres guerriers refuseront de piller. Elle a besoin qu'on lui offre une sortie honorable.
+eclatante: {meneur} propose à la mère de guerre une épreuve plutôt qu'un exil : le garçon devra protéger seul le campement pendant trois nuits, face aux loups. S'il survit, il prouvera qu'il n'est pas lâche. Le garçon survit. La mère de guerre le déclare « gardien du camp », un rôle qui n'existait pas et qui existe désormais. Il ne pillera plus jamais, et personne ne le lui reprochera.
+reussite: L'exil est commué en une année de corvées. Le garçon reste au camp, humilié mais vivant.
+partielle: L'exil est maintenu, mais le garçon part avec une arme et des provisions. Sa mère espère qu'il trouvera un autre clan.
+echec: L'exil a eu lieu, à l'aube, sans arme. Gerd ne parlera plus jamais à la mère de guerre.
+recompenses: po 20 ; reputation 3 ; objet Bouclier de Doran 6
+
+=== FRE-I-031 | Les fourrures du refuge
+source: privee
+region: freljord
+palier: inconnue
+type: livraison
+ton: tragique
+lieu: Village des Enfants trouvés
+demandeur: Valgerd, tisserande d'un village voisin, qui a cousu tout l'été
+accroche: « Quarante manteaux pour les orphelins du refuge, avant la grande tempête. Mon mari les portait chaque année. Il est mort cet automne. Les manteaux sont prêts. Je ne sais pas mener un traîneau. »
+postes: Healer
+duree: 6
+dangereuse: non
+epreuves: voyage 35 (mener un traîneau chargé jusqu'au refuge, avant que la tempête ne ferme les cols) ; nuee 30 (repousser les loups affamés que la tempête pousse vers les vallées)
+complication: Au refuge, une fièvre a commencé. Les orphelins ont besoin de manteaux, mais aussi de soins, et les gardiens sont débordés.
+eclatante: Les manteaux arrivent avec la tempête sur les talons. {meneur} reste trois jours au refuge pour soigner les enfants malades. Aucun ne meurt. Valgerd, qui a accompagné le traîneau, ne repart pas : elle devient la tisserande du refuge. Elle dit que son mari aurait voulu ça. Les orphelins l'appellent grand-mère au bout d'une semaine.
+reussite: Les manteaux sont livrés. Les enfants passeront l'hiver au chaud. Les gardiens remercient {meneur} à genoux, à la mode du nord.
+partielle: Une partie des manteaux a été perdue dans la tempête. Les plus jeunes ont été servis en premier.
+echec: La tempête a fermé le col. {meneur} a dû faire demi-tour. Les manteaux sont arrivés au printemps.
+recompenses: po 20 ; reputation 3 ; objet Potion de soin 10
+
+=== FRE-I-032 | Le bélier sacré d'Ornnkaal
+source: privee
+region: freljord
+palier: inconnue
+type: recuperation
+ton: drole
+lieu: Rocs d'Ornnkaal
+demandeur: Ásgeir, gardien du pèlerinage, qui n'a jamais perdu un bélier en quarante ans
+accroche: « Chaque printemps, un bélier sacré mène les pèlerins jusqu'aux rochers. Il connaît le chemin. Cette année, il a vu une brebis sur la colline d'en face. Il ne connaît plus le chemin. Les pèlerins arrivent demain. »
+postes: Support, DPS
+duree: 3
+dangereuse: non
+epreuves: poursuite 38 (rattraper un bélier amoureux et très déterminé à travers les rochers) ; diplomatie 32 (expliquer aux pèlerins pourquoi la cérémonie commence en retard)
+complication: La brebis appartient à un clan rival, qui refuse de la rendre et réclame le bélier en compensation.
+eclatante: {meneur} rattrape le bélier, qui refuse de partir sans la brebis. L'équipe négocie avec le clan rival : la brebis accompagnera le bélier au pèlerinage, et les deux clans marcheront ensemble derrière eux. C'est la première fois depuis cent ans. Les pèlerins trouvent ça très beau. Ásgeir se demande comment il va expliquer ça à Ornn, s'il passe par là.
+reussite: Le bélier est ramené, sans la brebis, très en colère. Il mène les pèlerins en ronchonnant. La cérémonie a lieu.
+partielle: Le bélier est ramené, mais il s'est enfui de nouveau au milieu de la cérémonie. Les pèlerins ont fini le chemin sans guide.
+echec: Le bélier et la brebis sont partis ensemble vers les montagnes. Les pèlerins ont attendu toute la journée.
+recompenses: po 15 ; reputation 1 ; objet Élixir de fer 5
+
+=== FRE-I-033 | Les lumières sous la glace
+source: privee
+region: freljord
+palier: inconnue
+type: exploration
+ton: mystere
+lieu: Mer de Glace
+demandeur: Kára, pêcheuse, qui a vu des lumières bouger sous la glace
+accroche: « Des lumières, sous la glace, la nuit. Bleues, vertes, qui se déplacent lentement, comme des lanternes portées par quelqu'un qui marche. Personne ne marche sous la mer. »
+postes: Éclaireur, Support
+duree: 5
+dangereuse: non
+epreuves: voyage 37 (avancer loin sur la mer gelée, de nuit, sans perdre la rive de vue) ; discretion 35 (observer les lumières sans les effrayer)
+complication: Les lumières sont celles de bancs de poissons phosphorescents, qui remontent une fois tous les dix ans pour frayer. La légende dit que celui qui les voit aura une année de bonne pêche, s'il ne les poursuit pas.
+eclatante: {meneur} reconnaît les poissons-lanternes dont parlent les vieux contes de pêcheurs. L'équipe et Kára les regardent passer jusqu'à l'aube, sans bouger. Kára a la meilleure pêche de sa vie l'année suivante. Elle envoie à la guilde un tonneau de poisson salé chaque saison. Personne n'a encore osé lui dire d'arrêter.
+reussite: L'équipe a vu les lumières et compris qu'il s'agissait de poissons. Kára est rassurée. Elle ne les poursuivra pas.
+partielle: Les lumières ont disparu quand l'équipe s'est approchée. Kára dit qu'on les a fait fuir. Elle a peut-être raison.
+echec: L'équipe a voulu suivre les lumières, et la glace a craqué. Tout le monde s'en est sorti, mais Kára refuse de revenir sur le lac.
+recompenses: po 20 ; reputation 2 ; objet Cristal de saphir 7
+
+=== FRE-I-034 | Le fuyard des Ursidés
+source: privee
+region: freljord
+palier: inconnue
+type: traque
+ton: tragique
+lieu: Monts Ridgeback
+demandeur: Hjalti, ancien adepte des Ursidés, qui se cache dans une grotte
+accroche: « J'ai suivi le grand ours parce que j'avais faim et froid. Maintenant, je n'ai plus faim, mais j'ai du sang sur les mains qui n'est pas le mien. Je veux partir vers le sud. Mes frères me cherchent. Ils ne pardonnent pas. »
+postes: Éclaireur, Support
+duree: 6
+dangereuse: non
+epreuves: discretion 38 (faire sortir un fugitif des montagnes sous le nez des Ursidés qui le traquent) ; poursuite 35 (semer les traqueurs dans la neige fraîche)
+complication: Hjalti n'est pas innocent. Il a participé à des raids. Il cherche une nouvelle vie, mais une famille d'un village qu'il a pillé le cherche aussi, pour la justice.
+eclatante: {meneur} fait sortir Hjalti des montagnes par un passage que seuls les guides connaissent. En chemin, il raconte tout, les raids, les morts. À la frontière des Monts, l'équipe le conduit chez la famille qu'il a fait souffrir, à sa demande. Ce qui se passe entre eux ne regarde qu'eux. Hjalti repart vers le sud le lendemain, avec un fardeau de moins et une dette de plus.
+reussite: Hjalti est conduit loin des montagnes. Il part vers le sud. On ne saura jamais s'il a vraiment changé.
+partielle: Les Ursidés ont retrouvé la piste, et Hjalti a dû se cacher de nouveau. Il attend une autre chance.
+echec: Les Ursidés ont rattrapé l'équipe et repris Hjalti. On ne l'a plus jamais revu.
+recompenses: po 20 ; reputation 2 ; objet Cape de négation 6
+
+=== FRE-I-035 | Le bras de fer d'Avarosan
+source: privee
+region: freljord
+palier: inconnue
+type: escorte
+ton: drole
+lieu: Avarosan
+demandeur: Halla la Montagne, championne de bras de fer de six villages
+accroche: « Le grand tournoi de bras de fer est à Avarosan dans quatre jours. Les champions des autres villages ont juré de m'empêcher d'y arriver. L'un d'eux a déjà essayé de me casser le bras dans mon sommeil. C'est mon bras qui l'a cassé, lui. Mais je préfère dormir tranquille. »
+postes: Combattant
+duree: 5
+dangereuse: non
+epreuves: voyage 30 (accompagner la championne jusqu'à Avarosan, à travers les collines) ; combat 32 (repousser les tentatives de sabotage de ses rivaux, nombreux et inventifs)
+complication: Le vrai rival de Halla n'est pas un homme : c'est sa propre sœur, championne d'un autre village, qu'elle n'a pas revue depuis dix ans.
+eclatante: Halla arrive à Avarosan avec ses deux bras et une humeur splendide. {meneur} découvre que la championne d'en face est sa sœur, et organise leur rencontre avant le tournoi. Elles se battent en finale, sous les hurlements de la foule. Halla gagne, de peu. Les deux sœurs passent la nuit à boire ensemble. Elles annoncent qu'elles feront équipe l'an prochain, contre tout le Freljord.
+reussite: Halla arrive à Avarosan et remporte le tournoi. Elle soulève {meneur} au-dessus de sa tête en signe de remerciement.
+partielle: Halla est arrivée avec une épaule froissée. Elle a perdu en finale. Elle accuse la guilde, puis s'excuse.
+echec: Les rivaux ont empoisonné l'hydromel de Halla en chemin. Elle a passé le tournoi au lit.
+recompenses: po 15 ; reputation 1 ; objet Élixir de rage 6
+
+=== FRE-I-036 | La cabane de la vieille Grima
+source: privee
+region: freljord
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Winterspike
+demandeur: Les fermiers d'un hameau qui veulent brûler une cabane
+accroche: « La vieille Grima vit seule dans la forêt. Depuis qu'elle est là, les bêtes tombent malades, le lait tourne, et un enfant a vu des lumières chez elle la nuit. Nous voulons brûler la cabane. Le chef a dit d'appeler quelqu'un d'abord. »
+postes: Support, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: discretion 34 (observer la cabane de Grima la nuit, pour savoir ce qu'elle y fait vraiment) ; diplomatie 39 (convaincre les fermiers de ne pas la brûler, quoi qu'ils pensent)
+complication: Grima est une guérisseuse. Les bêtes tombent malades à cause d'une source empoisonnée par une carcasse, et c'est elle qui les soigne la nuit, en cachette, parce que personne ne veut d'elle.
+eclatante: {meneur} surprend Grima, la nuit, en train de soigner une vache du hameau dans l'étable. Les lumières sont ses lampes. L'équipe trouve la source empoisonnée et la carcasse. Les fermiers, honteux, apportent à Grima un panier de vivres. Elle les fait attendre une heure avant d'ouvrir. Puis elle leur explique comment soigner leurs bêtes. Elle n'a plus jamais été seule l'hiver.
+reussite: L'équipe a prouvé que Grima n'y était pour rien. Les fermiers renoncent à brûler la cabane, mais ils ne lui parlent toujours pas.
+partielle: La cabane est épargnée, mais Grima a eu peur. Elle est partie plus loin dans la forêt.
+echec: La cabane a été brûlée. Grima a disparu. Les bêtes continuent de tomber malades.
+recompenses: po 20 ; reputation 2 ; objet Charme féerique 7
+
+=== FRE-I-037 | Le sel du Frosthorn
+source: privee
+region: freljord
+palier: inconnue
+type: escorte
+ton: aventure
+lieu: Pic de Frosthorn
+demandeur: Ormar, marchand de sel, qui traverse les pics une fois par an
+accroche: « Du sel de la côte pour les villages des hauteurs. Sans sel, pas de viande conservée, pas d'hiver. Le col du Frosthorn est le seul passage, et cette année, quelqu'un a coupé les cordes de la passerelle. »
+postes: Tank, Éclaireur
+duree: 8
+dangereuse: non
+epreuves: voyage 41 (franchir les pics par un col dont la passerelle a été coupée) ; combat 34 (repousser ceux qui ont coupé les cordes et attendent les convois)
+complication: Ce ne sont pas des pillards qui ont coupé les cordes : ce sont des Draklorn des Gardiens du givre, qui veulent que les villages des hauteurs aient besoin de la Citadelle pour survivre à l'hiver.
+eclatante: {meneur} trouve un autre passage, par une corniche que les guides ont oubliée. Le convoi arrive. Les Draklorn, qui attendaient au pied de la passerelle, ne voient rien passer. Ormar distribue son sel dans six villages. Il prévient aussi les Avarosans de ce qui se passe au Frosthorn. La guilde a fait deux choses en une : un convoi, et une alerte.
+reussite: Le convoi passe, après avoir repoussé une embuscade. Les villages auront leur sel.
+partielle: La moitié du sel a été perdue dans un ravin. Les villages des hauteurs rationneront.
+echec: L'équipe a dû faire demi-tour. Les villages des hauteurs sont allés demander du sel à la Citadelle.
+recompenses: po 35 ; reputation 2 ; objet Bottes 7
+
+=== FRE-I-038 | Le dernier hiver d'Inga
+source: privee
+region: freljord
+palier: inconnue
+type: escorte
+ton: tendre
+lieu: Veille du Yéti
+demandeur: Inga, quatre-vingt-dix ans, qui a toujours su ce qu'elle voulait
+accroche: « Mon mari et moi, nous nous sommes rencontrés à la Veille du Yéti, il y a soixante-dix ans. Il y est mort il y a dix ans. Je voudrais passer mon dernier hiver là où tout a commencé. Ma famille dit que je suis folle. Ma famille se trompe rarement, mais cette fois, si. »
+postes: Support
+duree: 7
+dangereuse: non
+epreuves: voyage 35 (conduire une très vieille femme jusqu'aux ruines, dans la neige, sans la briser) ; diplomatie 28 (convaincre sa famille de la laisser faire, ou au moins de la laisser partir)
+complication: Inga n'est pas mourante. Elle veut simplement vivre seule, enfin, dans un endroit qu'elle aime. Elle a des provisions pour trois ans.
+eclatante: Inga arrive à la Veille du Yéti, et {meneur} l'aide à remonter la petite cabane de pierre où elle a vécu avec son mari. Sa famille vient lui rendre visite au printemps, et la trouve en pleine forme, ravie, entourée de poros. Elle a même vu le yéti, dit-elle. Personne ne la croit. Elle s'en fiche complètement.
+reussite: Inga est conduite jusqu'aux ruines. Elle s'installe. Sa famille vient la voir chaque mois. Elle les renvoie chaque fois en disant qu'ils l'ennuient.
+partielle: La neige était trop épaisse. Inga a dû s'installer dans un village à une journée de la Veille. Elle y monte chaque été.
+echec: Inga a pris froid en chemin. Il a fallu la ramener chez elle. Elle ne pardonnera pas à la guilde.
+recompenses: po 15 ; reputation 3 ; objet Potion de soin 8
+
+=== FRE-I-039 | La source chaude
+source: privee
+region: freljord
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Montagne Brisée
+demandeur: Steinunn, ancienne d'un clan de la Montagne Brisée
+accroche: « Une source chaude coule sur nos terres depuis toujours. Nous la partageons avec le clan d'en face, un jour sur deux. Ils ont construit un mur autour pendant la nuit. Ils disent qu'elle leur appartient, maintenant. L'hiver arrive. Nos enfants vont geler. »
+postes: Support, Tank
+duree: 5
+dangereuse: non
+epreuves: diplomatie 40 (convaincre le clan d'en face d'abattre son mur sans en venir aux armes) ; siege 34 (si nécessaire, abattre le mur sans blesser ceux qui le gardent)
+complication: Le clan d'en face n'a pas construit le mur par cupidité : leur propre source s'est tarie après un tremblement de terre. Ils ont honte de demander.
+eclatante: {meneur} découvre la source tarie du clan d'en face, et comprend. L'équipe réunit les deux clans et leur propose de partager la source en même temps, en élargissant le bassin. Les deux clans travaillent ensemble pendant une semaine. La source chaude devient un lieu de rencontre. Il y a eu trois mariages l'été suivant.
+reussite: Le mur est abattu et le partage rétabli. Le clan d'en face est humilié, mais il a de l'eau chaude un jour sur deux.
+partielle: Un accord temporaire est trouvé pour l'hiver. Au printemps, il faudra tout recommencer.
+echec: Les deux clans en sont venus aux armes. Il y a eu des blessés. La source est maintenant gardée jour et nuit.
+recompenses: po 20 ; reputation 3 ; objet Pioche 6
+
+=== FRE-I-040 | Le marchand de Noxus
+source: privee
+region: freljord
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Village des Enfants de la Glace
+demandeur: Ásta, femme du chef, qui pense que pendre un homme n'est jamais une solution simple
+accroche: « Un marchand noxien a été trouvé dans la neige, avec un traîneau de marchandises et une carte de nos vallées. Les hommes veulent le pendre comme espion. Il dit qu'il n'est qu'un marchand. Peut-être. Mais une carte de nos vallées, c'est beaucoup pour un marchand. »
+postes: Support, Assassin
+duree: 4
+dangereuse: non
+epreuves: discretion 37 (fouiller le traîneau et les affaires du marchand, pour savoir qui il est vraiment) ; diplomatie 38 (convaincre les hommes du village d'écouter avant de pendre)
+complication: Le marchand n'est pas un espion. La carte, il l'a achetée à un vrai espion noxien, qui sillonne les vallées depuis des semaines et qui est toujours là.
+eclatante: {meneur} trouve dans le traîneau une note de paiement à un certain « Kalyn », avec un lieu de rendez-vous. Le marchand est épargné et aide le village à tendre un piège. L'espion est capturé au rendez-vous. Le chef du village laisse partir le marchand, avec un conseil : ne plus jamais acheter de carte. La guilde a gagné un ami chez les Enfants de la Glace, et peut-être un ennemi à Noxus.
+reussite: L'équipe a prouvé que le marchand disait vrai. Il est relâché, avec son traîneau. La carte, elle, est brûlée.
+partielle: Le marchand est relâché, mais sans son traîneau. Le village garde un doute sur lui, et sur la guilde.
+echec: Le marchand a été pendu. On a appris plus tard qu'il n'était qu'un marchand.
+recompenses: po 20 ; reputation 2 ; objet Dague 6
+
+=== FRE-I-041 | Le raid sur Winterspike
+source: institution
+region: freljord
+palier: inconnue
+type: defense
+ton: aventure
+lieu: Winterspike
+demandeur: La Chambre des Bannières, à la demande des anciens d'un hameau du sud
+accroche: « Une petite bande de la Griffe hivernale prépare un raid sur un hameau de Winterspike. Une dizaine de guerriers, jeunes, pressés de faire leurs preuves. Le hameau compte trente personnes et quatre lances. »
+postes: Tank, DPS, Tireur
+duree: 7
+dangereuse: non
+epreuves: siege 36 (renforcer la palissade du hameau avant l'aube) ; combat 41 (repousser l'assaut des jeunes pillards) ; poursuite 34 (les empêcher de se replier avec les bêtes volées)
+complication: Le chef de la bande est le fils d'un ancien du hameau, parti rejoindre la Griffe il y a cinq ans.
+eclatante: L'assaut est repoussé à la palissade. {meneur} désarme le chef de la bande, et le reconnaît, sur ordre de l'ancien. Le père et le fils se font face au milieu de la neige. Le fils ne revient pas, mais la bande repart sans un seul mort, et sans le bétail. L'ancien dit que c'est ce qu'il pouvait espérer de mieux. L'organisme note une mission « sans perte ».
+reussite: Le raid est repoussé, avec quelques blessés. Le hameau garde ses bêtes et ses toits.
+partielle: Les pillards ont été repoussés, mais ils ont emporté une partie du bétail.
+echec: Le hameau a été pillé. Les habitants se sont réfugiés dans la forêt. L'organisme note l'échec.
+recompenses: po 50 ; reputation 3 ; objet Armure de tissu 8
+
+=== FRE-I-042 | L'envoyée chez les trolls
+source: institution
+region: freljord
+palier: inconnue
+type: escorte
+ton: politique
+lieu: Village des trolls des glaces
+demandeur: La Chambre des Bannières, à la demande des Avarosans, pour accompagner une envoyée
+accroche: « Une envoyée des Avarosans doit obtenir des trolls des glaces le droit de passage pour les convois du nord. Les trolls ne reçoivent personne qui n'apporte pas de présent. Ils mangent généralement les autres. »
+postes: Support, Tank, Éclaireur
+duree: 8
+dangereuse: non
+epreuves: voyage 39 (atteindre le village des trolls dans les Monts Ridgeback) ; diplomatie 40 (présenter l'envoyée et son présent de manière à ne pas vexer des trolls très susceptibles) ; combat 33 (si les trolls se vexent quand même, repartir avec l'envoyée entière)
+complication: Le présent choisi par les Avarosans est une hache. Chez les trolls des glaces, offrir une hache à un chef, c'est le défier en duel.
+eclatante: {meneur} découvre la coutume des haches juste avant l'audience, et remplace le présent par un tonneau d'hydromel trouvé en chemin. Le chef troll est ravi. Il accorde le passage, et propose un concours de boisson à l'envoyée, qu'elle perd honorablement. L'organisme reçoit des Avarosans des remerciements appuyés, et une question : qui, dans cette guilde, connaissait les coutumes des trolls ?
+reussite: L'envoyée obtient le passage pour les convois, contre un péage en viande. Personne n'a été mangé.
+partielle: Les trolls acceptent de réfléchir. L'envoyée devra revenir avec un meilleur présent.
+echec: Les trolls se sont vexés. L'envoyée est revenue sans passage, et sans sa cape.
+recompenses: po 45 ; reputation 4 ; objet Bouclier de Doran 8
+
+=== FRE-I-043 | La fièvre blanche
+source: institution
+region: freljord
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Village des Enfants trouvés
+demandeur: La Chambre des Bannières, à la demande des gardiens du refuge
+accroche: « Une fièvre court parmi les orphelins du refuge. Les gardiens ne sont plus que trois. La Citadelle ne répond pas. Il faut des soigneurs, des vivres et des bras, avant que la fièvre ne gagne tout le refuge. »
+postes: Healer, Support
+duree: 8
+dangereuse: non
+epreuves: voyage 37 (atteindre le refuge par les cols enneigés) ; diplomatie 36 (obtenir des villages voisins de quoi nourrir les enfants, alors qu'ils craignent la contagion)
+complication: La Citadelle ne répond pas parce qu'elle a décidé de laisser la fièvre faire son tri. Ceux qui survivent au froid et à la fièvre l'intéressent. Les autres, non.
+eclatante: {meneur} soigne les enfants nuit et jour, et l'équipe obtient des villages voisins des vivres, en promettant que la fièvre ne sortira pas du refuge. Elle n'en sort pas. Aucun enfant ne meurt. Les gardiens remercient la guilde en silence, parce qu'ils savent ce que la Citadelle avait décidé. Le rapport à l'organisme le dit aussi.
+reussite: La fièvre est contenue. Trois enfants n'ont pas survécu, mais il aurait pu y en avoir bien plus.
+partielle: La fièvre a gagné un village voisin. Les enfants du refuge sont sauvés, mais la guilde n'est plus la bienvenue dans la vallée.
+echec: La fièvre a emporté une partie des enfants. Les gardiens restants ont quitté le refuge. La Citadelle a envoyé les siens.
+recompenses: po 45 ; reputation 4 ; objet Potion de soin 15
+
+=== FRE-I-044 | Les espions du Frosthorn
+source: institution
+region: freljord
+palier: inconnue
+type: traque
+ton: mystere
+lieu: Pic de Frosthorn
+demandeur: La Chambre des Bannières, à la demande des éclaireurs avarosans
+accroche: « Des silhouettes en robe bleue ont été vues près des campements avarosans du Frosthorn. Elles observent, notent, et disparaissent dans des grottes. Les éclaireurs veulent savoir ce qu'elles cherchent, sans déclencher de guerre. »
+postes: Éclaireur, Assassin, Tireur
+duree: 7
+dangereuse: non
+risque: oui
+epreuves: discretion 45 (suivre les silhouettes sans être repéré) ; poursuite 42 (ne pas les perdre dans les grottes gelées) ; voyage 40 (ressortir de l'autre côté du pic, avec ce que vous avez appris)
+complication: Les silhouettes ne surveillent pas les Avarosans : elles cherchent des enfants sublimés dans les campements, pour les emmener à la Citadelle.
+eclatante: {meneur} suit les silhouettes jusqu'à une grotte où elles ont dressé la liste des enfants « qui ne craignent pas le froid ». L'équipe vole la liste et la rapporte aux Avarosans. Les familles concernées sont prévenues et mises à l'abri. L'organisme ne pose pas de questions sur le contenu du rapport. Il en sait assez.
+reussite: L'équipe a découvert ce que cherchaient les silhouettes. Les Avarosans renforcent la surveillance de leurs campements.
+partielle: L'équipe a perdu les silhouettes dans les grottes. Elle a seulement vu qu'elles notaient des noms.
+echec: L'équipe a été repérée et chassée du pic. Les silhouettes sont reparties avec ce qu'elles étaient venues chercher.
+recompenses: po 135 ; reputation 3 ; objet Cape de négation 8
+suite: FRE-L-004
+
+=== FRE-I-045 | L'éclat de Glace pure
+source: institution
+region: freljord
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Ghulfrost
+demandeur: La Chambre des Bannières, à la demande des gardiens du cairn de Ghulfrost
+accroche: « Un éclat de Glace pure était gardé sous le cairn, depuis que l'arc en a été tiré. Il a disparu. Personne n'est entré. Les traces dans la neige ne vont nulle part. La glace qui ne fond jamais, quelqu'un l'a emportée. »
+postes: Éclaireur, Support
+duree: 6
+dangereuse: non
+epreuves: discretion 36 (examiner le cairn et ses abords sans effacer les traces) ; diplomatie 39 (interroger les gardiens, dont l'un ment)
+complication: L'éclat n'a pas été volé : un jeune gardien l'a pris pour l'offrir à sa promise, sans savoir ce que c'était. Depuis, il fait des cauchemars de plus en plus bleus.
+eclatante: {meneur} remarque le givre sur les cils du jeune gardien, et ses yeux cernés. Il avoue tout. L'éclat est récupéré chez la promise, qui le gardait sur sa table de nuit, et qui rêvait elle aussi. Tout le monde dort mieux quand l'éclat retourne sous le cairn. L'organisme garde le dossier secret. La guilde aussi.
+reussite: L'éclat est retrouvé et rendu. Le coupable est renvoyé du cairn. Personne ne parle des rêves.
+partielle: L'éclat est retrouvé, mais une partie s'est brisée. Les morceaux manquent.
+echec: L'éclat n'a pas été retrouvé. Le jeune gardien est parti dans la montagne pendant la nuit, en chantant.
+recompenses: po 35 ; reputation 3 ; objet Cristal de saphir 8
+
+=== FRE-I-046 | Le pont de glace
+source: institution
+region: freljord
+palier: inconnue
+type: defense
+ton: tragique
+lieu: Monts Ridgeback
+demandeur: La Chambre des Bannières, à la demande de trois clans qui migrent vers le sud
+accroche: « Trois clans entiers, avec leurs bêtes et leurs anciens, doivent franchir le fleuve gelé avant le dégel. La glace commence à craquer. Il faut la renforcer, ou trouver un autre chemin, en deux jours. »
+postes: Tank, Combattant, Support
+duree: 9
+dangereuse: non
+epreuves: siege 39 (renforcer le passage de glace avec des troncs et de la neige tassée) ; voyage 36 (faire traverser des centaines de personnes et de bêtes, une à une) ; nuee 33 (repousser les loups attirés par le troupeau)
+complication: Le dernier clan à traverser est le plus pauvre, et le plus lent. La glace ne tiendra pas pour tout le monde. Il faudra choisir l'ordre de passage.
+eclatante: {meneur} fait passer en premier les anciens et les enfants du clan le plus pauvre, puis les bêtes, puis les guerriers. Quand la glace cède sous le dernier traîneau, il n'y a plus personne dessus. Les trois clans arrivent au sud. Ils jurent de ne jamais oublier l'ordre dans lequel ils ont traversé. L'organisme note une mission « menée avec justice ».
+reussite: Les trois clans traversent, sauf une partie des bêtes du dernier clan, perdues sous la glace.
+partielle: La glace a cédé trop tôt. Le dernier clan a dû faire un long détour par les montagnes, et il a perdu des anciens en chemin.
+echec: La glace a cédé au milieu de la traversée. Il y a eu des morts. Les clans ne parlent plus de la guilde.
+recompenses: po 55 ; reputation 4 ; objet Ceinture du géant 5
+
+=== FRE-I-047 | Les grellfeens du gué
+source: institution
+region: freljord
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Vathcaer
+demandeur: La Chambre des Bannières, à la demande du conseil de Vathcaer
+accroche: « Un nid de grellfeens s'est installé au gué de la rivière, à une heure du village. Le gué est le seul passage pour les convois de vivres. Trois passeurs ont déjà été blessés. »
+postes: Tank, Tireur, Healer
+duree: 7
+dangereuse: non
+risque: oui
+epreuves: poursuite 41 (repérer le nid sous la glace de la rivière) ; nuee 46 (repousser les grellfeens qui sortent de l'eau glacée pour défendre leur nid) ; combat 42 (détruire le nid et sa reine)
+complication: Le nid est plus grand qu'on ne le croyait : il s'étend sous la rivière jusqu'au village, et des œufs ont été pondus sous les quais.
+eclatante: {meneur} plonge sous la glace pour atteindre la reine, et l'équipe détruit le nid. En inspectant la rivière, elle découvre les œufs sous les quais de Vathcaer, et les détruit aussi. Sans cela, le village aurait été envahi au printemps. Le conseil de Vathcaer offre à la guilde une place permanente à son festin d'hiver.
+reussite: Le nid est détruit, la reine tuée. Le gué est rouvert aux convois.
+partielle: Le nid est détruit, mais la reine s'est enfuie. Il faudra surveiller la rivière.
+echec: Les grellfeens ont mis l'équipe en fuite. Le gué reste fermé. Les convois font un détour de deux jours.
+recompenses: po 160 ; reputation 4 ; objet Épée longue 9
+
+=== FRE-I-048 | Le caveau des tombés
+source: institution
+region: freljord
+palier: inconnue
+type: exploration
+ton: horreur
+lieu: Forteresse des Sublimés
+demandeur: La Chambre des Bannières, à la demande des anciens avarosans
+accroche: « Les anciens veulent l'inventaire du caveau de la forteresse des Sublimés : les noms des guerriers tombés, et les objets qui reposent avec eux, avant que les pillards ne le vident. Les pillards ne descendent plus. Ils disent que les morts se lèvent pour les regarder passer. »
+postes: Éclaireur, Tank
+duree: 6
+dangereuse: non
+epreuves: voyage 37 (descendre dans les couloirs gelés de la forteresse) ; discretion 38 (dresser l'inventaire sans toucher à rien, et sans déranger ce qui veille)
+complication: Les morts ne se lèvent pas. Mais la glace qui les recouvre bouge lentement avec le froid, et leurs visages, figés depuis des siècles, semblent tourner la tête vers ceux qui passent.
+eclatante: {meneur} reste calme quand les visages gelés semblent le suivre, et comprend que c'est la glace qui bouge. L'inventaire est dressé : soixante-trois noms, des armes, des bijoux, une couronne de fer. L'équipe ne prend rien. Les anciens d'Avarosan font graver les noms sur une pierre, à l'entrée du caveau. Les pillards ne reviennent pas.
+reussite: L'inventaire est dressé, avec quelques trous. L'équipe est remontée plus vite que prévu.
+partielle: L'équipe a fui le caveau à mi-chemin. L'inventaire s'arrête au trentième nom.
+echec: L'équipe a renversé une statue gelée dans sa fuite. Les anciens d'Avarosan sont furieux.
+recompenses: po 35 ; reputation 3 ; objet Bouclier de Doran 7
+
+=== FRE-I-049 | L'échange d'otages
+source: institution
+region: freljord
+palier: inconnue
+type: escorte
+ton: politique
+lieu: Village des Enfants de la Glace
+demandeur: La Chambre des Bannières, à la demande des Avarosans et des Enfants de la Glace
+accroche: « Pour sceller une trêve, chaque clan confie à l'autre un enfant de son chef, pour une année. C'est une vieille coutume. Il faut escorter les deux enfants, en même temps, jusqu'au milieu de la vallée, et s'assurer que personne ne trahit. »
+postes: Support, Tank, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: voyage 34 (mener le premier enfant jusqu'au lieu d'échange) ; discretion 37 (repérer ceux qui, dans chaque clan, veulent faire échouer la trêve) ; diplomatie 39 (rassurer deux enfants terrifiés et deux familles déchirées)
+complication: Un guerrier des Enfants de la Glace, dont le frère a été tué par les Avarosans, a l'intention d'enlever l'enfant avarosan pendant l'échange.
+eclatante: {meneur} repère le guerrier en embuscade et lui parle, seul, avant l'échange. Il ne renonce pas à sa colère, mais il renonce à son plan. L'échange a lieu. Les deux enfants se tiennent la main pendant que les adultes signent. Un an plus tard, ils retournent chez eux, amis. La trêve tient. L'organisme reçoit des deux clans une lettre de remerciement, chose rare.
+reussite: L'échange a lieu, et la trêve est scellée. Les deux enfants sont effrayés, mais en sécurité.
+partielle: L'échange a eu lieu, mais avec une heure de bagarre. La trêve tient, à peine.
+echec: Le guerrier a frappé pendant l'échange. Les deux clans se sont accusés de trahison. La trêve est rompue.
+recompenses: po 45 ; reputation 4 ; objet Tome d'amplification 7
+
+=== FRE-I-050 | La tempête blanche
+source: institution
+region: freljord
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Pic de Frosthorn
+demandeur: La Chambre des Bannières, à la demande d'un camp de passeurs du Frosthorn
+accroche: « Une caravane de vingt personnes a été surprise par la tempête blanche au col du Frosthorn. Les passeurs ont vu leurs feux pendant deux nuits. Cette nuit, ils n'en ont vu qu'un seul. »
+postes: Support, Healer, Tank
+duree: 8
+dangereuse: non
+epreuves: voyage 41 (monter au col pendant que la tempête souffle encore) ; poursuite 36 (retrouver les voyageurs dispersés dans la neige) ; diplomatie 33 (convaincre les survivants, épuisés, de se remettre en marche)
+complication: La caravane s'est séparée en deux groupes. Le second, parti chercher de l'aide, s'est perdu. Le premier attend, et son dernier feu va s'éteindre.
+eclatante: {meneur} trouve le dernier feu et les douze personnes serrées autour. L'équipe les réchauffe, puis part à la recherche du second groupe, qu'elle retrouve à l'aube, abrité dans une crevasse. Les vingt voyageurs redescendent ensemble. Les passeurs du Frosthorn nomment un nouveau refuge, au col, du nom de la guilde.
+reussite: Le premier groupe est sauvé. Le second est redescendu seul, avec des engelures et des pertes.
+partielle: L'équipe a sauvé une partie de la caravane. Le reste n'a été retrouvé qu'au printemps.
+echec: La tempête a forcé l'équipe à redescendre. Le dernier feu s'est éteint dans la nuit.
+recompenses: po 50 ; reputation 4 ; objet Potion de soin 12

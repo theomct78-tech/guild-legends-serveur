@@ -1,0 +1,112 @@
+# Scènes de la vie de guilde · lot 3 : l'immersion (8 nov. 2026)
+# Après le retour de Théo (« trop génériques, on ne se sent pas dedans »), ce lot ancre les scènes dans CETTE guilde :
+#   - la mémoire : ce qui vient d'arriver (mission, blessure, dispute, arrivée, soirée, fugue) ;
+#   - la voix : les héros parlent, avec leurs propres mots ({a:situation}) ;
+#   - le monde : le chien du repère ({chien}), nommé par le joueur, le bourg voisin ({bourg}), la saison et le temps qu'il fait ;
+#   - des détails concrets : objets, bruits, odeurs, gestes.
+# Conditions nouvelles : recent:mission:a, recent:reussite:a, recent:echec:a, recent:blessure:a, recent:arrivee:b,
+# recent:soiree:a, recent:absent_soiree:a, recent:fugue:a, recent:dispute, recent:mort, meteo=pluie, saison=hiver.
+# Jetons nouveaux : {chien}, {bourg}, {guilde}, {mission:a}, {lieu_mission:a}, {a:salut}… (taquine, console, vante, plainte, merci, accueil, colere, rire, excuse).
+
+# --- Au retour de mission ---
+VIE-1000|bon_moment|recent:reussite:a|2|aff+2|{a} raconte {mission:a} à {b} en mimant chaque coup avec une cuillère en bois. Au passage le plus dangereux, {a} renverse la salière. {b} applaudit quand même. {a:vante}
+VIE-1001|bon_moment|recent:reussite:a,soir|2|aff+2|Les bottes de {a} sèchent encore près du feu, couvertes de la boue de {lieu_mission:a}. {b} pose une chope fumante à côté : « Raconte. » {a} raconte, jusque tard.
+VIE-1002|confidence|recent:echec:a|3|aff+3|{a} n'a presque rien dit depuis le retour de {mission:a}. {b} vient s'asseoir sur la marche, juste à côté, sans poser de question. Au bout d'un long moment : {b:console}
+VIE-1003|bon_moment|recent:echec:a|2|b.moral+1:Avoir aidé quelqu'un|{b} a gardé une part de tourte pour {a}, au retour bredouille de {lieu_mission:a}. Elle est froide, un peu écrasée. {a} la mange jusqu'à la dernière miette. {a:merci}
+VIE-1004|desaccord|recent:echec:a|2||{b} demande, un peu trop fort, comment on a pu rater {mission:a}. Toute la salle commune se tait. {a:colere}
+VIE-1005|repos|recent:mission:a|1||{a} dort en armure, une botte encore au pied, sur le premier lit venu. {chien} s'est couché en travers de ses jambes et refuse de bouger.
+VIE-1006|soins|recent:blessure:a|1||{a} fait changer son pansement en racontant {mission:a} à l'infirmière de {bourg}, qui hoche la tête et serre un peu trop fort le bandage à chaque exagération.
+VIE-1007|bon_moment|recent:blessure:b|2|aff+3|{a} apporte à {b} un bol de bouillon et coupe sa viande en petits morceaux, à cause du bras en écharpe. {b} proteste pour la forme. {b:merci}
+VIE-1008|desaccord|recent:blessure:b|1||{a} veut à tout prix voir la blessure de {b}. {b} refuse. {a} insiste. On finit par la voir, et {a} pâlit un peu.
+VIE-1009|entrainement|recent:blessure:a|1||{a} s'entraîne d'une seule main, l'autre bras serré contre le flanc. Chaque coup arrache une grimace. Personne n'ose lui dire d'arrêter.
+VIE-1010|solitude|recent:echec:a|2|a.moral-1:Ressasser un échec|{a} reste sur les remparts à refaire {mission:a} dans sa tête, encore et encore. En bas, {chien} gratte à la porte et gémit doucement. Personne ne descend.
+VIE-1011|bon_moment|recent:mission:a,recent:mission:b|2|aff+3|{a} et {b}, revenus ensemble de {lieu_mission:a}, comparent leurs bleus sur la grande table. Celui de {b} a la forme exacte de la botte d'un ennemi. Le fou rire dure jusqu'aux larmes.
+VIE-1012|nuit|recent:mission:a|1||{a} se réveille en sursaut au milieu de la nuit, la main déjà sur son arme. Ce n'est que {chien}, qui rêve et court en dormant au pied du lit. {a} met longtemps à se rendormir.
+
+# --- Le nouveau venu ---
+VIE-1020|premiere_rencontre|recent:arrivee:b|2|aff+3|{a} montre à {b} la marche qui grince, le placard aux biscuits et la place du feu où on a le plus chaud. Puis {a} présente {chien}, très officiellement, qui tend la patte. {a:accueil}
+VIE-1021|premiere_rencontre|recent:arrivee:b,a:MEFIANT|1||{a} observe {b} déballer ses affaires depuis l'encadrement de la porte, sans rien dire, et note mentalement chaque arme.
+VIE-1022|premiere_rencontre|recent:arrivee:b,a:FARCEUR|1||{a} a placé un seau d'eau au-dessus du lit de {b}. Tradition du repère, affirme {a}. Personne d'autre n'a jamais entendu parler de cette tradition.
+VIE-1023|premiere_rencontre|recent:arrivee:b,a:GOURMAND|1|aff+3|{a} accueille {b} avec une assiette pleine. « Ici, on mange d'abord, on se présente après. »
+VIE-1024|premiere_rencontre|recent:arrivee:b,a.So<35|1||{a} serre la main de {b}, longuement, d'une poigne solide. C'est tout. Pour {a}, c'est déjà beaucoup.
+VIE-1025|bon_moment|recent:arrivee:a|1|aff+2|{a} cherche encore où sont rangées les assiettes. {b} lui montre, puis lui montre aussi la cachette des bonnes confitures. C'est un secret, précise {b}. Un secret partagé par toute la guilde.
+VIE-1026|repos|recent:arrivee:a|1||{a} a mal dormi la première nuit : le lit grince, le vent siffle sous la porte, et {chien} est venu se coucher sur ses pieds à trois heures du matin, en ronflant. Au réveil, {a} sourit quand même.
+
+# --- Le lendemain de soirée ---
+VIE-1030|repos|recent:soiree:a,matin|1||{a} se lève avec un mal de tête historique et une plume dans les cheveux dont personne ne connaît l'origine.
+VIE-1031|bon_moment|recent:soiree:a,recent:soiree:b,matin|2|aff+2|Au petit-déjeuner, {a} et {b} reconstituent la soirée d'hier, morceau par morceau. Il manque une heure entière. La décision est unanime : c'est mieux ainsi.
+VIE-1032|desaccord|recent:soiree:a,recent:soiree:b|1||{b} jure que {a} a chanté sur la table hier soir. {a} jure que non. Trois témoins confirment. {a:excuse}
+VIE-1033|solitude|recent:absent_soiree:a,matin|1||{a} traverse la salle commune encore pleine de chopes renversées et de chaises de travers, ramasse un ruban oublié, et le pose sur la cheminée sans un mot.
+VIE-1034|bon_moment|recent:absent_soiree:b|1|aff+2|{a} a gardé pour {b} une part du gâteau de la soirée, enveloppée dans un torchon. « Tu as manqué ça. Enfin, pas tout. »
+
+# --- Les disputes qui laissent des traces ---
+VIE-1040|desaccord|recent:dispute|2|aff-1|Depuis la dispute, {a} et {b} se passent le sel en le posant sur la table, sans se toucher les mains, avec une politesse glaciale que toute la guilde remarque.
+VIE-1041|evite|recent:dispute|2||{a} entend la voix de {b} {lieu}, fait demi-tour et prend l'escalier de service. {chien}, qui suivait, hésite, puis trottine vers {b}.
+VIE-1042|reconciliation|recent:dispute|3|aff+4|{a} frappe à la porte de {b}, tient entre les mains deux tasses de lait chaud et beaucoup d'orgueil ravalé. {a:excuse} La porte s'ouvre en grand.
+VIE-1043|mediation|recent:dispute|2||{c} pose une seule chaise entre {a} et {b}, s'y installe et ne bouge plus. « Personne ne sort d'ici tant que vous ne vous êtes pas parlé. » Il faut une heure. Puis tout le monde sort.
+
+# --- Le temps qu'il fait ---
+VIE-1050|repos|meteo=pluie|1||La pluie tambourine sur les tuiles. {a} s'enroule dans une couverture près de la fenêtre, {chien} roulé en boule contre ses jambes, et regarde les gouttes faire la course sur la vitre.
+VIE-1051|bon_moment|meteo=pluie|1|aff+2|Il pleut trop pour sortir. {a} et {b} jouent aux cartes à la lueur du feu, pendant que l'eau ruisselle dans la gouttière avec un bruit de rivière.
+VIE-1052|entrainement|meteo=pluie|1||{a} s'entraîne sous une pluie battante, dans une cour devenue marécage, l'eau ruisselant de partout. On entend le bruit des pas dans la boue jusqu'aux cuisines.
+VIE-1053|ville|meteo=pluie|1||{a} revient du marché de {bourg} sous la pluie, un panier de châtaignes sous le manteau. Elles grillent déjà dans la cheminée quand le reste de la guilde descend.
+VIE-1054|bon_moment|meteo=neige|2|aff+2|Il a neigé cette nuit. {a} lance la première boule de neige sur {b}, qui riposte. Dix minutes plus tard, toute la guilde est dans la cour, et {chien} court partout en aboyant, ivre de bonheur, à attraper les boules au vol.
+VIE-1055|solitude|meteo=neige|1||{a} marche à l'écart dans la cour enneigée, les mains dans les poches, et laisse une longue ligne de traces de pas jusqu'aux remparts.
+VIE-1056|ville|meteo=brume|1||La brume est si épaisse que {a} perd son chemin en revenant de {bourg}. Deux heures plus tard, on entend frapper à la porte : {a}, la cape couverte de rosée, et d'une humeur de chien. {a:plainte}
+VIE-1057|nuit|meteo=vent|1||Le vent hurle autour du repère. {a} ne dort pas et écoute les volets claquer, la lanterne de la cour grincer, et {chien}, le museau contre la porte, gronder contre la tempête.
+VIE-1058|bon_moment|meteo=soleil,apresmidi|1|aff+1|Le soleil est revenu. {a} et {b} ont tiré deux chaises dans la cour et prennent le soleil, les yeux fermés, sans parler, comme deux lézards sur un mur.
+VIE-1059|entrainement|meteo=gel,matin|1||Le gel a figé la cour. {a} s'entraîne quand même, dans un nuage de buée, et glisse deux fois sur les pavés. La deuxième fois, il y avait des témoins.
+VIE-1060|bon_moment|saison=automne,b.So>55|1||{a} et {b} ramassent les feuilles mortes de la cour. Enfin, {b} ramasse. {a} saute dans les tas.
+VIE-1061|bon_moment|saison=hiver,soir|2|aff+2|Le feu crépite. {a} grille des marrons pour {b} et se brûle les doigts à chaque fois. {b} rit. {a:rire}
+
+# --- Le chien du repère ---
+VIE-1070|repos||1||{chien} a choisi {a} pour la sieste de l'après-midi et s'est étalé de tout son poids sur ses pieds. Il est donc impossible de bouger pendant deux heures. {a} accepte son sort avec dignité.
+VIE-1071|lecture||1||{a} lit près de la fenêtre. {chien} a posé le museau exactement sur la page en cours, comme tous les jours, et réclame une caresse. {a} cède, puis lit la page suivante.
+VIE-1072|bon_moment||1|aff+1|{a} et {b} se disputent l'honneur de nourrir {chien}, qui vide les deux gamelles, lèche les deux mains et repart réclamer à la cuisine.
+VIE-1073|discussion||1||Dans la salle commune vide, {a} parle à {chien} de la journée. {chien} bat lentement de la queue sur le plancher, ce qui, d'après {a}, signifie un accord total.
+VIE-1074|desaccord||1||{chien} a mâchonné une botte de {a} jusqu'à la semelle. {a} accuse {b} de l'avoir laissée traîner exprès. {b} ne nie pas.
+VIE-1075|soins|blesse:a|1||{chien} ne quitte plus le pied du lit de {a} depuis la blessure. Il pose la tête contre le bandage, très doucement, comme s'il savait exactement où ça fait mal.
+VIE-1076|nuit|a:HANTE|2||{a} se réveille d'un cauchemar, le cœur battant. {chien} est là, assis au pied du lit, et ne quitte pas {a} des yeux jusqu'à ce que sa respiration se calme.
+
+# --- Le bourg voisin ---
+VIE-1080|ville||1||{a} passe la matinée au marché de {bourg}, goûte trois fromages, en achète un quatrième, et rentre en jurant que le marchand avait un regard de voleur.
+VIE-1081|ville|a.So>65|1||Les gamins de {bourg} ont suivi {a} jusqu'à la porte du repère en réclamant une histoire. {a} en raconte une, sur le seuil. Puis deux. Puis il fait nuit.
+VIE-1082|ville|a:IMPULSIF|2|a.moral-1:Une histoire au bourg|{a} rentre de {bourg} avec une lèvre fendue et la promesse de ne plus jamais remettre les pieds à l'auberge du coin. C'est la troisième fois ce mois-ci.
+VIE-1083|ville|a:CHARMEUR|1||À {bourg}, la boulangère a donné à {a} une miche de pain en refusant d'être payée. {a} ne sait pas pourquoi. Tout le reste de la guilde, si.
+VIE-1084|bon_moment||1|aff+1|{a} et {b} rentrent de {bourg} en portant à deux un tonneau de cidre. La dispute dure tout le trajet : qui porte le côté lourd ?
+
+# --- Paroles en passant (les héros se parlent) ---
+VIE-1090|bon_moment|matin|1||{a} croise {b} dans le couloir, une tasse fumante à la main, les cheveux encore en bataille. {a:salut}
+VIE-1091|bon_moment||1|aff+1|{a} regarde {b} rater pour la troisième fois sa tentative de jongler avec trois pommes. Une pomme roule jusqu'aux pieds de {a}, qui la croque. {a:taquine}
+VIE-1092|bon_moment||1||{b} vient de raconter une histoire que personne n'a crue. {a} manque de recracher sa soupe : {a:rire}
+VIE-1093|desaccord||1||{a} retrouve sa place préférée près du feu occupée par {b}, s'assoit ailleurs, et grommelle à la cantonade : {a:plainte}
+VIE-1094|desaccord|a.Te>60|2|aff-2|{b} a fait une remarque de trop sur la façon dont {a} mange. {a} pose sa fourchette : {a:colere}
+VIE-1095|confidence||2|aff+3|{b} avoue à {a} une erreur dont personne n'est au courant. {a} ne juge pas. {a:console}
+VIE-1096|bon_moment|a~gloire|1||{b} demande à {a} comment s'est passée sa dernière sortie. Erreur : la réponse dure une heure. {a:vante}
+VIE-1097|bon_moment|a:BIENVEILLANT|1|b.moral+2:Une attention|{a} a remarqué les cernes de {b}, et laisse une couverture pliée sur son lit, avec un mot : « Dors. C'est un ordre. »
+VIE-1098|reconciliation||2|aff+3|{a} s'approche de {b} en traînant des pieds. {a:excuse} {b} hausse les épaules, puis sourit.
+
+# --- La guilde comme une maison ---
+VIE-1100|bon_moment|soir|2|aff+2|Le dîner s'éternise. Quelqu'un a sorti un vieux luth désaccordé, {a} chante faux, {b} tape le rythme sur la table, et {chien} hurle avec le luth, ce que tout le monde juge plus juste que {a}.
+VIE-1101|discussion|matin|1||{a} se lève avant tout le monde. Le repère est silencieux, la cheminée froide. {a} rallume le feu, met l'eau à chauffer, et attend que la maison se réveille.
+VIE-1102|bon_moment||1|aff+2|{a} et {b} ont gravé leurs initiales sous la grande table de la salle commune, à côté d'une dizaine d'autres, dont certaines sont plus anciennes que la guilde elle-même.
+VIE-1103|lecture|soir|1||{a} relit le registre de la guilde à la chandelle : les missions, les noms, les dates. À la dernière page, {a} ajoute une petite note dans la marge, et referme le livre avec précaution.
+VIE-1104|recueillement|recent:mort|3|a.moral-2:Un deuil|{a} dépose une fleur sur la table, à la place où quelqu'un s'asseyait. Personne n'a encore osé s'y installer.
+VIE-1105|bon_moment|recent:mort|3|aff+4|{a} et {b} parlent de la personne qui n'est plus là. Au début, ses manies font rire. Puis plus du tout. Puis un peu, de nouveau.
+
+# --- Le retour d'une fugue ---
+VIE-1110|bon_moment|recent:fugue:b|2||{b} franchit le portail à l'aube, les bottes poussiéreuses. {a} attend sur les marches, les bras croisés. Long silence. Puis : « Il reste du café. »
+VIE-1111|desaccord|recent:fugue:b,a.Di>70|2|aff-2|{a} reproche à {b} ce départ sans prévenir. {b} répond qu'on ne lui a pas laissé le choix. Le ton monte. Puis {chien} se glisse entre les deux en remuant la queue, une vieille balle dans la gueule, et tout le monde se calme, faute de mieux.
+
+# --- Moments garantis : le récit du retour, et la première soirée d'un nouveau venu ---
+# Le moteur écrit toujours une scène « recit_mission » au premier moment éveillé après un retour de mission,
+# et une scène « arrivee » au premier moment éveillé d'un nouveau venu.
+VIE-1120|recit_mission|recent:reussite:a|2||{a} rentre de {lieu_mission:a} et pose son sac dans l'entrée avec un soupir satisfait. Toute la guilde descend pour écouter le récit de {mission:a}. {a:vante}
+VIE-1121|recit_mission|recent:reussite:a,soir|2||Ce soir, autour du feu, {a} raconte {mission:a}. L'histoire grandit à chaque chope ; à la troisième, les ennemis de {lieu_mission:a} étaient deux fois plus nombreux.
+VIE-1122|recit_mission|recent:echec:a|2|a.moral-1:Raconter un échec|{a} rentre de {lieu_mission:a} sans un mot, accroche sa cape trempée au clou de l'entrée et monte directement. Personne n'ose demander comment s'est passée {mission:a}.
+VIE-1123|recit_mission|recent:echec:a,a:FIER|2||{a} rentre de {lieu_mission:a} et explique, à qui veut l'entendre, que {mission:a} n'était pas un échec mais « un repli stratégique ». Personne ne contredit.
+VIE-1124|recit_mission|recent:blessure:a|2||{a} franchit le portail en boitant, le bras en écharpe, la poussière de {lieu_mission:a} encore sur ses vêtements. {chien} accourt, fou de joie, et tourne autour de sa jambe valide en jappant.
+VIE-1125|recit_mission||2||{a} vide ses poches sur la grande table au retour de {lieu_mission:a} : trois cailloux, une plume, un bouton d'uniforme qui n'est pas le sien. Chacun a son histoire. Toutes seront racontées.
+VIE-1126|arrivee||2||{a} pose ses affaires au pied d'un lit libre et reste un instant immobile, à regarder la salle commune, les armes au mur, les initiales gravées sous la table. Puis {chien} vient renifler ses bottes, longuement, et donne un coup de langue. L'inspection est validée.
+VIE-1127|arrivee|recent:arrivee:a,soir|2||Le premier soir, {a} dîne au bout de la table, un peu à l'écart. Avant le dessert, quelqu'un a poussé une assiette vers {a}, puis une chope. Au coucher, il y a déjà des surnoms.
+VIE-1128|arrivee|recent:arrivee:a,a.So<40|2||{a} visite le repère en silence, ouvre chaque porte, compte les sorties, et choisit le lit le plus proche de la fenêtre. Personne ne pose de questions. C'est déjà une forme de bienvenue.

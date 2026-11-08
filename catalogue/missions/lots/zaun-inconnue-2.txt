@@ -1,0 +1,504 @@
+# Zaun · palier Inconnue · lot 2 (missions 026 à 050, dont les institutionnelles 041 à 050)
+
+=== ZAU-I-026 | Le cultivar évadé
+source: privee
+region: zaun
+palier: inconnue
+type: recuperation
+ton: drole
+lieu: Tour des barons
+demandeur: Monsieur Thistle, jardinier de la serre au sommet de la Tour des barons
+accroche: « Une de mes plantes s'est échappée. Oui. Échappée. C'est un cultivar, une plante qui bouge un peu, quand elle a soif. Elle avait très soif. Elle est descendue par la cage d'escalier. Elle a mangé un tapis et une perruque. Mes employeurs ne doivent pas le savoir. »
+postes: Éclaireur, DPS
+duree: 3
+dangereuse: non
+epreuves: poursuite 34 (suivre une plante qui rampe dans les escaliers, les conduits et les appartements de la tour) ; combat 31 (la maîtriser sans la casser, parce qu'elle vaut plus cher que l'immeuble)
+complication: La plante ne fuit pas : elle descend vers le seul endroit de la tour où il y a de la lumière naturelle, une fenêtre de la loge du concierge. Le concierge l'arrose en cachette depuis des semaines.
+eclatante: {meneur} retrouve la plante enroulée autour du fauteuil du concierge, qui la caresse comme un chat. Le vieil homme avoue qu'il descendait des boutures en cachette, pour avoir quelque chose de vivant chez lui. Monsieur Thistle, ému, lui confie officiellement une bouture, et la plante remonte à la serre sans protester. La perruque n'a jamais été retrouvée.
+reussite: La plante est rattrapée et remontée à la serre, un peu abîmée. Personne d'en haut n'en saura rien.
+partielle: La plante a été récupérée en trois morceaux. Monsieur Thistle les replante, en espérant.
+echec: La plante a atteint la rue et s'est enroulée autour d'un réverbère. Tout le quartier est venu la voir. Les employeurs de Monsieur Thistle aussi.
+recompenses: po 20 ; reputation 1 ; objet Charme féerique 6
+
+=== ZAU-I-027 | Le parieur de l'arène
+source: privee
+region: zaun
+palier: inconnue
+type: traque
+ton: tragique
+lieu: Arène de Tommy
+demandeur: Lyra, dont le mari a disparu après avoir tout perdu aux paris
+accroche: « Il a parié la maison, puis l'atelier, puis la dot de notre fille. Il a tout perdu. Il est parti hier soir, en disant qu'il allait se refaire. Les gens à qui il doit de l'argent le cherchent aussi. Je veux le trouver avant eux. »
+postes: Éclaireur, Tireur
+duree: 4
+dangereuse: non
+epreuves: poursuite 37 (le retrouver dans les tripots et les arrière-salles des Failles) ; combat 34 (le protéger de ses créanciers, quand ils le trouveront en même temps que vous)
+complication: Le mari ne veut pas se refaire. Il est allé s'inscrire pour combattre dans la cage, pour la prime. Il n'a jamais combattu de sa vie.
+eclatante: {meneur} arrive à l'arène au moment où le mari entre dans la cage, et le sort de là avant le premier coup, sous les huées. Les créanciers arrivent. L'équipe négocie : la dette sera payée en travail, à l'atelier, sur deux ans. Lyra et son mari rentrent chez eux. Il ne parie plus. Il travaille. Elle ne lui a pas encore pardonné, mais elle lui tient la main.
+reussite: Le mari est retrouvé et ramené. Les créanciers attendent leur argent. Lyra ne sait pas comment elle paiera.
+partielle: L'équipe a trouvé le mari après son combat, blessé. La prime ne couvre qu'une partie de la dette.
+echec: Les créanciers l'ont trouvé les premiers. Lyra ne l'a revu qu'au dispensaire du docteur Shroud.
+recompenses: po 20 ; reputation 2 ; objet Dague 6
+
+=== ZAU-I-028 | La boîte de l'ancien Luciole
+source: privee
+region: zaun
+palier: inconnue
+type: recuperation
+ton: tendre
+lieu: Repaire des Lucioles
+demandeur: Sam, dix-neuf ans, ancien malade du Shimmer, sevré depuis un an
+accroche: « Quand j'étais au fond, les Lucioles m'ont sorti du caniveau. Je leur ai laissé une boîte en partant, avec mes affaires de l'époque. Je veux la récupérer. Pas pour les affaires. Il y a dedans une lettre que j'ai écrite à ma sœur, le premier jour où j'ai tenu sans Shimmer. Je ne l'ai jamais envoyée. »
+postes: Éclaireur, Support
+duree: 3
+dangereuse: non
+epreuves: voyage 31 (retrouver l'entrée du repaire, qui a changé depuis) ; diplomatie 34 (convaincre les Lucioles de laisser entrer un ancien, qu'ils ne reconnaissent plus)
+complication: La sœur de Sam est chez les Lucioles. Elle l'a cherché pendant un an. Elle ne sait pas qu'il est sevré.
+eclatante: {meneur} convainc les Lucioles de laisser entrer Sam. La boîte est là, sous l'arbre. La sœur aussi. Elle le reconnaît la première. Sam ne dit rien. Il lui tend la lettre. Elle la lit devant tout le monde, et à la fin, elle le prend dans ses bras. Les Lucioles, qui ont vu beaucoup de choses, détournent les yeux pour leur laisser ce moment.
+reussite: Sam récupère la boîte et la lettre. Il l'envoie à sa sœur le lendemain, sans savoir qu'elle est si près.
+partielle: Les Lucioles ont rendu la boîte, mais pas la lettre : elle s'est perdue dans un déménagement. Sam en écrit une autre.
+echec: Les Lucioles n'ont pas reconnu Sam et l'ont renvoyé. Il est reparti. {meneur} espère qu'il ne retournera pas au fond.
+recompenses: po 10 ; reputation 3 ; objet Charme féerique 7
+
+=== ZAU-I-029 | Les canards des rochers
+source: privee
+region: zaun
+palier: inconnue
+type: chasse
+ton: drole
+lieu: Quartier de l'Alcôve
+demandeur: Madame Grimsby, qui a perdu son linge, son déjeuner et sa patience
+accroche: « Les canards des rochers ont fait leur nid sur mon toit. Ils volent le linge, ils volent le pain, ils attaquent tout ce qui porte un chapeau. Le facteur ne passe plus. Le facteur porte un chapeau. »
+postes: Tireur
+duree: 2
+dangereuse: non
+epreuves: poursuite 32 (déloger une colonie de canards agressifs d'un toit en pente) ; combat 29 (survivre à la contre-attaque des parents, qui ont une très mauvaise opinion des héros)
+complication: Les canards nichent là parce que le toit est le seul endroit chaud du quartier : une conduite de vapeur fuit juste dessous, et chauffe les tuiles.
+eclatante: {meneur} repousse la colonie à coups de flèches émoussées et de beaucoup de courage, puis découvre la fuite de vapeur sous les tuiles. Elle est réparée. Les canards déménagent sur le toit d'une usine voisine, plus chaud, où personne ne porte de chapeau. Madame Grimsby récupère son linge. Le facteur repasse. Il porte maintenant un casque.
+reussite: Les canards sont délogés. Ils reviennent une fois, puis renoncent. Madame Grimsby met des pointes sur son toit.
+partielle: La moitié de la colonie est partie. L'autre moitié vole toujours le pain. Madame Grimsby cuisine à l'intérieur.
+echec: Les canards ont gagné. {meneur} est reparti sans chapeau. Le quartier en rit encore.
+recompenses: po 10 ; reputation 1 ; objet Élixir de rage 5
+
+=== ZAU-I-030 | Le vendeur de potions
+source: privee
+region: zaun
+palier: inconnue
+type: protection
+ton: politique
+lieu: Stand du vendeur de potions
+demandeur: Monsieur Hollis, qui vend derrière ses grilles des remèdes aux malades du Shimmer
+accroche: « Je vends des remèdes qui aident à tenir sans Shimmer. Pas de miracle, juste de quoi dormir et manger. Un gang veut que je ferme. Ils disent que je leur fais perdre des clients. Ils ont raison. Je ne fermerai pas. »
+postes: Tank, Support
+duree: 5
+dangereuse: non
+epreuves: combat 37 (défendre le stand la nuit où le gang vient le détruire) ; diplomatie 33 (convaincre les voisins, qui ont peur, de soutenir le stand)
+complication: Parmi les hommes du gang, il y a un ancien client de Monsieur Hollis, qui a replongé, et qui a honte.
+eclatante: {meneur} repousse les hommes du gang devant les grilles. Le dernier à reculer est l'ancien client, qui reste, tremblant, au milieu de la rue. Monsieur Hollis ouvre sa grille et lui tend un remède. Le garçon le prend. Le gang ne revient pas, parce que les voisins, qui ont tout vu, montent désormais la garde à tour de rôle. Monsieur Hollis a maintenant douze gardiens bénévoles, et un apprenti.
+reussite: Le stand est défendu. Le gang recule pour cette fois. Monsieur Hollis renforce ses grilles.
+partielle: Le stand est défendu, mais une partie des remèdes a été détruite. Monsieur Hollis rationne.
+echec: Le stand a été détruit. Monsieur Hollis a été blessé. Il dit qu'il rouvrira. Il n'a plus de remèdes à vendre.
+recompenses: po 20 ; reputation 3 ; objet Potion de soin 10
+
+=== ZAU-I-031 | L'Œil qui clignote
+source: privee
+region: zaun
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Enseigne de l'Œil de Zaun
+demandeur: Ada, électricienne, qui entretient l'enseigne de l'Œil de Zaun
+accroche: « L'enseigne clignote toute seule, la nuit. Pas au hasard : en morse. Elle répète le même mot, toutes les nuits à la même heure. AIDE. J'ai coupé le courant. Elle clignote quand même. »
+postes: Mage
+duree: 3
+dangereuse: non
+epreuves: discretion 31 (monter dans le vieux château d'eau sous l'enseigne, la nuit, sans réveiller ce qui le hante) ; diplomatie 31 (comprendre qui envoie le message, et pourquoi)
+complication: Le message vient d'une petite batterie hextech oubliée dans le château d'eau, reliée à l'enseigne. Quelqu'un l'a installée il y a des années, avec un message préenregistré, et un carnet.
+eclatante: {meneur} sent la petite magie de la batterie, et trouve dans le château d'eau un carnet couvert de poussière. Il appartenait à une jeune inventrice des Failles, disparue il y a dix ans, qui avait installé la batterie pour appeler à l'aide le jour où on viendrait la chercher. Le carnet dit où elle était retenue. L'endroit est vide depuis longtemps. Ada fait encadrer le carnet sous l'enseigne. L'Œil ne clignote plus, mais tout le quartier sait désormais son nom.
+reussite: La batterie est trouvée et débranchée. L'enseigne ne clignote plus. Le carnet reste un mystère.
+partielle: {meneur} a trouvé la batterie, mais elle s'est déchargée au contact. Le message est perdu.
+echec: {meneur} n'a rien trouvé. L'enseigne clignote toujours AIDE, chaque nuit. Plus personne n'ose la regarder.
+recompenses: po 15 ; reputation 2 ; objet Cristal de saphir 7
+
+=== ZAU-I-032 | Le laboratoire des bocaux
+source: privee
+region: zaun
+palier: inconnue
+type: exploration
+ton: horreur
+lieu: Failles inférieures
+demandeur: Rufus, ferrailleur, qui a ouvert une porte qu'il n'aurait pas dû ouvrir
+accroche: « J'ai trouvé une porte dans un vieux tunnel. Derrière, il y avait des étagères, et des bocaux. Dans les bocaux, il y avait des choses. Certaines bougent encore. Je n'ai rien touché. Je veux qu'on ferme cette porte pour toujours. Et je veux qu'on soit sûrs que rien n'en est sorti. »
+postes: Mage, Tank, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: discretion 37 (explorer l'ancien laboratoire sans briser un seul bocal) ; nuee 35 (repousser ce qui s'est déjà échappé des bocaux brisés, dans le noir)
+complication: Trois bocaux sont déjà brisés, et vides. Ce qui en est sorti est petit, rapide, et vit maintenant dans les tuyaux du quartier.
+eclatante: {meneur} sent ce qui se cache dans les tuyaux, et l'équipe le traque jusqu'à un collecteur, où trois créatures mutées sont acculées et détruites. Le laboratoire est condamné, la porte murée, et Rufus fait couler du béton dessus de ses propres mains. On ne sait pas qui a construit ce laboratoire. Les bocaux portent seulement un symbole, que la guilde recopie et garde.
+reussite: Le laboratoire est condamné. Deux créatures sur trois ont été retrouvées. La troisième, on ne sait pas.
+partielle: La porte est murée, mais l'équipe n'a pas retrouvé ce qui s'était échappé. Le quartier entend des grattements la nuit.
+echec: Un bocal s'est brisé pendant l'exploration. L'équipe a fui. Rufus a muré la porte tout seul, en pleurant.
+recompenses: po 25 ; reputation 2 ; objet Cape de négation 8
+
+=== ZAU-I-033 | Les orphelins de l'arcade
+source: privee
+region: zaun
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Salle d'arcade
+demandeur: Loupe, quinze ans, le plus âgé d'une bande d'enfants qui vivent dans la vieille salle d'arcade
+accroche: « Notre chef de bande est mort. Le gang d'à côté veut nous prendre, nous faire travailler pour eux. Les plus petits ont huit ans. On ne veut pas. On veut juste qu'on nous laisse tranquilles. Personne ne laisse tranquilles des enfants à Zaun. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 35 (négocier avec le gang voisin pour qu'il laisse les enfants en paix) ; voyage 30 (trouver aux enfants un endroit plus sûr, si la négociation échoue)
+complication: Le gang voisin ne veut pas vraiment les enfants. Il a peur qu'un autre gang, plus dangereux, les prenne avant lui.
+eclatante: {meneur} comprend que le gang voisin a peur, et propose un marché : les enfants resteront libres, et le gang veillera sur la salle d'arcade, en échange de quoi les enfants lui serviront de guetteurs. Pas de travail, pas de vol. Juste des yeux. Le marché tient. Loupe devient le porte-parole de la bande. Il apprend à négocier. Il est très doué.
+reussite: Le gang accepte de laisser les enfants tranquilles, pour l'instant. Loupe ne dort que d'un œil.
+partielle: Les enfants ont dû quitter la salle d'arcade pour un abri moins sûr, mais plus caché.
+echec: Le gang a pris les plus grands. Les petits se sont éparpillés dans les Failles. Loupe a disparu.
+recompenses: po 10 ; reputation 3 ; objet Tome d'amplification 5
+
+=== ZAU-I-034 | Le chemin des tuyaux
+source: privee
+region: zaun
+palier: inconnue
+type: escorte
+ton: aventure
+lieu: Les Failles
+demandeur: Ruby, sage-femme des Failles
+accroche: « Une jeune femme accouche, et ça se passe mal. Il faut l'emmener au dispensaire, trois niveaux plus haut. Les ascenseurs sont en panne. Il reste les tuyaux, les échelles et les passerelles. Et elle ne peut pas marcher. »
+postes: Tank, Healer
+duree: 3
+dangereuse: non
+epreuves: voyage 38 (monter trois niveaux des Failles par les passerelles, avec une femme sur une civière de fortune) ; siege 33 (dégager une passerelle effondrée qui coupe le chemin)
+complication: Le bébé arrivera avant le dispensaire. Il faudra peut-être s'arrêter en chemin, sur une passerelle, au milieu de Zaun.
+eclatante: À mi-chemin, sur une passerelle au-dessus du vide, le bébé ne veut plus attendre. {meneur} aide la sage-femme, sous les regards de toute une rue penchée aux fenêtres. Une petite fille naît au-dessus de Zaun, sous les applaudissements. La mère l'appelle Passerelle. Ça sonne mieux à Zaun qu'ailleurs. Tout le quartier vient lui apporter des cadeaux.
+reussite: La jeune femme arrive au dispensaire juste à temps. L'accouchement est difficile, mais la mère et l'enfant vont bien.
+partielle: L'accouchement a eu lieu en chemin, dans de mauvaises conditions. La mère est gravement affaiblie, l'enfant va bien.
+echec: La passerelle n'a pas pu être dégagée. Il a fallu redescendre. La sage-femme a fait de son mieux. Ce n'était pas assez.
+recompenses: po 20 ; reputation 3 ; objet Potion de soin 12
+
+=== ZAU-I-035 | Les ouvriers des raffineries
+source: privee
+region: zaun
+palier: inconnue
+type: enquete
+ton: tragique
+lieu: Raffineries de Shimmer
+demandeur: Marta, ancienne ouvrière des raffineries, fermées depuis la fin de la loi martiale
+accroche: « Les raffineries sont fermées. Officiellement. Mais la nuit, des ouvriers y entrent encore, par la porte de derrière. Des enfants, aussi. Ils ressortent à l'aube, avec les mains violettes. Je sais ce que ça veut dire. J'avais les mêmes. »
+postes: Éclaireur, Support
+duree: 5
+dangereuse: non
+epreuves: discretion 39 (entrer dans les raffineries la nuit, sans être vu par les gardes) ; diplomatie 34 (parler aux ouvriers, qui ont peur de perdre le seul travail qu'ils ont)
+complication: Ceux qui ont rouvert la raffinerie paient deux fois plus que les usines de la ville haute. Les ouvriers le savent, et ils savent aussi ce que ça leur coûte.
+eclatante: {meneur} observe la raffinerie clandestine et parle aux ouvriers, un par un, à la sortie. Ils ne veulent pas témoigner. Mais une petite fille montre ses mains violettes à sa mère, et sa mère décide de parler. Le témoignage arrive chez les Lucioles, qui savent quoi en faire. La raffinerie brûle trois jours plus tard. Personne ne sait qui y a mis le feu. Les Lucioles non plus, disent-elles.
+reussite: L'équipe a confirmé que la raffinerie était active. Le rapport est transmis au siège de Zaun au Conseil. On attend.
+partielle: L'équipe a vu les ouvriers, mais n'a pas pu entrer. Marta sait qu'elle avait raison. Elle ne sait pas quoi faire.
+echec: L'équipe a été repérée. La raffinerie a déménagé. Marta a reçu une visite, le lendemain.
+recompenses: po 20 ; reputation 3 ; objet Cape de négation 7
+suite: ZAU-L-002
+
+=== ZAU-I-036 | Le canot volé
+source: privee
+region: zaun
+palier: inconnue
+type: traque
+ton: drole
+lieu: Port sud
+demandeur: Capitaine Harl, encore lui, toujours sans chapeau
+accroche: « On m'a volé mon canot. Le neuf. Celui que j'ai acheté après que le poisson a mangé le vieux. Le voleur rame très mal : il tourne en rond dans le port depuis une heure. Mais il rame très mal très vite. »
+postes: DPS
+duree: 2
+dangereuse: non
+epreuves: poursuite 32 (rattraper un voleur qui rame en zigzag dans un port encombré) ; combat 29 (récupérer le canot sans le couler)
+complication: Le voleur est un chat. Un chat savant de Zaun, qui voulait aller pêcher en haute mer et n'avait pas de bateau.
+eclatante: {meneur} rattrape le canot, saute dedans, et se retrouve nez à nez avec un chat roux qui tient les rames. Le chat refuse de rendre le bateau sans avoir pêché au moins une fois. Capitaine Harl, quand il arrive, éclate de rire, puis l'emmène pêcher. Ils deviennent associés. Le chat porte désormais le chapeau du capitaine. Celui que le poisson a recraché.
+reussite: Le canot est récupéré, avec une rame en moins. Le voleur a plongé et s'est enfui à la nage, ce que Capitaine Harl trouve très suspect.
+partielle: Le canot a été récupéré, retourné. Il faudra le réparer. Capitaine Harl soupire. Il commence à avoir l'habitude.
+echec: Le canot est sorti du port. On l'a retrouvé une semaine plus tard, à Bilgewater, avec un chat dedans.
+recompenses: po 15 ; reputation 1 ; objet Bottes 6
+
+=== ZAU-I-037 | L'enseigne du poisson
+source: privee
+region: zaun
+palier: inconnue
+type: protection
+ton: tendre
+lieu: La Tour
+demandeur: Les habitants des Failles, qui se sont cotisés dans un vieux casque
+accroche: « L'enseigne du grand poisson, en haut de la Tour, c'est le repère de tout Zaun. Quand on se perd, on cherche le poisson. Une tempête l'a arraché à moitié. Il pend au-dessus du vide. La compagnie qui la possède dit qu'elle ne paiera pas la réparation. »
+postes: Tank, Combattant
+duree: 4
+dangereuse: non
+epreuves: voyage 35 (grimper jusqu'en haut de la Tour par les échafaudages) ; siege 38 (remettre l'enseigne en place avant qu'elle ne tombe sur la rue, en contrebas)
+complication: L'enseigne est trop lourde pour être remise seule. Il faudra que les habitants tirent ensemble sur les câbles, depuis les toits voisins.
+eclatante: {meneur} grimpe jusqu'à l'enseigne et coordonne, depuis le sommet, des dizaines d'habitants qui tirent les câbles depuis les toits, au rythme d'une chanson de quai. Le grand poisson se redresse. La foule hurle. Ce soir-là, le poisson se rallume pour la première fois depuis des années. Tout Zaun le regarde. On raconte que quelqu'un a pleuré sur chaque toit.
+reussite: L'enseigne est remise en place, de travers. Elle tient. Les habitants disent que le poisson a un air plus malin comme ça.
+partielle: L'enseigne a été sécurisée, mais pas redressée. Elle pend toujours. Au moins, elle ne tombera pas.
+echec: L'enseigne est tombée dans le vide. Personne n'a été blessé. Zaun a perdu son repère.
+recompenses: po 20 ; reputation 3 ; objet Ceinture du géant 4
+
+=== ZAU-I-038 | Les masques de la cité des tentes
+source: privee
+region: zaun
+palier: inconnue
+type: livraison
+ton: tragique
+lieu: Cité des tentes
+demandeur: Monsieur Abernathy, fabricant de masques respiratoires, qui en a fait cent pour rien
+accroche: « J'ai fabriqué cent masques pour la cité des tentes. Avec mes économies. Un gang les a interceptés deux fois en chemin, pour les revendre au marché. La troisième fois, je veux qu'ils arrivent. Il y a des enfants qui respirent le gris toute la nuit. »
+postes: Healer, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: discretion 35 (faire passer la livraison par des rues que le gang ne surveille pas) ; voyage 34 (distribuer les masques à travers toute la cité des tentes, avant la nuit)
+complication: Le gang qui vole les masques est composé d'enfants de la cité des tentes eux-mêmes, qui revendent les masques pour acheter à manger.
+eclatante: {meneur} fait passer les masques par les toits, puis découvre qui les volait les fois précédentes. Au lieu de les chasser, l'équipe confie la distribution aux enfants du gang, payés en repas par Monsieur Abernathy. Les cent masques arrivent sur cent visages. Les enfants volent moins, parce qu'ils mangent plus. Monsieur Abernathy fabrique cent autres masques.
+reussite: Les masques sont livrés et distribués. Les enfants les plus malades sont servis en premier.
+partielle: La moitié des masques est arrivée. L'autre moitié est en vente au marché, deux fois plus cher.
+echec: Les masques ont été volés une troisième fois. Monsieur Abernathy a fermé son atelier.
+recompenses: po 15 ; reputation 3 ; objet Potion de soin 10
+
+=== ZAU-I-039 | Le concert de la Dernière Goutte
+source: privee
+region: zaun
+palier: inconnue
+type: protection
+ton: drole
+lieu: La Dernière Goutte
+demandeur: Les Rouillés, groupe de musique des Failles, qui jouent leur premier vrai concert
+accroche: « Ce soir, on joue à la Dernière Goutte. Notre premier vrai concert. Les Ongles gris et les Démons de Factorywood seront là, tous les deux. La dernière fois qu'ils étaient dans la même salle, il a fallu reconstruire la salle. »
+postes: Tank, Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 34 (convaincre les deux gangs de rester chacun de son côté de la salle) ; combat 34 (sortir, sans arrêter la musique, ceux qui commencent quand même la bagarre)
+complication: Le chanteur des Rouillés est le petit frère du chef des Ongles gris. La batteuse est la fille du chef des Démons. Aucun des deux chefs ne le sait.
+eclatante: {meneur} sépare les deux gangs, puis fait monter les deux chefs au premier rang, côte à côte, juste avant la dernière chanson. Ils découvrent qui joue sur scène. Ils se regardent. Ils ne disent rien. À la fin, ils applaudissent, chacun de son côté, un peu plus fort que nécessaire. Les Rouillés sont engagés pour un mois. Les deux gangs viennent à chaque concert, et ne se battent jamais pendant la musique.
+reussite: Le concert va jusqu'au bout. Une seule table a été cassée. Big Ollie dit que c'est un record.
+partielle: La bagarre a éclaté pendant le rappel. Le concert est terminé, la salle à moitié aussi.
+echec: La bagarre a éclaté à la deuxième chanson. Les Rouillés ont fini le concert dans la rue, devant trois personnes.
+recompenses: po 15 ; reputation 1 ; objet Élixir de fer 6
+
+=== ZAU-I-040 | Le sous-marin du professeur
+source: privee
+region: zaun
+palier: inconnue
+type: diplomatie
+ton: drole
+lieu: Port sud
+demandeur: Professeur Pelotte, chat savant, inventeur, et très offensé
+accroche: « Mon sous-marin est coincé au fond du port. Ce n'est pas un problème technique : les dockers refusent de le remonter, sous prétexte que je suis un chat. Je les paierai. Je paie toujours. Mais je refuse de négocier avec quelqu'un qui m'appelle “minou”. »
+postes: Support, Éclaireur
+duree: 3
+dangereuse: non
+epreuves: diplomatie 36 (négocier entre un chat inventeur très susceptible et des dockers très moqueurs) ; voyage 32 (plonger pour accrocher le câble au sous-marin, au fond d'une eau trouble)
+complication: Le sous-marin est coincé contre la carcasse d'un vieux navire, rempli de caisses que les dockers ont jetées là pour échapper à une inspection. Ils ne veulent pas qu'on aille voir au fond.
+eclatante: {meneur} comprend pourquoi les dockers ne veulent pas plonger, et négocie : le sous-marin sera remonté, et le professeur ne dira rien de ce qu'il a vu au fond. Le professeur accepte, à condition qu'on cesse de l'appeler minou. Les dockers remontent le sous-marin, et l'appellent désormais « Professeur ». Il leur construit une pompe de cale. Ils sont devenus inséparables.
+reussite: Le sous-marin est remonté, contre un tarif exorbitant. Le professeur paie, en griffant le contrat.
+partielle: Le sous-marin est remonté, mais sans sa coque de verre, restée au fond. Le professeur en construit une autre, en marmonnant.
+echec: Les dockers ont refusé. Le professeur a fini par remonter son sous-marin seul, avec un système de poulies. Il ne parle plus aux humains.
+recompenses: po 20 ; reputation 1 ; objet Charme féerique 6
+
+=== ZAU-I-041 | La vague grise
+source: institution
+region: zaun
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Les Failles
+demandeur: La Chambre des Bannières, à la demande du siège de Zaun au Conseil
+accroche: « Une conduite de la Falaise a lâché. Une vague de brume grise descend dans les Failles, niveau par niveau. Les ventilations ne suffisent pas. Les gens montent vers le haut, et le haut ferme ses portes. »
+postes: Healer, Support, Tank
+duree: 8
+dangereuse: non
+risque: oui
+epreuves: voyage 43 (descendre dans les niveaux noyés de brume pour en sortir ceux qui restent) ; diplomatie 42 (faire ouvrir les portes des niveaux supérieurs aux familles qui fuient) ; siege 39 (rouvrir les ventilations bloquées par la rouille)
+complication: Une partie des ventilations a été fermée exprès, des années plus tôt, pour protéger une usine. Les rouvrir inondera l'usine de gris, et l'arrêtera pour des semaines.
+eclatante: {meneur} soigne les premiers malades devant les portes fermées, sous les yeux des habitants des niveaux supérieurs, qui finissent par ouvrir. L'équipe rouvre les ventilations, et l'usine s'arrête. La brume remonte et se disperse en deux jours. Le siège de Zaun au Conseil exige que les ventilations restent ouvertes. Pour une fois, le Conseil cède. Les habitants des Failles s'en souviennent.
+reussite: La plupart des habitants sont évacués. Les ventilations sont rouvertes en partie. La brume se disperse lentement.
+partielle: Les portes sont restées fermées. Les malades ont été soignés sur place, dans la brume. Il y a eu des pertes.
+echec: La brume a noyé trois niveaux. L'équipe a dû remonter. Les Failles comptent leurs morts.
+recompenses: po 160 ; reputation 4 ; objet Potion de soin 15
+
+=== ZAU-I-042 | La raffinerie rouverte
+source: institution
+region: zaun
+palier: inconnue
+type: enquete
+ton: politique
+lieu: Raffineries de Shimmer
+demandeur: La Chambre des Bannières, à la demande commune des gendarmes et du siège de Zaun au Conseil
+accroche: « Du Shimmer neuf circule dans les Failles. Il vient forcément d'une raffinerie. Toutes sont fermées, scellées, gardées. Il faut savoir laquelle a été rouverte, et par qui, sans que l'enquête ne soit étouffée par ceux qui en profitent. »
+postes: Éclaireur, Assassin, Support
+duree: 7
+dangereuse: non
+epreuves: discretion 40 (inspecter les raffineries scellées sans être repéré par leurs gardes) ; poursuite 36 (suivre une livraison jusqu'à sa source) ; diplomatie 35 (faire parler un témoin qui a plus peur des barons que des gendarmes)
+complication: La raffinerie rouverte est gardée par des gendarmes achetés. L'enquête de l'organisme les dérange plus que quiconque.
+eclatante: {meneur} suit la livraison jusqu'à une raffinerie dont les scellés ont été recollés, et découvre les uniformes des gardes. Le rapport de l'organisme est remis en même temps au siège de Zaun et au Conseil, pour qu'aucun des deux ne puisse l'enterrer. La raffinerie est fermée. Trois gendarmes sont suspendus. Le baron qui la finançait reste inconnu, mais il a perdu une usine.
+reussite: La raffinerie est identifiée et fermée. Les responsables sont des hommes de main. Le reste de la chaîne reste dans l'ombre.
+partielle: L'équipe a trouvé la raffinerie, mais elle a été vidée avant l'arrivée des autorités.
+echec: L'équipe a été repérée par les gardes. Le rapport de l'organisme a été égaré, quelque part entre deux bureaux.
+recompenses: po 45 ; reputation 3 ; objet Dague 8
+
+=== ZAU-I-043 | Les carnets des Tallymen
+source: institution
+region: zaun
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Marché à ciel ouvert
+demandeur: La Chambre des Bannières, à la demande du siège de Zaun au Conseil
+accroche: « Le siège de Zaun veut limiter les taux des ventes à crédit des Tallymen, qui ruinent les familles. Les Tallymen refusent de montrer leurs carnets. Il faut convaincre assez d'entre eux de le faire volontairement pour que la loi puisse passer. »
+postes: Support, Éclaireur
+duree: 7
+dangereuse: non
+epreuves: diplomatie 39 (convaincre des vendeurs méfiants de montrer leurs carnets) ; discretion 34 (repérer ceux qui font pression sur eux pour qu'ils refusent) ; voyage 32 (faire le tour du marché et des Failles en une semaine)
+complication: La plupart des Tallymen sont eux-mêmes endettés auprès des gangs qui leur fournissent la marchandise. Ils ne peuvent pas baisser leurs taux sans être ruinés.
+eclatante: {meneur} comprend que les Tallymen sont pris au même piège que leurs clients, et le rapport de l'organisme le dit. La loi proposée au Conseil est modifiée : elle limite aussi ce que les fournisseurs peuvent exiger des vendeurs. Trente Tallymen ouvrent leurs carnets. La loi passe, de justesse. Monsieur Dewitt, de l'immeuble des Sept Tuyaux, envoie à la guilde une marmite neuve, payée comptant.
+reussite: Assez de Tallymen ont montré leurs carnets. La loi est présentée au Conseil. Elle sera débattue.
+partielle: Seuls quelques Tallymen ont accepté. La loi est reportée à la saison prochaine.
+echec: Les Tallymen ont refusé en bloc, après des menaces. L'organisme a abandonné.
+recompenses: po 40 ; reputation 3 ; objet Tome d'amplification 7
+
+=== ZAU-I-044 | La trêve du marché
+source: institution
+region: zaun
+palier: inconnue
+type: defense
+ton: aventure
+lieu: Marché à ciel ouvert
+demandeur: La Chambre des Bannières, à la demande des marchands du marché à ciel ouvert
+accroche: « Les Ongles gris et les Démons de Factorywood se disputent le marché. Ils ont fixé un rendez-vous, demain, au milieu des étals. Les marchands ne veulent pas fermer : fermer, c'est céder. Ils veulent que le marché reste un marché. »
+postes: Tank, DPS, Support
+duree: 6
+dangereuse: non
+risque: oui
+epreuves: diplomatie 41 (convaincre les deux chefs de gang de régler leur dispute ailleurs) ; combat 45 (tenir le marché si la bagarre éclate quand même) ; siege 38 (barricader les étals les plus fragiles avant le rendez-vous)
+complication: Les deux chefs ne veulent pas vraiment se battre. Chacun a peur de passer pour faible s'il recule le premier.
+eclatante: {meneur} propose aux deux chefs une sortie : reculer en même temps, au même moment, sous les yeux de tout le marché, pour que personne n'ait l'air d'avoir cédé. Ils comptent jusqu'à trois. Ils reculent. Le marché applaudit. Les deux gangs signent, sur le comptoir de Jericho, une trêve qui interdit toute bagarre au marché. Elle tient depuis.
+reussite: La bagarre a eu lieu, mais elle a été contenue au bout du marché. Quelques étals sont détruits. Le marché reste ouvert.
+partielle: La bagarre a éclaté au milieu du marché. Les marchands ont tout perdu pour la journée.
+echec: Le marché a été saccagé. Les marchands ont fermé pour une semaine. Les gangs se le disputent encore.
+recompenses: po 160 ; reputation 4 ; objet Bouclier de Doran 8
+
+=== ZAU-I-045 | Le tunnel d'Oshra Va'Zaun
+source: institution
+region: zaun
+palier: inconnue
+type: exploration
+ton: mystere
+lieu: Ruines d'Oshra Va'Zaun
+demandeur: La Chambre des Bannières, à la demande de l'Académie de Piltover et des ferrailleurs du Puisard
+accroche: « Des ferrailleurs ont trouvé, sous les Failles, un tunnel qui mène à des ruines shurimanes. L'Académie veut un relevé. Les ferrailleurs veulent savoir s'il y a quelque chose à vendre. L'organisme veut que tout le monde en revienne vivant. »
+postes: Éclaireur, Mage, Tank
+duree: 8
+dangereuse: non
+epreuves: voyage 38 (descendre par les pipelines industriels jusqu'aux ruines) ; discretion 36 (explorer les ruines sans déclencher leurs mécanismes) ; siege 34 (dégager les passages effondrés depuis des millénaires)
+complication: Les ruines ne sont pas vides : des générations de Zauniens y ont déjà vécu, en secret, et y ont laissé leurs morts, leurs dessins et leurs prières à Janna.
+eclatante: {meneur} découvre, au cœur des ruines, une salle couverte de dessins laissés par des Zauniens d'autrefois, mêlés aux glyphes shurimans. Le relevé est remis à l'Académie, mais la salle n'y figure pas : les ferrailleurs ont demandé qu'elle reste à Zaun. L'organisme accepte. Un petit sanctuaire de Janna y est ouvert, au plus profond de la ville. Seuls les Zauniens en connaissent le chemin.
+reussite: Le relevé est remis à l'Académie. Les ferrailleurs ont trouvé quelques objets à vendre. Tout le monde est revenu.
+partielle: L'équipe a dû remonter avant d'atteindre le cœur des ruines. Le relevé est incomplet.
+echec: Un passage s'est effondré. L'équipe a mis deux jours à remonter. L'organisme interdit le tunnel.
+recompenses: po 50 ; reputation 4 ; objet Cristal de saphir 8
+
+=== ZAU-I-046 | L'évasion de la Drague
+source: institution
+region: zaun
+palier: inconnue
+type: traque
+ton: tragique
+lieu: La Drague
+demandeur: La Chambre des Bannières, à la demande de l'administration de la Drague
+accroche: « Huit prisonniers se sont évadés de la Drague par une galerie de ventilation. Ils se cachent dans les Failles inférieures. L'administration veut les reprendre avant que la ville haute n'apprenne l'évasion. »
+postes: Support, Tireur, Tank
+duree: 7
+dangereuse: non
+epreuves: poursuite 38 (suivre des évadés qui connaissent les Failles inférieures mieux que quiconque) ; combat 36 (les reprendre, sans tuer, car l'organisme ne l'admettrait pas) ; diplomatie 34 (convaincre les habitants du quartier de ne pas les cacher)
+complication: Parmi les évadés, il y a trois condamnés pour des crimes graves, et cinq prisonniers qui n'auraient jamais dû être là : des grévistes, arrêtés pendant la loi martiale et oubliés.
+eclatante: {meneur} reprend les trois condamnés et retrouve les cinq autres, cachés chez des voisins. Le rapport à l'organisme distingue les uns des autres, noms et dossiers à l'appui. L'organisme refuse de rendre les cinq grévistes à la Drague tant que leurs dossiers n'auront pas été revus. Le siège de Zaun s'en saisit. Ils sont libérés deux mois plus tard.
+reussite: Les huit évadés sont repris. L'administration de la Drague est satisfaite. Personne ne pose de questions sur leurs dossiers.
+partielle: L'équipe a repris les trois condamnés. Les cinq autres ont disparu dans les Failles. Personne ne les cherche vraiment.
+echec: Les évadés ont échappé à l'équipe. Deux d'entre eux ont été blessés par d'autres traqueurs.
+recompenses: po 45 ; reputation 3 ; objet Bottes 8
+
+=== ZAU-I-047 | Les ascenseurs de l'Alcôve
+source: institution
+region: zaun
+palier: inconnue
+type: defense
+ton: aventure
+lieu: Quartier de l'Alcôve
+demandeur: La Chambre des Bannières, à la demande des habitants du quartier de l'Alcôve
+accroche: « Les trois ascenseurs qui relient l'Alcôve au reste des Failles tombent en panne tous les jours. Une compagnie de la ville haute veut les remplacer par un seul, payant. Pendant les travaux, le quartier sera coupé du monde. Les habitants veulent réparer eux-mêmes. Il faut les aider, et les protéger de ceux que ça dérange. »
+postes: Tank, Combattant, Support
+duree: 8
+dangereuse: non
+epreuves: siege 39 (réparer les mécanismes des trois ascenseurs, avec des pièces récupérées) ; combat 35 (repousser les hommes de la compagnie, envoyés pour « constater les dégâts ») ; diplomatie 33 (organiser le travail de cinquante habitants qui ne sont d'accord sur rien)
+complication: La compagnie a l'autorisation du Conseil. Elle ne peut pas être chassée. Elle peut seulement être rendue inutile.
+eclatante: {meneur} organise les habitants en trois équipes, une par ascenseur. En trois jours, les trois ascenseurs fonctionnent, réparés avec des pièces de récupération et beaucoup de fierté. La compagnie arrive avec ses plans : il n'y a plus rien à remplacer. Le Conseil retire son autorisation. Les ascenseurs de l'Alcôve portent désormais une plaque : « Réparé par ceux qui le prennent. »
+reussite: Deux ascenseurs sur trois sont réparés. La compagnie reporte ses travaux. Le quartier respire.
+partielle: Un seul ascenseur fonctionne. La compagnie a obtenu de faire le reste. Le quartier paiera.
+echec: Les hommes de la compagnie ont empêché les réparations. Le quartier a été coupé du monde pendant un mois.
+recompenses: po 50 ; reputation 4 ; objet Pioche 8
+
+=== ZAU-I-048 | La crue du Puisard
+source: institution
+region: zaun
+palier: inconnue
+type: defense
+ton: tragique
+lieu: Le Puisard
+demandeur: La Chambre des Bannières, à la demande des ferrailleurs du Puisard
+accroche: « Les pluies de la ville haute s'écoulent toutes vers le bas. Le Puisard monte. L'eau verte atteint déjà les premières cabanes des ferrailleurs. Si elle monte encore d'un mètre, elle entre dans les Failles inférieures. »
+postes: Tank, Healer, Combattant
+duree: 8
+dangereuse: non
+epreuves: siege 40 (construire un barrage de fortune avec des épaves et des sacs) ; voyage 35 (évacuer les cabanes des ferrailleurs avant que l'eau ne les atteigne) ; nuee 33 (repousser les rats de la peste chassés de leurs nids par la crue)
+complication: Le seul moyen d'arrêter la crue est d'ouvrir une vanne de la ville haute, qui détournerait l'eau vers la mer. La vanne appartient à une usine qui refuse de l'ouvrir.
+eclatante: {meneur} tient le barrage de fortune pendant deux nuits, le temps que l'organisme obtienne l'ouverture de la vanne. L'eau baisse au matin du troisième jour. Les cabanes des ferrailleurs sont détruites, mais personne n'est mort. Les ferrailleurs reconstruisent, comme ils l'ont toujours fait. Cette fois, avec des matériaux que l'organisme a fait descendre de la ville haute.
+reussite: Le barrage tient, et l'eau finit par baisser d'elle-même. Les cabanes sont perdues. Les gens sont saufs.
+partielle: L'eau est entrée dans une partie des Failles inférieures. L'évacuation a été faite à temps, presque partout.
+echec: Le barrage a cédé. L'eau verte a envahi les Failles inférieures. On compte les disparus.
+recompenses: po 50 ; reputation 4 ; objet Ceinture du géant 5
+
+=== ZAU-I-049 | La serre de la Tour
+source: institution
+region: zaun
+palier: inconnue
+type: protection
+ton: horreur
+lieu: Tour des barons
+demandeur: La Chambre des Bannières, à la demande de l'administration provisoire de la Tour des barons
+accroche: « Depuis la mort de son propriétaire, personne ne s'occupe de la serre au sommet de la Tour. Les cultivars ont poussé. Ils ont envahi trois étages. Un jardinier est monté il y a deux jours. On ne l'a pas revu. On entend chanter, là-haut. »
+postes: Mage, Tank, Support
+duree: 7
+dangereuse: non
+epreuves: voyage 37 (monter par les étages envahis de racines et de lianes) ; nuee 38 (repousser les plantes qui se défendent quand on les coupe) ; diplomatie 33 (calmer le jardinier, s'il est encore vivant)
+complication: Le jardinier est vivant. Il est enroulé dans les lianes, qui le nourrissent. Il chante pour elles, et elles ne veulent pas le laisser partir.
+eclatante: {meneur} sent la vie étrange qui palpite dans les lianes, et comprend qu'elles ne veulent pas de mal au jardinier : elles veulent qu'on s'occupe d'elles. Le jardinier est libéré en chantant avec lui, doucement. Les plantes le relâchent. Il reste le jardinier de la serre, avec deux aides. Les plantes ne descendent plus. Le chant, lui, continue chaque soir, et on dit qu'il est beau.
+reussite: Le jardinier est libéré et soigné. Les cultivars sont taillés. La serre est fermée en attendant un nouveau propriétaire.
+partielle: Le jardinier est libéré, mais les plantes ont envahi un quatrième étage. La Tour est évacuée.
+echec: L'équipe a dû redescendre devant les lianes. Le jardinier chante toujours, là-haut. Personne n'ose monter.
+recompenses: po 45 ; reputation 3 ; objet Cristal de rubis 8
+
+=== ZAU-I-050 | Le Jour du Souvenir
+source: institution
+region: zaun
+palier: inconnue
+type: protection
+ton: tendre
+lieu: Statue de Vander
+demandeur: La Chambre des Bannières, à la demande commune du siège de Zaun et du Conseil
+accroche: « Pour la première fois, le Jour du Souvenir de Zaun et la Fête du progrès de Piltover auront lieu le même jour, au même endroit : devant la statue, au pied du Pont du Progrès. Les deux villes ensemble. Ou les deux villes face à face. Personne ne sait encore. »
+postes: Tank, Support, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: discretion 35 (repérer, dans les deux foules, ceux qui veulent que tout dégénère) ; diplomatie 38 (faire en sorte que chacun puisse célébrer sans humilier l'autre) ; combat 33 (empêcher le premier coup, s'il part)
+complication: Une vieille femme de la ville haute veut sacrifier, comme le font les Zauniens, l'insigne de son fils gendarme mort pendant les émeutes. Personne ne sait comment la foule de Zaun réagira.
+eclatante: {meneur} repère les provocateurs des deux côtés et les écarte en silence. Puis vient le moment des sacrifices. La vieille femme de la ville haute s'avance, l'insigne à la main. La foule de Zaun se tait. Elle le jette dans l'eau, au pied de la statue. Une femme de Zaun s'avance à son tour, et jette la casquette d'usine de son mari. Elles restent côte à côte. Il ne se passe rien d'autre. Pour une première fois, c'est beaucoup.
+reussite: La cérémonie a lieu sans incident. Les deux foules restent séparées, mais en paix. L'organisme est remercié par les deux villes.
+partielle: Une bagarre a éclaté au fond de la foule, vite contenue. La cérémonie a continué.
+echec: Une pierre a volé. La cérémonie a été interrompue. On ne recommencera pas l'an prochain.
+recompenses: po 50 ; reputation 4 ; objet Bouclier de Doran 8

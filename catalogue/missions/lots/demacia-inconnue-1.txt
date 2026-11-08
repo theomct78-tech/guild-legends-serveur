@@ -1,0 +1,507 @@
+# Demacia · palier Inconnue · lot 1 (missions 001 à 025)
+# {meneur} : le héros qui a mené l'épreuve décisive. {guilde} : le nom de la guilde.
+
+=== DEM-I-001 | La meunière de Jandelle
+source: privee
+region: demacia
+palier: inconnue
+type: enquete
+ton: drole
+lieu: Jandelle
+demandeur: Odile, meunière veuve, à qui on ne la fait pas
+accroche: « Trois sacs de farine disparus en une semaine. Les gardes disent que ce sont les rats. Des rats qui ouvrent les cadenas, peut-être ? »
+postes: Éclaireur
+duree: 4
+dangereuse: non
+epreuves: discretion 33 (guetter le moulin toute la nuit sans se faire repérer) ; poursuite 28 (le voleur file à travers les champs de blé)
+complication: Le voleur est un gamin, Bastien, dont la famille a quitté le bourg sur un simple soupçon de magie. Il nourrit sa mère et ses deux sœurs, cachées dans une grange à l'abandon.
+eclatante: {meneur} rattrape Bastien au bord du ruisseau, un sac sur l'épaule. {meneur} découvre la grange, la mère, les deux petites. Odile écoute toute l'histoire, bras croisés, puis grommelle qu'il lui faut justement un garçon pour porter les sacs. Bastien commence demain. La farine, elle, ne sera jamais remboursée, et Odile s'en vante à tout le bourg.
+reussite: Les sacs sont retrouvés dans un fossé, à peine entamés. Le voleur, lui, s'est évaporé dans les blés. Odile paie, compte deux fois les pièces, et ajoute un pain pour la route : « Pour ceux qui ont l'œil. »
+partielle: {meneur} a vu une silhouette maigre, des traces de petits pieds, et rien d'autre. Odile paie la moitié de ce qui était promis et pose un deuxième cadenas. Ces traces reviendront peut-être.
+echec: Pendant que {meneur} somnolait dans le foin, un quatrième sac a disparu. Au marché de Jandelle, on parle déjà de « la guilde qui dort pendant le guet ».
+recompenses: po 25 ; reputation 2 ; objet Potion de soin 5
+suite: DEM-L-001
+
+=== DEM-I-002 | La bête des rocs d'Uwendale
+source: privee
+region: demacia
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Uwendale
+demandeur: Hamon, fermier, trois générations sur la même terre
+accroche: « Elle a retourné mon champ d'orge comme une nappe. La clôture ? Elle ne l'a même pas vue. Elle est passée dedans. »
+postes: Tank
+duree: 5
+dangereuse: non
+epreuves: poursuite 30 (suivre les sillons de la bête jusqu'aux rochers) ; combat 36 (affronter une bête des rocs, peau de pierre et charge de taureau)
+complication: Ce n'est pas une bête adulte mais une jeune, chassée de sa harde. La mère n'est pas loin, et elle cherche.
+eclatante: La bête tombe au pied des rochers, après une charge que {meneur} encaisse sans reculer. Hamon fait venir tout le hameau pour voir la carcasse. Sa peau de pierre servira à renforcer la grange, et ses défenses finiront au-dessus de la cheminée de l'auberge, avec le nom de la guilde gravé dessous.
+reussite: Blessée, la bête s'enfuit vers les Hautes-Terres et ne revient pas. Hamon replante son orge en sifflant, et promet de parler de la guilde aux chasseurs du coin.
+partielle: {meneur} a repoussé la bête, mais elle a eu le temps de saccager le potager et le poulailler. Hamon paie, sans le sourire.
+echec: La bête a chargé, {meneur} a plié. Hamon a dû l'éloigner lui-même avec une torche et sa fourche. Il ne demandera plus d'aide à une guilde, et il le fait savoir.
+recompenses: po 30 ; reputation 2 ; objet Épée longue 6
+
+=== DEM-I-003 | Les bannières du Printemps jaune
+source: privee
+region: demacia
+palier: inconnue
+type: livraison
+ton: drole
+lieu: Cloudfield
+demandeur: Maître Alcide, organisateur de la Fête du Printemps jaune depuis vingt-deux ans
+accroche: « Les bannières sont brodées à Everpeak. La fête est dans deux jours. Et le brodeur refuse de les envoyer tant que Cloudfield ne s'excuse pas pour l'histoire du concours de tartes. »
+postes: Support, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: voyage 32 (franchir le col des Croc-Vert, chargés de rouleaux de soie) ; diplomatie 37 (obtenir les bannières d'un brodeur très, très vexé)
+complication: Le brodeur n'est pas vexé par la tarte. Il était amoureux de la gagnante, qui en a épousé un autre.
+eclatante: {meneur} trouve les bons mots : le brodeur rend les bannières, et accepte même de venir à la fête. Il y danse avec la veuve du boulanger. Maître Alcide pleure dans son écharpe jaune et inscrit le nom de la guilde dans le livre de la fête.
+reussite: Les bannières arrivent à temps, au prix d'une lettre d'excuse que Maître Alcide signe en serrant les dents. La fête est magnifique, la rancune intacte.
+partielle: Seules trois bannières sur cinq ont été cédées. On les accroche en les espaçant beaucoup. Personne n'est dupe.
+echec: Pas de bannières. Cloudfield fête son printemps sous des draps de lit teints au safran, et Maître Alcide raconte à qui veut l'entendre que la guilde a « insulté Everpeak deux fois ».
+recompenses: po 20 ; reputation 2 ; objet Bottes 5
+
+=== DEM-I-004 | Le givre sur ses mains
+source: privee
+region: demacia
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Meltridge
+demandeur: Maela, tisserande, mère d'un garçon de onze ans
+accroche: « Il a touché l'abreuvoir, et l'eau a gelé. En plein été. Il s'est enfui avant que je puisse lui dire que je l'aimais quand même. »
+postes: Éclaireur, Support
+duree: 6
+dangereuse: non
+risque: oui
+epreuves: poursuite 41 (retrouver la trace d'un enfant terrifié dans les collines) ; discretion 43 (éviter les anciens Traqueurs qui le cherchent aussi) ; diplomatie 37 (convaincre l'enfant de faire confiance à des inconnus)
+complication: Un ancien traqueur de mages, Aldric, est sur la piste depuis la veille. L'ordre est dissous, mais il n'a jamais rendu son masque.
+eclatante: {meneur} trouve Tobie recroquevillé dans une bergerie, les doigts couverts de givre. Il a fallu une heure de patience pour qu'il accepte de venir. Aldric est passé à vingt pas sans les voir. L'équipe le conduit chez les Illuminateurs, qui sauront le cacher et lui apprendre à maîtriser ce qu'il est. Maela pourra le voir une fois par saison. C'est peu, mais il est vivant, et libre.
+reussite: Tobie est retrouvé et ramené à sa mère, en secret. Ils quittent Meltridge à l'aube, sans dire où ils vont. Maela laisse sur la table tout ce qu'elle avait promis, et un châle qu'elle a tissé la nuit.
+partielle: L'équipe a retrouvé l'enfant, mais Aldric l'a vu aussi. Tobie s'est enfui une deuxième fois, plus loin. Maela continue de laisser la lampe allumée à la fenêtre.
+echec: Aldric a trouvé Tobie le premier. Maela ne sait pas où on l'a emmené. Elle ne paie rien et ne dit rien. Les héros les plus sensibles de la guilde en parleront longtemps.
+recompenses: po 80 ; reputation 3 ; objet Cape de négation 6
+suite: DEM-L-002
+
+=== DEM-I-005 | Le péage de Velorus
+source: privee
+region: demacia
+palier: inconnue
+type: defense
+ton: aventure
+lieu: Velorus
+demandeur: Gaspard, marchand de laine qui fait la route des quatre bourgs
+accroche: « Ils ont mis une chaîne en travers du pont et réclament un sou par roue. Ils se disent “gardiens du pont”. Le seul pont qu'ils ont jamais gardé, c'est celui de leur bouteille. »
+postes: Tank, DPS, Support
+duree: 3
+dangereuse: non
+epreuves: diplomatie 32 (sommer les faux gardiens de lever leur chaîne) ; combat 38 (déloger six brigands retranchés derrière leurs charrettes)
+complication: Leur chef, Rufus, est un ancien soldat des réserves, renvoyé sans pension après une blessure. Il connaît le terrain et ses hommes lui obéissent.
+eclatante: Le pont est libéré, la chaîne jetée au fleuve. {meneur} remet Rufus aux autorités de Velorus en témoignant de sa blessure : le juge en tient compte, et l'homme écope d'un an de travaux sur les routes plutôt que du cachot. Gaspard, ravi, offre une balle de laine à la guilde.
+reussite: Les brigands sont dispersés, le pont rouvert. Gaspard paie et repart en chantant, sa charrette pleine.
+partielle: Les brigands ont décampé, mais ils ont emporté la caisse des péages et ils reviendront ailleurs. Gaspard paie, en regardant derrière lui sur toute la route.
+echec: Les brigands tiennent toujours le pont. Gaspard a payé son sou par roue, et il fait savoir aux quatre bourgs que la guilde coûte plus cher que les bandits.
+recompenses: po 25 ; reputation 2 ; objet Armure de tissu 7
+
+=== DEM-I-006 | Le blaireau-ours d'Edessa
+source: privee
+region: demacia
+palier: inconnue
+type: chasse
+ton: tendre
+lieu: Edessa
+demandeur: Pernelle, apicultrice, et Sire Bréval, ranger de passage qui veut l'animal vivant
+accroche: « Il a mangé trois ruches et il est revenu pour la quatrième. Le ranger dit qu'il ferait un compagnon formidable. Moi je dis qu'il ferait une couverture formidable. »
+postes: DPS
+duree: 4
+dangereuse: non
+epreuves: poursuite 28 (pister un blaireau-ours repu et grognon dans les bois) ; combat 27 (le maîtriser sans le blesser, ce qui est plus dur que de le tuer)
+complication: L'animal n'est pas sauvage : il a un collier usé sous sa fourrure. C'était le compagnon d'un ranger mort l'hiver dernier.
+eclatante: {meneur} gagne la confiance de la bête avec un rayon de miel. Sire Bréval reconnaît le collier : c'était Brume, la compagne de son ancien capitaine. Elle repart avec lui, et Pernelle reçoit une indemnité des rangers pour ses ruches. Elle prétend que ça ne l'émeut pas, mais elle a les yeux humides.
+reussite: Le blaireau-ours est capturé, un peu secoué. Sire Bréval l'emmène, Pernelle replante ses ruches. Tout le monde est content, sauf le blaireau.
+partielle: L'animal a été chassé loin des ruches, mais il s'est échappé. Il reviendra quand il aura faim. Sire Bréval soupire.
+echec: Le blaireau-ours a eu la quatrième ruche, et un morceau de cape. Pernelle a renvoyé {meneur} à coups de torchon.
+recompenses: po 20 ; reputation 2 ; objet Potion de soin 8
+
+=== DEM-I-007 | Les lentilles de Needlebrook
+source: privee
+region: demacia
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Needlebrook
+demandeur: Ysolde, commis des douanes, jeune et trop honnête pour son poste
+accroche: « Des caisses marquées “poisson séché” qui pèsent comme du fer. Mon supérieur me dit de ne pas les ouvrir. C'est justement pour ça que je veux savoir ce qu'il y a dedans. »
+postes: Assassin
+duree: 5
+dangereuse: non
+epreuves: discretion 35 (s'introduire dans l'entrepôt du port la nuit) ; poursuite 32 (suivre la barque qui vient récupérer les caisses)
+complication: Les caisses contiennent des lentilles hextech de Piltover, interdites à Demacia. Le supérieur d'Ysolde touche sa part. Si l'affaire éclate, Ysolde perd sa place, même en ayant raison.
+eclatante: {meneur} rapporte une lentille et un registre de livraisons signé de la main du supérieur. Ysolde le porte directement au magistrat du comté, en passant par-dessus tout le monde. Le supérieur est arrêté. Ysolde le remplace, et elle a toujours l'air terrifiée, mais c'est elle qui tient le port désormais.
+reussite: {meneur} a identifié la marchandise et le passeur. Ysolde sait la vérité, mais sans preuve signée, elle doit attendre son heure. Elle paie, et garde le dossier caché sous son lit.
+partielle: On sait seulement que les caisses viennent de l'est par la mer. La barque a filé dans la brume. Ysolde est plus seule que jamais.
+echec: Le gardien de l'entrepôt a repéré {meneur}. Le lendemain, Ysolde est mutée à un poste de péage en pleine forêt. Elle n'a jamais dit qui l'avait aidée.
+recompenses: po 30 ; reputation 2 ; objet Cristal de saphir 6
+
+=== DEM-I-008 | Le heaume de Wrenwall
+source: privee
+region: demacia
+palier: inconnue
+type: exploration
+ton: tendre
+lieu: Wrenwall
+demandeur: Dame Héloïse, veuve d'un soldat de la Garde-Dragon
+accroche: « Ils m'ont rendu son épée et sa cape. Pas son heaume. Il l'a laissé dans la tour de guet, le soir où la vouivre est venue. Je voudrais l'enterrer avec. »
+postes: Tank, Support
+duree: 5
+dangereuse: non
+epreuves: voyage 34 (atteindre la tour effondrée par les éboulis) ; nuee 36 (chasser la meute de loups qui a fait des ruines sa tanière)
+complication: Le heaume n'est pas seul : le soldat a laissé une lettre dedans, jamais envoyée, adressée à sa femme.
+eclatante: {meneur} rapporte le heaume rouge et or, cabossé, et la lettre glissée dans la doublure. Dame Héloïse la lit seule, au cimetière de Wrenwall. Le lendemain, elle vient remercier l'équipe en personne et laisse, sur la table de la guilde, la vieille cape de son mari, soigneusement pliée.
+reussite: Le heaume est rapporté, sans la lettre, perdue dans les décombres. Les funérailles ont lieu au soleil. Dame Héloïse paie en silence et serre chaque main.
+partielle: Les loups ont empêché l'équipe d'entrer dans la tour. L'équipe n'a rapporté qu'une boucle du heaume, trouvée dans les éboulis. Dame Héloïse la garde quand même.
+echec: L'équipe a fait demi-tour au pied des ruines. Dame Héloïse n'a rien dit. Elle a demandé à un ancien camarade de son mari d'y aller seul.
+recompenses: po 20 ; reputation 3 ; objet Bouclier de Doran 6
+
+=== DEM-I-009 | Un duel à Lissus
+source: privee
+region: demacia
+palier: inconnue
+type: diplomatie
+ton: drole
+lieu: Lissus
+demandeur: Aimée, fille de l'aubergiste, très gênée
+accroche: « Deux garçons veulent se battre en duel pour moi demain à l'aube. Le premier a une épée de son grand-père, le second a lu un livre sur la maison Laurent. Aucun des deux ne m'a demandé mon avis. »
+postes: Support
+duree: 3
+dangereuse: non
+epreuves: diplomatie 33 (convaincre deux fiers jeunes nigauds de renoncer sans perdre la face) ; combat 27 (s'ils insistent, désarmer les deux sans les blesser)
+complication: Aimée en aime un troisième, le fils du forgeron, qui n'ose rien dire.
+eclatante: {meneur} propose un « duel de Demacia véritable » : celui qui portera le plus de seaux pour réparer le toit de l'auberge gagnera. Les deux rivaux s'épuisent jusqu'au soir, réconciliés par la douleur. Et c'est le fils du forgeron, qui portait les seaux sans rien dire, qui raccompagne Aimée à la fin.
+reussite: Le duel est annulé. Les deux garçons boudent, mais ils sont entiers. L'aubergiste offre le repas à {meneur}.
+partielle: Le duel a eu lieu, avec des bâtons. Un œil au beurre noir, une dent en moins, deux familles fâchées.
+echec: Le duel a eu lieu, avec les vraies épées, et un des deux est rentré avec une estafilade au bras. Aimée ne remet plus les pieds dans la salle commune.
+recompenses: po 15 ; reputation 1 ; objet Élixir de fer 5
+
+=== DEM-I-010 | Les loups de l'Everpeak
+source: privee
+region: demacia
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Everpeak
+demandeur: Théobald, berger, la main bandée
+accroche: « Ils ne fuient pas les torches. Ils ne fuient pas les chiens. Ils ont de l'écume aux babines. Ce ne sont plus des loups. »
+postes: Tireur
+duree: 5
+dangereuse: non
+epreuves: nuee 34 (repousser une meute enragée qui attaque en même temps de tous les côtés) ; poursuite 28 (traquer les derniers jusqu'à leur tanière)
+complication: La rage vient d'un cadavre de vouivre pourri dans un ravin : tant qu'il reste là, d'autres bêtes tomberont malades.
+eclatante: La meute est abattue. {meneur} remonte la piste jusqu'au ravin et découvre la carcasse de vouivre empoisonnée. {meneur} la brûle. Plus aucune bête ne tombera malade sur les pentes de l'Everpeak, et Théobald fera passer le nom de la guilde de bergerie en bergerie.
+reussite: Les loups sont morts ou dispersés. Le troupeau est sauf pour cette saison. Théobald paie, la main toujours bandée.
+partielle: {meneur} a tué une partie de la meute. Les autres se sont réfugiés plus haut. Théobald rentre ses moutons chaque soir, maintenant.
+echec: La meute a eu raison de {meneur} et de six brebis. Théobald dort désormais dans la bergerie, sa fourche à côté de lui.
+recompenses: po 30 ; reputation 2 ; objet Dague 7
+
+=== DEM-I-011 | La lettre du Serpentrion
+source: privee
+region: demacia
+palier: inconnue
+type: livraison
+ton: aventure
+lieu: Le Serpentrion
+demandeur: Notaire Vauquelin, chauve, essoufflé, cachet de cire à la main
+accroche: « Ce testament doit être lu au bourg d'en face avant le coucher du soleil, sinon l'héritage passe au cousin. Et le cousin a coupé le bac hier soir. Quelle coïncidence. »
+postes: Éclaireur
+duree: 4
+dangereuse: non
+epreuves: voyage 35 (traverser le Serpentrion en crue, sans le bac) ; poursuite 27 (devancer les hommes du cousin sur l'autre rive)
+complication: Le cousin a payé deux pêcheurs pour retarder quiconque traverserait.
+eclatante: {meneur} arrive ruisselant, le testament au sec dans une poche cirée, alors que les cloches sonnent la dernière heure. La lecture a lieu. La nièce hérite de la ferme, et le cousin, du ridicule. Le notaire Vauquelin, pour la première fois depuis vingt ans, éclate de rire.
+reussite: Le testament arrive juste à temps, un peu mouillé, mais lisible. L'héritage est sauvé. Le notaire paie, et repart chercher un nouveau cachet.
+partielle: Le testament est arrivé, mais l'encre a coulé sur la dernière page. L'affaire ira devant le magistrat, et ça prendra des mois.
+echec: Le fleuve a gagné. Le cousin hérite. Le notaire Vauquelin parle de la guilde comme d'un « contretemps regrettable ».
+recompenses: po 20 ; reputation 2 ; objet Bottes 8
+
+=== DEM-I-012 | La statue qui se retourne
+source: privee
+region: demacia
+palier: inconnue
+type: enquete
+ton: horreur
+lieu: Route du Souvenir
+demandeur: Frère Anselme, gardien d'un petit oratoire sur la route des pèlerins
+accroche: « La statue de l'Agneau regarde le chemin. Tous les matins depuis une semaine, elle regarde le mur. Personne ne la touche, j'ai dormi devant. »
+postes: Éclaireur, Support
+duree: 5
+dangereuse: non
+epreuves: discretion 34 (veiller toute la nuit sans éteindre la lampe ni se trahir) ; diplomatie 30 (rassurer des pèlerins qui commencent à parler de malédiction)
+complication: La statue est en pétricite ancienne. Elle a absorbé pendant des siècles les prières des pèlerins, et ce qu'elle a absorbé commence à remuer.
+eclatante: À trois heures du matin, {meneur} voit la statue tourner, lentement, avec un bruit de meule. Elle ne regarde pas le mur : elle regarde une fissure, où l'on trouve un coffret de prières écrites par des mères de soldats morts, oublié depuis des générations. Une fois les prières lues à voix haute, la statue ne bouge plus. Frère Anselme les fait recopier, et les pèlerins reviennent plus nombreux qu'avant.
+reussite: L'équipe a vu la statue bouger, et le phénomène s'arrête après une nuit de veille. Personne ne sait pourquoi. Frère Anselme décide que c'est un miracle et en fait un sermon.
+partielle: Rien n'a bougé cette nuit-là. Le lendemain, la statue regardait de nouveau le mur. Les pèlerins prennent un autre chemin.
+echec: L'équipe a fui avant l'aube. Sur la Route du Souvenir, on raconte désormais que l'Agneau tourne le dos à la guilde.
+recompenses: po 20 ; reputation 2 ; objet Cape de négation 8
+
+=== DEM-I-013 | La roue de Pinara
+source: privee
+region: demacia
+palier: inconnue
+type: protection
+ton: drole
+lieu: Pinara
+demandeur: Mère Gertrude, fromagère, championne du marché trois années de suite
+accroche: « Ma meule de cette année pèse autant qu'un veau, et elle est meilleure qu'un veau. Les Chauvel de Lissus veulent la voler avant le concours. Ils l'ont déjà fait avec mon cousin. »
+postes: Tank, Support
+duree: 4
+dangereuse: non
+epreuves: voyage 32 (mener la charrette jusqu'au marché par une route défoncée) ; combat 30 (repousser les fils Chauvel, armés de gourdins et de mauvaise foi)
+complication: Les Chauvel n'ont pas l'intention de voler la meule. Ils veulent la faire tomber dans la boue, ce qui est pire.
+eclatante: La meule arrive intacte, même si {meneur} a dû la porter à bras le dernier mile. Mère Gertrude remporte le concours pour la quatrième fois, et dédie sa victoire à la guilde devant tout le marché. Une part de fromage est envoyée chaque mois au repère.
+reussite: La meule arrive avec une éraflure. Mère Gertrude gagne quand même, d'une courte tête. Elle paie, et demande déjà si l'équipe est libre l'an prochain.
+partielle: La meule est tombée dans le fossé, mais elle a survécu. Deuxième place. Mère Gertrude ne parle plus aux Chauvel, ni vraiment à la guilde.
+echec: La meule a roulé dans la rivière. Les Chauvel ont gagné. Mère Gertrude refuse de payer, et elle a une voix qui porte.
+recompenses: po 15 ; reputation 1 ; objet Élixir de fer 6
+
+=== DEM-I-014 | La dernière visite d'Ehrenmount
+source: privee
+region: demacia
+palier: inconnue
+type: escorte
+ton: tendre
+lieu: Ehrenmount
+demandeur: Sergent Matthias, quatre-vingt-sept ans, ancien instructeur du Détachement hardi
+accroche: « J'ai appris à trois mille gamins à tenir un bouclier dans cette arène. Je voudrais la revoir avant que mes jambes ne me lâchent pour de bon. Mon fils dit que je ne tiendrai pas la route. Mon fils dit beaucoup de choses. »
+postes: Support
+duree: 6
+dangereuse: non
+epreuves: voyage 32 (conduire un vieil homme fragile sur la route de la côte, par grand vent) ; diplomatie 28 (convaincre l'actuel sergent du camp de laisser entrer un civil dans l'arène)
+complication: Le sergent actuel est un ancien élève de Matthias. Il lui en veut encore d'une punition reçue il y a trente ans.
+eclatante: Matthias entre dans l'arène appuyé sur le bras de {meneur}. Les recrues s'arrêtent. Le sergent du camp, celui qui lui en voulait, ordonne le salut. Le vieil homme corrige la garde d'un gamin de dix-sept ans, et c'est la meilleure journée de sa vie. Il le dit, deux fois.
+reussite: Matthias a vu l'arène depuis la palissade, sans y entrer. Il est resté une heure sans parler. Sur le chemin du retour, il a raconté ses campagnes jusqu'à la nuit.
+partielle: Le vent était trop fort. Il a fallu rebrousser chemin à mi-route. Matthias a vu la mer, au moins. Il dit que c'est déjà ça.
+echec: Matthias a pris froid en chemin, et il a fallu le ramener de toute urgence. Son fils a écrit une lettre très sèche à la guilde.
+recompenses: po 15 ; reputation 3 ; objet Potion de soin 10
+
+=== DEM-I-015 | La brume des Cloudwoods
+source: privee
+region: demacia
+palier: inconnue
+type: sauvetage
+ton: mystere
+lieu: Cloudwoods
+demandeur: Bertille, cheffe d'équipe des bûcherons, qui a perdu quatre hommes
+accroche: « La brume est tombée à midi. Quand elle s'est levée, ils n'étaient plus là. Leurs haches, si. Plantées dans les arbres, bien rangées. »
+postes: Éclaireur, Tank
+duree: 6
+dangereuse: non
+risque: oui
+epreuves: voyage 42 (s'orienter dans une brume épaisse sous les séquoias rouges) ; poursuite 39 (suivre des traces qui tournent en rond) ; nuee 37 (repousser une harde de défenses-voraces affamés)
+complication: Les bûcherons n'ont pas disparu par magie : ils ont fui un défense-vorace et se sont réfugiés dans un séquoia creux, d'où ils n'osent plus sortir.
+eclatante: {meneur} entend des voix étouffées au cœur d'un arbre géant. Les quatre bûcherons sont là, affamés et honteux d'avoir laissé leurs haches. L'équipe chasse les bêtes et ramène tout le monde avant la nuit. Bertille offre à la guilde une poutre de séquoia rouge pour son repère.
+reussite: Trois bûcherons sur quatre sont ramenés. Le quatrième est revenu seul le lendemain, à pied, couvert d'écorchures, et il raconte une autre histoire que les autres.
+partielle: L'équipe a retrouvé les haches, des traces de sang et une piste. Les bûcherons sont revenus par leurs propres moyens, trois jours plus tard, sans dire merci.
+echec: La brume a eu l'équipe aussi. Elle a tourné en rond jusqu'au soir. Bertille a embauché des chasseurs de Vaskasia à la place.
+recompenses: po 105 ; reputation 2 ; objet Bottes 6
+
+=== DEM-I-016 | Le camp de Vaskasia
+source: privee
+region: demacia
+palier: inconnue
+type: defense
+ton: aventure
+lieu: Vaskasia
+demandeur: Hugues, contremaître d'un chantier de bois, qui a fait barricader le camp
+accroche: « Il vient chaque nuit. Il a déjà pris deux mules et la porte du réfectoire. La porte, je ne savais même pas qu'on pouvait manger une porte. »
+postes: Tank, DPS, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: discretion 30 (attendre la bête en silence derrière les barricades) ; combat 41 (affronter un défense-vorace adulte, cornes en avant) ; voyage 32 (transporter les blessés du chantier jusqu'au bourg)
+complication: Deux bûcherons ont été blessés la nuit précédente et n'ont pas été soignés. Si la bête attaque, ils ne pourront pas fuir.
+eclatante: Le défense-vorace tombe au milieu du camp, sous les torches, après un dernier coup de {meneur}. Les blessés sont soignés sur place puis conduits au bourg. Hugues fait sculpter les cornes de la bête en manche de hache et en offre une à chaque membre de l'équipe.
+reussite: La bête est chassée du camp, blessée. Elle ne reviendra pas. Les deux blessés guérissent. Le chantier reprend.
+partielle: La bête est repoussée, mais elle emporte une troisième mule et laisse un blessé de plus. Hugues paie en grommelant, et dit que le bois attendra.
+echec: Le camp est abandonné. Les bûcherons rentrent à Vaskasia avec leurs blessés et leur colère.
+recompenses: po 40 ; reputation 3 ; objet Armure de tissu 8
+
+=== DEM-I-017 | La dette de Dregbourne
+source: privee
+region: demacia
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Dregbourne
+demandeur: Lise, couturière, deux enfants, un mari aux réserves
+accroche: « J'ai emprunté pour les remèdes de la petite. Maintenant il veut le double, ou il me fait dénoncer pour avoir caché une herboriste. L'herboriste, c'était ma grand-mère. Elle est morte. »
+postes: Support, Assassin
+duree: 4
+dangereuse: non
+epreuves: diplomatie 38 (faire reculer un usurier qui connaît la loi mieux que vous) ; discretion 35 (fouiller son registre pour trouver de quoi le faire taire)
+complication: L'usurier, Maître Osmond, fait chanter une vingtaine de familles de Dregbourne de la même façon, toujours avec des accusations de magie.
+eclatante: {meneur} trouve dans le registre d'Osmond les traces de ses vingt chantages. Le document part chez le magistrat de quartier, qui n'aime pas qu'on se serve de la loi pour remplir sa bourse. Osmond est arrêté, les dettes sont réexaminées. À Dregbourne, quartier qui n'aime ni les nobles ni les guildes, on parle désormais de celle-ci avec respect.
+reussite: L'usurier renonce à la dette de Lise, contre la promesse qu'on ne regardera pas plus loin. Lise est soulagée. Les autres familles, elles, paient toujours.
+partielle: La dette est ramenée à la somme d'origine. Lise devra la rembourser, mais elle n'est plus menacée. Pour l'instant.
+echec: Osmond a fait expulser l'équipe de sa boutique par ses gros bras. Le lendemain, il a doublé la dette de Lise « pour le dérangement ».
+recompenses: po 15 ; reputation 3 ; objet Dague 6
+suite: DEM-L-003
+
+=== DEM-I-018 | Le rapace sur le toit
+source: privee
+region: demacia
+palier: inconnue
+type: recuperation
+ton: tendre
+lieu: High Silvermere
+demandeur: Margot et Pierrot, sept et neuf ans, qui ont cassé leur tirelire
+accroche: « Il est sur le toit de la grange depuis trois jours et il a mangé toutes les poules du voisin. On l'a appelé Flocon. Il faut pas qu'on lui fasse de mal, il est gentil, il nous a même pas mangés. »
+postes: Éclaireur, Support
+duree: 3
+dangereuse: non
+epreuves: poursuite 36 (récupérer un jeune rapace Aile-d'argent qui ne veut pas descendre) ; diplomatie 34 (convaincre le gardien des volières de ne pas punir les enfants pour les poules)
+complication: Flocon s'est échappé parce qu'un apprenti de l'Aire des Rapaces a mal fermé une cage. Le gardien cherche un coupable, et les enfants feraient très bien l'affaire.
+eclatante: Flocon descend du toit sur le bras de {meneur}, en hurlant comme une bouilloire. Le gardien des volières, attendri par les enfants, leur permet de venir le voir chaque dimanche à l'Aire. Le voisin est remboursé de ses poules. Margot et Pierrot donnent leur tirelire à la guilde, quatre pièces et un bouton.
+reussite: Le rapace est rendu à l'Aire. Les enfants pleurent un peu, puis courent raconter l'histoire à toute l'école.
+partielle: Flocon s'est envolé vers les montagnes au lieu de descendre. Le gardien est furieux, les enfants inconsolables.
+echec: Flocon s'est envolé avec une poule de plus. Le gardien a fait payer les poules aux parents. Les enfants ont dit à tout le monde que la guilde était méchante.
+recompenses: po 10 ; reputation 2 ; objet Charme féerique 10
+
+=== DEM-I-019 | Les éclats du Bosquet
+source: privee
+region: demacia
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Bosquet de pétricite
+demandeur: Armand, garde forestier du Bosquet, trente ans de service
+accroche: « Quelqu'un taille la pétricite la nuit. Pas les troncs : les racines, là où ça ne se voit pas. Et la pétricite ne repousse plus. Chaque éclat volé est perdu pour toujours. »
+postes: Éclaireur, DPS
+duree: 5
+dangereuse: non
+epreuves: discretion 40 (se cacher parmi les arbres pétrifiés et attendre les voleurs) ; poursuite 37 (les rattraper avant qu'ils ne quittent la forêt)
+complication: Les voleurs sont des mages fugitifs, qui taillent la pétricite pour s'en faire des amulettes : elle absorbe leur magie et les empêche d'être repérés.
+eclatante: {meneur} surprend deux silhouettes à genoux contre une racine. Ce sont une femme et sa fille, des fugitives de Meltridge. L'équipe doit choisir : les livrer au garde, ou les laisser partir avec ce qu'elles ont déjà taillé et faire disparaître leurs traces. Dans les deux cas, Armand obtient sa réponse et le Bosquet cesse d'être pillé. Ce que la guilde a décidé restera dans sa chronique.
+reussite: Les voleurs ont fui en abandonnant leurs outils. Le pillage s'arrête. Armand ne saura jamais qui c'était, et il préfère peut-être ne pas savoir.
+partielle: L'équipe a trouvé leur campement vide et des éclats de pétricite partout. Ils reviendront.
+echec: L'équipe a guetté du mauvais côté de la forêt. Le lendemain, une nouvelle racine était entaillée. Armand a signalé la guilde comme « inefficace » au comté.
+recompenses: po 25 ; reputation 2 ; objet Cape de négation 7
+
+=== DEM-I-020 | La nuit du tombeau
+source: privee
+region: demacia
+palier: inconnue
+type: defense
+ton: politique
+lieu: Fossbarrow
+demandeur: Sergent Odon, des réserves de Fossbarrow, envoyé par la magistrate
+accroche: « Demain soir, on fête l'anniversaire de Fossian Crownguard. Tout le monde sera à la taverne, sauf les pilleurs de tombes. Il me faut des gens qui ne boivent pas. »
+postes: Tank, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: discretion 34 (monter la garde en silence pendant que la ville fait la fête) ; combat 36 (repousser une bande de pilleurs venus pour l'épée du tombeau)
+complication: Les pilleurs ont été engagés par un collectionneur de Zeffira. L'un d'eux est le neveu du sergent Odon.
+eclatante: Les pilleurs sont arrêtés au pied du tombeau. {meneur} récupère la lettre du collectionneur, ce qui permet de remonter jusqu'à lui. Le sergent Odon fait arrêter son propre neveu, la mâchoire serrée. La magistrate Giselle fait inscrire le nom de la guilde dans le registre de la ville.
+reussite: Les pilleurs ont fui sans rien emporter. Le tombeau est intact, la fête aussi. Le sergent paie, soulagé.
+partielle: Les pilleurs ont réussi à forcer la grille, mais ils ont été chassés avant d'ouvrir le sarcophage. Il faudra refaire la serrure, et la magistrate n'est pas contente.
+echec: La plaque du tombeau a été volée. Fossbarrow est en deuil, et on en parlera jusqu'à High Silvermere.
+recompenses: po 30 ; reputation 3 ; objet Bouclier de Doran 7
+
+=== DEM-I-021 | La troupe sans premier rôle
+source: privee
+region: demacia
+palier: inconnue
+type: traque
+ton: drole
+lieu: Le Cercle d'Or
+demandeur: Dame Ariane, directrice d'une troupe de théâtre ambulante, au bord de la crise de nerfs
+accroche: « Notre premier rôle a disparu la veille de la représentation au Cercle d'Or. Il a laissé un mot : “Je pars trouver mon vrai moi.” Son vrai moi joue l'Agneau demain soir. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: poursuite 28 (retrouver un acteur qui laisse des traces de poudre et de vers déclamés partout) ; diplomatie 34 (le convaincre de remonter sur scène)
+complication: L'acteur n'est pas en crise : il a reçu une offre d'une troupe rivale et cherche à négocier son cachet.
+eclatante: {meneur} retrouve l'acteur dans une taverne, en train de réciter du Tung à des marins. Le convaincre prend deux heures, trois flatteries et la promesse d'une meilleure loge. La représentation est un triomphe. Dame Ariane cite la guilde dans le prologue, ce qui n'était pas prévu dans la pièce.
+reussite: L'acteur revient, juste à temps et un peu ivre. Il joue l'Agneau avec une conviction inattendue. La critique est mitigée, mais le rideau tombe.
+partielle: L'acteur est revenu, mais il a exigé de jouer le Loup. La pièce a été jouée à l'envers. Une partie du public a adoré.
+echec: L'acteur a signé chez la troupe rivale. Dame Ariane a dû jouer elle-même, en lisant le texte. Elle n'oubliera pas.
+recompenses: po 20 ; reputation 1 ; objet Élixir de sorcellerie 5
+
+=== DEM-I-022 | Sous les décombres de Terbisia
+source: privee
+region: demacia
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Terbisia
+demandeur: Gilles, boulanger, dont la maison s'est effondrée pendant la dernière secousse
+accroche: « Ma femme était dans la cave quand la secousse est arrivée. Les gardes disent qu'on ne peut rien faire avant la semaine prochaine. Je l'entends frapper. »
+postes: Tank
+duree: 5
+dangereuse: non
+epreuves: siege 32 (dégager les poutres et les pierres sans tout faire s'effondrer) ; voyage 28 (trouver un accès par les caves voisines, à travers les ruines)
+complication: Une deuxième secousse menace. Il faudra choisir entre aller vite et aller prudemment.
+eclatante: {meneur} soulève la dernière poutre. Clémence est là, couverte de poussière, la jambe coincée mais vivante. Elle est soignée sur place, puis portée dehors sous les applaudissements de la rue. Gilles boulange toute la nuit, et le lendemain matin, chaque héros de la guilde trouve un pain chaud devant sa porte.
+reussite: Clémence est sauvée, mais sa jambe gardera la marque. Gilles pleure en payant, et refuse qu'on lui rende la monnaie.
+partielle: {meneur} a dégagé un accès, mais trop tard pour éviter la deuxième secousse. Clémence est sortie vivante, gravement blessée. Les Illuminateurs la soignent.
+echec: Les décombres ont cédé. {meneur} a dû reculer. Les gardes sont arrivés le lendemain. Gilles ne parle plus à personne.
+recompenses: po 20 ; reputation 3 ; objet Pioche 8
+
+=== DEM-I-023 | La bague au fond du puits
+source: privee
+region: demacia
+palier: inconnue
+type: recuperation
+ton: drole
+lieu: Zeffira
+demandeur: Rosalinde, fiancée, mariage dans trois jours
+accroche: « Ma cousine dit qu'elle a “trébuché” près du puits. Avec la bague de ma grand-mère. Dans sa main. Trois fois. »
+postes: Éclaireur
+duree: 2
+dangereuse: non
+epreuves: discretion 28 (fouiller le puits public sans alerter le quartier, ni la cousine) ; poursuite 27 (rattraper le gamin des rues qui a repêché la bague le premier)
+complication: La bague n'est plus au fond du puits : un gamin l'a repêchée et compte la vendre au marché de demain.
+eclatante: {meneur} retrouve le gamin au marché, la bague déjà sur l'étal. Rosalinde la rachète, puis offre au gamin une place de serveur au repas de noce. Elle place sa cousine entre deux tantes sourdes. Tout le monde trouve la soirée réussie, sauf la cousine.
+reussite: La bague est rendue, un peu verdie. Le mariage a lieu. Rosalinde n'invite plus sa cousine à rien.
+partielle: La bague a été revendue à un orfèvre, qui la rendra contre son prix. Rosalinde la récupère, ruinée et furieuse.
+echec: Pas de bague. Rosalinde se marie avec un anneau de cuivre prêté par sa mère. Elle a fait savoir à la moitié de Zeffira ce qu'elle pensait de la guilde.
+recompenses: po 10 ; reputation 1 ; objet Charme féerique 8
+
+=== DEM-I-024 | Les doigts agiles de Graygate
+source: privee
+region: demacia
+palier: inconnue
+type: protection
+ton: aventure
+lieu: Graygate
+demandeur: Maître Ernaut, prévôt de la foire de Graygate
+accroche: « Vingt bourses volées en deux jours. À ce rythme, les marchands de l'est ne reviendront pas l'an prochain, et ma charge non plus. »
+postes: Éclaireur, Assassin
+duree: 6
+dangereuse: non
+epreuves: discretion 37 (se fondre dans la foule de la foire et repérer les voleurs) ; poursuite 39 (pourchasser une voleuse à travers les étals, les toits et les écuries)
+complication: Les pickpockets sont des enfants, dirigés par une ancienne actrice qui leur apprend le métier en échange d'un toit.
+eclatante: {meneur} coince la voleuse sur un toit d'écurie. La bande est démantelée, les bourses rendues. Le prévôt confie les enfants aux Illuminateurs plutôt qu'à la prison, sur la suggestion de l'équipe. Les marchands de l'est jurent de revenir l'an prochain.
+reussite: Deux voleurs sont arrêtés et une partie des bourses rendue. La foire finit dans le calme. Le prévôt paie, et respire.
+partielle: Les vols se sont arrêtés pendant la présence de l'équipe, puis ont repris dès son départ.
+echec: Une bourse de la guilde elle-même a disparu pendant la mission. Le prévôt n'a même pas eu besoin de raconter l'histoire : c'est la foire qui s'en est chargée.
+recompenses: po 35 ; reputation 2 ; objet Dague 8
+
+=== DEM-I-025 | Le chien des Hautes-Terres
+source: privee
+region: demacia
+palier: inconnue
+type: sauvetage
+ton: tendre
+lieu: Hautes-Terres rocheuses
+demandeur: Ambroise, berger solitaire, plus à l'aise avec ses bêtes qu'avec les gens
+accroche: « Bricole est parti chercher les brebis dans l'orage. Il n'est pas revenu. Les brebis, je m'en fiche. Bricole, non. »
+postes: Tireur
+duree: 6
+dangereuse: non
+epreuves: voyage 34 (monter vers la frontière du Freljord par des sentiers de chèvres) ; nuee 30 (dégager un ravin encerclé par des loups)
+complication: Bricole a trouvé les brebis, et il les garde encore dans un ravin, encerclé par les loups. Il ne les abandonnera pas.
+eclatante: {meneur} trouve Bricole au fond d'un ravin, maigre, une oreille déchirée, debout devant onze brebis. Les loups sont chassés. Ambroise, qui ne pleure jamais, pleure un peu. Il offre à la guilde son meilleur agneau, et viendra désormais au marché dire du bien d'elle, ce qui ne lui ressemble pas.
+reussite: Bricole est ramené, épuisé, avec la moitié du troupeau. Ambroise paie et repart sans un mot, le chien dans les bras.
+partielle: {meneur} a retrouvé le troupeau, mais pas le chien. Bricole est rentré seul deux jours plus tard. Ambroise ne sait pas qui remercier.
+echec: L'orage a forcé {meneur} à redescendre. Ambroise est monté seul. On ne sait pas encore s'il est revenu.
+recompenses: po 20 ; reputation 2 ; objet Bottes 7

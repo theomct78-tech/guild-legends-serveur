@@ -1,0 +1,892 @@
+{
+  "_format": "Arcs de la vie de guilde (8 nov. 2026). Le maître observe, il n'intervient pas. Conditions et effets : même grammaire que les scènes. Chaque étape attend au moins « delai » heures après la précédente. L'issue retenue est la première dont les conditions sont vraies au moment de conclure. Aucun accord de genre sur {a} et {b}.",
+  "arcs": [
+    {
+      "id": "ARC-RIVALITE",
+      "titre": "Une rivalité",
+      "declenche": [
+        "aff<-15",
+        "a.Am>55",
+        "b.Am>55",
+        "lien=aucun"
+      ],
+      "etapes": [
+        {
+          "delai": 0,
+          "textes": [
+            "{a} et {b} commencent à compter les points : qui s'entraîne le plus tôt, qui revient de mission le plus couvert de gloire. Personne ne l'a dit à voix haute, mais tout le repère l'a remarqué.",
+            "{a} a gagné un petit défi contre {b} et ne cesse d'en parler. {b} ne dit rien. {b} s'entraîne, en revanche, beaucoup plus."
+          ],
+          "effets": [
+            "aff-3"
+          ]
+        },
+        {
+          "delai": 20,
+          "textes": [
+            "{b} a battu le record de {a} au tir sur cible et a gravé ses initiales sur la cible. {a} les a recouvertes des siennes pendant la nuit.",
+            "Les piques entre {a} et {b} deviennent un spectacle : on s'installe dans la salle commune pour les écouter."
+          ],
+          "effets": [
+            "aff-2"
+          ]
+        },
+        {
+          "delai": 24,
+          "textes": [
+            "{a} défie {b} en duel, devant toute la guilde, à l'aube du lendemain. {b} accepte avant même la fin de la phrase."
+          ],
+          "effets": []
+        },
+        {
+          "delai": 10,
+          "textes": [
+            "Le duel entre {a} et {b} a lieu dans la cour, sous les yeux de toute la guilde. Il dure longtemps, et aucun coup n'est porté pour rien."
+          ],
+          "effets": [
+            "a.moral+2:Le grand duel",
+            "b.moral+2:Le grand duel"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "conditions": [
+            "aff>-30"
+          ],
+          "type": "rival",
+          "textes": [
+            "À la fin du duel, {a} tend la main à {b}, qui la serre. La rivalité reste, mais c'est désormais une forme de respect."
+          ],
+          "effets": [
+            "aff+25",
+            "a.moral+4:Une rivalité qui grandit",
+            "b.moral+4:Une rivalité qui grandit"
+          ]
+        },
+        {
+          "conditions": [],
+          "type": "ennemi",
+          "textes": [
+            "Le duel finit mal : les mots qui suivent sont pires que les coups. {a} et {b} ne se parleront plus."
+          ],
+          "effets": [
+            "aff-20",
+            "a.moral-6:Une haine née d'un duel",
+            "b.moral-6:Une haine née d'un duel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ARC-AMITIE",
+      "titre": "Une amitié qui naît",
+      "declenche": [
+        "aff>28",
+        "aff<55",
+        "lien=aucun"
+      ],
+      "etapes": [
+        {
+          "delai": 0,
+          "textes": [
+            "{a} et {b} prennent l'habitude de s'asseoir côte à côte aux repas. Personne n'a rien décidé. C'est arrivé, voilà tout.",
+            "{a} garde désormais une place pour {b} près du feu."
+          ],
+          "effets": [
+            "aff+3"
+          ]
+        },
+        {
+          "delai": 24,
+          "textes": [
+            "{a} a raccommodé en secret le manteau de {b}, déchiré lors de la dernière mission. {b} s'en aperçoit en l'enfilant et ne dit rien, mais sourit toute la journée.",
+            "{b} a couvert {a} devant le maître de guilde pour une bêtise qui n'était pas la sienne."
+          ],
+          "effets": [
+            "aff+4"
+          ]
+        },
+        {
+          "delai": 30,
+          "textes": [
+            "Un soir, {a} raconte à {b} quelque chose que personne d'autre ne sait. {b} écoute jusqu'au bout, puis raconte à son tour."
+          ],
+          "effets": [
+            "aff+4"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "conditions": [
+            "aff>40"
+          ],
+          "type": "ami",
+          "textes": [
+            "{a} et {b} sont désormais inséparables. Le repère en parle comme d'une seule personne qui aurait deux caractères."
+          ],
+          "effets": [
+            "aff+10",
+            "a.moral+5:Une amitié nouvelle",
+            "b.moral+5:Une amitié nouvelle"
+          ]
+        },
+        {
+          "conditions": [],
+          "type": null,
+          "textes": [
+            "L'amitié entre {a} et {b} s'est arrêtée en chemin, sans dispute, comme une conversation interrompue."
+          ],
+          "effets": []
+        }
+      ]
+    },
+    {
+      "id": "ARC-MENTORAT",
+      "titre": "Un maître et un élève",
+      "declenche": [
+        "a:PATIENT",
+        "aff>10",
+        "lien=aucun"
+      ],
+      "etapes": [
+        {
+          "delai": 0,
+          "textes": [
+            "{a} remarque que {b} répète toujours la même erreur à l'entraînement, et le dit. Simplement, sans moquerie."
+          ],
+          "effets": []
+        },
+        {
+          "delai": 24,
+          "textes": [
+            "{b} vient trouver {a} dans la cour, avant l'aube, et demande s'il reste de la place pour deux.",
+            "{a} attend {b} chaque matin dans la cour. {b} arrive chaque matin un peu plus tôt."
+          ],
+          "effets": [
+            "aff+4"
+          ]
+        },
+        {
+          "delai": 36,
+          "textes": [
+            "{b} réussit enfin le geste que {a} enseigne depuis des jours. {a} ne dit rien, mais hoche la tête une fois. C'est la plus belle des félicitations."
+          ],
+          "effets": [
+            "b.moral+4:Un geste enfin maîtrisé"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "conditions": [
+            "aff>20"
+          ],
+          "type": "mentor",
+          "textes": [
+            "{b} appelle désormais {a} « maître », moitié pour rire, moitié non."
+          ],
+          "effets": [
+            "aff+10",
+            "a.moral+3:Un élève",
+            "b.moral+3:Un maître"
+          ]
+        },
+        {
+          "conditions": [],
+          "type": null,
+          "textes": [
+            "{b} a cessé de venir aux leçons de {a}. Ni rancune ni regret : chacun son chemin."
+          ],
+          "effets": []
+        }
+      ]
+    },
+    {
+      "id": "ARC-ROMANCE",
+      "titre": "Une histoire de cœur",
+      "declenche": [
+        "aff>62",
+        "lien=aucun",
+        "a.So>45"
+      ],
+      "etapes": [
+        {
+          "delai": 0,
+          "textes": [
+            "{a} cherche {b} du regard dans chaque pièce. Toute la guilde l'a remarqué, sauf {b}.",
+            "{a} rougit quand on prononce le nom de {b}. La guilde fait semblant de ne rien voir, très mal."
+          ],
+          "effets": []
+        },
+        {
+          "delai": 24,
+          "textes": [
+            "Une fleur des champs apparaît chaque matin sur l'oreiller de {b}. L'enquête de la guilde est en cours. On devine sans peine que {a} n'y est pas pour rien.",
+            "{a} a écrit une lettre pour {b}. Puis l'a brûlée. Puis en a écrit une autre."
+          ],
+          "effets": []
+        },
+        {
+          "delai": 36,
+          "textes": [
+            "Sur les remparts, au coucher du soleil, {a} dit enfin à {b} ce que tout le repère savait déjà."
+          ],
+          "effets": []
+        }
+      ],
+      "issues": [
+        {
+          "conditions": [
+            "aff>70"
+          ],
+          "type": "amour",
+          "textes": [
+            "{b} ne répond rien, et prend la main de {a}. Le lendemain, la guilde a organisé une fête que personne n'a officiellement annoncée."
+          ],
+          "effets": [
+            "aff+12",
+            "a.moral+8:Un amour partagé",
+            "b.moral+8:Un amour partagé"
+          ]
+        },
+        {
+          "conditions": [],
+          "type": "ami",
+          "textes": [
+            "{b} répond avec beaucoup de douceur que ce ne sera pas possible. {a} reste un moment sur les remparts. Le lendemain, le déjeuner se passe comme avant, ou presque."
+          ],
+          "effets": [
+            "aff-5",
+            "a.moral-6:Un amour sans retour"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ARC-BROUILLE",
+      "titre": "Une brouille",
+      "declenche": [
+        "aff>35",
+        "a.Te>55"
+      ],
+      "etapes": [
+        {
+          "delai": 0,
+          "textes": [
+            "Quelque chose s'est cassé entre {a} et {b}. On ne sait pas quoi. La même table ne les réunit plus.",
+            "{a} et {b} se saluent désormais d'un signe de tête glacial. Le reste de la guilde marche sur des œufs."
+          ],
+          "effets": [
+            "aff-12"
+          ]
+        },
+        {
+          "delai": 24,
+          "textes": [
+            "{a} quitte la salle commune quand {b} y entre. {b} fait mine de ne pas le remarquer, et le remarque très bien.",
+            "{b} a rendu à {a} un livre prêté il y a des mois, sans un mot, posé devant la porte."
+          ],
+          "effets": [
+            "aff-4"
+          ]
+        },
+        {
+          "delai": 30,
+          "textes": [
+            "Une mission, une tempête, un plat brûlé : un petit rien force {a} et {b} à se parler. La conversation dure plus longtemps que prévu."
+          ],
+          "effets": []
+        }
+      ],
+      "issues": [
+        {
+          "conditions": [
+            "aff>15"
+          ],
+          "type": null,
+          "textes": [
+            "{a} et {b} finissent par rire de leur brouille. Personne ne saura jamais ce qui l'avait causée, et ça n'a plus d'importance."
+          ],
+          "effets": [
+            "aff+18",
+            "a.moral+4:Une brouille réparée",
+            "b.moral+4:Une brouille réparée"
+          ]
+        },
+        {
+          "conditions": [],
+          "type": null,
+          "textes": [
+            "La brouille entre {a} et {b} s'est figée. Les mots échangés restent polis. C'est presque pire."
+          ],
+          "effets": [
+            "aff-6",
+            "a.moral-3:Une amitié perdue",
+            "b.moral-3:Une amitié perdue"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ARC-FARCES",
+      "titre": "La guerre des farces",
+      "declenche": [
+        "a:FARCEUR",
+        "b.Di>65"
+      ],
+      "etapes": [
+        {
+          "delai": 0,
+          "textes": [
+            "{a} a cousu les manches de la tunique de {b}. {b} a mis dix minutes à comprendre, et une seconde à deviner le coupable."
+          ],
+          "effets": [
+            "aff-2"
+          ]
+        },
+        {
+          "delai": 18,
+          "textes": [
+            "{b} a répliqué : les bottes de {a} sont clouées au plancher du dortoir. La guilde se divise en deux camps.",
+            "Réplique de {b} : le lit de {a} se trouve désormais sur le toit du repère, avec ses draps."
+          ],
+          "effets": []
+        },
+        {
+          "delai": 24,
+          "textes": [
+            "{a} prépare sa vengeance : un seau, une corde, de la farine et une heure précise. Toute la guilde est dans la confidence, sauf {b}. Ou peut-être que {b} le sait aussi."
+          ],
+          "effets": []
+        }
+      ],
+      "issues": [
+        {
+          "conditions": [
+            "aff>-10"
+          ],
+          "type": null,
+          "textes": [
+            "{a} et {b} finissent sous la même pluie de farine, chacun pris au piège de l'autre. Le fou rire dure jusqu'au soir. La paix est signée autour d'une tarte."
+          ],
+          "effets": [
+            "aff+20",
+            "a.moral+4:La guerre des farces",
+            "b.moral+4:La guerre des farces"
+          ]
+        },
+        {
+          "conditions": [],
+          "type": null,
+          "textes": [
+            "Cette fois, la farce de {a} va trop loin aux yeux de {b}. On n'en rit plus du tout."
+          ],
+          "effets": [
+            "aff-12",
+            "b.moral-4:Une farce de trop"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ARC-DETTE",
+      "titre": "Une dette de jeu",
+      "declenche": [
+        "a:JOUEUR",
+        "aff>-20"
+      ],
+      "etapes": [
+        {
+          "delai": 0,
+          "textes": [
+            "{b} a perdu une partie de dés contre {a}, puis une autre. La dette s'écrit sur un bout de parchemin glissé dans la poche de {a}."
+          ],
+          "effets": []
+        },
+        {
+          "delai": 20,
+          "textes": [
+            "{b} propose « quitte ou double ». {a} accepte, évidemment. {b} perd, évidemment. Le parchemin s'allonge."
+          ],
+          "effets": [
+            "b.moral-2:Une dette qui grossit"
+          ]
+        },
+        {
+          "delai": 24,
+          "textes": [
+            "{a} et {b} jouent la partie décisive, tard dans la nuit, devant la moitié de la guilde."
+          ],
+          "effets": []
+        }
+      ],
+      "issues": [
+        {
+          "conditions": [
+            "aff>20"
+          ],
+          "type": null,
+          "textes": [
+            "{a} déchire le parchemin devant {b} : « On est quittes. Mais tu me dois un verre. » La salle commune applaudit."
+          ],
+          "effets": [
+            "aff+12",
+            "b.moral+5:Une dette effacée"
+          ]
+        },
+        {
+          "conditions": [],
+          "type": null,
+          "textes": [
+            "{b} rembourse la dette jusqu'à la dernière pièce, sans un mot, et ne joue plus jamais avec {a}."
+          ],
+          "effets": [
+            "aff-10",
+            "b.moral-4:Une dette payée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ARC-PAYS",
+      "titre": "Le mal du pays",
+      "declenche": [
+        "a:MELANCOLIQUE",
+        "aff>25"
+      ],
+      "etapes": [
+        {
+          "delai": 0,
+          "textes": [
+            "{a} parle moins, mange moins, et regarde souvent vers la route du pays. Dans toute la guilde, {b} est la seule personne à le remarquer.",
+            "{a} relit sans cesse la même lettre, venue de loin. {b} l'a vu faire trois fois aujourd'hui."
+          ],
+          "effets": [
+            "a.moral-3:Le mal du pays"
+          ]
+        },
+        {
+          "delai": 24,
+          "textes": [
+            "{b} a cherché en ville un plat du pays de {a}, et n'a trouvé qu'une pâle imitation. {a} la mange quand même, jusqu'à la dernière miette."
+          ],
+          "effets": [
+            "aff+4"
+          ]
+        },
+        {
+          "delai": 30,
+          "textes": [
+            "{b} a appris une chanson du pays de {a}, avec un accent épouvantable, et la chante un soir au coin du feu."
+          ],
+          "effets": [
+            "aff+4"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "conditions": [
+            "aff>35"
+          ],
+          "type": "ami",
+          "textes": [
+            "{a} reprend la chanson avec {b}, en corrigeant l'accent. Le pays est loin, mais ce soir, la distance paraît moins grande."
+          ],
+          "effets": [
+            "aff+8",
+            "a.moral+7:Un peu du pays retrouvé"
+          ]
+        },
+        {
+          "conditions": [],
+          "type": null,
+          "textes": [
+            "{a} remercie {b} poliment. Le mal du pays reste là, sourd, mais {a} sait maintenant que quelqu'un l'a vu."
+          ],
+          "effets": [
+            "a.moral+2:Quelqu'un a remarqué"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ARC-GAREN-KATARINA",
+      "titre": "Un amour impossible",
+      "declenche": [
+        "a=Garen",
+        "b=Katarina",
+        "lien=amour"
+      ],
+      "etapes": [
+        {
+          "delai": 0,
+          "textes": [
+            "{a} et {b} se retrouvent seuls dans la cour à la tombée du jour. Ils échangent trois phrases polies. Le reste du repère fait mine de ne rien voir, très mal."
+          ],
+          "effets": [
+            "aff+2"
+          ]
+        },
+        {
+          "delai": 24,
+          "textes": [
+            "Une lettre arrive de Noxus pour {b}, scellée aux armes de sa famille. {b} la lit, devient pâle, et la jette au feu. {a} a tout vu, et ne pose pas de question. Pas encore."
+          ],
+          "effets": []
+        },
+        {
+          "delai": 30,
+          "textes": [
+            "Sur les remparts, {a} demande enfin. {b} raconte : sa famille exige qu'elle quitte la guilde, et qu'elle cesse de fréquenter « le Demacien ». {a} reste longtemps silencieux. « Et toi, qu'est-ce que tu veux ? »"
+          ],
+          "effets": [
+            "aff+3"
+          ]
+        },
+        {
+          "delai": 24,
+          "textes": [
+            "{b} disparaît une nuit entière. Au matin, elle revient, une coupure à la joue, et pose sa dague sur la table devant {a}. « Je reste. Ils ont compris. »"
+          ],
+          "effets": []
+        }
+      ],
+      "issues": [
+        {
+          "conditions": [
+            "aff>65"
+          ],
+          "type": "amour",
+          "textes": [
+            "Ce soir-là, {a} et {b} dînent côte à côte, pour la première fois, devant toute la guilde. Ni Demacia ni Noxus ne sont invités à table."
+          ],
+          "effets": [
+            "aff+10",
+            "a.moral+8:Un choix assumé",
+            "b.moral+8:Un choix assumé"
+          ]
+        },
+        {
+          "conditions": [],
+          "type": "amour",
+          "textes": [
+            "{b} reste, mais quelque chose s'est fêlé. {a} et {b} se regardent encore, de loin, comme avant. Comme toujours, peut-être."
+          ],
+          "effets": [
+            "a.moral-3:Un amour qui fait mal",
+            "b.moral-3:Un amour qui fait mal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ARC-VI-JINX",
+      "titre": "Deux sœurs",
+      "declenche": [
+        "a=Vi",
+        "b=Jinx",
+        "lien=famille"
+      ],
+      "etapes": [
+        {
+          "delai": 0,
+          "textes": [
+            "{b} a peint un dessin d'enfant sur le mur du dortoir : deux petites filles qui se tiennent la main, et un grand bonhomme derrière elles. {a} le regarde longtemps sans rien dire."
+          ],
+          "effets": []
+        },
+        {
+          "delai": 24,
+          "textes": [
+            "En pleine nuit, {b} crie dans son sommeil. {a} est la première debout, s'assoit au bord du lit, et fredonne une vieille chanson des Failles. {b} se rendort sans se réveiller vraiment."
+          ],
+          "effets": [
+            "aff+3"
+          ]
+        },
+        {
+          "delai": 30,
+          "textes": [
+            "{b} trouve {a} en train de recoudre une vieille peluche, retrouvée au fond d'un sac. {b} la lui arrache des mains. « C'est à moi. » Puis, après un long moment : « … Merci. »"
+          ],
+          "effets": [
+            "aff+3"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "conditions": [
+            "aff>70"
+          ],
+          "type": "famille",
+          "textes": [
+            "Au petit matin, {a} et {b} sont assises sur le toit du repère, les jambes dans le vide, comme autrefois au-dessus de Zaun. Elles ne parlent pas. Elles n'en ont pas besoin."
+          ],
+          "effets": [
+            "aff+10",
+            "a.moral+10:Une sœur retrouvée, un peu",
+            "b.moral+6:Une sœur retrouvée, un peu"
+          ]
+        },
+        {
+          "conditions": [],
+          "type": "famille",
+          "textes": [
+            "{b} s'est refermée d'un coup, comme une porte qui claque. {a} frappe à la porte de son dortoir tous les soirs. Elle ne s'ouvre pas encore."
+          ],
+          "effets": [
+            "a.moral-4:Une sœur qui s'éloigne"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ARC-YASUO-YONE",
+      "titre": "Le frère revenu",
+      "declenche": [
+        "a=Yasuo",
+        "b=Yone",
+        "lien=famille"
+      ],
+      "etapes": [
+        {
+          "delai": 0,
+          "textes": [
+            "{a} et {b} prennent leurs repas aux deux bouts de la table. Personne n'ose s'asseoir entre eux. Le silence a l'épaisseur d'un mur."
+          ],
+          "effets": []
+        },
+        {
+          "delai": 24,
+          "textes": [
+            "{b} trouve {a} ivre sur les remparts, sa flûte à la main, incapable de jouer. Il lui prend la flûte et joue l'air que leur mère chantait. {a} ne bouge plus."
+          ],
+          "effets": [
+            "aff+3"
+          ]
+        },
+        {
+          "delai": 36,
+          "textes": [
+            "Dans la cour, à l'aube, {a} et {b} croisent le fer. Pas pour se battre : pour se parler, avec la seule langue qu'ils ont toujours partagée."
+          ],
+          "effets": [
+            "aff+3"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "conditions": [
+            "aff>55"
+          ],
+          "type": "famille",
+          "textes": [
+            "Après le duel, {b} pose la main sur l'épaule de {a}. « Je ne t'en veux plus, petit frère. Pardonne-toi, maintenant. » {a} baisse la tête, et pleure pour la première fois depuis des années."
+          ],
+          "effets": [
+            "aff+12",
+            "a.moral+12:Le pardon d'un frère",
+            "b.moral+6:Un frère retrouvé"
+          ]
+        },
+        {
+          "conditions": [],
+          "type": "famille",
+          "textes": [
+            "Le duel s'arrête sans vainqueur. {a} et {b} rangent leurs sabres et repartent chacun de leur côté. Ce n'est pas encore le pardon. Ce n'est plus la haine."
+          ],
+          "effets": [
+            "aff+4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ARC-LUX-GAREN",
+      "titre": "Le secret de Lux",
+      "declenche": [
+        "a=Lux",
+        "b=Garen",
+        "lien=famille"
+      ],
+      "etapes": [
+        {
+          "delai": 0,
+          "textes": [
+            "{a} fait apparaître une petite lumière au creux de sa main, croyant être seule dans la bibliothèque. Un bruit de pas. Elle referme le poing, et sourit trop vite à {b} qui entre."
+          ],
+          "effets": []
+        },
+        {
+          "delai": 24,
+          "textes": [
+            "{b} parle au dîner des mages arrêtés à Demacia, du ton de quelqu'un qui récite la loi. {a} quitte la table sans finir son assiette."
+          ],
+          "effets": [
+            "aff-3"
+          ]
+        },
+        {
+          "delai": 30,
+          "textes": [
+            "{a} prend {b} à part dans la cour. Ses mains tremblent. « Il faut que je te montre quelque chose. Promets-moi de ne pas me regarder autrement après. »"
+          ],
+          "effets": []
+        }
+      ],
+      "issues": [
+        {
+          "conditions": [
+            "aff>60"
+          ],
+          "type": "famille",
+          "textes": [
+            "La lumière de {a} remplit toute la cour. {b} la regarde, immobile, puis la prend dans ses bras. « Tu es ma sœur. C'est tout ce que j'ai besoin de savoir. » Demacia peut bien penser ce qu'elle veut."
+          ],
+          "effets": [
+            "aff+12",
+            "a.moral+12:Un secret partagé",
+            "b.moral+4:Une vérité qui change tout"
+          ]
+        },
+        {
+          "conditions": [],
+          "type": "famille",
+          "textes": [
+            "{b} regarde la lumière sans rien dire, puis s'en va. Le lendemain, il ne dit rien non plus. Mais il a laissé devant la porte de {a} une lanterne, sans flamme, juste pour elle."
+          ],
+          "effets": [
+            "a.moral-4:Un silence de frère"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ARC-DARIUS-DRAVEN",
+      "titre": "Le grand frère",
+      "declenche": [
+        "a=Darius",
+        "b=Draven",
+        "lien=famille"
+      ],
+      "etapes": [
+        {
+          "delai": 0,
+          "textes": [
+            "{b} raconte à toute la guilde comment il a sauvé {a} lors de leur première campagne. {a} écoute en silence, puis corrige : « C'est moi qui t'ai sauvé. » Personne ne sait lequel croire."
+          ],
+          "effets": []
+        },
+        {
+          "delai": 24,
+          "textes": [
+            "{b} se blesse en voulant épater la galerie. {a} le soigne lui-même, en grognant, avec des gestes étonnamment doux."
+          ],
+          "effets": [
+            "aff+3"
+          ]
+        },
+        {
+          "delai": 30,
+          "textes": [
+            "{a} surprend {b} seul, sans public, en train de s'entraîner jusqu'à l'épuisement. « Pour qui tu fais ça ? Il n'y a personne. » {b} hausse les épaules : « Pour toi, idiot. »"
+          ],
+          "effets": [
+            "aff+3"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "conditions": [
+            "aff>60"
+          ],
+          "type": "famille",
+          "textes": [
+            "Le soir, {a} propose à {b} un concours de lancer de haches. Toute la guilde vient voir. {a} perd, exprès, et {b} fait semblant de ne pas l'avoir remarqué."
+          ],
+          "effets": [
+            "aff+10",
+            "a.moral+6:Un frère, un vrai",
+            "b.moral+10:Un frère, un vrai"
+          ]
+        },
+        {
+          "conditions": [],
+          "type": "famille",
+          "textes": [
+            "{a} et {b} se disputent encore pour savoir qui a sauvé qui. Ça ne finira jamais. C'est peut-être leur façon de se dire qu'ils tiennent l'un à l'autre."
+          ],
+          "effets": [
+            "aff+3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ARC-ASHE-SEJUANI",
+      "titre": "Deux reines du Nord",
+      "declenche": [
+        "a=Ashe",
+        "b=Sejuani",
+        "lien=rival"
+      ],
+      "etapes": [
+        {
+          "delai": 0,
+          "textes": [
+            "{a} et {b} s'assoient aux deux extrémités de la salle commune, chacune avec ses fidèles. On se croirait au Freljord, la neige en moins."
+          ],
+          "effets": []
+        },
+        {
+          "delai": 24,
+          "textes": [
+            "Une nouvelle arrive du Nord : une tribu neutre a été massacrée par les fidèles de Lissandra. {a} et {b} lisent la même lettre, dans deux coins de la pièce, avec la même mâchoire serrée."
+          ],
+          "effets": []
+        },
+        {
+          "delai": 30,
+          "textes": [
+            "{b} pose une carte du Freljord devant {a}, sans un mot de politesse. « Toi, l'ouest. Moi, l'est. Après, on reprendra nos guerres. » {a} regarde longtemps la carte."
+          ],
+          "effets": [
+            "aff+4"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "conditions": [
+            "aff>10"
+          ],
+          "type": "rival",
+          "textes": [
+            "{a} et {b} se serrent l'avant-bras, à la manière du Nord. Elles restent rivales. Mais désormais, on sait au repère qu'elles se battraient côte à côte si la glace devait tomber."
+          ],
+          "effets": [
+            "aff+12",
+            "a.moral+6:Une alliance du Nord",
+            "b.moral+6:Une alliance du Nord"
+          ]
+        },
+        {
+          "conditions": [],
+          "type": "rival",
+          "textes": [
+            "{a} repousse la carte. {b} la reprend sans un mot. Le Nord restera divisé, et le repère aussi, un peu."
+          ],
+          "effets": [
+            "aff-5"
+          ]
+        }
+      ]
+    }
+  ]
+}

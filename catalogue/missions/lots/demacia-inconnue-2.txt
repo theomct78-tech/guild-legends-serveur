@@ -1,0 +1,506 @@
+# Demacia · palier Inconnue · lot 2 (missions 026 à 050, dont les institutionnelles 041 à 050)
+# {meneur} : le héros qui a mené l'épreuve décisive. La Chambre des Bannières : l'organisme supérieur aux guildes (nom à fixer).
+
+=== DEM-I-026 | Le novice qui ne parle plus
+source: privee
+region: demacia
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Temple des Porte-Lumière
+demandeur: Sœur Bénédicte, maîtresse des novices
+accroche: « Frère Lucas est descendu ranger les cierges dans la crypte. Il en est remonté blanc comme un linge, et depuis neuf jours il n'a pas dit un mot. Il écrit seulement, sur tous les murs : “Elle attend.” »
+postes: Support, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: diplomatie 39 (gagner la confiance d'un novice muré dans le silence) ; discretion 32 (explorer la crypte la nuit sans alerter les prêtres, qui ont interdit d'y descendre)
+complication: Dans la crypte, une niche murée porte le sceau de la Voilée. Derrière, une religieuse a été enterrée vivante il y a un siècle, par erreur. Ses dernières prières sont gravées dans la pierre.
+eclatante: {meneur} reste auprès de Lucas jusqu'à ce qu'il parle enfin. Il a entendu gratter derrière le mur. Dans la crypte, l'équipe découvre la niche et les prières gravées. Les prêtres acceptent de célébrer enfin des funérailles dignes de ce nom. Lucas parle de nouveau, et il a demandé à être le gardien de la crypte.
+reussite: Lucas a retrouvé la parole après une longue conversation, mais refuse de dire ce qu'il a vu. La crypte est condamnée. Sœur Bénédicte paie, et prie un peu plus longtemps le soir.
+partielle: L'équipe a trouvé la niche murée, mais les prêtres l'ont surprise avant qu'elle puisse en savoir plus. Lucas écrit toujours sur les murs.
+echec: Les prêtres ont chassé l'équipe du temple pour profanation. Lucas a été envoyé dans un monastère de montagne.
+recompenses: po 20 ; reputation 2 ; objet Tome d'amplification 6
+
+=== DEM-I-027 | Le monstre des tangors
+source: privee
+region: demacia
+palier: inconnue
+type: traque
+ton: drole
+lieu: Evenmoor
+demandeur: Bertrand, cultivateur de tangors, persuadé d'affronter une créature terrifiante
+accroche: « Il ne laisse que les écorces. Il est rapide, il est silencieux, et cette nuit j'ai vu deux yeux briller dans le verger. Grands. Comme ça. Il est peut-être plus gros que la maison. »
+postes: Éclaireur
+duree: 3
+dangereuse: non
+epreuves: discretion 27 (se poster dans le verger sans effrayer la bête) ; poursuite 28 (attraper une boule de poils extrêmement rapide)
+complication: Le monstre est un poro égaré, descendu du Freljord on ne sait comment, qui a découvert qu'il adorait les tangors.
+eclatante: {meneur} tend un tangor épluché. Le « monstre » sort des fourrés : une boule de poils grosse comme un chou, la langue pendante. Bertrand reste muet un long moment, puis décide de garder le poro. Il l'appelle Terreur. Evenmoor organise une petite fête, et la guilde est conviée à vie.
+reussite: Le poro est capturé et confié à un marchand qui remonte vers le Freljord. Bertrand ne veut plus en parler. Le verger est sauvé.
+partielle: Le poro a échappé à {meneur}, mais il a désormais peur du verger. Bertrand a dormi dans un arbre pendant trois nuits pour en être sûr.
+echec: {meneur} a pris la fuite devant les deux yeux brillants, en croyant affronter une bête énorme. Le lendemain, tout Evenmoor savait que c'était un poro.
+recompenses: po 15 ; reputation 1 ; objet Charme féerique 8
+
+=== DEM-I-028 | Les voyageurs de l'auberge du Gué
+source: privee
+region: demacia
+palier: inconnue
+type: enquete
+ton: politique
+lieu: Velorus
+demandeur: Hermine, aubergiste, ancienne réserviste, très droite
+accroche: « Trois voyageurs. Ils disent qu'ils sont marchands de Zeffira. Un marchand de Zeffira sait ce que coûte une chope. Eux, ils paient tout ce que je leur demande. Et le plus jeune salue comme un soldat. »
+postes: Support, Assassin
+duree: 5
+dangereuse: non
+epreuves: diplomatie 36 (les faire parler au coin du feu sans éveiller leurs soupçons) ; discretion 38 (fouiller leurs bagages pendant leur sommeil)
+complication: Ce sont bien des Noxiens, mais pas des espions : ce sont des déserteurs de la Légion qui veulent demander l'asile et n'osent pas se présenter aux autorités.
+eclatante: {meneur} trouve dans les bagages des lettres d'une sœur restée à Noxus, et un ordre de mission déchiré. Les trois hommes avouent : ils ont déserté. La guilde les conduit au magistrat de Velorus, qui accepte de transmettre leur demande d'asile à la capitale. Hermine les sert ensuite au prix normal, ce qui est sa façon de dire qu'elle est d'accord.
+reussite: L'équipe a confirmé qu'ils étaient noxiens. Les voyageurs sont arrêtés et interrogés. Leur sort dépendra du juge. Hermine, elle, est soulagée.
+partielle: Les voyageurs se sont méfiés et sont partis avant l'aube. On ne saura jamais qui ils étaient.
+echec: Le plus jeune a surpris l'équipe dans sa chambre. Bagarre, chaises cassées. Les trois hommes ont disparu, et l'auberge est sens dessus dessous.
+recompenses: po 25 ; reputation 2 ; objet Dague 6
+
+=== DEM-I-029 | Le panier des Illuminateurs
+source: privee
+region: demacia
+palier: inconnue
+type: livraison
+ton: politique
+lieu: Bois sacrés
+demandeur: Frère Ambrose, Illuminateur, qui parle bas et regarde souvent derrière lui
+accroche: « Des remèdes, du pain et des couvertures pour un hameau dans les Bois sacrés. Ce hameau n'existe sur aucune carte. Je préfère qu'il reste ainsi. »
+postes: Éclaireur, Healer
+duree: 6
+dangereuse: non
+epreuves: discretion 40 (traverser la campagne sans être suivi par ceux qui surveillent les Illuminateurs) ; voyage 36 (trouver un chemin dans une forêt qui semble ne pas vouloir qu'on la traverse)
+complication: Le hameau abrite une quinzaine de mages et leurs familles. Une petite fille y est malade, et les remèdes sont pour elle.
+eclatante: L'équipe arrive sans avoir été suivie. {meneur} soigne la petite fille avec les remèdes, et elle passe la nuit. Le hameau accueille la guilde avec méfiance, puis avec chaleur. Frère Ambrose dit que la guilde a désormais des amis dans un endroit qui n'existe pas, ce qui peut servir.
+reussite: Le panier est livré, la petite fille soignée. L'équipe repart sans rien voir de plus, comme convenu.
+partielle: L'équipe a dû faire un long détour pour semer un cavalier. Le panier est arrivé, sans les couvertures, abandonnées en chemin.
+echec: L'équipe a été suivie. Le hameau a dû déménager dans la nuit. Frère Ambrose ne contactera plus jamais la guilde.
+recompenses: po 15 ; reputation 3 ; objet Potion de soin 12
+suite: DEM-L-004
+
+=== DEM-I-030 | Le procès du boulanger
+source: privee
+region: demacia
+palier: inconnue
+type: enquete
+ton: politique
+lieu: Edessa
+demandeur: Agathe, femme du boulanger accusé
+accroche: « On l'accuse d'avoir volé la caisse du moulin. À Demacia, il n'y a pas de petit délit : s'il est condamné, il perd la boulangerie. Le procès est dans deux jours. Il était avec moi cette nuit-là, mais je suis sa femme, alors on ne me croit pas. »
+postes: Support, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: discretion 32 (fouiller le moulin et ses abords à la recherche de preuves) ; diplomatie 38 (convaincre un témoin réticent de parler au juge)
+complication: Le vrai voleur est le fils du meunier, qui a des dettes de jeu. Le meunier le sait, et il protège son fils en accusant le boulanger.
+eclatante: {meneur} retrouve la caisse vide dans le grenier du meunier et convainc un garçon d'écurie de témoigner. Au procès, le juge tient compte de tout, y compris de la honte du meunier. Le boulanger est acquitté, le fils condamné à rembourser en travaillant. Toute la ville achète son pain chez le boulanger pendant un mois, par solidarité.
+reussite: Les preuves sèment le doute, et le juge acquitte le boulanger faute de certitude. Le vrai coupable court toujours, mais la boulangerie est sauvée.
+partielle: Le boulanger est condamné à une amende au lieu de perdre sa boutique. Le juge a tenu compte des circonstances. Agathe paie ce qu'elle peut.
+echec: Le boulanger est condamné. La boulangerie est vendue. Agathe a quitté Edessa.
+recompenses: po 20 ; reputation 3 ; objet Tome d'amplification 5
+
+=== DEM-I-031 | La vouivre des Croc-Vert
+source: privee
+region: demacia
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Monts Croc-Vert
+demandeur: Les anciens de trois hameaux de montagne, qui se sont cotisés
+accroche: « Elle a pris un veau, puis un chien, puis le chapeau du vieux Gautier. Avec Gautier dessous, presque. La prochaine fois, ce sera un enfant. »
+postes: Tank, Tireur, Healer
+duree: 7
+dangereuse: non
+risque: oui
+epreuves: voyage 41 (monter jusqu'à l'aire de la vouivre, à flanc de falaise) ; combat 47 (abattre une jeune vouivre qui défend son territoire) ; poursuite 43 (l'empêcher de s'envoler vers les vallées)
+complication: L'aire contient trois œufs. Les détruire règle le problème pour toujours. Les laisser, c'est risquer qu'une vouivre revienne dans dix ans. Les vendre à un collectionneur rapporterait beaucoup, mais ce serait illégal.
+eclatante: La vouivre tombe dans le ravin, abattue par {meneur} au moment où elle s'envolait. À l'aire, l'équipe trouve les œufs, et ce qu'elle en fait reste dans la chronique de la guilde. Les trois hameaux font une fête à l'équipe. Gautier y porte un nouveau chapeau.
+reussite: La vouivre est blessée et s'enfuit vers d'autres montagnes. Les hameaux sont tranquilles pour longtemps.
+partielle: La vouivre a fui, indemne. Elle reviendra. Les anciens paient la moitié, et rentrent leurs enfants le soir.
+echec: La vouivre a mis l'équipe en déroute sur la falaise. Les anciens envoient une demande à l'armée.
+recompenses: po 160 ; reputation 3 ; objet Épée longue 10
+
+=== DEM-I-032 | Le pèlerin aveugle
+source: privee
+region: demacia
+palier: inconnue
+type: escorte
+ton: tendre
+lieu: Route du Souvenir
+demandeur: Tristan, ancien soldat aveuglé à la guerre, qui marche avec un bâton
+accroche: « Je veux toucher le monument de Galio avant de mourir. On m'a dit que la route est pleine de voleurs qui aiment les infirmes. Je n'ai pas peur des voleurs. Mais je me perds. »
+postes: Support
+duree: 7
+dangereuse: non
+epreuves: voyage 30 (guider un aveugle sur trois jours de route, par tous les temps) ; combat 27 (repousser des détrousseurs qui guettent les pèlerins)
+complication: Tristan a servi avec Galio, ou du moins c'est ce qu'il raconte : il était là quand le colosse s'est réveillé, la seule fois de sa vie où il a vu la magie de près.
+eclatante: Tristan pose les mains sur la pierre du monument. Il reste longtemps ainsi, à murmurer. Puis il raconte à {meneur} le jour où le colosse a bougé, avec des détails que personne ne connaît. Le lendemain, des pèlerins lui demandent de raconter son histoire, et il ne repart plus : il devient le conteur du monument.
+reussite: Tristan atteint le monument, sain et sauf. Il paie avec une petite médaille militaire, la seule chose de valeur qu'il possède.
+partielle: Une averse a obligé {meneur} à s'arrêter dans un village à une journée du monument. Tristan a décidé de finir le chemin seul.
+echec: Les détrousseurs ont pris la bourse de Tristan, et son bâton. {meneur} l'a ramené chez lui. Il n'a pas dit un mot de tout le trajet.
+recompenses: po 15 ; reputation 3 ; objet Bouclier de Doran 6
+
+=== DEM-I-033 | Les noyés de Dawnhold
+source: privee
+region: demacia
+palier: inconnue
+type: defense
+ton: horreur
+lieu: Dawnhold
+demandeur: Marin Lefort, pêcheur, qui n'a pas dormi depuis quatre nuits
+accroche: « Ils sortent de la mer à marée basse. Des hommes en fourrures, couverts d'algues. Ils marchent vers le fort, et au matin ils ne sont plus là. Seulement les traces. Les traces vont vers la mer, jamais dans l'autre sens. »
+postes: Tank, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: discretion 32 (guetter la plage la nuit, sans lumière) ; nuee 37 (affronter ce qui sort de l'eau)
+complication: Ce ne sont pas des morts. Ce sont des pillards du Freljord qui utilisent la légende des noyés de la flotte de Varya pour terrifier le village et piller les entrepôts de poisson.
+eclatante: Quand la première silhouette sort de l'eau, {meneur} lui arrache sa capuche d'algues. Dessous, un pillard frigorifié, qui avoue tout. Le reste de la bande est capturé au petit matin dans une crique. Dawnhold dort enfin, et Marin Lefort raconte l'histoire avec des détails de plus en plus terrifiants.
+reussite: Les « noyés » sont mis en fuite et ne reviennent pas. Personne ne sait vraiment ce qu'ils étaient, mais les entrepôts sont tranquilles.
+partielle: L'équipe a chassé les silhouettes, mais elles ont emporté une barque de poisson. Les pêcheurs dorment avec une lampe allumée.
+echec: L'équipe a fui. Le village aussi, à moitié. Il faudra une autre guilde, et beaucoup de courage, pour y retourner.
+recompenses: po 30 ; reputation 2 ; objet Armure de tissu 7
+
+=== DEM-I-034 | Les noms effacés
+source: privee
+region: demacia
+palier: inconnue
+type: enquete
+ton: horreur
+lieu: Salles sépulcrales
+demandeur: Maître Clovis, graveur des plaques commémoratives, depuis quarante ans
+accroche: « Chaque nuit, un nom disparaît d'une plaque. Pas rayé : effacé, comme si la pierre ne l'avait jamais porté. Ce matin, c'était le nom de mon frère. »
+postes: Éclaireur, Support
+duree: 4
+dangereuse: non
+epreuves: discretion 38 (se cacher parmi les tombes et les plaques jusqu'au milieu de la nuit) ; diplomatie 32 (interroger les familles des noms disparus, qui ne veulent pas en parler)
+complication: Tous les noms effacés ont un point commun : ce sont des soldats morts lors des rafles de mages, et pas au front, comme le disent les plaques. Quelqu'un efface les mensonges.
+eclatante: {meneur} surprend la coupable : une vieille femme, une pierre de pétricite polie à la main, qui efface les noms avec une patience infinie. Son fils était un de ces soldats. Il est mort en refusant d'arrêter un enfant mage. Les plaques le disaient « tombé glorieusement », et elle ne le supportait plus. Maître Clovis grave de nouvelles plaques, avec la vérité. Il ne demande la permission à personne.
+reussite: Les effacements cessent après une nuit de guet. Personne ne revient. Maître Clovis regrave les noms, et garde ses questions pour lui.
+partielle: L'équipe a aperçu une silhouette, une cape grise, rien de plus. Deux autres noms ont disparu pendant la nuit.
+echec: L'équipe s'est endormie. Au matin, le nom de Maître Clovis lui-même avait été effacé de la plaque de sa famille. Il a quitté les Salles et n'y revient plus.
+recompenses: po 20 ; reputation 2 ; objet Cristal de saphir 6
+
+=== DEM-I-035 | La fissure du puits
+source: privee
+region: demacia
+palier: inconnue
+type: defense
+ton: mystere
+lieu: Zeffira
+demandeur: Constance, porteuse d'eau, cheffe autoproclamée de sa rue
+accroche: « Le puits de notre rue est cerclé de pétricite depuis le temps des anciens rois. Depuis hier, la pierre fend, et l'eau brille la nuit. Les gens disent que c'est une bénédiction. Moi je dis que c'est une fuite. »
+postes: Tank
+duree: 5
+dangereuse: non
+epreuves: voyage 28 (ramener un maçon de la maison Durand, le seul capable de travailler la pétricite) ; siege 34 (resceller les blocs pendant que la pierre crache ce qu'elle a absorbé)
+complication: La pétricite a absorbé pendant des siècles la magie d'un sourcier qui avait trouvé cette eau. En se fissurant, elle relâche tout d'un coup, et les habitants qui ont bu l'eau brillante voient des choses.
+eclatante: Le maçon arrive. {meneur} tient les blocs pendant qu'il travaille, les mains engourdies par la magie qui s'échappe. Le puits est rescellé. Les habitants qui avaient des visions retrouvent leurs esprits. Le maçon Durand repart avec un échantillon d'eau et un air intrigué, et il reparlera sûrement à la guilde.
+reussite: Le puits est fermé en attendant une vraie réparation. Les visions s'arrêtent. Constance organise un tour de garde dans la rue.
+partielle: Le puits est condamné. Toute la rue doit aller chercher l'eau trois rues plus loin. Constance en tient la guilde responsable.
+echec: La pierre a cédé. L'eau brillante a coulé dans la rue toute la nuit. Il a fallu faire venir les autorités, qui ont posé beaucoup de questions.
+recompenses: po 35 ; reputation 2 ; objet Cristal de saphir 8
+
+=== DEM-I-036 | Le fils du forgeron veut s'engager
+source: privee
+region: demacia
+palier: inconnue
+type: escorte
+ton: drole
+lieu: Lissus
+demandeur: Maître Gonthier, forgeron de Lissus, et son fils Jehan, seize ans
+accroche: « Mon fils veut entrer dans une guilde. Moi, je veux qu'il reprenne la forge. On a décidé que vous l'emmèneriez sur une vraie mission. S'il revient en voulant toujours y aller, je le laisse partir. »
+postes: Combattant
+duree: 4
+dangereuse: non
+epreuves: poursuite 28 (escorter une livraison de fers à cheval jusqu'aux fermes, avec Jehan qui veut tout faire tout seul) ; combat 28 (repousser des chapardeurs, sans laisser le garçon se faire tuer par excès d'enthousiasme)
+complication: Jehan est très doué, mais il ne le sait pas. Son père, si, et c'est justement ce qui lui fait peur.
+eclatante: Jehan a porté, couru, trébuché, et il a désarmé un chapardeur tout seul, sous l'œil de {meneur}. Le soir, il annonce qu'il veut entrer dans une guilde. Le forgeron a les larmes aux yeux, et il forge lui-même l'épée de son fils. La guilde gagne un ami à Lissus, et peut-être, un jour, une candidature.
+reussite: La livraison est faite. Jehan revient fatigué et beaucoup moins sûr de lui. Il reprendra la forge, pour l'instant. Le forgeron paie avec un grand sourire.
+partielle: Jehan s'est foulé la cheville en tombant d'une charrette. Il ne veut plus entendre parler des guildes, ni de la forge. Il veut être poète.
+echec: Jehan s'est battu, s'est fait battre, et il en veut à la guilde de l'avoir laissé faire. Son père aussi.
+recompenses: po 20 ; reputation 2 ; objet Épée longue 6
+
+=== DEM-I-037 | La dernière chasse d'Uwendale
+source: privee
+region: demacia
+palier: inconnue
+type: chasse
+ton: tragique
+lieu: Uwendale
+demandeur: Évrard, vieux chasseur, qui prépare la Fête du Tueur comme chaque année
+accroche: « Le défense-vorace qui a tué mon fils est revenu. Je l'ai reconnu à sa corne cassée. Je suis trop vieux pour le tuer seul. Pas trop vieux pour venir. »
+postes: Tireur
+duree: 6
+dangereuse: non
+epreuves: poursuite 32 (suivre la bête dans la forêt, avec un vieil homme qui ne veut pas ralentir) ; combat 36 (abattre la bête, sans laisser Évrard s'interposer)
+complication: Évrard ne veut pas seulement voir la bête morte. Il veut mourir en la tuant. Il l'a dit à sa femme en partant.
+eclatante: La bête tombe sous les coups de {meneur}, mais c'est Évrard qui porte le dernier coup, guidé par {meneur}. Il ne meurt pas. Il reste longtemps assis à côté de la carcasse, puis il dit qu'il aimerait rentrer, que sa femme l'attend. Le soir de la Fête du Tueur, il lève son verre à son fils, pour la première fois sans pleurer.
+reussite: La bête est abattue par {meneur} avant qu'Évrard puisse l'atteindre. Il en veut à la guilde, puis il la remercie, des semaines plus tard, dans une lettre maladroite.
+partielle: La bête est blessée et s'enfuit. Évrard veut continuer seul. {meneur} doit le ramener presque de force.
+echec: La bête a renversé Évrard. Il s'en est sorti avec deux côtes cassées et la conviction qu'il ne verra jamais la fin de cette histoire.
+recompenses: po 30 ; reputation 3 ; objet Épée longue 8
+
+=== DEM-I-038 | Les lettres des Portes du Deuil
+source: privee
+region: demacia
+palier: inconnue
+type: exploration
+ton: tragique
+lieu: Portes du Deuil
+demandeur: Solange, mère d'un soldat mort à l'avant-poste
+accroche: « Mon fils m'a écrit chaque semaine pendant deux ans. Les dernières lettres ne sont jamais arrivées. Il disait qu'il les cachait dans le mur de la tour, quand le courrier ne passait plus. La tour est aux Noxiens maintenant. »
+postes: Éclaireur
+duree: 7
+dangereuse: non
+epreuves: voyage 34 (traverser les terres frontalières sans se faire repérer par les patrouilles) ; discretion 36 (se glisser dans l'avant-poste occupé et fouiller le mur de la tour)
+complication: La tour est gardée par une poignée de légionnaires noxiens, qui ont trouvé les lettres il y a longtemps. Un vieux sergent les garde dans son paquetage : il les lit le soir, parce qu'elles lui rappellent ses propres fils.
+eclatante: {meneur} trouve la cachette vide. Les lettres sont dans la tente du sergent noxien, avec ses affaires. {meneur} les reprend sans un bruit. En partant, elle laisse quelque chose à la place : un mot, une pièce, ou rien, selon le cœur de chacun. Solange lit les lettres de son fils, seule, pendant une nuit entière, et elle les fait relier.
+reussite: {meneur} a rapporté deux lettres, cachées encore dans le mur. Ce sont les dernières que le fils a écrites. Solange paie en serrant les lettres contre elle.
+partielle: {meneur} a trouvé la cachette vide et a dû repartir avant l'aube. Solange sait au moins que les lettres existaient.
+echec: Une patrouille a repéré {meneur} à la frontière, et il a fallu rebrousser chemin. Solange a remercié {meneur} d'avoir essayé. C'est pire que des reproches.
+recompenses: po 25 ; reputation 2 ; objet Bottes 7
+
+=== DEM-I-039 | La chorale de Meltridge
+source: privee
+region: demacia
+palier: inconnue
+type: diplomatie
+ton: tendre
+lieu: Meltridge
+demandeur: Maître Florent, chef de chœur, qui croit à la musique plus qu'aux lois
+accroche: « Depuis les émeutes, la moitié de la ville ne parle plus à l'autre. J'organise un concert sur la place, avec des chanteurs des deux côtés. Il me faut des gens pour que personne ne lance de pierres. Et peut-être pour convaincre un ténor. »
+postes: Support, Tank
+duree: 4
+dangereuse: non
+epreuves: diplomatie 39 (convaincre un ténor qui a perdu sa sœur pendant les rafles de chanter avec le fils d'un ancien Traqueur) ; combat 28 (tenir à l'écart quelques agitateurs qui veulent faire dégénérer le concert)
+complication: Le ténor et le fils du Traqueur se connaissent bien : ils étaient amis d'enfance avant les émeutes.
+eclatante: {meneur} les réunit dans une pièce et les y laisse une heure. Quand ils en sortent, aucun des deux ne dit ce qui s'est passé, mais ils chantent ensemble le soir même. La place est pleine. Des gens qui ne s'étaient pas parlé depuis un an chantent le refrain. Maître Florent ne s'en remettra jamais tout à fait.
+reussite: Le concert a lieu, dans le calme, avec les deux chœurs côte à côte, mais pas ensemble. C'est un début.
+partielle: Le concert a eu lieu sans le ténor. Les agitateurs ont été tenus à l'écart. La place était à moitié vide.
+echec: Une pierre a volé pendant le premier chant. Le concert s'est arrêté. Maître Florent a rangé sa partition, et il ne la ressortira pas avant longtemps.
+recompenses: po 15 ; reputation 3 ; objet Élixir de sorcellerie 5
+
+=== DEM-I-040 | Le Gambit truqué
+source: privee
+region: demacia
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Pinara
+demandeur: Raymond, tavernier, dont la réputation est en jeu
+accroche: « L'intendant du seigneur de Pinara gagne au Gambit du Roi chaque semaine, dans ma taverne. Les perdants disent que je l'aide à tricher. Je ne l'aide pas. Mais il triche. »
+postes: Support, Assassin
+duree: 3
+dangereuse: non
+epreuves: discretion 36 (observer les parties sans être remarqué, et trouver le truc) ; diplomatie 34 (révéler la tricherie sans humilier un homme qui a le bras long)
+complication: L'intendant ne triche pas pour l'argent : il fait perdre délibérément des marchands endettés, puis leur prête de quoi payer, avec intérêts, pour le compte de son maître.
+eclatante: {meneur} découvre le jeu de pierres marquées et la combine des prêts. L'équipe expose tout au seigneur lui-même, en privé, en lui laissant la possibilité de dire qu'il n'en savait rien. L'intendant est renvoyé, les dettes annulées. Le seigneur de Pinara se souviendra de la guilde, et de sa discrétion.
+reussite: La tricherie est démasquée en pleine taverne. L'intendant ne revient plus. Raymond est lavé de tout soupçon, mais l'intendant a des amis.
+partielle: L'équipe a trouvé les pierres marquées, mais l'intendant les a jetées au feu avant qu'on puisse le prouver. Il ne revient plus dans la taverne, c'est déjà ça.
+echec: L'intendant a accusé l'équipe de chercher à le voler. Raymond a dû fermer sa taverne une semaine pour calmer le seigneur.
+recompenses: po 20 ; reputation 2 ; objet Dague 5
+
+=== DEM-I-041 | La patrouille des Hautes-Terres
+source: institution
+region: demacia
+palier: inconnue
+type: traque
+ton: aventure
+lieu: Hautes-Terres rocheuses
+demandeur: La Chambre des Bannières, à la demande du commandant des réserves du nord, qui manque d'hommes
+accroche: « Des éclaireurs de la Griffe hivernale ont été vus sur les crêtes, à deux jours de la frontière. Les réserves ne peuvent pas quitter les forts. Trouvez-les, comptez-les, et s'ils sont peu nombreux, raccompagnez-les chez eux. »
+postes: Éclaireur, Tireur, Tank
+duree: 8
+dangereuse: non
+risque: oui
+epreuves: voyage 43 (patrouiller les crêtes dans le vent et la neige précoce) ; poursuite 44 (débusquer des éclaireurs habitués à la montagne) ; combat 42 (les repousser avant qu'ils ne rapportent ce qu'ils ont vu)
+complication: Les éclaireurs ont trouvé un passage oublié à travers les montagnes. S'ils le signalent à leur cheffe, la frontière ne sera plus sûre.
+eclatante: {meneur} repère leur feu de camp à la nuit tombée. Les éclaireurs sont repoussés, et l'équipe découvre le passage oublié qu'ils avaient trouvé. Le commandant des réserves fait murer le col dès la semaine suivante. Il envoie à l'organisme une lettre élogieuse, qui fera parler de la guilde dans tout le nord.
+reussite: Les éclaireurs ont été repérés et repoussés vers le Freljord. Le passage, s'il existe, reste un mystère.
+partielle: L'équipe a trouvé les traces des éclaireurs, mais trop tard : ils étaient repartis. Le commandant double les rondes.
+echec: Les éclaireurs ont semé l'équipe, et ce qu'ils ont vu est maintenant connu de la Griffe hivernale.
+recompenses: po 150 ; reputation 3 ; objet Bottes 8
+
+=== DEM-I-042 | Le convoi de pétricite
+source: institution
+region: demacia
+palier: inconnue
+type: escorte
+ton: politique
+lieu: Bosquet de pétricite
+demandeur: La Chambre des Bannières, pour le compte de la maison Durand
+accroche: « Douze blocs de pétricite taillés pour réparer le Mur oriental. La pierre ne repousse plus : il n'y en aura pas d'autres. Trois convois ont été attaqués cette année. Aucun ne doit l'être cette fois. »
+postes: Tank, DPS, Éclaireur
+duree: 9
+dangereuse: non
+epreuves: voyage 36 (mener les lourdes charrettes jusqu'à Graygate par les routes de l'est) ; discretion 32 (repérer l'embuscade avant qu'elle ne se déclenche) ; combat 38 (repousser les assaillants)
+complication: Les attaquants ne sont pas des brigands : ce sont des mages rebelles qui veulent détruire la pétricite, pour que les nouvelles prisons ne soient jamais construites. Les blocs ne sont pas destinés au Mur, mais aux cellules d'une nouvelle prison.
+eclatante: {meneur} repère l'embuscade dans une gorge et l'équipe la déjoue sans perte. En interrogeant un assaillant, l'équipe apprend la vraie destination des blocs. Le convoi arrive à Graygate. Ce que la guilde fait de cette information est une autre histoire, mais la maison Durand a remarqué la guilde, et les rebelles aussi.
+reussite: Le convoi est livré intact après une escarmouche. L'organisme est satisfait, la maison Durand aussi.
+partielle: Deux blocs ont été brisés pendant l'attaque. Les dix autres sont livrés. La maison Durand fait savoir son mécontentement.
+echec: Le convoi a été détruit. La pétricite perdue l'est pour toujours. L'organisme note l'échec dans le registre de la guilde.
+recompenses: po 60 ; reputation 4 ; objet Cape de négation 10
+suite: DEM-L-005
+
+=== DEM-I-043 | La fièvre de Needlebrook
+source: institution
+region: demacia
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Needlebrook
+demandeur: La Chambre des Bannières, à la demande des Illuminateurs du comté, débordés
+accroche: « Une fièvre des marais touche la moitié du bourg. Les Illuminateurs ont des remèdes, mais pas assez de bras. Et les habitants refusent de rester enfermés : ils ont des bateaux à sortir et des familles à nourrir. »
+postes: Healer, Support
+duree: 8
+dangereuse: non
+epreuves: voyage 37 (faire le tour des maisons isolées le long de la côte, sous la pluie) ; diplomatie 34 (convaincre les pêcheurs de rester à terre le temps que la fièvre passe)
+complication: La fièvre vient d'une cargaison de poisson pourri venue d'ailleurs, vendue à bas prix par un marchand qui le savait. Tant qu'on en mange, la fièvre continue.
+eclatante: {meneur} soigne les malades et remarque que toutes les familles touchées ont acheté le même poisson. La cargaison est brûlée, le marchand dénoncé. En une semaine, la fièvre recule. Les Illuminateurs inscrivent la guilde dans leurs prières, et l'organisme dans ses registres.
+reussite: La fièvre est contenue. Il y a eu des morts, mais beaucoup moins qu'il aurait pu y en avoir.
+partielle: Les remèdes ont soulagé les malades, mais les pêcheurs ont refusé de rester à terre. La fièvre s'est répandue au bourg voisin.
+echec: La fièvre a emporté plusieurs familles. Les Illuminateurs ne sont pas en colère contre l'équipe. Ils sont seulement épuisés.
+recompenses: po 40 ; reputation 4 ; objet Potion de soin 15
+
+=== DEM-I-044 | Les absents du registre
+source: institution
+region: demacia
+palier: inconnue
+type: enquete
+ton: politique
+lieu: Quartier militaire
+demandeur: La Chambre des Bannières, à la demande d'un commis de l'intendance militaire
+accroche: « Le registre des réserves compte quarante réservistes qui touchent leur solde et ne se présentent jamais aux exercices. Certains sont morts depuis des années. Quelqu'un encaisse à leur place. »
+postes: Support, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: diplomatie 36 (interroger les familles et les voisins sans éveiller les soupçons) ; discretion 34 (consulter les archives de l'intendance après les heures de service)
+complication: Le fraudeur est un intendant d'une petite maison noble. L'argent sert à nourrir les familles de soldats morts qui n'ont jamais touché de pension, à cause d'un vide dans la loi.
+eclatante: {meneur} reconstitue toute la combine et découvre à quoi sert l'argent. Le rapport remis à l'organisme décrit la fraude, et aussi les familles sans pension. L'intendant est jugé, mais la cour tient compte des circonstances. Une révision des pensions est demandée à la couronne. La guilde n'a pas fini d'en entendre parler.
+reussite: Le fraudeur est identifié et arrêté. Les soldes fantômes sont supprimées. L'organisme est satisfait. Les familles, elles, ne touchent plus rien.
+partielle: L'équipe a identifié une partie des noms frauduleux, mais pas le responsable. L'enquête est confiée à quelqu'un d'autre.
+echec: L'intendant a été prévenu et a fait disparaître les registres. L'organisme reproche à la guilde son manque de discrétion.
+recompenses: po 35 ; reputation 3 ; objet Tome d'amplification 6
+
+=== DEM-I-045 | Les digues du Serpentrion
+source: institution
+region: demacia
+palier: inconnue
+type: defense
+ton: tragique
+lieu: Le Serpentrion
+demandeur: La Chambre des Bannières, à la demande des villages riverains
+accroche: « Les pluies d'automne ont gonflé le fleuve. Trois villages sont derrière une digue de terre qui ne tiendra pas jusqu'à la fin de la semaine. Il faut des bras, et vite. »
+postes: Tank, Combattant, Support
+duree: 9
+dangereuse: non
+epreuves: siege 39 (renforcer la digue avec des sacs, des pieux et des pierres, nuit et jour) ; voyage 34 (évacuer les familles qui refusent de partir) ; nuee 32 (repousser les bêtes des rocs chassées par la crue, qui se ruent vers les villages)
+complication: Un des trois villages ne peut pas être sauvé : la digue cédera de ce côté-là quoi qu'il arrive. Il faut le dire aux habitants.
+eclatante: {meneur} annonce la nouvelle au village perdu, et l'équipe aide chaque famille à emporter ce qu'elle peut. La digue tient pour les deux autres villages. Quand l'eau emporte le troisième, il n'y a plus personne dedans. Les familles déplacées sont accueillies dans les villages sauvés. L'organisme salue une mission « menée avec cœur ».
+reussite: La digue tient pour deux villages. Le troisième est inondé, mais presque tout le monde a pu partir à temps.
+partielle: La digue a cédé plus tôt que prévu. Les trois villages sont touchés, mais il n'y a aucun mort.
+echec: La digue a cédé dans la nuit. Les trois villages sont inondés. Il y a eu des disparus.
+recompenses: po 55 ; reputation 4 ; objet Ceinture du géant 5
+
+=== DEM-I-046 | Le faussaire des sceaux
+source: institution
+region: demacia
+palier: inconnue
+type: traque
+ton: mystere
+lieu: Everpeak
+demandeur: La Chambre des Bannières, à la demande du magistrat d'Everpeak
+accroche: « Quelqu'un présente aux familles des ordres d'arrestation pour sorcellerie, avec de faux sceaux de l'ancien ordre des Traqueurs. Il propose de les “perdre” contre de l'argent. L'ordre est dissous, mais les gens ont toujours peur. »
+postes: Éclaireur, Assassin, Support
+duree: 7
+dangereuse: non
+epreuves: diplomatie 32 (rassurer les familles et obtenir une description) ; poursuite 38 (suivre le faussaire lors de sa prochaine visite) ; discretion 37 (entrer dans son atelier pour trouver les sceaux et les registres)
+complication: Le faussaire est un ancien traqueur de mages, réduit à la misère par la dissolution de l'ordre. Ses sceaux ne sont pas faux : ce sont les vrais, qu'il n'a jamais rendus.
+eclatante: {meneur} suit l'homme jusqu'à un grenier misérable, où l'équipe trouve les sceaux authentiques et la liste des familles. Les sommes sont rendues, l'homme arrêté. Ses sceaux sont rendus à la couronne. Le magistrat d'Everpeak s'interroge sur tous les autres sceaux qui n'ont jamais été rendus, et l'organisme aussi.
+reussite: Le faussaire est arrêté, une partie de l'argent rendue. Les familles respirent.
+partielle: L'équipe a trouvé l'atelier vide, mais avec la liste des familles. Elles sont prévenues. Le faussaire court toujours.
+echec: Le faussaire a remarqué l'équipe et a disparu. La semaine suivante, une famille a fui Everpeak, persuadée d'être recherchée.
+recompenses: po 45 ; reputation 3 ; objet Cape de négation 8
+
+=== DEM-I-047 | Le feu de Vaskasia
+source: institution
+region: demacia
+palier: inconnue
+type: protection
+ton: tragique
+lieu: Vaskasia
+demandeur: La Chambre des Bannières, à la demande des villages forestiers
+accroche: « Un incendie part des collines et descend vers les villages du bois. Le vent tourne toutes les heures. Il faut ouvrir une tranchée avant qu'il n'atteigne les maisons. »
+postes: Tank, Healer, Éclaireur
+duree: 8
+dangereuse: non
+epreuves: voyage 36 (repérer la direction du feu à travers la fumée) ; siege 37 (ouvrir une tranchée coupe-feu à la hache et à la pioche) ; poursuite 32 (aller chercher les familles isolées avant que le feu n'arrive)
+complication: L'incendie n'est pas un accident : il a été allumé par un exploitant rival pour détruire les réserves de bois des villages.
+eclatante: {meneur} repère la direction du feu et mène la tranchée au bon endroit. Les villages sont épargnés, les familles isolées ramenées à temps. En remontant la piste, l'équipe trouve les restes de torches laissés par l'exploitant rival, et le signale à l'organisme. Vaskasia offre à la guilde un baril de résine, qui sent bon pendant des mois.
+reussite: La tranchée arrête le feu à l'orée du premier village. Deux granges sont perdues, mais personne n'est blessé.
+partielle: Le feu a franchi la tranchée en un point et brûlé une partie du village. Les habitants ont été évacués à temps.
+echec: Le vent a tourné au mauvais moment. Un village entier a brûlé. Les familles campent sur la plage.
+recompenses: po 50 ; reputation 4 ; objet Pioche 8
+
+=== DEM-I-048 | Le camp abandonné de Terbisia
+source: institution
+region: demacia
+palier: inconnue
+type: exploration
+ton: mystere
+lieu: Terbisia
+demandeur: La Chambre des Bannières, à la demande des autorités du comté
+accroche: « Un camp a été attaqué près de Terbisia après le séisme. On dit qu'il abritait des mages. Il faut en faire l'inventaire avant que les pillards ne le vident. Ne touchez à rien de ce qui brille. »
+postes: Éclaireur, Support
+duree: 6
+dangereuse: non
+epreuves: voyage 32 (atteindre le camp par les chemins défoncés par le séisme) ; discretion 38 (fouiller les ruines sans attirer les pillards qui rôdent) ; diplomatie 36 (parler à ceux qui se cachent encore dans les ruines)
+complication: Il reste des survivants dans le camp, cachés depuis des semaines : deux mages et un vieil homme. L'inventaire demandé par le comté les mettrait en danger.
+eclatante: {meneur} trouve les survivants et gagne leur confiance. L'inventaire est remis aux autorités, complet, sauf pour une cave dont l'équipe ne parle pas. Les survivants quittent la région en sécurité. L'organisme est satisfait, et ne posera jamais la question.
+reussite: L'inventaire est remis aux autorités. Il est précis et utile. Les survivants, s'ils existaient, ont disparu avant que l'équipe ne les trouve.
+partielle: Les pillards étaient déjà passés. L'équipe n'a pu dresser qu'un inventaire partiel des ruines.
+echec: L'équipe a déclenché un effondrement dans les ruines. L'inventaire est impossible, et le comté envoie ses propres gens.
+recompenses: po 30 ; reputation 3 ; objet Cristal de rubis 7
+
+=== DEM-I-049 | Le défilé des réservistes
+source: institution
+region: demacia
+palier: inconnue
+type: protection
+ton: aventure
+lieu: Grand-Place
+demandeur: La Chambre des Bannières, à la demande du maître des cérémonies de la Grande Cité
+accroche: « Huit cents réservistes défilent sur la Grand-Place pour l'anniversaire de la Garde. La foule sera immense, les pickpockets aussi. Et un groupe d'agitateurs a promis de jeter de la farine sur les officiers. »
+postes: Tank, DPS, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: discretion 34 (repérer dans la foule ceux qui ne regardent pas le défilé) ; combat 36 (neutraliser les agitateurs, en douceur, sans gâcher la fête)
+complication: Les agitateurs ne veulent pas seulement jeter de la farine : l'un d'eux a un pétard noxien acheté au marché noir, et il ne sait pas s'en servir.
+eclatante: {meneur} repère l'homme au pétard juste avant qu'il ne l'allume et le désarme sans que la foule s'en aperçoive. Le défilé se déroule sans fausse note. Le maître des cérémonies ne saura jamais à quel point il a eu de la chance. L'organisme, si.
+reussite: Les agitateurs sont neutralisés, la farine reste dans les sacs. Le défilé est un succès.
+partielle: Un sac de farine a atteint un officier. La foule a ri. Le maître des cérémonies, non.
+echec: Le pétard a éclaté au milieu de la foule. Quelques blessés légers, une panique, et beaucoup de questions pour l'organisme, et pour la guilde.
+recompenses: po 40 ; reputation 3 ; objet Élixir de rage 6
+
+=== DEM-I-050 | Les phares de Dawnhold
+source: institution
+region: demacia
+palier: inconnue
+type: exploration
+ton: horreur
+lieu: Dawnhold
+demandeur: La Chambre des Bannières, à la demande de la capitainerie de la côte ouest
+accroche: « Le gardien du phare de la pointe ne répond plus depuis trois jours, et le feu est éteint. Une tempête arrive. Sans phare, les bateaux de pêche s'écraseront sur les récifs. »
+postes: Tank, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: voyage 39 (rejoindre la pointe par le sentier des falaises, sous les premières rafales) ; siege 34 (forcer la porte barricadée de l'intérieur, et monter le combustible jusqu'au sommet)
+complication: Le gardien est vivant, barricadé en haut de sa tour. Il jure que quelque chose est venu de la mer, et qu'il ne rallumera pas le feu tant que ça rôde en bas.
+eclatante: {meneur} force la porte et trouve le gardien, terrorisé, au sommet. Ce qu'il a vu, l'équipe ne le trouve pas : peut-être un phoque, peut-être autre chose. Le feu est rallumé juste avant la tempête. Toute la flotte de pêche rentre au port. Le gardien démissionne le lendemain, et c'est un membre de l'équipe qui lui a trouvé un remplaçant.
+reussite: Le phare est rallumé à temps. Le gardien est ramené à terre. Il refuse d'expliquer ce qui s'est passé.
+partielle: Le feu est rallumé en pleine tempête. Deux bateaux ont touché les récifs, mais leurs équipages ont été sauvés.
+echec: Le feu n'a pas été rallumé. La tempête a été terrible. On compte les bateaux qui manquent.
+recompenses: po 40 ; reputation 3 ; objet Armure de tissu 7

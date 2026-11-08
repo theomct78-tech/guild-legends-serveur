@@ -1,0 +1,504 @@
+# Piltover · palier Inconnue · lot 2 (missions 026 à 050, dont les institutionnelles 041 à 050)
+
+=== PIL-I-026 | Les vieux canons des remparts
+source: privee
+region: piltover
+palier: inconnue
+type: exploration
+ton: aventure
+lieu: Remparts de la ville
+demandeur: Madame Agathe Rivet, institutrice, qui a perdu de vue trois élèves pendant la promenade
+accroche: « Les enfants adorent les vieux canons des remparts. Trois d'entre eux sont entrés dans une casemate, par un trou dans le mur. Je les entends rire, quelque part en dessous. Je ne sais pas comment y descendre. Et je viens de lire, sur une plaque, “Poudrière”. »
+postes: Combattant
+duree: 3
+dangereuse: non
+epreuves: voyage 32 (descendre dans les galeries oubliées sous les remparts) ; siege 29 (dégager une porte bloquée par des éboulis pour faire remonter les enfants)
+complication: La poudrière est vide depuis cent ans, mais les enfants ont trouvé un vieux baril qui sent encore la poudre, et ils jouent avec une lanterne.
+eclatante: {meneur} trouve les trois enfants assis autour du vieux baril, lanterne au milieu, en train de jouer aux pirates. La lanterne est éteinte avec beaucoup de calme et un peu de sueur. Les enfants remontent par une porte dégagée à l'épaule. Madame Rivet les serre si fort qu'ils protestent. Le Conseil fait fermer les galeries la semaine suivante, après un article de la Gazette.
+reussite: Les enfants sont ramenés, sales et ravis. Madame Rivet promet de ne plus jamais faire de promenade près des remparts.
+partielle: Il a fallu des heures pour trouver le bon passage. Les enfants sont remontés affamés et effrayés. Un parent a écrit à l'école.
+echec: {meneur} a perdu son chemin dans les galeries. Les enfants sont remontés seuls, par un autre chemin, en riant.
+recompenses: po 20 ; reputation 2 ; objet Ceinture du géant 3
+
+=== PIL-I-027 | La visite de Stillwater
+source: privee
+region: piltover
+palier: inconnue
+type: escorte
+ton: politique
+lieu: Stillwater Hold
+demandeur: Madame Lorraine Hale, mère d'un prisonnier de Stillwater Hold
+accroche: « Mon fils est à Stillwater depuis trois ans, pour une émeute à laquelle il n'a pas participé. J'ai obtenu une visite, une seule, d'une heure. Pour descendre au trente-deuxième niveau, il faut passer par le tram, les gardiens et tous ceux qui parient sur les visiteurs qui ne remontent pas. »
+postes: Support, Tank
+duree: 5
+dangereuse: non
+epreuves: voyage 35 (descendre dans la prison par le tram mécanique et les escaliers de pierre) ; diplomatie 36 (faire respecter le droit de visite par des gardiens qui ont l'habitude de le négocier)
+complication: Le fils de Madame Hale a des preuves de son innocence : il a vu qui a vraiment lancé l'émeute. Mais s'il parle à sa mère, d'autres prisonniers l'entendront.
+eclatante: {meneur} obtient pour la mère et le fils une heure entière, dans une salle sans autre prisonnier. Le fils parle à voix basse. Sa mère remonte avec un nom et une date. Trois mois plus tard, après une enquête de la Gazette, le fils sort de Stillwater. Il remonte au jour pour la première fois depuis trois ans. Il ne supporte pas la lumière pendant une semaine.
+reussite: La visite a lieu, une heure entière. La mère remonte, épuisée et apaisée. Elle a vu son fils vivant.
+partielle: Les gardiens ont réduit la visite à dix minutes. La mère a pu toucher la main de son fils, à travers les barreaux.
+echec: Les gardiens ont refusé la visite, sous un prétexte. La mère est remontée sans avoir vu son fils.
+recompenses: po 25 ; reputation 3 ; objet Bouclier de Doran 6
+
+=== PIL-I-028 | La brume du matin
+source: privee
+region: piltover
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Nouvelle-Piltover
+demandeur: Docteur Edmund Gale, seul médecin de Nouvelle-Piltover
+accroche: « Ce matin, la brume grise est montée de Zaun jusqu'à nos rues. Elle est retombée, mais elle a laissé des gens dans les maisons : des vieux, des enfants, qui toussent et ne peuvent plus se lever. Je suis seul. Je n'ai que deux mains. »
+postes: Healer
+duree: 5
+dangereuse: non
+epreuves: voyage 34 (aller de maison en maison dans des rues encore voilées de gris) ; diplomatie 31 (convaincre les familles de laisser emmener les plus malades vers le dispensaire)
+complication: Une famille refuse : elle cache dans la maison un parent zaunien sans papiers, qui risque d'être renvoyé en bas s'il est soigné officiellement.
+eclatante: {meneur} soigne les malades rue après rue, et gagne la confiance de la famille qui se cache. Le parent zaunien est soigné chez lui, discrètement. Le docteur Gale ne pose pas de questions. Au soir, tous les malades respirent. Le docteur tombe de fatigue sur une chaise, et dit à {meneur} que c'est la première fois en dix ans qu'il n'a pas été seul.
+reussite: La plupart des malades sont soignés. Deux vieillards n'ont pas survécu. Le docteur dit que sans aide, il y en aurait eu dix.
+partielle: Les malades les plus graves sont sauvés. Les autres guériront lentement, ou pas.
+echec: La brume est revenue l'après-midi. Il a fallu fuir. Le docteur Gale est resté.
+recompenses: po 20 ; reputation 3 ; objet Potion de soin 12
+
+=== PIL-I-029 | Les cerfs-volants du Progrès
+source: privee
+region: piltover
+palier: inconnue
+type: protection
+ton: tendre
+lieu: Place de l'Académie
+demandeur: Lili, dix ans, fille d'un ouvrier de la Falaise
+accroche: « Il y a un concours de cerfs-volants pour la Fête du progrès. J'ai fabriqué le mien avec des morceaux d'usine. Il vole très haut. Les enfants de Gold Way ont dit que si je venais, ils le couperaient. Je veux juste qu'il vole. »
+postes: Tireur
+duree: 3
+dangereuse: non
+epreuves: poursuite 32 (rattraper les cerfs-volants des autres concurrents, qui essaient de couper le fil de Lili) ; combat 29 (intimider, sans les blesser, les grands frères qui veulent s'en mêler)
+complication: Le juge du concours est le père d'un des enfants de Gold Way. Il a déjà décidé du gagnant.
+eclatante: {meneur} décroche d'une flèche, au vol, le cerf-volant qui tentait de couper celui de Lili. Le sien monte plus haut que tous les autres, au-dessus de la Tour de l'Horloge. La foule l'applaudit avant même le juge. Le juge, sous les regards, ne peut pas faire autrement. Lili gagne. Le père de Lili, qui était venu en tenue de travail et se tenait à l'écart, pleure dans sa casquette.
+reussite: Le cerf-volant de Lili vole jusqu'au bout du concours. Elle ne gagne pas, mais toute la place l'a vu voler.
+partielle: Le fil a été coupé au dernier moment. Le cerf-volant est parti au-dessus de la mer. Lili dit qu'il est libre.
+echec: Le cerf-volant a été détruit avant le concours. Lili est rentrée avec les morceaux. Elle en fera un autre.
+recompenses: po 15 ; reputation 2 ; objet Charme féerique 8
+
+=== PIL-I-030 | Le garde-chasse des Kiramman
+source: privee
+region: piltover
+palier: inconnue
+type: exploration
+ton: horreur
+lieu: Terrains de chasse
+demandeur: Hilda Marsh, femme du garde-chasse des Terrains de chasse
+accroche: « Mon mari est parti faire sa ronde il y a quatre jours. On a retrouvé son fusil au bord de l'étang, et des traces qui vont dans l'eau. Ce ne sont pas des traces d'homme. Le clan dit qu'il a dû partir. Il ne serait jamais parti sans son chien. Le chien est revenu. Il ne veut plus sortir. »
+postes: Éclaireur, Tireur
+duree: 5
+dangereuse: non
+epreuves: poursuite 37 (suivre une piste qui disparaît dans l'eau, puis reprend de l'autre côté) ; discretion 36 (approcher ce qui vit dans l'étang sans être vu)
+complication: Ce qui vit dans l'étang est une bête des marais venue d'Ixtal, achetée vivante par un collectionneur qui l'a relâchée quand elle est devenue trop grosse. Le garde-chasse est vivant : il est coincé sur une île de roseaux, la jambe cassée.
+eclatante: {meneur} repère l'île de roseaux, et une fumée très mince. Le garde-chasse est là, fiévreux, mais vivant. Il est ramené à la nage, pendant que la bête dort. Hilda le retrouve en pleurant. Le chien sort enfin de la niche. L'équipe signale la bête aux autorités, et le nom du collectionneur avec. Le clan Kiramman, propriétaire du domaine, fait savoir qu'il n'appréciera pas.
+reussite: Le garde-chasse est retrouvé vivant. La bête reste dans l'étang. Le domaine est fermé jusqu'à nouvel ordre.
+partielle: L'équipe a trouvé l'île, mais a dû fuir quand la bête s'est réveillée. Le garde-chasse a été récupéré le lendemain, par des chasseurs.
+echec: L'équipe a fui à la première vague dans l'étang. Le garde-chasse n'a pas été retrouvé.
+recompenses: po 30 ; reputation 2 ; objet Bottes 7
+
+=== PIL-I-031 | Le marchand des Portes du Soleil
+source: privee
+region: piltover
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Portes du Soleil
+demandeur: Maître Khaleb al-Sanir, marchand de tapis de Shurima, qui passe les Portes du Soleil depuis trente ans
+accroche: « Le péage des Portes a doublé pour les navires shurimans, et seulement pour eux. Le commis dit que c'est le règlement. Je lui ai demandé le règlement. Il n'existe pas. Mon navire attend depuis six jours, avec des épices qui pourrissent. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 35 (obtenir du bureau des Portes qu'il applique le vrai tarif) ; discretion 29 (trouver la preuve que le double tarif est une invention du commis)
+complication: Le commis ne vole pas pour lui-même. Un clan rival des marchands shurimans lui a demandé de les décourager, pour récupérer leur commerce d'épices.
+eclatante: {meneur} retrouve, dans les registres du bureau, les tarifs officiels, et la note du clan rival. Le commis est démis, le tarif rétabli, et un remboursement est versé aux six capitaines shurimans retenus cette saison. Maître Khaleb offre à la guilde un tapis, le plus beau de sa cargaison. Il dit que ses enfants feront le voyage, plus tard. Ils le feront sans payer double.
+reussite: Le tarif normal est appliqué au navire de Maître Khaleb. Les autres navires shurimans, eux, paient encore double.
+partielle: Le navire passe, mais au double tarif. Maître Khaleb a obtenu une promesse de remboursement. Il n'y croit pas.
+echec: Le navire a dû faire demi-tour. Maître Khaleb passera désormais par Bilgewater, et le dira à tous les marchands de Shurima.
+recompenses: po 30 ; reputation 2 ; objet Tome d'amplification 6
+
+=== PIL-I-032 | Le prototype de l'horloger
+source: privee
+region: piltover
+palier: inconnue
+type: recuperation
+ton: tendre
+lieu: Pont du Progrès
+demandeur: Maître Anselm Grieg, vieil horloger, et son fils Tobias, avec qui il ne se parle plus
+accroche: « Mon fils a volé mon dernier prototype pour le vendre en bas. Il dit que je l'ai volé moi-même, il y a trente ans, à son grand-père. C'est vrai. C'est pour ça que je veux le récupérer : je veux le rendre à qui de droit. Mon fils ne veut pas m'écouter. »
+postes: Éclaireur, Assassin
+duree: 4
+dangereuse: non
+epreuves: poursuite 36 (suivre le fils jusqu'au receleur, de l'autre côté du Pont du Progrès) ; discretion 34 (récupérer le prototype avant la vente)
+complication: Le prototype ne vaut presque rien. C'est le dernier objet que le grand-père a fabriqué avant de mourir. Le père et le fils le veulent tous les deux pour la même raison.
+eclatante: {meneur} rattrape Tobias sur le pont, au moment où il va remettre le prototype au receleur. L'équipe le convainc de rentrer, une heure, pour écouter son père. Les deux hommes se regardent longtemps au-dessus du petit mécanisme. Puis ils le démontent ensemble, et le remontent, comme le grand-père le leur avait appris à tous les deux. Ils ne le vendent pas. Ils le gardent sur l'établi, entre eux.
+reussite: Le prototype est récupéré et rendu au père. Le fils ne lui parle toujours pas, mais il sait pourquoi il le voulait.
+partielle: Le prototype a été récupéré, abîmé. Le père le répare seul. Le fils ne revient pas.
+echec: Le prototype a été vendu en bas. On ne le reverra plus. Le père et le fils ne se parlent plus du tout.
+recompenses: po 20 ; reputation 2 ; objet Cristal de saphir 6
+
+=== PIL-I-033 | Les bains roses
+source: privee
+region: piltover
+palier: inconnue
+type: enquete
+ton: drole
+lieu: Bains de Gold Way
+demandeur: Monsieur Hector Steamwhistle, propriétaire des bains, très digne et très rose
+accroche: « L'eau de mes bains est devenue rose. Mes clients aussi. Une conseillère est sortie de l'étuve couleur framboise. Elle a annulé son abonnement, et celui de toute sa famille. Je ne survivrai pas à une deuxième framboise. »
+postes: Mage
+duree: 3
+dangereuse: non
+epreuves: discretion 30 (inspecter les chaudières et les conduites sous les bains) ; diplomatie 31 (calmer la clientèle, qui menace de tout raconter à la Gazette)
+complication: L'eau n'est pas empoisonnée : un cristal de chauffage a été remplacé par un cristal décoratif d'une boutique de cadeaux, rose, par un apprenti qui voulait faire des économies.
+eclatante: {meneur} trouve le cristal rose dans la chaudière, encore emballé dans son papier de soie. L'eau redevient claire en une journée. Monsieur Steamwhistle, sur les conseils de {meneur}, a une idée : il propose désormais un « bain framboise » une fois par semaine. La conseillère revient, se réabonne, et demande la framboise. L'apprenti est pardonné.
+reussite: Le cristal est trouvé et remplacé. L'eau redevient normale. Les clients reviennent, lentement, et vérifient la couleur avant d'entrer.
+partielle: L'eau n'est plus que légèrement rose. Monsieur Steamwhistle parle de « nuance saumon ».
+echec: {meneur} est sorti des chaudières aussi rose que les clients. La Gazette a fait sa une avec la photo.
+recompenses: po 20 ; reputation 1 ; objet Élixir de sorcellerie 6
+
+=== PIL-I-034 | L'ombre du commis
+source: privee
+region: piltover
+palier: inconnue
+type: traque
+ton: mystere
+lieu: Pont du Progrès
+demandeur: Monsieur Silas Brandt, commis aux archives du Conseil
+accroche: « Depuis une semaine, quelqu'un me suit. Je ne le vois jamais en face. Je le vois dans les vitrines, dans les flaques, toujours trois pas derrière. Je ne suis personne. Je recopie des registres. Pourquoi suivrait-on quelqu'un qui recopie des registres ? »
+postes: Éclaireur, Assassin
+duree: 4
+dangereuse: non
+epreuves: discretion 38 (suivre celui qui suit, sans qu'il s'en rende compte) ; poursuite 35 (le rattraper quand il comprend qu'il est découvert)
+complication: Celui qui le suit est un agent noxien. Le commis recopie, sans le savoir, les registres des cargaisons qui passent par la Porte Hextech, et Noxus veut ces copies.
+eclatante: {meneur} suit l'ombre jusqu'à une chambre louée près du pont, où l'on trouve des carnets pleins d'horaires de cargaison, recopiés de la main du commis. L'agent s'est enfui par la fenêtre. Le commis, blême, comprend. Il est changé de poste, et la Porte change ses horaires. L'organisme reçoit une copie du rapport. Noxus aussi, sans doute.
+reussite: L'ombre est démasquée et s'enfuit. Le commis n'est plus suivi. Il ne saura jamais exactement pourquoi.
+partielle: L'équipe a vu un visage, rien de plus. Le commis est muté, par prudence.
+echec: L'ombre a semé l'équipe. Le commis a été retrouvé dans le canal, vivant, sans ses carnets.
+recompenses: po 30 ; reputation 2 ; objet Dague 7
+suite: PIL-L-002
+
+=== PIL-I-035 | La grève des porteurs
+source: privee
+region: piltover
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Docks du Nord
+demandeur: Big Mags, porte-parole des porteurs des Docks du Nord
+accroche: « On décharge les navires du clan Tariost à moitié prix depuis l'hiver. Ils ont dit que c'était provisoire. On a arrêté. Ils ont fait venir des gars d'en bas, qui travaillent pour encore moins. Ça va mal finir, et ce ne sera pas sur les patrons que ça tombera. »
+postes: Support, Tank
+duree: 5
+dangereuse: non
+epreuves: diplomatie 39 (réunir les porteurs, les ouvriers venus de Zaun et l'intendant du clan autour d'une même caisse) ; combat 33 (empêcher la bagarre entre porteurs et ouvriers de remplacement)
+complication: Les ouvriers de Zaun ne savaient pas qu'ils remplaçaient des grévistes. On leur a dit qu'il manquait des bras.
+eclatante: {meneur} empêche la bagarre en se plaçant entre les deux groupes, puis fait dire aux ouvriers de Zaun ce qu'on leur a promis. Les deux groupes comprennent qu'on se moque d'eux de la même façon. Ils refusent ensemble de décharger. Le clan Tariost, avec trois navires bloqués, cède en une journée. Les porteurs de Zaun restent sur les docks, au même salaire que les autres.
+reussite: La grève se termine par un accord : le salaire est rétabli pour la moitié de l'année. Les ouvriers de Zaun sont renvoyés en bas.
+partielle: La bagarre est évitée, mais la grève continue. Le clan attend que les porteurs aient faim.
+echec: La bagarre a eu lieu. Il y a eu des blessés des deux côtés. Le clan a gagné.
+recompenses: po 25 ; reputation 3 ; objet Armure de tissu 6
+
+=== PIL-I-036 | La course des dirigeables
+source: privee
+region: piltover
+palier: inconnue
+type: livraison
+ton: aventure
+lieu: Quai des dirigeables
+demandeur: Capitaine Stella Gale, pilote de dirigeable, sœur du docteur de Nouvelle-Piltover
+accroche: « La grande course des dirigeables part dans trois heures. Mon régulateur de pression a lâché. Le seul de rechange est chez un fabricant à l'autre bout de la ville, qui ferme à midi. Si je ne cours pas, je perds mon dirigeable. Je l'ai parié. Oui, c'était idiot. »
+postes: Éclaireur
+duree: 3
+dangereuse: non
+epreuves: poursuite 34 (traverser la ville en courant, aller et retour, avant le départ) ; voyage 30 (grimper jusqu'au quai d'amarrage en haut de la Porte Hextech, avec une pièce fragile)
+complication: Le fabricant a vendu son dernier régulateur le matin même à un concurrent de la course, qui savait que le dirigeable de Stella en avait besoin.
+eclatante: {meneur} trouve le fabricant, puis le concurrent, puis une solution : un régulateur de chaudière de bains, que Monsieur Steamwhistle cède en échange d'une promesse de publicité. Le dirigeable de Stella part avec quatre minutes de retard, et gagne la course avec deux de mieux. Elle peint sur la coque le nom de la guilde, et celui des Bains de Gold Way, en plus petit.
+reussite: Le régulateur arrive à temps. Stella court, et finit troisième. Elle garde son dirigeable.
+partielle: Le régulateur est arrivé après le départ. Stella a couru seule, une heure plus tard, pour l'honneur. Elle a perdu le pari, mais pas le respect des autres pilotes.
+echec: Stella n'a pas pu courir. Elle a perdu son dirigeable. Elle travaille maintenant pour celui qui l'a gagné.
+recompenses: po 25 ; reputation 2 ; objet Bottes 8
+
+=== PIL-I-037 | Le témoin du pont
+source: privee
+region: piltover
+palier: inconnue
+type: enquete
+ton: politique
+lieu: Pont du Progrès
+demandeur: Agnès Ruel, vendeuse de journaux sur le Pont du Progrès
+accroche: « Il y a un an, j'ai vu la personne qui a posé la bombe sur le pont. Les gendarmes ont arrêté un garçon de Zaun. Ce n'était pas lui. J'ai eu peur de parler. J'ai encore peur. Mais le garçon est toujours en prison, et je ne dors plus. »
+postes: Éclaireur, Support
+duree: 4
+dangereuse: non
+epreuves: discretion 36 (retrouver la personne que la vendeuse a vue, sans qu'elle le sache) ; diplomatie 37 (amener le témoignage jusqu'à quelqu'un qui l'écoutera vraiment)
+complication: La personne qui a posé la bombe n'est pas de Zaun. C'est un employé d'un clan de Piltover, payé pour provoquer des émeutes qui justifieraient la loi martiale.
+eclatante: {meneur} retrouve l'homme décrit par Agnès, travaillant toujours pour son clan, et réunit assez d'éléments pour que la Gazette s'en empare. Agnès témoigne, protégée par l'équipe. Le garçon de Zaun est libéré. Le scandale atteint le Conseil, où l'on commence à se demander combien d'autres attentats ont été arrangés de la même façon.
+reussite: Agnès témoigne. Le garçon est libéré en attendant une nouvelle enquête. L'homme qu'elle a vu a disparu.
+partielle: Agnès a témoigné, mais sans preuve. Le garçon reste en prison, mais l'affaire est rouverte.
+echec: Agnès a eu peur, au dernier moment. Elle a retiré son témoignage. Elle a quitté le pont.
+recompenses: po 25 ; reputation 3 ; objet Tome d'amplification 6
+
+=== PIL-I-038 | Le puits d'Oshra Va'Zaun
+source: privee
+region: piltover
+palier: inconnue
+type: exploration
+ton: mystere
+lieu: La Falaise
+demandeur: Professeure Dalia Marrow, historienne de l'Académie, très excitée
+accroche: « Piltover a été bâtie sur un ancien avant-poste de Shurima. Des ouvriers ont percé une galerie dans la Falaise et sont tombés sur un puits de pierre couvert de glyphes. Ils ont refusé de descendre. Ils disent qu'on entend de l'eau couler. Il n'y a pas d'eau dans la Falaise. »
+postes: Éclaireur, Mage
+duree: 5
+dangereuse: non
+epreuves: voyage 36 (descendre dans un puits ancien, plus profond que la ville basse elle-même) ; discretion 34 (déchiffrer les glyphes sans déclencher ce qu'ils protègent)
+complication: Le puits est un ancien réservoir shuriman, toujours alimenté par une source magique. Les glyphes disent : « Ici, l'eau de la vie pour la ville du soleil. » Il est encore plein.
+eclatante: {meneur} descend jusqu'au fond, et découvre un réservoir d'eau pure, intact depuis des millénaires, éclairé par des glyphes qui s'allument au passage. La professeure Marrow en pleure. L'Académie fait classer le lieu. Une conduite est posée, discrètement, jusqu'à la ville basse : les ouvriers de la Falaise boivent désormais l'eau de Shurima. Elle a, disent-ils, le goût du soleil.
+reussite: Le puits est exploré et les glyphes recopiés. La professeure publie un article qui fait le tour de l'Académie.
+partielle: {meneur} a dû remonter avant le fond, quand les glyphes se sont mis à briller. La professeure garde les relevés, inachevés.
+echec: La galerie s'est effondrée derrière l'équipe, qui a dû creuser pour ressortir. L'Académie a fait murer le puits.
+recompenses: po 30 ; reputation 2 ; objet Cristal de saphir 8
+
+=== PIL-I-039 | L'automate qui met la table
+source: privee
+region: piltover
+palier: inconnue
+type: diplomatie
+ton: tendre
+lieu: Mid Town
+demandeur: Léon Wick, neveu et héritier d'une inventrice morte le mois dernier
+accroche: « Ma tante a construit un automate pour s'occuper d'elle. Elle est morte. L'automate met toujours la table pour deux, chaque soir. Il attend. Il refuse de quitter la maison. Je dois la vendre, et je n'ai pas le cœur de le démonter. »
+postes: Support
+duree: 3
+dangereuse: non
+epreuves: diplomatie 34 (faire comprendre à un automate que sa maîtresse ne reviendra pas) ; discretion 29 (trouver dans l'atelier ce que l'inventrice avait prévu pour lui)
+complication: L'inventrice avait prévu sa mort. Elle a laissé une lettre pour l'automate, cachée dans un tiroir qu'il n'a pas le droit d'ouvrir sans ordre.
+eclatante: {meneur} trouve la lettre et la donne à l'automate, avec l'ordre de l'ouvrir. Il la lit. Elle lui demande de prendre soin de quelqu'un d'autre, et lui laisse le choix de qui. L'automate quitte la maison le lendemain, une valise à la main, et se présente au dispensaire de Nouvelle-Piltover. Le docteur Gale l'accepte. Il ne met plus la table que pour un.
+reussite: L'automate accepte de quitter la maison. Léon le garde chez lui, faute de mieux. Il met la table pour deux, maintenant chez Léon. Léon s'y habitue.
+partielle: L'automate a accepté d'être éteint, à condition d'être rallumé un jour. Léon le garde dans sa cave, en attendant de savoir pourquoi.
+echec: L'automate a refusé de partir. La maison est invendable. Léon y vit, avec lui.
+recompenses: po 20 ; reputation 2 ; objet Charme féerique 7
+
+=== PIL-I-040 | La foire de l'Académie
+source: privee
+region: piltover
+palier: inconnue
+type: protection
+ton: drole
+lieu: Académie de Piltover
+demandeur: Les étudiants de troisième année, qui présentent leurs inventions à la foire de fin d'année
+accroche: « Une invention sur deux explose depuis le début de la foire. Pas toutes seules : quelqu'un les sabote. Le prix de l'Académie, c'est un stage dans un clan. Pour la plupart d'entre nous, c'est la seule façon d'en obtenir un. »
+postes: Tank, Mage, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: discretion 35 (surveiller les stands sans attirer l'attention du saboteur) ; combat 33 (protéger les inventions et le public quand le saboteur passe à l'action)
+complication: Le saboteur est un étudiant de dernière année, déjà assuré d'un stage, qui sabote pour que personne d'autre n'en ait un dans le même clan que lui.
+eclatante: {meneur} surprend le saboteur en train de verser de l'acide dans un moteur à vapeur, juste avant que le jury n'arrive. Le moteur est sauvé, et fonctionne devant le jury. Le saboteur perd son stage, au profit de l'étudiante dont il venait de saboter le moteur. Les étudiants de troisième année offrent à la guilde leur invention la plus réussie : une théière qui ne déborde jamais.
+reussite: Le saboteur est démasqué. La foire continue sans explosion. Les prix sont attribués normalement.
+partielle: Le saboteur a été identifié trop tard, après trois autres explosions. La foire est écourtée.
+echec: Le saboteur n'a jamais été trouvé. L'Académie a annulé la foire.
+recompenses: po 25 ; reputation 2 ; objet Élixir de fer 6
+
+=== PIL-I-041 | La Fête du progrès
+source: institution
+region: piltover
+palier: inconnue
+type: protection
+ton: politique
+lieu: Place de l'Académie
+demandeur: La Chambre des Bannières, à la demande du Conseil, qui préfère que les gendarmes ne soient pas trop visibles cette année
+accroche: « La Fête du progrès attire dix mille personnes sur la place. Les dernières années, il y a eu une bombe et deux émeutes. Le Conseil veut une fête sans uniforme. Il veut aussi une fête sans bombe. »
+postes: Éclaireur, Tank, Assassin
+duree: 8
+dangereuse: non
+risque: oui
+epreuves: discretion 44 (repérer dans la foule ce qui ne ressemble pas à une fête) ; poursuite 41 (suivre un porteur de colis suspect à travers la foule) ; combat 40 (neutraliser la menace sans que la foule s'en aperçoive)
+complication: Le colis n'est pas une bombe : c'est un tract de Zaun, réclamant l'indépendance. Le vrai danger vient de ceux qui veulent faire taire le porteur du tract, par la force, devant tout le monde.
+eclatante: {meneur} suit le colis, comprend qu'il s'agit d'un tract, et protège son porteur contre les trois hommes venus le faire taire. La fête continue. Le tract est lu, dans la foule, par quelques centaines de personnes. Personne n'est blessé. L'organisme rapporte au Conseil qu'il n'y a eu « aucun incident », ce qui est presque vrai.
+reussite: La fête se déroule sans incident grave. Une bagarre a été évitée de justesse. Le Conseil est satisfait.
+partielle: Une bagarre a éclaté au fond de la place. Elle a été contenue, mais la Gazette en parle le lendemain.
+echec: Une émeute a éclaté. Les gendarmes ont dû intervenir, en uniforme. Le Conseil est furieux contre l'organisme.
+recompenses: po 160 ; reputation 4 ; objet Bouclier de Doran 8
+
+=== PIL-I-042 | L'inventaire de la Forge
+source: institution
+region: piltover
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Forge Talis
+demandeur: La Chambre des Bannières, à la demande du contrôleur des cristaux de la Forge Talis
+accroche: « Chaque mois, la Forge reçoit cent cristaux. Chaque mois, elle en utilise quatre-vingt-dix-huit. Il en manque deux, depuis un an. Vingt-quatre cristaux hextech, quelque part dans Piltover. Ou ailleurs. »
+postes: Éclaireur, Assassin, Support
+duree: 7
+dangereuse: non
+epreuves: discretion 38 (surveiller la Forge et ses ouvriers sans éveiller les soupçons) ; diplomatie 35 (interroger les ouvriers, qui ont peur d'être accusés) ; poursuite 36 (suivre les cristaux quand ils sortent)
+complication: Les cristaux ne sont pas volés : un vieux forgeron les met de côté, un par un, pour réparer les appareils respiratoires des ouvriers de la Falaise, qu'aucun clan ne veut financer.
+eclatante: {meneur} suit le vieux forgeron jusqu'à un atelier de la Falaise, où il répare des masques respiratoires avec les cristaux manquants. Une centaine d'ouvriers respirent grâce à lui. Le rapport de l'organisme, rédigé avec soin, propose que la Forge cède officiellement deux cristaux par mois à cet atelier. Le Conseil accepte, de mauvaise grâce. Le vieux forgeron ne sera pas poursuivi.
+reussite: L'origine des disparitions est trouvée. Le vieux forgeron est renvoyé. Les ouvriers de la Falaise n'ont plus de masques.
+partielle: L'équipe a trouvé comment les cristaux sortaient, mais pas où ils allaient.
+echec: L'équipe a accusé le mauvais ouvrier. Il a été renvoyé. Les cristaux continuent de disparaître.
+recompenses: po 45 ; reputation 3 ; objet Cristal de saphir 8
+
+=== PIL-I-043 | La brume grise
+source: institution
+region: piltover
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Nouvelle-Piltover
+demandeur: La Chambre des Bannières, à la demande du dispensaire de Nouvelle-Piltover
+accroche: « Une grande vague de brume grise est montée de Zaun pendant la nuit. Trois rues de Nouvelle-Piltover sont noyées. Les gendarmes bloquent les ponts pour qu'elle ne passe pas en ville. Ils bloquent aussi les gens. »
+postes: Healer, Support, Tank
+duree: 8
+dangereuse: non
+epreuves: voyage 38 (entrer dans les rues noyées de brume pour en faire sortir les habitants) ; diplomatie 36 (faire ouvrir les barrages des gendarmes aux familles qui fuient) ; siege 33 (dégager les portes et les volets fermés par la peur)
+complication: Les gendarmes ont reçu l'ordre de ne laisser passer personne, pour que la ville haute ne voie pas l'étendue des dégâts.
+eclatante: {meneur} soigne les premiers malades devant les barrages, sous les yeux des gendarmes. Le sergent du barrage, qui a une sœur dans les rues noyées, désobéit et fait ouvrir le passage. Les familles sortent. Le dispensaire, aidé par l'équipe, soigne deux cents personnes en deux jours. Le sergent est sanctionné. Le rapport de l'organisme demande qu'il soit décoré.
+reussite: La plupart des habitants sont évacués et soignés. Les barrages se sont ouverts, tard.
+partielle: Les barrages sont restés fermés. Les malades ont été soignés sur place, dans la brume, avec des pertes.
+echec: La brume a gagné deux rues de plus. L'équipe a dû se replier. Les barrages n'ont jamais été ouverts.
+recompenses: po 50 ; reputation 4 ; objet Potion de soin 15
+
+=== PIL-I-044 | Les contrebandiers de la Porte
+source: institution
+region: piltover
+palier: inconnue
+type: traque
+ton: aventure
+lieu: Porte Hextech
+demandeur: La Chambre des Bannières, à la demande des inspecteurs de la Porte Hextech
+accroche: « Un dirigeable de marchandises arrive chaque semaine avec deux caisses de trop. Elles disparaissent entre le quai d'arrivée et le quai de contrôle. Quelqu'un les fait passer par la Porte vers Noxus, sans tampon. »
+postes: Éclaireur, Tireur, Tank
+duree: 7
+dangereuse: non
+risque: oui
+epreuves: discretion 43 (se cacher dans la tour pendant le passage d'un dirigeable) ; poursuite 42 (suivre les caisses dans les étages de service de la Porte) ; combat 40 (arrêter les contrebandiers, armés de pistolets hextech)
+complication: Les contrebandiers sont des employés du clan Hoskel, qui commerce en secret avec Noxus. Les caisses contiennent des plans de la Porte elle-même.
+eclatante: {meneur} surprend les contrebandiers en train de charger les caisses dans un monte-charge de service. Ils sont arrêtés, les caisses saisies. Dedans : les plans des systèmes de sécurité de la Porte Hextech. Le rapport remis à l'organisme fait trembler le Conseil. Le clan Hoskel nie tout, puis perd son siège de représentation à la Porte.
+reussite: Les contrebandiers sont arrêtés. Les caisses sont saisies, sans qu'on sache encore pour qui elles étaient.
+partielle: Les caisses ont été saisies, mais les contrebandiers se sont enfuis par la Porte.
+echec: L'équipe a été repérée dans la tour. Les caisses sont passées.
+recompenses: po 160 ; reputation 4 ; objet Épée longue 8
+
+=== PIL-I-045 | Le registre des ateliers
+source: institution
+region: piltover
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Archives du Conseil
+demandeur: La Chambre des Bannières, à la demande du Conseil, qui veut recenser les ateliers sans licence
+accroche: « Le Conseil veut savoir combien d'ateliers travaillent sans licence en ville. Il promet qu'aucun ne sera fermé : ce sera seulement un recensement. Les artisans ne le croient pas. Il faut quelqu'un en qui ils aient confiance, ou au moins qui ne porte pas d'uniforme. »
+postes: Support, Éclaireur
+duree: 7
+dangereuse: non
+epreuves: voyage 34 (faire le tour des ateliers de Mid Town et de Nouvelle-Piltover) ; diplomatie 39 (convaincre des artisans méfiants de donner leur nom) ; discretion 33 (comprendre ce que le Conseil compte vraiment faire de la liste)
+complication: Un clan du Conseil a l'intention d'utiliser la liste pour racheter, à bas prix, les inventions des ateliers sans licence, en les menaçant de fermeture.
+eclatante: {meneur} découvre l'intention du clan avant de remettre la liste. Le recensement est remis à l'organisme, accompagné d'une note sur ce que le clan comptait en faire. L'organisme ne transmet la liste qu'avec une garantie écrite du Conseil, signée par six conseillers. Les ateliers obtiennent une licence gratuite pour un an. Ils ne savent pas qui remercier.
+reussite: Le recensement est achevé. Le Conseil tient parole, pour l'instant.
+partielle: La moitié des ateliers ont refusé de se déclarer. La liste est incomplète, et ceux qui ont parlé sont inquiets.
+echec: La liste a été transmise. Trois ateliers ont été fermés la semaine suivante. Les artisans ne parlent plus à la guilde.
+recompenses: po 40 ; reputation 3 ; objet Tome d'amplification 7
+
+=== PIL-I-046 | La cave du temps perdu
+source: institution
+region: piltover
+palier: inconnue
+type: exploration
+ton: horreur
+lieu: Porte Hextech
+demandeur: La Chambre des Bannières, à la demande d'un ingénieur de la Porte, qui parle à voix basse
+accroche: « Dans une cave de service, au pied de la Porte, les choses ne vieillissent plus normalement. Une pomme oubliée là a pourri en une heure. Une autre est restée fraîche une semaine. Un ouvrier y est entré dix minutes. Il en est ressorti avec des cheveux blancs. »
+postes: Mage, Tank, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: discretion 36 (approcher de la cave sans se laisser prendre dans les zones où le temps se tord) ; siege 37 (sceller la cave avec des plaques de métal, en travaillant aussi vite que le temps le permet)
+complication: La cave est juste au-dessus du Cœur hextech. Ce qui s'y passe n'est qu'un écho, très lointain, de ce qui se passe plus bas. On ne peut pas l'arrêter. On peut seulement l'enfermer.
+eclatante: {meneur} sent les nœuds du temps dans l'air et guide l'équipe à travers eux. La cave est scellée en une heure, qui en a duré trois. L'ingénieur remercie, et demande qu'on oublie ce qu'on a vu. L'organisme garde le rapport sous clé. La guilde sait désormais que quelque chose, sous la Porte, n'est pas comme il devrait.
+reussite: La cave est scellée. Un membre de l'équipe en sort avec une mèche de cheveux blancs. On en rit, un peu.
+partielle: La cave n'est qu'à moitié scellée. Les ouvriers ont interdiction d'y entrer.
+echec: Un membre de l'équipe est resté dans la cave quelques secondes de trop. Il a vieilli d'un an. L'organisme ne sait pas quoi écrire.
+recompenses: po 45 ; reputation 3 ; objet Cape de négation 8
+
+=== PIL-I-047 | Les pirates des Portes du Soleil
+source: institution
+region: piltover
+palier: inconnue
+type: defense
+ton: aventure
+lieu: Portes du Soleil
+demandeur: La Chambre des Bannières, à la demande des capitaines marchands
+accroche: « Des pirates de Bilgewater attaquent les navires dans le chenal des Portes du Soleil, de nuit, à la rame, sans lumière. Ils montent à bord, prennent ce qu'ils peuvent, et redescendent avant que l'alerte ne soit donnée. »
+postes: Tank, Tireur, DPS
+duree: 7
+dangereuse: non
+epreuves: discretion 34 (attendre à bord d'un navire marchand, de nuit, sans lumière) ; combat 40 (repousser l'abordage) ; poursuite 35 (suivre les barques jusqu'à leur crique)
+complication: Les pirates sont renseignés par un employé du bureau des Portes, qui leur signale les navires les plus riches.
+eclatante: {meneur} repousse l'abordage, et l'équipe suit les barques jusqu'à une crique où l'on trouve, avec le butin, les notes de l'employé du bureau. Il est arrêté. Les pirates s'enfuient vers Bilgewater, sans leur butin. Les capitaines marchands offrent à la guilde une part de la cargaison récupérée, et une place à bord de leurs navires, gratuitement, pour toujours.
+reussite: L'abordage est repoussé et les pirates s'enfuient. Ils ne reviennent pas cette saison.
+partielle: L'abordage a été repoussé, mais une partie de la cargaison a été emportée.
+echec: Les pirates ont pris le navire. L'équipe a dû se jeter à l'eau. Elle est revenue à la nage.
+recompenses: po 55 ; reputation 4 ; objet Dague 9
+
+=== PIL-I-048 | Le tram de Stillwater
+source: institution
+region: piltover
+palier: inconnue
+type: traque
+ton: tragique
+lieu: Stillwater Hold
+demandeur: La Chambre des Bannières, à la demande de la direction de la prison
+accroche: « Trois prisonniers ont pris le contrôle du tram mécanique pendant un transfert. Ils sont bloqués à mi-chemin, au-dessus de la mer, avec deux gardiens en otage. Ils réclament un bateau. La direction ne veut pas de sang, ni de bateau. »
+postes: Tank, Support, Tireur
+duree: 6
+dangereuse: non
+epreuves: voyage 37 (atteindre le tram par les câbles, au-dessus de la mer) ; diplomatie 36 (parler aux prisonniers, qui n'ont plus rien à perdre) ; combat 35 (libérer les otages si la parole échoue)
+complication: Un des prisonniers est innocent. Il le sait, les autres le savent, et les gardiens aussi. C'est pour lui que les deux autres ont fait ça.
+eclatante: {meneur} atteint le tram et parle aux prisonniers. L'innocent raconte son histoire, et les gardiens otages la confirment. Les prisonniers libèrent les otages, contre la promesse d'un réexamen de son dossier. La promesse est tenue : l'organisme y veille. Les deux autres retournent en cellule. Ils disent que ça valait le coup.
+reussite: Les otages sont libérés, les prisonniers maîtrisés. Personne n'est blessé. Personne n'écoute ce qu'ils avaient à dire.
+partielle: Les otages sont libérés, mais un prisonnier a sauté du tram dans la mer. On ne l'a pas retrouvé.
+echec: Le tram a été pris d'assaut par les gardiens. Il y a eu des blessés des deux côtés.
+recompenses: po 45 ; reputation 3 ; objet Bouclier de Doran 7
+
+=== PIL-I-049 | Le bassin de la Falaise
+source: institution
+region: piltover
+palier: inconnue
+type: defense
+ton: tragique
+lieu: La Falaise
+demandeur: La Chambre des Bannières, à la demande des ouvriers de la Falaise
+accroche: « Le grand bassin de décantation des usines, en haut de la Falaise, déborde avec les pluies. S'il cède, des tonnes d'eau chimique tomberont sur les toits de Zaun. Les usines disent que ce n'est pas leur problème. En bas, ils ne savent même pas que le bassin existe. »
+postes: Tank, Combattant, Healer
+duree: 8
+dangereuse: non
+epreuves: siege 40 (renforcer le mur du bassin sous la pluie, avec des sacs et des poutres) ; voyage 35 (descendre prévenir les quartiers de Zaun sous la Falaise) ; nuee 33 (repousser les pilleurs qui profitent de la confusion)
+complication: Le bassin ne tiendra pas : il faudra ouvrir une vanne de dérivation, qui inondera une usine vide. La direction refuse : l'usine est assurée, mais pas à son goût.
+eclatante: {meneur} ouvre la vanne de dérivation, malgré les protestations de la direction. L'usine vide est inondée. Le bassin tient. Les toits de Zaun restent secs. La direction porte plainte contre la guilde, puis retire sa plainte quand la Gazette publie la photo du bassin. Les ouvriers de la Falaise offrent à l'équipe un repas, en haut et en bas, le même soir.
+reussite: Le mur du bassin tient, de justesse. Rien ne tombe sur Zaun. L'usine est sauvée aussi.
+partielle: Une partie du bassin a débordé sur un quartier de Zaun déjà évacué. Il y a eu des dégâts, pas de victimes.
+echec: Le bassin a cédé. Les quartiers sous la Falaise ont été touchés. On compte encore les blessés.
+recompenses: po 50 ; reputation 4 ; objet Ceinture du géant 5
+
+=== PIL-I-050 | L'horloge du Progrès
+source: institution
+region: piltover
+palier: inconnue
+type: protection
+ton: aventure
+lieu: Tour de l'Horloge
+demandeur: La Chambre des Bannières, à la demande de l'horloger municipal
+accroche: « La Fête du progrès commence quand l'horloge du pont sonne midi. C'est la tradition. L'horloge est bloquée depuis ce matin, et quelqu'un a volé l'engrenage principal. Il reste six heures. Sans midi, pas de Fête du progrès. »
+postes: Tank, Mage, Support
+duree: 6
+dangereuse: non
+epreuves: poursuite 36 (retrouver l'engrenage volé dans les rues de Mid Town) ; siege 37 (remonter l'engrenage dans le mécanisme, en haut de la tour, à mains nues) ; diplomatie 33 (convaincre l'horloger municipal, très nerveux, de laisser des étrangers toucher à son horloge)
+complication: L'engrenage a été volé par l'apprenti de l'horloger, qui voulait que son maître prenne enfin sa retraite après cinquante ans, et pensait qu'une panne le convaincrait.
+eclatante: {meneur} retrouve l'apprenti, l'engrenage dans son sac, et comprend. L'engrenage est remonté à midi moins trois. L'horloge sonne. La Fête du progrès commence. Ce soir-là, l'horloger annonce lui-même qu'il prend sa retraite, et que son apprenti le remplacera. Il ne saura jamais pourquoi l'horloge s'était arrêtée. L'apprenti, si.
+reussite: L'horloge sonne midi, avec une minute de retard. Personne ne s'en aperçoit, sauf l'horloger, qui ne s'en remettra pas.
+partielle: L'horloge sonne midi à midi et quart. La Fête du progrès commence quand même, dans un léger embarras.
+echec: L'horloge n'a pas sonné. La Fête du progrès a commencé sur un signal de trompette. La Gazette parle d'un « jour sans progrès ».
+recompenses: po 45 ; reputation 3 ; objet Élixir de fer 7

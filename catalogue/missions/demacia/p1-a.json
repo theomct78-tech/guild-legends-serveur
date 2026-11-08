@@ -1,0 +1,212 @@
+[
+{
+  "id": "DEM-1-001", "titre": "La meunière de Jandelle", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "enquete", "ton": "tendre", "lieu": "Jandelle",
+  "demandeur": { "nom": "Odile Fournel", "qualite": "meunière, veuve, à qui on ne la fait pas" },
+  "accroche": "« Trois sacs de farine envolés en une semaine. Les gardes du château disent que ce sont les rats. Des rats qui savent ouvrir un cadenas, peut-être ? »",
+  "contexte": "Le moulin d'Odile se trouve au pied du château de Jandelle. Les vols ont lieu la nuit, sans effraction : le cadenas est rouvert et remis en place. La garnison a d'autres soucis qu'un peu de farine.",
+  "postes": ["Éclaireur", "DPS"], "duree": 4, "dangereuse": false,
+  "epreuves": [
+    { "type": "discretion", "difficulte": 42, "recit": "Guetter le moulin toute la nuit, tapis dans le fenil, sans un bruit qui trahirait la cachette." },
+    { "type": "poursuite", "difficulte": 38, "recit": "Une silhouette menue file à travers les champs de blé vers le bois. Il faut la rattraper avant la lisière." }
+  ],
+  "complication": { "texte": "Le voleur est un gamin d'une douzaine d'années. Sa famille vit cachée dans le bois depuis qu'un voisin l'a accusée de magie. Il faut le convaincre de parler plutôt que de le traîner chez les gardes.", "epreuve": { "type": "diplomatie", "difficulte": 40 } },
+  "denouements": {
+    "eclatante": "Le gamin s'appelle Thibaut. Il mène l'équipe jusqu'à sa mère et sa sœur, affamées sous une bâche. Odile les écoute longtemps, puis soupire : « Il me faut un commis. Et personne ne vient fouiller un moulin. »",
+    "reussite": "La farine est retrouvée dans un creux de rocher, à l'orée du bois. Le voleur a filé. Odile paie, mais elle laisse désormais un pain sur le rebord de la fenêtre, chaque soir.",
+    "partielle": "Des traces de petits pieds et un sac éventré : on sait par où il passe, pas qui il est. Odile change de cadenas et paie la moitié.",
+    "echec": "Personne n'a rien vu, et un quatrième sac a disparu pendant que l'équipe dormait dans le fenil. Au marché de Jandelle, on parle déjà de « la guilde qui ronfle »."
+  },
+  "recompenses": { "or": 60, "reputation": 2, "xp": 40, "objet": { "rarete": "commun", "chance": 5 } },
+  "suite": "jandelle-thibaut"
+},
+{
+  "id": "DEM-1-002", "titre": "Le bélier de la foire de Pinara", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "recherche", "ton": "drole", "lieu": "Pinara",
+  "demandeur": { "nom": "Gautier Brisemotte", "qualite": "éleveur, quatre fois primé, très fier de l'être" },
+  "accroche": "« Il s'appelle Seigneur Bouclier, il pèse le poids de trois hommes et il a défoncé la barrière ce matin. Sans lui, pas de prix à la foire. Sans prix, pas de mariage pour ma fille. »",
+  "contexte": "La foire de Pinara ouvre demain à l'aube. Le bélier de Gautier a pris la fuite à travers les potagers, renversant au passage l'étal du marchand de cidre. Plusieurs villageois réclament déjà réparation.",
+  "postes": ["Éclaireur", "Tank"], "duree": 3, "dangereuse": false,
+  "epreuves": [
+    { "type": "poursuite", "difficulte": 36, "recit": "Suivre les dégâts de jardin en jardin jusqu'au bélier, qui ne s'arrête que pour manger les choux primés des autres." },
+    { "type": "combat", "difficulte": 34, "recit": "Le maîtriser : Seigneur Bouclier charge tout ce qui porte une armure, et il charge fort." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Le bélier est ramené, lavé et peigné à temps. Il remporte le premier prix. Gautier pleure dans les bras de son gendre, qu'il vient d'accepter, et la guilde est invitée au banquet de noces.",
+    "reussite": "Seigneur Bouclier est rentré, un peu cabossé. Il finit deuxième, mais Gautier jure que le jury était acheté.",
+    "partielle": "Le bélier est retrouvé au fond d'une mare, d'où il refuse de sortir. On l'en tire après la remise des prix. Gautier paie, la mine sombre.",
+    "echec": "Le bélier a disparu dans les collines et un héros s'est fait renverser devant tout le village. Pinara en rira jusqu'à la foire suivante."
+  },
+  "recompenses": { "or": 45, "reputation": 1, "xp": 25, "objet": { "rarete": "commun", "chance": 3 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-003", "titre": "Les cloches muettes d'Edessa", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "enquete", "ton": "mystere", "lieu": "Edessa",
+  "demandeur": { "nom": "Frère Aubin", "qualite": "jeune desservant d'une chapelle des Porteurs de lumière" },
+  "accroche": "« Depuis trois jours, nos cloches ne sonnent plus. Les cordes sont intactes, le clocher est fermé à clé, et les vieux du village disent que c'est un présage. Moi, je n'aime pas les présages. »",
+  "contexte": "La chapelle d'Edessa appelle les bateliers de l'Ironfork au repos du soir. Sans les cloches, les barques rentrent dans le noir et deux ont déjà heurté le ponton. Le sacristain, vieil homme respecté, refuse de monter au clocher.",
+  "postes": ["Éclaireur", "Support"], "duree": 3, "dangereuse": false,
+  "epreuves": [
+    { "type": "discretion", "difficulte": 38, "recit": "Fouiller le clocher et la sacristie sans attirer l'attention des fidèles déjà inquiets." },
+    { "type": "diplomatie", "difficulte": 42, "recit": "Faire parler le vieux sacristain, qui en sait plus qu'il ne le dit et le cache derrière ses prières." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Les battants de bronze ont été vendus par le sacristain lui-même, pour payer les dettes de son fils, et remplacés par du bois. L'équipe retrouve le receleur, les cloches sonnent de nouveau, et Frère Aubin garde le secret du vieil homme.",
+    "reussite": "Les battants sont retrouvés chez un ferrailleur de Pinara et remis en place. Le sacristain a quitté le village, on ne sait pas pourquoi.",
+    "partielle": "On sait maintenant que les battants ont été volés, mais pas par qui. Frère Aubin fait sonner une cloche à main en attendant.",
+    "echec": "L'équipe n'a rien trouvé, et ses questions ont vexé tout le village. Le sacristain a porté plainte pour insolence auprès du prieur."
+  },
+  "recompenses": { "or": 40, "reputation": 2, "xp": 30, "objet": { "rarete": "commun", "chance": 4 } },
+  "suite": "edessa-sacristain"
+},
+{
+  "id": "DEM-1-004", "titre": "Une barge sur l'Ironfork", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "escorte", "ton": "aventure", "lieu": "Lissus",
+  "demandeur": { "nom": "Mathurine Godart", "qualite": "batelière, trente ans de fleuve, la voix qui porte d'une rive à l'autre" },
+  "accroche": "« Mon grain doit être à Edessa avant que les prix tombent. Il y a des pilleurs dans les roseaux, en aval. J'ai une perche, une barge et trois enfants. Pas d'épée. »",
+  "contexte": "Les barges de grain descendent l'Ironfork de Lissus vers Edessa. Depuis la moisson, une petite bande de pilleurs attaque les embarcations isolées dans les méandres bordés de roseaux. La milice ne patrouille que le jour.",
+  "postes": ["DPS", "Tank"], "duree": 6, "dangereuse": false,
+  "epreuves": [
+    { "type": "voyage", "difficulte": 36, "recit": "Descendre le fleuve de nuit pour éviter les regards, entre bancs de sable et branches noyées." },
+    { "type": "combat", "difficulte": 44, "recit": "Dans le méandre des Saules, des barques surgissent des roseaux. Il faut tenir la barge pendant l'abordage." }
+  ],
+  "complication": { "texte": "L'un des pilleurs est le neveu de Mathurine, criblé de dettes. Elle le reconnaît au milieu du combat et supplie qu'on l'épargne.", "epreuve": { "type": "diplomatie", "difficulte": 38 } },
+  "denouements": {
+    "eclatante": "Les pilleurs sont mis en fuite, le grain arrive au meilleur prix, et Mathurine ramène son neveu à Lissus par l'oreille. Elle racontera la traversée à tous les bateliers du fleuve.",
+    "reussite": "La barge passe, avec un peu de grain mouillé. Mathurine paie la somme convenue et promet de recommander la guilde.",
+    "partielle": "Le grain arrive, mais les pilleurs ont emporté un tiers de la cargaison. Mathurine paie en sacs plutôt qu'en pièces.",
+    "echec": "La barge a été pillée. Mathurine et ses enfants sont sains et saufs, mais elle ne remontera pas le fleuve avant le printemps."
+  },
+  "recompenses": { "or": 90, "reputation": 2, "xp": 50, "objet": { "rarete": "commun", "chance": 6 } },
+  "suite": "ironfork-pilleurs"
+},
+{
+  "id": "DEM-1-005", "titre": "Les loups de Velorus", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "chasse", "ton": "aventure", "lieu": "Velorus",
+  "demandeur": { "nom": "Renaud Lacombe", "qualite": "berger, le bras en écharpe" },
+  "accroche": "« Ce ne sont pas des loups ordinaires. Ils ont l'écume aux babines et ils n'ont pas peur du feu. Ils ont pris six brebis et ils ont failli prendre mon fils. »",
+  "contexte": "Une petite meute de loups enragés rôde autour des pâtures de Velorus, au nord de l'Ironfork. Les chiens refusent de sortir, et les bergers ont rentré les troupeaux. La morsure d'un loup enragé ne pardonne pas.",
+  "postes": ["Tireur", "Tank"], "duree": 5, "dangereuse": false,
+  "epreuves": [
+    { "type": "poursuite", "difficulte": 40, "recit": "Remonter la piste de la meute à travers les haies et les fossés jusqu'à sa tanière, dans une carrière abandonnée." },
+    { "type": "nuee", "difficulte": 44, "recit": "Les loups attaquent en même temps, de tous les côtés, sans reculer devant les blessures." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "La meute est détruite et la tanière brûlée. Renaud offre à la guilde un agneau, le meilleur de ceux qui restent, et le village de Velorus allume un feu de joie.",
+    "reussite": "Les loups sont tués, sauf un qui s'enfuit vers les collines. Les bergers ressortent les troupeaux, en gardant les chiens près d'eux.",
+    "partielle": "Deux loups abattus, les autres dispersés. Les attaques diminuent, mais personne à Velorus ne dort tranquille.",
+    "echec": "La meute a évité le piège et frappé une autre ferme pendant la traque. Renaud rend l'argent de l'avance sans un mot."
+  },
+  "recompenses": { "or": 85, "reputation": 3, "xp": 55, "objet": { "rarete": "commun", "chance": 6 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-006", "titre": "La lettre de frère Anselme", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "livraison", "ton": "politique", "lieu": "Liebourg",
+  "demandeur": { "nom": "Frère Anselme", "qualite": "illuminateur, soigne gratuitement les pauvres de Liebourg" },
+  "accroche": "« Une simple lettre, cachetée, à remettre en main propre à une tisserande de la rue des Teinturiers. Ne l'ouvrez pas. Et si quelqu'un en manteau gris vous suit, faites un détour. »",
+  "contexte": "Liebourg est le quartier le plus pauvre de la Grande cité. Les traqueurs de mages y font des rondes plus fréquentes depuis un mois. Frère Anselme est connu pour sa bonté, et il ne sort plus de son dispensaire.",
+  "postes": ["Assassin", "Éclaireur"], "duree": 2, "dangereuse": false,
+  "epreuves": [
+    { "type": "discretion", "difficulte": 44, "recit": "Traverser Liebourg à l'heure des patrouilles, par les cours et les ateliers, sans croiser un manteau gris." },
+    { "type": "poursuite", "difficulte": 36, "recit": "Semer l'homme qui suit l'équipe depuis le dispensaire, dans le dédale des ruelles des teinturiers." }
+  ],
+  "complication": { "texte": "La tisserande a déjà été arrêtée. Sa fille, sept ans, attend seule dans l'atelier. La lettre lui était destinée : elle indique une maison sûre hors de la cité.", "epreuve": { "type": "discretion", "difficulte": 46 } },
+  "denouements": {
+    "eclatante": "La lettre est remise, et l'enfant conduite là où la lettre l'envoyait. Frère Anselme ne dit pas merci : il serre longuement les mains des héros, et désormais il les soigne sans poser de questions.",
+    "reussite": "La lettre est arrivée à destination sans être vue. Personne n'en saura plus, et c'est très bien ainsi.",
+    "partielle": "La lettre est remise, mais l'équipe a été remarquée. Un traqueur note le nom de la guilde dans son carnet.",
+    "echec": "L'équipe a été fouillée et la lettre saisie. Frère Anselme est convoqué au Complexe des traqueurs de mages. On ignore ce qu'elle contenait vraiment."
+  },
+  "recompenses": { "or": 35, "reputation": 2, "xp": 45, "objet": { "rarete": "commun", "chance": 4 } },
+  "suite": "liebourg-illuminateurs"
+},
+{
+  "id": "DEM-1-007", "titre": "Le livre du grenier", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "mediation", "ton": "tragique", "lieu": "Lissus",
+  "demandeur": { "nom": "Clémence Varlet", "qualite": "veuve d'un sergent mort au Mur de l'Est" },
+  "accroche": "« Mon mari avait un livre caché sous les tuiles. Des signes qui brillent quand il pleut. Je ne veux pas savoir ce que c'est. Je veux qu'il disparaisse avant que mon fils le trouve. »",
+  "contexte": "Clémence a découvert un ouvrage de magie dans le grenier de son défunt mari, un soldat décoré. Le détenir est un crime. Le livrer au Registre des arcanes salirait sa mémoire et attirerait l'attention sur la famille. Son fils, lui, veut entrer dans l'armée.",
+  "postes": ["Support", "Éclaireur"], "duree": 3, "dangereuse": false,
+  "epreuves": [
+    { "type": "diplomatie", "difficulte": 42, "recit": "Aider Clémence à choisir : le brûler, le cacher ailleurs ou le remettre aux autorités. Et la consoler d'avoir découvert un mari qu'elle ne connaissait pas." },
+    { "type": "discretion", "difficulte": 38, "recit": "Faire ce qui a été décidé sans que le voisinage, qui surveille la maison d'une veuve, ne remarque rien." }
+  ],
+  "complication": { "texte": "Le fils a déjà lu le livre. Une nuit, une lueur a dansé au bout de ses doigts. Il est terrorisé et supplie qu'on ne dise rien à sa mère.", "epreuve": { "type": "diplomatie", "difficulte": 46 } },
+  "denouements": {
+    "eclatante": "Le livre ne nuira plus à personne, et Clémence a retrouvé un peu de paix : son mari n'était pas un traître, seulement un homme qui avait peur pour un frère mageborn. Elle fait graver son nom sur la Route du Mémorial.",
+    "reussite": "Le livre a disparu. Clémence ne veut pas savoir comment. Elle paie et referme sa porte.",
+    "partielle": "Le livre est caché, pas détruit. Clémence dort mal et revient voir la guilde chaque semaine pour s'assurer qu'il est toujours introuvable.",
+    "echec": "Un voisin a vu l'équipe sortir avec un paquet. Les traqueurs de mages ont fouillé la maison. Ils n'ont rien trouvé, mais le fils de Clémence a été refusé à l'armée."
+  },
+  "recompenses": { "or": 50, "reputation": 2, "xp": 45, "objet": { "rarete": "commun", "chance": 5 } },
+  "suite": "lissus-fils-varlet"
+},
+{
+  "id": "DEM-1-008", "titre": "Les amulettes de maître Fulbert", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "enquete", "ton": "politique", "lieu": "Port de la cité",
+  "demandeur": { "nom": "Hugues Ravenel", "qualite": "marchand de draps, très en colère et un peu ridicule" },
+  "accroche": "« Cent pièces ! Cent pièces pour une amulette en pétricite véritable, garantie contre les sortilèges ! Ma femme l'a fait tomber dans l'eau du port. Elle a flotté. La pétricite ne flotte pas. »",
+  "contexte": "Un certain maître Fulbert vend sur les quais du Port de la cité des amulettes « anti-magie » taillées, dit-il, dans de la pétricite authentique. La peur des mages fait vendre. Hugues veut être remboursé, et voir le charlatan au pilori.",
+  "postes": ["Éclaireur", "Combattant"], "duree": 4, "dangereuse": false,
+  "epreuves": [
+    { "type": "discretion", "difficulte": 40, "recit": "Suivre Fulbert jusqu'à son atelier pour savoir d'où viennent ses amulettes, sans qu'il se sache suivi." },
+    { "type": "combat", "difficulte": 36, "recit": "Les deux costauds qui gardent l'atelier n'apprécient pas les visiteurs." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "L'atelier regorge de bois blanchi à la chaux. Fulbert est livré à la garde du port avec sa liste de clients. Hugues est remboursé, et quarante familles avec lui.",
+    "reussite": "La fraude est prouvée et Fulbert a fermé boutique. Hugues récupère la moitié de son argent, et sa fierté.",
+    "partielle": "Fulbert a filé par les toits avec sa caisse. On a saisi son stock, ce qui ne rembourse personne.",
+    "echec": "Fulbert a convaincu la garde que la guilde voulait le cambrioler. Il vend toujours ses amulettes, plus cher : « On a voulu me faire taire. »"
+  },
+  "recompenses": { "or": 70, "reputation": 2, "xp": 35, "objet": { "rarete": "commun", "chance": 5 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-009", "titre": "Sous les décombres de Terbisia", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "sauvetage", "ton": "tragique", "lieu": "Terbisia",
+  "demandeur": { "nom": "Aymeric Dubreuil", "qualite": "maçon de la reconstruction, couvert de poussière" },
+  "accroche": "« La réplique de cette nuit a fait tomber la maison des Courtenay. On les entend frapper sous le plancher. Si on dégage trop vite, tout s'effondre sur eux. »",
+  "contexte": "Terbisia se relève lentement du grand tremblement de terre. Une secousse plus faible a fait céder une maison mal étayée. Une mère et ses deux enfants sont coincés dans la cave. Les ouvriers ont des bras, mais personne pour tenir les poutres et soigner.",
+  "postes": ["Tank", "Healer"], "duree": 6, "dangereuse": false,
+  "epreuves": [
+    { "type": "siege", "difficulte": 44, "recit": "Étayer et soulever les poutres maîtresses pendant que les ouvriers creusent, sans rien laisser glisser." },
+    { "type": "voyage", "difficulte": 40, "recit": "Tenir des heures dans la poussière et le froid de la nuit, jusqu'à ce que le passage s'ouvre." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "La mère et ses deux enfants sortent vivants, l'une des petites agrippée à un héros. Tout le quartier se rassemble pour applaudir, et le maître d'œuvre propose à la guilde de revenir quand elle veut.",
+    "reussite": "Les trois survivent ; la mère a la jambe brisée. Aymeric offre à la guilde le peu qu'il a et un toit pour la nuit.",
+    "partielle": "Les enfants sont sauvés. La mère, restée en dessous pour les pousser vers la sortie, n'a pas survécu. Terbisia enterre une morte de plus.",
+    "echec": "Le plancher a cédé pendant les travaux. Il n'y a pas eu de survivants, et les ouvriers rendent la guilde responsable."
+  },
+  "recompenses": { "or": 40, "reputation": 4, "xp": 60, "objet": { "rarete": "commun", "chance": 3 } },
+  "suite": "terbisia-reconstruction"
+},
+{
+  "id": "DEM-1-010", "titre": "L'Agneau et le Loup", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "garde", "ton": "drole", "lieu": "Cercle d'Or",
+  "demandeur": { "nom": "Bérenger Vauclair", "qualite": "premier rôle d'une troupe de théâtre, convaincu qu'on veut l'assassiner" },
+  "accroche": "« Trois lettres de menace ! « Si vous jouez l'Agneau demain, vous mourrez pour de vrai. » Je joue l'Agneau. Je meurs à la fin. Mais je compte bien me relever pour saluer. »",
+  "contexte": "La troupe de Bérenger donne demain le célèbre drame de la mort *L'Agneau et le Loup* au Cercle d'Or, devant quelques nobles. Les lettres sont réelles. Les gardes du théâtre pensent à une farce de rival, mais Bérenger refuse de monter sur scène sans protection.",
+  "postes": ["Éclaireur", "Tank"], "duree": 4, "dangereuse": false,
+  "epreuves": [
+    { "type": "discretion", "difficulte": 38, "recit": "Surveiller les coulisses, les loges et les cintres pendant la représentation, sans gâcher le spectacle." },
+    { "type": "poursuite", "difficulte": 40, "recit": "Une ombre court sur les passerelles au-dessus de la scène, un seau à la main. Il faut l'attraper avant la dernière tirade." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Le corbeau est la doublure de Bérenger, qui rêvait de jouer l'Agneau. Le seau contenait de la peinture rouge. Arrêté en pleine scène sous les rires du public, il fait au théâtre sa meilleure entrée. Bérenger meurt divinement et salue trois fois.",
+    "reussite": "Le saboteur est attrapé à temps. La pièce se joue sans incident, et Bérenger réclame déjà la guilde pour toute la saison.",
+    "partielle": "La peinture a éclaboussé le premier rang, mais le coupable est démasqué. Les critiques qualifient la pièce d'« audacieusement moderne ».",
+    "echec": "Bérenger a reçu le seau sur la tête au moment de mourir. Le public a cru à un effet, le noble du premier rang beaucoup moins. La troupe est priée de ne plus revenir."
+  },
+  "recompenses": { "or": 55, "reputation": 2, "xp": 30, "objet": { "rarete": "commun", "chance": 4 } },
+  "suite": null
+}
+]

@@ -1,0 +1,36 @@
+# Personnalités des champions · lot 1 (Aatrox à Ezreal)
+# Champion|So Di Te Al Tm Am (0-100)|traits|motivation|liens (Nom:type;…)|régions (+aimée,-détestée)|voix
+# Axes : So sociabilité, Di discipline, Te tempérament (calme→sanguin), Al altruisme, Tm témérité, Am ambition.
+Aatrox|20 30 85 5 90 90|SANGUINAIRE,HANTE,IMPLACABLE|vengeance|Varus:ami;Naafiri:famille;Zaahen:ennemi;Kayn:ennemi|+shurima,-targon|Grandiloquent et amer, il parle comme un dieu déchu qui méprise ceux qui l'écoutent, et se tait d'un coup quand on évoque sa prison.
+Ahri|75 30 40 55 55 50|CHARMEUR,CURIEUX,LIBRE|appartenance|Sett:ami|+ionia|Douce et joueuse, elle pose plus de questions qu'elle n'en répond, et sourit quand on croit l'avoir percée à jour.
+Akali|55 15 70 60 85 60|REBELLE,IMPULSIF,LIBRE|cause|Shen:mentor;Kennen:ami;Zed:rival|+ionia,-noxus|Directe et moqueuse, elle coupe la parole, finit les phrases des autres et ne s'excuse jamais de le faire.
+Akshan|80 20 45 70 90 55|CHARMEUR,FARCEUR,VANITEUX|vengeance|Lucian:ami;Senna:ami|+shurima|Fanfaron et théâtral, il raconte ses exploits en les embellissant à chaque fois, puis redevient grave d'un seul coup quand on parle de son maître.
+Alistar|50 40 90 75 85 30|PROTECTEUR,RANCUNIER,IMPULSIF|cause||-noxus|Peu de mots, une voix grave qui se brise de colère dès qu'on parle de chaînes ou d'arènes.
+Ambessa|40 85 55 25 70 95|IMPLACABLE,CALCULATEUR,ARISTOCRATE|proteger|Mel:famille;LeBlanc:ennemi;Swain:rival|+noxus|Froide et précise : elle ne menace jamais, elle constate. Elle appelle chacun par sa fonction, rarement par son nom.
+Amumu|20 40 25 70 40 10|MELANCOLIQUE,BIENVEILLANT,HANTE|appartenance||+shurima|Une petite voix triste, qui demande souvent si on veut bien être son ami, et qui s'excuse d'avoir demandé.
+Anivia|10 70 30 80 50 20|PATIENT,PROTECTEUR,TACITURNE|proteger|Lissandra:ennemi|+freljord|Solennelle et rare, elle parle en cycles et en saisons, comme si chaque hiver était une phrase.
+Annie|70 15 70 40 90 30|ENJOUE,IMPULSIF,FARCEUR|plaisir||+noxus|Une petite fille qui parle à son ours en peluche, et que les adultes devraient écouter avec plus d'attention.
+Aphelios|15 85 30 60 75 30|TACITURNE,DEVOT,HANTE|cause||+targon|Il ne parle pas : sa sœur parle pour lui, de très loin, et il lui répond par des gestes que personne d'autre ne comprend.
+Ashe|55 80 30 85 55 60|IDEALISTE,PROTECTEUR,HONORABLE|cause|Tryndamere:amour;Sejuani:rival;Lissandra:ennemi|+freljord|Calme et ferme, elle parle comme une reine qui n'a pas encore son trône, et qui écoute avant de trancher.
+Aurelion Sol|30 10 60 15 60 95|VANITEUX,ARISTOCRATE,MELANCOLIQUE|liberte||-targon|Grandiloquent et condescendant, il appelle tout le monde « petite chose », et s'émerveille malgré lui d'un rien.
+Aurora|45 30 25 80 55 30|CURIEUX,BIENVEILLANT,ENJOUE|savoir||+freljord|Distraite et lumineuse, elle parle aussi bien aux esprits qu'aux gens, parfois en même temps, et s'excuse auprès des deux.
+Azir|40 80 50 50 50 95|ARISTOCRATE,FIER,IDEALISTE|cause|Xerath:ennemi;Nasus:ami;Renekton:ami;Sivir:famille|+shurima|Impérial, il dit « nous » et attend qu'on s'incline ; il cite des lois que personne n'a lues depuis des millénaires.
+Bard|40 5 10 85 50 5|LIBRE,ENJOUE,CURIEUX|proteger|||Il ne parle pas : des carillons, des sons, des gestes, et des poèmes que personne ne comprend tout à fait mais que tout le monde retient.
+Bel'Veth|20 30 60 0 70 100|CURIEUX,IMPLACABLE,SAUVAGE|pouvoir||+neant|Elle imite ce qu'elle a dévoré : des mots humains mal assortis, posés comme des pièges, et une curiosité qui fait froid dans le dos.
+Blitzcrank|80 85 10 75 50 30|BIENVEILLANT,CURIEUX,LOYAL|proteger||+zaun|Mécanique et poli, il commence ses phrases par une analyse et les finit par une politesse ; il ne comprend pas l'ironie, et la trouve fascinante.
+Brand|5 10 95 0 90 80|FANATIQUE,SANGUINAIRE,IMPULSIF|pouvoir|Ryze:ennemi|-freljord|Il hurle et ricane ; le feu parle par sa bouche, et l'homme qu'il a été ne se manifeste plus que par éclairs.
+Braum|95 50 15 95 75 10|BIENVEILLANT,PROTECTEUR,ENJOUE|proteger||+freljord|Une voix tonitruante, des proverbes du Freljord, une moustache qui frémit et une tape dans le dos à chaque phrase.
+Briar|70 0 90 30 100 20|SANGUINAIRE,ENJOUE,CURIEUX|liberte|LeBlanc:ennemi|-noxus|Rapide et affamée : elle pose dix questions à la minute, en oublie neuf, et rit de bon cœur au mauvais moment.
+Caitlyn|45 90 30 70 50 60|HONORABLE,CALCULATEUR,PATIENT|cause|Vi:amour;Jinx:ennemi;Jayce:ami|+piltover|Précise et ironique, elle aime avoir le dernier mot, et l'a souvent ; elle pose les questions comme on pose des pièges.
+Camille|15 95 20 20 60 75|IMPLACABLE,ARISTOCRATE,CALCULATEUR|proteger||+piltover|Glaciale et impeccable, elle tranche les conversations comme le reste, et ne répète jamais une question.
+Cassiopeia|30 30 55 10 60 85|VANITEUX,CALCULATEUR,CHARMEUR|pouvoir|Katarina:famille;Talon:famille;Sivir:ennemi|+noxus|Sifflante et séduisante : chaque compliment est une menace, chaque menace un compliment.
+Cho'Gath|5 5 85 0 90 70|SAUVAGE,SANGUINAIRE,GOURMAND|pouvoir||+neant|Des grognements, et parfois une phrase parfaitement articulée qui glace le sang de tout le réfectoire.
+Corki|80 50 40 65 95 40|ENJOUE,FARCEUR,LOYAL|plaisir||+bandle,+piltover|Argot d'aviateur, enthousiasme permanent, et des histoires de vol qui finissent toutes par « et là, plus de moteur ».
+Darius|30 90 70 40 75 60|IMPLACABLE,LOYAL,FIER|cause|Draven:famille;Garen:rival;Swain:ami|+noxus,-demacia|Peu de mots, tous définitifs. Il ne lève pas la voix : il n'en a pas besoin.
+Diana|25 60 60 50 75 60|HANTE,REBELLE,DEVOT|cause|Leona:rival|+targon|Grave et tranchante, elle cite les étoiles, méprise les dogmes, et ne pardonne pas qu'on lui mente.
+Dr. Mundo|60 5 80 30 100 40|SAUVAGE,FARCEUR,IMPULSIF|plaisir||+zaun|Il parle de lui à la troisième personne, rit trop fort, et soigne les gens d'une manière qui les fait fuir.
+Draven|95 30 70 20 85 95|VANITEUX,SANGUINAIRE,JOUEUR|gloire|Darius:famille|+noxus|Il annonce ses propres entrées, parle de lui comme d'une légende, et attend les applaudissements avant de continuer.
+Ekko|70 35 45 90 80 50|IDEALISTE,CURIEUX,LOYAL|proteger|Jinx:ami;Vi:ami;Heimerdinger:mentor;Zeri:ami|+zaun,-piltover|Rapide et inventif, un argot de Zaun et un optimisme têtu ; il bricole en parlant et parle en bricolant.
+Elise|50 60 35 5 50 85|CALCULATEUR,CHARMEUR,DEVOT|pouvoir||+noxus|Raffinée et venimeuse, elle parle de ses fidèles comme de ses enfants, et de ses ennemis comme de son dîner.
+Evelynn|60 10 40 0 70 60|CHARMEUR,SANGUINAIRE,CALCULATEUR|plaisir|||Une voix de velours qui promet tout et ne donne que de la douleur ; elle ne rit jamais quand on s'y attend.
+Ezreal|85 20 45 60 90 80|VANITEUX,CURIEUX,CHARMEUR|gloire||+piltover,+shurima|Charmeur et vantard, un peu trop sûr de lui, curieux de tout, et vexé dès qu'on ne le croit pas.

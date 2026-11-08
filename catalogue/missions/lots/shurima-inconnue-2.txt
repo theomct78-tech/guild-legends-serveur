@@ -1,0 +1,503 @@
+# Shurima · palier Inconnue · lot 2 (missions 026 à 050 ; 041 à 050 : contrats publics relayés par la Chambre des Bannières)
+
+=== SHU-I-026 | Le scorpion de l'empereur
+source: privee
+region: shurima
+palier: inconnue
+type: chasse
+ton: horreur
+lieu: Vekaura
+demandeur: Wadjet, chef de chantier, dont les ouvriers disparaissent la nuit dans les fondations
+accroche: « On creuse les fondations d'un nouveau temple. Chaque nuit, un ouvrier de garde disparaît. On retrouve sa lanterne, allumée, au bord d'un trou qui n'était pas là la veille. Trois hommes. Je n'ai plus de volontaires pour la garde de cette nuit. »
+postes: Tank
+duree: 4
+dangereuse: non
+epreuves: discretion 31 (monter la garde seul, lanterne allumée, comme appât) ; combat 33 (affronter ce qui sort du trou)
+complication: Le trou mène à une galerie de l'ancien Empire, et la bête est un scorpion de sable géant qui y vit depuis des siècles. Les ouvriers disparus sont vivants, enfermés dans son garde-manger.
+eclatante: {meneur} tient la position quand le scorpion surgit, le repousse dans sa galerie, et le suit jusqu'au garde-manger. Les trois ouvriers sont vivants, enveloppés de soie, terrorisés. Wadjet fait murer la galerie, et graver dessus le nom de la guilde, en hiéroglyphes de l'Empire. Les ouvriers reprennent le travail. La garde de nuit, elle, a maintenant beaucoup de volontaires.
+reussite: Le scorpion est blessé et repoussé dans sa galerie. Les ouvriers disparus sont retrouvés vivants. La galerie est murée.
+partielle: Le scorpion a fui. Un seul ouvrier a été retrouvé. Les deux autres restent introuvables. La galerie est murée quand même.
+echec: Le scorpion a emporté la lanterne. Le chantier a été abandonné. Le temple sera construit ailleurs.
+recompenses: po 30 ; reputation 2 ; objet Bouclier de Doran 8
+
+=== SHU-I-027 | La sœur de Xerath
+source: privee
+region: shurima
+palier: inconnue
+type: protection
+ton: politique
+lieu: Kenethet
+demandeur: Tiaa, prophétesse de rue, qui annonce le règne de Xerath et a besoin qu'on la protège
+accroche: « Je prêche pour Xerath, sur la place. On me jette des pierres. Hier, des soldats d'Azir m'ont suivie. Je n'ai pas peur de mourir. Mais je dois encore parler trois jours, jusqu'à la nouvelle lune. Après, vous pourrez me laisser. »
+postes: Tank, Support
+duree: 5
+dangereuse: non
+epreuves: combat 33 (protéger la prêcheuse sur la place sans blesser la foule en colère) ; diplomatie 35 (empêcher les soldats impériaux de l'arrêter, ou les convaincre de la laisser parler)
+complication: Tiaa ne croit pas en Xerath : elle prêche pour attirer ses vrais partisans, et donner leurs noms aux soldats d'Azir. Elle travaille pour l'empereur.
+eclatante: {meneur} comprend le double jeu de Tiaa au deuxième jour, en voyant qui elle salue après chaque sermon. L'équipe la protège jusqu'au bout, sans trahir son secret. À la nouvelle lune, douze partisans de Xerath sont arrêtés dans Kenethet. Tiaa disparaît. Le lendemain, un soldat d'Azir dépose une bourse au repère, sans un mot.
+reussite: Tiaa prêche trois jours, protégée. Elle disparaît à la nouvelle lune. On ne sait toujours pas pour qui elle parlait.
+partielle: Tiaa a été arrêtée le troisième jour. Elle souriait. On ne sait pas pourquoi.
+echec: Une pierre a touché Tiaa à la tempe le premier jour. Elle s'en est remise, mais elle a quitté la ville. Les partisans de Xerath ont crié à l'assassinat.
+recompenses: po 35 ; reputation 2 ; objet Élixir de fer 6
+
+=== SHU-I-028 | Le dernier chameau
+source: privee
+region: shurima
+palier: inconnue
+type: sauvetage
+ton: tendre
+lieu: Grand Sai
+demandeur: Ramose, vieil homme, dont le chameau s'est enlisé dans les sables mouvants
+accroche: « Il a trente ans. Il est vieux, comme moi. Il est tombé dans un trou de sable mou, à deux heures d'ici. Il ne peut pas sortir seul. Il ne crie même plus. Je ne peux pas le laisser là. On a traversé le Sai quarante fois ensemble. »
+postes: Tank, Healer
+duree: 4
+dangereuse: non
+epreuves: siege 32 (sortir un chameau de cinq cents kilos des sables mouvants) ; voyage 30 (le ramener vivant, épuisé, sous le soleil)
+complication: Le chameau n'est pas seul dans le trou : un enfant de chevrier y est tombé aussi, en voulant le sauver.
+eclatante: {meneur} tire l'enfant hors du sable en premier, puis le chameau, avec des cordes et beaucoup d'acharnement. L'enfant rentre sur le dos du vieux chameau, qui marche fièrement. Ramose et le père de l'enfant deviennent amis. Le chameau a désormais deux maisons. Il les visite à tour de rôle.
+reussite: Le chameau est sorti du sable, vivant, épuisé. Ramose le ramène lentement. Il dit qu'ils feront encore une traversée. Une dernière.
+partielle: Le chameau a été sorti, mais il ne se relève pas. Ramose reste avec lui jusqu'au soir. Puis le chameau se relève. Ramose dit que c'est un miracle. Le chameau, lui, ne dit rien.
+echec: Le sable a été le plus fort. Ramose a planté une pierre à cet endroit. Il passe la voir, chaque mois.
+recompenses: po 15 ; reputation 2 ; objet Potion de soin 8
+
+=== SHU-I-029 | Les pillards de la nécropole
+source: privee
+region: shurima
+palier: inconnue
+type: traque
+ton: aventure
+lieu: Saikhal
+demandeur: Nakht, gardien de nécropole, qui a vu des pilleurs entrer dans le tombeau de ses ancêtres
+accroche: « Ma famille garde cette nécropole depuis l'Empire. Trente générations. Cette nuit, des pilleurs sont entrés par un puits oublié. Ils sont encore à l'intérieur. Si vous les attrapez, je ne veux pas leur mort. Je veux qu'ils remettent tout à sa place, de leurs propres mains. »
+postes: Éclaireur, Combattant
+duree: 5
+dangereuse: non
+epreuves: poursuite 34 (suivre les pilleurs dans les couloirs de la nécropole) ; discretion 33 (les surprendre sans déclencher les pièges anciens) ; combat 32 (les maîtriser sans rien briser autour)
+complication: Les pilleurs ont déjà déclenché un piège : ils sont coincés dans une salle qui se remplit de sable.
+eclatante: {meneur} trouve les pilleurs à moitié ensevelis, et les sort de là un par un. Sauvés de justesse, ils remettent tout en place, de leurs propres mains, sous les yeux de Nakht. L'un d'eux, le plus jeune, demande à rester pour apprendre à garder la nécropole. Nakht accepte. Trente et une générations.
+reussite: Les pilleurs sont pris et les objets remis à leur place. Nakht les fait travailler une semaine à réparer le puits. Ils ne reviendront pas.
+partielle: Deux pilleurs se sont échappés avec un vase. Nakht a fait murer le puits. Il pleure le vase.
+echec: Les pilleurs ont fui avec leur butin. Nakht a passé la nuit à remettre en ordre ce qui restait, seul.
+recompenses: po 30 ; reputation 2 ; objet Dague 7
+
+=== SHU-I-030 | La chasse aux ralsijis
+source: privee
+region: shurima
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Grand Sai
+demandeur: Inaros, chef de caravane, dont les bêtes sont attaquées par une meute de ralsijis
+accroche: « Une meute de ralsijis suit ma caravane depuis trois jours. Ils prennent une bête chaque nuit. Ils sont malins, ils attaquent toujours par l'arrière. Il me reste six jours de désert et quatorze chameaux. Faites le calcul. »
+postes: Tireur, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: poursuite 35 (repérer la meute qui rôde dans les dunes autour de la caravane) ; combat 34 (abattre le chef de meute, pour disperser les autres)
+complication: Le chef de meute est une femelle qui chasse pour nourrir ses petits, dans une tanière toute proche.
+eclatante: {meneur} trouve la tanière avant la chasse, et propose un marché à Inaros : un chameau mort de fatigue, laissé à la meute, contre la paix. La femelle prend la carcasse et ne suit plus la caravane. Inaros arrive avec treize chameaux, et une histoire qu'il raconte à chaque feu de camp.
+reussite: Le chef de meute est abattu, la meute dispersée. La caravane traverse sans perdre une autre bête.
+partielle: La meute a été repoussée, mais elle revient la quatrième nuit. La caravane perd encore deux bêtes.
+echec: La meute a suivi la caravane jusqu'au bout. Inaros est arrivé avec six chameaux. Il ne traverse plus le Sai à cette saison.
+recompenses: po 35 ; reputation 2 ; objet Épée longue 7
+
+=== SHU-I-031 | L'enfant qui parlait aux statues
+source: privee
+region: shurima
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Shurima, la capitale
+demandeur: Merit, mère d'un petit garçon qui parle chaque nuit à une statue de la capitale
+accroche: « Mon fils a sept ans. Chaque nuit, il sort et va parler à une statue de soldat, près du palais. Il dit que la statue lui répond. Il connaît des choses qu'un enfant ne peut pas savoir. Des noms. Des batailles. Je veux savoir si mon fils est fou, ou si la statue est vivante. »
+postes: Mage
+duree: 3
+dangereuse: non
+epreuves: discretion 30 (suivre l'enfant la nuit sans l'effrayer) ; diplomatie 29 (parler à la statue, et l'entendre, si elle répond)
+complication: La statue est un des soldats des sables d'Azir, éveillé mais sans ordres, qui s'ennuie depuis des siècles et a trouvé en l'enfant le seul qui l'écoute.
+eclatante: {meneur} entend la statue répondre, d'une voix de sable. Le soldat ne veut rien de mal : il veut raconter. {meneur} lui promet de revenir écouter, et d'en parler à un prêtre. Merit, rassurée, laisse son fils continuer ses visites, de jour. L'enfant écrit maintenant les histoires du soldat. Il en a déjà trois cahiers.
+reussite: La statue répond, faiblement. L'équipe rassure Merit : son fils n'est pas fou. Elle le laisse y aller, accompagné.
+partielle: La statue n'a rien dit devant l'équipe. L'enfant dit qu'elle est timide. Merit hésite encore.
+echec: L'enfant a eu peur de l'équipe et n'est plus sorti. La statue, dit-on, a tourné la tête vers sa maison, le lendemain.
+recompenses: po 20 ; reputation 2 ; objet Tome d'amplification 7
+
+=== SHU-I-032 | Le défi du chamelier
+source: privee
+region: shurima
+palier: inconnue
+type: diplomatie
+ton: drole
+lieu: Marrowmark
+demandeur: Bakari, chamelier, qui a parié son honneur sur une course qu'il ne peut pas gagner
+accroche: « J'ai dit au marché que mon chameau battrait n'importe quel sauren. J'étais ivre. Le marchand de saurens a accepté. La course est demain. Mon chameau est lent, vieux et philosophe. J'ai besoin d'une solution. Ou d'un sauren déguisé en chameau. »
+postes: Assassin
+duree: 2
+dangereuse: non
+epreuves: diplomatie 27 (renégocier les termes d'un pari devant tout le marché) ; discretion 28 (préparer, si besoin, un plan moins honnête)
+complication: Le sauren du marchand est terrorisé par les chameaux depuis qu'il s'est fait mordre, petit.
+eclatante: {meneur} apprend la peur du sauren auprès d'un garçon d'écurie, et propose de changer le pari : course côte à côte, sur la même piste. Le sauren voit le chameau, panique et part dans l'autre sens. Le chameau arrive le premier, sans se presser. Bakari est le héros du marché. Le marchand de saurens rit, paie, et achète un chameau.
+reussite: Le pari est renégocié : une course de cent mètres seulement. Le chameau perd, mais de peu. Bakari garde son honneur, et sa dignité.
+partielle: Bakari perd la course, mais l'équipe obtient que le prix soit une tournée et non son honneur. Elle coûte cher.
+echec: Le chameau s'est assis au départ. Bakari a perdu. Il doit porter un chapeau de sauren pendant un mois.
+recompenses: po 15 ; reputation 1 ; objet Bottes 5
+
+=== SHU-I-033 | Les pleureuses de Zuretta
+source: privee
+region: shurima
+palier: inconnue
+type: protection
+ton: tragique
+lieu: Zuretta
+demandeur: Hentaneb, cheffe des pleureuses de Zuretta, dont le cortège a été attaqué
+accroche: « Nous pleurons les morts qui n'ont pas de famille. C'est notre métier. Hier, un cortège a été attaqué : on voulait voler le corps. Le mort était un étranger, un Noxien déserteur. Les gens d'ici ne veulent pas qu'il soit enterré chez nous. Nous, si. Tous les morts méritent des larmes. »
+postes: Combattant, Support
+duree: 4
+dangereuse: non
+epreuves: combat 34 (protéger un cortège funéraire contre ceux qui veulent l'empêcher) ; diplomatie 32 (calmer les habitants de Zuretta sans que le sang coule)
+complication: Ceux qui attaquent le cortège sont une famille dont le fils a été tué par des Noxiens. Ils ne voient pas un mort : ils voient l'ennemi.
+eclatante: {meneur} s'arrête devant la famille en colère et la laisse parler, sans arme. Puis Hentaneb leur propose de pleurer avec elles. Pour le déserteur, et pour leur fils. La mère accepte. Le cortège passe, avec une famille de plus. Le déserteur est enterré à Zuretta, et le fils de la famille a enfin une cérémonie, lui aussi, qu'il n'avait jamais eue.
+reussite: Le cortège passe, protégé. Le déserteur est enterré. Les habitants regardent de loin, en silence.
+partielle: Le cortège passe, mais l'enterrement se fait hors de la ville. Les pleureuses y vont quand même, et pleurent pour deux.
+echec: Le corps a été volé. Les pleureuses ont pleuré sur une tombe vide. Elles disent que c'est déjà arrivé, et que ce n'est pas plus facile.
+recompenses: po 20 ; reputation 3 ; objet Potion rechargeable 6
+
+=== SHU-I-034 | Le marchand d'eau
+source: privee
+region: shurima
+palier: inconnue
+type: traque
+ton: tragique
+lieu: Nazumah
+demandeur: les habitants du quartier bas de Nazumah, qui ne peuvent plus payer l'eau
+accroche: « Un marchand a racheté le droit de puiser dans l'oasis. Il vend maintenant l'eau trois fois plus cher. On ne peut plus payer. Les enfants boivent l'eau des bêtes. On a appris qu'il avait truqué l'acte d'achat. Trouvez la preuve. »
+postes: Assassin, Support
+duree: 5
+dangereuse: non
+epreuves: discretion 35 (fouiller la maison du marchand d'eau, gardée jour et nuit) ; diplomatie 33 (faire témoigner le scribe qui a rédigé le faux)
+complication: Le scribe qui a rédigé le faux est le fils d'une des familles du quartier bas. Il l'a fait pour payer l'eau de sa mère.
+eclatante: {meneur} trouve l'acte original dans un coffre, et convainc le scribe de témoigner, en lui promettant qu'il ne sera pas puni seul. Devant la gouverneure, il parle. Le marchand perd son droit, et le scribe est condamné à rédiger, gratuitement, les contrats du quartier bas pendant un an. L'eau revient au prix ancien. Les enfants boivent à l'oasis.
+reussite: La preuve est trouvée, le droit du marchand annulé. L'eau redevient abordable. Le marchand a quitté Nazumah.
+partielle: La preuve est trouvée, mais le marchand a fait appel. L'eau baisse de moitié en attendant. C'est mieux que rien.
+echec: Les gardes ont surpris l'équipe. Le marchand a augmenté ses prix « pour frais de sécurité ». Le quartier bas boit l'eau des bêtes.
+recompenses: po 25 ; reputation 3 ; objet Charme féerique 8
+
+=== SHU-I-035 | La mue du nageur des sables
+source: privee
+region: shurima
+palier: inconnue
+type: chasse
+ton: horreur
+lieu: Kenethet
+demandeur: Pentu, tanneur, qui veut la peau d'un nageur des sables en pleine mue
+accroche: « Un nageur des sables qui mue laisse une peau d'une souplesse incroyable. Il y en a un qui mue en ce moment, dans les dunes à l'est. Il est vulnérable pendant trois jours. Le reste de l'année, il mange des chevaux. Faut y aller maintenant. »
+postes: DPS
+duree: 4
+dangereuse: non
+epreuves: poursuite 30 (trouver le nageur dans les dunes, au bruit qu'il fait en muant) ; combat 32 (récupérer la peau sans réveiller la bête)
+complication: Le nageur n'est pas seul : d'autres le rejoignent, attirés par l'odeur de la mue. Il y en a quatre dans les dunes.
+eclatante: {meneur} récupère la peau entière pendant que les quatre nageurs se disputent les restes de la mue. Pentu en tire une cape d'une souplesse incroyable, et en offre une plus petite à la guilde, assez solide pour arrêter une flèche. Il en vend dix autres l'année suivante. Il retourne chaque année dans les dunes. Avec la guilde.
+reussite: La peau est récupérée, en morceaux, mais utilisable. Pentu est content. Il fait de très beaux gants.
+partielle: La peau a été déchirée par les autres nageurs. Pentu en tire une ceinture. Une seule.
+echec: L'équipe a dû fuir devant les quatre nageurs. Pentu tanne des peaux de chèvre. Il dit que c'est plus sûr.
+recompenses: po 30 ; reputation 2 ; objet Armure de tissu 8
+
+=== SHU-I-036 | La fiancée des sables
+source: privee
+region: shurima
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Bel'Zhun
+demandeur: Ptah, jeune forgeron, dont la fiancée a été enrôlée de force par les Noxiens comme interprète
+accroche: « Les Noxiens prennent ceux qui parlent plusieurs langues. Ma fiancée en parle quatre. Elle est au poste de commandement de Bel'Zhun, et ils vont l'emmener à Noxus dans trois jours. Je n'ai pas d'arme. J'ai un marteau, et je sais forger des clés. »
+postes: Assassin, Éclaireur
+duree: 6
+dangereuse: non
+risque: oui
+epreuves: discretion 44 (entrer dans le poste de commandement noxien de Bel'Zhun) ; poursuite 41 (sortir de la ville par les toits avec la fiancée) ; combat 43 (semer la patrouille qui donne l'alerte)
+complication: La fiancée ne veut pas partir sans les deux autres interprètes enrôlés avec elle, dont un vieillard qui ne peut pas courir.
+eclatante: {meneur} sort les trois interprètes, le vieillard sur son dos, par les toits de Bel'Zhun, pendant que les Soleils allument un feu de diversion à l'autre bout de la ville. Ptah forge une clé qui ouvre la dernière porte. Les trois interprètes rejoignent les rebelles. La fiancée épouse Ptah dans une cave, devant les Soleils. Elle traduit les vœux en quatre langues.
+reussite: La fiancée est libérée et cachée chez les Soleils. Les deux autres interprètes partent pour Noxus. Elle ne se le pardonne pas.
+partielle: La fiancée est libérée, mais l'équipe a été vue. Ptah doit quitter Bel'Zhun avec elle. Ils partent vers le sud.
+echec: L'alerte a été donnée trop tôt. La fiancée est partie pour Noxus. Ptah a forgé une clé. Il la garde.
+recompenses: po 150 ; reputation 4 ; objet Bottes 10
+
+=== SHU-I-037 | Les hirondelles de la cascade
+source: privee
+region: shurima
+palier: inconnue
+type: exploration
+ton: tendre
+lieu: Cascade de Zoantha
+demandeur: Ahhotep, vieux moine, qui veut savoir où vont les hirondelles de sable avant de mourir
+accroche: « Chaque printemps, des hirondelles traversent la cascade de sable et disparaissent derrière. Personne n'a jamais su où elles vont. J'ai soixante-dix-huit ans, et je regarde ces oiseaux depuis que j'en ai six. Je voudrais savoir. Juste savoir. »
+postes: Éclaireur
+duree: 4
+dangereuse: non
+epreuves: voyage 30 (traverser la cascade de sable sans être emporté) ; voyage 28 (suivre les hirondelles dans ce qu'il y a derrière)
+complication: Derrière la cascade, il y a une grotte, et dans la grotte, un jardin souterrain irrigué par une source. Il a été planté il y a des siècles par des moines, puis oublié.
+eclatante: {meneur} trouve le jardin, plein de fleurs et de nids d'hirondelles. Puis l'équipe y porte Ahhotep, sur une litière, à travers la cascade. Il passe une journée entière dans le jardin, sans dire un mot. En sortant, il dit : « Maintenant, je sais. » Il meurt un mois plus tard, dans son lit, en souriant. Les moines entretiennent le jardin, maintenant.
+reussite: L'équipe trouve le jardin et le décrit au vieux moine, en détail. Il ferme les yeux pendant tout le récit. Il dit qu'il le voit.
+partielle: L'équipe a vu les nids, au fond d'une grotte, sans pouvoir aller plus loin. Ahhotep dit que c'est assez. Que les oiseaux ont droit à leurs secrets.
+echec: La cascade était trop forte. Ahhotep a dit que ce n'était pas grave. Qu'il regarderait les oiseaux encore un printemps.
+recompenses: po 15 ; reputation 2 ; objet Cristal de saphir 7
+
+=== SHU-I-038 | Le joueur de senet
+source: privee
+region: shurima
+palier: inconnue
+type: recuperation
+ton: drole
+lieu: Nashramae
+demandeur: Djedi, joueur de senet, qui a perdu son plateau en jouant contre un inconnu
+accroche: « J'ai joué ma maison au senet. J'ai gagné. Puis j'ai joué mon plateau, un plateau de famille, de l'Empire, contre la maison de l'inconnu. J'ai perdu. Il est parti avec. Je veux une revanche, ou mon plateau, ou les deux. Plutôt les deux. »
+postes: Mage
+duree: 3
+dangereuse: non
+epreuves: poursuite 28 (retrouver l'inconnu dans les tavernes de Nashramae) ; diplomatie 29 (obtenir une revanche, et la gagner)
+complication: L'inconnu triche, avec des dés lestés. Mais il est aussi le meilleur joueur que Djedi ait jamais vu, même sans tricher.
+eclatante: {meneur} retrouve l'inconnu, échange ses dés lestés contre des dés honnêtes sans qu'il s'en aperçoive, et organise la revanche. Djedi joue la partie de sa vie, et gagne d'un seul coup. L'inconnu s'incline, rend le plateau, et demande à jouer encore. Ils jouent toute la nuit. Ils sont devenus amis. Ils trichent ensemble, maintenant, contre les touristes de la fête de Rammus.
+reussite: Le plateau est récupéré, contre une petite somme. Djedi ne joue plus au senet. Il regarde.
+partielle: L'inconnu a accepté la revanche, et Djedi l'a perdue. Mais l'équipe a récupéré le plateau en échange de la promesse d'une autre partie. Djedi s'entraîne.
+echec: L'inconnu a quitté la ville avec le plateau. Djedi a appris à fabriquer des plateaux. Il en a fait un. Il n'est pas aussi beau.
+recompenses: po 15 ; reputation 1 ; objet Tome d'amplification 5
+
+=== SHU-I-039 | Le jardin de Tereshni
+source: privee
+region: shurima
+palier: inconnue
+type: exploration
+ton: horreur
+lieu: Tereshni
+demandeur: Kawit, herboriste, dont le jardin se met à pousser la nuit, dans le mauvais sens
+accroche: « Mes plantes poussent la nuit. Vers le sol. Les racines sortent de terre, les fleurs s'enterrent. Ce matin, mon chat a disparu dans un buisson qui n'était pas là hier. Les voisins disent que c'est le Néant. Je préférerais que ce soit autre chose. »
+postes: Mage, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: discretion 34 (observer le jardin la nuit sans se faire prendre par les racines) ; voyage 33 (descendre sous le jardin, là où les racines vont)
+complication: Sous le jardin, il y a une faille, et dans la faille, une lueur violette. Le Néant est là, tout petit encore. Il grandit.
+eclatante: {meneur} descend jusqu'à la faille, voit la lueur violette, et ressort aussitôt. L'équipe fait sceller la faille par des prêtres, avant qu'elle ne s'ouvre davantage. Le jardin est arraché, brûlé, salé. Le chat de Kawit est retrouvé dans les racines, vivant, ébouriffé. La Chambre classe le rapport en priorité, et en envoie une copie à la capitale.
+reussite: La faille est trouvée et signalée. Les prêtres la scellent. Le jardin de Kawit est perdu. Elle replantera ailleurs, loin.
+partielle: L'équipe a dû remonter avant d'atteindre la faille. Kawit a quitté sa maison. Le jardin pousse toujours, dans le mauvais sens.
+echec: Les racines ont pris un membre de l'équipe par la cheville. On l'a sorti de là. Personne n'est redescendu. La maison a été murée.
+recompenses: po 40 ; reputation 3 ; objet Cape de négation 6
+
+=== SHU-I-040 | Le tribut des vignes
+source: privee
+region: shurima
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Fleuve Mère de la vie
+demandeur: Hetepheres, vigneronne, que les soldats d'Azir obligent à payer un tribut impérial
+accroche: « Mes vignes sont là depuis cinq générations. Personne ne nous a jamais rien demandé. Hier, des soldats de l'empereur sont venus réclamer le tiers de la récolte, pour l'Empire. Je veux bien servir un empereur. Mais pas en le nourrissant de mes vignes. Je veux qu'on lui parle. »
+postes: Support, Tank
+duree: 5
+dangereuse: non
+epreuves: diplomatie 34 (obtenir une audience auprès d'un officier impérial) ; diplomatie 35 (négocier un tribut qui ne ruine pas les vignerons du fleuve)
+complication: L'officier n'a aucun pouvoir : le tribut a été décidé par Azir lui-même, pour nourrir les soldats de sable qui ne mangent pas, mais dont les prêtres, eux, mangent beaucoup.
+eclatante: {meneur} obtient un compromis : le tribut est payé en vin pour les cérémonies du Disque, et non en raisins, ce qui permet aux vignerons de garder le meilleur. Le vin de Hetepheres est servi au palais. L'empereur, dit-on, l'aime. Le tribut est baissé l'année suivante. Les vignerons du fleuve offrent à la guilde un tonneau de leur meilleure cuvée.
+reussite: Le tribut est ramené au quart de la récolte. Hetepheres paie, en grognant. Elle dit que c'est le prix de la paix.
+partielle: L'officier a promis d'en parler. Le tribut reste le même, pour cette année. Hetepheres ne dort plus.
+echec: L'officier a doublé le tribut, pour l'insolence. Hetepheres a arraché un rang de vignes, devant lui. Il l'a fait arrêter une nuit.
+recompenses: po 30 ; reputation 2 ; objet Cristal de rubis 6
+
+=== SHU-I-041 | Le recensement des puits
+source: institution
+region: shurima
+palier: inconnue
+type: exploration
+ton: aventure
+lieu: Grand Sai
+demandeur: la Chambre des Bannières, qui tient la carte des puits du désert pour toutes les caravanes
+accroche: « Contrat public. Vérifier l'état de sept puits du Grand Sai, sur la route des caravanes du sud. Noter ceux qui sont secs, empoisonnés ou occupés. Les caravanes partent dans dix jours. »
+postes: Éclaireur, Healer
+duree: 8
+dangereuse: non
+epreuves: voyage 35 (rallier sept puits dans le Grand Sai en une seule boucle) ; poursuite 33 (retrouver un puits que le sable a recouvert depuis le dernier relevé)
+complication: Le cinquième puits n'est ni sec ni empoisonné : une famille de nomades s'y est installée, et elle n'a nulle part ailleurs où aller.
+eclatante: {meneur} relève les sept puits et inscrit le cinquième sur la carte comme « puits habité, eau partagée ». La Chambre l'accepte. La famille devient gardienne officielle du puits, payée par les caravanes. Le recensement est le plus complet depuis dix ans. La Chambre le fait recopier pour toutes les guildes.
+reussite: Les sept puits sont relevés. Deux sont secs. La carte est corrigée. Les caravanes partiront mieux informées.
+partielle: Cinq puits sur sept sont relevés. La tempête a empêché d'aller plus loin. La Chambre paie la part faite.
+echec: L'équipe s'est égarée au troisième puits. Elle est rentrée à moitié morte de soif. La Chambre a envoyé une autre guilde.
+recompenses: po 30 ; reputation 3 ; objet Bottes 7
+
+=== SHU-I-042 | Les orphelins du sud
+source: institution
+region: shurima
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Saikhal
+demandeur: la Chambre des Bannières, pour un convoi d'orphelins fuyant les attaques des Xer'Sai
+accroche: « Contrat public. Accueillir à Saikhal un convoi de quarante enfants venus du sud, dont les villages ont été détruits par les Xer'Sai. Les guider jusqu'au refuge. Plusieurs sont blessés. »
+postes: Healer, Support
+duree: 6
+dangereuse: non
+epreuves: voyage 34 (guider quarante enfants épuisés jusqu'au refuge) ; diplomatie 33 (calmer les enfants qui ne veulent pas quitter les adultes qui les ont amenés)
+complication: Une des enfants a vu les Xer'Sai de près, et elle sait où se trouve leur nid. Elle ne parle qu'en dessinant.
+eclatante: {meneur} amène les quarante enfants au refuge, puis s'assoit avec la petite fille qui dessine. Ses dessins sont précis : une colline, trois rochers, un trou. La Chambre transmet les dessins aux soldats d'Azir. Une semaine plus tard, un nid de Xer'Sai est détruit au sud. La petite fille ne le saura que bien plus tard. Elle dessine des fleurs, maintenant.
+reussite: Les quarante enfants arrivent au refuge. Ils sont nourris, soignés, et on les écoute pleurer. La Chambre est satisfaite.
+partielle: Trente-huit enfants sont arrivés. Deux se sont enfuis en route, pour rentrer chez eux. On les cherche encore.
+echec: Le convoi a été dispersé par une tempête de sable. Les enfants ont été retrouvés un à un, pendant trois jours. Tous n'ont pas survécu.
+recompenses: po 25 ; reputation 4 ; objet Potion de soin 12
+
+=== SHU-I-043 | Le bornage de la frontière
+source: institution
+region: shurima
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Bel'Zhun
+demandeur: la Chambre des Bannières, médiatrice entre les cités libres et l'occupant noxien
+accroche: « Contrat public. Accompagner les géomètres de la Chambre pour replacer les bornes entre les terres de Bel'Zhun et celles des villages libres. Les deux camps contestent chaque mètre. »
+postes: Support, Tank
+duree: 5
+dangereuse: non
+epreuves: diplomatie 35 (faire accepter chaque borne aux deux camps, l'une après l'autre) ; combat 32 (tenir quand un officier noxien veut déplacer une borne de force)
+complication: Une des bornes tombe au milieu d'un cimetière de village. Les Noxiens veulent le traverser. Les villageois mourront plutôt.
+eclatante: {meneur} propose de faire passer la frontière autour du cimetière, et non au travers, en cédant aux Noxiens un champ en échange. L'officier accepte, pour en finir. Les villageois gardent leurs morts. La Chambre enregistre la frontière. Les deux camps la respectent, pour l'instant. Pour Bel'Zhun, c'est presque un miracle.
+reussite: Les bornes sont posées. Les deux camps grognent. Personne ne se bat. La Chambre appelle ça un succès.
+partielle: La moitié des bornes ont été posées. L'autre moitié attendra que les esprits se calment. La Chambre paie la moitié.
+echec: L'officier noxien a renversé une borne, un villageois lui a jeté une pierre. La Chambre a suspendu le bornage.
+recompenses: po 30 ; reputation 3 ; objet Élixir de fer 6
+
+=== SHU-I-044 | La garde de la fête de Rammus
+source: institution
+region: shurima
+palier: inconnue
+type: protection
+ton: drole
+lieu: Nashramae
+demandeur: la Chambre des Bannières, pour le conseil de Nashramae
+accroche: « Contrat public. Assurer l'ordre pendant la fête de Rammus. Prévoir : foule, pickpockets, pèlerins en transe, et au moins un homme qui essaiera de chevaucher Rammus. Il y en a un chaque année. »
+postes: Tank
+duree: 4
+dangereuse: non
+epreuves: nuee 30 (contenir la foule quand Rammus passe en roulant) ; poursuite 29 (rattraper l'homme qui essaie de grimper sur Rammus)
+complication: Cette année, ils sont trois à essayer de chevaucher Rammus. Ils se sont entraînés ensemble.
+eclatante: {meneur} rattrape les trois cavaliers en plein élan, l'un après l'autre, sous les applaudissements de la foule. Rammus passe sans encombre, et, en passant devant {meneur}, ralentit. Juste un peu. Il dit : « Hmm. » Les pèlerins considèrent ça comme une bénédiction. La Chambre, comme une fête réussie. Les trois cavaliers, comme un échec qu'ils retenteront.
+reussite: La fête se passe sans blessé grave. Un cavalier a réussi à toucher la carapace de Rammus. Il en parle encore.
+partielle: Il y a eu une bousculade, et quelques bosses. Un cavalier a été traîné sur vingt mètres. Il est ravi.
+echec: Un cavalier a réussi à monter sur Rammus. Rammus a accéléré. On a retrouvé le cavalier à Kenethet. Il va bien. Il ne parle plus.
+recompenses: po 20 ; reputation 2 ; objet Bouclier de Doran 6
+
+=== SHU-I-045 | Les sentinelles de la capitale
+source: institution
+region: shurima
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Cercle de l'Ascension
+demandeur: la Chambre des Bannières, à la demande des prêtres du Disque
+accroche: « Contrat public. Certains soldats des sables de la capitale changent de place la nuit, sans ordre. Les prêtres veulent savoir pourquoi, sans alerter l'empereur avant d'avoir compris. »
+postes: Éclaireur, Support
+duree: 4
+dangereuse: non
+epreuves: discretion 34 (observer les soldats des sables toute une nuit, sans être vu) ; diplomatie 33 (interroger les prêtres de garde, qui ont peur de parler)
+complication: Les soldats ne bougent pas au hasard : ils forment, chaque nuit, la carte des étoiles telle qu'elle était le jour de la chute de l'Empire. Ils se souviennent.
+eclatante: {meneur} grimpe sur un toit et voit la figure entière : une carte du ciel ancien, dessinée par des soldats de sable. Les prêtres comprennent : les soldats montent la garde pour une date, pas pour un lieu. La Chambre transmet la découverte aux astronomes de la capitale. Le rapport est classé « hors de toute compétence de guilde », ce qui, venant de la Chambre, est un compliment.
+reussite: Le déplacement des soldats est expliqué : une carte du ciel. Les prêtres sont rassurés, et un peu effrayés.
+partielle: L'équipe a vu les soldats bouger, sans comprendre la figure. Les prêtres prieront en attendant.
+echec: Un garde a surpris l'équipe et l'a fait expulser du Cercle. Les soldats ont continué de bouger, sans témoin.
+recompenses: po 30 ; reputation 3 ; objet Tome d'amplification 7
+
+=== SHU-I-046 | Les rabatteurs du Grand Sai
+source: institution
+region: shurima
+palier: inconnue
+type: chasse
+ton: horreur
+lieu: Vallée du Chant
+demandeur: la Chambre des Bannières, après la disparition de deux caravanes
+accroche: « Contrat public. Deux caravanes ont disparu dans la Vallée du Chant ce mois-ci, sans trace de combat. Retrouver ce qui les a prises, et le chasser. »
+postes: Tireur, Tank, Éclaireur
+duree: 6
+dangereuse: non
+risque: oui
+epreuves: poursuite 41 (retrouver les traces des caravanes, effacées par le vent) ; discretion 42 (approcher d'un terrier de Xer'Sai sans faire vibrer le sable) ; combat 46 (abattre un jeune Xer'Sai avant qu'il appelle les autres)
+complication: Les Xer'Sai n'ont pas tué les caravaniers : certains sont encore vivants, piégés dans les galeries, et le terrier s'effondre.
+eclatante: {meneur} abat le jeune Xer'Sai d'un coup, avant son cri. L'équipe descend dans les galeries et en ressort avec six caravaniers vivants, juste avant l'effondrement. La Chambre ferme la Vallée du Chant pour un mois, le temps que les soldats d'Azir nettoient le reste. Les six survivants viennent remercier la guilde. L'un d'eux ne parle plus, mais il serre toutes les mains.
+reussite: Le jeune Xer'Sai est abattu, le terrier signalé. Les caravanes passeront par l'est, en attendant.
+partielle: La bête a fui sous le sable. Le terrier est signalé. La Chambre double les escortes.
+echec: Le sable a tremblé, le terrier s'est refermé. L'équipe a fui. La Vallée du Chant est fermée pour une durée indéterminée.
+recompenses: po 160 ; reputation 4 ; objet Élixir de fer 10
+
+=== SHU-I-047 | Le rapport de Marrowmark
+source: institution
+region: shurima
+palier: inconnue
+type: traque
+ton: tendre
+lieu: Marrowmark
+demandeur: la Chambre des Bannières, qui recherche un de ses propres coursiers disparus
+accroche: « Contrat public. Un coursier de la Chambre a disparu entre Zirima et Marrowmark avec des documents. Le retrouver. Il a dix-sept ans, c'est sa première mission. »
+postes: Éclaireur, Healer
+duree: 5
+dangereuse: non
+epreuves: poursuite 33 (suivre la route du coursier et retrouver où elle s'arrête) ; voyage 31 (le ramener, s'il est blessé, avec les documents)
+complication: Le coursier n'a pas été attaqué : il a croisé une caravane où voyageait une fille, et il l'a suivie. Les documents sont avec lui, intacts, et il ne sait pas comment rentrer.
+eclatante: {meneur} retrouve le coursier à Marrowmark, assis devant une échoppe de tissus, avec ses documents et une fille. Il rougit jusqu'aux oreilles. {meneur} rapporte les documents, et une version des faits où le coursier a « dévié pour éviter une tempête ». La Chambre ne pose pas de question. Le coursier écrit au repère pour dire merci. Et qu'il va se marier.
+reussite: Le coursier et les documents sont ramenés. La Chambre le met à pied une semaine. Il n'a jamais été aussi heureux.
+partielle: Les documents sont ramenés, pas le coursier. Il a démissionné, par écrit. La lettre parle beaucoup d'une fille.
+echec: L'équipe n'a retrouvé ni le coursier, ni les documents. La Chambre a ouvert une enquête. Le coursier, dit-on, a été vu à Nashramae, avec une fille.
+recompenses: po 20 ; reputation 2 ; objet Charme féerique 8
+
+=== SHU-I-048 | La source de Kalamanda
+source: institution
+region: shurima
+palier: inconnue
+type: protection
+ton: tendre
+lieu: Kalamanda
+demandeur: la Chambre des Bannières, pour les familles de mineurs de Kalamanda
+accroche: « Contrat public. Protéger le chantier d'une nouvelle citerne, financée par les mineurs de Kalamanda pour leurs familles. Des pillards ont déjà détruit la première, il y a un an. »
+postes: Tank, Combattant
+duree: 7
+dangereuse: non
+epreuves: combat 33 (repousser les pillards venus détruire le chantier, une nuit de vent) ; siege 32 (aider à poser la dernière pierre avant la saison sèche)
+complication: Les pillards sont payés par un marchand d'eau de la région, qui ne veut pas perdre ses clients.
+eclatante: {meneur} repousse les pillards et en capture un, qui donne le nom du marchand. La Chambre le fait poursuivre. La citerne est achevée la semaine suivante, et la première eau qui y coule est bue par les enfants des mineurs, en premier, selon la coutume. Les mineurs gravent une pierre-soleil sur le bord de la citerne. Elle brille encore la nuit.
+reussite: Le chantier est protégé. La citerne est achevée avant la saison sèche. Les familles ont de l'eau.
+partielle: Les pillards ont abîmé une partie du chantier. La citerne est finie en retard, à moitié pleine.
+echec: Les pillards ont détruit la citerne une deuxième fois. Les mineurs ont juré de la reconstruire. Une troisième fois.
+recompenses: po 25 ; reputation 3 ; objet Armure de tissu 7
+
+=== SHU-I-049 | La vérification des scellés
+source: institution
+region: shurima
+palier: inconnue
+type: recuperation
+ton: mystere
+lieu: Shurima, la capitale
+demandeur: la Chambre des Bannières, à la demande du palais impérial
+accroche: « Contrat public. Le palais signale la disparition d'une tablette scellée de la bibliothèque relevée. La retrouver, sans l'ouvrir, et la rapporter au palais. »
+postes: Assassin
+duree: 3
+dangereuse: non
+epreuves: discretion 30 (enquêter dans la bibliothèque sans gêner les prêtres) ; poursuite 29 (rattraper le voleur dans les ruelles de la capitale)
+complication: Le voleur est un vieux scribe qui croit que la tablette contient le nom secret de Xerath, et qu'elle doit être détruite avant que quelqu'un la lise.
+eclatante: {meneur} rattrape le vieux scribe avant qu'il ne brise la tablette. Il ne résiste pas : il pleure. {meneur} rapporte la tablette au palais, scellée, intacte, et plaide pour le scribe. Le palais le laisse partir. La tablette retourne dans une salle plus profonde, sous une meilleure garde. Personne ne saura jamais ce qu'il y a dessus. C'est peut-être mieux.
+reussite: La tablette est rapportée, scellée. Le scribe est arrêté. La Chambre est remerciée par le palais, ce qui est rare.
+partielle: La tablette est rapportée, mais un des scellés est fissuré. Le palais exige un rapport. La Chambre en exige deux.
+echec: Le scribe a brisé la tablette. Les morceaux ont été rapportés au palais. Personne ne sait ce qu'elle disait. Personne n'ose demander.
+recompenses: po 30 ; reputation 2 ; objet Cristal de saphir 6
+
+=== SHU-I-050 | La migration des eka'sul
+source: institution
+region: shurima
+palier: inconnue
+type: chasse
+ton: tendre
+lieu: Oasis de l'Aube
+demandeur: la Chambre des Bannières, pour les éleveurs de l'Oasis de l'Aube
+accroche: « Contrat public. Des prédateurs suivent les troupeaux de chèvres eka'sul pendant leur migration vers l'Oasis. Escorter les troupeaux sur la dernière journée, la plus dangereuse. »
+postes: Tireur
+duree: 5
+dangereuse: non
+epreuves: poursuite 30 (repérer les prédateurs qui suivent le troupeau à distance) ; combat 29 (les tenir à l'écart sans s'éloigner des chèvres)
+complication: Un chevreau est né en route, et sa mère refuse d'avancer. Le troupeau entier s'arrête pour l'attendre, comme le veut l'instinct des eka'sul.
+eclatante: {meneur} porte le chevreau sur ses épaules, et la mère suit. Le troupeau repart. Les prédateurs, voyant la marche reprendre, abandonnent. Le troupeau arrive à l'Oasis au coucher du soleil, au complet, plus un. Les éleveurs nomment le chevreau d'après le héros qui l'a porté. Il deviendra un bouc très têtu.
+reussite: Le troupeau arrive à l'Oasis, au complet. Les prédateurs ont été repoussés. Les éleveurs fêtent la migration.
+partielle: Le troupeau arrive, moins trois chèvres. Les éleveurs disent que c'est une bonne année. Ils ont connu pire.
+echec: Le troupeau s'est dispersé. Les éleveurs ont mis trois jours à retrouver les chèvres. Il en manque beaucoup.
+recompenses: po 20 ; reputation 2 ; objet Potion de soin 7

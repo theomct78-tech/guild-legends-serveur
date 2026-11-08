@@ -1,0 +1,126 @@
+# Champion|Clé|AVANTAGE:force,...|Ce que la compétence apporte à la guilde
+Lucian|P|ASSAUT:1|Chaque sort enchaîne un double tir.
+Lucian|Q|NUEE:1|Une lumière perçante qui traverse les rangs.
+Lucian|W|RECONNAISSANCE:1,CELERITE:1|Une explosion qui marque et révèle.
+Lucian|E|CELERITE:2|Une poursuite implacable.
+Lucian|R|NUEE:2,TRAQUE:1|Le châtiment : une rafale continue sur les morts-vivants.
+Lulu|P|ASSAUT:1|Pix l'accompagne et tire avec elle.
+Lulu|Q|MAITRISE:1|Des lances scintillantes qui ralentissent.
+Lulu|W|MAITRISE:2,CELERITE:1|Fantaisie : l'ennemi devient un petit animal, l'allié court plus vite.
+Lulu|E|PROTECTION:2|Pix protège un allié.
+Lulu|R|PROTECTION:2,MAITRISE:1,SURVIE:1|Croissance sauvage : un allié devient géant.
+Lux|P|ASSAUT:1|L'illumination : ses sorts marquent la cible.
+Lux|Q|MAITRISE:2|Une entrave de lumière qui immobilise deux ennemis.
+Lux|W|PROTECTION:2|Une barrière prismatique pour toute l'équipe.
+Lux|E|NUEE:1,RECONNAISSANCE:1|Une singularité lumineuse qui éclaire et ralentit.
+Lux|R|NUEE:2,SIEGE:1,RENOMMEE:1|L'étincelle finale : un rayon que l'on voit de loin.
+Malphite|P|PROTECTION:1|Un bouclier de granit.
+Malphite|Q|MAITRISE:1,CELERITE:1|Un éclat sismique qui vole la vitesse de l'ennemi.
+Malphite|W|NUEE:1|Un coup de tonnerre qui frappe en zone.
+Malphite|E|MAITRISE:1,NUEE:1|Il frappe le sol et ralentit les attaques.
+Malphite|R|MAITRISE:2,NUEE:2|Une force indomptable qui projette tout le monde.
+Malzahar|P|PROTECTION:1|Un décalage du Néant le protège du premier coup.
+Malzahar|Q|MAITRISE:1|Un appel du Néant qui réduit au silence.
+Malzahar|W|NUEE:1|Des larves du Néant qui l'accompagnent.
+Malzahar|E|NUEE:1,ASSAUT:1|Des visions maléfiques qui se propagent.
+Malzahar|R|MAITRISE:3,TRAQUE:1|Une étreinte du Néant qui suspend sa cible.
+Maokai|P|SURVIE:1|Sa sève magique le soigne.
+Maokai|Q|MAITRISE:1|Une poussée de ronces.
+Maokai|W|TRAQUE:2|Il se transforme en racines jusqu'à sa cible.
+Maokai|E|RECONNAISSANCE:1,MAITRISE:1|Des pousses semées qui surveillent et ralentissent.
+Maokai|R|MAITRISE:2,NUEE:1,PROTECTION:1|L'étreinte de la nature : un mur de racines.
+Master Yi|P|ASSAUT:1|Chaque quatrième coup frappe deux fois.
+Master Yi|Q|NUEE:1,SURVIE:1|Il frappe toutes les cibles proches en devenant insaisissable.
+Master Yi|W|SURVIE:1|La méditation le soigne.
+Master Yi|E|ASSAUT:1,SIEGE:1|Le style Wuju.
+Master Yi|R|CELERITE:2,ASSAUT:1|Le Highlander : une vitesse que rien n'arrête.
+Mel|P|ASSAUT:1|Ses sorts chargent des projectiles supplémentaires.
+Mel|Q|NUEE:1|Une salve radieuse.
+Mel|W|PROTECTION:2|Une réfutation qui renvoie les projectiles.
+Mel|E|MAITRISE:2|Un piège solaire qui immobilise.
+Mel|R|SIEGE:1,TRAQUE:1,RENOMMEE:1|Une éclipse dorée qui frappe tous les ennemis marqués. La famille Medarda sait se faire voir.
+Milio|P|ASSAUT:1|Il réchauffe les attaques de ses alliés.
+Milio|Q|MAITRISE:1|Un coup de pied enflammé qui repousse.
+Milio|W|SOINS:2|Un feu de camp douillet qui soigne l'équipe.
+Milio|E|PROTECTION:1,CELERITE:1|Des câlins chauds : un bouclier et un élan de vitesse.
+Milio|R|SOINS:2,PROTECTION:1,CONCORDE:1|Un souffle de vie qui soigne et libère les alliés.
+Miss Fortune|P|ASSAUT:1|Une galanterie qui frappe chaque nouvelle cible.
+Miss Fortune|Q|ASSAUT:1,OR:1|Un tir à double rebond. La chasseuse de primes encaisse toujours son dû.
+Miss Fortune|W|CELERITE:1|Elle se pavane et accélère.
+Miss Fortune|E|MAITRISE:1|Une pluie de balles qui ralentit.
+Miss Fortune|R|NUEE:3,RENOMMEE:1|Un barrage de balles légendaire.
+Mordekaiser|P|NUEE:1|Une ténèbre croissante autour de lui.
+Mordekaiser|Q|ASSAUT:1|Un coup de masse sur une cible isolée.
+Mordekaiser|W|PROTECTION:1,SURVIE:1|Il amasse des boucliers qu'il convertit en santé.
+Mordekaiser|E|TRAQUE:2|Une étreinte de la mort qui attire l'ennemi.
+Mordekaiser|R|SIEGE:2,TRAQUE:1,INSPIRATION:-1|Il emporte sa cible au Royaume des morts. Ses alliés n'aiment pas ce qu'ils y voient.
+Morgana|P|SURVIE:1|Elle draine la vie de ses ennemis.
+Morgana|Q|MAITRISE:2|Une entrave noire qui immobilise longuement.
+Morgana|W|NUEE:1|Un sol tourmenté.
+Morgana|E|PROTECTION:2|Un bouclier noir contre les sortilèges.
+Morgana|R|MAITRISE:2,NUEE:1|Des liens d'âme qui étourdissent tous ceux qui restent.
+Naafiri|P|NUEE:1|La meute grandit et attaque avec elle.
+Naafiri|Q|ASSAUT:1|Des dagues qui font saigner.
+Naafiri|W|INFILTRATION:1,CELERITE:1|Elle se fond dans la meute.
+Naafiri|E|CELERITE:1,SURVIE:1|Une éviscération qui rappelle et soigne la meute.
+Naafiri|R|TRAQUE:2,RECONNAISSANCE:1|L'hallali : la meute fond sur sa cible et révèle les fuyards.
+Nami|P|CELERITE:1|Une marée montante qui accélère les alliés.
+Nami|Q|MAITRISE:2|Une bulle aquatique qui enferme.
+Nami|W|SOINS:2|Un flux et reflux qui soigne puis frappe.
+Nami|E|ASSAUT:1,MAITRISE:1|La bénédiction de l'éveilleuse des marées.
+Nami|R|MAITRISE:2,NUEE:1,CONCORDE:1|Un raz-de-marée ; on dit que sa présence apaise les querelles.
+Nasus|P|SURVIE:1|Il dévore l'âme de ses victimes.
+Nasus|Q|SIEGE:2|Une frappe aspirante qui gagne en force à chaque victime.
+Nasus|W|MAITRISE:1|Le flétrissement ralentit l'ennemi.
+Nasus|E|NUEE:1|Un feu spirituel qui brûle les armures.
+Nasus|R|SURVIE:2,SIEGE:1,INSPIRATION:1|La fureur du désert : le gardien de Shurima se dresse.
+Nautilus|P|MAITRISE:1|Un coup qui immobilise.
+Nautilus|Q|TRAQUE:2|Une ancre qui le tire vers sa cible.
+Nautilus|W|PROTECTION:1,SURVIE:1|La colère du titan le protège.
+Nautilus|E|NUEE:1|Des ondes de choc qui ralentissent.
+Nautilus|R|MAITRISE:2,TRAQUE:1|Une charge des profondeurs qui suit sa cible.
+Neeko|P|INFILTRATION:3|Elle prend l'apparence d'un allié.
+Neeko|Q|NUEE:1|Une fleur qui éclot.
+Neeko|W|INFILTRATION:1,CELERITE:1|Un double qui détourne l'attention.
+Neeko|E|MAITRISE:2|Une racine qui enchevêtre.
+Neeko|R|MAITRISE:2,NUEE:1|Elle explose en fleur, au milieu de l'ennemi.
+Nidalee|P|TRAQUE:1,CELERITE:1|Elle prospère en forêt et traque sa proie.
+Nidalee|Q|SIEGE:1,ASSAUT:1|Un javelot qui frappe plus fort de loin.
+Nidalee|W|RECONNAISSANCE:2|Des pièges qui révèlent l'ennemi.
+Nidalee|E|SOINS:2|Une montée primale qui soigne un allié.
+Nidalee|R|CELERITE:1,ASSAUT:1,TRAQUE:1|Elle devient couguar.
+Nilah|P|SOINS:1|Joie éternelle : elle renforce les soins de ses alliés.
+Nilah|Q|NUEE:1|Une lame-fouet sur une ligne.
+Nilah|W|PROTECTION:2|Un voile de liesse qui fait esquiver l'équipe.
+Nilah|E|CELERITE:1,TRAQUE:1|Un torrent qui la projette vers sa cible.
+Nilah|R|NUEE:2,MAITRISE:1,INSPIRATION:1|Une apothéose qui entraîne l'équipe dans sa joie.
+Nocturne|P|NUEE:1|Une lame d'ombre qui frappe en zone.
+Nocturne|Q|CELERITE:1|Une trace d'ombre qui le fait courir.
+Nocturne|W|PROTECTION:1|Un voile d'ombre qui bloque un sort.
+Nocturne|E|MAITRISE:2|Une terreur indicible.
+Nocturne|R|RECONNAISSANCE:2,TRAQUE:2,INSPIRATION:-1|Paranoïa : il plonge le monde dans le noir et fond sur une cible.
+Nunu & Willump|P|ASSAUT:1,CONCORDE:1|L'appel du Freljord : un enfant et son yéti, qui rendent tout le monde de bonne humeur.
+Nunu & Willump|Q|SIEGE:1,SURVIE:1|Willump croque une cible et se soigne.
+Nunu & Willump|W|CELERITE:2,MAITRISE:1|La plus grosse boule de neige du monde.
+Nunu & Willump|E|MAITRISE:1|Une rafale de boules de neige.
+Nunu & Willump|R|NUEE:2,MAITRISE:1|Le zéro absolu.
+Olaf|P|SURVIE:1|Il frappe plus fort et se soigne quand il est blessé.
+Olaf|Q|TRAQUE:1|Une hache lancée qui ralentit.
+Olaf|W|SURVIE:1,ASSAUT:1|Un sens tactique qui le fait tenir.
+Olaf|E|ASSAUT:2|Une entaille brutale.
+Olaf|R|SURVIE:2,INSPIRATION:1|Ragnarok : rien ne l'arrête plus.
+Orianna|P|ASSAUT:1|Un mécanisme qui frappe plusieurs fois la même cible.
+Orianna|Q|NUEE:1|La sphère part à l'attaque.
+Orianna|W|CELERITE:1,MAITRISE:1|Une dissonance qui accélère les alliés et ralentit les ennemis.
+Orianna|E|PROTECTION:2|La sphère protège un allié.
+Orianna|R|MAITRISE:2,NUEE:2|Une onde de choc qui attire tout le monde.
+Ornn|P|BUTIN:3|Un forgeron vivant : il améliore les objets de la guilde.
+Ornn|Q|MAITRISE:1|Une fissure qui fait jaillir un pilier.
+Ornn|W|SIEGE:1|Un souffle volcanique qui rend la cible fragile.
+Ornn|E|MAITRISE:1,CELERITE:1|Une charge qui renverse les obstacles.
+Ornn|R|MAITRISE:2,NUEE:1|L'appel du dieu forgeron : un bélier de lave.
+Pantheon|P|ASSAUT:1|Une volonté mortelle.
+Pantheon|Q|ASSAUT:1,SIEGE:1|Une lance comète qui achève.
+Pantheon|W|MAITRISE:1,TRAQUE:1|Un bond de bouclier qui étourdit.
+Pantheon|E|PROTECTION:2|Une ultime défense avec son bouclier.
+Pantheon|R|CELERITE:2,NUEE:1,RENOMMEE:1|Une chute d'étoile : il tombe du ciel au milieu de la bataille.

@@ -1,0 +1,504 @@
+# Noxus · palier Locale · lot 1 (missions 001 à 025) · 8 nov. 2026
+# Palier Locale : les affaires d'une cité, d'un intendant, d'une légion de passage, d'une vieille maison. Le mérite et son prix.
+# Dénouements longs, avec une conséquence concrète. {meneur} : le héros qui a mené l'épreuve décisive.
+
+=== NOX-L-001 | L'intendant de Basilich
+source: institution
+region: noxus
+palier: locale
+type: protection
+ton: politique
+lieu: Basilich
+demandeur: la Chambre des Bannières, pour l'intendante Invetia Varn
+accroche: « L'intendante de Basilich reçoit dans trois jours les chefs des quartiers du port. La dernière fois qu'une telle réunion a eu lieu, sa mère, Quilletta Varn, a fini par soulever la ville. Certains voudraient que l'histoire recommence. L'intendante veut une protection qui ne ressemble pas à une armée. »
+postes: Assassin, Support
+duree: 8
+dangereuse: oui
+epreuves: discretion 46 (se fondre parmi les serviteurs et repérer qui porte une lame sous son manteau) ; diplomatie 47 (apaiser un chef de quartier qui arrive décidé à humilier l'intendante) ; combat 44 (neutraliser l'homme qui passera à l'acte, sans faire couler le sang devant tout le monde)
+complication: L'homme armé n'est pas un rebelle : c'est un agent d'une vieille maison du Bastion, payé pour provoquer une émeute et faire tomber l'intendante.
+eclatante: {meneur} désarme l'agent dans un couloir, avant même qu'il n'atteigne la salle, et le fait parler. L'intendante Varn lit son aveu devant les chefs de quartier, qui comprennent qu'on a voulu se servir d'eux. La réunion se termine par un accord sur les taxes du port. Basilich ne se soulèvera pas cette année, et l'intendante n'oubliera pas le nom de la guilde.
+reussite: La réunion a lieu sans violence. L'agent est arrêté à la sortie, discrètement, et remis à la garde. Les chefs de quartier repartent mécontents mais calmes. L'intendante Varn paie la guilde et lui fait savoir, par un mot sec, qu'elle aura sans doute encore besoin d'elle.
+partielle: L'agent s'échappe pendant la confusion, après avoir crié une insulte qui fait le tour du port. Pas d'émeute, mais une tension qui dure des semaines. L'intendante garde son poste. Elle double sa garde, et regarde ses invités d'un autre œil.
+echec: Une bagarre éclate pendant la réunion, et gagne la rue. La garde intervient, il y a des blessés. Le Bastion envoie un émissaire pour « évaluer la situation ». L'intendante Varn n'écrira plus à la guilde, et Basilich reparle de Quilletta.
+recompenses: po 150 ; reputation 5 ; objet Dague 12
+
+=== NOX-L-002 | Le fils du centurion
+source: privee
+region: noxus
+palier: locale
+type: traque
+ton: tragique
+lieu: Plaine de Dalamor
+demandeur: Varus Kell, centurion de la Légion, qui n'a jamais demandé d'aide de sa vie
+accroche: « Mon fils a déserté. Il a dix-neuf ans, et il est parti dans la plaine de Dalamor avec deux autres recrues. Si la Légion les retrouve avant moi, ils seront pendus pour l'exemple. Je ne veux pas le cacher. Je veux qu'il revienne de lui-même, avant qu'on le ramène. »
+postes: Éclaireur, Support
+duree: 12
+dangereuse: oui
+epreuves: poursuite 47 (suivre trois déserteurs dans la steppe, où le vent efface tout) ; voyage 44 (survivre aux journées de chaleur et aux nuits glacées du Dalamor) ; diplomatie 46 (convaincre un jeune homme terrifié de rentrer se rendre)
+complication: Les déserteurs ne fuient pas la guerre : ils fuient leur décurion, qui frappait les recrues jusqu'au sang. Ils ont des marques pour le prouver.
+eclatante: {meneur} retrouve les trois recrues à Drugne et les convainc de rentrer, mais avec leurs marques comme preuves. Le centurion Kell porte lui-même l'affaire devant la Légion. Le décurion est dégradé. Les déserteurs écopent d'une peine légère : six mois aux corvées. Varus Kell ne dit pas merci. Il serre la main de chaque membre de l'équipe, longtemps, sans un mot.
+reussite: Le fils du centurion rentre et se rend. Les deux autres refusent de suivre et disparaissent vers le nord. La Légion le juge avec indulgence, sur la parole de son père. Il devra servir trois ans de plus. Il dit que c'est juste.
+partielle: L'équipe retrouve les déserteurs trop tard : une patrouille les a déjà arrêtés. Le centurion obtient qu'ils ne soient pas pendus, mais ils partent pour les mines des Ironspike. Il ira voir son fils chaque mois, à cheval, pendant cinq ans.
+echec: La trace se perd dans le Dalamor. Un mois plus tard, la Légion retrouve les déserteurs et les juge pour l'exemple. Varus Kell assiste à la sentence au premier rang, en uniforme. Il démissionne le lendemain.
+recompenses: po 130 ; reputation 4 ; objet Bottes 12
+
+=== NOX-L-003 | La fête du Fleshing
+source: privee
+region: noxus
+palier: locale
+type: protection
+ton: aventure
+lieu: Arène du Fleshing
+demandeur: Brennar Oc, maître d'arène, qui a vu mourir plus de combattants qu'il n'a d'années
+accroche: « La fête du Fleshing commence dans trois jours. Des centaines de candidats viendront prouver leur valeur dans l'arène. Mais cette année, quelqu'un truque les combats : deux favoris sont tombés malades la même nuit. Je veux que les meilleurs gagnent. C'est tout ce qui compte, à Noxus. »
+postes: Assassin, Combattant
+duree: 10
+dangereuse: non
+epreuves: discretion 45 (surveiller les cuisines et les vestiaires de l'arène, la nuit) ; poursuite 43 (suivre l'empoisonneur dans la foule de la fête) ; combat 46 (le maîtriser, en pleine arène s'il le faut)
+complication: L'empoisonneur est payé par des parieurs du Bastion, qui misent des fortunes sur les combats truqués. L'un d'eux est un officier.
+eclatante: {meneur} rattrape l'empoisonneur dans les gradins, devant dix mille spectateurs, qui y voient un combat de plus et l'acclament. Le maître d'arène fait annuler tous les paris, et l'officier compromis doit quitter la capitale. La fête du Fleshing reprend : cette année, les meilleurs gagnent. Brennar Oc offre à la guilde une place d'honneur dans sa tribune, chaque année.
+reussite: L'empoisonneur est arrêté au deuxième jour. Les combats reprennent dans les règles. Les parieurs perdent beaucoup d'argent, et ne savent pas à qui s'en prendre. Le maître d'arène paie la guilde, et lui conseille de ne pas traîner dans les tavernes du Bastion pendant quelque temps.
+partielle: L'empoisonneur s'enfuit, mais il ne revient pas. Un troisième favori tombe malade avant qu'on ne l'arrête. La fête se termine sur une victoire contestée. Brennar Oc dit que c'est la première fois en trente ans qu'il a honte de son arène.
+echec: Les combats restent truqués jusqu'au bout. Les vainqueurs du Fleshing de cette année ne sont pas les meilleurs, et tout le monde le sait. Des combattants se battent hors de l'arène pour régler leurs comptes. Brennar Oc reste seul dans ses gradins vides, après la fête.
+recompenses: po 120 ; reputation 4 ; objet Épée longue 12
+
+=== NOX-L-004 | Les fleurs de la discorde
+source: privee
+region: noxus
+palier: locale
+type: diplomatie
+ton: drole
+lieu: Kimir
+demandeur: Hedda Grun, contremaîtresse des cueilleurs de Kimir, qui a des avis sur tout et surtout sur Morrin
+accroche: « Les gens de Morrin ont encore volé nos fleurs d'Astre-bleu. Cette fois, on a des preuves : nos fleurs sont plus bleues. La guerre va éclater entre nos deux bourgs, et je dis bien la guerre : quatre cents cueilleurs avec des bâtons. Il faut quelqu'un pour parler à ces voleurs. Moi, je ne peux pas, je risque de les frapper. »
+postes: Support
+duree: 7
+dangereuse: non
+epreuves: diplomatie 44 (écouter les deux bourgs, chacun persuadé d'avoir raison depuis trois générations) ; diplomatie 46 (trouver un arrangement que les deux contremaîtresses accepteront de signer)
+complication: Les fleurs les plus bleues ne viennent ni de Kimir ni de Morrin : elles poussent sur une colline entre les deux, qui n'appartient à personne, et que chaque bourg croit à lui.
+eclatante: {meneur} réunit les deux contremaîtresses sur la colline, au lever du soleil, et leur propose de la cueillir ensemble, puis de vendre la teinture sous un seul nom : « Astre-bleu des deux bourgs ». La teinture se vend deux fois plus cher. Kimir et Morrin se disputent désormais sur le partage des bénéfices. C'est un grand progrès.
+reussite: Les deux bourgs signent une trêve : la colline sera cueillie un an par Kimir, un an par Morrin. Les cueilleurs rangent leurs bâtons. Hedda Grun trouve l'accord « honteux mais acceptable », et commence déjà à compter les jours avant le tour de Kimir.
+partielle: La guerre des fleurs n'a pas lieu, mais il y a une bagarre de taverne, avec trois nez cassés. La trêve est fragile. Les deux bourgs décident de se reparler au printemps, ce qui veut dire qu'ils se disputeront au printemps.
+echec: La bataille des bâtons a lieu sur la colline, devant l'équipe impuissante. Les fleurs sont piétinées. Personne ne cueille rien cette année, et le prix de la teinture double dans tout l'empire. Kimir accuse Morrin. Morrin accuse la guilde.
+recompenses: po 70 ; reputation 3 ; objet Charme féerique 10
+
+=== NOX-L-005 | Les mines d'acier noir
+source: institution
+region: noxus
+palier: locale
+type: sauvetage
+ton: horreur
+lieu: Monts Ironspike
+demandeur: la Chambre des Bannières, pour le directeur des mines d'acier noir des Ironspike
+accroche: « Une galerie s'est effondrée dans les mines d'acier noir. Douze mineurs sont coincés au fond. On les entend frapper sur les parois. Mais les équipes de secours refusent de descendre : les mineurs disent que quelque chose vit dans les galeries profondes, et que l'éboulement n'était pas un accident. »
+postes: Tank, Healer, Éclaireur
+duree: 12
+dangereuse: oui
+epreuves: siege 48 (dégager les éboulis sans faire s'effondrer le reste de la galerie) ; combat 49 (affronter ce qui rôde dans les galeries profondes) ; voyage 45 (remonter douze mineurs épuisés et blessés à la lumière)
+complication: Une colonie de rampants des profondeurs s'est installée dans les galeries abandonnées. Les mineurs ont creusé trop loin. Les bêtes ont rongé les étais.
+eclatante: {meneur} repousse les rampants au fond de leur galerie et fait sauter l'entrée derrière eux. Les douze mineurs remontent vivants, l'un après l'autre, sous les acclamations de leurs familles. Le directeur fait fermer les galeries profondes pour de bon. Les mineurs offrent à la guilde un lingot d'acier noir, avec leurs douze noms gravés dessus.
+reussite: Dix mineurs sur douze sont remontés vivants. Les deux autres étaient morts avant l'arrivée de l'équipe. Les rampants sont repoussés, la galerie est murée. Les mines rouvrent une semaine plus tard. Les mineurs ne parlent pas de ce qu'ils ont vu en bas.
+partielle: L'équipe remonte six mineurs. Les rampants l'empêchent d'aller plus loin. La galerie est murée, avec les autres derrière. Les familles organisent une veillée devant l'entrée de la mine. La guilde y est invitée. Elle y va.
+echec: Les rampants attaquent pendant le dégagement, et la galerie s'effondre de nouveau. L'équipe s'en sort de justesse, sans les mineurs. Le directeur fait fermer la mine. Pendant des semaines, les habitants des Ironspike disent encore entendre frapper.
+recompenses: po 165 ; reputation 5 ; objet Armure de tissu 14
+
+=== NOX-L-006 | Les chevaux de l'empereur
+source: privee
+region: noxus
+palier: locale
+type: escorte
+ton: aventure
+lieu: Vindor
+demandeur: Orsa Mal, éleveuse de chevaux vindoriens, qui a vendu sa meilleure harde à la Légion
+accroche: « Trente chevaux vindoriens pour la Légion Trifarian, à livrer au Bastion dans dix jours. Les meilleurs que j'aie élevés. Sur la route, il y a des voleurs de chevaux, des loups, et deux rivières en crue. Et la Légion ne paie que ce qui arrive vivant. »
+postes: Éclaireur, Tank
+duree: 14
+dangereuse: non
+epreuves: voyage 44 (conduire trente chevaux nerveux sur la route du Bastion) ; poursuite 42 (rattraper les bêtes qui s'enfuient à la traversée des rivières) ; combat 46 (repousser une bande de voleurs de chevaux)
+complication: La bande de voleurs est menée par un ancien palefrenier d'Orsa Mal, renvoyé l'an dernier. Il connaît chaque cheval par son nom, et chaque cheval le connaît.
+eclatante: {meneur} reconnaît l'ancien palefrenier au moment où les chevaux se mettent à hennir vers lui, et lui parle au lieu de le combattre. Il avoue tout : il voulait juste récupérer une jument qu'il avait élevée. Orsa Mal la lui rend, en échange de son aide jusqu'au Bastion. Les trente chevaux arrivent à temps. La Légion paie le prix fort, et le palefrenier est réembauché.
+reussite: Les chevaux arrivent au Bastion avec un jour de retard, vingt-huit sur trente. Deux ont été perdus dans une rivière. La Légion paie, en retenant le prix des deux bêtes. Orsa Mal dit que c'est le meilleur voyage qu'elle ait connu, et elle en a connu beaucoup.
+partielle: Les voleurs emportent dix chevaux. Vingt arrivent au Bastion. La Légion paie, mais refuse de commander de nouveau à Orsa Mal cette année. Elle devra vendre le reste de sa harde aux marchands, moins cher.
+echec: La bande attaque de nuit et disperse la harde. Il faut une semaine pour rattraper la moitié des chevaux. La Légion annule la commande. Orsa Mal rentre à Vindor ruinée, avec quinze chevaux épuisés et une rancune tenace contre les guildes.
+recompenses: po 125 ; reputation 4 ; objet Bottes 14
+
+=== NOX-L-007 | La Rose sous la ville
+source: privee
+region: noxus
+palier: locale
+type: enquete
+ton: mystere
+lieu: Catacombes du Bastion
+demandeur: Lucan Draye, archiviste du Bastion, qui baisse la voix même quand il est seul
+accroche: « Des livres disparaissent des archives impériales. Pas n'importe lesquels : ceux qui parlent des anciennes familles de Noxus, de leurs mariages, de leurs héritiers. On les sort la nuit, par une porte qui mène aux catacombes. Je veux savoir qui. Et je veux savoir pourquoi, avant de décider si je préviens quelqu'un. »
+postes: Assassin, Éclaireur
+duree: 9
+dangereuse: oui
+epreuves: discretion 48 (suivre le voleur de livres dans les catacombes, sans lumière) ; poursuite 45 (s'orienter dans un labyrinthe de tunnels qui changent de forme selon les éboulements) ; discretion 47 (observer la réunion à laquelle les livres sont apportés, sans être vu)
+complication: Les livres sont apportés à une réunion de nobles masqués, qui parlent d'une « fleur qui ne fane jamais ». L'un d'eux remarque une ombre de trop.
+eclatante: {meneur} assiste à toute la réunion, sans être vu, et en rapporte un mot à l'archiviste : les nobles reconstituent les lignées anciennes, pour trouver quelqu'un. Lucan Draye blêmit, puis brûle son propre rapport. « Il vaut mieux qu'on ne sache pas que nous savons. » Il paie la guilde en or, beaucoup d'or, et lui demande d'oublier le chemin des catacombes.
+reussite: L'équipe découvre la porte, le voleur et le lieu de la réunion, mais pas qui se cache derrière. L'archiviste fait murer la porte. Les vols cessent. Lucan Draye dort mal pendant des semaines, et refuse de dire pourquoi.
+partielle: L'équipe se perd dans les catacombes, et n'en sort qu'au matin, par un puits des bas-quartiers. Les livres continuent de disparaître, mais plus lentement. L'archiviste décide de les recopier en cachette, au cas où.
+echec: L'équipe est repérée pendant la réunion. Les nobles masqués disparaissent, et la porte des catacombes est retrouvée murée le lendemain, de l'autre côté. Une semaine plus tard, Lucan Draye est muté dans une petite ville du Dalamor. Il n'a rien demandé.
+recompenses: po 155 ; reputation 5 ; objet Cape de négation 12
+
+=== NOX-L-008 | Le bolbo de Trannit
+source: privee
+region: noxus
+palier: locale
+type: livraison
+ton: drole
+lieu: Trannit
+demandeur: Pell Marin, mareyeur de Trannit, qui sent le poisson à trois rues de distance et en est fier
+accroche: « Deux tonnes de bolbo séché pour la cantine de la Légion, à livrer en six jours. Ça sent fort, je ne vous le cache pas. Les chevaux refusent de tirer la charrette. Les auberges refusent de nous loger. Il faudra marcher, et respirer par la bouche. »
+postes: Tank
+duree: 9
+dangereuse: non
+epreuves: voyage 42 (faire avancer une charrette que personne ne veut approcher) ; diplomatie 40 (trouver où dormir quand toutes les auberges ferment leur porte) ; combat 38 (repousser les chats errants, les ours et les mouettes attirés par l'odeur)
+complication: Une meute d'ours bruns suit la charrette depuis la côte. Ils ne sont pas agressifs. Ils ont seulement très faim, et ils sont six.
+eclatante: {meneur} a une idée : laisser derrière la charrette, chaque soir, un panier de bolbo pour les ours. Ils suivent, mais sans attaquer. L'équipe arrive au camp de la Légion escortée de six ours bien nourris, sous les yeux des légionnaires qui n'en croient pas leurs yeux. Le récit fait le tour de l'armée. Pell Marin fait peindre un ours sur ses tonneaux.
+reussite: Le bolbo arrive à temps, et presque entier. Il manque quelques poissons, mangés par des ours, des chats et un aubergiste désespéré. La Légion paie sans discuter. L'équipe met trois jours à se débarrasser de l'odeur.
+partielle: La moitié du bolbo est mangée par les ours pendant une nuit d'inattention. La Légion paie la moitié, et sert le reste à la cantine. Les légionnaires disent que c'était le meilleur bolbo de leur vie. On ne sait pas si c'est un compliment.
+echec: Les ours renversent la charrette dans un fossé, et dévorent tout. L'équipe arrive au camp de la Légion les mains vides, et sentant le poisson. Pell Marin doit rembourser la commande. Il ne pardonnera pas aux ours. Ni à la guilde.
+recompenses: po 50 ; reputation 2 ; objet Potion de soin 12
+
+=== NOX-L-009 | Le loup d'obsidienne
+source: privee
+region: noxus
+palier: locale
+type: enquete
+ton: horreur
+lieu: Sanctuaire du Loup
+demandeur: Sœur Ilka, gardienne du Sanctuaire du Loup, qui ne dort plus depuis que la statue a bougé
+accroche: « La statue du Loup a tourné la tête. Pas de beaucoup, d'un doigt. Mais je l'ai regardée chaque matin pendant vingt ans, et je sais où elle regarde. Maintenant, elle regarde vers les bas-quartiers. Et chaque nuit, depuis, un sans-abri disparaît là-bas. »
+postes: Mage, Éclaireur
+duree: 8
+dangereuse: oui
+epreuves: discretion 46 (veiller dans les bas-quartiers, là où la statue regarde) ; poursuite 47 (suivre ce qui enlève les sans-abri, dans des ruelles sans lumière) ; combat 48 (l'affronter, quoi que ce soit)
+complication: Ce n'est pas la statue : c'est un culte des bas-quartiers, qui sacrifie des sans-abri en croyant réveiller le Loup. Ils ont tourné la statue eux-mêmes, une nuit, pour faire croire à un signe.
+eclatante: {meneur} surprend le culte en pleine cérémonie, dans une cave sous les bas-quartiers, et libère trois sans-abri encore vivants. Le chef du culte, un ancien prêtre défroqué, est livré à la garde. Sœur Ilka fait remettre la statue dans sa position d'origine, et organise une soupe pour les bas-quartiers chaque semaine. Le Loup regarde de nouveau l'horizon.
+reussite: Le culte est démantelé, et deux sans-abri sont sauvés. Les autres disparus ne seront jamais retrouvés. La statue est remise en place, mais Sœur Ilka continue de la regarder chaque matin, plus longtemps qu'avant.
+partielle: L'équipe découvre le culte, mais ses membres s'échappent par les catacombes. Les disparitions cessent. La statue reste tournée vers les bas-quartiers : personne n'ose plus la toucher. Les sans-abri dorment désormais loin de son regard.
+echec: Les disparitions continuent pendant un mois, puis s'arrêtent d'elles-mêmes. Personne ne sait pourquoi. La statue du Loup regarde toujours vers les bas-quartiers. Sœur Ilka quitte le sanctuaire. Sa remplaçante ne regarde jamais la statue en face.
+recompenses: po 140 ; reputation 4 ; objet Élixir de sorcellerie 10
+
+=== NOX-L-010 | Le cuirassier de Krexor
+source: privee
+region: noxus
+palier: locale
+type: recuperation
+ton: tendre
+lieu: Krexor
+demandeur: Maîtresse Agnar, forgeronne de Krexor, dont la main tremble depuis l'hiver dernier
+accroche: « J'ai forgé une cuirasse, la plus belle de ma vie, pour mon fils qui part à la Légion. On me l'a volée dans l'atelier, la nuit dernière. Je ne pourrai pas en forger une autre : ma main ne m'obéit plus. Mon fils part dans quatre jours. Je voudrais qu'il parte avec la cuirasse de sa mère. »
+postes: Éclaireur
+duree: 6
+dangereuse: non
+epreuves: poursuite 44 (suivre la cuirasse de receleur en receleur, dans les forges de Krexor) ; diplomatie 42 (la racheter, ou convaincre celui qui l'a de la rendre)
+complication: La cuirasse a été volée par l'apprenti de la forgeronne, qui voulait la revendre pour payer les remèdes de sa propre mère, malade.
+eclatante: {meneur} retrouve l'apprenti, la cuirasse et la vérité, et ramène les trois à l'atelier. Maîtresse Agnar écoute l'apprenti sans le regarder. Puis elle lui tend un marteau et lui dit : « Ma main tremble. La tienne, non. Tu vas finir ce que j'ai commencé : apprendre. » Son fils part avec sa cuirasse. L'apprenti reste, et ses remèdes sont payés par la forge.
+reussite: La cuirasse est retrouvée chez un receleur, et rendue à temps. Le fils de la forgeronne part pour la Légion avec la cuirasse de sa mère. L'apprenti a disparu de Krexor. Maîtresse Agnar ne porte pas plainte. Elle dit seulement qu'il reviendra peut-être.
+partielle: La cuirasse est retrouvée, mais abîmée : le receleur a voulu effacer la marque de la forgeronne. Maîtresse Agnar la répare elle-même, toute la nuit, avec sa main qui tremble. Son fils part avec, au matin. La réparation se voit. Elle dit que c'est mieux ainsi.
+echec: La cuirasse a été vendue à un officier qui a déjà quitté Krexor. Le fils de la forgeronne part pour la Légion avec une cuirasse ordinaire. Sa mère ne vient pas le saluer au départ. Elle est restée à la forge, à fixer l'enclume vide.
+recompenses: po 60 ; reputation 2 ; objet Bouclier de Doran 10
+
+=== NOX-L-011 | Les survivants de Hvardis
+source: institution
+region: noxus
+palier: locale
+type: exploration
+ton: tragique
+lieu: Hvardis
+demandeur: la Chambre des Bannières, pour l'office des recensements de Noxus
+accroche: « Hvardis a été rasée il y a dix ans, pour l'exemple, après une rébellion. L'office des recensements veut savoir si quelqu'un vit encore dans les ruines, pour l'inscrire au registre de l'empire. Certains disent qu'il n'y a plus que des fantômes. D'autres disent qu'il y a des enfants. »
+postes: Éclaireur, Support
+duree: 10
+dangereuse: non
+epreuves: voyage 43 (traverser les ruines d'une ville rasée, où rien n'a été reconstruit) ; poursuite 44 (retrouver ceux qui se cachent dans les ruines et ne veulent pas être trouvés) ; diplomatie 47 (les convaincre de parler à des envoyés de l'empire qui les a détruits)
+complication: Une quarantaine de survivants vivent dans les caves de Hvardis. Ils ont reconstruit une petite ville souterraine. Ils ne veulent pas être recensés : être inscrits, pour eux, c'est être retrouvés.
+eclatante: {meneur} passe trois jours avec les survivants, à écouter leur histoire sans prendre de notes, puis rentre avec un rapport qui dit la vérité, et une demande : leur accorder la citoyenneté sans les déplacer. Contre toute attente, l'office accepte : Noxus récompense ceux qui ont survécu. Hvardis aura de nouveau un nom sur la carte. Les survivants plantent un arbre sur la place, le premier depuis dix ans.
+reussite: L'équipe recense trente-huit survivants, avec leur accord, en échange d'une promesse : on ne les déplacera pas. L'office tient parole, pour l'instant. Une charrette de vivres part pour Hvardis chaque mois. Les survivants l'attendent, méfiants, mais ils l'attendent.
+partielle: Les survivants refusent de se montrer. L'équipe ne recense que les traces : des feux, des potagers, des jouets. L'office inscrit « présence possible » dans son registre, et n'envoie personne. Ça vaut peut-être mieux pour eux.
+echec: Les survivants prennent l'équipe pour une patrouille et s'enfuient vers les Monts Argent, abandonnant leurs caves. Hvardis est vraiment vide, désormais. L'office inscrit « aucun habitant » dans son registre. C'est la guilde qui l'a rendu vrai.
+recompenses: po 110 ; reputation 4 ; objet Charme féerique 12
+
+=== NOX-L-012 | Le duel de Mortoraa
+source: privee
+region: noxus
+palier: locale
+type: protection
+ton: politique
+lieu: Mortoraa
+demandeur: Dame Cassia Vey, d'une vieille maison noxienne, qui a été défiée en duel et ne sait pas se battre
+accroche: « Un parvenu de la Légion m'a défiée en duel, pour une insulte que je n'ai jamais prononcée. À Noxus, refuser un duel, c'est perdre son rang. Accepter, c'est mourir. La loi me permet de choisir un champion. Je n'ai pas de champion. J'ai de l'argent. »
+postes: Combattant, Support
+duree: 5
+dangereuse: oui
+epreuves: diplomatie 46 (découvrir qui a inventé l'insulte, et pourquoi) ; combat 50 (affronter le parvenu en duel, comme champion de la dame) ; diplomatie 44 (faire en sorte que le duel ne se termine pas par une mort)
+complication: Le parvenu a été payé par le propre neveu de la dame, qui hérite de tout si elle meurt.
+eclatante: {meneur} gagne le duel au premier sang, puis révèle devant tous les témoins qui a payé le parvenu. Le neveu est déshérité le soir même, et quitte Mortoraa avant l'aube. Le parvenu, qui ignorait tout, présente ses excuses à la dame. Elle les accepte, et le prend à son service. « Au moins, celui-là, je sais ce qu'il vaut. »
+reussite: Le duel est gagné, sans mort. Le parvenu se retire, humilié. L'honneur de la dame est sauf. Le neveu n'est pas inquiété, faute de preuve, mais Dame Vey change son testament dans la semaine. Elle ne dit à personne en faveur de qui.
+partielle: Le duel tourne mal : le champion gagne, mais le parvenu est grièvement blessé. Il survivra. Dame Vey garde son rang, mais elle se fait un ennemi dans la Légion, et la rumeur dit qu'elle paie des tueurs. Elle ne sort plus le soir.
+echec: Le duel est perdu. La dame ne meurt pas, son champion a pris le coup à sa place, mais elle perd son rang selon la loi. Sa maison est rayée des registres de la noblesse. Son neveu, lui, n'hérite de rien : il n'y a plus rien à hériter.
+recompenses: po 170 ; reputation 5 ; objet Épée longue 14
+
+=== NOX-L-013 | La bête des Monts Varju
+source: privee
+region: noxus
+palier: locale
+type: chasse
+ton: aventure
+lieu: Monts Varju
+demandeur: Ulf Gerd, berger des Monts Varju, qui a perdu vingt moutons en dix jours
+accroche: « Quelque chose emporte mes moutons. Pas un loup : un loup laisse des traces. Ça vient du ciel, la nuit, et ça repart avec un mouton dans les serres. Mes voisins disent que c'est un aigle. Je n'ai jamais vu d'aigle capable de soulever un mouton. »
+postes: Tireur, Éclaireur
+duree: 9
+dangereuse: oui
+epreuves: poursuite 45 (repérer l'aire de la bête dans les falaises des Varju) ; voyage 44 (grimper jusqu'à l'aire, sur des parois que seules les chèvres pratiquent) ; combat 47 (affronter la bête dans son nid)
+complication: La bête est une harpie des montagnes, une espèce qu'on croyait disparue. Elle nourrit trois petits.
+eclatante: {meneur} abat la harpie d'une flèche parfaite, au moment où elle s'élance de son aire. Les trois petits sont confiés à un dresseur de rapaces de Drekan, qui en fera des chasseurs. Ulf Gerd récupère la paix de ses nuits. Le savant du Bastion qui étudie les espèces disparues écrit à la guilde. Il veut tout savoir.
+reussite: La harpie est abattue dans les falaises, après deux jours d'escalade. Les petits s'envolent dans la confusion et ne reviendront pas. Ulf Gerd paie la guilde avec un agneau et une bourse d'argent. Il garde l'agneau pour lui, finalement.
+partielle: La harpie est blessée et quitte la région, avec ses petits. Les moutons ne disparaissent plus. Mais d'autres bergers, plus au sud, commencent à en perdre. Le problème a juste déménagé.
+echec: L'équipe ne trouve pas l'aire, et la harpie emporte encore cinq moutons pendant la mission, dont le bélier préféré d'Ulf Gerd. Il vend son troupeau à la fin du mois, et part s'installer en ville, où rien ne tombe du ciel.
+recompenses: po 115 ; reputation 4 ; objet Élixir de rage 10
+
+=== NOX-L-014 | Les tubes de Medicila
+source: privee
+region: noxus
+palier: locale
+type: escorte
+ton: politique
+lieu: Fallgren
+demandeur: Zora Venn, marchande de Fallgren, qui exporte les tubes de Medicila Elastica dans tout l'empire
+accroche: « La sève de Medicila Elastica, ça vaut de l'or. Mon dernier chargement a été arraisonné par des « inspecteurs » de Basilich qui n'avaient d'inspecteurs que le nom. Le prochain part dans trois jours. Je veux qu'il arrive au Bastion, avec mes papiers et ma marchandise. »
+postes: Tank, Support, Tireur
+duree: 11
+dangereuse: non
+epreuves: voyage 43 (traverser la baie de Basilich en barge, avec un chargement fragile) ; diplomatie 46 (affronter les faux inspecteurs à la douane, papiers en main) ; combat 44 (repousser ceux qui n'acceptent pas les papiers)
+complication: Les faux inspecteurs sont payés par un concurrent du Bastion, qui veut ruiner Zora Venn pour racheter ses plantations à bas prix.
+eclatante: {meneur} fait signer aux faux inspecteurs un reçu, devant témoins, avec le nom de celui qui les envoie. Le chargement arrive au Bastion intact, et le reçu arrive sur le bureau d'un juge. Le concurrent doit rembourser le premier chargement, au double. Zora Venn offre à la guilde des tubes de sève, qui soignent mieux que n'importe quelle potion.
+reussite: Le chargement passe la douane après une longue discussion et quelques menaces. Il arrive au Bastion avec un jour de retard. Zora Venn est payée. Les faux inspecteurs disparaissent de Basilich. On ne saura jamais qui les payait.
+partielle: La moitié du chargement est confisquée par les faux inspecteurs, sous un prétexte inventé. L'autre moitié arrive. Zora Venn dépose une plainte. Elle sera examinée dans six mois, ce qui veut dire jamais.
+echec: Le chargement est saisi en entier. Zora Venn, ruinée, doit vendre la moitié de ses plantations à son concurrent, au prix qu'il propose. Elle garde l'autre moitié. Et elle garde surtout le nom du concurrent, quelque part, pour plus tard.
+recompenses: po 135 ; reputation 4 ; objet Potion rechargeable 12
+
+=== NOX-L-015 | Le chant de la caravane
+source: privee
+region: noxus
+palier: locale
+type: escorte
+ton: tendre
+lieu: Enclave de Zagayah
+demandeur: Amaru Seth, conteur de l'Enclave de Zagayah, qui chante pour que les morts trouvent leur chemin
+accroche: « Ma mère est morte. Elle voulait être enterrée à Shurima, dans le village où elle est née, et qu'elle a quitté à six ans. Personne de l'Enclave n'a fait le voyage depuis vingt ans. Je dois chanter pour elle tout le long du chemin, sinon elle se perdra. Il me faut quelqu'un pour garder la caravane pendant que je chante. »
+postes: Support, Tank
+duree: 14
+dangereuse: non
+epreuves: voyage 46 (conduire une caravane funéraire à travers le Dalamor jusqu'à la frontière de Shurima) ; diplomatie 43 (obtenir des postes de la Légion le droit de passer avec un cercueil) ; combat 42 (repousser les pillards qui croient la caravane chargée d'or)
+complication: Le village natal de la mère n'existe plus : il a été englouti par les sables. Il ne reste qu'un puits, et un vieux gardien qui s'en souvient.
+eclatante: {meneur} retrouve le puits, et le vieux gardien, qui se souvient d'une petite fille partie avec sa famille il y a soixante ans. La mère est enterrée au pied du puits. Amaru Seth chante toute la nuit, et le vieux gardien chante avec lui, des chansons que personne n'avait chantées depuis des décennies. Amaru rentre à Zagayah avec des chansons nouvelles, très anciennes.
+reussite: La caravane arrive à la frontière de Shurima, et la mère est enterrée sur une colline d'où l'on voit le désert. Ce n'est pas son village, mais c'est sa terre. Amaru Seth chante une dernière fois, puis rentre en silence. Il dit qu'elle a trouvé son chemin.
+partielle: La Légion refuse le passage à la frontière. La mère est enterrée côté noxien, face au désert. Amaru Seth chante quand même, très fort, pour que sa voix porte de l'autre côté. Il espère que ça suffit.
+echec: Des pillards attaquent la caravane dans le Dalamor. Le cercueil est sauvé, mais le voyage est abandonné. La mère est enterrée à Zagayah. Amaru Seth ne chante plus pendant un an. Quand il recommence, sa voix a changé.
+recompenses: po 95 ; reputation 3 ; objet Charme féerique 12
+
+=== NOX-L-016 | Les forges de Delverhold
+source: institution
+region: noxus
+palier: locale
+type: enquete
+ton: politique
+lieu: Delverhold
+demandeur: la Chambre des Bannières, pour le quartier-maître de la Légion à Delverhold
+accroche: « Les armes livrées par les forges de Delverhold cassent. Des épées qui se brisent au premier coup, des pointes de lance qui plient. Trois légionnaires sont morts à cause d'elles le mois dernier. Le quartier-maître veut savoir si c'est de la négligence ou du sabotage. La Légion, elle, veut juste un coupable. »
+postes: Éclaireur, Support
+duree: 9
+dangereuse: non
+epreuves: discretion 45 (visiter les forges la nuit, et examiner l'acier) ; diplomatie 46 (interroger les forgerons, qui ont peur de servir de coupables) ; poursuite 43 (remonter la piste du minerai jusqu'à son fournisseur)
+complication: Le minerai est coupé avec de la scorie, par un fournisseur qui vend la différence aux contrebandiers de Zaun. Les forgerons s'en doutaient, mais personne n'osait le dire.
+eclatante: {meneur} remonte la piste jusqu'au fournisseur, et met la main sur ses livres de comptes. Le fournisseur est arrêté, les forgerons sont blanchis. Le quartier-maître fait refondre toutes les armes douteuses. Les forgerons de Delverhold offrent à la guilde une lame forgée dans le meilleur acier des Ironspike, avec leurs marques à tous.
+reussite: L'équipe prouve que le minerai est en cause, et pas les forgerons. Le fournisseur est remplacé, sans être poursuivi : il a des amis. Les armes de Delverhold redeviennent solides. Le quartier-maître remercie la guilde, sans s'attarder.
+partielle: L'enquête montre que le minerai est coupé, mais pas par qui. La Légion désigne un contremaître comme coupable, pour l'exemple. Il est envoyé aux mines. Les armes redeviennent solides. Les forgerons, eux, savent que ce n'était pas lui.
+echec: L'enquête ne trouve rien. La Légion fait pendre deux forgerons pour l'exemple. Les armes continuent de casser, un peu moins souvent. Les autres forgerons de Delverhold commencent à partir, un par un, vers Krexor.
+recompenses: po 125 ; reputation 4 ; objet Lame de Doran 12
+
+=== NOX-L-017 | La recrue de Drekan
+source: privee
+region: noxus
+palier: locale
+type: protection
+ton: drole
+lieu: Drekan
+demandeur: Grand-mère Odda, de Drekan, dont le petit-fils veut entrer dans la Légion et n'a aucune chance
+accroche: « Mon petit-fils passe l'épreuve d'entrée de la Légion dans quatre jours. Il est gentil, il est grand, et il a peur de tout. Il tombe en courant, il pleure quand il se coupe, et il s'excuse auprès des portes quand il les cogne. Je veux que vous l'entraîniez. Ou que vous le dissuadiez. L'un ou l'autre. »
+postes: Combattant
+duree: 6
+dangereuse: non
+epreuves: combat 40 (lui apprendre à tenir un bouclier sans le lâcher au premier coup) ; diplomatie 42 (comprendre pourquoi il veut vraiment entrer dans la Légion)
+complication: Il ne veut pas entrer dans la Légion. Il veut entrer dans les cuisines de la Légion. Il n'a jamais osé le dire à sa grand-mère, qui est la veuve d'un centurion.
+eclatante: {meneur} organise un repas pour toute la famille, cuisiné par le petit-fils, et invite le recruteur de la Légion. Le recruteur goûte, se tait, regoûte, et l'engage sur-le-champ comme cuisinier de la cohorte. Grand-mère Odda pleure de fierté : son mari, dit-elle, a toujours dit que la Légion se battait avec son estomac.
+reussite: Le petit-fils passe l'épreuve d'entrée, de justesse, après quatre jours d'entraînement intensif. Il tient son bouclier. Il tombe moins. Il s'excuse toujours auprès des portes. La Légion le prend. Sa grand-mère est fière. Lui, il a l'air surtout soulagé.
+partielle: Le petit-fils échoue à l'épreuve, mais l'instructeur le remarque : il a aidé un autre candidat blessé pendant la course. Il est pris comme infirmier. Ce n'est pas ce que voulait sa grand-mère. C'est peut-être ce qu'il voulait, lui.
+echec: Le petit-fils échoue à l'épreuve, et rentre en pleurant. Sa grand-mère le console, puis lui demande ce qu'il veut faire, maintenant. C'est la première fois qu'elle lui pose la question. Il répond : « Cuisinier. » Elle rit. Puis elle l'aide.
+recompenses: po 45 ; reputation 2 ; objet Potion de soin 10
+
+=== NOX-L-018 | L'élixir de Kilgrove
+source: privee
+region: noxus
+palier: locale
+type: recuperation
+ton: mystere
+lieu: Kilgrove
+demandeur: Varro Tess, alchimiste de Kilgrove, qui distille la résine des cèdres des nuées
+accroche: « Quelqu'un vole ma résine de cèdre des nuées. Chaque nuit, une jarre. Mes chiens n'aboient pas, mes serrures ne sont pas forcées, et le voleur laisse toujours une plume blanche à la place. Je n'aime pas les énigmes. Je préfère les payer à quelqu'un d'autre. »
+postes: Éclaireur, Support
+duree: 7
+dangereuse: non
+epreuves: discretion 44 (guetter l'atelier toute la nuit, sans s'endormir dans l'odeur de résine) ; poursuite 45 (suivre le voleur dans la forêt de cèdres, en pleine nuit) ; diplomatie 42 (comprendre ce qu'il fait de la résine)
+complication: Le voleur est un oiseau. Un très grand oiseau blanc, qui niche au sommet du plus vieux cèdre de la forêt, et qui tapisse son nid de résine pour protéger ses œufs du froid.
+eclatante: {meneur} grimpe jusqu'au nid, au sommet du plus vieux cèdre, et y découvre quatre œufs dans un lit de résine, et une collection de plumes blanches de toutes les tailles. Varro Tess monte à son tour, voit le nid, et décide de laisser chaque nuit une jarre au pied de l'arbre. En échange, l'oiseau lui laisse une plume. Il les vend une fortune aux mages du Bastion.
+reussite: L'équipe découvre l'oiseau et son nid. Varro Tess pose un filet sur son atelier. Les vols cessent. L'oiseau va chercher sa résine ailleurs, dans les cèdres sauvages. L'alchimiste paie la guilde, et garde la dernière plume blanche sur son établi.
+partielle: L'équipe suit le voleur jusqu'à la forêt, mais le perd au sommet des arbres. Les vols continuent, une jarre par nuit. Varro Tess finit par s'y habituer, et compte la jarre comme une dépense ordinaire.
+echec: L'équipe s'endort pendant la garde, assommée par les vapeurs de résine. Au matin, il manque trois jarres et il y a trois plumes. Varro Tess trouve ça très drôle. Il est bien le seul.
+recompenses: po 60 ; reputation 2 ; objet Élixir de sorcellerie 10
+
+=== NOX-L-019 | Les murs de Bloodcliffs
+source: institution
+region: noxus
+palier: locale
+type: defense
+ton: aventure
+lieu: Bloodcliffs
+demandeur: la Chambre des Bannières, pour le préfet de Bloodcliffs
+accroche: « Des pirates de Bilgewater remontent l'estuaire de Bloodcliffs. Une dizaine de navires. La garnison est partie en Ionie. Il reste la milice, les falaises, et votre guilde. La ville est taillée dans la roche : elle peut tenir. Si on sait comment. »
+postes: Tank, Tireur, Mage
+duree: 12
+dangereuse: oui
+epreuves: siege 48 (préparer les défenses des falaises, en deux jours) ; nuee 53 (repousser le débarquement des pirates sur les quais) ; combat 49 (affronter le capitaine pirate et ses meilleurs hommes)
+complication: Le capitaine pirate est né à Bloodcliffs. Il connaît les passages secrets dans la roche, que la milice elle-même a oubliés.
+eclatante: {meneur} devine que le capitaine passera par les vieux passages, et l'attend au débouché, dans le noir. Le capitaine est capturé, et sans lui, ses navires repartent vers la mer. Le préfet fait condamner les passages, et donne le nom de la guilde à une rue taillée dans la falaise. On la monte en s'arrêtant tous les dix pas pour souffler.
+reussite: Le débarquement est repoussé après une nuit de combat sur les quais. Les pirates repartent avec leurs blessés, et sans butin. Bloodcliffs a des morts à enterrer, mais la ville tient. Le préfet paie la guilde, et lui offre une place sur le mur des défenseurs.
+partielle: Les pirates pillent les entrepôts du port avant d'être repoussés. La ville tient, mais elle a perdu une saison de marchandises. Le préfet demande des renforts au Bastion. Ils arriveront trop tard, comme d'habitude.
+echec: Les pirates entrent par les passages oubliés et prennent le port. Ils repartent trois jours plus tard, chargés de butin et d'otages. La garnison revient d'Ionie pour trouver la ville dévastée. On parle de la guilde dans les rapports. Pas en bien.
+recompenses: po 380 ; reputation 6 ; objet Bouclier de Doran 15
+risque: oui
+
+=== NOX-L-020 | Le vin de betterave
+source: privee
+region: noxus
+palier: locale
+type: enquete
+ton: drole
+lieu: Ironwater
+demandeur: Brisa Holt, vigneronne d'Ironwater, qui a gagné le concours du meilleur vin de betterave trois ans de suite
+accroche: « Mon vin a été empoisonné pendant le concours de l'année. Pas mortellement : juste assez pour que le juge vomisse sur sa robe devant tout le monde. On dit que c'est mon vin qui est mauvais. Mon vin n'est pas mauvais. Mon vin est le meilleur de la mer du Gardien, et je veux qu'on le sache. »
+postes: Support
+duree: 6
+dangereuse: non
+epreuves: diplomatie 42 (interroger les vignerons rivaux, qui ont tous un mobile et une bonne raison de rire) ; discretion 44 (fouiller les caves des concurrents la nuit) ; poursuite 40 (rattraper le coupable, qui s'enfuit en barque)
+complication: Le coupable est le juge lui-même. Il a vomi exprès, avec une poudre, pour ne pas avoir à donner la victoire à Brisa Holt une quatrième fois : il avait parié contre elle.
+eclatante: {meneur} retrouve la poudre dans la poche de la robe du juge, encore tachée. Le juge est démasqué devant tout Ironwater, qui rit pendant une semaine. Le concours est rejugé. Brisa Holt gagne pour la quatrième fois, avec, sur son étiquette, la mention « vin capable de faire vomir un juge honnête ». Elle se vend deux fois mieux.
+reussite: L'équipe prouve que le vin n'était pas en cause. Le coupable, un vigneron rival, avoue. Le concours est rejugé, et Brisa Holt gagne de nouveau. Le juge, qui avait vomi, refuse de goûter le vin gagnant. Il a ses raisons.
+partielle: L'équipe prouve que le vin a été trafiqué, mais pas par qui. Le concours est annulé cette année. Brisa Holt n'a pas perdu, mais elle n'a pas gagné non plus. Elle trouve ça pire que tout.
+echec: L'enquête ne mène à rien. La rumeur reste : le vin de Brisa Holt rend malade. Elle vend la moitié moins cette saison. Elle continue à le dire à qui veut l'entendre : son vin est le meilleur. Elle a raison, mais personne ne veut plus le goûter.
+recompenses: po 55 ; reputation 2 ; objet Potion de soin 10
+
+=== NOX-L-021 | Le pont de Drugne
+source: privee
+region: noxus
+palier: locale
+type: livraison
+ton: tragique
+lieu: Drugne
+demandeur: Ysolde Marr, médecin de Drugne, la seule ville sur des centaines de lieues de steppe
+accroche: « La fièvre des sables est arrivée à Drugne. Elle tue un malade sur quatre. Il existe un remède, fabriqué au Bastion. On l'a commandé il y a deux semaines. Le messager n'est jamais arrivé. Il y a cinquante malades dans ma ville, et je n'ai plus que de l'eau et des prières à leur donner. »
+postes: Support, Healer
+duree: 13
+dangereuse: oui
+epreuves: voyage 48 (traverser la plaine de Dalamor au plus vite, aller et retour) ; diplomatie 44 (obtenir le remède au Bastion, où la file d'attente est longue et l'administration lente) ; voyage 46 (le rapporter à temps, à travers une tempête de poussière)
+complication: Le messager précédent est retrouvé mort dans la plaine, avec les remèdes intacts dans sa sacoche. Il s'est perdu dans une tempête.
+eclatante: {meneur} retrouve le corps du messager et sa sacoche, à mi-chemin. Les remèdes sont intacts. L'équipe repart aussitôt vers Drugne, sans même aller au Bastion, et arrive avec trois jours d'avance. Quarante-six malades sur cinquante survivent. Ysolde Marr fait graver le nom du messager sur la porte de l'hospice. Et celui de la guilde, juste en dessous.
+reussite: Le remède arrive à Drugne, après un voyage épuisant dans la poussière. Il sauve la plupart des malades. Douze sont morts avant son arrivée. Ysolde Marr remercie la guilde, puis retourne à ses malades sans attendre la réponse.
+partielle: Le remède arrive, mais en quantité insuffisante : le Bastion n'a pu en donner que la moitié. Ysolde Marr doit choisir qui soigner en premier. Elle le fait. Elle ne dira jamais comment elle a choisi.
+echec: La tempête de poussière bloque l'équipe pendant six jours dans la plaine. Le remède arrive trop tard pour la moitié des malades. Drugne enterre vingt-trois personnes. Ysolde Marr ne reproche rien à la guilde. Elle n'a plus la force de reprocher quoi que ce soit.
+recompenses: po 140 ; reputation 5 ; objet Potion rechargeable 14
+
+=== NOX-L-022 | Les ombres du Bastion
+source: privee
+region: noxus
+palier: locale
+type: traque
+ton: mystere
+lieu: Bas-quartiers du Bastion
+demandeur: Teodric, chef des Tallymen, ceux qui ramassent les morts dans les bas-quartiers
+accroche: « On ramasse les morts depuis toujours. On connaît chaque corps, chaque blessure. Ces dernières semaines, on en trouve qui n'ont aucune blessure, et aucune maladie. Juste les yeux grands ouverts, comme s'ils avaient vu quelque chose. Les gardes ne viennent pas dans les bas-quartiers. Vous, peut-être. »
+postes: Assassin, Mage
+duree: 8
+dangereuse: oui
+epreuves: discretion 47 (patrouiller la nuit dans les bas-quartiers, sans attirer l'attention des bandes) ; poursuite 46 (suivre ce qui tue, d'une ruelle à l'autre) ; combat 48 (l'arrêter, quoi que ce soit)
+complication: Ce qui tue est une jeune mage des bas-quartiers, qui ne contrôle pas son don : son regard arrête le cœur de ceux qui la menacent. Elle ne sait pas qu'elle tue.
+eclatante: {meneur} retrouve la jeune mage, cachée dans un grenier, terrorisée par ses propres cauchemars. Au lieu de la combattre, l'équipe lui bande les yeux et la conduit au Bastion, où l'empire recherche les talents. Elle est prise en charge par des maîtres de la magie noxienne. Les morts cessent. Teodric dit que c'est la première fois qu'il voit quelqu'un des bas-quartiers monter, et pas descendre.
+reussite: La jeune mage est retrouvée et arrêtée. La Légion l'emmène, pour en faire une arme. Les morts cessent. Teodric remercie la guilde, puis ajoute : « Elle était des nôtres. » On ne sait pas s'il trouve ça bien ou mal.
+partielle: La jeune mage s'enfuit vers les catacombes. Les morts cessent dans les bas-quartiers, mais on commence à en trouver d'autres, sous la ville. Les Tallymen refusent désormais de descendre dans les catacombes.
+echec: L'équipe ne trouve pas la source des morts, et en ramasse deux de plus pendant la mission, dont un Tallyman. Les bas-quartiers se barricadent la nuit. Teodric continue de ramasser les morts, les yeux baissés, pour ne pas croiser leur regard.
+recompenses: po 150 ; reputation 5 ; objet Cape de négation 12
+
+=== NOX-L-023 | La dernière lettre de Glorft
+source: privee
+region: noxus
+palier: locale
+type: livraison
+ton: tendre
+lieu: Glorft
+demandeur: Mira Holm, couturière de Glorft, qui n'a pas eu de nouvelles de sa sœur depuis vingt ans
+accroche: « Ma sœur a épousé un Demacien. À Noxus, ça ne se fait pas. Elle est partie de l'autre côté des Monts Argent, et on ne s'est plus jamais parlé. Je suis malade. Je voudrais qu'elle reçoive cette lettre, et un châle que j'ai cousu pour elle. Je ne sais même pas si elle est vivante. »
+postes: Éclaireur
+duree: 8
+dangereuse: non
+epreuves: voyage 44 (franchir les Monts Argent par les cols, loin des postes de la frontière) ; poursuite 42 (retrouver une femme dont on ne connaît que le prénom et le métier de son mari) ; diplomatie 43 (la convaincre de lire la lettre d'une sœur qu'elle croit lui avoir tourné le dos)
+complication: La sœur a écrit, elle aussi, pendant vingt ans. Ses lettres n'ont jamais passé la frontière : la Légion les arrêtait. Elle croit que Mira ne lui a jamais pardonné.
+eclatante: {meneur} retrouve la sœur dans un village de Demacia, près de Vaskasia, et lui remet la lettre et le châle. Elle pleure, puis va chercher une boîte : vingt ans de lettres jamais envoyées. L'équipe les rapporte à Glorft. Mira Holm les lit toutes, une par jour, pendant vingt jours. Au vingt-et-unième, sa sœur arrive à sa porte, en personne.
+reussite: La lettre et le châle sont remis à la sœur, qui écrit une réponse sur-le-champ. L'équipe la rapporte à Glorft. Mira Holm la lit à voix haute, assise dans son atelier, puis la range dans sa poche, contre son cœur. Elle va mieux. Un peu.
+partielle: La sœur est retrouvée, mais elle refuse de lire la lettre : elle a trop souffert de ce silence. Elle garde quand même le châle. L'équipe le dit à Mira, qui sourit : « Si elle a gardé le châle, elle lira la lettre. Un jour. »
+echec: La sœur est morte, il y a deux ans. Son mari remercie l'équipe, et la renvoie avec la lettre et le châle. Mira Holm les reçoit sans un mot. Elle porte le châle elle-même, jusqu'à la fin de l'hiver.
+recompenses: po 65 ; reputation 3 ; objet Charme féerique 10
+
+=== NOX-L-024 | Les élans de Rokrund
+source: privee
+region: noxus
+palier: locale
+type: chasse
+ton: drole
+lieu: Plaines de Rokrund
+demandeur: Bastian Kroll, éleveur d'élans des Plaines de Rokrund, qui s'est fait voler son grand mâle reproducteur
+accroche: « Brutor. Mon élan. Le plus grand des Plaines. Il vaut trois fermes. Quelqu'un l'a fait sortir de l'enclos cette nuit, et maintenant il est dans les champs de naap de mon voisin, qui menace de le manger. Il faut le ramener, sans le blesser, sans blesser le voisin, et sans que le voisin le mange. »
+postes: Support
+duree: 5
+dangereuse: non
+epreuves: poursuite 40 (approcher un élan de quatre cents kilos qui n'a aucune envie de rentrer) ; diplomatie 42 (calmer le voisin, qui a déjà sorti son grand couteau et sa marmite) ; combat 38 (empêcher Brutor de charger tout ce qui bouge)
+complication: Brutor n'a pas été volé. Il est parti de lui-même, pour une femelle élan du voisin, dont il est éperdument amoureux depuis l'automne.
+eclatante: {meneur} propose aux deux éleveurs un accord : Brutor et la femelle resteront ensemble, chez le voisin, et les petits seront partagés. Les deux éleveurs, ennemis depuis dix ans, se serrent la main au-dessus de la barrière. Au printemps, il naît deux élans magnifiques. Bastian Kroll et son voisin les baptisent du nom de la guilde. Les deux élans répondent mal à leur nom.
+reussite: Brutor est ramené dans son enclos, après une journée de négociation avec lui et avec le voisin. Il mugit tous les soirs vers la ferme d'à côté. Bastian Kroll finit par acheter la femelle au voisin, au prix fort. Il dit que c'est pour avoir la paix.
+partielle: Brutor est ramené, mais il a piétiné la moitié du champ de naap du voisin. Bastian Kroll doit rembourser la récolte. Il paie la guilde quand même, en soupirant, et renforce sa barrière. Brutor la sautera la semaine suivante.
+echec: Brutor charge l'équipe, défonce la barrière du voisin, et part dans les Plaines avec la femelle. On les voit parfois, de loin, au coucher du soleil. Bastian Kroll et son voisin, pour la première fois en dix ans, partagent la même tristesse. Et une bouteille.
+recompenses: po 45 ; reputation 2 ; objet Ceinture du géant 10
+
+=== NOX-L-025 | Les marches de Trevale
+source: institution
+region: noxus
+palier: locale
+type: defense
+ton: tragique
+lieu: Trevale
+demandeur: la Chambre des Bannières, pour le conseil de Trevale
+accroche: « Trevale est un bourg frontière, au pied des Monts Argent. Depuis un mois, des patrouilles demaciennes traversent la frontière la nuit, pour rattraper des mages en fuite. Hier, elles ont brûlé une grange qui en cachait un. Le conseil de Trevale demande une protection, contre Demacia, et contre la colère de ses propres habitants. »
+postes: Tank, Support, Éclaireur
+duree: 10
+dangereuse: oui
+epreuves: discretion 45 (surveiller la frontière la nuit, pour repérer les patrouilles) ; combat 48 (arrêter la prochaine patrouille sans déclencher une guerre) ; diplomatie 47 (calmer les habitants, qui veulent lyncher les Demaciens capturés)
+complication: La patrouille demacienne est menée par un chevalier qui ne croit plus à sa mission. Il cherche une raison de déserter, et il est prêt à se rendre.
+eclatante: {meneur} arrête la patrouille sans un mort, et le chevalier se rend aussitôt, avec un message : il ne veut plus chasser des enfants. Le conseil de Trevale le garde comme témoin, et le livre à la Chambre des Bannières, qui le fait passer en sécurité. Les incursions cessent. Le chevalier demandera plus tard à rejoindre une guilde. Il ne dit pas laquelle.
+reussite: La patrouille est arrêtée, et renvoyée de l'autre côté de la frontière, désarmée. Les incursions cessent pendant quelque temps. Les habitants de Trevale sont furieux qu'on n'ait pendu personne. Le conseil, lui, est soulagé : une guerre a été évitée.
+partielle: La patrouille s'enfuit après un bref combat, et un habitant de Trevale est tué. Le bourg enterre son mort, et demande vengeance. Le conseil envoie une lettre de protestation à Demacia. Elle restera sans réponse.
+echec: Les habitants de Trevale lynchent deux soldats demaciens capturés, malgré l'équipe. Demacia répond par une expédition punitive. Trevale brûle à moitié. La Chambre des Bannières mène une enquête sur la guilde. Il y a des jours où il vaut mieux ne pas avoir été là.
+recompenses: po 160 ; reputation 5 ; objet Armure de tissu 12

@@ -1,0 +1,212 @@
+[
+{
+  "id": "DEM-1-031", "titre": "Les chevaux fourbus de Meltridge", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "enquete", "ton": "drole", "lieu": "Meltridge",
+  "demandeur": { "nom": "Anseau Fléchard", "qualite": "loueur de chevaux, superstitieux comme dix" },
+  "accroche": "« Chaque matin, mes chevaux sont couverts d'écume et ils ont les crins tressés. Tressés ! Ma grand-mère disait que c'est la marque des esprits de la nuit. Moi, je dis qu'un esprit ne laisse pas de crottin sur la route de la Porte grise. »",
+  "contexte": "Les chevaux de louage d'Anseau, à Meltridge, sont retrouvés épuisés chaque matin, comme après une longue course. L'écurie est fermée de l'intérieur. Les clients se plaignent de bêtes fatiguées, et la rumeur d'une malédiction fait fuir les autres.",
+  "postes": ["Éclaireur", "DPS"], "duree": 4, "dangereuse": false,
+  "epreuves": [
+    { "type": "discretion", "difficulte": 38, "recit": "Se cacher dans le grenier à foin et attendre ce qui vient ouvrir l'écurie à minuit." },
+    { "type": "poursuite", "difficulte": 42, "recit": "Les chevaux partent au galop dans la nuit, chacun avec un cavalier minuscule sur le dos. Il faut suivre." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Les « esprits » sont les fils des notables de Meltridge, qui organisent des courses nocturnes avec paris à la clé, en passant par la lucarne. Anseau leur fait payer chaque course à la journée, et les pères paient double pour que l'affaire ne s'ébruite pas.",
+    "reussite": "Les coupables sont démasqués et la lucarne est clouée. Les chevaux retrouvent leurs nuits. Anseau soupire de soulagement.",
+    "partielle": "On sait que ce sont des gamins, mais impossible de les rattraper. Anseau met un cadenas à la lucarne.",
+    "echec": "L'équipe a perdu les cavaliers dans la nuit, et la rumeur s'est enrichie : maintenant, les esprits font aussi fuir les guildes."
+  },
+  "recompenses": { "or": 45, "reputation": 1, "xp": 30, "objet": { "rarete": "commun", "chance": 3 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-032", "titre": "Le second de Gauvain d'Aubrac", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "mediation", "ton": "politique", "lieu": "Résidences des grandes familles",
+  "demandeur": { "nom": "Roseline", "qualite": "nourrice d'une petite maison noble, qui a élevé le jeune Gauvain" },
+  "accroche": "« Mon petit Gauvain s'est battu en duel pour une broutille, demain à l'aube. Il a seize ans et il tient une épée comme une cuillère. L'autre est un élève des maîtres d'armes. Il me faut quelqu'un pour lui servir de second, et pour le ramener vivant. »",
+  "contexte": "Dans le quartier des grandes familles de la capitale, l'honneur se règle encore à l'épée. Gauvain, cadet d'une maison mineure, a été provoqué par l'héritier d'une famille rivale. Refuser serait une honte pour sa maison. Accepter pourrait lui coûter la vie.",
+  "postes": ["Support", "Combattant"], "duree": 3, "dangereuse": false,
+  "epreuves": [
+    { "type": "diplomatie", "difficulte": 46, "recit": "Négocier avec les seconds adverses les conditions du duel : premier sang plutôt que mort, et rien qui entache l'honneur des deux maisons." },
+    { "type": "combat", "difficulte": 40, "recit": "Si la négociation échoue, préparer Gauvain dans la nuit et parer, au besoin, le coup de trop." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Le duel s'arrête au premier sang, une égratignure sur la joue de l'adversaire. Gauvain est déclaré vainqueur et, à la surprise générale, son rival lui tend la main. Roseline offre à la guilde une épingle aux armes de la maison, qui ouvre quelques portes.",
+    "reussite": "Le duel a lieu au premier sang, et Gauvain le perd avec honneur. Il est blessé au bras mais vivant, et fier.",
+    "partielle": "Gauvain a été sérieusement blessé avant que les seconds n'interrompent le combat. Il guérira, mais sa maison rumine sa revanche.",
+    "echec": "Le duel a mal tourné et la guilde a dû intervenir à l'épée. Les deux maisons crient au déshonneur et accusent la guilde."
+  },
+  "recompenses": { "or": 80, "reputation": 2, "xp": 40, "objet": { "rarete": "peu commun", "chance": 4 } },
+  "suite": "maisons-aubrac"
+},
+{
+  "id": "DEM-1-033", "titre": "Le pont de cordes de la Serpentrion", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "voyage", "ton": "aventure", "lieu": "Serpentrion",
+  "demandeur": { "nom": "Hildegarde Foucault", "qualite": "aubergiste d'un hameau isolé des gorges" },
+  "accroche": "« Le pont de cordes a lâché pendant l'orage. De l'autre côté, il y a quinze familles, deux vaches malades et ma sœur. Les cordes neuves sont ici. Il faut quelqu'un pour les porter là-bas. »",
+  "contexte": "Un hameau perché au-dessus des gorges de la Serpentrion n'est relié au monde que par un pont de cordes. L'orage l'a emporté. Il faut descendre dans la gorge, traverser le torrent et remonter de l'autre côté avec les cordes, puis tendre un nouveau pont.",
+  "postes": ["Combattant", "Éclaireur"], "duree": 7, "dangereuse": false,
+  "epreuves": [
+    { "type": "voyage", "difficulte": 44, "recit": "Descendre la gorge, traverser le torrent glacé et remonter la paroi d'en face chargé des cordes." },
+    { "type": "siege", "difficulte": 40, "recit": "Arrimer le pont aux rochers des deux rives et le tendre, à bout de bras, au-dessus du vide." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Le pont est tendu avant la nuit, plus solide que l'ancien. Les quinze familles traversent en chantant, la sœur d'Hildegarde en tête. On donne au pont le nom de la guilde, gravé sur une planche à l'entrée.",
+    "reussite": "Le pont tient. Il oscille un peu, mais il tient. Le hameau envoie à la guilde un panier de fromages de chèvre.",
+    "partielle": "On a tendu une seule corde, de quoi faire passer un panier à la fois. Le vrai pont attendra une deuxième expédition.",
+    "echec": "Les cordes ont été emportées par le torrent. Le hameau attendra la décrue, et Hildegarde a perdu son investissement."
+  },
+  "recompenses": { "or": 60, "reputation": 3, "xp": 50, "objet": { "rarete": "commun", "chance": 4 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-034", "titre": "L'œuf d'aile-d'argent", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "enquete", "ton": "politique", "lieu": "Volières aile-d'argent",
+  "demandeur": { "nom": "Maître Ogier Valmont", "qualite": "palefrenier en chef des Volières aile-d'argent" },
+  "accroche": "« Un œuf a disparu de la couveuse. Si l'officier des chevaliers-rapaces l'apprend, c'est toute l'équipe de nuit qui sera chassée. Ils ont des familles. Retrouvez-le avant l'éclosion. Il reste trois jours. »",
+  "contexte": "Les Volières aile-d'argent de la Grande cité élèvent les rapaces griffons que montent les chevaliers-rapaces. Un œuf vaut une fortune, et un rapace élevé hors des volières est un crime. Le palefrenier préfère une guilde inconnue à une enquête officielle.",
+  "postes": ["Éclaireur", "Support"], "duree": 4, "dangereuse": false,
+  "epreuves": [
+    { "type": "diplomatie", "difficulte": 40, "recit": "Interroger les soigneurs de l'équipe de nuit, qui se protègent les uns les autres." },
+    { "type": "discretion", "difficulte": 44, "recit": "Fouiller la chambre d'un apprenti, puis le suivre jusqu'à l'endroit où il cache l'œuf, sans éveiller sa méfiance." }
+  ],
+  "complication": { "texte": "L'œuf a été volé par un apprenti pour le revendre à un acheteur noxien, qui vient le chercher ce soir sur les quais. Il faut l'intercepter avant l'échange.", "epreuve": { "type": "poursuite", "difficulte": 42 } },
+  "denouements": {
+    "eclatante": "L'œuf est remis dans sa couveuse, intact, une nuit avant l'éclosion. L'acheteur est arrêté sur les quais. Ogier invite la guilde à voir naître le petit rapace : il le regardera droit dans les yeux, et un rapace n'oublie jamais.",
+    "reussite": "L'œuf est rapporté à temps et l'apprenti a avoué. Personne n'en saura rien au-dessus d'Ogier.",
+    "partielle": "L'œuf est retrouvé, fêlé. Le petit naîtra fragile. Ogier garde la guilde dans ses bonnes grâces, sans plus.",
+    "echec": "L'œuf a quitté la cité. L'officier des chevaliers-rapaces a congédié toute l'équipe de nuit, et Ogier avec."
+  },
+  "recompenses": { "or": 75, "reputation": 2, "xp": 45, "objet": { "rarete": "peu commun", "chance": 4 } },
+  "suite": "volieres-acheteur-noxien"
+},
+{
+  "id": "DEM-1-035", "titre": "La nuit des Trois Écus", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "garde", "ton": "drole", "lieu": "Velorus",
+  "demandeur": { "nom": "Hubert Pichon", "qualite": "aubergiste des Trois Écus, dont la vaisselle a souffert l'an dernier" },
+  "accroche": "« Demain, c'est la fête des moissons. Les journaliers seront payés, ils boiront, et ils casseront tout. L'an dernier, ils m'ont cassé deux tables, la vitrine et le nez. Je veux des gens qui cognent, mais poliment. »",
+  "contexte": "La fête des moissons de Velorus se termine toujours aux Trois Écus, la seule auberge du bourg. Les journaliers venus de tout l'Ironfork y dépensent leur paie. Une bagarre est presque une tradition. Hubert, lui, voudrait garder son nez intact.",
+  "postes": ["Tank", "Support"], "duree": 6, "dangereuse": false,
+  "epreuves": [
+    { "type": "diplomatie", "difficulte": 38, "recit": "Désamorcer les disputes de tables, les rivalités de villages et les paris idiots avant qu'ils tournent mal." },
+    { "type": "nuee", "difficulte": 40, "recit": "Vers minuit, une chaise vole et toute la salle se jette dans la mêlée. Il faut tenir la salle sans blesser personne." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "La bagarre s'éteint aussi vite qu'elle a commencé, et l'aubergiste n'a perdu qu'un pichet. Les journaliers, impressionnés, chantent une chanson improvisée sur la guilde, qu'on entendra aux Trois Écus pendant des années.",
+    "reussite": "Quelques bosses, une table cassée, rien de grave. Hubert garde son nez et offre la dernière tournée.",
+    "partielle": "La bagarre a fait le tour de la salle, mais personne n'a été gravement blessé. Hubert paie, en grimaçant devant sa vitrine.",
+    "echec": "La mêlée a gagné la rue et la garde du bourg a dû intervenir. Hubert a le nez cassé pour la deuxième année consécutive."
+  },
+  "recompenses": { "or": 50, "reputation": 2, "xp": 30, "objet": { "rarete": "commun", "chance": 3 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-036", "titre": "Les gémissements de la scierie", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "enquete", "ton": "horreur", "lieu": "Vaskasia",
+  "demandeur": { "nom": "Florent Guéret", "qualite": "propriétaire de la scierie du Ruisseau-Noir" },
+  "accroche": "« Mes ouvriers entendent gémir, la nuit, sous la grande scie. Comme quelqu'un qui pleure. Plus personne ne veut faire l'équipe du soir. On dit que c'est le vieux Hector, mort sous la lame il y a dix ans. »",
+  "contexte": "La scierie du Ruisseau-Noir, à Vaskasia, tourne jour et nuit en saison. Depuis une semaine, des plaintes s'élèvent la nuit sous la machinerie. Le contremaître a vu une forme blanche. La production a chuté de moitié, et Florent ne croit pas aux fantômes, ou plus vraiment.",
+  "postes": ["Éclaireur", "Tank"], "duree": 5, "dangereuse": false,
+  "epreuves": [
+    { "type": "discretion", "difficulte": 42, "recit": "Veiller seul dans la scierie déserte, entre les troncs empilés et les ombres des lames, en suivant les gémissements." },
+    { "type": "combat", "difficulte": 38, "recit": "Sous le plancher de la grande scie, quelque chose bouge, et cela n'a pas envie d'être dérangé." }
+  ],
+  "complication": { "texte": "Sous la machinerie se terre un ouvrier licencié, caché là depuis des jours. Il fait le fantôme pour faire fermer la scierie, qui l'a jeté dehors après un accident. Il est armé et désespéré.", "epreuve": { "type": "diplomatie", "difficulte": 42 } },
+  "denouements": {
+    "eclatante": "Le « fantôme » sort de sa cachette et raconte tout. Florent, honteux, le reprend à son service. La scierie retrouve ses équipes, et les ouvriers parlent avec respect de la guilde « qui n'a pas eu peur d'Hector ».",
+    "reussite": "Le fantôme est un homme, chassé de la scierie à la lueur des lanternes. Les équipes de nuit reprennent.",
+    "partielle": "Les gémissements ont cessé, mais personne n'a vu ce qui les provoquait. Les ouvriers reviennent, sans grand enthousiasme.",
+    "echec": "L'équipe a fui à la vue d'une forme blanche. Le lendemain, toute la scierie le savait. La légende d'Hector a fait une nouvelle victime."
+  },
+  "recompenses": { "or": 60, "reputation": 2, "xp": 40, "objet": { "rarete": "commun", "chance": 4 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-037", "titre": "La caravane du marchand d'épices", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "escorte", "ton": "aventure", "lieu": "Porte grise",
+  "demandeur": { "nom": "Kassim ibn Rafi", "qualite": "marchand d'épices de Shurima, poli, patient et fatigué qu'on le dévisage" },
+  "accroche": "« J'ai un laissez-passer, des épices et une mule. Ici, on me regarde comme si j'avais trois têtes. On m'a dit qu'une guilde, au moins, ne refuse pas l'argent d'un étranger. »",
+  "contexte": "La Porte grise, sur le Mur de l'Est, est l'une des rares entrées du royaume. Kassim doit mener sa caravane jusqu'au marché de Meltridge. Les gardes de la porte multiplient les fouilles, les villageois lui ferment leurs portes, et la route n'est pas sûre pour un étranger seul.",
+  "postes": ["Support", "Combattant"], "duree": 5, "dangereuse": false,
+  "epreuves": [
+    { "type": "diplomatie", "difficulte": 44, "recit": "Obtenir que les gardes de la Porte grise laissent passer la caravane sans tout éventrer, et sans insulter Kassim." },
+    { "type": "combat", "difficulte": 38, "recit": "Sur la route de Meltridge, une bande de jeunes du coin veut « donner une leçon à l'étranger »." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "La caravane arrive à Meltridge intacte, et Kassim vend tout son stock avant le soir. Il offre à chaque héros un sachet de safran et sa parole : s'il revient, c'est avec la guilde, et il en parlera aux autres marchands du désert.",
+    "reussite": "Kassim arrive au marché, un peu bousculé. Il vend la moitié de ses épices et repart avec le sourire.",
+    "partielle": "Les gardes ont confisqué une partie des épices « pour inspection ». Kassim paie la guilde, plus amer qu'en colère.",
+    "echec": "La caravane a été refoulée à la porte, puis pillée sur la route du retour. Kassim jure de ne plus jamais commercer avec Demacia."
+  },
+  "recompenses": { "or": 90, "reputation": 2, "xp": 45, "objet": { "rarete": "peu commun", "chance": 5 } },
+  "suite": "kassim-marchand"
+},
+{
+  "id": "DEM-1-038", "titre": "Le tonneau qui éternue", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "enquete", "ton": "drole", "lieu": "Port de la cité",
+  "demandeur": { "nom": "Basile Quéré", "qualite": "débardeur, colosse au cœur tendre, très inquiet" },
+  "accroche": "« Le tonneau de harengs numéro quarante-trois a éternué. Deux fois. Et hier, il manquait une miche de pain dans mon sac. Mon chef dit que je bois trop. Je ne bois que de l'eau. »",
+  "contexte": "Sur les quais du Port de la cité, un tonneau débarqué d'un navire marchand fait des bruits étranges et des vivres disparaissent. Les débardeurs parlent de mauvais sort. Le chef du quai veut tout jeter à la mer avant que la superstition paralyse le travail.",
+  "postes": ["Éclaireur", "Support"], "duree": 3, "dangereuse": false,
+  "epreuves": [
+    { "type": "discretion", "difficulte": 36, "recit": "Surveiller l'entrepôt la nuit pour voir ce qui sort du tonneau quarante-trois." },
+    { "type": "poursuite", "difficulte": 42, "recit": "Une petite silhouette poilue file entre les caisses, saute sur les cordages et disparaît dans les mâts." }
+  ],
+  "complication": { "texte": "Le passager clandestin est une jeune yordle de Bandle, passée par un portail qui l'a laissée au fond d'une cale. Elle ne connaît rien au monde des humains et mord quand elle a peur.", "epreuve": { "type": "diplomatie", "difficulte": 40 } },
+  "denouements": {
+    "eclatante": "La yordle s'appelle Pimpine. Elle accepte de sortir quand Basile lui tend la miche qu'elle lui a volée. Il l'héberge le temps de trouver un portail. Elle laisse à la guilde un caillou qui brille quand il va pleuvoir.",
+    "reussite": "Le passager clandestin est démasqué et l'entrepôt retrouve son calme. Basile est soulagé : il ne buvait vraiment que de l'eau.",
+    "partielle": "On a vu quelque chose de petit et de très rapide. Plus rien n'a éternué depuis, mais les vivres continuent de disparaître.",
+    "echec": "Le chef du quai a fait jeter le tonneau à l'eau devant l'équipe impuissante. On a entendu un petit cri aigu, dans une langue que personne ne connaissait. Personne n'a plongé."
+  },
+  "recompenses": { "or": 40, "reputation": 1, "xp": 30, "objet": { "rarete": "commun", "chance": 6 } },
+  "suite": "pimpine-yordle"
+},
+{
+  "id": "DEM-1-039", "titre": "Les recrues dans le brouillard", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "sauvetage", "ton": "aventure", "lieu": "Fossbarrow",
+  "demandeur": { "nom": "Caporal Mélisande Drouet", "qualite": "instructrice des recrues de Fossbarrow, qui s'en veut terriblement" },
+  "accroche": "« Trois recrues ont quitté la colonne dans le brouillard, hier soir. Trois gamins de seize ans, avec des cartes qu'ils ne savent pas lire. Si mon capitaine apprend que je les ai perdus, je finis à garder des chèvres. »",
+  "contexte": "Les recrues de la garnison de Fossbarrow font leur première marche dans les collines au-dessus de la Serpentrion. Le brouillard est tombé d'un coup. Trois d'entre elles manquent à l'appel. Les collines sont pleines de ravins, et une petite bande de pillards y a été signalée.",
+  "postes": ["Éclaireur", "Healer", "Tank"], "duree": 6, "dangereuse": false,
+  "epreuves": [
+    { "type": "voyage", "difficulte": 42, "recit": "Fouiller les collines dans un brouillard à couper au couteau, en appelant les recrues sans attirer les pillards." },
+    { "type": "combat", "difficulte": 40, "recit": "Les trois jeunes sont retrouvés au fond d'un vallon, encerclés par des pillards qui en veulent à leurs armes neuves." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Les trois recrues sont ramenées vivantes avant la relève. Elles demandent à un héros de leur apprendre à lire une carte. Le caporal Drouet fait rapport d'une « manœuvre réussie », et dans le rapport, la guilde a un très beau rôle.",
+    "reussite": "Les recrues sont sauvées, l'une d'elles blessée à l'épaule. Le caporal garde son grade et sa reconnaissance.",
+    "partielle": "Deux recrues sont retrouvées, la troisième rentre seule le lendemain, en ayant semé les pillards. Le caporal écope d'un blâme.",
+    "echec": "Les pillards ont emporté les armes et blessé deux recrues. Le capitaine apprend tout, et la guilde n'a rien fait pour l'empêcher."
+  },
+  "recompenses": { "or": 70, "reputation": 3, "xp": 55, "objet": { "rarete": "commun", "chance": 5 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-040", "titre": "La guerre du lavoir", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "mediation", "ton": "drole", "lieu": "Edessa",
+  "demandeur": { "nom": "Le père Gaucher", "qualite": "vieux prieur d'Edessa, à bout de patience" },
+  "accroche": "« Mathilde et Bertrande ne se parlent plus depuis qu'un drap a été échangé au lavoir. Depuis, le village est coupé en deux. On ne se marie plus entre les deux camps. Même les chiens se battent. Faites quelque chose, avant que je défroque. »",
+  "contexte": "À Edessa, une querelle entre deux lavandières a pris des proportions absurdes : deux camps, deux marchés, deux heures de messe. La fête du village approche, et personne ne veut y aller si l'autre camp vient. Le prieur ne sait plus quoi prêcher.",
+  "postes": ["Support", "Healer"], "duree": 4, "dangereuse": false,
+  "epreuves": [
+    { "type": "diplomatie", "difficulte": 46, "recit": "Écouter les deux lavandières, l'une après l'autre, puis l'une devant l'autre, sans prendre parti, et sans éclater de rire." },
+    { "type": "voyage", "difficulte": 32, "recit": "Faire le tour des maisons pour retrouver le fameux drap, passé de main en main dans tout le village." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Le drap est retrouvé chez le prieur lui-même, qui l'avait pris pour une nappe d'autel. Les deux lavandières rient aux larmes, le village se réconcilie autour d'un banquet, et c'est le prieur qui fait la vaisselle.",
+    "reussite": "Les deux femmes acceptent de se serrer la main devant le village. La fête aura lieu, avec un seul marché.",
+    "partielle": "Une trêve est signée jusqu'à la fête, mais les deux camps installent encore leurs bancs de part et d'autre de la place.",
+    "echec": "Une remarque de trop et la querelle a repris de plus belle. Désormais, les deux camps sont d'accord sur un point : la guilde n'avait pas à s'en mêler."
+  },
+  "recompenses": { "or": 30, "reputation": 2, "xp": 25, "objet": { "rarete": "commun", "chance": 3 } },
+  "suite": null
+}
+]

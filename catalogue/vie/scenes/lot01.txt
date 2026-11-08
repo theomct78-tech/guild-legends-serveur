@@ -1,0 +1,272 @@
+# Scènes de la vie de guilde · lot pilote 1 (8 nov. 2026)
+# ID|déclencheur|conditions|importance|effets|texte (variantes séparées par //)
+# Écrit au présent, sans accord de genre sur {a}, {b}, {c}.
+
+# --- Entraînement sans partenaire ---
+VIE-0001|entrainement||1||{a} enchaîne les mêmes passes dans la cour jusqu'à ce que le geste ne demande plus aucune pensée. Le bruit régulier des coups rythme toute la matinée du repère. // {a} s'entraîne contre le mannequin de paille de la cour, qui perd, comme d'habitude, et y laisse encore un peu de rembourrage.
+VIE-0002|entrainement||1||{a} passe une heure à travailler son jeu de jambes, sous le regard de {chien}, couché dans la poussière, qui remue la queue à chaque esquive.
+VIE-0003|entrainement|a.Di>75,matin|1||{a} arrive dans la cour avant tout le monde, range les armes que les autres ont laissé traîner, puis s'entraîne sans un mot.
+VIE-0004|entrainement|a:SANGUINAIRE|1||{a} a réduit deux mannequins en charpie et en réclame un troisième. Le forgeron du quartier commence à poser des questions.
+VIE-0005|entrainement|a:FIER|1||{a} recommence une figure ratée vingt fois de suite, en jetant des coups d'œil pour vérifier que personne n'a rien vu.
+VIE-0006|entrainement|a:IMPLACABLE|1||{a} s'entraîne sous la pluie. Quand on propose de rentrer, la réponse tient en un regard.
+VIE-0007|entrainement|a~vengeance|2||{a} frappe un mannequin sur lequel quelqu'un a dessiné un visage. Personne au repère ne sait à qui il appartient, et personne n'ose demander.
+VIE-0008|entrainement|a.Tm>85|1||{a} invente un exercice qui consiste à sauter du toit du préau. Le reste de la guilde décide de ne pas regarder.
+VIE-0009|entrainement|a:PATIENT|1||{a} répète un seul mouvement pendant tout l'après-midi, lentement, comme si le temps avait accepté d'attendre.
+VIE-0010|entrainement|a=Garen|1||{a} s'entraîne à la grande épée en récitant à voix basse les vertus de Demacia. Les pigeons de la cour connaissent maintenant les douze.
+VIE-0011|entrainement|a=Draven|1||{a} s'entraîne à rattraper ses haches en tournant sur lui-même, et salue un public qui n'existe pas encore.
+VIE-0012|entrainement|a=Jinx|1|a.moral+2:Une explosion réussie|{a} « s'entraîne ». Il manque désormais un morceau de mur à la cour, et une odeur de poudre flotte jusqu'aux cuisines.
+VIE-0013|entrainement|a=Vi|1||{a} tape dans un sac de sable jusqu'à le crever, puis le recoud avec une application qui surprend tout le monde.
+VIE-0014|entrainement|a=Lux|1||{a} s'exerce à plier la lumière autour d'un caillou. Pendant une seconde, le caillou disparaît. {chien} bondit dessus, ne trouve rien, aboie une fois, et lance à {a} un regard offensé.
+VIE-0015|entrainement|a:PROTECTEUR|1||{a} s'entraîne à parer les coups venant de derrière, « au cas où quelqu'un en aurait besoin ».
+VIE-0016|entrainement|nuit|1||{a} s'entraîne à la lueur d'une lanterne, au milieu de la nuit. Le bruit des coups résonne contre les murs endormis.
+
+# --- Repos ---
+VIE-0020|repos|apresmidi|1||{a} fait la sieste au soleil sur le banc de la cour, un bras sur les yeux, et ronfle légèrement.
+VIE-0019|repos||1||{a} s'accorde une heure sans rien faire, les pieds sur la table, à regarder passer les nuages par la fenêtre de la salle commune.
+VIE-0021|repos|a:MELANCOLIQUE|1||{a} se repose près d'une fenêtre et regarde la pluie tomber, longtemps.
+VIE-0022|repos|a:SAUVAGE|1||{a} dort sur le toit plutôt que dans un lit. On a renoncé à discuter.
+VIE-0023|repos|a=Braum|1||{a} ronfle si fort pendant la sieste que les verres de la salle commune tintent doucement.
+VIE-0024|repos|blesse:a|1||{a} se repose, la blessure bandée, en jurant que demain tout ira mieux.
+
+# --- Lecture ---
+VIE-0030|lecture||1||{a} lit dans un coin, les pieds sur une chaise. // {a} feuillette un vieux registre de missions et prend des notes dans la marge.
+VIE-0031|lecture|a:CURIEUX|1||{a} a trouvé une carte de Runeterra pleine d'erreurs et s'amuse à les corriger au crayon.
+VIE-0032|lecture|a:ERUDIT|1||{a} annote un traité de stratégie avec une encre d'une autre couleur pour chaque désaccord avec l'auteur. Le livre est maintenant multicolore.
+VIE-0033|lecture|a:CALCULATEUR|1||{a} relit les comptes de la guilde, deux fois, et fronce les sourcils sur une dépense de chandelles.
+VIE-0034|lecture|a~savoir,apresmidi|1|a.moral+2:Une découverte|{a} passe la journée le nez dans un livre et note une découverte dans un carnet qui ne quitte jamais sa poche.
+VIE-0035|lecture|a=Lux|1||{a} lit un traité de magie interdit à Demacia, caché dans la couverture d'un livre de cuisine.
+VIE-0036|lecture|a:SAUVAGE|1||{a} regarde les images d'un bestiaire et pousse un grognement satisfait devant chaque animal qu'on peut manger.
+
+# --- Ville ---
+VIE-0040|ville|apresmidi|1||{a} passe l'après-midi à {bourg} et rentre avec du pain encore chaud pour tout le monde. Il n'en reste plus une miette à la tombée du jour.
+VIE-0039|ville||1||{a} flâne au marché de {bourg} et revient avec des nouvelles du quartier, plus ou moins vraies. // {a} fait un tour à {bourg} et rentre avec une rumeur qui fera parler tout le repère au dîner.
+VIE-0041|ville|a:CHARMEUR|1||{a} rentre de la ville avec trois invitations à dîner et une fleur derrière l'oreille.
+VIE-0042|ville|a:JOUEUR|1|po-6|{a} revient de la ville sans un sou en poche, en jurant que la prochaine partie sera la bonne.
+VIE-0043|ville|a:CUPIDE|1|po+5|{a} revient de la ville avec une bourse un peu plus lourde qu'au départ, et refuse d'expliquer pourquoi.
+VIE-0044|ville|a:VANITEUX|1||{a} fait trois fois le tour de la grand-place pour être bien vu de tous, puis rentre en comptant ses admirateurs, réels ou supposés.
+VIE-0045|ville|a:LIBRE|1||{a} disparaît en ville toute la journée et rentre avec les bottes pleines de poussière et le regard tranquille.
+VIE-0046|ville|a:IMPULSIF|2|a.moral-2:Une bagarre en ville|{a} rentre de la ville avec un œil au beurre noir et un grand sourire : « Vous auriez dû voir l'autre. »
+VIE-0047|ville|a:CURIEUX|1||{a} a suivi un colporteur jusqu'au bout du quartier pour comprendre comment fonctionnait sa boîte à musique.
+VIE-0048|ville|a:BIENVEILLANT|1||{a} a aidé une marchande à remonter son étal renversé par le vent, et rapporte un panier de pommes en remerciement.
+VIE-0049|ville|a=Draven|2||{a} a signé des autographes en ville. Personne n'en avait demandé, mais {a} a eu la gentillesse d'en signer quand même.
+VIE-0050|ville|a=Ahri|1||{a} revient de la ville avec un collier de perles d'un marchand qui ne se souvient plus pourquoi il l'a offert.
+VIE-0051|ville|a=Teemo|1||{a} a cartographié tous les raccourcis du quartier en une après-midi, et propose d'en faire une visite guidée.
+VIE-0052|ville|a.So<30|1||{a} va en ville aux heures où il n'y a personne, achète ce qu'il faut, et rentre sans avoir parlé à qui que ce soit.
+
+# --- Solitude ---
+VIE-0060|solitude||1||{a} passe un long moment sur les remparts, à regarder la route qui mène à {bourg}. // {a} s'isole sur les remparts avec une pomme et ses pensées, les jambes dans le vide.
+VIE-0061|solitude|a:HANTE|2|a.moral-2:De vieux souvenirs|{a} reste sur les remparts à fixer l'horizon. Quand quelqu'un monte, {a} sursaute comme au sortir d'un mauvais rêve.
+VIE-0062|solitude|a:TACITURNE|1||{a} a trouvé un recoin des remparts où personne ne passe, et compte bien le garder secret.
+VIE-0063|solitude|a:MELANCOLIQUE|1||{a} écrit une lettre sur les remparts, la relit, puis la plie et la range sans l'envoyer.
+VIE-0064|solitude|a=Yasuo|1||{a} joue un air lent sur une flûte de bois. Le vent semble se taire pour écouter.
+VIE-0065|solitude|a=Katarina|1||{a} lance des dagues sur une cible au bout des remparts, sans jamais la rater, sans jamais sourire.
+
+# --- Recueillement ---
+VIE-0070|recueillement||1||{a} prend un moment de calme, les yeux fermés, loin du bruit du repère.
+VIE-0071|recueillement|a:DEVOT,matin|1|a.moral+2:Une prière|{a} accomplit ses rites du matin avec soin. Les autres ont appris à ne pas passer devant à ce moment-là.
+VIE-0072|recueillement|a:HANTE|1||{a} médite pour faire taire les voix du passé. Ça marche, presque.
+VIE-0073|recueillement|a:FANATIQUE|1||{a} prie longtemps et se relève avec un regard brûlant que personne n'a envie de croiser.
+
+# --- Soins ---
+VIE-0080|soins|blesse:a|1||{a} change son bandage en serrant les dents. // {a} reste au lit et compte les poutres du plafond.
+VIE-0082|soins||1||{a} se fait refaire son pansement et en ressort avec un bandage démesuré, qui fait beaucoup d'effet.
+VIE-0081|soins|blesse:a,a:FIER|1||{a} refuse de rester au lit plus d'une heure et fait semblant de ne pas boiter.
+
+# --- Discussion sans personne ---
+VIE-0090|discussion||1||{a} attend dans la salle commune que quelqu'un vienne parler. Personne ne vient. // {a} boit une tisane dans la salle commune vide et écoute le feu craquer.
+VIE-0091|discussion|a:BAVARD|1||{a}, faute d'interlocuteur, raconte sa journée à {chien}. {chien} écoute la tête penchée, une oreille dressée, comme s'il en savait beaucoup.
+
+# --- Jeux sans partenaire ---
+VIE-0095|jeux||1||{a} fait une réussite sur la grande table, triche, et perd quand même.
+VIE-0096|jeux|a:FARCEUR|1||{a} prépare un seau d'eau au-dessus de la porte de la salle commune. Reste à savoir qui entrera le premier.
+
+# --- La nuit ---
+VIE-0100|nuit||1||{a} ne dort pas et fait le tour du repère, une lanterne à la main. Les marches grincent ; {chien} trottine derrière, sans un bruit, la truffe au ras du sol. // {a} veille dans la salle commune pendant que tout le monde dort, à écouter craquer les braises.
+VIE-0101|nuit|a:HANTE|2|a.moral-3:Une nuit de cauchemars|{a} se réveille en criant au milieu de la nuit, puis passe les heures noires près du feu, sans fermer l'œil.
+VIE-0102|nuit|a:SAUVAGE|1||{a} chasse quelque chose dans la cour au milieu de la nuit. Au matin, on retrouve une plume, et beaucoup de questions.
+VIE-0103|nuit|a:JOUEUR|1||{a} organise une partie de cartes nocturne avec les gardes du quartier, et rentre au petit matin avec leurs économies.
+VIE-0104|nuit|a=Jinx|2||{a} peint des requins souriants sur les murs du couloir en pleine nuit. Au matin, il y en a douze. Ils sont très réussis.
+
+# --- Évitement ---
+VIE-0110|evite||2||{a} aperçoit {b} {lieu}, fait demi-tour, et trouve soudain quelque chose d'urgent à faire ailleurs.
+VIE-0111|evite||2||{a} attend que {b} s'en aille avant de s'installer {lieu}.
+VIE-0112|evite|a:RANCUNIER|2||{a} passe devant {b} sans un regard. L'affaire de l'autre jour n'est visiblement pas oubliée.
+VIE-0113|evite|a:IMPULSIF|2||{a} arrive {lieu}, voit {b}, et repart aussitôt en claquant la porte, pour éviter de faire pire.
+VIE-0114|evite|pays_hai|2||{a} refuse de rester {lieu} avec « quelqu'un de là-bas » et part ailleurs. {b} fait semblant de ne pas avoir entendu.
+
+# --- Retour de congés ---
+VIE-0120|retour_conges||2||{a} rentre de congés avec une mine reposée et une valise pleine de souvenirs pour les autres.
+VIE-0121|retour_conges||2||{a} revient de congés avec un bronzage étonnant et une histoire qu'il faudra au moins une soirée pour raconter.
+VIE-0122|retour_conges|a:LIBRE|2||{a} revient de congés en sifflotant, les poches pleines de sable, et l'air d'avoir respiré pour la première fois depuis des semaines.
+VIE-0123|retour_conges|a:GOURMAND|2||{a} revient de congés avec un jambon entier sous le bras et une recette qu'il faudra essayer dès ce soir.
+
+# --- Départ en congés ---
+VIE-0124|depart_conges||2||{a} part en congés avec un sac trop petit et une liste de projets trop longue. // {a} quitte le repère au petit trot, en promettant de rapporter quelque chose à tout le monde.
+VIE-0125|depart_conges|a:LIBRE|2||{a} part en congés sans dire où. On sait seulement que c'est loin, et que ça fera du bien.
+VIE-0126|depart_conges|a.So>75|2||{a} fait le tour du repère pour dire au revoir à chacun, comme pour un départ à l'autre bout de Runeterra. C'est pour deux jours.
+
+# --- Fugue (congés refusés, mais pris quand même) ---
+VIE-0127|fugue||3|a.moral+2:Une liberté volée|Au matin, le lit de {a} est vide. Un mot sur l'oreiller : « Je reviens. Ne m'attendez pas pour dîner. »
+VIE-0128|fugue||3||{a} passe le portail du repère sans se retourner, malgré le refus du maître de guilde. Les gardes ont préféré ne pas s'interposer.
+VIE-0129|fugue|a:REBELLE|3||{a} laisse sur le bureau du maître de guilde la lettre de refus, pliée en forme d'oiseau, et disparaît avant l'aube.
+
+# --- Première rencontre ---
+VIE-0130|premiere_rencontre||1||{a} et {b} se croisent {lieu} pour la première fois et se jaugent, comme deux chats sur un même mur. {a:salut}
+VIE-0131|premiere_rencontre||1||{a} se présente à {b} avec un nom, une poignée de main et un résumé de sa vie que {b} oubliera presque aussitôt, à part un détail, toujours le plus gênant.
+VIE-0132|premiere_rencontre|meme_pays|1|aff+6|{a} reconnaît l'accent de {b} au premier mot. La conversation sur le pays dure une heure.
+VIE-0133|premiere_rencontre|pays_hai|2|aff-6|{a} apprend d'où vient {b}, et la conversation s'arrête là.
+VIE-0134|premiere_rencontre|a:MEFIANT|1||{a} répond aux questions de {b} par d'autres questions, jusqu'à ce que {b} abandonne.
+VIE-0135|premiere_rencontre|a:BAVARD|1||{a} raconte sa vie entière à {b} en un quart d'heure. {b} n'a pas encore dit son nom.
+VIE-0136|premiere_rencontre|a:CHARMEUR|1|aff+4|{a} accueille {b} avec un sourire de vieille connaissance.
+
+# --- Reconnaissance (même champion, autre univers, ou lien d'un autre monde) ---
+VIE-0140|reconnaissance||2||{a} fixe {b} un long moment. « On s'est déjà vus, non ? Ailleurs. Dans une autre vie. » {b} n'en sait rien, mais ne dit pas non.
+VIE-0141|reconnaissance||2||{a} et {b} se regardent comme deux personnes qui portent le même souvenir sans savoir lequel.
+
+# --- Bons moments ---
+VIE-0150|bon_moment||1|aff+1|{a} et {b} partagent un ragoût trop salé au bout de la grande table. {b} raconte une histoire du pays ; {a} vole un morceau de pain dans son assiette chaque fois que l'histoire devient intéressante. // {a} raconte une histoire drôle à {b}, qui fait semblant de ne pas rire, puis s'étrangle avec sa soupe. {a:rire}
+VIE-0151|bon_moment||1||Il fait frais ce matin. {a} jette son manteau sur les épaules de {b}, qui grelotte sur le perron. {b:merci}
+VIE-0152|bon_moment||1||{a} et {b} tendent la main au même moment vers la dernière part de tourte aux pommes. Long regard. Couteau. Deux moitiés parfaitement égales, mesurées au millimètre.
+VIE-0153|bon_moment|lieu=cuisines|1||{a} apprend à {b} une recette de son pays. Le résultat est mangeable, ce qui est déjà beaucoup.
+VIE-0154|bon_moment|a:FARCEUR|1|aff+2|{a} fait rire {b} avec une imitation très réussie du maître de guilde.
+VIE-0155|bon_moment|a:ENJOUE|1|b.moral+2:La bonne humeur de quelqu'un|{a} a décidé que {b} avait besoin de sourire aujourd'hui, et n'a pas lâché avant d'y arriver.
+VIE-0156|bon_moment|a:BIENVEILLANT|1|b.moral+2:Une attention|{a} remarque que {b} a mauvaise mine et apporte une tasse de lait chaud sans rien demander.
+VIE-0157|bon_moment|a:GOURMAND|1||{a} partage ses provisions secrètes avec {b}, ce qui est, de sa part, une déclaration d'amitié.
+VIE-0158|bon_moment|a:BAVARD,b:TACITURNE|1||{a} parle pendant une heure. {b} hoche la tête deux fois. Pour {b}, c'était une très bonne conversation.
+VIE-0159|bon_moment|meme_pays|1|aff+2|{a} et {b} chantent une chanson de leur pays, faux, mais ensemble.
+VIE-0160|bon_moment|a:CURIEUX|1||{a} pose à {b} cent questions sur son passé. {b} répond à trois, ce qui est déjà un exploit.
+VIE-0161|bon_moment|lien=famille|1|aff+1|{a} et {b} se chamaillent comme seule une famille sait le faire, sans méchanceté.
+VIE-0162|bon_moment|a:CHARMEUR|1|aff+2|{a} complimente {b} avec tant de naturel que {b} rougit jusqu'aux oreilles.
+VIE-0163|bon_moment|a:PROTECTEUR|1||{a} recoud la manche déchirée de {b}, avec de gros points et beaucoup de sérieux.
+VIE-0164|bon_moment|soir|1||{a} et {b} restent à parler près du feu jusque tard dans la soirée.
+VIE-0165|bon_moment|a:ERUDIT|1||{a} explique à {b} l'origine du nom de leur rue. C'est plus intéressant que prévu.
+VIE-0166|bon_moment|a=Braum|1|b.moral+3:Une étreinte de Braum|{a} serre {b} dans ses bras sans prévenir. {b} met une bonne minute à retrouver son souffle, et le sourire.
+VIE-0167|bon_moment|a=Teemo|1||{a} montre à {b} comment reconnaître les champignons qu'on peut manger. Et ceux qu'il ne faut surtout pas toucher. Surtout pas.
+VIE-0168|bon_moment|a=Draven|1||{a} explique à {b} pourquoi Draven est le meilleur. La démonstration dure une heure et contient onze exemples.
+
+# --- Confidences ---
+VIE-0180|confidence|soir|2|aff+2|Tard dans la soirée, {a} confie à {b} une peur dont personne d'autre n'a entendu parler.
+VIE-0181|confidence||2|aff+2|{a} montre à {b} une vieille lettre, toujours gardée sur soi. Le silence dure un long moment.
+VIE-0182|confidence|a:HANTE|2|aff+3|{a} raconte enfin à {b} ce qui revient la nuit. {b} écoute jusqu'au bout, sans juger.
+VIE-0183|confidence|a:TACITURNE|3|aff+4|{a} parle plus à {b} en une soirée qu'à tout le reste de la guilde depuis son arrivée.
+VIE-0184|confidence|a~vengeance|2|aff+2|{a} confie à {b} le nom de quelqu'un, et le serment qui va avec.
+VIE-0185|confidence|a~redemption|2|aff+2|{a} raconte à {b} la faute qu'il faudra un jour réparer. {b} propose son aide. {a} ne dit pas non.
+VIE-0186|confidence|lien=amour,soir|2|aff+3|{a} et {b} parlent à voix basse sur les remparts, et le repère fait semblant de ne pas les voir.
+VIE-0187|confidence|a:CYNIQUE|2|aff+3|{a}, qui ne croit à rien, avoue à {b} croire encore un peu en la guilde. « Mais ne le répète pas. »
+VIE-0188|confidence|a:FIER|2|aff+3|{a} admet devant {b} avoir eu peur pendant la dernière mission. C'est la première fois que ces mots sortent.
+
+# --- Désaccords ---
+VIE-0200|desaccord||1||{a} et {b} ne sont pas d'accord sur la meilleure façon de ranger l'armurerie. Elle reste en désordre.
+VIE-0201|desaccord||1||{a} trouve que {b} parle trop fort au petit-déjeuner. {b} trouve que {a} mâche trop fort. {chien} pousse un long soupir et va se coucher dans la cour, excédé par les deux.
+VIE-0202|desaccord||1||{a} lève les yeux au ciel pendant que {b} raconte son exploit pour la troisième fois de la journée. À la quatrième, {a} récite la fin en même temps que {b}.
+VIE-0203|desaccord|a.Di>70,b.Di<35|1||{a} rappelle à {b} que le couvre-feu existe. {b} répond que les règles aussi, et que c'est bien dommage.
+VIE-0204|desaccord|b:FARCEUR,a.Di>70|1|a.moral-1:Une farce de trop|{a} retrouve ses bottes remplies de confiture. Tout le monde regarde {b}, qui regarde le plafond.
+VIE-0205|desaccord|a:ARISTOCRATE|1||{a} fait remarquer à {b} que l'on ne mange pas avec les doigts. {b} continue, les yeux dans les yeux.
+VIE-0206|desaccord|a:IDEALISTE,b:CYNIQUE|1||{a} parle d'un monde meilleur. {b} ricane. Le dîner refroidit pendant toute l'explication.
+VIE-0207|desaccord|a:HONORABLE,b:MERCENAIRE|1||{a} reproche à {b} de compter sa paie avant de compter ses blessés. {b} hausse les épaules : « Les blessés, ça ne paie pas le loyer. »
+VIE-0208|desaccord|a:MEFIANT|1||{a} surprend {b} près de ses affaires et vérifie que rien ne manque, ostensiblement.
+VIE-0209|desaccord|a:VANITEUX|1||{a} trouve que {b} n'a pas assez applaudi au récit de sa dernière mission.
+VIE-0210|desaccord|pays_hai|1|aff-2|{a} fait une remarque sur le pays de {b}. Le silence qui suit dure longtemps.
+VIE-0211|desaccord|lien=famille|1||{a} et {b} se disputent comme en famille : pour une broutille, à voix haute, et en ressortant des histoires d'il y a dix ans.
+VIE-0212|desaccord|a:BAVARD,b:TACITURNE|1||{a} parle, {b} se tait, puis {b} se lève et change de pièce. {a} continue de parler.
+VIE-0213|desaccord|a:SANGUINAIRE|1||{a} raconte la dernière mission avec un peu trop de détails pendant le repas. {b} repose sa fourchette.
+
+# --- Disputes ---
+VIE-0230|dispute||3||Les voix montent entre {a} et {b} {lieu}. Une chaise vole. Personne ne sait plus comment ça a commencé.
+VIE-0231|dispute||3||{a} et {b} se disent des choses qu'on ne retire pas. Le repère se tait jusqu'au soir.
+VIE-0232|dispute|lieu=cour|3||Un entraînement entre {a} et {b} tourne mal : les coups deviennent vrais, et il faut les séparer.
+VIE-0233|dispute|a:IMPULSIF|3||{a} renverse la table devant {b} et sort en claquant la porte. Il faudra une nouvelle table.
+VIE-0234|dispute|a:RANCUNIER|3||{a} ressort devant toute la guilde une vieille histoire que {b} croyait enterrée.
+VIE-0235|dispute|pays_hai|3|aff-4|{a} et {b} s'accusent des crimes de leurs pays. Personne ici n'y était, mais ça n'arrête rien.
+VIE-0236|dispute|lien=famille|3||{a} et {b} s'affrontent comme seuls des proches savent le faire : en visant juste, là où ça fait mal.
+VIE-0237|dispute|lien=amour|3||{a} et {b} se disputent à voix basse, ce qui est pire que des cris. Toute la guilde a entendu quand même.
+VIE-0238|dispute|lien=rival|3||{a} provoque {b} en duel devant tout le monde. {b} accepte. Personne n'a demandé son avis au maître de guilde.
+VIE-0239|dispute|a:JOUEUR|3|po-8|Une partie de cartes entre {a} et {b} finit par des accusations de triche, des cartes déchirées et une bourse disparue.
+
+# --- Médiation ---
+VIE-0250|mediation||2||{c} s'interpose entre {a} et {b} avant que ça dégénère, et les force à s'asseoir.
+VIE-0251|mediation||2||{c} pose deux bols de soupe devant {a} et {b} et attend, sans rien dire, que le calme revienne. Ça marche.
+VIE-0252|mediation|c=Braum|2||{c} soulève {a} d'une main et {b} de l'autre, attend que les cris cessent, puis repose tout le monde doucement. « Voilà. Maintenant, on parle. »
+VIE-0253|mediation|c=Lux|2||{c} remplit la pièce d'une lumière si douce que {a} et {b} en oublient l'objet de leur dispute.
+
+# --- Réconciliation ---
+VIE-0260|reconciliation||2|aff+3|{a} pose une tasse fumante devant {b}, sans un mot. {b} la prend. C'est fini.
+VIE-0261|reconciliation||2|aff+3|{a} et {b} finissent par rire de leur dispute, ce qui est toujours bon signe.
+VIE-0262|reconciliation|a:FIER|2|aff+4|{a} s'excuse auprès de {b}. Ça a l'air de coûter très cher, et c'est justement ce qui compte.
+VIE-0263|reconciliation|lien=famille|2|aff+4|{a} et {b} se retrouvent sur les remparts. « On est bêtes. » « Oui. » Et c'est réglé.
+
+# --- Entraînement à deux ---
+VIE-0280|entrainement_duo||1||{a} et {b} s'entraînent ensemble. {a} corrige la garde de {b}, qui corrige l'appui de {a}.
+VIE-0281|entrainement_duo|apresmidi|1||{a} et {b} enchaînent les passes jusqu'à ce que leurs ombres s'allongent dans la cour.
+VIE-0282|entrainement_duo|a:PROTECTEUR|1||{a} apprend à {b} à se relever vite après une chute. « La chute, ça arrive. Rester par terre, non. »
+VIE-0283|entrainement_duo|a:FARCEUR|1||{a} profite de l'entraînement pour faire un croche-pied à {b}. Il y a de la boue partout.
+VIE-0284|entrainement_duo|a.Tm>85,b.Tm<40|1||{a} veut s'entraîner avec de vraies lames. {b} propose des bâtons. Ce sera des bâtons, mais {a} boude.
+VIE-0285|entrainement_duo|lien=famille|1|aff+1|{a} et {b} s'entraînent ensemble avec des gestes qu'on dirait appris au même endroit.
+
+# --- Défis ---
+VIE-0300|defi||2||{a} défie {b} : trois touches pour gagner. Le combat dure tout l'après-midi, et il n'y a pas de vainqueur.
+VIE-0301|defi||2||{a} et {b} font la course jusqu'en haut des remparts. Les deux prétendent avoir gagné.
+VIE-0302|defi|lien=rival|2|aff+1|{a} et {b} s'affrontent sous les yeux de toute la guilde. Après, la rivalité ressemble un peu plus à du respect.
+VIE-0303|defi|a:VANITEUX|2||{a} défie {b} devant témoins, uniquement pour avoir des témoins.
+VIE-0304|defi|a:JOUEUR|2|po+4|{a} prend les paris sur son propre duel contre {b}, et mise discrètement quelques pièces sur {b}, au cas où.
+
+# --- Leçons ---
+VIE-0320|lecon||2||{a} montre à {b} une technique qui a demandé des années à maîtriser. {b} la rate quarante fois, puis la réussit une fois, et c'est déjà quelque chose.
+VIE-0321|lecon|a:PATIENT|2|aff+2|{a} corrige {b} sans jamais hausser le ton, encore et encore, jusqu'à ce que le geste soit juste.
+VIE-0322|lecon|a:ERUDIT|2||{a} transforme un simple entraînement en leçon d'histoire militaire. {b} en sort avec des courbatures et trois dates à retenir.
+VIE-0323|lecon|lien=mentor|2|aff+3|{a} retrouve avec {b} les gestes d'autrefois, du temps où tout commençait.
+
+# --- Jeux ---
+VIE-0340|jeu|soir|1||{a} et {b} jouent aux osselets sur le banc de pierre de la cour jusqu'à ce qu'il fasse trop sombre pour voir les points. Le score exact est un secret d'État.
+VIE-0345|jeu||1||{a} et {b} font une partie de dés sur un coin de la grande table, entre les miettes et les chopes vides. Qui perd fera la vaisselle. {b} perd. {a:taquine}
+VIE-0341|jeu||1||{a} apprend à {b} un jeu de cartes de son pays. Les règles semblent changer à chaque partie, toujours en faveur de {a}. {b} finit par s'en apercevoir. {b:colere}
+VIE-0342|jeu|a:JOUEUR|2|po+5|{a} plume {b} aux dés, avec un sourire désolé qui ne trompe personne.
+VIE-0343|jeu|a:CALCULATEUR|1||{a} gagne toutes les parties d'échecs contre {b}, sans un mot, en notant chaque coup.
+VIE-0344|jeu|a:FARCEUR|1||{a} invente un jeu avec trois gobelets et une noisette. Après dix parties perdues, {b} soupçonne qu'il n'y a jamais eu de noisette. {a:rire}
+
+# --- Soirées ---
+VIE-0360|soiree||2||La salle commune s'illumine. {a} lève son verre, {b} répond, et la soirée commence.
+VIE-0361|soiree||2||On pousse les tables, quelqu'un sort un luth, et {a} entraîne {b} dans une danse que personne ne connaît.
+VIE-0362|soiree|a:GOURMAND|2||{a} a cuisiné pour toute la guilde. {b} demande la recette. {a} refuse, avec dignité.
+VIE-0363|soiree|a=Draven|2||{a} monte sur une table pour raconter sa propre légende. {b} lance une chope pour la gloire, que {a} rattrape au vol, évidemment.
+VIE-0364|soiree|a:BAVARD|2||{a} fait un discours que personne n'a demandé. {b} lance les applaudissements, surtout pour que ça s'arrête.
+
+# --- Absents de soirée ---
+VIE-0380|absent_soiree||1||Pendant la fête, {a} reste sur les remparts, à écouter la musique de loin.
+VIE-0381|absent_soiree|a:TACITURNE|1||{a} a trouvé la soirée trop bruyante. On l'aperçoit à la fenêtre, une bougie à la main.
+VIE-0382|absent_soiree|a:RANCUNIER|1||{a} n'est pas là : « pas avec qui vous savez dans la salle ».
+
+# --- Scènes liées aux couples de champions (lien canonique, même univers) ---
+VIE-0400|bon_moment|a=Garen,b=Lux,lien=famille|2|aff+2|{a} et {b} évoquent leur enfance à Demacia. {b} imite leur mère ; {a} rit si fort que la moitié du repère accourt.
+VIE-0401|desaccord|a=Garen,b=Lux,lien=famille|2||{a} trouve que {b} prend trop de risques. {b} répond que son frère n'a plus le droit de lui dire quoi faire. Le ton reste tendre, mais ferme.
+VIE-0402|confidence|a=Lux,b=Garen,lien=famille|3|aff+4|{a} montre enfin sa magie à {b}, sans rien cacher. {b} reste longtemps silencieux, puis pose une main sur l'épaule de sa sœur.
+VIE-0403|bon_moment|a=Garen,b=Katarina,lien=amour|2|aff+2|{a} et {b} se croisent dans la cour. Ils échangent une phrase de rien du tout, et le reste de la journée, ni l'un ni l'autre n'arrive à se concentrer.
+VIE-0404|desaccord|a=Katarina,b=Garen,lien=amour|2||{a} se moque des principes de {b}. {b} se moque des lames de {a}. C'est leur façon de dire qu'ils se sont manqués.
+VIE-0405|confidence|a=Katarina,b=Garen,lien=amour|3|aff+4|Sur les remparts, {a} et {b} parlent de ce qui serait possible si Noxus et Demacia n'existaient pas. Puis ils se taisent, parce qu'elles existent.
+VIE-0406|bon_moment|a=Jinx,b=Vi,lien=famille|2|aff+2|{a} dessine un portrait de {b} sur le mur : énormes poings, petite tête. {b} fait semblant d'être vexée et garde le dessin.
+VIE-0407|dispute|a=Jinx,b=Vi,lien=famille|3||{b} tente de parler du passé. {a} répond par un rire trop aigu et une grenade dégoupillée, qu'elle rattrape juste à temps. Personne ne respire pendant une seconde.
+VIE-0408|confidence|a=Vi,b=Jinx,lien=famille|3|aff+5|{a} appelle {b} « Powder ». Pour une fois, {b} ne crie pas. Elle reste assise, et laisse {a} s'asseoir à côté.
+VIE-0409|defi|a=Darius,b=Draven,lien=famille|2||{b} propose à {a} un concours de lancer de haches. {a} refuse. {b} lance quand même, et {a} soupire comme seul un grand frère sait soupirer.
+VIE-0410|bon_moment|a=Draven,b=Darius,lien=famille|2|aff+2|{a} raconte à toute la guilde les exploits de {b}, en exagérant tout. {b} ne dément rien.
+VIE-0411|defi|a=Garen,b=Darius,lien=rival|3|aff+2|{a} et {b} s'affrontent dans la cour, sans haine, avec une précision terrible. À la fin, ils se saluent comme on salue un ennemi qu'on respecte.
+VIE-0412|confidence|a=Yasuo,b=Yone,lien=famille|3|aff+5|{a} et {b} partagent une bouteille sur les remparts. Le passé est là, entre eux, mais ce soir, il les laisse tranquilles.
+VIE-0413|bon_moment|a=Xayah,b=Rakan,lien=amour|2|aff+2|{b} fait le pitre pour {a}, qui lève les yeux au ciel, puis sourit, comme toujours.
+VIE-0414|bon_moment|a=Caitlyn,b=Vi,lien=amour|2|aff+2|{a} et {b} jouent aux fléchettes. {a} gagne à chaque fois. {b} prétend la laisser faire.
+VIE-0415|dispute|a=Jinx,b=Caitlyn,lien=ennemi|3||{a} a peint une cible sur la porte de {b}. {b} l'a remarqué. Il va falloir que quelqu'un parle aux deux, et vite.
+VIE-0416|bon_moment|a=Ekko,b=Jinx,lien=ami|2|aff+2|{a} et {b} bricolent un gadget dans un coin. Il explose. Ils rient comme deux gamins de Zaun.
+VIE-0417|bon_moment|a=Teemo,b=Tristana,lien=ami|2|aff+2|{a} et {b} se racontent les dernières nouvelles de Bandle, en grimpant sur une caisse pour être à la hauteur du comptoir.
+VIE-0418|bon_moment|a=Sett,b=Ahri,lien=ami|2|aff+2|{a} et {b} se rappellent de vieilles histoires d'Ionia. {a} rit fort, {b} rit en silence, et la salle commune se réchauffe.
+VIE-0419|bon_moment|a=Garen,b=Jarvan IV,lien=ami|2|aff+2|{a} et {b} refont la dernière bataille avec des salières sur la table. Demacia gagne, évidemment.
+VIE-0420|lecon|a=Yasuo,b=Taliyah,lien=mentor|2|aff+3|{a} apprend à {b} à écouter le vent avant de frapper. {b} préfère écouter la pierre. Ils trouvent un compromis : écouter les deux.
+
+# --- Scènes de champions en solo ou à deux, sans lien ---
+VIE-0440|bon_moment|a=Braum|1|b.moral+2:La soupe de Braum|{a} prépare une soupe du Freljord pour {b}. Elle tient au corps jusqu'au lendemain soir.
+VIE-0441|desaccord|a=Jinx,b.Di>70|2|b.moral-2:Un mauvais tour de Jinx|{a} a remplacé le savon de {b} par un savon qui mousse en bleu. Toute la journée, des bulles bleues suivent {b} partout.
+VIE-0442|bon_moment|a=Ahri|1|aff+3|{a} écoute {b} avec une attention si totale que {b} se surprend à raconter des choses jamais dites à personne.
+VIE-0443|desaccord|a=Garen,b:FARCEUR|1||{a} explique à {b}, très sérieusement, ce que signifie le mot « discipline ». {b} pose une question, puis une autre, puis {a} comprend qu'on se moque.
+VIE-0444|bon_moment|a=Lux|1|b.moral+2:Une petite lumière|{a} accroche une petite lumière au-dessus du lit de {b}, « pour les nuits difficiles ».
+VIE-0445|jeu|a=Twisted Fate|2|po+8|{a} montre un tour de cartes à {b}. À la fin, {b} n'a plus sa bourse, puis la retrouve dans sa propre poche, un peu plus légère.
+VIE-0446|bon_moment|a=Teemo|1||{a} fait le salut militaire de Bandle à {b}, qui le lui rend avec beaucoup de solennité et un peu trop de hauteur.
+VIE-0447|desaccord|a=Draven|1||{a} se plaint que la guilde ne porte pas assez son nom. {b} propose « Draven et les autres ». {a} trouve que c'est un bon début.
+VIE-0448|bon_moment|a=Katarina|1||{a} montre à {b} comment cacher une lame dans une manche. « Au cas où. » Au cas où quoi, personne ne le sait.
+VIE-0449|bon_moment|a=Vi|1|aff+2|{a} aide {b} à porter une caisse trop lourde, d'une seule main, en parlant d'autre chose.

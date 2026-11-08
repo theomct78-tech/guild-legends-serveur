@@ -1,0 +1,103 @@
+# Lexique du monde (8 nov. 2026)
+# Pour les joueurs qui ne connaissent pas Runeterra : chaque terme du monde rencontré dans le jeu peut se toucher pour ouvrir sa carte.
+# Format : Terme|autres formes (séparées par ;)|région|définition (une ou deux phrases, sans jargon)
+
+# --- Le monde ---
+Runeterra||monde|Le monde du jeu : un continent de royaumes, de déserts, de glaces et d'îles, où la magie existe et où les dieux ont parfois marché parmi les hommes.
+Demacia|Demacien;Demacienne;Demaciens|demacia|Un royaume de chevaliers fiers et loyaux, à l'ouest. Il interdit la magie et enferme ceux qui la pratiquent, ce qui le déchire de l'intérieur.
+Noxus|Noxien;Noxienne;Noxiens;Noxiennes|noxus|Un empire conquérant où seule compte la force, quelle que soit votre naissance. Il a envahi Ionia, et beaucoup ne le lui pardonnent pas.
+Freljord||freljord|Le Grand Nord gelé, fait de tribus rivales, de glaciers et de demi-dieux. On y survit à la force des bras.
+Ionia|Ionien;Ionienne;Ioniens;Ionie|ionia|Un archipel où la magie et la nature ne font qu'un. Paisible autrefois, il porte encore les cicatrices de l'invasion de Noxus.
+Piltover|Piltovien;Piltoviens|piltover|La cité du progrès, riche et brillante, perchée sur la falaise. Ses inventeurs y créent des merveilles, et ses marchands y font fortune.
+Zaun|Zaunien;Zauniens|zaun|La ville souterraine sous Piltover : usines, fumées toxiques et rues sans loi. Pauvre, dangereuse, et pleine de génie.
+Bilgewater||bilgewater|Un port de pirates, de chasseurs de monstres marins et de contrebandiers, dans les Îles de la Flamme bleue. Tout s'y achète, même une vengeance.
+Shurima|Shurimien;Shurimiens|shurima|Un immense désert qui fut le plus grand empire du monde, avant de s'effondrer. Ses ruines s'éveillent à nouveau.
+Targon|Mont Targon|targon|La plus haute montagne du monde, dont le sommet touche les étoiles. Ceux qui l'atteignent sont parfois choisis par des êtres célestes.
+Ixtal||ixtal|Une jungle profonde, isolée du monde, où une élite de mages des éléments vit cachée dans des cités dorées.
+Bandle|Bandle|bandle|Le pays des yordles, un monde à moitié magique qu'on ne trouve qu'en passant par des portails cachés.
+Néant|le Néant|monde|Une dimension affamée qui cherche à dévorer Runeterra. Ses créatures sont faites pour manger, et pour grandir.
+Îles obscures|Îles obscures;la Ruine;Brume noire|monde|Un archipel maudit, autrefois béni, changé en royaume des morts par une catastrophe : la Ruine. Une brume noire en sort parfois et emporte les vivants.
+Chambre des Bannières|la Chambre|monde|L'assemblée des guildes de Runeterra : chaque guilde reconnue y suspend sa bannière. Elle propose les contrats ouverts à toutes les guildes et tient les registres de réputation.
+
+# --- Peuples et créatures ---
+Yordle|yordles;Yordles|bandle|Un petit peuple magique, à l'allure de peluche, venu de Bandle. Ils ont l'air inoffensifs, ce qui est souvent une erreur.
+Vastaya|vastayas;vastayan;vastayane|ionia|Des êtres mi-humains mi-animaux, liés à la magie de la nature. Beaucoup vivent à Ionia, cachés dans les forêts.
+Darkin|darkins|monde|D'anciens guerriers divins de Shurima, corrompus et enfermés dans leurs armes. Celui qui touche une arme darkin risque de perdre son âme.
+Transfiguré|transfigurés;Transfigurés|shurima|Des guerriers de Shurima élevés au rang de demi-dieux par la lumière du soleil, il y a des millénaires.
+Poro|poros|freljord|Une petite boule de poils du Freljord, toute ronde, toute douce, qui mange tout ce qu'on lui donne. Partout, et inoffensive.
+Troll des glaces|trolls des glaces|freljord|Des géants du Freljord, rustres et rusés, qui vivent dans les montagnes de glace.
+
+# --- Factions et ordres ---
+traqueurs de mages|traqueurs de mages;traqueur de mages|demacia|L'ancien ordre de Demacia qui arrêtait les mages. Officiellement dissous, il a laissé derrière lui des méthodes et des rancunes.
+Illuminateurs||demacia|Un ordre charitable de Demacia qui soigne les pauvres, et qui cache en secret des mages pour les protéger.
+Détachement hardi||demacia|L'élite de l'armée de Demacia. Garen en est l'un des capitaines.
+Pétricite|pétricite|demacia|Une pierre blanche qui absorbe la magie. Demacia en a bâti ses murailles, ses tours et les fers de ses prisonniers.
+Lightshield|maison Lightshield|demacia|La famille royale de Demacia. Jarvan IV en est le prince héritier.
+Crownguard|maison Crownguard|demacia|La grande famille noble de Garen et de Lux, au service de la couronne de Demacia.
+Trifarix||noxus|Le conseil de trois qui gouverne Noxus depuis que Swain a pris le pouvoir : la Force, la Vision et la Ruse.
+Rose noire||noxus|Une société secrète de mages qui tire les ficelles de Noxus depuis l'ombre. On la devine, on ne la voit jamais.
+Bastion immortel|le Bastion|noxus|La capitale de Noxus, une forteresse noire gigantesque bâtie sur les ruines d'un empire plus ancien.
+Tallymen||noxus|Un ordre de Noxus qui soigne les malades et les mourants, et qui ramasse les morts des bas-quartiers.
+Légion Trifarian||noxus|L'une des grandes armées de Noxus, qui garde ses frontières.
+Kinkou||ionia|Un ordre de guerriers d'Ionia, gardiens de l'équilibre entre le monde réel et le monde des esprits. Shen le dirige.
+Ordre de l'ombre||ionia|Les disciples de Zed : des ninjas qui ont choisi des techniques interdites pour défendre Ionia.
+Fraternité Navori||ionia|Un mouvement ionien qui veut une Ionia unie et punir les étrangers, surtout les Noxiens.
+Placidium de Navori|Placidium|ionia|Un grand lieu sacré d'Ionia, où les sages se réunissent et où les pèlerins viennent méditer.
+Avarosans|Avarosan;avarosan;avarosane|freljord|La tribu d'Ashe, la plus ouverte du Freljord, qui rêve d'unir le Nord dans la paix.
+Griffe hivernale|Griffe hivernale;Griffe|freljord|La tribu de Sejuani, la plus dure du Freljord, qui pille le Sud et veut unir le Nord par la force.
+Gardiens du givre||freljord|Les fidèles de Lissandra, sorcière des glaces, retranchés dans leur citadelle du grand Nord. Ils se croient les seuls gardiens légitimes du Freljord.
+Sublimés|Sublimé;Sublimée;sublimés;sublimé|freljord|Les rares humains du Freljord nés avec le don de supporter le froid et de manier la glace pure. Leurs anciens règnent sur les Gardiens du givre.
+Ursidés||freljord|Les fidèles les plus farouches du demi-dieu Volibear : des guerriers qui rejettent les villes, les murs et tout ce qui adoucit le Nord.
+Conseil|Conseil de Piltover|piltover|Le gouvernement de Piltover, formé par les grandes familles marchandes de la ville.
+Gendarmes|gendarmes;gendarme|piltover|Les forces de l'ordre de Piltover. Ils patrouillent la ville haute, et descendent rarement à Zaun sans raison.
+Académie|Académie de Piltover|piltover|La grande école des inventeurs de Piltover, où sont nées l'hextech et quelques catastrophes.
+Hextech||piltover|L'invention qui a fait la fortune de Piltover : de la technologie qui fonctionne avec de la magie enfermée dans des cristaux.
+Fête du progrès||piltover|La grande fête annuelle de Piltover, qui célèbre ses inventions et son ouverture au monde.
+Falaise|la Falaise|piltover|La paroi qui sépare Piltover, en haut, de Zaun, en bas. On la traverse par des ascenseurs et des escaliers interminables.
+Chimtech|chimtech|zaun|La technologie de Zaun, qui fonctionne avec des produits chimiques. Puissante, sale, et souvent dangereuse.
+Shimmer||zaun|Une drogue de Zaun, violette, qui rend fort et fou. Elle détruit ceux qui en prennent.
+Failles|les Failles|zaun|Les rues de Zaun, entre les usines et les ponts, là où vivent les petites gens.
+Puisard|le Puisard|zaun|Le fond de Zaun, le quartier le plus bas et le plus toxique, où l'air est presque irrespirable.
+Lucioles||zaun|Une bande de jeunes de Zaun menée par Ekko, qui protège les plus faibles.
+Barons chimiques|baron chimique;barons|zaun|Les chefs de gangs de Zaun, qui contrôlent les usines, les rues et le commerce de chimtech.
+
+# --- Objets et noms propres des héros ---
+Fishbones||zaun|Le lance-roquettes de Jinx, en forme de requin. Elle lui parle. Il ne répond pas. Enfin, pas toujours.
+Powder||zaun|Le surnom d'enfance de Jinx, celui que seule Vi utilise encore. Jinx ne l'entend pas sans émotion.
+Tibbers||monde|L'ours en peluche d'Annie. Quand elle se fâche, il devient un ours de feu géant.
+Valor||demacia|L'aigle de Quinn, son éclaireur et son meilleur ami. Il a une opinion sur tout.
+Serpent Mère|Nagakabouros|bilgewater|La divinité de Bilgewater, dieu-serpent des mers et du mouvement, que sert Illaoi.
+
+# --- Lieux de Demacia ---
+Grande Cité de Demacia|Grande Cité|demacia|La capitale de Demacia, toute de pierre blanche, construite pour résister à la magie.
+Uwendale||demacia|Un hameau isolé de chasseurs et de fermiers, au nord-est de Demacia. On y fête chaque année un tueur de monstres dont personne ne connaît le nom.
+Jandelle||demacia|Un bourg de l'est de Demacia, entouré de champs et de moulins.
+Everpeak||demacia|Une ville de Demacia sur les pentes des monts Croc-Vert.
+Vaskasia||demacia|Des villages côtiers de Demacia qui vivent du bois de construction et de ses bûcherons.
+
+# --- Lieux de Noxus ---
+Drugne||noxus|Une ville isolée au nord de la grande plaine de Noxus, simple et rude.
+Morrin||noxus|Un bourg de Noxus célèbre pour ses fleurs, et pour sa rivalité avec le bourg voisin, Kimir.
+Monts Ironspike|Ironspike|noxus|Une chaîne de montagnes de fer et de feu, entre Noxus et le Freljord.
+
+# --- Lieux du Freljord ---
+Avarosan||freljord|La capitale de la tribu d'Ashe.
+Pic de Frosthorn|Frosthorn|freljord|Une montagne du Freljord où la glace ne fond jamais.
+
+# --- Lieux d'Ionia ---
+Weh'le||ionia|Un port fantôme d'Ionia, caché, célèbre pour son marché et ses tatoueurs.
+Jardin de l'Oubli||ionia|Un jardin magique d'Ionia, tenu par une jardinière-sorcière, où les esprits se promènent plus que les vivants.
+Monastère de Hirana|Hirana|ionia|Un monastère paisible d'Ionia, où les moines enseignent la méditation.
+
+# --- Lieux de Piltover et de Zaun ---
+Mid Town||piltover|Le quartier central de Piltover : marchés, ateliers et maisons.
+Porte Hextech||piltover|L'immense porte de Piltover qui accueille les navires venus du monde entier.
+Pont du Progrès||piltover|Le grand pont de Piltover, symbole de la ville, au-dessus du gouffre de Zaun.
+La Drague|Drague|zaun|La prison-mine creusée sous Zaun, d'où l'on ne revient pas toujours.
+Statue de Vander||zaun|Une statue à la mémoire de Vander, le protecteur de Vi et de Jinx enfants, dans les Failles.
+
+# --- Lieux de Bilgewater, Shurima, Targon ---
+Port de Bilgewater||bilgewater|Le port de Bilgewater, ses quais, ses tavernes et ses marchés de monstres marins.
+Bel'zhun||shurima|Une cité marchande de Shurima, sur la côte, où passent toutes les caravanes.
+Nashramae||shurima|Une ville d'oasis de Shurima, au bord d'une grande rivière.
+Rakkor||targon|Le peuple guerrier qui vit au pied du mont Targon. Pantheon et Leona en viennent.

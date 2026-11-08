@@ -1,0 +1,504 @@
+# Demacia · palier Locale · lot 2 (missions 026 à 050) · 8 nov. 2026
+# Suite du lot 1 : la capitale et ses quartiers, les marches du nord, la côte sud. Mêmes règles d'écriture.
+# {meneur} : le héros qui a mené l'épreuve décisive.
+
+=== DEM-L-026 | Les cendres de Dregbourne
+source: privee
+region: demacia
+palier: locale
+type: enquete
+ton: tragique
+lieu: Dregbourne
+demandeur: Mère Fanchon, qui tient la soupe populaire de Dregbourne depuis trente ans
+accroche: « Trois incendies en deux semaines, dans trois maisons de Dregbourne. À chaque fois, une famille qui avait un enfant « bizarre ». La garde dit que ce sont des accidents de cheminée. À Dregbourne, on n'a pas toujours de cheminée. »
+postes: Éclaireur, Support
+duree: 9
+dangereuse: oui
+epreuves: diplomatie 44 (faire parler des familles qui n'ont plus confiance en personne) ; discretion 46 (surveiller les ruelles la nuit, là où le prochain feu risque de prendre) ; poursuite 43 (rattraper l'incendiaire dans le dédale du quartier)
+complication: L'incendiaire est un ancien traqueur de mages, devenu gardien de nuit dans le quartier depuis la dissolution de l'ordre. Il croit sincèrement « finir le travail ».
+eclatante: {meneur} surprend l'ancien Traqueur une torche à la main, devant une quatrième maison où dort un enfant. Il ne résiste pas : il a l'air presque soulagé d'être arrêté. Le juge le condamne, et la guilde témoigne au procès. Mère Fanchon organise une soupe géante dans la rue pour les familles relogées. Ce soir-là, Dregbourne chante. Ça n'arrive pas souvent.
+reussite: L'incendiaire est arrêté dans une ruelle, après une course-poursuite sur les toits. Il ne dira jamais pourquoi il faisait ça, mais tout le quartier le devine. Les familles touchées sont relogées par les Illuminateurs. Mère Fanchon remercie la guilde avec une marmite de soupe, qu'il faut porter à deux.
+partielle: L'incendiaire s'enfuit, mais il sait maintenant qu'on le cherche. Les feux s'arrêtent. Personne n'est arrêté, et les familles vivent dans la peur qu'il revienne. Certaines quittent Dregbourne. Mère Fanchon dit que c'est mieux que rien. Elle n'en a pas l'air convaincue.
+echec: Un quatrième incendie éclate pendant que l'équipe surveille la mauvaise rue. Une famille perd tout, mais personne ne meurt, de justesse. Le quartier accuse la garde, la garde accuse le quartier. La guilde rentre avec l'odeur de fumée dans les vêtements, et elle ne part pas au lavage.
+recompenses: po 120 ; reputation 4 ; objet Bottes 10
+
+=== DEM-L-027 | Le carrosse de la marquise
+source: privee
+region: demacia
+palier: locale
+type: escorte
+ton: drole
+lieu: La Dernière Porte
+demandeur: la marquise Isaure de Fontbelle, quatre-vingt-sept ans, qui n'a peur de rien sauf des courants d'air
+accroche: « Je dois me rendre à High Silvermere pour le mariage de mon arrière-petite-nièce. Mon cocher est mort, le pauvre, et le nouveau conduit comme un Noxien. Il me faut une escorte digne de ce nom. Et quelqu'un qui sache jouer aux cartes. Le voyage est long, et je triche. »
+postes: Tank, Support
+duree: 14
+dangereuse: non
+epreuves: voyage 42 (faire avancer un carrosse qui s'arrête toutes les heures pour une raison différente) ; diplomatie 44 (supporter la marquise, ses exigences et ses histoires) ; combat 40 (repousser des brigands qui croient avoir trouvé une proie facile)
+complication: La marquise a caché dans le double fond du carrosse la dot de la mariée : une parure de diamants. Elle n'en a rien dit, « pour ne pas vous inquiéter ».
+eclatante: Les brigands attaquent au deuxième jour. {meneur} les met en fuite pendant que la marquise, penchée à la portière, les insulte avec un vocabulaire de soldat. Le carrosse arrive à temps pour le mariage. La marquise présente la guilde à toute la noblesse du nord comme « mes héros personnels », puis gagne tout l'argent de poche de l'équipe aux cartes. Elle le rend le lendemain. Presque tout.
+reussite: La marquise arrive à High Silvermere, épuisée et ravie. Le voyage a duré deux jours de plus que prévu, à cause de onze arrêts pipi, de trois arrêts pour admirer la vue, et d'une attaque de brigands vite réglée. Elle paie la guilde, et lui laisse un mot : « Vous ne savez pas tricher. Apprenez. »
+partielle: Le carrosse arrive en retard. La marquise rate la cérémonie, mais pas le banquet, ce qui, d'après elle, est l'essentiel. Elle se plaint de la guilde pendant tout le repas, à voix haute. Puis elle recommande la guilde à trois familles nobles. On n'a jamais su pourquoi.
+echec: Les brigands emportent une malle, celle de la dot, cachée dans le double fond. La marquise arrive au mariage sans les diamants. Elle ne dit pas un mot à la guilde pendant tout le voyage de retour, ce qui, connaissant la marquise, est la pire des punitions.
+recompenses: po 95 ; reputation 3 ; objet Charme féerique 12
+
+=== DEM-L-028 | La prière interrompue
+source: institution
+region: demacia
+palier: locale
+type: protection
+ton: horreur
+lieu: Salles sépulcrales
+demandeur: la Chambre des Bannières, pour le grand prêtre des Salles sépulcrales
+accroche: « Depuis dix jours, les veilleurs de nuit des Salles sépulcrales abandonnent leur poste avant l'aube. Ils disent que les morts murmurent. Le grand prêtre ne veut pas de rumeur dans la capitale. Il demande une équipe pour veiller trois nuits, et revenir sans avoir rien vu. Si possible. »
+postes: Assassin, Support, Tank
+duree: 12
+dangereuse: oui
+epreuves: discretion 44 (veiller dans les Salles sans lumière, sans faire fuir ce qui vient la nuit) ; combat 46 (affronter ce qui rôde entre les tombeaux à la troisième nuit) ; diplomatie 42 (calmer les veilleurs, et les convaincre de reprendre leur poste)
+complication: Les murmures viennent d'une famille de pilleurs de tombes, qui a creusé un tunnel depuis une cave voisine. Ils parlent bas en travaillant. Les échos font le reste.
+eclatante: {meneur} suit les murmures jusqu'au tunnel, et tombe nez à nez avec un père et ses deux fils, pelle en main, blancs de peur. Les pilleurs sont livrés au grand prêtre, qui fait reboucher le tunnel le jour même. Les veilleurs reprennent leur poste. Mais la troisième nuit, alors que tout est réglé, une bougie s'allume seule au fond d'une crypte. Personne n'en parle au grand prêtre.
+reussite: Les pilleurs sont surpris dans le tunnel et s'enfuient en laissant leurs outils. Le tunnel est rebouché. Les murmures cessent, et les veilleurs reprennent leur poste, rassurés. Le grand prêtre remercie la guilde et lui demande, avec beaucoup d'insistance, de ne jamais raconter cette histoire.
+partielle: Le tunnel est découvert, mais les pilleurs ont eu le temps d'emporter des bijoux funéraires de deux familles nobles. Le grand prêtre devra s'expliquer. Les murmures, eux, ont cessé. Les veilleurs disent qu'il fait quand même plus froid qu'avant, la nuit.
+echec: L'équipe passe trois nuits à guetter les mauvais couloirs. Les pilleurs vident une crypte entière pendant ce temps. Le scandale éclate dans la capitale : des tombes nobles ont été profanées sous la protection d'une guilde. La Chambre des Bannières n'apprécie pas du tout.
+recompenses: po 130 ; reputation 4 ; objet Cape de négation 12
+
+=== DEM-L-029 | Le marché aux bestiaux d'Uwendale
+source: privee
+region: demacia
+palier: locale
+type: defense
+ton: aventure
+lieu: Uwendale
+demandeur: Jorund, chef des chasseurs d'Uwendale, qui a perdu deux doigts contre une bête des rocs et en parle comme d'un bon souvenir
+accroche: « Une harde de bêtes des rocs descend des montagnes, plus tôt que d'habitude. D'habitude, elles passent loin du village. Cette année, la neige les pousse vers nous. Le grand marché aux bestiaux a lieu dans trois jours. Si les bêtes arrivent pendant le marché, ce sera un carnage. »
+postes: Tank, Tireur, Combattant
+duree: 12
+dangereuse: oui
+epreuves: poursuite 44 (repérer la harde dans les montagnes et estimer sa route) ; siege 46 (dresser des barricades de troncs sur le passage, en deux jours) ; nuee 52 (tenir la ligne quand la harde charge)
+complication: Une bête des rocs blessée mène la harde. Elle a une flèche plantée dans le flanc depuis l'automne : un chasseur du village l'a ratée, et il ne l'a dit à personne.
+eclatante: {meneur} vise la bête de tête, la blessée, et l'abat avant la charge. Privée de chef, la harde se disperse dans les bois. Le marché a lieu comme prévu, et Jorund fait servir la viande de la bête au banquet. Le chasseur qui l'avait ratée se dénonce lui-même, au moment du toast. Tout le monde rit. Lui aussi, finalement.
+reussite: La harde charge les barricades et se brise dessus. Deux bêtes sont abattues, les autres font demi-tour. Le marché a lieu, avec un jour de retard. Jorund offre à la guilde un trophée de défense, plus haut qu'un homme. Il faudra trouver où le mettre.
+partielle: Les barricades cèdent en partie. La harde traverse un coin du village, détruit trois enclos et une grange. Le marché est annulé, mais personne n'est mort. Jorund dit que l'hiver sera dur, et qu'Uwendale a déjà connu pire. Il n'a pas l'air de mentir.
+echec: La harde arrive pendant le marché. Panique, bétail en fuite, étals renversés. Il y a des blessés, et un mort, un vieux marchand qui n'a pas couru assez vite. Uwendale enterre son mort, et la guilde est invitée. Jorund ne dit rien. Sa main mutilée tremble un peu.
+recompenses: po 360 ; reputation 5 ; objet Bouclier de Doran 14
+risque: oui
+
+=== DEM-L-030 | La vieille garde du Quartier militaire
+source: privee
+region: demacia
+palier: locale
+type: diplomatie
+ton: tendre
+lieu: Quartier militaire
+demandeur: Sergente-chef Anne Brassac, en retraite, qui fait la lecture aux vétérans du Quartier militaire
+accroche: « On veut fermer l'hospice des vétérans. Il coûte trop cher, paraît-il. Ils sont trente, ils ont tous fait la guerre, et la plupart n'ont plus de famille. On veut les disperser dans des fermes, chez des gens qui ne les connaissent pas. Je veux qu'on les écoute avant de décider. »
+postes: Support
+duree: 8
+dangereuse: non
+epreuves: diplomatie 46 (obtenir une audience auprès du commandant du Quartier, qui a déjà signé l'ordre de fermeture) ; diplomatie 44 (convaincre les vétérans de témoigner, eux qui détestent se plaindre)
+complication: Le commandant du Quartier a lui-même un père dans l'hospice. Il ne va jamais le voir. Il a signé l'ordre de fermeture sans regarder la liste des noms.
+eclatante: {meneur} obtient que le commandant vienne à l'hospice, une seule fois, « pour constater ». Il y trouve son père, qui le reconnaît après une longue minute. L'ordre de fermeture est déchiré le soir même. Le commandant revient chaque semaine, désormais. Les vétérans ont surnommé la guilde « la dernière compagnie », et ils l'invitent à chaque anniversaire de bataille.
+reussite: Le commandant accepte de recevoir trois vétérans. Leurs récits le font changer d'avis : l'hospice restera ouvert un an de plus, le temps de trouver un autre financement. Anne Brassac se met immédiatement à chercher cet argent. Elle le trouvera, connaissant sa ténacité.
+partielle: L'hospice ferme, mais les vétérans obtiennent de rester ensemble : ils sont logés dans une vieille caserne, à l'écart de la ville. C'est moins confortable. C'est surtout moins seul. Anne Brassac continue de leur faire la lecture, chaque soir, en marchant une heure de plus.
+echec: Le commandant refuse de recevoir qui que ce soit. L'hospice ferme à la fin du mois. Les vétérans sont dispersés dans des fermes, aux quatre coins du royaume. Anne Brassac leur écrit à tous, chaque semaine. Certaines lettres reviennent, parce que le destinataire est mort.
+recompenses: po 70 ; reputation 3 ; objet Potion rechargeable 10
+
+=== DEM-L-031 | Les mages de Terbisia
+source: privee
+region: demacia
+palier: locale
+type: sauvetage
+ton: tragique
+lieu: Terbisia
+demandeur: Lysandre, jeune mage en fuite, qui tient à peine debout et parle trop vite
+accroche: « Notre camp, dans les ruines de Terbisia. Douze personnes. Des familles. Des soldats sont arrivés hier soir, sans ordre officiel, juste avec des torches. Je me suis enfui pour chercher de l'aide. J'ai couru toute la nuit. Les autres sont encerclés dans l'ancien temple. S'il vous plaît. »
+postes: Assassin, Healer, Combattant
+duree: 10
+dangereuse: oui
+epreuves: discretion 48 (traverser le cordon des soldats autour du temple) ; combat 46 (tenir le temple si les soldats donnent l'assaut) ; voyage 44 (faire sortir douze personnes, dont des enfants, par les ruines et le fleuve)
+complication: Les « soldats » sont des réservistes du bourg voisin, menés par un ancien Traqueur. Ce sont des fermiers, terrifiés par la magie, et persuadés de protéger leurs enfants.
+eclatante: {meneur} fait sortir les familles par un passage sous le temple, en pleine nuit, pendant que le reste de l'équipe occupe les réservistes. Au matin, le temple est vide. Les réservistes rentrent chez eux, sans gloire mais sans mort. Les douze mages rejoignent un réseau des Illuminateurs. Lysandre écrira plus tard à la guilde : « Les enfants racontent l'histoire de la nuit où des inconnus sont venus. Ils en ont fait un jeu. »
+reussite: Les familles sont évacuées par le fleuve, au prix d'un combat bref et violent au pied du temple. Il y a des blessés des deux côtés. Les mages disparaissent vers le sud. Les réservistes prétendront avoir fait fuir des « démons ». La guilde ne les contredira pas. Ça vaut mieux pour tout le monde.
+partielle: Huit personnes sont sauvées. Quatre ont été capturées par les réservistes avant l'arrivée de l'équipe, et conduites vers la capitale. Lysandre retrouve sa sœur parmi les rescapés, mais pas son père. Il remercie la guilde, puis s'éloigne pour pleurer seul.
+echec: Le cordon est trop serré, et l'assaut a lieu avant que l'équipe ne puisse entrer. Les mages se rendent pour éviter un massacre. La guilde arrive pour voir passer la colonne de prisonniers. Lysandre la regarde aussi, caché dans les roseaux. Il ne dit rien. Il n'a plus rien à dire.
+recompenses: po 150 ; reputation 5 ; objet Cristal de saphir 12
+
+=== DEM-L-032 | Le banquet des Laurent
+source: privee
+region: demacia
+palier: locale
+type: protection
+ton: politique
+lieu: Jardins du palais
+demandeur: Maître Bastien, intendant de la maison Laurent, qui craint le retour de Fiora Laurent plus que n'importe quel assassin
+accroche: « La maison Laurent donne un banquet dans les Jardins du palais, en l'honneur d'un ambassadeur de Zeffira. Il y aura deux cents invités, tous armés, car tous nobles. Trois d'entre eux ont déjà défié l'ambassadeur en duel cette année. Je voudrais que le banquet se termine sans cadavre. Discrètement. »
+postes: Assassin, Support
+duree: 7
+dangereuse: non
+epreuves: discretion 46 (se mêler aux serviteurs et surveiller les invités sans être remarqué) ; diplomatie 47 (désamorcer les provocations avant qu'elles deviennent des défis) ; poursuite 42 (rattraper l'empoisonneur, si empoisonneur il y a)
+complication: Il y a bien un empoisonneur. Mais le poison n'est pas destiné à l'ambassadeur : il est destiné à l'intendant lui-même, qui a découvert que la maison Laurent est volée depuis des années par l'un de ses cousins.
+eclatante: {meneur} remarque qu'un serviteur change le verre de l'intendant, et intervient au moment où maître Bastien porte la coupe à ses lèvres. Le cousin voleur est démasqué au dessert, devant l'ambassadeur, qui trouve la soirée « extraordinairement divertissante ». Fiora Laurent, de retour une semaine plus tard, envoie à la guilde une lame d'escrime de sa propre collection, avec un mot de trois mots : « Bon travail. Merci. »
+reussite: Le banquet se termine sans duel, et sans mort. Le poison n'est découvert qu'après, dans le verre que l'intendant n'a pas bu, par chance. L'enquête qui suit remonte jusqu'au cousin. Maître Bastien remercie la guilde avec une émotion qu'il ne sait pas cacher, ce qui le gêne beaucoup.
+partielle: Deux duels sont évités, le troisième a lieu à l'aube, dans les jardins, et un noble y perd une oreille. L'intendant tombe malade le lendemain, d'un empoisonnement léger. Il survivra. On ne saura jamais d'où venait le poison, mais maître Bastien a une idée, et il la garde pour lui.
+echec: L'ambassadeur est provoqué en duel pendant le dîner, et blessé à l'épaule. L'intendant est empoisonné le soir même, et il passe une semaine entre la vie et la mort. La maison Laurent est humiliée devant Zeffira. Fiora Laurent rentre plus tôt que prévu. Elle ne cherche pas à rencontrer la guilde.
+recompenses: po 140 ; reputation 5 ; objet Épée longue 12
+
+=== DEM-L-033 | La harpe de la Salle de la Vaillance
+source: privee
+region: demacia
+palier: locale
+type: recuperation
+ton: tendre
+lieu: Salle de la Vaillance
+demandeur: Clémence, harpiste de la Salle de la Vaillance, qui joue chaque soir pour les morts depuis vingt ans
+accroche: « Ma harpe a été volée. Elle était à ma mère, qui jouait déjà ici. Le soir, depuis vingt ans, je joue pour les noms gravés sur les murs. Depuis trois soirs, la Salle est silencieuse. Les familles qui viennent se recueillir le remarquent. Je ne joue que sur cette harpe. Je ne sais pas jouer sur une autre. »
+postes: Éclaireur
+duree: 5
+dangereuse: non
+epreuves: poursuite 42 (suivre la harpe de marchand en receleur, à travers les quartiers de la capitale) ; diplomatie 40 (la racheter, ou convaincre son nouveau propriétaire de la rendre)
+complication: La harpe a été volée par un jeune soldat, dont le frère est mort au front l'an dernier. Il voulait la jouer lui-même, devant le nom de son frère, la nuit, quand la Salle est fermée. Il ne sait pas jouer.
+eclatante: {meneur} retrouve la harpe chez le jeune soldat, qui la rend en pleurant. Clémence ne porte pas plainte. Au contraire : elle lui apprend à jouer un seul air, celui que son frère préférait. Une semaine plus tard, le soldat le joue devant la Salle comble, mal, avec beaucoup de fausses notes. Personne ne s'en plaint. Clémence joue ensuite, et la Salle pleure.
+reussite: La harpe est retrouvée chez un receleur, qui l'avait achetée à bas prix à un jeune homme « qui avait l'air triste ». Elle est rendue à Clémence, qui rejoue le soir même. Le voleur ne sera jamais retrouvé. Clémence dit qu'elle jouera aussi pour lui, sans savoir qui il est.
+partielle: La harpe est retrouvée, mais deux cordes ont cassé, et le bois s'est fendu. Il faudra trois semaines à un luthier pour la réparer. Pendant ce temps, Clémence vient chaque soir à la Salle, s'assoit à sa place habituelle, et ne joue pas. Les familles s'assoient avec elle.
+echec: La harpe a été vendue à un marchand qui a déjà quitté la capitale. Clémence achète une autre harpe. Elle essaie de jouer, s'arrête au bout de quelques notes, et range l'instrument. La Salle de la Vaillance reste silencieuse, le soir, désormais.
+recompenses: po 50 ; reputation 2 ; objet Charme féerique 10
+
+=== DEM-L-034 | Le rapace fou de l'Aire
+source: institution
+region: demacia
+palier: locale
+type: chasse
+ton: aventure
+lieu: Aire des Rapaces
+demandeur: la Chambre des Bannières, pour le maître des volières de l'Aire des Rapaces
+accroche: « Un rapace Aile-d'argent adulte s'est échappé de l'Aire des Rapaces après avoir blessé son chevalier. Depuis, il attaque tout ce qui porte une armure. Trois patrouilles ont déjà été prises pour cibles. Le maître des volières veut qu'on le capture vivant. Les chevaliers, eux, veulent qu'on l'abatte. »
+postes: Tireur, Éclaireur, Combattant
+duree: 10
+dangereuse: oui
+epreuves: poursuite 46 (suivre un rapace qui vole plus vite que n'importe quel cheval, sur le Roc des Chevaliers) ; combat 48 (l'affronter au sol, quand il attaque) ; siege 40 (dresser un piège assez solide pour le retenir sans le blesser)
+complication: Le rapace n'est pas fou. Son chevalier le battait depuis des mois, à l'abri des regards. Il attaque les armures parce qu'il en a peur.
+eclatante: {meneur} retire son armure, s'avance seul vers le rapace, et attend. Une heure. Deux heures. Le rapace finit par se poser à quelques pas, puis plus près. On le ramène à l'Aire, sans corde ni filet. Le maître des volières mène une enquête discrète. Le chevalier perd son rapace, et son grade. Le rapace, lui, est confié à une jeune recrue qui ne porte que du cuir.
+reussite: Le rapace est capturé vivant dans un piège à filet, après deux jours de traque. Il est blessé à l'aile, mais il guérira. Le maître des volières le garde à l'écart des autres, le temps de comprendre ce qui s'est passé. Il remercie la guilde, et lui promet de la tenir au courant.
+partielle: Le rapace est capturé, mais il refuse toute nourriture pendant une semaine, et le maître des volières décide de le relâcher dans les Hautes-Terres. On le voit parfois tourner au-dessus de l'Aire, sans jamais s'en approcher. Les chevaliers baissent la tête quand il passe.
+echec: Le rapace blesse deux membres de l'équipe et s'enfuit vers le nord. Les chevaliers l'abattent une semaine plus tard, depuis un autre rapace. Le maître des volières assiste à la scène depuis l'Aire, sans un mot. Il n'écrit plus à la guilde.
+recompenses: po 135 ; reputation 4 ; objet Élixir de rage 10
+
+=== DEM-L-035 | Le trésor des Cloudwoods
+source: privee
+region: demacia
+palier: locale
+type: exploration
+ton: drole
+lieu: Cloudwoods
+demandeur: Ambroise et Ambrine Pichon, jumeaux de soixante-dix ans, qui finissent mutuellement leurs phrases et se contredisent sans arrêt
+accroche: « Notre grand-père a enterré un trésor dans les Cloudwoods. — Sous un séquoia. — Sous un séquoia rouge. — Ils sont tous rouges, Ambroise. — Sous le plus gros, alors. — Il y en a mille, des gros. — On a la carte. — On a deux cartes. — Elles ne disent pas la même chose. »
+postes: Tank, Support
+duree: 10
+dangereuse: non
+epreuves: voyage 42 (explorer les Cloudwoods avec deux cartes contradictoires et deux vieillards très bavards) ; diplomatie 40 (empêcher les jumeaux de se brouiller définitivement, au troisième jour) ; siege 38 (creuser au bon endroit, dans des racines de séquoia)
+complication: Chacun des jumeaux possède la moitié de la vraie carte. Leur grand-père l'a coupée en deux pour les obliger à chercher ensemble. Ils ne se sont jamais montré leur moitié, par principe.
+eclatante: {meneur} obtient des jumeaux qu'ils posent leurs cartes côte à côte, pour la première fois en soixante ans. Les deux moitiés s'emboîtent parfaitement. Le trésor est là, sous un séquoia couché par la foudre : une boîte en fer, qui contient deux médailles de bravoure, et une lettre. « Mes deux trésors, c'est vous. Arrêtez de vous chamailler. » Les jumeaux se chamaillent pour savoir qui la lira à voix haute. Puis la lisent ensemble.
+reussite: Le trésor est trouvé au cinquième jour, après trois trous inutiles et une dispute mémorable. C'est une petite bourse de pièces anciennes, et une lettre que les jumeaux refusent de montrer. Ils repartent bras dessus bras dessous, en se contredisant sur le chemin du retour.
+partielle: L'équipe trouve un coffre, mais ce n'est pas le bon : il appartenait à un contrebandier, et il est plein de bouteilles d'eau-de-vie de Piltover. Les jumeaux décident que c'est le trésor de leur grand-père. Personne n'ose les contredire. Ils trinquent pendant tout le retour.
+echec: Après une semaine de recherche, les jumeaux se fâchent pour de bon et rentrent chacun de leur côté. L'équipe revient seule, avec deux cartes inutiles et une ampoule à chaque main. Un mois plus tard, une lettre arrive : ils se sont réconciliés, et ils veulent recommencer.
+recompenses: po 60 ; reputation 2 ; objet Pioche 12
+
+=== DEM-L-036 | Le mur de Vaskasia
+source: privee
+region: demacia
+palier: locale
+type: livraison
+ton: aventure
+lieu: Vaskasia
+demandeur: Gildas Trémel, maître charpentier de Vaskasia, qui a une commande de la couronne et trois jours de retard
+accroche: « La couronne m'a commandé des poutres de séquoia pour réparer le pont de la Citadelle. Les meilleures que j'aie jamais taillées. Elles sont prêtes. Mais la route côtière est coupée par un glissement de terrain, et la couronne ne connaît pas le mot « retard ». Il faut passer par la montagne. Avec des poutres de douze mètres. »
+postes: Combattant, Support, Tank
+duree: 14
+dangereuse: non
+epreuves: voyage 46 (faire passer un convoi de poutres géantes par des chemins de montagne qui n'ont pas été faits pour ça) ; siege 44 (construire un pont provisoire pour franchir un torrent) ; diplomatie 40 (négocier le passage avec un seigneur local qui exige un péage en bois)
+complication: Le seigneur local veut une poutre. Une seule. Mais la couronne en a commandé douze, comptées, et chaque poutre manquante sera retenue sur le paiement du charpentier.
+eclatante: {meneur} construit le pont provisoire du torrent avec des troncs pris sur place, puis l'offre au seigneur local, au lieu d'une poutre. Le seigneur accepte, ravi : il en avait besoin depuis des années. Les douze poutres arrivent à la capitale avec un jour d'avance. Gildas Trémel reçoit une lettre de la couronne qui le félicite pour sa ponctualité. Il l'affiche dans son atelier, au-dessus de l'établi.
+reussite: Les poutres arrivent à temps, toutes les douze, après un passage du torrent qui a coûté deux jours et beaucoup de sueur. Le seigneur local a été payé en argent plutôt qu'en bois, sur la bourse de la guilde. Gildas Trémel rembourse la guilde, et ajoute un petit coffret en séquoia, taillé de ses mains.
+partielle: Onze poutres arrivent à temps. La douzième a été laissée au seigneur local comme péage. La couronne retient un douzième du paiement. Gildas Trémel est déçu, mais il comprend. Il dit que sa poutre servira de toute façon à quelque chose de bien.
+echec: Le convoi est bloqué au torrent pendant une semaine. Les poutres arrivent avec dix jours de retard. La couronne annule la commande, et en passe une nouvelle à un charpentier de la capitale. Gildas Trémel garde ses poutres. Il construira avec, dit-il, la plus belle grange de Vaskasia.
+recompenses: po 110 ; reputation 3 ; objet Ceinture du géant 12
+
+=== DEM-L-037 | Le duel de la Grand-Place
+source: privee
+region: demacia
+palier: locale
+type: diplomatie
+ton: politique
+lieu: Grand-Place
+demandeur: Agathe Morel, fille d'un boulanger de la capitale, dont le père a été défié en duel par un noble
+accroche: « Mon père a refusé de vendre son pain à crédit à un jeune noble. Le jeune noble l'a défié en duel, sur la Grand-Place, dans trois jours. Mon père a soixante ans, et il n'a jamais tenu une épée. Selon la loi, s'il refuse, il perd son honneur, et sa boutique avec. S'il accepte, il meurt. »
+postes: Support, Combattant
+duree: 8
+dangereuse: non
+epreuves: diplomatie 46 (trouver dans la loi un moyen d'éviter le duel, ou de le remplacer) ; diplomatie 44 (convaincre le jeune noble de retirer son défi sans perdre la face) ; combat 42 (combattre comme champion du boulanger, si rien d'autre ne marche)
+complication: La loi permet à un homme défié de désigner un champion. Mais le jeune noble a choisi le jour du duel exprès : c'est un jour de fête, où aucun soldat ni aucun membre d'une guilde enregistrée n'a le droit de porter les armes en ville.
+eclatante: {meneur} trouve dans un vieux code une règle oubliée : un duel pour une dette doit se dérouler devant le créancier et ses témoins, à la boutique même. Le jeune noble se retrouve à devoir se battre au milieu des sacs de farine, devant toute la rue. Il retire son défi, rouge de honte, et paie sa dette au comptant. La boulangerie Morel affiche depuis un écriteau : « Ici, même les nobles paient. »
+reussite: Le jeune noble accepte de retirer son défi en échange d'excuses publiques du boulanger, que celui-ci prononce en serrant les dents. L'honneur est sauf des deux côtés, et personne ne meurt. Agathe Morel ne pardonnera jamais au noble. Son père, lui, recommence à vendre à crédit, mais plus aux nobles.
+partielle: Le duel n'a pas lieu, mais le jeune noble ruine la réputation du boulanger dans les quartiers riches. La boutique perd la moitié de ses clients. Elle survivra grâce aux gens du quartier, qui viennent acheter leur pain par principe, et parfois deux fois par jour.
+echec: Le duel a lieu. Le boulanger refuse de se battre, et perd son honneur, et sa boutique, selon la loi. La famille Morel quitte la capitale pour Velorus. Agathe Morel écrit à la guilde une lettre très courte : « Vous avez essayé. Merci quand même. » Elle ne signe pas.
+recompenses: po 85 ; reputation 3 ; objet Tome d'amplification 8
+
+=== DEM-L-038 | Les chèvres de l'Everpeak
+source: privee
+region: demacia
+palier: locale
+type: recuperation
+ton: drole
+lieu: Everpeak
+demandeur: Hilde, chevrière de l'Everpeak, qui appelle chacune de ses chèvres par son nom et ne pardonne rien
+accroche: « Quarante chèvres. Parties cette nuit. Elles ont ouvert la barrière toutes seules, j'en suis sûre, c'est Prudence, elle sait faire. Elles sont montées vers le sommet. Il y a des loups, là-haut, et un précipice. Et Prudence est enceinte. Je ne peux pas courir après quarante chèvres. Vous, si. »
+postes: Éclaireur
+duree: 6
+dangereuse: non
+epreuves: poursuite 40 (retrouver quarante chèvres dispersées dans la montagne) ; voyage 38 (les ramener par un sentier où une seule chèvre passe à la fois) ; combat 38 (repousser les loups attirés par le troupeau)
+complication: Les chèvres ne se sont pas enfuies par hasard. Elles suivent Prudence, qui cherche un endroit tranquille pour mettre bas, comme le font les chèvres sauvages. Elle ne redescendra pas avant.
+eclatante: {meneur} retrouve Prudence dans une petite grotte, avec deux chevreaux qui tiennent à peine debout, et les trente-neuf autres chèvres qui montent la garde à l'entrée. La descente se fait au rythme des chevreaux, en deux jours. Hilde pleure en les voyant arriver. Elle baptise le premier chevreau du nom de {meneur}. Le second, d'un nom que personne n'arrive à prononcer.
+reussite: Trente-huit chèvres sont ramenées, dont Prudence, avec un chevreau. Deux sont restées introuvables, et Hilde décide qu'elles sont parties vivre leur vie. Elle remercie la guilde avec du fromage de chèvre, beaucoup de fromage, plus qu'il n'en faut pour un hiver.
+partielle: L'équipe ramène vingt chèvres, mais pas Prudence. Hilde remonte elle-même la chercher, malgré les loups, et revient au bout de trois jours avec elle et son petit. Elle dit que la guilde a fait de son mieux. Puis elle ajoute : « Mais vous ne savez pas parler aux chèvres. »
+echec: Les loups dispersent le troupeau avant que l'équipe ne le rejoigne. Seules douze chèvres redescendent. Hilde ne dit rien. Le lendemain, elle part dans la montagne avec un bâton et un chien. Elle redescend une semaine plus tard, avec trente chèvres. Personne ne sait comment.
+recompenses: po 45 ; reputation 2 ; objet Bottes 8
+
+=== DEM-L-039 | La voix des Hautes-Terres
+source: privee
+region: demacia
+palier: locale
+type: enquete
+ton: horreur
+lieu: Hautes-Terres rocheuses
+demandeur: Bertille, veuve d'un berger des Hautes-Terres, qui entend son mari l'appeler la nuit
+accroche: « Mon mari est mort dans la montagne, il y a un mois. On a retrouvé son corps au fond d'un ravin. Depuis une semaine, la nuit, j'entends sa voix qui m'appelle depuis les rochers. Je ne suis pas folle. Mes voisins l'entendent aussi. Ils ne sortent plus. »
+postes: Éclaireur, Mage
+duree: 9
+dangereuse: oui
+epreuves: discretion 46 (attendre la voix la nuit, sans lumière, dans les rochers) ; poursuite 48 (remonter jusqu'à la source de la voix, en pleine nuit) ; combat 46 (affronter ce qui imite la voix d'un mort)
+complication: Une créature des montagnes, un oiseau de nuit aussi gros qu'un loup, imite les voix qu'elle entend. Elle a entendu le berger crier en tombant. Depuis, elle répète son dernier cri.
+eclatante: {meneur} suit la voix jusqu'à un nid, sous un surplomb rocheux, et découvre l'oiseau. Le combat est bref. Dans le nid, il y a la sacoche du berger, avec, dedans, une lettre pour sa femme qu'il n'avait jamais envoyée. Bertille la lit à la lueur d'une bougie. Ce n'est pas une lettre d'adieu. C'est une liste de courses, avec, en bas, « et des fleurs pour toi ». Elle rit et pleure à la fois.
+reussite: L'oiseau est abattu près de son nid, au troisième soir. La voix se tait. Bertille dort enfin. Mais elle demande qu'on lui raconte, avec précision, ce que répétait l'oiseau. On le lui dit. Elle hoche la tête et dit seulement : « C'est bien lui. Il criait toujours mon nom de travers. »
+partielle: L'oiseau est blessé, mais il s'enfuit plus haut dans la montagne. La voix se fait plus lointaine, puis elle cesse. Les voisins ressortent. Bertille, elle, quitte les Hautes-Terres pour vivre chez sa sœur, à Fossbarrow. Elle dit qu'elle ne pourrait plus entendre le vent sans penser à cette voix.
+echec: L'équipe passe trois nuits dans les rochers sans trouver la source de la voix. Un membre de l'équipe affirme l'avoir entendue appeler son propre nom. Bertille déménage. Le hameau se vide peu à peu. On dit qu'au printemps, la voix appelait encore, mais qu'il n'y avait plus personne pour répondre.
+recompenses: po 125 ; reputation 4 ; objet Élixir de sorcellerie 10
+
+=== DEM-L-040 | Les pèlerins de la Route du Souvenir
+source: institution
+region: demacia
+palier: locale
+type: escorte
+ton: tendre
+lieu: Route du Souvenir
+demandeur: la Chambre des Bannières, pour l'ordre qui organise le grand pèlerinage annuel au monument de Galio
+accroche: « Le grand pèlerinage part dans deux jours : quatre cents personnes, à pied, sur la Route du Souvenir. Des veuves, des orphelins, des soldats mutilés. La garde royale assure la sécurité, mais elle ne s'occupe pas des pèlerins qui tombent en route. La Chambre demande une équipe pour marcher avec eux. »
+postes: Healer, Support
+duree: 14
+dangereuse: non
+epreuves: voyage 42 (accompagner quatre cents pèlerins à pied pendant trois jours, sans laisser personne en arrière) ; diplomatie 40 (apaiser les tensions entre pèlerins, épuisés et à bout) ; voyage 44 (trouver de l'eau et des abris quand l'orage éclate en route)
+complication: Parmi les pèlerins, une vieille femme est venue à pied depuis Graygate. Elle a mis trois semaines. Elle est épuisée, et elle refuse qu'on la porte : elle veut arriver au monument sur ses propres jambes.
+eclatante: {meneur} marche avec la vieille femme pendant les trois jours, à son rythme, en lui tenant le bras, loin derrière la colonne. Elles arrivent au monument de Galio à la nuit tombée, quand tout le monde est déjà reparti. La vieille femme pose la main sur la pierre, longtemps. Elle dit le nom de ses trois fils, morts à la guerre. Puis elle s'assoit, et dort contre le socle. Au matin, la statue semble regarder un peu plus bas que d'habitude.
+reussite: Les quatre cents pèlerins arrivent au monument, épuisés, trempés par l'orage, mais tous vivants. Trois malaises, une cheville tordue, une naissance imprévue au deuxième soir. La Chambre des Bannières félicite la guilde, et l'ordre du pèlerinage lui demande de revenir l'an prochain.
+partielle: L'orage disperse la colonne pendant une nuit entière. Au matin, il manque douze pèlerins. On les retrouve tous, mais il faut une journée de plus. La cérémonie au monument se fait sans eux. Ils ont la leur, le lendemain, plus petite, et, disent-ils, plus belle.
+echec: L'orage tourne au déluge. Le pèlerinage est interrompu, et les pèlerins rentrent chez eux, trempés et découragés. Deux personnes âgées tombent malades, et l'une d'elles ne s'en remet pas. Le pèlerinage aura lieu l'an prochain. L'ordre ne fera pas appel à la guilde.
+recompenses: po 90 ; reputation 4 ; objet Potion de soin 15
+
+=== DEM-L-041 | Le registre volé
+source: institution
+region: demacia
+palier: locale
+type: traque
+ton: mystere
+lieu: Registre arcanique
+demandeur: la Chambre des Bannières, à la demande discrète du gardien du Registre arcanique
+accroche: « Une page a disparu du Registre arcanique. Une seule page. Elle liste les objets magiques confisqués à Meltridge pendant les émeutes, et le nom de leurs propriétaires. Si elle tombe entre de mauvaises mains, ces familles seront en danger. Le gardien n'a prévenu personne d'autre. Il compte sur votre discrétion. »
+postes: Assassin
+duree: 6
+dangereuse: oui
+epreuves: discretion 47 (fouiller le Registre et ses archivistes sans éveiller les soupçons) ; poursuite 45 (suivre la page de main en main, dans les bas quartiers de la capitale) ; combat 42 (la récupérer, si celui qui la détient refuse de la rendre)
+complication: La page a été volée par une archiviste, elle-même fille d'une famille de Meltridge. Elle voulait prévenir les familles de la liste, pour qu'elles fuient avant qu'on ne vienne les chercher.
+eclatante: {meneur} retrouve l'archiviste, la page dans sa poche, au moment où elle allait la remettre à un messager des Illuminateurs. Elle n'essaie pas de fuir. {meneur} prend la page, la lit, puis la lui rend, et repart sans rien dire. Le rapport à la Chambre parle d'une « page détruite, irrécupérable ». Les familles de Meltridge reçoivent un avertissement anonyme. Personne ne sera arrêté.
+reussite: La page est récupérée, et rendue au gardien du Registre. L'archiviste est renvoyée, sans procès, par discrétion. Avant de partir, elle a eu le temps de prévenir deux familles. La Chambre des Bannières est satisfaite. La guilde ne sait pas trop si elle l'est elle-même.
+partielle: La page est retrouvée, mais une copie a déjà circulé. Personne ne sait entre quelles mains. Le gardien du Registre fait renforcer la surveillance. À Meltridge, trois familles quittent la ville dans la nuit, sans dire au revoir à personne.
+echec: La page disparaît dans les bas quartiers. Un mois plus tard, d'anciens Traqueurs frappent aux portes des familles de la liste, sans aucun ordre officiel. La Chambre ouvre une enquête sur la guilde, pour manque de discrétion. Elle sera classée. La rancune, elle, restera.
+recompenses: po 155 ; reputation 5 ; objet Dague 14
+
+=== DEM-L-042 | L'ours de Pinara
+source: privee
+region: demacia
+palier: locale
+type: chasse
+ton: tragique
+lieu: Pinara
+demandeur: Guillaume Rocher, forestier de Pinara, qui chasse les bêtes dangereuses depuis vingt ans et ne veut pas chasser celle-ci
+accroche: « Un blaireau-ours tourne autour du village depuis une semaine. Il a tué un chien et blessé un homme. Le conseil veut sa peau. Je sais où il se cache. Mais je l'ai élevé, quand il était petit, après que sa mère a été tuée. Je l'ai relâché il y a trois ans. Je ne peux pas le faire moi-même. »
+postes: Tireur, Tank, Support
+duree: 7
+dangereuse: oui
+epreuves: poursuite 42 (retrouver la bête là où le forestier dit qu'elle se cache) ; combat 47 (l'affronter, s'il le faut) ; diplomatie 44 (convaincre le conseil de Pinara de laisser une autre chance à l'animal, ou accepter de ne pas le faire)
+complication: Le blaireau-ours ne cherche pas à attaquer : il est revenu vers le village parce qu'il est vieux, malade, et qu'il cherche le seul humain qu'il ait connu.
+eclatante: {meneur} ramène le forestier jusqu'à la bête. Le vieux blaireau-ours le reconnaît, s'approche, et pose sa tête contre sa poitrine, comme autrefois. Guillaume Rocher reste avec lui toute la nuit. Au matin, l'animal est mort, dans son sommeil. Le forestier l'enterre lui-même, dans la forêt, et revient au village pour présenter ses excuses au blessé. Le blessé les accepte. À Pinara, on ne parle plus de cette histoire qu'à voix basse.
+reussite: La bête est abattue par l'équipe, d'une seule flèche, sans souffrir. Guillaume Rocher n'assiste pas à la chasse, mais il vient voir le corps, ensuite. Il demande à rester seul avec lui un moment. On le lui accorde. Le conseil de Pinara remercie la guilde, et paie bien.
+partielle: La bête est blessée et s'enfuit dans la forêt profonde. Elle ne revient plus au village. Guillaume Rocher part la chercher, seul, malgré les avertissements. Il revient trois jours plus tard, et ne dit à personne ce qu'il a trouvé.
+echec: La bête attaque l'équipe dans la forêt, et blesse gravement l'un de ses membres avant de disparaître. Le conseil de Pinara organise une battue, sans la guilde. La bête est tuée par une vingtaine de villageois armés de fourches. Guillaume Rocher quitte Pinara le lendemain.
+recompenses: po 105 ; reputation 3 ; objet Armure de tissu 10
+
+=== DEM-L-043 | La fille du capitaine
+source: privee
+region: demacia
+palier: locale
+type: escorte
+ton: tragique
+lieu: Evenmoor
+demandeur: Capitaine Raoul Daguenet, de la garnison d'Evenmoor, qui doit conduire sa fille à la capitale pour son procès
+accroche: « Ma fille est une mage. Elle a vingt ans. Elle s'est dénoncée elle-même, pour protéger un enfant qu'on accusait à sa place. Elle doit être jugée à la capitale. La loi m'oblige à l'y conduire, sous escorte. Je préfère que ce soit vous plutôt que mes hommes. Mes hommes l'ont connue enfant. »
+postes: Healer, Support, Tank
+duree: 12
+dangereuse: oui
+epreuves: voyage 44 (conduire la jeune femme jusqu'à la capitale, à travers des villages qui savent ce qu'elle est) ; combat 46 (la protéger d'une foule qui veut la lyncher avant le procès) ; diplomatie 46 (obtenir pour elle un juge qui écoutera l'histoire de l'enfant)
+complication: Un réseau de mages rebelles prépare une attaque du convoi pour la libérer. Elle ne le sait pas, et elle ne veut pas être libérée : elle veut être jugée, pour prouver qu'un mage peut se rendre à la justice.
+eclatante: {meneur} intercepte les mages rebelles avant l'attaque, et leur transmet la volonté de la jeune femme. Ils la respectent. Le procès a lieu. Le juge entend l'histoire de l'enfant, celle de la jeune femme, celle de son père. La sentence est la plus légère que la loi permette : l'exil, avec le droit de revoir sa famille une fois par an. Le capitaine Daguenet serre la main de chaque membre de l'équipe, sans un mot.
+reussite: La jeune femme arrive à la capitale, saine et sauve, malgré une foule hostile à Pinara qu'il a fallu tenir à distance. Le procès a lieu. Elle est condamnée à la prison, mais pas aux mines. Son père dit que c'est une victoire. Il le répète plusieurs fois, comme pour s'en convaincre.
+partielle: Les mages rebelles attaquent le convoi. La jeune femme refuse de les suivre, mais deux gardes sont blessés, et le procès s'en ressent : le juge la condamne lourdement, « pour l'exemple ». Le capitaine Daguenet démissionne de la garnison le lendemain.
+echec: La foule de Pinara force le convoi, et la jeune femme est blessée par une pierre. Elle arrive à la capitale inconsciente. Le procès est repoussé. Le capitaine Daguenet veille sa fille, chaque nuit, à la porte de la prison. Il n'a plus jamais adressé la parole à la guilde.
+recompenses: po 170 ; reputation 6 ; objet Potion rechargeable 12
+
+=== DEM-L-044 | La foire aux bêtes de Cloudfield
+source: privee
+region: demacia
+palier: locale
+type: livraison
+ton: drole
+lieu: Cloudfield
+demandeur: Firmin Leblond, éleveur, qui a vendu un taureau primé à un acheteur de Zeffira et doit le livrer en personne
+accroche: « Brutus est un taureau magnifique. Il pèse le poids de six hommes. Il n'aime pas les routes, les ponts, les carrioles, les chiens, les enfants, les rouges, les bleus, et il n'aime pas Zeffira. Il faut le livrer là-bas dans une semaine. Il est très gentil, au fond. Très au fond. »
+postes: Tank
+duree: 10
+dangereuse: non
+epreuves: voyage 42 (faire avancer un taureau qui s'arrête dès qu'il voit quelque chose qui ne lui plaît pas) ; poursuite 40 (le rattraper quand il s'échappe dans un champ de tangors) ; diplomatie 38 (le présenter à son nouveau propriétaire sans qu'il le charge)
+complication: Brutus a une amie : une petite chèvre naine, qui vit dans son enclos depuis toujours. Il ne fait pas un pas sans elle. Personne n'a pensé à la lui donner pour le voyage.
+eclatante: {meneur} comprend au deuxième jour, retourne chercher la chèvre, et Brutus se met à marcher comme un agneau. L'acheteur de Zeffira est si impressionné par le calme du taureau qu'il achète aussi la chèvre, au prix fort. Firmin Leblond fait un bénéfice inespéré, et offre à la guilde un fromage de la taille d'une roue. Brutus remporte trois concours l'année suivante. La chèvre aussi.
+reussite: Brutus arrive à Zeffira avec deux jours de retard, après avoir chargé une carriole, un épouvantail et un panneau indicateur. L'acheteur est satisfait, mais refuse de le prendre en main lui-même. La guilde doit le faire entrer dans son enclos. Cela prend une après-midi.
+partielle: Brutus arrive à Zeffira, mais pas en bon état : il s'est battu avec un autre taureau, en route, et il a une corne abîmée. L'acheteur réduit son prix de moitié. Firmin Leblond soupire et dit que Brutus a toujours eu mauvais caractère, mais qu'il s'est toujours défendu.
+echec: Brutus s'échappe au troisième jour, et il est retrouvé une semaine plus tard, installé dans un pré à quatre lieues de là, avec une vingtaine de vaches. Il refuse de partir. Le propriétaire du pré refuse de le rendre. Firmin Leblond perd la vente, et la guilde perd une semaine.
+recompenses: po 55 ; reputation 2 ; objet Ceinture du géant 10
+
+=== DEM-L-045 | La nuit du phare de Dawnhold
+source: privee
+region: demacia
+palier: locale
+type: sauvetage
+ton: mystere
+lieu: Dawnhold
+demandeur: Lucas Kerven, garçon de onze ans, fils du gardien du phare de Dawnhold, qui a marché toute la nuit pour trouver de l'aide
+accroche: « Le phare s'est éteint il y a deux nuits. Mon père est monté pour le rallumer. Il n'est pas redescendu. La porte du haut est fermée de l'intérieur. Je l'ai appelé jusqu'à ne plus avoir de voix. Un navire a déjà touché les récifs, cette nuit. Il y en aura d'autres. »
+postes: Combattant, Support
+duree: 8
+dangereuse: oui
+epreuves: siege 44 (forcer la porte du haut du phare, en fer, sans faire tomber l'escalier) ; voyage 42 (monter et descendre un escalier de trois cents marches en ruine, avec un blessé) ; diplomatie 40 (rallumer le phare, avec les conseils d'un enfant terrifié)
+complication: Le gardien n'a pas fermé la porte : c'est le vent qui l'a claquée, et la serrure s'est bloquée. Il est tombé dans l'escalier intérieur de la lanterne, et il a une jambe cassée. Il est vivant, mais il n'a plus d'eau.
+eclatante: {meneur} force la porte au milieu de la nuit, trouve le gardien vivant, et le redescend sur son dos pendant que le reste de l'équipe rallume le phare, guidé par l'enfant. La lumière revient au moment où un navire de pêche passait au large des récifs. Le navire rentre au port sans dommage. Lucas Kerven devient, à onze ans, gardien adjoint du phare de Dawnhold. Il le restera toute sa vie.
+reussite: Le gardien est retrouvé vivant, déshydraté, une jambe cassée. Le phare est rallumé à l'aube. Lucas Kerven ne quitte pas son père d'une semelle pendant toute sa convalescence. Le village offre à la guilde un filet de pêche brodé aux couleurs du repère, ce qui est beaucoup plus beau que ça n'en a l'air.
+partielle: Le gardien est sauvé, mais le phare ne peut pas être rallumé avant la venue d'un forgeron de la forteresse. Pendant deux nuits, les navires restent au large. Un bateau de pêche touche les récifs, sans faire de mort. Lucas Kerven dit que c'est sa faute. Il a onze ans. Ce n'est pas sa faute.
+echec: La porte résiste toute une nuit. Quand l'équipe parvient enfin à l'ouvrir, le gardien est inconscient. Il survivra, mais il ne pourra plus jamais monter les marches. Le phare est confié à un nouveau gardien. Lucas Kerven et son père quittent Dawnhold à la fin de l'hiver.
+recompenses: po 100 ; reputation 4 ; objet Potion de soin 15
+
+=== DEM-L-046 | L'aigle de marbre
+source: privee
+region: demacia
+palier: locale
+type: exploration
+ton: horreur
+lieu: Ancien complexe des traqueurs de mages
+demandeur: Margaux Delisle, architecte de la couronne, chargée de transformer l'ancien complexe des Traqueurs en école
+accroche: « La couronne veut faire de l'ancien complexe des Traqueurs une école. J'ai les plans. Mais les plans ne correspondent pas aux murs. Il y a des portes qui ne sont pas sur les plans, et des escaliers qui descendent plus bas que les fondations. Mes ouvriers refusent d'y aller. Je ne leur en veux pas. »
+postes: Éclaireur, Mage, Tank
+duree: 10
+dangereuse: oui
+epreuves: discretion 44 (explorer les étages cachés du complexe sans déclencher les pièges laissés par les Traqueurs) ; siege 46 (forcer les portes de pétricite qui ferment les sous-sols) ; combat 44 (affronter ce qui garde encore les cellules du bas)
+complication: Les sous-sols abritent des cellules oubliées, où les Traqueurs gardaient des objets magiques trop dangereux pour le Registre. Certains se sont réveillés depuis la dissolution de l'ordre.
+eclatante: {meneur} cartographie les sous-sols jusqu'au dernier niveau, et désactive un à un les objets éveillés, en les enfermant dans des coffres de pétricite. On trouve aussi, au fond d'une cellule, un registre des prisonniers, avec des noms que personne n'avait jamais entendus. Margaux Delisle fait graver ces noms au-dessus de l'entrée de la future école. La couronne ne s'y oppose pas. Il n'y a plus personne pour s'y opposer.
+reussite: Les sous-sols sont explorés et scellés. Les objets dangereux sont remis au Registre arcanique, sous bonne garde. Les travaux de l'école peuvent commencer. Margaux Delisle refait tous ses plans, et ajoute un étage entier qui n'existait sur aucun document. Ses ouvriers reprennent le travail, en chantant fort, pour se donner du courage.
+partielle: Le premier sous-sol est exploré et vidé. Le second reste fermé : la porte de pétricite a tenu. Margaux Delisle fait murer l'escalier. L'école ouvrira, mais certains élèves raconteront, des années plus tard, avoir entendu frapper sous le plancher.
+echec: Un objet éveillé blesse l'un des membres de l'équipe, et l'escalier s'effondre derrière eux pendant la retraite. Le chantier est arrêté. La couronne décide finalement de raser le complexe. L'aigle de marbre est démonté, et personne ne sait où il est entreposé.
+recompenses: po 160 ; reputation 5 ; objet Cape de négation 14
+
+=== DEM-L-047 | Les enfants de Lissus
+source: privee
+region: demacia
+palier: locale
+type: sauvetage
+ton: aventure
+lieu: Lissus
+demandeur: Maître Hubert, instituteur de Lissus, dont toute la classe a disparu pendant une sortie en forêt
+accroche: « Quatorze enfants. Une sortie en forêt pour apprendre le nom des arbres. Je me suis retourné une minute pour aider une petite qui s'était tordu la cheville. Quand j'ai relevé la tête, ils avaient disparu. Tous. Il y a des traces de pas qui partent vers la rivière. Et puis plus rien. »
+postes: Éclaireur, Support
+duree: 7
+dangereuse: non
+epreuves: poursuite 44 (suivre les traces de quatorze enfants dans une forêt détrempée) ; voyage 42 (traverser la rivière en crue pour atteindre l'autre rive) ; diplomatie 40 (convaincre quatorze enfants surexcités de rentrer, alors qu'ils vivent la plus belle aventure de leur vie)
+complication: Les enfants n'ont pas été enlevés. Ils ont décidé ensemble de suivre un renard « magique » qui leur a fait signe, et ils sont persuadés d'être en mission. Ils ont même nommé un chef.
+eclatante: {meneur} retrouve les enfants dans une clairière, assis en cercle autour d'un feu qu'ils n'ont pas réussi à allumer, à préparer un « plan de bataille ». Plutôt que de les gronder, {meneur} leur propose de rentrer « en mission », en éclaireurs, en suivant ses ordres. Les quatorze enfants rentrent au village au pas cadencé. Maître Hubert pleure de soulagement. Les enfants demandent à quand la prochaine mission.
+reussite: Les enfants sont retrouvés à la tombée de la nuit, frigorifiés, affamés, et très fiers d'eux. Le retour se fait de nuit, à la lanterne, en chantant pour se tenir chaud. Maître Hubert reçoit des parents une semaine de reproches, puis une semaine de remerciements. Il ne refera plus de sortie en forêt, jure-t-il.
+partielle: Treize enfants sont retrouvés le soir même. Le quatorzième, le « chef », a continué seul à suivre le renard. On le retrouve au matin, endormi dans un terrier, la tête sur l'animal. Il a attrapé un rhume, et il parle encore du renard trente ans plus tard.
+echec: La rivière en crue bloque l'équipe pendant une journée entière. Les enfants sont retrouvés le lendemain par des bûcherons, sains et saufs, mais transis de froid. Maître Hubert est renvoyé. Les parents ne confient plus jamais leurs enfants à une guilde qui « a mis une journée à traverser une rivière ».
+recompenses: po 80 ; reputation 3 ; objet Charme féerique 10
+
+=== DEM-L-048 | Le procès du mage de Zeffira
+source: privee
+region: demacia
+palier: locale
+type: diplomatie
+ton: mystere
+lieu: Zeffira
+demandeur: Maîtresse Héloïse Brun, avocate à Zeffira, qui défend un homme que tout le monde a déjà condamné
+accroche: « Mon client est accusé d'avoir tué un marchand avec de la magie. Il est mage, c'est vrai, et il l'a caché toute sa vie. Mais il n'a tué personne. Le procès a lieu dans six jours, et le jury a déjà décidé. Il me faut un fait nouveau. Un seul. »
+postes: Support
+duree: 9
+dangereuse: non
+epreuves: diplomatie 46 (interroger les témoins, qui répètent tous la même histoire, mot pour mot) ; diplomatie 47 (présenter les preuves devant un jury hostile, sans le braquer davantage)
+complication: Les témoins répètent la même histoire parce qu'on la leur a apprise. Le véritable meurtrier est l'associé du marchand, qui a profité de la peur de la magie pour faire accuser un innocent.
+eclatante: {meneur} fait remarquer au jury, en pleine audience, que trois témoins ont utilisé exactement le même mot rare pour décrire la scène, un mot qu'aucun d'eux n'emploie d'habitude. Le juge suspend la séance. Les témoins craquent l'un après l'autre. L'associé est arrêté le soir même. Le mage est acquitté du meurtre. Il est condamné pour avoir caché sa magie, mais à la peine la plus légère. Maîtresse Brun dit que c'est la première fois en dix ans qu'elle gagne un procès de ce genre.
+reussite: L'équipe découvre que l'associé du marchand a payé les témoins. Le procès est repoussé, et une enquête est ouverte. Le mage reste en prison en attendant, mais il ne sera pas pendu. Maîtresse Brun dit que c'est une victoire. Puis elle dit que la vraie victoire viendra le jour où on ne jugera plus un homme pour ce qu'il est.
+partielle: Un témoin se rétracte, mais pas les autres. Le jury hésite. Le mage échappe à la peine de mort, mais il est condamné aux mines pour dix ans. Maîtresse Brun fait appel. Elle se battra encore deux ans, et elle finira par le faire libérer.
+echec: Aucun témoin ne revient sur sa version. Le mage est condamné à mort. Maîtresse Brun obtient un sursis, puis un autre. La guilde reçoit une lettre de l'accusé lui-même, qui la remercie d'avoir essayé. L'écriture est très calme.
+recompenses: po 95 ; reputation 3 ; objet Tome d'amplification 10
+
+=== DEM-L-049 | Le vin de la Citadelle
+source: privee
+region: demacia
+palier: locale
+type: enquete
+ton: drole
+lieu: Citadelle de l'Aube
+demandeur: Maître Ernest, sommelier de la Citadelle de l'Aube, au service de la couronne depuis trente ans, qui a perdu le sommeil et le sens de l'humour
+accroche: « Quelqu'un vole le vin de la cave royale. Une bouteille par nuit. Toujours la meilleure. Toujours remplacée par une bouteille de piquette, avec la même étiquette. La couronne ne s'en est pas encore aperçue. Le jour où elle s'en apercevra, c'est moi qu'on accusera. »
+postes: Assassin, Support
+duree: 6
+dangereuse: non
+epreuves: discretion 44 (se cacher toute la nuit dans la cave royale, entre les tonneaux) ; poursuite 42 (suivre le voleur dans les couloirs de service de la Citadelle) ; diplomatie 40 (régler l'affaire sans scandale à la cour)
+complication: Le voleur est le vieux chambellan de la couronne, qui boit en cachette la meilleure bouteille chaque soir depuis des mois, pour supporter les réunions du conseil des maisons nobles.
+eclatante: {meneur} surprend le chambellan au milieu de la nuit, un verre à la main, assis par terre dans la cave, l'air très malheureux. Il avoue tout. Maître Ernest et lui trouvent un arrangement : une bouteille par semaine, officiellement, prise sur la réserve « des invités de marque ». Le chambellan pleure de reconnaissance. Il envoie à la guilde une caisse de six bouteilles, en toute légalité, avec un mot : « Pour les jours de conseil. »
+reussite: Le voleur est identifié, et l'affaire se règle en silence, entre le chambellan et le sommelier. Personne à la cour n'en saura jamais rien. Maître Ernest retrouve le sommeil. Il ne retrouve pas l'humour, mais il assure qu'il n'en avait jamais eu beaucoup.
+partielle: L'équipe découvre que le voleur est quelqu'un d'important, mais pas qui. Les vols s'arrêtent. Maître Ernest change les serrures de la cave, et dort avec la clé autour du cou. Six mois plus tard, une bouteille disparaît encore. Une seule, le jour d'un conseil.
+echec: L'équipe se fait surprendre dans la cave royale par la garde, en pleine nuit. Il faut toute l'influence de Maître Ernest pour éviter l'arrestation. Le voleur, alerté, cesse ses vols pour de bon. Personne ne saura jamais qui c'était. Maître Ernest en garde rancune à la guilde.
+recompenses: po 75 ; reputation 3 ; objet Élixir de fer 10
+
+=== DEM-L-050 | La lanterne du Temple
+source: privee
+region: demacia
+palier: locale
+type: traque
+ton: tendre
+lieu: Temple des Porte-Lumière
+demandeur: Frère Gaël, novice au Temple des Porte-Lumière, chargé d'entretenir la lanterne qui ne doit jamais s'éteindre
+accroche: « La lanterne du Temple brûle depuis deux cents ans. On ne l'a jamais laissée s'éteindre. Hier soir, je me suis endormi pendant ma veille. Quand je me suis réveillé, elle avait disparu. Elle n'est pas éteinte : elle a disparu. Si le grand prêtre l'apprend, je serai renvoyé. Mais surtout, je veux savoir qui l'a prise. »
+postes: Éclaireur
+duree: 5
+dangereuse: non
+epreuves: poursuite 42 (suivre la trace d'une lanterne qui laisse, la nuit, une faible lueur derrière elle) ; diplomatie 40 (convaincre celui qui l'a prise de la rendre)
+complication: La lanterne a été prise par une petite fille de six ans, qui la voyait chaque soir depuis la fenêtre de l'hospice d'en face. Sa mère est malade, et elle a peur du noir. Elle voulait « la lumière qui ne s'éteint jamais » pour la chambre de sa mère.
+eclatante: {meneur} retrouve la lanterne dans la chambre de l'hospice, posée au chevet de la mère malade, avec la petite fille endormie à côté. Frère Gaël vient la récupérer lui-même. Puis il revient le lendemain avec une petite lanterne allumée à la grande, et la donne à la petite fille. Le grand prêtre apprend tout. Il ne renvoie personne. Il décide que, désormais, le Temple offrira une lanterne allumée à la grande à chaque malade de l'hospice.
+reussite: La lanterne est retrouvée et ramenée au Temple avant la prière du matin. Elle ne s'est pas éteinte. Frère Gaël ne sera pas renvoyé. Il apprend où était la lanterne, et pourquoi. Le soir même, il passe une heure à l'hospice, avec une bougie, pour tenir compagnie à une petite fille qui a peur du noir.
+partielle: La lanterne est retrouvée, mais elle s'est éteinte pendant la nuit, au chevet de la malade. Frère Gaël la rallume avec une bougie du Temple, en espérant que personne ne verra la différence. Il ne dormira plus jamais pendant une veille. Il se confesse au grand prêtre, qui lui pardonne.
+echec: La lanterne reste introuvable. Le grand prêtre en fait allumer une nouvelle, et renvoie Frère Gaël. Quelques jours plus tard, une lanterne ancienne apparaît sur les marches du Temple, éteinte, avec un dessin d'enfant à côté. Il est trop tard pour le novice. Le grand prêtre garde le dessin.
+recompenses: po 50 ; reputation 2 ; objet Charme féerique 12

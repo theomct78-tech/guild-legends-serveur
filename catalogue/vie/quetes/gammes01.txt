@@ -1,0 +1,269 @@
+# Quêtes de gamme · lot pilote 1 (8 nov. 2026)
+# Les héros issus d'une gamme de skins (Star Guardian, High Noon…) vivent en Runeterra avec l'identité de leur univers.
+# Leur quête est commune à la gamme et se déroule dans un lieu de Runeterra qui lui ressemble.
+# Écrit sans aucun accord de genre : le même texte vaut pour tous les champions de la gamme. {nom} = le nom du héros.
+# Même format que les quêtes de champion, avec « gamme » à la place de « champion ».
+
+=== QUG-SPIRIT-BLOSSOM | La lanterne des âmes
+gamme: Spirit Blossom
+motivation: appartenance
+demande: « Une âme me suit depuis mon arrivée. Elle ne me veut pas de mal : c'est une âme perdue. Il faut la ramener là où les esprits passent, à Ionia, pendant la floraison. »
+eveil: Des pétales roses tombent dans le dortoir de {nom}, alors qu'aucun arbre ne fleurit à des lieues à la ronde.
+e1_region: ionia
+e1_lieu: Jardin de l'Oubli
+e1_duree: 6
+e1_epreuves: discretion 1 ; diplomatie 1
+e1_recit: retrouver le nom de l'âme perdue en parlant aux esprits du jardin, qui n'aiment guère les vivants
+e1_reussite: Un esprit-renard murmure enfin un nom. L'âme qui suit {nom} frissonne en l'entendant, comme quelqu'un qu'on appelle après des années.
+e1_echec: Les esprits se taisent dès que {nom} approche. Il faudra revenir plus humblement.
+e2_region: ionia
+e2_lieu: Lac des Lys lumineux
+e2_duree: 8
+e2_epreuves: voyage 1 ; combat 1
+e2_recit: escorter l'âme jusqu'au lac, sous la lune de la floraison, à travers des esprits moins bienveillants
+e2_reussite: Sur le lac, la lanterne s'éteint doucement. L'âme s'en va, apaisée. {nom} rentre avec une fleur qui ne fane pas.
+e2_echec: Les esprits hostiles dispersent la procession. L'âme reste auprès de {nom}, patiente. Elle attendra une autre floraison.
+fin: Au repère, {nom} raconte la floraison à qui veut l'entendre. Le soir, sur le rebord de sa fenêtre, la fleur brille doucement.
+refus: {nom} garde la lanterne allumée près du lit. Certaines nuits, on l'entend parler à quelqu'un que personne ne voit.
+
+=== QUG-HIGH-NOON | La prime de midi
+gamme: High Noon
+motivation: vengeance
+demande: « Un nom sur une affiche. Une vieille dette. Il paraît que l'homme que je cherche se cache dans un port de Bilgewater. À midi, tout sera réglé. »
+eveil: {nom} nettoie son arme sur le perron du repère, longtemps, en regardant le soleil monter.
+e1_region: bilgewater
+e1_lieu: Port de Bilgewater
+e1_duree: 6
+e1_epreuves: discretion 1 ; diplomatie 1
+e1_recit: remonter la piste du fugitif de taverne en taverne sans qu'il sache qu'on le cherche
+e1_reussite: Une serveuse borgne glisse une adresse sous un verre vide. Le fugitif dort au-dessus d'une échoppe de harpons.
+e1_echec: Le fugitif a été prévenu. Il a filé à l'aube, en laissant derrière lui une seule balle, posée sur la table.
+e2_region: bilgewater
+e2_lieu: Port de Bilgewater
+e2_duree: 6
+e2_epreuves: poursuite 1 ; combat 1
+e2_recit: affronter le fugitif sur les quais, à midi, devant tout le port
+e2_reussite: Le duel dure une seconde. Le fugitif est vivant, désarmé, et livré à la justice. {nom} déchire l'affiche et laisse les morceaux s'envoler.
+e2_echec: Le fugitif saute dans un bateau et disparaît en mer. {nom} garde l'affiche. Midi reviendra.
+fin: {nom} rentre au repère sans un mot de triomphe. Mais pour la première fois, l'arme reste dans son étui toute la soirée.
+refus: {nom} plie l'affiche et la range dans une poche intérieure. Certains comptes attendent sans jamais s'effacer.
+
+=== QUG-PROJECT | Les souvenirs effacés
+gamme: PROJECT
+motivation: liberte
+demande: « Mes implants ont effacé une partie de ma mémoire. J'ai retrouvé l'adresse d'un atelier à Zaun où l'on peut, paraît-il, récupérer ce qu'on a perdu. »
+eveil: L'œil de {nom} clignote en rouge toute la nuit. Au matin, sur un carnet, une adresse est écrite d'une main qui ne semble pas la sienne.
+e1_region: zaun
+e1_lieu: Échoppe de Benzo
+e1_duree: 5
+e1_epreuves: discretion 1 ; diplomatie 1
+e1_recit: convaincre un bricoleur de Zaun d'ouvrir les implants, sans tomber dans le piège d'un revendeur de pièces
+e1_reussite: Le bricoleur siffle d'admiration en ouvrant le boîtier. « Ils ne t'ont pas tout effacé. Ils ont juste caché le reste. »
+e1_echec: Le revendeur a essayé de démonter {nom} pour vendre les morceaux. La fuite dans les Failles a été bruyante.
+e2_region: zaun
+e2_lieu: Raffineries de Shimmer
+e2_duree: 8
+e2_epreuves: siege 1 ; discretion 1
+e2_recit: récupérer la clé de déchiffrement dans les raffineries, chez ceux qui ont posé les implants
+e2_reussite: Les souvenirs reviennent d'un coup : un visage, une maison, un rire. {nom} s'assoit par terre et reste là un long moment.
+e2_echec: La clé est détruite dans l'affrontement. Mais un fragment de souvenir revient quand même : une chanson, rien qu'une chanson.
+fin: Au repère, {nom} fredonne une chanson que personne ne connaît. Elle vient d'avant les implants.
+refus: {nom} hausse les épaules : « Mémoire non essentielle. » Puis passe la nuit à regarder un vieux plan de Zaun, sans dormir.
+
+=== QUG-STAR-GUARDIAN | L'étoile tombée
+gamme: Star Guardian
+motivation: proteger
+demande: « Une étoile est tombée près du mont Targon. Si quelqu'un d'autre la trouve avant moi, ce sera une catastrophe. Les Gardiens ne laissent jamais une étoile seule. »
+eveil: À minuit, le ciel au-dessus du repère s'illumine d'une traînée dorée. {nom} est déjà debout, à la fenêtre, comme en réponse à un appel.
+e1_region: targon
+e1_lieu: Mont Targon
+e1_duree: 8
+e1_epreuves: voyage 1 ; poursuite 1
+e1_recit: gravir les pentes du mont Targon en suivant la lueur de l'étoile avant que les pilleurs ne la repèrent
+e1_reussite: L'étoile est là, au creux d'un rocher : une petite créature lumineuse, effrayée, qui se blottit contre {nom}.
+e1_echec: La lueur s'est éteinte avant que {nom} n'arrive. Il faudra attendre qu'elle brille de nouveau.
+e2_region: targon
+e2_lieu: Mont Targon
+e2_duree: 8
+e2_epreuves: combat 1 ; siege 1
+e2_recit: protéger l'étoile des pilleurs jusqu'à ce qu'elle reprenne assez de force pour remonter au ciel
+e2_reussite: À l'aube, l'étoile s'envole et remonte vers le ciel. Le soir même, une nouvelle étoile brille au-dessus du repère, juste un peu plus fort que les autres.
+e2_echec: Les pilleurs sont repoussés, mais l'étoile est trop faible pour partir. Elle reste avec {nom}, quelques jours de plus.
+fin: Désormais, chaque nuit claire, {nom} montre à la guilde une étoile bien précise, et lui fait un petit signe.
+refus: {nom} regarde le ciel tous les soirs, avec de l'inquiétude à chaque étoile filante. La guilde apprend à reconnaître ce regard.
+
+=== QUG-BLOOD-MOON | Le masque de sang
+gamme: Blood Moon
+motivation: pouvoir
+demande: « Le culte de la Lune de sang m'a donné ce masque. Il murmure. Il veut que je retrouve les autres masques, à Ionia. Je préfère y aller avec ta permission que sans. »
+eveil: Cette nuit, la lune est rouge, et le masque de {nom} a bougé tout seul sur l'étagère.
+e1_region: ionia
+e1_lieu: Forêt de Lhradi
+e1_duree: 6
+e1_epreuves: discretion 1 ; voyage 1
+e1_recit: retrouver dans la forêt l'autel abandonné où le culte cachait ses masques
+e1_reussite: L'autel est là, couvert de lierre. Trois masques y attendent. Le masque de {nom} se tait enfin, comme satisfait.
+e1_echec: La forêt tourne en rond sous la lune. {nom} revient au point de départ trois fois, puis renonce pour cette nuit.
+e2_region: ionia
+e2_lieu: Temple de Raishai
+e2_duree: 8
+e2_epreuves: combat 1 ; diplomatie 1
+e2_recit: décider, face aux derniers fidèles du culte, ce qu'on fait des masques
+e2_reussite: {nom} brise les masques un par un devant les fidèles stupéfaits. Le sien en dernier. Le silence qui suit a le goût de la liberté.
+e2_echec: Les fidèles s'enfuient avec deux masques. {nom} garde le troisième, et le sien, sous clé.
+fin: Au repère, {nom} accroche une lanterne blanche à sa porte. Les nuits de lune rouge, plus personne n'a peur.
+refus: Le masque de {nom} murmure de plus en plus fort. On l'a rangé dans un coffre, puis le coffre dans un autre coffre.
+
+=== QUG-HEXTECH | Le cœur instable
+gamme: Hextech
+motivation: savoir
+demande: « Le cristal qui m'anime se fissure. À Piltover, quelqu'un sait sûrement comment le réparer. Si je ne fais rien, je ne sais pas ce qui arrivera. Probablement rien de bon. »
+eveil: Une lueur bleue s'échappe par moments de la poitrine de {nom}, avec un petit bruit de verre qui craque.
+e1_region: piltover
+e1_lieu: Académie de Piltover
+e1_duree: 5
+e1_epreuves: diplomatie 1 ; discretion 1
+e1_recit: obtenir un rendez-vous avec un inventeur de l'Académie sans finir dans une vitrine de laboratoire
+e1_reussite: Une inventrice regarde le cristal, fascinée. « C'est réparable. Mais il me faut une pièce que plus personne ne fabrique. »
+e1_echec: Trois inventeurs veulent étudier {nom}. Aucun ne veut réparer le cristal. La sortie de l'Académie se fait au pas de course.
+e2_region: piltover
+e2_lieu: Forge Talis
+e2_duree: 6
+e2_epreuves: siege 1 ; voyage 1
+e2_recit: récupérer la pièce oubliée au fond de la vieille forge, où la machinerie ne s'arrête jamais
+e2_reussite: Le nouveau cristal ronronne doucement. {nom} a l'impression de respirer pour la première fois depuis des semaines.
+e2_echec: La pièce est abîmée. Le cristal tiendra, avec une rustine. Il craque encore un peu les jours de pluie.
+fin: Au repère, {nom} brille d'une lueur bleue régulière et tranquille. Les autres s'en servent comme veilleuse, ce qui ne dérange personne.
+refus: Le craquement continue. {nom} fait semblant de ne pas l'entendre, et la guilde aussi.
+
+=== QUG-COVEN | Le pacte du cercle
+gamme: Coven
+motivation: pouvoir
+demande: « Le cercle m'a donné mon pouvoir. Aujourd'hui, il me réclame son prix. Je dois aller négocier, et je préfère que quelqu'un sache où je suis. »
+eveil: Un cercle de bougies noires apparaît dans la cour, au petit matin. {nom} le regarde et pâlit.
+e1_region: ionia
+e1_lieu: Forêt de Nistaram
+e1_duree: 6
+e1_epreuves: discretion 1 ; diplomatie 1
+e1_recit: rejoindre le cercle dans la forêt et découvrir le vrai prix du pacte
+e1_reussite: Le prix est un souvenir, un seul, à choisir. {nom} demande une nuit pour réfléchir. Le cercle accepte, à contrecœur.
+e1_echec: Le cercle refuse de parler. Il attendra que {nom} revienne, et il sait attendre.
+e2_region: ionia
+e2_lieu: Rochers Tourbillons
+e2_duree: 8
+e2_epreuves: combat 1 ; diplomatie 1
+e2_recit: renégocier le pacte face au cercle réuni, ou le rompre
+e2_reussite: {nom} rompt le pacte et garde son pouvoir. Le cercle s'efface dans la brume, avec un rire qui ressemble presque à du respect.
+e2_echec: Le pacte tient. {nom} y laisse un souvenir sans importance, du moins c'est ce qu'il faut espérer.
+fin: Au repère, {nom} brûle les bougies noires une à une, et dort enfin sans rêver de cercles.
+refus: Les bougies noires reviennent chaque matin dans la cour. Quelqu'un finit par les ramasser sans rien dire.
+
+=== QUG-SPACE-GROOVE | Le dernier concert
+gamme: Space Groove
+motivation: plaisir
+demande: « Il manque une note. LA note. Celle qui fait danser tout l'univers. Je crois qu'elle se cache dans une salle d'arcade de Zaun. Tu viens danser ? Non ? Alors laisse-moi y aller. »
+eveil: {nom} fredonne la même mélodie toute la journée, et s'arrête toujours au même endroit, juste avant la note qui manque.
+e1_region: zaun
+e1_lieu: Salle d'arcade
+e1_duree: 5
+e1_epreuves: discretion 1 ; diplomatie 1
+e1_recit: trouver dans la salle d'arcade la vieille borne musicale qui joue, dit-on, la note perdue
+e1_reussite: La borne crache une note, une seule, et tout le monde dans la salle se met à danser sans savoir pourquoi.
+e1_echec: La borne est en panne. Un gamin propose de la réparer contre des billes. Il faudra revenir.
+e2_region: zaun
+e2_lieu: Marché à ciel ouvert
+e2_duree: 6
+e2_epreuves: diplomatie 1 ; poursuite 1
+e2_recit: organiser un concert au marché avant que les gardes ne dispersent la foule
+e2_reussite: La note éclate au-dessus du marché. Pendant trois minutes, Zaun danse. Même les gardes. Surtout les gardes.
+e2_echec: Les gardes coupent le concert au deuxième morceau. Mais trois gamins repartent en fredonnant la mélodie, note comprise.
+fin: Au repère, {nom} joue la mélodie complète, enfin. La salle commune se transforme en piste de danse jusqu'à l'aube.
+refus: {nom} continue de fredonner la mélodie inachevée. C'est un peu agaçant, il faut le dire.
+
+=== QUG-INFERNAL | Les braises du serment
+gamme: Infernal
+motivation: redemption
+demande: « Le feu qui brûle en moi vient d'un serment rompu. Il y a un volcan à Noxus où je peux le rendre. Si je ne le fais pas, un jour il brûlera ce que j'aime. »
+eveil: La couverture de {nom} a pris feu cette nuit, toute seule. Personne n'a été blessé, mais l'odeur de brûlé reste longtemps.
+e1_region: noxus
+e1_lieu: Monts Ironspike
+e1_duree: 8
+e1_epreuves: voyage 1 ; siege 1
+e1_recit: traverser les Monts Ironspike jusqu'au cratère où le serment a été prêté
+e1_reussite: Le cratère gronde en reconnaissant {nom}. La lave dessine des lettres que {nom} est la seule personne à pouvoir lire.
+e1_echec: Une coulée de lave barre la route. Il faudra contourner, et attendre que la montagne se calme.
+e2_region: noxus
+e2_lieu: Monts Ironspike
+e2_duree: 6
+e2_epreuves: combat 1 ; diplomatie 1
+e2_recit: affronter la créature de flammes qui garde le serment et lui rendre ce qui lui appartient
+e2_reussite: Le feu quitte {nom} comme un souffle. Ses mains sont tièdes, pour la première fois. Ça fait un peu peur, et beaucoup de bien.
+e2_echec: La créature garde le serment. Le feu reste, mais plus calme, comme apaisé d'avoir été entendu.
+fin: Au repère, {nom} prend une tasse de thé à pleines mains et la boit sans qu'elle se mette à bouillir.
+refus: {nom} dort désormais sur le sol de pierre de la cour, loin des draps. Par précaution.
+
+=== QUG-WINTERBLESSED | Le premier flocon
+gamme: Winterblessed
+motivation: cause
+demande: « Le premier flocon de l'hiver doit être porté au sanctuaire de la glace avant la fin de la saison. C'est ma charge. Sans lui, l'hiver ne sera pas béni, et l'année sera dure pour beaucoup de monde. »
+eveil: Un flocon tombe dans la paume de {nom}, au milieu d'une journée sans nuage. Il ne fond pas.
+e1_region: freljord
+e1_lieu: Pic de Frosthorn
+e1_duree: 8
+e1_epreuves: voyage 1 ; poursuite 1
+e1_recit: porter le flocon jusqu'au pied du Pic de Frosthorn sans qu'il fonde, à travers les tempêtes
+e1_reussite: Le flocon est intact. La tempête s'écarte, comme pour laisser passer {nom}.
+e1_echec: Le flocon a fondu à moitié. Il en tombera un autre, mais il faudra l'attendre.
+e2_region: freljord
+e2_lieu: Pic de Frosthorn
+e2_duree: 8
+e2_epreuves: siege 1 ; diplomatie 1
+e2_recit: obtenir des gardiens du sanctuaire le droit d'entrer, et déposer le flocon sur l'autel
+e2_reussite: Le flocon se pose sur l'autel et la montagne entière se met à scintiller. Partout dans le Freljord, la première neige tombe, douce et légère.
+e2_echec: Les gardiens refusent l'entrée. Le flocon est déposé sur le seuil. Ce sera un hiver correct, sans plus.
+fin: Au repère, il neige un peu, rien que dans la cour, le soir du retour de {nom}. Toute la guilde sort pour la regarder tomber.
+refus: {nom} garde le flocon dans une petite boîte de verre. Il ne fond toujours pas. L'hiver, lui, arrive en retard.
+
+=== QUG-DARK-STAR | Le trou dans le ciel
+gamme: Dark Star
+motivation: savoir
+demande: « Il y a un vide au-dessus du mont Targon, un endroit où les étoiles disparaissent. Je veux savoir ce qu'il y a dedans. Je crois que tout a commencé pour moi là-haut. »
+eveil: {nom} reste sur les remparts toute la nuit, les yeux fixés sur un point du ciel où il n'y a rien. Absolument rien.
+e1_region: targon
+e1_lieu: Mont Targon
+e1_duree: 8
+e1_epreuves: voyage 1 ; discretion 1
+e1_recit: atteindre le plus haut point accessible du mont Targon, là où le vide est le plus proche
+e1_reussite: De là-haut, le vide se voit nettement : un cercle noir où même la lumière se tait. Il semble regarder {nom} en retour.
+e1_echec: Les nuages cachent le ciel pendant trois nuits. Le vide attendra.
+e2_region: targon
+e2_lieu: Mont Targon
+e2_duree: 8
+e2_epreuves: combat 1 ; diplomatie 1
+e2_recit: écouter ce que le vide a à dire, sans se laisser engloutir
+e2_reussite: Le vide parle, longtemps. {nom} écoute, puis lui tourne le dos et redescend. Ce qui s'est dit là-haut, personne ne le saura. Mais ça suffit.
+e2_echec: Le vide hurle au lieu de parler. {nom} redescend vite, avec un mal de tête et une étrange impression d'avoir été vu.
+fin: Au repère, {nom} a l'air plus léger. Il y a toujours un vide dans le ciel, mais il n'y en a plus dans son regard.
+refus: {nom} continue de fixer le même point du ciel chaque nuit. Le chien de la guilde s'est mis à le faire aussi.
+
+=== QUG-ELDERWOOD | La forêt qui se meurt
+gamme: Elderwood
+motivation: proteger
+demande: « La forêt d'où je viens est malade. Un arbre ancien pourrit de l'intérieur, et avec lui tout ce qui vit autour. Je sais où trouver de quoi le soigner, mais il faut faire vite. »
+eveil: Les plantes en pot du repère se fanent toutes en une nuit, sauf celle sur la fenêtre de {nom}, qui se tourne vers l'est.
+e1_region: ionia
+e1_lieu: Forêt d'Olgathee
+e1_duree: 8
+e1_epreuves: voyage 1 ; discretion 1
+e1_recit: trouver la source de la maladie au cœur de la forêt, en évitant les bêtes rendues folles par la pourriture
+e1_reussite: La source est un champignon noir, enroulé autour des racines de l'arbre ancien. Il peut être brûlé, avec la bonne flamme.
+e1_echec: Les bêtes folles barrent le chemin. {nom} doit reculer, le cœur lourd.
+e2_region: ionia
+e2_lieu: Temple de Thanjuul
+e2_duree: 6
+e2_epreuves: siege 1 ; diplomatie 1
+e2_recit: convaincre les gardiens du temple de prêter leur flamme sacrée, et la porter jusqu'à l'arbre
+e2_reussite: La flamme brûle le champignon sans toucher l'écorce. Au matin, un bourgeon perce sur la plus haute branche de l'arbre ancien.
+e2_echec: Le champignon recule, mais ne meurt pas. L'arbre tiendra une saison de plus. Il faudra revenir.
+fin: Au repère, {nom} plante une graine de l'arbre ancien dans la cour. La guilde attend de voir ce qui poussera.
+refus: {nom} arrose sa plante tous les matins en lui murmurant des excuses. Elle se tourne toujours vers l'est.

@@ -1,0 +1,1116 @@
+{
+ "lot": 1,
+ "statut": "inventaire validé",
+ "heros": [
+  {
+   "id": "akali-classic",
+   "champion": "Akali",
+   "skin": "Classic",
+   "image": "Akali_Classic.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "akali-blood-moon-akali",
+   "champion": "Akali",
+   "skin": "Blood Moon Akali",
+   "image": "Akali_Blood Moon Akali.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "akali-coven-akali",
+   "champion": "Akali",
+   "skin": "Coven Akali",
+   "image": "Akali_Coven Akali.jpg",
+   "apparences": [
+    {
+     "skin": "Prestige Coven Akali",
+     "image": "Akali_Prestige Coven Akali.jpg",
+     "motif": "Prestige"
+    }
+   ],
+   "doutes": []
+  },
+  {
+   "id": "akali-crime-city-nightmare-akali",
+   "champion": "Akali",
+   "skin": "Crime City Nightmare Akali",
+   "image": "Akali_Crime City Nightmare Akali.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "akali-empyrean-akali",
+   "champion": "Akali",
+   "skin": "Empyrean Akali",
+   "image": "Akali_Empyrean Akali.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "akali-headhunter-akali",
+   "champion": "Akali",
+   "skin": "Headhunter Akali",
+   "image": "Akali_Headhunter Akali.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "akali-infernal-akali",
+   "champion": "Akali",
+   "skin": "Infernal Akali",
+   "image": "Akali_Infernal Akali.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "akali-k-da-akali",
+   "champion": "Akali",
+   "skin": "K DA Akali",
+   "image": "Akali_K_DA ALL OUT Akali.jpg",
+   "apparences": [
+    {
+     "skin": "Prestige K DA Akali",
+     "image": "Akali_Prestige K_DA Akali.jpg",
+     "motif": "Prestige"
+    },
+    {
+     "skin": "Prestige K DA Akali (2022)",
+     "image": "Akali_Prestige K_DA Akali (2022).jpg",
+     "motif": "Prestige"
+    }
+   ],
+   "doutes": [],
+   "image_skin": "K DA ALL OUT Akali"
+  },
+  {
+   "id": "akali-nurse-akali",
+   "champion": "Akali",
+   "skin": "Nurse Akali",
+   "image": "Akali_Nurse Akali.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "akali-project-akali",
+   "champion": "Akali",
+   "skin": "PROJECT Akali",
+   "image": "Akali_PROJECT_ Akali.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "akali-silverfang-akali",
+   "champion": "Akali",
+   "skin": "Silverfang Akali",
+   "image": "Akali_Silverfang Akali.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "akali-spirit-blossom-akali",
+   "champion": "Akali",
+   "skin": "Spirit Blossom Akali",
+   "image": "Akali_Spirit Blossom Akali.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "akali-star-guardian-akali",
+   "champion": "Akali",
+   "skin": "Star Guardian Akali",
+   "image": "Akali_Star Guardian Akali.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "akali-stinger-akali",
+   "champion": "Akali",
+   "skin": "Stinger Akali",
+   "image": "Akali_Stinger Akali.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "akali-true-damage-akali",
+   "champion": "Akali",
+   "skin": "True Damage Akali",
+   "image": "Akali_True Damage Akali.jpg",
+   "apparences": [
+    {
+     "skin": "True Damage Know My Name Akali",
+     "image": "Akali_True Damage Know My Name Akali.jpg",
+     "motif": "même individu, nouvelle époque"
+    }
+   ],
+   "doutes": [
+    "Fusion validée, confiance assez élevée : continuité True Damage et retour du groupe annoncés, mais aucune source officielle ne dit explicitement que c’est la même Akali."
+   ]
+  },
+  {
+   "id": "akshan-classic",
+   "champion": "Akshan",
+   "skin": "Classic",
+   "image": "Akshan_Classic.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "akshan-crystal-rose-akshan",
+   "champion": "Akshan",
+   "skin": "Crystal Rose Akshan",
+   "image": "Akshan_Crystal Rose Akshan.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "akshan-cyber-pop-akshan",
+   "champion": "Akshan",
+   "skin": "Cyber Pop Akshan",
+   "image": "Akshan_Cyber Pop Akshan.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "akshan-high-noon-akshan",
+   "champion": "Akshan",
+   "skin": "High Noon Akshan",
+   "image": "Akshan_High Noon Akshan.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "akshan-three-honors-akshan",
+   "champion": "Akshan",
+   "skin": "Three Honors Akshan",
+   "image": "Akshan_Three Honors Akshan.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "alistar-classic",
+   "champion": "Alistar",
+   "skin": "Classic",
+   "image": "Alistar_Classic.jpg",
+   "apparences": [
+    {
+     "skin": "Black Alistar",
+     "image": "Alistar_Black Alistar.jpg",
+     "motif": "recoloration"
+    },
+    {
+     "skin": "Black Alistar Modern",
+     "image": "Alistar_Black Alistar Modern.jpg",
+     "motif": "recoloration, illustration actualisée"
+    },
+    {
+     "skin": "Golden Alistar",
+     "image": "Alistar_Golden Alistar.jpg",
+     "motif": "recoloration"
+    }
+   ],
+   "doutes": []
+  },
+  {
+   "id": "alistar-blackfrost-alistar",
+   "champion": "Alistar",
+   "skin": "Blackfrost Alistar",
+   "image": "Alistar_Blackfrost Alistar.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "alistar-conqueror-alistar",
+   "champion": "Alistar",
+   "skin": "Conqueror Alistar",
+   "image": "Alistar_Conqueror Alistar.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "alistar-elderwood-alistar",
+   "champion": "Alistar",
+   "skin": "Elderwood Alistar",
+   "image": "Alistar_Elderwood Alistar.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "alistar-hextech-alistar",
+   "champion": "Alistar",
+   "skin": "Hextech Alistar",
+   "image": "Alistar_Hextech Alistar.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "alistar-infernal-alistar",
+   "champion": "Alistar",
+   "skin": "Infernal Alistar",
+   "image": "Alistar_Infernal Alistar.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "alistar-longhorn-alistar",
+   "champion": "Alistar",
+   "skin": "Longhorn Alistar",
+   "image": "Alistar_Longhorn Alistar.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "alistar-lunar-beast-alistar",
+   "champion": "Alistar",
+   "skin": "Lunar Beast Alistar",
+   "image": "Alistar_Lunar Beast Alistar.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "alistar-marauder-alistar",
+   "champion": "Alistar",
+   "skin": "Marauder Alistar",
+   "image": "Alistar_Marauder Alistar.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "alistar-matador-alistar",
+   "champion": "Alistar",
+   "skin": "Matador Alistar",
+   "image": "Alistar_Matador Alistar.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "alistar-moo-cow-alistar",
+   "champion": "Alistar",
+   "skin": "Moo Cow Alistar",
+   "image": "Alistar_Moo Cow Alistar.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "alistar-unchained-alistar",
+   "champion": "Alistar",
+   "skin": "Unchained Alistar",
+   "image": "Alistar_Unchained Alistar.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ambessa-classic",
+   "champion": "Ambessa",
+   "skin": "Classic",
+   "image": "Ambessa_Classic.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ambessa-chosen-of-the-wolf-ambessa",
+   "champion": "Ambessa",
+   "skin": "Chosen of the Wolf Ambessa",
+   "image": "Ambessa_Chosen of the Wolf Ambessa.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "amumu-classic",
+   "champion": "Amumu",
+   "skin": "Classic",
+   "image": "Amumu_Classic.jpg",
+   "apparences": [
+    {
+     "skin": "Vancouver Amumu",
+     "image": "Amumu_Vancouver Amumu.jpg",
+     "motif": "commémoratif"
+    }
+   ],
+   "doutes": []
+  },
+  {
+   "id": "amumu-almost-prom-king-amumu",
+   "champion": "Amumu",
+   "skin": "Almost-Prom King Amumu",
+   "image": "Amumu_Almost-Prom King Amumu.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "amumu-dumpling-darlings-amumu",
+   "champion": "Amumu",
+   "skin": "Dumpling Darlings Amumu",
+   "image": "Amumu_Dumpling Darlings Amumu.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "amumu-emumu",
+   "champion": "Amumu",
+   "skin": "Emumu",
+   "image": "Amumu_Emumu.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "amumu-heartache-amumu",
+   "champion": "Amumu",
+   "skin": "Heartache Amumu",
+   "image": "Amumu_Heartache Amumu.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "amumu-hextech-amumu",
+   "champion": "Amumu",
+   "skin": "Hextech Amumu",
+   "image": "Amumu_Hextech Amumu.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "amumu-infernal-amumu",
+   "champion": "Amumu",
+   "skin": "Infernal Amumu",
+   "image": "Amumu_Infernal Amumu.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "amumu-little-knight-amumu",
+   "champion": "Amumu",
+   "skin": "Little Knight Amumu",
+   "image": "Amumu_Little Knight Amumu.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "amumu-pharaoh-amumu",
+   "champion": "Amumu",
+   "skin": "Pharaoh Amumu",
+   "image": "Amumu_Pharaoh Amumu.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "amumu-porcelain-amumu",
+   "champion": "Amumu",
+   "skin": "Porcelain Amumu",
+   "image": "Amumu_Porcelain Amumu.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "amumu-pumpkin-prince-amumu",
+   "champion": "Amumu",
+   "skin": "Pumpkin Prince Amumu",
+   "image": "Amumu_Pumpkin Prince Amumu.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "amumu-re-gifted-amumu",
+   "champion": "Amumu",
+   "skin": "Re-Gifted Amumu",
+   "image": "Amumu_Re-Gifted Amumu.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "amumu-sad-robot-amumu",
+   "champion": "Amumu",
+   "skin": "Sad Robot Amumu",
+   "image": "Amumu_Sad Robot Amumu.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "anivia-classic",
+   "champion": "Anivia",
+   "skin": "Classic",
+   "image": "Anivia_Classic.jpg",
+   "apparences": [
+    {
+     "skin": "Victorious Anivia",
+     "image": "Anivia_Victorious Anivia.jpg",
+     "motif": "récompense classée"
+    },
+    {
+     "skin": "Team Spirit Anivia",
+     "image": "Anivia_Team Spirit Anivia.jpg",
+     "motif": "e-sport"
+    }
+   ],
+   "doutes": []
+  },
+  {
+   "id": "anivia-bird-of-prey-anivia",
+   "champion": "Anivia",
+   "skin": "Bird of Prey Anivia",
+   "image": "Anivia_Bird of Prey Anivia.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "anivia-blackfrost-anivia",
+   "champion": "Anivia",
+   "skin": "Blackfrost Anivia",
+   "image": "Anivia_Blackfrost Anivia.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "anivia-cosmic-flight-anivia",
+   "champion": "Anivia",
+   "skin": "Cosmic Flight Anivia",
+   "image": "Anivia_Cosmic Flight Anivia.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "anivia-divine-phoenix-anivia",
+   "champion": "Anivia",
+   "skin": "Divine Phoenix Anivia",
+   "image": "Anivia_Divine Phoenix Anivia.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "anivia-festival-queen-anivia",
+   "champion": "Anivia",
+   "skin": "Festival Queen Anivia",
+   "image": "Anivia_Festival Queen Anivia.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "anivia-hextech-anivia",
+   "champion": "Anivia",
+   "skin": "Hextech Anivia",
+   "image": "Anivia_Hextech Anivia.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "anivia-noxus-hunter-anivia",
+   "champion": "Anivia",
+   "skin": "Noxus Hunter Anivia",
+   "image": "Anivia_Noxus Hunter Anivia.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "anivia-old-god-anivia",
+   "champion": "Anivia",
+   "skin": "Old God Anivia",
+   "image": "Anivia_Old God Anivia.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "anivia-papercraft-anivia",
+   "champion": "Anivia",
+   "skin": "Papercraft Anivia",
+   "image": "Anivia_Papercraft Anivia.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "annie-classic",
+   "champion": "Annie",
+   "skin": "Classic",
+   "image": "Annie_Classic.jpg",
+   "apparences": [
+    {
+     "skin": "Annie-Versary",
+     "image": "Annie_Annie-Versary.jpg",
+     "motif": "commémoratif"
+    }
+   ],
+   "doutes": []
+  },
+  {
+   "id": "annie-annie-in-wonderland",
+   "champion": "Annie",
+   "skin": "Annie in Wonderland",
+   "image": "Annie_Annie in Wonderland.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "annie-battle-princess-annie",
+   "champion": "Annie",
+   "skin": "Battle Princess Annie",
+   "image": "Annie_Battle Princess Annie.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "annie-cafe-cuties-annie",
+   "champion": "Annie",
+   "skin": "Cafe Cuties Annie",
+   "image": "Annie_Cafe Cuties Annie.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "annie-frankentibbers-annie",
+   "champion": "Annie",
+   "skin": "FrankenTibbers Annie",
+   "image": "Annie_FrankenTibbers Annie.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "annie-fright-night-annie",
+   "champion": "Annie",
+   "skin": "Fright Night Annie",
+   "image": "Annie_Fright Night Annie.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "annie-frostfire-annie",
+   "champion": "Annie",
+   "skin": "Frostfire Annie",
+   "image": "Annie_Frostfire Annie.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "annie-goth-annie",
+   "champion": "Annie",
+   "skin": "Goth Annie",
+   "image": "Annie_Goth Annie.jpg",
+   "apparences": [
+    {
+     "skin": "Goth Annie Modern",
+     "image": "Annie_Goth Annie Modern.jpg",
+     "motif": "illustration actualisée"
+    }
+   ],
+   "doutes": []
+  },
+  {
+   "id": "annie-hextech-annie",
+   "champion": "Annie",
+   "skin": "Hextech Annie",
+   "image": "Annie_Hextech Annie.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "annie-lunar-beast-annie",
+   "champion": "Annie",
+   "skin": "Lunar Beast Annie",
+   "image": "Annie_Lunar Beast Annie.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "annie-panda-annie",
+   "champion": "Annie",
+   "skin": "Panda Annie",
+   "image": "Annie_Panda Annie.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "annie-pandemonium-annie",
+   "champion": "Annie",
+   "skin": "Pandemonium Annie",
+   "image": "Annie_Pandemonium Annie.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "annie-prom-queen-annie",
+   "champion": "Annie",
+   "skin": "Prom Queen Annie",
+   "image": "Annie_Prom Queen Annie.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "annie-red-riding-annie",
+   "champion": "Annie",
+   "skin": "Red Riding Annie",
+   "image": "Annie_Red Riding Annie.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "annie-reverse-annie",
+   "champion": "Annie",
+   "skin": "Reverse Annie",
+   "image": "Annie_Reverse Annie.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "annie-super-galaxy-annie",
+   "champion": "Annie",
+   "skin": "Super Galaxy Annie",
+   "image": "Annie_Super Galaxy Annie.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "annie-sweetheart-annie",
+   "champion": "Annie",
+   "skin": "Sweetheart Annie",
+   "image": "Annie_Sweetheart Annie.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "annie-winterblessed-annie",
+   "champion": "Annie",
+   "skin": "Winterblessed Annie",
+   "image": "Annie_Winterblessed Annie.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "aphelios-classic",
+   "champion": "Aphelios",
+   "skin": "Classic",
+   "image": "Aphelios_Classic.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "aphelios-heartsteel-aphelios",
+   "champion": "Aphelios",
+   "skin": "HEARTSTEEL Aphelios",
+   "image": "Aphelios_HEARTSTEEL Live My Life Aphelios.jpg",
+   "apparences": [],
+   "doutes": [],
+   "image_skin": "HEARTSTEEL Live My Life Aphelios"
+  },
+  {
+   "id": "aphelios-lunar-beast-aphelios",
+   "champion": "Aphelios",
+   "skin": "Lunar Beast Aphelios",
+   "image": "Aphelios_Lunar Beast Aphelios.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "aphelios-nightbringer-aphelios",
+   "champion": "Aphelios",
+   "skin": "Nightbringer Aphelios",
+   "image": "Aphelios_Nightbringer Aphelios.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "aphelios-prestige-spirit-blossom-springs-aphelios",
+   "champion": "Aphelios",
+   "skin": "Prestige Spirit Blossom Springs Aphelios",
+   "image": "Aphelios_Prestige Spirit Blossom Springs Aphelios.jpg",
+   "apparences": [],
+   "doutes": [
+    "Fiche distincte provisoire. Même univers général probable, identité commune non confirmée avec Spirit Blossom Aphelios."
+   ]
+  },
+  {
+   "id": "aphelios-spirit-blossom-aphelios",
+   "champion": "Aphelios",
+   "skin": "Spirit Blossom Aphelios",
+   "image": "Aphelios_Spirit Blossom Aphelios.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ashe-classic",
+   "champion": "Ashe",
+   "skin": "Classic",
+   "image": "Ashe_Classic.jpg",
+   "apparences": [
+    {
+     "skin": "Worlds 2017 Ashe",
+     "image": "Ashe_Worlds 2017 Ashe.jpg",
+     "motif": "commémoratif"
+    }
+   ],
+   "doutes": []
+  },
+  {
+   "id": "ashe-amethyst-ashe",
+   "champion": "Ashe",
+   "skin": "Amethyst Ashe",
+   "image": "Ashe_Amethyst Ashe.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ashe-cosmic-queen-ashe",
+   "champion": "Ashe",
+   "skin": "Cosmic Queen Ashe",
+   "image": "Ashe_Cosmic Queen Ashe.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ashe-coven-ashe",
+   "champion": "Ashe",
+   "skin": "Coven Ashe",
+   "image": "Ashe_Coven Ashe.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ashe-crystalis-motus-ashe",
+   "champion": "Ashe",
+   "skin": "Crystalis Motus Ashe",
+   "image": "Ashe_Crystalis Motus Ashe.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ashe-fae-dragon-ashe",
+   "champion": "Ashe",
+   "skin": "Fae Dragon Ashe",
+   "image": "Ashe_Fae Dragon Ashe.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ashe-firecracker-ashe",
+   "champion": "Ashe",
+   "skin": "Firecracker Ashe",
+   "image": "Ashe_Firecracker Ashe.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ashe-freljord-ashe",
+   "champion": "Ashe",
+   "skin": "Freljord Ashe",
+   "image": "Ashe_Freljord Ashe.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ashe-heartseeker-ashe",
+   "champion": "Ashe",
+   "skin": "Heartseeker Ashe",
+   "image": "Ashe_Heartseeker Ashe.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ashe-high-noon-ashe",
+   "champion": "Ashe",
+   "skin": "High Noon Ashe",
+   "image": "Ashe_High Noon Ashe.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ashe-infernal-ashe",
+   "champion": "Ashe",
+   "skin": "Infernal Ashe",
+   "image": "Ashe_Infernal Ashe.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ashe-lunar-empress-ashe",
+   "champion": "Ashe",
+   "skin": "Lunar Empress Ashe",
+   "image": "Ashe_Lunar Empress Ashe.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ashe-marauder-ashe",
+   "champion": "Ashe",
+   "skin": "Marauder Ashe",
+   "image": "Ashe_Marauder Ashe.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ashe-project-ashe",
+   "champion": "Ashe",
+   "skin": "PROJECT Ashe",
+   "image": "Ashe_PROJECT_ Ashe.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ashe-queen-ashe",
+   "champion": "Ashe",
+   "skin": "Queen Ashe",
+   "image": "Ashe_Queen Ashe.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ashe-sherwood-forest-ashe",
+   "champion": "Ashe",
+   "skin": "Sherwood Forest Ashe",
+   "image": "Ashe_Sherwood Forest Ashe.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ashe-spirit-blossom-ashe",
+   "champion": "Ashe",
+   "skin": "Spirit Blossom Ashe",
+   "image": "Ashe_Spirit Blossom Ashe.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "ashe-woad-ashe",
+   "champion": "Ashe",
+   "skin": "Woad Ashe",
+   "image": "Ashe_Woad Ashe.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "aurelion-sol-classic",
+   "champion": "Aurelion Sol",
+   "skin": "Classic",
+   "image": "Aurelion Sol_Classic.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "aurelion-sol-ashen-lord-aurelion-sol",
+   "champion": "Aurelion Sol",
+   "skin": "Ashen Lord Aurelion Sol",
+   "image": "Aurelion Sol_Ashen Lord Aurelion Sol.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "aurelion-sol-inkshadow-aurelion-sol",
+   "champion": "Aurelion Sol",
+   "skin": "Inkshadow Aurelion Sol",
+   "image": "Aurelion Sol_Inkshadow Aurelion Sol.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "aurelion-sol-mecha-aurelion-sol",
+   "champion": "Aurelion Sol",
+   "skin": "Mecha Aurelion Sol",
+   "image": "Aurelion Sol_Mecha Aurelion Sol.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "aurelion-sol-porcelain-protector-aurelion-sol",
+   "champion": "Aurelion Sol",
+   "skin": "Porcelain Protector Aurelion Sol",
+   "image": "Aurelion Sol_Porcelain Protector Aurelion Sol.jpg",
+   "apparences": [
+    {
+     "skin": "Divine Architect Porcelain Aurelion Sol",
+     "image": "Aurelion Sol_Divine Architect Porcelain Aurelion Sol.jpg",
+     "motif": "variante mythique"
+    }
+   ],
+   "doutes": []
+  },
+  {
+   "id": "aurelion-sol-storm-dragon-aurelion-sol",
+   "champion": "Aurelion Sol",
+   "skin": "Storm Dragon Aurelion Sol",
+   "image": "Aurelion Sol_Storm Dragon Aurelion Sol.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "aurora-classic",
+   "champion": "Aurora",
+   "skin": "Classic",
+   "image": "Aurora_Classic.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "aurora-arcana-aurora",
+   "champion": "Aurora",
+   "skin": "Arcana Aurora",
+   "image": "Aurora_Arcana Aurora.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "aurora-battle-bunny-aurora",
+   "champion": "Aurora",
+   "skin": "Battle Bunny Aurora",
+   "image": "Aurora_Battle Bunny Aurora.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "azir-classic",
+   "champion": "Azir",
+   "skin": "Classic",
+   "image": "Azir_Classic.jpg",
+   "apparences": [
+    {
+     "skin": "Worlds 2022 Azir",
+     "image": "Azir_Worlds 2022 Azir.jpg",
+     "motif": "commémoratif"
+    }
+   ],
+   "doutes": []
+  },
+  {
+   "id": "azir-attorney-azir",
+   "champion": "Azir",
+   "skin": "Attorney Azir",
+   "image": "Azir_Attorney Azir.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "azir-elderwood-azir",
+   "champion": "Azir",
+   "skin": "Elderwood Azir",
+   "image": "Azir_Elderwood Azir.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "azir-galactic-azir",
+   "champion": "Azir",
+   "skin": "Galactic Azir",
+   "image": "Azir_Galactic Azir.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "azir-gravelord-azir",
+   "champion": "Azir",
+   "skin": "Gravelord Azir",
+   "image": "Azir_Gravelord Azir.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "azir-warring-kingdoms-azir",
+   "champion": "Azir",
+   "skin": "Warring Kingdoms Azir",
+   "image": "Azir_Warring Kingdoms Azir.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "bard-classic",
+   "champion": "Bard",
+   "skin": "Classic",
+   "image": "Bard_Classic.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "bard-astronaut-bard",
+   "champion": "Bard",
+   "skin": "Astronaut Bard",
+   "image": "Bard_Astronaut Bard.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "bard-bard-bard",
+   "champion": "Bard",
+   "skin": "Bard Bard",
+   "image": "Bard_Bard Bard.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "bard-cafe-cuties-bard",
+   "champion": "Bard",
+   "skin": "Cafe Cuties Bard",
+   "image": "Bard_Cafe Cuties Bard.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "bard-elderwood-bard",
+   "champion": "Bard",
+   "skin": "Elderwood Bard",
+   "image": "Bard_Elderwood Bard.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "bard-shan-hai-scrolls-bard",
+   "champion": "Bard",
+   "skin": "Shan Hai Scrolls Bard",
+   "image": "Bard_Shan Hai Scrolls Bard.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "bard-spirit-blossom-bard",
+   "champion": "Bard",
+   "skin": "Spirit Blossom Bard",
+   "image": "Bard_Spirit Blossom Bard.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "belveth-classic",
+   "champion": "Bel'Veth",
+   "skin": "Classic",
+   "image": "Bel'Veth_Classic.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "belveth-battle-boss-belveth",
+   "champion": "Bel'Veth",
+   "skin": "Battle Boss Bel'Veth",
+   "image": "Bel'Veth_Battle Boss Bel'Veth.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "belveth-cosmic-matriarch-belveth",
+   "champion": "Bel'Veth",
+   "skin": "Cosmic Matriarch Bel'Veth",
+   "image": "Bel'Veth_Cosmic Matriarch Bel'Veth.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "belveth-faerie-court-belveth",
+   "champion": "Bel'Veth",
+   "skin": "Faerie Court Bel'Veth",
+   "image": "Bel'Veth_Faerie Court Bel'Veth.jpg",
+   "apparences": [],
+   "doutes": []
+  },
+  {
+   "id": "belveth-primordian-belveth",
+   "champion": "Bel'Veth",
+   "skin": "Primordian Bel'Veth",
+   "image": "Bel'Veth_Primordian Bel'Veth.jpg",
+   "apparences": [],
+   "doutes": []
+  }
+ ],
+ "retires_sans_visuel": [
+  "Akali / Sashimi Akali",
+  "Alistar / Sweeper Alistar",
+  "Amumu / Surprise Party Amumu",
+  "Anivia / Bewitching Batnivia",
+  "Anivia / Prehistoric Anivia",
+  "Ashe / Ocean Song Ashe",
+  "Aurora / Broken Covenant Aurora",
+  "Bard / Snow Day Bard"
+ ]
+}

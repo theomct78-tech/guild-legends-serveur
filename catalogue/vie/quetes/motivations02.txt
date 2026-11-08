@@ -1,0 +1,236 @@
+# Quêtes de motivation · lot 2 (8 nov. 2026)
+# Une deuxième quête par motivation : deux héros qui partagent une motivation ne vivent plus la même histoire.
+# Chaque héros reçoit toujours la même des deux (tirage fixe sur son identifiant).
+# Mêmes jetons que le lot 1 : {pays}, {lieu1}, {lieu2}, {a_lieu1}, {A_lieu1}, {de_lieu1}, {jusqua_lieu1}, {vers_lieu1} (et pareil pour lieu2), {nom}, {chien}.
+# Aucun accord de genre sur {nom} : ces textes servent à des centaines de héros.
+
+=== QUM2-OR | La cargaison perdue
+motivation: or
+demande: « Un convoi a versé dans un ravin près {de_lieu1}, il y a dix ans. Personne n'est jamais allé chercher la cargaison : trop dangereux, paraît-il. Moi, j'ai retrouvé le registre du transporteur. Il y avait de l'argent dans ces caisses. Beaucoup. Laisse-moi y aller avant que quelqu'un d'autre lise le même registre. »
+eveil: {nom} passe la soirée penché sur un registre moisi, une loupe à la main, et souligne une ligne trois fois. Au dîner, sa bonne humeur étonne tout le monde.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 7
+e1_epreuves: voyage 2 ; poursuite 1
+e1_recit: retrouver le ravin où le convoi est tombé, grâce au registre et aux souvenirs des anciens {de_lieu1}
+e1_reussite: Un vieux berger se souvient du bruit, cette nuit-là. Il montre l'endroit du doigt, sans s'approcher. Au fond du ravin, entre les ronces, on devine encore une roue.
+e1_echec: Le registre s'est trompé de vallée. {nom} passe trois jours à fouiller le mauvais ravin, et ne trouve qu'un nid de guêpes.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 7
+e2_epreuves: siege 2 ; combat 1
+e2_recit: descendre dans le ravin, dégager les caisses, et les remonter jusqu'{a_lieu2} sans se faire dépouiller en route
+e2_reussite: Les caisses sont là, rouillées, intactes. Il faut deux jours pour les remonter. Des pillards tentent leur chance sur la route {de_lieu2}. Ils repartent sans rien, et avec des bosses.
+e2_echec: La moitié des caisses est vide. Quelqu'un est passé avant, il y a longtemps. {nom} remonte ce qui reste. Ce n'est pas la fortune. C'est quand même plus que rien.
+fin: {nom} rentre au repère, pose une bourse sur la table de la salle commune et dit : « Pour le toit. » Puis, plus bas : « Le reste, c'est pour moi. » Personne ne discute.
+refus: {nom} referme le registre d'un coup sec. « Très bien. Quelqu'un d'autre le lira. » Pendant une semaine, chaque fois qu'on parle d'argent à table, {nom} soupire très fort.
+
+=== QUM2-GLOIRE | Le tournoi {de_lieu1}
+motivation: gloire
+demande: « Le grand tournoi {de_lieu1} a lieu dans dix jours. Les meilleurs de {pays} y vont. On n'y a jamais vu de héros de notre guilde. Je veux qu'on y voie mon visage, et nos couleurs. Et si je gagne, on parlera de nous jusqu'ici. »
+eveil: {nom} recoud ses vêtements de cérémonie, recolle une boucle de ceinture, puis s'entraîne à saluer une foule invisible. {chien} aboie à chaque salut.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 6
+e1_epreuves: combat 2 ; diplomatie 1
+e1_recit: obtenir une place dans un tournoi où l'on n'inscrit pas les inconnus, puis passer les premiers tours
+e1_reussite: Les organisateurs hésitent, puis acceptent. {nom} passe les trois premiers tours sans perdre un seul assaut. Dans les gradins, on commence à demander d'où sort cette guilde dont personne n'a jamais entendu parler.
+e1_echec: {nom} perd au deuxième tour, sur une décision très discutable de l'arbitre. La foule siffle l'arbitre. C'est déjà ça.
+e2_region: {pays}
+e2_lieu: {lieu1}
+e2_duree: 5
+e2_epreuves: combat 2 ; diplomatie 1
+e2_recit: affronter en finale le champion du tournoi, qui ne se bat pas toujours à la loyale
+e2_reussite: Le champion triche, et tout le monde le voit. {nom} gagne quand même. Le soir, on sert à boire à la guilde dans toutes les tavernes {de_lieu1}, et personne ne paie.
+e2_echec: La finale est perdue d'un cheveu. Mais en sortant de l'arène, {nom} entend des enfants jouer au tournoi dans la rue. L'un d'eux joue son rôle.
+fin: {nom} rentre au repère avec un ruban de couleur accroché à la ceinture, et le montre à tout le monde « par hasard ». Au bout de trois jours, on le connaît par cœur, ce ruban.
+refus: {nom} range ses vêtements de cérémonie au fond d'un coffre. « L'an prochain, alors. » On sent que le coffre sera rouvert.
+
+=== QUM2-CAUSE | L'école {de_lieu1}
+motivation: cause
+demande: « Il y a une petite école {a_lieu1}. Une seule institutrice, trente enfants, et un toit qui fuit. Le seigneur du coin veut récupérer le bâtiment pour en faire une grange. Ces enfants n'ont rien d'autre. Je veux aller l'en empêcher. »
+eveil: {nom} lit une lettre d'enfant, maladroite, pleine de fautes et de dessins. Puis la plie avec beaucoup de soin, et la glisse dans sa veste.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 7
+e1_epreuves: diplomatie 2 ; siege 1
+e1_recit: rencontrer l'institutrice et les familles {de_lieu1}, et réparer le toit avant les pluies
+e1_reussite: Le toit est réparé en deux jours, avec l'aide des parents. Les enfants surnomment {nom} « Toit-qui-marche ». Ce n'est pas le surnom le plus glorieux, mais c'est celui qui fait le plus plaisir.
+e1_echec: Les familles se méfient : ce n'est pas la première fois qu'on leur promet de l'aide. {nom} répare quand même le toit, sans aide, sous la pluie.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 6
+e2_epreuves: diplomatie 2 ; discretion 1
+e2_recit: aller voir le seigneur {a_lieu2}, et trouver de quoi le faire changer d'avis
+e2_reussite: Le seigneur ne cède pas aux beaux discours. Mais il cède très vite quand {nom} lui montre un vieil acte, retrouvé aux archives, qui donne le bâtiment à l'école pour cent ans.
+e2_echec: Le seigneur refuse. L'école déménage dans une vieille grange, de l'autre côté du village. Les enfants disent que c'est mieux : il y a des chats.
+fin: {nom} rentre au repère avec une liasse de dessins d'enfants. On les retrouve un peu partout, les jours suivants : dans la cuisine, sur la porte de l'armurerie, et sous la gamelle de {chien}.
+refus: {nom} écrit une longue réponse à la lettre d'enfant, avec un dessin maladroit en bas. « C'est tout ce que je peux faire pour l'instant. » Ça a l'air de coûter cher à dire.
+
+=== QUM2-VENGEANCE | Le traître de la compagnie
+motivation: vengeance
+demande: « Avant la guilde, j'étais dans une compagnie de mercenaires. Un soir, l'un de nous nous a vendus. Six morts. Lui, il est vivant, et il tient une auberge {a_lieu1}. Je veux le regarder en face et lui demander pourquoi. Le reste, je verrai sur place. »
+eveil: {nom} sort un vieil insigne de compagnie, ébréché, et le pose sur la table. Personne ne l'avait jamais vu. Personne n'ose demander.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 6
+e1_epreuves: discretion 2 ; diplomatie 1
+e1_recit: entrer dans l'auberge {de_lieu1} sans se faire reconnaître, et observer le traître quelques jours
+e1_reussite: Il sert les clients, il rit fort, il a une fille qui l'aide en cuisine. Le troisième soir, il pose un verre devant {nom}, et sa main se met à trembler. Il a compris.
+e1_echec: Le traître reconnaît {nom} au premier regard, et disparaît par la porte de derrière. L'auberge reste ouverte. Sa fille ne sait rien.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 6
+e2_epreuves: poursuite 2 ; combat 1
+e2_recit: le rattraper {a_lieu2}, là où il est allé se cacher, et obtenir enfin la réponse
+e2_reussite: Il avait des dettes, des gens qui menaçaient sa famille. Il ne s'attendait pas à des morts. {nom} écoute jusqu'au bout. Puis jette l'insigne à ses pieds, et repart sans un mot de plus.
+e2_echec: La poursuite tourne à la bagarre, et le traître s'échappe encore. Mais pendant la bagarre, il a crié un seul mot : « Pardon. » {nom} ne sait pas quoi en faire.
+fin: {nom} rentre au repère et passe une soirée entière à raconter la compagnie : les six, leurs noms, leurs manies, leurs blagues nulles. Pour la première fois, on dirait que ça fait du bien d'en parler.
+refus: {nom} remet l'insigne dans sa poche. « Il ne va nulle part. Moi non plus, apparemment. » La phrase reste en l'air un long moment.
+
+=== QUM2-SAVOIR | La langue des pierres
+motivation: savoir
+demande: « Près {de_lieu1}, il y a des pierres levées couvertes d'une écriture que personne ne sait lire. Je crois avoir trouvé la clé dans un vieux livre. Si j'ai raison, on va enfin savoir ce qu'elles disent. Si j'ai tort, j'aurai vu de belles pierres. Dans les deux cas, j'y vais. Enfin, si tu es d'accord. »
+eveil: {nom} recopie des signes étranges sur toutes les feuilles qui traînent, y compris la liste des courses. Le cuisinier n'apprécie pas.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 7
+e1_epreuves: voyage 2 ; diplomatie 1
+e1_recit: rejoindre les pierres levées près {de_lieu1}, et convaincre les gens du coin de laisser un étranger les étudier
+e1_reussite: Les villageois laissent faire, à condition qu'on ne touche à rien. {nom} passe quatre jours à recopier chaque signe. Le soir, les enfants viennent regarder, sans rien dire.
+e1_echec: Les villageois chassent {nom} : les pierres sont sacrées, et on ne vient pas les regarder de près. Il faut se contenter de dessins faits de loin, à la longue-vue.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 6
+e2_epreuves: diplomatie 2 ; discretion 1
+e2_recit: retrouver {a_lieu2} la vieille savante qui a écrit le livre, pour vérifier la traduction
+e2_reussite: La vieille savante lit les copies, et rit. Ce n'est pas une prophétie. C'est une liste de noms, avec, sous chacun, ce qu'il aimait manger. {nom} trouve ça plus beau qu'une prophétie.
+e2_echec: La savante est morte l'hiver dernier. Ses carnets ont été vendus. {nom} en rachète un, à prix d'or. Il manque les pages importantes, évidemment.
+fin: {nom} rentre au repère et colle la traduction au mur de la bibliothèque. Depuis, certains héros y ajoutent leur nom en dessous, avec leur plat préféré. La liste s'allonge.
+refus: {nom} range les copies dans un carton. « Les pierres ont attendu mille ans. Elles attendront encore un peu. » Le carton reste à portée de main, au cas où.
+
+=== QUM2-PROTEGER | Le gué {de_lieu1}
+motivation: proteger
+demande: « Au gué {de_lieu1}, une bête attaque les voyageurs depuis un mois. Le village vit du passage : sans voyageurs, il n'a plus rien. Ils ont demandé de l'aide partout. Personne n'est venu. Moi, je veux y aller. »
+eveil: {nom} affûte ses armes une à une, puis vérifie ses bandages, puis affûte encore. Ça dure toute la soirée.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 6
+e1_epreuves: poursuite 2 ; voyage 1
+e1_recit: suivre les traces de la bête autour du gué, et trouver où elle se cache
+e1_reussite: Les traces mènent à une grotte, en amont. Il y a des os, beaucoup d'os. Et des petits. La bête protège sa portée. Ça ne change rien au danger. Ça change la façon de voir les choses.
+e1_echec: La bête frappe de nouveau pendant que {nom} cherche ailleurs. Un marchand est blessé. Le village commence à fermer ses volets dès midi.
+e2_region: {pays}
+e2_lieu: {lieu1}
+e2_duree: 6
+e2_epreuves: combat 2 ; diplomatie 1
+e2_recit: chasser la bête du gué pour de bon, et convaincre le village de ne pas la poursuivre jusque dans sa grotte
+e2_reussite: Le combat est rude. La bête finit par fuir vers les montagnes, avec ses petits. Le village voulait sa peau. {nom} les convainc qu'un gué tranquille vaut mieux qu'un trophée.
+e2_echec: La bête est repoussée, mais pas chassée. Le village construit une palissade autour du gué, sur les conseils de {nom}. On passe de nouveau, mais vite, et en groupe.
+fin: {nom} rentre au repère avec une griffe énorme, tombée pendant le combat. Elle finit accrochée au-dessus de la cheminée. {chien} la regarde avec beaucoup de respect.
+refus: {nom} pose ses armes sur la table, lentement. « Personne n'est venu. Et moi non plus, alors. » On ne sait pas quoi répondre.
+
+=== QUM2-POUVOIR | La guilde des marchands {de_lieu1}
+motivation: pouvoir
+demande: « La guilde des marchands {de_lieu1} cherche un protecteur officiel. Le titre donne un siège à leur table, et un mot à dire sur tout ce qui se vend dans la région. Je veux ce titre. Pour moi, oui. Mais la guilde en profitera aussi, je te le promets. »
+eveil: {nom} recopie au propre une lettre de recommandation, la relit, en change un mot, puis la recopie entièrement. Sept fois.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 7
+e1_epreuves: diplomatie 2 ; discretion 1
+e1_recit: se présenter aux marchands {de_lieu1}, et découvrir qui d'autre veut le titre
+e1_reussite: Trois candidats. Un capitaine en retraite, honnête mais lent. Et une femme charmante qui finance discrètement les voleurs qu'elle promet d'arrêter. {nom} garde cette information pour le bon moment.
+e1_echec: Les marchands reçoivent {nom} poliment, puis l'oublient. Il va falloir faire parler de soi autrement.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 6
+e2_epreuves: combat 1 ; diplomatie 2
+e2_recit: protéger un convoi de marchands jusqu'{a_lieu2}, et prouver devant eux qu'on mérite le titre
+e2_reussite: Le convoi est attaqué, comme prévu par la rivale. Il arrive intact, comme prévu par {nom}. Les marchands votent le soir même. Le titre est à {nom}. La rivale quitte la région.
+e2_echec: Le convoi arrive, avec des pertes. Le titre revient au vieux capitaine. {nom} le félicite, très poliment, et lui propose son aide. On ne sait jamais.
+fin: {nom} rentre au repère avec un sceau de marchand à la ceinture, et des tarifs avantageux pour toute la guilde. Les cuisines ne s'en plaignent pas.
+refus: {nom} plie la lettre de recommandation en quatre. « Le titre ira à quelqu'un d'autre. Et dans dix ans, on se demandera pourquoi. » Le ton est léger. Le regard, beaucoup moins.
+
+=== QUM2-LIBERTE | Le bateau qui part
+motivation: liberte
+demande: « Un bateau part {de_lieu1} dans quelques jours pour faire le tour des côtes de {pays}. Il cherche des bras. Je ne veux pas partir pour toujours. Je veux juste voir la mer pendant deux semaines, et dormir sous autre chose qu'un plafond. Après, je reviens. Promis. »
+eveil: {nom} fait des nœuds avec une vieille corde, toute la soirée, au coin du feu. Des nœuds de marin, compliqués, que personne ne savait que {nom} connaissait.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 8
+e1_epreuves: voyage 2 ; diplomatie 1
+e1_recit: se faire embaucher sur le bateau qui part {de_lieu1}, et tenir les premiers jours en mer
+e1_reussite: Le capitaine embauche {nom} sur un regard. Les premiers jours sont durs : le mal de mer, les mains en sang. Puis un matin, {nom} se surprend à chanter avec l'équipage.
+e1_echec: Le bateau est parti la veille. {nom} trouve une barque de pêcheur qui accepte de prendre un passager. C'est moins grand. C'est la mer quand même.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 8
+e2_epreuves: voyage 2 ; combat 1
+e2_recit: aider l'équipage à passer une tempête au large {de_lieu2}, puis décider s'il est temps de redescendre à terre
+e2_reussite: La tempête dure une nuit entière. Au matin, le bateau tient encore, et l'équipage aussi. {nom} débarque {a_lieu2} avec l'impression d'avoir vécu dix ans en deux semaines.
+e2_echec: La tempête abîme le bateau, qui doit rentrer au port en boitant. Le voyage s'arrête plus tôt que prévu. {nom} ne regrette rien.
+fin: {nom} rentre au repère le teint hâlé, les cheveux pleins de sel, et apprend à tout le monde à faire un nœud de chaise. Pendant une semaine, on trouve des nœuds partout.
+refus: {nom} défait la corde, nœud par nœud. « D'accord. La mer sera encore là. » Le soir, on aperçoit {nom} sur les remparts, le regard tourné vers l'horizon.
+
+=== QUM2-REDEMPTION | Le pont {de_lieu1}
+motivation: redemption
+demande: « Quand j'étais plus jeune, j'ai fait sauter un pont {a_lieu1} pour couvrir ma fuite. Le village d'en face a été coupé du monde pendant des mois. Je ne l'ai jamais dit à personne. Ce pont, je voudrais le reconstruire. »
+eveil: {nom} dessine un pont, toute la soirée, sur une grande feuille. Puis le froisse, puis le défroisse, et recommence.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 7
+e1_epreuves: diplomatie 2 ; voyage 1
+e1_recit: retourner {a_lieu1}, et avouer aux gens du village ce qui s'est passé ce jour-là
+e1_reussite: L'aveu tombe dans un grand silence. Puis le doyen dit : « On s'en doutait. On attendait que quelqu'un vienne le dire. » On accepte l'aide de {nom}, sans chaleur, mais sans haine.
+e1_echec: Le village ne veut rien entendre. Une pierre vole. {nom} ne bouge pas, et attend que la colère retombe. Elle ne retombe pas tout de suite.
+e2_region: {pays}
+e2_lieu: {lieu1}
+e2_duree: 8
+e2_epreuves: siege 2 ; diplomatie 1
+e2_recit: reconstruire le pont, pierre après pierre, avec les gens des deux rives
+e2_reussite: Le pont est fini en dix jours. Le premier à le traverser est un vieil homme qui n'avait pas vu sa sœur depuis des années. Personne ne remercie {nom}. Ce n'est pas ce que {nom} était venu chercher.
+e2_echec: Le pont n'est qu'à moitié fini, faute de bras. Mais il tient, et on peut passer à pied. Les villageois promettent de finir le reste. Ils le feront peut-être.
+fin: {nom} rentre au repère, et dort longtemps. Au réveil, son dessin de pont est accroché au-dessus de son lit. Il n'est plus froissé.
+refus: {nom} plie le dessin et le range. « Ça fait des années. Quelques mois de plus… » La phrase s'arrête là. Personne ne la termine.
+
+=== QUM2-APPARTENANCE | Les anciens de la caserne
+motivation: appartenance
+demande: « Mon ancienne compagnie se retrouve {a_lieu1}, une fois tous les cinq ans. Ceux qui restent, en tout cas. Je n'y ai jamais mis les pieds, parce que j'avais honte de les avoir quittés. Cette année, j'ai envie d'y aller. J'ai envie de voir s'ils m'ont gardé une place. »
+eveil: {nom} sort un vieil uniforme du fond d'un sac. Il est trop petit, troué aux coudes. {nom} le regarde longtemps, sans l'essayer.
+e1_region: {pays}
+e1_lieu: {lieu1}
+e1_duree: 6
+e1_epreuves: voyage 1 ; diplomatie 2
+e1_recit: arriver aux retrouvailles {de_lieu1}, et oser passer la porte
+e1_reussite: Il y a un grand silence. Puis quelqu'un crie le nom de {nom}, et tout le monde se lève. Il y avait une chaise vide à la table. Elle était pour {nom}. Depuis toujours.
+e1_echec: Il ne reste presque plus personne. Trois vieux soldats, qui ne se souviennent pas très bien. Ils servent quand même un verre, et ils écoutent.
+e2_region: {pays}
+e2_lieu: {lieu2}
+e2_duree: 6
+e2_epreuves: combat 1 ; diplomatie 2
+e2_recit: aider les anciens à protéger la tombe de leur capitaine, {a_lieu2}, que des pilleurs ont commencé à fouiller
+e2_reussite: Les pilleurs sont chassés. On répare la tombe ensemble, en se racontant des souvenirs. Les mêmes, plusieurs fois. Personne ne s'en lasse.
+e2_echec: Les pilleurs ont pris l'épée du capitaine. La tombe est réparée quand même. Les anciens disent que le capitaine aurait ri : il détestait cette épée.
+fin: {nom} rentre au repère avec un nouvel insigne de la compagnie, offert par les anciens. Et une invitation pour dans cinq ans. Au dîner, on lui demande de raconter. Pour une fois, il y a beaucoup à raconter.
+refus: {nom} remet l'uniforme au fond du sac. « Dans cinq ans, alors. S'il en reste. » Le sac reste longtemps posé au pied du lit.
+
+=== QUM2-PLAISIR | Le concours de cuisine {de_lieu1}
+motivation: plaisir
+demande: « Chaque année, il y a un concours de cuisine {a_lieu1}. Le prix est ridicule : une cuillère en bois. Mais tout le monde rêve de la gagner. J'ai une recette. Une vraie. Je veux aller la faire goûter à toute la région. Et je veux cette cuillère. »
+eveil: Une odeur étrange monte de la cuisine en pleine nuit. {nom} y est, en tablier, entouré de casseroles. On goûte. C'est excellent. Personne ne sait ce que c'est.
+e1_region: {pays}
+e1_lieu: {lieu2}
+e1_duree: 6
+e1_epreuves: voyage 1 ; diplomatie 2
+e1_recit: trouver {a_lieu2} l'ingrédient secret de la recette, que le seul vendeur de la région refuse de vendre aux étrangers
+e1_reussite: Le vieux marchand refuse, puis goûte un fond de sauce que {nom} a apporté. Il ne dit rien. Il emballe l'ingrédient, et ajoute un pot de plus. Gratuit.
+e1_echec: Le marchand ne veut rien savoir. {nom} doit improviser avec un autre ingrédient. Le résultat est différent. Pas forcément moins bon.
+e2_region: {pays}
+e2_lieu: {lieu1}
+e2_duree: 5
+e2_epreuves: diplomatie 2 ; discretion 1
+e2_recit: cuisiner devant le jury {de_lieu1}, en surveillant les concurrents prêts à tout pour la cuillère
+e2_reussite: Un concurrent essaie de saler le plat en douce. {nom} le voit, et change de casserole. Le jury goûte, se tait, et regoûte. La cuillère en bois est pour la guilde.
+e2_echec: Le plat arrive troisième. Mais le jury demande la recette, et le patron de la meilleure auberge {de_lieu1} aussi. Elle est désormais à la carte, sous le nom de {nom}.
+fin: {nom} rentre au repère et cuisine pour toute la guilde. On mange jusqu'à ne plus pouvoir bouger. Même {chien} a droit à une assiette, ce qui est strictement interdit.
+refus: {nom} range son tablier, avec un air de tragédie. Le soir même, le dîner est bien meilleur que d'habitude. C'est sa façon de protester.

@@ -1,0 +1,212 @@
+[
+{
+  "id": "DEM-1-021", "titre": "Les filets de Dawnhold", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "nuisibles", "ton": "drole", "lieu": "Dawnhold",
+  "demandeur": { "nom": "Gaspard Le Goff", "qualite": "patron pêcheur, persuadé d'être victime d'un complot" },
+  "accroche": "« Chaque nuit, mes filets sont tranchés net. Pas ceux des autres : les miens. C'est Morvan, j'en suis sûr. Ou les Noxiens. Ou Morvan payé par les Noxiens. »",
+  "contexte": "À Dawnhold, sur la côte, les filets de Gaspard sont retrouvés lacérés tous les matins depuis deux semaines. Il accuse son voisin Morvan, avec qui il ne se parle plus depuis une histoire de bateau, il y a vingt ans. Le village commence à prendre parti.",
+  "postes": ["Éclaireur", "Support"], "duree": 4, "dangereuse": false,
+  "epreuves": [
+    { "type": "discretion", "difficulte": 38, "recit": "Passer la nuit caché sur la jetée, dans le vent et les embruns, à surveiller les filets de Gaspard." },
+    { "type": "diplomatie", "difficulte": 40, "recit": "Expliquer à Gaspard la vérité, puis l'empêcher d'aller casser la figure à Morvan en guise d'excuses." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Le coupable est une famille de loutres attirée par le poisson que Gaspard, seul de tout le port, laisse pourrir dans ses filets. Gaspard et Morvan finissent la nuit à rire ensemble pour la première fois en vingt ans. Les loutres, elles, ont un nouveau nom : les Noxiennes.",
+    "reussite": "Les loutres sont démasquées et les filets protégés. Gaspard refuse d'admettre que Morvan est innocent, mais il cesse d'en parler.",
+    "partielle": "On a vu des ombres dans l'eau, rien de plus. Gaspard change ses filets de place, et les dégâts diminuent.",
+    "echec": "L'équipe s'est endormie, et Gaspard a cassé un bras à Morvan. Le village entier vous en veut d'avoir laissé faire."
+  },
+  "recompenses": { "or": 40, "reputation": 2, "xp": 25, "objet": { "rarete": "commun", "chance": 3 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-022", "titre": "Les évadés de Wrenwall", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "chasse", "ton": "aventure", "lieu": "Wrenwall",
+  "demandeur": { "nom": "Sergent Hélie Brossard", "qualite": "geôlier du château de Wrenwall, qui risque le cachot à son tour" },
+  "accroche": "« Deux contrebandiers ont passé le mur cette nuit pendant mon tour de garde. Je dois les ramener avant que le capitaine l'apprenne. Discrètement. Payé de ma poche. »",
+  "contexte": "Le château de Wrenwall, où Jarvan IV a tué le dragon Yvva, abrite un petit pénitencier. Deux contrebandiers s'en sont échappés par un conduit. Le sergent Brossard a une demi-journée avant la relève, et il n'a pas le droit de quitter son poste.",
+  "postes": ["Éclaireur", "Combattant"], "duree": 5, "dangereuse": false,
+  "epreuves": [
+    { "type": "poursuite", "difficulte": 42, "recit": "Suivre la trace des fugitifs dans la lande, puis le long d'un ruisseau où ils ont tenté d'effacer leurs pas." },
+    { "type": "combat", "difficulte": 40, "recit": "Acculés dans une bergerie, les deux évadés se battent avec des fourches." }
+  ],
+  "complication": { "texte": "L'un des deux évadés affirme être innocent : il a été condamné à la place d'un fils de bonne famille. Il a des noms, des dates, et il ne veut pas retourner au cachot sans qu'on l'écoute.", "epreuve": { "type": "diplomatie", "difficulte": 42 } },
+  "denouements": {
+    "eclatante": "Les deux fugitifs sont ramenés avant la relève. Le sergent garde sa place et la guilde garde, dans un carnet, les noms que l'évadé a donnés. Brossard promet qu'ils seront lus par quelqu'un de haut placé.",
+    "reussite": "Les fugitifs sont rattrapés et remis au sergent, qui pousse un long soupir de soulagement.",
+    "partielle": "Un seul évadé est repris. Le sergent est mis aux arrêts trois jours mais garde son grade.",
+    "echec": "Les deux hommes ont disparu dans la lande. Le sergent Brossard est dégradé et jure que la guilde ne mettra plus les pieds à Wrenwall."
+  },
+  "recompenses": { "or": 70, "reputation": 2, "xp": 50, "objet": { "rarete": "commun", "chance": 5 } },
+  "suite": "wrenwall-innocent"
+},
+{
+  "id": "DEM-1-023", "titre": "La vieille Alix ne partira pas", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "mediation", "ton": "tendre", "lieu": "Terbisia",
+  "demandeur": { "nom": "Raoul Lestrange", "qualite": "maître d'œuvre de la reconstruction de Terbisia" },
+  "accroche": "« Sa maison va s'effondrer. Toute la rue doit être abattue avant l'hiver. Elle s'est enchaînée à son lit avec une chaîne de bateau. Je ne vais quand même pas l'abattre avec ! »",
+  "contexte": "Depuis le tremblement de terre, Terbisia détruit les maisons trop abîmées pour reconstruire. Alix, quatre-vingt-deux ans, refuse de quitter la sienne, où elle a vu naître et mourir toute sa famille. Les voisins l'aiment, les ouvriers commencent à s'impatienter.",
+  "postes": ["Support", "Healer"], "duree": 4, "dangereuse": false,
+  "epreuves": [
+    { "type": "diplomatie", "difficulte": 44, "recit": "Gagner la confiance d'Alix, l'écouter raconter, et trouver ce qui la retient vraiment dans ces murs." },
+    { "type": "voyage", "difficulte": 34, "recit": "Fouiller les décombres de la rue pour retrouver ce qu'elle a perdu le jour de la secousse." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Ce qui la retenait, c'était le chat de son mari, disparu dans les décombres. On le retrouve, maigre et furieux, dans la cave du voisin. Alix s'installe chez sa nièce avec lui, et elle exige que la première pierre de la nouvelle maison soit posée par la guilde.",
+    "reussite": "Alix accepte de partir, à condition d'emporter sa porte d'entrée. Raoul la fait démonter avec précaution.",
+    "partielle": "Alix part, mais en pleurant, soutenue par deux ouvriers. La rue est abattue. Elle ne veut plus voir personne.",
+    "echec": "Alix est restée. Un pan de mur s'est effondré la nuit suivante, sans la toucher, par miracle. Raoul a fait appel à la garde."
+  },
+  "recompenses": { "or": 35, "reputation": 3, "xp": 35, "objet": { "rarete": "commun", "chance": 3 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-024", "titre": "Les frelons du verger de Lissus", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "nuisibles", "ton": "drole", "lieu": "Lissus",
+  "demandeur": { "nom": "Ermengarde Pailloux", "qualite": "cultivatrice de pommes, trois piqûres au visage" },
+  "accroche": "« Un nid de frelons gros comme un tonneau, dans le plus vieux pommier. La cueillette, c'est demain. Mes cueilleurs refusent d'y aller, et je les comprends : regardez ma tête. »",
+  "contexte": "Le verger d'Ermengarde fournit le cidre de la moitié de Lissus. Un essaim de frelons s'est installé dans un pommier centenaire, au cœur du verger. Il faut le déloger sans abattre l'arbre, auquel Ermengarde tient plus qu'à son mari.",
+  "postes": ["Mage", "Tank"], "duree": 3, "dangereuse": false,
+  "epreuves": [
+    { "type": "nuee", "difficulte": 42, "recit": "Approcher le nid et faire face à l'essaim qui en jaillit, furieux, de tous les côtés à la fois." },
+    { "type": "siege", "difficulte": 34, "recit": "Décrocher le nid de la grosse branche sans briser le vieux pommier, puis l'emporter loin." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Le nid est emporté intact et l'arbre est sauf. La cueillette commence à l'heure. Ermengarde nomme son meilleur tonneau « la cuvée des héros », et la guilde reçoit les douze premières bouteilles.",
+    "reussite": "Les frelons sont chassés, et la cueillette commence avec une demi-journée de retard. Ermengarde paie en pièces et en cidre.",
+    "partielle": "L'essaim est détruit, mais la grosse branche a cédé. Ermengarde pleure sur son pommier en payant.",
+    "echec": "L'équipe a fui le verger sous les rires des cueilleurs, le visage enflé. Les frelons sont toujours là. La cueillette est perdue."
+  },
+  "recompenses": { "or": 40, "reputation": 1, "xp": 25, "objet": { "rarete": "commun", "chance": 3 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-025", "titre": "La route du sel", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "escorte", "ton": "aventure", "lieu": "Edessa",
+  "demandeur": { "nom": "Thomasse Lerebours", "qualite": "saunière, trois charrettes, et pas l'intention d'en perdre une" },
+  "accroche": "« Le sel de mes marais doit entrer dans la Grande cité avant la fermeture des portes. Deux convois ont été attaqués sur la vieille route ce mois-ci. La garde dit qu'elle ne peut pas être partout. »",
+  "contexte": "Le sel des marais de l'estuaire remonte vers la capitale par la vieille route d'Edessa, bordée de bois. Une bande de voleurs y attaque les convois à l'aube. Thomasse a besoin du prix de ce convoi pour payer ses ouvriers.",
+  "postes": ["Tank", "Tireur"], "duree": 6, "dangereuse": false,
+  "epreuves": [
+    { "type": "voyage", "difficulte": 36, "recit": "Faire avancer les charrettes lourdes sur la vieille route défoncée par les pluies." },
+    { "type": "combat", "difficulte": 46, "recit": "À l'aube, un arbre abattu barre la route et des hommes masqués sortent du bois." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Les voleurs sont repoussés et deux sont faits prisonniers. Le sel entre dans la cité avant midi. Thomasse propose à la guilde de convoyer chaque mois, au même prix.",
+    "reussite": "Le convoi passe après une bagarre. Thomasse perd quelques sacs mais vend le reste à bon prix.",
+    "partielle": "Une charrette est perdue. Thomasse paie ses ouvriers à crédit et la guilde au rabais.",
+    "echec": "Les voleurs ont emporté deux charrettes. Thomasse ne pourra pas payer ses ouvriers ce mois-ci, et elle le fait savoir."
+  },
+  "recompenses": { "or": 100, "reputation": 2, "xp": 50, "objet": { "rarete": "commun", "chance": 6 } },
+  "suite": "edessa-voleurs-de-sel"
+},
+{
+  "id": "DEM-1-026", "titre": "Les fleurs de Maëlle", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "infiltration", "ton": "tragique", "lieu": "Velorus",
+  "demandeur": { "nom": "Jehan et Ombeline Courtois", "qualite": "fermiers de Velorus, qui n'ont pas dormi depuis une semaine" },
+  "accroche": "« Notre fille fait pousser des fleurs en hiver. Rien qu'en les touchant. Les traqueurs inspectent le village dans deux jours. On a un nom, chez les Illuminateurs. Il faut l'y conduire. »",
+  "contexte": "Maëlle, six ans, montre des signes de magie. À Demacia, cela signifie qu'elle sera prise à ses parents et internée. Une inspection des traqueurs de mages est annoncée à Velorus. Les Courtois connaissent un refuge des Illuminateurs à une journée de route. Aider une mageborn à fuir est un crime.",
+  "postes": ["Éclaireur", "Support"], "duree": 7, "dangereuse": false,
+  "epreuves": [
+    { "type": "discretion", "difficulte": 46, "recit": "Sortir l'enfant du village pendant que les traqueurs installent leur barrage sur la route du sud." },
+    { "type": "voyage", "difficulte": 40, "recit": "Marcher toute la nuit à travers champs et bois, avec une enfant qui pleure sa mère." }
+  ],
+  "complication": { "texte": "En chemin, Maëlle, terrifiée, fait fleurir toute une haie au passage d'une patrouille. Il faut détourner l'attention des cavaliers avant qu'ils approchent.", "epreuve": { "type": "diplomatie", "difficulte": 44 } },
+  "denouements": {
+    "eclatante": "Maëlle arrive au refuge. Avant d'y entrer, elle offre à chaque héros une fleur qui ne fanera jamais. Les Courtois ne la reverront peut-être pas avant des années, mais elle est libre. Les Illuminateurs se souviendront de la guilde.",
+    "reussite": "L'enfant est à l'abri. Ses parents, eux, devront expliquer son absence aux traqueurs.",
+    "partielle": "Maëlle est cachée dans une ferme amie, à mi-chemin. Elle n'est pas encore sauvée.",
+    "echec": "La patrouille a arrêté l'équipe et l'enfant. Maëlle a été conduite au Complexe des traqueurs de mages. Les Courtois ne parlent plus à personne."
+  },
+  "recompenses": { "or": 30, "reputation": 3, "xp": 60, "objet": { "rarete": "peu commun", "chance": 5 } },
+  "suite": "velorus-maelle"
+},
+{
+  "id": "DEM-1-027", "titre": "La forge en jeu", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "mediation", "ton": "drole", "lieu": "Pinara",
+  "demandeur": { "nom": "Gisèle Martel", "qualite": "épouse du maréchal-ferrant de Pinara, rouge de colère" },
+  "accroche": "« Mon idiot de mari a parié sa forge dans un concours de boisson. Contre un marchand de passage. Il a perdu. Le marchand vient prendre les clés demain. Je veux la forge. Le mari, vous pouvez le garder. »",
+  "contexte": "Hier soir, à l'auberge de Pinara, le forgeron Anselme Martel a perdu sa forge sur un pari, devant tout le village. Le gagnant, un marchand de chevaux de passage, a fait signer un papier en bonne et due forme. À Demacia, une parole donnée vaut un contrat.",
+  "postes": ["Support", "Combattant"], "duree": 4, "dangereuse": false,
+  "epreuves": [
+    { "type": "diplomatie", "difficulte": 44, "recit": "Convaincre le marchand de renoncer à la forge, ou de rejouer, sans jamais mettre en cause l'honneur d'Anselme." },
+    { "type": "combat", "difficulte": 34, "recit": "Les deux palefreniers du marchand pensent que la discussion a assez duré." }
+  ],
+  "complication": { "texte": "Le marchand est un tricheur : son gobelet avait un double fond. Le prouver devant le village sauverait la forge, à condition de trouver le gobelet avant qu'il disparaisse.", "epreuve": { "type": "discretion", "difficulte": 38 } },
+  "denouements": {
+    "eclatante": "La tricherie est révélée devant toute l'auberge. Le marchand quitte Pinara sous les huées, et Anselme jure de ne plus boire. Personne ne le croit, mais Gisèle ferre les chevaux de la guilde gratuitement pendant un an.",
+    "reussite": "Le marchand accepte de rendre la forge contre ses frais. Gisèle paie, puis s'occupe de son mari.",
+    "partielle": "La forge est rendue, contre deux chevaux de trait. Anselme doit maintenant les racheter à crédit.",
+    "echec": "Le marchand a pris la forge, et Anselme s'est battu avec un héros. Gisèle a demandé la séparation, et la guilde n'est plus la bienvenue à l'auberge."
+  },
+  "recompenses": { "or": 55, "reputation": 2, "xp": 30, "objet": { "rarete": "commun", "chance": 4 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-028", "titre": "Les veuves de la Route du Mémorial", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "garde", "ton": "tendre", "lieu": "Route du Mémorial",
+  "demandeur": { "nom": "Mère Agathe Roncière", "qualite": "doyenne d'une confrérie de veuves de soldats" },
+  "accroche": "« Nous sommes quarante, et la plus jeune a soixante ans. Nous marchons jusqu'au Monument de Galio pour nos morts, comme chaque année. L'an dernier, des voleurs ont pris nos bourses et nos médailles. Cette fois, nous voulons arriver avec. »",
+  "contexte": "Chaque automne, une confrérie de veuves de soldats fait le pèlerinage sur la Route du Mémorial, qui honore les morts au combat. La foule des pèlerins attire les tire-laine. Certaines de ces femmes portent les médailles de leurs maris.",
+  "postes": ["Support", "Éclaireur"], "duree": 6, "dangereuse": false,
+  "epreuves": [
+    { "type": "voyage", "difficulte": 36, "recit": "Accompagner la lente procession sur des lieues de route, au rythme des haltes et des prières." },
+    { "type": "discretion", "difficulte": 40, "recit": "Repérer, dans la foule des pèlerins, les mains qui se glissent dans les bourses avant qu'elles en ressortent." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Les quarante veuves arrivent au Monument de Galio avec toutes leurs médailles. Mère Agathe demande que la guilde se tienne avec elles pendant la minute de silence. On dit que le colosse, un instant, a semblé baisser les yeux.",
+    "reussite": "Le pèlerinage se déroule sans vol. Les veuves tricotent une écharpe aux couleurs de la guilde pour chacun des héros.",
+    "partielle": "Une bourse a été volée, mais les médailles sont sauves. Mère Agathe remercie poliment, sans plus.",
+    "echec": "Les tire-laine ont frappé plusieurs fois, et une médaille de la bataille du Mur de l'Est a disparu. La veuve qui la portait a pleuré tout le reste de la route."
+  },
+  "recompenses": { "or": 30, "reputation": 3, "xp": 35, "objet": { "rarete": "commun", "chance": 4 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-029", "titre": "Le petit berger d'Uwendale", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "recherche", "ton": "tendre", "lieu": "Hautes-Terres rocheuses",
+  "demandeur": { "nom": "Gilbert Marchais", "qualite": "fermier d'Uwendale, père d'un garçon de dix ans" },
+  "accroche": "« Mon fils est monté avec les chèvres ce matin. Le brouillard est tombé à midi, la neige à trois heures. Les chèvres sont rentrées seules. Lui, non. »",
+  "contexte": "Une neige précoce est tombée sur les Hautes-Terres rocheuses, au-dessus d'Uwendale. Le jeune Pierrot gardait le troupeau familial près des pâturages d'été. La garde de montagne est partie chasser une wyverne plus haut, et la nuit approche.",
+  "postes": ["Éclaireur", "Healer"], "duree": 5, "dangereuse": false,
+  "epreuves": [
+    { "type": "voyage", "difficulte": 44, "recit": "Monter dans la tourmente, à flanc de montagne, en appelant le garçon, sans se perdre soi-même." },
+    { "type": "poursuite", "difficulte": 38, "recit": "Suivre de petites traces à moitié recouvertes de neige jusqu'à un abri sous roche." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Pierrot est retrouvé, blotti contre un chevreau qu'il est retourné chercher. Il est gelé mais sauf. Il demande à un héros de lui apprendre « à être aussi courageux ». Gilbert ne trouve pas ses mots.",
+    "reussite": "Le garçon est ramené, transi et en larmes. Sa mère ne le lâche plus de la soirée.",
+    "partielle": "Pierrot est sauvé, mais il a deux orteils gelés. Il ne remontera plus aux pâturages cette année.",
+    "echec": "La tourmente a contraint l'équipe à redescendre. C'est la garde de montagne, de retour à l'aube, qui a retrouvé l'enfant, vivant par miracle."
+  },
+  "recompenses": { "or": 35, "reputation": 3, "xp": 40, "objet": { "rarete": "commun", "chance": 3 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-030", "titre": "La crique des Sentinelles", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "infiltration", "ton": "politique", "lieu": "Baie des Sentinelles",
+  "demandeur": { "nom": "Yvon Kerjean", "qualite": "gardien du phare de la Baie des Sentinelles" },
+  "accroche": "« Des feux s'allument dans la crique du Corbeau, la nuit, quand il n'y a pas de lune. Pas des feux de pêcheurs. Des lanternes qu'on couvre et découvre, comme pour parler à un navire. »",
+  "contexte": "La Baie des Sentinelles reçoit les eaux de l'Ironfork. Yvon, gardien de phare, a remarqué des signaux lumineux dans une crique isolée. Il soupçonne des contrebandiers, voire pire. Il a écrit trois fois à l'armée, qui ne lui a jamais répondu.",
+  "postes": ["Assassin", "Éclaireur"], "duree": 5, "dangereuse": false,
+  "epreuves": [
+    { "type": "discretion", "difficulte": 46, "recit": "Approcher la crique par les rochers à marée basse et observer, sans se faire voir, ce qui y débarque." },
+    { "type": "poursuite", "difficulte": 40, "recit": "Repéré, un guetteur s'enfuit vers les falaises pour donner l'alerte. Il faut l'arrêter." }
+  ],
+  "complication": { "texte": "Les caisses débarquées portent le sceau d'une maison marchande noxienne. Parmi les contrebandiers se trouve un homme que l'équipe a déjà croisé : un garde de la Porte grise, en civil.", "epreuve": { "type": "combat", "difficulte": 44 } },
+  "denouements": {
+    "eclatante": "La filière est démasquée, preuves et sceau à l'appui. Yvon envoie le tout à l'armée, cette fois par un messager que la guilde a choisi. Une semaine plus tard, le garde de la Porte grise est arrêté.",
+    "reussite": "Les contrebandiers ont fui en abandonnant une partie de leurs caisses : vins et soieries de Noxus. L'armée, cette fois, répond à Yvon.",
+    "partielle": "L'équipe a vu le débarquement, mais sans preuve. Yvon garde sa lampe allumée et son carnet ouvert.",
+    "echec": "L'équipe a été repérée et les signaux ont cessé. Une semaine plus tard, quelqu'un a brisé la lentille du phare."
+  },
+  "recompenses": { "or": 70, "reputation": 3, "xp": 55, "objet": { "rarete": "peu commun", "chance": 5 } },
+  "suite": "baie-filiere-noxienne"
+}
+]

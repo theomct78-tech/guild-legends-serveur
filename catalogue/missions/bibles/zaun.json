@@ -1,0 +1,9 @@
+{
+  "region": "zaun",
+  "lieux": [
+    "Les Failles", "Quartier de l'Alcôve", "Port sud", "Le Puisard", "Failles inférieures", "Ruines d'Oshra Va'Zaun",
+    "La Dernière Goutte", "Marché à ciel ouvert", "Échoppe de Benzo", "Tour des barons", "Salle d'arcade", "Stand de Jericho", "La Tour",
+    "Bathysphères", "Statue de Vander", "Vieille conserverie", "Repaire des Lucioles", "Raffineries de Shimmer", "Cité des tentes",
+    "Enseigne de l'Œil de Zaun", "Stand du vendeur de potions", "Temple de Janna", "La Drague", "Arène de Tommy"
+  ]
+}

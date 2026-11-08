@@ -1,0 +1,212 @@
+[
+{
+  "id": "DEM-1-011", "titre": "Des meules pour la Porte grise", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "escorte", "ton": "drole", "lieu": "Meltridge",
+  "demandeur": { "nom": "Perrine Chaumet", "qualite": "fromagère, fournisseuse de la garnison depuis trois générations" },
+  "accroche": "« Douze meules pour la garnison de la Porte grise. La dernière fois, quelqu'un a coupé les sangles de ma charrette. Ce quelqu'un vend aussi du fromage. Et le sien est mauvais. »",
+  "contexte": "La garnison qui tient la Porte grise, sur le Mur de l'Est, achète son fromage à Meltridge. Le contrat est renouvelé ce mois-ci, et Perrine soupçonne son concurrent, maître Lebrun, de saboter ses livraisons pour le récupérer.",
+  "postes": ["Tank", "Éclaireur"], "duree": 4, "dangereuse": false,
+  "epreuves": [
+    { "type": "voyage", "difficulte": 34, "recit": "Mener la charrette sur la route caillouteuse qui monte au Mur, sans briser un essieu ni renverser une meule." },
+    { "type": "poursuite", "difficulte": 38, "recit": "À mi-chemin, des chèvres lâchées sur la route s'éparpillent entre les roues. Quelqu'un les a ouvertes. Il faut rattraper le fuyard." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Le fuyard est le commis de Lebrun, qui avoue tout devant le sergent de la Porte grise. Perrine garde le contrat, et la garnison baptise sa meule préférée du nom de la guilde.",
+    "reussite": "Les douze meules arrivent intactes. Le contrat est renouvelé. Perrine offre une demi-meule, « pour la route ».",
+    "partielle": "Neuf meules arrivent. Le sergent fait la grimace mais signe. Perrine retient trois meules sur le prix convenu.",
+    "echec": "La charrette a fini dans le fossé et les chèvres ont mangé le reste. Lebrun obtient le contrat. Perrine ne vous adresse plus la parole."
+  },
+  "recompenses": { "or": 50, "reputation": 1, "xp": 25, "objet": { "rarete": "commun", "chance": 3 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-012", "titre": "Les coupeurs de pétricite", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "infiltration", "ton": "politique", "lieu": "Bosquets de pétricite",
+  "demandeur": { "nom": "Josse Arnaut", "qualite": "garde forestier, seul pour quatre lieues de bosquets" },
+  "accroche": "« Quelqu'un abat mes arbres blancs la nuit et les débite sur place. Je ne peux pas surveiller tout le bosquet. Et chaque arbre perdu, c'est un morceau du mur de demain. »",
+  "contexte": "La coupe de la pétricite est réservée à la Couronne. Pourtant, des souches fraîches apparaissent au pied des Hautes-Terres rocheuses. Le bois se revend très cher, notamment à ceux qui veulent s'en protéger sans passer par les ateliers royaux.",
+  "postes": ["Assassin", "Éclaireur"], "duree": 5, "dangereuse": false,
+  "epreuves": [
+    { "type": "discretion", "difficulte": 44, "recit": "Approcher le campement des coupeurs à travers le bosquet, où le moindre craquement de feuille jaune résonne." },
+    { "type": "combat", "difficulte": 40, "recit": "Surpris, les coupeurs se défendent à la hache et au merlin." }
+  ],
+  "complication": { "texte": "Les coupeurs travaillent pour un intendant de la maison Durand, qui revend le bois en contrebande. Ils ont un laissez-passer signé, vrai ou faux, et menacent de dénoncer la guilde pour obstruction.", "epreuve": { "type": "diplomatie", "difficulte": 44 } },
+  "denouements": {
+    "eclatante": "Les coupeurs sont pris sur le fait, avec leurs carnets de vente. Josse les remet à l'armée, et la guilde reçoit une lettre de remerciement d'un officier du génie, cachet compris.",
+    "reussite": "Les coupeurs ont fui en abandonnant leur bois. Josse le fait saisir. Les coupes cessent, pour un temps.",
+    "partielle": "Le campement est démantelé, mais les coupeurs se sont évaporés avec le meilleur bois.",
+    "echec": "Les coupeurs ont repéré l'équipe et levé le camp. Le lendemain, trois souches de plus. Josse pense à démissionner."
+  },
+  "recompenses": { "or": 80, "reputation": 3, "xp": 50, "objet": { "rarete": "peu commun", "chance": 4 } },
+  "suite": "petricite-contrebande"
+},
+{
+  "id": "DEM-1-013", "titre": "La Fête du Pourfendeur", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "garde", "ton": "drole", "lieu": "Uwendale",
+  "demandeur": { "nom": "Maïeul Bastide", "qualite": "doyen d'Uwendale, organisateur de la fête depuis quarante ans" },
+  "accroche": "« Chaque année, des gamins se déguisent en wyverne pour effrayer les vieilles. Cette année, ils ont promis de faire mieux. Et notre garde de montagne est partie chasser une vraie bête dans les cimes. »",
+  "contexte": "Uwendale célèbre le Pourfendeur, héros anonyme qui a sauvé les fermes des wyvernes, des loups et des bandits. On danse autour de sa statue de pierre. Sans la garde de montagne, le doyen craint que la fête tourne mal, entre les farces des jeunes et la bière des anciens.",
+  "postes": ["Support", "Tank"], "duree": 5, "dangereuse": false,
+  "epreuves": [
+    { "type": "diplomatie", "difficulte": 36, "recit": "Calmer les esprits quand la farce des gamins provoque la panique et que deux fermiers se battent pour une place près du feu." },
+    { "type": "combat", "difficulte": 40, "recit": "À minuit, ce n'est pas une fausse wyverne qui descend du bois : c'est un sanglier furieux, attiré par le festin." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Le sanglier finit à la broche et la fête dure jusqu'à l'aube. Les enfants d'Uwendale jouent désormais « la guilde contre le sanglier ». Le doyen jure de graver son nom au pied de la statue.",
+    "reussite": "La fête se termine sans blessé grave. Le sanglier a renversé deux tables, mais personne ne s'en souviendra demain.",
+    "partielle": "La fête est gâchée par une bagarre générale, mais le sanglier est chassé. Le doyen paie, à contrecœur.",
+    "echec": "Le sanglier a piétiné l'estrade et blessé le joueur de flûte. On a fini la nuit à le chercher dans les champs. Uwendale ne fera plus appel à des étrangers."
+  },
+  "recompenses": { "or": 45, "reputation": 3, "xp": 30, "objet": { "rarete": "commun", "chance": 4 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-014", "titre": "La mère azurite", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "nuisibles", "ton": "tendre", "lieu": "Hautes-Terres rocheuses",
+  "demandeur": { "nom": "Aliénor Ferrand", "qualite": "éleveuse de volailles, armée d'une fourche" },
+  "accroche": "« Un aigle bleu, gros comme un veau, emporte une poule par jour. Mon mari veut l'abattre. Moi, je l'ai vue : elle a l'aile abîmée et elle revient toujours au même rocher. »",
+  "contexte": "Un aigle azurite, rapace rare du nord, chasse dans la basse-cour d'une ferme isolée des Hautes-Terres rocheuses. Ces oiseaux peuvent attaquer de gros animaux. Aliénor préfère comprendre avant de tuer, ce qui fait rire son mari.",
+  "postes": ["Éclaireur", "Healer"], "duree": 4, "dangereuse": false,
+  "epreuves": [
+    { "type": "poursuite", "difficulte": 40, "recit": "Suivre le vol de l'aigle à travers les éboulis jusqu'au rocher où elle se pose." },
+    { "type": "voyage", "difficulte": 38, "recit": "Escalader la paroi jusqu'au nid, avec le vent qui pousse vers le vide." }
+  ],
+  "complication": { "texte": "Le nid abrite deux aiglons affamés. Il faut approcher la mère blessée sans qu'elle attaque, le temps de soigner son aile.", "epreuve": { "type": "diplomatie", "difficulte": 42 } },
+  "denouements": {
+    "eclatante": "L'aile est soignée et la mère s'envole avec ses petits vers des terrains de chasse plus riches. La semaine suivante, Aliénor trouve un lièvre déposé sur son toit. Son mari ne rit plus.",
+    "reussite": "L'aigle est effrayé et chassé loin de la ferme. Les poules sont en sécurité. Aliénor espère qu'elle survivra ailleurs.",
+    "partielle": "On a protégé le poulailler avec des filets, mais l'aigle tourne encore au-dessus de la ferme.",
+    "echec": "L'aigle a blessé un héros et le mari d'Aliénor l'a abattue d'un carreau. Les aiglons sont morts de faim. Aliénor pleure en payant."
+  },
+  "recompenses": { "or": 40, "reputation": 2, "xp": 35, "objet": { "rarete": "commun", "chance": 5 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-015", "titre": "Le gué de la Serpentrion", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "escorte", "ton": "aventure", "lieu": "Serpentrion",
+  "demandeur": { "nom": "Enguerrand Pellissier", "qualite": "marchand de laine, trois chariots, aucune patience" },
+  "accroche": "« Le pont de Fossbarrow est fermé pour travaux et je dois vendre ma laine avant l'hiver. Il reste le vieux gué. Les bergers disent qu'on ne le passe pas après les pluies. Moi, je dis qu'on le passe avec de bons bras. »",
+  "contexte": "La Serpentrion est une rivière tumultueuse qui descend des montagnes. Ses eaux sont montées après une semaine de pluie. Le vieux gué, en amont de Fossbarrow, est praticable par temps sec, beaucoup moins aujourd'hui.",
+  "postes": ["Tank", "Combattant"], "duree": 5, "dangereuse": false,
+  "epreuves": [
+    { "type": "voyage", "difficulte": 44, "recit": "Repérer le passage le moins profond, puis guider les bœufs dans le courant glacé, chariot après chariot." },
+    { "type": "siege", "difficulte": 40, "recit": "Le dernier chariot s'enlise au milieu du gué. Il faut le dégager à la force des bras avant que l'eau l'emporte." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Les trois chariots passent, la laine reste sèche. Enguerrand, qui n'a jamais dit merci de sa vie, offre une tournée générale à l'auberge de Fossbarrow et parle de la guilde à tous les marchands de la ville.",
+    "reussite": "Les chariots sont passés, l'un d'eux trempé. Enguerrand râle sur le prix de la laine mouillée, mais paie.",
+    "partielle": "Deux chariots ont passé le gué ; le troisième est reparti en arrière, un essieu brisé.",
+    "echec": "Le courant a renversé un chariot et emporté la laine vers la mer. Un bœuf s'est noyé. Enguerrand menace de porter l'affaire devant le magistrat."
+  },
+  "recompenses": { "or": 95, "reputation": 2, "xp": 50, "objet": { "rarete": "commun", "chance": 5 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-016", "titre": "Le pari de la tombe", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "sauvetage", "ton": "horreur", "lieu": "Tombe de Fossian",
+  "demandeur": { "nom": "Isaure Mercadier", "qualite": "mère de famille, livide" },
+  "accroche": "« Les garçons ont parié de passer la nuit au tombeau de Fossian. Trois sont revenus en courant à minuit. Le quatrième, mon Colin, n'est pas revenu. Ils disent qu'une voix l'a appelé. »",
+  "contexte": "Près de Fossbarrow se trouve la tombe du héros Fossian Crownguard. On raconte qu'une ombre y a jadis possédé un enfant. Personne au village n'ose y aller de nuit, et la garde ne se dérangera pas avant l'aube pour une bêtise de gamins.",
+  "postes": ["Éclaireur", "Support"], "duree": 3, "dangereuse": false,
+  "epreuves": [
+    { "type": "discretion", "difficulte": 40, "recit": "Fouiller la nécropole dans le noir, en suivant de petites traces de pas, sans céder aux bruits qui montent des caveaux." },
+    { "type": "voyage", "difficulte": 42, "recit": "Les traces mènent à un effondrement : une cavité s'ouvre sous une dalle. Il faut descendre." }
+  ],
+  "complication": { "texte": "La « voix » est celle d'un vieux pilleur de tombes, coincé au fond de la cavité depuis deux jours. Il a appelé à l'aide, et Colin est descendu le rejoindre. Les deux sont blessés, et le vieil homme supplie qu'on ne le livre pas.", "epreuve": { "type": "diplomatie", "difficulte": 38 } },
+  "denouements": {
+    "eclatante": "Colin et le vieil homme sont remontés vivants. Isaure couvre son fils de baisers et de reproches. Le pilleur, reconnaissant, souffle à la guilde qu'il a vu autre chose, tout au fond, qui n'était pas une tombe.",
+    "reussite": "Colin est remonté, une cheville foulée, en jurant qu'il a vu une lumière bouger sous la terre. Personne ne le croit.",
+    "partielle": "Colin est sauvé à l'aube, à moitié gelé. Il ne parle plus depuis. Le prêtre du Temple des Porteurs de lumière vient le voir chaque jour.",
+    "echec": "L'équipe n'a pas trouvé la cavité avant le lever du jour. Ce sont les gardes qui ont ramené Colin, vivant. Fossbarrow ne parle plus que de la guilde « qui a eu peur des morts »."
+  },
+  "recompenses": { "or": 35, "reputation": 3, "xp": 45, "objet": { "rarete": "commun", "chance": 6 } },
+  "suite": "fossbarrow-sous-la-tombe"
+},
+{
+  "id": "DEM-1-017", "titre": "La borne de Vaskasia", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "mediation", "ton": "politique", "lieu": "Vaskasia",
+  "demandeur": { "nom": "Gervaise Toutain", "qualite": "cheffe de coupe du village de Hautbois" },
+  "accroche": "« Ceux de Basse-Scie ont déplacé la borne de trente pas pendant la nuit. Trente pas de séquoias ! Mes hommes ont sorti les haches. Pas pour le bois. Venez avant qu'il y ait des morts. »",
+  "contexte": "Deux villages de bûcherons de Vaskasia exploitent les Cloudwoods de part et d'autre d'une borne posée il y a un siècle. La borne a bougé, et chaque village accuse l'autre. Le magistrat est à trois jours de route.",
+  "postes": ["Support", "Tank"], "duree": 5, "dangereuse": false,
+  "epreuves": [
+    { "type": "diplomatie", "difficulte": 46, "recit": "Réunir les deux villages autour d'une table et obtenir qu'ils posent leurs haches le temps de discuter." },
+    { "type": "combat", "difficulte": 36, "recit": "Une poignée de jeunes bûcherons de chaque côté refuse d'attendre et charge l'autre camp." }
+  ],
+  "complication": { "texte": "Ni l'un ni l'autre village n'a déplacé la borne. C'est un marchand de bois de la capitale, qui achète moins cher à un village en guerre. Les preuves sont dans son registre, chez l'aubergiste.", "epreuve": { "type": "discretion", "difficulte": 40 } },
+  "denouements": {
+    "eclatante": "La vérité éclate. Les deux villages remettent la borne en place ensemble, puis chassent le marchand à coups de sciure. Gervaise et le chef de Basse-Scie trinquent : il y a un mariage à préparer entre les deux villages.",
+    "reussite": "Les haches retournent aux arbres. La borne est replacée à mi-chemin, ce qui ne satisfait personne mais empêche la guerre.",
+    "partielle": "La bagarre a fait deux blessés, mais la trêve tient jusqu'à l'arrivée du magistrat.",
+    "echec": "La bagarre a dégénéré et une scierie a brûlé. Les deux villages accusent désormais aussi la guilde."
+  },
+  "recompenses": { "or": 75, "reputation": 3, "xp": 45, "objet": { "rarete": "commun", "chance": 4 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-018", "titre": "Le chien de Barthélemy", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "chasse", "ton": "aventure", "lieu": "Cloudwoods",
+  "demandeur": { "nom": "Barthélemy Sauvage", "qualite": "vieux chasseur des Cloudwoods, un genou en moins de solide" },
+  "accroche": "« Une ourse m'a pris mon chien. Il est vivant, je l'ai entendu hurler dans la ravine. Je ne marche plus assez vite pour aller le chercher. Je vous paierai avec tout ce que j'ai. »",
+  "contexte": "Une ourse a surpris Barthélemy et son chien dans les profondeurs des Cloudwoods, la grande forêt de séquoias du sud. Le chien a fui vers une ravine que l'ourse fréquente avec ses petits. Tuer une ourse suitée est mal vu des bûcherons.",
+  "postes": ["Éclaireur", "Tank"], "duree": 5, "dangereuse": false,
+  "epreuves": [
+    { "type": "poursuite", "difficulte": 40, "recit": "Suivre les hurlements et les traces sous les séquoias géants jusqu'à la ravine." },
+    { "type": "combat", "difficulte": 44, "recit": "L'ourse défend ses petits. Il faut la tenir à distance le temps de récupérer le chien." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Le chien est ramené sans que l'ourse ni ses petits soient blessés. Barthélemy offre sa vieille carte des Cloudwoods, avec les sentiers que personne d'autre ne connaît.",
+    "reussite": "Le chien est sauvé, l'ourse a été blessée et s'est enfuie. Barthélemy paie en peaux et en viande séchée.",
+    "partielle": "Le chien est retrouvé, mais il s'est cassé une patte en tombant dans la ravine. Il ne chassera plus.",
+    "echec": "L'ourse a chargé et l'équipe a dû fuir. Le chien n'a plus hurlé après la tombée de la nuit."
+  },
+  "recompenses": { "or": 50, "reputation": 2, "xp": 45, "objet": { "rarete": "commun", "chance": 5 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-019", "titre": "Le colporteur qui n'arrive pas", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "recherche", "ton": "mystere", "lieu": "Ironfork",
+  "demandeur": { "nom": "Sidonie Rochat", "qualite": "épicière de Pinara, fiancée du colporteur" },
+  "accroche": "« Firmin passe à Pinara chaque premier jour du mois depuis six ans. Il n'a jamais eu de retard. Il a quatre jours de retard. Ne me dites pas qu'il a rencontré quelqu'un. »",
+  "contexte": "Firmin, colporteur, remonte chaque mois la route de l'Ironfork d'Edessa à Velorus avec sa mule. On l'a vu quitter Lissus. Après, plus rien. Les gardes parlent d'un ivrogne qui a changé de route.",
+  "postes": ["Éclaireur", "DPS"], "duree": 5, "dangereuse": false,
+  "epreuves": [
+    { "type": "poursuite", "difficulte": 38, "recit": "Remonter la route en interrogeant bateliers et fermiers, jusqu'à un sentier où la mule a laissé ses traces." },
+    { "type": "combat", "difficulte": 42, "recit": "Le sentier mène à une grange où trois bandits gardent un homme ligoté et une mule très mécontente." }
+  ],
+  "complication": { "texte": "Les bandits ne voulaient pas la marchandise de Firmin. Ils voulaient la lettre qu'il transportait pour un notable de Velorus, et ils l'ont déjà envoyée à quelqu'un d'autre.", "epreuve": { "type": "diplomatie", "difficulte": 40 } },
+  "denouements": {
+    "eclatante": "Firmin est libéré, sa mule aussi. Les bandits avouent qui les payait. Sidonie organise les noces le mois suivant et exige la guilde au premier rang.",
+    "reussite": "Firmin est rentré à Pinara, affamé mais vivant. Sidonie le gronde pendant une heure, puis le nourrit pendant trois.",
+    "partielle": "Firmin est libéré, mais les bandits se sont enfuis avec sa marchandise et la mule. Il recommencera à zéro.",
+    "echec": "La grange était vide quand l'équipe est arrivée, à part du sang sur la paille. Sidonie attend toujours chaque premier du mois."
+  },
+  "recompenses": { "or": 55, "reputation": 2, "xp": 40, "objet": { "rarete": "commun", "chance": 5 } },
+  "suite": "velorus-lettre-volee"
+},
+{
+  "id": "DEM-1-020", "titre": "Le registre du greffier Marcadet", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "enquete", "ton": "politique", "lieu": "Fossbarrow",
+  "demandeur": { "nom": "Léonce Marcadet", "qualite": "greffier du magistrat de Fossbarrow, terrifié à l'idée d'être renvoyé" },
+  "accroche": "« Le registre des impôts du quartier du marché a disparu de mon bureau. La magistrate le demande dans trois jours. Si je ne le retrouve pas, je suis fini. Et si quelqu'un l'a modifié, la moitié de la ville l'est aussi. »",
+  "contexte": "Fossbarrow est une ville fortifiée gouvernée par une magistrate exigeante. Le registre disparu recense ce que doit chaque commerçant du marché. Trois personnes avaient la clé du bureau : Léonce, un commis et le concierge.",
+  "postes": ["Éclaireur", "Support"], "duree": 4, "dangereuse": false,
+  "epreuves": [
+    { "type": "diplomatie", "difficulte": 40, "recit": "Interroger le commis, le concierge et les marchands sans révéler que le registre a disparu." },
+    { "type": "discretion", "difficulte": 42, "recit": "Fouiller de nuit la remise d'un marchand de vin, là où les indices conduisent." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Le registre est retrouvé chez le marchand de vin, qui avait payé le commis pour effacer sa dette. Tout est rendu avant l'heure. La magistrate félicite Léonce, qui ne dit rien de la guilde mais lui fera passer les petites affaires de la ville.",
+    "reussite": "Le registre est retrouvé intact dans une remise, sans qu'on sache qui l'y a mis. Léonce garde sa place.",
+    "partielle": "Le registre est retrouvé, mais trois pages ont été arrachées. Léonce doit tout recopier de mémoire.",
+    "echec": "Le registre reste introuvable. Léonce est renvoyé, et ses soupçons se portent désormais sur la guilde qui a tant posé de questions."
+  },
+  "recompenses": { "or": 65, "reputation": 2, "xp": 35, "objet": { "rarete": "commun", "chance": 4 } },
+  "suite": null
+}
+]

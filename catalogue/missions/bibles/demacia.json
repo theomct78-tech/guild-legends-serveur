@@ -1,0 +1,13 @@
+{
+  "region": "demacia",
+  "lieux": [
+    "Grande Cité de Demacia", "Citadelle de l'Aube", "Salle de la Vaillance", "Grand-Place", "Jardins du palais",
+    "Temple des Porte-Lumière", "Salles sépulcrales", "Bibliothèque d'Albâtre", "Registre arcanique",
+    "Ancien complexe des traqueurs de mages", "Dregbourne", "Quartier militaire", "Volières des Ailes-d'argent",
+    "Port de la Cité", "La Dernière Porte", "Route du Souvenir",
+    "High Silvermere", "Aire des Rapaces", "Hautes-Terres rocheuses", "Fossbarrow", "Bosquet de pétricite", "Uwendale",
+    "Zeffira", "Cloudfield", "Monts Croc-Vert", "Everpeak", "Graygate", "Meltridge", "Bois sacrés",
+    "Evenmoor", "Cloudwoods", "Vaskasia", "Jandelle", "Le Cercle d'Or", "Terbisia", "Needlebrook", "Wrenwall",
+    "Ehrenmount", "Le Serpentrion", "Edessa", "Lissus", "Pinara", "Velorus", "Dawnhold", "Portes du Deuil"
+  ]
+}

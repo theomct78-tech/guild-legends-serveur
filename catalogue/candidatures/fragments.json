@@ -1,0 +1,303 @@
+{
+ "_note": "Fragments de lettres de candidature (8 nov. 2026). Six registres d'écriture. {maitre} = la façon dont le héros s'adresse au maître de guilde.",
+ "registres": {
+  "noble": {
+   "label": "Noble",
+   "ouvertures": [
+    "Au maître de la guilde,",
+    "Maître de guilde,",
+    "À l'attention du maître de ce repère,"
+   ],
+   "clotures": [
+    "Je reste à votre disposition, et à celle de votre guilde.",
+    "Recevez l'assurance de mon respect.",
+    "J'attends votre réponse avec confiance."
+   ]
+  },
+  "rue": {
+   "label": "De la rue",
+   "ouvertures": [
+    "Salut le repère !",
+    "Bon.",
+    "Hé, le patron du repère,"
+   ],
+   "clotures": [
+    "Répondez vite, j'ai pas toute la vie.",
+    "Voilà. C'est dit.",
+    "Si c'est oui, je suis déjà en route."
+   ]
+  },
+  "sage": {
+   "label": "Mesuré",
+   "ouvertures": [
+    "Au maître de la guilde, paix.",
+    "À celle ou celui qui tient ce repère,",
+    "Maître,"
+   ],
+   "clotures": [
+    "Que votre chemin soit clair.",
+    "Je vous laisse le temps de réfléchir. Je sais attendre.",
+    "Avec mes salutations."
+   ]
+  },
+  "brut": {
+   "label": "Bref",
+   "ouvertures": [
+    "Maître de guilde.",
+    "Au repère.",
+    "À qui de droit."
+   ],
+   "clotures": [
+    "C'est tout.",
+    "J'attends l'ordre.",
+    "Réponse attendue."
+   ]
+  },
+  "joyeux": {
+   "label": "Enjoué",
+   "ouvertures": [
+    "Bonjour, bonjour, bonjour !",
+    "Oh, enfin une guilde !",
+    "Coucou le repère !"
+   ],
+   "clotures": [
+    "À très vite, j'espère, j'espère !",
+    "Je saute de joie rien que d'y penser.",
+    "Dites oui. S'il vous plaît. Oui ?"
+   ]
+  },
+  "sombre": {
+   "label": "Inquiétant",
+   "ouvertures": [
+    "Maître de guilde…",
+    "Vous ne me connaissez pas encore.",
+    "À celui qui ose tenir ce repère,"
+   ],
+   "clotures": [
+    "Je saurai votre réponse avant que vous l'écriviez.",
+    "Choisissez bien.",
+    "Nous nous reverrons, de toute façon."
+   ]
+  },
+  "singulier": {
+   "label": "Singulier",
+   "ouvertures": [],
+   "clotures": []
+  }
+ },
+ "indices": {
+  "_note": "Indices de potentiel, jamais certains. Le générateur pioche parfois dans le palier voisin, pour que le flair reste un pari. _narrateur : une rumeur au dossier, pour les héros qui n'écrivent pas comme les autres (registre singulier).",
+  "B": {
+   "noble": [
+    "On loue mon sérieux et mon application. Je ne prétends pas à davantage, pour l'instant.",
+    "Mes maîtres ont toujours trouvé mon travail honnête."
+   ],
+   "rue": [
+    "Dans le quartier, y a plus doué que moi. Mais je suis là tous les jours, et ça, personne d'autre peut le dire.",
+    "J'ai jamais gagné grand-chose, mais j'ai jamais lâché non plus."
+   ],
+   "sage": [
+    "Je ne suis qu'au début de mon chemin, et je le sais.",
+    "Mon maître disait que la patience me mènerait loin. Il ne disait pas jusqu'où."
+   ],
+   "brut": [
+    "Je fais ce qu'on me demande. Bien.",
+    "Pas de talent particulier. De la constance."
+   ],
+   "joyeux": [
+    "Je manque encore de force, mais pas d'envie ! Ça compte, non ?",
+    "Je rate souvent, mais je recommence toujours !"
+   ],
+   "sombre": [
+    "On a souvent sous-estimé ce que je vaux. On avait peut-être raison.",
+    "Je ne promets rien. Je ne déçois jamais personne."
+   ]
+  },
+  "A": {
+   "noble": [
+    "Mon instructeur dit que je dépasserai bientôt ce qu'il peut m'apprendre.",
+    "On m'a confié des tâches que d'ordinaire on réserve aux plus anciens."
+   ],
+   "rue": [
+    "Les vieux du quartier disent que j'ai le truc. J'sais pas trop ce que c'est, le truc, mais je l'ai.",
+    "J'ai battu des gars deux fois plus vieux que moi. Pas qu'une fois."
+   ],
+   "sage": [
+    "Les anciens me regardent parfois avec une attention que je ne m'explique pas.",
+    "J'apprends vite. Trop vite, disait ma maîtresse, qui s'en inquiétait."
+   ],
+   "brut": [
+    "J'ai survécu là où d'autres sont tombés. Ce n'est pas de la chance.",
+    "Mes chefs me donnaient toujours la première ligne. Ils savaient pourquoi."
+   ],
+   "joyeux": [
+    "Tout le monde dit que je progresse super vite ! Moi je trouve ça normal, mais bon.",
+    "J'ai réussi un truc que personne n'avait jamais réussi chez moi. Par accident, mais quand même !"
+   ],
+   "sombre": [
+    "Mes maîtres d'armes ont fini par avoir peur de moi.",
+    "Je n'ai pas encore montré ce dont je suis capable. Personne n'y tient vraiment."
+   ]
+  },
+  "S": {
+   "noble": [
+    "Mon capitaine dit qu'il n'a jamais vu personne apprendre aussi vite. Il le dit avec un peu d'inquiétude.",
+    "On murmure, chez moi, qu'un grand destin m'attend. Je préfère qu'on me juge sur mes actes."
+   ],
+   "rue": [
+    "Y a des gens qui disent que je vais finir par changer des choses. Moi je veux juste qu'on arrête d'avoir peur dans ma rue. Mais bon, si ça change des choses en route.",
+    "Personne m'a jamais appris ce que je sais faire. C'est venu tout seul. Ça fait flipper ma mère."
+   ],
+   "sage": [
+    "Les anciens disaient que la mer, ou la montagne, ou le vent choisirait. Je ne sais pas si le choix s'est porté sur moi. Je sais qu'on m'a laissé partir.",
+    "Ma maîtresse a dit, la dernière fois que nous nous sommes parlé, qu'elle n'avait plus rien à m'apprendre. Elle ne souriait pas."
+   ],
+   "brut": [
+    "Ceux qui ont assisté à mes combats n'en parlent pas. Ils changent de sujet.",
+    "Personne d'autre n'est revenu. Deux fois."
+   ],
+   "joyeux": [
+    "Il se passe des choses bizarres autour de moi. Des choses géniales, mais bizarres. Les grands disent que c'est un don.",
+    "Une voyante m'a dit que j'étais destiné à quelque chose d'immense ! J'ai demandé quoi. Elle s'est évanouie."
+   ],
+   "sombre": [
+    "Mon âge dépasse ce que vous croyez, et ma force ce que je montre.",
+    "Ce que je porte en moi ne demande qu'à grandir. Vous voulez vraiment l'abriter ?"
+   ]
+  },
+  "G": {
+   "noble": [
+    "Les étoiles ont parlé de moi avant ma naissance. Je ne vous demande pas d'y croire.",
+    "Rien ne garantit que je resterai. Mais pour l'instant, je choisis votre porte."
+   ],
+   "rue": [
+    "Je sais pas trop ce que je suis. Je sais que je suis pas comme vous. Mais j'aime bien votre repère.",
+    "Y a des nuits où le ciel me parle. Je réponds pas toujours."
+   ],
+   "sage": [
+    "J'ai vu naître des montagnes. Je peux bien attendre votre réponse.",
+    "Le temps passe autrement pour moi. Ne vous en offensez pas."
+   ],
+   "brut": [
+    "Ce que je suis ne se mesure pas.",
+    "Vous ne me commanderez pas. Je viendrai quand il le faudra."
+   ],
+   "joyeux": [
+    "J'ai traversé des choses qui n'ont pas de nom pour venir jusqu'ici ! Votre porte était jolie.",
+    "Les étoiles m'ont dit de passer vous voir. Elles sont rigolotes, les étoiles."
+   ],
+   "sombre": [
+    "Le monde est plus vieux que vous. Moi aussi.",
+    "Je ne viens pas pour servir. Je viens voir."
+   ]
+  },
+  "_narrateur": {
+   "B": [
+    "Ceux qui ont croisé sa route parlent d'honnêteté à la tâche, sans plus.",
+    "On parle de constance à son sujet, pas d'éclat."
+   ],
+   "A": [
+    "On raconte que ses premiers maîtres ont déjà été dépassés.",
+    "Dans sa région, son nom commence à circuler."
+   ],
+   "S": [
+    "Ceux qui ont assisté à ses exploits en parlent à voix basse.",
+    "On dit qu'une force plus grande accompagne chacun de ses pas."
+   ],
+   "G": [
+    "Les anciens disent que cette présence était là avant eux.",
+    "Certains jurent l'avoir vue en rêve avant son arrivée."
+   ]
+  }
+ },
+ "motivations": {
+  "or": {
+   "noble": "Je ne cache pas que la solde compte.",
+   "rue": "Faut que ça paie, par contre. Bien.",
+   "sage": "Il me faut de quoi vivre, et un peu plus.",
+   "brut": "Je veux ma solde. À l'heure.",
+   "joyeux": "Et puis il paraît qu'on gagne des sous ! Beaucoup de sous ?",
+   "sombre": "Mes services coûtent cher. Ils le valent."
+  },
+  "gloire": {
+   "noble": "Je veux que mon nom serve à quelque chose, et qu'on s'en souvienne.",
+   "rue": "Je veux qu'on parle de moi. En bien, de préférence.",
+   "sage": "Je cherche une renommée qui ne soit pas vaine.",
+   "brut": "Je veux qu'on me voie.",
+   "joyeux": "Je veux devenir célèbre ! Avec des chansons et tout !",
+   "sombre": "On se souviendra de moi. Avec vous, ou malgré vous."
+  },
+  "cause": {
+   "noble": "Je sers une cause qui me dépasse, et j'ai besoin d'une guilde pour la servir mieux.",
+   "rue": "Y a des trucs qui doivent changer. Seul, j'y arrive pas.",
+   "sage": "Je cherche à servir ce qui est juste. Je crois que vous le pouvez aussi.",
+   "brut": "J'ai une cause. Elle passe avant moi.",
+   "joyeux": "J'ai une mission ! Une vraie ! Et vous pouvez m'aider !",
+   "sombre": "Ma cause est la seule qui compte. Vous la servirez sans le savoir."
+  },
+  "vengeance": {
+   "noble": "Une dette me reste à régler. Je ne mentirai pas sur ce point.",
+   "rue": "Y a quelqu'un que je dois retrouver. Et lui faire payer.",
+   "sage": "Une blessure ancienne me guide. Je n'en suis pas fier.",
+   "brut": "Quelqu'un doit mourir. Je le trouverai.",
+   "joyeux": "Il y a quelqu'un de très, très méchant que je dois retrouver ! Ça va être un peu sérieux, ce moment-là.",
+   "sombre": "J'ai une liste. Elle est courte. Elle raccourcit."
+  },
+  "savoir": {
+   "noble": "Je veux comprendre ce que les livres ne disent pas.",
+   "rue": "Je veux savoir comment ça marche, tout. Le monde, quoi.",
+   "sage": "Il y a encore tant de choses que j'ignore.",
+   "brut": "Je cherche des réponses.",
+   "joyeux": "Il y a tellement de choses à découvrir ! Tellement !",
+   "sombre": "Je veux savoir. Tout. Surtout ce qu'on cache."
+  },
+  "proteger": {
+   "noble": "Je veux protéger ceux qui ne le peuvent pas.",
+   "rue": "Je veux que les miens soient tranquilles. C'est tout.",
+   "sage": "Il y a des gens qu'il faut garder du pire.",
+   "brut": "Je protège. C'est ce que je fais.",
+   "joyeux": "Je veux que tout le monde soit en sécurité ! Tout le monde !",
+   "sombre": "Ceux que j'ai choisi de protéger n'ont rien à craindre. Les autres, si."
+  },
+  "pouvoir": {
+   "noble": "J'ai l'ambition de devenir plus que ce que je suis.",
+   "rue": "Je veux plus de force. Plus que tout le monde.",
+   "sage": "Je cherche à grandir, et je ne m'arrêterai pas en chemin.",
+   "brut": "Je veux la première place. Partout.",
+   "joyeux": "Je veux un pouvoir immense ! Pour de vrai !",
+   "sombre": "Je deviendrai ce que je dois devenir. Votre guilde sera un marchepied."
+  },
+  "liberte": {
+   "noble": "Je n'appartiendrai à personne. Je choisis de vous rejoindre, ce qui est différent.",
+   "rue": "Personne me tient en laisse. Je viens parce que je veux.",
+   "sage": "Je suis libre, et je tiens à le rester.",
+   "brut": "Pas de chaînes. Jamais.",
+   "joyeux": "Je fais ce que je veux, quand je veux ! Et là, je veux venir !",
+   "sombre": "On a essayé de m'enfermer. On a eu tort."
+  },
+  "redemption": {
+   "noble": "J'ai commis une faute que je dois réparer.",
+   "rue": "J'ai fait des conneries. Je veux me rattraper.",
+   "sage": "Je porte un poids. Peut-être que votre guilde m'aidera à le poser.",
+   "brut": "J'ai une dette envers des morts.",
+   "joyeux": "J'ai fait une grosse bêtise, une fois. Je veux faire plein de choses bien pour compenser !",
+   "sombre": "Ce que j'ai fait ne s'efface pas. Je veux au moins que ça serve."
+  },
+  "appartenance": {
+   "noble": "Je cherche une maison, et des gens à qui je puisse être fidèle.",
+   "rue": "J'ai pas vraiment de famille. Ça me dérangerait pas d'en avoir une.",
+   "sage": "Je cherche un endroit où rester.",
+   "brut": "Je cherche ma place.",
+   "joyeux": "Je cherche des amis ! Plein d'amis ! Vous en avez ?",
+   "sombre": "Je n'ai jamais eu de foyer. J'ai envie de voir à quoi ça ressemble."
+  },
+  "plaisir": {
+   "noble": "Je m'ennuie, je l'avoue. J'espère que votre guilde y remédiera.",
+   "rue": "Je veux de l'action. De la vraie.",
+   "sage": "Je cherche ce qui fait battre le cœur.",
+   "brut": "Je veux me battre.",
+   "joyeux": "Je veux m'amuser ! Beaucoup ! Tout le temps !",
+   "sombre": "Je cherche à me distraire. Espérons que ce ne soit pas à vos dépens."
+  }
+ }
+}

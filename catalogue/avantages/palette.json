@@ -1,0 +1,98 @@
+{
+ "ASSAUT": {
+  "label": "Assaut",
+  "famille": "Combat",
+  "effet": "Réussite des épreuves de combat",
+  "unite": 4
+ },
+ "MAITRISE": {
+  "label": "Maîtrise",
+  "famille": "Combat",
+  "effet": "Neutralise l'adversaire : réduit le danger d'une épreuve de combat",
+  "unite": 4
+ },
+ "PROTECTION": {
+  "label": "Protection",
+  "famille": "Combat",
+  "effet": "Réduit le risque de blessure de toute l'équipe",
+  "unite": 5
+ },
+ "SOINS": {
+  "label": "Soins",
+  "famille": "Combat",
+  "effet": "Chance de réduire la gravité d'une blessure subie en mission",
+  "unite": 8
+ },
+ "SURVIE": {
+  "label": "Survie",
+  "famille": "Survie",
+  "effet": "Réduit le risque de mort ; au niveau 3, évite une mort dans l'équipe une fois par mission (le héros ou l'allié qu'il protège)",
+  "unite": 10
+ },
+ "CELERITE": {
+  "label": "Célérité",
+  "famille": "Mission",
+  "effet": "Réduit la durée de la mission",
+  "unite": 5
+ },
+ "RECONNAISSANCE": {
+  "label": "Reconnaissance",
+  "famille": "Mission",
+  "effet": "Révèle les conditions avant le départ et réduit le risque d'embuscade",
+  "unite": 8
+ },
+ "INFILTRATION": {
+  "label": "Infiltration",
+  "famille": "Mission",
+  "effet": "Réussite des épreuves de discrétion",
+  "unite": 6
+ },
+ "TRAQUE": {
+  "label": "Traque",
+  "famille": "Mission",
+  "effet": "Réussite des épreuves de poursuite et de capture",
+  "unite": 6
+ },
+ "SIEGE": {
+  "label": "Siège",
+  "famille": "Mission",
+  "effet": "Réussite contre un ennemi unique très résistant ou une fortification",
+  "unite": 6
+ },
+ "NUEE": {
+  "label": "Contre la nuée",
+  "famille": "Mission",
+  "effet": "Réussite contre des adversaires nombreux",
+  "unite": 6
+ },
+ "BUTIN": {
+  "label": "Butin",
+  "famille": "Gain",
+  "effet": "Chance d'obtenir un objet",
+  "unite": 5
+ },
+ "OR": {
+  "label": "Or",
+  "famille": "Gain",
+  "effet": "Récompense en or de la mission",
+  "unite": 6
+ },
+ "RENOMMEE": {
+  "label": "Renommée",
+  "famille": "Gain",
+  "effet": "Réputation gagnée par la guilde",
+  "unite": 5
+ },
+ "INSPIRATION": {
+  "label": "Inspiration",
+  "famille": "Repère",
+  "effet": "Moral de l'équipe pendant et après la mission",
+  "unite": 5
+ },
+ "CONCORDE": {
+  "label": "Concorde",
+  "famille": "Repère",
+  "effet": "Apaise les tensions entre héros au repère",
+  "unite": 5
+ }
+}

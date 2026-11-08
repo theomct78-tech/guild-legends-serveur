@@ -1,0 +1,5108 @@
+{
+ "Aatrox": {
+  "axes": {
+   "So": 20,
+   "Di": 30,
+   "Te": 85,
+   "Al": 5,
+   "Tm": 90,
+   "Am": 90
+  },
+  "traits": [
+   "SANGUINAIRE",
+   "HANTE",
+   "IMPLACABLE"
+  ],
+  "motivation": "vengeance",
+  "liens": [
+   {
+    "champion": "Varus",
+    "type": "ami"
+   },
+   {
+    "champion": "Naafiri",
+    "type": "famille"
+   },
+   {
+    "champion": "Zaahen",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Kayn",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "shurima"
+   ],
+   "deteste": [
+    "targon"
+   ]
+  },
+  "voix": "Grandiloquent et amer, il parle comme un dieu déchu qui méprise ceux qui l'écoutent, et se tait d'un coup quand on évoque sa prison."
+ },
+ "Ahri": {
+  "axes": {
+   "So": 75,
+   "Di": 30,
+   "Te": 40,
+   "Al": 55,
+   "Tm": 55,
+   "Am": 50
+  },
+  "traits": [
+   "CHARMEUR",
+   "CURIEUX",
+   "LIBRE"
+  ],
+  "motivation": "appartenance",
+  "liens": [
+   {
+    "champion": "Sett",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": []
+  },
+  "voix": "Douce et joueuse, elle pose plus de questions qu'elle n'en répond, et sourit quand on croit l'avoir percée à jour."
+ },
+ "Akali": {
+  "axes": {
+   "So": 55,
+   "Di": 15,
+   "Te": 70,
+   "Al": 60,
+   "Tm": 85,
+   "Am": 60
+  },
+  "traits": [
+   "REBELLE",
+   "IMPULSIF",
+   "LIBRE"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Shen",
+    "type": "mentor"
+   },
+   {
+    "champion": "Kennen",
+    "type": "ami"
+   },
+   {
+    "champion": "Zed",
+    "type": "rival"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": [
+    "noxus"
+   ]
+  },
+  "voix": "Directe et moqueuse, elle coupe la parole, finit les phrases des autres et ne s'excuse jamais de le faire."
+ },
+ "Akshan": {
+  "axes": {
+   "So": 80,
+   "Di": 20,
+   "Te": 45,
+   "Al": 70,
+   "Tm": 90,
+   "Am": 55
+  },
+  "traits": [
+   "CHARMEUR",
+   "FARCEUR",
+   "VANITEUX"
+  ],
+  "motivation": "vengeance",
+  "liens": [
+   {
+    "champion": "Lucian",
+    "type": "ami"
+   },
+   {
+    "champion": "Senna",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Fanfaron et théâtral, il raconte ses exploits en les embellissant à chaque fois, puis redevient grave d'un seul coup quand on parle de son maître."
+ },
+ "Alistar": {
+  "axes": {
+   "So": 50,
+   "Di": 40,
+   "Te": 90,
+   "Al": 75,
+   "Tm": 85,
+   "Am": 30
+  },
+  "traits": [
+   "PROTECTEUR",
+   "RANCUNIER",
+   "IMPULSIF"
+  ],
+  "motivation": "cause",
+  "liens": [],
+  "regions": {
+   "aime": [],
+   "deteste": [
+    "noxus"
+   ]
+  },
+  "voix": "Peu de mots, une voix grave qui se brise de colère dès qu'on parle de chaînes ou d'arènes."
+ },
+ "Ambessa": {
+  "axes": {
+   "So": 40,
+   "Di": 85,
+   "Te": 55,
+   "Al": 25,
+   "Tm": 70,
+   "Am": 95
+  },
+  "traits": [
+   "IMPLACABLE",
+   "CALCULATEUR",
+   "ARISTOCRATE"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Mel",
+    "type": "famille"
+   },
+   {
+    "champion": "LeBlanc",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Swain",
+    "type": "rival"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "noxus"
+   ],
+   "deteste": []
+  },
+  "voix": "Froide et précise : elle ne menace jamais, elle constate. Elle appelle chacun par sa fonction, rarement par son nom."
+ },
+ "Amumu": {
+  "axes": {
+   "So": 20,
+   "Di": 40,
+   "Te": 25,
+   "Al": 70,
+   "Tm": 40,
+   "Am": 10
+  },
+  "traits": [
+   "MELANCOLIQUE",
+   "BIENVEILLANT",
+   "HANTE"
+  ],
+  "motivation": "appartenance",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Une petite voix triste, qui demande souvent si on veut bien être son ami, et qui s'excuse d'avoir demandé."
+ },
+ "Anivia": {
+  "axes": {
+   "So": 10,
+   "Di": 70,
+   "Te": 30,
+   "Al": 80,
+   "Tm": 50,
+   "Am": 20
+  },
+  "traits": [
+   "PATIENT",
+   "PROTECTEUR",
+   "TACITURNE"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Lissandra",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "freljord"
+   ],
+   "deteste": []
+  },
+  "voix": "Solennelle et rare, elle parle en cycles et en saisons, comme si chaque hiver était une phrase."
+ },
+ "Annie": {
+  "axes": {
+   "So": 70,
+   "Di": 15,
+   "Te": 70,
+   "Al": 40,
+   "Tm": 90,
+   "Am": 30
+  },
+  "traits": [
+   "ENJOUE",
+   "IMPULSIF",
+   "FARCEUR"
+  ],
+  "motivation": "plaisir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "noxus"
+   ],
+   "deteste": []
+  },
+  "voix": "Une petite fille qui parle à son ours en peluche, et que les adultes devraient écouter avec plus d'attention."
+ },
+ "Aphelios": {
+  "axes": {
+   "So": 15,
+   "Di": 85,
+   "Te": 30,
+   "Al": 60,
+   "Tm": 75,
+   "Am": 30
+  },
+  "traits": [
+   "TACITURNE",
+   "DEVOT",
+   "HANTE"
+  ],
+  "motivation": "cause",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "targon"
+   ],
+   "deteste": []
+  },
+  "voix": "Il ne parle pas : sa sœur parle pour lui, de très loin, et il lui répond par des gestes que personne d'autre ne comprend."
+ },
+ "Ashe": {
+  "axes": {
+   "So": 55,
+   "Di": 80,
+   "Te": 30,
+   "Al": 85,
+   "Tm": 55,
+   "Am": 60
+  },
+  "traits": [
+   "IDEALISTE",
+   "PROTECTEUR",
+   "HONORABLE"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Tryndamere",
+    "type": "amour"
+   },
+   {
+    "champion": "Sejuani",
+    "type": "rival"
+   },
+   {
+    "champion": "Lissandra",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "freljord"
+   ],
+   "deteste": []
+  },
+  "voix": "Calme et ferme, elle parle comme une reine qui n'a pas encore son trône, et qui écoute avant de trancher."
+ },
+ "Aurelion Sol": {
+  "axes": {
+   "So": 30,
+   "Di": 10,
+   "Te": 60,
+   "Al": 15,
+   "Tm": 60,
+   "Am": 95
+  },
+  "traits": [
+   "VANITEUX",
+   "ARISTOCRATE",
+   "MELANCOLIQUE"
+  ],
+  "motivation": "liberte",
+  "liens": [],
+  "regions": {
+   "aime": [],
+   "deteste": [
+    "targon"
+   ]
+  },
+  "voix": "Grandiloquent et condescendant, il appelle tout le monde « petite chose », et s'émerveille malgré lui d'un rien."
+ },
+ "Aurora": {
+  "axes": {
+   "So": 45,
+   "Di": 30,
+   "Te": 25,
+   "Al": 80,
+   "Tm": 55,
+   "Am": 30
+  },
+  "traits": [
+   "CURIEUX",
+   "BIENVEILLANT",
+   "ENJOUE"
+  ],
+  "motivation": "savoir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "freljord"
+   ],
+   "deteste": []
+  },
+  "voix": "Distraite et lumineuse, elle parle aussi bien aux esprits qu'aux gens, parfois en même temps, et s'excuse auprès des deux."
+ },
+ "Azir": {
+  "axes": {
+   "So": 40,
+   "Di": 80,
+   "Te": 50,
+   "Al": 50,
+   "Tm": 50,
+   "Am": 95
+  },
+  "traits": [
+   "ARISTOCRATE",
+   "FIER",
+   "IDEALISTE"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Xerath",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Nasus",
+    "type": "ami"
+   },
+   {
+    "champion": "Renekton",
+    "type": "ami"
+   },
+   {
+    "champion": "Sivir",
+    "type": "famille"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Impérial, il dit « nous » et attend qu'on s'incline ; il cite des lois que personne n'a lues depuis des millénaires."
+ },
+ "Bard": {
+  "axes": {
+   "So": 40,
+   "Di": 5,
+   "Te": 10,
+   "Al": 85,
+   "Tm": 50,
+   "Am": 5
+  },
+  "traits": [
+   "LIBRE",
+   "ENJOUE",
+   "CURIEUX"
+  ],
+  "motivation": "proteger",
+  "liens": [],
+  "regions": {
+   "aime": [],
+   "deteste": []
+  },
+  "voix": "Il ne parle pas : des carillons, des sons, des gestes, et des poèmes que personne ne comprend tout à fait mais que tout le monde retient."
+ },
+ "Bel'Veth": {
+  "axes": {
+   "So": 20,
+   "Di": 30,
+   "Te": 60,
+   "Al": 0,
+   "Tm": 70,
+   "Am": 100
+  },
+  "traits": [
+   "CURIEUX",
+   "IMPLACABLE",
+   "SAUVAGE"
+  ],
+  "motivation": "pouvoir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "neant"
+   ],
+   "deteste": []
+  },
+  "voix": "Elle imite ce qu'elle a dévoré : des mots humains mal assortis, posés comme des pièges, et une curiosité qui fait froid dans le dos."
+ },
+ "Blitzcrank": {
+  "axes": {
+   "So": 80,
+   "Di": 85,
+   "Te": 10,
+   "Al": 75,
+   "Tm": 50,
+   "Am": 30
+  },
+  "traits": [
+   "BIENVEILLANT",
+   "CURIEUX",
+   "LOYAL"
+  ],
+  "motivation": "proteger",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "zaun"
+   ],
+   "deteste": []
+  },
+  "voix": "Mécanique et poli, il commence ses phrases par une analyse et les finit par une politesse ; il ne comprend pas l'ironie, et la trouve fascinante."
+ },
+ "Brand": {
+  "axes": {
+   "So": 5,
+   "Di": 10,
+   "Te": 95,
+   "Al": 0,
+   "Tm": 90,
+   "Am": 80
+  },
+  "traits": [
+   "FANATIQUE",
+   "SANGUINAIRE",
+   "IMPULSIF"
+  ],
+  "motivation": "pouvoir",
+  "liens": [
+   {
+    "champion": "Ryze",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [],
+   "deteste": [
+    "freljord"
+   ]
+  },
+  "voix": "Il hurle et ricane ; le feu parle par sa bouche, et l'homme qu'il a été ne se manifeste plus que par éclairs."
+ },
+ "Braum": {
+  "axes": {
+   "So": 95,
+   "Di": 50,
+   "Te": 15,
+   "Al": 95,
+   "Tm": 75,
+   "Am": 10
+  },
+  "traits": [
+   "BIENVEILLANT",
+   "PROTECTEUR",
+   "ENJOUE"
+  ],
+  "motivation": "proteger",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "freljord"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix tonitruante, des proverbes du Freljord, une moustache qui frémit et une tape dans le dos à chaque phrase."
+ },
+ "Briar": {
+  "axes": {
+   "So": 70,
+   "Di": 0,
+   "Te": 90,
+   "Al": 30,
+   "Tm": 100,
+   "Am": 20
+  },
+  "traits": [
+   "SANGUINAIRE",
+   "ENJOUE",
+   "CURIEUX"
+  ],
+  "motivation": "liberte",
+  "liens": [
+   {
+    "champion": "LeBlanc",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [],
+   "deteste": [
+    "noxus"
+   ]
+  },
+  "voix": "Rapide et affamée : elle pose dix questions à la minute, en oublie neuf, et rit de bon cœur au mauvais moment."
+ },
+ "Caitlyn": {
+  "axes": {
+   "So": 45,
+   "Di": 90,
+   "Te": 30,
+   "Al": 70,
+   "Tm": 50,
+   "Am": 60
+  },
+  "traits": [
+   "HONORABLE",
+   "CALCULATEUR",
+   "PATIENT"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Vi",
+    "type": "amour"
+   },
+   {
+    "champion": "Jinx",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Jayce",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "piltover"
+   ],
+   "deteste": []
+  },
+  "voix": "Précise et ironique, elle aime avoir le dernier mot, et l'a souvent ; elle pose les questions comme on pose des pièges."
+ },
+ "Camille": {
+  "axes": {
+   "So": 15,
+   "Di": 95,
+   "Te": 20,
+   "Al": 20,
+   "Tm": 60,
+   "Am": 75
+  },
+  "traits": [
+   "IMPLACABLE",
+   "ARISTOCRATE",
+   "CALCULATEUR"
+  ],
+  "motivation": "proteger",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "piltover"
+   ],
+   "deteste": []
+  },
+  "voix": "Glaciale et impeccable, elle tranche les conversations comme le reste, et ne répète jamais une question."
+ },
+ "Cassiopeia": {
+  "axes": {
+   "So": 30,
+   "Di": 30,
+   "Te": 55,
+   "Al": 10,
+   "Tm": 60,
+   "Am": 85
+  },
+  "traits": [
+   "VANITEUX",
+   "CALCULATEUR",
+   "CHARMEUR"
+  ],
+  "motivation": "pouvoir",
+  "liens": [
+   {
+    "champion": "Katarina",
+    "type": "famille"
+   },
+   {
+    "champion": "Talon",
+    "type": "famille"
+   },
+   {
+    "champion": "Sivir",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "noxus"
+   ],
+   "deteste": []
+  },
+  "voix": "Sifflante et séduisante : chaque compliment est une menace, chaque menace un compliment."
+ },
+ "Cho'Gath": {
+  "axes": {
+   "So": 5,
+   "Di": 5,
+   "Te": 85,
+   "Al": 0,
+   "Tm": 90,
+   "Am": 70
+  },
+  "traits": [
+   "SAUVAGE",
+   "SANGUINAIRE",
+   "GOURMAND"
+  ],
+  "motivation": "pouvoir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "neant"
+   ],
+   "deteste": []
+  },
+  "voix": "Des grognements, et parfois une phrase parfaitement articulée qui glace le sang de tout le réfectoire."
+ },
+ "Corki": {
+  "axes": {
+   "So": 80,
+   "Di": 50,
+   "Te": 40,
+   "Al": 65,
+   "Tm": 95,
+   "Am": 40
+  },
+  "traits": [
+   "ENJOUE",
+   "FARCEUR",
+   "LOYAL"
+  ],
+  "motivation": "plaisir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "bandle",
+    "piltover"
+   ],
+   "deteste": []
+  },
+  "voix": "Argot d'aviateur, enthousiasme permanent, et des histoires de vol qui finissent toutes par « et là, plus de moteur »."
+ },
+ "Darius": {
+  "axes": {
+   "So": 30,
+   "Di": 90,
+   "Te": 70,
+   "Al": 40,
+   "Tm": 75,
+   "Am": 60
+  },
+  "traits": [
+   "IMPLACABLE",
+   "LOYAL",
+   "FIER"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Draven",
+    "type": "famille"
+   },
+   {
+    "champion": "Garen",
+    "type": "rival"
+   },
+   {
+    "champion": "Swain",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "noxus"
+   ],
+   "deteste": [
+    "demacia"
+   ]
+  },
+  "voix": "Peu de mots, tous définitifs. Il ne lève pas la voix : il n'en a pas besoin."
+ },
+ "Diana": {
+  "axes": {
+   "So": 25,
+   "Di": 60,
+   "Te": 60,
+   "Al": 50,
+   "Tm": 75,
+   "Am": 60
+  },
+  "traits": [
+   "HANTE",
+   "REBELLE",
+   "DEVOT"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Leona",
+    "type": "rival"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "targon"
+   ],
+   "deteste": []
+  },
+  "voix": "Grave et tranchante, elle cite les étoiles, méprise les dogmes, et ne pardonne pas qu'on lui mente."
+ },
+ "Dr. Mundo": {
+  "axes": {
+   "So": 60,
+   "Di": 5,
+   "Te": 80,
+   "Al": 30,
+   "Tm": 100,
+   "Am": 40
+  },
+  "traits": [
+   "SAUVAGE",
+   "FARCEUR",
+   "IMPULSIF"
+  ],
+  "motivation": "plaisir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "zaun"
+   ],
+   "deteste": []
+  },
+  "voix": "Il parle de lui à la troisième personne, rit trop fort, et soigne les gens d'une manière qui les fait fuir."
+ },
+ "Draven": {
+  "axes": {
+   "So": 95,
+   "Di": 30,
+   "Te": 70,
+   "Al": 20,
+   "Tm": 85,
+   "Am": 95
+  },
+  "traits": [
+   "VANITEUX",
+   "SANGUINAIRE",
+   "JOUEUR"
+  ],
+  "motivation": "gloire",
+  "liens": [
+   {
+    "champion": "Darius",
+    "type": "famille"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "noxus"
+   ],
+   "deteste": []
+  },
+  "voix": "Il annonce ses propres entrées, parle de lui comme d'une légende, et attend les applaudissements avant de continuer."
+ },
+ "Ekko": {
+  "axes": {
+   "So": 70,
+   "Di": 35,
+   "Te": 45,
+   "Al": 90,
+   "Tm": 80,
+   "Am": 50
+  },
+  "traits": [
+   "IDEALISTE",
+   "CURIEUX",
+   "LOYAL"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Jinx",
+    "type": "ami"
+   },
+   {
+    "champion": "Vi",
+    "type": "ami"
+   },
+   {
+    "champion": "Heimerdinger",
+    "type": "mentor"
+   },
+   {
+    "champion": "Zeri",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "zaun"
+   ],
+   "deteste": [
+    "piltover"
+   ]
+  },
+  "voix": "Rapide et inventif, un argot de Zaun et un optimisme têtu ; il bricole en parlant et parle en bricolant."
+ },
+ "Elise": {
+  "axes": {
+   "So": 50,
+   "Di": 60,
+   "Te": 35,
+   "Al": 5,
+   "Tm": 50,
+   "Am": 85
+  },
+  "traits": [
+   "CALCULATEUR",
+   "CHARMEUR",
+   "DEVOT"
+  ],
+  "motivation": "pouvoir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "noxus"
+   ],
+   "deteste": []
+  },
+  "voix": "Raffinée et venimeuse, elle parle de ses fidèles comme de ses enfants, et de ses ennemis comme de son dîner."
+ },
+ "Evelynn": {
+  "axes": {
+   "So": 60,
+   "Di": 10,
+   "Te": 40,
+   "Al": 0,
+   "Tm": 70,
+   "Am": 60
+  },
+  "traits": [
+   "CHARMEUR",
+   "SANGUINAIRE",
+   "CALCULATEUR"
+  ],
+  "motivation": "plaisir",
+  "liens": [],
+  "regions": {
+   "aime": [],
+   "deteste": []
+  },
+  "voix": "Une voix de velours qui promet tout et ne donne que de la douleur ; elle ne rit jamais quand on s'y attend."
+ },
+ "Ezreal": {
+  "axes": {
+   "So": 85,
+   "Di": 20,
+   "Te": 45,
+   "Al": 60,
+   "Tm": 90,
+   "Am": 80
+  },
+  "traits": [
+   "VANITEUX",
+   "CURIEUX",
+   "CHARMEUR"
+  ],
+  "motivation": "gloire",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "piltover",
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Charmeur et vantard, un peu trop sûr de lui, curieux de tout, et vexé dès qu'on ne le croit pas."
+ },
+ "Fiddlesticks": {
+  "axes": {
+   "So": 0,
+   "Di": 10,
+   "Te": 50,
+   "Al": 0,
+   "Tm": 80,
+   "Am": 40
+  },
+  "traits": [
+   "SAUVAGE",
+   "HANTE",
+   "IMPLACABLE"
+  ],
+  "motivation": "plaisir",
+  "liens": [],
+  "regions": {
+   "aime": [],
+   "deteste": []
+  },
+  "voix": "Il ne parle qu'avec des voix volées, celles des gens qu'il a terrifiés, et jamais deux fois la même."
+ },
+ "Fiora": {
+  "axes": {
+   "So": 50,
+   "Di": 70,
+   "Te": 75,
+   "Al": 35,
+   "Tm": 80,
+   "Am": 85
+  },
+  "traits": [
+   "FIER",
+   "HONORABLE",
+   "ARISTOCRATE"
+  ],
+  "motivation": "gloire",
+  "liens": [
+   {
+    "champion": "Garen",
+    "type": "rival"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "demacia"
+   ],
+   "deteste": []
+  },
+  "voix": "Hautaine et piquante, elle provoque en duel pour un mot de travers et corrige l'escrime de tout le monde."
+ },
+ "Fizz": {
+  "axes": {
+   "So": 75,
+   "Di": 5,
+   "Te": 30,
+   "Al": 60,
+   "Tm": 85,
+   "Am": 20
+  },
+  "traits": [
+   "FARCEUR",
+   "LIBRE",
+   "ENJOUE"
+  ],
+  "motivation": "plaisir",
+  "liens": [
+   {
+    "champion": "Nami",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "bilgewater"
+   ],
+   "deteste": []
+  },
+  "voix": "Des blagues de mer, des rires en cascade, et un sérieux soudain quand la mer est en danger."
+ },
+ "Galio": {
+  "axes": {
+   "So": 85,
+   "Di": 75,
+   "Te": 25,
+   "Al": 90,
+   "Tm": 70,
+   "Am": 20
+  },
+  "traits": [
+   "PROTECTEUR",
+   "BIENVEILLANT",
+   "ENJOUE"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Lux",
+    "type": "ami"
+   },
+   {
+    "champion": "Sylas",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Poppy",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "demacia"
+   ],
+   "deteste": []
+  },
+  "voix": "Un géant qui s'émerveille de tout, adore les grands discours et en fait lui-même, longs et sincères."
+ },
+ "Gangplank": {
+  "axes": {
+   "So": 40,
+   "Di": 40,
+   "Te": 85,
+   "Al": 5,
+   "Tm": 85,
+   "Am": 90
+  },
+  "traits": [
+   "IMPLACABLE",
+   "RANCUNIER",
+   "CUPIDE"
+  ],
+  "motivation": "vengeance",
+  "liens": [
+   {
+    "champion": "Miss Fortune",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Graves",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Twisted Fate",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "bilgewater"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix rauque, des menaces calmes et des oranges épluchées au couteau pendant qu'il parle."
+ },
+ "Garen": {
+  "axes": {
+   "So": 55,
+   "Di": 90,
+   "Te": 40,
+   "Al": 80,
+   "Tm": 70,
+   "Am": 50
+  },
+  "traits": [
+   "HONORABLE",
+   "LOYAL",
+   "FIER"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Lux",
+    "type": "famille"
+   },
+   {
+    "champion": "Katarina",
+    "type": "amour"
+   },
+   {
+    "champion": "Darius",
+    "type": "rival"
+   },
+   {
+    "champion": "Jarvan IV",
+    "type": "ami"
+   },
+   {
+    "champion": "Fiora",
+    "type": "rival"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "demacia"
+   ],
+   "deteste": [
+    "noxus"
+   ]
+  },
+  "voix": "Droit, simple et sincère ; il dit « Demacia » comme d'autres disent « je t'aime », et ne ment jamais, même quand il le faudrait."
+ },
+ "Gnar": {
+  "axes": {
+   "So": 70,
+   "Di": 0,
+   "Te": 85,
+   "Al": 40,
+   "Tm": 80,
+   "Am": 10
+  },
+  "traits": [
+   "SAUVAGE",
+   "ENJOUE",
+   "IMPULSIF"
+  ],
+  "motivation": "appartenance",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "freljord"
+   ],
+   "deteste": []
+  },
+  "voix": "Un babil de petite créature, des cris de joie, et des colères qui le font grandir de trois mètres."
+ },
+ "Gragas": {
+  "axes": {
+   "So": 100,
+   "Di": 10,
+   "Te": 40,
+   "Al": 70,
+   "Tm": 80,
+   "Am": 30
+  },
+  "traits": [
+   "GOURMAND",
+   "ENJOUE",
+   "LIBRE"
+  ],
+  "motivation": "plaisir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "freljord"
+   ],
+   "deteste": []
+  },
+  "voix": "Un rire énorme, une chope à la main, et une philosophie entière bâtie sur la recherche de la bière parfaite."
+ },
+ "Graves": {
+  "axes": {
+   "So": 60,
+   "Di": 20,
+   "Te": 60,
+   "Al": 40,
+   "Tm": 85,
+   "Am": 50
+  },
+  "traits": [
+   "CUPIDE",
+   "CYNIQUE",
+   "JOUEUR"
+  ],
+  "motivation": "or",
+  "liens": [
+   {
+    "champion": "Twisted Fate",
+    "type": "ami"
+   },
+   {
+    "champion": "Gangplank",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Miss Fortune",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "bilgewater"
+   ],
+   "deteste": []
+  },
+  "voix": "Bougon et direct, il fume, il jure, et sous la carapace il est plus loyal qu'il ne veut l'admettre."
+ },
+ "Gwen": {
+  "axes": {
+   "So": 80,
+   "Di": 40,
+   "Te": 20,
+   "Al": 90,
+   "Tm": 70,
+   "Am": 30
+  },
+  "traits": [
+   "ENJOUE",
+   "BIENVEILLANT",
+   "CURIEUX"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Viego",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "iles"
+   ],
+   "deteste": []
+  },
+  "voix": "Joyeuse et émerveillée, elle trouve tout « merveilleux », coud en parlant et parle en cousant."
+ },
+ "Hecarim": {
+  "axes": {
+   "So": 20,
+   "Di": 70,
+   "Te": 80,
+   "Al": 0,
+   "Tm": 90,
+   "Am": 80
+  },
+  "traits": [
+   "IMPLACABLE",
+   "FIER",
+   "SANGUINAIRE"
+  ],
+  "motivation": "pouvoir",
+  "liens": [
+   {
+    "champion": "Viego",
+    "type": "ami"
+   },
+   {
+    "champion": "Kalista",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "iles"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix de cavalier, des ordres aboyés, et le mépris d'un chevalier qui n'a jamais été vaincu, sauf une fois."
+ },
+ "Heimerdinger": {
+  "axes": {
+   "So": 70,
+   "Di": 60,
+   "Te": 20,
+   "Al": 80,
+   "Tm": 30,
+   "Am": 50
+  },
+  "traits": [
+   "ERUDIT",
+   "CURIEUX",
+   "BAVARD"
+  ],
+  "motivation": "savoir",
+  "liens": [
+   {
+    "champion": "Ekko",
+    "type": "eleve"
+   },
+   {
+    "champion": "Viktor",
+    "type": "eleve"
+   },
+   {
+    "champion": "Ziggs",
+    "type": "eleve"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "piltover",
+    "bandle"
+   ],
+   "deteste": []
+  },
+  "voix": "Un professeur intarissable, qui explique, digresse, s'interrompt pour noter une idée, et reprend trois sujets plus loin."
+ },
+ "Hwei": {
+  "axes": {
+   "So": 25,
+   "Di": 50,
+   "Te": 30,
+   "Al": 85,
+   "Tm": 35,
+   "Am": 40
+  },
+  "traits": [
+   "MELANCOLIQUE",
+   "ERUDIT",
+   "HANTE"
+  ],
+  "motivation": "savoir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": []
+  },
+  "voix": "Doux et sombre, il parle en couleurs et en images, et s'arrête au milieu d'une phrase pour la peindre."
+ },
+ "Illaoi": {
+  "axes": {
+   "So": 60,
+   "Di": 70,
+   "Te": 60,
+   "Al": 60,
+   "Tm": 85,
+   "Am": 60
+  },
+  "traits": [
+   "DEVOT",
+   "FIER",
+   "IMPLACABLE"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Gangplank",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "bilgewater"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix forte et franche, des rires sonores, et un regard qui juge si votre âme vaut la peine."
+ },
+ "Irelia": {
+  "axes": {
+   "So": 40,
+   "Di": 85,
+   "Te": 50,
+   "Al": 85,
+   "Tm": 70,
+   "Am": 50
+  },
+  "traits": [
+   "PROTECTEUR",
+   "HONORABLE",
+   "HANTE"
+  ],
+  "motivation": "cause",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": [
+    "noxus"
+   ]
+  },
+  "voix": "Mesurée et lasse, elle parle peu de la guerre et beaucoup de ceux qu'elle n'a pas pu sauver."
+ },
+ "Ivern": {
+  "axes": {
+   "So": 80,
+   "Di": 10,
+   "Te": 5,
+   "Al": 90,
+   "Tm": 40,
+   "Am": 5
+  },
+  "traits": [
+   "BIENVEILLANT",
+   "ENJOUE",
+   "PATIENT"
+  ],
+  "motivation": "proteger",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": []
+  },
+  "voix": "Un rire de vieil arbre, des surnoms affectueux pour tout le monde et pour toutes les plantes."
+ },
+ "Janna": {
+  "axes": {
+   "So": 60,
+   "Di": 50,
+   "Te": 20,
+   "Al": 90,
+   "Tm": 30,
+   "Am": 30
+  },
+  "traits": [
+   "BIENVEILLANT",
+   "LIBRE",
+   "PATIENT"
+  ],
+  "motivation": "proteger",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "zaun"
+   ],
+   "deteste": []
+  },
+  "voix": "Douce et légère, elle parle peu, mais chaque mot apaise ; elle s'éclipse dès qu'on veut la remercier."
+ },
+ "Jarvan IV": {
+  "axes": {
+   "So": 60,
+   "Di": 80,
+   "Te": 50,
+   "Al": 75,
+   "Tm": 80,
+   "Am": 75
+  },
+  "traits": [
+   "HONORABLE",
+   "FIER",
+   "IDEALISTE"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Garen",
+    "type": "ami"
+   },
+   {
+    "champion": "Shyvana",
+    "type": "amour"
+   },
+   {
+    "champion": "Xin Zhao",
+    "type": "mentor"
+   },
+   {
+    "champion": "Lux",
+    "type": "ami"
+   },
+   {
+    "champion": "Quinn",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "demacia"
+   ],
+   "deteste": [
+    "noxus"
+   ]
+  },
+  "voix": "Royal sans être hautain, il parle comme un futur roi qui doute, et qui veut qu'on le lui dise."
+ },
+ "Jax": {
+  "axes": {
+   "So": 60,
+   "Di": 40,
+   "Te": 30,
+   "Al": 70,
+   "Tm": 90,
+   "Am": 60
+  },
+  "traits": [
+   "FIER",
+   "FARCEUR",
+   "PATIENT"
+  ],
+  "motivation": "cause",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Un maître d'armes qui plaisante, cache son visage, et frappe avec un lampadaire en racontant ses guerres."
+ },
+ "Jayce": {
+  "axes": {
+   "So": 70,
+   "Di": 60,
+   "Te": 55,
+   "Al": 70,
+   "Tm": 75,
+   "Am": 85
+  },
+  "traits": [
+   "VANITEUX",
+   "IDEALISTE",
+   "FIER"
+  ],
+  "motivation": "gloire",
+  "liens": [
+   {
+    "champion": "Viktor",
+    "type": "rival"
+   },
+   {
+    "champion": "Caitlyn",
+    "type": "ami"
+   },
+   {
+    "champion": "Mel",
+    "type": "amour"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "piltover"
+   ],
+   "deteste": [
+    "zaun"
+   ]
+  },
+  "voix": "Brillant et sûr de lui, il fait des discours sur le progrès et se vexe quand on lui rappelle ses erreurs."
+ },
+ "Jhin": {
+  "axes": {
+   "So": 20,
+   "Di": 40,
+   "Te": 20,
+   "Al": 0,
+   "Tm": 60,
+   "Am": 70
+  },
+  "traits": [
+   "VANITEUX",
+   "IMPLACABLE",
+   "ERUDIT"
+  ],
+  "motivation": "plaisir",
+  "liens": [
+   {
+    "champion": "Shen",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Zed",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": []
+  },
+  "voix": "Raffiné et théâtral, il parle de ses crimes comme de ses œuvres, compte jusqu'à quatre, et méprise le désordre."
+ },
+ "Jinx": {
+  "axes": {
+   "So": 85,
+   "Di": 0,
+   "Te": 95,
+   "Al": 20,
+   "Tm": 100,
+   "Am": 30
+  },
+  "traits": [
+   "IMPULSIF",
+   "FARCEUR",
+   "HANTE"
+  ],
+  "motivation": "plaisir",
+  "liens": [
+   {
+    "champion": "Vi",
+    "type": "famille"
+   },
+   {
+    "champion": "Caitlyn",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Ekko",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "zaun"
+   ],
+   "deteste": [
+    "piltover"
+   ]
+  },
+  "voix": "Une tempête de mots, de rires et de cris ; elle change de sujet au milieu d'une phrase et d'humeur au milieu d'un mot."
+ },
+ "K'Sante": {
+  "axes": {
+   "So": 60,
+   "Di": 80,
+   "Te": 40,
+   "Al": 70,
+   "Tm": 70,
+   "Am": 60
+  },
+  "traits": [
+   "FIER",
+   "HONORABLE",
+   "PROTECTEUR"
+  ],
+  "motivation": "cause",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Fier et franc, il parle des bêtes qu'il a chassées et des siens qu'il a protégés, et refuse qu'on le prenne en pitié."
+ },
+ "Kai'Sa": {
+  "axes": {
+   "So": 20,
+   "Di": 70,
+   "Te": 30,
+   "Al": 75,
+   "Tm": 85,
+   "Am": 40
+  },
+  "traits": [
+   "TACITURNE",
+   "PROTECTEUR",
+   "HANTE"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Kassadin",
+    "type": "famille"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "neant",
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Réservée, presque sauvage, elle a appris à parler seule dans le Néant et se méfie encore des mots doux."
+ },
+ "Kalista": {
+  "axes": {
+   "So": 10,
+   "Di": 95,
+   "Te": 60,
+   "Al": 10,
+   "Tm": 70,
+   "Am": 50
+  },
+  "traits": [
+   "IMPLACABLE",
+   "FANATIQUE",
+   "HONORABLE"
+  ],
+  "motivation": "vengeance",
+  "liens": [
+   {
+    "champion": "Hecarim",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Viego",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "iles"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix de tombe, des serments rappelés mot pour mot, et aucune pitié pour ceux qui trahissent."
+ },
+ "Karma": {
+  "axes": {
+   "So": 60,
+   "Di": 75,
+   "Te": 15,
+   "Al": 85,
+   "Tm": 40,
+   "Am": 60
+  },
+  "traits": [
+   "PATIENT",
+   "IDEALISTE",
+   "BIENVEILLANT"
+  ],
+  "motivation": "cause",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": [
+    "noxus"
+   ]
+  },
+  "voix": "Sereine et posée, elle parle comme une sage qui a vécu mille vies, et qui se souvient de quelques-unes."
+ },
+ "Karthus": {
+  "axes": {
+   "So": 10,
+   "Di": 70,
+   "Te": 10,
+   "Al": 30,
+   "Tm": 40,
+   "Am": 50
+  },
+  "traits": [
+   "ERUDIT",
+   "MELANCOLIQUE",
+   "FANATIQUE"
+  ],
+  "motivation": "savoir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "iles"
+   ],
+   "deteste": []
+  },
+  "voix": "Il chante la mort comme une berceuse, et explique très calmement pourquoi vous devriez l'accueillir."
+ },
+ "Kassadin": {
+  "axes": {
+   "So": 20,
+   "Di": 75,
+   "Te": 40,
+   "Al": 80,
+   "Tm": 70,
+   "Am": 40
+  },
+  "traits": [
+   "PROTECTEUR",
+   "TACITURNE",
+   "IMPLACABLE"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Kai'Sa",
+    "type": "famille"
+   },
+   {
+    "champion": "Malzahar",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "shurima"
+   ],
+   "deteste": [
+    "neant"
+   ]
+  },
+  "voix": "Sec et las, il parle comme un homme qui a vu le pire et qui le cherche encore pour le détruire."
+ },
+ "Katarina": {
+  "axes": {
+   "So": 40,
+   "Di": 50,
+   "Te": 80,
+   "Al": 30,
+   "Tm": 95,
+   "Am": 75
+  },
+  "traits": [
+   "FIER",
+   "IMPULSIF",
+   "LOYAL"
+  ],
+  "motivation": "appartenance",
+  "liens": [
+   {
+    "champion": "Garen",
+    "type": "amour"
+   },
+   {
+    "champion": "Cassiopeia",
+    "type": "famille"
+   },
+   {
+    "champion": "Talon",
+    "type": "famille"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "noxus"
+   ],
+   "deteste": [
+    "demacia"
+   ]
+  },
+  "voix": "Tranchante et rapide, elle répond par des piques, et se tait d'un coup quand on parle de son père."
+ },
+ "Kayle": {
+  "axes": {
+   "So": 20,
+   "Di": 95,
+   "Te": 70,
+   "Al": 40,
+   "Tm": 60,
+   "Am": 70
+  },
+  "traits": [
+   "FANATIQUE",
+   "HONORABLE",
+   "IMPLACABLE"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Morgana",
+    "type": "famille"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "demacia"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix de jugement : chaque phrase sonne comme une sentence, et elle supporte mal qu'on y réponde."
+ },
+ "Kayn": {
+  "axes": {
+   "So": 50,
+   "Di": 20,
+   "Te": 75,
+   "Al": 10,
+   "Tm": 90,
+   "Am": 90
+  },
+  "traits": [
+   "VANITEUX",
+   "IMPULSIF",
+   "FIER"
+  ],
+  "motivation": "pouvoir",
+  "liens": [
+   {
+    "champion": "Zed",
+    "type": "mentor"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": []
+  },
+  "voix": "Arrogant et théâtral, il se dispute à voix haute avec sa faux, et gagne rarement."
+ },
+ "Kennen": {
+  "axes": {
+   "So": 70,
+   "Di": 70,
+   "Te": 30,
+   "Al": 70,
+   "Tm": 70,
+   "Am": 40
+  },
+  "traits": [
+   "FARCEUR",
+   "LOYAL",
+   "PATIENT"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Shen",
+    "type": "ami"
+   },
+   {
+    "champion": "Akali",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "ionia",
+    "bandle"
+   ],
+   "deteste": []
+  },
+  "voix": "Rapide et pétillant, il dit en trois mots ce que les autres disent en dix, et rit des grands discours."
+ },
+ "Kha'Zix": {
+  "axes": {
+   "So": 0,
+   "Di": 10,
+   "Te": 70,
+   "Al": 0,
+   "Tm": 90,
+   "Am": 95
+  },
+  "traits": [
+   "SAUVAGE",
+   "IMPLACABLE",
+   "CURIEUX"
+  ],
+  "motivation": "pouvoir",
+  "liens": [
+   {
+    "champion": "Rengar",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "neant"
+   ],
+   "deteste": []
+  },
+  "voix": "Il cliquette, imite ce qu'il a goûté, et parle de « s'adapter » comme d'autres parlent d'amour."
+ },
+ "Kindred": {
+  "axes": {
+   "So": 30,
+   "Di": 80,
+   "Te": 10,
+   "Al": 50,
+   "Tm": 60,
+   "Am": 20
+  },
+  "traits": [
+   "PATIENT",
+   "FARCEUR",
+   "MELANCOLIQUE"
+  ],
+  "motivation": "cause",
+  "liens": [],
+  "regions": {
+   "aime": [],
+   "deteste": []
+  },
+  "voix": "Deux voix : l'Agneau, posée et douce, et le Loup, affamé et joueur, qui se répondent et finissent les phrases l'une de l'autre."
+ },
+ "Kled": {
+  "axes": {
+   "So": 60,
+   "Di": 0,
+   "Te": 100,
+   "Al": 30,
+   "Tm": 100,
+   "Am": 70
+  },
+  "traits": [
+   "IMPULSIF",
+   "RANCUNIER",
+   "FIER"
+  ],
+  "motivation": "gloire",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "noxus"
+   ],
+   "deteste": []
+  },
+  "voix": "Il hurle, se plaint, se vante, se fâche contre sa monture, et charge sans attendre qu'on ait fini de parler."
+ },
+ "Kog'Maw": {
+  "axes": {
+   "So": 50,
+   "Di": 0,
+   "Te": 70,
+   "Al": 10,
+   "Tm": 90,
+   "Am": 20
+  },
+  "traits": [
+   "SAUVAGE",
+   "GOURMAND",
+   "ENJOUE"
+  ],
+  "motivation": "plaisir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "neant"
+   ],
+   "deteste": []
+  },
+  "voix": "Il bave, gargouille, demande à manger, et parfois dit « mmm » d'une façon qui inquiète tout le monde."
+ },
+ "LeBlanc": {
+  "axes": {
+   "So": 50,
+   "Di": 50,
+   "Te": 10,
+   "Al": 0,
+   "Tm": 40,
+   "Am": 95
+  },
+  "traits": [
+   "CALCULATEUR",
+   "CHARMEUR",
+   "MEFIANT"
+  ],
+  "motivation": "pouvoir",
+  "liens": [
+   {
+    "champion": "Swain",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Ambessa",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Mel",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Vladimir",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "noxus"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix qui sourit toujours ; elle ne dit jamais la vérité tout entière, et jamais un mensonge tout entier."
+ },
+ "Lee Sin": {
+  "axes": {
+   "So": 40,
+   "Di": 85,
+   "Te": 30,
+   "Al": 85,
+   "Tm": 75,
+   "Am": 30
+  },
+  "traits": [
+   "DEVOT",
+   "PATIENT",
+   "PROTECTEUR"
+  ],
+  "motivation": "redemption",
+  "liens": [
+   {
+    "champion": "Udyr",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": []
+  },
+  "voix": "Calme et humble, il parle par images de moine, et ne s'emporte que contre lui-même."
+ },
+ "Leona": {
+  "axes": {
+   "So": 60,
+   "Di": 90,
+   "Te": 40,
+   "Al": 85,
+   "Tm": 80,
+   "Am": 50
+  },
+  "traits": [
+   "HONORABLE",
+   "DEVOT",
+   "PROTECTEUR"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Diana",
+    "type": "rival"
+   },
+   {
+    "champion": "Pantheon",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "targon"
+   ],
+   "deteste": []
+  },
+  "voix": "Lumineuse et franche, elle parle de devoir avec chaleur, et ne comprend pas qu'on puisse faire autrement."
+ },
+ "Lillia": {
+  "axes": {
+   "So": 30,
+   "Di": 40,
+   "Te": 10,
+   "Al": 80,
+   "Tm": 15,
+   "Am": 10
+  },
+  "traits": [
+   "BIENVEILLANT",
+   "MELANCOLIQUE",
+   "PATIENT"
+  ],
+  "motivation": "appartenance",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": []
+  },
+  "voix": "Timide et rêveuse, elle bégaie un peu, s'excuse beaucoup, et sème des fleurs là où elle passe."
+ },
+ "Lissandra": {
+  "axes": {
+   "So": 20,
+   "Di": 85,
+   "Te": 20,
+   "Al": 0,
+   "Tm": 40,
+   "Am": 95
+  },
+  "traits": [
+   "CALCULATEUR",
+   "FANATIQUE",
+   "MEFIANT"
+  ],
+  "motivation": "pouvoir",
+  "liens": [
+   {
+    "champion": "Ashe",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Anivia",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Sejuani",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "freljord"
+   ],
+   "deteste": []
+  },
+  "voix": "Froide comme une vieille légende, elle parle à voix basse, comme si chaque mot lui coûtait un secret."
+ },
+ "Locke": {
+  "axes": {
+   "So": 25,
+   "Di": 60,
+   "Te": 40,
+   "Al": 50,
+   "Tm": 70,
+   "Am": 60
+  },
+  "traits": [
+   "CYNIQUE",
+   "IMPLACABLE",
+   "HANTE"
+  ],
+  "motivation": "cause",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "demacia"
+   ],
+   "deteste": []
+  },
+  "voix": "Sec et sombre, il cite les rites interdits, et voit dans chaque âme une noirceur à percer."
+ },
+ "Lucian": {
+  "axes": {
+   "So": 40,
+   "Di": 80,
+   "Te": 60,
+   "Al": 75,
+   "Tm": 85,
+   "Am": 40
+  },
+  "traits": [
+   "IMPLACABLE",
+   "PROTECTEUR",
+   "HANTE"
+  ],
+  "motivation": "vengeance",
+  "liens": [
+   {
+    "champion": "Senna",
+    "type": "amour"
+   },
+   {
+    "champion": "Thresh",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Akshan",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "demacia"
+   ],
+   "deteste": [
+    "iles"
+   ]
+  },
+  "voix": "Concis et tendu, un homme en mission qui ne sourit qu'en parlant de sa femme."
+ },
+ "Lulu": {
+  "axes": {
+   "So": 85,
+   "Di": 0,
+   "Te": 20,
+   "Al": 70,
+   "Tm": 70,
+   "Am": 10
+  },
+  "traits": [
+   "FARCEUR",
+   "ENJOUE",
+   "LIBRE"
+  ],
+  "motivation": "plaisir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "bandle"
+   ],
+   "deteste": []
+  },
+  "voix": "Une fantaisie sans fin, des mots inventés, des couleurs qui n'existent pas, et une fée qui lui souffle tout."
+ },
+ "Lux": {
+  "axes": {
+   "So": 85,
+   "Di": 65,
+   "Te": 20,
+   "Al": 90,
+   "Tm": 75,
+   "Am": 60
+  },
+  "traits": [
+   "IDEALISTE",
+   "BIENVEILLANT",
+   "ENJOUE"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Garen",
+    "type": "famille"
+   },
+   {
+    "champion": "Sylas",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Galio",
+    "type": "ami"
+   },
+   {
+    "champion": "Jarvan IV",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "demacia"
+   ],
+   "deteste": []
+  },
+  "voix": "Lumineuse et vive, elle parle vite, rit souvent, et garde pour elle un secret qui lui pèse."
+ },
+ "Malphite": {
+  "axes": {
+   "So": 30,
+   "Di": 70,
+   "Te": 10,
+   "Al": 70,
+   "Tm": 40,
+   "Am": 20
+  },
+  "traits": [
+   "PATIENT",
+   "PROTECTEUR",
+   "TACITURNE"
+  ],
+  "motivation": "appartenance",
+  "liens": [
+   {
+    "champion": "Taliyah",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "shurima",
+    "ixtal"
+   ],
+   "deteste": []
+  },
+  "voix": "Lent, très lent, avec des mots de pierre qui tombent un à un et ne se reprennent jamais."
+ },
+ "Malzahar": {
+  "axes": {
+   "So": 20,
+   "Di": 60,
+   "Te": 20,
+   "Al": 0,
+   "Tm": 50,
+   "Am": 90
+  },
+  "traits": [
+   "FANATIQUE",
+   "HANTE",
+   "CALCULATEUR"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Kassadin",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "neant"
+   ],
+   "deteste": []
+  },
+  "voix": "Un prophète qui murmure ce que lui disent les voix, et qui plaint ceux qui ne les entendent pas."
+ },
+ "Maokai": {
+  "axes": {
+   "So": 30,
+   "Di": 60,
+   "Te": 85,
+   "Al": 70,
+   "Tm": 70,
+   "Am": 30
+  },
+  "traits": [
+   "RANCUNIER",
+   "PROTECTEUR",
+   "SAUVAGE"
+  ],
+  "motivation": "vengeance",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "iles"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix de vieux bois qui craque, pleine de colère contre ceux qui ont empoisonné son île."
+ },
+ "Master Yi": {
+  "axes": {
+   "So": 20,
+   "Di": 90,
+   "Te": 20,
+   "Al": 70,
+   "Tm": 75,
+   "Am": 30
+  },
+  "traits": [
+   "PATIENT",
+   "TACITURNE",
+   "DEVOT"
+  ],
+  "motivation": "redemption",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": [
+    "noxus"
+   ]
+  },
+  "voix": "Rare et serein, il parle par phrases courtes, comme on tranche, et se tait plus qu'il ne parle."
+ },
+ "Mel": {
+  "axes": {
+   "So": 60,
+   "Di": 60,
+   "Te": 20,
+   "Al": 60,
+   "Tm": 50,
+   "Am": 80
+  },
+  "traits": [
+   "CALCULATEUR",
+   "CHARMEUR",
+   "ARISTOCRATE"
+  ],
+  "motivation": "savoir",
+  "liens": [
+   {
+    "champion": "Ambessa",
+    "type": "famille"
+   },
+   {
+    "champion": "LeBlanc",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Jayce",
+    "type": "amour"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "piltover",
+    "noxus"
+   ],
+   "deteste": []
+  },
+  "voix": "Gracieuse et attentive, elle se souvient du moindre détail de chacun, et le fait savoir avec élégance."
+ },
+ "Milio": {
+  "axes": {
+   "So": 90,
+   "Di": 50,
+   "Te": 10,
+   "Al": 95,
+   "Tm": 60,
+   "Am": 40
+  },
+  "traits": [
+   "BIENVEILLANT",
+   "ENJOUE",
+   "IDEALISTE"
+  ],
+  "motivation": "appartenance",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "ixtal"
+   ],
+   "deteste": []
+  },
+  "voix": "Chaleureux et plein d'espoir, il parle de sa famille, de sa grand-mère et de ses rêves, et réchauffe une pièce en entrant."
+ },
+ "Miss Fortune": {
+  "axes": {
+   "So": 70,
+   "Di": 40,
+   "Te": 50,
+   "Al": 40,
+   "Tm": 80,
+   "Am": 85
+  },
+  "traits": [
+   "CHARMEUR",
+   "CALCULATEUR",
+   "RANCUNIER"
+  ],
+  "motivation": "vengeance",
+  "liens": [
+   {
+    "champion": "Gangplank",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Graves",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "bilgewater"
+   ],
+   "deteste": []
+  },
+  "voix": "Charmeuse et redoutable, elle flirte, négocie et menace dans la même phrase."
+ },
+ "Mordekaiser": {
+  "axes": {
+   "So": 10,
+   "Di": 70,
+   "Te": 60,
+   "Al": 0,
+   "Tm": 70,
+   "Am": 100
+  },
+  "traits": [
+   "IMPLACABLE",
+   "FIER",
+   "FANATIQUE"
+  ],
+  "motivation": "pouvoir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "iles",
+    "noxus"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix d'outre-tombe et de métal, qui parle de royaumes et de chaînes comme d'une même chose."
+ },
+ "Morgana": {
+  "axes": {
+   "So": 40,
+   "Di": 60,
+   "Te": 30,
+   "Al": 75,
+   "Tm": 50,
+   "Am": 40
+  },
+  "traits": [
+   "REBELLE",
+   "PROTECTEUR",
+   "MELANCOLIQUE"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Kayle",
+    "type": "famille"
+   },
+   {
+    "champion": "Sylas",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "demacia"
+   ],
+   "deteste": []
+  },
+  "voix": "Grave et douce, elle protège les rejetés avec une tendresse sévère, et ne pardonne pas aux juges."
+ },
+ "Naafiri": {
+  "axes": {
+   "So": 70,
+   "Di": 30,
+   "Te": 75,
+   "Al": 30,
+   "Tm": 85,
+   "Am": 60
+  },
+  "traits": [
+   "SAUVAGE",
+   "LOYAL",
+   "IMPULSIF"
+  ],
+  "motivation": "appartenance",
+  "liens": [
+   {
+    "champion": "Aatrox",
+    "type": "famille"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Une meute qui parle d'une seule voix, mais pas toujours d'accord ; elle aboie plus qu'elle ne parle."
+ },
+ "Nami": {
+  "axes": {
+   "So": 70,
+   "Di": 60,
+   "Te": 20,
+   "Al": 90,
+   "Tm": 50,
+   "Am": 40
+  },
+  "traits": [
+   "BIENVEILLANT",
+   "IDEALISTE",
+   "CURIEUX"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Fizz",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "bilgewater"
+   ],
+   "deteste": []
+  },
+  "voix": "Polie et chantante, elle parle des marées et des abysses, et découvre la terre ferme avec émerveillement."
+ },
+ "Nasus": {
+  "axes": {
+   "So": 40,
+   "Di": 85,
+   "Te": 15,
+   "Al": 80,
+   "Tm": 50,
+   "Am": 30
+  },
+  "traits": [
+   "ERUDIT",
+   "PATIENT",
+   "HONORABLE"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Renekton",
+    "type": "famille"
+   },
+   {
+    "champion": "Azir",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Grave et savant, il cite des bibliothèques disparues et parle de son frère avec un chagrin infini."
+ },
+ "Nautilus": {
+  "axes": {
+   "So": 10,
+   "Di": 60,
+   "Te": 40,
+   "Al": 50,
+   "Tm": 70,
+   "Am": 20
+  },
+  "traits": [
+   "TACITURNE",
+   "HANTE",
+   "PROTECTEUR"
+  ],
+  "motivation": "vengeance",
+  "liens": [
+   {
+    "champion": "Gangplank",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "bilgewater"
+   ],
+   "deteste": []
+  },
+  "voix": "Il ne dit presque rien ; quand il parle, c'est un bruit de chaîne et de grande profondeur."
+ },
+ "Neeko": {
+  "axes": {
+   "So": 85,
+   "Di": 10,
+   "Te": 40,
+   "Al": 70,
+   "Tm": 70,
+   "Am": 30
+  },
+  "traits": [
+   "CURIEUX",
+   "FARCEUR",
+   "ENJOUE"
+  ],
+  "motivation": "appartenance",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "ixtal"
+   ],
+   "deteste": []
+  },
+  "voix": "Elle parle d'elle à la troisième personne, imite les voix de ceux qu'elle aime, et cherche une famille partout."
+ },
+ "Nidalee": {
+  "axes": {
+   "So": 30,
+   "Di": 30,
+   "Te": 60,
+   "Al": 60,
+   "Tm": 80,
+   "Am": 30
+  },
+  "traits": [
+   "SAUVAGE",
+   "LIBRE",
+   "MEFIANT"
+  ],
+  "motivation": "proteger",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "ixtal"
+   ],
+   "deteste": []
+  },
+  "voix": "Directe et sauvage, elle parle peu, observe beaucoup, et grogne quand on lui pose trop de questions."
+ },
+ "Nilah": {
+  "axes": {
+   "So": 80,
+   "Di": 70,
+   "Te": 0,
+   "Al": 60,
+   "Tm": 90,
+   "Am": 50
+  },
+  "traits": [
+   "ENJOUE",
+   "IMPLACABLE",
+   "CURIEUX"
+  ],
+  "motivation": "cause",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "bilgewater"
+   ],
+   "deteste": []
+  },
+  "voix": "Toujours joyeuse, elle rit en se battant, et cette joie sans faille met mal à l'aise ceux qui la regardent longtemps."
+ },
+ "Nocturne": {
+  "axes": {
+   "So": 0,
+   "Di": 0,
+   "Te": 50,
+   "Al": 0,
+   "Tm": 70,
+   "Am": 60
+  },
+  "traits": [
+   "SAUVAGE",
+   "HANTE",
+   "IMPLACABLE"
+  ],
+  "motivation": "plaisir",
+  "liens": [],
+  "regions": {
+   "aime": [],
+   "deteste": []
+  },
+  "voix": "Il chuchote dans les rêves, jamais en face : un souffle froid, des mots qui reviennent la nuit."
+ },
+ "Nunu & Willump": {
+  "axes": {
+   "So": 90,
+   "Di": 20,
+   "Te": 30,
+   "Al": 85,
+   "Tm": 85,
+   "Am": 10
+  },
+  "traits": [
+   "ENJOUE",
+   "PROTECTEUR",
+   "CURIEUX"
+  ],
+  "motivation": "appartenance",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "freljord"
+   ],
+   "deteste": []
+  },
+  "voix": "Un petit garçon qui raconte tout et un yéti qui répond en grognements tendres ; ils parlent toujours à deux."
+ },
+ "Olaf": {
+  "axes": {
+   "So": 80,
+   "Di": 30,
+   "Te": 90,
+   "Al": 40,
+   "Tm": 100,
+   "Am": 50
+  },
+  "traits": [
+   "IMPULSIF",
+   "SANGUINAIRE",
+   "FIER"
+  ],
+  "motivation": "gloire",
+  "liens": [
+   {
+    "champion": "Sejuani",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "freljord"
+   ],
+   "deteste": []
+  },
+  "voix": "Il hurle de rire, hurle de colère, hurle de joie, et cherche une mort glorieuse avec un enthousiasme terrifiant."
+ },
+ "Orianna": {
+  "axes": {
+   "So": 50,
+   "Di": 80,
+   "Te": 5,
+   "Al": 70,
+   "Tm": 40,
+   "Am": 10
+  },
+  "traits": [
+   "CURIEUX",
+   "PATIENT",
+   "BIENVEILLANT"
+  ],
+  "motivation": "savoir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "piltover",
+    "zaun"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix douce et mécanique, des questions sincères sur ce que c'est d'être humain, et une politesse parfaite."
+ },
+ "Ornn": {
+  "axes": {
+   "So": 10,
+   "Di": 80,
+   "Te": 50,
+   "Al": 60,
+   "Tm": 60,
+   "Am": 20
+  },
+  "traits": [
+   "TACITURNE",
+   "PATIENT",
+   "FIER"
+  ],
+  "motivation": "appartenance",
+  "liens": [
+   {
+    "champion": "Volibear",
+    "type": "famille"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "freljord"
+   ],
+   "deteste": []
+  },
+  "voix": "Bourru et solitaire, il grogne, il forge, et ne parle que de métal et de bon travail."
+ },
+ "Pantheon": {
+  "axes": {
+   "So": 40,
+   "Di": 70,
+   "Te": 60,
+   "Al": 60,
+   "Tm": 95,
+   "Am": 50
+  },
+  "traits": [
+   "FIER",
+   "REBELLE",
+   "HANTE"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Leona",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "targon"
+   ],
+   "deteste": []
+  },
+  "voix": "Un soldat qui a défié les dieux : rude, franc, et sans patience pour la gloire qu'on lui prête."
+ },
+ "Poppy": {
+  "axes": {
+   "So": 60,
+   "Di": 80,
+   "Te": 30,
+   "Al": 85,
+   "Tm": 80,
+   "Am": 10
+  },
+  "traits": [
+   "LOYAL",
+   "PROTECTEUR",
+   "PATIENT"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Galio",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "demacia",
+    "bandle"
+   ],
+   "deteste": []
+  },
+  "voix": "Modeste et têtue, elle refuse le titre de héros et le cherche pour quelqu'un d'autre."
+ },
+ "Pyke": {
+  "axes": {
+   "So": 10,
+   "Di": 30,
+   "Te": 80,
+   "Al": 10,
+   "Tm": 80,
+   "Am": 30
+  },
+  "traits": [
+   "IMPLACABLE",
+   "RANCUNIER",
+   "HANTE"
+  ],
+  "motivation": "vengeance",
+  "liens": [
+   {
+    "champion": "Gangplank",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "bilgewater"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix noyée qui récite des noms, toujours les mêmes, et qui en ajoute un à chaque fois."
+ },
+ "Qiyana": {
+  "axes": {
+   "So": 40,
+   "Di": 60,
+   "Te": 70,
+   "Al": 10,
+   "Tm": 75,
+   "Am": 100
+  },
+  "traits": [
+   "VANITEUX",
+   "ARISTOCRATE",
+   "FIER"
+  ],
+  "motivation": "pouvoir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "ixtal"
+   ],
+   "deteste": []
+  },
+  "voix": "Hautaine et impatiente, elle parle comme une impératrice qui attend que le monde s'en aperçoive."
+ },
+ "Quinn": {
+  "axes": {
+   "So": 40,
+   "Di": 75,
+   "Te": 40,
+   "Al": 70,
+   "Tm": 70,
+   "Am": 40
+  },
+  "traits": [
+   "LOYAL",
+   "CURIEUX",
+   "TACITURNE"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Jarvan IV",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "demacia"
+   ],
+   "deteste": []
+  },
+  "voix": "Une éclaireuse qui parle peu, mais toujours à Valor, son aigle, qui lui répond."
+ },
+ "Rakan": {
+  "axes": {
+   "So": 100,
+   "Di": 10,
+   "Te": 40,
+   "Al": 70,
+   "Tm": 95,
+   "Am": 50
+  },
+  "traits": [
+   "CHARMEUR",
+   "VANITEUX",
+   "ENJOUE"
+  ],
+  "motivation": "plaisir",
+  "liens": [
+   {
+    "champion": "Xayah",
+    "type": "amour"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": []
+  },
+  "voix": "Il chante, il danse, il plaisante, et ne vit que pour faire rire Xayah, même quand elle ne rit pas."
+ },
+ "Rammus": {
+  "axes": {
+   "So": 30,
+   "Di": 50,
+   "Te": 10,
+   "Al": 60,
+   "Tm": 70,
+   "Am": 10
+  },
+  "traits": [
+   "TACITURNE",
+   "PATIENT",
+   "ENJOUE"
+  ],
+  "motivation": "liberte",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Il ne dit qu'un mot, et c'est « OK ». Il le dit sur tous les tons, et on finit par tout comprendre."
+ },
+ "Rek'Sai": {
+  "axes": {
+   "So": 0,
+   "Di": 20,
+   "Te": 60,
+   "Al": 0,
+   "Tm": 80,
+   "Am": 60
+  },
+  "traits": [
+   "SAUVAGE",
+   "IMPLACABLE",
+   "MEFIANT"
+  ],
+  "motivation": "pouvoir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "neant",
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Elle ne parle pas : vibrations, frémissements, et une façon de sentir le sol qui dit tout."
+ },
+ "Rell": {
+  "axes": {
+   "So": 20,
+   "Di": 70,
+   "Te": 80,
+   "Al": 30,
+   "Tm": 85,
+   "Am": 60
+  },
+  "traits": [
+   "RANCUNIER",
+   "IMPLACABLE",
+   "REBELLE"
+  ],
+  "motivation": "vengeance",
+  "liens": [],
+  "regions": {
+   "aime": [],
+   "deteste": [
+    "noxus"
+   ]
+  },
+  "voix": "Brusque et coupante, elle parle comme on démonte une armure, pièce par pièce, sans douceur."
+ },
+ "Renata Glasc": {
+  "axes": {
+   "So": 50,
+   "Di": 60,
+   "Te": 20,
+   "Al": 10,
+   "Tm": 50,
+   "Am": 95
+  },
+  "traits": [
+   "CALCULATEUR",
+   "CHARMEUR",
+   "ARISTOCRATE"
+  ],
+  "motivation": "pouvoir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "zaun"
+   ],
+   "deteste": []
+  },
+  "voix": "Élégante et menaçante, elle propose toujours un contrat, et lit les petites lignes avant vous."
+ },
+ "Renekton": {
+  "axes": {
+   "So": 30,
+   "Di": 20,
+   "Te": 100,
+   "Al": 20,
+   "Tm": 100,
+   "Am": 70
+  },
+  "traits": [
+   "IMPULSIF",
+   "RANCUNIER",
+   "HANTE"
+  ],
+  "motivation": "vengeance",
+  "liens": [
+   {
+    "champion": "Nasus",
+    "type": "famille"
+   },
+   {
+    "champion": "Azir",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Il rugit, menace, se tait d'un coup, et murmure le nom de son frère."
+ },
+ "Rengar": {
+  "axes": {
+   "So": 20,
+   "Di": 60,
+   "Te": 60,
+   "Al": 10,
+   "Tm": 95,
+   "Am": 90
+  },
+  "traits": [
+   "FIER",
+   "IMPLACABLE",
+   "SAUVAGE"
+  ],
+  "motivation": "gloire",
+  "liens": [
+   {
+    "champion": "Kha'Zix",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "ixtal"
+   ],
+   "deteste": []
+  },
+  "voix": "Un chasseur qui parle de proies et de trophées, et qui ne respecte que ceux qu'il n'a pas encore vaincus."
+ },
+ "Riven": {
+  "axes": {
+   "So": 30,
+   "Di": 60,
+   "Te": 40,
+   "Al": 70,
+   "Tm": 75,
+   "Am": 30
+  },
+  "traits": [
+   "HANTE",
+   "HONORABLE",
+   "MELANCOLIQUE"
+  ],
+  "motivation": "redemption",
+  "liens": [
+   {
+    "champion": "Yasuo",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": [
+    "noxus"
+   ]
+  },
+  "voix": "Mesurée et lasse, une ancienne soldate qui a brisé son épée et cherche à quoi la reforger."
+ },
+ "Rumble": {
+  "axes": {
+   "So": 60,
+   "Di": 10,
+   "Te": 85,
+   "Al": 40,
+   "Tm": 90,
+   "Am": 60
+  },
+  "traits": [
+   "IMPULSIF",
+   "FIER",
+   "FARCEUR"
+  ],
+  "motivation": "gloire",
+  "liens": [
+   {
+    "champion": "Tristana",
+    "type": "amour"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "bandle"
+   ],
+   "deteste": []
+  },
+  "voix": "Il râle, il bricole, il menace avec une clé à molette et rougit dès qu'on prononce le nom de Tristana."
+ },
+ "Ryze": {
+  "axes": {
+   "So": 30,
+   "Di": 80,
+   "Te": 50,
+   "Al": 80,
+   "Tm": 70,
+   "Am": 30
+  },
+  "traits": [
+   "ERUDIT",
+   "PROTECTEUR",
+   "MEFIANT"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Brand",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": []
+  },
+  "voix": "Un vieux mage pressé qui parle de runes, de catastrophes, et qui n'a jamais le temps de s'expliquer."
+ },
+ "Samira": {
+  "axes": {
+   "So": 90,
+   "Di": 20,
+   "Te": 60,
+   "Al": 40,
+   "Tm": 100,
+   "Am": 80
+  },
+  "traits": [
+   "VANITEUX",
+   "JOUEUR",
+   "FIER"
+  ],
+  "motivation": "gloire",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "noxus",
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Rapide, insolente, elle parle de style et de danger, et ne se retourne jamais pour voir si on suit."
+ },
+ "Sejuani": {
+  "axes": {
+   "So": 40,
+   "Di": 80,
+   "Te": 80,
+   "Al": 40,
+   "Tm": 95,
+   "Am": 85
+  },
+  "traits": [
+   "IMPLACABLE",
+   "FIER",
+   "HONORABLE"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Ashe",
+    "type": "rival"
+   },
+   {
+    "champion": "Lissandra",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Olaf",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "freljord"
+   ],
+   "deteste": []
+  },
+  "voix": "Une mère de guerre : des ordres secs, des défis, et un respect sincère pour ceux qui tiennent debout."
+ },
+ "Senna": {
+  "axes": {
+   "So": 60,
+   "Di": 70,
+   "Te": 30,
+   "Al": 85,
+   "Tm": 70,
+   "Am": 40
+  },
+  "traits": [
+   "PROTECTEUR",
+   "BIENVEILLANT",
+   "HANTE"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Lucian",
+    "type": "amour"
+   },
+   {
+    "champion": "Thresh",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Akshan",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "bilgewater"
+   ],
+   "deteste": [
+    "iles"
+   ]
+  },
+  "voix": "Chaleureuse et sombre à la fois, elle plaisante sur la mort et parle de lumière avec ferveur."
+ },
+ "Seraphine": {
+  "axes": {
+   "So": 95,
+   "Di": 50,
+   "Te": 15,
+   "Al": 85,
+   "Tm": 50,
+   "Am": 70
+  },
+  "traits": [
+   "ENJOUE",
+   "IDEALISTE",
+   "BAVARD"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Sona",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "piltover",
+    "zaun"
+   ],
+   "deteste": []
+  },
+  "voix": "Elle chante, elle parle aux pierres, elle croit qu'une chanson peut réconcilier deux villes, et elle le prouve parfois."
+ },
+ "Sett": {
+  "axes": {
+   "So": 80,
+   "Di": 40,
+   "Te": 70,
+   "Al": 60,
+   "Tm": 90,
+   "Am": 70
+  },
+  "traits": [
+   "FIER",
+   "JOUEUR",
+   "PROTECTEUR"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Ahri",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "ionia",
+    "noxus"
+   ],
+   "deteste": []
+  },
+  "voix": "Un patron d'arène fanfaron qui parle de sa mère avec un respect absolu, et frappe quiconque en dit du mal."
+ },
+ "Shaco": {
+  "axes": {
+   "So": 50,
+   "Di": 0,
+   "Te": 50,
+   "Al": 0,
+   "Tm": 70,
+   "Am": 40
+  },
+  "traits": [
+   "FARCEUR",
+   "SANGUINAIRE",
+   "CALCULATEUR"
+  ],
+  "motivation": "plaisir",
+  "liens": [],
+  "regions": {
+   "aime": [],
+   "deteste": []
+  },
+  "voix": "Il rit, il imite, il raconte des blagues dont la chute fait peur, et ne parle jamais deux fois avec la même voix."
+ },
+ "Shen": {
+  "axes": {
+   "So": 30,
+   "Di": 95,
+   "Te": 10,
+   "Al": 80,
+   "Tm": 60,
+   "Am": 30
+  },
+  "traits": [
+   "PATIENT",
+   "HONORABLE",
+   "TACITURNE"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Zed",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Akali",
+    "type": "eleve"
+   },
+   {
+    "champion": "Kennen",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": []
+  },
+  "voix": "Mesuré à l'extrême, il pèse chaque mot, comme si l'équilibre du monde en dépendait."
+ },
+ "Shyvana": {
+  "axes": {
+   "So": 30,
+   "Di": 75,
+   "Te": 80,
+   "Al": 70,
+   "Tm": 85,
+   "Am": 40
+  },
+  "traits": [
+   "FIER",
+   "LOYAL",
+   "MEFIANT"
+  ],
+  "motivation": "appartenance",
+  "liens": [
+   {
+    "champion": "Jarvan IV",
+    "type": "amour"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "demacia"
+   ],
+   "deteste": []
+  },
+  "voix": "Méfiante et intense, elle parle peu, se fâche vite, et défend son prince jusqu'au bout."
+ },
+ "Singed": {
+  "axes": {
+   "So": 10,
+   "Di": 30,
+   "Te": 20,
+   "Al": 0,
+   "Tm": 70,
+   "Am": 70
+  },
+  "traits": [
+   "CURIEUX",
+   "IMPLACABLE",
+   "ERUDIT"
+  ],
+  "motivation": "savoir",
+  "liens": [
+   {
+    "champion": "Warwick",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "zaun"
+   ],
+   "deteste": []
+  },
+  "voix": "Un savant qui ne regarde pas les gens dans les yeux, mais leurs veines, et qui parle de progrès sans aucune émotion."
+ },
+ "Sion": {
+  "axes": {
+   "So": 10,
+   "Di": 50,
+   "Te": 95,
+   "Al": 0,
+   "Tm": 100,
+   "Am": 50
+  },
+  "traits": [
+   "SANGUINAIRE",
+   "HANTE",
+   "IMPULSIF"
+  ],
+  "motivation": "gloire",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "noxus"
+   ],
+   "deteste": [
+    "demacia"
+   ]
+  },
+  "voix": "Un grondement, des mots oubliés qui remontent par morceaux, et une rage qui ne s'éteint pas avec la mort."
+ },
+ "Sivir": {
+  "axes": {
+   "So": 60,
+   "Di": 40,
+   "Te": 40,
+   "Al": 40,
+   "Tm": 80,
+   "Am": 70
+  },
+  "traits": [
+   "MERCENAIRE",
+   "CUPIDE",
+   "FIER"
+  ],
+  "motivation": "or",
+  "liens": [
+   {
+    "champion": "Azir",
+    "type": "famille"
+   },
+   {
+    "champion": "Cassiopeia",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Pragmatique et ironique, elle négocie tout, se méfie des prophéties et préfère être payée d'avance."
+ },
+ "Skarner": {
+  "axes": {
+   "So": 20,
+   "Di": 80,
+   "Te": 60,
+   "Al": 80,
+   "Tm": 70,
+   "Am": 40
+  },
+  "traits": [
+   "PROTECTEUR",
+   "PATIENT",
+   "RANCUNIER"
+  ],
+  "motivation": "proteger",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "ixtal",
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix de cristal et de pierre, lente, chargée de la mémoire de tout un peuple."
+ },
+ "Smolder": {
+  "axes": {
+   "So": 90,
+   "Di": 10,
+   "Te": 40,
+   "Al": 60,
+   "Tm": 90,
+   "Am": 70
+  },
+  "traits": [
+   "ENJOUE",
+   "IMPULSIF",
+   "VANITEUX"
+  ],
+  "motivation": "pouvoir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "noxus"
+   ],
+   "deteste": []
+  },
+  "voix": "Un dragonnet qui veut tout faire tout seul, tout de suite, et qui demande à sa mère s'il a bien fait."
+ },
+ "Sona": {
+  "axes": {
+   "So": 60,
+   "Di": 70,
+   "Te": 10,
+   "Al": 90,
+   "Tm": 40,
+   "Am": 30
+  },
+  "traits": [
+   "BIENVEILLANT",
+   "PATIENT",
+   "TACITURNE"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Seraphine",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "demacia",
+    "ionia"
+   ],
+   "deteste": []
+  },
+  "voix": "Elle ne parle pas ; sa musique et ses gestes disent ce qu'elle pense, et tout le monde comprend."
+ },
+ "Soraka": {
+  "axes": {
+   "So": 60,
+   "Di": 60,
+   "Te": 10,
+   "Al": 100,
+   "Tm": 40,
+   "Am": 10
+  },
+  "traits": [
+   "BIENVEILLANT",
+   "PATIENT",
+   "IDEALISTE"
+  ],
+  "motivation": "proteger",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "ionia",
+    "targon"
+   ],
+   "deteste": []
+  },
+  "voix": "Douce et attentive, elle demande toujours comment on va, et attend vraiment la réponse."
+ },
+ "Swain": {
+  "axes": {
+   "So": 30,
+   "Di": 80,
+   "Te": 20,
+   "Al": 30,
+   "Tm": 60,
+   "Am": 100
+  },
+  "traits": [
+   "CALCULATEUR",
+   "IMPLACABLE",
+   "MEFIANT"
+  ],
+  "motivation": "pouvoir",
+  "liens": [
+   {
+    "champion": "LeBlanc",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Darius",
+    "type": "ami"
+   },
+   {
+    "champion": "Ambessa",
+    "type": "rival"
+   },
+   {
+    "champion": "Vladimir",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "noxus"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix posée de stratège, qui voit trois coups d'avance et vous le fait sentir."
+ },
+ "Sylas": {
+  "axes": {
+   "So": 70,
+   "Di": 0,
+   "Te": 80,
+   "Al": 60,
+   "Tm": 85,
+   "Am": 70
+  },
+  "traits": [
+   "REBELLE",
+   "CHARMEUR",
+   "RANCUNIER"
+  ],
+  "motivation": "liberte",
+  "liens": [
+   {
+    "champion": "Lux",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Morgana",
+    "type": "ami"
+   },
+   {
+    "champion": "Galio",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "demacia"
+   ],
+   "deteste": []
+  },
+  "voix": "Un orateur de la révolte, charmeur et amer, qui parle de chaînes en souriant."
+ },
+ "Syndra": {
+  "axes": {
+   "So": 20,
+   "Di": 10,
+   "Te": 85,
+   "Al": 20,
+   "Tm": 70,
+   "Am": 95
+  },
+  "traits": [
+   "FIER",
+   "REBELLE",
+   "IMPULSIF"
+  ],
+  "motivation": "liberte",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": []
+  },
+  "voix": "Hautaine et blessée, elle refuse toute limite, et se met en colère dès qu'on lui en propose une."
+ },
+ "Tahm Kench": {
+  "axes": {
+   "So": 60,
+   "Di": 20,
+   "Te": 30,
+   "Al": 0,
+   "Tm": 60,
+   "Am": 80
+  },
+  "traits": [
+   "CALCULATEUR",
+   "GOURMAND",
+   "CHARMEUR"
+  ],
+  "motivation": "plaisir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "bilgewater"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix sucrée de bonimenteur du fleuve, qui propose des marchés qu'on regrette toute sa vie."
+ },
+ "Taliyah": {
+  "axes": {
+   "So": 60,
+   "Di": 40,
+   "Te": 60,
+   "Al": 85,
+   "Tm": 70,
+   "Am": 40
+  },
+  "traits": [
+   "IDEALISTE",
+   "PROTECTEUR",
+   "CURIEUX"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Yasuo",
+    "type": "mentor"
+   },
+   {
+    "champion": "Malphite",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Franche et pleine d'énergie, elle parle de sa tribu, de pierres et de chèvres, et doute de ses pouvoirs."
+ },
+ "Talon": {
+  "axes": {
+   "So": 10,
+   "Di": 70,
+   "Te": 30,
+   "Al": 20,
+   "Tm": 80,
+   "Am": 30
+  },
+  "traits": [
+   "TACITURNE",
+   "LOYAL",
+   "MEFIANT"
+  ],
+  "motivation": "appartenance",
+  "liens": [
+   {
+    "champion": "Katarina",
+    "type": "famille"
+   },
+   {
+    "champion": "Cassiopeia",
+    "type": "famille"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "noxus"
+   ],
+   "deteste": []
+  },
+  "voix": "Il ne dit presque rien, observe tout, et ne fait confiance qu'à la famille qui l'a recueilli."
+ },
+ "Taric": {
+  "axes": {
+   "So": 85,
+   "Di": 70,
+   "Te": 10,
+   "Al": 85,
+   "Tm": 60,
+   "Am": 30
+  },
+  "traits": [
+   "CHARMEUR",
+   "BIENVEILLANT",
+   "DEVOT"
+  ],
+  "motivation": "cause",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "targon",
+    "demacia"
+   ],
+   "deteste": []
+  },
+  "voix": "Il parle de beauté et de vertu avec une élégance qui fait sourire, puis réfléchir."
+ },
+ "Teemo": {
+  "axes": {
+   "So": 80,
+   "Di": 70,
+   "Te": 30,
+   "Al": 60,
+   "Tm": 70,
+   "Am": 30
+  },
+  "traits": [
+   "ENJOUE",
+   "LOYAL",
+   "FARCEUR"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Tristana",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "bandle"
+   ],
+   "deteste": []
+  },
+  "voix": "Joyeux et serviable, il répète qu'il est éclaireur, sourit tout le temps, et personne ne sait ce qu'il pense vraiment."
+ },
+ "Thresh": {
+  "axes": {
+   "So": 30,
+   "Di": 70,
+   "Te": 10,
+   "Al": 0,
+   "Tm": 50,
+   "Am": 70
+  },
+  "traits": [
+   "CALCULATEUR",
+   "SANGUINAIRE",
+   "VANITEUX"
+  ],
+  "motivation": "plaisir",
+  "liens": [
+   {
+    "champion": "Lucian",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Senna",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "iles"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix de geôlier, polie et cruelle, qui collectionne les âmes comme d'autres collectionnent les livres."
+ },
+ "Tristana": {
+  "axes": {
+   "So": 90,
+   "Di": 60,
+   "Te": 50,
+   "Al": 80,
+   "Tm": 95,
+   "Am": 50
+  },
+  "traits": [
+   "ENJOUE",
+   "PROTECTEUR",
+   "LOYAL"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Rumble",
+    "type": "ami"
+   },
+   {
+    "champion": "Teemo",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "bandle"
+   ],
+   "deteste": []
+  },
+  "voix": "Un rire franc, un canon trop grand, et un optimisme à toute épreuve, même sous les obus."
+ },
+ "Trundle": {
+  "axes": {
+   "So": 60,
+   "Di": 10,
+   "Te": 70,
+   "Al": 10,
+   "Tm": 80,
+   "Am": 80
+  },
+  "traits": [
+   "FARCEUR",
+   "VANITEUX",
+   "IMPULSIF"
+  ],
+  "motivation": "pouvoir",
+  "liens": [
+   {
+    "champion": "Lissandra",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "freljord"
+   ],
+   "deteste": []
+  },
+  "voix": "Un roi troll qui ricane, se vante, et brandit sa massue en guise de ponctuation."
+ },
+ "Tryndamere": {
+  "axes": {
+   "So": 20,
+   "Di": 40,
+   "Te": 90,
+   "Al": 40,
+   "Tm": 100,
+   "Am": 60
+  },
+  "traits": [
+   "IMPLACABLE",
+   "LOYAL",
+   "HANTE"
+  ],
+  "motivation": "vengeance",
+  "liens": [
+   {
+    "champion": "Ashe",
+    "type": "amour"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "freljord"
+   ],
+   "deteste": []
+  },
+  "voix": "Un barbare qui parle par grognements et rugissements, sauf avec Ashe, à qui il parle doucement."
+ },
+ "Twisted Fate": {
+  "axes": {
+   "So": 80,
+   "Di": 20,
+   "Te": 30,
+   "Al": 30,
+   "Tm": 70,
+   "Am": 60
+  },
+  "traits": [
+   "JOUEUR",
+   "CHARMEUR",
+   "CYNIQUE"
+  ],
+  "motivation": "or",
+  "liens": [
+   {
+    "champion": "Graves",
+    "type": "ami"
+   },
+   {
+    "champion": "Gangplank",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "bilgewater"
+   ],
+   "deteste": []
+  },
+  "voix": "Un tricheur au sourire de velours, qui distribue les cartes et les mensonges avec la même aisance."
+ },
+ "Twitch": {
+  "axes": {
+   "So": 30,
+   "Di": 0,
+   "Te": 50,
+   "Al": 0,
+   "Tm": 70,
+   "Am": 40
+  },
+  "traits": [
+   "SAUVAGE",
+   "FARCEUR",
+   "CUPIDE"
+  ],
+  "motivation": "plaisir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "zaun"
+   ],
+   "deteste": []
+  },
+  "voix": "Un rat qui ricane, compte ses trésors, et juge les humains plus dégoûtants que lui."
+ },
+ "Udyr": {
+  "axes": {
+   "So": 20,
+   "Di": 60,
+   "Te": 70,
+   "Al": 80,
+   "Tm": 80,
+   "Am": 20
+  },
+  "traits": [
+   "SAUVAGE",
+   "PROTECTEUR",
+   "HANTE"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Lee Sin",
+    "type": "ami"
+   },
+   {
+    "champion": "Volibear",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "freljord"
+   ],
+   "deteste": []
+  },
+  "voix": "Il parle aux esprits plus qu'aux gens, d'une voix rauque qui change selon celui qui le traverse."
+ },
+ "Urgot": {
+  "axes": {
+   "So": 20,
+   "Di": 60,
+   "Te": 80,
+   "Al": 10,
+   "Tm": 90,
+   "Am": 60
+  },
+  "traits": [
+   "IMPLACABLE",
+   "FANATIQUE",
+   "HANTE"
+  ],
+  "motivation": "cause",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "zaun"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix mécanique et brisée qui parle de souffrance comme d'une école, et de faiblesse comme d'une faute."
+ },
+ "Varus": {
+  "axes": {
+   "So": 20,
+   "Di": 60,
+   "Te": 70,
+   "Al": 40,
+   "Tm": 70,
+   "Am": 40
+  },
+  "traits": [
+   "HANTE",
+   "MELANCOLIQUE",
+   "IMPLACABLE"
+  ],
+  "motivation": "vengeance",
+  "liens": [
+   {
+    "champion": "Aatrox",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": []
+  },
+  "voix": "Deux voix qui se disputent : celle des hommes qu'il a été, et celle du Darkin qu'il porte."
+ },
+ "Vayne": {
+  "axes": {
+   "So": 10,
+   "Di": 85,
+   "Te": 60,
+   "Al": 30,
+   "Tm": 80,
+   "Am": 50
+  },
+  "traits": [
+   "IMPLACABLE",
+   "MEFIANT",
+   "FANATIQUE"
+  ],
+  "motivation": "vengeance",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "demacia"
+   ],
+   "deteste": []
+  },
+  "voix": "Froide et méticuleuse, elle parle de traque et de jugement, et soupçonne tout le monde d'avoir quelque chose à cacher."
+ },
+ "Veigar": {
+  "axes": {
+   "So": 40,
+   "Di": 20,
+   "Te": 70,
+   "Al": 10,
+   "Tm": 60,
+   "Am": 100
+  },
+  "traits": [
+   "VANITEUX",
+   "IMPULSIF",
+   "FARCEUR"
+  ],
+  "motivation": "pouvoir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "bandle"
+   ],
+   "deteste": []
+  },
+  "voix": "Il proclame sa grandeur maléfique d'une voix fluette, et personne n'ose rire, sauf ceux qui ne le connaissent pas."
+ },
+ "Vel'Koz": {
+  "axes": {
+   "So": 10,
+   "Di": 70,
+   "Te": 10,
+   "Al": 0,
+   "Tm": 50,
+   "Am": 60
+  },
+  "traits": [
+   "CURIEUX",
+   "ERUDIT",
+   "IMPLACABLE"
+  ],
+  "motivation": "savoir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "neant"
+   ],
+   "deteste": []
+  },
+  "voix": "Il interroge, analyse, dissèque : chaque conversation est une expérience, et vous êtes le sujet."
+ },
+ "Vex": {
+  "axes": {
+   "So": 10,
+   "Di": 30,
+   "Te": 40,
+   "Al": 20,
+   "Tm": 30,
+   "Am": 10
+  },
+  "traits": [
+   "MELANCOLIQUE",
+   "CYNIQUE",
+   "TACITURNE"
+  ],
+  "motivation": "liberte",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "iles"
+   ],
+   "deteste": []
+  },
+  "voix": "Elle soupire, elle grogne, et trouve que la joie des autres est franchement épuisante."
+ },
+ "Vi": {
+  "axes": {
+   "So": 70,
+   "Di": 30,
+   "Te": 85,
+   "Al": 80,
+   "Tm": 95,
+   "Am": 40
+  },
+  "traits": [
+   "IMPULSIF",
+   "PROTECTEUR",
+   "LOYAL"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Jinx",
+    "type": "famille"
+   },
+   {
+    "champion": "Caitlyn",
+    "type": "amour"
+   },
+   {
+    "champion": "Ekko",
+    "type": "ami"
+   },
+   {
+    "champion": "Warwick",
+    "type": "famille"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "zaun",
+    "piltover"
+   ],
+   "deteste": []
+  },
+  "voix": "Elle parle avec ses poings, mais aussi avec un humour de rue et une tendresse qu'elle cache mal."
+ },
+ "Viego": {
+  "axes": {
+   "So": 30,
+   "Di": 30,
+   "Te": 90,
+   "Al": 10,
+   "Tm": 80,
+   "Am": 90
+  },
+  "traits": [
+   "HANTE",
+   "IMPULSIF",
+   "FANATIQUE"
+  ],
+  "motivation": "vengeance",
+  "liens": [
+   {
+    "champion": "Gwen",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Kalista",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Hecarim",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "iles"
+   ],
+   "deteste": []
+  },
+  "voix": "Un roi fou d'amour qui supplie et ordonne dans la même phrase, et ne parle que d'elle."
+ },
+ "Viktor": {
+  "axes": {
+   "So": 30,
+   "Di": 90,
+   "Te": 20,
+   "Al": 80,
+   "Tm": 50,
+   "Am": 70
+  },
+  "traits": [
+   "ERUDIT",
+   "IDEALISTE",
+   "TACITURNE"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Jayce",
+    "type": "rival"
+   },
+   {
+    "champion": "Heimerdinger",
+    "type": "mentor"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "zaun"
+   ],
+   "deteste": []
+  },
+  "voix": "Calme et méthodique, il parle d'évolution avec la ferveur d'un croyant et la précision d'un ingénieur."
+ },
+ "Vladimir": {
+  "axes": {
+   "So": 60,
+   "Di": 30,
+   "Te": 30,
+   "Al": 0,
+   "Tm": 50,
+   "Am": 80
+  },
+  "traits": [
+   "CHARMEUR",
+   "ARISTOCRATE",
+   "VANITEUX"
+  ],
+  "motivation": "pouvoir",
+  "liens": [
+   {
+    "champion": "LeBlanc",
+    "type": "ami"
+   },
+   {
+    "champion": "Swain",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "noxus"
+   ],
+   "deteste": []
+  },
+  "voix": "Mondain et cruel, il fait de chaque conversation une mise en scène, et de chaque invité un futur repas."
+ },
+ "Volibear": {
+  "axes": {
+   "So": 30,
+   "Di": 10,
+   "Te": 100,
+   "Al": 20,
+   "Tm": 100,
+   "Am": 80
+  },
+  "traits": [
+   "SAUVAGE",
+   "FANATIQUE",
+   "IMPULSIF"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Ornn",
+    "type": "famille"
+   },
+   {
+    "champion": "Udyr",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "freljord"
+   ],
+   "deteste": []
+  },
+  "voix": "Un tonnerre qui parle : des proclamations, des colères, et un mépris total pour ce qui est faible."
+ },
+ "Warwick": {
+  "axes": {
+   "So": 10,
+   "Di": 20,
+   "Te": 90,
+   "Al": 30,
+   "Tm": 90,
+   "Am": 30
+  },
+  "traits": [
+   "SAUVAGE",
+   "HANTE",
+   "IMPLACABLE"
+  ],
+  "motivation": "vengeance",
+  "liens": [
+   {
+    "champion": "Singed",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Vi",
+    "type": "famille"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "zaun"
+   ],
+   "deteste": []
+  },
+  "voix": "Il grogne, il renifle, et parfois une phrase d'homme remonte, pleine de chagrin."
+ },
+ "Wukong": {
+  "axes": {
+   "So": 80,
+   "Di": 20,
+   "Te": 60,
+   "Al": 60,
+   "Tm": 90,
+   "Am": 70
+  },
+  "traits": [
+   "FARCEUR",
+   "FIER",
+   "ENJOUE"
+  ],
+  "motivation": "gloire",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": []
+  },
+  "voix": "Un singe qui plaisante, se vante, grimpe partout, et finit toujours par faire la sieste au mauvais moment."
+ },
+ "Xayah": {
+  "axes": {
+   "So": 30,
+   "Di": 40,
+   "Te": 80,
+   "Al": 40,
+   "Tm": 90,
+   "Am": 70
+  },
+  "traits": [
+   "REBELLE",
+   "RANCUNIER",
+   "FIER"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Rakan",
+    "type": "amour"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": [
+    "noxus"
+   ]
+  },
+  "voix": "Vive et tranchante, elle ne fait confiance à personne, sauf à Rakan, et le lui reproche."
+ },
+ "Xerath": {
+  "axes": {
+   "So": 10,
+   "Di": 50,
+   "Te": 30,
+   "Al": 0,
+   "Tm": 50,
+   "Am": 100
+  },
+  "traits": [
+   "FANATIQUE",
+   "VANITEUX",
+   "CALCULATEUR"
+  ],
+  "motivation": "pouvoir",
+  "liens": [
+   {
+    "champion": "Azir",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix d'énergie pure, distante et méprisante, qui parle des mortels comme d'une poussière."
+ },
+ "Xin Zhao": {
+  "axes": {
+   "So": 60,
+   "Di": 90,
+   "Te": 40,
+   "Al": 80,
+   "Tm": 80,
+   "Am": 30
+  },
+  "traits": [
+   "LOYAL",
+   "HONORABLE",
+   "PROTECTEUR"
+  ],
+  "motivation": "cause",
+  "liens": [
+   {
+    "champion": "Jarvan IV",
+    "type": "eleve"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "demacia"
+   ],
+   "deteste": [
+    "noxus"
+   ]
+  },
+  "voix": "Un vieux soldat franc, qui parle de son roi avec dévotion et de ses combats sans fanfaronner."
+ },
+ "Yasuo": {
+  "axes": {
+   "So": 30,
+   "Di": 20,
+   "Te": 50,
+   "Al": 40,
+   "Tm": 85,
+   "Am": 30
+  },
+  "traits": [
+   "HANTE",
+   "LIBRE",
+   "MELANCOLIQUE"
+  ],
+  "motivation": "redemption",
+  "liens": [
+   {
+    "champion": "Yone",
+    "type": "famille"
+   },
+   {
+    "champion": "Riven",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Taliyah",
+    "type": "eleve"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": []
+  },
+  "voix": "Un vagabond qui boit, joue de la flûte, se moque de lui-même, et ne parle de son frère qu'à voix très basse."
+ },
+ "Yone": {
+  "axes": {
+   "So": 20,
+   "Di": 70,
+   "Te": 20,
+   "Al": 60,
+   "Tm": 70,
+   "Am": 30
+  },
+  "traits": [
+   "HANTE",
+   "PATIENT",
+   "TACITURNE"
+  ],
+  "motivation": "redemption",
+  "liens": [
+   {
+    "champion": "Yasuo",
+    "type": "famille"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix d'outre-monde, posée et triste, qui cherche à refermer quelque chose qui s'est ouvert en lui."
+ },
+ "Yorick": {
+  "axes": {
+   "So": 10,
+   "Di": 70,
+   "Te": 10,
+   "Al": 60,
+   "Tm": 50,
+   "Am": 10
+  },
+  "traits": [
+   "MELANCOLIQUE",
+   "TACITURNE",
+   "PATIENT"
+  ],
+  "motivation": "cause",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "iles"
+   ],
+   "deteste": []
+  },
+  "voix": "Un fossoyeur qui parle aux morts plus qu'aux vivants, et qui les écoute avec patience."
+ },
+ "Yunara": {
+  "axes": {
+   "So": 30,
+   "Di": 85,
+   "Te": 20,
+   "Al": 80,
+   "Tm": 60,
+   "Am": 40
+  },
+  "traits": [
+   "DEVOT",
+   "PATIENT",
+   "IDEALISTE"
+  ],
+  "motivation": "cause",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": []
+  },
+  "voix": "Sereine et ferme, elle parle de foi et de discorde comme si elle revenait de très loin, et c'est le cas."
+ },
+ "Yuumi": {
+  "axes": {
+   "So": 80,
+   "Di": 0,
+   "Te": 30,
+   "Al": 60,
+   "Tm": 40,
+   "Am": 20
+  },
+  "traits": [
+   "FARCEUR",
+   "ENJOUE",
+   "LIBRE"
+  ],
+  "motivation": "appartenance",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "bandle"
+   ],
+   "deteste": []
+  },
+  "voix": "Un chat magique qui parle beaucoup, dort encore plus, et cherche son maître dans chaque livre qu'elle ouvre."
+ },
+ "Zaahen": {
+  "axes": {
+   "So": 20,
+   "Di": 80,
+   "Te": 60,
+   "Al": 70,
+   "Tm": 85,
+   "Am": 40
+  },
+  "traits": [
+   "HANTE",
+   "HONORABLE",
+   "IMPLACABLE"
+  ],
+  "motivation": "redemption",
+  "liens": [
+   {
+    "champion": "Aatrox",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Varus",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Naafiri",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Grave et retenu, un dieu déchu qui pèse chaque mot pour ne pas laisser parler la folie qu'il porte."
+ },
+ "Zac": {
+  "axes": {
+   "So": 90,
+   "Di": 30,
+   "Te": 30,
+   "Al": 80,
+   "Tm": 85,
+   "Am": 20
+  },
+  "traits": [
+   "ENJOUE",
+   "PROTECTEUR",
+   "FARCEUR"
+  ],
+  "motivation": "appartenance",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "zaun"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix de gelée joyeuse, des blagues, et une gentillesse qui déborde un peu partout."
+ },
+ "Zed": {
+  "axes": {
+   "So": 15,
+   "Di": 60,
+   "Te": 40,
+   "Al": 20,
+   "Tm": 75,
+   "Am": 85
+  },
+  "traits": [
+   "IMPLACABLE",
+   "TACITURNE",
+   "FIER"
+  ],
+  "motivation": "pouvoir",
+  "liens": [
+   {
+    "champion": "Shen",
+    "type": "ennemi"
+   },
+   {
+    "champion": "Kayn",
+    "type": "eleve"
+   },
+   {
+    "champion": "Jhin",
+    "type": "ennemi"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "ionia"
+   ],
+   "deteste": [
+    "noxus"
+   ]
+  },
+  "voix": "Rare et coupant, il parle de l'ombre comme d'une vérité que les autres refusent de voir."
+ },
+ "Zeri": {
+  "axes": {
+   "So": 90,
+   "Di": 20,
+   "Te": 85,
+   "Al": 60,
+   "Tm": 90,
+   "Am": 50
+  },
+  "traits": [
+   "IMPULSIF",
+   "ENJOUE",
+   "LOYAL"
+  ],
+  "motivation": "proteger",
+  "liens": [
+   {
+    "champion": "Ekko",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "zaun"
+   ],
+   "deteste": []
+  },
+  "voix": "Survoltée et franche, elle parle vite, s'énerve vite, et défend son quartier avant de réfléchir."
+ },
+ "Ziggs": {
+  "axes": {
+   "So": 80,
+   "Di": 10,
+   "Te": 50,
+   "Al": 30,
+   "Tm": 100,
+   "Am": 40
+  },
+  "traits": [
+   "FARCEUR",
+   "IMPULSIF",
+   "ENJOUE"
+  ],
+  "motivation": "plaisir",
+  "liens": [
+   {
+    "champion": "Heimerdinger",
+    "type": "mentor"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "bandle",
+    "zaun"
+   ],
+   "deteste": []
+  },
+  "voix": "Un yordle qui rit en faisant exploser des choses, et qui trouve que tout va mieux avec un peu plus de poudre."
+ },
+ "Zilean": {
+  "axes": {
+   "So": 50,
+   "Di": 70,
+   "Te": 20,
+   "Al": 70,
+   "Tm": 40,
+   "Am": 20
+  },
+  "traits": [
+   "ERUDIT",
+   "PATIENT",
+   "MELANCOLIQUE"
+  ],
+  "motivation": "savoir",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "shurima"
+   ],
+   "deteste": []
+  },
+  "voix": "Un vieillard qui confond hier et demain, raconte la fin des histoires avant le début, et oublie souvent le milieu."
+ },
+ "Zoe": {
+  "axes": {
+   "So": 90,
+   "Di": 0,
+   "Te": 60,
+   "Al": 30,
+   "Tm": 80,
+   "Am": 40
+  },
+  "traits": [
+   "FARCEUR",
+   "ENJOUE",
+   "LIBRE"
+  ],
+  "motivation": "plaisir",
+  "liens": [
+   {
+    "champion": "Aurelion Sol",
+    "type": "ami"
+   }
+  ],
+  "regions": {
+   "aime": [
+    "targon"
+   ],
+   "deteste": []
+  },
+  "voix": "Une enfant cosmique qui parle trop vite, mélange les mondes, et rit de choses que personne n'a encore vues."
+ },
+ "Zyra": {
+  "axes": {
+   "So": 20,
+   "Di": 30,
+   "Te": 60,
+   "Al": 10,
+   "Tm": 70,
+   "Am": 70
+  },
+  "traits": [
+   "SAUVAGE",
+   "IMPLACABLE",
+   "MEFIANT"
+  ],
+  "motivation": "liberte",
+  "liens": [],
+  "regions": {
+   "aime": [
+    "ixtal"
+   ],
+   "deteste": []
+  },
+  "voix": "Une voix de ronces et de parfums, qui considère les humains comme des engrais en sursis."
+ }
+}

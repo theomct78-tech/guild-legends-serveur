@@ -1,0 +1,504 @@
+# Targon · palier Inconnue · lot 1 (missions 001 à 025)
+# {meneur} : le héros qui a mené l'épreuve décisive. La Chambre des Bannières : l'organisme supérieur aux guildes.
+
+=== TAR-I-001 | Le grimpeur qui ne redescend pas
+source: privee
+region: targon
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Pentes supérieures
+demandeur: Ilyana, bergère rakkor, dont le frère est parti pour l'ascension il y a dix jours
+accroche: « On a fait la cérémonie d'adieu. On ne la fait que pour ceux qui ne reviennent pas. Mais hier, un berger a vu un feu sur les pentes, là où personne ne va. Mon frère sait faire du feu avec de la glace. Personne d'autre ne sait. »
+postes: Éclaireur, Healer
+duree: 8
+dangereuse: non
+epreuves: voyage 38 (monter jusqu'aux pentes supérieures, dans l'air qui manque) ; poursuite 36 (retrouver un feu dans les rochers, de nuit) ; voyage 35 (redescendre avec un homme qui a renoncé)
+complication: Le frère ne veut pas redescendre. Il a renoncé à l'ascension, et il a honte de rentrer vivant après qu'on a fait ses adieux.
+eclatante: {meneur} trouve le frère près de son feu, gelé, vivant, et lui parle toute la nuit. Il raconte qu'à mi-pente, il a compris qu'il montait pour fuir quelque chose, pas pour atteindre quelque chose. Au matin, il accepte de redescendre. Les Rakkors, pour la première fois depuis longtemps, refont une cérémonie à l'envers : une cérémonie de retour. Ilyana la chante seule. Tout le village pleure.
+reussite: Le frère est ramené, à moitié gelé. Il guérira. Il ne parle pas de ce qu'il a vu là-haut. Ilyana ne lui pose pas de question.
+partielle: Le frère est ramené, mais il a perdu deux doigts au gel. Il dit que c'est le prix. Ilyana dit que c'est trop cher.
+echec: Le feu s'était éteint quand l'équipe est arrivée. Il n'y avait plus personne. Seulement des traces, qui montaient.
+recompenses: po 30 ; reputation 3 ; objet Potion de soin 12
+
+=== TAR-I-002 | L'erbok amoureux
+source: privee
+region: targon
+palier: inconnue
+type: chasse
+ton: drole
+lieu: Plaines basses
+demandeur: Toruk, chasseur rakkor, dont la tente est assiégée par un erbok en pleine saison des amours
+accroche: « Un erbok mâle a décidé que ma tente était une femelle. Il la charge, il lui chante des choses, il ne mange plus. Ma femme dort chez sa mère. Moi, je dors dehors. Personne ne dort, en fait. Faites quelque chose. Gentiment. Il est sincère. »
+postes: Tank
+duree: 3
+dangereuse: non
+epreuves: siege 29 (encaisser les charges amoureuses d'un erbok de trois cents kilos) ; poursuite 27 (le mener vers un troupeau où il trouvera une vraie femelle)
+complication: La tente de Toruk est en peau d'erbok femelle, tannée avec des herbes qui gardent l'odeur.
+eclatante: {meneur} tient trois charges, puis comprend le problème en reniflant la tente. Une peau d'erbok femelle, parfumée. L'équipe déplace la tente au milieu d'un troupeau sauvage, laisse l'erbok y trouver une compagne, puis la ramène. Toruk retrouve sa tente, sa femme et son sommeil. L'erbok, lui, revient chaque printemps, avec sa famille, saluer la tente qui a changé sa vie.
+reussite: L'erbok est mené jusqu'à un troupeau, et il y reste. Toruk change de tente, par précaution.
+partielle: L'erbok est parti, mais il revient chaque nuit chanter sous la tente, de loin. Toruk a acheté des bouchons d'oreille en laine.
+echec: L'erbok a gagné. Toruk lui a laissé la tente. Il en a fait une nouvelle, en peau de chèvre.
+recompenses: po 15 ; reputation 1 ; objet Armure de tissu 6
+
+=== TAR-I-003 | L'hérétique du Temple du Solstice
+source: privee
+region: targon
+palier: inconnue
+type: escorte
+ton: politique
+lieu: Temple du Solstice
+demandeur: une jeune femme qui se fait appeler Selen, et qui doit quitter le versant est avant d'être découverte
+accroche: « Je prie la lune. Les Solaris appellent ça une hérésie. Une novice m'a dénoncée ce matin. Ils me cherchent. Je dois passer devant le Temple du Solstice pour descendre vers l'Anneau, il n'y a pas d'autre chemin. Je vous paie avec tout ce que j'ai. Ce n'est pas grand-chose. »
+postes: Assassin, Support
+duree: 5
+dangereuse: non
+epreuves: discretion 35 (passer devant le Temple du Solstice sous les yeux des guetteurs solaris) ; diplomatie 33 (répondre aux questions d'une patrouille sans trahir la fugitive)
+complication: La novice qui a dénoncé Selen est sa propre sœur, terrifiée à l'idée d'être punie avec elle.
+eclatante: {meneur} fait passer Selen devant le temple, déguisée en porteuse d'eau, et répond à la patrouille d'une voix si calme que personne ne doute. En bas, Selen écrit une lettre pour sa sœur : elle ne lui en veut pas. {meneur} la porte en secret jusqu'au temple. La novice la lit en pleurant. Elle ne dénoncera plus jamais personne. Selen disparaît dans l'Anneau. On dit qu'elle a rejoint d'autres qui prient la lune.
+reussite: Selen passe, cachée dans une charrette de pierres. Les Solaris ne la trouvent pas. Elle descend vers l'Anneau, et on la perd de vue.
+partielle: Selen passe, mais la patrouille a vu l'équipe. Les Solaris se méfient maintenant de toutes les guildes.
+echec: La patrouille a arrêté Selen devant le temple. L'équipe a été chassée du versant. On ne sait pas ce que les Solaris font des hérétiques.
+recompenses: po 25 ; reputation 2 ; objet Cape de négation 6
+
+=== TAR-I-004 | Le bolor des grottes
+source: privee
+region: targon
+palier: inconnue
+type: defense
+ton: aventure
+lieu: Grottes rakkors
+demandeur: Varga, ancienne du village, qui veut qu'on chasse un bolor sans tuer personne, ni lui
+accroche: « Un bolor a pris l'habitude de visiter nos grottes. Il est jeune, il a faim, il ne sait pas encore qu'il ne doit pas manger de Rakkors. Nos guerriers veulent le tuer, c'est leur façon de prier. Moi, je veux qu'on lui apprenne. »
+postes: Tank, Tireur, Support
+duree: 5
+dangereuse: non
+risque: oui
+epreuves: combat 44 (repousser un jeune bolor qui charge dans les grottes étroites) ; diplomatie 41 (empêcher les guerriers rakkors de transformer ça en bataille sacrée) ; poursuite 42 (le mener loin des grottes, jusqu'à un territoire de chasse)
+complication: Le bolor n'a pas faim de Rakkors : il fuit une avalanche qui a détruit sa tanière, plus haut.
+eclatante: {meneur} tient la grotte, puis convainc les guerriers que la plus grande bravoure, ce jour-là, est de ne pas frapper. L'équipe mène le bolor vers une tanière abandonnée, plus bas. Il n'y revient jamais menacer les grottes. Varga grave la scène sur le mur du village : le premier bolor qu'on a renvoyé chez lui au lieu de le tuer. Les guerriers grognent. Mais ils la regardent souvent.
+reussite: Le bolor est chassé des grottes, sans mort. Les guerriers rakkors trouvent ça décevant. Varga, non.
+partielle: Le bolor est parti, mais un guerrier a été blessé, et le village a tué une bête en représailles. Ce n'était pas la bonne.
+echec: Les guerriers ont tué le bolor. Ils ont chanté toute la nuit. Varga n'a pas chanté.
+recompenses: po 140 ; reputation 3 ; objet Bouclier de Doran 12
+
+=== TAR-I-005 | Les pierres du mariage
+source: privee
+region: targon
+palier: inconnue
+type: recuperation
+ton: tendre
+lieu: Seuils anciens
+demandeur: Dzorna, jeune guerrier rakkor, qui doit offrir trois pierres précieuses à sa future épouse
+accroche: « Chez nous, on n'offre pas d'or, on offre des pierres. Trois, trouvées de ses propres mains. J'en ai deux. La troisième est derrière les Seuils anciens, là où commencent les terres qui ne sont plus à nous. Je ne peux pas y aller seul. La coutume dit que je peux y aller avec des amis. »
+postes: Combattant
+duree: 4
+dangereuse: non
+epreuves: voyage 29 (passer les Seuils anciens et chercher la pierre au-delà) ; combat 28 (protéger le fiancé de ce qui rôde de l'autre côté)
+complication: La pierre que Dzorna doit trouver est celle que sa fiancée a cachée là-bas elle-même, pour être sûre qu'il revienne.
+eclatante: {meneur} aide Dzorna à chercher, et il trouve, sous une dalle, une pierre bleue enveloppée dans un ruban : celui de sa fiancée. Il rit, puis il pleure. Elle l'attendait derrière le dernier seuil. Le mariage a lieu une semaine plus tard. On offre à la guilde une petite pierre polie, trouvée « de ses propres mains » par la mariée. C'est le plus grand honneur rakkor pour un étranger.
+reussite: La troisième pierre est trouvée. Dzorna l'offre. Sa fiancée dit oui. Elle ne dit pas qu'elle l'avait cachée. Il le devine.
+partielle: Dzorna a trouvé une pierre, mais pas la bonne. Sa fiancée dit oui quand même. Puis elle va chercher la sienne, seule.
+echec: La pierre est restée introuvable. Dzorna a offert deux pierres. Sa fiancée a dit qu'elle attendrait la troisième. Elle attend.
+recompenses: po 15 ; reputation 2 ; objet Cristal de saphir 8
+
+=== TAR-I-006 | Les matrices du zénith
+source: privee
+region: targon
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Matrices du zénith
+demandeur: Osric, astronome de Demacia, qui a vu une étoile s'allumer en plein jour
+accroche: « J'étudie le ciel depuis l'observatoire des Matrices. Hier à midi, une étoile s'est allumée au-dessus du sommet. Pas une comète : une étoile. Elle a brillé une heure, puis elle s'est éteinte. Mes instruments ne servent à rien. Il me faut des yeux. Des jambes, aussi. »
+postes: Mage
+duree: 5
+dangereuse: non
+epreuves: voyage 32 (monter aux Matrices du zénith par le vieux chemin des astronomes) ; diplomatie 31 (obtenir des témoins rakkors qu'ils racontent ce qu'ils ont vu)
+complication: Les Rakkors ont vu l'étoile aussi, et ils disent qu'elle s'allume chaque fois qu'une Manifestation choisit quelqu'un.
+eclatante: {meneur} rassemble les témoignages rakkors et les mesures d'Osric. Ensemble, ils dessinent quelque chose que personne n'avait jamais remarqué : l'étoile s'allume toujours au-dessus du même versant, et toujours un jour de pleine lune. Osric repart pour Demacia avec un mémoire que ses maîtres refuseront de croire. Il le publie quand même. Il cite la guilde en page un.
+reussite: Les témoignages sont recueillis. Osric a une théorie. Elle est fausse, mais elle est belle.
+partielle: Les Rakkors n'ont rien voulu dire à un Demacien. Osric repart avec ses mesures. Il reviendra à la prochaine lune.
+echec: L'observatoire était fermé par la neige. Osric a regardé le ciel depuis le bas, pendant une semaine. L'étoile n'est pas revenue.
+recompenses: po 30 ; reputation 2 ; objet Tome d'amplification 7
+
+=== TAR-I-007 | La forge des Rakkors
+source: privee
+region: targon
+palier: inconnue
+type: livraison
+ton: aventure
+lieu: Anneau de la Montagne
+demandeur: Krasna, forgeronne rakkor, qui a besoin de charbon de pierre noire avant la saison des tournois
+accroche: « Mes forges s'éteignent. Le charbon de pierre noire vient d'en bas, de la plaine, et les porteurs ne montent plus : un pont de corde a cédé. Sans charbon, pas d'armes pour les tournois. Sans tournois, les jeunes s'ennuient. Et des jeunes Rakkors qui s'ennuient, c'est pire qu'une avalanche. »
+postes: Tank, Support
+duree: 6
+dangereuse: non
+epreuves: voyage 33 (monter dix sacs de charbon par un sentier de chèvres, sans le pont) ; siege 34 (réparer le pont de corde pour les porteurs des prochaines semaines)
+complication: Les porteurs ne montent plus à cause d'une dispute avec les Rakkors : un guerrier a insulté l'un d'eux, et ils exigent des excuses.
+eclatante: {meneur} monte le charbon, répare le pont, puis obtient du guerrier qu'il descende lui-même s'excuser, dans la plaine. Il le fait, avec un sac de charbon sur le dos, en signe d'humilité. Les porteurs rient, l'acceptent, et remontent la semaine suivante. Krasna forge pour la guilde une lame de cérémonie. Elle n'est pas faite pour couper. Elle est faite pour être vue.
+reussite: Le charbon arrive, le pont est réparé. Les forges brûlent. Les tournois auront lieu.
+partielle: La moitié du charbon est arrivée. Krasna forge moins d'armes. Les tournois auront lieu, avec des bâtons.
+echec: Le charbon est resté en bas. Les forges sont froides. Les jeunes Rakkors s'ennuient. On les entend crier jusque dans la plaine.
+recompenses: po 25 ; reputation 2 ; objet Épée longue 7
+
+=== TAR-I-008 | Le stellacorne blessé
+source: privee
+region: targon
+palier: inconnue
+type: sauvetage
+ton: tendre
+lieu: Source des étoiles
+demandeur: Lior, jeune berger qui a vu un stellacorne tomber près de la Source des étoiles
+accroche: « Je ne suis pas censé aller si haut. Mais j'ai suivi une chèvre. Et j'ai vu un stellacorne. Il avait une patte coincée entre deux rochers, et sa crinière brillait comme les étoiles. Il pleurait. Les stellacornes, ça pleure ? Celui-là, oui. »
+postes: Support, Tank
+duree: 7
+dangereuse: non
+epreuves: voyage 36 (monter jusqu'à la Source des étoiles, aux limites de ce qu'un corps supporte) ; siege 33 (dégager la patte coincée sous un rocher qui pèse une tonne) ; diplomatie 32 (soigner une bête sacrée qui ne veut pas qu'on l'approche)
+complication: Le stellacorne n'est pas seul : le troupeau entier attend en haut, et il ne partira pas sans lui.
+eclatante: {meneur} dégage la patte, soigne la blessure, et le stellacorne se relève. Le troupeau descend de la crête, lentement, et entoure l'équipe. Ils restent là, longtemps, dans une lumière qui n'est pas celle du soleil. Puis ils repartent. Lior a vu ça. Il ne sera plus jamais un berger ordinaire. Il demande à rejoindre la guilde, quand il sera grand.
+reussite: La patte est dégagée, le stellacorne repart vers son troupeau en boitant. Lior rentre avec une poignée de crins lumineux.
+partielle: Le stellacorne est libéré, mais il ne peut pas suivre son troupeau. Il reste près de la Source. Lior lui monte de l'eau chaque semaine.
+echec: L'équipe n'a pas pu monter assez haut. Lior y est retourné seul, la nuit. Il n'a trouvé que des crins sur les rochers.
+recompenses: po 20 ; reputation 3 ; objet Cristal de saphir 10
+
+=== TAR-I-009 | Le tournoi du bouffon
+source: privee
+region: targon
+palier: inconnue
+type: protection
+ton: drole
+lieu: Grottes rakkors
+demandeur: Pelko, bouffon rakkor, qui s'est inscrit au tournoi pour faire rire et qui va se faire tuer
+accroche: « J'ai fait une blague sur la barbe du champion du village. Il m'a défié au tournoi. Je ne sais pas me battre. Je sais faire des blagues sur les barbes. Il me faut quelqu'un qui me garde en vie le temps que je trouve une blague qui le fera rire. »
+postes: Combattant
+duree: 3
+dangereuse: non
+epreuves: combat 30 (servir de second et parer les coups destinés au bouffon) ; diplomatie 28 (trouver le moment où le champion peut rire sans perdre la face)
+complication: Le champion n'est pas vexé par la blague : il est vexé parce qu'elle était vraie. Sa barbe est fausse. Il l'a perdue dans un incendie.
+eclatante: {meneur} pare les coups jusqu'à ce que la fausse barbe du champion se détache, au milieu de l'arène. Silence. Puis Pelko enlève sa propre barbe, fausse elle aussi. Il ne l'avait jamais dit à personne. Le champion éclate de rire. Tout le village rit. Les deux hommes boivent ensemble le soir même. On les appelle maintenant les Imberbes.
+reussite: Pelko survit au tournoi, couvert de bleus. Le champion le laisse partir. Il fait une blague sur les bleus. Personne ne rit.
+partielle: Pelko a perdu une dent et sa dignité. Mais il a fait rire trois personnes. Il appelle ça une victoire.
+echec: Le champion a gagné en trois coups. Pelko a été soigné pendant une semaine. Il a écrit des blagues sur l'infirmerie.
+recompenses: po 15 ; reputation 1 ; objet Élixir de rage 5
+
+=== TAR-I-010 | Les sculptures qui bougent
+source: privee
+region: targon
+palier: inconnue
+type: exploration
+ton: horreur
+lieu: Sculptures divines
+demandeur: Hadrien, sculpteur venu de Demacia, persuadé qu'une des statues de glace a changé de position
+accroche: « Je les dessine depuis un mois. Ce sont les Sculptures divines, faites par personne, figées dans un hiver éternel. Hier, l'une d'elles regardait vers l'est. Aujourd'hui, elle regarde vers moi. Je ne suis pas fou. Venez voir. S'il vous plaît, venez voir. »
+postes: Éclaireur, Mage
+duree: 8
+dangereuse: non
+epreuves: voyage 37 (monter aux Sculptures divines, dans un froid qui fige le souffle) ; discretion 36 (observer les sculptures une nuit entière sans geler sur place)
+complication: Les sculptures ne bougent pas : c'est le sol qui tourne, lentement, comme un cadran, au rythme des étoiles.
+eclatante: {meneur} plante un piquet dans la glace, et au matin, comprend : c'est le plateau entier qui a tourné. Les sculptures sont une horloge, et elles regardent vers la constellation qui se lève. Hadrien pleure de soulagement, puis d'émerveillement. Il dessine l'horloge du ciel. Son carnet devient un trésor que les astronomes se disputent. Il en offre une page à la guilde.
+reussite: Les sculptures ne bougent pas, ou alors très lentement. Hadrien est rassuré. Il continue à dessiner. Il ne dort plus en face d'elles.
+partielle: L'équipe n'a rien vu bouger, mais Hadrien jure que si. Il redescend avec ses dessins et une fièvre.
+echec: Le froid a forcé l'équipe à redescendre au milieu de la nuit. Hadrien est resté. Il est redescendu trois jours plus tard, sans dire un mot.
+recompenses: po 35 ; reputation 2 ; objet Cape de négation 6
+
+=== TAR-I-011 | Le traité des tribus
+source: privee
+region: targon
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Anneau de la Montagne
+demandeur: Ama, cheffe d'une tribu du pied de la montagne, qui veut que les Rakkors partagent un pâturage
+accroche: « Les Rakkors disent que l'Anneau est à eux. Nous, on dit que les bêtes ne lisent pas les traités. Mes chèvres meurent de faim pendant que leurs prairies restent vides. Je veux une table, un feu, et quelqu'un qui n'est ni d'ici ni de là-haut pour qu'on se parle. »
+postes: Support, Tank
+duree: 5
+dangereuse: non
+epreuves: diplomatie 34 (faire asseoir une cheffe et un ancien rakkor autour du même feu) ; diplomatie 33 (trouver un partage qui n'humilie personne)
+complication: L'ancien rakkor a déjà dit oui en secret, mais les jeunes guerriers refusent, parce qu'ils veulent prouver leur valeur en défendant la prairie.
+eclatante: {meneur} propose aux jeunes guerriers une autre façon de prouver leur valeur : escorter les troupeaux de la tribu, et les protéger des bolors. Ils acceptent. La prairie est partagée. Les jeunes Rakkors trouvent ça plus glorieux qu'une bataille. Ama et l'ancien fument ensemble autour du feu. La paix tient tout l'été.
+reussite: Un partage est signé, pour une saison. Les jeunes Rakkors grognent. Les chèvres mangent.
+partielle: L'ancien a accepté, les jeunes non. Les troupeaux mangent la nuit, en cachette.
+echec: Les jeunes guerriers ont renversé la table. Ama est repartie. Ses chèvres meurent de faim. L'hiver sera long.
+recompenses: po 25 ; reputation 3 ; objet Bottes 6
+
+=== TAR-I-012 | Les chèvres de la corniche
+source: privee
+region: targon
+palier: inconnue
+type: recuperation
+ton: drole
+lieu: Temples solaris
+demandeur: Frère Aurel, novice solaris, qui gardait les chèvres du temple et les a perdues sur une corniche
+accroche: « J'ai fermé les yeux pendant la prière de midi. Quand je les ai rouverts, les chèvres étaient sur la corniche. La corniche, elle fait la largeur d'un pied, et elle est au-dessus du vide. Elles ont l'air de trouver ça amusant. Pas moi. Si le prieur l'apprend, je récure les dalles jusqu'à la fin de mes jours. »
+postes: Éclaireur
+duree: 4
+dangereuse: non
+epreuves: voyage 30 (avancer sur une corniche large d'un pied, au-dessus du vide) ; poursuite 28 (convaincre six chèvres de revenir, une par une)
+complication: Les chèvres ne sont pas montées seules : un autre novice les y a menées, pour que Frère Aurel soit puni à sa place.
+eclatante: {meneur} ramène les six chèvres une à une, le long de la corniche, avec du sel dans la main. Le prieur arrive au moment où la dernière revient. L'équipe raconte, avec tact, qu'un autre novice a été vu près de la corniche. Le prieur comprend. Frère Aurel n'est pas puni. L'autre novice récure les dalles. Les chèvres, elles, ont l'air déçues que ce soit fini.
+reussite: Les chèvres sont ramenées avant la fin de la prière. Le prieur ne sait rien. Frère Aurel prie avec une ferveur nouvelle.
+partielle: Cinq chèvres sur six. La sixième est restée sur la corniche. Elle y vit, maintenant. Les novices lui jettent du foin.
+echec: Le prieur a vu les chèvres sur la corniche. Frère Aurel récure les dalles. Il dit que c'est une forme de prière.
+recompenses: po 10 ; reputation 1 ; objet Charme féerique 6
+
+=== TAR-I-013 | La lance de la grand-mère
+source: privee
+region: targon
+palier: inconnue
+type: recuperation
+ton: tragique
+lieu: Motifs des morts
+demandeur: Kesh, jeune femme rakkor, qui veut récupérer la lance de sa grand-mère, morte pendant l'ascension
+accroche: « Ma grand-mère est morte en montant. Son corps est sur les crêtes, là où les morts deviennent la pierre. Je ne veux pas son corps. La montagne l'a pris, c'est bien. Je veux sa lance. Elle doit revenir dans la famille. C'est elle qui me l'a promise. »
+postes: Support, Tank
+duree: 10
+dangereuse: non
+epreuves: voyage 39 (monter jusqu'aux Motifs des morts, où l'air ne suffit plus) ; poursuite 37 (retrouver une lance parmi les corps de pierre) ; diplomatie 34 (respecter les morts en prenant ce qu'on est venu chercher)
+complication: La lance est toujours dans la main de la grand-mère, et sa main est devenue de la pierre.
+eclatante: {meneur} trouve la grand-mère, et la lance, prise dans la pierre. Plutôt que de briser la main, l'équipe passe une nuit à creuser la roche autour, sans abîmer la morte. Au matin, la lance sort, entière. Kesh la reçoit en pleurant. Elle a encore, sur le manche, l'empreinte des doigts de sa grand-mère, devenus pierre. Kesh dit que, maintenant, elle la tient vraiment.
+reussite: La lance est ramenée. Il a fallu briser deux doigts de pierre. Kesh dit que sa grand-mère aurait compris. Elle n'en est pas sûre.
+partielle: L'équipe n'a pas pu détacher la lance. Elle rapporte un dessin de la grand-mère, en pierre, la lance à la main. Kesh l'accroche au mur.
+echec: L'équipe n'a pas trouvé la grand-mère parmi les morts. Kesh ira elle-même, un jour. Pas cette année.
+recompenses: po 35 ; reputation 3 ; objet Élixir de fer 8
+
+=== TAR-I-014 | L'apprenti de l'astronome
+source: privee
+region: targon
+palier: inconnue
+type: escorte
+ton: aventure
+lieu: Bosquet astral
+demandeur: Nyx, apprentie astronome, qui doit porter un télescope au Bosquet astral avant l'éclipse
+accroche: « Une éclipse dans quatre jours. Elle ne se verra parfaitement que du Bosquet astral. Mon maître est trop vieux pour monter. Moi, je suis trop jeune pour qu'on me laisse monter seule. Et le télescope pèse plus lourd que moi. »
+postes: Tank, Healer
+duree: 9
+dangereuse: non
+risque: oui
+epreuves: voyage 42 (monter un télescope fragile jusqu'aux pentes supérieures) ; combat 44 (protéger le campement d'une bête ailée qui chasse au crépuscule) ; voyage 41 (installer le télescope à temps dans un vent qui ne s'arrête pas)
+complication: Le jour de l'éclipse, la lune se pose sur le soleil, et quelque chose répond depuis le sommet : une lumière d'argent, qui descend vers le Bosquet.
+eclatante: {meneur} protège le campement jusqu'à l'éclipse. Nyx observe, et voit ce que personne n'a jamais noté : à la seconde où la lune couvre le soleil, une lumière d'argent descend du sommet et touche le Bosquet. Elle le dessine. Elle tremble. De retour en bas, son maître la nomme astronome à part entière. Elle a douze cahiers de notes, et un nom pour la lumière qu'elle garde pour elle.
+reussite: Le télescope est installé à temps. Nyx observe l'éclipse entière. Elle redescend avec des notes et des engelures.
+partielle: Le télescope a été abîmé pendant la montée. Nyx a observé à l'œil nu. Elle dit que c'était plus beau.
+echec: La bête ailée a renversé le campement. L'éclipse est passée pendant qu'on rassemblait les morceaux du télescope.
+recompenses: po 150 ; reputation 4 ; objet Tome d'amplification 10
+
+=== TAR-I-015 | Les ibiks de la plaine
+source: privee
+region: targon
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Plaines basses
+demandeur: Brann, chasseur rakkor, qui doit ramener un grand ibik pour son passage à l'âge d'homme
+accroche: « Chez nous, on devient homme en chassant un grand ibik. Seul. Mais la coutume dit aussi qu'on peut demander conseil à des étrangers sages. J'ai pensé que vous seriez sages. Et que vous sauriez où ils se cachent. »
+postes: Tireur
+duree: 5
+dangereuse: non
+epreuves: poursuite 31 (pister un grand ibik dans les hautes herbes de la plaine) ; combat 29 (conseiller sans tirer à la place du garçon)
+complication: Le grand ibik que Brann traque est vieux et boiteux. Le tuer ne prouvera rien, et Brann le sait.
+eclatante: {meneur} montre à Brann un ibik jeune et fort, au lieu du vieux, et lui apprend à approcher contre le vent. Brann chasse seul, comme le veut la coutume, et revient avec l'ibik sur les épaules. Il ne dit pas qu'il a reçu de l'aide. {meneur} non plus. Au village, on fête un homme. Il viendra au repère, un jour, pour remercier. En silence.
+reussite: Brann tue l'ibik qu'il a choisi. Le village le fête. Il ne dit à personne que c'était un vieil animal.
+partielle: Brann a raté son tir, mais il a suivi la bête deux jours. Les anciens disent que la patience aussi fait un homme. À moitié.
+echec: Brann est revenu bredouille. Il retentera l'an prochain. Il a demandé à la guilde de ne pas venir, cette fois.
+recompenses: po 20 ; reputation 2 ; objet Épée longue 6
+
+=== TAR-I-016 | Le prêche des pèlerins
+source: privee
+region: targon
+palier: inconnue
+type: protection
+ton: politique
+lieu: Sanctuaires de prière
+demandeur: Rhea, pèlerine de Demacia, qui prêche la tolérance entre Solaris et Lunaris aux portes des sanctuaires
+accroche: « Je dis seulement que le soleil et la lune se partagent le ciel, et qu'ils ne s'en portent pas plus mal. Les Solaris me crachent dessus, les Rakkors trouvent ça drôle. Hier, un fanatique m'a jeté une pierre. Je continue demain. Je préférerais continuer vivante. »
+postes: Tank
+duree: 4
+dangereuse: non
+epreuves: combat 31 (protéger la pèlerine sans frapper un fidèle) ; diplomatie 30 (empêcher que la colère de quelques-uns devienne celle de tous)
+complication: Le fanatique n'est pas un Solaris : c'est un Lunaris caché, qui veut faire passer les Solaris pour des violents.
+eclatante: {meneur} arrête la deuxième pierre en plein vol, et voit, sous la manche du lanceur, un croissant de lune tatoué. Le fanatique s'enfuit. Rhea, au lieu de le dénoncer, parle de lui dans son prêche suivant : même ceux qui prient la lune ont peur. Les Solaris l'écoutent, pour la première fois. Elle repart vers Demacia. On dit qu'elle reviendra.
+reussite: Rhea prêche trois jours sans être blessée. Les Solaris ne l'écoutent pas. Mais ils ne lui jettent plus rien.
+partielle: Rhea a été touchée à l'épaule. Elle a prêché quand même, avec un bandage. Elle dit que ça donne du poids à ses paroles.
+echec: Rhea a dû fuir le sanctuaire sous les insultes. Elle prêche maintenant à Demacia. Là-bas, on lui jette des fruits.
+recompenses: po 20 ; reputation 2 ; objet Bouclier de Doran 7
+
+=== TAR-I-017 | La neige rouge
+source: privee
+region: targon
+palier: inconnue
+type: enquete
+ton: horreur
+lieu: Lac gelé
+demandeur: Thrain, guide de montagne, qui a vu la neige devenir rouge autour du Lac gelé
+accroche: « J'emmène des voyageurs au Lac gelé depuis vingt ans. La semaine dernière, la neige était rouge, sur tout le tour du lac. Pas du sang : il n'y avait pas d'odeur. Et sous la glace, j'ai vu bouger quelque chose de grand. Mes clients ont annulé. Moi, je veux savoir. »
+postes: Mage, Éclaireur
+duree: 9
+dangereuse: non
+epreuves: voyage 38 (atteindre le Lac gelé avant que le temps ne tourne) ; discretion 36 (observer ce qui bouge sous la glace sans attirer son attention)
+complication: Sous la glace, il y a une créature céleste endormie depuis des millénaires. La neige rouge est le pollen d'une fleur qui ne pousse qu'au-dessus de ses rêves.
+eclatante: {meneur} voit la forme sous la glace, immense, paisible, qui respire une fois par heure. La neige rouge est faite de fleurs minuscules. L'équipe en rapporte un flacon, et ne touche à rien d'autre. Thrain décide de ne plus jamais guider personne au Lac gelé. Il le dit simplement : « Il dort. On le laisse dormir. » Les fleurs rouges, séchées, gardent leur couleur pendant des années.
+reussite: L'équipe revient avec des fleurs rouges et un récit à demi croyable. Thrain change d'itinéraire. Ses clients ne le sauront jamais.
+partielle: L'équipe a vu la neige rouge, mais rien sous la glace. Thrain y retourne, un peu rassuré. Il ne regarde plus sous ses pieds.
+echec: La tempête a forcé l'équipe à redescendre. Au printemps, la neige rouge a disparu. Thrain ne sait plus s'il l'a rêvée.
+recompenses: po 35 ; reputation 3 ; objet Cristal de saphir 7
+
+=== TAR-I-018 | Le chant des ancêtres
+source: privee
+region: targon
+palier: inconnue
+type: diplomatie
+ton: tendre
+lieu: Grottes rakkors
+demandeur: Ysolde, veuve rakkor, qui veut qu'on grave l'histoire de son mari sur le mur du village
+accroche: « Chez nous, on grave l'histoire des guerriers près de leur maison. Mon mari n'était pas guerrier. Il était cuisinier. Les anciens disent que son histoire n'a rien à faire sur un mur. Il a nourri ce village pendant quarante ans. Je veux son histoire sur le mur. »
+postes: Support
+duree: 3
+dangereuse: non
+epreuves: diplomatie 29 (convaincre les anciens qu'une vie de service vaut une vie de bataille) ; diplomatie 28 (trouver quelqu'un au village qui acceptera de graver)
+complication: Les anciens ont tous mangé la soupe du cuisinier, enfants. Ils le savent. Personne ne veut être le premier à le dire.
+eclatante: {meneur} demande à chaque ancien, un par un, de raconter son plus beau souvenir d'enfance. Tous parlent de la soupe du cuisinier, l'hiver de la grande neige. Le silence qui suit dure longtemps. Puis le plus vieux se lève, prend un ciseau, et grave lui-même la première ligne. Le mur porte maintenant une louche à côté des lances. Les enfants la touchent en passant.
+reussite: Les anciens acceptent. Un jeune graveur grave une louche et une marmite. C'est un peu de travers. Ysolde trouve ça parfait.
+partielle: Les anciens ont accepté de graver l'histoire, mais sur une pierre à part, pas sur le mur. Ysolde l'a posée devant sa porte.
+echec: Les anciens ont refusé. Ysolde a gravé elle-même, la nuit, avec un couteau. Personne n'a osé l'effacer.
+recompenses: po 10 ; reputation 2 ; objet Charme féerique 9
+
+=== TAR-I-019 | Le voleur de reliques
+source: privee
+region: targon
+palier: inconnue
+type: traque
+ton: politique
+lieu: Temple des Lunaris
+demandeur: un vieil homme qui ne donne pas son nom, et qui parle de « la Maison de la lune »
+accroche: « Un objet a été volé dans un lieu qui n'existe pas, gardé par des gens qui ne sont pas là. Si vous comprenez ce que je dis, vous êtes les bonnes personnes. Le voleur descend vers la plaine, avec un sac. Il ne doit pas atteindre les Solaris. »
+postes: Assassin, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: poursuite 35 (rattraper un voleur qui connaît la montagne mieux que vous) ; discretion 34 (le faire sans que les Solaris voient la scène)
+complication: Le voleur n'est pas un ennemi des Lunaris : c'est un jeune Lunaris qui veut livrer la relique aux Solaris en échange de la liberté de sa mère, prisonnière.
+eclatante: {meneur} rattrape le voleur et apprend tout. L'équipe ne le livre pas, et ne livre pas la relique : elle porte un message au vieil homme, qui accepte d'aider à libérer la mère par d'autres moyens. La relique retourne au temple caché. Le jeune Lunaris aussi. Deux semaines plus tard, une prisonnière s'évade du versant est. Personne ne sait comment. La guilde, si.
+reussite: Le voleur est rattrapé, la relique rendue au vieil homme. Le voleur disparaît dans la montagne. On ne sait pas ce qu'il devient.
+partielle: La relique est récupérée, mais le voleur a été vu par une patrouille solaris. Ils fouillent la montagne, maintenant.
+echec: Le voleur a atteint les Solaris. Le vieil homme n'est jamais revenu. Les Solaris ont fêté quelque chose, ce soir-là.
+recompenses: po 35 ; reputation 3 ; objet Cape de négation 7
+
+=== TAR-I-020 | La caravane des épices
+source: privee
+region: targon
+palier: inconnue
+type: escorte
+ton: drole
+lieu: Anneau de la Montagne
+demandeur: Ishaan, marchand d'épices d'Ionia, persuadé que les Rakkors vont adorer ses produits
+accroche: « J'ai traversé la mer avec vingt sacs d'épices pour les Rakkors. On m'a dit qu'ils ne mangeaient que de la viande bouillie sans rien dedans. C'est un marché vierge ! Il me faut une escorte jusqu'au village, et peut-être un interprète pour expliquer ce qu'est le poivre. »
+postes: Combattant, Support
+duree: 5
+dangereuse: non
+epreuves: voyage 30 (monter une caravane d'épices jusqu'aux grottes rakkors) ; diplomatie 32 (faire goûter du piment à un peuple qui considère la douleur comme une épreuve sacrée)
+complication: Les Rakkors adorent le piment, mais pour une raison inattendue : ils le mangent pour prouver leur courage, et organisent aussitôt un concours.
+eclatante: {meneur} fait goûter le piment au chef de guerre, qui pleure, tousse, et en redemande. Le village organise un tournoi du piment le soir même. Ishaan vend tout son stock en une nuit, et repart avec une commande pour trois fois plus. Les Rakkors appellent désormais le piment « la petite lance ». La guilde est invitée au tournoi suivant. Personne n'ose y aller.
+reussite: Ishaan vend la moitié de ses sacs. Les Rakkors trouvent le poivre « intéressant ». C'est un début.
+partielle: Les Rakkors ont goûté, et ils ont trouvé ça « pour les faibles ». Ishaan a vendu trois sacs de cannelle, par pitié.
+echec: Le chef a pris le piment pour une insulte. Ishaan a dû redescendre en courant, avec ses sacs. Il vend maintenant ses épices à Demacia.
+recompenses: po 20 ; reputation 1 ; objet Potion de soin 6
+
+=== TAR-I-021 | Le pont de corde
+source: privee
+region: targon
+palier: inconnue
+type: defense
+ton: aventure
+lieu: Temples solaris
+demandeur: Frère Cassien, intendant solaris, qui doit faire passer les vivres d'hiver par un pont de corde menacé
+accroche: « Le grand pont de corde vers le haut temple est usé. Un orage vient. Si le pont tombe, le temple n'aura pas de vivres pour l'hiver. Il nous faut des bras, cette nuit, pour renforcer les cordes sous la pluie. Et peut-être pour tenir les porteurs, s'ils ont peur. »
+postes: Tank, Combattant
+duree: 6
+dangereuse: non
+epreuves: siege 34 (renforcer les cordes du pont pendant que l'orage approche) ; nuee 32 (tenir le pont contre les rafales et une volée d'oiseaux affolés par la foudre)
+complication: Un des ancrages du pont a été scié à moitié. Quelqu'un ne veut pas que les vivres arrivent.
+eclatante: {meneur} découvre l'ancrage scié et le remplace, en pleine tempête, à la force des bras. Les vivres passent. Le lendemain, Frère Cassien trouve le coupable : un novice qui voulait que le temple souffre la faim, pour éprouver sa foi. Il est renvoyé dans la plaine. Le temple passe l'hiver au chaud. Frère Cassien envoie au repère une lettre de remerciement scellée d'un soleil.
+reussite: Le pont tient. Les vivres passent avant l'orage. Le temple aura de quoi manger.
+partielle: La moitié des vivres est passée. Le pont a tenu, mais il faudra le refaire au printemps.
+echec: Le pont est tombé dans la nuit. Les vivres sont restées en bas. Le temple jeûnera, et appellera ça une épreuve.
+recompenses: po 30 ; reputation 2 ; objet Armure de tissu 7
+
+=== TAR-I-022 | Le silence de Morna
+source: privee
+region: targon
+palier: inconnue
+type: enquete
+ton: tragique
+lieu: Seuils anciens
+demandeur: Ulfric, berger rakkor, dont la fille ne parle plus depuis qu'elle est revenue des Seuils
+accroche: « Ma fille Morna est partie garder les chèvres près des Seuils anciens. Elle est revenue sans les chèvres, et sans la voix. Elle ne dit plus rien depuis une semaine. Elle dessine des portes. Toujours la même porte. »
+postes: Support, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: poursuite 33 (retrouver l'endroit exact que Morna dessine, parmi les Seuils) ; diplomatie 32 (apprendre ce qui s'est passé, sans forcer une enfant qui se tait)
+complication: Derrière la porte que Morna dessine, il y a une petite vallée où les chèvres sont mortes de froid pendant une tempête. Morna s'est abritée avec elles. Elle est la seule à avoir survécu.
+eclatante: {meneur} trouve la vallée et les chèvres. L'équipe redescend, et parle doucement à Morna : elle n'a rien fait de mal, la tempête l'a fait. Morna pleure pendant une heure. Puis elle dit un mot. Puis dix. Ulfric achète de nouvelles chèvres, et Morna demande à les garder. Il dit oui. Il la suit de loin, chaque jour.
+reussite: La vallée est trouvée. Morna apprend que son père sait. Elle se remet à parler, lentement, dans les semaines qui suivent.
+partielle: L'équipe a trouvé la porte, mais pas ce qu'il y avait derrière. Morna dessine toujours. Moins souvent.
+echec: L'équipe n'a rien trouvé. Morna ne parle toujours pas. Ulfric lui parle pour deux, chaque soir.
+recompenses: po 20 ; reputation 3 ; objet Potion de soin 9
+
+=== TAR-I-023 | Les étoiles tombées
+source: privee
+region: targon
+palier: inconnue
+type: recuperation
+ton: mystere
+lieu: Bosquet astral
+demandeur: Elias, collectionneur de Piltover, qui veut un éclat d'étoile tombée sur la montagne
+accroche: « Une étoile est tombée près du Bosquet astral la semaine dernière. Un éclat d'étoile vaut plus qu'un palais à Piltover. Je ne veux pas un palais. Je veux savoir de quoi sont faites les étoiles. Il faut le trouver avant que les Solaris ne le ramassent. »
+postes: Support, Tank
+duree: 9
+dangereuse: non
+epreuves: voyage 37 (monter au Bosquet astral et chercher le point d'impact) ; diplomatie 35 (dissuader une patrouille solaris qui cherche la même chose)
+complication: L'éclat d'étoile est chaud, et il chante, très doucement. Ceux qui le tiennent trop longtemps se mettent à chanter aussi.
+eclatante: {meneur} trouve l'éclat dans un cratère de verre, et le porte dans un sac doublé de laine. L'équipe chante pendant toute la descente, sans pouvoir s'en empêcher. Les Solaris, en entendant le chant, laissent passer : ils y voient un signe. Elias reçoit l'éclat, le pose sous verre, et l'écoute chanter tous les soirs. Il ne cherche plus à savoir de quoi il est fait. Il dit qu'il le sait.
+reussite: L'éclat est rapporté. Elias le paie très cher. L'équipe fredonne pendant une semaine sans savoir pourquoi.
+partielle: L'éclat s'est brisé pendant la descente. Elias en reçoit un morceau. Il chante plus doucement. C'est déjà beaucoup.
+echec: Les Solaris ont trouvé l'éclat en premier. Elias est reparti pour Piltover. Il regarde le ciel, chaque nuit, au cas où.
+recompenses: po 40 ; reputation 2 ; objet Cristal de rubis 7
+
+=== TAR-I-024 | La gardienne des chèvres
+source: privee
+region: targon
+palier: inconnue
+type: protection
+ton: tendre
+lieu: Plaines basses
+demandeur: Inga, petite fille rakkor, qui garde les chèvres seule pour la première fois
+accroche: « Papa dit que je suis assez grande. Maman dit que non. Ils se sont disputés. Alors je garde les chèvres seule, ce soir, pour prouver que papa a raison. Mais j'ai entendu un tamu, hier. Je veux que vous restiez cachés. Juste au cas où. Et que vous ne disiez rien à papa. »
+postes: Tireur
+duree: 3
+dangereuse: non
+epreuves: discretion 28 (rester caché toute la nuit, sans que la petite le voie) ; combat 27 (éloigner le tamu sans qu'elle le sache)
+complication: Le père d'Inga est caché aussi, de l'autre côté du pré, pour la même raison.
+eclatante: {meneur} repousse le tamu sans un bruit, puis tombe nez à nez avec le père, accroupi derrière un rocher, un arc à la main. Les deux adultes se regardent et ne disent rien. Au matin, Inga ramène toutes les chèvres, fière comme une reine. Son père la félicite. Il ne dit jamais qu'il était là. La guilde non plus.
+reussite: La nuit passe. Le tamu ne s'approche pas. Inga ramène les chèvres. Elle ne sait pas qu'on veillait sur elle.
+partielle: Le tamu a pris une chèvre. Inga a crié. L'équipe a dû se montrer. Inga dit que ça ne compte pas. Son père dit que si.
+echec: Inga a vu l'équipe dans les rochers, et elle s'est mise en colère. Elle n'a plus voulu garder les chèvres. Pendant une semaine.
+recompenses: po 10 ; reputation 2 ; objet Charme féerique 7
+
+=== TAR-I-025 | L'endroit où l'air change
+source: privee
+region: targon
+palier: inconnue
+type: escorte
+ton: mystere
+lieu: Mont Targon
+demandeur: Aurelio, pèlerin aveugle venu de loin, qui veut monter aussi haut que ses jambes le porteront
+accroche: « Je ne verrai jamais le sommet, je le sais. Je veux seulement monter jusqu'à l'endroit où l'air change. On dit qu'à cet endroit, on entend les étoiles. Je n'ai que mes oreilles. Je veux savoir si c'est vrai. »
+postes: Healer, Éclaireur
+duree: 8
+dangereuse: non
+epreuves: voyage 36 (guider un aveugle sur les sentiers de la montagne) ; voyage 35 (trouver l'endroit où l'air change, et s'y arrêter à temps)
+complication: À l'endroit où l'air change, Aurelio entend vraiment quelque chose. Et il veut continuer de monter, plus haut que ce qu'il peut supporter.
+eclatante: {meneur} décrit le paysage à Aurelio, pierre par pierre, pendant toute la montée. Là où l'air change, il entend, très faiblement, un son qui ressemble à une note tenue. Il veut continuer. {meneur} le retient, doucement, et lui dit que la note sera encore là l'année prochaine. Il accepte. En redescendant, il fredonne la note, parfaitement juste. Il dit qu'il a vu le sommet. Personne ne le contredit.
+reussite: Aurelio atteint l'endroit où l'air change. Il dit qu'il entend quelque chose. Il ne sait pas quoi. Il redescend heureux.
+partielle: Aurelio a dû s'arrêter avant, à bout de souffle. Il dit qu'il a entendu le vent. Que c'est déjà une étoile.
+echec: Aurelio est tombé dès le premier jour. Il redescend sur une civière, en riant de lui-même. Il dit qu'il reviendra avec de meilleures jambes.
+recompenses: po 25 ; reputation 2 ; objet Bottes 7

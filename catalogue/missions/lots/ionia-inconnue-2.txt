@@ -1,0 +1,504 @@
+# Ionia · palier Inconnue · lot 2 (missions 026 à 050, dont les institutionnelles 041 à 050)
+
+=== ION-I-026 | L'enfant qui a oublié son nom
+source: privee
+region: ionia
+palier: inconnue
+type: recuperation
+ton: mystere
+lieu: Jardin de l'Oubli
+demandeur: Mian, dont la fille est revenue du jardin en souriant
+accroche: « Ma fille a cueilli une fleur dans le Jardin de l'Oubli. Elle est revenue en souriant. Elle ne sait plus son nom. Elle ne sait plus le mien. Elle dit seulement que la jardinière a été très gentille avec elle. »
+postes: Support, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: voyage 37 (entrer dans le Jardin de l'Oubli sans y perdre soi-même la mémoire) ; diplomatie 38 (parler à Ighilya, la Jardinière-sorcière, et obtenir qu'elle rende ce qu'elle a pris)
+complication: La Jardinière ne rend jamais ce qu'on lui a donné. Mais elle peut accepter un échange : un souvenir contre un autre.
+eclatante: {meneur} entre dans le jardin en répétant à voix haute son propre nom, pour ne pas l'oublier. La Jardinière écoute, puis propose un échange. La mère offre le souvenir d'un jour de pluie sans importance, et la Jardinière accepte, en souriant. La fillette se souvient de son nom en franchissant la porte. Elle oublie seulement la fleur. Elle dit qu'elle a fait un beau rêve.
+reussite: La fillette retrouve son nom, mais pas les trois derniers jours. Sa mère dit que c'est un prix qu'elle peut payer.
+partielle: La Jardinière a rendu le nom, mais pas le visage de la mère. Il faudra que la fillette apprenne à la reconnaître de nouveau.
+echec: L'équipe est ressortie du jardin sans se souvenir pourquoi elle y était entrée. La fillette sourit toujours.
+recompenses: po 20 ; reputation 2 ; objet Tome d'amplification 7
+
+=== ION-I-027 | Le moine qui ne frappe pas
+source: privee
+region: ionia
+palier: inconnue
+type: escorte
+ton: tendre
+lieu: Monastère de Shojin
+demandeur: Frère Kaito, moine de Shojin, qui a fait vœu de ne jamais frapper un être vivant
+accroche: « Je dois porter au Placidium les remèdes que mon monastère prépare pour les blessés de guerre. La route passe par des terres où l'on croise des pillards. J'ai fait vœu de ne pas me défendre. Je n'ai pas fait vœu de voyager seul. »
+postes: Tank, Support
+duree: 6
+dangereuse: non
+epreuves: voyage 36 (accompagner un moine qui refuse de presser le pas, parce qu'il médite en marchant) ; combat 34 (repousser les pillards sans tuer, par respect pour son vœu)
+complication: Un des pillards est un ancien moine de Shojin, qui a rompu son vœu pendant la guerre pour sauver sa famille, et qui ne se le pardonne pas.
+eclatante: Les pillards attaquent au col. {meneur} les repousse sans tuer personne, et le dernier tombe à genoux devant Frère Kaito : il le reconnaît. Le moine pose la main sur sa tête et lui dit une phrase que personne d'autre n'entend. L'ancien moine accompagne le groupe jusqu'au Placidium. Il ne retourne pas chez les pillards. Les remèdes arrivent à temps.
+reussite: Les remèdes arrivent au Placidium. Les pillards ont été repoussés sans perte. Frère Kaito remercie chaque membre de l'escorte en s'inclinant trois fois.
+partielle: Une partie des remèdes a été volée. Frère Kaito n'en veut à personne. Il dit qu'ils serviront aussi à quelqu'un.
+echec: Les pillards ont tout pris. Frère Kaito est arrivé au Placidium les mains vides, mais il a souri à tout le monde quand même.
+recompenses: po 20 ; reputation 3 ; objet Potion de soin 10
+
+=== ION-I-028 | Le monastère de Fae'lor
+source: privee
+region: ionia
+palier: inconnue
+type: exploration
+ton: tragique
+lieu: Fae'lor
+demandeur: Sœur Lian, dernière religieuse du monastère d'avant la guerre
+accroche: « Les Noxiens ont fait de notre monastère un fort. Ils sont partis. Ils ont laissé les murs, les canons, et quelque chose dans la crypte qu'ils n'ont pas voulu emporter. Je voudrais rouvrir la chapelle. Je n'ose pas descendre. »
+postes: Tank, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: voyage 34 (traverser l'île dévastée, où plus rien ne pousse) ; discretion 39 (explorer le fort sans déclencher les pièges laissés par la garnison)
+complication: Dans la crypte, les Noxiens ont laissé les corps de leurs propres morts, qu'ils n'ont pas eu le temps d'enterrer, et un registre où chaque soldat a écrit une ligne avant de partir.
+eclatante: {meneur} désamorce les pièges un à un, et trouve la crypte. Sœur Lian lit le registre à la lumière d'une lampe. Les lignes sont simples : des noms, des villes, des « je veux rentrer ». Elle décide d'enterrer les soldats noxiens dans le cimetière du monastère, avec les siens. La chapelle rouvre au printemps. Le registre est posé sur l'autel.
+reussite: Le fort est exploré, les pièges désamorcés. Sœur Lian peut rouvrir la chapelle. Elle fait fermer la crypte sans y descendre.
+partielle: L'équipe a désamorcé la moitié des pièges. Sœur Lian rouvre la chapelle, mais le reste du fort demeure interdit.
+echec: Un piège a explosé. Personne n'est mort, mais Sœur Lian a renoncé à rouvrir le monastère.
+recompenses: po 25 ; reputation 3 ; objet Bouclier de Doran 7
+
+=== ION-I-029 | La rivière Epool
+source: privee
+region: ionia
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Rivière Epool
+demandeur: Jun, pêcheur de Bahrl, dont les enfants toussent
+accroche: « La rivière est claire. On boit son eau depuis toujours. Depuis les pluies, mes enfants toussent du vert. Les voisins aussi. Les anciens disent qu'au fond de la rivière, il reste des choses que les Noxiens ont versées pendant la guerre. »
+postes: Healer
+duree: 5
+dangereuse: non
+epreuves: voyage 33 (remonter la rivière jusqu'à la source de la pollution) ; diplomatie 30 (convaincre le village de cesser de boire l'eau, alors qu'il n'y en a pas d'autre)
+complication: Les pluies ont fendu un vieux fût de produit chimique, enterré sur la berge pendant la guerre. Il fuit lentement dans la rivière.
+eclatante: {meneur} soigne les enfants avec des herbes de Shojin, puis remonte la rivière et trouve le fût fendu, à moitié enfoui dans la berge. Le village le déterre, le scelle dans l'argile et l'emporte loin de l'eau. Les enfants guérissent en deux semaines. Jun creuse un puits, au cas où. Il envoie à la guilde un panier de poissons de la rivière, une fois qu'elle est redevenue sûre.
+reussite: Les enfants sont soignés. La source du mal est trouvée, et le village boit l'eau d'un ruisseau voisin en attendant.
+partielle: Les enfants vont mieux, mais la fuite n'a pas été trouvée. Le village boit l'eau de pluie, et attend.
+echec: Le village a refusé de croire que l'eau était empoisonnée. Les enfants toussent toujours.
+recompenses: po 20 ; reputation 3 ; objet Potion de soin 12
+
+=== ION-I-030 | La servante du domaine Quenjo
+source: privee
+region: ionia
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Domaine Quenjo
+demandeur: Ama Tsai, mère d'une servante du domaine
+accroche: « Ma fille est accusée d'avoir volé un rouleau de la maison Quenjo. Un rouleau de poèmes, très ancien. Elle sait à peine lire. Elle est enfermée dans la remise, et demain on la renvoie, sans gages et sans réputation. »
+postes: Support, Assassin
+duree: 4
+dangereuse: non
+epreuves: discretion 37 (fouiller le domaine pour retrouver le rouleau) ; diplomatie 37 (obtenir de la maison Quenjo qu'elle écoute la vérité)
+complication: Le rouleau a été pris par le jeune héritier de la maison Quenjo, pour l'offrir à une poétesse de Weh'le dont il est amoureux. Personne ne doit le savoir.
+eclatante: {meneur} retrouve la trace du rouleau jusqu'à l'héritier, et lui propose de le rapporter discrètement, sans que sa famille sache pourquoi il l'a pris. L'héritier accepte, et innocente lui-même la servante devant toute la maison. Elle reçoit des excuses et le double de ses gages. La poétesse de Weh'le, elle, reçoit une copie du rouleau, faite par l'héritier. C'est plus romantique, de toute façon.
+reussite: Le rouleau est retrouvé et la servante innocentée. On ne dit pas qui l'avait pris. Elle garde sa place.
+partielle: La servante est innocentée faute de preuves, mais elle est quand même renvoyée. Elle trouve une place ailleurs.
+echec: La servante a été renvoyée. Ama Tsai a tout dit à tout le monde, et la maison Quenjo n'aime pas qu'on parle d'elle.
+recompenses: po 20 ; reputation 2 ; objet Dague 6
+
+=== ION-I-031 | Les vole-vents de Pallas
+source: privee
+region: ionia
+palier: inconnue
+type: defense
+ton: aventure
+lieu: Pallas
+demandeur: Le vieux Hoji, gardien du temple de Pallas
+accroche: « Les vole-vents nichent sur nos falaises depuis toujours. Ce sont des chats avec des ailes, ils pêchent et ils chantent. Cette année, ils descendent au village. Ils volent les poissons sur les étals et les bébés dans les berceaux. Pas pour les manger. Pour les ramener au nid. »
+postes: Tank, Tireur
+duree: 5
+dangereuse: non
+epreuves: nuee 38 (repousser une nuée de chats ailés qui fondent sur le village) ; voyage 36 (escalader les falaises jusqu'aux nids pour récupérer ce qu'ils ont emporté)
+complication: Les vole-vents ont perdu leurs petits dans une tempête. Ils ramènent au nid tout ce qui est petit et chaud, pour le remplacer.
+eclatante: {meneur} repousse les vole-vents sur la place, puis escalade la falaise. Dans les nids, l'équipe trouve deux bébés du village, endormis et bien au chaud, au milieu de poissons et de bonnets volés. Ils sont rendus à leurs mères, qui pleurent et rient en même temps. Le vieux Hoji fait déposer sur les falaises des paniers de poisson pour les vole-vents. Ils ne descendent plus.
+reussite: Les vole-vents sont repoussés. Les bébés sont retrouvés et ramenés. Le village garde ses fenêtres fermées.
+partielle: Un seul bébé a été retrouvé. L'autre l'a été le lendemain, par un pêcheur, sain et sauf, sur une autre falaise.
+echec: Les vole-vents ont mis l'équipe en fuite. Il a fallu des jours au village pour récupérer ce qu'ils avaient pris.
+recompenses: po 30 ; reputation 2 ; objet Dague 7
+
+=== ION-I-032 | Le temple de Xuanain
+source: privee
+region: ionia
+palier: inconnue
+type: exploration
+ton: mystere
+lieu: Temple de Xuanain
+demandeur: Pei, jeune fille du village, qui a vu de la lumière au temple abandonné
+accroche: « Le temple de Xuanain est vide depuis des années. Hier soir, il y avait de la lumière, et quelqu'un sonnait le gong, très doucement, trois coups, puis rien. Trois coups, c'est l'appel des Kinkou. Ma grand-mère dit qu'ils ne reviendront jamais. »
+postes: Mage
+duree: 4
+dangereuse: non
+epreuves: voyage 31 (monter au temple par l'escalier de pierre, la nuit) ; discretion 33 (approcher de la salle du gong sans déranger ce qui y vit)
+complication: Ce ne sont pas les Kinkou. C'est l'esprit du temple lui-même, qui sonne le gong chaque année à la même date, pour appeler ceux qui sont partis. Personne ne lui a dit qu'ils ne reviendraient pas.
+eclatante: {meneur} trouve la salle vide, et le gong qui vibre encore. L'esprit du temple se montre : une lueur douce, qui demande si les Kinkou vont revenir. {meneur} lui dit la vérité, avec douceur. L'esprit sonne une dernière fois, un seul coup, puis s'éteint lentement, apaisé. Pei rapporte l'histoire au village. Les vieux, qui avaient été élèves au temple, montent le lendemain y allumer des lampes.
+reussite: {meneur} a vu la lumière et entendu le gong, mais l'esprit ne s'est pas montré. Le village décide de laisser une offrande au temple chaque année.
+partielle: Le gong s'est tu à l'approche. Il a sonné de nouveau la nuit suivante, trois coups.
+echec: L'escalier de pierre s'est effondré sous les pas de {meneur}. Le temple est encore plus inaccessible qu'avant.
+recompenses: po 20 ; reputation 2 ; objet Cristal de saphir 7
+
+=== ION-I-033 | La machine qui fait peur aux esprits
+source: privee
+region: ionia
+palier: inconnue
+type: livraison
+ton: drole
+lieu: Nanthee
+demandeur: Maître Hextor Fizzwick, marchand de Piltover, avec une caisse qui fait du bruit
+accroche: « C'est une horloge mécanique. Très belle. Commandée par le conseil d'un village de montagne. À chaque tic-tac, les esprits de la forêt s'enfuient en hurlant, et mes porteurs aussi. Il me faut quelqu'un qui n'ait pas peur des esprits, ni des horloges. »
+postes: Éclaireur
+duree: 5
+dangereuse: non
+epreuves: voyage 34 (porter une horloge bruyante à travers une forêt pleine d'esprits mécontents) ; discretion 30 (passer devant les sanctuaires sans réveiller les plus grincheux)
+complication: Le conseil du village a commandé l'horloge pour que les esprits cessent de venir voler le riz la nuit. Le village sait très bien ce qu'il fait.
+eclatante: {meneur} enveloppe l'horloge dans des couvertures pour étouffer le tic-tac, et traverse la forêt sans réveiller un seul esprit. Au village, l'horloge est installée sur la place, et les esprits voleurs de riz ne reviennent plus. Maître Fizzwick, ravi, reçoit trois autres commandes. Les esprits de la forêt, eux, ont trouvé un autre village. Ils aiment beaucoup le riz.
+reussite: L'horloge est livrée, avec quelques bosses. Elle fonctionne. Les esprits de la forêt boudent pour l'hiver.
+partielle: L'horloge est livrée, mais elle sonne faux. Les esprits trouvent ça drôle, et reviennent plus nombreux.
+echec: Un esprit a volé le balancier en chemin. Le village a reçu une horloge qui ne marche pas. Maître Fizzwick parle de remboursement.
+recompenses: po 20 ; reputation 1 ; objet Élixir de fer 5
+
+=== ION-I-034 | Le petit claqueur de la clairière
+source: privee
+region: ionia
+palier: inconnue
+type: recuperation
+ton: tendre
+lieu: Omikayalan
+demandeur: Tei, neuf ans, et ses parents, très embarrassés
+accroche: « J'ai trouvé un bébé claqueur écailleux au bord de la clairière, il y a deux ans. Il tenait dans ma main. Maintenant, il est plus grand que la maison, et il a mangé le toit du voisin. Les grands disent qu'il faut le ramener dans la forêt. Il ne connaît pas la forêt. Il me connaît moi. »
+postes: Tank
+duree: 4
+dangereuse: non
+epreuves: voyage 33 (conduire un lézard-tortue géant et têtu jusqu'au cœur de la Clairière verte) ; combat 29 (l'empêcher de revenir au village en suivant l'enfant, sans le blesser)
+complication: Le claqueur ne restera dans la clairière que si Tei vient l'y voir. Sinon, il reviendra chaque nuit.
+eclatante: {meneur} conduit le claqueur jusqu'à la clairière, avec Tei sur son dos. L'enfant lui explique qu'il ne peut plus vivre au village, mais qu'il viendra le voir chaque semaine. Le claqueur reste. Tei tient parole. Les gens de la clairière l'appellent maintenant « le garçon du claqueur ». Le voisin a un nouveau toit, que le claqueur n'a pas encore goûté.
+reussite: Le claqueur est conduit dans la clairière. Il revient deux fois, puis s'habitue. Tei va le voir en cachette.
+partielle: Le claqueur est revenu chaque nuit pendant un mois. Le village a fini par lui construire un enclos.
+echec: Le claqueur a refusé de partir. Il a mangé le toit de la maison du conseil. On ne parle plus que de ça.
+recompenses: po 15 ; reputation 2 ; objet Armure de tissu 6
+
+=== ION-I-035 | L'évadé de Tuula
+source: privee
+region: ionia
+palier: inconnue
+type: traque
+ton: politique
+lieu: Tuula
+demandeur: Le gardien-chef de la prison de Tuula, qui préfère que personne ne l'apprenne
+accroche: « Un prisonnier s'est évadé cette nuit. Un ancien de la Fraternité Navori, condamné pour avoir incendié un village qui accueillait des réfugiés noxiens. Il connaît la montagne. Il a des amis. Je ne veux pas que le conseil apprenne qu'il est sorti de ma prison. »
+postes: Éclaireur, Tireur
+duree: 6
+dangereuse: non
+epreuves: poursuite 39 (suivre un évadé qui connaît les sentiers de Zhyun mieux que quiconque) ; combat 36 (le capturer vivant, avec ses complices qui l'attendent)
+complication: L'évadé ne fuit pas : il va vers le village qu'il a incendié, pour demander pardon à une famille dont il a tué le père. Il a passé trois ans à écrire ce qu'il veut lui dire.
+eclatante: {meneur} rattrape l'évadé à l'entrée du village, et comprend où il allait. Il ne se débat pas. La famille accepte de l'écouter, sous la garde de l'équipe. Personne ne sait ce qu'elle a répondu. L'homme retourne en prison de lui-même. Le gardien-chef, qui voulait cacher l'évasion, finit par tout raconter au conseil. Il garde sa place, et le conseil s'interroge.
+reussite: L'évadé est capturé et ramené à Tuula. Personne ne sait pourquoi il s'était enfui. Le gardien-chef garde son secret.
+partielle: L'évadé a été repéré, mais ses complices l'ont emmené. Le gardien-chef doit tout avouer.
+echec: L'évadé a disparu. Le village incendié a reçu, un mois plus tard, une lettre sans signature.
+recompenses: po 30 ; reputation 2 ; objet Bottes 7
+
+=== ION-I-036 | L'eau des deux villages
+source: privee
+region: ionia
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Thanze
+demandeur: Dame Yoshiro, porte-parole du conseil du village d'amont
+accroche: « Depuis la guerre, nous partageons le canal avec le village d'aval, un jour sur deux. Ils disent que nous prenons plus que notre part. Nous disons qu'ils mentent. Les deux conseils ne se parlent plus. Les rizières des deux côtés vont sécher. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 35 (réunir deux conseils qui ne se parlent plus autour de la même table) ; voyage 30 (inspecter le canal sur toute sa longueur pour savoir qui a raison)
+complication: Personne ne ment. Pendant la guerre, une partie du canal a été détournée par les Noxiens pour alimenter leur camp. Le détournement existe toujours, et l'eau se perd dans un champ abandonné.
+eclatante: {meneur} remonte le canal et trouve le vieux détournement noxien, envahi par les herbes. Les deux conseils viennent voir ensemble. Ils le referment ensemble, à la pelle, en silence d'abord, puis en riant. L'eau suffit pour tout le monde. Les deux villages organisent une fête de l'eau, la première depuis la guerre.
+reussite: Les deux conseils acceptent un nouveau partage. Ils ne se parlent toujours pas, mais l'eau coule pour les deux.
+partielle: Un accord est trouvé pour la saison. Au printemps, la dispute reprendra.
+echec: Les deux conseils se sont insultés pendant la réunion. Un des deux villages a fermé le canal avec des pierres.
+recompenses: po 20 ; reputation 2 ; objet Pioche 6
+
+=== ION-I-037 | Le démon d'Olgathee
+source: privee
+region: ionia
+palier: inconnue
+type: exploration
+ton: horreur
+lieu: Forêt d'Olgathee
+demandeur: Rong, bûcheron, qui a ramassé une pierre qu'il n'aurait pas dû ramasser
+accroche: « Il y avait une pierre gravée au pied d'un arbre mort. Je l'ai prise pour caler ma charrette. Depuis, quelque chose me suit dans la forêt. Je l'entends rire, la nuit, sous ma fenêtre. Il dit merci. »
+postes: Éclaireur, Mage
+duree: 5
+dangereuse: non
+epreuves: voyage 36 (retrouver dans la forêt l'arbre mort où la pierre était posée) ; discretion 38 (remettre la pierre en place avant que ce qu'elle retenait ne s'éloigne trop)
+complication: La pierre était un sceau. Le démon banni dans la forêt n'est pas encore libre : il ne l'est que tant qu'il reste à moins d'une lieue de Rong.
+eclatante: {meneur} sent la présence du démon qui rôde derrière l'équipe, et retrouve l'arbre mort au cœur de la forêt. La pierre est remise en place, au moment exact où le rire s'élève derrière eux. Puis plus rien. Rong dort de nouveau. Il ne ramasse plus jamais de pierres. La guilde, elle, sait désormais qu'un sceau ancien veille dans la forêt d'Olgathee, et qu'il est fragile.
+reussite: La pierre est remise en place. Le rire se tait. Rong ne sait pas exactement ce qui s'est passé, et il préfère ne pas le savoir.
+partielle: La pierre a été remise, mais pas exactement à sa place. Le rire s'entend encore, parfois, très loin.
+echec: L'équipe n'a pas retrouvé l'arbre. Rong a quitté la forêt. Le rire, dit-on, l'a suivi.
+recompenses: po 25 ; reputation 2 ; objet Cape de négation 8
+suite: ION-L-004
+
+=== ION-I-038 | Le Héraut du printemps
+source: privee
+region: ionia
+palier: inconnue
+type: protection
+ton: tendre
+lieu: Hauts de Qaelin
+demandeur: Mei, gardienne d'un sanctuaire de montagne
+accroche: « Le Héraut du printemps est descendu dans notre vallée. C'est un cerf blanc, très grand. Partout où il marche, la neige fond et les fleurs poussent. Des chasseurs de la ville sont arrivés hier. Ils veulent ses bois. Ils disent qu'ils valent une fortune. »
+postes: Tireur
+duree: 4
+dangereuse: non
+epreuves: poursuite 34 (retrouver le Héraut avant les chasseurs, en suivant les fleurs qui poussent dans la neige) ; combat 31 (tenir les chasseurs à distance sans faire couler le sang devant lui)
+complication: Si le Héraut est blessé, le printemps ne viendra pas dans la vallée cette année.
+eclatante: {meneur} suit la piste des fleurs et trouve le Héraut dans une clairière, avant les chasseurs. Une flèche bien placée dans un tronc, juste devant eux, suffit à les faire réfléchir. Ils repartent. Le Héraut regarde {meneur} longtemps, puis s'éloigne. Le lendemain, le printemps arrive dans la vallée, une semaine plus tôt que d'habitude. Mei dit que c'est un remerciement.
+reussite: Les chasseurs sont repoussés. Le Héraut quitte la vallée, et le printemps y arrive à l'heure.
+partielle: Les chasseurs ont tiré une flèche, qui a manqué le Héraut de peu. Il s'est enfui. Le printemps arrive en retard.
+echec: Un chasseur a blessé le Héraut. Il s'est enfui en saignant. Dans la vallée, la neige n'a pas fondu avant l'été.
+recompenses: po 15 ; reputation 3 ; objet Charme féerique 8
+
+=== ION-I-039 | La danse de la moisson
+source: privee
+region: ionia
+palier: inconnue
+type: protection
+ton: drole
+lieu: Temple de Raishai
+demandeur: Maître Bo, organisateur de la fête de la moisson, en sueur
+accroche: « Cette année, la fête de la moisson se fait avec le village voisin. La dernière fois qu'on a fait ça, il y a vingt ans, ça s'est fini avec un buffle dans le temple et le chef du conseil dans la mare. Je veux une fête. Juste une fête. »
+postes: Tank, Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 36 (désamorcer les vieilles rancunes entre deux villages pendant les danses) ; combat 30 (tenir à l'écart les quelques fêtards qui veulent rejouer la bagarre d'il y a vingt ans)
+complication: Le chef du conseil d'en face veut se venger de la mare. Il a apporté un buffle.
+eclatante: {meneur} repère le buffle derrière le temple avant le début de la fête, et propose au chef d'en face de l'utiliser autrement : pour un concours de labour entre les deux villages. Le concours est un triomphe. Le buffle gagne. Les deux chefs finissent dans la mare, ensemble, de leur plein gré. Maître Bo dit que c'est la plus belle fête de sa vie.
+reussite: La fête a lieu, sans bagarre. Le buffle est resté attaché derrière le temple. Personne ne sait qu'il était là.
+partielle: La fête a eu lieu, avec une seule bagarre et un buffle dans les rizières. Maître Bo dit que c'est un progrès.
+echec: Le buffle est entré dans le temple. Le chef du conseil est tombé dans la mare. L'histoire s'est répétée.
+recompenses: po 15 ; reputation 1 ; objet Élixir de rage 5
+
+=== ION-I-040 | La serpentfeuille de Nistaram
+source: privee
+region: ionia
+palier: inconnue
+type: recuperation
+ton: aventure
+lieu: Forêt de Nistaram
+demandeur: Guérisseuse Anshi, qui n'a plus de cataplasme pour les blessés de son village
+accroche: « La serpentfeuille soigne toutes les plaies. Elle pousse au cœur de la forêt de Nistaram. Elle mord aussi. Il m'en faut une pleine besace avant la lune. Prenez des gants. Prenez deux paires. »
+postes: Combattant, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: voyage 37 (atteindre le cœur de la forêt par des sentiers que la végétation referme) ; combat 32 (cueillir une plante carnivore qui ne se laisse pas cueillir)
+complication: La serpentfeuille pousse autour de la tanière d'un vulkodalk endormi. Il ne faut pas faire de bruit.
+eclatante: {meneur} cueille la serpentfeuille plante par plante, à trois pas d'un vulkodalk endormi, sans le réveiller. La besace est pleine. Anshi soigne six blessés du village en une semaine, dont un enfant mordu par un chien. Elle apprend à {meneur} à préparer le cataplasme, ce qui pourra servir à la guilde.
+reussite: L'équipe rapporte une demi-besace de serpentfeuille, et quelques morsures. Anshi s'en contente.
+partielle: L'équipe a dû fuir le vulkodalk réveillé, avec quelques plantes seulement.
+echec: La serpentfeuille a mordu, le vulkodalk s'est réveillé, et l'équipe est sortie de la forêt en courant, les mains vides.
+recompenses: po 25 ; reputation 2 ; objet Potion de soin 12
+
+=== ION-I-041 | Les déserteurs de la côte
+source: institution
+region: ionia
+palier: inconnue
+type: traque
+ton: aventure
+lieu: Pallas
+demandeur: La Chambre des Bannières, à la demande du conseil de Galrin
+accroche: « Une bande de déserteurs noxiens, restés sur l'île après le retrait, pille les villages côtiers. Ils sont une douzaine, bien armés, et ils connaissent la côte. Le conseil ne veut pas de sang, mais il veut que ça cesse. »
+postes: Éclaireur, Tireur, Tank
+duree: 8
+dangereuse: non
+risque: oui
+epreuves: poursuite 43 (suivre une bande qui se déplace par la mer et les criques) ; discretion 41 (approcher leur camp sans être repéré) ; combat 45 (les affronter, si la parole ne suffit pas)
+complication: Les déserteurs ne veulent pas rester pillards. Ils veulent rentrer chez eux, mais Noxus les exécutera s'ils reviennent, et Ionia ne veut pas d'eux.
+eclatante: {meneur} trouve le camp et parle à leur chef avant que les armes ne parlent. Ils acceptent de se rendre, à une condition : être jugés en Ionia, pas renvoyés à Noxus. Le conseil de Galrin accepte, et les condamne à reconstruire les villages qu'ils ont pillés. Certains y restent, après. L'organisme note une mission « réglée sans mort ».
+reussite: La bande est dispersée. La plupart des déserteurs sont capturés, les autres se sont enfuis en mer.
+partielle: L'équipe a trouvé le camp vide. Les déserteurs ont été vus plus au sud.
+echec: Les déserteurs ont tendu une embuscade. L'équipe a dû se replier. L'organisme note l'échec.
+recompenses: po 160 ; reputation 3 ; objet Épée longue 8
+
+=== ION-I-042 | Le conseil de Zhyun
+source: institution
+region: ionia
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Tuula
+demandeur: La Chambre des Bannières, à la demande des villages de Zhyun
+accroche: « Avant la guerre, Zhyun avait un conseil. Il n'en a plus. Douze villages veulent en reformer un. Ils ne sont d'accord sur rien, pas même sur le lieu de la réunion. Il faut quelqu'un d'extérieur pour tenir la séance. »
+postes: Support, Tank, Éclaireur
+duree: 8
+dangereuse: non
+epreuves: voyage 35 (faire venir les délégués de douze villages, dispersés dans les montagnes) ; diplomatie 41 (tenir une séance où chacun veut parler en premier) ; discretion 34 (repérer ceux qui veulent faire échouer la réunion)
+complication: Un des délégués est payé par la Fraternité Navori pour que le conseil ne se reforme jamais : une Ionia divisée lui donne plus de pouvoir.
+eclatante: {meneur} repère le délégué payé, et laisse les autres découvrir eux-mêmes ses mensonges pendant la séance. Les onze autres villages votent ensemble pour la première fois. Le conseil de Zhyun est reformé. Le délégué rentre chez lui sans rien. L'organisme est félicité par les douze villages, ce qui ne lui était jamais arrivé.
+reussite: La séance a lieu, et un conseil provisoire est désigné. Il faudra encore beaucoup de réunions.
+partielle: Seuls sept villages ont envoyé des délégués. Le conseil est reformé, sans les autres.
+echec: La séance a tourné à l'insulte. Trois délégués sont partis. Zhyun n'aura pas de conseil cette année.
+recompenses: po 45 ; reputation 4 ; objet Tome d'amplification 7
+
+=== ION-I-043 | La fièvre de Thanze
+source: institution
+region: ionia
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Thanze
+demandeur: La Chambre des Bannières, à la demande des guérisseurs de Thanze
+accroche: « Une fièvre court dans les quartiers reconstruits de Thanze. Les familles de réfugiés sont les plus touchées. Les guérisseurs sont trop peu nombreux, et certains habitants refusent qu'on soigne les étrangers en premier. »
+postes: Healer, Support
+duree: 8
+dangereuse: non
+epreuves: voyage 36 (aller de maison en maison dans une ville encore à moitié en ruine) ; diplomatie 38 (convaincre les habitants de laisser soigner tout le monde, dans l'ordre de la gravité)
+complication: La fièvre vient d'un puits commun creusé à la hâte après la guerre, trop près des anciennes fosses. Il faut le condamner, mais c'est le seul puits du quartier.
+eclatante: {meneur} soigne les malades sans faire de différence, et trouve d'où vient la fièvre. Le puits est condamné, un autre est creusé plus loin par les habitants eux-mêmes, réfugiés et anciens de Thanze ensemble. La fièvre recule en deux semaines. Le rapport à l'organisme le mentionne : « Ils ont creusé ensemble. »
+reussite: La fièvre est contenue. Il y a eu des morts, mais la ville tient.
+partielle: La fièvre a reculé, mais le puits n'a pas été trouvé. Elle reviendra avec les pluies.
+echec: La fièvre a gagné toute la ville basse. Les guérisseurs, épuisés, ont demandé l'aide du Placidium.
+recompenses: po 40 ; reputation 4 ; objet Potion de soin 15
+
+=== ION-I-044 | Les disparus de Thanjuul
+source: institution
+region: ionia
+palier: inconnue
+type: enquete
+ton: horreur
+lieu: Temple de Thanjuul
+demandeur: La Chambre des Bannières, à la demande des villages voisins du temple
+accroche: « Le temple de Thanjuul appartenait aux Kinkou. L'Ordre de l'ombre le tient désormais. Cinq jeunes des villages voisins ont disparu cette saison. Les familles pensent qu'ils sont au temple. Personne n'ose aller frapper à la porte. »
+postes: Éclaireur, Assassin, Support
+duree: 7
+dangereuse: non
+epreuves: discretion 41 (observer le temple de l'extérieur, sans être vu par des gens qui voient dans l'ombre) ; poursuite 35 (suivre un disciple qui descend au village) ; diplomatie 36 (parler aux familles, et peut-être à l'un des disparus)
+complication: Les cinq jeunes sont bien au temple, et ils y sont de leur plein gré. Mais l'un d'eux, le plus jeune, veut rentrer chez lui, et n'ose pas le dire.
+eclatante: {meneur} suit un disciple jusqu'au village, et parvient à parler au plus jeune des disparus, envoyé chercher des vivres. Il veut rentrer. L'équipe le ramène chez lui le soir même, sans un bruit. Les quatre autres restent au temple, par choix. Leurs familles reçoivent au moins une nouvelle : ils sont vivants. L'organisme garde le rapport secret.
+reussite: L'équipe a confirmé que les jeunes étaient au temple, vivants. Les familles savent. Elles ne savent pas quoi en faire.
+partielle: L'équipe a vu des silhouettes, sans pouvoir les reconnaître. Les familles restent dans le doute.
+echec: L'équipe a été repérée par les disciples. Le lendemain, une marque d'ombre était peinte sur la porte de l'organisme.
+recompenses: po 40 ; reputation 3 ; objet Cape de négation 8
+
+=== ION-I-045 | Les mines de Fae'lor
+source: institution
+region: ionia
+palier: inconnue
+type: defense
+ton: tragique
+lieu: Fae'lor
+demandeur: La Chambre des Bannières, à la demande des pêcheurs de Fae'lor
+accroche: « En partant, la garnison noxienne a laissé des charges explosives dans la falaise sous le fort. Personne ne sait combien. Un enfant a trouvé un détonateur sur la plage. Les pêcheurs ne veulent plus approcher de l'île. »
+postes: Tank, Mage, Éclaireur
+duree: 7
+dangereuse: non
+epreuves: discretion 38 (repérer les charges dans la falaise sans les déclencher) ; siege 37 (les dégager une par une, en étayant la roche) ; voyage 33 (les porter en mer, loin de l'île, pour les noyer)
+complication: Une des charges est reliée à un mécanisme d'horlogerie qui tourne encore. Il ne reste que quelques heures.
+eclatante: {meneur} repère la charge à horlogerie et l'équipe la désamorce avec quelques minutes d'avance. Toutes les autres sont dégagées et noyées au large. Les pêcheurs reviennent sur l'île. L'enfant qui avait trouvé le détonateur le garde sur sa cheminée, vide. L'organisme envoie le mécanisme à Piltover, pour savoir qui l'a fabriqué.
+reussite: Les charges sont dégagées. Une a explosé au large, sans faire de victime. L'île est sûre.
+partielle: L'équipe a dégagé la plupart des charges. Une partie de la falaise reste interdite.
+echec: Une charge a explosé pendant le travail. La falaise s'est effondrée. Personne n'est mort, mais l'île est perdue pour la pêche.
+recompenses: po 50 ; reputation 4 ; objet Armure de tissu 8
+
+=== ION-I-046 | Le grand passage des worax
+source: institution
+region: ionia
+palier: inconnue
+type: escorte
+ton: aventure
+lieu: Fermes d'Azur
+demandeur: La Chambre des Bannières, à la demande des éleveurs de Navori
+accroche: « Chaque automne, les troupeaux de worax traversent les rivières d'herbe vers les pâturages d'hiver. Mille bêtes. Cette année, la route passe près d'un camp de la Fraternité Navori, qui réquisitionne tout ce qui passe pour “la défense d'Ionia”. »
+postes: Tank, Tireur, Support
+duree: 9
+dangereuse: non
+epreuves: voyage 38 (mener mille worax à travers les rivières d'herbe sans en perdre en chemin) ; diplomatie 35 (négocier le passage devant le camp de la Fraternité) ; nuee 34 (repousser les vole-vents et les crabes qui harcèlent le troupeau aux gués)
+complication: La Fraternité ne veut pas les bêtes : elle veut que les éleveurs lui paient une taxe, pour se faire reconnaître comme autorité légitime.
+eclatante: {meneur} refuse la taxe sans provoquer de combat, et propose aux hommes du camp de partager le repas du soir avec les éleveurs. Ils acceptent, surpris. Le troupeau passe. Les jeunes de la Fraternité découvrent, autour du feu, que les éleveurs ont tous perdu quelqu'un pendant la guerre, eux aussi. L'organisme salue une mission sans perte et sans taxe.
+reussite: Le troupeau passe, après une longue négociation. Quelques bêtes ont été cédées « en cadeau ». Personne n'appelle ça une taxe.
+partielle: Le troupeau a fait un détour de trois jours. Plusieurs bêtes ont été perdues aux gués.
+echec: La Fraternité a pris cinquante bêtes. Les éleveurs ont payé. Ils paieront chaque année, maintenant.
+recompenses: po 50 ; reputation 4 ; objet Bottes 8
+
+=== ION-I-047 | Les faux talismans de Weh'le
+source: institution
+region: ionia
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Weh'le
+demandeur: La Chambre des Bannières, à la demande des moines de Hirana
+accroche: « Des talismans contre les esprits sont vendus au marché de Weh'le. Ils ne protègent de rien. Pire : ils attirent les esprits mauvais. Trois familles qui en avaient acheté ont vu leurs morts revenir les tourmenter. »
+postes: Assassin, Support
+duree: 6
+dangereuse: non
+epreuves: discretion 37 (remonter la filière du marché fantôme jusqu'au fabricant) ; diplomatie 37 (convaincre les acheteurs de rendre leurs talismans, eux qui y croient dur comme fer)
+complication: Le fabricant n'est pas un escroc. C'est un vieux moine qui a perdu la raison pendant la guerre, et qui croit sincèrement protéger les gens.
+eclatante: {meneur} retrouve le vieux moine dans une cabane, entouré de milliers de talismans. Il pleure quand il apprend ce qu'ils font. L'équipe récupère les talismans vendus, famille par famille. Les moines de Hirana recueillent le vieil homme et brûlent les talismans dans un grand feu purificateur. Les morts des trois familles retrouvent le repos.
+reussite: La vente est arrêtée et la plupart des talismans récupérés. Les familles touchées sont apaisées par les moines.
+partielle: Le fabricant a été trouvé, mais des talismans circulent encore dans tout Navori.
+echec: L'équipe a été chassée du marché fantôme, qui se cache désormais d'elle. Les talismans continuent de se vendre.
+recompenses: po 40 ; reputation 3 ; objet Tome d'amplification 7
+
+=== ION-I-048 | L'émissaire des Kinkou
+source: institution
+region: ionia
+palier: inconnue
+type: protection
+ton: politique
+lieu: Placidium de Navori
+demandeur: La Chambre des Bannières, à la demande d'un émissaire kinkou
+accroche: « Un émissaire de l'ordre Kinkou doit parler au Placidium contre la militarisation de la magie ionienne. La Fraternité Navori a fait savoir qu'il n'arriverait pas jusqu'à la tribune. Les Kinkou ne se défendent pas eux-mêmes en public. C'est une question de principe. »
+postes: Tank, Support, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: discretion 37 (repérer dans la foule ceux qui veulent l'empêcher de parler) ; combat 35 (repousser l'attaque sans faire de victime sur les marches sacrées) ; diplomatie 34 (calmer la foule, qui commence à se diviser)
+complication: L'attaque n'est qu'une diversion : la Fraternité veut surtout que l'émissaire se défende en public, pour montrer que les Kinkou mentent sur leur pacifisme.
+eclatante: {meneur} comprend la diversion et s'assure que l'émissaire n'ait jamais besoin de lever la main. L'attaque est repoussée en silence, sans victime. L'émissaire parle. La foule écoute. Le vote n'est pas encore pour demain, mais la Fraternité n'a pas eu son image. L'organisme est remercié par les Kinkou, à leur façon : par une lettre de trois mots.
+reussite: L'émissaire parle, sous protection. L'attaque est repoussée, avec un peu de bruit.
+partielle: L'émissaire a parlé, mais la bagarre sur les marches a fait plus de bruit que son discours.
+echec: L'émissaire a dû se défendre lui-même. La Fraternité a eu son image. Le débat est perdu, pour cette année.
+recompenses: po 45 ; reputation 4 ; objet Bouclier de Doran 8
+
+=== ION-I-049 | La nuit des morts égarés
+source: institution
+region: ionia
+palier: inconnue
+type: defense
+ton: horreur
+lieu: Kotha
+demandeur: La Chambre des Bannières, à la demande des laveurs d'os de Zhyun
+accroche: « Pendant la Floraison spirituelle, les morts de Kotha devraient trouver le chemin vers l'au-delà. Cette année, ils errent dans les ruines du village. Ils frappent aux portes des villages voisins. Ils appellent leurs familles par leur nom. »
+postes: Mage, Support, Tank
+duree: 7
+dangereuse: non
+epreuves: nuee 38 (tenir face aux esprits errants qui se pressent vers les vivants) ; diplomatie 36 (parler aux morts, et les convaincre de reprendre leur chemin) ; voyage 34 (trouver ce qui leur barre la route)
+complication: Le Collectionneur, le démon jaloux, a tendu un piège sur le chemin des morts : une illusion de leur village intact, dans laquelle ils restent prisonniers.
+eclatante: {meneur} voit l'illusion pour ce qu'elle est : le village de Kotha tel qu'il était avant la guerre, parfait, figé. L'équipe la brise. Les morts reprennent leur chemin, guidés par la lumière d'une grande renarde blanche à neuf queues, qui passe sans regarder les vivants. Les laveurs d'os de Zhyun disent qu'ils n'ont jamais vu la Gardienne de si près.
+reussite: Les morts sont apaisés et reprennent leur chemin, un par un, au cours de la nuit.
+partielle: La plupart des morts sont partis. Quelques-uns errent encore dans les ruines. Il faudra revenir l'an prochain.
+echec: Les morts ont submergé l'équipe. Les villages voisins ont barricadé leurs portes jusqu'à la fin de la Floraison.
+recompenses: po 45 ; reputation 4 ; objet Cristal de saphir 8
+
+=== ION-I-050 | Le barrage de Tevasa
+source: institution
+region: ionia
+palier: inconnue
+type: defense
+ton: aventure
+lieu: Tevasa
+demandeur: La Chambre des Bannières, à la demande des villages de Bahrl
+accroche: « Les pluies d'automne ont gonflé la rivière. Le vieux barrage de Tevasa, construit avec l'aide des Luonn Kon il y a cent ans, se fissure. Si il cède, trois villages seront emportés. Les esprits de pierre ne répondent plus aux appels. »
+postes: Tank, Combattant, Support
+duree: 8
+dangereuse: non
+risque: oui
+epreuves: siege 45 (consolider le barrage sous la pluie, pierre par pierre) ; diplomatie 41 (convaincre les Luonn Kon de revenir aider) ; voyage 38 (évacuer les familles des villages en aval, au cas où)
+complication: Les Luonn Kon ne répondent plus parce que le golem qui avait bâti le barrage est mort de vieillesse. Ses frères attendent qu'on vienne le pleurer avec eux.
+eclatante: {meneur} trouve les Luonn Kon rassemblés autour d'une grande pierre immobile, au bord de la rivière, et comprend. L'équipe et les villageois viennent pleurer le vieux golem avec eux, selon la coutume des humains. Les esprits de pierre se lèvent alors, et consolident le barrage en une nuit. Ils y placent le corps de leur frère, comme première pierre. Le barrage tiendra encore cent ans.
+reussite: Le barrage est consolidé par l'équipe et les villageois, sans l'aide des esprits. Il tiendra cet hiver.
+partielle: Le barrage a cédé en partie. Les familles avaient été évacuées. Un village a été inondé, sans victime.
+echec: Le barrage a cédé dans la nuit. Les villages en aval ont été emportés. On compte encore les disparus.
+recompenses: po 160 ; reputation 4 ; objet Ceinture du géant 5

@@ -1,0 +1,423 @@
+# num|C(certain)/D(douteux)|raison
+3|C|équipe DRX
+12|D|plusieurs pirates autour
+14|C|plusieurs champions Academy
+25|C|membres K/DA en arrière-plan
+36|D|un second personnage dans l'écran VS
+41|D|silhouette en premier plan
+52|D|figures en arrière-plan
+54|D|joueurs en arrière-plan
+64|C|Hwei à côté
+69|C|plusieurs champions à table
+75|C|autres champions à la fête
+77|C|une autre héroïne
+79|D|figure en arrière-plan
+87|C|autres élèves champions
+89|C|équipe DRX
+90|D|figure à droite
+92|C|Vi à côté
+93|D|une autre figure
+95|C|plusieurs champions
+115|C|un autre champion à gauche
+127|D|figures en arrière-plan
+132|C|autres champions dinosaures
+139|C|autres champions corgis
+141|C|équipe Fnatic
+147|C|plusieurs champions Academy
+151|C|un autre champion face à lui
+160|D|figures en arrière-plan
+162|D|une créature à gauche
+169|D|un autre combattant
+181|D|une figure au bureau
+187|C|plusieurs champions
+191|C|équipe TPA
+192|C|autres champions
+195|D|figures en arrière-plan
+201|C|plusieurs champions
+204|D|figures en arrière-plan
+207|C|plusieurs champions Academy
+208|C|autres champions d'Arcane
+209|C|un autre champion d'Arcane
+217|C|équipe SKT T1
+227|C|équipe SKT T1
+233|D|figures en arrière-plan
+236|C|membres K/DA en arrière-plan
+237|D|un partenaire de scène
+242|D|une figure à gauche
+247|D|un partenaire de danse
+248|C|plusieurs champions
+250|C|autres élèves champions
+252|D|une figure à côté
+256|C|tout le groupe HEARTSTEEL
+261|C|plusieurs champions
+262|D|une figure en arrière-plan
+267|C|équipe SSG
+269|C|un autre champion footballeur
+270|C|équipe TPA
+282|D|figures dans la pièce
+285|C|une autre sorcière
+294|C|plusieurs champions
+298|D|figures en arrière-plan
+301|C|d'autres astronautes champions
+306|C|autres champions corgis
+316|D|une figure en arrière-plan
+319|C|un autre champion
+320|C|un autre champion
+326|C|équipe T1
+330|C|équipe FPX
+333|C|plusieurs champions
+340|C|un autre élève champion
+351|D|figures autour
+356|D|figure en arrière-plan
+357|C|un autre astronaute champion
+360|C|un autre lutteur champion
+364|C|autres champions dans la neige
+365|C|équipe SSG
+367|C|équipe T1
+370|C|équipe Fnatic
+371|C|plusieurs champions
+375|C|autres champions
+376|D|foule ou champions en arrière-plan
+380|C|autres champions supporters
+387|C|équipe EDG
+391|D|une figure à gauche
+395|D|figures en arrière-plan
+398|D|une figure en arrière-plan
+400|D|une créature à côté
+418|D|figures en arrière-plan
+425|C|une autre championne
+428|C|Brand à côté
+434|C|autres champions cuisiniers
+439|C|autres champions cuisiniers
+469|C|équipe Fnatic
+472|C|autres champions
+485|C|équipe Fnatic
+490|C|plusieurs champions
+492|C|équipe SSG
+509|C|équipe SKT T1
+513|D|un autre gardien
+515|D|un autre personnage d'Arcane
+516|C|autres élèves champions
+525|C|équipe T1
+529|C|autres champions
+533|C|équipe DWG
+539|C|équipe SKT T1
+541|D|figure en arrière-plan
+543|C|portrait de Vi
+545|D|figure en arrière-plan
+550|C|une autre championne
+555|C|équipe T1
+556|D|figures autour
+559|C|tout le groupe HEARTSTEEL
+571|C|membres K/DA en arrière-plan
+583|C|équipe SKT T1
+592|D|une autre figure
+599|D|un autre gardien
+604|C|équipe Fnatic
+608|C|groupe Pentakill
+609|C|groupe Pentakill
+623|C|autres champions
+625|D|un autre personnage
+643|D|une autre figure ailée
+644|C|Morgana à côté
+649|C|autres personnages
+651|C|groupe Pentakill
+652|D|figures en arrière-plan
+658|D|une autre figure
+661|D|figures en arrière-plan
+663|C|tout le groupe HEARTSTEEL
+664|D|figures en arrière-plan
+671|C|autres astronautes champions
+675|C|équipe DWG
+678|D|une figure à gauche
+679|C|autres champions
+699|C|autres champions
+702|C|autres champions
+704|D|figures en arrière-plan
+707|D|une autre abeille
+716|C|autres champions
+692|C|équipe DRX
+721|C|Lulu et un autre champion
+725|C|une autre championne
+727|C|équipe iG
+735|D|figure à côté
+741|C|équipe FPX
+748|D|un autre joueur
+749|D|une figure en arrière-plan
+752|C|équipe SKT T1
+754|C|équipe T1
+757|C|autres champions cuisiniers
+758|D|figures en arrière-plan
+759|D|figures en arrière-plan
+762|C|un autre personnage
+764|C|équipe DWG
+770|D|figures sur la plage
+771|D|figures en arrière-plan
+776|D|une figure à côté
+792|D|une créature à côté
+796|D|une autre figure
+798|D|figures en arrière-plan
+806|C|autres champions footballeurs
+817|C|un autre champion
+818|C|plusieurs champions
+819|C|plusieurs champions
+825|D|figures en arrière-plan
+835|C|plusieurs champions
+837|D|une figure à gauche
+840|D|une figure à gauche
+851|C|équipe FPX
+853|C|autres champions
+860|D|figures sur la plage
+866|C|une autre championne
+874|D|figures en arrière-plan
+877|D|figures autour
+881|C|équipe DRX
+883|C|autres champions footballeurs
+885|D|une créature à gauche
+890|D|un autre combattant
+905|D|une créature à côté
+908|D|une figure en arrière-plan
+918|D|figures en arrière-plan
+919|D|figures en arrière-plan
+920|D|une figure en arrière-plan
+926|D|une figure à côté
+929|C|plusieurs champions
+930|C|plusieurs champions
+939|D|figures en arrière-plan
+944|D|figures en arrière-plan
+946|C|plusieurs champions
+949|C|groupe Pentakill
+950|C|groupe Pentakill
+957|C|Kayle à côté
+960|C|une autre figure ailée
+962|C|une autre championne
+967|D|une figure en bas
+977|C|une autre sorcière
+987|C|équipe SKT T1
+991|C|plusieurs champions
+992|C|plusieurs champions
+1016|D|un autre gardien
+1021|C|plusieurs champions
+1033|C|équipe DWG
+1036|C|une autre championne
+1039|C|plusieurs champions
+1051|C|autres personnages
+1070|C|équipe TPA
+1072|D|figures autour
+1073|D|une figure en arrière-plan
+1074|C|autres champions cuisiniers
+1080|D|un autre combattant
+1081|C|groupe Pentakill
+1082|C|groupe Pentakill
+1084|C|équipe SKT T1
+1095|C|équipe T1
+1096|C|équipe TPA
+1106|C|autres champions cuisiniers
+1118|D|figures autour
+1119|C|un autre astronaute champion
+1129|D|figures en arrière-plan
+1145|C|équipe T1
+1154|D|une autre figure
+1155|C|tout le groupe True Damage
+1158|D|plusieurs pirates autour
+1165|C|Xayah à côté
+1166|C|Xayah à côté
+1167|C|Xayah à côté
+1168|C|Xayah à côté
+1169|C|Xayah à côté
+1171|C|Xayah à côté
+1174|C|Xayah à côté
+1175|C|équipe SSG
+1176|C|Xayah à côté
+1177|C|Xayah à côté
+1178|C|un autre astronaute champion
+1190|D|un autre joueur
+1195|C|plusieurs champions
+1197|D|figures en arrière-plan
+1202|D|une figure à droite
+1208|D|une seconde créature
+1216|D|figures en arrière-plan
+1217|C|autres champions dinosaures
+1219|C|autres champions
+1222|C|équipe SKT T1
+1225|C|autres champions
+1229|C|autres champions
+1231|C|équipe SSW
+1232|D|une figure en arrière-plan
+1234|D|un adversaire dans l'écran VS
+1247|D|un autre personnage
+1251|D|un autre personnage
+1254|D|une figure à côté
+1263|C|autres champions
+1266|C|plusieurs champions
+1267|C|équipe SKT T1
+1274|D|une figure en arrière-plan
+1275|D|une figure en arrière-plan
+1279|D|un adversaire
+1280|D|une figure à côté
+1282|C|autres champions
+1287|D|une figure à côté
+1289|D|figures en arrière-plan
+1291|C|un autre champion
+1293|D|une figure à gauche
+1295|C|une autre sorcière
+1302|D|une figure à droite
+1304|C|tout le groupe True Damage
+1309|D|figures en arrière-plan
+1318|C|plusieurs champions
+1321|C|équipe T1
+1322|D|une figure à gauche
+1323|D|figures en arrière-plan
+1324|C|tout le groupe HEARTSTEEL
+1327|C|un autre champion
+1330|D|figures en arrière-plan
+1335|D|une autre figure
+1348|C|plusieurs champions
+1353|C|autres champions
+1355|D|une figure à gauche
+1359|D|une autre figure
+1362|C|équipe TPA
+1366|D|figures en arrière-plan
+1371|D|une figure en arrière-plan
+1374|D|une autre figure
+1375|C|un autre astronaute champion
+1377|D|une figure à côté
+1378|C|autres personnages
+1384|D|une figure à côté
+1385|C|équipe SSW
+1396|C|une autre championne
+1399|D|figures en arrière-plan
+1402|C|autres champions
+1407|D|une figure en hologramme
+1417|D|un autre gardien
+1423|D|une seconde créature
+1436|C|groupe Pentakill
+1437|C|groupe Pentakill
+1442|D|une figure en arrière-plan
+1446|C|autres champions
+1454|D|une autre figure
+1456|C|plusieurs champions
+1457|C|plusieurs champions
+1458|C|plusieurs champions
+1468|C|une autre championne
+1470|D|figures en arrière-plan
+1477|C|un autre champion
+1479|D|une autre figure
+1481|D|une autre figure
+1490|D|une figure à côté
+1492|C|plusieurs champions
+1494|C|plusieurs champions
+1495|C|équipe SKT T1
+1496|D|une figure à côté
+1499|C|Talon à côté
+1503|D|figures autour
+1505|D|une figure à côté
+1507|C|autres champions
+1511|D|figures en arrière-plan
+1512|C|un autre champion
+1513|C|équipe SSG
+1521|D|un autre personnage
+1525|C|équipe SSW
+1526|C|autres champions
+1527|C|Syndra à côté
+1533|D|figures en arrière-plan
+1535|C|autres champions
+1541|D|une figure à gauche
+1549|D|une figure en arrière-plan
+1556|C|équipe FPX
+1558|D|figures en arrière-plan
+1564|C|équipe SSW
+1582|D|une figure à côté
+1583|D|une créature à côté
+1589|C|un autre champion
+1591|C|plusieurs champions
+1597|C|autres champions
+1605|D|un autre personnage
+1606|D|une figure à gauche
+1610|D|une figure en arrière-plan
+1614|D|figures en arrière-plan
+1615|C|équipe DWG
+1617|C|plusieurs champions
+1622|C|autres champions footballeurs
+1624|C|Evelynn à côté
+1628|D|une figure à côté
+1637|C|une autre championne
+1639|C|équipe SSW
+1640|C|autres champions
+1643|D|figures en arrière-plan
+1645|C|plusieurs champions
+1655|D|une figure à droite
+1657|D|une figure à gauche
+1673|C|équipe T1
+1674|C|plusieurs champions
+1677|C|un autre champion
+1684|C|équipe FPX
+1691|C|équipe SKT T1
+1703|C|plusieurs champions
+1717|C|autres champions
+1725|D|figures en arrière-plan
+1726|D|figures en arrière-plan
+1730|C|Caitlyn à côté
+1731|D|une figure à droite
+1733|C|un autre champion policier
+1737|C|équipe T1
+1740|D|un autre personnage
+1741|C|équipe EDG
+1745|C|un autre combattant champion
+1746|D|une figure en arrière-plan
+1749|D|un autre personnage
+1752|D|une figure en arrière-plan
+1753|D|une figure à droite
+1756|C|plusieurs champions
+1759|C|une autre championne
+1764|D|une figure dans ses bras
+1771|C|un autre champion policier
+1774|C|un autre lutteur champion
+1789|D|une figure à gauche
+1799|C|un autre élève champion
+1801|D|une seconde figure
+1809|C|Rakan à côté
+1810|C|Rakan à côté
+1813|C|Rakan à côté
+1814|C|Rakan à côté
+1815|C|Rakan à côté
+1816|C|Rakan à côté
+1818|C|Rakan à côté
+1819|C|équipe SSG
+1820|C|Rakan à côté
+1821|C|Rakan à côté
+1823|D|un autre astronaute
+1829|C|autres champions
+1836|D|figures autour
+1840|C|équipe T1
+1858|D|foule en contrebas
+1862|C|tout le groupe True Damage
+1863|D|silhouettes dans la foule
+1869|C|tout le groupe HEARTSTEEL
+1873|C|plusieurs champions
+1877|C|équipe T1
+1882|C|autres champions
+1883|C|groupe Pentakill
+1884|C|groupe Pentakill
+1887|D|une figure en arrière-plan
+1890|C|équipe T1
+1895|C|équipe EDG
+1897|D|une jeune femme à côté
+1900|C|une autre championne
+1901|D|une autre abeille
+1907|C|plusieurs champions
+1908|C|équipe SKT T1
+1909|D|une petite figure
+1911|D|une figure à côté
+1925|C|équipe SKT T1
+1930|C|une autre championne
+1933|D|une figure à droite
+1934|D|une figure en arrière-plan
+1935|D|une autre abeille
+1937|D|une figure à gauche
+1944|C|autres champions
+1947|D|une figure à gauche
+1960|C|équipe EDG
+1961|C|plusieurs champions
+1970|C|un autre champion
+1975|C|équipe SKT T1

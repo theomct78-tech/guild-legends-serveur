@@ -1,0 +1,33 @@
+# Scènes de la vie de guilde · lot 5 : les nouvelles pièces du repère (8 nov. 2026)
+# Chaque pièce construite ouvre un lieu de vie : ces scènes n'arrivent que si la pièce existe.
+# Même format : ID|déclencheur|conditions|importance|effets|texte. Aucun accord de genre sur {a} ni {b}.
+
+# --- La salle d'armes ---
+VIE-1300|entrainement|lieu=salle_armes|1||{a} enchaîne les passes contre un mannequin de la salle d'armes jusqu'à ce que la paille sorte par les coutures. Il faudra en rembourrer un autre. Encore.
+VIE-1301|entrainement|lieu=salle_armes|1||Dans la salle d'armes, {a} essaie toutes les armes d'exercice du râtelier, une par une, avec le sérieux de quelqu'un qui fait ses courses. Aucune ne convient. {a} reprend la sienne.
+VIE-1302|entrainement|lieu=salle_armes,a.Di>75|1||Chaque matin, {a} arrive à la salle d'armes avant le lever du soleil, allume les lampes et balaie le sol. Puis seulement commence l'entraînement. Personne n'a jamais demandé ce rituel. Tout le monde le respecte.
+VIE-1303|entrainement_duo|lieu=salle_armes|1||{a} et {b} s'affrontent à la salle d'armes avec des épées de bois. Au bout d'une heure, plus personne ne compte les points. On compte les bleus, et ils sont à égalité.
+VIE-1304|defi|lieu=salle_armes|2||{a} lance un défi à {b} devant le râtelier de la salle d'armes : celui qui perd balaie la salle pendant une semaine. La salle n'a jamais été aussi propre. On ne dira pas qui a perdu.
+
+# --- Les écuries ---
+VIE-1310|solitude|lieu=ecuries|1||{a} passe l'après-midi aux écuries à brosser les chevaux, sans un mot. Les chevaux, eux, ont l'air de comprendre beaucoup de choses.
+VIE-1311|solitude|lieu=ecuries|1||{a} donne une pomme au plus vieux cheval des écuries, puis une deuxième, puis toutes les pommes de la cuisine. Le cuisinier mène l'enquête. Le cheval ne dit rien.
+VIE-1312|bon_moment|lieu=ecuries|1||{a} et {b} se retrouvent aux écuries pour soigner un poulain qui boite. Ils restent avec lui jusqu'au soir, assis dans la paille, à parler de tout sauf des missions.
+VIE-1313|solitude|lieu=ecuries,soir|1||Tard le soir, {a} s'endort dans la paille des écuries, contre le flanc tiède d'un cheval. Au matin, {chien} est venu se coucher contre ses jambes.
+
+# --- La forge ---
+VIE-1320|solitude|lieu=forge|1||{a} passe la matinée à la forge à faire reprendre le fil de sa lame. Le forgeron dit que cette lame a dû en voir de toutes les couleurs. {a} ne dément pas.
+VIE-1321|bon_moment|lieu=forge|1||{a} et {b} discutent à côté du feu de la forge, parce qu'il y fait chaud, et que le forgeron ne pose jamais de questions.
+VIE-1322|solitude|lieu=forge|1||{a} regarde le forgeron travailler pendant une heure, sans rien dire. Le bruit du marteau a quelque chose d'apaisant. Le forgeron finit par lui tendre un tablier.
+
+# --- La salle des cartes ---
+VIE-1330|lecture|lieu=salle_cartes|1||{a} passe la soirée dans la salle des cartes, à suivre du doigt des routes où personne de la guilde n'est encore allé. Il y en a beaucoup. C'est bon signe.
+VIE-1331|lecture|lieu=salle_cartes,a:CURIEUX|1||{a} corrige à l'encre rouge une carte de la salle des cartes : un pont qui n'existe plus, un village qui a changé de nom. Personne ne lui a rien demandé. La carte est bien meilleure.
+VIE-1332|bon_moment|lieu=salle_cartes|1||{a} et {b} se penchent sur la grande table de la salle des cartes et préparent, pour le plaisir, une expédition imaginaire. Elle durerait trois ans. Ils ont déjà choisi qui porterait les bagages.
+
+# --- L'aile nord ---
+VIE-1340|repos|lieu=aile_nord|1||{a} profite du calme de l'aile nord, loin du bruit de la salle commune, et dort d'un sommeil sans rêves, pour une fois.
+VIE-1341|bon_moment|lieu=aile_nord|1||Dans l'aile nord, {a} et {b} ont décidé d'accrocher une guirlande de lanternes dans le couloir. Elle est de travers. Personne ne la redresse : c'est devenu la tradition.
+
+# --- Les cuisines (complément) ---
+VIE-1350|discussion|lieu=cuisines,jour|1||À midi, tout le monde passe aux cuisines. {a} arrive après tout le monde, et se retrouve avec la plus grosse part, par un mystère que personne n'explique.

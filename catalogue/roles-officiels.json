@@ -1,0 +1,651 @@
+{
+ "Annie": [
+  "mage",
+  "support"
+ ],
+ "Olaf": [
+  "fighter",
+  "tank"
+ ],
+ "Galio": [
+  "tank",
+  "mage"
+ ],
+ "Twisted Fate": [
+  "mage",
+  "marksman"
+ ],
+ "Xin Zhao": [
+  "fighter",
+  "tank"
+ ],
+ "Urgot": [
+  "fighter",
+  "tank"
+ ],
+ "LeBlanc": [
+  "assassin",
+  "mage"
+ ],
+ "Vladimir": [
+  "mage",
+  "fighter"
+ ],
+ "Fiddlesticks": [
+  "mage",
+  "support"
+ ],
+ "Kayle": [
+  "marksman",
+  "mage"
+ ],
+ "Master Yi": [
+  "fighter",
+  "assassin"
+ ],
+ "Alistar": [
+  "tank",
+  "support"
+ ],
+ "Ryze": [
+  "mage"
+ ],
+ "Sion": [
+  "tank",
+  "fighter"
+ ],
+ "Sivir": [
+  "marksman"
+ ],
+ "Soraka": [
+  "support",
+  "mage"
+ ],
+ "Teemo": [
+  "marksman",
+  "mage"
+ ],
+ "Tristana": [
+  "marksman",
+  "assassin"
+ ],
+ "Warwick": [
+  "fighter",
+  "tank"
+ ],
+ "Nunu & Willump": [
+  "tank",
+  "mage"
+ ],
+ "Miss Fortune": [
+  "marksman",
+  "mage"
+ ],
+ "Ashe": [
+  "marksman",
+  "support"
+ ],
+ "Tryndamere": [
+  "fighter",
+  "assassin"
+ ],
+ "Jax": [
+  "fighter"
+ ],
+ "Morgana": [
+  "support",
+  "mage"
+ ],
+ "Zilean": [
+  "support",
+  "mage"
+ ],
+ "Singed": [
+  "tank",
+  "mage"
+ ],
+ "Evelynn": [
+  "assassin",
+  "mage"
+ ],
+ "Twitch": [
+  "marksman",
+  "assassin"
+ ],
+ "Karthus": [
+  "mage"
+ ],
+ "Cho'Gath": [
+  "tank",
+  "mage"
+ ],
+ "Amumu": [
+  "tank",
+  "support"
+ ],
+ "Rammus": [
+  "tank"
+ ],
+ "Anivia": [
+  "mage"
+ ],
+ "Shaco": [
+  "assassin"
+ ],
+ "Dr. Mundo": [
+  "tank",
+  "fighter"
+ ],
+ "Sona": [
+  "support",
+  "mage"
+ ],
+ "Kassadin": [
+  "assassin",
+  "mage"
+ ],
+ "Irelia": [
+  "fighter",
+  "assassin"
+ ],
+ "Janna": [
+  "support",
+  "mage"
+ ],
+ "Gangplank": [
+  "fighter"
+ ],
+ "Corki": [
+  "marksman",
+  "mage"
+ ],
+ "Karma": [
+  "mage",
+  "support"
+ ],
+ "Taric": [
+  "support",
+  "tank"
+ ],
+ "Veigar": [
+  "mage"
+ ],
+ "Trundle": [
+  "fighter",
+  "tank"
+ ],
+ "Swain": [
+  "mage",
+  "support"
+ ],
+ "Caitlyn": [
+  "marksman"
+ ],
+ "Blitzcrank": [
+  "tank",
+  "support"
+ ],
+ "Malphite": [
+  "tank",
+  "mage"
+ ],
+ "Katarina": [
+  "assassin",
+  "mage"
+ ],
+ "Nocturne": [
+  "fighter",
+  "assassin"
+ ],
+ "Maokai": [
+  "tank",
+  "support"
+ ],
+ "Renekton": [
+  "fighter",
+  "tank"
+ ],
+ "Jarvan IV": [
+  "fighter",
+  "tank"
+ ],
+ "Elise": [
+  "assassin",
+  "mage"
+ ],
+ "Orianna": [
+  "mage",
+  "support"
+ ],
+ "Wukong": [
+  "fighter",
+  "tank"
+ ],
+ "Brand": [
+  "mage",
+  "support"
+ ],
+ "Lee Sin": [
+  "fighter",
+  "assassin"
+ ],
+ "Vayne": [
+  "marksman",
+  "assassin"
+ ],
+ "Rumble": [
+  "fighter",
+  "mage"
+ ],
+ "Cassiopeia": [
+  "mage"
+ ],
+ "Skarner": [
+  "tank",
+  "fighter"
+ ],
+ "Heimerdinger": [
+  "mage",
+  "support"
+ ],
+ "Nasus": [
+  "fighter",
+  "tank"
+ ],
+ "Nidalee": [
+  "assassin",
+  "mage"
+ ],
+ "Udyr": [
+  "fighter",
+  "tank"
+ ],
+ "Poppy": [
+  "tank",
+  "fighter"
+ ],
+ "Gragas": [
+  "fighter",
+  "mage"
+ ],
+ "Pantheon": [
+  "fighter",
+  "assassin"
+ ],
+ "Ezreal": [
+  "marksman",
+  "mage"
+ ],
+ "Mordekaiser": [
+  "fighter",
+  "mage"
+ ],
+ "Yorick": [
+  "fighter",
+  "tank"
+ ],
+ "Akali": [
+  "assassin"
+ ],
+ "Kennen": [
+  "mage"
+ ],
+ "Garen": [
+  "fighter",
+  "tank"
+ ],
+ "Leona": [
+  "tank",
+  "support"
+ ],
+ "Malzahar": [
+  "mage"
+ ],
+ "Talon": [
+  "assassin"
+ ],
+ "Riven": [
+  "fighter",
+  "assassin"
+ ],
+ "Kog'Maw": [
+  "marksman",
+  "mage"
+ ],
+ "Shen": [
+  "tank"
+ ],
+ "Lux": [
+  "mage",
+  "support"
+ ],
+ "Xerath": [
+  "mage",
+  "support"
+ ],
+ "Shyvana": [
+  "fighter",
+  "tank"
+ ],
+ "Ahri": [
+  "mage",
+  "assassin"
+ ],
+ "Graves": [
+  "marksman"
+ ],
+ "Fizz": [
+  "assassin",
+  "fighter"
+ ],
+ "Volibear": [
+  "fighter",
+  "tank"
+ ],
+ "Rengar": [
+  "assassin",
+  "fighter"
+ ],
+ "Varus": [
+  "marksman",
+  "mage"
+ ],
+ "Nautilus": [
+  "tank",
+  "support"
+ ],
+ "Viktor": [
+  "mage"
+ ],
+ "Sejuani": [
+  "tank"
+ ],
+ "Fiora": [
+  "fighter",
+  "assassin"
+ ],
+ "Ziggs": [
+  "mage"
+ ],
+ "Lulu": [
+  "support",
+  "mage"
+ ],
+ "Draven": [
+  "marksman"
+ ],
+ "Hecarim": [
+  "fighter",
+  "tank"
+ ],
+ "Kha'Zix": [
+  "assassin"
+ ],
+ "Darius": [
+  "fighter",
+  "tank"
+ ],
+ "Jayce": [
+  "fighter",
+  "marksman"
+ ],
+ "Lissandra": [
+  "mage"
+ ],
+ "Diana": [
+  "fighter",
+  "assassin"
+ ],
+ "Quinn": [
+  "marksman",
+  "assassin"
+ ],
+ "Syndra": [
+  "mage"
+ ],
+ "Aurelion Sol": [
+  "mage"
+ ],
+ "Kayn": [
+  "fighter",
+  "assassin"
+ ],
+ "Zoe": [
+  "mage"
+ ],
+ "Zyra": [
+  "mage",
+  "support"
+ ],
+ "Kai'Sa": [
+  "marksman",
+  "mage"
+ ],
+ "Seraphine": [
+  "support",
+  "mage"
+ ],
+ "Gnar": [
+  "fighter",
+  "tank"
+ ],
+ "Zac": [
+  "tank",
+  "fighter"
+ ],
+ "Yasuo": [
+  "fighter",
+  "assassin"
+ ],
+ "Vel'Koz": [
+  "mage",
+  "support"
+ ],
+ "Taliyah": [
+  "mage",
+  "support"
+ ],
+ "Camille": [
+  "fighter",
+  "assassin"
+ ],
+ "Akshan": [
+  "marksman",
+  "assassin"
+ ],
+ "Bel'Veth": [
+  "fighter"
+ ],
+ "Braum": [
+  "tank",
+  "support"
+ ],
+ "Jhin": [
+  "marksman",
+  "mage"
+ ],
+ "Kindred": [
+  "marksman"
+ ],
+ "Zeri": [
+  "marksman"
+ ],
+ "Jinx": [
+  "marksman"
+ ],
+ "Tahm Kench": [
+  "tank",
+  "support"
+ ],
+ "Briar": [
+  "fighter",
+  "assassin"
+ ],
+ "Viego": [
+  "fighter",
+  "assassin"
+ ],
+ "Senna": [
+  "support",
+  "marksman"
+ ],
+ "Lucian": [
+  "marksman",
+  "assassin"
+ ],
+ "Zed": [
+  "assassin"
+ ],
+ "Kled": [
+  "fighter"
+ ],
+ "Ekko": [
+  "assassin",
+  "mage"
+ ],
+ "Qiyana": [
+  "assassin"
+ ],
+ "Vi": [
+  "fighter",
+  "assassin"
+ ],
+ "Aatrox": [
+  "fighter"
+ ],
+ "Nami": [
+  "support",
+  "mage"
+ ],
+ "Azir": [
+  "mage",
+  "marksman"
+ ],
+ "Yuumi": [
+  "support",
+  "mage"
+ ],
+ "Samira": [
+  "marksman",
+  "assassin"
+ ],
+ "Thresh": [
+  "support",
+  "tank"
+ ],
+ "Illaoi": [
+  "fighter",
+  "tank"
+ ],
+ "Rek'Sai": [
+  "fighter",
+  "tank"
+ ],
+ "Ivern": [
+  "support",
+  "mage"
+ ],
+ "Kalista": [
+  "marksman"
+ ],
+ "Bard": [
+  "support",
+  "mage"
+ ],
+ "Rakan": [
+  "support"
+ ],
+ "Xayah": [
+  "marksman"
+ ],
+ "Ornn": [
+  "tank"
+ ],
+ "Sylas": [
+  "mage",
+  "assassin"
+ ],
+ "Neeko": [
+  "mage",
+  "support"
+ ],
+ "Aphelios": [
+  "marksman"
+ ],
+ "Rell": [
+  "tank",
+  "support"
+ ],
+ "Pyke": [
+  "support",
+  "assassin"
+ ],
+ "Vex": [
+  "mage"
+ ],
+ "Yone": [
+  "fighter",
+  "assassin"
+ ],
+ "Ambessa": [
+  "fighter",
+  "assassin"
+ ],
+ "Mel": [
+  "mage",
+  "support"
+ ],
+ "Yunara": [
+  "marksman"
+ ],
+ "Locke": [
+  "assassin",
+  "mage"
+ ],
+ "Sett": [
+  "fighter",
+  "tank"
+ ],
+ "Lillia": [
+  "fighter",
+  "mage"
+ ],
+ "Gwen": [
+  "fighter"
+ ],
+ "Renata Glasc": [
+  "support",
+  "mage"
+ ],
+ "Aurora": [
+  "mage",
+  "assassin"
+ ],
+ "Nilah": [
+  "fighter",
+  "assassin"
+ ],
+ "K'Sante": [
+  "tank",
+  "fighter"
+ ],
+ "Smolder": [
+  "marksman",
+  "mage"
+ ],
+ "Milio": [
+  "support",
+  "mage"
+ ],
+ "Zaahen": [
+  "fighter"
+ ],
+ "Hwei": [
+  "mage",
+  "support"
+ ],
+ "Naafiri": [
+  "assassin",
+  "fighter"
+ ]
+}

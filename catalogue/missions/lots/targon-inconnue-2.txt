@@ -1,0 +1,503 @@
+# Targon · palier Inconnue · lot 2 (missions 026 à 050 ; 041 à 050 : contrats publics relayés par la Chambre des Bannières)
+
+=== TAR-I-026 | La grotte aux voix
+source: privee
+region: targon
+palier: inconnue
+type: exploration
+ton: horreur
+lieu: Pentes supérieures
+demandeur: Sigrun, guide de montagne, dont deux clients sont entrés dans une grotte et en sont ressortis changés
+accroche: « Ils se sont abrités dans une grotte pendant une tempête. Ils en sont ressortis le lendemain. Depuis, ils parlent dans une langue que personne ne connaît, et ils veulent y retourner. Je les ai attachés. Je ne sais pas combien de temps je pourrai. »
+postes: Mage, Éclaireur
+duree: 9
+dangereuse: non
+epreuves: voyage 38 (retrouver la grotte sur les pentes supérieures, dans la neige fraîche) ; discretion 36 (y entrer sans se laisser prendre par ce qui parle)
+complication: Les voix de la grotte sont des échos d'anciens grimpeurs, prisonniers d'un cristal qui rejoue leurs dernières pensées à ceux qui dorment près de lui.
+eclatante: {meneur} entre dans la grotte en restant éveillé, et trouve le cristal au fond. L'équipe le recouvre de pierres et de neige, sans le toucher. Les deux clients de Sigrun se réveillent le lendemain en parlant de nouveau leur langue. Ils ne se souviennent de rien, sauf d'un nom : celui d'une grimpeuse morte il y a trois siècles. Sigrun fait graver ce nom à l'entrée de la grotte.
+reussite: Le cristal est trouvé et recouvert. Les clients de Sigrun retrouvent leurs mots, lentement. Ils rentrent chez eux sans regarder la montagne.
+partielle: L'équipe a dû ressortir de la grotte avant le fond. Un des clients guérit. L'autre parle encore, la nuit, dans la langue inconnue.
+echec: La grotte s'est effondrée pendant la nuit. Les clients parlent toujours la langue inconnue. Ils semblent heureux. C'est le plus inquiétant.
+recompenses: po 40 ; reputation 3 ; objet Cape de négation 7
+
+=== TAR-I-027 | Le message à la plaine
+source: privee
+region: targon
+palier: inconnue
+type: livraison
+ton: tendre
+lieu: Sanctuaires de prière
+demandeur: Ragna, vieille guerrière rakkor, qui veut écrire à une amie d'enfance partie vivre à Demacia
+accroche: « Elle est partie il y a cinquante ans. Je n'ai jamais appris à écrire, et elle n'a jamais appris à revenir. J'ai trouvé quelqu'un au sanctuaire qui écrira ma lettre. Il faut la porter jusqu'à la plaine, où passe le coursier de Demacia. Une fois par mois. Il passe demain. »
+postes: Healer
+duree: 4
+dangereuse: non
+epreuves: diplomatie 28 (aider la vieille guerrière à dire, à voix haute, ce qu'elle n'a jamais dit) ; voyage 29 (descendre à la plaine avant le passage du coursier)
+complication: Le coursier de Demacia a déjà une lettre pour Ragna, écrite par son amie, qui n'osait pas l'envoyer depuis des années.
+eclatante: {meneur} aide Ragna à dicter sa lettre, mot à mot. En bas, le coursier tend une enveloppe : pour Ragna, de Demacia. Les deux lettres se sont croisées. {meneur} remonte avec la réponse avant même que la question soit partie. Ragna ne sait pas lire. On la lui lit. Elle rit, puis elle pleure, puis elle rit encore. Son amie viendra au printemps.
+reussite: La lettre part avec le coursier. Ragna attend la réponse. Elle arrive deux mois plus tard. Elle la fait lire dix fois.
+partielle: La lettre est partie, mais en retard d'un mois. Ragna attend. Elle dit qu'elle a l'habitude.
+echec: Le coursier était passé plus tôt. La lettre attendra un mois de plus. Ragna l'a cachée sous son oreiller. Elle dort dessus, pour l'instant.
+recompenses: po 10 ; reputation 2 ; objet Charme féerique 8
+
+=== TAR-I-028 | Les chasseurs de têtes
+source: privee
+region: targon
+palier: inconnue
+type: traque
+ton: tragique
+lieu: Plaines basses
+demandeur: Torvald, chef de clan, dont le fils a été tué par des chasseurs venus d'ailleurs
+accroche: « Des étrangers chassent les tamus pour leurs cornes. Mon fils a voulu les arrêter. Ils l'ont tué, et ils sont repartis. Les guerriers veulent les poursuivre jusqu'au bout du monde. Moi, je veux qu'on les ramène vivants. Ils doivent regarder ma femme dans les yeux. »
+postes: Éclaireur, Combattant
+duree: 6
+dangereuse: non
+epreuves: poursuite 35 (rattraper les chasseurs avant qu'ils atteignent la mer) ; combat 34 (les arrêter vivants)
+complication: L'un des chasseurs est un jeune homme qui n'a pas tiré, et qui veut témoigner contre les autres.
+eclatante: {meneur} rattrape les chasseurs au bord de la plaine, et les ramène vivants, les mains liées. Le plus jeune parle, devant la mère du mort. Il dit qui a tiré. Il demande pardon. La mère le regarde longtemps, puis elle dit qu'elle ne le pardonnera pas, mais qu'elle ne le tuera pas non plus. Le clan juge les autres. Le jeune homme est renvoyé chez lui, à pied, sans rien. Il est vivant. Ce n'était pas obligé.
+reussite: Les chasseurs sont ramenés vivants. Le clan les juge. On ne sait pas ce qui leur arrive. On ne demande pas.
+partielle: Un chasseur a été ramené. Les autres ont pris la mer. Le clan juge celui qui reste pour tous.
+echec: Les chasseurs ont pris la mer. Les guerriers rakkors sont partis à leur poursuite. Torvald attend, sans rien dire.
+recompenses: po 30 ; reputation 3 ; objet Élixir de rage 6
+
+=== TAR-I-029 | La hache dans la glace
+source: privee
+region: targon
+palier: inconnue
+type: recuperation
+ton: drole
+lieu: Lac gelé
+demandeur: Bjorn, colosse rakkor, qui a fait tomber la hache de son clan dans le Lac gelé en voulant impressionner une jeune femme
+accroche: « Elle m'a regardé. J'ai voulu lancer la hache très loin. Elle est allée très loin. Elle est sous la glace, maintenant, au milieu du lac. La hache a trois cents ans. Mon père a deux cents bonnes raisons de me tuer, et une très mauvaise. C'est celle-là. »
+postes: Tank, Mage
+duree: 10
+dangereuse: non
+epreuves: voyage 37 (rejoindre le Lac gelé et marcher sur la glace) ; siege 35 (percer une glace millénaire sans briser tout le lac)
+complication: La jeune femme que Bjorn voulait impressionner est déjà sur place, à creuser la glace avec ses propres mains, pour la même raison.
+eclatante: {meneur} perce la glace avec l'aide de la jeune femme, qui a apporté ses propres outils. La hache remonte au bout d'une corde. Bjorn est si soulagé qu'il oublie d'être timide, et la demande en mariage sur la glace. Elle dit oui. Le père de Bjorn dit que c'est la seule chose intelligente que son fils ait faite avec cette hache.
+reussite: La hache est remontée. Bjorn la rapporte au clan. Son père ne le tue pas. Il le regarde longtemps.
+partielle: La hache est remontée, mais le manche s'est fendu. Bjorn en a sculpté un nouveau. Son père ne l'a pas encore remarqué.
+echec: La hache est restée sous la glace. Bjorn a avoué. Il garde les chèvres, maintenant. La jeune femme vient l'aider, parfois.
+recompenses: po 35 ; reputation 2 ; objet Épée longue 7
+
+=== TAR-I-030 | Le guide qui a perdu le chemin
+source: privee
+region: targon
+palier: inconnue
+type: sauvetage
+ton: mystere
+lieu: Pentes supérieures
+demandeur: les familles de cinq voyageurs partis avec un guide qui connaît la montagne depuis quarante ans
+accroche: « Le vieux Hakon guide des voyageurs depuis quarante ans. Il est parti avec cinq personnes, il y a quatre jours. Pour deux jours. Hakon ne se perd pas. Il ne s'est jamais perdu. Il faut monter. »
+postes: Healer, Tank
+duree: 9
+dangereuse: non
+risque: oui
+epreuves: voyage 43 (monter dans la tempête, sur des sentiers qui ne ressemblent plus à rien) ; poursuite 42 (retrouver les traces de six personnes dans la neige fraîche) ; voyage 41 (redescendre avec des gens épuisés et gelés)
+complication: La montagne a changé : les chemins que Hakon connaît ne mènent plus aux mêmes endroits. Quelque chose a déplacé les rochers.
+eclatante: {meneur} retrouve le groupe abrité dans une crevasse, vivant, autour du vieux Hakon qui leur racontait des histoires pour qu'ils ne s'endorment pas. Hakon dit que la montagne a bougé pendant la nuit. Personne ne le croit, sauf la guilde, qui a vu les nouveaux rochers. Les six descendent. Hakon arrête de guider. Il dit que la montagne a changé de propriétaire.
+reussite: Le groupe est retrouvé, vivant. Deux voyageurs ont des engelures. Hakon a perdu sa confiance. Il garde ses jambes.
+partielle: Quatre voyageurs sont ramenés. Hakon et le dernier sont restés en haut, introuvables. On espère encore.
+echec: La tempête a forcé l'équipe à redescendre. Les familles attendent toujours, au pied de la montagne, avec des lanternes.
+recompenses: po 160 ; reputation 4 ; objet Élixir de fer 10
+
+=== TAR-I-031 | L'erbok de course
+source: privee
+region: targon
+palier: inconnue
+type: chasse
+ton: drole
+lieu: Anneau de la Montagne
+demandeur: Tyra, éleveuse rakkor, qui veut capturer l'erbok le plus rapide de la montagne pour la course du printemps
+accroche: « Il s'appelle Foudre. Enfin, c'est moi qui l'appelle comme ça. Il ne sait pas qu'il s'appelle Foudre. Il ne sait pas qu'il va courir pour moi. Il ne sait même pas que j'existe. Il faut l'attraper. Il court très vite. Je l'ai déjà dit ? »
+postes: Assassin
+duree: 4
+dangereuse: non
+epreuves: discretion 29 (approcher un erbok sauvage contre le vent) ; poursuite 31 (le rattraper quand il comprend ce qui se passe)
+complication: Foudre n'est pas sauvage : il appartient à un clan voisin, qui le cherche aussi, et qui ne savait pas non plus qu'il s'appelait Foudre.
+eclatante: {meneur} attrape Foudre au lasso, après une course qui fait le tour du pré trois fois. Le clan voisin arrive. Plutôt que de se battre, Tyra et le chef voisin décident de faire courir Foudre pour les deux clans. Il gagne la course du printemps. Les deux clans se partagent la gloire. Foudre, lui, ne sait toujours pas qu'il s'appelle Foudre.
+reussite: Foudre est capturé, et il court pour Tyra. Il arrive deuxième. Tyra dit que c'est parce qu'il a regardé une femelle.
+partielle: Foudre a été capturé, puis il s'est échappé la veille de la course. Tyra a couru avec un autre erbok. Elle est arrivée dernière.
+echec: Foudre a gagné la course. Pour le clan voisin. Tyra a applaudi, les dents serrées.
+recompenses: po 15 ; reputation 1 ; objet Bottes 8
+
+=== TAR-I-032 | La lettre du novice
+source: privee
+region: targon
+palier: inconnue
+type: livraison
+ton: tragique
+lieu: Temple du Solstice
+demandeur: Marek, novice solaris, qui doit annoncer à sa mère qu'il ne rentrera jamais
+accroche: « Les novices qui prononcent leurs vœux ne redescendent pas. Je les prononce dans une semaine. Ma mère ne le sait pas. Elle croit que je rentre à l'automne. Je n'ai pas le courage de lui écrire, et je n'ai pas le droit de descendre. Portez-lui ma lettre. Et dites-lui que je vais bien. Même si je ne sais pas. »
+postes: Support
+duree: 5
+dangereuse: non
+epreuves: voyage 30 (descendre du Temple du Solstice jusqu'au village de la mère) ; diplomatie 31 (annoncer une nouvelle qu'aucune mère ne veut entendre)
+complication: La mère de Marek monte déjà vers le temple, pour le voir avant ses vœux. L'équipe la croise sur le chemin.
+eclatante: {meneur} croise la mère sur le sentier et, au lieu de lui donner la lettre, la ramène jusqu'au temple. Les Solaris refusent d'abord. Puis, devant cette femme qui a marché trois jours, le prieur cède : une heure, dans la cour. Marek et sa mère parlent une heure. Elle redescend en disant qu'elle est fière. Elle pleure tout le long. Mais elle est fière.
+reussite: La lettre est remise. La mère la lit, s'assoit, et ne dit rien pendant longtemps. Puis elle remercie l'équipe, et lui offre à manger.
+partielle: La lettre est remise, mais la mère refuse de la croire. Elle monte au temple. On ne la laisse pas entrer. Elle attend devant la porte.
+echec: L'équipe a manqué la mère sur le chemin. Elle est arrivée au temple le jour des vœux. Elle a vu son fils de loin, en blanc.
+recompenses: po 15 ; reputation 2 ; objet Potion de soin 7
+
+=== TAR-I-033 | Le loup aux yeux d'argent
+source: privee
+region: targon
+palier: inconnue
+type: traque
+ton: mystere
+lieu: Temple des Lunaris
+demandeur: Sven, chasseur de l'Anneau, qui piste un loup que la lune semble protéger
+accroche: « Ce loup tue mes bêtes. Je l'ai visé dix fois. Dix fois, la lune est sortie des nuages au moment où je tirais, et j'ai été ébloui. Ce n'est pas un loup normal. Je veux qu'on le trouve. Et je veux savoir pourquoi la lune l'aime autant. »
+postes: Éclaireur, Tireur
+duree: 6
+dangereuse: non
+epreuves: poursuite 34 (suivre un loup qui ne laisse presque pas de traces) ; discretion 35 (approcher son repaire sans éveiller ce qui le protège)
+complication: Le loup mène l'équipe jusqu'à l'entrée cachée du temple des Lunaris. Il en est le gardien.
+eclatante: {meneur} suit le loup jusqu'au temple caché, et comprend. L'équipe ne dit rien à personne. Elle dit seulement à Sven que le loup ne reviendra plus, et laisse au pied du temple un quartier de viande, en offrande. Les bêtes de Sven ne sont plus jamais attaquées. Un soir, Sven trouve devant sa porte une pierre ronde et argentée. Il la garde, sans savoir pourquoi.
+reussite: Le loup est repoussé loin des troupeaux. Sven n'en entend plus parler. Il dit que la lune a fini par choisir son camp.
+partielle: Le loup a disparu, mais l'équipe n'a pas trouvé où. Sven continue de dormir avec son arc.
+echec: Le loup a semé l'équipe dans la montagne. Sven a perdu deux bêtes de plus. Il ne chasse plus quand la lune est pleine.
+recompenses: po 30 ; reputation 2 ; objet Cristal de saphir 7
+
+=== TAR-I-034 | Les orphelins de l'avalanche
+source: privee
+region: targon
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Grottes rakkors
+demandeur: Hilde, femme rakkor, qui a recueilli trois enfants dont les parents sont morts dans une avalanche
+accroche: « L'avalanche a pris leur maison et leurs parents. Je les ai pris chez moi. Mais le clan dit qu'il faut les envoyer dans la plaine, chez des gens qui ont plus. Ils ne veulent pas partir. Moi non plus. Je veux qu'on dise au clan que trois enfants, ça ne se donne pas. »
+postes: Support, Healer
+duree: 4
+dangereuse: non
+epreuves: diplomatie 33 (convaincre le conseil du clan de laisser les enfants à Hilde) ; diplomatie 31 (trouver qui, au village, peut l'aider à les nourrir)
+complication: Le conseil ne veut pas éloigner les enfants par dureté : il ne reste plus assez de vivres pour l'hiver, et il en a honte.
+eclatante: {meneur} propose au conseil de partager la charge : chaque famille du village prendra un repas par semaine pour les trois enfants. Le conseil accepte. Le village tout entier devient la famille des orphelins. Le printemps suivant, les trois enfants gravent ensemble leur premier dessin sur le mur du village : une maison avec beaucoup de fenêtres.
+reussite: Le conseil laisse les enfants à Hilde, pour l'hiver. On verra au printemps. Hilde dit qu'au printemps, ce sera trop tard pour la séparer d'eux.
+partielle: Le plus grand reste avec Hilde. Les deux petits descendent dans la plaine, chez une tante éloignée. Ils pleurent tous.
+echec: Le conseil a envoyé les trois enfants dans la plaine. Hilde leur rend visite une fois par mois. Elle marche deux jours.
+recompenses: po 15 ; reputation 3 ; objet Charme féerique 9
+
+=== TAR-I-035 | Les sculpteurs de neige
+source: privee
+region: targon
+palier: inconnue
+type: diplomatie
+ton: drole
+lieu: Anneau de la Montagne
+demandeur: Oddny, organisatrice du concours de sculptures de neige, au bord de la crise de nerfs
+accroche: « Le concours de sculptures, c'est demain. Cette année, deux clans ont sculpté le même héros, au même endroit, et chacun dit que l'autre a copié. Ils menacent de se battre à coups de pelle. Je veux un concours, pas une bataille. Il me faut un juge neutre. Vous êtes neutres ? »
+postes: Healer
+duree: 3
+dangereuse: non
+epreuves: diplomatie 29 (juger deux sculptures identiques sans déclencher une guerre de clans) ; diplomatie 30 (faire en sorte que les deux clans repartent fiers)
+complication: Les deux sculptures sont si proches qu'en les regardant de côté, elles forment un seul héros, avec deux bras levés.
+eclatante: {meneur} fait reculer tout le monde de vingt pas, et montre que les deux statues n'en font qu'une, vue de loin. Silence. Puis un ancien éclate de rire. Les deux clans décident de les relier par une arche de neige. La sculpture gagne le concours, au nom des deux clans. Elle tient jusqu'au printemps. On l'appelle « Le Héros qui embrasse ».
+reussite: {meneur} déclare un match nul. Les deux clans grognent, mais personne ne sort sa pelle. Oddny respire.
+partielle: Le jugement a déplu à un clan. Il a renversé sa propre statue, par fierté. L'autre a gagné, sans joie.
+echec: Les pelles sont sorties. Deux nez cassés, pas de gagnant. Oddny démissionne. Elle le fait chaque année.
+recompenses: po 10 ; reputation 1 ; objet Potion de soin 5
+
+=== TAR-I-036 | Le chemin des astronomes
+source: privee
+region: targon
+palier: inconnue
+type: exploration
+ton: aventure
+lieu: Matrices du zénith
+demandeur: Hélène, astronome de Piltover, qui veut retrouver un vieux chemin vers un observatoire oublié
+accroche: « Les vieux carnets parlent d'un second observatoire, plus haut que les Matrices, construit avant les Solaris. Personne n'y est allé depuis trois cents ans. J'ai la carte. J'ai l'envie. Je n'ai pas les jambes. »
+postes: Éclaireur, Tank
+duree: 8
+dangereuse: non
+epreuves: voyage 36 (suivre une carte vieille de trois siècles sur des chemins effondrés) ; siege 34 (dégager l'entrée de l'observatoire, bouchée par la glace)
+complication: L'observatoire n'est pas vide : un vieil astronome y vit, seul, depuis quarante ans. Il ne savait pas que le monde l'avait oublié.
+eclatante: {meneur} dégage l'entrée et trouve le vieil astronome, qui demande, très poliment, si l'Empire de Shurima existe encore. Il y a quarante ans de notes, empilées jusqu'au plafond : la carte du ciel la plus complète jamais faite. Hélène et lui passent la nuit à parler. Elle redescend avec une copie. Lui reste. Il dit qu'il a encore des étoiles à compter.
+reussite: L'observatoire est retrouvé, abandonné, avec ses instruments. Hélène redescend avec des dessins. Elle reviendra avec des élèves.
+partielle: Le chemin s'est effondré à mi-hauteur. Hélène a vu l'observatoire de loin, dans sa longue-vue. Elle dit que ça compte.
+echec: La carte était fausse, ou la montagne a changé. L'équipe est redescendue bredouille. Hélène relit ses carnets.
+recompenses: po 35 ; reputation 3 ; objet Tome d'amplification 8
+
+=== TAR-I-037 | La fièvre des hauteurs
+source: privee
+region: targon
+palier: inconnue
+type: sauvetage
+ton: horreur
+lieu: Bosquet astral
+demandeur: Ingvar, porteur, dont le camp entier délire au Bosquet astral
+accroche: « Tout le camp a de la fièvre. Ils voient des choses. Ils parlent aux étoiles. Le chef a voulu marcher vers le vide en disant qu'on l'appelait. Je l'ai attaché. Je suis le seul encore à peu près lucide. À peu près. Je vous écris avec les mains qui tremblent. »
+postes: Support, Mage
+duree: 9
+dangereuse: non
+epreuves: voyage 37 (rejoindre le camp avant que d'autres ne marchent vers le vide) ; diplomatie 35 (soigner des gens qui ne veulent plus être soignés)
+complication: La fièvre ne vient pas de l'altitude : une source du Bosquet est contaminée par une poussière d'étoile, qui donne des visions.
+eclatante: {meneur} soigne les fiévreux un à un, puis repère la source, scintillante de poussière dorée. L'équipe la bouche et fait boire au camp de la neige fondue. Les visions s'arrêtent en une nuit. Le chef, une fois lucide, raconte ce qu'il a vu : une étoile qui l'appelait par son prénom. Il ne remonte plus jamais au Bosquet. Il garde la poussière dans une fiole, au cas où.
+reussite: Les fiévreux sont soignés et ramenés plus bas, où la fièvre tombe. Personne ne marche vers le vide.
+partielle: La fièvre est tombée, mais deux porteurs se souviennent encore des visions. Ils veulent y retourner. Ingvar les surveille.
+echec: Le chef s'est détaché pendant la nuit. On n'a retrouvé que sa corde, au bord de la falaise.
+recompenses: po 35 ; reputation 3 ; objet Potion rechargeable 7
+
+=== TAR-I-038 | Le bouclier fendu
+source: privee
+region: targon
+palier: inconnue
+type: livraison
+ton: mystere
+lieu: Temples solaris
+demandeur: Elke, forgeronne de la plaine, qui doit rendre un bouclier réparé à un guerrier solaris
+accroche: « Un guerrier solaris m'a confié un bouclier fendu. Il m'a dit que c'était un ancien bouclier, très ancien. Je l'ai réparé. Depuis, la nuit, il brille. Je veux le rendre au plus vite. Et je ne veux plus jamais réparer de vieux boucliers. »
+postes: Tank, Support
+duree: 7
+dangereuse: non
+epreuves: voyage 33 (monter un bouclier lourd et chaud jusqu'aux temples solaris) ; diplomatie 34 (le remettre au guerrier, que personne au temple n'a jamais vu)
+complication: Le guerrier solaris n'existe pas au temple. Le bouclier a appartenu, il y a mille ans, à un hôte de la Manifestation du Soleil.
+eclatante: {meneur} porte le bouclier jusqu'au temple. Les prêtres solaris le reconnaissent en pâlissant, et le placent sur l'autel. Il brille plus fort que le soleil de midi pendant une minute, puis s'éteint, apaisé. Le prieur dit seulement : « Il est rentré. » Elke reçoit une somme qu'elle n'a jamais vue de sa vie. Elle ne répare plus que des casseroles.
+reussite: Le bouclier est rendu au temple. Les prêtres le prennent sans rien dire. Elke dort de nouveau.
+partielle: Le bouclier a été laissé au temple, mais les prêtres ont voulu savoir qui l'avait réparé. Elke a été interrogée trois jours.
+echec: Les prêtres ont refusé de recevoir un objet porté par des étrangers. Elke a jeté le bouclier dans un torrent. Il brille, la nuit, au fond de l'eau.
+recompenses: po 35 ; reputation 2 ; objet Bouclier de Doran 9
+
+=== TAR-I-039 | La traversée du gué
+source: privee
+region: targon
+palier: inconnue
+type: escorte
+ton: horreur
+lieu: Plaines basses
+demandeur: Leif, marchand de laine, qui doit faire traverser un gué où personne ne passe plus la nuit
+accroche: « Depuis la crue, on dit que des noyés se tiennent dans le gué, la nuit. Les porteurs ne veulent plus traverser après le coucher du soleil. Moi, j'ai une cargaison qui doit être de l'autre côté à l'aube. Et je ne crois pas aux noyés. Je crois au retard. »
+postes: Assassin, Healer
+duree: 4
+dangereuse: non
+epreuves: voyage 32 (faire traverser le gué de nuit, à des porteurs terrorisés) ; discretion 31 (repérer ce qui se tient vraiment dans l'eau)
+complication: Il y a bien des silhouettes dans le gué : des voleurs, couverts de vase, qui jouent les noyés pour dépouiller les voyageurs.
+eclatante: {meneur} voit la silhouette la plus proche respirer, et l'attrape par le col. Les trois « noyés » s'enfuient, sous les rires des porteurs. La cargaison traverse. Le lendemain, tout l'Anneau rit de l'histoire. On reconnaît les voleurs au marché, à l'odeur de vase. Ils ne reviennent plus jamais au gué.
+reussite: La cargaison traverse, l'équipe chasse les silhouettes à coups de lanterne. Ce n'étaient que des voleurs. Les porteurs ont honte d'avoir eu peur.
+partielle: La cargaison a traversé, mais un ballot a été volé. Les porteurs jurent qu'un vrai noyé l'a pris. On ne les contredit pas.
+echec: Les porteurs se sont enfuis au premier bruit. Leif a traversé seul, à l'aube. Il a perdu la moitié de la laine.
+recompenses: po 20 ; reputation 2 ; objet Dague 7
+
+=== TAR-I-040 | Le baptême du feu
+source: privee
+region: targon
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Seuils anciens
+demandeur: Eira, jeune guerrière rakkor, qui doit chasser sa première bête ailée
+accroche: « Pour devenir guerrière, il faut tuer une bête ailée seule. Les autres jeunes l'ont tous fait. Moi, j'ai raté trois fois. Les anciens disent que je peux demander conseil à des étrangers. C'est humiliant, mais c'est permis. Apprenez-moi à ne pas rater. »
+postes: DPS
+duree: 5
+dangereuse: non
+epreuves: poursuite 31 (repérer les bêtes ailées qui chassent au-dessus des Seuils) ; combat 32 (apprendre à Eira à frapper au bon moment, sans frapper à sa place)
+complication: Eira ne rate pas par maladresse : elle a peur des hauteurs, et les bêtes ailées l'attirent toujours au bord du vide.
+eclatante: {meneur} comprend sa peur dès le premier essai. Plutôt que de l'emmener au bord, l'équipe lui apprend à attirer la bête vers le sol, avec un appât. Eira frappe au bon moment, sur la terre ferme, et la bête tombe. Elle revient au village, fière, et elle raconte à tout le monde qu'elle a peur du vide. Personne ne rit. Les anciens disent qu'avoir peur et le dire, c'est aussi du courage.
+reussite: Eira abat sa bête ailée, au troisième essai. Elle tremble pendant une heure. Mais elle est guerrière.
+partielle: Eira a blessé la bête sans la tuer. Les anciens hésitent. Ils disent qu'elle aura une autre chance, au printemps.
+echec: Eira a raté encore. Elle n'a pas pleuré. Elle a demandé à l'équipe de revenir l'an prochain.
+recompenses: po 25 ; reputation 2 ; objet Élixir de rage 6
+
+=== TAR-I-041 | Le relevé des ponts de corde
+source: institution
+region: targon
+palier: inconnue
+type: exploration
+ton: politique
+lieu: Temples solaris
+demandeur: la Chambre des Bannières, à la demande des tribus et des voyageurs
+accroche: « Contrat public. Relever l'état des onze ponts de corde du versant est. Les Solaris refusent de partager leurs relevés. Les voyageurs ont besoin de savoir lesquels tiennent encore. »
+postes: Support, Tank
+duree: 8
+dangereuse: non
+epreuves: voyage 35 (traverser et éprouver onze ponts de corde au-dessus du vide) ; diplomatie 33 (obtenir des Solaris le droit de passer sur leurs terres)
+complication: Trois ponts sont pourris, et les Solaris le savent. Ils les laissent en l'état pour décourager les pèlerins non solaris.
+eclatante: {meneur} relève les onze ponts et note, sans un mot de trop, les trois ponts pourris et le refus solaris de les réparer. La Chambre publie le relevé. Les tribus réparent elles-mêmes les trois ponts en une semaine, et les Solaris, piqués au vif, en refont deux autres pour ne pas être en reste. Le versant est n'a jamais été aussi sûr.
+reussite: Les onze ponts sont relevés. Trois sont signalés dangereux. La Chambre affiche le relevé au pied de la montagne.
+partielle: Huit ponts ont été relevés. Les Solaris ont interdit l'accès aux trois derniers. La Chambre proteste, par écrit.
+echec: Un pont a cédé sous l'équipe, qui s'est rattrapée de justesse. Le relevé n'a pas été fait. La Chambre a perdu un traîneau.
+recompenses: po 30 ; reputation 3 ; objet Bottes 7
+
+=== TAR-I-042 | Les porteurs disparus
+source: institution
+region: targon
+palier: inconnue
+type: traque
+ton: horreur
+lieu: Pentes supérieures
+demandeur: la Chambre des Bannières, pour la confrérie des porteurs de la montagne
+accroche: « Contrat public. Trois porteurs ont disparu en un mois sur le même tronçon des pentes supérieures. Leurs charges ont été retrouvées, intactes. Eux, non. Trouver ce qui les prend. »
+postes: Tireur, Éclaireur
+duree: 9
+dangereuse: non
+epreuves: poursuite 37 (suivre des traces qui s'arrêtent net dans la neige) ; combat 36 (affronter ce qui chasse depuis le ciel)
+complication: Les porteurs sont enlevés par une bête ailée géante, qui niche plus haut, et qui les garde en vie pour nourrir ses petits.
+eclatante: {meneur} repère l'ombre de la bête et la suit jusqu'au nid. Deux porteurs y sont encore vivants, gelés, blessés. L'équipe les ramène, et abat la bête quand elle revient. Le troisième n'a pas survécu. La confrérie des porteurs pose une pierre pour lui au bord du tronçon. La Chambre fait installer des abris tout le long du chemin.
+reussite: La bête est chassée, le tronçon redevient sûr. Les porteurs disparus ne sont pas retrouvés. La confrérie dit une prière.
+partielle: La bête a été blessée, pas tuée. Les porteurs circulent maintenant en groupe, armés. Ils regardent le ciel.
+echec: L'équipe n'a rien trouvé. Un quatrième porteur a disparu la semaine suivante. Le tronçon est fermé.
+recompenses: po 35 ; reputation 3 ; objet Épée longue 8
+
+=== TAR-I-043 | Le recensement des clans
+source: institution
+region: targon
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Grottes rakkors
+demandeur: la Chambre des Bannières, qui tient le registre des peuples de Runeterra
+accroche: « Contrat public. Recenser les clans rakkors : nombre de foyers, chefs, alliances. Les Rakkors n'aiment pas être comptés. Être poli. Être très poli. »
+postes: Support
+duree: 5
+dangereuse: non
+epreuves: diplomatie 31 (obtenir des chefs rakkors qu'ils acceptent d'être comptés) ; diplomatie 30 (ne vexer personne en comptant les guerriers)
+complication: Les Rakkors acceptent d'être comptés, à une condition : chaque clan veut être compté par un combat, et le nombre de victoires vaudra le nombre de foyers.
+eclatante: {meneur} propose aux chefs de compter les histoires gravées sur les murs au lieu des guerriers. Chaque clan est fier de montrer les siennes. Le recensement prend deux fois plus de temps, mais il est complet, et chaque clan a l'impression d'avoir gagné. La Chambre reçoit le registre le plus beau qu'elle ait jamais eu. Il contient aussi des dessins.
+reussite: Les clans sont recensés, de mauvaise grâce. Personne ne s'est battu. La Chambre est satisfaite.
+partielle: La moitié des clans a refusé. La Chambre note « environ » à côté de chaque chiffre. Elle déteste écrire « environ ».
+echec: Un chef a pris le recensement pour une insulte, et l'a fait savoir avec son poing. La Chambre a renoncé jusqu'au printemps.
+recompenses: po 20 ; reputation 3 ; objet Tome d'amplification 6
+
+=== TAR-I-044 | Les cendres de l'hérétique
+source: institution
+region: targon
+palier: inconnue
+type: livraison
+ton: tragique
+lieu: Sanctuaires de prière
+demandeur: la Chambre des Bannières, pour une famille de la plaine
+accroche: « Contrat public. Une femme a été exécutée par les Solaris pour hérésie. Sa famille demande ses cendres. Les Solaris ont accepté de les remettre à un tiers neutre, aux sanctuaires de prière. Les porter jusqu'à la famille. »
+postes: Healer
+duree: 5
+dangereuse: non
+epreuves: diplomatie 30 (recevoir les cendres des mains des Solaris, sans un mot de travers) ; voyage 29 (les porter jusqu'à la famille, dans la plaine)
+complication: Avec les cendres, un prêtre solaris glisse en secret une lettre de la morte, écrite la veille de sa mort, qu'il n'a pas eu le courage de détruire.
+eclatante: {meneur} reçoit les cendres et la lettre, et comprend sans un mot ce que le prêtre a risqué. La famille reçoit les deux. La lettre ne parle pas de la lune, ni du soleil : elle parle des enfants, et de la soupe qu'il faudra faire cet hiver. La famille la lit à voix haute, chaque année, le jour de sa mort. Le prêtre, lui, ne sera jamais nommé.
+reussite: Les cendres sont remises à la famille. Elle les disperse dans la plaine, au lever du jour, en silence.
+partielle: Les Solaris ont fait attendre l'équipe trois jours. Les cendres sont arrivées. La famille a eu le temps d'être en colère.
+echec: Les Solaris ont changé d'avis. Les cendres sont restées au temple. La famille a enterré une mèche de cheveux à la place.
+recompenses: po 15 ; reputation 3 ; objet Charme féerique 10
+
+=== TAR-I-045 | La migration des stellacornes
+source: institution
+region: targon
+palier: inconnue
+type: exploration
+ton: mystere
+lieu: Source des étoiles
+demandeur: la Chambre des Bannières, pour les astronomes et les tribus
+accroche: « Contrat public. Les stellacornes ont quitté la Source des étoiles, ce qu'ils n'avaient pas fait depuis un siècle. Suivre leur trace, et noter où ils vont. Ne pas les approcher. »
+postes: Éclaireur, Mage
+duree: 10
+dangereuse: non
+epreuves: voyage 38 (monter jusqu'à la Source et retrouver la trace du troupeau) ; poursuite 36 (suivre des bêtes qui marchent sans laisser de traces dans la neige)
+complication: Les stellacornes ne fuient pas : ils montent, vers le sommet, en ligne, comme pour assister à quelque chose.
+eclatante: {meneur} suit le troupeau jusqu'à une crête, d'où l'équipe voit les stellacornes s'arrêter, tous ensemble, tournés vers le sommet. Au-dessus, une comète d'or traverse le ciel, lentement. Les stellacornes restent immobiles jusqu'à ce qu'elle disparaisse, puis redescendent à la Source. La Chambre transmet le rapport aux astronomes, qui parlent maintenant d'un réveil dans les étoiles. Personne ne sait de qui.
+reussite: L'équipe a suivi le troupeau jusqu'à une crête, puis l'a perdu de vue. Le rapport est précis, mais il s'arrête au plus beau.
+partielle: Le troupeau a été perdu en route. L'équipe a vu une lumière dorée au loin. La Chambre note « phénomène non identifié ».
+echec: La neige a effacé toutes les traces. La Chambre a classé le contrat. Les stellacornes sont revenus à la Source, une semaine plus tard.
+recompenses: po 40 ; reputation 3 ; objet Cristal de saphir 8
+
+=== TAR-I-046 | L'escorte des pèlerins du printemps
+source: institution
+region: targon
+palier: inconnue
+type: escorte
+ton: tendre
+lieu: Anneau de la Montagne
+demandeur: la Chambre des Bannières, pour un groupe de pèlerins venus de tout Runeterra
+accroche: « Contrat public. Accompagner douze pèlerins de l'Anneau jusqu'aux Sanctuaires de prière, avant la cérémonie de l'aube. Parmi eux : un vieillard, une femme enceinte et deux enfants. »
+postes: Healer, Combattant
+duree: 6
+dangereuse: non
+epreuves: voyage 31 (faire monter douze personnes de tous âges, au rythme du plus lent) ; combat 30 (éloigner un tamu qui suit le groupe depuis la plaine)
+complication: La femme enceinte commence à accoucher à mi-chemin, en pleine montée.
+eclatante: {meneur} installe un abri contre un rocher, et l'enfant naît au lever du soleil, pendant que la cérémonie commence là-haut. Les autres pèlerins chantent. Un vieux Rakkor qui passait par là dit que c'est le meilleur présage qu'il ait jamais vu. L'enfant est nommée d'après la montagne. La Chambre inscrit la naissance dans son registre, à côté du nom de la guilde.
+reussite: Les douze pèlerins arrivent à l'aube. La cérémonie commence. Le tamu est resté en bas, déçu.
+partielle: Le groupe est arrivé en retard, après la cérémonie. Les pèlerins ont prié seuls, dans le froid. Ils disent que c'était plus beau.
+echec: Le vieillard est tombé malade, et le groupe a dû redescendre. Les pèlerins reviendront au printemps prochain. Peut-être.
+recompenses: po 20 ; reputation 3 ; objet Potion de soin 9
+
+=== TAR-I-047 | Les vivres de l'hiver
+source: institution
+region: targon
+palier: inconnue
+type: defense
+ton: drole
+lieu: Grottes rakkors
+demandeur: la Chambre des Bannières, pour le clan qui garde les réserves d'hiver de toute la vallée
+accroche: « Contrat public. Les réserves d'hiver du grand grenier rakkor sont pillées chaque nuit. Le clan accuse les clans voisins. Les clans voisins accusent le clan. La Chambre veut des faits. »
+postes: DPS
+duree: 4
+dangereuse: non
+epreuves: discretion 30 (surveiller le grenier toute une nuit, dans le noir) ; combat 31 (arrêter le voleur, quel qu'il soit)
+complication: Le voleur est un vieil erbok aveugle, qui a appris à ouvrir le loquet avec ses cornes.
+eclatante: {meneur} attrape l'erbok la tête dans un sac de grain, avec le loquet encore accroché à une corne. Les trois clans éclatent de rire en même temps. La guerre des greniers est finie. L'erbok est adopté par le clan, qui lui donne une ration par jour pour qu'il arrête de voler. Il continue quand même, par principe. La Chambre classe le rapport sous « faune ».
+reussite: Le voleur est pris, et c'est un erbok. Les clans se réconcilient. Personne ne s'excuse vraiment.
+partielle: L'équipe a vu une ombre à cornes s'enfuir. Les clans se soupçonnent toujours. Mais ils se méfient aussi des erboks.
+echec: Rien ne s'est passé cette nuit-là. Le lendemain, le grenier était pillé. La Chambre a reçu trois plaintes.
+recompenses: po 15 ; reputation 2 ; objet Potion de soin 6
+
+=== TAR-I-048 | Le pont des tribus
+source: institution
+region: targon
+palier: inconnue
+type: defense
+ton: aventure
+lieu: Seuils anciens
+demandeur: la Chambre des Bannières, pour les tribus qui commercent à travers les Seuils
+accroche: « Contrat public. Une meute de bolors s'est installée près des Seuils anciens, sur la route des échanges entre tribus. Tenir la route ouverte trois jours, le temps de la grande foire. »
+postes: Tank, Tireur, Combattant
+duree: 8
+dangereuse: non
+risque: oui
+epreuves: nuee 45 (tenir la route contre une meute de bolors) ; combat 43 (repousser le mâle dominant quand il charge) ; diplomatie 40 (empêcher les marchands paniqués de fuir avec la marchandise des autres)
+complication: Les bolors ne sont pas là pour chasser : la foire a lieu sur leur ancien territoire de mise bas, et les femelles sont à quelques centaines de mètres.
+eclatante: {meneur} comprend que les bolors défendent leurs petits. L'équipe déplace la foire de trois cents pas, au lieu de se battre. Les bolors se calment, et restent à distance. La foire a lieu, et c'est la plus réussie depuis des années : tout le monde veut voir les bolors de loin. La Chambre change l'emplacement de la foire pour toujours.
+reussite: La route tient trois jours. Les bolors sont repoussés, pas tués. La foire a lieu, nerveuse.
+partielle: La route a tenu deux jours sur trois. Le dernier jour, la foire a été écourtée. Les marchands sont repartis à moitié contents.
+echec: Les bolors ont chargé la foire. Il y a eu des blessés. La Chambre a annulé la foire, pour la première fois en cent ans.
+recompenses: po 150 ; reputation 4 ; objet Bouclier de Doran 10
+
+=== TAR-I-049 | Le registre des grimpeurs
+source: institution
+region: targon
+palier: inconnue
+type: enquete
+ton: tendre
+lieu: Mont Targon
+demandeur: la Chambre des Bannières, qui tient le registre des ascensions
+accroche: « Contrat public. Compléter le registre des grimpeurs partis cette année. Pour chacun : son nom, sa date de départ, et, si quelqu'un le sait, ce qu'il est devenu. Interroger les familles. Avec tact. »
+postes: Support, Healer
+duree: 7
+dangereuse: non
+epreuves: diplomatie 32 (interroger des familles en deuil sans rouvrir les blessures) ; voyage 30 (visiter les villages du pied de la montagne, un par un)
+complication: Une famille affirme que sa fille est revenue, il y a un mois, changée, et qu'elle vit maintenant seule dans une cabane, sans parler à personne.
+eclatante: {meneur} complète le registre, famille par famille, et va voir la jeune femme dans sa cabane. Elle ne parle pas. Mais elle écrit son nom dans le registre, elle-même, et à côté : « Revenue. » C'est la seule mention de ce genre depuis dix ans. La Chambre la recopie à l'encre d'or. La famille ne sait pas ce qu'elle a vu là-haut. Elle sait qu'elle est là.
+reussite: Le registre est complet. Quarante noms, dont trente-huit « non revenus ». La Chambre le range avec les autres.
+partielle: La moitié des familles a refusé de parler. Le registre a des trous. La Chambre écrit « inconnu » à côté.
+echec: Les familles ont fermé leur porte. Une mère a craché aux pieds de l'équipe. La Chambre a reporté le recensement.
+recompenses: po 20 ; reputation 2 ; objet Charme féerique 8
+
+=== TAR-I-050 | Le feu de l'Anneau
+source: institution
+region: targon
+palier: inconnue
+type: diplomatie
+ton: mystere
+lieu: Matrices du zénith
+demandeur: la Chambre des Bannières, à la demande commune des astronomes et des Rakkors
+accroche: « Contrat public. Les astronomes veulent installer un nouvel instrument aux Matrices du zénith. Les Rakkors disent que le lieu est sacré. Trouver un accord, sur place, avant que l'instrument n'arrive. »
+postes: Mage, Support
+duree: 8
+dangereuse: non
+epreuves: diplomatie 34 (réunir astronomes et anciens rakkors autour du même feu) ; voyage 32 (monter aux Matrices avec les deux délégations, sans qu'elles se disputent en route)
+complication: Le lieu est sacré pour les Rakkors parce que leurs ancêtres y observaient déjà le ciel. Ils étaient, à leur manière, les premiers astronomes de Targon.
+eclatante: {meneur} demande aux anciens rakkors de raconter ce que leurs ancêtres voyaient depuis cet endroit. Les astronomes écoutent, et notent, fascinés. Les récits rakkors décrivent des étoiles que leurs instruments ne voient plus. L'accord est simple : l'instrument sera installé, et les Rakkors en auront les clés. Le premier qui l'utilise est un vieux berger. Il pleure en regardant la lune de près.
+reussite: L'accord est signé : l'instrument sera installé à côté, et non à la place. Les deux camps sont à moitié contents.
+partielle: Les Rakkors ont accepté, pour une saison seulement. Les astronomes devront revenir négocier, avec des cadeaux.
+echec: Les Rakkors ont refusé. L'instrument a été installé plus bas, où l'on voit moins bien. Les astronomes boudent.
+recompenses: po 30 ; reputation 3 ; objet Tome d'amplification 7

@@ -1,0 +1,507 @@
+# Demacia · palier Locale · lot 1 (missions 001 à 025) · 8 nov. 2026
+# Palier Locale : la guilde commence à être connue dans la région. On ne vient plus la chercher pour un chapeau envolé,
+# mais pour les affaires d'une ville, d'un magistrat, d'une petite maison noble. Les enjeux touchent des dizaines de personnes.
+# Audit des textes : les dénouements « réussite », « partielle » et « échec » sont écrits plus longs, avec une conséquence concrète.
+# {meneur} : le héros qui a mené l'épreuve décisive.
+
+=== DEM-L-001 | Le pont de Lissus
+source: privee
+region: demacia
+palier: locale
+type: defense
+ton: aventure
+lieu: Lissus
+demandeur: Odran Pelle, bourgmestre de Lissus, qui n'a jamais tenu une épée et le reconnaît volontiers
+accroche: « Des brigands ont pris le vieux moulin, de l'autre côté du pont. Ils réclament un péage à tous les chariots qui montent vers High Silvermere. La garnison est partie au nord. Il me reste douze hommes, dont quatre ont plus de soixante ans. Je ne veux pas de héros. Je veux que mes marchands puissent passer. »
+postes: Tank, Tireur, Éclaireur
+duree: 8
+dangereuse: oui
+epreuves: discretion 42 (repérer combien ils sont, et par où ils ravitaillent le moulin) ; combat 47 (tenir le pont quand ils tentent de forcer le passage) ; siege 44 (reprendre le moulin sans le réduire en cendres)
+complication: Le chef des brigands est un ancien sergent de la garnison de Lissus, renvoyé pour avoir frappé un officier. La moitié du bourg le connaît, et certains lui vendent du pain en cachette.
+eclatante: {meneur} reprend le moulin à l'aube, sans un mort, et ramène l'ancien sergent devant le bourgmestre. Odran Pelle le regarde longtemps, puis lui propose un marché : il remettra le moulin en état, sous surveillance, au lieu de finir au Quartier militaire. Le sergent accepte. Un mois plus tard, le moulin tourne de nouveau, et les marchands passent le pont en saluant la bannière de la guilde, que le bourgmestre a fait accrocher à l'entrée.
+reussite: Les brigands sont chassés du moulin après une nuit de combat. Leur chef s'enfuit vers les collines, mais sans ses hommes, il ne reviendra pas de sitôt. Les chariots repassent dès le lendemain. Odran Pelle paie la guilde en pièces et en sacs de farine, et promet de recommander la guilde à tous les bourgmestres de la route.
+partielle: Le pont est libéré, mais le moulin a brûlé pendant l'assaut. Les brigands sont partis. Lissus devra moudre son grain au bourg voisin pendant tout l'hiver, et le prix du pain a déjà augmenté. Le bourgmestre remercie la guilde du bout des lèvres.
+echec: Les brigands tiennent le moulin, et le pont reste fermé. L'équipe doit se replier pour soigner ses blessés. Une semaine plus tard, on apprend que Lissus a fini par payer le péage. Le bourgmestre n'a pas écrit à la guilde.
+recompenses: po 140 ; reputation 4 ; objet Bouclier de Doran 12
+
+=== DEM-L-002 | Le testament de dame Ysaure
+source: privee
+region: demacia
+palier: locale
+type: enquete
+ton: politique
+lieu: Zeffira
+demandeur: Maître Corvin, notaire de Zeffira, qui transpire beaucoup pour un homme si calme
+accroche: « Dame Ysaure Buvelle-Arnaut est morte la semaine dernière. Son testament lègue tout à sa servante. Tout. Les neveux disent que c'est un faux. La servante dit que c'est la vérité. Le sceau est authentique. L'écriture aussi, presque. C'est ce « presque » qui m'empêche de dormir. »
+postes: Support, Assassin
+duree: 9
+dangereuse: non
+epreuves: diplomatie 44 (interroger les neveux, la servante et le personnel sans prendre parti) ; discretion 46 (fouiller le bureau de la défunte avant que quelqu'un ne le vide)
+complication: Le testament est bien de la main de dame Ysaure, mais elle l'a écrit de la main gauche : sa main droite était paralysée depuis l'hiver, ce que ses neveux ignoraient, car ils ne venaient jamais la voir.
+eclatante: {meneur} retrouve, dans un tiroir à double fond, les exercices d'écriture de la vieille dame : des pages entières de lettres tremblées, de la main gauche, datées de tout l'hiver. Le juge de Zeffira les compare au testament, et le déclare valide. Les neveux quittent la salle sans un mot. La servante, elle, garde la maison, et y ouvre une école de couture. Maître Corvin dort de nouveau.
+reussite: L'équipe prouve que la servante n'a pas pu imiter l'écriture : elle ne sait pas écrire. Le juge valide le testament, faute de preuve contraire. Les neveux font appel, mais sans grand espoir. La servante remercie la guilde avec un panier de confitures de la défunte, dont personne n'ose dire qu'elles ont un goût étrange.
+partielle: L'enquête ne permet pas de trancher. Le juge partage l'héritage en deux : la maison à la servante, l'argent aux neveux. Personne n'est content. Maître Corvin dit que c'est souvent le signe d'un jugement juste. Il n'a pas l'air d'y croire lui-même.
+echec: Les neveux ont vidé le bureau avant l'arrivée de l'équipe. Sans preuve, le juge déclare le testament douteux. La servante est renvoyée de la maison où elle a vécu trente ans. On la voit, un soir, assise sur les marches, avec une seule valise.
+recompenses: po 110 ; reputation 3 ; objet Tome d'amplification 10
+
+=== DEM-L-003 | La vouivre de Wrenwall
+source: institution
+region: demacia
+palier: locale
+type: chasse
+ton: aventure
+lieu: Wrenwall
+demandeur: la Chambre des Bannières, pour le capitaine de la place forte de Wrenwall
+accroche: « Une vouivre adulte a fait son nid dans la tour nord du château de Wrenwall. Elle a déjà emporté deux chevaux et blessé un garde. Le capitaine refuse d'évacuer la place forte : la frontière est trop proche. La Chambre demande une équipe capable de déloger la bête sans abattre la tour. »
+postes: Tireur, Tank, Healer
+duree: 10
+dangereuse: oui
+epreuves: poursuite 43 (suivre la vouivre pendant ses chasses pour connaître ses heures) ; combat 50 (l'affronter au sommet de la tour, dans le vent) ; voyage 40 (rapporter la preuve de la chasse à la Chambre avant que la rumeur ne s'emballe)
+complication: La vouivre couve trois œufs. Si on la tue, les œufs mourront. Si on la chasse, elle reviendra pour eux.
+eclatante: {meneur} blesse la vouivre à l'aile, puis la laisse fuir avec ses œufs, transportés dans un panier de paille jusqu'à une falaise des Hautes-Terres rocheuses. Elle y refait son nid. Le capitaine trouve l'idée absurde, jusqu'à ce que la vouivre se mette à chasser les éclaireurs noxiens qui rôdent près de la frontière. Wrenwall a désormais une sentinelle qui ne dort jamais.
+reussite: La vouivre est abattue au sommet de la tour, après un combat qui fait trembler les créneaux. Les œufs sont confiés aux Volières des Ailes-d'argent, qui ne savent pas trop quoi en faire. Le capitaine offre un dîner à l'équipe, et fait graver la date de la chasse sur une pierre de la tour.
+partielle: La vouivre est chassée, mais elle reviendra pour ses œufs, tout le monde le sait. Le capitaine fait murer la tour nord en attendant. Les gardes montent la garde en regardant le ciel plus que la frontière, ce qui n'est pas idéal.
+echec: Le combat tourne mal, et la vouivre garde sa tour. Un garde de plus est blessé en couvrant la retraite de l'équipe. Le capitaine fait évacuer la moitié de la garnison. La Chambre des Bannières envoie une lettre sèche, qui sera rangée dans le registre de la guilde.
+recompenses: po 160 ; reputation 5 ; objet Épée longue 14
+
+=== DEM-L-004 | Les registres de Graygate
+source: institution
+region: demacia
+palier: locale
+type: enquete
+ton: mystere
+lieu: Graygate
+demandeur: la Chambre des Bannières, à la demande de l'intendant des douanes de Graygate
+accroche: « Depuis trois mois, les registres de la porte de Graygate sont parfaits. Pas une erreur, pas une rature. L'intendant n'a jamais vu ça en vingt ans de service. Il ne croit pas aux miracles. Il croit qu'on lui cache quelque chose. »
+postes: Éclaireur
+duree: 7
+dangereuse: non
+epreuves: discretion 45 (surveiller la porte la nuit, quand les convois officiels passent) ; diplomatie 41 (faire parler un douanier sans qu'il prévienne ses collègues)
+complication: Les douaniers laissent passer, chaque semaine, un chariot de vivres pour des familles noxiennes réfugiées de l'autre côté du Mur oriental. Ils inscrivent le chariot comme vide. Ils le font par pitié, pas pour l'argent.
+eclatante: {meneur} suit le chariot jusqu'au camp de réfugiés, et revient avec la vérité, et un enfant qui a suivi l'équipe sur la moitié du chemin. L'intendant écoute tout. Puis il ouvre un nouveau registre, à son nom, où le chariot apparaît comme « aide aux voyageurs », ce qui est légal. Les douaniers ne sont pas punis. L'enfant, lui, repart avec du pain et une paire de bottes.
+reussite: L'équipe découvre le chariot et le camp de réfugiés. L'intendant décide de fermer les yeux, mais exige que tout soit désormais inscrit. Les douaniers sont mutés, par prudence, sans sanction. Le chariot continue de passer, conduit par d'autres.
+partielle: L'équipe découvre la fraude, mais pas sa raison. L'intendant fait arrêter deux douaniers. Ce n'est qu'au procès qu'on apprend tout. Ils sont relâchés, mais renvoyés. Le chariot ne passe plus. Personne ne sait ce que sont devenues les familles.
+echec: Les douaniers ont repéré la surveillance. Pendant une semaine, il ne se passe rien. L'intendant conclut que ses registres sont simplement bien tenus, et la Chambre classe l'affaire. De l'autre côté du Mur, un chariot n'arrive plus.
+recompenses: po 70 ; reputation 3 ; objet Bottes 10
+
+=== DEM-L-005 | La foire de Cloudfield
+source: privee
+region: demacia
+palier: locale
+type: protection
+ton: drole
+lieu: Cloudfield
+demandeur: Margot Rivaud, organisatrice de la Fête du Printemps jaune, qui a déjà trois listes en main et un crayon derrière chaque oreille
+accroche: « La fête commence dans deux jours. J'ai quatre cents invités, un sanglier à la broche de la taille d'un veau, une fanfare de Zeffira, et deux familles qui se détestent depuis cent ans et qui viennent toutes les deux. Si elles se battent, la fête est ruinée. Si elles ne viennent pas, je suis ruinée. Il me faut quelqu'un pour garder la paix. Et pour surveiller le sanglier. »
+postes: Support, Combattant
+duree: 12
+dangereuse: non
+epreuves: diplomatie 43 (placer les deux familles à table sans qu'elles se voient, et s'occuper des esprits qui s'échauffent) ; combat 38 (mettre fin à la bagarre qui éclatera forcément vers minuit) ; poursuite 40 (rattraper le sanglier à la broche, volé par des farceurs)
+complication: Les deux familles ne se souviennent plus du tout de l'origine de leur querelle. Les deux doyennes, chacune de leur côté, ont pourtant le même vieux carnet de recettes, qui se termine au même endroit, au milieu d'une recette de tarte aux tangors.
+eclatante: {meneur} fait asseoir les deux doyennes devant les deux carnets, page contre page. La recette s'emboîte parfaitement. On comprend enfin : il y a cent ans, deux sœurs se sont disputé un livre de cuisine, et l'ont déchiré en deux. La tarte est cuite le soir même. Les deux familles la partagent, en se regardant de travers, puis en riant. La fête de Cloudfield n'a jamais été aussi réussie. Margot Rivaud pleure dans son tablier.
+reussite: La fête a lieu, et personne ne meurt. Il y a bien une bagarre vers minuit, vite arrêtée, et un oncle qui finit dans la fontaine. Le sanglier est retrouvé à temps, un peu décoiffé. Margot Rivaud déclare la soirée « acceptable », ce qui, chez elle, est un immense compliment.
+partielle: Les familles se battent avant le dessert. La fanfare continue de jouer pendant la bagarre, ce qui donne à l'ensemble un petit air de bal. Le sanglier a disparu pour de bon. Margot Rivaud paie la guilde, mais lui demande de ne pas revenir l'an prochain.
+echec: La bagarre éclate dès l'apéritif, renverse le buffet et la tente de la fanfare. Les deux familles quittent la fête en jurant de ne plus jamais revenir. Pour une fois, elles sont d'accord sur quelque chose. Margot Rivaud brûle ses listes dans le feu du sanglier, qui n'a jamais été retrouvé.
+recompenses: po 90 ; reputation 3 ; objet Potion de soin 15
+
+=== DEM-L-006 | L'enfant de Meltridge
+source: privee
+region: demacia
+palier: locale
+type: sauvetage
+ton: tragique
+lieu: Meltridge
+demandeur: Aline Fosse, tisserande de Meltridge, dont le fils a disparu depuis quatre jours
+accroche: « Mon fils a douze ans. Il y a quatre jours, la lampe de sa chambre s'est allumée toute seule. Il a eu peur. Il est parti dans la nuit. Les voisins disent que c'est un mage, et qu'il faut prévenir les anciens Traqueurs. Moi, je dis que c'est mon fils. Ramenez-le-moi avant eux. »
+postes: Éclaireur, Support
+duree: 10
+dangereuse: oui
+epreuves: poursuite 46 (retrouver la trace d'un enfant terrifié dans les collines autour de Meltridge) ; diplomatie 44 (le convaincre de rentrer, alors que la magie s'emballe dès qu'il a peur) ; discretion 42 (le ramener en ville sans croiser les anciens Traqueurs qui le cherchent aussi)
+complication: Deux anciens traqueurs de mages fouillent les collines. Ils n'ont plus d'ordre officiel depuis la dissolution, mais ils ont gardé leurs chaînes de pétricite, et leur conviction.
+eclatante: {meneur} retrouve l'enfant dans une grange abandonnée, entouré de petites flammes qui n'ont rien brûlé. Il faut une heure de paroles douces pour qu'elles s'éteignent. Le retour se fait par les champs, loin des anciens Traqueurs. Aline Fosse serre son fils jusqu'à l'aube. Le lendemain, un frère Illuminateur frappe à la porte, avec un livre et un plan pour l'avenir : apprendre à l'enfant à vivre avec ce qu'il est, sans que personne le sache.
+reussite: L'enfant est ramené chez lui, épuisé, affamé, vivant. Les anciens Traqueurs arrivent deux heures trop tard, et repartent en promettant de revenir. Aline Fosse quitte Meltridge le soir même, avec son fils, vers une destination qu'elle ne dit à personne. Elle laisse à la guilde un châle tissé de ses mains.
+partielle: L'enfant est retrouvé, mais il refuse de rentrer. Il préfère partir avec un groupe de mages rebelles qui passait dans les collines. Aline Fosse peut le serrer dans ses bras une dernière fois. Elle rentre seule. Elle ne pleure pas devant l'équipe. Après, on ne sait pas.
+echec: Les anciens Traqueurs ont trouvé l'enfant les premiers. Ils le conduisent vers la capitale, enchaîné de pétricite, en toute illégalité. Aline Fosse les suit à pied. L'équipe rentre avec un nom, une direction, et le sentiment d'avoir laissé faire quelque chose d'injuste.
+recompenses: po 120 ; reputation 4 ; objet Cristal de saphir 12
+
+=== DEM-L-007 | Le tournoi des écuyers
+source: privee
+region: demacia
+palier: locale
+type: protection
+ton: drole
+lieu: Ehrenmount
+demandeur: Sire Gauvain Mareuil, chevalier en retraite, responsable des écuyers d'Ehrenmount, qui hurle même quand il chuchote
+accroche: « Le tournoi des écuyers a lieu dans trois jours ! Les familles nobles envoient leurs fils et leurs filles ! Et chaque année, l'un d'eux se casse quelque chose ! Je veux un tournoi SANS BLESSÉ ! Et sans parent qui descend dans l'arène pour insulter l'arbitre ! C'est trop demander ?! »
+postes: Support
+duree: 11
+dangereuse: non
+epreuves: diplomatie 40 (calmer les parents dans les tribunes, qui prennent tout très à cœur) ; siege 38 (renforcer les barrières de l'arène, qui datent d'avant la guerre) ; poursuite 41 (rattraper le cheval d'un écuyer, qui a décidé de quitter l'arène avec son cavalier)
+complication: Le plus jeune écuyer a onze ans, et il a menti sur son âge pour participer. Son père est mort à la guerre, et il veut porter ses couleurs. Sire Gauvain le sait. Il fait semblant de ne pas le savoir.
+eclatante: {meneur} soigne une cheville foulée en pleine joute, si vite que l'écuyer remonte en selle avant la fin du tour. Le petit écuyer de onze ans perd tous ses assauts, avec un courage qui fait taire les tribunes. À la fin, Sire Gauvain lui remet une médaille qui n'existe pas, « pour le cœur », et hurle qu'il en fera une tradition. Il tient parole. Elle porte désormais le nom de la guilde.
+reussite: Le tournoi se termine avec deux bleus, une dent de lait, et aucun os cassé. Un seul parent descend dans l'arène, et il en ressort tout de suite, poussé gentiment par l'équipe. Sire Gauvain déclare que c'est « le meilleur tournoi depuis vingt ans ». Il le crie, évidemment.
+partielle: Un écuyer se casse le poignet au troisième tour, et sa mère traite l'arbitre de tous les noms. Le reste se passe bien. Sire Gauvain paie la guilde en grommelant, puis lui demande si elle sera libre l'an prochain.
+echec: Une barrière cède pendant la finale. Trois écuyers à terre, un cheval en fuite, et un père qui provoque l'arbitre en duel. Le tournoi est arrêté. Sire Gauvain ne hurle même plus. C'est plus inquiétant que tout le reste.
+recompenses: po 75 ; reputation 3 ; objet Potion rechargeable 12
+
+=== DEM-L-008 | La pétricite de Fossbarrow
+source: institution
+region: demacia
+palier: locale
+type: enquete
+ton: horreur
+lieu: Fossbarrow
+demandeur: la Chambre des Bannières, à la demande de la magistrate Giselle de Fossbarrow
+accroche: « Le mur de pétricite qui entoure le tombeau de Fossian Crownguard se fissure. Depuis, les chiens de Fossbarrow refusent de passer devant. La nuit, on entend des voix dans le tombeau. La magistrate Giselle demande une équipe discrète. Elle ne veut pas de panique, et pas de prêtre. Pas encore. »
+postes: Mage, Éclaireur, Support
+duree: 9
+dangereuse: oui
+epreuves: discretion 45 (entrer dans le tombeau la nuit, sans alarmer la ville) ; siege 47 (colmater la fissure avant qu'elle ne s'élargisse) ; diplomatie 42 (convaincre la ville que tout est rentré dans l'ordre)
+complication: La pétricite a absorbé, pendant des siècles, la magie de tous les objets enterrés avec les morts. En se fissurant, elle relâche ce qu'elle avait gardé : des échos, des lumières, et des voix qui répètent des phrases d'il y a trois cents ans.
+eclatante: {meneur} colmate la fissure au matin, après une nuit entière à écouter les voix du tombeau. L'une d'elles a répété, sans fin, le nom d'une femme. La magistrate Giselle fait des recherches : c'est le nom de la fiancée d'un soldat enterré là, qui n'a jamais su qu'il était mort. Une plaque à son nom est posée dans le tombeau. Depuis, les voix se taisent. Les chiens de Fossbarrow repassent devant le mur.
+reussite: La fissure est colmatée, au prix de plusieurs blocs de pétricite précieuse, que la Chambre facture à la ville. Les voix cessent. La magistrate Giselle annonce qu'il s'agissait d'un simple affaissement. Personne n'y croit, mais tout le monde fait semblant. C'est très demacien.
+partielle: La fissure est colmatée à moitié. Les voix sont moins fortes, mais elles reviennent les nuits sans lune. La magistrate fait poster des gardes devant le tombeau. Ils demandent tous à changer de poste au bout d'une semaine.
+echec: La fissure s'élargit pendant l'intervention. Une lumière froide sort du tombeau, et reste au-dessus de Fossbarrow pendant trois nuits. La moitié de la ville dort chez des parents, dans d'autres bourgs. La magistrate Giselle doit faire venir des prêtres, et des maçons de la maison Durand. Ça coûtera très cher.
+recompenses: po 150 ; reputation 5 ; objet Cape de négation 14
+
+=== DEM-L-009 | Les chevaux de Velorus
+source: privee
+region: demacia
+palier: locale
+type: traque
+ton: aventure
+lieu: Velorus
+demandeur: Brune Taillefer, éleveuse de chevaux de guerre, qui a fourni trois générations de chevaliers
+accroche: « On m'a volé douze chevaux, la nuit dernière. Mes meilleurs. Chacun vaut le salaire d'un sergent pour un an. Les voleurs savaient où était la clé de l'écurie, et quels chevaux prendre. Ce sont des gens d'ici. Et ils filent vers l'est. »
+postes: Éclaireur, Tireur
+duree: 10
+dangereuse: non
+epreuves: poursuite 46 (suivre la trace de douze chevaux, que les voleurs ont essayé de brouiller) ; combat 44 (affronter les voleurs, sans blesser les chevaux) ; voyage 40 (ramener le troupeau à Velorus en un seul morceau)
+complication: Le chef des voleurs est le propre neveu de Brune Taillefer, qui croyait que l'élevage lui reviendrait un jour, et qui vient d'apprendre qu'il n'en sera rien.
+eclatante: {meneur} rattrape le troupeau dans un vallon, et le neveu avec. Il n'y a pas de combat : le jeune homme pose son arme dès qu'il comprend qu'il est découvert. De retour à Velorus, Brune Taillefer lui donne deux choix : la prison, ou dix ans à l'écurie, à tout apprendre. Il choisit l'écurie. Les chevaux, eux, rentrent tous. L'éleveuse offre à la guilde un poulain, qui deviendra le cheval le plus têtu de tout le repère.
+reussite: Onze chevaux sur douze rentrent à Velorus. Le dernier s'est cassé une jambe dans la fuite, et il a fallu l'abattre. Les voleurs sont arrêtés. En apprenant qui les menait, Brune Taillefer s'assoit dans la paille et ne dit rien pendant une heure. Elle paie la guilde le lendemain, sans un mot.
+partielle: L'équipe ne ramène que sept chevaux. Les voleurs ont vendu les autres à un marchand de passage, qui a déjà franchi Graygate. Brune Taillefer devra faire une croix sur sa meilleure saison. Elle remercie la guilde, sincèrement, mais on voit bien que ça lui coûte.
+echec: La trace se perd dans les marais. Les chevaux sont partis vers l'est, et ils ne reviendront pas. Brune Taillefer vend la moitié de ses terres pour payer ses dettes. On raconte qu'un de ses chevaux a été vu, quelques mois plus tard, sous un officier noxien.
+recompenses: po 125 ; reputation 4 ; objet Bottes 14
+
+=== DEM-L-010 | Le chantier du Port de la Cité
+source: institution
+region: demacia
+palier: locale
+type: protection
+ton: politique
+lieu: Port de la Cité
+demandeur: la Chambre des Bannières, pour le maître des quais du Port de la Cité
+accroche: « Les dockers du Port de la Cité refusent de décharger les navires depuis deux jours. Ils réclament une paie juste et des cordages qui ne cèdent pas. Le maître des quais a peur d'une émeute. La Chambre demande une équipe pour protéger le chantier, sans frapper les dockers. Un port qui brûle, ça coûte plus cher qu'une augmentation. »
+postes: Tank, Support
+duree: 12
+dangereuse: non
+epreuves: diplomatie 46 (parler aux dockers et comprendre ce qu'ils veulent vraiment) ; combat 42 (arrêter les casseurs qui veulent profiter de la grève pour piller les entrepôts) ; diplomatie 45 (obtenir du maître des quais qu'il reçoive les représentants des dockers)
+complication: Les casseurs ne sont pas des dockers. Ils ont été payés par un marchand qui veut faire échouer la grève, pour que la Couronne envoie la troupe.
+eclatante: {meneur} surprend le marchand en train de payer les casseurs, devant trois témoins. Le scandale éclate au Port de la Cité. Le maître des quais reçoit les dockers, et accepte la moitié de leurs demandes, ce qui est plus qu'ils n'espéraient. Le marchand est banni du port. Le soir, les dockers offrent à la guilde un tonneau d'hydromel, déchargé, pour une fois, avec un grand sourire.
+reussite: Les casseurs sont arrêtés avant d'avoir pu piller les entrepôts. Le maître des quais accepte de recevoir les dockers, et la grève s'arrête au bout d'une semaine. Les cordages sont changés. La paie, elle, augmente à peine. Mais les navires repartent.
+partielle: Le pillage est évité, mais les dockers refusent de parler au maître des quais tant que la troupe garde le pont. La grève dure trois semaines. Les prix montent dans toute la capitale. Personne n'a vraiment gagné, et tout le monde le sait.
+echec: Les casseurs mettent le feu à un entrepôt de laine. La Couronne envoie la troupe, comme le voulait le marchand. Les dockers sont dispersés, et la grève brisée. Le Port reprend son activité, sans rien de changé, sauf la colère, qui reste.
+recompenses: po 130 ; reputation 4 ; objet Armure de tissu 12
+
+=== DEM-L-011 | La caravane de pétricite
+source: institution
+region: demacia
+palier: locale
+type: escorte
+ton: aventure
+lieu: Bosquet de pétricite
+demandeur: la Chambre des Bannières, pour la maison Durand, qui taille la pétricite depuis trois siècles
+accroche: « La maison Durand doit acheminer trois blocs de pétricite brute du Bosquet jusqu'à la capitale. Chaque bloc vaut une petite fortune, et la pétricite ne repousse plus. Les routes du nord ne sont pas sûres en ce moment. La Chambre demande une escorte. Discrète, si possible. »
+postes: Tank, Éclaireur, Tireur
+duree: 12
+dangereuse: oui
+epreuves: voyage 44 (faire passer trois chariots très lourds sur des chemins de montagne détrempés) ; combat 48 (repousser l'embuscade d'une bande qui connaît la valeur de la cargaison) ; discretion 42 (traverser Pinara de nuit, sans attirer l'attention des contrebandiers)
+complication: Un des charretiers de la maison Durand renseigne la bande depuis le départ. C'est un ancien carrier, licencié l'an dernier, qui a perdu une main au Bosquet.
+eclatante: {meneur} repère le charretier qui sème des marques à la craie sur les bornes du chemin, et retourne le piège : la bande attaque un chariot vide, pendant que les blocs passent par une autre route. Les trois blocs arrivent à la capitale. La maison Durand offre à la guilde un petit éclat de pétricite taillé, assez pour un pendentif. Le charretier, lui, est jugé. La guilde témoigne qu'il a été mal traité par la maison. Le juge s'en souvient.
+reussite: L'embuscade est repoussée, après un combat violent sur la route de Pinara. Deux blocs arrivent intacts. Le troisième est tombé dans un ravin pendant l'attaque. La maison Durand le fera chercher, mais ça prendra des semaines. Le paiement est réduit d'autant, ce que la Chambre trouve « normal ».
+partielle: La caravane arrive, mais un seul bloc est entier. Les deux autres se sont fendus en tombant des chariots. La maison Durand accuse l'escorte. La Chambre défend la guilde, mais du bout des lèvres. Il y aura sans doute moins de missions de ce genre pendant quelque temps.
+echec: La bande s'empare de deux chariots, et disparaît dans les montagnes. La maison Durand perd deux blocs de pétricite qu'elle ne pourra jamais remplacer. La Chambre retient l'échec contre la guilde, et le note dans son registre. À la capitale, on en parle pendant des semaines.
+recompenses: po 340 ; reputation 5 ; objet Ceinture du géant 15
+risque: oui
+
+=== DEM-L-012 | La chorale de l'abbaye
+source: privee
+region: demacia
+palier: locale
+type: livraison
+ton: tendre
+lieu: Bois sacrés
+demandeur: Sœur Mélisande, maîtresse de chant d'une petite abbaye perdue dans les Bois sacrés
+accroche: « Notre chorale doit chanter devant la reine douairière, à la capitale, dans six jours. Nous sommes douze sœurs, toutes âgées, et notre charrette a perdu une roue. Nous avons aussi un orgue portatif, très fragile, et très lourd. Je sais que ce n'est pas une mission de héros. Mais c'est la première fois en quarante ans qu'on nous invite. »
+postes: Combattant, Support
+duree: 14
+dangereuse: non
+epreuves: voyage 42 (conduire douze sœurs et un orgue à travers les Bois sacrés jusqu'à la grande route) ; diplomatie 38 (obtenir une audience au palais pour des sœurs dont personne ne trouve le nom sur la liste) ; siege 40 (réparer l'orgue, qui a souffert du voyage, la veille du concert)
+complication: Sœur Agathe, la plus âgée de la chorale, est très malade. Elle n'a rien dit à personne. C'est son dernier voyage, et elle le sait.
+eclatante: {meneur} répare l'orgue pendant la nuit, au son de la voix de Sœur Agathe qui répète son solo, assise sur une caisse. Le concert a lieu. La reine douairière se lève à la fin du chant, ce qu'elle ne fait jamais. Sœur Agathe meurt trois semaines plus tard, dans son abbaye, en paix. Sœur Mélisande écrit à la guilde : « Elle a chanté pour une reine. Elle en parlait encore le dernier soir. »
+reussite: Les sœurs arrivent à temps, et la chorale chante devant la cour. Il y a quelques fausses notes, et l'orgue grince un peu au milieu du deuxième chant. La reine douairière applaudit poliment. Les sœurs repartent ravies. Pour elles, c'était parfait.
+partielle: La chorale arrive à la capitale, mais trop tard pour le concert prévu. Le chambellan accepte de les faire chanter dans la cour du palais, devant les serviteurs. Les serviteurs pleurent. Les sœurs disent que c'est très bien comme ça.
+echec: La charrette s'enlise dans les Bois sacrés, et l'orgue se brise en tombant. Les sœurs rentrent à pied à l'abbaye. Elles chantent sur le chemin du retour, pour se donner du courage. Sœur Agathe ne verra jamais la capitale.
+recompenses: po 60 ; reputation 3 ; objet Charme féerique 12
+
+=== DEM-L-013 | Les loups de High Silvermere
+source: privee
+region: demacia
+palier: locale
+type: chasse
+ton: horreur
+lieu: High Silvermere
+demandeur: Gaspard Lenoir, garde-chasse des terres Crownguard, qui ne dort plus depuis une semaine
+accroche: « Les loups ne font pas ça. Ils ne laissent pas les carcasses intactes. Ils ne tuent pas pour rien. Et ils ne restent pas assis en rond, la nuit, à regarder le manoir. Moi, je les ai vus. Douze. Assis. Immobiles. Qui regardaient. »
+postes: Tireur, Tank, Éclaireur
+duree: 9
+dangereuse: oui
+epreuves: poursuite 45 (suivre la meute jusqu'à sa tanière, dans les bois au-dessus du manoir) ; combat 50 (affronter une meute qui se comporte comme une seule bête) ; discretion 43 (découvrir ce qui les rend fous, sans se faire repérer)
+complication: Un objet magique, volé au Registre arcanique et enterré près de la tanière par un voleur pressé, rend les loups étranges : ils obéissent à une même volonté, sans savoir laquelle.
+eclatante: {meneur} trouve l'objet enterré, une broche d'argent qui bourdonne dans la main, et la rapporte au manoir dans un coffret de pétricite. La meute se disperse dès le lendemain, comme si elle se réveillait d'un rêve. Gaspard Lenoir dort quinze heures d'affilée. La maison Crownguard remet la broche au Registre, et fait discrètement savoir que la guilde mérite sa confiance.
+reussite: La meute est abattue après deux nuits de chasse. C'est dur, et ça laisse un goût amer : ces loups-là n'avaient rien fait de mal, ils étaient seulement étranges. L'objet magique n'est pas retrouvé. Gaspard Lenoir dort mieux, mais il regarde encore souvent vers les bois.
+partielle: La moitié de la meute est abattue, l'autre s'enfuit vers les Hautes-Terres. Les loups ne s'asseyent plus devant le manoir. Mais certains bergers du nord racontent, depuis, avoir vu des loups immobiles qui les regardaient passer.
+echec: La meute encercle l'équipe dans la forêt, une nuit entière, sans attaquer. Au matin, elle a disparu. L'équipe rentre épuisée, sans avoir tiré une flèche. Gaspard Lenoir quitte son poste. On ne retrouve personne pour le remplacer.
+recompenses: po 145 ; reputation 4 ; objet Élixir de rage 12
+
+=== DEM-L-014 | Le fils du juge
+source: privee
+region: demacia
+palier: locale
+type: recuperation
+ton: drole
+lieu: Le Cercle d'Or
+demandeur: Hugues Delorme, juge à la capitale, qui a l'air de ne pas avoir souri depuis l'enfance
+accroche: « Mon fils s'est engagé dans une troupe de théâtre. Au Cercle d'Or. Pour jouer un ivrogne. Dans une comédie. Le jour de la première, je reçois toute la magistrature à dîner. Je ne vous demande pas de l'enlever. Je vous demande de récupérer le contrat qu'il a signé, et de le déchirer. »
+postes: Assassin
+duree: 6
+dangereuse: non
+epreuves: discretion 44 (se glisser dans les coulisses du Cercle d'Or pendant les répétitions) ; diplomatie 40 (convaincre la directrice de la troupe de rendre le contrat) ; poursuite 38 (rattraper le fils du juge, qui a compris ce qui se passait et s'enfuit en costume)
+complication: Le fils du juge est excellent. Vraiment excellent. La directrice de la troupe le considère comme le meilleur comédien qu'elle ait vu en vingt ans.
+eclatante: {meneur} récupère le contrat, puis fait une chose que personne n'avait prévue : offrir au juge deux places pour la première, au premier rang. Le juge vient, furieux, en robe de magistrat. À l'entracte, il rit. À la fin, il se lève pour applaudir, le premier de toute la salle. Le lendemain, la magistrature entière vient voir la pièce. Le fils signe un nouveau contrat. Le juge le fait encadrer.
+reussite: Le contrat est récupéré et remis au juge, qui le déchire devant son fils. Le jeune homme ne joue pas la première. Mais il continue à répéter en secret, et on raconte qu'il remontera sur scène dès qu'il sera majeur. Le juge paie la guilde, en lui demandant de ne pas en parler. Elle n'en parle pas. Tout le monde le sait quand même.
+partielle: Le contrat est perdu dans la poursuite à travers les coulisses, au milieu des décors. Le fils du juge joue la première. Son père n'y assiste pas. Le dîner de la magistrature a lieu dans un silence de mort. La pièce, elle, fait salle comble.
+echec: Le fils du juge surprend l'équipe dans les coulisses, et crie au voleur devant toute la troupe. La directrice porte plainte. Le juge doit payer une amende pour l'intrusion. Il ne regarde plus jamais une affiche de théâtre de la même façon.
+recompenses: po 80 ; reputation 2 ; objet Dague 10
+
+=== DEM-L-015 | Les noyés du Serpentrion
+source: privee
+region: demacia
+palier: locale
+type: sauvetage
+ton: horreur
+lieu: Le Serpentrion
+demandeur: Colin Gué, passeur sur le Serpentrion depuis quarante ans, qui ne veut plus traverser
+accroche: « Trois bateaux ont chaviré ce mois-ci, au même endroit. Par temps calme. Les survivants disent qu'ils ont senti des mains les tirer vers le fond. Moi, je ne crois pas aux fantômes. Mais je ne traverse plus. Et il y a une famille coincée sur l'autre rive, avec un bébé, qui attend que quelqu'un vienne la chercher. »
+postes: Tank, Healer
+duree: 8
+dangereuse: oui
+epreuves: voyage 46 (traverser le fleuve à l'endroit où les bateaux chavirent) ; combat 44 (affronter ce qui tire les nageurs vers le fond) ; voyage 42 (ramener la famille sur l'autre rive sans la mettre en danger)
+complication: Il n'y a pas de fantômes : un vieux bateau coulé, il y a des années, s'est coincé sous la surface. Ses cordages emmêlés et ses filets flottants agrippent tout ce qui passe. Les « mains » sont des cordes.
+eclatante: {meneur} plonge, couteau entre les dents, et coupe les cordages un par un, dans une eau si froide qu'elle brûle. Le vieux bateau remonte à la surface, et on y trouve une plaque au nom d'un passeur disparu il y a vingt ans. Colin Gué la reconnaît : c'était son maître. La famille traverse le soir même, et le bébé dort tout le long. Le lendemain, Colin Gué reprend sa barque.
+reussite: L'équipe repère les cordages et les coupe en partie. Le passage redevient praticable, à condition de s'écarter un peu. La famille est ramenée sur la bonne rive, trempée mais saine et sauve. Colin Gué recommence à traverser, mais il ne s'approche plus jamais de cet endroit-là.
+partielle: La famille est ramenée, mais les cordages restent. Colin Gué plante des piquets pour marquer l'endroit maudit. Les bateaux font désormais un long détour. Les gens du coin, eux, continuent à parler des noyés qui tirent par les pieds.
+echec: Un membre de l'équipe est tiré vers le fond, et ne s'en sort que de justesse. La traversée est impossible. La famille doit faire quatre jours de marche pour trouver un pont. Le passage du Serpentrion est abandonné. On raconte qu'il est hanté, et personne ne cherche plus à prouver le contraire.
+recompenses: po 115 ; reputation 4 ; objet Potion de soin 18
+
+=== DEM-L-016 | L'ambassade de Zeffira
+source: institution
+region: demacia
+palier: locale
+type: diplomatie
+ton: politique
+lieu: Zeffira
+demandeur: la Chambre des Bannières, pour le conseil de Zeffira
+accroche: « Zeffira et la capitale se disputent le droit de lever un impôt sur la route de l'est. Le ton monte. Des deux côtés, on parle de fermer les portes. Le conseil de Zeffira veut un intermédiaire neutre pour porter ses propositions à la capitale. La Chambre a pensé à votre guilde. Ne nous faites pas regretter ce choix. »
+postes: Support, Mage, Assassin
+duree: 12
+dangereuse: non
+epreuves: diplomatie 48 (porter les propositions de Zeffira à un conseiller de la couronne qui ne veut rien entendre) ; diplomatie 46 (revenir avec une contre-proposition que le conseil de Zeffira acceptera de lire) ; discretion 40 (découvrir qui, des deux côtés, a intérêt à ce que la négociation échoue)
+complication: Un conseiller de Zeffira fait passer des lettres anonymes à la capitale, qui déforment les propositions de son propre conseil. Il possède les principaux relais de la route, et gagne plus à la crise qu'à la paix.
+eclatante: {meneur} prouve, lettres à l'appui, que le conseiller de Zeffira sabotait lui-même la négociation. Il est démis de ses fonctions. Sans lui, l'accord est trouvé en trois jours : l'impôt sera partagé, et une partie servira à réparer la route. Le conseil de Zeffira donne le nom de la guilde à une borne de la route de l'est. Elle y est encore.
+reussite: Un accord provisoire est trouvé : l'impôt sera partagé pendant un an, en attendant mieux. Les deux camps sont mécontents, ce qui veut dire que l'accord est équilibré. La Chambre des Bannières se déclare satisfaite, ce qui est rare. La guilde a désormais une réputation de médiatrice.
+partielle: La négociation n'aboutit pas, mais les portes restent ouvertes. On se reparlera au printemps. La Chambre note que la guilde a « évité le pire ». Le pire n'est jamais loin, en politique demacienne.
+echec: La négociation échoue. Zeffira ferme sa porte de l'ouest pendant un mois, et la capitale manque de grain. La guilde a été vue avec les deux camps : chacun l'accuse de travailler pour l'autre. La Chambre n'envoie plus de mission diplomatique à la guilde pendant un long moment.
+recompenses: po 170 ; reputation 6 ; objet Tome d'amplification 12
+
+=== DEM-L-017 | Le chevalier qui ne revient pas
+source: privee
+region: demacia
+palier: locale
+type: exploration
+ton: mystere
+lieu: Monts Croc-Vert
+demandeur: Mathilde Vernay, épouse d'un chevalier parti chercher le champ de bataille de son grand-père
+accroche: « Mon mari est parti il y a deux semaines dans les Monts Croc-Vert. Il voulait retrouver l'endroit exact où son grand-père est tombé, pendant la grande bataille. Il devait rentrer en cinq jours. Son cheval est revenu seul, hier. Avec, dans la sacoche, une carte couverte de croix que je ne comprends pas. »
+postes: Éclaireur, Healer, Combattant
+duree: 13
+dangereuse: oui
+epreuves: voyage 46 (suivre la carte du chevalier à travers les cols des Croc-Vert) ; poursuite 44 (retrouver sa trace, effacée par la pluie) ; siege 42 (dégager l'entrée d'une grotte effondrée)
+complication: Le chevalier a trouvé le champ de bataille, et bien plus : une grotte où une dizaine de soldats s'étaient réfugiés, blessés, pendant la bataille. On ne les a jamais retrouvés. Il y est entré, et un éboulement l'y a enfermé avec eux.
+eclatante: {meneur} dégage l'entrée de la grotte. Le chevalier est vivant, affamé, une jambe cassée, assis au milieu des restes de douze soldats. Il tient dans ses mains un écusson : celui de son grand-père. Il a passé neuf jours à lire leurs noms, gravés sur la paroi, pour ne pas devenir fou. La Salle de la Vaillance ajoute ces douze noms à ses murs, un mois plus tard. Le chevalier, appuyé sur une béquille, lit chaque nom à voix haute pendant la cérémonie.
+reussite: Le chevalier est retrouvé dans la grotte, affaibli mais vivant. Il est ramené à Mathilde Vernay, qui le gronde pendant une heure, puis ne le lâche plus. Il veut retourner dans la grotte pour récupérer les restes des soldats. Mathilde dit non. Il y retournera quand même, au printemps.
+partielle: L'équipe retrouve la grotte, mais trop tard pour dégager l'entrée avant la nuit. Le lendemain, le chevalier ne répond plus. On le sort, inconscient, et il se réveillera trois jours plus tard. Il ne se souvient de rien. Il n'a plus jamais voulu entendre parler des Croc-Vert.
+echec: La pluie a effacé la trace, et les croix de la carte ne mènent nulle part. Après une semaine de recherche, l'équipe rentre sans le chevalier. Mathilde Vernay ne veut pas croire qu'il est mort. Chaque soir, elle laisse une lampe allumée à sa fenêtre. Elle y est encore.
+recompenses: po 135 ; reputation 4 ; objet Bottes 12
+
+=== DEM-L-018 | La librairie interdite
+source: privee
+region: demacia
+palier: locale
+type: livraison
+ton: mystere
+lieu: Bibliothèque d'Albâtre
+demandeur: Élise Arnaud, copiste à la Bibliothèque d'Albâtre, qui serre contre elle un paquet enveloppé de toile cirée
+accroche: « J'ai recopié un livre. Un livre de poésie de Tung, que la Bibliothèque garde sous clé, parce qu'il parle de magie. Pas pour en faire. Pour la regretter. Un vieil homme de Terbisia veut le lire avant de mourir. Il a quatre-vingt-dix ans. Je ne peux pas y aller moi-même : on remarquerait mon absence. »
+postes: Assassin
+duree: 6
+dangereuse: non
+epreuves: discretion 46 (sortir de la capitale avec un livre interdit, sans être fouillé à la porte) ; voyage 40 (atteindre Terbisia par les petits chemins, loin des patrouilles) ; diplomatie 42 (convaincre la famille du vieil homme de laisser entrer un inconnu)
+complication: Le vieil homme de Terbisia est un ancien mage, qui n'a jamais utilisé sa magie depuis l'âge de quinze ans. Il veut lire ce livre, parce qu'il a connu, enfant, la personne qui l'a écrit.
+eclatante: {meneur} lit le livre à voix haute au vieil homme, dont les yeux ne voient plus assez. Il pleure à la troisième page, sourit à la dixième. À la fin, il demande qu'on lui relise un seul poème, puis s'endort. Il meurt quatre jours plus tard. Sa famille rend le livre à la guilde, avec une lettre pour la copiste : « Il a dit que c'était le plus beau cadeau qu'on lui ait jamais fait. » Élise Arnaud garde la lettre toute sa vie.
+reussite: Le livre est livré. Le vieil homme le lit, lentement, pendant plusieurs jours. Sa famille le cache ensuite dans un endroit où personne ne viendra le chercher. Élise Arnaud ne saura jamais exactement ce que le livre a représenté pour lui. Elle sait seulement qu'il est arrivé.
+partielle: L'équipe a dû abandonner le livre pour passer une fouille à la porte de la capitale. Elle le récupère deux jours plus tard, dans une cachette, mouillé et abîmé. Il manque des pages. Le vieil homme le lit quand même. Il dit que ce qui manque, il s'en souvient.
+echec: Le livre est saisi à la porte. La Bibliothèque d'Albâtre ouvre une enquête, et Élise Arnaud perd sa place de copiste. Le vieil homme de Terbisia meurt sans l'avoir lu. Sa famille écrit à la guilde. Elle ne reproche rien. C'est presque pire.
+recompenses: po 70 ; reputation 3 ; objet Tome d'amplification 10
+
+=== DEM-L-019 | Les contrebandiers de Needlebrook
+source: institution
+region: demacia
+palier: locale
+type: traque
+ton: politique
+lieu: Needlebrook
+demandeur: la Chambre des Bannières, pour le magistrat de Needlebrook
+accroche: « Des inventions de Piltover arrivent à Needlebrook chaque semaine, par la mer. Des lampes qui brillent sans flamme, des montres qui ne s'arrêtent jamais. Le commerce avec Piltover est interdit. Le magistrat veut les contrebandiers. La Chambre veut surtout savoir à qui ils vendent. »
+postes: Éclaireur, Assassin
+duree: 10
+dangereuse: oui
+epreuves: discretion 46 (surveiller la crique où les barques accostent la nuit) ; poursuite 47 (suivre la marchandise jusqu'à son acheteur, à travers trois intermédiaires) ; combat 43 (arrêter les contrebandiers au moment de la livraison)
+complication: Le principal acheteur est l'hospice de Needlebrook. Les lampes de Piltover éclairent les salles des malades la nuit, sans risque d'incendie. Les montres servent à donner les remèdes à l'heure.
+eclatante: {meneur} arrête les contrebandiers, puis remet au magistrat un rapport complet : l'hospice, les lampes, les malades. Le magistrat lit tout. Il fait saisir la marchandise, comme la loi l'exige. Puis il la fait « prêter » à l'hospice, sous sa propre responsabilité, en attendant une décision de la capitale. La décision ne viendra jamais. Les lampes brillent encore dans les salles de l'hospice.
+reussite: Les contrebandiers sont arrêtés, et la marchandise saisie. La Chambre apprend à qui elle était vendue, et prévient l'hospice qu'il devra s'en passer. Le magistrat est félicité par la capitale. L'hospice retourne aux bougies. Une infirmière écrit à la guilde. Elle est très polie.
+partielle: Les contrebandiers s'enfuient en mer, mais la marchandise est saisie. On ne saura jamais à qui elle était vendue. La Chambre est à moitié satisfaite. Les contrebandiers, eux, reviendront, par une autre crique.
+echec: Les contrebandiers ont été prévenus. La crique est vide pendant deux semaines, puis l'équipe doit repartir. Le trafic reprend le lendemain. La Chambre note dans son registre que la guilde « manque de discrétion ».
+recompenses: po 150 ; reputation 5 ; objet Dague 12
+
+=== DEM-L-020 | La dernière garnison des Portes du Deuil
+source: institution
+region: demacia
+palier: locale
+type: exploration
+ton: tragique
+lieu: Portes du Deuil
+demandeur: la Chambre des Bannières, pour les familles des soldats tombés aux Portes du Deuil
+accroche: « L'avant-poste des Portes du Deuil est tombé face à la Légion Trifarian. Les corps n'ont jamais été ramenés. Une trêve locale permet aujourd'hui d'y envoyer une petite équipe, sans armes visibles, pour récupérer les plaques d'identité des soldats. Les familles attendent depuis deux ans. »
+postes: Support, Healer, Tank
+duree: 10
+dangereuse: oui
+epreuves: diplomatie 46 (négocier avec l'officier noxien qui garde l'avant-poste le droit de fouiller les ruines) ; voyage 42 (traverser une zone où la trêve est respectée par certains, pas par tous) ; siege 44 (fouiller les décombres de l'avant-poste, où chaque mur menace de s'effondrer)
+complication: L'officier noxien a lui-même perdu des hommes dans l'assaut. Il a fait enterrer les soldats demaciens à côté des siens, dans une même fosse, et gardé leurs plaques dans un coffre, sans savoir à qui les rendre.
+eclatante: {meneur} gagne le respect de l'officier noxien en deux jours de discussions. Il ouvre le coffre : quarante-trois plaques, toutes. Il demande une seule chose en échange : que la guilde rapporte aussi, de l'autre côté, la lettre d'un de ses soldats à sa mère, qui vit à Demacia. La lettre est remise. Les plaques aussi, aux familles, à la Salle de la Vaillance. L'officier noxien, lui, reste dans les mémoires de quelques Demaciens comme un ennemi honorable.
+reussite: L'équipe récupère trente plaques dans les ruines, au prix de longues journées de fouille. Les familles les reçoivent à la Salle de la Vaillance, lors d'une cérémonie très simple. Pour treize familles, il n'y a rien. Elles sont présentes quand même, et elles applaudissent pour les autres.
+partielle: La trêve est rompue au troisième jour par un groupe de pillards. L'équipe se replie avec seulement douze plaques. Les familles concernées sont reconnaissantes. Les autres écrivent à la Chambre pour demander une nouvelle expédition. Elle n'aura pas lieu avant longtemps.
+echec: L'officier noxien refuse l'accès aux ruines. L'équipe attend une semaine, en vain, puis doit rentrer. La Chambre écrit aux familles qu'il faudra encore attendre. Une mère se présente au repère pour demander pourquoi. Personne ne trouve de bonne réponse.
+recompenses: po 160 ; reputation 6 ; objet Armure de tissu 12
+
+=== DEM-L-021 | La sorcière de Jandelle
+source: privee
+region: demacia
+palier: locale
+type: diplomatie
+ton: tendre
+lieu: Jandelle
+demandeur: le père Anselme, curé de Jandelle, qui parle de ses paroissiens comme de ses enfants
+accroche: « Ma paroisse est persuadée qu'une vieille femme du hameau est une sorcière. Elle vit seule, elle parle aux corbeaux, et ses tisanes guérissent mieux que les miennes. Les hommes du village parlent de brûler sa maison. Je ne veux pas qu'on fasse ça en mon nom. Ni en celui des Sœurs ailées. »
+postes: Support
+duree: 7
+dangereuse: non
+epreuves: diplomatie 45 (gagner la confiance de la vieille femme, qui n'a pas envie de parler à des étrangers) ; diplomatie 47 (affronter le village, un soir, devant l'église, et le faire changer d'avis) ; discretion 39 (savoir qui, dans le village, attise la peur et pourquoi)
+complication: La vieille femme n'a aucun pouvoir magique. Elle a été sage-femme pendant cinquante ans, et elle a aidé à naître la moitié des hommes qui veulent brûler sa maison. Celui qui attise la peur veut son terrain.
+eclatante: {meneur} réunit le village devant l'église, et demande à chacun de dire qui l'a mis au monde. Un à un, les noms tombent. Le même nom, encore et encore. Le silence qui suit est très long. Le lendemain, des hommes viennent réparer le toit de la vieille femme, sans un mot. Celui qui voulait son terrain quitte Jandelle avant l'hiver. Le père Anselme fait sonner les cloches pour rien, juste parce qu'il est content.
+reussite: Le village se calme après une longue soirée de discussion. La vieille femme garde sa maison, mais les villageois l'évitent encore. Le père Anselme lui rend visite chaque semaine, et boit ses tisanes, en public. Petit à petit, d'autres viennent aussi.
+partielle: La maison n'est pas brûlée, mais la vieille femme décide de partir. Elle ne veut plus vivre au milieu de gens qui l'ont crue capable du pire. Le père Anselme l'accompagne jusqu'au bourg voisin. Il revient seul, et prêche pendant un mois sur la peur et la honte.
+echec: Un soir, la maison de la vieille femme brûle. Elle s'en sort, de justesse, grâce à ses corbeaux qui l'ont réveillée. Elle part le lendemain, sans se retourner. Le père Anselme demande à être muté. Jandelle n'a plus de sage-femme.
+recompenses: po 65 ; reputation 3 ; objet Cristal de rubis 10
+
+=== DEM-L-022 | Le Gambit du Roi
+source: privee
+region: demacia
+palier: locale
+type: recuperation
+ton: drole
+lieu: Edessa
+demandeur: Barnabé Loisel, champion du Gambit du Roi à Edessa depuis sept ans, qui a perdu son plateau
+accroche: « Mon plateau de Gambit a disparu. Un plateau en ivoire, offert par mon grand-père, avec lequel j'ai remporté sept tournois. Le huitième a lieu dans trois jours. Sans lui, je perdrai. Ce n'est pas de la superstition, c'est un fait. Et je sais qui l'a pris : mon rival, Théodore. Mais je n'ai aucune preuve. »
+postes: Éclaireur
+duree: 5
+dangereuse: non
+epreuves: discretion 42 (fouiller la maison du rival pendant qu'il entraîne ses élèves) ; diplomatie 40 (interroger les joueurs du club sans réveiller sept ans de rancunes) ; poursuite 38 (rattraper le vrai voleur, qui tente de revendre le plateau au marché)
+complication: Le voleur n'est pas Théodore. C'est la propre petite-fille de Barnabé, qui a caché le plateau pour forcer son grand-père à jouer sans lui, et à découvrir qu'il n'en a pas besoin.
+eclatante: {meneur} démasque la petite-fille, qui avoue tout en riant, puis en pleurant un peu. Barnabé accepte de jouer le tournoi sans son plateau. Il perd la première partie, gagne les cinq suivantes, et remporte la finale contre Théodore. Il pleure de joie, puis serre la main de son rival pour la première fois en sept ans. Le plateau est rendu le soir même. Barnabé l'offre à sa petite-fille, et lui apprend à jouer.
+reussite: Le plateau est retrouvé chez un brocanteur, à qui la petite-fille l'avait confié. Barnabé ne saura jamais qui l'avait pris. Il gagne son huitième tournoi, avec son plateau, convaincu plus que jamais qu'il lui porte chance. Sa petite-fille soupire, et décide de laisser tomber.
+partielle: Le plateau est retrouvé, mais une pièce manque : le roi. Barnabé joue avec un roi de bois, prêté par Théodore. Il perd en finale, contre Théodore. Les deux hommes ne se parlent toujours pas, mais Théodore lui rend la pièce manquante une semaine plus tard, sans un mot.
+echec: L'équipe accuse Théodore devant tout le club. Il est innocent, et le prend très mal. Le scandale éclabousse Barnabé, qui est exclu du tournoi. Le plateau réapparaît trois jours plus tard, posé sur son pas de porte. Trop tard.
+recompenses: po 45 ; reputation 2 ; objet Charme féerique 10
+
+=== DEM-L-023 | La relève de Dawnhold
+source: privee
+region: demacia
+palier: locale
+type: defense
+ton: tragique
+lieu: Dawnhold
+demandeur: Sergente Varenne, commandante par intérim de la forteresse de Dawnhold, qui n'a que vingt-trois ans
+accroche: « Le commandant est mort de fièvre il y a dix jours. La relève devait arriver hier. Elle n'est pas là. Et ce matin, mes guetteurs ont vu trois voiles du Freljord à l'horizon. J'ai vingt soldats, la plupart des recrues. Je ne demande pas de miracle. Je demande de tenir jusqu'à l'arrivée de la relève. »
+postes: Tank, Mage, Support
+duree: 14
+dangereuse: oui
+epreuves: siege 47 (remettre en état les défenses de la forteresse en une seule journée) ; nuee 52 (repousser le débarquement des pillards sur la plage) ; diplomatie 44 (garder des recrues terrifiées à leur poste, pendant toute la nuit)
+complication: La relève est bloquée à deux jours de marche par un pont effondré. Elle n'arrivera pas avant trois jours. La forteresse devra tenir seule.
+eclatante: {meneur} organise la défense de la plage comme Varya, il y a des siècles, au même endroit : des feux allumés partout, pour faire croire à une garnison dix fois plus nombreuse. Les pillards débarquent, voient les feux, hésitent, et repartent sans combattre. La relève arrive trois jours plus tard, et trouve vingt recrues fières comme des vétérans. La sergente Varenne est confirmée dans son commandement. Elle a vingt-trois ans. Elle tiendra Dawnhold pendant trente ans.
+reussite: Le débarquement est repoussé, au prix d'une nuit de combat sur la plage. Trois recrues sont blessées, aucune n'est tuée. La relève arrive au troisième jour, et prend le relais. La sergente Varenne écrit à la guilde une lettre très courte, très droite, et très émue.
+partielle: Les pillards prennent la plage et le village au pied de la forteresse, mais pas la forteresse elle-même. Ils repartent deux jours plus tard, chargés de butin. Le village est à reconstruire. La sergente Varenne ne dort pas pendant une semaine. Elle dit que c'est sa faute. Ce n'est pas vrai.
+echec: La forteresse tombe au matin du deuxième jour. Les survivants se replient vers l'intérieur des terres, avec la sergente Varenne, blessée. La relève reprendra Dawnhold une semaine plus tard. On compte six morts parmi les recrues. La guilde est invitée à leurs funérailles. Elle y va.
+recompenses: po 380 ; reputation 6 ; objet Bouclier de Doran 15
+risque: oui
+
+=== DEM-L-024 | Le pigeon de la reine
+source: privee
+region: demacia
+palier: locale
+type: recuperation
+ton: tendre
+lieu: Volières des Ailes-d'argent
+demandeur: Pierrot, apprenti soigneur aux Volières, quatorze ans, qui a perdu l'oiseau dont il avait la charge
+accroche: « C'est un rapace Aile-d'argent. Pas encore adulte. Il s'appelle Bleuet. C'est la reine douairière qui l'a choisi, l'an dernier, et elle vient le voir chaque mois. Elle vient dans quatre jours. Il s'est envolé hier, pendant que je nettoyais sa cage. Si elle apprend ça, je serai renvoyé. Mais surtout, il est trop jeune pour survivre seul. »
+postes: Tireur
+duree: 6
+dangereuse: non
+epreuves: poursuite 44 (suivre un jeune rapace, à pied, à travers la campagne autour de la capitale) ; discretion 40 (l'approcher sans l'effrayer de nouveau) ; diplomatie 38 (convaincre un fermier qui l'a capturé de le rendre)
+complication: Bleuet ne s'est pas enfui par hasard. Il a suivi un autre rapace, un adulte, sauvage, et il ne veut plus le quitter.
+eclatante: {meneur} retrouve les deux rapaces sur une falaise, passe une journée entière à les observer, puis revient à la capitale avec une idée pour Pierrot. Le jour de sa visite, la reine douairière trouve deux oiseaux dans la volière : Bleuet, et l'adulte sauvage, qui a suivi le jeune jusqu'ici. Elle rit, pour la première fois depuis longtemps, et décide que le grand s'appellera Pierrot. L'apprenti est promu soigneur.
+reussite: Bleuet est ramené à la volière, la veille de la visite de la reine. Il est en bonne santé, mais il regarde le ciel tout le temps. La reine douairière ne remarque rien. Pierrot, lui, remarque tout. Il demande à ce qu'on lui laisse plus souvent la porte ouverte.
+partielle: Bleuet est retrouvé, mais il a une aile abîmée, après une rencontre avec le fermier. Il ne pourra plus voler pendant des semaines. La reine douairière l'apprend, mais elle ne renvoie pas Pierrot : elle lui demande seulement de le soigner lui-même. Il le fera, nuit et jour.
+echec: Bleuet est perdu pour de bon. Pierrot est renvoyé des Volières. La reine douairière demande des nouvelles de l'oiseau pendant des mois, puis plus du tout. On raconte qu'on voit parfois, au-dessus de la capitale, deux rapaces qui volent ensemble.
+recompenses: po 55 ; reputation 2 ; objet Charme féerique 12
+
+=== DEM-L-025 | L'assassin d'Evenmoor
+source: privee
+region: demacia
+palier: locale
+type: traque
+ton: mystere
+lieu: Evenmoor
+demandeur: Dame Héloïse Varne, veuve d'un baron d'Evenmoor, qui ne croit pas à l'accident officiel
+accroche: « Mon mari est tombé de cheval. C'est ce que dit le rapport. Mon mari montait depuis l'âge de quatre ans, et son cheval est le plus calme du domaine. Le juge a classé l'affaire en une journée. Je ne demande pas vengeance. Je demande la vérité. Et le nom de la personne qui a payé le juge. »
+postes: Éclaireur, Support
+duree: 11
+dangereuse: oui
+epreuves: poursuite 46 (refaire le chemin du baron, et trouver ce qui a pu effrayer le cheval) ; diplomatie 44 (faire parler les palefreniers, qui ont peur de perdre leur place) ; discretion 47 (fouiller les comptes du juge sans éveiller ses soupçons)
+complication: Le baron n'a pas été assassiné. Il est bien tombé de cheval, mais il était déjà mourant, d'une maladie qu'il avait cachée à sa femme. Le juge a classé l'affaire vite, à la demande du baron lui-même, dans une lettre écrite une semaine avant sa mort.
+eclatante: {meneur} retrouve la lettre du baron dans le coffre du juge, scellée et non ouverte, adressée à sa femme. Le juge devait la lui remettre « si elle cherchait la vérité ». Dame Héloïse la lit seule, dans le jardin, pendant une heure. Puis elle revient, et remercie la guilde, les yeux secs. Elle dit seulement : « Il voulait que je me souvienne de lui à cheval. » Elle fait planter un cerisier à l'endroit de la chute.
+reussite: L'équipe découvre la maladie du baron grâce au médecin de famille, qui finit par parler. Il n'y a pas eu de meurtre. Dame Héloïse le prend mal, puis mieux. Elle garde rancune au juge d'avoir menti, même par bonté. Elle a sans doute raison.
+partielle: L'enquête ne trouve aucune preuve de meurtre, mais pas d'explication non plus. Dame Héloïse refuse de croire à l'accident. Elle engage un autre enquêteur, puis un autre. Elle passera des années à chercher un coupable qui n'existe pas.
+echec: L'équipe accuse un palefrenier, sur de mauvais indices. Il est arrêté, puis relâché faute de preuve, mais il perd sa place, et sa réputation. Dame Héloïse se fâche avec la moitié du domaine. La vérité ne sera jamais connue.
+recompenses: po 150 ; reputation 5 ; objet Élixir de sorcellerie 10

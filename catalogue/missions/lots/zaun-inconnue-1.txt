@@ -1,0 +1,505 @@
+# Zaun · palier Inconnue · lot 1 (missions 001 à 025)
+# {meneur} : le héros qui a mené l'épreuve décisive (dans une mission solo, le héros envoyé). La Chambre des Bannières : l'organisme supérieur aux guildes.
+
+=== ZAU-I-001 | Les mites de la Dernière Goutte
+source: privee
+region: zaun
+palier: inconnue
+type: defense
+ton: drole
+lieu: La Dernière Goutte
+demandeur: Big Ollie, tenancier de nuit à la Dernière Goutte, qui se gratte beaucoup
+accroche: « Des mites carnivores dans les banquettes. Elles mangent le cuir, le bois et les clients qui restent assis trop longtemps. J'ai perdu trois habitués et une fesse de client. Si on ferme, tout Zaun ira boire ailleurs. Il n'y a pas d'ailleurs. »
+postes: Mage
+duree: 3
+dangereuse: non
+epreuves: nuee 33 (repousser des nuées de mites affamées sans mettre le feu au bar) ; discretion 29 (trouver le nid, caché quelque part entre les tonneaux et les tuyaux)
+complication: Le nid est dans une caisse de vieux fauteuils que Big Ollie a rachetés à bas prix au marché, et qu'il a cachés à la cave parce qu'il comptait les revendre plus cher.
+eclatante: {meneur} repousse les mites d'un sort de chaleur bien dosé, et découvre le nid dans la caisse de fauteuils. Big Ollie avoue en rougissant. Les fauteuils sont brûlés dans la rue, sous les applaudissements des habitués. La Dernière Goutte rouvre le soir même. Une banquette est rebaptisée « la place de {meneur} ». Personne d'autre n'a le droit de s'y asseoir.
+reussite: Les mites sont chassées et le nid détruit. Le bar rouvre le lendemain. Big Ollie se gratte encore un peu, par habitude.
+partielle: Les mites ont quitté le bar, mais elles se sont installées chez le voisin. Le voisin n'est pas content.
+echec: {meneur} a mis le feu à une banquette. Les mites sont toujours là. Big Ollie a fermé une semaine, et il le rappelle à tout le monde.
+recompenses: po 20 ; reputation 1 ; objet Élixir de sorcellerie 6
+
+=== ZAU-I-002 | Le ferrailleur du Puisard
+source: privee
+region: zaun
+palier: inconnue
+type: sauvetage
+ton: aventure
+lieu: Le Puisard
+demandeur: Nell, ferrailleuse, dont le coéquipier n'est pas remonté
+accroche: « On fouillait une épave au fond du Puisard. Le sol s'est ouvert sous Rook. Il est tombé dans une poche d'eau verte, sous les tuyaux. Il respire encore, il tape sur un tuyau. Mais l'eau monte, et personne ne descend là-dedans. »
+postes: Tank, Healer
+duree: 5
+dangereuse: non
+risque: oui
+epreuves: voyage 42 (descendre au fond du Puisard, entre les cascades toxiques et les épaves) ; siege 41 (dégager le passage effondré avant que l'eau ne monte) ; voyage 37 (remonter avec un blessé brûlé par les eaux)
+complication: L'épave n'était pas une épave : c'était le coffre d'un ancien baron, rempli de pièces. Rook l'a trouvé juste avant de tomber.
+eclatante: {meneur} dégage le passage au moment où l'eau verte atteint le menton de Rook. Il est sorti, soigné sur place, brûlé mais vivant. Il remonte en serrant contre lui une poignée de pièces anciennes. Le coffre reste au fond. Nell et Rook se partagent les pièces avec l'équipe, à parts égales, parce que c'est la première règle du Puisard.
+reussite: Rook est remonté, avec de graves brûlures aux jambes. Il marchera. Nell paie l'équipe avec tout ce qu'elle a.
+partielle: Rook a été sorti à temps, mais les brûlures sont profondes. Il ne pourra plus descendre au Puisard.
+echec: L'eau est montée trop vite. L'équipe a dû remonter. Nell est restée au bord, longtemps.
+recompenses: po 90 ; reputation 3 ; objet Potion de soin 10
+
+=== ZAU-I-003 | La poupée des Failles
+source: privee
+region: zaun
+palier: inconnue
+type: recuperation
+ton: tendre
+lieu: Les Failles
+demandeur: Mina, six ans, qui a cassé sa tirelire et pleure depuis le matin
+accroche: « Ma poupée est tombée du balcon. Elle est coincée sur un tuyau, très très bas, au-dessus de l'eau verte. Elle s'appelle Lumière. Ma maman l'a faite avant d'être malade. Maintenant ma maman ne peut plus coudre. »
+postes: Éclaireur
+duree: 2
+dangereuse: non
+epreuves: voyage 33 (descendre le long des tuyaux et des échafaudages des Failles, sans tomber) ; poursuite 29 (rattraper la poupée quand une pie-grièche des falaises décide qu'elle ferait un bon nid)
+complication: La mère de Mina a la toux grise. Elle a cousu dans la poupée un petit mot pour sa fille, qu'elle n'a jamais osé lui donner.
+eclatante: {meneur} arrache la poupée au bec de la pie-grièche, à trois mètres de l'eau verte, et remonte. Mina la serre contre elle. En la recousant, sa mère retrouve le petit mot et décide qu'il est temps de le lui lire. Ce qu'il dit reste entre elles. Mina offre à {meneur} le contenu de sa tirelire : deux rondelles de bronze et un bouton doré.
+reussite: La poupée est rapportée, un peu mouillée. Mina ne la lâche plus. Sa mère dit merci d'une voix très faible.
+partielle: {meneur} n'a rapporté que la tête de la poupée. La mère de Mina a essayé de recoudre un corps, avec ses mains qui tremblent.
+echec: La poupée est tombée dans l'eau verte. Mina ne pleure plus. C'est pire.
+recompenses: po 10 ; reputation 2 ; objet Charme féerique 8
+
+=== ZAU-I-004 | Le crédit de Monsieur Dewitt
+source: privee
+region: zaun
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Les Failles
+demandeur: Les familles de l'immeuble des Sept Tuyaux, réunies dans l'escalier
+accroche: « Monsieur Dewitt vend à crédit, au porte-à-porte, comme tous les Tallymen. Une marmite, une couverture, des remèdes. On paie un peu chaque semaine. Sauf que chaque semaine, la dette grossit. Personne ne sait lire ses chiffres. Lui, si. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 35 (obtenir de Monsieur Dewitt qu'il ouvre son carnet devant tout l'immeuble) ; discretion 29 (relever les vrais prix chez les marchands, pour comparer)
+complication: Monsieur Dewitt ne triche pas pour lui : il reverse la moitié de ce qu'il prend à un gang qui « protège » son secteur, et qui menace de lui casser les mains s'il ne rapporte pas assez.
+eclatante: {meneur} fait ouvrir le carnet devant tout l'escalier, puis comprend, en voyant trembler les mains de Monsieur Dewitt, qu'il a peur de quelqu'un. Les familles et le vendeur font front ensemble : l'immeuble entier refuse de payer le gang, et les voisins de la rue s'y joignent. Le gang recule devant cent personnes. Les dettes sont recalculées. Monsieur Dewitt pleure dans l'escalier. Il vend encore à crédit, mais au vrai prix.
+reussite: Les dettes sont ramenées à leur juste montant. Monsieur Dewitt est remplacé par un autre Tallyman, plus honnête, pour l'instant.
+partielle: Les dettes sont gelées, mais pas annulées. Les familles paieront moins, pendant quelque temps.
+echec: Monsieur Dewitt n'a pas voulu ouvrir son carnet. Le lendemain, il a augmenté toutes les dettes de l'immeuble « pour frais de dérangement ».
+recompenses: po 15 ; reputation 3 ; objet Tome d'amplification 5
+
+=== ZAU-I-005 | Le champion de l'arène de Tommy
+source: privee
+region: zaun
+palier: inconnue
+type: protection
+ton: drole
+lieu: Arène de Tommy
+demandeur: Grand-mère Pickles, qui tient le stand de beignets à côté de l'arène
+accroche: « Mon petit-fils Ozzie se bat ce soir dans la cage. Il a un bras mécanique qu'il a fabriqué lui-même. Ce bras a un défaut : quand il s'énerve, il se met à tourner tout seul, comme un moulin. Il va s'énerver. Il s'énerve toujours. »
+postes: Combattant
+duree: 3
+dangereuse: non
+epreuves: combat 32 (entraîner Ozzie à se battre sans s'énerver, en une après-midi) ; discretion 29 (régler le bras mécanique sans qu'Ozzie s'en rende compte, parce qu'il est très fier de son invention)
+complication: L'adversaire d'Ozzie a parié contre lui-même et compte le provoquer pour que son bras s'emballe devant tout le monde.
+eclatante: {meneur} apprend à Ozzie à respirer avant de frapper, et règle le bras en douce pendant la sieste. Le soir, l'adversaire provoque, insulte, se moque. Ozzie respire. Le bras ne tourne pas. Ozzie gagne au troisième round. Grand-mère Pickles offre des beignets gratuits à toute l'arène. Personne ne se souvient de la dernière fois qu'il y a eu des beignets gratuits à Zaun.
+reussite: Ozzie perd, mais le bras ne s'emballe pas. Il sort de la cage la tête haute. Sa grand-mère le serre à l'étouffer.
+partielle: Le bras s'est emballé au deuxième round. Ozzie a gagné quand même, par accident, en assommant l'arbitre.
+echec: Le bras s'est emballé dès le premier coup. Ozzie a été disqualifié. Il en veut à tout le monde, surtout à son bras.
+recompenses: po 15 ; reputation 1 ; objet Élixir de fer 6
+
+=== ZAU-I-006 | La toux de la cité des tentes
+source: privee
+region: zaun
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Cité des tentes
+demandeur: Sœur Orla, qui distribue la soupe dans la cité des tentes
+accroche: « Ils toussent gris, tous. Les enfants surtout. Il me faudrait des remèdes, mais les remèdes sont là-haut, ou chez les barons. Et ici, personne n'a ni l'un ni l'autre. »
+postes: Healer
+duree: 5
+dangereuse: non
+epreuves: voyage 34 (aller de tente en tente, dans un camp où la brume stagne au ras du sol) ; diplomatie 30 (convaincre le vendeur de potions du quartier de céder ses remèdes à crédit)
+complication: Le vendeur de potions a assez de remèdes pour tout le camp. Il les garde pour les clients qui paient, parce qu'il doit lui-même de l'argent à un baron.
+eclatante: {meneur} soigne les enfants les plus malades, tente après tente, puis va trouver le vendeur de potions. Après une longue discussion, il cède ses remèdes, à condition que la guilde paie sa dette au baron. La guilde paie. Le camp respire, une semaine plus tard. Sœur Orla inscrit le nom de la guilde sur la marmite de la soupe. Elle le fait repeindre chaque fois qu'il s'efface.
+reussite: Les enfants les plus malades sont soignés. Les autres toussent encore, mais moins. Sœur Orla dit que c'est un miracle de Janna.
+partielle: Les remèdes ne suffisent que pour la moitié du camp. Sœur Orla choisit qui. Elle ne dort plus.
+echec: Le vendeur de potions a refusé. Il y a eu des morts dans le camp cette semaine-là. Sœur Orla continue de servir la soupe.
+recompenses: po 15 ; reputation 3 ; objet Potion de soin 12
+
+=== ZAU-I-007 | Le bras de Marlow
+source: privee
+region: zaun
+palier: inconnue
+type: enquete
+ton: aventure
+lieu: Échoppe de Benzo
+demandeur: Marlow, ouvrier d'usine, qui n'a plus de bras droit depuis hier soir
+accroche: « On m'a volé mon bras. Pas le vrai, celui-là je l'ai perdu à l'usine il y a dix ans. Le mécanique. On me l'a pris pendant que je dormais, à la Dernière Goutte. Sans bras, je n'ai plus de travail. Sans travail, je n'ai plus de toit. »
+postes: Éclaireur, Assassin
+duree: 4
+dangereuse: non
+epreuves: discretion 36 (fouiller les échoppes de prêteurs sur gages sans éveiller la méfiance) ; poursuite 35 (rattraper le voleur avant qu'il ne démonte le bras pour le revendre en pièces)
+complication: Le bras a été volé sur commande. Un ferrailleur démonte les prothèses des ouvriers endormis pour vendre leurs pièces à un atelier de la ville haute, qui en fait des jouets mécaniques.
+eclatante: {meneur} retrouve le bras dans l'arrière-boutique d'un prêteur, à moitié démonté, avec une dizaine d'autres. L'équipe remonte la filière jusqu'au ferrailleur, et le ferrailleur jusqu'à l'atelier de la ville haute. Marlow récupère son bras, et onze autres ouvriers aussi. La Gazette de Piltover publie l'affaire, ce qui fait rire tout Zaun : pour une fois, c'est la ville haute qui a l'air de voleurs.
+reussite: Le bras de Marlow est retrouvé et remonté. Il retourne à l'usine le lendemain. Le voleur court toujours.
+partielle: Le bras a été retrouvé, mais il manque des pièces. Il fonctionne à moitié. Marlow travaille à moitié.
+echec: Le bras a été démonté et vendu en pièces. Marlow a perdu sa place. Il dort dans la cité des tentes.
+recompenses: po 20 ; reputation 2 ; objet Dague 7
+
+=== ZAU-I-008 | La bathysphère bloquée
+source: privee
+region: zaun
+palier: inconnue
+type: sauvetage
+ton: aventure
+lieu: Bathysphères
+demandeur: Monsieur Pemberton, guide touristique, très, très pâle
+accroche: « Une cabine de visite est bloquée à mi-chemin, entre la ville haute et les Failles. Il y a six touristes de Piltover à l'intérieur, un enfant, et une dame qui crie depuis une heure. Le mécanicien de garde est en grève. Comme tous les mécaniciens. »
+postes: Tank
+duree: 3
+dangereuse: non
+epreuves: voyage 33 (escalader les rails verts jusqu'à la cabine, au-dessus du vide) ; siege 31 (débloquer le mécanisme à la main, puis faire redescendre la cabine sans qu'elle tombe)
+complication: Les mécaniciens sont en grève parce que la compagnie de la ville haute refuse de remplacer les câbles usés. Le blocage n'est pas un accident : c'est un câble qui a cédé.
+eclatante: {meneur} grimpe jusqu'à la cabine, la bloque avec une barre de fer et la fait descendre à la force des bras, mètre par mètre. Les touristes arrivent en bas en larmes. La dame qui criait embrasse {meneur} sur les deux joues. L'enfant, lui, veut recommencer. La compagnie, sous la pression des touristes de Piltover, cède aux grévistes : les câbles seront changés.
+reussite: La cabine est redescendue, lentement. Les touristes sont sains et saufs, et furieux. Ils ne reviendront jamais à Zaun.
+partielle: La cabine a été remontée vers la ville haute au lieu de descendre. Les touristes sont rentrés chez eux sans avoir vu Zaun. Ils en parlent quand même.
+echec: Le câble a lâché pendant la manœuvre. La cabine est tombée sur un auvent. Il y a eu des blessés.
+recompenses: po 25 ; reputation 2 ; objet Ceinture du géant 3
+
+=== ZAU-I-009 | Le vent du temple de Janna
+source: privee
+region: zaun
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Temple de Janna
+demandeur: Mère Tansy, vieille dévote, qui entretient seule le temple en ruine
+accroche: « Le temple de Janna est en ruine depuis cent ans. Depuis une semaine, il y souffle un vent frais. Un vrai vent, à Zaun, où l'air ne bouge jamais. Les gens viennent respirer. Ils guérissent de la toux. Et hier, quelqu'un a essayé de mettre le feu au temple. »
+postes: Support, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: discretion 34 (veiller le temple la nuit pour surprendre l'incendiaire) ; diplomatie 36 (calmer les fidèles, de plus en plus nombreux, qui veulent faire justice eux-mêmes)
+complication: L'incendiaire travaille pour un vendeur de remèdes du quartier, qui perd ses clients depuis que le vent guérit les gens gratuitement.
+eclatante: {meneur} surprend l'incendiaire, une torche à la main, et le livre aux fidèles, qui ne le frappent pas parce que l'équipe les en empêche. L'homme avoue pour qui il travaille. Le vendeur de remèdes ferme boutique. Le vent continue de souffler. Mère Tansy dit que Janna a choisi le temple. {meneur} ne sait pas d'où vient le vent. Personne ne sait. On l'appelle le Souffle.
+reussite: L'incendiaire est surpris et chassé. Le temple est sauvé. Le vent continue de souffler, et les gens de venir.
+partielle: L'incendiaire s'est enfui, mais il a eu le temps de brûler une partie du toit. Le vent souffle plus fort, par le trou.
+echec: Le temple a brûlé. Le vent s'est arrêté. Mère Tansy prie dans les cendres.
+recompenses: po 20 ; reputation 2 ; objet Cristal de saphir 7
+
+=== ZAU-I-010 | Les Fils d'Ur
+source: privee
+region: zaun
+palier: inconnue
+type: enquete
+ton: horreur
+lieu: Failles inférieures
+demandeur: Fenna, sœur d'un ouvrier disparu dans les Failles inférieures
+accroche: « Mon frère a commencé à parler d'un homme de fer, d'un sauveur qui avait souffert plus que tout le monde. Il s'est fait poser une plaque de métal sur la poitrine, sans raison. Puis il est descendu dans les Failles inférieures. Ça fait deux semaines. »
+postes: Éclaireur, Tank
+duree: 5
+dangereuse: non
+epreuves: discretion 38 (descendre dans les Failles inférieures et observer les adeptes, sans être pris) ; combat 34 (sortir le frère de Fenna de leur réunion, s'il le faut par la force)
+complication: Le frère de Fenna veut rester. Il a trouvé chez les Fils d'Ur des gens qui ont tous perdu quelque chose à l'usine, et qui l'écoutent.
+eclatante: {meneur} observe la réunion, les plaques de métal, les cicatrices et les chants, et attend que le frère de Fenna sorte seul. Ils parlent longtemps. Il ne revient pas tout de suite. Il revient une semaine plus tard, de lui-même, sans la plaque. Il dit qu'il cherchait quelqu'un qui comprenne sa douleur, et que sa sœur l'avait comprise depuis le début. Elle ne savait juste pas comment le lui dire.
+reussite: Le frère de Fenna est ramené chez lui. Il garde sa plaque de métal, et son silence. Il ne redescend plus.
+partielle: L'équipe a vu le frère, vivant, dans la réunion. Elle n'a pas pu l'approcher. Fenna sait au moins où il est.
+echec: L'équipe a été repérée par les adeptes et a dû fuir. Le lendemain, une plaque de métal était clouée sur la porte de Fenna.
+recompenses: po 20 ; reputation 2 ; objet Cape de négation 7
+
+=== ZAU-I-011 | Le poisson du port sud
+source: privee
+region: zaun
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Port sud
+demandeur: Capitaine Harl, vieux pêcheur du port sud, une jambe de bois et beaucoup d'histoires
+accroche: « Tout le monde dit que les poissons monstres du port sud sont une légende. J'en ai vu un hier. Il a mangé ma barque. Avec mon chapeau. J'ai réussi à garder la jambe. Je veux mon chapeau. »
+postes: Tank, Tireur, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: discretion 32 (attendre le poisson à la nuit, sans lumière, sur un ponton qui grince) ; combat 40 (le repousser quand il surgit de l'eau, gueule ouverte)
+complication: Le poisson n'attaque pas par faim : il est attiré par le bruit d'une pompe d'usine qui rejette des eaux chaudes dans le port depuis un mois.
+eclatante: {meneur} repousse le monstre d'un coup en pleine gueule, et le poisson recrache un morceau de barque et un chapeau trempé. En le regardant replonger, l'équipe remarque qu'il tourne autour de la sortie d'une pompe. La pompe est arrêtée, à la grande colère de l'usine. Le poisson ne revient plus. Capitaine Harl fait encadrer son chapeau. Il raconte l'histoire à tout le port, avec un poisson qui grossit à chaque fois.
+reussite: Le poisson est repoussé et ne revient pas cette semaine. Capitaine Harl n'a pas son chapeau, mais il a son histoire.
+partielle: Le poisson a été blessé et a plongé. Il a emporté une deuxième barque en partant. Pas celle du capitaine.
+echec: Le poisson a mangé le ponton. Tout le monde dit maintenant que la guilde a eu peur d'une légende.
+recompenses: po 25 ; reputation 2 ; objet Épée longue 7
+
+=== ZAU-I-012 | La vieille conserverie
+source: privee
+region: zaun
+palier: inconnue
+type: exploration
+ton: mystere
+lieu: Vieille conserverie
+demandeur: Les enfants de la rue du Canal, qui ont réuni leurs économies dans un bocal
+accroche: « Personne n'entre dans la vieille conserverie. Les grands disent qu'il y a des fantômes. Hier, on a vu de la lumière au dernier étage, et quelqu'un qui marchait. On veut savoir. On a dix-sept rondelles. »
+postes: Éclaireur
+duree: 3
+dangereuse: non
+epreuves: voyage 31 (traverser les étages effondrés de la conserverie sans tomber) ; discretion 33 (approcher de la lumière sans être vu)
+complication: Ce n'est pas un fantôme : c'est un vieil homme, ancien ouvrier de la conserverie, qui s'y cache depuis qu'on l'a expulsé de son logement. Il y vit avec quatre chats et beaucoup de souvenirs.
+eclatante: {meneur} trouve le vieil homme au dernier étage, au milieu de vieilles boîtes de conserve qu'il a classées par année. Il a peur d'être chassé encore. {meneur} ramène les enfants le lendemain, et le vieil homme leur raconte l'histoire de la conserverie, du temps où elle nourrissait tout le sud. Les enfants reviennent chaque semaine. Ils lui apportent à manger. Il leur apprend à lire avec les étiquettes.
+reussite: {meneur} rapporte aux enfants qu'il n'y a pas de fantôme, seulement un vieux monsieur. Les enfants sont déçus. Puis ils sont curieux.
+partielle: La lumière s'est éteinte quand {meneur} est arrivé. Les enfants disent que c'était un fantôme timide.
+echec: {meneur} a traversé un plancher pourri et a dû ressortir en boitant. Les enfants racontent qu'un fantôme l'a poussé.
+recompenses: po 10 ; reputation 2 ; objet Charme féerique 7
+
+=== ZAU-I-013 | Le parfum pour là-haut
+source: privee
+region: zaun
+palier: inconnue
+type: livraison
+ton: drole
+lieu: Marché à ciel ouvert
+demandeur: Madame Violette, parfumeuse chimiste, qui vend à la ville haute sans que la ville haute le sache
+accroche: « Les dames de Gold Way adorent mon parfum. Elles croient qu'il vient de Shurima. S'il savait qu'il vient de Zaun, plus personne ne l'achèterait. Il faut livrer vingt flacons à une boutique là-haut, sans que personne ne vous voie sortir d'ici. »
+postes: Assassin
+duree: 3
+dangereuse: non
+epreuves: discretion 33 (passer le contrôle des bathysphères avec vingt flacons sans étiquette) ; diplomatie 30 (convaincre la boutiquière, qui commence à poser des questions sur la provenance)
+complication: La boutiquière de Gold Way sait d'où vient le parfum depuis le début. Elle en profite pour payer moitié prix, en menaçant de révéler le secret.
+eclatante: {meneur} livre les flacons, puis comprend le petit jeu de la boutiquière. La conversation est polie, et ferme : soit elle paie le vrai prix, soit la Gazette apprend qu'elle vend du parfum de Zaun en le faisant passer pour shurimane. Elle paie. Madame Violette double ses prix le mois suivant. Elle ne dit toujours pas d'où vient son parfum. Elle en est très fière.
+reussite: Les flacons sont livrés sans encombre. La boutiquière paie, moitié prix comme d'habitude. Madame Violette soupire.
+partielle: Trois flacons se sont cassés au contrôle. Toute la cabine de la bathysphère a senti la rose pendant une semaine.
+echec: Les flacons ont été saisis au contrôle. Madame Violette a perdu sa cliente, et son secret commence à circuler.
+recompenses: po 20 ; reputation 1 ; objet Élixir de sorcellerie 5
+
+=== ZAU-I-014 | Le rassemblement de la statue
+source: privee
+region: zaun
+palier: inconnue
+type: protection
+ton: politique
+lieu: Statue de Vander
+demandeur: Dara, organisatrice d'un rassemblement pour le droit de Zaun à élire ses propres représentants
+accroche: « Demain, on se rassemble devant la statue. Pacifiquement. Avec des pancartes, pas des pierres. Mais il y a toujours quelqu'un pour lancer la première pierre, et c'est toujours nous qu'on accuse. Je veux que personne ne lance rien. »
+postes: Tank, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: discretion 34 (repérer dans la foule ceux qui sont venus pour provoquer) ; combat 35 (les neutraliser, sans faire de scène et sans blesser personne)
+complication: Les provocateurs ne sont pas de Zaun. Ils sont payés par un clan de la ville haute qui veut que le rassemblement dégénère, pour réclamer le retour de la loi martiale.
+eclatante: {meneur} repère trois hommes trop propres pour les Failles, des pierres dans les poches. Ils sont neutralisés sans bruit, et l'un d'eux, terrifié, avoue qui le paie. Le rassemblement se déroule sans incident. Dara lit la déclaration de l'un des provocateurs devant la foule. Elle est reprise par la Gazette, et par le siège de Zaun au Conseil. Pour une fois, c'est la ville haute qui doit s'expliquer.
+reussite: Le rassemblement a lieu dans le calme. Aucune pierre n'est lancée. Dara est fière de son peuple.
+partielle: Une pierre a été lancée, mais la foule a elle-même désigné le coupable aux gendarmes. Le rassemblement a continué.
+echec: Une bagarre a éclaté. Les gendarmes sont descendus. La Gazette parle d'« émeute à Zaun ».
+recompenses: po 20 ; reputation 3 ; objet Bouclier de Doran 6
+
+=== ZAU-I-015 | Les lucioles qui s'éteignent
+source: privee
+region: zaun
+palier: inconnue
+type: exploration
+ton: tendre
+lieu: Repaire des Lucioles
+demandeur: Pip, douze ans, gardien autoproclamé des lucioles de l'égout
+accroche: « Dans l'égout de l'arbre, il y a des lucioles. Des vraies, des insectes qui brillent. Il y en a des milliers. Enfin, il y en avait. Elles s'éteignent une par une. L'arbre aussi a l'air malade. Je ne sais pas à qui demander. Les grands s'en fichent. »
+postes: Mage
+duree: 3
+dangereuse: non
+epreuves: voyage 30 (remonter la conduite qui alimente l'arbre, pour trouver ce qui l'empoisonne) ; discretion 32 (approcher l'endroit sans effrayer les dernières lucioles)
+complication: Une usine a dévié sa conduite d'eaux usées dans l'ancien égout, pour éviter les inspecteurs de la ville haute. L'eau empoisonnée coule directement aux racines de l'arbre.
+eclatante: {meneur} trouve la conduite déviée et, d'un sort, scelle la fuite le temps que les ouvriers du quartier viennent la boucher pour de bon. L'arbre reverdit en un mois. Les lucioles reviennent, d'abord quelques-unes, puis des milliers. Pip organise des visites pour les enfants du quartier, une rondelle l'entrée. Il donne tout à la cité des tentes.
+reussite: La fuite est trouvée et colmatée. L'arbre se remet lentement. Les lucioles, elles, sont moins nombreuses qu'avant.
+partielle: {meneur} a trouvé d'où venait le poison, mais l'usine refuse de changer sa conduite. Pip monte la garde.
+echec: {meneur} n'a pas trouvé la fuite. Les dernières lucioles se sont éteintes la semaine suivante. Pip ne descend plus dans l'égout.
+recompenses: po 10 ; reputation 2 ; objet Charme féerique 8
+
+=== ZAU-I-016 | La mine des Failles inférieures
+source: privee
+region: zaun
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Failles inférieures
+demandeur: Vieille Agnès, qui attend devant l'entrée d'une ancienne mine
+accroche: « Mes deux petits-fils fouillaient la vieille mine pour trouver du métal à revendre. La galerie s'est écroulée derrière eux. On les entend, tout au fond. Ils chantent pour se donner du courage. Ils chantent de plus en plus doucement. »
+postes: Tank
+duree: 4
+dangereuse: non
+epreuves: siege 35 (dégager l'éboulement à mains nues, en étayant avec ce qu'on trouve) ; voyage 31 (trouver un autre passage par les anciennes galeries, si l'éboulement ne cède pas)
+complication: La mine est surveillée par un gang qui y cache sa marchandise. Ils ne veulent pas qu'on y fouille.
+eclatante: {meneur} dégage l'éboulement pierre par pierre, sous le regard d'hommes du gang qui finissent par aider, parce qu'eux aussi ont entendu les enfants chanter. Les deux garçons sortent couverts de poussière, affamés, vivants. Vieille Agnès les serre contre elle. Le chef du gang fait déposer, le lendemain, un sac de vivres devant sa porte. Il ne dit pas pourquoi.
+reussite: Les deux garçons sont sortis, l'un avec une jambe cassée. Il guérira. Vieille Agnès ne les laisse plus sortir sans elle.
+partielle: Un seul des garçons a pu être sorti vivant. L'autre était déjà mort. Vieille Agnès remercie quand même. C'est le pire.
+echec: La galerie s'est effondrée davantage. Le gang a fait fermer la mine. On n'entend plus chanter.
+recompenses: po 20 ; reputation 3 ; objet Pioche 8
+
+=== ZAU-I-017 | Les enfants de la Drague
+source: privee
+region: zaun
+palier: inconnue
+type: sauvetage
+ton: politique
+lieu: La Drague
+demandeur: Kesh, ancien prisonnier de la Drague, libéré la semaine dernière
+accroche: « Dans la Drague, il y a des enfants. Pas des prisonniers : des enfants de prisonniers, qu'on fait travailler dans les galeries les plus étroites, parce qu'ils passent là où les adultes ne passent pas. Personne là-haut ne le sait. Ou alors tout le monde fait semblant. »
+postes: Éclaireur, Assassin
+duree: 6
+dangereuse: non
+risque: oui
+epreuves: discretion 45 (entrer dans la prison-mine et atteindre les galeries des enfants sans être pris) ; poursuite 40 (ressortir avec eux par les galeries de ventilation)
+complication: Les gardiens ne sont pas les seuls à savoir. Un inspecteur de la ville haute touche une part sur le minerai extrait par les enfants.
+eclatante: {meneur} atteint les galeries et trouve onze enfants, couverts de poussière, qui ne savent plus quel jour on est. Ils sortent par les galeries de ventilation, en file indienne. L'équipe les conduit au Repaire des Lucioles, où quelqu'un les attend. Kesh porte le témoignage des enfants à la Gazette, avec le nom de l'inspecteur. Les galeries des enfants sont fermées. L'inspecteur aussi.
+reussite: Les enfants sont sortis de la Drague. Ils sont mis à l'abri. Personne ne sera puni pour ce qu'on leur a fait.
+partielle: L'équipe n'a pu sortir que quatre enfants. Les autres ont été déplacés dans une autre galerie, plus profonde.
+echec: L'équipe a été repérée. Les gardiens ont changé les enfants de galerie. Kesh a été arrêté de nouveau.
+recompenses: po 90 ; reputation 3 ; objet Dague 7
+suite: ZAU-L-001
+
+=== ZAU-I-018 | Le poisson empoisonné de Jericho
+source: privee
+region: zaun
+palier: inconnue
+type: enquete
+ton: drole
+lieu: Stand de Jericho
+demandeur: Jericho, qui tient le meilleur stand de poisson de Zaun, et le seul
+accroche: « Quelqu'un met de la poudre à éternuer dans ma friture. Mes clients éternuent si fort qu'ils en perdent leurs dents. Les dents qu'il leur restait. Le stand d'à côté vend des beignets. Le stand d'à côté a beaucoup de clients en ce moment. »
+postes: Éclaireur
+duree: 2
+dangereuse: non
+epreuves: discretion 31 (surveiller le stand toute la journée sans éveiller les soupçons) ; poursuite 29 (attraper le coupable, qui a de très bonnes jambes pour quelqu'un qui vend des beignets)
+complication: Le coupable n'est pas le vendeur de beignets. C'est un chat savant des Failles, qui se venge parce que Jericho l'a chassé de son stand le mois dernier.
+eclatante: {meneur} surprend un chat tigré qui saupoudre la friture avec une petite cuillère. Interrogé, il explique avec beaucoup de dignité qu'on ne chasse pas un chat de Zaun à coups de balai. Jericho, penaud, s'excuse et lui offre un poisson par jour. Le chat accepte et devient le goûteur officiel du stand. Les clients ne perdent plus de dents. Le vendeur de beignets, lui, ne comprend toujours pas pourquoi on l'avait soupçonné.
+reussite: Le saboteur est surpris et s'enfuit. Le stand retrouve ses clients. Jericho ne saura jamais que c'était un chat.
+partielle: La poudre a cessé d'apparaître, mais Jericho a accusé le vendeur de beignets. Les deux stands ne se parlent plus.
+echec: {meneur} a éternué toute la journée. Le coupable a continué. Jericho a fermé le stand une semaine.
+recompenses: po 10 ; reputation 1 ; objet Élixir de rage 5
+
+=== ZAU-I-019 | Les murmures de la falaise
+source: privee
+region: zaun
+palier: inconnue
+type: defense
+ton: mystere
+lieu: Quartier de l'Alcôve
+demandeur: Monsieur Bracken, propriétaire d'un immeuble condamné où vivent quand même trente familles
+accroche: « Les murmures de la falaise, c'est normal à Zaun. Des petites secousses, tout le temps. Depuis un mois, ils sont plus forts sous mon immeuble, et seulement sous lui. Les murs se fendent. Les familles n'ont nulle part où aller. »
+postes: Tank, Combattant
+duree: 5
+dangereuse: non
+epreuves: siege 38 (étayer les murs fendus de l'immeuble avant qu'ils ne cèdent) ; voyage 34 (descendre sous l'immeuble pour trouver d'où viennent les secousses)
+complication: Les secousses ne viennent pas de la falaise : un atelier clandestin creuse sous l'immeuble, à la recherche d'un vieux filon de cristaux shurimans.
+eclatante: {meneur} étaie les murs, puis descend dans les sous-sols et trouve la galerie de l'atelier clandestin, creusée juste sous les fondations. Les creuseurs sont chassés, la galerie remblayée. Les secousses s'arrêtent. Monsieur Bracken, pour la première fois, fait réparer l'immeuble au lieu d'attendre qu'il s'effondre. Il dit que c'est à cause de la guilde. Les familles disent que c'est à cause de la honte.
+reussite: Les murs sont étayés, la galerie découverte et bouchée. L'immeuble tient. Pour combien de temps, personne ne sait.
+partielle: Les murs sont étayés, mais les secousses continuent. Les familles dorment avec leurs affaires au pied du lit.
+echec: Une partie de l'immeuble s'est effondrée. Il y a eu des blessés. Les familles dorment dans la rue.
+recompenses: po 25 ; reputation 2 ; objet Bouclier de Doran 7
+
+=== ZAU-I-020 | Les rats de la peste
+source: privee
+region: zaun
+palier: inconnue
+type: defense
+ton: horreur
+lieu: Le Puisard
+demandeur: Brann, chef d'une équipe de ferrailleurs, qui a perdu deux hommes cette semaine
+accroche: « Les rats de la peste. Gros comme des chiens, avec des plaies qui ne guérissent pas. Ils remontent du fond du Puisard, et ils ne fuient plus les lampes. Deux de mes gars ont été mordus. Ils ont de la fièvre. Ils parlent de choses qu'ils ont vues dans le noir. »
+postes: Tank, DPS, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: nuee 40 (repousser une marée de rats malades dans les galeries du Puisard) ; discretion 33 (trouver le nid sans se faire mordre)
+complication: Les rats ont quitté leur nid parce qu'il a été envahi par l'eau d'une conduite crevée. Leur nouveau nid est juste sous la cantine des ferrailleurs.
+eclatante: {meneur} repousse la marée de rats au fond des galeries et trouve leur nouveau nid sous la cantine. Le nid est brûlé, la cantine déplacée, la conduite signalée. Les deux ferrailleurs mordus guérissent de leur fièvre, mais l'un d'eux continue de dessiner, chaque soir, ce qu'il a vu dans le noir. Brann garde les dessins. Il ne sait pas pourquoi.
+reussite: Les rats sont repoussés et le nid détruit. Les ferrailleurs reprennent le travail, en regardant leurs pieds.
+partielle: L'équipe a tué les plus gros rats, mais le nid n'a pas été trouvé. Ils reviendront.
+echec: Les rats ont envahi la cantine. Les ferrailleurs ont abandonné leur secteur.
+recompenses: po 25 ; reputation 2 ; objet Armure de tissu 7
+
+=== ZAU-I-021 | La dette du mécano
+source: privee
+region: zaun
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Échoppe de Benzo
+demandeur: Tess, mécanicienne, qui a mis en gage la boîte à outils de son père
+accroche: « J'ai mis la boîte à outils de mon père en gage pour payer les remèdes de ma mère. Je reviens la chercher, avec l'argent, et le prêteur dit qu'elle est vendue. À un baron. Il dit que c'est le règlement. Il n'y a pas de règlement. »
+postes: Support, Tank
+duree: 4
+dangereuse: non
+epreuves: diplomatie 37 (obtenir du prêteur le nom de l'acheteur, et la vérité sur la vente) ; combat 33 (si l'acheteur refuse de rendre la boîte, lui faire changer d'avis)
+complication: L'acheteur n'est pas un baron : c'est le prêteur lui-même, qui a reconnu les outils d'un célèbre mécanicien de Zaun et compte les revendre très cher à la ville haute.
+eclatante: {meneur} fait parler le prêteur, qui finit par avouer. La boîte est dans son arrière-boutique. Tess la récupère au prix du gage, pas un rouage de plus. En ouvrant la boîte, elle trouve, dans le double fond, les plans de son père, qu'elle croyait perdus. Elle ouvre son propre atelier le mois suivant. Le prêteur n'y a jamais été invité.
+reussite: La boîte est récupérée, au prix fort. Tess paie, et garde la boîte contre elle. Elle n'a pas les moyens, mais elle l'a.
+partielle: Le prêteur a rendu les outils, mais pas la boîte. Tess les range dans un sac. Elle dit que c'est ce qui compte.
+echec: La boîte est partie là-haut. Tess ne saura jamais qui l'a achetée.
+recompenses: po 20 ; reputation 2 ; objet Pioche 6
+
+=== ZAU-I-022 | Le colis de la bathysphère
+source: privee
+region: zaun
+palier: inconnue
+type: livraison
+ton: aventure
+lieu: Bathysphères
+demandeur: Docteur Elian Shroud, guérisseur sans licence des Failles
+accroche: « Un médecin de la ville haute accepte de me vendre des remèdes contre la toux grise, à condition que je vienne les chercher moi-même. Je ne peux pas monter : on me reconnaîtrait. Il faut aller là-haut, prendre le colis, et redescendre avant que les contrôleurs de la bathysphère ne s'y intéressent. »
+postes: Tireur
+duree: 3
+dangereuse: non
+epreuves: poursuite 34 (monter, retrouver le médecin et redescendre en moins d'une heure) ; discretion 30 (passer le contrôle de la bathysphère avec un colis sans papiers)
+complication: Le médecin de la ville haute est surveillé par les gendarmes, qui le soupçonnent de vendre des remèdes au marché noir. Le rendez-vous est un piège, sans qu'il le sache.
+eclatante: {meneur} repère les gendarmes en civil autour du point de rendez-vous, prévient discrètement le médecin, et récupère le colis par une porte de service. La descente se fait par les rails, sans passer par le contrôle. Le docteur Shroud soigne quarante malades avec ces remèdes. Le médecin de la ville haute, lui, envoie désormais ses colis par un autre chemin, et il remercie la guilde par un mot sans signature.
+reussite: Le colis arrive dans les Failles. Les remèdes sont distribués. Personne n'a été arrêté.
+partielle: Le colis est arrivé, mais à moitié : un contrôleur a confisqué le reste. Le docteur Shroud soigne les plus malades.
+echec: Le colis a été saisi. Le médecin de la ville haute a été arrêté. Le docteur Shroud s'en veut beaucoup.
+recompenses: po 20 ; reputation 2 ; objet Potion de soin 10
+
+=== ZAU-I-023 | La fille aux cheveux bleus
+source: privee
+region: zaun
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Quartier de l'Alcôve
+demandeur: Madame Odile Fenn, mère d'une adolescente qui s'est teint les cheveux en bleu
+accroche: « Ma fille s'est teint les cheveux en bleu, comme toutes les filles du quartier en ce moment. Les gendarmes l'ont arrêtée trois fois cette semaine, pour rien. Ils disent que le bleu, c'est un signe. Elle dit que c'est juste une couleur. Elle a quatorze ans, et elle commence à les détester. »
+postes: Support
+duree: 3
+dangereuse: non
+epreuves: diplomatie 35 (parler au sergent de la patrouille, qui ne voit en elle qu'une menace) ; diplomatie 30 (parler à la jeune fille, qui ne voit en lui qu'un ennemi)
+complication: Le sergent a perdu un collègue dans l'explosion du Conseil. Pour lui, le bleu n'est pas une couleur.
+eclatante: {meneur} réunit le sergent et la jeune fille dans la cuisine de Madame Fenn, autour d'un thé. Le sergent parle de son collègue. La jeune fille parle de ses amies, arrêtées pour rien. Ils ne s'entendent sur rien. Mais le sergent cesse de l'arrêter. Elle garde ses cheveux bleus. Un mois plus tard, il lui fait un petit signe de tête en passant. Elle lui en fait un aussi.
+reussite: Le sergent accepte de laisser la jeune fille tranquille. Les autres filles aux cheveux bleus, elles, sont encore contrôlées.
+partielle: Le sergent ne l'arrête plus, mais il la suit des yeux. La jeune fille a teint ses cheveux en vert, par provocation.
+echec: Le sergent a arrêté la jeune fille une quatrième fois, devant {meneur}. Elle a rejoint un gang la semaine suivante.
+recompenses: po 15 ; reputation 3 ; objet Tome d'amplification 5
+
+=== ZAU-I-024 | Le sacrifice du Souvenir
+source: privee
+region: zaun
+palier: inconnue
+type: protection
+ton: tendre
+lieu: Port sud
+demandeur: Gwen Talley, veuve d'un docker mort à l'usine
+accroche: « Le Jour du Souvenir, chacun sacrifie quelque chose de personnel, en espérant que la prochaine invention sera meilleure. Je veux jeter à la mer la clé de son casier, au bout du ponton du port sud. Le ponton est tenu par un gang qui fait payer le passage. Je ne paierai pas pour lui dire adieu. »
+postes: Combattant
+duree: 2
+dangereuse: non
+epreuves: combat 32 (faire reculer les gars du gang qui gardent le ponton, sans transformer l'adieu en bagarre) ; diplomatie 29 (convaincre leur chef de laisser passer, ce jour-là au moins)
+complication: Le chef du gang a perdu son père dans le même accident d'usine. Il n'a jamais rien sacrifié au Jour du Souvenir. Il dit que ça ne sert à rien.
+eclatante: {meneur} se place devant les gars du gang sans lever la main, et leur chef finit par reconnaître la veuve. Il la laisse passer. Puis il la suit, de loin, jusqu'au bout du ponton. Elle jette la clé à la mer. Il sort de sa poche un vieux sifflet d'usine, le regarde longtemps, et le jette aussi. Ils restent un moment ensemble, sans parler, au bout du ponton.
+reussite: Gwen jette la clé à la mer. Le gang l'a laissée passer, en grognant. Elle remercie {meneur} d'un hochement de tête.
+partielle: Il a fallu payer le passage, finalement. Gwen a jeté la clé quand même. Elle dit qu'il aurait ri.
+echec: Le gang a refusé. Gwen a jeté la clé à la mer depuis le quai, trop loin du bout du ponton. Elle dit que ça ne compte pas.
+recompenses: po 10 ; reputation 2 ; objet Élixir de fer 5
+
+=== ZAU-I-025 | Les fleurs violettes du Puisard
+source: privee
+region: zaun
+palier: inconnue
+type: exploration
+ton: mystere
+lieu: Le Puisard
+demandeur: Mère Hazel, herboriste des Failles, qui ne descend plus aussi bas qu'avant
+accroche: « Dans les grottes du Puisard poussent des fleurs violettes qui brillent dans le noir. Leurs pétales calment la toux grise mieux que n'importe quel remède. Il m'en faut un panier. Les grottes sont sous la cascade, et la cascade change de chemin chaque semaine. »
+postes: Healer, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: voyage 37 (trouver l'entrée des grottes derrière une cascade toxique qui change de place) ; discretion 34 (cueillir les fleurs sans réveiller les lièvres d'ombre qui vivent dans les grottes)
+complication: Les fleurs ne poussent que là où l'eau du Puisard est la plus toxique. Elles se nourrissent du poison, et c'est pour ça qu'elles soignent.
+eclatante: {meneur} trouve l'entrée des grottes au moment où la cascade change de cours, et l'équipe se glisse à l'intérieur. Les fleurs brillent par milliers. Le panier est rempli sans réveiller les lièvres d'ombre. Mère Hazel soigne la moitié de son quartier avec. Elle confie à {meneur} le secret de leur préparation, à ne transmettre à personne. La guilde a désormais un remède que la ville haute ne connaît pas.
+reussite: L'équipe rapporte un demi-panier de fleurs. Mère Hazel en fait assez de remède pour les enfants de sa rue.
+partielle: L'équipe n'a trouvé que des fleurs fanées. Mère Hazel en fait une tisane, moins efficace.
+echec: La cascade a changé de cours pendant que l'équipe était dans les grottes. Il a fallu des heures pour ressortir, les mains vides.
+recompenses: po 20 ; reputation 2 ; objet Potion de soin 12

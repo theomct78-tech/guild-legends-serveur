@@ -1,0 +1,126 @@
+# Champion|Clé|AVANTAGE:force,...|Ce que la compétence apporte à la guilde
+Jarvan IV|P|SIEGE:1|Ses premiers coups entament la santé de chaque adversaire.
+Jarvan IV|Q|MAITRISE:1,ASSAUT:1|Une frappe de lance qui brise l'armure.
+Jarvan IV|W|PROTECTION:1,MAITRISE:1|Un cri royal qui le protège et ralentit l'ennemi.
+Jarvan IV|E|INSPIRATION:2|L'étendard de Demacia, planté au milieu de ses alliés.
+Jarvan IV|R|MAITRISE:2,TRAQUE:1,RENOMMEE:1|Cataclysme : il enferme sa cible dans une arène de pierre.
+Jax|P|ASSAUT:1|Ses coups s'accélèrent sans relâche.
+Jax|Q|CELERITE:1,TRAQUE:1|Il bondit sur n'importe quelle cible, alliée ou ennemie.
+Jax|W|ASSAUT:1|Un coup renforcé.
+Jax|E|PROTECTION:1,MAITRISE:1|Contre-attaque : il esquive puis étourdit.
+Jax|R|ASSAUT:1,SURVIE:2,RENOMMEE:1|Le maître d'armes, enfin à pleine puissance.
+Jayce|P|CELERITE:1|Chaque changement d'arme le rend plus vif.
+Jayce|Q|ASSAUT:1,NUEE:1|Un saut de marteau ou une orbe électrique.
+Jayce|W|NUEE:1,ASSAUT:1|Un champ électrique ou une salve de canon.
+Jayce|E|MAITRISE:1,CELERITE:1|Un coup qui repousse, ou un portail qui accélère.
+Jayce|R|ASSAUT:1,BUTIN:1,SIEGE:1|Le marteau Mercure, inventeur de génie : il récupère et améliore ce qu'il trouve.
+Jhin|P|ASSAUT:2|Quatre balles seulement, la dernière toujours mortelle.
+Jhin|Q|NUEE:1|Une grenade qui rebondit de victime en victime.
+Jhin|W|MAITRISE:2,TRAQUE:1|Un tir à très longue portée qui immobilise une cible marquée.
+Jhin|E|RECONNAISSANCE:1,MAITRISE:1|Des lotus piégés qui révèlent et ralentissent.
+Jhin|R|SIEGE:2,TRAQUE:1,RENOMMEE:1|Le rideau final : une représentation dont on parle longtemps.
+Jinx|P|CELERITE:1,NUEE:1|Chaque élimination l'exalte.
+Jinx|Q|NUEE:1|Elle change d'arme : mitraillette ou lance-roquettes.
+Jinx|W|TRAQUE:1,RECONNAISSANCE:1|Un zappeur qui révèle et ralentit.
+Jinx|E|MAITRISE:2|Des grignoteuses qui immobilisent sur place.
+Jinx|R|SIEGE:2,NUEE:1,INSPIRATION:-1|Une super-roquette tirée à travers la carte, au mépris des dégâts collatéraux.
+K'Sante|P|ASSAUT:1|Il marque les monstres pour les frapper plus fort.
+K'Sante|Q|MAITRISE:1|Un coup de ntofo qui ralentit puis attire.
+K'Sante|W|PROTECTION:2,MAITRISE:1|Il encaisse derrière ses armes et charge.
+K'Sante|E|PROTECTION:1,CELERITE:1|Un pas de côté pour couvrir un allié.
+K'Sante|R|SIEGE:2,TRAQUE:1,INSPIRATION:1|Tout miser : il emporte l'ennemi derrière le mur et l'affronte seul.
+Kai'Sa|P|ASSAUT:1|Sa symbiote renforce chaque coup sur une cible isolée.
+Kai'Sa|Q|NUEE:1,ASSAUT:1|Une pluie d'Icathia.
+Kai'Sa|W|RECONNAISSANCE:1,TRAQUE:1|Un traqueur du Néant qui révèle sa cible.
+Kai'Sa|E|INFILTRATION:1,CELERITE:1|Un surcroît d'énergie qui la rend invisible un instant.
+Kai'Sa|R|TRAQUE:2,PROTECTION:1|Elle surgit près de sa proie, protégée par sa symbiote.
+Kalista|P|CELERITE:1|Elle bondit après chaque tir.
+Kalista|Q|ASSAUT:1|Une lance qui transperce.
+Kalista|W|RECONNAISSANCE:2|Une sentinelle spectrale qui patrouille et révèle.
+Kalista|E|SIEGE:2|Elle arrache les lances plantées dans la cible.
+Kalista|R|PROTECTION:2,MAITRISE:1|L'appel du destin : elle sauve son allié lié et le projette au combat.
+Karma|P|ASSAUT:1|Le feu intérieur rend ses sorts plus fréquents.
+Karma|Q|NUEE:1|Une flamme intérieure qui explose.
+Karma|W|MAITRISE:1|Une détermination focalisée qui enracine.
+Karma|E|PROTECTION:2,CELERITE:1|Un bouclier inspirant qui accélère un allié.
+Karma|R|PROTECTION:1,INSPIRATION:1,CONCORDE:1|Le mantra : l'âme d'Ionia renforce et apaise.
+Karthus|P|SURVIE:2|Même mort, il continue de lancer ses sorts quelques instants.
+Karthus|Q|NUEE:1|Une explosion qui dévaste une zone.
+Karthus|W|MAITRISE:1|Un mur de douleur qui ralentit.
+Karthus|E|NUEE:1,SIEGE:1|Une profanation autour de lui.
+Karthus|R|NUEE:2,TRAQUE:1,INSPIRATION:-1|Requiem : il frappe tous les ennemis où qu'ils soient. Sa présence glace les vivants.
+Kassadin|P|PROTECTION:1|Une protection contre la magie.
+Kassadin|Q|MAITRISE:1|Une sphère du néant qui interrompt les sorts.
+Kassadin|W|ASSAUT:1,SURVIE:1|Une lame du néant.
+Kassadin|E|NUEE:1|Une pulsation qui ralentit.
+Kassadin|R|CELERITE:3,INFILTRATION:1|Il marche à travers le Néant et apparaît où il veut.
+Katarina|P|NUEE:1|Chaque élimination remet ses lames à zéro.
+Katarina|Q|ASSAUT:1,NUEE:1|Une lame rebondissante.
+Katarina|W|CELERITE:1|Une préparation qui l'accélère.
+Katarina|E|CELERITE:1,TRAQUE:1|Un shunpo : elle apparaît sur sa cible.
+Katarina|R|NUEE:3|Un lotus mortel qui frappe tout autour d'elle.
+Kayle|P|ASSAUT:1|Son zèle grandit jusqu'à l'ascension.
+Kayle|Q|MAITRISE:1|Une lame radiante qui ralentit.
+Kayle|W|SOINS:2,CELERITE:1|Une bénédiction céleste qui soigne et accélère un allié.
+Kayle|E|ASSAUT:1|Une lame de flammes qui frappe selon la santé perdue.
+Kayle|R|PROTECTION:3,SIEGE:1|Le jugement divin : un allié devient invulnérable.
+Kayn|P|ASSAUT:1|Il choisit sa voie : ombre ou darkin.
+Kayn|Q|CELERITE:1,NUEE:1|Un fauchage tournoyant.
+Kayn|W|MAITRISE:1|Un coup de faux qui projette.
+Kayn|E|INFILTRATION:2,CELERITE:1|Il traverse les murs, invisible aux yeux de l'ennemi.
+Kayn|R|SURVIE:1,ASSAUT:2|Il disparaît dans le corps de l'ennemi puis l'éventre.
+Kennen|P|MAITRISE:1|Sa marque de tempête finit par étourdir.
+Kennen|Q|ASSAUT:1|Un shuriken de foudre.
+Kennen|W|NUEE:1|Une décharge qui frappe tous les marqués.
+Kennen|E|CELERITE:2|Il devient une boule d'électricité.
+Kennen|R|MAITRISE:2,NUEE:2|Le maelström se déchaîne.
+Kha'Zix|P|INFILTRATION:1|Une menace invisible : il frappe depuis les angles morts.
+Kha'Zix|Q|ASSAUT:2|Il goûte la peur des cibles isolées.
+Kha'Zix|W|ASSAUT:1,SURVIE:1|Des épines qui le soignent.
+Kha'Zix|E|CELERITE:1,TRAQUE:1|Un bond sur sa proie.
+Kha'Zix|R|INFILTRATION:2,TRAQUE:1|Il devient invisible et évolue.
+Kindred|P|RENOMMEE:1,TRAQUE:1|L'Agneau et le Loup marquent leurs proies : chaque marque honorée accroît leur légende.
+Kindred|Q|CELERITE:1|Une danse de flèches.
+Kindred|W|NUEE:1|Le Loup frappe autour de lui.
+Kindred|E|MAITRISE:1,SIEGE:1|Une peur croissante qui ralentit puis achève.
+Kindred|R|SURVIE:3,PROTECTION:1|La grâce de l'Agneau : personne ne peut mourir dans son cercle.
+Kled|P|SURVIE:2|Quand Skaarl tombe, Kled continue à pied, puis le remet en selle.
+Kled|Q|TRAQUE:1|Un piège à ours attaché à une corde.
+Kled|W|ASSAUT:2|Une violence sans retenue.
+Kled|E|CELERITE:1|Une charge de Skaarl.
+Kled|R|CELERITE:2,INSPIRATION:1|À l'assaut ! Une charge qui entraîne ses alliés.
+Kog'Maw|P|NUEE:1|Même mort, il explose.
+Kog'Maw|Q|SIEGE:1|Une bave caustique qui ronge les défenses.
+Kog'Maw|W|SIEGE:1,ASSAUT:1|Un barrage bio-arcanique qui frappe selon la santé maximale.
+Kog'Maw|E|MAITRISE:1,NUEE:1|Une vase du Néant qui ralentit.
+Kog'Maw|R|NUEE:1,RECONNAISSANCE:1,SIEGE:1|Une artillerie vivante qui révèle ses cibles.
+LeBlanc|P|INFILTRATION:2|Un miroir : quand elle est menacée, un double la remplace.
+LeBlanc|Q|ASSAUT:1|Un sceau de malice.
+LeBlanc|W|CELERITE:2|Une distorsion, et elle revient à son point de départ.
+LeBlanc|E|MAITRISE:1,TRAQUE:1|Une chaîne éthérée qui retient.
+LeBlanc|R|INFILTRATION:2,ASSAUT:1|Elle imite ses propres sorts et sème la confusion.
+Lee Sin|P|CELERITE:1|Chaque sort enchaîne deux coups rapides.
+Lee Sin|Q|TRAQUE:2|Une onde sonore qui marque et l'attire vers la cible.
+Lee Sin|W|PROTECTION:1,CELERITE:1|Il bondit pour protéger un allié.
+Lee Sin|E|RECONNAISSANCE:1,MAITRISE:1|Un séisme qui révèle les invisibles.
+Lee Sin|R|MAITRISE:2,RENOMMEE:1|La rage du dragon : un coup de pied légendaire.
+Leona|P|ASSAUT:1|La lumière du soleil marque l'ennemi pour ses alliés.
+Leona|Q|MAITRISE:1|Un bouclier qui étourdit.
+Leona|W|PROTECTION:2|Une éclipse : elle encaisse puis rayonne.
+Leona|E|TRAQUE:1,CELERITE:1|Une lame zénith qui la mène à sa cible.
+Leona|R|MAITRISE:2,NUEE:1,INSPIRATION:1|Une éruption solaire qui fige l'ennemi.
+Lillia|P|SURVIE:1|Ses rêves lui rendent des forces.
+Lillia|Q|NUEE:1,CELERITE:1|Un coup de fleur qui la grise de vitesse.
+Lillia|W|ASSAUT:1|Un coup de bâton qui surprend.
+Lillia|E|RECONNAISSANCE:1,MAITRISE:1|Une graine qui roule, révèle et ralentit.
+Lillia|R|MAITRISE:2,CONCORDE:1|Une berceuse qui endort l'ennemi et apaise les esprits.
+Lissandra|P|NUEE:1|Ses victimes deviennent des statues de glace qui explosent.
+Lissandra|Q|NUEE:1|Un éclat de glace qui se fragmente.
+Lissandra|W|MAITRISE:2|Un anneau de givre qui immobilise.
+Lissandra|E|CELERITE:2|Une griffe glaciale qu'elle suit à travers les murs.
+Lissandra|R|MAITRISE:2,SURVIE:2|Une tombe de glace pour l'ennemi, ou pour elle-même.
+Locke|P|SIEGE:1|Un pieu d'argent, plus mortel contre les blessés.
+Locke|Q|TRAQUE:1,ASSAUT:1|Des clous rituels qui marquent les ennemis.
+Locke|W|CELERITE:1,SURVIE:1|Il embrase son âme, puis se soigne.
+Locke|E|CELERITE:2|Une traque cendrée : il se téléporte puis fonce.
+Locke|R|SIEGE:2,RECONNAISSANCE:1|Le purgatoire scelle et exécute les âmes qu'il chasse.

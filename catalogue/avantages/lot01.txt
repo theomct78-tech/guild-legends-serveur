@@ -1,0 +1,126 @@
+# Champion|Clé|AVANTAGE:force,...|Ce que la compétence apporte à la guilde
+Aatrox|P|SURVIE:1|Chaque coup porté le régénère : il tient plus longtemps au front.
+Aatrox|Q|ASSAUT:2,NUEE:1|Trois coups d'épée darkin qui fauchent les rangs ennemis.
+Aatrox|W|MAITRISE:1,TRAQUE:1|Une chaîne infernale ramène de force l'ennemi qui tente de fuir.
+Aatrox|E|CELERITE:1|Un bond qui lui fait gagner du terrain à chaque engagement.
+Aatrox|R|ASSAUT:2,INSPIRATION:-1,SURVIE:2|Sa forme de Fléau du monde terrifie l'ennemi et le relève après chaque victime, mais glace aussi ses alliés.
+Ahri|P|SURVIE:1|Elle absorbe l'essence de ses proies pour se refaire.
+Ahri|Q|ASSAUT:1,NUEE:1|L'orbe de l'illusion traverse les rangs à l'aller comme au retour.
+Ahri|W|ASSAUT:1,TRAQUE:1|Des feux follets qui cherchent seuls la cible la plus proche.
+Ahri|E|MAITRISE:2,INFILTRATION:1|Un charme qui désarme l'adversaire et ouvre les portes les mieux gardées.
+Ahri|R|CELERITE:2,TRAQUE:1|Trois bonds d'esprit pour rattraper, fuir ou franchir n'importe quel obstacle.
+Akali|P|ASSAUT:1|Le cercle de l'assassin récompense chaque frappe bien placée.
+Akali|Q|ASSAUT:1|Un éventail de kunaïs rapide et précis.
+Akali|W|INFILTRATION:3|Le voile du crépuscule la rend invisible : aucune sentinelle ne la voit passer.
+Akali|E|TRAQUE:2|Un shuriken qui marque la cible et permet de bondir sur elle.
+Akali|R|ASSAUT:2,TRAQUE:1|Deux frappes foudroyantes qui achèvent une cible affaiblie.
+Akshan|P|ASSAUT:1|Ses doubles tirs frappent deux fois.
+Akshan|Q|NUEE:1|Un boomerang qui touche tout sur son trajet.
+Akshan|W|INFILTRATION:2,RENOMMEE:1|Il traque les assassins de ses alliés et, en les vengeant, ramène les siens à la vie aux yeux de tous.
+Akshan|E|CELERITE:2|Il se balance au grappin pour franchir les obstacles.
+Akshan|R|SIEGE:2,TRAQUE:1|Une rafale chargée qui abat une cible même retranchée.
+Alistar|P|SOINS:1|Son cri triomphal soigne les alliés proches.
+Alistar|Q|MAITRISE:2,NUEE:1|Il pulvérise le sol et projette tout le monde dans les airs.
+Alistar|W|MAITRISE:1,PROTECTION:1|Un coup de tête qui écarte la menace de ses alliés.
+Alistar|E|MAITRISE:1|Il piétine jusqu'à étourdir l'adversaire.
+Alistar|R|PROTECTION:2,SURVIE:2|Une volonté inflexible : il encaisse presque tout, et les autres sont épargnés.
+Ambessa|P|CELERITE:1|Chaque technique se prolonge d'une ruée.
+Ambessa|Q|ASSAUT:2|Un double coup de lame en demi-cercle.
+Ambessa|W|PROTECTION:1,SURVIE:1|Elle se protège puis rend le coup.
+Ambessa|E|NUEE:1,MAITRISE:1|Ses chiens-dragons tournoient et ralentissent les ennemis proches.
+Ambessa|R|SIEGE:2,RENOMMEE:1|L'exécution publique d'un adversaire, pour l'exemple.
+Amumu|P|ASSAUT:1|Sa malédiction rend ses ennemis vulnérables à toutes les blessures.
+Amumu|Q|TRAQUE:2|Une bandelette qui l'attache à sa cible et l'emporte vers elle.
+Amumu|W|NUEE:1|Son désespoir ronge tous ceux qui l'entourent.
+Amumu|E|PROTECTION:1|Une crise de colère qui le rend plus dur à blesser.
+Amumu|R|MAITRISE:3,NUEE:2|Une malédiction qui fige sur place tous les ennemis autour de lui.
+Anivia|P|SURVIE:3|Renaissance : à sa mort, elle redevient un œuf et revient, une fois par mission.
+Anivia|Q|MAITRISE:1|Un éclat de glace qui étourdit au passage.
+Anivia|W|MAITRISE:2,PROTECTION:1|Un mur de glace qui coupe la route à l'ennemi.
+Anivia|E|ASSAUT:1|Un trait de givre qui frappe doublement ce qui est gelé.
+Anivia|R|NUEE:3|Une tempête glaciale qui tient toute une zone.
+Annie|P|MAITRISE:1|Toutes les quatre compétences, son feu étourdit.
+Annie|Q|ASSAUT:1,OR:1|Une boule de feu qui ne lui coûte rien quand elle achève sa cible.
+Annie|W|NUEE:1|Un cône de flammes.
+Annie|E|PROTECTION:1,CELERITE:1|Un bouclier de feu qui protège un allié et le fait courir plus vite.
+Annie|R|ASSAUT:2,MAITRISE:1,INSPIRATION:1|Tibbers ! Un ours de flammes qui sème la panique et rassure l'équipe.
+Aphelios|P|ASSAUT:2|Cinq armes forgées par sa sœur : il a toujours la bonne pour l'adversaire.
+Aphelios|Q|ASSAUT:1,TRAQUE:1|Chaque arme a son coup spécial, du tir lointain au piège de lumière.
+Aphelios|W|ASSAUT:1|Il change d'arme en un instant.
+Aphelios|E|RECONNAISSANCE:1|Alune lui souffle quelle arme viendra ensuite : il anticipe.
+Aphelios|R|NUEE:2,ASSAUT:1|Un rayon de lune qui frappe tout un groupe avec l'arme du moment.
+Ashe|P|MAITRISE:1|Ses flèches de givre ralentissent tout ce qu'elles touchent.
+Ashe|Q|ASSAUT:1|Une rafale de flèches concentrées.
+Ashe|W|NUEE:1|Une volée en éventail.
+Ashe|E|RECONNAISSANCE:3|Rapace : un esprit faucon qui survole la zone et révèle ce qui s'y cache.
+Ashe|R|MAITRISE:2,TRAQUE:1|Une flèche de cristal qui gèle sa cible à des lieues de distance.
+Aurelion Sol|P|ASSAUT:1|Ses sorts grandissent à mesure qu'il crée des étoiles.
+Aurelion Sol|Q|ASSAUT:1|Un souffle d'étoiles continu.
+Aurelion Sol|W|CELERITE:3|Vol astral : il emporte le trajet au-dessus du monde.
+Aurelion Sol|E|NUEE:1,MAITRISE:1|Une singularité qui attire les ennemis vers son centre.
+Aurelion Sol|R|NUEE:3,MAITRISE:1|Une étoile qui s'écrase sur le champ de bataille.
+Aurora|P|SOINS:1|Elle libère les esprits de ses ennemis, qui la soignent.
+Aurora|Q|TRAQUE:1|Un maléfice qu'elle rappelle à elle pour frapper deux fois.
+Aurora|W|INFILTRATION:2,CELERITE:1|Elle passe derrière le voile et devient invisible.
+Aurora|E|MAITRISE:1|Une boule de magie spirituelle qui ralentit et repousse.
+Aurora|R|MAITRISE:2,NUEE:1|Elle enferme ses ennemis entre deux mondes.
+Azir|P|SIEGE:1,RENOMMEE:1|Il fait dresser un Disque solaire : une tour qui garde la position.
+Azir|Q|CELERITE:1|Ses soldats de sable se déplacent à son ordre.
+Azir|W|ASSAUT:2|Il lève un soldat de sable qui frappe pour lui.
+Azir|E|CELERITE:1,PROTECTION:1|Il glisse jusqu'à ses soldats, protégé du sable.
+Azir|R|PROTECTION:2,MAITRISE:2|Un mur de phalanges qui repousse l'ennemi et barre le passage.
+Bard|P|BUTIN:2,CELERITE:1|Il recueille des carillons en chemin : chaque mission rapporte un peu plus.
+Bard|Q|MAITRISE:2|Une entrave cosmique qui enchaîne deux ennemis.
+Bard|W|SOINS:2|Des autels de soin semés pour ses alliés.
+Bard|E|CELERITE:3|Route magique : un portail à travers les murs pour toute l'équipe.
+Bard|R|MAITRISE:2,PROTECTION:1|Il fige le temps dans une zone, alliés comme ennemis.
+Bel'Veth|P|ASSAUT:1|Chaque victoire la rend plus rapide.
+Bel'Veth|Q|CELERITE:1,NUEE:1|Elle charge à travers les rangs.
+Bel'Veth|W|MAITRISE:2|Un coup de queue qui projette les ennemis.
+Bel'Veth|E|SURVIE:1,NUEE:1|Un maelström de coups qui la soigne.
+Bel'Veth|R|ASSAUT:2,SIEGE:1|Elle dévore le corail du Néant et prend sa vraie forme.
+Blitzcrank|P|PROTECTION:1|Une barrière de mana se déclenche quand il est en danger.
+Blitzcrank|Q|TRAQUE:3|Le grappin : il attrape et ramène sa cible, où qu'elle soit.
+Blitzcrank|W|CELERITE:2|Surcharge : il accélère brutalement.
+Blitzcrank|E|MAITRISE:1|Un poing qui projette en l'air.
+Blitzcrank|R|MAITRISE:2,NUEE:1|Un champ statique qui réduit les ennemis au silence.
+Brand|P|NUEE:1|Ses flammes s'embrasent et explosent sur les ennemis voisins.
+Brand|Q|MAITRISE:1,ASSAUT:1|Un sceau de feu qui étourdit les cibles déjà en flammes.
+Brand|W|NUEE:2|Un pilier de flammes au sol.
+Brand|E|NUEE:2|Un brasier qui se propage d'une cible à l'autre.
+Brand|R|NUEE:3|Une pyrolyse qui rebondit de cible en cible.
+Braum|P|MAITRISE:1|Ses coups répétés finissent par étourdir.
+Braum|Q|MAITRISE:1|Un éclat de glace lancé depuis son bouclier.
+Braum|W|PROTECTION:2|Il bondit devant un allié pour le couvrir.
+Braum|E|PROTECTION:3|Son bouclier arrête net les coups destinés à l'équipe.
+Braum|R|MAITRISE:2,INSPIRATION:1|Il fend la glace et projette l'ennemi. Toute la Freljord connaît sa bonne humeur.
+Briar|P|SURVIE:1|Ses saignements la soignent.
+Briar|Q|MAITRISE:1,TRAQUE:1|Elle bondit sur sa proie et l'étourdit.
+Briar|W|ASSAUT:2,INSPIRATION:-1|La Folie sanguinaire : elle ne lâche plus sa cible, au risque d'inquiéter ses alliés.
+Briar|E|SURVIE:1,MAITRISE:1|Elle reprend ses esprits et repousse d'un cri.
+Briar|R|TRAQUE:3|Vol mortel : elle traverse la carte jusqu'à sa cible.
+Caitlyn|P|ASSAUT:1|Un tir à la tête à intervalles réguliers.
+Caitlyn|Q|SIEGE:2|Un tir de calibre qui perce tout.
+Caitlyn|W|RECONNAISSANCE:1,MAITRISE:1|Des pièges disposés à l'avance.
+Caitlyn|E|CELERITE:1|Un filet qui la propulse en arrière.
+Caitlyn|R|TRAQUE:2,RENOMMEE:1|Un tir d'élite à très longue distance : la shérif de Piltover ne rate pas sa cible.
+Camille|P|PROTECTION:1|Une défense adaptative contre le type d'attaque qu'elle subit.
+Camille|Q|ASSAUT:1|Un protocole de précision en deux temps.
+Camille|W|NUEE:1|Un balayage tactique en cône.
+Camille|E|CELERITE:2,TRAQUE:1|Son grappin la projette contre les murs puis sur sa cible.
+Camille|R|MAITRISE:2,TRAQUE:1|L'ultimatum hextech enferme sa cible avec elle.
+Cassiopeia|P|OR:1|Elle ne porte pas de bottes : sa grâce serpentine lui fait économiser l'équipement.
+Cassiopeia|Q|NUEE:1,SIEGE:1|Un nuage de poison.
+Cassiopeia|W|MAITRISE:1|Un miasme qui cloue les ennemis au sol.
+Cassiopeia|E|ASSAUT:2|Des crocs jumeaux, redoutables sur une cible empoisonnée.
+Cassiopeia|R|MAITRISE:3|Son regard pétrifie ceux qui lui font face.
+Cho'Gath|P|SURVIE:1|Carnivore : il se refait en dévorant ses victimes.
+Cho'Gath|Q|MAITRISE:1,NUEE:1|Une rupture qui projette dans les airs.
+Cho'Gath|W|MAITRISE:1,NUEE:1|Un cri sauvage qui réduit au silence.
+Cho'Gath|E|NUEE:1|Des épines vorpales qui transpercent les rangs.
+Cho'Gath|R|SIEGE:2,SURVIE:1|Il dévore une cible et grossit à chaque festin.
+Corki|P|ASSAUT:1|Des munitions hextech qui touchent plus fort.
+Corki|Q|RECONNAISSANCE:1|Une bombe au phosphore qui éclaire la zone.
+Corki|W|CELERITE:2|Il fonce en valkyrie à travers le terrain.
+Corki|E|NUEE:1,SIEGE:1|Un tir de Gatling continu.
+Corki|R|ASSAUT:1,SIEGE:1,NUEE:1|Des barrages de missiles.

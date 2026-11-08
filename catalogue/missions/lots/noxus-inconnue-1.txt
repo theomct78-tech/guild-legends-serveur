@@ -1,0 +1,507 @@
+# Noxus · palier Inconnue · lot 1 (missions 001 à 025)
+# {meneur} : le héros qui a mené l'épreuve décisive. La Chambre des Bannières : l'organisme supérieur aux guildes.
+
+=== NOX-I-001 | Les Astres-bleus de Kimir
+source: privee
+region: noxus
+palier: inconnue
+type: enquete
+ton: drole
+lieu: Kimir
+demandeur: Vadim, cueilleur d'Astre-bleu, président autoproclamé de la Confrérie des Teinturiers de Kimir
+accroche: « Mes parterres ont fané en une nuit, à huit jours du marché de la teinture. Ça sent le sel. Et je connais un bourg qui sent le sel : Morrin. »
+postes: Éclaireur, Support
+duree: 4
+dangereuse: non
+epreuves: discretion 34 (surveiller les parterres de nuit sans effaroucher le saboteur) ; diplomatie 36 (calmer Vadim avant qu'il ne déclare la guerre à Morrin avec une fourche)
+complication: Le saboteur n'est pas de Morrin. C'est le gendre de Vadim, qui veut faire échouer la récolte pour que son beau-père accepte enfin de lui céder les parterres.
+eclatante: {meneur} surprend le gendre, un sac de sel à la main. Il avoue en larmes : il voulait seulement qu'on lui fasse confiance. Vadim hurle, puis réfléchit, puis lui confie la moitié des parterres « à l'essai ». Morrin n'apprendra jamais qu'elle a failli être déclarée coupable. Ce qui reste des fleurs donne une teinture splendide, et la guilde reçoit une écharpe bleue.
+reussite: Le saboteur s'enfuit, mais les parterres survivants sont sauvés et le sel lessivé à temps. Vadim paie en jurant qu'il trouvera le coupable tout seul.
+partielle: La moitié des fleurs est perdue. L'équipe a seulement trouvé des traces de bottes, qui mènent à la maison. Vadim refuse d'y croire.
+echec: Les parterres sont morts. Vadim est parti à Morrin avec une fourche et trois cousins. L'affaire s'est terminée chez l'intendant.
+recompenses: po 25 ; reputation 2 ; objet Charme féerique 6
+
+=== NOX-I-002 | La meute de Drekan
+source: privee
+region: noxus
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Drekan
+demandeur: Olga, éleveuse d'élans, un bras en écharpe
+accroche: « Les chiens-drakes descendent des collines chaque nuit. Ils ne mangent pas les bêtes. Ils les tuent et ils repartent. Comme s'ils s'entraînaient. »
+postes: Tireur
+duree: 5
+dangereuse: non
+epreuves: nuee 34 (tenir l'enclos face à une meute qui attaque de tous les côtés) ; poursuite 31 (pister la meute jusqu'à sa tanière)
+complication: La meute a été dressée et lâchée par un noble de Mortoraa, qui veut forcer Olga à vendre ses pâturages à bas prix.
+eclatante: La meute est décimée, et {meneur} trouve sur la cheffe un collier de cuir orné d'un blason. Olga le porte à l'intendant de Drekan, qui n'aime pas qu'on fasse la guerre sur ses terres sans sa permission. Le noble paie une amende salée, et Olga garde ses pâturages. Elle offre à la guilde un jeune élan, qui ne comprend rien à ce qui lui arrive.
+reussite: Les chiens-drakes sont chassés et ne reviennent pas. Olga ne saura jamais pourquoi ils étaient là, mais elle dort de nouveau.
+partielle: La meute a perdu deux bêtes et s'est retirée dans les collines. Elle reviendra, plus prudente.
+echec: La meute a eu l'enclos et trois élans. Olga a vendu ses pâturages la semaine suivante, à un acheteur qui attendait justement.
+recompenses: po 30 ; reputation 2 ; objet Épée longue 6
+
+=== NOX-I-003 | La couronne d'Urtis
+source: privee
+region: noxus
+palier: inconnue
+type: recuperation
+ton: politique
+lieu: Urtis
+demandeur: Dame Ilinka, quatre-vingt-onze ans, descendante des anciens rois d'Urtis
+accroche: « Ma famille cache la couronne d'Urtis depuis la conquête, sous le plancher de la chapelle. Les commis de l'intendant inventorient les vieilles maisons la semaine prochaine. Je veux qu'elle soit ailleurs avant. Je ne veux pas savoir où. »
+postes: Éclaireur, Assassin
+duree: 5
+dangereuse: non
+epreuves: discretion 38 (sortir la couronne de la maison alors que les commis surveillent déjà la rue) ; voyage 33 (la porter jusqu'à une cache sûre dans les collines)
+complication: Le petit-fils d'Ilinka est légionnaire. Il sait pour la couronne, et il hésite entre la loyauté envers sa grand-mère et celle envers l'empire.
+eclatante: {meneur} fait sortir la couronne dans un panier de linge, sous le nez des commis. Elle est cachée dans les collines, en un lieu que seule l'équipe connaît. Le petit-fils, qui avait tout compris, passe ce soir-là chez sa grand-mère et ne dit rien. Il lui embrasse la main. Dame Ilinka dit que c'est la plus belle chose qu'elle ait vue depuis la conquête.
+reussite: La couronne quitte la maison avant l'inventaire. Les commis ne trouvent rien. Dame Ilinka paie avec une broche ancienne, et demande qu'on oublie son nom.
+partielle: L'équipe a dû cacher la couronne en ville, dans un endroit moins sûr que prévu. Il faudra la déplacer de nouveau.
+echec: Les commis ont trouvé la couronne. Elle est partie au Bastion. Dame Ilinka n'a rien dit, mais elle a éteint la lampe de la chapelle pour toujours.
+recompenses: po 25 ; reputation 2 ; objet Dague 7
+suite: NOX-L-001
+
+=== NOX-I-004 | L'eau de Drugne
+source: privee
+region: noxus
+palier: inconnue
+type: sauvetage
+ton: aventure
+lieu: Plaine de Dalamor
+demandeur: Grégor, chef de la caravane d'eau de Drugne, qui n'a pas vu revenir sa deuxième caravane
+accroche: « Six chariots, douze hommes et toute l'eau de la saison. Ils devaient être là il y a quatre jours. Dans la plaine de Dalamor, quatre jours sans eau, c'est la fin. »
+postes: Éclaireur, Tank
+duree: 7
+dangereuse: non
+risque: oui
+epreuves: voyage 45 (traverser la steppe sous le soleil et la poussière) ; poursuite 41 (retrouver la piste des chariots effacée par le vent) ; combat 37 (chasser les pillards qui rôdent autour des chariots immobilisés)
+complication: Un essieu s'est brisé et la caravane a dû s'arrêter. Les hommes ont tenu, mais une bande de pillards les encercle depuis deux jours, en attendant qu'ils meurent de soif.
+eclatante: {meneur} repère la colonne de vautours au loin. L'équipe chasse les pillards, répare l'essieu avec une lance, et ramène les douze hommes et l'eau à Drugne. On sonne la cloche du puits pour la première fois depuis des années. Grégor fait graver le nom de la guilde sur le premier chariot.
+reussite: Les hommes sont sauvés, mais deux chariots d'eau sont abandonnés. Drugne rationnera jusqu'au printemps, mais Drugne tiendra.
+partielle: L'équipe a retrouvé la caravane trop tard pour l'eau : les pillards avaient vidé les tonneaux. Les hommes sont vivants, assoiffés et furieux.
+echec: L'équipe s'est perdue dans la plaine et a dû faire demi-tour. Grégor est parti seul avec un chameau et une prière.
+recompenses: po 130 ; reputation 3 ; objet Bottes 7
+
+=== NOX-I-005 | Le mineur de Delverhold
+source: privee
+region: noxus
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Delverhold
+demandeur: Yaroslava, épouse d'un mineur, qui attend devant l'entrée de la galerie
+accroche: « La galerie quatre s'est effondrée. Le contremaître dit que ça coûte moins cher de la condamner que de la dégager. Ils sont trois là-dessous. On les entend encore taper. »
+postes: Tank
+duree: 6
+dangereuse: non
+epreuves: siege 34 (dégager l'éboulement à la pioche, en étayant à mesure) ; voyage 29 (trouver un passage par une ancienne galerie abandonnée)
+complication: Le contremaître a reçu l'ordre de condamner la galerie parce qu'elle mène à un filon d'or que l'intendant veut garder secret.
+eclatante: {meneur} perce le dernier bloc. Les trois mineurs sont vivants, couverts de poussière, épuisés. L'un d'eux a une jambe cassée, qui est soignée sur place. En remontant, {meneur} a vu les reflets d'or dans la roche. Les mineurs aussi. Ce que tout le monde fera de ce secret reste à écrire. Yaroslava embrasse {meneur}, deux fois.
+reussite: Deux mineurs sont sortis vivants. Le troisième n'a pas survécu à la nuit. Yaroslava a retrouvé son mari. Elle porte le deuil de l'autre comme si c'était le sien.
+partielle: {meneur} a ouvert un passage pour l'air et l'eau, mais pas assez large pour les sortir. Il faudra une autre équipe, et du temps.
+echec: Le contremaître a fait fermer la galerie pendant la nuit. On n'entend plus taper. Yaroslava est toujours devant l'entrée.
+recompenses: po 30 ; reputation 3 ; objet Pioche 8
+
+=== NOX-I-006 | Le basilic du marché
+source: privee
+region: noxus
+palier: inconnue
+type: protection
+ton: drole
+lieu: Bloodcliffs
+demandeur: Maître Bruno, transporteur, propriétaire d'un basilic de trait nommé Douceur
+accroche: « Douceur a vu un étal de poissons, Douceur a eu faim, Douceur a traversé quatre maisons. Les gardes veulent l'abattre. Douceur est très gentille quand elle n'a pas faim. »
+postes: Tank
+duree: 3
+dangereuse: non
+epreuves: poursuite 29 (suivre un basilic de deux tonnes à travers les ruelles des falaises) ; combat 33 (l'immobiliser sans la blesser, avant que les gardes ne l'achèvent)
+complication: Douceur n'a pas faim : elle est en train de pondre, et elle cherche un endroit chaud et tranquille. Le four de la boulangerie lui semble parfait.
+eclatante: {meneur} détourne la bête avec une charrette de poisson, juste avant que les gardes ne l'achèvent. Douceur pond trois œufs énormes dans la cour du boulanger, qui hurle, puis se calme quand Maître Bruno lui promet le premier petit. Les gardes, finalement, rient. Bloodcliffs se souviendra longtemps de la journée du basilic.
+reussite: Douceur est ramenée à son écurie, essoufflée et vexée. Maître Bruno paie les dégâts avec la récompense prévue pour la guilde, mais il trouve quand même de quoi la payer.
+partielle: Douceur est maîtrisée, mais elle a eu le temps de défoncer la façade de la boulangerie. Maître Bruno est ruiné pour la saison.
+echec: Les gardes ont abattu Douceur au milieu de la rue. Maître Bruno ne parle plus à personne.
+recompenses: po 20 ; reputation 1 ; objet Armure de tissu 6
+
+=== NOX-I-007 | Les boues de Drakkengate
+source: privee
+region: noxus
+palier: inconnue
+type: livraison
+ton: drole
+lieu: Drakkengate
+demandeur: Madame Zinaïda, fabricante d'emplâtres de boue, qui fournit les plus grandes dames du Bastion
+accroche: « Une commande de quarante pots pour le bal de la maison Medarda. Mon livreur a pris peur des basilics de la route et a vendu la charrette. Les pots aussi. À un ferrailleur. Pour les pots. »
+postes: Support, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: poursuite 34 (retrouver le ferrailleur avant qu'il ne vide les pots dans le fossé) ; diplomatie 38 (récupérer la marchandise, puis la faire accepter par l'intendante de la maison, très à cheval sur les délais)
+complication: Le ferrailleur a vidé la moitié des pots pour revendre la céramique. Il faudra trouver de la boue fraîche, et la faire passer pour la bonne.
+eclatante: {meneur} récupère les pots, refait la boue manquante avec de la vase de l'estuaire et convainc l'intendante qu'il s'agit d'un « nouveau mélange, plus vivifiant ». Les dames du bal l'adorent. Madame Zinaïda en fait une nouvelle gamme, qui se vend deux fois plus cher, et lui donne un nom en l'honneur de la guilde.
+reussite: Les quarante pots arrivent à temps, dont la moitié de vase de l'estuaire, mais personne ne remarque rien. Madame Zinaïda paie, et prie pour qu'aucune dame ne se plaigne de boutons.
+partielle: Vingt pots seulement ont été livrés. La maison Medarda a payé la moitié, et Madame Zinaïda a perdu une cliente.
+echec: Pas de pots. Le bal a eu lieu sans emplâtres. Madame Zinaïda est persuadée que c'est la fin de son entreprise, et elle n'a peut-être pas tort.
+recompenses: po 20 ; reputation 1 ; objet Élixir de sorcellerie 5
+
+=== NOX-I-008 | La saumure noire de Trannit
+source: privee
+region: noxus
+palier: inconnue
+type: enquete
+ton: horreur
+lieu: Trannit
+demandeur: Agafia, contremaîtresse des séchoirs à bolbo
+accroche: « Ce matin, tous les poissons des séchoirs étaient noirs. Noirs dedans. Deux ouvrières qui en ont goûté ne se réveillent plus. Elles respirent, mais elles ne se réveillent plus. »
+postes: Support, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: discretion 36 (fouiller les séchoirs et les réserves de sel sans déclencher la panique dans le port) ; diplomatie 34 (interroger des pêcheurs terrifiés, qui parlent de malédiction de la mer)
+complication: Le sel a été coupé avec une poudre de Zaun, achetée à bas prix par le fournisseur. Elle assomme, et à forte dose, elle tue.
+eclatante: {meneur} trouve dans la réserve un sac de sel qui brille légèrement dans le noir. Les deux ouvrières sont soignées et finissent par se réveiller. Le fournisseur est dénoncé à l'intendant. Les séchoirs sont lavés à grande eau, et l'on remet du poisson à sécher dans la semaine. Les pêcheurs continuent de dire que c'était une malédiction.
+reussite: L'équipe a identifié le sel empoisonné, mais pas d'où il venait. Les ouvrières se réveillent. Agafia change de fournisseur.
+partielle: Les ouvrières se sont réveillées, mais personne ne sait pourquoi le poisson est devenu noir. Trannit n'en vend plus pendant un mois.
+echec: Une des deux ouvrières ne s'est pas réveillée. Le port entier parle de malédiction, et plus personne ne veut travailler aux séchoirs.
+recompenses: po 25 ; reputation 2 ; objet Potion de soin 10
+
+=== NOX-I-009 | Le vin coupé d'Ironwater
+source: privee
+region: noxus
+palier: inconnue
+type: enquete
+ton: drole
+lieu: Ironwater
+demandeur: Maître Sergueï, vigneron de betterave, qui ne sourit qu'aux tonneaux
+accroche: « Mon vin a le goût de l'eau. Pas un peu : complètement. Quelqu'un vide mes tonneaux et les remplit d'eau. Sauf qu'il les remplit avec de l'eau de mer. Il ne sait même pas tricher. »
+postes: Support, Assassin
+duree: 3
+dangereuse: non
+epreuves: discretion 35 (passer la nuit dans le chai sans se trahir) ; diplomatie 32 (faire avouer le coupable sans qu'il prenne la fuite)
+complication: Le coupable est le vieux tonnelier de Sergueï, qui boit le vin la nuit depuis trente ans et a toujours remplacé avec de l'eau de pluie. Cette année, il pleut moins.
+eclatante: {meneur} surprend le tonnelier un gobelet à la main, en train de chanter. Il avoue tout, trente ans de vols et de chansons. Sergueï est furieux, puis éclate de rire, et l'oblige à goûter chaque tonneau désormais, « puisqu'il a si bon palais ». Le vin d'Ironwater n'a jamais été aussi bon. La guilde reçoit un tonneau.
+reussite: Le voleur est identifié et renvoyé. Les tonneaux restants sont sauvés. Maître Sergueï paie et retourne à ses tonneaux.
+partielle: Le voleur a été surpris, mais il s'est enfui par la fenêtre. Sergueï sait qui c'est, il ne sait juste pas comment le rattraper à son âge.
+echec: L'équipe s'est endormie, et au matin, un tonneau de plus était rempli d'eau de mer. Maître Sergueï a parlé de la guilde aux vignerons de toute la côte.
+recompenses: po 15 ; reputation 1 ; objet Élixir de rage 5
+
+=== NOX-I-010 | Le poulain de Vindor
+source: privee
+region: noxus
+palier: inconnue
+type: escorte
+ton: tendre
+lieu: Vindor
+demandeur: Mila, quatorze ans, palefrenière des écuries de Vindor
+accroche: « Braise est vendu à un Cavalier noir. Il doit arriver au camp dans trois jours, sans une égratignure. C'est moi qui l'ai fait naître. Je veux l'accompagner jusqu'au bout. »
+postes: Éclaireur, Tank
+duree: 6
+dangereuse: non
+epreuves: voyage 36 (mener un jeune cheval nerveux sur trois jours de route) ; combat 33 (repousser des voleurs de chevaux, attirés par la robe du poulain)
+complication: Le Cavalier noir qui l'a acheté cherche aussi un écuyer. Il prendra celui qui saura le mieux tenir le cheval.
+eclatante: Braise arrive au camp en pleine forme, et Mila n'a pas lâché la longe une seule fois. {meneur} glisse un mot au Cavalier noir sur la façon dont la jeune fille a mené le poulain à travers les embuscades. Le cavalier l'engage comme écuyère, à l'essai. Mila ne dit rien, mais elle pleure dans la crinière du cheval.
+reussite: Le poulain est livré, en parfait état. Mila rentre à Vindor, triste et fière. Elle a promis de revenir le voir.
+partielle: Le poulain s'est blessé à la jambe pendant une attaque. Il est livré, mais le prix est réduit, et l'écurie le reproche à Mila.
+echec: Les voleurs ont eu le poulain. Mila est rentrée seule. Elle ne veut plus parler de la guilde.
+recompenses: po 25 ; reputation 2 ; objet Bottes 6
+
+=== NOX-I-011 | Le chef-d'œuvre de l'apprenti
+source: privee
+region: noxus
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Krexor
+demandeur: Ilya, apprenti forgeron, né dans un village conquis du nord
+accroche: « Noxus dit que seul le mérite compte. Mon maître dit que mon épée est la meilleure de l'atelier. Le jury dit qu'un “gars des marches” ne peut pas être maître forgeron. Je veux qu'ils la regardent, au moins. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 34 (obtenir que le jury examine l'épée, au nom des principes que Noxus prétend défendre) ; combat 30 (démontrer la qualité de la lame dans une passe d'armes devant le jury)
+complication: Le président du jury est le neveu d'un forgeron rival. Il a déjà décidé de refuser tous les apprentis qui ne sont pas de Krexor.
+eclatante: {meneur} rappelle au jury, devant la foule de l'atelier, que l'empire se vante de juger sur le mérite. Puis, l'épée d'Ilya à la main, il tranche la lame du président en deux. Le jury ne peut plus rien dire. Ilya est reçu maître. Son nom sera connu à Krexor, et celui de la guilde aussi.
+reussite: L'épée est examinée et reconnue. Ilya est reçu maître, de justesse, et le président ne lui adressera plus jamais la parole.
+partielle: Le jury reporte sa décision d'un an. Ilya devra refaire un chef-d'œuvre, mais il a été écouté.
+echec: L'épée a été jugée sans être examinée. Ilya a quitté Krexor pour Piltover. Il y deviendra peut-être célèbre, mais pas à Noxus.
+recompenses: po 20 ; reputation 2 ; objet Épée longue 7
+
+=== NOX-I-012 | Les cèdres des nuées
+source: privee
+region: noxus
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Kilgrove
+demandeur: Ivanka, cheffe d'une équipe de bûcherons de cèdre des nuées
+accroche: « Les araignées ont tissé entre les arbres. Des toiles assez solides pour arrêter un homme. Deux de mes gars sont restés accrochés. On les a récupérés, mais il manque une jambe de pantalon et tout le courage. »
+postes: Mage
+duree: 5
+dangereuse: non
+epreuves: nuee 36 (repousser une colonie d'araignées géantes aux reflets rouges) ; poursuite 30 (trouver et détruire le nid dans les hautes branches)
+complication: Les araignées ne sont pas venues seules : quelqu'un les élève dans une grotte de la colline, et les relâche quand les bûcherons approchent d'un certain bosquet.
+eclatante: Le nid est brûlé, la colonie dispersée. {meneur} découvre la grotte, des cages de soie et une petite cabane vide où séchaient des herbes rares. Le propriétaire est parti en hâte. Ivanka n'en demande pas plus : son équipe peut abattre les cèdres. Elle envoie à la guilde une planche de cèdre des nuées, qui ne pourrit jamais.
+reussite: Les araignées sont chassées et le nid détruit. {meneur} d'Ivanka reprend le travail, en regardant souvent en l'air.
+partielle: Les araignées ont fui vers un autre bosquet. Ivanka peut couper la moitié de sa commande.
+echec: Les araignées ont gagné. {meneur} d'Ivanka a abandonné le chantier, et la commande de cèdres est perdue.
+recompenses: po 35 ; reputation 2 ; objet Dague 7
+
+=== NOX-I-013 | Le déserteur de Glorft
+source: privee
+region: noxus
+palier: inconnue
+type: traque
+ton: tragique
+lieu: Glorft
+demandeur: Marfa, mère d'un soldat de dix-neuf ans
+accroche: « Les Bourreaux le cherchent. Ils disent qu'il a quitté sa bande en pleine nuit. Je veux le retrouver avant eux. Je ne sais pas ce que je ferai après, mais je veux le voir avant. »
+postes: Éclaireur, Support
+duree: 6
+dangereuse: non
+risque: oui
+epreuves: poursuite 42 (suivre un garçon qui connaît la région mieux que quiconque) ; diplomatie 41 (lui parler, alors qu'il est terrifié et armé)
+complication: Le garçon n'a pas fui par lâcheté : il a vu son capitaine faire massacrer un village qui s'était rendu, et il refuse d'y retourner.
+eclatante: {meneur} trouve Kiril dans une cabane de pêcheur, couteau à la main. Il faut une heure pour qu'il le pose. Il raconte tout. Sa mère l'écoute sans rien dire, puis lui donne son manteau et toutes ses économies. Ce que la guilde fait ensuite, lui faire passer la frontière ou le convaincre de témoigner contre son capitaine, est écrit dans sa chronique. Dans les deux cas, Marfa sait que son fils est un homme bien.
+reussite: Kiril est retrouvé, et sa mère a pu lui parler. Il est reparti dans la nuit, vers l'est. Marfa ne sait pas où, mais elle sait pourquoi.
+partielle: L'équipe a retrouvé la cabane, vide. Kiril a laissé un mot pour sa mère. Il dit seulement : « Je ne pouvais pas. »
+echec: Les Bourreaux l'ont trouvé les premiers. Marfa ne paie pas. Elle ne pleure pas non plus. Elle fixe le mur.
+recompenses: po 80 ; reputation 3 ; objet Cape de négation 6
+suite: NOX-L-002
+
+=== NOX-I-014 | La récolte de Rokrund
+source: privee
+region: noxus
+palier: inconnue
+type: defense
+ton: tendre
+lieu: Plaines de Rokrund
+demandeur: Les sœurs Dobrev, trois veuves qui cultivent ensemble le champ de naap de leurs maris
+accroche: « Les drakalopes sont venus manger les racines. Ils sont immortels, paraît-il. Nous, non, et nos naaps non plus. C'est la dernière récolte que nos hommes ont plantée. »
+postes: Tank, Tireur
+duree: 5
+dangereuse: non
+epreuves: nuee 37 (repousser un troupeau de drakalopes affamés et têtus) ; voyage 32 (rentrer la récolte avant la pluie, en aidant à arracher les racines)
+complication: Les drakalopes ne peuvent pas mourir. On ne peut que les faire fuir, et ils reviendront si l'on ne trouve pas ce qui les attire.
+eclatante: Le troupeau est repoussé, et {meneur} comprend que les bêtes viennent pour les fleurs de naap montées en graine dans un coin du champ. On les coupe, on les brûle, et les drakalopes ne reviennent plus. La récolte est rentrée. Les trois sœurs préparent un repas de naap pour l'équipe, et racontent leurs maris toute la nuit.
+reussite: Les drakalopes sont repoussés, la récolte rentrée. Les sœurs paient et offrent un sac de naaps, que personne dans la guilde ne sait cuisiner.
+partielle: La moitié de la récolte est perdue. Les sœurs passeront l'hiver, mais tout juste.
+echec: Les drakalopes ont tout mangé. Les sœurs ne reprochent rien à l'équipe. Elles vont vendre le champ.
+recompenses: po 20 ; reputation 2 ; objet Bouclier de Doran 6
+
+=== NOX-I-015 | Les cloches des Monts Argent
+source: privee
+region: noxus
+palier: inconnue
+type: exploration
+ton: mystere
+lieu: Monts Argent
+demandeur: Ruslan, berger, inquiet pour son fils
+accroche: « Le petit entend des cloches dans la montagne. Il est monté trois fois pour les trouver. Hier, il n'est rentré qu'à l'aube, avec des fleurs qui ne poussent nulle part, et il ne se rappelait pas son propre nom. »
+postes: Support
+duree: 5
+dangereuse: non
+epreuves: voyage 33 (suivre l'enfant dans la montagne de nuit, sans le perdre de vue) ; diplomatie 31 (parler avec ce qui sonne les cloches, s'il se laisse approcher)
+complication: Les cloches sont celles des Sonneurs, des esprits célestes de la montagne. Ils ne veulent pas de mal à l'enfant : ils l'ont choisi parce qu'il entend leur musique, et ils voudraient le garder.
+eclatante: Au sommet, {meneur} voit les Sonneurs : des lumières qui tintent dans la brume. Il faut toute une nuit de patience pour leur faire comprendre que l'enfant a un père qui l'attend. Ils le laissent partir, et lui laissent une petite cloche d'argent. L'enfant se souvient de son nom. Il ne joue plus que de la musique, désormais, et il joue très bien.
+reussite: {meneur} a ramené l'enfant avant qu'il n'atteigne le sommet. Les cloches se sont tues. Ruslan l'attache à son lit la nuit, et l'enfant pleure parce qu'il ne les entend plus.
+partielle: L'enfant est revenu seul au matin, avec d'autres fleurs. Les cloches sonnent toujours. Ruslan n'a plus d'espoir.
+echec: {meneur} a perdu son chemin dans la brume. L'enfant n'est revenu qu'au bout de trois jours, et il ne parle plus.
+recompenses: po 20 ; reputation 2 ; objet Tome d'amplification 7
+
+=== NOX-I-016 | La clé de Hvardis
+source: privee
+region: noxus
+palier: inconnue
+type: recuperation
+ton: tragique
+lieu: Hvardis
+demandeur: Yelena, réfugiée de Hvardis, qui vit maintenant à Glorft
+accroche: « Ils ont rasé la ville pour l'exemple. Ma maison est un tas de pierres. Sous le seuil, mon père avait enterré une boîte. Il disait : “Si un jour on perd tout, ce sera ce qui nous restera.” Nous avons tout perdu. »
+postes: Éclaireur, Tank
+duree: 6
+dangereuse: non
+epreuves: voyage 36 (entrer dans les ruines interdites de Hvardis) ; siege 34 (dégager le seuil de la maison, sous les pierres et la cendre)
+complication: La boîte ne contient pas d'argent. Elle contient le registre des familles de Hvardis, que le père de Yelena, greffier, a sauvé avant la destruction : les noms de tous ceux qui ont été tués.
+eclatante: {meneur} dégage la boîte de cuivre sous les pierres. Yelena ouvre le registre au bord des ruines, et lit les noms à voix haute, un par un, jusqu'à la tombée de la nuit. Personne dans l'équipe ne l'interrompt. Elle le fera recopier, et chaque famille de réfugiés recevra le nom de ses morts.
+reussite: La boîte est rapportée intacte. Yelena ne l'ouvre pas devant l'équipe. Elle paie, et dit seulement : « Merci de ne pas avoir posé de questions. »
+partielle: La boîte a été retrouvée, mais l'humidité a abîmé la moitié du registre. Les noms qui restent seront gardés.
+echec: Une patrouille a surpris l'équipe dans les ruines, et l'a chassée. La boîte est toujours sous le seuil.
+recompenses: po 20 ; reputation 3 ; objet Pioche 6
+
+=== NOX-I-017 | Les charrettes des Tallymen
+source: privee
+region: noxus
+palier: inconnue
+type: enquete
+ton: horreur
+lieu: Bas-quartiers du Bastion
+demandeur: Frère Ossip, Tallyman, qui ramasse les morts des bas-quartiers depuis vingt ans
+accroche: « Nous comptons les morts. Nous les comptons au départ, et nous les comptons à l'arrivée au charnier. Depuis un mois, il en manque un, deux, parfois trois. Les morts ne descendent pas des charrettes. »
+postes: Assassin
+duree: 5
+dangereuse: non
+epreuves: discretion 35 (suivre les charrettes la nuit à travers les ruelles des bas-quartiers) ; poursuite 32 (rattraper ceux qui dérobent les corps)
+complication: Les corps sont volés par deux jeunes gens qui les revendent à un étudiant en médecine des quartiers riches, pour ses dissections. Il paie bien et ne pose pas de questions.
+eclatante: {meneur} surprend les voleurs au détour d'une ruelle, un corps sur l'épaule. {meneur} remonte jusqu'à l'étudiant, qui supplie : il étudie les maladies qui tuent les bas-quartiers. Frère Ossip propose un marché : les corps dont personne ne réclame le nom lui seront confiés, honnêtement, et il soignera gratuitement le quartier. La guilde a désormais un ami chez les Tallymen, et un médecin qui lui doit beaucoup.
+reussite: Les voleurs sont arrêtés et les corps retrouvés, mais l'acheteur reste inconnu. Les Tallymen comptent juste à nouveau.
+partielle: Les vols cessent pendant une semaine, puis reprennent ailleurs. Frère Ossip compte deux fois.
+echec: {meneur} a perdu sa route dans les ruelles des bas-quartiers. Trois corps de plus ont disparu cette nuit-là.
+recompenses: po 25 ; reputation 2 ; objet Cristal de saphir 6
+
+=== NOX-I-018 | Le chant de Zagayah
+source: privee
+region: noxus
+palier: inconnue
+type: diplomatie
+ton: tendre
+lieu: Enclave de Zagayah
+demandeur: Amma Sefet, doyenne de l'enclave shurimane
+accroche: « Mon mari est mort. Chez nous, on chante la marche du désert pour accompagner les morts, toute une nuit, jusqu'à l'aube. Les voisins se plaignent du bruit. Le commis du quartier menace de nous faire taire. Mon mari a marché toute sa vie. Il marchera encore cette nuit. »
+postes: Support, Tank
+duree: 4
+dangereuse: non
+epreuves: diplomatie 38 (convaincre le commis du quartier et les voisins de laisser faire) ; combat 30 (tenir à l'écart quelques ivrognes décidés à faire taire le chant par la force)
+complication: Le commis du quartier est lui-même d'origine shurimane. Il a renié ses chants pour monter en grade, et entendre la marche du désert le bouleverse.
+eclatante: {meneur} parle au commis seul à seul. Il ne dit rien, mais à minuit, il revient, s'assoit au bout de la rangée, et chante avec les autres, sans se tromper d'un mot. Les voisins finissent par écouter à leurs fenêtres. Le chant dure jusqu'à l'aube. Amma Sefet offre à la guilde le bâton de marche de son mari.
+reussite: Le chant a lieu, la nuit entière. Les voisins se sont plaints, mais personne n'est intervenu. Amma Sefet remercie l'équipe d'un signe de tête.
+partielle: Le chant a dû s'arrêter à minuit, sur ordre du commis. Amma Sefet a fini la marche seule, à voix basse, jusqu'à l'aube.
+echec: Les ivrognes ont jeté des pierres. Le chant s'est arrêté. L'enclave n'a pas oublié qui était là pour l'empêcher, et qui ne l'était pas.
+recompenses: po 15 ; reputation 3 ; objet Charme féerique 7
+
+=== NOX-I-019 | Le premier combat de Dima
+source: privee
+region: noxus
+palier: inconnue
+type: protection
+ton: drole
+lieu: Arène du Fleshing
+demandeur: La grand-mère de Dima, qui a vendu sa chèvre pour payer le voyage
+accroche: « Mon petit-fils a parié toutes nos économies sur lui-même pour son premier combat dans l'arène. Il est fort comme un bœuf et bête comme deux. Je ne veux pas qu'il gagne. Je veux qu'il revienne entier. »
+postes: Combattant
+duree: 4
+dangereuse: non
+epreuves: combat 32 (l'entraîner en une journée pour qu'il survive à son premier combat) ; diplomatie 30 (négocier avec le bookmaker pour récupérer une partie du pari)
+complication: L'adversaire de Dima est un vétéran payé pour le mettre au tapis dès la première minute et faire gagner les parieurs d'en face.
+eclatante: {meneur} apprend à Dima trois choses : se baisser, reculer, et frapper au bon moment. Le vétéran charge, Dima se baisse, et le vétéran passe par-dessus la barrière. La foule hurle de rire. Dima gagne, et sa grand-mère récupère trois fois ses économies. Elle rachète deux chèvres. Dima veut entrer dans la guilde.
+reussite: Dima perd, mais debout, et sans rien de cassé. Le bookmaker rend la moitié du pari. La grand-mère paie {meneur} avec ce qui reste.
+partielle: Dima perd au bout d'une minute, avec une dent en moins. Le pari est perdu, mais il est vivant.
+echec: Dima a perdu, ainsi que toutes les économies et un œil au beurre noir. La grand-mère est rentrée à pied.
+recompenses: po 15 ; reputation 1 ; objet Élixir de fer 6
+
+=== NOX-I-020 | Le pressoir de Trevale
+source: privee
+region: noxus
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Trevale
+demandeur: Ivan Petrov, maire de Trevale, qui a deux familles d'orangers et un seul pressoir
+accroche: « Les Kalina et les Saveliev se partagent le pressoir du bourg depuis la conquête. Cette année, chacun prétend que l'autre a brisé la meule. Les oranges pourrissent. Si les deux familles en viennent aux couteaux, l'intendant prendra le pressoir pour lui. »
+postes: Support, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: discretion 33 (découvrir qui a vraiment brisé la meule) ; diplomatie 39 (faire signer aux deux familles un accord avant que les oranges ne soient perdues)
+complication: Personne n'a brisé la meule. Elle s'est fendue d'usure. Mais les deux familles ont besoin d'un coupable, et aucune ne veut payer la nouvelle.
+eclatante: {meneur} prouve que la meule est morte de vieillesse, puis propose que la nouvelle soit payée par l'intendant, qui prélève assez de taxes sur les oranges pour cela. Les deux familles se liguent pour aller le lui demander ensemble. Il cède. Pour la première fois depuis des générations, Kalina et Saveliev boivent un verre ensemble. La guilde reçoit une caisse d'oranges de chaque famille.
+reussite: L'accord est signé, la meule remplacée, les frais partagés. Les familles ne se parlent toujours pas, mais elles pressent.
+partielle: L'accord est signé trop tard pour la moitié des oranges. Les deux familles tiennent la guilde pour responsable, chacune pour une raison différente.
+echec: Les couteaux sont sortis. Il y a eu un blessé. L'intendant a pris le pressoir.
+recompenses: po 20 ; reputation 2 ; objet Tome d'amplification 5
+
+=== NOX-I-021 | Le lac qui avale les barques
+source: privee
+region: noxus
+palier: inconnue
+type: exploration
+ton: horreur
+lieu: Blackrock Mere
+demandeur: Timofeï, pêcheur, qui a vu sombrer son frère
+accroche: « Le lac était calme. Pas une ride. La barque a tourné sur elle-même, comme une toupie, et elle a disparu. Pas de bulles, pas de bois flotté. Rien. Trois barques ce mois-ci. »
+postes: Tank
+duree: 5
+dangereuse: non
+epreuves: voyage 34 (explorer le lac en barque, au-dessus de l'endroit où les autres ont disparu) ; siege 30 (empêcher la barque de sombrer quand le tourbillon se forme)
+complication: Le tourbillon vient d'une ancienne galerie de mine qui s'est effondrée sous le lac. L'eau s'engouffre par moments dans les profondeurs, et emporte tout avec elle.
+eclatante: Quand l'eau commence à tourner, {meneur} rame à contre-courant jusqu'à la rive. {meneur} a vu l'entonnoir, les vieilles poutres de mine au fond, et les coques des barques coincées dedans. Timofeï fait baliser la zone avec des bouées rouges. Plus personne ne disparaît. Son frère a été retrouvé, et enterré.
+reussite: {meneur} a repéré l'endroit et l'a fait baliser. Personne ne sait pourquoi l'eau y tourne, mais les barques l'évitent désormais.
+partielle: {meneur} a vu l'eau tourner, de loin, et a fait demi-tour. L'endroit est signalé, à peu près.
+echec: La barque de {meneur} a été aspirée. Tout le monde a pu nager jusqu'à la rive, mais la barque de Timofeï est au fond, avec celle de son frère.
+recompenses: po 25 ; reputation 2 ; objet Bottes 6
+
+=== NOX-I-022 | La recrue en retard
+source: privee
+region: noxus
+palier: inconnue
+type: escorte
+ton: tendre
+lieu: Monts Varju
+demandeur: Bogdan, fermier, père d'un garçon recruté par une bande de guerre
+accroche: « Mon fils doit se présenter au camp de la bande avant l'aube de demain. S'il arrive en retard, il sera fouetté devant tout le monde. Notre âne est mort ce matin. À pied, il n'y arrivera pas. »
+postes: Support, Tank
+duree: 6
+dangereuse: non
+epreuves: voyage 38 (traverser les Monts Varju de nuit, à pied, pour arriver avant l'aube) ; diplomatie 32 (présenter le garçon au chef de bande, qui ne supporte pas les retardataires)
+complication: Le garçon ne veut pas être soldat : il veut être cartographe. Il porte dans son sac des cartes qu'il a dessinées lui-même, et elles sont excellentes.
+eclatante: Ils arrivent avec l'aube, essoufflés mais à l'heure. {meneur} montre les cartes du garçon au chef de bande, qui les regarde longtemps. Puis il appelle un maçon de guerre. Le garçon sera éclaireur-cartographe, pas fantassin. Il écrit à son père la semaine suivante : il est heureux.
+reussite: Le garçon arrive à temps, sans fouet. Il sera fantassin. Il dit à l'équipe qu'il fera de son mieux, et il a l'air de le penser.
+partielle: Ils sont arrivés en retard d'une heure. Le chef de bande a tenu compte de l'escorte : le garçon est puni, mais pas fouetté.
+echec: Ils se sont perdus dans les montagnes. Le garçon a été fouetté devant toute la bande. Son père a écrit à la guilde une lettre qui ne contient qu'une ligne.
+recompenses: po 20 ; reputation 2 ; objet Potion de soin 8
+
+=== NOX-I-023 | Les juments de Vindor
+source: privee
+region: noxus
+palier: inconnue
+type: traque
+ton: aventure
+lieu: Vindor
+demandeur: Maître Gavril, éleveur, qui a perdu les quatre meilleures juments de son haras
+accroche: « Ils sont venus de nuit, par la rivière. Quatre juments vindoriennes, les plus légères de Noxus. À l'heure qu'il est, ils galopent vers la frontière. Et les juments galopent mieux qu'eux. »
+postes: Tireur
+duree: 6
+dangereuse: non
+epreuves: poursuite 36 (rattraper des voleurs à cheval, sur des chevaux plus rapides que les vôtres) ; combat 31 (les forcer à abandonner les bêtes sans les blesser)
+complication: Les voleurs sont des rebelles de Basilich, qui ont besoin de chevaux rapides pour leurs messagers.
+eclatante: {meneur} coupe les voleurs au gué de la rivière, là où les juments doivent ralentir. Les rebelles abandonnent les bêtes et s'enfuient. L'un d'eux laisse tomber un message chiffré. Maître Gavril retrouve ses quatre juments, et fait comme s'il n'avait pas vu le message. La guilde, elle, l'a vu.
+reussite: Trois juments sur quatre sont ramenées. La quatrième galope toujours, quelque part vers l'est.
+partielle: {meneur} a retrouvé une seule jument, abandonnée boiteuse. Maître Gavril paie un quart, et se tient la tête.
+echec: Les juments ont passé la frontière. Maître Gavril va devoir racheter des bêtes, et sa réputation d'éleveur en prend un coup.
+recompenses: po 35 ; reputation 2 ; objet Bottes 8
+suite: NOX-L-003
+
+=== NOX-I-024 | La lettre de mérite
+source: privee
+region: noxus
+palier: inconnue
+type: livraison
+ton: politique
+lieu: Bastion immortel
+demandeur: Sergent Akosua, ancienne esclave d'une maison conquise, aujourd'hui sous-officier de la Légion
+accroche: « Cette lettre porte le sceau de mon capitaine. Elle dit que j'ai mérité la citoyenneté pour ma famille. Elle doit être enregistrée au Bastion avant la fin de la saison. Mon ancien maître a juré qu'elle n'y arriverait jamais. »
+postes: Éclaireur
+duree: 5
+dangereuse: non
+epreuves: voyage 33 (porter la lettre jusqu'au Bastion par les routes les plus rapides) ; discretion 35 (échapper aux hommes de l'ancien maître, qui guettent le courrier)
+complication: L'ancien maître a payé un commis du registre pour « perdre » la lettre si elle arrive. Il faudra la remettre à un autre guichet, ou à un autre commis.
+eclatante: {meneur} sème les hommes de l'ancien maître et apprend, en écoutant aux portes du registre, quel commis a été payé. La lettre est remise à sa supérieure. La citoyenneté de la famille d'Akosua est enregistrée le jour même. Le commis corrompu est muté aux archives du Dalamor. Akosua fait savoir à toute sa compagnie qui l'a aidée.
+reussite: La lettre est enregistrée, juste à temps. Akosua et les siens sont citoyens. Elle serre la main de {meneur}, longtemps.
+partielle: La lettre est arrivée, mais elle a été égarée. Il faudra une nouvelle copie du capitaine, et attendre la saison prochaine.
+echec: La lettre a été volée en chemin. L'ancien maître a gagné, cette fois. Akosua dit qu'elle recommencera. Elle n'a pas l'air d'en douter.
+recompenses: po 20 ; reputation 3 ; objet Dague 6
+
+=== NOX-I-025 | La cave aux araignées
+source: privee
+region: noxus
+palier: inconnue
+type: defense
+ton: horreur
+lieu: Morrin
+demandeur: Dame Vesna, aubergiste de Morrin
+accroche: « Le garçon de cave est descendu chercher un tonneau. Il est remonté en courant, tout blanc, et n'a dit qu'un mot : “Des yeux.” Personne n'est redescendu. La cave fait toute la longueur de la rue. »
+postes: Tank, DPS, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: discretion 32 (descendre dans la cave sans réveiller ce qui y dort) ; nuee 40 (affronter une nichée d'araignées géantes dans le noir)
+complication: Les araignées ne sont pas entrées par hasard : la cave communique avec une vieille galerie qui passe sous tout le bourg, et la nichée s'étend sous plusieurs maisons.
+eclatante: La nichée est détruite dans le noir, à la lueur des torches. {meneur} découvre la galerie et l'équipe la remonte jusqu'à trois autres caves, où d'autres œufs attendaient. Tout est brûlé. La galerie est murée. Dame Vesna offre une tournée générale, et Morrin dort tranquille, pour la première fois, sans savoir qu'elle en avait besoin.
+reussite: La cave est nettoyée. Dame Vesna fait murer la galerie qui y menait, et reprend son commerce.
+partielle: L'équipe a tué les plus grosses araignées, mais les œufs ont été trouvés trop tard. Il en reviendra au printemps.
+echec: L'équipe a fui la cave. Dame Vesna l'a fait murer, avec les tonneaux dedans.
+recompenses: po 25 ; reputation 2 ; objet Armure de tissu 7

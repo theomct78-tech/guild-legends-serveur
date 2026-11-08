@@ -1,0 +1,116 @@
+# Champion|Clé|AVANTAGE:force,...|Ce que la compétence apporte à la guilde
+Vi|P|PROTECTION:1|Un bouclier explosif.
+Vi|Q|CELERITE:1,MAITRISE:1|Un briseur de coffres qui projette.
+Vi|W|SIEGE:2|Des coups écrasants qui brisent l'armure.
+Vi|E|NUEE:1|Une force excessive qui traverse.
+Vi|R|TRAQUE:2,MAITRISE:2|Un assaut et pilonnage : rien n'arrête sa charge.
+Viego|P|INFILTRATION:2|Il possède les corps de ses victimes et prend leur apparence.
+Viego|Q|ASSAUT:1,SURVIE:1|La lame du roi déchu.
+Viego|W|MAITRISE:1,CELERITE:1|Un spectre qui étourdit.
+Viego|E|INFILTRATION:1,CELERITE:1|Un chemin de la brume qui le camoufle.
+Viego|R|SIEGE:2,NUEE:1|Un briseur de cœurs qui achève les blessés.
+Viktor|P|BUTIN:2|Il perfectionne la technologie qu'il récupère.
+Viktor|Q|PROTECTION:1,ASSAUT:1|Un siphon qui le protège.
+Viktor|W|MAITRISE:2|Un champ gravitationnel qui étourdit.
+Viktor|E|NUEE:1|Un rayon de la mort.
+Viktor|R|NUEE:2,MAITRISE:1|Une tempête du chaos.
+Vladimir|P|SURVIE:1|Un pacte de sang qui le renforce.
+Vladimir|Q|SURVIE:1,ASSAUT:1|Une transfusion qui draine la vie.
+Vladimir|W|SURVIE:2,CELERITE:1|Une mare de sang : il devient intouchable.
+Vladimir|E|NUEE:1|Des marées de sang.
+Vladimir|R|NUEE:2,SURVIE:1,INSPIRATION:-1|Une hémoplagie qui draine tous les ennemis, sous le regard inquiet de ses alliés.
+Volibear|P|ASSAUT:1|Sa tempête l'accélère à chaque coup.
+Volibear|Q|MAITRISE:1,CELERITE:1|Un tonnerre qui étourdit.
+Volibear|W|SURVIE:1,ASSAUT:1|Une mutilation qui le soigne.
+Volibear|E|PROTECTION:1,NUEE:1|Un éclair céleste.
+Volibear|R|SIEGE:2,NUEE:1,INSPIRATION:1|Il s'écrase du ciel et neutralise les tours.
+Warwick|P|SURVIE:1|Une faim éternelle qui le soigne.
+Warwick|Q|ASSAUT:1,TRAQUE:1|Des mâchoires de la bête.
+Warwick|W|RECONNAISSANCE:2,TRAQUE:1|La chasse au sang : il sent les blessés à des lieues.
+Warwick|E|MAITRISE:1,PROTECTION:1|Un hurlement primal qui terrifie.
+Warwick|R|MAITRISE:2,TRAQUE:2|Une contrainte infinie : il bondit et immobilise.
+Wukong|P|PROTECTION:1|Une peau de pierre.
+Wukong|Q|SIEGE:1|Un coup écrasant qui brise l'armure.
+Wukong|W|INFILTRATION:2|Un guerrier leurre : il devient invisible.
+Wukong|E|CELERITE:1,NUEE:1|Une course de nuages.
+Wukong|R|MAITRISE:2,NUEE:2|Un cyclone qui projette les ennemis.
+Xayah|P|ASSAUT:1|Des plumes laissées sur le terrain.
+Xayah|Q|NUEE:1|Des dagues jumelles.
+Xayah|W|ASSAUT:1,CELERITE:1|Un plumage mortel.
+Xayah|E|MAITRISE:2|Elle rappelle ses plumes et immobilise.
+Xayah|R|SURVIE:2,NUEE:1|Une tempête de lames : elle devient intouchable.
+Xerath|P|ASSAUT:1|Un afflux de mana.
+Xerath|Q|SIEGE:1,TRAQUE:1|Un rayon arcanique tiré de très loin.
+Xerath|W|NUEE:1|Un œil de destruction.
+Xerath|E|MAITRISE:2|Un orbe d'étourdissement.
+Xerath|R|NUEE:2,RECONNAISSANCE:1,SIEGE:1|Un rite arcanique : il bombarde depuis l'autre bout de la carte.
+Xin Zhao|P|SURVIE:1|Il se soigne tous les trois coups.
+Xin Zhao|Q|MAITRISE:1|Trois coups, le dernier projette.
+Xin Zhao|W|NUEE:1|Un vent tranchant.
+Xin Zhao|E|CELERITE:1,TRAQUE:1|Une charge audacieuse.
+Xin Zhao|R|PROTECTION:2,NUEE:1,RENOMMEE:1|Un cercle de garde : le sénéchal tient la position.
+Yasuo|P|PROTECTION:1|La voie du vagabond : un bouclier de vent.
+Yasuo|Q|MAITRISE:1,NUEE:1|Une tempête d'acier qui finit en tornade.
+Yasuo|W|PROTECTION:2|Un mur de vent qui bloque les projectiles.
+Yasuo|E|CELERITE:2|Il glisse d'ennemi en ennemi.
+Yasuo|R|SIEGE:1,ASSAUT:2|Le dernier soupir sur les ennemis projetés.
+Yone|P|ASSAUT:1|La voie du chasseur, à deux lames.
+Yone|Q|MAITRISE:1|Une lame mortelle qui projette.
+Yone|W|PROTECTION:1|Une fente spirituelle qui le protège.
+Yone|E|SURVIE:2,CELERITE:1|Il quitte son corps puis y revient indemne.
+Yone|R|MAITRISE:2,NUEE:1|Le destin scellé : il traverse et attire.
+Yorick|P|NUEE:1|Des goules qui se lèvent des tombes.
+Yorick|Q|SURVIE:1|Les derniers rites le soignent.
+Yorick|W|MAITRISE:2|Une veille noire qui emprisonne.
+Yorick|E|SIEGE:1,MAITRISE:1|Une brume lugubre qui marque.
+Yorick|R|SIEGE:2,NUEE:1|L'éloge des îles : la Vierge de la Brume combat à ses côtés.
+Yunara|P|ASSAUT:1|Un serment aux terres premières.
+Yunara|Q|NUEE:1,ASSAUT:1|Un déchaînement spirituel qui rebondit sur les ennemis.
+Yunara|W|MAITRISE:1,NUEE:1|Un arc du jugement qui ralentit.
+Yunara|E|CELERITE:1,INFILTRATION:1|Elle devient fantomatique.
+Yunara|R|ASSAUT:2,RENOMMEE:1|La transe du Kinkou, rarement vue depuis des siècles.
+Yuumi|P|SOINS:1|Elle soigne son ami en bondissant.
+Yuumi|Q|TRAQUE:1|Un projectile qu'elle dirige vers sa cible.
+Yuumi|W|PROTECTION:2,CELERITE:1|Elle s'attache à un allié, intouchable.
+Yuumi|E|SOINS:2,CELERITE:1|Un zoomies qui soigne et accélère son allié.
+Yuumi|R|MAITRISE:2,SOINS:1,CONCORDE:1|Un chapitre final qui immobilise ; un chat qui adoucit le repère.
+Zaahen|P|SURVIE:2|Un guerrier immortel : chaque coup porté le rend plus tenace.
+Zaahen|Q|ASSAUT:1,SURVIE:1|Le glaive darkin taillade deux fois et le soigne.
+Zaahen|W|TRAQUE:2|Un retour redoutable qui attire l'ennemi.
+Zaahen|E|CELERITE:1,NUEE:1|Une incursion dorée.
+Zaahen|R|NUEE:2,SURVIE:1,RENOMMEE:1|Il fond du ciel : le darkin qui a combattu les siens.
+Zac|P|SURVIE:3|Il se divise en gouttes qui se réunissent pour le ramener.
+Zac|Q|TRAQUE:1|Des bras extensibles qui attrapent.
+Zac|W|NUEE:1|Une matière instable.
+Zac|E|CELERITE:2,MAITRISE:1|Une fronde élastique qui le projette au loin.
+Zac|R|MAITRISE:2,NUEE:1|Il rebondit et projette les ennemis.
+Zed|P|ASSAUT:1|Le mépris du faible.
+Zed|Q|NUEE:1|Des shurikens-rasoirs, lancés aussi par ses ombres.
+Zed|W|INFILTRATION:2,CELERITE:1|Une ombre vivante qu'il échange avec lui.
+Zed|E|MAITRISE:1|Une taillade des ombres qui ralentit.
+Zed|R|SIEGE:2,INFILTRATION:1|La marque de la mort.
+Zeri|P|ASSAUT:1|Une batterie vivante.
+Zeri|Q|NUEE:1|Une rafale électrique.
+Zeri|W|SIEGE:1,TRAQUE:1|Un laser ultra-choc qui traverse les murs.
+Zeri|E|CELERITE:2|Une étincelle qui la fait courir sur les murs.
+Zeri|R|NUEE:2,CELERITE:1|Une surcharge électrique.
+Ziggs|P|SIEGE:1|Un fusible court qui renforce ses attaques.
+Ziggs|Q|NUEE:1|Une bombe rebondissante.
+Ziggs|W|SIEGE:1,CELERITE:1|Une charge explosive qui détruit les tours.
+Ziggs|E|MAITRISE:1,NUEE:1|Un champ de mines.
+Ziggs|R|NUEE:3,BUTIN:1|Une méga-bombe infernale ; l'artificier récupère toujours de la poudre.
+Zilean|P|INSPIRATION:1|Le temps en bouteille : il partage son expérience.
+Zilean|Q|MAITRISE:2|Une bombe à retardement qui étourdit.
+Zilean|W|CELERITE:1|Un rembobinage qui accélère ses sorts.
+Zilean|E|CELERITE:2,MAITRISE:1|Une distorsion temporelle qui accélère ou ralentit.
+Zilean|R|SURVIE:3,PROTECTION:1|Un retour chronologique qui ramène un allié à la vie.
+Zoe|P|ASSAUT:1|Plus d'étincelles après chaque sort.
+Zoe|Q|SIEGE:1,TRAQUE:1|Une étoile pointue qui frappe plus fort de loin.
+Zoe|W|BUTIN:2|Elle ramasse les sorts et objets laissés par les autres.
+Zoe|E|MAITRISE:2|Une bulle de sommeil.
+Zoe|R|CELERITE:2,INFILTRATION:1|Un portail : elle passe ailleurs et revient.
+Zyra|P|NUEE:1|Un jardin d'épines.
+Zyra|Q|NUEE:1|Des ronces mortelles.
+Zyra|W|RECONNAISSANCE:2|Des graines semées qui veillent.
+Zyra|E|MAITRISE:2|Des racines qui immobilisent.
+Zyra|R|MAITRISE:2,NUEE:2|Des tiges étrangleuses.

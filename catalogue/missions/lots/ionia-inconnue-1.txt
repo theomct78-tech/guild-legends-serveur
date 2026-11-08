@@ -1,0 +1,507 @@
+# Ionia · palier Inconnue · lot 1 (missions 001 à 025)
+# {meneur} : le héros qui a mené l'épreuve décisive (dans une mission solo, le héros envoyé). La Chambre des Bannières : l'organisme supérieur aux guildes.
+
+=== ION-I-001 | Les pommes-soleil de Tevasa
+source: privee
+region: ionia
+palier: inconnue
+type: enquete
+ton: drole
+lieu: Tevasa
+demandeur: Ama Lirei, doyenne du conseil de Tevasa, et d'un teint qui a beaucoup changé
+accroche: « Quelqu'un met de la pomme-soleil dans le thé du conseil. Ça réchauffe, ça bronze. Nous sommes sept anciens, et nous sommes tous orange. La réunion avec le village voisin est dans trois jours. Ils vont rire. Ils rient déjà. »
+postes: Éclaireur
+duree: 3
+dangereuse: non
+epreuves: discretion 30 (surveiller la maison du conseil et la réserve de thé, sans se faire voir) ; poursuite 29 (rattraper le coupable, qui court très vite pour quelqu'un d'aussi petit)
+complication: Le coupable est un petit esprit farceur des vergers, vexé que le conseil ait décidé d'abattre un vieux pommier-soleil pour agrandir la place du village.
+eclatante: {meneur} surprend une petite créature aux yeux de braise, une pomme dans chaque main, qui se glisse dans la réserve. L'esprit explique, en sautillant de colère, l'histoire du vieux pommier. Le conseil, toujours orange, renonce à l'abattre. L'esprit cesse ses farces. La réunion avec le village voisin a lieu, et Ama Lirei la commence en racontant l'histoire elle-même. Tout le monde rit, elle la première.
+reussite: Le coupable est repéré, et il s'enfuit dans les vergers. Le thé ne change plus de goût. Le conseil retrouve sa couleur en une semaine.
+partielle: {meneur} n'a vu qu'une ombre et des pépins. Le conseil cache désormais son thé sous clé. Il reste orange pour la réunion.
+echec: {meneur} a bu le thé du conseil pendant la surveillance. Le lendemain, Tevasa comptait un orange de plus.
+recompenses: po 15 ; reputation 1 ; objet Charme féerique 7
+
+=== ION-I-002 | Le vulkodalk de Nistaram
+source: privee
+region: ionia
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Forêt de Nistaram
+demandeur: Hoshen, cueilleur de serpentfeuille, une jambe dans une attelle de bambou
+accroche: « Il a des yeux partout, sur la tête, sur le cou, sur les flancs. On ne peut pas le surprendre. Il est sorti de la forêt profonde et il chasse sur les sentiers des cueilleurs. Personne n'ose plus entrer. Sans serpentfeuille, plus de remèdes dans tout le sud de Galrin. »
+postes: Tank, Tireur
+duree: 6
+dangereuse: non
+risque: oui
+epreuves: poursuite 41 (pister un prédateur qu'on ne peut pas prendre par surprise) ; combat 46 (l'affronter de face, puisqu'on ne peut pas faire autrement)
+complication: Le vulkodalk est sorti de la forêt profonde parce qu'une coupe illégale de bois-de-cœur, au centre de Nistaram, a détruit son territoire.
+eclatante: {meneur} attire le vulkodalk dans une clairière et l'abat au terme d'un long combat. En suivant ses traces jusqu'au cœur de la forêt, l'équipe trouve la coupe illégale et les marques des bûcherons. Hoshen porte l'affaire au conseil de Galrin. Les cueilleurs retournent sur leurs sentiers. Hoshen envoie à la guilde un sac de serpentfeuille séchée, qui soigne tout ce qui saigne.
+reussite: Le vulkodalk est tué. Les cueilleurs reprennent leurs sentiers, armés de bâtons et de beaucoup de méfiance.
+partielle: La bête est blessée et retourne dans la forêt profonde. Les cueilleurs ne sortent qu'à plusieurs.
+echec: Le vulkodalk a vu l'équipe venir. Il voit tout le monde venir. La forêt reste fermée.
+recompenses: po 110 ; reputation 2 ; objet Épée longue 7
+
+=== ION-I-003 | Les tatouages qui bougent
+source: privee
+region: ionia
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Weh'le
+demandeur: Mei-Sun, tatoueuse au marché du port fantôme
+accroche: « Mes clients reviennent me voir, terrifiés. Leurs tatouages bougent. Un dragon qui se déroule, une carpe qui nage le long du bras. C'est très beau. Mais ils ne l'ont pas demandé, et ça leur fait mal la nuit. »
+postes: Mage
+duree: 4
+dangereuse: non
+epreuves: diplomatie 31 (interroger les clients et la tatoueuse sans les effrayer davantage) ; discretion 34 (examiner l'encre et l'atelier, la nuit, quand les tatouages s'agitent)
+complication: L'encre a été faite avec des fleurs de Vlonqo cueillies près d'un sanctuaire d'esprits. Les petits esprits de ces fleurs sont restés dans l'encre, et ils cherchent à rentrer chez eux.
+eclatante: {meneur} sent la magie dans l'encre dès la première goutte, et parle aux esprits qui y vivent. Ils veulent retourner à leur sanctuaire. Mei-Sun et ses clients font le voyage jusqu'à Vlonqo, où les tatouages s'apaisent un à un. Ils restent sur la peau, mais ne bougent plus. Mei-Sun offre à {meneur} un tatouage gratuit. Il bouge un peu, quand il est content.
+reussite: {meneur} comprend que l'encre est habitée, et la neutralise avec un rituel simple. Les tatouages ne bougent plus. Mei-Sun change de fournisseur de fleurs.
+partielle: Les tatouages bougent moins. Ils bougent encore les nuits de pleine lune. Les clients s'y habituent, à peu près.
+echec: {meneur} a touché l'encre de trop près. Un petit dragon tatoué se promène désormais sur son poignet, et il a mauvais caractère.
+recompenses: po 20 ; reputation 2 ; objet Tome d'amplification 7
+
+=== ION-I-004 | La maison qui fane
+source: privee
+region: ionia
+palier: inconnue
+type: recuperation
+ton: tendre
+lieu: Omikayalan
+demandeur: Ranli, vieille tisseuse-de-bois, qui a fait pousser la moitié des maisons de son village
+accroche: « Notre maison a deux cents ans. Elle a vu naître ma mère et ma grand-mère. Elle perd ses feuilles en plein été. Les racines sont malades. Il me faudrait une graine de la Clairière verte. On dit que là-bas, rien ne meurt tout à fait. »
+postes: Éclaireur, Support
+duree: 6
+dangereuse: non
+epreuves: voyage 36 (atteindre la Clairière verte par les sentiers sacrés) ; diplomatie 34 (obtenir des gardiens de la clairière qu'ils laissent repartir quelqu'un avec une graine)
+complication: Les gardiens de la clairière ne donnent jamais de graines. Ils demandent en échange une chose qui compte vraiment pour celui qui la demande.
+eclatante: {meneur} offre aux gardiens ce qu'ils demandent, et ce qui compte vraiment, sans négocier. Ils donnent une graine qui brille faiblement. Ranli la plante au pied de la maison, en chantant. En une semaine, les feuilles reviennent, d'un vert plus clair qu'avant. Ranli dit que la maison a rajeuni. Elle aussi, un peu.
+reussite: L'équipe rapporte une graine, après de longues négociations. La maison reverdit, lentement. Ranli pense qu'elle verra encore une génération.
+partielle: Les gardiens ont refusé la graine, mais donné un peu de terre de la clairière. La maison ne meurt plus. Elle ne guérit pas non plus.
+echec: Les gardiens ont refusé de laisser l'équipe entrer. La maison perd encore ses feuilles. Ranli dort dehors, sous elle, pour lui tenir compagnie.
+recompenses: po 20 ; reputation 2 ; objet Charme féerique 8
+
+=== ION-I-005 | Les os de la colline
+source: privee
+region: ionia
+palier: inconnue
+type: diplomatie
+ton: tragique
+lieu: Kotha
+demandeur: Sezu, laveur d'os, qui prépare les morts depuis quarante ans
+accroche: « Après la guerre, nous avons laissé tous les morts de Kotha aux éléments, sur la colline, comme le veut la coutume. Aujourd'hui, en lavant les os, j'ai trouvé des plaques de métal noxiennes. Des soldats sont morts ici, avec les nôtres. Les familles veulent jeter leurs os dans le ravin. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 34 (convaincre des familles en deuil de laisser reposer les os des ennemis) ; voyage 30 (porter les os jusqu'au lieu que le village choisira)
+complication: Parmi les os noxiens, il y a ceux d'un soldat qui a déserté pour protéger un enfant de Kotha. L'enfant est aujourd'hui un homme. Il le sait. Il n'a jamais rien dit.
+eclatante: {meneur} écoute chaque famille, une par une. Puis l'homme qui a été sauvé enfant se lève, et raconte. Le silence dure longtemps. Le village décide de laver tous les os, ensemble, et de les laisser reposer sur la même colline. Une seule pierre porte un nom noxien. Sezu dit qu'il lave des os depuis quarante ans, et que c'est la première fois qu'il en lave pour la paix.
+reussite: Les os noxiens sont portés ailleurs, sur une autre colline, avec respect. Les familles l'acceptent.
+partielle: Les familles ont accepté de ne pas jeter les os, mais elles ne veulent plus en entendre parler. Ils restent dans un coin du cimetière, sans rituel.
+echec: Les os noxiens ont été jetés dans le ravin. Sezu a rangé ses outils. Il ne lave plus les morts.
+recompenses: po 15 ; reputation 3 ; objet Potion de soin 7
+suite: ION-L-001
+
+=== ION-I-006 | Le boulanger de Thanze
+source: privee
+region: ionia
+palier: inconnue
+type: protection
+ton: politique
+lieu: Thanze
+demandeur: Tomas, boulanger, né à Noxus, installé à Thanze depuis vingt ans
+accroche: « J'étais à Thanze avant la guerre. Pendant la guerre, j'ai caché des familles dans mon four. Aujourd'hui, des jeunes de la Fraternité Navori ont peint sur ma porte : “Noxien, rentre chez toi.” Je suis chez moi. »
+postes: Tank, Support
+duree: 5
+dangereuse: non
+epreuves: combat 36 (protéger la boulangerie la nuit où la Fraternité veut y mettre le feu) ; diplomatie 37 (rallier les voisins, qui ont peur des jeunes de Navori)
+complication: Le chef de la bande de la Fraternité est le fils d'une des familles que Tomas a cachées dans son four.
+eclatante: Les jeunes de la Fraternité sont repoussés devant la boulangerie. {meneur} reconnaît dans le regard de leur chef quelque chose de troublé, et la vérité sort : sa mère a été cachée dans ce four. Elle vient le lendemain, avec tout le quartier, et pose sa main sur la porte peinte. Le fils ne revient plus. Tomas fait cuire, ce jour-là, un pain pour chaque famille qu'il a cachée.
+reussite: La boulangerie est protégée. La Fraternité ne revient pas cette semaine. Tomas repeint sa porte en rouge, par défi.
+partielle: La boulangerie a été protégée, mais la porte a brûlé. Tomas en refait une, plus solide. Il ne sourit plus aux clients qu'il ne connaît pas.
+echec: La boulangerie a brûlé. Tomas est parti chez sa sœur, à Nanthee. Personne ne l'a retenu.
+recompenses: po 25 ; reputation 3 ; objet Armure de tissu 7
+
+=== ION-I-007 | Le golem qui boude
+source: privee
+region: ionia
+palier: inconnue
+type: diplomatie
+ton: tendre
+lieu: Fermes d'Azur
+demandeur: Yuen, fermière, qui attend son barrage depuis trois mois
+accroche: « Un Luonn Kon nous aidait à bâtir le barrage. Un grand esprit de pierre, très doux. Les enfants du village se sont moqués de lui parce qu'il est lent. Depuis, il est assis au milieu de la rivière, et il ne bouge plus. Les rizières sèchent. »
+postes: Support
+duree: 3
+dangereuse: non
+epreuves: diplomatie 33 (présenter les excuses du village à un esprit de pierre vexé, qui écoute très lentement) ; voyage 29 (aller chercher les enfants coupables, éparpillés dans les rizières, pour qu'ils viennent s'excuser eux-mêmes)
+complication: Le golem n'est pas vexé par les moqueries. Il est triste : un des enfants lui a dit qu'il était « une pierre qui ne servait à rien », et il le croit.
+eclatante: {meneur} s'assoit dans la rivière, à côté du golem, et attend qu'il parle. Cela prend une heure. Puis les enfants arrivent, et l'un d'eux, le plus petit, grimpe sur le genou de pierre et lui fait un collier de fleurs. Le golem se lève. Le barrage est fini en trois jours. Les enfants viennent l'aider chaque matin, et ils ne se moquent plus de sa lenteur. Ils l'imitent.
+reussite: Le golem accepte les excuses du village et reprend son travail. Lentement, comme toujours. Les rizières sont sauvées.
+partielle: Le golem a fini la moitié du barrage, puis s'est rassis. Il faudra revenir lui parler.
+echec: Le golem est parti dans la montagne. Les fermes d'Azur construiront le barrage à la main. Ça prendra des années.
+recompenses: po 15 ; reputation 2 ; objet Élixir de fer 5
+
+=== ION-I-008 | Le vieil homme et ses souvenirs
+source: privee
+region: ionia
+palier: inconnue
+type: sauvetage
+ton: horreur
+lieu: Temple de Raishai
+demandeur: Naori, petite-fille d'un vieil homme qui ne se réveille plus
+accroche: « Grand-père s'est endormi il y a cinq jours, pendant la prière du soir. Il respire. Il sourit. Il appelle ma grand-mère, qui est morte il y a dix ans. Les moines disent qu'il est perdu dans ses souvenirs, et que quelque chose le retient. »
+postes: Éclaireur, Support
+duree: 5
+dangereuse: non
+epreuves: diplomatie 38 (parler au vieil homme endormi, assez longtemps pour qu'il entende) ; discretion 35 (veiller la nuit dans le temple, sans laisser entrer ce qui vient le visiter)
+complication: Le Collectionneur, le démon jaloux, est venu le chercher avant sa mort. Il le retient dans le plus beau de ses souvenirs, pour qu'il ne veuille jamais en sortir.
+eclatante: Pendant la nuit, {meneur} voit une ombre se pencher sur le vieil homme, et la chasse avec les prières que lui ont apprises les moines. Puis Naori raconte à son grand-père, à voix basse, tout ce qu'il a manqué depuis cinq jours : le thé, la pluie, la naissance d'un arrière-petit-fils. Au matin, il ouvre les yeux. Il dit qu'il était avec sa femme, qu'elle l'a renvoyé. Il dit qu'elle va bien.
+reussite: Le vieil homme se réveille après trois nuits de veille. Il ne se souvient de rien, sauf d'avoir été très heureux. Il pleure un peu en le disant.
+partielle: Le vieil homme se réveille, mais il ne reconnaît plus sa petite-fille. Il l'appelle par le nom de sa femme. Les moines disent que ça passera.
+echec: Le vieil homme est mort pendant la nuit, en souriant. Naori dit que c'est peut-être mieux. Elle ne le pense pas.
+recompenses: po 20 ; reputation 2 ; objet Cape de négation 8
+
+=== ION-I-009 | Les buveurs de nuages
+source: privee
+region: ionia
+palier: inconnue
+type: traque
+ton: drole
+lieu: Vlonqo
+demandeur: Pao, éleveur de chèvres, dont le puits est occupé
+accroche: « Un banc de buveurs de nuages est descendu dans mon puits. Ce sont des poissons blancs qui nagent dans l'air et mangent les nuages. Il n'y a pas de nuages dans mon puits. Ils mangent la vapeur de ma soupe. Ma femme ne cuisine plus. »
+postes: Tireur
+duree: 3
+dangereuse: non
+epreuves: poursuite 33 (attraper un banc de poissons volants qui fuient dans toutes les directions) ; voyage 29 (les ramener là-haut, vers les nuages, sans les blesser)
+complication: Les buveurs de nuages sont descendus parce qu'un petit est coincé au fond du puits, et que le banc refuse de partir sans lui.
+eclatante: {meneur} descend dans le puits au bout d'une corde et trouve le petit buveur de nuages, coincé entre deux pierres. Dès qu'il est libéré, tout le banc remonte d'un coup, en tourbillonnant au-dessus de la maison. Il pleut doucement sur les champs de Pao toute la soirée. La femme de Pao refait de la soupe. Elle en garde une marmite pour {meneur}.
+reussite: Les poissons sont chassés du puits, à grands coups de filet et de patience. Ils reviennent une fois, puis renoncent. Pao récupère sa soupe.
+partielle: La moitié du banc est partie. L'autre moitié tourne encore au-dessus de la cheminée, l'air triste.
+echec: {meneur} a glissé au fond du puits en essayant de les attraper. Les poissons sont toujours là. Ils ont l'air de bien rire.
+recompenses: po 15 ; reputation 1 ; objet Bottes 6
+
+=== ION-I-010 | Les fleurs de Vlonqo
+source: privee
+region: ionia
+palier: inconnue
+type: livraison
+ton: aventure
+lieu: Vlonqo
+demandeur: Lan, cueilleuse de fleurs, qui fournit les tatoueurs de Weh'le
+accroche: « Les fleurs de Vlonqo ne vivent que trois jours une fois cueillies. Le port de Weh'le est à trois jours. Le chemin habituel s'est effondré. Il faut passer par la montagne, et vite, et sans écraser une seule fleur. »
+postes: Éclaireur
+duree: 6
+dangereuse: non
+epreuves: voyage 35 (traverser la montagne par un chemin plus court et plus dangereux) ; poursuite 31 (retrouver le port de Weh'le, qui ne se laisse trouver que par ceux qui savent le chercher)
+complication: Weh'le est un port caché. Il ne se trouve qu'en suivant une rivière précise au moment précis où la brume se lève. Lan connaît le chemin, mais ne peut pas venir.
+eclatante: {meneur} arrive au moment exact où la brume se lève sur la rivière, et Weh'le apparaît. Les fleurs sont fraîches. Les tatoueurs en font une encre si belle qu'on parle d'une « saison de Vlonqo » dans tout le port. Lan reçoit le double de ce qu'elle espérait. Elle envoie à la guilde un bouquet séché qui sent la montagne pendant des années.
+reussite: Les fleurs arrivent à temps, un peu fanées. L'encre est bonne. Lan est payée. Weh'le n'oubliera pas le chemin de {meneur}.
+partielle: La moitié des fleurs a fané en route. Les tatoueurs paient la moitié. Lan perd la saison, pas son métier.
+echec: {meneur} n'a pas trouvé Weh'le. Les fleurs sont mortes dans les mains, au bord d'une rivière qui ne menait nulle part.
+recompenses: po 20 ; reputation 2 ; objet Bottes 7
+
+=== ION-I-011 | Le prisonnier de Puboe
+source: privee
+region: ionia
+palier: inconnue
+type: sauvetage
+ton: politique
+lieu: Puboe
+demandeur: Hira, dont le frère est enfermé dans la vieille prison de Puboe
+accroche: « La prison n'appartient plus à l'Ordre de l'ombre, paraît-il. Pourtant, mon frère y est enfermé depuis deux mois, sans procès, par des hommes en noir qui n'ont pas de nom. Il a seulement dit, sur la place, que les Kinkou avaient raison. »
+postes: Assassin, Éclaireur
+duree: 6
+dangereuse: non
+risque: oui
+epreuves: discretion 45 (entrer dans une prison qui n'est plus officiellement gardée, mais qui l'est quand même) ; poursuite 40 (sortir avec un homme affaibli par deux mois de cachot)
+complication: Les gardiens sont d'anciens disciples de l'Ordre de l'ombre, qui continuent d'emprisonner ceux qu'ils jugent dangereux, sans en avoir reçu l'ordre de personne.
+eclatante: {meneur} trouve le frère de Hira et quatre autres prisonniers, tous enfermés pour leurs paroles. L'équipe les fait sortir avant l'aube. Le conseil de Puboe, mis devant le fait accompli, fait fermer la prison pour de bon. Les gardiens disparaissent. Hira dit qu'elle ne sait pas où ils sont allés, mais qu'ils reviendront ailleurs. La guilde le sait aussi.
+reussite: Le frère de Hira est libéré. Les autres prisonniers restent enfermés. Le conseil promet d'enquêter.
+partielle: L'équipe a dû fuir sans le frère, mais avec la preuve qu'il est là. Le conseil ne pourra plus faire semblant de ne pas savoir.
+echec: L'équipe a été repérée. Le frère de Hira a été transféré ailleurs, on ne sait où.
+recompenses: po 90 ; reputation 3 ; objet Dague 7
+suite: ION-L-002
+
+=== ION-I-012 | Le protecteur joyau
+source: privee
+region: ionia
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Forêt de Lhradi
+demandeur: Ruo, berger des Hauts de Qaelin, qui a perdu six moutons
+accroche: « Un protecteur joyau. Un grand fauve avec des ailes et des pierres précieuses le long du dos. Il descend sur mes moutons en plein jour. Les chasseurs de la ville veulent le tuer pour ses pierres. Je veux juste qu'il arrête. »
+postes: Tank, Tireur
+duree: 5
+dangereuse: non
+epreuves: poursuite 37 (suivre un fauve ailé jusqu'à son aire, dans la forêt) ; combat 38 (l'éloigner du troupeau, ou l'affronter s'il refuse)
+complication: Le protecteur joyau est blessé. Une flèche de braconnier est plantée dans son aile. Il ne peut plus chasser le gibier de la forêt, alors il descend sur ce qui ne s'enfuit pas.
+eclatante: {meneur} approche le fauve blessé assez près pour voir la flèche dans son aile, et la retire au prix de quelques griffures. Le protecteur joyau repart vers les hauteurs de la forêt. Ruo ne perd plus de moutons. Les chasseurs de la ville, eux, trouvent la forêt fermée par les Lhotlan, qui ont appris ce qui s'était passé et n'aiment pas les braconniers.
+reussite: Le fauve est chassé loin du troupeau. Il ne revient pas. Personne ne sait s'il a survécu.
+partielle: Le fauve s'est enfui, mais il est revenu prendre un mouton la semaine suivante.
+echec: Les chasseurs de la ville l'ont trouvé avant l'équipe. Ses pierres sont vendues au marché de Weh'le.
+recompenses: po 30 ; reputation 2 ; objet Cristal de rubis 7
+
+=== ION-I-013 | La forêt des Lhotlan
+source: privee
+region: ionia
+palier: inconnue
+type: diplomatie
+ton: tragique
+lieu: Forêt de Lhradi
+demandeur: Kei, chef des bûcherons d'un village voisin de la forêt
+accroche: « Nous ne coupons que des arbres morts, comme le veut la coutume. Les vastayas de la forêt nous ont attaqués quand même. Ils sont peu nombreux, mais ils sont furieux. Si ça continue, le village voudra prendre des armes. »
+postes: Support, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: voyage 34 (trouver le camp des Lhotlan au cœur de la forêt, sans se faire prendre pour des ennemis) ; diplomatie 39 (parler avec un peuple menacé, qui n'a plus aucune raison de faire confiance aux humains)
+complication: Les bûcherons de Kei coupent bien des arbres morts. Mais un autre village, plus loin, coupe des arbres vivants en se faisant passer pour eux.
+eclatante: {meneur} gagne le droit de parler devant les anciens des Lhotlan, qui racontent les coupes d'arbres vivants. L'équipe remonte la piste jusqu'aux vrais coupables, et les Lhotlan les voient partir. Kei et les vastayas tracent ensemble les limites de la forêt. Pour la première fois depuis longtemps, les Lhotlan acceptent qu'un humain traverse leur territoire sans être suivi.
+reussite: Les attaques cessent. Les Lhotlan acceptent une trêve avec le village de Kei. Les vrais coupables restent inconnus.
+partielle: Les Lhotlan ont écouté, puis ont demandé à l'équipe de partir. Les attaques ont diminué, sans cesser.
+echec: Les Lhotlan ont chassé l'équipe de la forêt. Le village de Kei a pris les armes. Le sang a coulé.
+recompenses: po 20 ; reputation 3 ; objet Charme féerique 7
+
+=== ION-I-014 | La récolte du thé blanc
+source: privee
+region: ionia
+palier: inconnue
+type: protection
+ton: drole
+lieu: Hauts de Qaelin
+demandeur: Dame Aiko, propriétaire d'un jardin de thé, et la plus mauvaise perdante des Hauts
+accroche: « Les pétales de Xaolan ne se cueillent qu'une nuit par an, à la lune pleine. C'est demain. Mon voisin, Maître Ren, a juré de “récolter avant moi”. Il veut dire chez moi. Il l'a déjà fait, il y a trois ans. Ça m'a coûté un an de thé et une amitié de quarante ans. »
+postes: Tank
+duree: 4
+dangereuse: non
+epreuves: discretion 30 (surveiller le jardin toute la nuit sans effaroucher les pétales, qui se ferment au moindre bruit) ; combat 31 (repousser, gentiment, les cueilleurs de Maître Ren)
+complication: Maître Ren n'a pas volé le thé il y a trois ans. C'est un orage qui a détruit la récolte. Dame Aiko l'a accusé, et il n'a jamais pu prouver le contraire.
+eclatante: {meneur} repousse les cueilleurs de Maître Ren, et découvre qu'ils ne viennent pas voler : ils apportent des paniers pour aider. Maître Ren voulait offrir sa nuit de cueillette pour se réconcilier. Dame Aiko ne dit rien pendant longtemps. Puis elle sert le thé, pour lui, pour la première fois depuis trois ans. Ils se disputent toute la nuit en cueillant. C'est leur façon d'être amis.
+reussite: La récolte est sauvée. Les cueilleurs de Maître Ren sont repartis bredouilles. Dame Aiko est ravie, et le fait savoir.
+partielle: La récolte est à moitié sauvée. L'autre moitié a été piétinée dans la mêlée. Personne n'a gagné.
+echec: Les pétales se sont refermés pendant la bagarre. Il n'y aura pas de thé blanc cette année, ni chez Dame Aiko, ni chez Maître Ren.
+recompenses: po 20 ; reputation 1 ; objet Élixir de fer 6
+
+=== ION-I-015 | Le Sage des zéphyrs
+source: privee
+region: ionia
+palier: inconnue
+type: exploration
+ton: mystere
+lieu: Mer de Ghetu
+demandeur: Tanzi, pèlerine, qui a promis à sa mère mourante de rencontrer le Sage
+accroche: « On dit qu'un grand oiseau vit au-dessus du désert de Galrin. Il guide ceux qui se sont perdus. Ma mère s'est perdue dans le désert quand elle était jeune. Il l'a ramenée. Elle voulait le remercier. Elle n'a pas pu. »
+postes: Support, Healer
+duree: 7
+dangereuse: non
+epreuves: voyage 40 (traverser le désert de Ghetu, sous un soleil qui ne pardonne pas) ; diplomatie 34 (reconnaître le Sage, s'il se montre, et savoir lui parler)
+complication: Le Sage ne se montre qu'à ceux qui sont vraiment perdus. Pour le rencontrer, il faut accepter de se perdre.
+eclatante: Au troisième jour, {meneur} comprend ce qu'il faut faire, et laisse les cartes de côté. L'équipe se perd. Au crépuscule, une ombre immense passe au-dessus d'elle, et un oiseau grand comme une maison se pose sur une dune. Tanzi lui parle de sa mère. Il l'écoute, puis il les ramène tous au bord du désert en une nuit de vol. Tanzi dit qu'elle n'oubliera jamais son regard. L'équipe non plus.
+reussite: L'équipe n'a pas vu le Sage, mais une grande plume blanche, posée sur une dune, que Tanzi rapporte à la tombe de sa mère.
+partielle: L'équipe a vu une ombre au loin, peut-être un oiseau. Tanzi a décidé que c'était lui.
+echec: L'équipe s'est vraiment perdue, et a dû être retrouvée par des nomades. Tanzi repartira seule, une autre année.
+recompenses: po 25 ; reputation 2 ; objet Bottes 8
+
+=== ION-I-016 | L'épée sous les cendres de Wuju
+source: privee
+region: ionia
+palier: inconnue
+type: recuperation
+ton: tragique
+lieu: Wuju
+demandeur: Lo, ancien élève de l'école de Wuju, aujourd'hui pêcheur à Tevasa
+accroche: « J'avais treize ans quand les bombes sont tombées. Mon maître m'a poussé dans la rivière. Il est resté. Son épée doit être encore là-bas, dans la cour de l'école. Rien ne pousse plus à Wuju. Rien ne vit. Je n'ai jamais eu le courage d'y retourner. »
+postes: Combattant
+duree: 5
+dangereuse: non
+epreuves: voyage 34 (traverser les terres mortes de Wuju, où l'air pique encore les yeux) ; siege 31 (dégager la cour de l'école, écrasée sous les poutres calcinées)
+complication: L'épée est là, plantée dans la terre, au milieu de la cour, comme si quelqu'un l'y avait posée après. Et autour d'elle, une seule touffe d'herbe pousse.
+eclatante: {meneur} trouve l'épée plantée au milieu de la cour morte, et la touffe d'herbe à son pied. {meneur} attend un long moment avant de la toucher. Une fois l'épée rapportée à Lo, l'ancien élève reste longtemps sans parler. Puis il demande à {meneur} de lui montrer une garde, une seule, celle qu'il n'a jamais apprise. Il s'entraîne depuis, chaque matin, sur la plage de Tevasa.
+reussite: L'épée est rapportée, rouillée. Lo la nettoie lui-même, pendant des heures. Il l'accroche au-dessus de sa porte.
+partielle: {meneur} n'a pu rapporter que le fourreau. L'épée était trop profondément prise dans les poutres. Lo garde le fourreau.
+echec: {meneur} n'a pas pu supporter l'air de Wuju plus d'une heure. L'épée est toujours là-bas, au milieu de sa touffe d'herbe.
+recompenses: po 20 ; reputation 3 ; objet Épée longue 7
+
+=== ION-I-017 | Les ombres de Thonx
+source: privee
+region: ionia
+palier: inconnue
+type: enquete
+ton: horreur
+lieu: Thonx
+demandeur: Maître Gao, tavernier de Thonx, dont le fils est revenu changé
+accroche: « Mon fils est descendu dans les cavernes de la rivière avec des amis. Il est revenu une semaine plus tard, avec un tatouage noir sur le bras, et il ne projette plus d'ombre à la lumière des lampes. Il dit qu'il a trouvé des maîtres. Il a quinze ans. »
+postes: Assassin, Support
+duree: 5
+dangereuse: non
+epreuves: discretion 38 (descendre dans les cavernes et observer ceux qui y recrutent, sans être vus) ; diplomatie 36 (parler au garçon, qui croit avoir trouvé un sens à sa vie)
+complication: Les recruteurs sont des disciples de l'Ordre de l'ombre. Ils ne forcent personne : ils choisissent les jeunes les plus seuls, et leur offrent une famille.
+eclatante: {meneur} observe la cérémonie dans les cavernes, et comprend ce que les recruteurs offrent vraiment. Pas un mot sur l'Ordre : {meneur} parle au garçon de son père, de la taverne, de ce qui l'attend s'il reste. Le garçon remonte. Son ombre revient en trois jours. Maître Gao ferme la taverne une semaine pour passer du temps avec lui. Les recruteurs ont quitté Thonx, mais pas Ionia.
+reussite: Le garçon accepte de revenir chez son père. Le tatouage reste. Il ne redescend plus dans les cavernes, pour l'instant.
+partielle: L'équipe a vu les recruteurs, mais le garçon a refusé de partir. Il rentre chez lui le soir, mais il redescend chaque nuit.
+echec: Le garçon est parti avec les recruteurs. Maître Gao laisse une lampe allumée dans la taverne, chaque nuit.
+recompenses: po 20 ; reputation 2 ; objet Cape de négation 7
+suite: ION-L-003
+
+=== ION-I-018 | La nuit de la Floraison
+source: privee
+region: ionia
+palier: inconnue
+type: escorte
+ton: tendre
+lieu: Lac des Lys lumineux
+demandeur: Suri, veuve depuis un an
+accroche: « Pendant la Floraison spirituelle, on dit que les morts reviennent au bord du lac des lys. Mon mari est mort en mer. Je voudrais le voir. Ma famille dit que c'est dangereux, qu'on peut se perdre et ne pas revenir. Je n'ai pas peur de me perdre. J'ai peur de ne pas le voir. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: voyage 31 (conduire Suri jusqu'au lac, la nuit, par les sentiers bordés de fleurs d'esprit) ; diplomatie 33 (la ramener, quand l'heure viendra, même si elle ne veut pas)
+complication: Le mari de Suri vient. Il veut lui dire quelque chose : il veut qu'elle vive. Mais Suri, elle, veut le suivre.
+eclatante: Au bord du lac, une silhouette pâle sort des lys et s'approche de Suri. Ils parlent longtemps. Quand vient l'aube, {meneur} prend doucement la main de Suri. Elle résiste, puis elle se laisse ramener. Son mari lui a dit de vivre. Elle le fera, dit-elle. Un an plus tard, elle envoie à la guilde une lettre : elle a ouvert une échoppe de fleurs au bord du lac.
+reussite: Suri a vu son mari, de loin, au milieu des lys. Elle est revenue d'elle-même. Elle dit qu'elle reviendra l'an prochain.
+partielle: Suri n'a vu qu'une lumière parmi les fleurs. Elle a choisi d'y croire. Elle est rentrée chez elle, un peu plus calme.
+echec: Suri a voulu entrer dans le lac. {meneur} a dû la porter jusqu'au village. Elle ne lui parle plus.
+recompenses: po 15 ; reputation 3 ; objet Potion de soin 7
+
+=== ION-I-019 | Le dragon du clocher
+source: privee
+region: ionia
+palier: inconnue
+type: diplomatie
+ton: drole
+lieu: Tevasa
+demandeur: Le conseil de Tevasa, au complet, et toujours un peu orange
+accroche: « Un petit dragon s'est installé dans la tour de la cloche. Il est grand comme un chat, il parle sans s'arrêter, et il sonne la cloche quand il a quelque chose à dire. Il a toujours quelque chose à dire. Personne n'a dormi depuis une semaine. »
+postes: Support
+duree: 3
+dangereuse: non
+epreuves: diplomatie 34 (convaincre un dragon bavard de quitter le clocher, sans se laisser noyer sous ses paroles) ; poursuite 29 (le rattraper quand il s'envole en plein milieu de la discussion)
+complication: Le petit dragon est seul. Ses frères et sœurs sont partis vers le nord, et il est resté parce qu'il avait peur de voler au-dessus de la mer. Il parle sans arrêt parce que personne ne lui répond.
+eclatante: {meneur} écoute le dragon pendant quatre heures, et lui répond. Le dragon, ravi, accepte de quitter le clocher, à une condition : quelqu'un lui parlera chaque soir. Le conseil lui offre le grenier de la maison commune. Les enfants du village se relaient. Le petit dragon devient le conteur officiel de Tevasa. Il ne sonne plus la cloche, sauf aux fêtes.
+reussite: Le dragon accepte de quitter le clocher pour un vieux pin, à l'entrée du village. On l'entend encore, mais de plus loin.
+partielle: Le dragon a quitté le clocher pour le toit de la maison du conseil. Il ne sonne plus de cloche. Il parle encore plus fort.
+echec: Le dragon s'est vexé et a mordu {meneur}. Il est toujours dans le clocher. Il en parle à tout le monde.
+recompenses: po 10 ; reputation 1 ; objet Charme féerique 8
+
+=== ION-I-020 | Les lames de Kashuri
+source: privee
+region: ionia
+palier: inconnue
+type: enquete
+ton: politique
+lieu: Kashuri
+demandeur: Maîtresse Ying, armurière, qui forge les lames qui retiennent la magie des esprits
+accroche: « Six lames infusées ont disparu de mon atelier. Ce ne sont pas des épées ordinaires : chacune garde un fragment d'esprit. Entre de mauvaises mains, elles peuvent faire beaucoup de mal. Les gens de la Fraternité Navori m'en avaient commandé dix. J'ai refusé. »
+postes: Éclaireur, Assassin
+duree: 5
+dangereuse: non
+epreuves: discretion 37 (fouiller les quais et les entrepôts de Kashuri) ; poursuite 38 (suivre les lames jusqu'à ceux qui les ont volées)
+complication: Les lames n'ont pas été volées par la Fraternité, mais par l'apprenti de Maîtresse Ying, qui a eu peur qu'elles soient utilisées contre des Ioniens et les a cachées.
+eclatante: {meneur} retrouve les lames enterrées sous un rocher, et l'apprenti qui veille sur elles en tremblant. Il pensait que Maîtresse Ying finirait par céder à la Fraternité. Maîtresse Ying lui montre son refus, écrit et signé. L'apprenti pleure de honte et de soulagement. Les lames restent cachées, désormais, à un endroit que seuls trois personnes connaissent, dont {meneur}.
+reussite: Les lames sont retrouvées et rendues. L'apprenti est renvoyé. Maîtresse Ying change ses serrures et ne prend plus d'apprentis.
+partielle: L'équipe a retrouvé quatre lames. Les deux autres ont disparu vers le nord.
+echec: Les lames sont introuvables. On en a vu une, un mois plus tard, à la ceinture d'un homme de la Fraternité.
+recompenses: po 25 ; reputation 2 ; objet Épée longue 7
+
+=== ION-I-021 | Les marins de Piltover
+source: privee
+region: ionia
+palier: inconnue
+type: protection
+ton: politique
+lieu: Nanthee
+demandeur: Capitaine Elara Brisk, marchande de Piltover, coincée au port
+accroche: « Mon équipage a été attaqué deux fois en descendant à terre. Des jeunes avec des bandeaux rouges. Ils disent que Piltover vend des armes à tout le monde, y compris à Noxus. Ce n'est pas faux. Mais mon bateau transporte des lunettes. »
+postes: Tank, DPS, Support
+duree: 4
+dangereuse: non
+epreuves: combat 37 (protéger l'équipage pendant le déchargement) ; diplomatie 34 (calmer les jeunes de la Fraternité, et le port tout entier, qui commence à prendre parti)
+complication: Le chef de la bande a perdu son père dans une attaque noxienne menée avec des canons de Piltover. Sa colère est juste. Elle se trompe seulement de cible.
+eclatante: {meneur} protège le déchargement et parle au chef de la bande. La capitaine Brisk, qui l'a écouté, ouvre ses caisses devant tout le port : ce sont bien des lunettes, de toutes les tailles. Elle en offre une paire au vieil oncle du garçon, qui n'y voyait plus depuis la guerre. Le port de Nanthee apprend ce jour-là qu'on peut être de Piltover et ne pas vendre d'armes.
+reussite: L'équipage est protégé. Le déchargement se fait sans incident. La capitaine Brisk lève l'ancre rapidement, sans se faire d'amis.
+partielle: L'équipage a été protégé, mais une partie de la cargaison a été jetée à l'eau. La capitaine paie quand même, en grinçant des dents.
+echec: L'équipage a été attaqué une troisième fois. La capitaine Brisk a juré de ne plus jamais revenir en Ionia.
+recompenses: po 30 ; reputation 2 ; objet Bouclier de Doran 7
+
+=== ION-I-022 | Les crabes de Raikkon
+source: privee
+region: ionia
+palier: inconnue
+type: defense
+ton: drole
+lieu: Raikkon
+demandeur: Hanae, cultivatrice de baies, désespérée
+accroche: « Des crabes jaunes. Des centaines. Ils sortent de la mer chaque soir et montent dans mes baies. Ils ne mangent pas les baies, ils les pincent. Une baie pincée, ça ne fait plus d'encre, ça fait de la confiture. Je ne vends pas de confiture. »
+postes: Mage
+duree: 3
+dangereuse: non
+epreuves: nuee 34 (repousser une armée de crabes jaunes qui montent par vagues) ; voyage 29 (trouver d'où ils sortent, sur la côte rocheuse)
+complication: Les crabes ne cherchent pas les baies : ils fuient une marée d'eau chaude qui monte de la mer depuis qu'un petit volcan sous-marin s'est réveillé.
+eclatante: {meneur} repousse la marée de crabes avec un sort de lumière qui les fait reculer, et découvre en suivant leur fuite les bulles d'eau chaude qui montent le long de la côte. Hanae déplace ses buissons les plus précieux plus haut sur la colline. Les crabes, eux, trouvent une crique plus fraîche. La confiture de baies pincées, finalement, se vend très bien à Weh'le.
+reussite: Les crabes sont repoussés pour la saison. Hanae sauve sa récolte d'encre.
+partielle: La moitié des buissons a été pincée. Hanae fait de la confiture. Elle n'en est pas fière.
+echec: Les crabes ont gagné. {meneur} a reçu tellement de pinces que les enfants du village ont trouvé un surnom à {meneur} : « Pince-de-Crabe ».
+recompenses: po 15 ; reputation 1 ; objet Élixir de sorcellerie 6
+
+=== ION-I-023 | Le pont de lianes de Holn
+source: privee
+region: ionia
+palier: inconnue
+type: sauvetage
+ton: aventure
+lieu: Holn
+demandeur: Ura, maîtresse d'école, dont les élèves sont coincés de l'autre côté de la gorge
+accroche: « Nous étions en promenade sur la route de Holn, pour voir la statue de Maître Kusho. Le pont de lianes a cédé derrière nous. Six enfants sont de l'autre côté, avec la nuit qui tombe et les loups qui hurlent. Moi, je suis de ce côté-ci. »
+postes: Tank
+duree: 4
+dangereuse: non
+epreuves: voyage 34 (descendre dans la gorge et remonter de l'autre côté, avant la nuit) ; siege 31 (retendre un pont de fortune assez solide pour six enfants et une maîtresse paniquée)
+complication: Un des enfants est blessé à la jambe, et ne peut pas marcher. Il faudra le porter sur le pont de fortune.
+eclatante: {meneur} descend dans la gorge, remonte de l'autre côté à la tombée du jour, et tend un pont de cordes entre deux arbres. Les cinq enfants traversent un par un, en se tenant aux cordes. Le sixième traverse sur le dos de {meneur}. Ura serre ses élèves contre elle, et compte, et recompte. Le lendemain, toute l'école dessine la traversée. Sur les dessins, {meneur} est plus grand que la montagne.
+reussite: Les six enfants sont ramenés, effrayés, avec des écorchures. Ura promet de ne plus jamais faire de promenade.
+partielle: Il a fallu passer la nuit de l'autre côté, avec les enfants, autour d'un feu. Tout le monde est revenu au matin.
+echec: Le pont de fortune a cédé. Personne n'est tombé, mais les enfants ont dû attendre l'aube et les secours du village.
+recompenses: po 20 ; reputation 2 ; objet Ceinture du géant 3
+
+=== ION-I-024 | La voix de Holn
+source: privee
+region: ionia
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Holn
+demandeur: Frère Dao, gardien de la statue de Maître Kusho
+accroche: « Les voyageurs entendent une voix, la nuit, au pied de la statue. Elle leur propose des choses. De l'argent, des souvenirs, des gens qu'ils ont perdus. Deux voyageurs l'ont suivie dans la montagne. On ne les a pas revus. »
+postes: Éclaireur, Mage
+duree: 5
+dangereuse: non
+epreuves: discretion 37 (veiller au pied de la statue sans répondre à la voix) ; voyage 35 (suivre la piste des deux voyageurs disparus dans la montagne)
+complication: Ce n'est pas Zogao, le démon banni par Maître Kusho. C'est un esprit beaucoup plus faible, qui se fait passer pour lui, et qui se nourrit de la peur des voyageurs.
+eclatante: {meneur} reconnaît la magie de l'esprit imposteur, et le met au défi de se montrer. Il apparaît : un petit esprit gris, terrifié d'avoir été démasqué. Les deux voyageurs sont retrouvés dans une grotte, endormis, sains et saufs. L'esprit promet de ne plus jamais se faire passer pour un démon. Frère Dao lui laisse une offrande chaque soir. L'esprit garde la statue, désormais.
+reussite: La voix se tait. Les deux voyageurs sont retrouvés, épuisés, dans la montagne. Personne ne sait ce qu'ils ont vu.
+partielle: La voix s'est tue pendant la veille. Un seul des voyageurs a été retrouvé. L'autre ne reviendra peut-être jamais.
+echec: Un membre de l'équipe a répondu à la voix. Il a fallu le chercher toute la nuit. Il ne se souvient de rien.
+recompenses: po 25 ; reputation 2 ; objet Tome d'amplification 7
+
+=== ION-I-025 | Les worax de la rivière d'herbe
+source: privee
+region: ionia
+palier: inconnue
+type: traque
+ton: drole
+lieu: Fermes d'Azur
+demandeur: Ban, gardien de worax, qui a perdu son troupeau en s'endormant
+accroche: « Quarante worax. Ce sont des chèvres-buffles, très calmes, très lents. Je me suis endormi une heure. Ils ont traversé la rivière d'herbe, trois villages et un mariage. On me demande de payer le gâteau. »
+postes: Combattant
+duree: 4
+dangereuse: non
+epreuves: poursuite 33 (rattraper un troupeau de worax éparpillés sur des lieues de rivière d'herbe) ; combat 29 (calmer le vieux mâle, qui a décidé que la noce était son nouveau troupeau)
+complication: Le vieux mâle ne veut pas quitter la noce. Il s'est attaché à la mariée, qui porte une couronne de fleurs qu'il trouve délicieuse.
+eclatante: {meneur} rassemble les worax un par un, puis négocie avec le vieux mâle en lui offrant une couronne de fleurs à lui. Il accepte de suivre. La mariée, qui a trouvé tout ça très drôle, demande que le vieux worax soit invité au repas de noces. Il y est. Ban ne paie pas le gâteau, parce que le worax l'a mangé avant, mais il est pardonné.
+reussite: Le troupeau est rassemblé, sauf le vieux mâle, qui reste à la noce jusqu'au soir. Ban paie le gâteau.
+partielle: {meneur} a ramené la moitié des worax. Les autres reviendront tout seuls, d'ici une semaine, très lentement.
+echec: Les worax ont traversé un quatrième village, et un deuxième mariage. Ban a quitté les Fermes d'Azur pour un endroit où personne ne le connaît.
+recompenses: po 15 ; reputation 1 ; objet Élixir de rage 5

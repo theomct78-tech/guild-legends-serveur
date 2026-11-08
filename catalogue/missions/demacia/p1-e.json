@@ -1,0 +1,212 @@
+[
+{
+  "id": "DEM-1-041", "titre": "L'épée du vieux Guérin", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "livraison", "ton": "tragique", "lieu": "Jandelle",
+  "demandeur": { "nom": "Guérin Malestroit", "qualite": "vétéran du Jour de la Lumière perdue, alité, qui ne se relèvera plus" },
+  "accroche": "« Cette épée était à Raymond. Il est mort à ma place, au château, le jour où l'assassin noxien a frappé. Je l'ai gardée trente ans par lâcheté. Rendez-la à sa famille, à Lissus. Dites-leur ce que je n'ai jamais osé dire. »",
+  "contexte": "Guérin servait au château de Jandelle quand le commandant fut assassiné. Son camarade Raymond est mort en couvrant sa fuite. Guérin a gardé l'épée et le secret. La famille de Raymond, à Lissus, le tient pour un déserteur qui a laissé mourir les autres.",
+  "postes": ["Support", "Éclaireur"], "duree": 5, "dangereuse": false,
+  "epreuves": [
+    { "type": "voyage", "difficulte": 34, "recit": "Porter l'épée de Jandelle à Lissus en remontant l'Ironfork, avec la lettre dictée par Guérin." },
+    { "type": "diplomatie", "difficulte": 46, "recit": "Faire entendre la vérité à une famille qui déteste Guérin depuis trente ans, et qui claque la porte au premier mot." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "La fille de Raymond lit la lettre deux fois, puis demande à voir Guérin. Elle arrive à Jandelle la veille de sa mort et lui tient la main. L'épée est accrochée au-dessus de la cheminée de la famille, avec les deux noms gravés sur la lame.",
+    "reussite": "La famille accepte l'épée et la lettre, sans un mot pour Guérin. C'est déjà plus qu'il n'espérait.",
+    "partielle": "La famille garde l'épée mais brûle la lettre sans l'ouvrir. Guérin meurt sans savoir.",
+    "echec": "La porte est restée fermée, et l'épée revient à Jandelle. Guérin la serre contre lui et ne demande plus rien à personne."
+  },
+  "recompenses": { "or": 40, "reputation": 2, "xp": 45, "objet": { "rarete": "peu commun", "chance": 6 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-042", "titre": "Le sel dans les sillons", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "enquete", "ton": "politique", "lieu": "Pinara",
+  "demandeur": { "nom": "Gondebaud Lefranc", "qualite": "fermier de Pinara, dont les blés jaunissent sur pied" },
+  "accroche": "« Mes champs meurent. Pas ceux de mes voisins, les miens. J'ai goûté la terre : elle est salée. Quelqu'un sème du sel dans mes sillons la nuit. Je veux savoir qui, et je veux que ce soit dit au village. »",
+  "contexte": "Les terres de Gondebaud, au bord de l'Ironfork, ont été empoisonnées au sel. Il soupçonne un notable de Pinara qui convoite son domaine depuis des années et qui lui a déjà proposé de l'acheter, à vil prix. Sans preuve, accuser un notable est risqué.",
+  "postes": ["Éclaireur", "Assassin"], "duree": 5, "dangereuse": false,
+  "epreuves": [
+    { "type": "discretion", "difficulte": 44, "recit": "Guetter les champs la nuit, couché dans les blés malades, pour surprendre les semeurs de sel." },
+    { "type": "poursuite", "difficulte": 40, "recit": "Suivre la charrette des coupables jusqu'à la grange où ils rapportent les sacs vides." }
+  ],
+  "complication": { "texte": "La grange appartient bien au notable, mais les sacs viennent du grenier du frère de Gondebaud, qui voulait forcer la vente pour toucher sa part de l'héritage.", "epreuve": { "type": "diplomatie", "difficulte": 44 } },
+  "denouements": {
+    "eclatante": "Toute la vérité est mise au jour devant l'assemblée du village, frère compris. Le notable est condamné à rendre la terre fertile à ses frais, et Gondebaud pardonne à son frère, après une longue nuit et beaucoup de cris.",
+    "reussite": "Les semeurs de sel sont démasqués et dénoncés. Gondebaud devra attendre plusieurs saisons pour retrouver ses récoltes.",
+    "partielle": "On a vu la charrette, pas les visages. Gondebaud fait garder ses champs, mais la récolte de l'année est perdue.",
+    "echec": "Le notable a fait accuser la guilde de rôder la nuit sur ses terres. Gondebaud a vendu son domaine, pour une bouchée de pain."
+  },
+  "recompenses": { "or": 65, "reputation": 2, "xp": 40, "objet": { "rarete": "commun", "chance": 4 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-043", "titre": "Le médecin d'Uwendale", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "voyage", "ton": "aventure", "lieu": "Uwendale",
+  "demandeur": { "nom": "Maître Ambroise Lavergne", "qualite": "médecin de High Silvermere, soixante-dix ans, un sac de remèdes" },
+  "accroche": "« La fièvre des montagnes a pris la moitié des enfants d'Uwendale. J'ai les remèdes. Il me manque des jambes de vingt ans, et quelqu'un qui connaisse la route avant que la neige la ferme. »",
+  "contexte": "Une épidémie de fièvre frappe Uwendale, hameau isolé du nord-est des Hautes-Terres rocheuses. Maître Lavergne doit y monter depuis High Silvermere. La route passe par des cols où la neige peut tomber d'une heure à l'autre, et où rôdent des loups.",
+  "postes": ["Éclaireur", "Healer", "Combattant"], "duree": 8, "dangereuse": false,
+  "epreuves": [
+    { "type": "voyage", "difficulte": 46, "recit": "Franchir les cols à marche forcée avec un vieil homme et ses remèdes, dans le vent qui annonce la neige." },
+    { "type": "nuee", "difficulte": 38, "recit": "Au dernier col, une meute de loups affamés suit l'équipe à la tombée du jour." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Maître Lavergne arrive à Uwendale avant la neige. Tous les enfants guérissent. Le hameau fait sonner sa cloche pour la guilde, et le doyen promet que son nom sera chanté à la prochaine Fête du Pourfendeur.",
+    "reussite": "Le médecin arrive avec un jour de retard, épuisé. La plupart des enfants guérissent ; deux sont encore très faibles.",
+    "partielle": "La neige a bloqué l'équipe au dernier col. Les remèdes sont montés seuls, portés par un héros, sans le médecin pour les doser.",
+    "echec": "L'équipe a dû faire demi-tour dans la tempête. Le médecin ne montera qu'au printemps. Uwendale enterre trois enfants."
+  },
+  "recompenses": { "or": 70, "reputation": 4, "xp": 65, "objet": { "rarete": "commun", "chance": 5 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-044", "titre": "Le loup blanc du trappeur", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "chasse", "ton": "tendre", "lieu": "Hautes-Terres rocheuses",
+  "demandeur": { "nom": "Thibaud Garnier", "qualite": "éleveur de moutons à la frontière du Freljord" },
+  "accroche": "« Un loup blanc, énorme, rôde autour de mes moutons. Il n'attaque pas. Il regarde. Ça me rend fou. Je veux sa peau avant qu'il se décide. »",
+  "contexte": "Près de la frontière du Freljord, un loup blanc d'une taille inhabituelle rôde autour d'une bergerie demacienne. Il n'a encore rien tué. Les loups blancs ne descendent pas si bas d'habitude. Thibaud a déjà posé des pièges, que la bête évite.",
+  "postes": ["Éclaireur", "Tireur"], "duree": 5, "dangereuse": false,
+  "epreuves": [
+    { "type": "poursuite", "difficulte": 42, "recit": "Pister le loup dans les éboulis, au-delà des dernières bornes du royaume." },
+    { "type": "combat", "difficulte": 40, "recit": "Le loup se retourne et fait face, les crocs découverts, devant une grotte." }
+  ],
+  "complication": { "texte": "Dans la grotte, une trappeuse du Freljord gît, la jambe brisée. Le loup est le sien. Il guettait la bergerie pour lui rapporter à manger. Elle ne parle que quelques mots de la langue de Demacia, et elle a un couteau.", "epreuve": { "type": "diplomatie", "difficulte": 44 } },
+  "denouements": {
+    "eclatante": "La trappeuse est soignée et ramenée chez elle, de l'autre côté de la frontière, avec son loup. Thibaud, qui voulait sa peau, lui donne une brebis. Au printemps, on trouve un collier de dents de loup sur la porte de la bergerie : au Freljord, c'est une promesse de protection.",
+    "reussite": "Le loup est chassé loin de la bergerie, sans avoir été tué. Thibaud dort mieux, même sans savoir pourquoi il est parti.",
+    "partielle": "Le loup est blessé et s'enfuit. On ne le revoit plus. Une semaine plus tard, des chasseurs trouvent une grotte vide et du sang séché.",
+    "echec": "Le loup a été tué devant la grotte. Ce qu'on y a trouvé ensuite, personne ne veut en parler. Thibaud paie, puis ne dit plus jamais un mot de cette histoire."
+  },
+  "recompenses": { "or": 55, "reputation": 2, "xp": 45, "objet": { "rarete": "peu commun", "chance": 4 } },
+  "suite": "freljord-trappeuse"
+},
+{
+  "id": "DEM-1-045", "titre": "Les nuits du Mur de l'Est", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "garde", "ton": "politique", "lieu": "Mur de l'Est",
+  "demandeur": { "nom": "Clotaire Vasseur", "qualite": "contremaître d'un chantier de réparation du Mur" },
+  "accroche": "« Chaque nuit, quelqu'un défait ce que mes hommes ont maçonné le jour. Les pierres sont jetées dans le fossé et on écrit des insultes à la chaux. L'armée dit que c'est mon problème. »",
+  "contexte": "Un tronçon du Mur de l'Est, près de Meltridge, est en réparation. Le chantier emploie des villageois réquisitionnés de force pour la saison. Le sabotage nocturne retarde les travaux, et Clotaire risque d'être tenu pour responsable si le tronçon n'est pas fini avant l'hiver.",
+  "postes": ["Éclaireur", "Tank"], "duree": 6, "dangereuse": false,
+  "epreuves": [
+    { "type": "discretion", "difficulte": 40, "recit": "Monter la garde la nuit sur le chantier, cachés dans les échafaudages, sans se faire repérer." },
+    { "type": "poursuite", "difficulte": 38, "recit": "Les saboteurs s'enfuient dans les fossés à l'approche des lanternes. Il faut en attraper au moins un." }
+  ],
+  "complication": { "texte": "Les saboteurs sont les ouvriers réquisitionnés eux-mêmes, qui veulent rentrer chez eux pour la moisson. L'un d'eux est blessé dans la fuite, et les autres reviennent le chercher, prêts à se battre.", "epreuve": { "type": "diplomatie", "difficulte": 42 } },
+  "denouements": {
+    "eclatante": "La guilde obtient un accord : les ouvriers partent pour la moisson par roulement, et reviennent finir le mur. Le tronçon est achevé avant les premières neiges. Clotaire, qui avait demandé des coups, découvre qu'il préfère les accords.",
+    "reussite": "Les saboteurs sont identifiés et le sabotage cesse. Le chantier reprend, sous haute surveillance.",
+    "partielle": "Un saboteur est pris, les autres s'enfuient. Le chantier avance, mais l'ambiance est empoisonnée.",
+    "echec": "Le sabotage continue, et un pan de mur s'est effondré, blessant un ouvrier. L'armée envoie un officier, qui ne paiera pas la guilde."
+  },
+  "recompenses": { "or": 75, "reputation": 2, "xp": 45, "objet": { "rarete": "commun", "chance": 4 } },
+  "suite": null
+},
+{
+  "id": "DEM-1-046", "titre": "Le perroquet de dame Ysolde", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "recherche", "ton": "drole", "lieu": "Résidences des grandes familles",
+  "demandeur": { "nom": "Jodoc", "qualite": "majordome d'une petite maison noble, qui transpire beaucoup" },
+  "accroche": "« Le perroquet de Madame s'est envolé par la fenêtre du salon. Il est vert, il parle et il répète tout ce qu'il entend. Absolument tout. Madame reçoit beaucoup. Retrouvez-le avant qu'il aille parler chez les voisins. »",
+  "contexte": "Dame Ysolde, veuve d'une maison mineure, tient salon dans le quartier des grandes familles. Son perroquet, rapporté d'un voyage, a entendu des années de confidences et de commérages. Il a été vu sur les toits, en direction des résidences d'une maison rivale.",
+  "postes": ["Éclaireur", "Tireur"], "duree": 3, "dangereuse": false,
+  "epreuves": [
+    { "type": "poursuite", "difficulte": 42, "recit": "Suivre l'oiseau de toit en toit, de cheminée en balcon, au-dessus des plus beaux jardins de la capitale." },
+    { "type": "discretion", "difficulte": 36, "recit": "Entrer dans le jardin d'une maison rivale, où le perroquet s'est posé, sans être pris pour des cambrioleurs." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Le perroquet est récupéré au moment où il commence à réciter, devant la fenêtre des voisins, une conversation sur les dettes de leur fils. Dame Ysolde récompense la guilde généreusement, et Jodoc arrête enfin de transpirer.",
+    "reussite": "L'oiseau est rendu à sa maîtresse, qui le couvre de baisers. Il répète : « Guilde de bons à rien ! » On ne sait pas où il l'a appris.",
+    "partielle": "Le perroquet est retrouvé, mais il a passé une heure dans le jardin des voisins. On ignore ce qu'il a dit. Dame Ysolde ne dort plus.",
+    "echec": "Le perroquet a été capturé par la maison rivale, qui l'écoute depuis avec grand intérêt. Jodoc a été renvoyé."
+  },
+  "recompenses": { "or": 85, "reputation": 1, "xp": 25, "objet": { "rarete": "commun", "chance": 5 } },
+  "suite": "ysolde-perroquet"
+},
+{
+  "id": "DEM-1-047", "titre": "Le passeur de Needlebrooke", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "escorte", "ton": "horreur", "lieu": "Needlebrooke",
+  "demandeur": { "nom": "Le vieux Mathias", "qualite": "passeur du bac de Needlebrooke depuis cinquante ans" },
+  "accroche": "« Cette nuit, une dame en manteau noir veut traverser. Elle paie en argent ancien. Les trois dernières fois que j'ai fait passer quelqu'un comme ça, il y a eu un mort au village le lendemain. Je ne veux pas être seul sur l'eau avec elle. »",
+  "contexte": "Needlebrooke, au sud du royaume, garde le souvenir d'une troupe de théâtre « réclamée » par les Kindred après une représentation. Le vieux passeur est convaincu que certains de ses passagers ne sont pas tout à fait vivants. Ce soir, une voyageuse mystérieuse l'attend sur la rive.",
+  "postes": ["Support", "Éclaireur"], "duree": 3, "dangereuse": false,
+  "epreuves": [
+    { "type": "voyage", "difficulte": 38, "recit": "Faire traverser le bac dans la brume nocturne, malgré le courant et les bancs de vase invisibles." },
+    { "type": "diplomatie", "difficulte": 44, "recit": "Parler à la passagère, qui répond à chaque question par une autre question, et savoir enfin qui elle est." }
+  ],
+  "complication": { "texte": "La passagère est une comédienne, dernière survivante de la troupe disparue. Elle revient chaque année jouer seule devant la rivière, et chaque fois, quelqu'un du village meurt de vieillesse le lendemain. Coïncidence ou non, une partie du village l'attend sur l'autre rive, des fourches à la main.", "epreuve": { "type": "combat", "difficulte": 40 } },
+  "denouements": {
+    "eclatante": "La comédienne joue sa scène devant l'eau, sous la protection de la guilde, puis disparaît dans la brume. Le lendemain, personne ne meurt à Needlebrooke, pour la première fois depuis des années. Mathias jure qu'il a vu, sur l'autre rive, un loup et un agneau qui la regardaient.",
+    "reussite": "La traversée se fait sans incident. La passagère paie Mathias en pièces anciennes, que la guilde reçoit pour sa peine.",
+    "partielle": "La passagère est déposée sur l'autre rive, mais l'équipe a été vue par des villageois. On murmure que la guilde « fraie avec la mort ».",
+    "echec": "Le bac a dérivé et la passagère a disparu dans l'eau sans une ride. Le lendemain, le vieux Mathias a été retrouvé mort dans son lit, souriant."
+  },
+  "recompenses": { "or": 50, "reputation": 2, "xp": 40, "objet": { "rarete": "rare", "chance": 2 } },
+  "suite": "needlebrooke-comedienne"
+},
+{
+  "id": "DEM-1-048", "titre": "Les lueurs d'Evenmoor", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "nuisibles", "ton": "horreur", "lieu": "Evenmoor",
+  "demandeur": { "nom": "Adélaïde Rivière", "qualite": "fille de l'ancien bourgmestre d'Evenmoor, qui a vu la nuée de ses yeux" },
+  "accroche": "« La reine argoth est morte, je l'ai vue tomber. Mais depuis une semaine, des lueurs vertes bougent dans le marais, là où on a brûlé son corps. Et ce matin, la vache des Baudoin était creuse. Vide. »",
+  "contexte": "Evenmoor, petit village du sud, a été sauvé d'une nuée d'Argoth quand la reine a été tuée. Tout le monde croyait la menace éteinte. Des lueurs dans le marais et des bêtes vidées laissent craindre qu'une couvée ait survécu. Le village n'a ni soldats ni murs.",
+  "postes": ["Tank", "Mage", "Tireur"], "duree": 6, "dangereuse": true,
+  "epreuves": [
+    { "type": "discretion", "difficulte": 40, "recit": "S'enfoncer dans le marais de nuit, en suivant les lueurs vertes, sans réveiller ce qui dort sous la vase." },
+    { "type": "nuee", "difficulte": 48, "recit": "La couvée éclot autour de l'équipe : des dizaines de jeunes argoth, petits mais voraces, jaillissent des cocons." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "La couvée est détruite jusqu'au dernier cocon, et le marais brûlé une seconde fois. Evenmoor fête la guilde comme elle a fêté le prince Jarvan, avec moins de moyens mais autant de cœur. Adélaïde promet de prévenir l'armée, et de mentionner qui est venu en premier.",
+    "reussite": "La plupart des cocons sont détruits. Quelques jeunes se sont échappés dans les roseaux, mais le danger immédiat est écarté.",
+    "partielle": "L'équipe a dû se replier, en ne détruisant qu'une partie de la couvée. Adélaïde envoie un cavalier à la capitale.",
+    "echec": "La couvée a éclos tout entière et l'équipe a fui le marais en laissant des blessés derrière elle. Le soir même, deux villageois disparaissent."
+  },
+  "recompenses": { "or": 140, "reputation": 4, "xp": 80, "objet": { "rarete": "peu commun", "chance": 8 } },
+  "suite": "evenmoor-couvee"
+},
+{
+  "id": "DEM-1-049", "titre": "Le contrat de maître Corvin", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "mediation", "ton": "politique", "lieu": "Lissus",
+  "demandeur": { "nom": "Pernelle Aubry", "qualite": "veuve, mère de trois enfants, menacée d'expulsion" },
+  "accroche": "« Maître Corvin dit que mon mari lui devait sa ferme. Il a un contrat, avec une signature. Mon mari ne savait pas écrire. Il signait d'une croix. »",
+  "contexte": "Le prêteur Corvin, homme respecté de Lissus, réclame la ferme de Pernelle sur la foi d'un contrat signé, selon lui, par son défunt mari. Le jugement est dans quatre jours. Pernelle n'a ni argent ni avocat, et Corvin a des amis jusque chez le magistrat.",
+  "postes": ["Support", "Éclaireur"], "duree": 5, "dangereuse": false,
+  "epreuves": [
+    { "type": "discretion", "difficulte": 44, "recit": "Entrer dans le cabinet de Corvin la nuit et trouver les autres contrats « signés » de la même main." },
+    { "type": "diplomatie", "difficulte": 42, "recit": "Convaincre le juge et les anciens du bourg, devant Corvin et ses amis, que la signature est fausse." }
+  ],
+  "complication": null,
+  "denouements": {
+    "eclatante": "Le cabinet de Corvin contenait douze contrats de la même main, contre douze familles. Le juge, embarrassé, les annule tous. Pernelle garde sa ferme, et Corvin doit quitter Lissus. Les familles se cotisent pour offrir un repas à la guilde.",
+    "reussite": "Le faux est démontré, et Pernelle garde sa ferme. Corvin conserve ses amis, et une rancune tenace contre la guilde.",
+    "partielle": "Le juge reporte sa décision, faute de preuve suffisante. Pernelle gagne une saison, rien de plus.",
+    "echec": "L'équipe a été surprise dans le cabinet. Corvin porte plainte pour effraction, et Pernelle perd sa ferme."
+  },
+  "recompenses": { "or": 45, "reputation": 3, "xp": 45, "objet": { "rarete": "commun", "chance": 4 } },
+  "suite": "lissus-corvin"
+},
+{
+  "id": "DEM-1-050", "titre": "La dernière tournée de Sylvestre", "source": "privee", "region": "demacia", "palier": 1,
+  "type": "livraison", "ton": "tendre", "lieu": "High Silvermere",
+  "demandeur": { "nom": "Sylvestre Bonaventure", "qualite": "messager des hauteurs, soixante-huit ans, qui part à la retraite" },
+  "accroche": "« Quarante ans que je porte le courrier de High Silvermere aux hameaux des hauteurs. Demain, c'est ma dernière tournée. Mon genou ne suit plus, et je ne veux pas manquer une seule porte. Accompagnez-moi. Je vous présenterai à tout le monde. »",
+  "contexte": "Sylvestre dessert depuis toujours les fermes isolées des Hautes-Terres rocheuses autour de High Silvermere. Il connaît chaque famille, chaque chien, chaque secret. Sa dernière tournée passe par des sentiers escarpés, au moment où les rapaces aile-d'argent chassent au-dessus des crêtes.",
+  "postes": ["Éclaireur", "Healer"], "duree": 7, "dangereuse": false,
+  "epreuves": [
+    { "type": "voyage", "difficulte": 42, "recit": "Suivre Sylvestre de ferme en ferme par les sentiers des crêtes, à son rythme, en portant son sac et parfois lui-même." },
+    { "type": "diplomatie", "difficulte": 34, "recit": "À chaque porte, un café, une histoire, une larme. Il faut écouter, et repartir avant la nuit." }
+  ],
+  "complication": { "texte": "Au dernier hameau, la lettre la plus importante de la tournée annonce la mort d'un fils au Mur de l'Est. Sylvestre ne peut pas la lire à sa mère. Il demande à un héros de le faire.", "epreuve": { "type": "diplomatie", "difficulte": 40 } },
+  "denouements": {
+    "eclatante": "Toutes les lettres sont remises, toutes les portes ont reçu leurs adieux. Le soir, les hameaux allument des lanternes le long du sentier pour le dernier retour de Sylvestre. Il pleure, présente la guilde à chacun, et désormais, c'est à elle qu'on fait appel dans les hauteurs.",
+    "reussite": "La tournée est bouclée, avec du retard. Sylvestre est heureux et fatigué. Il offre à la guilde sa vieille besace.",
+    "partielle": "Le genou de Sylvestre a lâché à mi-chemin. Les dernières lettres ont été portées par la guilde, sans lui. Il en a été triste.",
+    "echec": "L'orage a forcé l'équipe à rentrer sans avoir fini la tournée. Sylvestre a terminé seul, le lendemain, en boitant."
+  },
+  "recompenses": { "or": 30, "reputation": 4, "xp": 40, "objet": { "rarete": "commun", "chance": 4 } },
+  "suite": null
+}
+]

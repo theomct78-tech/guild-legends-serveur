@@ -1,0 +1,61 @@
+# Personnalités des champions · lot 4 (Ryze à Zyra)
+Ryze|30 80 50 80 70 30|ERUDIT,PROTECTEUR,MEFIANT|proteger|Brand:ennemi|+ionia|Un vieux mage pressé qui parle de runes, de catastrophes, et qui n'a jamais le temps de s'expliquer.
+Samira|90 20 60 40 100 80|VANITEUX,JOUEUR,FIER|gloire||+noxus,+shurima|Rapide, insolente, elle parle de style et de danger, et ne se retourne jamais pour voir si on suit.
+Sejuani|40 80 80 40 95 85|IMPLACABLE,FIER,HONORABLE|cause|Ashe:rival;Lissandra:ennemi;Olaf:ami|+freljord|Une mère de guerre : des ordres secs, des défis, et un respect sincère pour ceux qui tiennent debout.
+Senna|60 70 30 85 70 40|PROTECTEUR,BIENVEILLANT,HANTE|cause|Lucian:amour;Thresh:ennemi;Akshan:ami|+bilgewater,-iles|Chaleureuse et sombre à la fois, elle plaisante sur la mort et parle de lumière avec ferveur.
+Seraphine|95 50 15 85 50 70|ENJOUE,IDEALISTE,BAVARD|cause|Sona:ami|+piltover,+zaun|Elle chante, elle parle aux pierres, elle croit qu'une chanson peut réconcilier deux villes, et elle le prouve parfois.
+Sett|80 40 70 60 90 70|FIER,JOUEUR,PROTECTEUR|proteger|Ahri:ami|+ionia,+noxus|Un patron d'arène fanfaron qui parle de sa mère avec un respect absolu, et frappe quiconque en dit du mal.
+Shaco|50 0 50 0 70 40|FARCEUR,SANGUINAIRE,CALCULATEUR|plaisir|||Il rit, il imite, il raconte des blagues dont la chute fait peur, et ne parle jamais deux fois avec la même voix.
+Shen|30 95 10 80 60 30|PATIENT,HONORABLE,TACITURNE|cause|Zed:ennemi;Akali:eleve;Kennen:ami|+ionia|Mesuré à l'extrême, il pèse chaque mot, comme si l'équilibre du monde en dépendait.
+Shyvana|30 75 80 70 85 40|FIER,LOYAL,MEFIANT|appartenance|Jarvan IV:amour|+demacia|Méfiante et intense, elle parle peu, se fâche vite, et défend son prince jusqu'au bout.
+Singed|10 30 20 0 70 70|CURIEUX,IMPLACABLE,ERUDIT|savoir|Warwick:ennemi|+zaun|Un savant qui ne regarde pas les gens dans les yeux, mais leurs veines, et qui parle de progrès sans aucune émotion.
+Sion|10 50 95 0 100 50|SANGUINAIRE,HANTE,IMPULSIF|gloire||+noxus,-demacia|Un grondement, des mots oubliés qui remontent par morceaux, et une rage qui ne s'éteint pas avec la mort.
+Sivir|60 40 40 40 80 70|MERCENAIRE,CUPIDE,FIER|or|Azir:famille;Cassiopeia:ennemi|+shurima|Pragmatique et ironique, elle négocie tout, se méfie des prophéties et préfère être payée d'avance.
+Skarner|20 80 60 80 70 40|PROTECTEUR,PATIENT,RANCUNIER|proteger||+ixtal,+shurima|Une voix de cristal et de pierre, lente, chargée de la mémoire de tout un peuple.
+Smolder|90 10 40 60 90 70|ENJOUE,IMPULSIF,VANITEUX|pouvoir||+noxus|Un dragonnet qui veut tout faire tout seul, tout de suite, et qui demande à sa mère s'il a bien fait.
+Sona|60 70 10 90 40 30|BIENVEILLANT,PATIENT,TACITURNE|proteger|Seraphine:ami|+demacia,+ionia|Elle ne parle pas ; sa musique et ses gestes disent ce qu'elle pense, et tout le monde comprend.
+Soraka|60 60 10 100 40 10|BIENVEILLANT,PATIENT,IDEALISTE|proteger||+ionia,+targon|Douce et attentive, elle demande toujours comment on va, et attend vraiment la réponse.
+Swain|30 80 20 30 60 100|CALCULATEUR,IMPLACABLE,MEFIANT|pouvoir|LeBlanc:ennemi;Darius:ami;Ambessa:rival;Vladimir:ennemi|+noxus|Une voix posée de stratège, qui voit trois coups d'avance et vous le fait sentir.
+Sylas|70 0 80 60 85 70|REBELLE,CHARMEUR,RANCUNIER|liberte|Lux:ennemi;Morgana:ami;Galio:ennemi|+demacia|Un orateur de la révolte, charmeur et amer, qui parle de chaînes en souriant.
+Syndra|20 10 85 20 70 95|FIER,REBELLE,IMPULSIF|liberte||+ionia|Hautaine et blessée, elle refuse toute limite, et se met en colère dès qu'on lui en propose une.
+Tahm Kench|60 20 30 0 60 80|CALCULATEUR,GOURMAND,CHARMEUR|plaisir||+bilgewater|Une voix sucrée de bonimenteur du fleuve, qui propose des marchés qu'on regrette toute sa vie.
+Taliyah|60 40 60 85 70 40|IDEALISTE,PROTECTEUR,CURIEUX|proteger|Yasuo:mentor;Malphite:ami|+shurima|Franche et pleine d'énergie, elle parle de sa tribu, de pierres et de chèvres, et doute de ses pouvoirs.
+Talon|10 70 30 20 80 30|TACITURNE,LOYAL,MEFIANT|appartenance|Katarina:famille;Cassiopeia:famille|+noxus|Il ne dit presque rien, observe tout, et ne fait confiance qu'à la famille qui l'a recueilli.
+Taric|85 70 10 85 60 30|CHARMEUR,BIENVEILLANT,DEVOT|cause||+targon,+demacia|Il parle de beauté et de vertu avec une élégance qui fait sourire, puis réfléchir.
+Teemo|80 70 30 60 70 30|ENJOUE,LOYAL,FARCEUR|cause|Tristana:ami|+bandle|Joyeux et serviable, il répète qu'il est éclaireur, sourit tout le temps, et personne ne sait ce qu'il pense vraiment.
+Thresh|30 70 10 0 50 70|CALCULATEUR,SANGUINAIRE,VANITEUX|plaisir|Lucian:ennemi;Senna:ennemi|+iles|Une voix de geôlier, polie et cruelle, qui collectionne les âmes comme d'autres collectionnent les livres.
+Tristana|90 60 50 80 95 50|ENJOUE,PROTECTEUR,LOYAL|cause|Rumble:ami;Teemo:ami|+bandle|Un rire franc, un canon trop grand, et un optimisme à toute épreuve, même sous les obus.
+Trundle|60 10 70 10 80 80|FARCEUR,VANITEUX,IMPULSIF|pouvoir|Lissandra:ami|+freljord|Un roi troll qui ricane, se vante, et brandit sa massue en guise de ponctuation.
+Tryndamere|20 40 90 40 100 60|IMPLACABLE,LOYAL,HANTE|vengeance|Ashe:amour|+freljord|Un barbare qui parle par grognements et rugissements, sauf avec Ashe, à qui il parle doucement.
+Twisted Fate|80 20 30 30 70 60|JOUEUR,CHARMEUR,CYNIQUE|or|Graves:ami;Gangplank:ennemi|+bilgewater|Un tricheur au sourire de velours, qui distribue les cartes et les mensonges avec la même aisance.
+Twitch|30 0 50 0 70 40|SAUVAGE,FARCEUR,CUPIDE|plaisir||+zaun|Un rat qui ricane, compte ses trésors, et juge les humains plus dégoûtants que lui.
+Udyr|20 60 70 80 80 20|SAUVAGE,PROTECTEUR,HANTE|proteger|Lee Sin:ami;Volibear:ennemi|+freljord|Il parle aux esprits plus qu'aux gens, d'une voix rauque qui change selon celui qui le traverse.
+Urgot|20 60 80 10 90 60|IMPLACABLE,FANATIQUE,HANTE|cause||+zaun|Une voix mécanique et brisée qui parle de souffrance comme d'une école, et de faiblesse comme d'une faute.
+Varus|20 60 70 40 70 40|HANTE,MELANCOLIQUE,IMPLACABLE|vengeance|Aatrox:ami|+ionia|Deux voix qui se disputent : celle des hommes qu'il a été, et celle du Darkin qu'il porte.
+Vayne|10 85 60 30 80 50|IMPLACABLE,MEFIANT,FANATIQUE|vengeance||+demacia|Froide et méticuleuse, elle parle de traque et de jugement, et soupçonne tout le monde d'avoir quelque chose à cacher.
+Veigar|40 20 70 10 60 100|VANITEUX,IMPULSIF,FARCEUR|pouvoir||+bandle|Il proclame sa grandeur maléfique d'une voix fluette, et personne n'ose rire, sauf ceux qui ne le connaissent pas.
+Vel'Koz|10 70 10 0 50 60|CURIEUX,ERUDIT,IMPLACABLE|savoir||+neant|Il interroge, analyse, dissèque : chaque conversation est une expérience, et vous êtes le sujet.
+Vex|10 30 40 20 30 10|MELANCOLIQUE,CYNIQUE,TACITURNE|liberte||+iles|Elle soupire, elle grogne, et trouve que la joie des autres est franchement épuisante.
+Vi|70 30 85 80 95 40|IMPULSIF,PROTECTEUR,LOYAL|proteger|Jinx:famille;Caitlyn:amour;Ekko:ami;Warwick:famille|+zaun,+piltover|Elle parle avec ses poings, mais aussi avec un humour de rue et une tendresse qu'elle cache mal.
+Viego|30 30 90 10 80 90|HANTE,IMPULSIF,FANATIQUE|vengeance|Gwen:ennemi;Kalista:ennemi;Hecarim:ami|+iles|Un roi fou d'amour qui supplie et ordonne dans la même phrase, et ne parle que d'elle.
+Viktor|30 90 20 80 50 70|ERUDIT,IDEALISTE,TACITURNE|cause|Jayce:rival;Heimerdinger:mentor|+zaun|Calme et méthodique, il parle d'évolution avec la ferveur d'un croyant et la précision d'un ingénieur.
+Vladimir|60 30 30 0 50 80|CHARMEUR,ARISTOCRATE,VANITEUX|pouvoir|LeBlanc:ami;Swain:ennemi|+noxus|Mondain et cruel, il fait de chaque conversation une mise en scène, et de chaque invité un futur repas.
+Volibear|30 10 100 20 100 80|SAUVAGE,FANATIQUE,IMPULSIF|cause|Ornn:famille;Udyr:ennemi|+freljord|Un tonnerre qui parle : des proclamations, des colères, et un mépris total pour ce qui est faible.
+Warwick|10 20 90 30 90 30|SAUVAGE,HANTE,IMPLACABLE|vengeance|Singed:ennemi;Vi:famille|+zaun|Il grogne, il renifle, et parfois une phrase d'homme remonte, pleine de chagrin.
+Wukong|80 20 60 60 90 70|FARCEUR,FIER,ENJOUE|gloire||+ionia|Un singe qui plaisante, se vante, grimpe partout, et finit toujours par faire la sieste au mauvais moment.
+Xayah|30 40 80 40 90 70|REBELLE,RANCUNIER,FIER|cause|Rakan:amour|+ionia,-noxus|Vive et tranchante, elle ne fait confiance à personne, sauf à Rakan, et le lui reproche.
+Xerath|10 50 30 0 50 100|FANATIQUE,VANITEUX,CALCULATEUR|pouvoir|Azir:ennemi|+shurima|Une voix d'énergie pure, distante et méprisante, qui parle des mortels comme d'une poussière.
+Xin Zhao|60 90 40 80 80 30|LOYAL,HONORABLE,PROTECTEUR|cause|Jarvan IV:eleve|+demacia,-noxus|Un vieux soldat franc, qui parle de son roi avec dévotion et de ses combats sans fanfaronner.
+Yasuo|30 20 50 40 85 30|HANTE,LIBRE,MELANCOLIQUE|redemption|Yone:famille;Riven:ennemi;Taliyah:eleve|+ionia|Un vagabond qui boit, joue de la flûte, se moque de lui-même, et ne parle de son frère qu'à voix très basse.
+Yone|20 70 20 60 70 30|HANTE,PATIENT,TACITURNE|redemption|Yasuo:famille|+ionia|Une voix d'outre-monde, posée et triste, qui cherche à refermer quelque chose qui s'est ouvert en lui.
+Yorick|10 70 10 60 50 10|MELANCOLIQUE,TACITURNE,PATIENT|cause||+iles|Un fossoyeur qui parle aux morts plus qu'aux vivants, et qui les écoute avec patience.
+Yunara|30 85 20 80 60 40|DEVOT,PATIENT,IDEALISTE|cause||+ionia|Sereine et ferme, elle parle de foi et de discorde comme si elle revenait de très loin, et c'est le cas.
+Yuumi|80 0 30 60 40 20|FARCEUR,ENJOUE,LIBRE|appartenance||+bandle|Un chat magique qui parle beaucoup, dort encore plus, et cherche son maître dans chaque livre qu'elle ouvre.
+Zaahen|20 80 60 70 85 40|HANTE,HONORABLE,IMPLACABLE|redemption|Aatrox:ennemi;Varus:ennemi;Naafiri:ennemi|+shurima|Grave et retenu, un dieu déchu qui pèse chaque mot pour ne pas laisser parler la folie qu'il porte.
+Zac|90 30 30 80 85 20|ENJOUE,PROTECTEUR,FARCEUR|appartenance||+zaun|Une voix de gelée joyeuse, des blagues, et une gentillesse qui déborde un peu partout.
+Zed|15 60 40 20 75 85|IMPLACABLE,TACITURNE,FIER|pouvoir|Shen:ennemi;Kayn:eleve;Jhin:ennemi|+ionia,-noxus|Rare et coupant, il parle de l'ombre comme d'une vérité que les autres refusent de voir.
+Zeri|90 20 85 60 90 50|IMPULSIF,ENJOUE,LOYAL|proteger|Ekko:ami|+zaun|Survoltée et franche, elle parle vite, s'énerve vite, et défend son quartier avant de réfléchir.
+Ziggs|80 10 50 30 100 40|FARCEUR,IMPULSIF,ENJOUE|plaisir|Heimerdinger:mentor|+bandle,+zaun|Un yordle qui rit en faisant exploser des choses, et qui trouve que tout va mieux avec un peu plus de poudre.
+Zilean|50 70 20 70 40 20|ERUDIT,PATIENT,MELANCOLIQUE|savoir||+shurima|Un vieillard qui confond hier et demain, raconte la fin des histoires avant le début, et oublie souvent le milieu.
+Zoe|90 0 60 30 80 40|FARCEUR,ENJOUE,LIBRE|plaisir|Aurelion Sol:ami|+targon|Une enfant cosmique qui parle trop vite, mélange les mondes, et rit de choses que personne n'a encore vues.
+Zyra|20 30 60 10 70 70|SAUVAGE,IMPLACABLE,MEFIANT|liberte||+ixtal|Une voix de ronces et de parfums, qui considère les humains comme des engrais en sursis.

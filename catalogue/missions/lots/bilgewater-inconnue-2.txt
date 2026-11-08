@@ -1,0 +1,502 @@
+# Bilgewater · palier Inconnue · lot 2 (missions 026 à 050 ; 041 à 050 : contrats publics relayés par la Chambre des Bannières)
+
+=== BIL-I-026 | La veuve du harponneur
+source: privee
+region: bilgewater
+palier: inconnue
+type: diplomatie
+ton: tragique
+lieu: Docks de l'Abattoir
+demandeur: Adaeze, veuve d'un harponneur, à qui la compagnie de chasse refuse la part de son mari
+accroche: « Mon mari est mort en harponnant le serpent qui a fait la fortune de la compagnie. Ils disent qu'il est mort avant la prise, donc qu'il n'a droit à rien. J'ai trois enfants. Je ne veux pas la charité. Je veux sa part. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 31 (obtenir audience auprès du maître de compagnie, qui ne reçoit personne) ; diplomatie 29 (trouver un témoin de la prise qui ose parler)
+complication: Le témoin qui ose parler est le second du navire, et il dit que le harponneur est mort après la prise, en sauvant sa vie à lui.
+eclatante: {meneur} amène le second devant le maître de compagnie, puis devant tout l'équipage. Le récit est si clair que les harponneurs menacent de ne plus embarquer. La compagnie paie la part entière, plus une pension. Adaeze reçoit la guilde à sa table, avec ses trois enfants. Le plus petit demande s'il pourra devenir héros. On lui répond qu'il l'est déjà un peu.
+reussite: La compagnie paie la part, sans pension, sans excuses. Adaeze compte les pièces devant eux, puis les remercie d'un signe de tête.
+partielle: La compagnie paie la moitié, « par geste ». Adaeze accepte, parce que les enfants ont faim. Elle ne dit pas merci.
+echec: La compagnie n'a rien payé. Le second s'est rétracté. Adaeze travaille maintenant aux Baies de découpe, à dépecer les serpents.
+recompenses: po 20 ; reputation 2 ; objet Charme féerique 6
+
+=== BIL-I-027 | Le passage de Port-Gris
+source: privee
+region: bilgewater
+palier: inconnue
+type: exploration
+ton: horreur
+lieu: Port-Gris
+demandeur: Ezenwa, contrebandier, qui a besoin d'une route sûre et n'a peur de rien, sauf de la Brume
+accroche: « Il y a un tunnel sous Port-Gris. Les contrebandiers l'utilisaient avant la Brume. Si je le rouvre, j'économise trois jours de mer. Mais personne ne revient de là-dessous. Vous, peut-être. »
+postes: Éclaireur, Mage
+duree: 6
+dangereuse: non
+epreuves: voyage 36 (descendre dans le tunnel sous Port-Gris, entre les gravats et l'eau noire) ; discretion 35 (passer devant des silhouettes figées qui n'ont plus rien d'humain) ; combat 34 (se dégager quand l'une d'elles se retourne)
+complication: Le tunnel n'est pas vide de contrebande : les errants de la Brume y montent la garde autour d'une cargaison qui leur appartenait de leur vivant.
+eclatante: {meneur} comprend que les errants ne gardent pas le tunnel, mais leurs propres caisses. L'équipe les laisse en paix, ne touche à rien, et trace une route qui contourne la cargaison. Ezenwa obtient son passage. Il dépose chaque fois une bouteille de rhum devant les caisses. Les errants n'ont jamais attaqué ses hommes.
+reussite: Le tunnel est ouvert, balisé, les silhouettes évitées. Ezenwa l'utilise une fois, puis plus jamais. Il dit qu'il a senti quelqu'un marcher derrière lui tout du long.
+partielle: L'équipe est ressortie avec un plan du tunnel, à moitié. Ezenwa a refusé de payer l'autre moitié du trajet. Il a payé la moitié de la mission.
+echec: L'équipe est remontée en courant. Le tunnel s'est effondré derrière elle. Ezenwa repasse par la mer, et il en est presque soulagé.
+recompenses: po 35 ; reputation 2 ; objet Cape de négation 5
+
+=== BIL-I-028 | Le phare éteint
+source: privee
+region: bilgewater
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Baie de Bilgewater
+demandeur: Ona, gardienne de phare, dont le frère est resté là-haut quand la tempête a éteint la lumière
+accroche: « Mon frère tient le phare des falaises cette semaine. Depuis la tempête, il n'est plus allumé. Trois navires sont dans la baie, cette nuit, et ils ne verront pas les rochers. Il faut monter. Il faut rallumer. Et il faut que mon frère soit vivant. »
+postes: Tank, Healer
+duree: 5
+dangereuse: non
+epreuves: voyage 35 (escalader les falaises de la baie sous la tempête) ; siege 34 (forcer la porte du phare bloquée par l'éboulement) ; voyage 33 (redescendre avec un blessé, sous la pluie)
+complication: Le frère n'est pas blessé : il s'est enfermé là-haut après avoir appris que sa fiancée était à bord d'un des trois navires, et il a peur de ce qu'il pourrait voir.
+eclatante: {meneur} force la porte, trouve le frère prostré, et rallume le phare avec lui. Les trois navires passent les rochers. Au matin, la fiancée débarque au port, trempée, vivante. Ona offre à la guilde la vieille lentille du phare, fendue, qui fait des arcs-en-ciel au soleil.
+reussite: Le phare est rallumé à temps. Deux navires passent. Le troisième s'échoue, sans morts. Le frère d'Ona descend, sain et sauf.
+partielle: Le phare a été rallumé trop tard pour un des navires. Il a coulé. L'équipage a été repêché. Pas tout.
+echec: La tempête a gagné. Le phare est resté éteint. Ona a passé la nuit sur la jetée, à crier dans le vent.
+recompenses: po 30 ; reputation 3 ; objet Potion de soin 10
+
+=== BIL-I-029 | Le collectionneur de dents
+source: privee
+region: bilgewater
+palier: inconnue
+type: traque
+ton: horreur
+lieu: Mudtown
+demandeur: Nnamdi, tenancier de tripot, dont les joueurs qui gagnent trop se réveillent sans dents
+accroche: « Trois clients, trois gros gains, et trois bouches vides le lendemain. Pas de sang, pas de cris. Les dents, juste les dents. Un client qui perd ses dents ne revient plus jouer. Mauvais pour les affaires. Terrifiant aussi, mais surtout mauvais pour les affaires. »
+postes: Assassin, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: discretion 34 (passer la nuit dans le tripot comme un gros gagnant, et attendre) ; poursuite 35 (suivre une ombre qui file sur les toits de Mudtown)
+complication: Le voleur de dents est un vieux dentiste chassé de Piltover, qui paie ses dettes de jeu en fabriquant des dentiers… avec les dents des gagnants.
+eclatante: {meneur} fait semblant de dormir, sent les doigts du vieil homme, et l'attrape par le poignet. Le dentiste avoue tout et rend les dents, rangées dans des boîtes étiquetées. Il les remet en place lui-même, avec un talent remarquable. Nnamdi l'embauche : désormais, le tripot offre des soins dentaires aux perdants. C'est le seul tripot de Runeterra avec cette offre.
+reussite: Le voleur est pris, les dents rendues dans un sac. Personne ne sait plus lesquelles sont à qui. On s'arrange.
+partielle: Le voleur s'est échappé, mais il a laissé tomber sa trousse. Nnamdi l'expose au-dessus du comptoir, en avertissement.
+echec: Le voleur court toujours. Un client de la guilde a perdu deux molaires. Nnamdi trouve ça « presque drôle ».
+recompenses: po 30 ; reputation 2 ; objet Dague 6
+
+=== BIL-I-030 | La pirogue de l'ancêtre
+source: privee
+region: bilgewater
+palier: inconnue
+type: escorte
+ton: tendre
+lieu: Îles du Serpent
+demandeur: Kayode, jeune Buhru, qui doit rapporter la pirogue de son arrière-grand-mère sur son île natale
+accroche: « Elle est morte à cent deux ans, à Bilgewater. Elle voulait que sa pirogue rentre chez elle, sur l'île. Elle est vieille, la pirogue, et moi je ne sais pas encore bien ramer. Mais il faut que ce soit moi qui la ramène. C'est la coutume. »
+postes: Healer
+duree: 7
+dangereuse: non
+epreuves: voyage 31 (accompagner une pirogue fragile entre les îles, au rythme d'un jeune rameur) ; voyage 29 (passer le récif sans briser la coque ancienne)
+complication: À mi-chemin, Kayode se blesse à la main. Il refuse que quelqu'un d'autre rame : la coutume l'interdit.
+eclatante: {meneur} soigne la main de Kayode chaque soir, sans jamais toucher les rames. La pirogue arrive sur l'île au cinquième matin, menée par un rameur épuisé et fier. Tout le village est sur la plage. Ils chantent. La pirogue est hissée sous l'arbre des ancêtres, et Kayode reçoit son premier tatouage. La guilde reçoit un collier de dents de requin.
+reussite: La pirogue arrive, Kayode rame jusqu'au bout, la main bandée. Le village l'accueille sans un mot de trop. C'est le plus grand honneur.
+partielle: La pirogue arrive, mais fendue au récif. Elle est hissée quand même sous l'arbre des ancêtres. Les anciens disent qu'elle a voulu garder une cicatrice.
+echec: La pirogue s'est brisée au récif. Kayode a ramené un morceau de bois sur l'île. Les anciens disent que c'est assez. Il ne les croit pas.
+recompenses: po 15 ; reputation 2 ; objet Potion rechargeable 6
+
+=== BIL-I-031 | Le cuisinier fantôme
+source: privee
+region: bilgewater
+palier: inconnue
+type: enquete
+ton: drole
+lieu: Rue de la Flotte
+demandeur: Bastien Lacroix, cuisinier, persuadé que sa cuisine est hantée
+accroche: « Tous les matins, je trouve un plat sur le fourneau. Un plat que je n'ai pas fait. Délicieux. Meilleur que les miens. Je ne dors plus. Si c'est un fantôme, je veux qu'il parte. Si c'est un génie, je veux sa recette. »
+postes: Éclaireur
+duree: 2
+dangereuse: non
+epreuves: discretion 28 (passer la nuit cachée dans la cuisine, sans s'endormir à l'odeur du pain) ; poursuite 27 (rattraper le cuisinier mystère, s'il s'enfuit)
+complication: Le « fantôme » est un ancien chef de Gangplank, en fuite, qui dort dans la cave et cuisine pour ne pas devenir fou.
+eclatante: {meneur} surprend le chef en plein travail. Il s'excuse, explique qu'il ne peut pas s'empêcher de cuisiner, même en fuite. Bastien goûte, réfléchit, et lui propose une association. La taverne change de nom : « Les Deux Fourneaux ». On y fait la queue jusque sur le Pont du Boucher.
+reussite: Le cuisinier mystère est démasqué et chassé. Bastien garde ses fourneaux pour lui. Ses plats sont un peu moins bons qu'avant.
+partielle: Le fantôme a fui, mais il a laissé un carnet de recettes. Bastien l'étudie tous les soirs, en marmonnant.
+echec: Personne n'est venu cette nuit-là. Le lendemain, un plat. Avec un petit mot : « Raté. »
+recompenses: po 15 ; reputation 1 ; objet Potion de soin 5
+
+=== BIL-I-032 | La fille du capitaine Crow
+source: privee
+region: bilgewater
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Place des Coupe-Bourses
+demandeur: Ravenna, fille d'un capitaine du Conclave tué par Miss Fortune, qui veut parler à la reine
+accroche: « La reine a tué mon père au Conclave. Je ne veux pas me venger. Je veux son navire. Il est à moi, par droit. Je veux qu'on porte ma demande aux Sirènes sans qu'elles me tuent avant de l'avoir lue. »
+postes: Support, Tank
+duree: 4
+dangereuse: non
+risque: oui
+epreuves: diplomatie 44 (obtenir une audience auprès des Sirènes pour la fille d'un ennemi mort) ; combat 41 (tenir quand les anciens hommes de Crow veulent empêcher l'accord) ; diplomatie 42 (faire accepter à la reine qu'un navire rendu vaut mieux qu'une ennemie de plus)
+complication: Les anciens hommes de Crow ne veulent pas de Ravenna comme capitaine : ils veulent la guerre, et ils comptent l'utiliser comme prétexte.
+eclatante: {meneur} tient la porte face aux hommes de Crow, puis porte la demande jusqu'aux Sirènes. La reine lit, réfléchit, et rend le navire, à une condition : qu'il navigue sous un autre nom. Ravenna accepte. Les hommes de Crow, privés de leur guerre, se dispersent. La guilde reçoit l'estime silencieuse des Sirènes, ce qui, à Bilgewater, vaut un sauf-conduit.
+reussite: Ravenna obtient son audience et un délai. Le navire reste à quai, en attendant. C'est déjà plus qu'elle n'espérait.
+partielle: L'audience a eu lieu, mal. Ravenna est repartie vivante, sans navire. C'est déjà quelque chose, à Bilgewater.
+echec: Les hommes de Crow ont attaqué pendant la négociation. Les Sirènes y ont vu une trahison. Ravenna a dû fuir la ville.
+recompenses: po 130 ; reputation 4 ; objet Bouclier de Doran 10
+
+=== BIL-I-033 | Les mouettes de la poissonnerie
+source: privee
+region: bilgewater
+palier: inconnue
+type: defense
+ton: drole
+lieu: Port-aux-Rats
+demandeur: Gaspard, poissonnier, assiégé par une armée de mouettes
+accroche: « Elles sont deux cents. Elles ont un chef. Une grosse, avec une patte en moins. Elle me regarde dans les yeux en volant mon poisson. Je n'en peux plus. Je veux une stratégie, des boucliers, et peut-être un psychologue pour mouettes. »
+postes: Mage
+duree: 2
+dangereuse: non
+epreuves: nuee 29 (protéger l'étal pendant l'arrivée des bateaux de pêche, sous un ciel noir de mouettes) ; poursuite 27 (trouver le nid de la cheffe et la convaincre d'aller voler ailleurs)
+complication: La cheffe des mouettes a été dressée par un poissonnier concurrent, qui la nourrit pour qu'elle ne pille que l'étal de Gaspard.
+eclatante: {meneur} repousse la nuée avec quelques éclats de magie bien placés, puis suit la cheffe jusqu'à l'étal du concurrent, où elle reçoit sa récompense. Le poissonnier rival est pris en flagrant délit de dressage. Gaspard négocie : la cheffe reste, mais elle garde désormais son étal à lui. Elle est payée en têtes de poisson, et elle s'en contente.
+reussite: Les mouettes sont repoussées, l'étal tenu pour la journée. Gaspard installe des filets. La cheffe le regarde encore dans les yeux, mais de plus loin.
+partielle: L'étal a perdu la moitié de son poisson, mais la cheffe a disparu. Gaspard pense qu'elle reviendra. Il a raison.
+echec: Les mouettes ont gagné. Gaspard vend maintenant des légumes. Les mouettes ne mangent pas de légumes. Pour l'instant.
+recompenses: po 10 ; reputation 1 ; objet Charme féerique 5
+
+=== BIL-I-034 | Les cartes marines de l'aveugle
+source: privee
+region: bilgewater
+palier: inconnue
+type: livraison
+ton: mystere
+lieu: Grottes du marché noir
+demandeur: Siméon, vieux cartographe aveugle, qui ne sort plus des grottes
+accroche: « J'ai dessiné une carte des courants de la baie, de mémoire. Elle vaut une fortune. Il faut la porter à un capitaine buhru, au temple. Personne ne doit savoir qu'elle existe. Et surtout pas qu'elle vient de moi. »
+postes: Assassin, Support
+duree: 3
+dangereuse: non
+epreuves: discretion 33 (sortir des grottes du marché noir avec une carte que tout le monde voudrait) ; diplomatie 31 (convaincre le capitaine buhru de la prendre au sérieux)
+complication: La carte indique aussi l'endroit exact où dort l'épave du navire de Gangplank, et ce qui reste de son trésor.
+eclatante: {meneur} porte la carte, et remarque la croix discrète sur l'épave. Le capitaine buhru, honnête, la signale lui-même au temple. Le trésor de Gangplank n'est jamais remonté : les Buhrus le laissent à la Mère Serpent, en dîme. Siméon, en apprenant la nouvelle, rit pendant une heure. « Enfin quelqu'un qui paie ce qu'il doit. »
+reussite: La carte arrive, le capitaine paie bien. Siméon reçoit sa part en silence, et commande du rhum pour toute la grotte.
+partielle: La carte arrive, mais quelqu'un a vu l'équipe entrer au temple. On commence à chuchoter sur le vieux Siméon.
+echec: La carte a été volée en chemin. Une semaine plus tard, trois navires ont coulé en cherchant l'épave. Siméon ne dessine plus.
+recompenses: po 30 ; reputation 2 ; objet Tome d'amplification 6
+
+=== BIL-I-035 | La noyée qui chante
+source: privee
+region: bilgewater
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Cimetières marins
+demandeur: Chiamaka, passeuse des morts, qui entend une voix sous l'eau
+accroche: « Chaque nuit, au moment de la marée, une voix chante sous le cimetière flottant. Une berceuse buhru. La morte qui repose là était muette, de son vivant. Je n'ai pas peur. Je veux comprendre. »
+postes: Mage, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: discretion 34 (approcher en barque, sans bruit, à l'heure de la marée) ; voyage 33 (plonger sous les bouées, dans l'eau noire du cimetière)
+complication: La voix vient d'un coquillage géant, pris dans les chaînes de la bouée, qui a appris la berceuse en l'entendant chanter à l'enterrement par la fille de la morte.
+eclatante: {meneur} remonte le coquillage, qui chante encore, doucement. Chiamaka retrouve la fille de la morte, qui écoute sa propre voix d'enfant, chantée par la mer. Le coquillage est rendu à l'eau, au même endroit. Les passeurs disent maintenant que la mer se souvient des berceuses.
+reussite: La source du chant est trouvée : un coquillage. Le mystère est levé. Chiamaka le laisse en place. Elle aime l'entendre.
+partielle: L'équipe a vu quelque chose briller sous l'eau, sans pouvoir l'atteindre. Le chant continue. Chiamaka dit que c'est peut-être mieux comme ça.
+echec: L'eau était trop noire, le courant trop fort. Le chant s'est tu le lendemain. On ne saura jamais.
+recompenses: po 25 ; reputation 2 ; objet Cristal de saphir 7
+
+=== BIL-I-036 | Le fils du docker
+source: privee
+region: bilgewater
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Docks de l'Abattoir
+demandeur: Olumide, docker, dont le fils a été enrôlé de force sur un navire de chasse
+accroche: « Il a quatorze ans. Il est parti boire avec des marins, et il s'est réveillé à bord. Le navire part demain à l'aube, pour trois mois. Il ne sait pas nager. Il ne sait pas harponner. Il sait juste rire. Ramenez-le-moi. »
+postes: Assassin, Combattant
+duree: 4
+dangereuse: non
+epreuves: discretion 35 (monter à bord la nuit, parmi un équipage qui veille) ; combat 33 (redescendre avec l'enfant si l'équipage s'en mêle)
+complication: Le garçon ne veut pas descendre : il a signé de sa main, pour fuir son père, qui le bat.
+eclatante: {meneur} trouve le garçon, entend la vérité, et ne le force pas. L'équipe parle au capitaine, qui accepte de garder le garçon comme mousse, payé, protégé. Puis elle parle à Olumide. Longtemps. Il pleure. Le navire part à l'aube, avec un enfant qui rit sur le pont. La guilde est payée moins que prévu. Personne ne réclame.
+reussite: Le garçon est ramené à terre, contre son gré. Olumide le serre dans ses bras. Le garçon ne dit rien. On ne sait pas ce qu'il deviendra.
+partielle: Le garçon a été ramené, puis il s'est enfui de nouveau, le lendemain. Vers où, personne ne sait.
+echec: Le navire est parti à l'aube, avec l'enfant. Olumide attend sur les docks. Trois mois.
+recompenses: po 25 ; reputation 3 ; objet Potion de soin 8
+
+=== BIL-I-037 | Le parfum des abysses
+source: privee
+region: bilgewater
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Baie de Bilgewater
+demandeur: Lady Ysolde, parfumeuse de Piltover, qui a besoin d'une glande d'abyssal pour son chef-d'œuvre
+accroche: « Un œil des abysses produit, sous sa nageoire, une glande qui sent l'orage et la nuit. Un seul flacon et je suis la parfumeuse la plus célèbre de Piltover. Je paie. Je paie bien. Je ne descends pas dans l'eau. »
+postes: Tireur, Tank
+duree: 6
+dangereuse: non
+epreuves: voyage 34 (attirer un œil des abysses près de la surface, au large des falaises) ; combat 36 (le blesser juste assez pour prélever la glande, sans le tuer)
+complication: L'œil des abysses n'est pas seul : il chasse en couple, et le second attend sous la barque.
+eclatante: {meneur} prélève la glande d'un geste précis et laisse les deux bêtes repartir vers le fond. Lady Ysolde crée le parfum « Nuit sur Bilgewater ». Il se vend une fortune à Piltover. Elle envoie à la guilde un flacon, avec une étiquette où figure le nom du repère. Il sent l'orage, la nuit, et un peu le poisson. Mais surtout l'orage.
+reussite: La glande est prélevée, le parfum est créé. Lady Ysolde paie, et repart, ravie, sans un regard pour la mer.
+partielle: La glande a été abîmée pendant le prélèvement. Le parfum sent plus le poisson que l'orage. Lady Ysolde paie à moitié.
+echec: Le second œil a retourné la barque. L'équipe a nagé jusqu'aux falaises. Lady Ysolde a « reconsidéré son projet ».
+recompenses: po 40 ; reputation 2 ; objet Cristal de rubis 6
+
+=== BIL-I-038 | Le prêtre qui ne savait pas nager
+source: privee
+region: bilgewater
+palier: inconnue
+type: escorte
+ton: drole
+lieu: Pont du Serpent
+demandeur: Frère Ikenna, jeune prêtre buhru, qui doit traverser le Pont du Serpent les yeux bandés
+accroche: « C'est mon épreuve d'initiation. Traverser le pont, les yeux bandés, et la Mère Serpent guide mes pas. Le problème, c'est que la Mère Serpent ne m'a jamais guidé nulle part, et que le pont n'a pas de rambarde. Accompagnez-moi. Sans me toucher, c'est la règle. »
+postes: Support
+duree: 2
+dangereuse: non
+epreuves: diplomatie 28 (guider un prêtre aveuglé par la seule voix, sans jamais le toucher) ; voyage 30 (le rattraper par la manche s'il tombe, en faisant croire au miracle)
+complication: Ses frères prêtres ont graissé une pierre du pont, pour rire. C'est aussi une tradition.
+eclatante: {meneur} guide Frère Ikenna de la voix, pas à pas, et le fait contourner la pierre graissée. Il arrive de l'autre côté, sous les acclamations, convaincu que la Mère Serpent lui a parlé. Peut-être. Les frères farceurs, eux, glissent sur leur propre pierre en rentrant. Le temple rit pendant une semaine.
+reussite: Ikenna traverse, en titubant, mais sans tomber. Il est initié. Il garde le bandeau en souvenir.
+partielle: Ikenna glisse sur la pierre graissée, mais retombe sur le pont. Il est initié, avec une cheville foulée et une solide réputation de miraculé.
+echec: Ikenna est tombé à l'eau. On l'a repêché. Il devra recommencer l'an prochain, et apprendre à nager d'ici là.
+recompenses: po 10 ; reputation 1 ; objet Charme féerique 7
+
+=== BIL-I-039 | L'ironback du marché noir
+source: privee
+region: bilgewater
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Grottes du marché noir
+demandeur: Obiora, dresseur, dont l'ironback a brisé sa chaîne et défonce les grottes
+accroche: « Un ironback, c'est une bête de siège. Le mien est jeune, il a peur, et quand il a peur, il charge. Il a déjà défoncé trois échoppes. Les marchands vont le tuer. Aidez-moi à le calmer avant. »
+postes: Tank
+duree: 3
+dangereuse: non
+epreuves: siege 30 (encaisser les charges d'un ironback affolé dans les galeries étroites) ; poursuite 28 (le guider vers la sortie sans qu'il écrase personne)
+complication: L'ironback n'a pas peur : il a mal. Un clou rouillé est planté sous sa carapace, depuis le transport.
+eclatante: {meneur} encaisse trois charges sans broncher, puis voit le clou. La bête se laisse faire, d'un coup, quand on le lui retire. Elle pose sa tête énorme sur l'épaule de son sauveur. Obiora rembourse les échoppes, et l'ironback, une fois guéri, devient la bête de trait du marché noir. Les enfants lui donnent des pommes.
+reussite: L'ironback est mené hors des grottes, calmé, rattaché. Obiora paie les dégâts et la guilde. Il lui reste de quoi manger une semaine.
+partielle: L'ironback est maîtrisé, mais une galerie s'est effondrée pendant la poursuite. Personne n'est mort. Les marchands ont la mémoire longue.
+echec: Les marchands ont abattu l'ironback avant que la guilde ne le calme. Obiora a vendu sa chaîne.
+recompenses: po 20 ; reputation 2 ; objet Armure de tissu 7
+
+=== BIL-I-040 | Les ballots du Temple
+source: privee
+region: bilgewater
+palier: inconnue
+type: livraison
+ton: tendre
+lieu: Temple de la Mère Serpent
+demandeur: Sœur Ngozi, qui distribue la soupe du temple aux sans-abri de Port-aux-Rats
+accroche: « Les marchands ont promis des sacs de riz pour la soupe, mais ils ne livrent plus jusqu'au temple : le chemin est trop long, trop raide, et il y a trop de voleurs. Les sacs sont au port. Les gens ont faim au temple. Il faut que l'un aille jusqu'à l'autre. »
+postes: Combattant, Support
+duree: 4
+dangereuse: non
+epreuves: voyage 31 (monter les sacs par le Pont du Serpent, à dos, sous le soleil) ; combat 30 (décourager les voleurs qui guettent les porteurs dans les virages)
+complication: Les « voleurs » sont des enfants affamés du quartier, qui volent pour manger, et qui iront à la soupe de toute façon.
+eclatante: {meneur} reconnaît des enfants dans les voleurs et les invite à porter les sacs avec l'équipe. Ils arrivent au temple en chantant, épuisés, et mangent les premiers. Sœur Ngozi en embauche trois pour la livraison suivante, payés en soupe et en bénédictions. Les marchands, honteux, reprennent leurs livraisons.
+reussite: Les sacs arrivent au temple, au complet. La soupe est servie. Sœur Ngozi bénit l'équipe, puis lui tend une louche.
+partielle: Deux sacs sur cinq ont été volés dans les virages. La soupe est plus claire, ce soir. Personne ne se plaint.
+echec: Les sacs sont restés au port. Les gens du temple ont eu faim. Sœur Ngozi n'a rien dit. Elle a juste servi de l'eau chaude.
+recompenses: po 10 ; reputation 2 ; objet Potion de soin 7
+
+=== BIL-I-041 | Recensement des épaves
+source: institution
+region: bilgewater
+palier: inconnue
+type: exploration
+ton: politique
+lieu: Baie de Bilgewater
+demandeur: la Chambre des Bannières, à la demande des Sirènes, qui veulent savoir ce qui dort dans la baie
+accroche: « Contrat public. Recensement des épaves de la baie depuis la chute de Gangplank : position, pavillon, état, cargaison visible. Ne rien remonter. Ne rien toucher. Tout rapporter. »
+postes: Éclaireur, Support
+duree: 6
+dangereuse: non
+epreuves: voyage 34 (plonger sur une douzaine d'épaves en une journée) ; discretion 33 (ne pas se faire voir des pilleurs d'épaves, qui n'aiment pas les recenseurs)
+complication: Une des épaves porte un pavillon noxien. Elle n'est pas censée être là : Noxus n'a jamais admis avoir attaqué la baie.
+eclatante: {meneur} relève tout, y compris le pavillon noxien, et le note en marge, sans un mot de plus. La Chambre transmet le rapport aux Sirènes, qui le transmettent… ailleurs. Une semaine plus tard, un émissaire noxien quitte Bilgewater précipitamment. La guilde est citée dans le registre de la Chambre comme « fiable et discrète ».
+reussite: Le recensement est complet. La Chambre classe le rapport. Les Sirènes le lisent, et ne disent rien.
+partielle: La moitié des épaves seulement a été recensée : les pilleurs ont chassé l'équipe avant la fin. La Chambre paie la moitié.
+echec: L'équipe n'a pas pu plonger : la baie était tenue par les pilleurs. La Chambre a confié le contrat à une autre guilde.
+recompenses: po 35 ; reputation 3 ; objet Bottes 6
+
+=== BIL-I-042 | Les bouées dérivantes
+source: institution
+region: bilgewater
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Cimetières marins
+demandeur: la Chambre des Bannières, pour la confrérie des passeurs des morts
+accroche: « Contrat public. La tempête a arraché trente bouées funéraires de leurs chaînes. Elles dérivent vers le large avec leurs morts. Les ramener, les rattacher, sans les ouvrir. »
+postes: Tank, Healer
+duree: 6
+dangereuse: non
+epreuves: voyage 35 (rattraper les bouées qui dérivent dans la houle) ; siege 33 (rattacher les chaînes au fond, à la force des bras)
+complication: Une bouée est vide. Le mort qu'elle portait n'est pas tombé : il a été retiré, il y a longtemps, et personne ne l'a jamais signalé.
+eclatante: {meneur} ramène les trente bouées, dont la vide, et la confrérie ouvre une enquête. Le mort disparu était un marin de Gangplank, retiré par sa famille pour être enterré sur la terre ferme, contre la coutume. La confrérie pardonne, et grave le nom sur une nouvelle bouée. La Chambre note la mission comme « accomplie avec respect ».
+reussite: Les bouées sont rattachées, la confrérie soulagée. Les passeurs offrent une fleur de sel à chaque membre de l'équipe.
+partielle: Vingt bouées sur trente ont été rattrapées. Les autres sont parties vers le large. La confrérie dit une prière pour elles.
+echec: La houle a gagné. Les bouées ont dérivé. La confrérie organise une cérémonie pour trente morts perdus une seconde fois.
+recompenses: po 30 ; reputation 3 ; objet Charme féerique 10
+
+=== BIL-I-043 | L'inventaire de l'entrepôt
+source: institution
+region: bilgewater
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Entrepôt de Gangplank
+demandeur: la Chambre des Bannières, chargée de régler les litiges entre marchands après la chute de Gangplank
+accroche: « Contrat public. Inventaire de ce qui reste dans l'entrepôt de Gangplank, et médiation entre les quatre marchands qui en revendiquent le contenu. Aucune violence tolérée. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 31 (tenir une table de quatre marchands qui se détestent) ; diplomatie 30 (faire signer un partage avant que quelqu'un sorte un couteau)
+complication: Un cinquième marchand, absent, a la meilleure revendication de tous : c'est une vieille femme qui n'ose pas se présenter.
+eclatante: {meneur} fait venir la vieille marchande absente, preuves à l'appui, et le partage se fait en cinq, sous les yeux de la Chambre. Les quatre autres marchands n'osent pas protester devant elle. Le registre de la Chambre crédite la guilde d'un « partage exemplaire », et la vieille marchande lui envoie chaque mois un sac de café.
+reussite: Le partage est signé, à quatre. La Chambre est satisfaite. Personne n'a sorti de couteau.
+partielle: Trois marchands ont signé, le quatrième a quitté la table. La Chambre devra trancher elle-même.
+echec: Un couteau a été sorti. Personne n'a été blessé. La Chambre a fermé l'entrepôt, et les marchands ont tout perdu, ensemble.
+recompenses: po 25 ; reputation 3 ; objet Tome d'amplification 5
+
+=== BIL-I-044 | Patrouille de l'Harrowing
+source: institution
+region: bilgewater
+palier: inconnue
+type: exploration
+ton: horreur
+lieu: Port-Gris
+demandeur: la Chambre des Bannières, qui fait relever le niveau de la Brume avant chaque Harrowing
+accroche: « Contrat public. Relever la hauteur de la Brume noire à Port-Gris, en six points précis, et revenir avant la nuit. Ne pas dépasser le troisième point si la Brume monte. »
+postes: Éclaireur, Mage
+duree: 4
+dangereuse: non
+epreuves: voyage 34 (gagner les six points de relevé, de toit en toit, au-dessus de la Brume) ; discretion 35 (redescendre sans attirer les errants qui suivent la lumière)
+complication: Au cinquième point, la Brume monte d'un coup, comme une marée. Il reste un relevé, et très peu de temps.
+eclatante: {meneur} prend le sixième relevé à la dernière seconde, et l'équipe court sur les toits avec la Brume aux talons. Le rapport montre que la Brume a monté de deux mains en un mois. La Chambre déclenche l'alerte de l'Harrowing une semaine plus tôt que d'habitude. Cette année-là, Bilgewater est prête.
+reussite: Cinq relevés sur six, et une équipe saine et sauve. La Chambre ajuste ses prévisions.
+partielle: Trois relevés seulement. La Chambre n'a pas assez de données pour prévoir. Elle paie, en soupirant.
+echec: L'équipe a dû fuir dès le deuxième point. La Brume a gardé ses secrets.
+recompenses: po 30 ; reputation 3 ; objet Cape de négation 6
+
+=== BIL-I-045 | Les razorfins du chenal
+source: institution
+region: bilgewater
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Canaux
+demandeur: la Chambre des Bannières, pour le compte des passeurs et des bateliers
+accroche: « Contrat public. Un banc de razorfins échappés d'un élevage clandestin a pris possession du grand chenal. Deux barques coulées. Disperser le banc, détruire l'élevage. »
+postes: Tireur, DPS
+duree: 4
+dangereuse: non
+epreuves: nuee 35 (repousser le banc de razorfins qui attaque tout ce qui flotte) ; poursuite 33 (remonter le chenal jusqu'à l'élevage caché)
+complication: L'éleveur clandestin est un ancien harponneur, qui élève les razorfins pour les vendre comme bêtes de garde aux tripots de Mudtown.
+eclatante: {meneur} disperse le banc et remonte jusqu'à l'élevage. L'éleveur ne résiste pas. La Chambre le condamne à nettoyer les canaux, pendant un an, avec les razorfins rescapés qu'il doit dresser à manger les déchets. Ça marche. Les canaux n'ont jamais été aussi propres.
+reussite: Le banc est dispersé, l'élevage détruit. Le chenal est rendu aux barques. L'éleveur a fui vers Mudtown.
+partielle: Le banc est dispersé, mais l'élevage n'a pas été trouvé. Les razorfins reviendront, un jour.
+echec: Les razorfins ont gardé le chenal. Une troisième barque a coulé. La Chambre a fait fermer le passage.
+recompenses: po 30 ; reputation 2 ; objet Épée longue 7
+
+=== BIL-I-046 | La dîme des capitaines
+source: institution
+region: bilgewater
+palier: inconnue
+type: diplomatie
+ton: mystere
+lieu: Puits du Serpent
+demandeur: la Chambre des Bannières, sur demande du temple de la Mère Serpent
+accroche: « Contrat public. Les dîmes déposées au Puits du Serpent ont baissé de moitié depuis deux lunes. Les capitaines jurent qu'ils paient. Le temple jure qu'il ne reçoit rien. Trouver où passe la différence. »
+postes: Éclaireur, Support
+duree: 4
+dangereuse: non
+epreuves: discretion 34 (surveiller le Puits pendant trois marées sans être vu) ; diplomatie 33 (interroger capitaines et gardiens sans accuser personne)
+complication: Personne ne vole : une grande tortue de mer s'est installée au fond du Puits, et elle mange les pièces. Les Buhrus disent que c'est un signe.
+eclatante: {meneur} découvre la tortue, qui avale tranquillement une pièce d'argent. Les prêtres buhrus sont fous de joie : une tortue au Puits, c'est la Mère Serpent qui goûte elle-même ses offrandes. La dîme double dans la semaine, tout le monde veut nourrir la tortue. La Chambre n'a jamais rédigé de rapport aussi étrange.
+reussite: La tortue est découverte, et une grille est posée. Les dîmes reviennent au temple. La tortue va manger ailleurs.
+partielle: L'équipe a vu « quelque chose de grand » au fond du Puits, sans pouvoir dire quoi. Le temple a lancé une prière. Les dîmes baissent toujours.
+echec: Le temple accuse les capitaines, les capitaines accusent le temple. La Chambre a classé l'affaire, et la tortue mange toujours.
+recompenses: po 25 ; reputation 2 ; objet Charme féerique 9
+
+=== BIL-I-047 | Le convoi de sel
+source: institution
+region: bilgewater
+palier: inconnue
+type: escorte
+ton: tragique
+lieu: Port de Bilgewater
+demandeur: la Chambre des Bannières, qui garantit le passage d'un convoi humanitaire
+accroche: « Contrat public. Escorter un convoi de sel et de grain vers les familles des marins disparus dans la tempête du mois dernier. Le convoi a déjà été pillé une fois. »
+postes: Tank, Tireur
+duree: 5
+dangereuse: non
+epreuves: combat 34 (tenir le convoi face aux pilleurs dans les ruelles du port) ; voyage 32 (distribuer le grain dans les maisons des veuves avant la nuit)
+complication: Les pilleurs sont des familles de marins disparus elles aussi, oubliées par la liste de la Chambre parce qu'elles vivent hors du registre.
+eclatante: {meneur} arrête les pilleurs, découvre leur histoire, et fait ajouter leurs noms à la liste, sur place, au nom de la Chambre. Le grain est partagé entre toutes les familles. La Chambre corrige son registre et envoie un second convoi. Une vieille femme vient remercier l'équipe avec un poisson séché, le seul qu'elle ait.
+reussite: Le convoi arrive, les veuves reçoivent leur grain. Les pilleurs repartent les mains vides. Ils reviendront.
+partielle: La moitié du convoi a été pillée. Les veuves partagent ce qui reste. La Chambre envoie ses excuses, et rien d'autre.
+echec: Le convoi a été pillé entièrement. La Chambre a ouvert une enquête. Les familles ont eu faim, toutes.
+recompenses: po 25 ; reputation 3 ; objet Potion de soin 9
+
+=== BIL-I-048 | Le serpent sous le pont
+source: institution
+region: bilgewater
+palier: inconnue
+type: sauvetage
+ton: tendre
+lieu: Pont du Serpent
+demandeur: la Chambre des Bannières, alertée par les enfants du temple
+accroche: « Contrat public. Un jeune serpent de mer s'est pris dans les filets accrochés sous le Pont du Serpent. Il se débat, il va abîmer le pont, et les enfants du temple refusent qu'on le tue. Le libérer. »
+postes: Support, Healer
+duree: 3
+dangereuse: non
+epreuves: voyage 31 (descendre sous le pont, au plus près d'une bête qui se débat) ; diplomatie 29 (calmer le serpent assez longtemps pour couper les filets)
+complication: La mère du jeune serpent attend sous l'eau, juste à côté. Elle observe chaque geste.
+eclatante: {meneur} coupe le dernier filet sous l'œil immense de la mère, qui ne bouge pas. Le petit file la rejoindre. Les enfants du temple applaudissent sur le pont. Le lendemain, des pêcheurs racontent qu'un grand serpent a chassé les razorfins de la baie pendant toute une nuit. Les Buhrus disent que c'était un merci.
+reussite: Le jeune serpent est libéré, le pont est sauf. Les enfants du temple dessinent la scène sur le mur du temple.
+partielle: Le serpent est libéré, mais blessé par les filets. Il nage mal en partant. Les enfants prient pour lui.
+echec: Le serpent s'est étranglé dans les filets avant d'être libéré. Les enfants ont pleuré. La Chambre a fait retirer tous les filets du pont.
+recompenses: po 20 ; reputation 2 ; objet Cristal de saphir 6
+
+=== BIL-I-049 | La caisse de la reine
+source: institution
+region: bilgewater
+palier: inconnue
+type: livraison
+ton: politique
+lieu: Port-aux-Rats
+demandeur: la Chambre des Bannières, pour le trésor des Sirènes
+accroche: « Contrat public. Transporter la recette des taxes du port jusqu'au trésor des Sirènes, à travers Port-aux-Rats. La caisse est lourde. La route aussi. »
+postes: Tank, Assassin
+duree: 3
+dangereuse: non
+epreuves: combat 33 (repousser les Crochets dentelés, qui considèrent encore cette recette comme la leur) ; discretion 32 (changer de route à la dernière minute sans se faire suivre)
+complication: Un des porteurs de la caisse est payé par les Crochets pour indiquer la route.
+eclatante: {meneur} repère le porteur qui fait des signes aux fenêtres et change de route au dernier moment. Les Crochets attendent dans une rue vide. La caisse arrive intacte, le traître est livré aux Sirènes. Miss Fortune elle-même, dit-on, a demandé le nom de la guilde. On ne sait pas si c'est bon signe. À Bilgewater, c'est toujours un peu les deux.
+reussite: La caisse arrive, les Crochets n'ont rien eu. La Chambre paie, et ne pose pas de questions sur les bleus.
+partielle: La caisse est arrivée allégée d'un tiers. Les Sirènes ont demandé des comptes à la Chambre, qui en demande à la guilde.
+echec: Les Crochets ont pris la caisse. La Chambre a dû rembourser les Sirènes. Elle s'en souviendra.
+recompenses: po 35 ; reputation 2 ; objet Bouclier de Doran 7
+
+=== BIL-I-050 | Le chant des harponneurs
+source: institution
+region: bilgewater
+palier: inconnue
+type: exploration
+ton: tendre
+lieu: Îles du Serpent
+demandeur: la Chambre des Bannières, pour une société de conteurs de Piltover qui recueille les chants de marins
+accroche: « Contrat public. Accompagner un conteur jusqu'aux Îles du Serpent pour y recueillir les chants de harponneurs que les anciens Buhrus sont seuls à connaître encore. Assurer sa sécurité et sa politesse. »
+postes: Support, Tireur
+duree: 7
+dangereuse: non
+epreuves: voyage 33 (traverser jusqu'aux îles et circuler d'un village à l'autre) ; diplomatie 34 (convaincre les anciens de chanter pour un étranger)
+complication: Les anciens acceptent de chanter, à une condition : que le conteur chante lui aussi un chant de chez lui. Il ne sait pas chanter.
+eclatante: {meneur} chante à la place du conteur, faux, mais de bon cœur, une chanson de taverne du repère. Les anciens rient aux larmes, puis chantent toute la nuit, des chants que personne n'avait entendus depuis cinquante ans. Le recueil est publié à Piltover. La chanson du repère y figure aussi, en annexe, avec une note : « interprétée par une guilde, avec plus d'enthousiasme que de justesse ».
+reussite: Le conteur rapporte douze chants. Les anciens ont chanté à contrecœur, mais ils ont chanté. La Chambre est satisfaite.
+partielle: Trois chants seulement. Les anciens ont trouvé le conteur trop pressé. La Chambre paie quand même.
+echec: Les anciens ont refusé. Le conteur est rentré à Piltover avec un carnet vide et un coup de soleil.
+recompenses: po 25 ; reputation 2 ; objet Tome d'amplification 7

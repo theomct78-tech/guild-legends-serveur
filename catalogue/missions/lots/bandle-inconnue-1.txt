@@ -1,0 +1,505 @@
+# Bandle · palier Inconnue · lot 1 (missions 001 à 025)
+# {meneur} : le héros qui a mené l'épreuve décisive. La Chambre des Bannières : l'organisme supérieur aux guildes.
+# À Bandle, le danger est rarement grave, mais toujours bizarre. Les demandeurs sont des yordles, ou des mortels égarés.
+
+=== BAN-I-001 | Le chapeau du maire
+source: privee
+region: bandle
+palier: inconnue
+type: recuperation
+ton: drole
+lieu: Bandle
+demandeur: le maire de Bandle, qui n'a aucun pouvoir, mais beaucoup de chapeaux
+accroche: « Mon chapeau de cérémonie s'est envolé pendant mon discours. Il est parti vers le nord, tout seul, contre le vent. Il a toujours eu du caractère. Sans lui, personne ne m'écoutera. Bon, personne ne m'écoute de toute façon. Mais avec lui, ils font semblant. »
+postes: Éclaireur
+duree: 2
+dangereuse: non
+epreuves: poursuite 28 (suivre un chapeau qui vole contre le vent à travers la ville) ; diplomatie 27 (convaincre le chapeau de redescendre, ou celui qui l'a attrapé de le rendre)
+complication: Le chapeau a été enchanté par des enfants yordles, qui voulaient qu'il « rentre à la maison ». Sa maison, c'est la boutique du chapelier, à l'autre bout de la ville.
+eclatante: {meneur} rattrape le chapeau devant la boutique du chapelier, et découvre que celui-ci lui a fabriqué un petit frère. Le maire repart avec deux chapeaux, l'un sur l'autre, et prononce le discours le plus long de l'histoire de Bandle. Personne ne l'écoute. Mais tout le monde regarde les chapeaux. Le maire appelle ça un triomphe.
+reussite: Le chapeau est rattrapé et rendu. Le maire reprend son discours là où il l'avait laissé. Personne ne s'en souvient.
+partielle: Le chapeau est rendu, mais il s'envole de nouveau une fois par jour. Le maire l'attache avec une ficelle.
+echec: Le chapeau a disparu dans un portail. Le maire en porte un autre. Il dit que ce n'est pas pareil. C'est vrai.
+recompenses: po 10 ; reputation 1 ; objet Charme féerique 6
+
+=== BAN-I-002 | Le mortel égaré
+source: privee
+region: bandle
+palier: inconnue
+type: escorte
+ton: tendre
+lieu: Bois de Bandle
+demandeur: Elric Dunmore, berger de Demacia, tombé par hasard dans un portail en courant après un mouton
+accroche: « J'ai couru après mon mouton. Il est passé sous un arbre. Je l'ai suivi. Maintenant, il y a des petites personnes poilues qui me regardent et des champignons qui chantent. Le mouton est très content. Moi, je voudrais rentrer. Ma femme doit croire que je suis mort. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: voyage 30 (traverser le Bois de Bandle avec un grand mortel qui se cogne partout) ; diplomatie 29 (trouver un yordle qui sait quel portail mène à Demacia)
+complication: Le berger est à Bandle depuis trois jours, pour lui. Mais à Demacia, le temps a filé : il s'est écoulé deux mois.
+eclatante: {meneur} trouve le bon portail, et prévient le berger de ce qui l'attend de l'autre côté. Il rentre chez lui avec un panier de champignons chanteurs, pour prouver son histoire. Sa femme, qui portait déjà le deuil, le prend dans ses bras, puis lui jette une chaussure. Puis elle goûte les champignons. Elle croit tout. Le mouton, lui, est resté à Bandle. Il y est très heureux.
+reussite: Le berger est ramené à Demacia, un peu plus vieux qu'il ne le pense. Sa femme l'attend. Il ne racontera jamais rien.
+partielle: Le berger est rentré, mais par un portail qui l'a déposé à trois jours de chez lui. Il marche. Il est vivant.
+echec: L'équipe n'a pas trouvé le bon portail. Le berger s'est installé à Bandle, pour l'instant. Il garde des moutons qui volent.
+recompenses: po 15 ; reputation 2 ; objet Bottes 6
+
+=== BAN-I-003 | L'invention qui marche presque
+source: privee
+region: bandle
+palier: inconnue
+type: defense
+ton: drole
+lieu: Bandle
+demandeur: Gizzelbrock, inventeur yordle, dont la machine à faire les lits s'est rebellée
+accroche: « Elle devait faire les lits. Elle fait les lits. Elle fait tous les lits. Elle fait les lits des gens qui sont dedans. Elle fait les lits des gens qui sont dans la rue. Elle a fait le lit du maire, avec le maire. Il faut l'arrêter. Doucement. Elle est très fière d'elle. »
+postes: Tank
+duree: 3
+dangereuse: non
+epreuves: siege 29 (bloquer une machine qui borde tout ce qui bouge) ; poursuite 28 (la rattraper dans les rues de Bandle)
+complication: La machine ne s'arrête qu'avec un mot de passe. Gizzelbrock l'a oublié.
+eclatante: {meneur} se laisse border par la machine, exprès, pour atteindre son panneau de commande. Gizzelbrock essaie cinquante mots. Le cinquante et unième, c'est « bonne nuit ». La machine s'arrête, satisfaite, et s'endort. Elle fait désormais le lit du repère de la guilde, chaque semaine, gratuitement. Elle est très douée.
+reussite: La machine est arrêtée, un peu cabossée. Gizzelbrock la démonte. Il en fera une machine à faire la vaisselle. Ça ira mieux.
+partielle: La machine est arrêtée, mais pas avant d'avoir bordé la moitié de la ville. Bandle a très bien dormi, ce jour-là.
+echec: La machine a bordé l'équipe, puis elle est partie dans le Bois de Bandle. On dit qu'elle borde les champignons.
+recompenses: po 15 ; reputation 1 ; objet Armure de tissu 6
+
+=== BAN-I-004 | La fleur d'argent
+source: privee
+region: bandle
+palier: inconnue
+type: recuperation
+ton: mystere
+lieu: Portail du marais
+demandeur: Pipwhistle, gardienne des portails, qui a besoin d'une fleur d'argent pour rouvrir un passage
+accroche: « Le portail du marais s'ouvre quand on plante une fleur d'argent dans la boue. Il est fermé depuis un mois : plus personne ne trouve de fleur d'argent. Un vieil ami est coincé de l'autre côté. Il doit avoir faim. Et il doit en avoir assez de manger des grenouilles. »
+postes: Éclaireur, Mage
+duree: 4
+dangereuse: non
+epreuves: voyage 31 (fouiller le marais à la recherche d'une fleur qui n'apparaît qu'à la lueur de la lune) ; poursuite 30 (suivre le reflet d'argent sur l'eau, la nuit)
+complication: Les fleurs d'argent ont toutes été cueillies par un collectionneur yordle, qui les garde dans un vase, chez lui.
+eclatante: {meneur} remonte la piste jusqu'au collectionneur, qui ne savait pas que ses fleurs ouvraient des portails. Il est horrifié, et rend tout le vase. Le portail du marais se rouvre. L'ami de Pipwhistle sort, couvert de boue, et dit qu'il n'a pas eu faim : les grenouilles étaient délicieuses. Le collectionneur, lui, collectionne maintenant les chapeaux. C'est plus sûr.
+reussite: Une fleur d'argent est trouvée dans le marais. Le portail s'ouvre. L'ami de Pipwhistle sort, maigre et content.
+partielle: La fleur est trouvée, mais elle est fanée. Le portail s'entrouvre une minute. L'ami passe un bras. Pipwhistle le tire. Ça marche, de justesse.
+echec: Pas de fleur. Pipwhistle a envoyé des sandwichs par le portail de la caverne. Elle espère qu'ils arriveront au bon endroit.
+recompenses: po 20 ; reputation 2 ; objet Cristal de saphir 7
+
+=== BAN-I-005 | Les Artilleurs en manœuvre
+source: privee
+region: bandle
+palier: inconnue
+type: protection
+ton: drole
+lieu: La Clairière
+demandeur: Bomblette, artilleuse de Bandle, qui organise sa première manœuvre et a peur de tout faire sauter
+accroche: « Je suis artilleuse depuis trois jours. Je commande la manœuvre demain. Il y aura des canons, des feux d'artifice, et la moitié de la ville pour regarder. Je ne veux pas faire sauter la Clairière. J'ai besoin de quelqu'un qui sait se mettre devant les choses qui explosent. »
+postes: Tank, Tireur
+duree: 3
+dangereuse: non
+epreuves: siege 30 (protéger le public pendant la manœuvre d'artillerie) ; combat 28 (dévier un tir de canon parti dans la mauvaise direction)
+complication: Un canon a été chargé de confettis par un plaisantin, et un autre de vraie poudre. Personne ne sait lequel est lequel.
+eclatante: {meneur} repère le canon chargé de vraie poudre au poids du boulet, et le pointe vers le ciel. Le tir fait un feu d'artifice magnifique. Le canon à confettis couvre le public de couleurs. La foule croit que tout était prévu. Bomblette est promue sur-le-champ. Elle jure qu'elle savait. Elle tremble encore une heure après.
+reussite: La manœuvre se passe bien. Un seul tir est parti de travers, vers un arbre. L'arbre va bien. Il a juste moins de feuilles.
+partielle: Un canon a explosé, sans faire de blessé. Bomblette a perdu ses sourcils. Elle dit que ça repousse.
+echec: La Clairière a pris feu. On l'a éteinte avec de la limonade. Bomblette est retournée à l'entraînement. Pour longtemps.
+recompenses: po 20 ; reputation 1 ; objet Bouclier de Doran 6
+
+=== BAN-I-006 | Les étoiles de l'Arche
+source: privee
+region: bandle
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Arche de pierre
+demandeur: Wimbleton, astronome yordle, qui ne comprend pas pourquoi l'Arche s'ouvre sans les étoiles
+accroche: « L'Arche de pierre s'ouvre quand les étoiles s'alignent. Je le sais : c'est moi qui les compte. Hier, elle s'est ouverte en plein midi. Sans étoiles. Quelqu'un est passé. Je ne sais pas qui. Je ne sais pas dans quel sens. »
+postes: Mage, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: discretion 31 (surveiller l'Arche pour la surprendre en train de s'ouvrir) ; poursuite 30 (suivre les traces de ce qui est passé)
+complication: Quelqu'un a peint des étoiles sur un parapluie, et l'a ouvert sous l'Arche. L'Arche s'y est trompée.
+eclatante: {meneur} surprend, à midi, un jeune yordle avec un parapluie couvert d'étoiles peintes. Il ouvre l'Arche pour aller voir sa grand-mère, qui vit de l'autre côté, à Ionia. Wimbleton, au lieu de le gronder, est fasciné. Il améliore le parapluie, et les deux font désormais la route ensemble, une fois par semaine. Wimbleton a enfin vu Ionia. Il dit que les étoiles y sont mal rangées.
+reussite: Le passeur au parapluie est démasqué. Wimbleton lui confisque son parapluie. Il le regarde souvent, le soir.
+partielle: L'équipe a vu l'Arche s'ouvrir, sans voir qui passait. Wimbleton a noté l'heure. Il attend la prochaine fois.
+echec: L'Arche ne s'est plus ouverte de la semaine. Wimbleton pense qu'on l'a vexée. Il lui parle, maintenant.
+recompenses: po 20 ; reputation 2 ; objet Tome d'amplification 7
+
+=== BAN-I-007 | La patrouille du matin
+source: privee
+region: bandle
+palier: inconnue
+type: traque
+ton: aventure
+lieu: Bois de Bandle
+demandeur: Squibb, éclaireur de Bandle, dont la patrouille a été entièrement capturée par des écureuils géants
+accroche: « Règle numéro 7 des éclaireurs : ne jamais nourrir les écureuils. Ma patrouille a enfreint la règle numéro 7. Maintenant, les écureuils les gardent dans un nid, en haut d'un arbre, et les nourrissent de noisettes. Ils ont l'air de les élever. Je ne veux pas qu'ils deviennent des écureuils. »
+postes: Tireur, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: poursuite 31 (suivre les écureuils jusqu'à leur nid dans le Bois de Bandle) ; voyage 30 (grimper jusqu'au nid, à quarante mètres de haut)
+complication: Les écureuils ne sont pas méchants : ils ont perdu leurs petits pendant un orage, et ils ont adopté les éclaireurs à la place.
+eclatante: {meneur} grimpe au nid, et pendant que les écureuils regardent ailleurs, l'équipe retrouve leurs vrais petits, coincés dans un arbre voisin. L'échange se fait en douceur : les petits rentrent au nid, les éclaireurs redescendent. Les écureuils sont ravis. Les éclaireurs aussi, un peu moins : ils commençaient à aimer les noisettes. Squibb ajoute une règle 8 : ne jamais se faire adopter.
+reussite: Les éclaireurs sont libérés, un par un. Ils ont tous pris du poids. Squibb les met au régime.
+partielle: Quatre éclaireurs sur cinq sont libérés. Le cinquième refuse de partir. Il dit qu'il a trouvé sa famille.
+echec: Les écureuils ont défendu leur nid. La patrouille reste en haut une semaine de plus. Squibb leur envoie des lettres.
+recompenses: po 20 ; reputation 2 ; objet Bottes 7
+
+=== BAN-I-008 | Le livre qui mord
+source: privee
+region: bandle
+palier: inconnue
+type: recuperation
+ton: horreur
+lieu: Maison de Norra
+demandeur: Fennick, ancien élève de Norra, qui veut récupérer un livre oublié dans la maison de l'Enchanteresse
+accroche: « J'ai prêté un livre à Norra avant qu'elle disparaisse. C'est un livre de recettes de famille. Il est dans sa maison. Le problème, c'est que les livres de Norra ont pris de mauvaises habitudes en son absence. Ils mordent. Certains volent. Un, au moins, a mangé un chat. »
+postes: Tank, Mage, Éclaireur
+duree: 3
+dangereuse: non
+epreuves: discretion 30 (entrer dans la bibliothèque de Norra sans réveiller les livres) ; combat 29 (repousser les livres qui attaquent en nuée)
+complication: Le livre de Fennick est devenu le chef des livres. Il a pris goût au pouvoir, et il ne veut plus être un livre de recettes.
+eclatante: {meneur} repère le livre-chef au centre de la nuée, et le referme d'un coup, en le tenant fermement. Les autres livres retombent sur les étagères, d'un coup. Fennick récupère ses recettes. Il lit au livre la recette de la tarte aux prunes de sa grand-mère, à voix haute, devant tout le monde. Le livre se calme. Il redevient un livre de recettes. Il mord encore un peu, le dimanche.
+reussite: Le livre est récupéré. Il mord Fennick au doigt en partant. Fennick dit que c'est une forme d'affection.
+partielle: Le livre est récupéré, mais il a perdu des pages. Il manque la recette de la tarte. Fennick est inconsolable.
+echec: Les livres ont chassé l'équipe de la maison. Fennick n'a plus ses recettes. Il cuisine de mémoire. Ce n'est pas pareil.
+recompenses: po 20 ; reputation 2 ; objet Tome d'amplification 8
+
+=== BAN-I-009 | La fête des chapeaux
+source: privee
+region: bandle
+palier: inconnue
+type: protection
+ton: drole
+lieu: Bandle
+demandeur: Madame Plumetard, organisatrice de la fête des chapeaux, au bord de la crise
+accroche: « La fête des chapeaux, c'est demain. Deux mille yordles, deux mille chapeaux, et cette année, les chapeaux sont plus grands que jamais. L'an dernier, un chapeau a pris feu, un autre est parti avec le vent, et un troisième a avalé son propriétaire. Il me faut de l'ordre. Beaucoup d'ordre. »
+postes: Combattant
+duree: 3
+dangereuse: non
+epreuves: nuee 29 (contenir une foule de yordles aux chapeaux démesurés dans les rues étroites) ; poursuite 27 (rattraper les chapeaux qui s'envolent)
+complication: Un chapeau enchanté refuse d'être porté et poursuit son propriétaire dans toute la ville.
+eclatante: {meneur} attrape le chapeau rebelle au vol, le pose sur sa propre tête, et le chapeau se calme aussitôt : il voulait simplement une tête plus grande. Il remporte le prix du chapeau le plus fier. La fête est un succès total. Madame Plumetard pleure de soulagement. On offre à la guilde le chapeau. Il est très, très grand. Il ne passe pas la porte du repère.
+reussite: La fête se passe sans drame. Deux chapeaux se sont envolés. On les a rattrapés. Madame Plumetard respire.
+partielle: Un chapeau a pris feu, un autre a fait tomber un yordle d'un toit. Tout le monde va bien. La fête est jugée « animée ».
+echec: Le chapeau enchanté a semé la panique. La fête a été écourtée. Madame Plumetard a démissionné. Elle reviendra l'an prochain.
+recompenses: po 15 ; reputation 1 ; objet Charme féerique 7
+
+=== BAN-I-010 | Le mortel qui a vieilli
+source: privee
+region: bandle
+palier: inconnue
+type: escorte
+ton: tragique
+lieu: Les Chemins bas
+demandeur: Bertram, chevalier de Demacia, entré à Bandle jeune homme et qui en ressort vieillard
+accroche: « Je suis entré il y a ce que je croyais être une semaine. Je me suis vu ce matin dans un étang. J'ai les cheveux blancs. Je veux rentrer, même si je ne sais pas ce qui m'attend. Je veux voir ce qui reste. »
+postes: Healer
+duree: 5
+dangereuse: non
+epreuves: voyage 30 (guider un vieillard fragile sur les Chemins bas, jusqu'au bon portail) ; diplomatie 31 (le préparer à ce qu'il trouvera de l'autre côté)
+complication: De l'autre côté, sa fiancée est devenue une vieille femme, elle aussi. Elle ne s'est jamais mariée. Elle l'attendait.
+eclatante: {meneur} guide le vieux chevalier jusqu'au portail, et le soutient jusqu'à son village. La porte s'ouvre sur une vieille femme aux cheveux blancs, qui le reconnaît au premier regard. Ils ne disent rien. Elle lui prend la main. Ils se marient la semaine suivante, à soixante-dix ans. Bertram écrit à la guilde que Bandle lui a volé une vie, mais qu'il a gardé le meilleur.
+reussite: Bertram est ramené chez lui. Ses parents sont morts, ses amis sont vieux. Il reconstruit, lentement. Il ne regrette rien. Presque.
+partielle: Bertram est ramené, mais il ne reconnaît plus rien. Il demande à repartir à Bandle. On l'y ramène. Il y est apaisé.
+echec: Bertram est mort de fatigue sur les Chemins bas, avant le portail. Les yordles l'ont enterré sous un arbre. Ils viennent lui parler.
+recompenses: po 20 ; reputation 3 ; objet Potion de soin 10
+
+=== BAN-I-011 | Les racines de l'Arbre
+source: privee
+region: bandle
+palier: inconnue
+type: exploration
+ton: aventure
+lieu: Arbre de Bandle
+demandeur: Bramblebee, jardinière yordle, qui veut savoir jusqu'où descendent les racines de l'Arbre de Bandle
+accroche: « On dit que les racines de l'Arbre de Bandle touchent le monde des mortels. Je veux le vérifier. Je veux descendre le long des racines, et voir où elles sortent. Je n'ai pas peur. J'ai juste besoin de quelqu'un pour tenir la corde. Et me remonter. »
+postes: Tank, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: voyage 33 (descendre le long des racines géantes, dans le noir) ; siege 31 (tenir la corde quand la jardinière tombe dans un trou) ; voyage 32 (remonter avant que la lumière de Bandle ne disparaisse)
+complication: Les racines ne sortent pas à un seul endroit : elles sortent partout. Sous Demacia, sous Ionia, sous le Freljord. L'Arbre touche tout Runeterra.
+eclatante: {meneur} suit les racines jusqu'à trois sorties différentes, et en rapporte trois poignées de terre : une blanche de Demacia, une rouge de Noxus, une noire de Zaun. Bramblebee pleure de joie. Elle plante trois petites pousses, une dans chaque terre, au pied de l'Arbre. Elles poussent toutes les trois. Elle dit que l'Arbre aime tout le monde, même ceux qui ne le savent pas.
+reussite: L'équipe atteint une sortie, sous le Freljord, et remonte avec un peu de neige. Bramblebee la garde dans un bocal.
+partielle: L'équipe a dû remonter avant la sortie. Bramblebee a vu de la lumière au fond. Elle dit que ça suffit pour l'instant.
+echec: La corde a lâché. Tout le monde est remonté, couvert de terre. Bramblebee veut réessayer. L'équipe, moins.
+recompenses: po 25 ; reputation 2 ; objet Cristal de rubis 6
+
+=== BAN-I-012 | Le duel de poésie
+source: privee
+region: bandle
+palier: inconnue
+type: diplomatie
+ton: drole
+lieu: La Clairière
+demandeur: Tumblewit, poète yordle, provoqué en duel de rimes par un rival qui ne perd jamais
+accroche: « Fizzwick m'a défié. Un duel de rimes, devant toute la Clairière. Il ne perd jamais. Il rime avec tout. Même avec « orange ». J'ai besoin d'un second, qui me souffle des rimes. Vous savez rimer ? Non ? Ce n'est pas grave. Moi non plus, en vrai. »
+postes: Support
+duree: 2
+dangereuse: non
+epreuves: diplomatie 27 (souffler des rimes à un poète en panique, sans que le public le voie) ; diplomatie 28 (trouver la rime à laquelle personne ne s'attend)
+complication: Fizzwick ne perd jamais parce qu'il triche : il a un chapeau qui lui souffle les rimes.
+eclatante: {meneur} repère le chapeau souffleur, et, au moment décisif, lui souffle une rime idiote. Fizzwick, à voix haute, fait rimer « amour » avec « tambour de four ». La Clairière éclate de rire. Tumblewit répond par un vers magnifique, sans aide. Il gagne. Fizzwick avoue sa triche, et les deux poètes deviennent amis. Ils écrivent maintenant ensemble. C'est encore pire.
+reussite: Tumblewit gagne de peu, avec une rime à « orange » que personne n'a comprise. Le public applaudit quand même.
+partielle: Le duel s'est terminé à égalité. Les deux poètes doivent recommencer dans un mois. Ils s'entraînent.
+echec: Fizzwick a gagné, encore. Tumblewit a écrit un poème sur sa défaite. C'est le meilleur qu'il ait jamais écrit.
+recompenses: po 10 ; reputation 1 ; objet Tome d'amplification 5
+
+=== BAN-I-013 | La marée dans la caverne
+source: privee
+region: bandle
+palier: inconnue
+type: sauvetage
+ton: aventure
+lieu: Caverne des marées
+demandeur: Pebblesnap, pêcheur yordle, dont le neveu est resté coincé de l'autre côté du portail de la caverne
+accroche: « Le portail de la caverne s'ouvre quand la mer remplit les cercles. Mon neveu est passé, à marée haute. La marée est redescendue. Il est de l'autre côté. Il y a des crabes, de l'autre côté. Gros. Mon neveu est petit. Même pour un yordle. »
+postes: Éclaireur, Tank
+duree: 5
+dangereuse: non
+epreuves: voyage 31 (attendre la prochaine marée haute et passer le portail) ; combat 30 (tenir les crabes à distance pendant qu'on cherche le neveu) ; voyage 29 (repasser avant que la marée ne redescende)
+complication: De l'autre côté, c'est la côte de Bilgewater, et le neveu a été recueilli par un vieux pêcheur qui ne parle pas yordle.
+eclatante: {meneur} passe le portail, et trouve le neveu assis dans une cabane de pêcheur de Bilgewater, en train de manger du poisson grillé. Le vieux pêcheur et lui ne se comprennent pas, mais ils rient beaucoup. L'équipe ramène le neveu à la marée suivante. Le vieux pêcheur pleure en le voyant partir. Depuis, à chaque marée haute, il laisse un poisson grillé devant le portail. Le neveu laisse un dessin.
+reussite: Le neveu est ramené, mouillé, content, à la marée suivante. Pebblesnap le serre si fort qu'il couine.
+partielle: Le neveu est ramené, mais un crabe a pincé l'oreille de quelqu'un dans l'équipe. Personne ne dira qui.
+echec: L'équipe est passée trop tard. Le portail s'est refermé. Le neveu est rentré seul, trois jours plus tard, par un autre portail. Il a grandi.
+recompenses: po 25 ; reputation 2 ; objet Potion de soin 8
+
+=== BAN-I-014 | Le maire contre le maire
+source: privee
+region: bandle
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Bandle
+demandeur: Fizzlegrin, yordle qui s'est proclamé maire de Bandle, alors qu'il y en a déjà un
+accroche: « Il y a un maire. Il n'a aucun pouvoir. Moi aussi, je me suis proclamé maire. Je n'ai aucun pouvoir non plus. Mais j'ai une meilleure moustache. Il faut un débat. Avec un public. Et un arbitre. Et des petits gâteaux. »
+postes: Healer
+duree: 3
+dangereuse: non
+epreuves: diplomatie 28 (organiser un débat entre deux maires qui n'ont aucun pouvoir) ; diplomatie 29 (empêcher le débat de tourner au concours de moustaches)
+complication: Les deux maires sont frères. Ils ne se sont pas parlé depuis cent ans, à cause d'une histoire de gâteau.
+eclatante: {meneur} sert, au milieu du débat, un gâteau aux noisettes. Les deux frères le reconnaissent : c'est la recette de leur mère, celle du gâteau qui les a fâchés il y a cent ans. Ils se regardent. Ils rient. Ils décident d'être maires ensemble. Bandle a maintenant deux maires sans pouvoir. Personne ne voit la différence. Mais la ville est plus joyeuse.
+reussite: Le débat a lieu. Personne ne gagne. Les deux maires repartent, chacun persuadé d'avoir convaincu la ville.
+partielle: Le débat a tourné au concours de moustaches. Fizzlegrin a gagné. Il n'a toujours aucun pouvoir.
+echec: Les deux maires se sont jeté des petits gâteaux. Le public a mangé les munitions. La ville a bien rigolé.
+recompenses: po 10 ; reputation 1 ; objet Charme féerique 6
+
+=== BAN-I-015 | Les lucioles éteintes
+source: privee
+region: bandle
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Bois de Bandle
+demandeur: Glimmerdew, gardien des lucioles, qui éclairent les chemins du Bois la nuit
+accroche: « Les lucioles du Bois de Bandle s'éteignent, une par une. Sans elles, les chemins sont noirs. Les yordles se perdent. Hier, un jeune s'est réveillé dans un nid de hiboux. Je dois savoir ce qui éteint les lucioles. »
+postes: Mage
+duree: 3
+dangereuse: non
+epreuves: discretion 29 (observer les lucioles une nuit entière sans les déranger) ; diplomatie 28 (comprendre ce qu'elles fuient)
+complication: Les lucioles ne s'éteignent pas : elles se cachent, parce qu'un inventeur a installé des lanternes trop brillantes, et elles ont honte de leur petite lumière.
+eclatante: {meneur} trouve les lanternes, et l'inventeur, qui voulait seulement aider. Ils les éteignent ensemble. La nuit suivante, les lucioles ressortent, une à une, puis des milliers. L'inventeur, ému, fabrique des lanternes minuscules, pas plus brillantes qu'une luciole. Il en met une sur son chapeau. Les lucioles le suivent partout. Il ne s'en plaint pas.
+reussite: Les lanternes sont retirées. Les lucioles reviennent, timidement. Le Bois s'éclaire de nouveau, la nuit.
+partielle: La moitié des lanternes sont retirées. L'autre moitié appartient à un yordle têtu. La moitié du Bois est noire.
+echec: L'équipe n'a pas compris. Les lucioles restent cachées. Les yordles du Bois sortent avec des bougies.
+recompenses: po 15 ; reputation 2 ; objet Cristal de saphir 6
+
+=== BAN-I-016 | La course des escargots
+source: privee
+region: bandle
+palier: inconnue
+type: protection
+ton: drole
+lieu: Les Chemins bas
+demandeur: Sluggo, propriétaire de l'escargot favori de la grande course des Chemins bas
+accroche: « Mon escargot, Tonnerre, est le plus rapide de Bandle. On a essayé de l'empoisonner. Avec de la salade périmée. Il a failli ne pas courir. La course est demain. Il me faut des gardes du corps. Pour un escargot. Oui. »
+postes: Tank, Assassin
+duree: 3
+dangereuse: non
+epreuves: discretion 29 (surveiller les abords du parcours pour repérer le saboteur) ; siege 28 (protéger un escargot de toute tentative de sabotage, pendant six heures de course)
+complication: Le saboteur est un autre escargot. Ou plutôt son propriétaire, qui l'a dressé à manger les feuilles de laitue de ses rivaux.
+eclatante: {meneur} surprend l'escargot saboteur en pleine action, et le remet doucement dans sa propre file. La course a lieu. Tonnerre gagne, en six heures et douze minutes, un record. Sluggo pleure. Le propriétaire de l'escargot saboteur est disqualifié. L'escargot, lui, est adopté par Sluggo. Il s'entraîne. Il est très motivé.
+reussite: Tonnerre court, protégé. Il arrive deuxième, derrière un escargot très chanceux. Sluggo dit que c'est le vent.
+partielle: Tonnerre a mangé une feuille douteuse en route. Il a fini la course, très lentement, même pour un escargot.
+echec: Tonnerre a été volé la nuit d'avant. On l'a retrouvé le lendemain. Il dormait. Il n'a jamais su qu'il avait raté la course.
+recompenses: po 10 ; reputation 1 ; objet Élixir de rage 5
+
+=== BAN-I-017 | Le portail capricieux
+source: privee
+region: bandle
+palier: inconnue
+type: livraison
+ton: aventure
+lieu: Arche de pierre
+demandeur: Tinklebrass, marchande yordle, qui doit livrer des montres à Piltover avant la foire du progrès
+accroche: « J'ai fabriqué cinquante montres pour la foire de Piltover. Elles ne donnent pas l'heure, elles donnent l'humeur. C'est très demandé. Il faut passer par l'Arche, ce soir, quand les étoiles s'alignent. Le problème : l'Arche ne m'aime pas. Elle me renvoie toujours dans le Freljord. »
+postes: Mage, Support
+duree: 4
+dangereuse: non
+epreuves: voyage 31 (passer l'Arche au bon moment, avec cinquante montres fragiles) ; diplomatie 30 (convaincre l'Arche de laisser passer la marchande)
+complication: L'Arche ne déteste pas Tinklebrass : elle déteste le tic-tac des montres, qui la dérangent pendant qu'elle compte les étoiles.
+eclatante: {meneur} comprend le problème en écoutant l'Arche gronder. L'équipe emballe les montres dans de la laine, une par une, pour étouffer le tic-tac. L'Arche s'ouvre, silencieuse, sur Piltover. Les montres de l'humeur font sensation à la foire. Tinklebrass en vend cinquante, et prend des commandes pour cinq cents. Elle les emballera toutes dans de la laine.
+reussite: Les montres passent, mais l'Arche a déposé l'équipe à l'autre bout de Piltover. Elles arrivent à la foire, en retard, mais elles arrivent.
+partielle: L'Arche a envoyé la moitié des montres dans le Freljord. Elles donnent toutes l'humeur « glacée ».
+echec: L'Arche a refusé de s'ouvrir. Tinklebrass a vendu ses montres à Bandle. Elles donnent toutes l'humeur « déçue ».
+recompenses: po 20 ; reputation 2 ; objet Bottes 6
+
+=== BAN-I-018 | La lettre de Norra
+source: privee
+region: bandle
+palier: inconnue
+type: enquete
+ton: tendre
+lieu: Maison de Norra
+demandeur: Pomkin, voisine de Norra, qui a trouvé une lettre sur le pas de la porte de la maison vide
+accroche: « Une lettre, sur le pas de la porte de Norra. L'écriture, c'est la sienne. Mais Norra a disparu depuis des années. La lettre est adressée à « celui qui garde ma maison ». Personne ne garde sa maison. Sauf moi, un peu. Je n'ose pas l'ouvrir seule. »
+postes: Mage
+duree: 2
+dangereuse: non
+epreuves: diplomatie 27 (aider la voisine à oser lire la lettre) ; discretion 28 (chercher dans la maison ce que la lettre demande)
+complication: La lettre a été écrite il y a des années, et elle vient seulement d'arriver : les portails l'ont fait voyager tout ce temps.
+eclatante: {meneur} lit la lettre avec Pomkin. Norra demande qu'on arrose ses plantes, qu'on nourrisse le poisson rouge, et qu'on laisse la lampe allumée près de la fenêtre. Elle dit qu'elle reviendra. La lampe est allumée le soir même. Le poisson rouge, lui, est mort depuis longtemps. Pomkin en achète un autre. Elle l'appelle Patience.
+reussite: La lettre est lue. Pomkin arrose les plantes, chaque matin. Elle laisse la lampe allumée. Elle attend.
+partielle: La lettre est lue, mais la fin est effacée. On ne sait pas si Norra reviendra. Pomkin allume la lampe quand même.
+echec: La lettre s'est effacée à l'ouverture. Il n'en reste qu'une phrase : « Garde ma maison. » Pomkin la garde.
+recompenses: po 10 ; reputation 2 ; objet Charme féerique 8
+
+=== BAN-I-019 | Les champignons chanteurs
+source: privee
+region: bandle
+palier: inconnue
+type: chasse
+ton: drole
+lieu: La Clairière
+demandeur: Mossbottom, voisin de la Clairière, qui ne dort plus à cause des champignons qui chantent
+accroche: « Ils chantent toute la nuit. Faux. Toujours la même chanson. Quelqu'un leur a appris une chanson de taverne, et ils ne savent que celle-là. Il faut les cueillir, ou leur apprendre autre chose, ou m'apprendre à aimer cette chanson. Je doute de la troisième solution. »
+postes: Tireur
+duree: 2
+dangereuse: non
+epreuves: poursuite 27 (trouver les champignons chanteurs, qui se taisent quand on approche) ; diplomatie 28 (leur apprendre une autre chanson, plus douce)
+complication: Les champignons ont appris la chanson d'un ivrogne qui dort sous l'arbre de la Clairière depuis une semaine. Il la chante encore chaque nuit.
+eclatante: {meneur} réveille l'ivrogne, le ramène chez lui, et chante une berceuse aux champignons, une nuit entière. Au matin, ils la connaissent. Depuis, la Clairière est bercée tous les soirs par une berceuse chantée par mille petites voix. Mossbottom dort comme un bébé. Les jeunes parents de Bandle viennent y endormir leurs enfants.
+reussite: L'ivrogne est raccompagné. Les champignons oublient leur chanson en une semaine. La Clairière redevient silencieuse.
+partielle: Les champignons ont appris une nouvelle chanson. Elle est un peu moins fausse. Mossbottom dort une nuit sur deux.
+echec: Les champignons ont appris la chanson de l'équipe, aussi fausse que l'autre. Mossbottom a déménagé.
+recompenses: po 10 ; reputation 1 ; objet Potion de soin 5
+
+=== BAN-I-020 | L'inventeur et la tempête
+source: privee
+region: bandle
+palier: inconnue
+type: defense
+ton: aventure
+lieu: Arbre de Bandle
+demandeur: Sprocketta, inventrice, dont la machine à faire la pluie a fait beaucoup trop de pluie
+accroche: « Le jardin de l'Arbre avait soif. J'ai fait une machine à pluie. Elle a fait de la pluie. Puis de l'orage. Puis un petit ouragan, juste au-dessus de l'Arbre. Il faut l'arrêter. La machine. Et l'ouragan. Dans cet ordre, si possible. »
+postes: Tank, Mage
+duree: 4
+dangereuse: non
+epreuves: voyage 31 (grimper dans l'Arbre jusqu'à la machine, en plein orage) ; siege 30 (couper la machine sans être emporté par le vent)
+complication: La machine ne peut pas être arrêtée d'un coup : l'ouragan s'écraserait sur l'Arbre. Il faut la ralentir, petit à petit.
+eclatante: {meneur} ralentit la machine, cran par cran, pendant une heure, accroché à une branche. L'ouragan devient orage, puis pluie, puis bruine. Puis un arc-en-ciel, au-dessus de l'Arbre. Tout Bandle sort pour le regarder. Sprocketta le règle désormais pour faire juste une averse douce chaque matin. Le jardin de l'Arbre n'a jamais été aussi beau.
+reussite: La machine est arrêtée, l'ouragan se dissipe. L'Arbre a perdu quelques branches. Il en refera.
+partielle: La machine est arrêtée, mais trop vite. L'ouragan s'est écrasé sur un champ de carottes. Les carottes vont bien. Elles sont juste plus loin.
+echec: La machine est tombée de l'Arbre. L'ouragan est parti tout seul, vers le Bois. On le voit parfois, la nuit.
+recompenses: po 20 ; reputation 2 ; objet Élixir de fer 6
+
+=== BAN-I-021 | Le collectionneur d'échos
+source: privee
+region: bandle
+palier: inconnue
+type: exploration
+ton: mystere
+lieu: Les Chemins bas
+demandeur: Hollowbell, collectionneur yordle, qui capture les échos dans des bocaux
+accroche: « Les échos des Chemins bas ne ressemblent à aucun autre. Ils répètent ce que vous direz demain. Je veux en capturer un, rien qu'un. Pour savoir. Il faut aller loin sur les Chemins, là où les échos sont les plus vieux. »
+postes: Éclaireur, Mage
+duree: 4
+dangereuse: non
+epreuves: voyage 31 (s'enfoncer dans les Chemins bas, là où ils se croisent) ; discretion 30 (attraper un écho sans parler, pour ne pas lui donner de mots)
+complication: L'écho capturé ne répète pas ce qu'on dira demain : il répète ce que chacun n'a jamais osé dire.
+eclatante: {meneur} capture l'écho dans un bocal, en silence. Au retour, Hollowbell le débouche, et l'écho murmure une phrase, dans la voix de Hollowbell lui-même : « Je suis seul, et je collectionne pour que ce soit moins vrai. » Le silence qui suit est long. Puis Hollowbell rit, doucement. Il libère tous ses échos. Il invite les voisins à dîner. Il ne collectionne plus que les amis.
+reussite: L'écho est capturé. Il murmure des choses que personne n'ose écouter. Hollowbell le garde fermé, dans un placard.
+partielle: L'écho a fui le bocal en route. On l'entend parfois, dans les Chemins, répéter le nom de l'équipe.
+echec: L'équipe a parlé par erreur. L'écho a répété « oups » pendant une semaine. Hollowbell l'a trouvé décevant.
+recompenses: po 20 ; reputation 2 ; objet Cristal de saphir 7
+
+=== BAN-I-022 | La gardienne du marais
+source: privee
+region: bandle
+palier: inconnue
+type: traque
+ton: aventure
+lieu: Portail du marais
+demandeur: Bogwhistle, gardienne du portail du marais, qui piste une créature qui passe sans autorisation
+accroche: « Quelque chose passe par mon portail. Je ne le vois jamais. Je vois juste les traces, dans la boue, le matin. Des traces de pattes. Six pattes. Et des miettes de gâteau. Je veux savoir ce que c'est. Et où il trouve des gâteaux. »
+postes: Assassin, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: discretion 31 (attendre, cachés dans la boue, toute une nuit) ; poursuite 30 (suivre la créature de l'autre côté du portail)
+complication: La créature est un poro de Freljord, tombé par un portail, qui fait chaque nuit l'aller-retour pour voler des gâteaux dans une boulangerie de Bandle.
+eclatante: {meneur} surprend le poro, la bouche pleine. Il a six pattes parce qu'il en porte deux en écharpe, blessées. L'équipe le soigne. La boulangère, en apprenant l'histoire, l'adopte. Il dort maintenant devant son four. Il mange encore des gâteaux, mais ils sont offerts. Bogwhistle dit que c'est le premier passage autorisé de l'année.
+reussite: Le poro est attrapé, et ramené dans le Freljord par le portail. La boulangère n'a plus de vols. Elle s'ennuie un peu.
+partielle: Le poro a fui de l'autre côté. Les vols ont cessé. Bogwhistle a posé un panneau : « Interdit aux poros ».
+echec: L'équipe s'est endormie dans la boue. Les traces étaient là au matin. Avec des miettes. Le poro rit, quelque part.
+recompenses: po 15 ; reputation 2 ; objet Charme féerique 7
+
+=== BAN-I-023 | Le vieux yordle qui ne veut pas partir
+source: privee
+region: bandle
+palier: inconnue
+type: diplomatie
+ton: tragique
+lieu: Caverne des marées
+demandeur: Saltwhisker, petite-fille d'un vieux yordle qui s'est installé au fond de la caverne et refuse d'en sortir
+accroche: « Mon grand-père s'est installé au fond de la caverne. Il dit qu'il attend le portail. Il dit que ma grand-mère est de l'autre côté et qu'elle va revenir. Ma grand-mère est morte il y a dix ans. Il le sait. Il a oublié. Je ne sais pas comment le lui redire. »
+postes: Support
+duree: 3
+dangereuse: non
+epreuves: diplomatie 29 (parler à un vieil homme qui attend quelqu'un qui ne reviendra pas) ; diplomatie 28 (trouver ce qui pourrait le faire rentrer chez lui)
+complication: La grand-mère est vraiment passée par le portail, autrefois, avant de mourir : elle y a laissé quelque chose pour lui.
+eclatante: {meneur} passe le portail à la marée haute, et trouve, de l'autre côté, sur un rocher, une boîte gravée au nom du grand-père. Dedans, une lettre de la grand-mère : « Si tu lis ça, c'est que tu m'as attendue trop longtemps. Rentre. Je t'aime. » Le grand-père la lit. Il pleure. Il rentre. Il garde la lettre dans sa poche jusqu'à la fin.
+reussite: Le vieux yordle accepte de rentrer pour les nuits froides. Il retourne à la caverne le jour. Saltwhisker vient le voir.
+partielle: Le vieux yordle reste à la caverne, mais il accepte une couverture et un repas par jour. C'est mieux qu'avant.
+echec: Le vieux yordle n'a pas voulu écouter. Il attend toujours. Saltwhisker lui apporte du thé. Il en sert deux tasses.
+recompenses: po 10 ; reputation 2 ; objet Potion de soin 7
+
+=== BAN-I-024 | La chasse aux songes
+source: privee
+region: bandle
+palier: inconnue
+type: chasse
+ton: horreur
+lieu: Bois de Bandle
+demandeur: Nightbramble, guérisseuse yordle, dont les patients font tous le même cauchemar
+accroche: « Ils rêvent tous d'une porte rouge, au fond du Bois. Une porte qui s'ouvre, lentement. Ils se réveillent avant de voir ce qu'il y a derrière. Hier, un patient ne s'est pas réveillé avant. Il dort encore. Il sourit. Je n'aime pas ce sourire. »
+postes: Mage, Éclaireur
+duree: 5
+dangereuse: non
+risque: oui
+epreuves: voyage 41 (trouver la porte rouge dans le Bois, guidé par les rêves des patients) ; discretion 43 (approcher sans s'endormir) ; combat 44 (affronter ce qui garde la porte)
+complication: Derrière la porte vit un mangeur de songes, une créature du royaume des esprits, qui se nourrit des rêves heureux des yordles et ne laisse que les cauchemars.
+eclatante: {meneur} trouve la porte et la referme, de force, pendant que la créature essaie de l'entraîner dans un rêve. L'équipe scelle la porte avec du sel et des chansons de Bandle. Le patient endormi se réveille au même instant, et demande un chocolat chaud. Les cauchemars cessent dans tout le Bois. Nightbramble dit que les yordles rêvent de nouveau de choses absurdes. C'est bon signe.
+reussite: La porte est trouvée et scellée. Les cauchemars cessent. Le patient se réveille, deux jours plus tard. Il ne se souvient de rien.
+partielle: La porte est scellée, mais le patient dort encore. Nightbramble le veille. Il sourit moins.
+echec: L'équipe s'est endormie avant la porte. Elle s'est réveillée le lendemain, avec un sourire. Nightbramble l'a gardée en observation.
+recompenses: po 140 ; reputation 4 ; objet Cape de négation 10
+
+=== BAN-I-025 | Les petits voleurs de Bandle
+source: privee
+region: bandle
+palier: inconnue
+type: traque
+ton: politique
+lieu: Arche de pierre
+demandeur: Brassbuckle, éclaireur de Bandle, qui piste une bande de yordles qui volent dans le monde des mortels
+accroche: « Une bande de jeunes yordles passe l'Arche pour voler à Piltover. Des petites choses : des cuillères, des boutons, des montres. Ils trouvent ça drôle. Les mortels, beaucoup moins. Si Piltover l'apprend, ils vont fermer les portails à coups de canon. Il faut qu'ils arrêtent. »
+postes: Éclaireur, Support
+duree: 5
+dangereuse: non
+risque: oui
+epreuves: poursuite 42 (suivre la bande à travers l'Arche jusqu'à Piltover) ; discretion 41 (les surprendre en plein vol, sans alerter les gardes de Piltover) ; diplomatie 40 (convaincre la bande de rendre ce qu'elle a pris)
+complication: Les jeunes yordles ne volent pas pour eux : ils rapportent les objets à un vieil inventeur aveugle de Bandle, qui en fait des jouets pour les enfants pauvres.
+eclatante: {meneur} rattrape la bande à Piltover, et découvre l'histoire. Plutôt que de punir, l'équipe négocie avec un marchand de Piltover, qui accepte de vendre ses invendus à prix de ferraille. La bande devient livreuse officielle. Le vieil inventeur fabrique deux fois plus de jouets. Piltover ne saura jamais rien. Brassbuckle ajoute une règle au livre des éclaireurs : « Toujours demander pourquoi. »
+reussite: La bande est arrêtée, les objets rendus en secret à Piltover. Les jeunes yordles sont punis. Ils boudent.
+partielle: La bande est arrêtée, mais un garde de Piltover a vu un yordle passer l'Arche. On en parle dans les journaux.
+echec: La bande a semé l'équipe à Piltover. Les vols continuent. Piltover a posé des pièges à souris. Gros.
+recompenses: po 130 ; reputation 3 ; objet Dague 8

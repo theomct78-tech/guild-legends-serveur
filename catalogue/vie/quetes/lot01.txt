@@ -1,0 +1,272 @@
+# Quêtes personnelles · lot pilote 1 (8 nov. 2026)
+# Une quête par champion, tirée de sa motivation. Décision du 8 nov. 2026 : la mener à bout rapporte du moral et de la fidélité, rien d'autre.
+# Format : bloc ouvert par « === ID | Titre », une clé par ligne. {nom} = le nom du héros.
+#   champion, motivation, demande (le pli posé sur le bureau), eveil (scène de la chronique quand l'envie naît),
+#   e1_* et e2_* : les deux missions personnelles (region, lieu, duree en heures, epreuves « type poids » séparées par « ; », recit, reussite, echec),
+#   fin (le dénouement), refus (ce que dit la chronique si le maître refuse).
+# Les missions personnelles sont faites en solo par le héros ; leur difficulté est calibrée sur lui à l'ouverture.
+# Les lieux viennent des bibles officielles des régions (ou de lieux connus pour Shurima et Bandle).
+
+=== QUE-RIVEN | La lame brisée
+champion: Riven
+motivation: redemption
+demande: « Il y a à Ionia des familles qui ont perdu quelqu'un à cause de moi. Je ne peux rien leur rendre. Mais je peux aller les voir. Laisse-moi partir, le temps qu'il faudra. »
+eveil: {nom} passe la soirée à polir les éclats de sa lame brisée, un par un, sans un mot.
+e1_region: ionia
+e1_lieu: Fermes d'Azur
+e1_duree: 8
+e1_epreuves: voyage 1 ; diplomatie 1
+e1_recit: retrouver un village de cultivateurs qui a vu passer l'armée noxienne, et oser frapper à la première porte
+e1_reussite: Une vieille femme écoute {nom} jusqu'au bout, puis lui tend un bol de soupe. Elle ne pardonne pas. Mais elle partage son repas, et c'est déjà immense.
+e1_echec: Personne n'ouvre. {nom} reste un long moment devant la porte fermée, puis repart, sans colère.
+e2_region: ionia
+e2_lieu: Placidium de Navori
+e2_duree: 10
+e2_epreuves: combat 1 ; diplomatie 1
+e2_recit: défendre les terres de ce même village contre des pillards, sans qu'on le lui demande
+e2_reussite: Les pillards repartent les mains vides. Au matin, quelqu'un a déposé une fleur sur la lame brisée de {nom}.
+e2_echec: Les pillards ont fui, mais une grange a brûlé. {nom} aide à la reconstruire, poutre après poutre.
+fin: {nom} rentre au repère le pas plus léger. La lame est toujours brisée. Quelque chose d'autre, en revanche, a commencé à se ressouder.
+refus: {nom} range ses affaires de voyage sans un mot. La lame brisée reste sur la table de chevet, et la culpabilité aussi.
+
+=== QUE-YASUO | Le vent sur la tombe
+champion: Yasuo
+motivation: redemption
+demande: « On m'a accusé d'un meurtre que je n'ai pas commis. J'ai tué des hommes pour fuir cette accusation. Je dois retourner là où tout a commencé. »
+eveil: {nom} joue de la flûte toute la nuit sur les remparts. La même mélodie, encore et encore, celle qu'on joue à Ionia pour les morts.
+e1_region: ionia
+e1_lieu: Monastère de Hirana
+e1_duree: 8
+e1_epreuves: discretion 1 ; voyage 1
+e1_recit: revenir à l'école du vent sans être reconnu, et retrouver les archives de la nuit du meurtre de l'Ancien
+e1_reussite: Dans un registre oublié, une note d'une main tremblante raconte la nuit autrement. Ce n'est pas une preuve. C'est un début.
+e1_echec: Un ancien disciple reconnaît {nom} et donne l'alerte. Il faut fuir, une fois de plus.
+e2_region: ionia
+e2_lieu: Forêt de Nistaram
+e2_duree: 10
+e2_epreuves: poursuite 1 ; combat 1
+e2_recit: retrouver le témoin dont parle la note, qui se cache depuis des années dans la forêt
+e2_reussite: Le témoin parle enfin. La vérité ne ramène personne. Mais le nom de {nom} n'est plus celui d'un assassin.
+e2_echec: Le témoin s'enfuit dans la brume. {nom} reste au bord de la forêt jusqu'à l'aube.
+fin: {nom} se recueille sur la tombe de son frère, puis rentre au repère. Pour la première fois depuis longtemps, il dort d'une traite.
+refus: {nom} hausse les épaules : « Le vent attendra. Il a l'habitude. » Il boit un peu plus que d'ordinaire, ce soir-là.
+
+=== QUE-GAREN | La famille du bas-quartier
+champion: Garen
+motivation: cause
+demande: « Une famille de Dregbourne cache un enfant qui fait de la magie sans le vouloir. Les Traqueurs ne tarderont pas. La loi dit que je dois les livrer. Je ne le ferai pas. Je te demande de me laisser y aller. »
+eveil: {nom} relit le code de Demacia jusque tard dans la nuit, et referme le livre avec une expression que personne ne lui connaissait.
+e1_region: demacia
+e1_lieu: Dregbourne
+e1_duree: 6
+e1_epreuves: diplomatie 1 ; discretion 1
+e1_recit: gagner la confiance d'une famille terrifiée qui voit arriver un capitaine du Détachement hardi
+e1_reussite: La mère finit par ouvrir la porte. L'enfant serre la main de {nom}, et rien ne se passe. Personne n'a peur, pour une fois.
+e1_echec: La famille s'enfuit par les toits. {nom} doit la retrouver avant les Traqueurs.
+e2_region: demacia
+e2_lieu: La Dernière Porte
+e2_duree: 8
+e2_epreuves: discretion 1 ; combat 1
+e2_recit: escorter la famille hors du royaume par la Dernière Porte, sous le nez des patrouilles
+e2_reussite: La famille passe la frontière à l'aube. {nom} la regarde s'éloigner, puis retire son écusson un instant, et le remet.
+e2_echec: Une patrouille arrête le convoi. {nom} s'interpose, au nom de son rang, et tout le monde passe. Mais on parlera de cette nuit au palais.
+fin: {nom} rentre au repère. Il ne dit pas ce qui s'est passé. Il serre simplement sa sœur dans ses bras un peu plus longtemps que d'habitude.
+refus: {nom} incline la tête : « Je comprends. » On l'entend pourtant arpenter le dortoir toute la nuit.
+
+=== QUE-LUX | Les Illuminateurs
+champion: Lux
+motivation: proteger
+demande: « Il existe un réseau qui cache les mages de Demacia. J'en fais partie, plus ou moins. Ils ont besoin d'aide, et j'ai besoin de toi pour partir quelques jours sans que mon frère pose de questions. »
+eveil: {nom} reçoit une lettre sans signature et la brûle aussitôt lue. Puis elle passe la soirée à regarder par la fenêtre, très loin.
+e1_region: demacia
+e1_lieu: Bibliothèque d'Albâtre
+e1_duree: 6
+e1_epreuves: discretion 1 ; diplomatie 1
+e1_recit: retrouver dans la Bibliothèque d'Albâtre le message codé des Illuminateurs sans éveiller les soupçons des archivistes
+e1_reussite: Le message est là, glissé dans un traité d'astronomie. Un nom, un lieu, une date.
+e1_echec: Un archiviste trop zélé surprend {nom}. Elle s'en tire avec un sourire et une excuse brillante, mais le message lui échappe pour l'instant.
+e2_region: demacia
+e2_lieu: Ancien complexe des traqueurs de mages
+e2_duree: 8
+e2_epreuves: discretion 1 ; poursuite 1
+e2_recit: faire sortir un jeune mage retenu dans l'ancien complexe des Traqueurs avant son transfert
+e2_reussite: Le garçon voit le jour pour la première fois depuis des semaines. {nom} lui apprend, sur la route, à cacher sa lumière. Et à ne pas en avoir honte.
+e2_echec: Le transfert a été avancé. {nom} arrive trop tard, et rentre avec une colère que personne ne lui connaissait.
+fin: {nom} revient au repère et rit de nouveau à table, d'un rire plus libre. Garen ne pose aucune question. Il n'en pense pas moins.
+refus: {nom} sourit, dit que ce n'est rien. Pendant deux jours, sa lumière vacille un peu quand elle croit qu'on ne regarde pas.
+
+=== QUE-JINX | Le plus grand boum de Runeterra
+champion: Jinx
+motivation: plaisir
+demande: « JE VEUX FAIRE UN FEU D'ARTIFICE. Le plus grand. Il me faut des trucs de Zaun. Des trucs qui font BOUM. Dis oui. Dis oui dis oui dis oui. »
+eveil: {nom} couvre le mur du dortoir de plans de fusées géantes. Sur certains, on reconnaît la lune.
+e1_region: zaun
+e1_lieu: Échoppe de Benzo
+e1_duree: 5
+e1_epreuves: discretion 1 ; poursuite 1
+e1_recit: « emprunter » des pièces de chimtech dans les Failles, sans que leurs propriétaires s'en aperçoivent trop vite
+e1_reussite: {nom} rentre avec un sac qui tinte, fume, et chantonne tout seul. Personne ne veut savoir.
+e1_echec: Les propriétaires des pièces s'en sont aperçus très vite. La course-poursuite traverse trois niveaux de Zaun.
+e2_region: zaun
+e2_lieu: Statue de Vander
+e2_duree: 6
+e2_epreuves: siege 1 ; voyage 1
+e2_recit: monter le feu d'artifice au-dessus des Failles, là où tout Zaun pourra le voir
+e2_reussite: Le ciel de Zaun s'illumine de requins, de singes et de visages souriants. En bas, des gamins lèvent la tête et crient de joie. {nom} aussi.
+e2_echec: Le feu part un peu trop tôt et un peu de travers. Personne n'est blessé, mais une cheminée a disparu.
+fin: {nom} rentre au repère noire de suie, les cheveux en pétard, avec le sourire le plus large qu'on lui ait jamais vu. Elle offre une fusée à chacun.
+refus: {nom} boude pendant une heure. Puis elle construit une fusée quand même, une petite, et la tire depuis le toit. Une seule tuile tombe.
+
+=== QUE-VI | Les gamins des Failles
+champion: Vi
+motivation: proteger
+demande: « Il y a un gang dans les Failles qui recrute des gosses. Comme on m'a recrutée, moi. Je veux aller y mettre un peu d'ordre. À ma façon. »
+eveil: {nom} raconte à qui veut l'entendre ses années de gamine dans les Failles. Sous les blagues, il y a une colère qui ne dort pas.
+e1_region: zaun
+e1_lieu: Les Failles
+e1_duree: 6
+e1_epreuves: discretion 1 ; diplomatie 1
+e1_recit: retrouver les gosses du gang et leur parler, sans que le chef soit prévenu
+e1_reussite: Les gamins se méfient, puis écoutent. Une gamine aux cheveux bleus lui rappelle quelqu'un. {nom} doit s'asseoir un instant.
+e1_echec: Le chef du gang est prévenu avant la fin de la conversation. Les gosses se dispersent.
+e2_region: zaun
+e2_lieu: Repaire des Lucioles
+e2_duree: 8
+e2_epreuves: combat 1 ; siege 1
+e2_recit: déloger le chef du gang de son repaire et trouver aux gamins un abri plus sûr chez les Lucioles
+e2_reussite: Le chef du gang finit sa journée dans une benne. Les gamins, eux, ont un toit, et quelqu'un pour veiller sur eux.
+e2_echec: Le chef s'enfuit par les égouts. Mais les gamins ont vu {nom} se battre pour eux, et ils ne l'oublieront pas.
+fin: {nom} rentre au repère avec des écorchures aux poings et un dessin d'enfant dans la poche. Le dessin finit épinglé au-dessus de son lit.
+refus: {nom} tape dans le sac de sable jusqu'à la nuit. Le sac ne s'en remettra pas.
+
+=== QUE-DRAVEN | Le Grand Spectacle
+champion: Draven
+motivation: gloire
+demande: « Noxus a oublié Draven ? Inacceptable. Il me faut une arène, une foule, et toi pour signer la permission. Je m'occupe du reste. Surtout du spectacle. »
+eveil: {nom} répète devant le miroir un salut au public. Puis un deuxième. Puis toute une chorégraphie.
+e1_region: noxus
+e1_lieu: Arène du Fleshing
+e1_duree: 6
+e1_epreuves: diplomatie 1 ; combat 1
+e1_recit: convaincre les organisateurs de l'arène d'offrir une soirée entière à Draven, et prouver qu'il la mérite
+e1_reussite: Les organisateurs acceptent, impressionnés, ou épuisés. Les affiches portent son nom en lettres d'or. Il a lui-même choisi la taille.
+e1_echec: Les organisateurs lui offrent un quart d'heure, en ouverture. {nom} accepte, en le prenant très mal.
+e2_region: noxus
+e2_lieu: Bastion immortel
+e2_duree: 8
+e2_epreuves: combat 1 ; nuee 1
+e2_recit: affronter les champions de l'arène devant la foule du Bastion immortel
+e2_reussite: La foule scande « DRAVEN » jusqu'à l'aube. Il signe des haches, des bras et une porte.
+e2_echec: Le combat est rude et la foule partagée. Mais {nom} se relève, salue, et repart sous des applaudissements polis. Il déteste les applaudissements polis.
+fin: {nom} rentre au repère avec une malle de lettres d'admirateurs et lit les meilleures à voix haute, au dîner, pendant une semaine.
+refus: {nom} déclare que le maître de guilde n'a « aucun sens du spectacle ». Puis organise un spectacle dans la cour, sans permission.
+
+=== QUE-BRAUM | La porte du village
+champion: Braum
+motivation: proteger
+demande: « Mon village m'écrit. Un yéti en colère tourne autour des enclos, et les enfants n'osent plus sortir. Braum va arranger ça, avec une bonne soupe et un grand bouclier ! »
+eveil: {nom} lit une lettre du Freljord, rit fort, puis devient sérieux, et prépare son sac.
+e1_region: freljord
+e1_lieu: Avarosan
+e1_duree: 8
+e1_epreuves: voyage 1 ; poursuite 1
+e1_recit: traverser la toundra jusqu'au village et suivre les traces du yéti dans la neige fraîche
+e1_reussite: Les traces mènent à une grotte. Le yéti n'est pas en colère : il a une épine dans la patte depuis des semaines.
+e1_echec: La tempête efface les traces. {nom} doit attendre au village, en faisant de la soupe pour tout le monde.
+e2_region: freljord
+e2_lieu: Veille du Yéti
+e2_duree: 8
+e2_epreuves: combat 1 ; diplomatie 1
+e2_recit: approcher le yéti blessé sans se faire écraser, et le convaincre de se laisser soigner
+e2_reussite: {nom} retire l'épine. Le yéti pousse un grognement, puis un soupir, puis pose la tête sur son épaule. Le village a un nouveau voisin, gentil.
+e2_echec: Le yéti s'enfuit avant la fin, mais l'épine est sortie. On le revoit le lendemain, beaucoup plus calme.
+fin: {nom} rentre au repère avec des fromages du village, un dessin d'enfant et une touffe de poils de yéti, qu'il montre à tout le monde.
+refus: {nom} répond au village par une longue lettre pleine de conseils. Il la signe d'un grand dessin de moustache.
+
+=== QUE-AHRI | Ceux qui me ressemblent
+champion: Ahri
+motivation: appartenance
+demande: « Toute ma vie, j'ai cru être la dernière de mon espèce. On m'a parlé d'une ancienne du peuple vastaya qui aurait connu les miens. Je veux la trouver. »
+eveil: {nom} contemple longtemps une vieille tapisserie ionienne représentant des renards à plusieurs queues. Elle ne dit rien, mais ses neuf queues bougent sans cesse.
+e1_region: ionia
+e1_lieu: Forêt d'Olgathee
+e1_duree: 8
+e1_epreuves: voyage 1 ; discretion 1
+e1_recit: retrouver dans la forêt la trace d'une ancienne vastaya qui ne veut pas être trouvée
+e1_reussite: Au bout d'un sentier invisible, une maison dans un arbre, et une vieille femme aux yeux d'or qui attend. « Tu en as mis du temps. »
+e1_echec: La forêt égare {nom} pendant deux jours. Quelqu'un ne veut pas encore être trouvé.
+e2_region: ionia
+e2_lieu: Temple de Koeshin
+e2_duree: 6
+e2_epreuves: diplomatie 1 ; voyage 1
+e2_recit: accompagner l'ancienne jusqu'au temple où les siens laissaient autrefois leurs souvenirs
+e2_reussite: Dans le temple, sur un mur, des empreintes de pattes de renard, des dizaines. {nom} pose sa main sur l'une d'elles. Elle n'est plus la dernière de rien.
+e2_echec: Le temple est en ruine. L'ancienne raconte quand même, toute la nuit, et {nom} écoute jusqu'à l'aube.
+fin: {nom} rentre au repère et, pour la première fois, appelle le repère « la maison ». Personne ne relève, mais tout le monde l'a entendu.
+refus: {nom} sourit, comme toujours. Mais pendant quelques jours, son charme s'éteint un peu, comme une lanterne qu'on aurait oublié de remplir.
+
+=== QUE-TEEMO | La carte de l'inexploré
+champion: Teemo
+motivation: cause
+demande: « Capitaine Teemo au rapport ! Les éclaireurs de Bandle n'ont jamais cartographié les sentiers entre les portails. Mission dangereuse. Mission importante. Mission parfaite pour moi ! »
+eveil: {nom} déplie sur la table de la salle commune une carte si grande qu'il faut pousser les chaises. Elle est presque entièrement blanche.
+e1_region: bandle
+e1_lieu: Bandle
+e1_duree: 6
+e1_epreuves: voyage 1 ; discretion 1
+e1_recit: trouver à Bandle les vieux carnets des éclaireurs disparus et repérer le premier portail oublié
+e1_reussite: Le carnet est là, couvert de dessins de champignons et de notes à moitié effacées. Le premier portail est sous un pont, évidemment.
+e1_echec: Les archives de Bandle sont un labyrinthe qui change de forme. {nom} en ressort avec un plan, mais pas le bon.
+e2_region: bandle
+e2_lieu: Bandle
+e2_duree: 10
+e2_epreuves: poursuite 1 ; voyage 1
+e2_recit: traverser les sentiers entre les portails et en revenir avec une carte complète
+e2_reussite: {nom} revient avec une carte complète, cinq nouveaux champignons et un salut militaire impeccable. Les éclaireurs de Bandle lui offrent une médaille.
+e2_echec: Les sentiers se referment derrière {nom}. La carte reste incomplète, mais il connaît maintenant trois raccourcis de plus.
+fin: {nom} accroche la carte terminée dans la salle commune et fait un exposé de deux heures à toute la guilde. Avec des diagrammes.
+refus: {nom} salue : « À vos ordres. » Puis, en secret, il commence la carte quand même, sur les murs du dortoir.
+
+=== QUE-KATARINA | La trace de Marcus
+champion: Katarina
+motivation: appartenance
+demande: « Mon père a disparu. On dit qu'il est mort. Je n'y crois pas. Quelqu'un à Noxus en sait plus qu'il ne le dit. Laisse-moi lui poser la question. À ma manière. »
+eveil: {nom} lance des dagues sur une cible toute la nuit. Au matin, elles dessinent les initiales M D C.
+e1_region: noxus
+e1_lieu: Catacombes du Bastion
+e1_duree: 6
+e1_epreuves: discretion 1 ; poursuite 1
+e1_recit: suivre dans les catacombes un ancien serviteur de la maison Du Couteau qui fuit chaque fois qu'on prononce son nom
+e1_reussite: Le serviteur, acculé, avoue avoir porté une lettre de Marcus, des semaines après sa disparition. Une lettre adressée à quelqu'un dont il ignore le nom.
+e1_echec: Le serviteur disparaît dans les catacombes. Il reste une odeur de cire et une porte qui n'était pas là la veille.
+e2_region: noxus
+e2_lieu: Enclave de Zagayah
+e2_duree: 8
+e2_epreuves: discretion 1 ; combat 1
+e2_recit: s'introduire chez le destinataire de la lettre et la retrouver avant qu'on la détruise
+e2_reussite: La lettre est là. L'écriture est celle de son père. Elle ne dit pas où il est. Elle dit qu'il est fier d'elle.
+e2_echec: La lettre a brûlé. Il en reste un coin, avec trois mots de la main de Marcus. C'est peu. C'est beaucoup.
+fin: {nom} rentre au repère et range la lettre dans la doublure de sa veste, contre son cœur. Elle sourit dans le vide, de temps en temps.
+refus: {nom} ne discute pas. Elle disparaît une nuit, et revient au matin, sans un mot, les yeux rouges. On ne pose pas de questions.
+
+=== QUE-EZREAL | Les pas de mes parents
+champion: Ezreal
+motivation: gloire
+demande: « Mes parents ont disparu à Shurima quand j'étais petit. J'ai trouvé un indice dans un vieux carnet. Bon, d'accord, je l'ai un peu volé. Mais c'est important. Le plus important. »
+eveil: {nom} n'a pas fait le malin de toute la journée. Il relit un carnet abîmé, la bouche serrée, et le cache dès qu'on approche.
+e1_region: shurima
+e1_lieu: Bel'Zhun
+e1_duree: 8
+e1_epreuves: voyage 1 ; diplomatie 1
+e1_recit: retrouver à Bel'Zhun le guide qui a accompagné ses parents dans le désert, il y a des années
+e1_reussite: Le guide est vieux, mais se souvient : un couple passionné, une carte étrange, et un départ vers des ruines dont personne n'est revenu… à part eux, une fois.
+e1_echec: Le guide est mort l'an dernier. Sa fille garde ses affaires, mais refuse de les montrer à un inconnu.
+e2_region: shurima
+e2_lieu: Nashramae
+e2_duree: 10
+e2_epreuves: voyage 1 ; discretion 1
+e2_recit: suivre la carte jusqu'aux ruines et y chercher la moindre trace de leur passage
+e2_reussite: Sur un mur, deux noms gravés côte à côte, et un troisième, plus petit : le sien. Ils pensaient à lui. Ils sont peut-être encore quelque part.
+e2_echec: Le sable a tout recouvert. Mais {nom} rapporte une poignée de ce sable, et la garde dans une fiole.
+fin: {nom} rentre au repère avec le même sourire qu'avant, mais il ne raconte pas celle-là comme une aventure. Il la raconte comme une promesse.
+refus: {nom} rit, dit que ce n'est pas grave, que les ruines ne partiront pas. De toute la soirée, il ne se vante d'aucun exploit.

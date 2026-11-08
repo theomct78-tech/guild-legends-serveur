@@ -1,0 +1,505 @@
+# Piltover · palier Inconnue · lot 1 (missions 001 à 025)
+# {meneur} : le héros qui a mené l'épreuve décisive (dans une mission solo, le héros envoyé). La Chambre des Bannières : l'organisme supérieur aux guildes.
+
+=== PIL-I-001 | Le témoin à moustaches
+source: privee
+region: piltover
+palier: inconnue
+type: enquete
+ton: drole
+lieu: Parc de l'Innovation
+demandeur: Maître Ernst Wendel, horloger, à qui l'on a volé un prototype de montre à ressort perpétuel
+accroche: « Le seul témoin du vol est un chat. Un chat de Piltover, donc il parle, il a vu, et il refuse de témoigner sans être payé. Il demande un saumon. Un saumon entier. Frais. Je refuse de négocier avec un chat. »
+postes: Éclaireur
+duree: 3
+dangereuse: non
+epreuves: diplomatie 32 (négocier avec un chat savant, susceptible et très conscient de sa valeur) ; poursuite 30 (suivre la piste qu'il indique, à travers les toits de Gold Way)
+complication: Le chat ne veut pas de saumon. Il veut qu'on reconnaisse publiquement qu'il est le vrai inventeur du ressort perpétuel : il a montré le mécanisme à l'horloger en jouant avec une pelote.
+eclatante: {meneur} apporte le saumon, puis comprend que le chat veut autre chose. Le chat raconte tout : le voleur, un apprenti jaloux, et l'histoire de la pelote. La montre est retrouvée sur les toits. Maître Wendel, rouge de honte, inscrit le nom du chat sur le brevet. Le chat s'appelle Sir Cumulus. Il vient désormais faire la sieste à l'atelier, en propriétaire.
+reussite: Le chat témoigne, contre un saumon. La montre est retrouvée. Maître Wendel ne saura jamais ce que le chat pense vraiment de lui.
+partielle: Le chat a mangé le saumon et désigné une fausse piste. {meneur} a retrouvé la boîte de la montre, vide.
+echec: Le chat a refusé de parler et a volé le saumon. La montre est introuvable. Maître Wendel déteste désormais les chats et les guildes.
+recompenses: po 25 ; reputation 1 ; objet Charme féerique 6
+
+=== PIL-I-002 | Le majordome qui a démissionné
+source: privee
+region: piltover
+palier: inconnue
+type: traque
+ton: drole
+lieu: Mid Town
+demandeur: Dame Ottilie Brassbottom, veuve d'un inventeur, propriétaire d'un automate majordome
+accroche: « Barnabé est un automate. Feu mon mari l'a construit à la main, rouage par rouage. Ce matin, il a laissé une lettre de démission sur le plateau du thé, très bien écrite, et il est parti. Les automates ne démissionnent pas. Je veux qu'il revienne. »
+postes: Tank
+duree: 3
+dangereuse: non
+epreuves: poursuite 31 (retrouver un automate de deux mètres qui marche très droit et très vite à travers Mid Town) ; combat 29 (l'immobiliser sans le casser, car il refuse poliment de revenir)
+complication: Barnabé ne fuit pas sa maîtresse. Il va au cimetière, sur la tombe de son créateur, comme il le fait en secret chaque année depuis sa mort, et cette année Dame Ottilie l'a surpris en train de partir.
+eclatante: {meneur} rattrape Barnabé à la grille du cimetière. L'automate explique, avec une politesse parfaite, qu'il vient chaque année dire merci. Dame Ottilie arrive en fiacre. Elle ne savait pas. Elle reste avec lui devant la tombe. Barnabé reprend son service le lendemain. Il a désormais un jour de congé par an, inscrit dans son contrat.
+reussite: Barnabé est ramené à la maison. Il retire sa démission, très dignement. Il ne dit pas où il allait.
+partielle: Barnabé a été rattrapé, mais un bras est tordu dans la lutte. Il le répare lui-même, en silence.
+echec: Barnabé a semé {meneur} dans la foule. Il est revenu seul, trois jours plus tard, avec de la boue de cimetière sur les chaussures.
+recompenses: po 25 ; reputation 1 ; objet Armure de tissu 6
+
+=== PIL-I-003 | Le brevet effacé
+source: privee
+region: piltover
+palier: inconnue
+type: enquete
+ton: politique
+lieu: Archives du Conseil
+demandeur: Lisette Arne, inventrice sans clan, qui a déposé un brevet de pompe à eau il y a deux ans
+accroche: « Mon brevet a disparu des archives. Pas perdu : effacé, comme s'il n'avait jamais existé. Et la semaine dernière, un clan marchand a présenté au Conseil une pompe à eau exactement comme la mienne. Avec mes erreurs dedans. »
+postes: Éclaireur, Assassin, Support
+duree: 4
+dangereuse: non
+epreuves: discretion 38 (consulter les registres des archives la nuit, là où l'on n'a pas le droit d'aller) ; diplomatie 34 (faire parler un archiviste qui a peur de perdre sa place)
+complication: Un double du brevet existe : chaque dépôt est recopié dans un registre de secours que personne ne consulte jamais, au sous-sol, et que le clan a oublié de faire effacer.
+eclatante: {meneur} trouve au sous-sol le registre de secours, avec le brevet de Lisette, daté, signé et tamponné. Le document arrive sur le bureau de la Gazette de Piltover avant d'arriver au Conseil. Le clan retire sa pompe. Lisette touche ses droits, et un autre clan lui propose un atelier. La ville apprend aussi que les archives s'effacent, ce qui va faire parler.
+reussite: L'équipe retrouve une copie du brevet. Lisette obtient réparation, discrètement, sans que le nom du clan soit publié.
+partielle: L'équipe a la preuve que le brevet a été effacé, mais pas sa copie. Lisette porte plainte. Ça prendra des années.
+echec: L'équipe a été surprise dans les archives. Le lendemain, Lisette a reçu une lettre polie du clan, lui proposant de quitter Piltover.
+recompenses: po 30 ; reputation 2 ; objet Tome d'amplification 6
+suite: PIL-L-001
+
+=== PIL-I-004 | Le canon à poros
+source: privee
+region: piltover
+palier: inconnue
+type: protection
+ton: drole
+lieu: Place de l'Académie
+demandeur: Professeur Quintus Gearhart, organisateur du canon à poros de la Fête du progrès
+accroche: « Chaque Fête du progrès, mon canon envoie trente poros au-dessus de la place, avec de petits parachutes. Les enfants adorent. Les poros aussi. Quelqu'un a scié les parachutes cette nuit. Il en reste trente-neuf. Il me faut trente poros qui atterrissent. »
+postes: Tank, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: discretion 33 (surveiller le canon et les poros jusqu'au lancement) ; combat 32 (rattraper au vol les poros dont le parachute ne s'ouvre pas)
+complication: Le saboteur est un groupe d'étudiants de l'Académie qui trouvent cruel d'envoyer des poros dans les airs. Ils ont seulement mal choisi leur moyen de protester.
+eclatante: {meneur} surprend les étudiants en train de scier les sangles, et les convainc de laisser les poros voler, à une condition : on demandera leur avis aux poros. Les poros, interrogés, sautent dans le canon de leur plein gré. Le lancement est un triomphe. Les étudiants font une pancarte : « Poros volontaires ». Le professeur l'accroche au canon.
+reussite: Le lancement a lieu. Trois parachutes ne s'ouvrent pas, et trois poros sont rattrapés au vol. La foule applaudit le rattrapage plus que le lancement.
+partielle: Le lancement a lieu avec moitié moins de poros. Le professeur fait un discours sur le sabotage, que personne n'écoute.
+echec: Les poros se sont échappés pendant la nuit. La Fête du progrès a eu lieu sans eux. Les enfants pleurent. Le professeur aussi.
+recompenses: po 20 ; reputation 2 ; objet Charme féerique 7
+
+=== PIL-I-005 | L'apprenti d'en bas
+source: privee
+region: piltover
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Forge Talis
+demandeur: Ezra, seize ans, né à Zaun, qui veut devenir apprenti à la Forge
+accroche: « Je sais souder, je sais calculer, je sais faire tenir un cristal dans un boîtier qui ne fuit pas. Le maître de forge m'a regardé les mains, a vu les brûlures de la Falaise, et m'a dit que la place était prise. Elle n'était pas prise. »
+postes: Support
+duree: 3
+dangereuse: non
+epreuves: diplomatie 34 (convaincre un maître de forge plein de préjugés de regarder le travail plutôt que les mains) ; discretion 29 (faire passer le boîtier d'Ezra sous les yeux du maître sans qu'il sache d'où il vient)
+complication: Le maître de forge n'est pas mauvais. Son frère est mort dans l'attentat du pont, et il ne supporte plus de voir un Zaunien dans sa forge.
+eclatante: {meneur} fait tester le boîtier d'Ezra parmi ceux des autres candidats, sans nom. C'est le meilleur. Le maître de forge le reconnaît, puis apprend d'où il vient. Il reste silencieux longtemps. Puis il parle de son frère, et Ezra parle de sa sœur, morte de la brume grise. Ezra est engagé le lendemain. Il travaille à côté du maître, qui ne lui sourit jamais, et qui le défend contre tout le monde.
+reussite: Ezra est engagé à l'essai. Le maître de forge ne lui adresse pas la parole, mais il regarde son travail.
+partielle: Ezra n'est pas engagé, mais un artisan de la Forge le prend comme aide dans son propre atelier.
+echec: Le maître de forge a renvoyé Ezra et {meneur} avec. Ezra est redescendu à Zaun. Il dit qu'il remontera. Il le dit avec moins de force.
+recompenses: po 20 ; reputation 3 ; objet Épée longue 6
+
+=== PIL-I-006 | Les caisses du quai
+source: privee
+region: piltover
+palier: inconnue
+type: enquete
+ton: aventure
+lieu: Quai des dirigeables
+demandeur: Inspectrice Mara Fenwick, du contrôle des marchandises, la plus honnête et la plus mal payée du quai
+accroche: « Des caisses passent le contrôle avec le bon tampon, mais pas le bon poids. Trois dirigeables cette semaine. Le tampon est vrai. Le poids est faux. Je veux savoir ce qui voyage à Piltover sans qu'on le sache. »
+postes: Éclaireur, Assassin
+duree: 5
+dangereuse: non
+epreuves: discretion 38 (s'introduire dans la soute d'un dirigeable à quai, pendant le déchargement) ; poursuite 36 (suivre les caisses jusqu'à l'entrepôt où elles disparaissent)
+complication: Les caisses contiennent des cristaux synthétiques sans licence, vendus moitié prix aux ateliers de Mid Town. Ils fonctionnent, mais ils laissent une poussière grise dans les poumons de ceux qui les manipulent.
+eclatante: {meneur} ouvre une caisse dans la soute et trouve les cristaux gris. L'équipe suit le convoi jusqu'à un entrepôt de Nouvelle-Piltover et y trouve la liste des ateliers clients. L'inspectrice Fenwick fait saisir la cargaison et prévient chaque atelier. Elle est promue, ce qui l'agace : elle aimait son quai. Elle offre à la guilde un tampon officiel périmé, en souvenir.
+reussite: La marchandise est identifiée et saisie. L'inspectrice remonte une partie de la filière. Les ateliers clients, eux, restent inconnus.
+partielle: L'équipe a vu les cristaux, mais n'a pas pu suivre le convoi. Le trafic continue, ailleurs.
+echec: L'équipe a été enfermée dans la soute et a fait le voyage jusqu'à Bilgewater. Elle est revenue par le prochain dirigeable, à ses frais.
+recompenses: po 35 ; reputation 2 ; objet Cristal de saphir 7
+
+=== PIL-I-007 | Le journaliste menacé
+source: privee
+region: piltover
+palier: inconnue
+type: protection
+ton: politique
+lieu: Gazette de Piltover
+demandeur: Albrecht Penn, journaliste à la Gazette, qui ne dort plus chez lui
+accroche: « J'ai écrit trois articles sur les conditions de travail à la Falaise. Depuis, quelqu'un a mis le feu à ma boîte aux lettres, cassé ma presse et suivi ma fille jusqu'à l'école. Le quatrième article sort après-demain. Je le publierai. J'aimerais être vivant pour le lire. »
+postes: Tank, Support
+duree: 5
+dangereuse: non
+epreuves: combat 37 (protéger la Gazette la nuit où l'on vient détruire l'édition) ; diplomatie 33 (rassurer la famille du journaliste, et le convaincre de mettre sa fille à l'abri)
+complication: Les hommes de main sont payés par le directeur d'une usine de la Falaise, mais le quatrième article va bien plus loin : il nomme le clan qui possède l'usine.
+eclatante: {meneur} repousse les hommes de main devant la porte de la Gazette, à l'aube, alors que l'encre sèche encore. L'édition sort. L'article fait le tour de Piltover. Le clan désavoue publiquement le directeur de l'usine, qui est renvoyé. Les ouvriers de la Falaise obtiennent des masques et des horaires. Albrecht Penn rentre chez lui, enfin. Il écrit un cinquième article, sur la guilde.
+reussite: L'édition sort, protégée. L'article fait du bruit. Le directeur de l'usine nie tout, mais les menaces cessent.
+partielle: La presse a été endommagée, l'article sort avec un jour de retard, dans une version raccourcie.
+echec: La presse a été détruite. L'article n'est jamais sorti. Albrecht Penn a quitté Piltover avec sa fille.
+recompenses: po 35 ; reputation 3 ; objet Bouclier de Doran 7
+
+=== PIL-I-008 | La poussière grise
+source: privee
+region: piltover
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Nouvelle-Piltover
+demandeur: Dame Henriette Coil, logeuse d'un immeuble de Nouvelle-Piltover
+accroche: « Mes locataires toussent gris. Les murs se couvrent d'une poussière grise, chaque matin, même quand on a tout lavé la veille. Personne ne fabrique rien dans l'immeuble. Sauf peut-être le monsieur du troisième, qui ne sort jamais. »
+postes: Mage
+duree: 4
+dangereuse: non
+epreuves: discretion 32 (inspecter l'immeuble et l'appartement du troisième sans alerter son locataire) ; diplomatie 30 (convaincre le locataire de laisser entrer quelqu'un)
+complication: Le locataire du troisième est un ancien chercheur du clan Ferros, licencié, qui continue chez lui ses recherches pour rendre les cristaux synthétiques sûrs. Il a presque réussi. Ses essais ratés empoisonnent l'immeuble.
+eclatante: {meneur} sent la magie instable qui suinte des murs du troisième, et frappe à la porte. Le vieux chercheur ouvre, épuisé, couvert de gris. Il montre ses notes : il est tout près du but. {meneur} l'aide à installer un filtre pour son laboratoire et convainc Dame Coil de lui laisser la cave, mieux aérée. Les locataires ne toussent plus. Le chercheur promet à la guilde le premier cristal sûr qu'il réussira.
+reussite: La source est trouvée et l'expérience arrêtée. Le chercheur déménage. La poussière disparaît en une semaine.
+partielle: Le chercheur a refusé d'ouvrir. Dame Coil a fait appel aux gendarmes. La poussière continue, en attendant.
+echec: {meneur} n'a rien trouvé. Une locataire est partie à l'hôpital. Dame Coil vend l'immeuble.
+recompenses: po 25 ; reputation 2 ; objet Tome d'amplification 7
+
+=== PIL-I-009 | Le laveur de la Tour
+source: privee
+region: piltover
+palier: inconnue
+type: sauvetage
+ton: aventure
+lieu: Tour de l'Horloge
+demandeur: Aldo, laveur de vitres, qui crie depuis une demi-heure
+accroche: « AU SECOURS ! La corde a cassé, je suis accroché à l'aiguille des minutes ! Dans vingt minutes, elle passe à la verticale, et je n'aurai plus rien sous les pieds ! Et j'ai le vertige ! »
+postes: Tank
+duree: 2
+dangereuse: non
+epreuves: voyage 32 (escalader la façade de la Tour de l'Horloge, en plein vent) ; siege 30 (bloquer le mécanisme de l'horloge à mains nues pour arrêter l'aiguille)
+complication: Si l'aiguille s'arrête plus de quelques minutes, l'horloge sonnera faux pendant un mois, et l'horloger municipal est très susceptible.
+eclatante: {meneur} grimpe la façade et coince le mécanisme de l'horloge, juste à temps. Aldo est récupéré, tremblant, et redescendu sur le dos de {meneur}. La foule applaudit en bas. L'horloger municipal, furieux, puis ému, offre de réparer gratuitement les montres de la guilde, à vie. L'horloge, elle, sonne midi à onze heures pendant une semaine. Personne ne se plaint.
+reussite: Aldo est sauvé, de justesse. L'horloge n'a été arrêtée que deux minutes. L'horloger municipal grogne, mais il paie la moitié de la récompense.
+partielle: Aldo est sauvé, mais il est tombé sur un auvent et s'est cassé une jambe. Il ne lave plus de vitres.
+echec: {meneur} n'est pas arrivé à temps. Aldo a été rattrapé par le filet des pompiers. Il est vivant. Il ne monte plus nulle part.
+recompenses: po 20 ; reputation 2 ; objet Ceinture du géant 3
+
+=== PIL-I-010 | Le fantôme de l'Opéra Medarda
+source: privee
+region: piltover
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Opéra Medarda
+demandeur: Signora Valentina Rosso, première chanteuse de l'Opéra
+accroche: « Chaque soir, au troisième acte, quelqu'un chante avec moi. Une voix d'homme, magnifique, qui vient des cintres. Il n'y a personne dans les cintres. Le directeur dit que c'est un écho. Les échos ne chantent pas en ténor. »
+postes: Éclaireur, Support
+duree: 4
+dangereuse: non
+epreuves: discretion 36 (explorer les cintres et les machineries de l'opéra pendant la représentation) ; diplomatie 34 (parler à la voix, quand on l'aura trouvée)
+complication: La voix est celle d'un ancien machiniste, Gaspard, défiguré dans l'incendie qui a détruit le premier opéra. Il vit dans les cintres depuis vingt ans. Il chante avec Valentina parce qu'il l'aime, et qu'il n'ose pas se montrer.
+eclatante: {meneur} trouve Gaspard au troisième acte, caché derrière un contrepoids, chantant les yeux fermés. Il veut fuir. L'équipe le convainc de rester. Après la représentation, Valentina monte elle-même dans les cintres. Elle lui demande de chanter le duo du quatrième acte, sur scène, masqué. La salle croit à un coup de génie de mise en scène. Ils chantent ensemble tous les soirs, maintenant.
+reussite: La voix est trouvée. Gaspard accepte de ne plus chanter pendant les représentations. Valentina garde le secret, et une fleur sur sa coiffeuse, chaque soir.
+partielle: L'équipe a trouvé la cachette, mais Gaspard s'est enfui. La voix se tait. Valentina dit que l'opéra est plus triste.
+echec: L'équipe a fait tomber un décor pendant le troisième acte. La représentation a été arrêtée. Le directeur a renvoyé la guilde.
+recompenses: po 25 ; reputation 2 ; objet Élixir de sorcellerie 6
+
+=== PIL-I-011 | Les familles de la Falaise
+source: privee
+region: piltover
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: La Falaise
+demandeur: Gerda, contremaîtresse dans une fonderie de la Falaise
+accroche: « Une conduite a crevé au-dessus des logements des ouvriers. L'eau de la cascade est entrée dans les maisons. Elle est verte. Elle brûle la peau. Il y a des enfants dans les étages du bas, et la direction dit d'attendre la relève. »
+postes: Healer, Tank
+duree: 5
+dangereuse: non
+risque: oui
+epreuves: siege 43 (fermer la vanne de la conduite crevée, sous la pluie chimique) ; voyage 40 (évacuer les familles des étages bas par les escaliers de service)
+complication: La direction ne veut pas fermer la vanne : cela arrêterait la fonderie pendant deux jours, et ses commandes passent avant.
+eclatante: {meneur} ferme la vanne, malgré les cris du contremaître de la direction. Les familles sont évacuées, les brûlures soignées. Gerda fait remonter un rapport jusqu'au Conseil, signé par cent ouvriers. Pour la première fois, un inspecteur descend à la Falaise. Il ne sait pas quoi dire. Il revient le lendemain avec des masques.
+reussite: Les familles sont évacuées et soignées. La vanne est fermée deux heures plus tard par la direction elle-même, quand l'équipe a fini de la gêner.
+partielle: Tout le monde est sorti, mais plusieurs enfants gardent des brûlures. La fonderie a repris le travail le lendemain.
+echec: L'équipe a dû reculer devant l'eau verte. Les familles ont été évacuées par les ouvriers eux-mêmes, avec des blessés.
+recompenses: po 80 ; reputation 3 ; objet Potion de soin 10
+
+=== PIL-I-012 | La montre de la mariée
+source: privee
+region: piltover
+palier: inconnue
+type: livraison
+ton: drole
+lieu: Académie de Piltover
+demandeur: Monsieur Félix Tock, horloger, en retard pour la première fois de sa vie
+accroche: « Une montre de mariage, commandée par une conseillère pour sa fille. Le mariage commence dans deux heures, à l'Académie, de l'autre côté de la ville. Mon fiacre a perdu une roue, mes jambes aussi, et la montre n'est pas encore remontée. Elle doit sonner au moment exact du “oui”. »
+postes: Éclaireur
+duree: 2
+dangereuse: non
+epreuves: poursuite 33 (traverser Piltover en deux heures, avec une montre fragile, à l'heure de pointe) ; discretion 29 (entrer dans un mariage de clan sans invitation, pour remettre la montre au bon moment)
+complication: La montre est réglée pour sonner à onze heures précises. Le prêtre, lui, est toujours en avance.
+eclatante: {meneur} arrive à l'Académie à onze heures moins deux, se glisse derrière les invités, et remet la montre à la mariée au moment où le prêtre dit « Voulez-vous… ». Elle dit « oui » ; la montre sonne exactement. La salle applaudit. La conseillère croit que c'était prévu. Monsieur Tock, qui arrive essoufflé, l'apprend et s'évanouit de soulagement.
+reussite: La montre arrive à temps, et sonne avec une minute de retard. Personne ne s'en rend compte, sauf Monsieur Tock, qui ne s'en remettra pas.
+partielle: La montre est arrivée après le « oui ». Elle sonne pendant les discours. On rit. La conseillère, non.
+echec: La montre est tombée dans le canal. Monsieur Tock a dû rembourser, et il a perdu sa meilleure cliente.
+recompenses: po 20 ; reputation 1 ; objet Bottes 6
+
+=== PIL-I-013 | La guerre des chimistes
+source: privee
+region: piltover
+palier: inconnue
+type: diplomatie
+ton: drole
+lieu: Mid Town
+demandeur: Les voisins de la rue des Alambics, à bout de nerfs
+accroche: « Deux chimistes, porte à porte, qui se détestent depuis vingt ans. L'un a fait exploser la vitrine de l'autre. L'autre a teint en violet le chat du premier. Hier, toute la rue sentait l'œuf pourri. Si personne ne les arrête, la prochaine fois, c'est la rue qui saute. »
+postes: Support
+duree: 3
+dangereuse: non
+epreuves: diplomatie 35 (faire asseoir deux vieux chimistes têtus à la même table) ; discretion 29 (désamorcer discrètement le « petit cadeau » que l'un prépare pour l'autre)
+complication: Les deux chimistes ont fait leurs études ensemble. Ils se sont brouillés à cause d'une découverte qu'ils ont faite à deux, et que chacun s'attribue.
+eclatante: {meneur} désamorce le petit cadeau à temps, puis réunit les deux vieillards et leur fait raconter, chacun leur tour, la fameuse découverte. Les deux récits sont identiques, à un détail près. Ils se disputent sur le détail pendant une heure, puis éclatent de rire. Ils déposent un brevet commun le lendemain. Le chat est toujours violet. Il a l'air d'aimer ça.
+reussite: Les deux chimistes signent une trêve. Ils ne se parlent toujours pas, mais la rue respire, au sens propre.
+partielle: La trêve n'a duré qu'une semaine. Puis la rue a senti le chou pendant trois jours.
+echec: Le petit cadeau a explosé pendant la négociation. Les deux chimistes accusent maintenant la guilde.
+recompenses: po 20 ; reputation 1 ; objet Élixir de sorcellerie 5
+
+=== PIL-I-014 | Les tombes des gendarmes
+source: privee
+region: piltover
+palier: inconnue
+type: enquete
+ton: horreur
+lieu: Cimetière
+demandeur: Monsieur Osric, gardien du cimetière, qui n'a jamais eu peur de rien jusqu'à cette semaine
+accroche: « Chaque matin, une tombe d'gendarme est ouverte. Pas pillée : ouverte. Le cercueil est là, le corps aussi, mais on lui a pris son insigne. Six insignes en une semaine. Et la nuit, j'entends siffler une chanson de la ville basse. »
+postes: Éclaireur, Tank
+duree: 4
+dangereuse: non
+epreuves: discretion 37 (passer la nuit dans le cimetière sans se faire repérer) ; combat 33 (arrêter ceux qui ouvrent les tombes, s'ils résistent)
+complication: Les pilleurs sont des jeunes de Zaun qui récupèrent les insignes des gendarmes morts pendant les émeutes. Ils les rapportent en bas, à une mère dont le fils a été tué par l'un d'eux, pour qu'elle puisse savoir lequel.
+eclatante: {meneur} surprend les jeunes, à genoux devant une tombe, en train de lire le numéro d'un insigne à la lanterne. Ils ne fuient pas. Ils expliquent. Les insignes sont rendus aux tombes, sauf un. Celui-là, l'équipe le porte elle-même à la mère, en bas. Ce qu'elle en fait ne regarde qu'elle. Le gardien referme les tombes. Il ne siffle plus la nuit.
+reussite: Les pilleurs sont surpris et s'enfuient en abandonnant les insignes. Le gardien les remet en place. On ne saura jamais pourquoi.
+partielle: L'équipe a fait fuir les pilleurs, mais une septième tombe a été ouverte avant.
+echec: L'équipe a eu peur du sifflement et a fui. Le gardien en parle à tout le monde, à sa façon.
+recompenses: po 25 ; reputation 2 ; objet Cape de négation 7
+
+=== PIL-I-015 | La boussole du pirate
+source: privee
+region: piltover
+palier: inconnue
+type: traque
+ton: aventure
+lieu: Docks du Nord
+demandeur: Madame Cordelia Spoke, fabricante d'instruments de navigation
+accroche: « Un marin de Bilgewater est entré dans ma boutique, a regardé ma boussole hextech, celle qui indique toujours le port le plus proche, et il est ressorti avec. Son navire lève l'ancre ce soir. Je reconnaîtrais son odeur de poisson entre mille. »
+postes: Tireur
+duree: 3
+dangereuse: non
+epreuves: poursuite 34 (retrouver un pirate dans le dédale des docks avant que son navire ne parte) ; combat 30 (récupérer la boussole sans déclencher une bagarre avec tout l'équipage)
+complication: Le pirate n'est pas un voleur ordinaire : son capitaine l'a envoyé chercher la boussole pour retrouver un navire disparu, avec son propre fils à bord.
+eclatante: {meneur} rattrape le marin au bord de la passerelle, la boussole à la main. Il explique tout : le navire perdu, le fils du capitaine. Madame Spoke, qui a suivi, écoute. Elle lui prête la boussole, contre la promesse de la rapporter. Trois mois plus tard, le marin revient, la boussole intacte, et un tonneau de rhum. Le navire perdu a été retrouvé.
+reussite: La boussole est récupérée sur la passerelle. Le marin repart sans elle, en jurant dans une langue que personne ne comprend.
+partielle: La boussole a été récupérée, mais l'aiguille a été tordue dans la lutte. Elle indique désormais toujours Bilgewater.
+echec: Le navire a levé l'ancre avec la boussole à bord. Madame Spoke ne vend plus rien aux marins.
+recompenses: po 25 ; reputation 2 ; objet Bottes 7
+
+=== PIL-I-016 | L'ascenseur de la Falaise
+source: privee
+region: piltover
+palier: inconnue
+type: defense
+ton: tragique
+lieu: La Falaise
+demandeur: Bruno, opérateur d'un des ascenseurs qui relient la Falaise à la ville basse
+accroche: « Quelqu'un sabote mon ascenseur. Les câbles sont limés, chaque nuit, un peu plus. Si personne ne s'en occupe, il lâchera un matin, plein d'ouvriers. Je l'ai signalé trois fois. On m'a dit de mieux surveiller. »
+postes: Tank, Combattant, Éclaireur
+duree: 5
+dangereuse: non
+risque: oui
+epreuves: discretion 39 (surveiller la cabine et la machinerie toute la nuit) ; combat 43 (arrêter les saboteurs, qui sont plusieurs et bien armés)
+complication: Les saboteurs sont payés par un clan qui veut faire construire un nouvel ascenseur, plus cher, et récupérer le droit de faire payer le passage aux ouvriers.
+eclatante: {meneur} surprend les saboteurs, la lime à la main. Ils sont arrêtés, et l'un d'eux, terrifié, donne le nom de celui qui les paie. Bruno porte l'affaire à la Gazette. Le clan renonce à son projet. L'ascenseur est réparé aux frais de la ville. Bruno l'a rebaptisé : il porte maintenant le nom de la guilde, peint à la main sur la cabine.
+reussite: Les saboteurs sont chassés et les câbles réparés. L'ascenseur tient. Personne ne saura qui les payait.
+partielle: Les saboteurs ont fui, mais un câble était déjà presque coupé. L'ascenseur est fermé une semaine pour réparation.
+echec: L'ascenseur a lâché au petit matin. Il était presque vide. Il y a eu deux blessés.
+recompenses: po 105 ; reputation 3 ; objet Armure de tissu 7
+
+=== PIL-I-017 | La tête du fondateur
+source: privee
+region: piltover
+palier: inconnue
+type: recuperation
+ton: drole
+lieu: Académie de Piltover
+demandeur: Doyen-adjoint Bartholomew Pike, responsable de la discipline, au bord de l'apoplexie
+accroche: « La tête de la statue du fondateur a disparu. En bronze, quarante kilos. Les étudiants disent qu'ils ne savent rien. Ils disent ça avec un grand sourire. La cérémonie de remise des diplômes est demain, et le fondateur n'a pas de tête. »
+postes: Assassin
+duree: 3
+dangereuse: non
+epreuves: discretion 33 (fouiller les dortoirs et les clubs d'étudiants sans se faire prendre) ; poursuite 30 (suivre le groupe d'étudiants qui déplace la tête de cachette en cachette)
+complication: La tête n'a pas été volée par jeu : les étudiants l'ont prise pour la faire réparer, parce que la statue se fissure depuis des années et que l'Académie n'a jamais voulu payer.
+eclatante: {meneur} retrouve la tête chez un fondeur de Mid Town, en train d'être restaurée aux frais des étudiants. Le travail est magnifique. Le doyen-adjoint, devant le fait accompli, accepte de laisser les étudiants la remettre en place pendant la cérémonie. Le fondateur retrouve sa tête sous les applaudissements. Elle brille, pour la première fois depuis un siècle.
+reussite: La tête est retrouvée et remise en place avant la cérémonie. Les étudiants sont punis. Ils ont l'air fiers quand même.
+partielle: La tête est retrouvée, mais pas à temps. Le fondateur assiste à la cérémonie avec un chapeau très haut.
+echec: La tête est réapparue une semaine plus tard, en haut du clocher de l'Académie, avec une moustache peinte.
+recompenses: po 20 ; reputation 1 ; objet Élixir de rage 5
+
+=== PIL-I-018 | L'inventrice et la Porte
+source: privee
+region: piltover
+palier: inconnue
+type: escorte
+ton: tendre
+lieu: Porte Hextech
+demandeur: Madame Clémence Ardoise, quatre-vingt-cinq ans, inventrice, aveugle depuis dix ans
+accroche: « J'ai travaillé sur les premières lentilles qui ont servi à la Porte Hextech. Je n'étais qu'une assistante, on ne m'a jamais citée. Je n'y vois plus. Mais je voudrais l'entendre fonctionner, une fois, de près. On ne laisse pas entrer les vieilles dames aveugles dans la Porte. »
+postes: Support
+duree: 3
+dangereuse: non
+epreuves: diplomatie 33 (obtenir des gardiens de la Porte qu'ils laissent entrer une vieille dame sans laissez-passer) ; voyage 29 (la guider dans la tour, jusqu'au balcon où l'on entend la Porte s'ouvrir)
+complication: Un des techniciens de la Porte a gardé, dans son atelier, les carnets de l'assistante qui a calculé les premières lentilles. Il ne sait pas qu'elle est encore vivante.
+eclatante: {meneur} obtient l'entrée, et guide Madame Ardoise jusqu'au balcon au moment où la Porte s'ouvre, dans un grondement de lumière qu'elle sent sur son visage. En redescendant, un vieux technicien la reconnaît à sa voix. Il a gardé ses carnets. On lit son nom, à voix haute, devant toute l'équipe de la Porte. Il sera gravé sur une plaque, la semaine suivante.
+reussite: Madame Ardoise entend la Porte s'ouvrir. Elle ne dit rien. Elle pleure en souriant, et remercie {meneur} en lui serrant les deux mains.
+partielle: Les gardiens n'ont laissé entrer que jusqu'au pied de la tour. Madame Ardoise a entendu la Porte, de loin. Elle dit que c'est déjà beaucoup.
+echec: Les gardiens ont refusé. Madame Ardoise est rentrée chez elle. Elle a demandé qu'on lui décrive la Porte. {meneur} l'a fait.
+recompenses: po 20 ; reputation 3 ; objet Cristal de saphir 6
+
+=== PIL-I-019 | Les rats des égouts gris
+source: privee
+region: piltover
+palier: inconnue
+type: defense
+ton: horreur
+lieu: Nouvelle-Piltover
+demandeur: Les habitants d'une rue de Nouvelle-Piltover, réunis dans la boulangerie
+accroche: « Les rats sortent des égouts. Ils sont gros comme des chiens, avec des yeux qui brillent gris, et ils n'ont pas peur de la lumière. Hier soir, ils ont emporté le chat de la boulangère. Le chat parlait. Il a crié des noms. »
+postes: Tank, DPS, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: discretion 32 (descendre dans les égouts et trouver le nid sans se faire repérer) ; nuee 40 (repousser une marée de rats énormes et affamés)
+complication: Les rats ont grandi en mangeant les déchets de cristaux synthétiques qu'un atelier clandestin jette dans les égouts.
+eclatante: {meneur} trouve le nid sous une grille, au pied d'un tas de cristaux gris brillants. Les rats sont repoussés, le nid brûlé. Le chat de la boulangère est retrouvé, vivant, perché sur une poutre, furieux et très bavard. L'équipe remonte la conduite jusqu'à l'atelier clandestin, et le signale. La boulangère offre un pain par semaine à la guilde, et le chat une malédiction féline à l'atelier.
+reussite: Les rats sont repoussés et le nid détruit. La rue est tranquille. Le chat, hélas, n'est pas revenu.
+partielle: L'équipe a tué les plus gros rats, mais le nid s'est déplacé sous une autre rue.
+echec: Les rats ont gagné. L'équipe est remontée en courant. La rue a été évacuée pendant trois jours.
+recompenses: po 30 ; reputation 2 ; objet Dague 7
+
+=== PIL-I-020 | La bourse de l'Académie
+source: privee
+region: piltover
+palier: inconnue
+type: diplomatie
+ton: tendre
+lieu: Académie de Piltover
+demandeur: Pia Moreno, étudiante boursière, fille d'un docker, première de sa promotion
+accroche: « Ma bourse est supprimée. Le comité dit que j'ai triché à l'examen de mécanique. Je n'ai pas triché. J'ai juste trouvé une solution que le professeur ne connaissait pas. Si je perds la bourse, je retourne aux docks. Mon père a travaillé vingt ans pour que je n'y retourne pas. »
+postes: Support, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: discretion 33 (consulter les copies de l'examen et les notes du professeur) ; diplomatie 38 (convaincre le comité de laisser Pia démontrer sa solution devant lui)
+complication: Le professeur sait que Pia n'a pas triché. Il a eu peur que sa solution prouve que son propre manuel, enseigné depuis trente ans, contenait une erreur.
+eclatante: {meneur} obtient que Pia démontre sa solution devant le comité, au tableau. Elle a raison. Le professeur, devant ses collègues, finit par admettre l'erreur de son manuel. Pia garde sa bourse, et on lui propose de corriger le manuel pour l'édition suivante. Son père vient la chercher le soir, en habit de travail, et tout l'amphithéâtre se lève quand il entre.
+reussite: Pia garde sa bourse, après avoir démontré sa solution. Le professeur ne s'excuse pas, mais il ne la regarde plus de la même façon.
+partielle: Le comité accorde à Pia une seconde chance : un nouvel examen, plus difficile. Elle le passera.
+echec: Le comité a maintenu sa décision. Pia est retournée aux docks. Elle continue de calculer, le soir, sur des caisses.
+recompenses: po 20 ; reputation 3 ; objet Tome d'amplification 6
+
+=== PIL-I-021 | Les gants du pickpocket
+source: privee
+region: piltover
+palier: inconnue
+type: traque
+ton: aventure
+lieu: Mid Town
+demandeur: Sergent Augustin Belle, des gendarmes de Mid Town, qui préfère que ça ne se sache pas
+accroche: « Un pickpocket porte des gants mécaniques qui lui donnent des doigts de cinquante centimètres. Il vole à travers la foule sans s'approcher de personne. Il a volé la montre du commissaire. Pendant son discours. »
+postes: DPS
+duree: 3
+dangereuse: non
+epreuves: poursuite 35 (rattraper un voleur qui s'échappe par les toits et les tuyaux) ; combat 30 (lui retirer ses gants sans se faire étrangler par ses doigts mécaniques)
+complication: Le voleur est un gamin de quatorze ans, qui a fabriqué les gants lui-même avec des pièces volées. C'est le meilleur mécanicien de son âge que la ville ait vu.
+eclatante: {meneur} coince le gamin sur un toit, les gants emmêlés dans une cheminée. Il pleure de rage. Le sergent Belle, en voyant les gants, siffle d'admiration. Au lieu de la prison, le gamin est envoyé en apprentissage chez un horloger de Mid Town, sous la surveillance du sergent. La montre du commissaire est rendue. Elle fonctionne mieux qu'avant.
+reussite: Le voleur est arrêté, les gants saisis. La montre du commissaire est rendue. Le sergent Belle garde les gants dans son bureau, pour les regarder.
+partielle: Le voleur a filé, mais il a laissé un gant. Le sergent Belle le démonte pendant des semaines.
+echec: Le voleur a volé la bourse de {meneur} pendant la poursuite. Le sergent Belle n'a rien dit. Il a souri.
+recompenses: po 25 ; reputation 2 ; objet Dague 6
+
+=== PIL-I-022 | La serre qui transpire
+source: privee
+region: piltover
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Parc de l'Innovation
+demandeur: Maîtresse Iris Fernleaf, jardinière en chef du parc
+accroche: « Les orchidées de Shurima meurent. Les saules pleurent de vraies larmes, chaudes. L'étang aux nénuphars fume la nuit. Rien n'a changé dans le parc, sauf le nouveau chauffage hextech que le clan mécène a fait installer cet hiver. »
+postes: Mage
+duree: 3
+dangereuse: non
+epreuves: discretion 31 (inspecter le chauffage hextech sous le parc, la nuit) ; diplomatie 31 (convaincre l'ingénieur du clan mécène que son installation fuit)
+complication: Le cristal du chauffage est fêlé. Il ne fait pas que chauffer : il libère de la magie dans le sol, et les plantes la boivent.
+eclatante: {meneur} sent la magie qui suinte du sol, et trouve le cristal fêlé dans sa cage, au fond de la chaufferie. L'ingénieur nie, puis touche le cristal et retire sa main en criant. Le chauffage est arrêté. Les saules cessent de pleurer. Les orchidées, elles, ont changé : elles brillent la nuit. Maîtresse Fernleaf décide de les garder. Elles deviennent la fierté du parc.
+reussite: Le cristal fêlé est trouvé et remplacé. Les plantes se remettent lentement. Maîtresse Fernleaf replante les orchidées.
+partielle: {meneur} a trouvé la source, mais le clan refuse d'arrêter le chauffage avant la fin de l'hiver.
+echec: L'ingénieur a fait chasser {meneur} de la chaufferie. Les saules pleurent toujours. Les visiteurs trouvent ça très romantique.
+recompenses: po 25 ; reputation 2 ; objet Cristal de saphir 7
+
+=== PIL-I-023 | Le bal de l'Opéra
+source: privee
+region: piltover
+palier: inconnue
+type: protection
+ton: politique
+lieu: Opéra Medarda
+demandeur: Lady Marguerite Holloran, mère d'un héritier de dix-sept ans, très inquiète
+accroche: « Mon fils fait ses débuts au bal de l'Opéra. Un clan rival a juré de l'humilier, pour faire tomber notre alliance avec une autre famille. Je ne sais pas comment. Je sais seulement qu'ils sont très inventifs. Et que mon fils est très naïf. »
+postes: Assassin, Support
+duree: 4
+dangereuse: non
+epreuves: discretion 37 (surveiller le bal sans être remarqué, au milieu de trois cents invités) ; diplomatie 35 (déjouer le piège sans scandale, et sans que l'héritier se rende compte de rien)
+complication: Le piège est une lettre d'amour, fausse, que l'on doit glisser dans la poche de l'héritier, au nom de la fiancée de l'autre famille. Mais l'héritier a vraiment une lettre d'amour dans sa poche, et elle n'est pas pour sa fiancée.
+eclatante: {meneur} intercepte la fausse lettre au moment où un domestique la glisse dans la poche de l'héritier, et découvre la vraie, déjà présente. Il faut une conversation discrète, dans un couloir, pour comprendre que l'héritier aime une musicienne de l'orchestre. Ni la fausse ni la vraie lettre ne font scandale. L'héritier rompt son alliance de lui-même, la semaine suivante, avec élégance. Lady Holloran en veut à la guilde. Puis elle la remercie, beaucoup plus tard.
+reussite: La fausse lettre est interceptée. L'alliance tient. Le clan rival ne saura jamais pourquoi son plan a échoué.
+partielle: La fausse lettre a été trouvée par l'héritier lui-même, qui l'a lue à voix haute en riant. Scandale évité, mais de peu.
+echec: La lettre a été lue pendant le bal. L'alliance est rompue. Lady Holloran ne remettra plus jamais les pieds à l'Opéra.
+recompenses: po 40 ; reputation 2 ; objet Élixir de sorcellerie 6
+
+=== PIL-I-024 | La dette du docker
+source: privee
+region: piltover
+palier: inconnue
+type: diplomatie
+ton: tragique
+lieu: Docks du Nord
+demandeur: Rosa, femme d'un docker, deux enfants
+accroche: « Mon mari a emprunté pour soigner son dos. Le prêteur est un homme d'en bas, qui travaille pour un baron du Shimmer. Il ne veut plus d'argent. Il veut que mon mari laisse passer certaines caisses sans regarder. S'il refuse, ils ont dit qu'ils viendraient voir les enfants. »
+postes: Support, Tank
+duree: 5
+dangereuse: non
+epreuves: diplomatie 37 (négocier avec un prêteur qui n'a aucune raison de négocier) ; combat 35 (si la parole échoue, faire comprendre au prêteur que la famille est protégée)
+complication: Le prêteur ne travaille pas pour lui-même. Il a une dette envers le même baron, et sa propre famille est menacée de la même façon.
+eclatante: {meneur} comprend que le prêteur est pris dans le même piège, et lui parle comme à une victime, pas comme à un ennemi. Les deux hommes, le docker et le prêteur, vont ensemble trouver l'inspectrice du quai, qui les fait protéger en échange de leur témoignage. Le réseau du baron perd un de ses ports. Rosa et ses enfants dorment, enfin. Le dos du docker, lui, ne guérit pas, mais il ne doit plus rien à personne.
+reussite: Le prêteur accepte de rayer la dette, contre une somme réunie par les dockers du quai. La famille est en sécurité, pour l'instant.
+partielle: Le prêteur a reculé, mais il reviendra. Rosa a envoyé ses enfants chez sa sœur.
+echec: Le prêteur n'a pas reculé. Le docker a laissé passer les caisses. Rosa n'a plus rien dit à la guilde.
+recompenses: po 25 ; reputation 3 ; objet Bouclier de Doran 6
+
+=== PIL-I-025 | Le chien de garde mécanique
+source: privee
+region: piltover
+palier: inconnue
+type: defense
+ton: drole
+lieu: Remparts de la ville
+demandeur: Maître Ignatius Bolt, marchand de pièces détachées, réfugié sur son propre toit
+accroche: « J'ai acheté un chien de garde mécanique pour mon entrepôt, près des remparts. Il garde. Il garde tellement bien qu'il ne me laisse plus entrer. Ni moi, ni mes employés, ni le facteur. Il a mordu une charrette. »
+postes: Tank
+duree: 3
+dangereuse: non
+epreuves: combat 33 (affronter un chien mécanique de quatre cents kilos, très, très fidèle) ; discretion 29 (atteindre la clé de désactivation, cachée sous son collier)
+complication: Le chien obéit au dernier visage qu'il a vu en premier en s'éveillant : c'était celui d'un livreur, qui est reparti sans savoir qu'il était devenu le maître du chien.
+eclatante: {meneur} tient le chien en respect assez longtemps pour comprendre qu'il cherche quelqu'un. On retrouve le livreur, qui arrive, perplexe. Le chien s'assoit devant lui et remue la queue, ce qui fait trembler l'entrepôt. Le livreur est embauché comme gardien, avec son chien. Maître Bolt récupère son entrepôt, et un employé très heureux.
+reussite: {meneur} atteint la clé et désactive le chien. Maître Bolt peut rentrer. Il revend le chien le lendemain, à quelqu'un qui n'aime pas les visiteurs.
+partielle: Le chien a été désactivé, mais il a eu le temps de détruire la porte de l'entrepôt. Maître Bolt dit que c'est quand même un bon chien.
+echec: Le chien a chassé {meneur} jusqu'aux remparts. Maître Bolt dort toujours sur son toit.
+recompenses: po 20 ; reputation 1 ; objet Armure de tissu 6

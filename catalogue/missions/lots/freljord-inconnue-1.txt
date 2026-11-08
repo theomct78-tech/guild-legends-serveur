@@ -1,0 +1,507 @@
+# Freljord · palier Inconnue · lot 1 (missions 001 à 025)
+# {meneur} : le héros qui a mené l'épreuve décisive. La Chambre des Bannières : l'organisme supérieur aux guildes.
+
+=== FRE-I-001 | Le grand concours de poros
+source: privee
+region: freljord
+palier: inconnue
+type: protection
+ton: drole
+lieu: Vathcaer
+demandeur: Hilde, éleveuse de poros, qui gagne le concours d'hiver depuis six ans
+accroche: « Mon poro Gros-Bouffi est le plus rond de tout le Freljord. Le concours est demain. Cette nuit, quelqu'un a essayé de lui faire manger une pierre peinte en biscuit. Il l'a presque mangée. Il mange tout. »
+postes: Éclaireur, Support
+duree: 3
+dangereuse: non
+epreuves: discretion 32 (veiller sur l'enclos toute la nuit sans effrayer les poros, qui s'effraient de tout) ; diplomatie 34 (calmer les éleveurs qui s'accusent mutuellement, avant que le concours ne tourne à la bagarre)
+complication: La saboteuse est la petite-fille de Hilde, qui a son propre poro et rêve de gagner une fois, une seule, contre sa grand-mère.
+eclatante: {meneur} surprend la petite-fille, un biscuit de pierre dans la main et les larmes aux yeux. L'équipe convainc Hilde d'inscrire les deux poros. Gros-Bouffi gagne, de peu. La petite-fille gagne le prix du poro « le plus aimable ». Elle ne savait pas qu'il existait. Hilde non plus : l'équipe vient de l'inventer. Vathcaer décide de le garder.
+reussite: Gros-Bouffi gagne le concours pour la septième fois. On ne sait pas qui a voulu l'empoisonner, mais il a mangé quatre biscuits pour fêter ça.
+partielle: Gros-Bouffi a mangé une pierre, et il a passé le concours à dormir. Deuxième place. Hilde boude pendant tout l'hiver.
+echec: Le concours a tourné à la bagarre générale entre éleveurs. Les poros, eux, se sont tous enfuis dans la neige.
+recompenses: po 15 ; reputation 1 ; objet Charme féerique 7
+
+=== FRE-I-002 | La griffe-sauvage de Quchar
+source: privee
+region: freljord
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Quchar
+demandeur: Toralf, chasseur ebrataal, qui a perdu son chien et presque sa main
+accroche: « La bête rôde autour du village depuis trois lunes. Elle a pris deux chiens, un enfant l'a vue sous sa fenêtre. Nous n'avons pas de magie, nous n'en voulons pas. Nous avons des lances. Il nous en faut quelques-unes de plus. »
+postes: Tireur
+duree: 5
+dangereuse: non
+epreuves: poursuite 32 (pister une griffe-sauvage dans la neige fraîche) ; combat 36 (l'affronter dans les rochers, où elle se sent chez elle)
+complication: La bête est une femelle, et elle a deux petits dans sa tanière. Elle rôde autour du village parce que la chasse a vidé la forêt.
+eclatante: {meneur} abat la griffe-sauvage au moment où elle bondit. Dans la tanière, {meneur} trouve deux petits affamés. Toralf, qui jurait de tout tuer, finit par les prendre sous son manteau. Les Ebrataal les élèveront comme chiens de garde, et ils garderont mieux que des chiens. Quchar offre à la guilde une lance à pointe d'os.
+reussite: La bête est tuée. Quchar dort tranquille. Toralf fait sécher la peau devant sa porte, pour que tout le monde voie.
+partielle: Blessée, la bête s'enfuit vers les montagnes. Elle ne revient pas, mais personne ne sait si elle est morte.
+echec: La bête a blessé {meneur} et s'est enfuie. Toralf dit que les étrangers du sud ne savent pas chasser. Il le dit à tout le monde.
+recompenses: po 30 ; reputation 2 ; objet Dague 7
+
+=== FRE-I-003 | Les sœurs de bataille
+source: privee
+region: freljord
+palier: inconnue
+type: diplomatie
+ton: tendre
+lieu: Avarosan
+demandeur: Brynja, mère d'Aslaug et d'Inga, sœurs de bataille depuis l'enfance
+accroche: « Elles ont combattu côte à côte pendant dix ans. Maintenant, elles veulent se battre en duel à mort, demain à l'aube, pour un homme qui ne mérite ni l'une ni l'autre. Je suis leur mère. Je ne peux pas les arrêter. Peut-être que des étrangers le peuvent. »
+postes: Support, Combattant
+duree: 3
+dangereuse: non
+epreuves: diplomatie 38 (parler à deux guerrières fières qui ne veulent rien entendre) ; combat 34 (si elles se battent quand même, s'interposer sans blesser personne)
+complication: L'homme n'a rien à voir avec la querelle. Aslaug a été choisie pour une expédition d'Ashe et pas Inga. Elle a peur de partir sans sa sœur.
+eclatante: {meneur} parle à chacune, longtemps, et comprend que l'homme n'est qu'un prétexte. À l'aube, devant le cercle de duel, les deux sœurs posent leurs armes et se disent enfin ce qu'elles avaient sur le cœur. Aslaug refuse l'expédition, sauf si Inga vient avec elle. Elles partent ensemble. Leur mère offre à la guilde une corne à boire gravée de leurs deux noms.
+reussite: Le duel est évité. Les sœurs ne se parlent plus, mais elles sont vivantes. Leur mère paie, et prie les sœurs du Freljord.
+partielle: Le duel a eu lieu, au premier sang. Inga a une cicatrice de plus. Elles ne se battront plus côte à côte.
+echec: Le duel a eu lieu, et il a été long. Les deux sœurs sont vivantes, mais aucune ne parle plus à leur mère.
+recompenses: po 20 ; reputation 2 ; objet Bouclier de Doran 6
+
+=== FRE-I-004 | La glace qui chante
+source: privee
+region: freljord
+palier: inconnue
+type: exploration
+ton: mystere
+lieu: Ghulfrost
+demandeur: Saga, marcheuse d'esprits, aveugle d'un œil
+accroche: « Les enfants du camp disent que la glace des falaises chante la nuit. Ils y vont l'écouter. Hier, l'un d'eux est revenu avec du givre dans les cheveux, et il chantait dans une langue que personne ne parle. »
+postes: Éclaireur, Support
+duree: 5
+dangereuse: non
+epreuves: voyage 37 (monter de nuit jusqu'aux falaises de glace, par le vent du nord) ; diplomatie 35 (calmer les enfants et leurs parents, qui parlent déjà de malédiction)
+complication: Dans la falaise, une veine de glace sombre affleure. Ce qu'on entend, c'est l'écho de quelque chose qui dort très loin, très bas. On ne peut rien contre lui ; on peut seulement l'empêcher d'être écouté.
+eclatante: {meneur} trouve la veine de glace sombre et l'écoute un instant, puis refuse d'écouter plus longtemps. L'équipe la recouvre de neige tassée, de pierres et de sel, comme le dit Saga. Le chant cesse. L'enfant oublie sa langue étrange en trois jours. Saga trace sur le front de chaque membre de l'équipe un signe contre les rêves. Personne ne rêve de glace, depuis.
+reussite: La falaise est interdite aux enfants, le chant n'est plus écouté. Saga dit que c'est la seule chose à faire. Elle a peut-être raison.
+partielle: L'équipe a trouvé la veine de glace, mais n'a pas su comment la faire taire. Les enfants restent loin. Pour combien de temps ?
+echec: Un membre de l'équipe a écouté trop longtemps. Il rêve de glace pendant des semaines. Saga refuse qu'il revienne au camp.
+recompenses: po 20 ; reputation 2 ; objet Cape de négation 8
+
+=== FRE-I-005 | Le troupeau des Enfants de la Glace
+source: privee
+region: freljord
+palier: inconnue
+type: traque
+ton: aventure
+lieu: Village des Enfants de la Glace
+demandeur: Ulvar, éleveur de rennes, dont le troupeau a disparu dans la nuit
+accroche: « Quarante rennes. Les traces partent vers le sud, avec des traces de bottes. Pas des Avarosans : ils marchent en ligne. La Griffe hivernale, sûrement. Des jeunes, pour se faire un nom. »
+postes: DPS
+duree: 6
+dangereuse: non
+epreuves: poursuite 35 (rattraper des voleurs qui connaissent la neige mieux que vous) ; combat 31 (récupérer le troupeau face à une bande de jeunes pillards fiers et mal armés)
+complication: Les pillards ne sont pas de la Griffe. Ce sont de jeunes Enfants de la Glace, du village même, qui veulent prouver qu'ils peuvent faire un raid comme les grands.
+eclatante: {meneur} rattrape les voleurs au col et reconnaît, sous les capuches, des visages du village. Ulvar découvre que son propre fils est parmi eux. Le troupeau est ramené. Au lieu de punir les garçons, l'ancien du village leur confie la garde du troupeau pour tout l'hiver. Ce sera leur raid à eux, dit-il. Ulvar offre à la guilde un manteau de renne.
+reussite: Le troupeau est ramené presque entier. Les voleurs se sont enfuis. Ulvar ne saura pas qu'ils dormaient à trois maisons de la sienne.
+partielle: {meneur} a ramené la moitié des rennes. Les autres ont été dispersés dans la montagne.
+echec: {meneur} a perdu la piste dans la tempête. Ulvar a perdu son troupeau, et l'hiver sera long.
+recompenses: po 30 ; reputation 2 ; objet Bottes 7
+
+=== FRE-I-006 | Le marteau de la Montagne Brisée
+source: privee
+region: freljord
+palier: inconnue
+type: recuperation
+ton: tendre
+lieu: Montagne Brisée
+demandeur: Gorm, vieux forgeron d'un village du sud, qui ne forge plus depuis longtemps
+accroche: « J'ai appris mon métier dans la Montagne Brisée, il y a soixante ans, chez des forgerons qui avaient eux-mêmes appris à Hearth-Home. J'y ai laissé mon premier marteau, dans une forge abandonnée, quand le feu de la montagne a grondé. Je voudrais l'offrir à mon petit-fils. »
+postes: Tank
+duree: 6
+dangereuse: non
+epreuves: voyage 34 (gravir les pentes chaudes de la Montagne Brisée, où la neige fond sous les pieds) ; siege 30 (dégager l'entrée de l'ancienne forge, effondrée)
+complication: Quelqu'un vit dans la forge abandonnée : un jeune forgeron solitaire, qui a trouvé le marteau et s'en sert depuis des années.
+eclatante: {meneur} trouve la forge rallumée et un jeune homme qui frappe le métal avec un vieux marteau marqué d'un G. Il refuse de le rendre, puis accepte de le porter lui-même au vieux Gorm. Les deux forgerons parlent une nuit entière. Le jeune homme ne repart pas : il devient l'apprenti de Gorm, avec le petit-fils. Le vieil homme se remet à forger.
+reussite: Le marteau est retrouvé dans les décombres, rouillé mais entier. Gorm le nettoie lui-même, et le donne à son petit-fils le soir même.
+partielle: {meneur} n'a trouvé que la tête du marteau. Gorm taille un nouveau manche, en grommelant que c'est ce qu'il aurait fait de toute façon.
+echec: L'entrée de la forge s'est effondrée davantage. Le marteau y restera. Gorm dit qu'il aurait dû y aller lui-même, il y a vingt ans.
+recompenses: po 25 ; reputation 2 ; objet Pioche 7
+
+=== FRE-I-007 | L'enfant dans le blizzard
+source: privee
+region: freljord
+palier: inconnue
+type: sauvetage
+ton: tragique
+lieu: Village des Enfants trouvés
+demandeur: Sœur Hrefna, gardienne du refuge des orphelins du froid
+accroche: « Le petit Eirik est parti ce matin, dans la tempête. Il dit qu'il a entendu sa mère l'appeler. Sa mère est morte de froid l'hiver dernier. Nous l'avons trouvée nous-mêmes. »
+postes: Healer
+duree: 5
+dangereuse: non
+epreuves: voyage 36 (affronter le blizzard sans perdre le chemin du retour) ; poursuite 32 (retrouver les traces d'un enfant que la neige efface à mesure)
+complication: Eirik n'est pas parti au hasard : il va vers l'endroit où sa mère est morte. Il est persuadé qu'elle l'attend là-bas.
+eclatante: {meneur} retrouve Eirik assis contre un rocher, presque gelé, à l'endroit exact où sa mère a été retrouvée. Il est réchauffé et soigné sur place. Sur le chemin du retour, il raconte que sa mère lui chantait une chanson. Sœur Hrefna la connaît. Elle la lui chante, le soir, et Eirik s'endort pour la première fois depuis un an sans pleurer.
+reussite: Eirik est ramené vivant, les mains gelées. Il gardera des cicatrices. Il ne repartira plus dans la tempête, dit-il.
+partielle: {meneur} a retrouvé Eirik trop tard pour lui éviter de graves engelures. Il vivra. Il ne parle plus.
+echec: La tempête a forcé {meneur} à faire demi-tour. Les gardiens du refuge sont sortis à l'aube. Sœur Hrefna n'a plus rien dit de la journée.
+recompenses: po 20 ; reputation 3 ; objet Potion de soin 10
+
+=== FRE-I-008 | Le poisson de la mère de guerre
+source: privee
+region: freljord
+palier: inconnue
+type: livraison
+ton: drole
+lieu: Rocs d'Ornnkaal
+demandeur: Haldor, pêcheur, qui vient de sortir de l'eau le plus gros poisson de sa vie
+accroche: « Il fait la taille d'un homme. Je l'ai promis au festin de la mère de guerre de mon clan, à deux jours de marche. Si j'arrive avec, je suis un héros. S'il pourrit en route, je suis l'homme qui a promis un poisson pourri à une mère de guerre. »
+postes: Tank
+duree: 6
+dangereuse: non
+epreuves: voyage 34 (porter un poisson géant gelé à travers les collines avant qu'il ne dégèle) ; nuee 30 (repousser les loups, les aigles et tout ce qui a senti le poisson)
+complication: Haldor a promis le même poisson à deux mères de guerre différentes, dans deux clans différents, le même soir.
+eclatante: {meneur} découvre la double promesse en chemin. {meneur} propose une solution : le poisson sera servi à un festin commun, entre les deux clans, sur le chemin. Les deux mères de guerre acceptent, par curiosité. Le festin dure deux jours. Haldor est un héros dans deux clans. Il ne promettra plus jamais rien.
+reussite: Le poisson arrive entier au festin d'une des deux mères de guerre. Haldor est un héros, dans un clan. Il évite l'autre clan pour le reste de sa vie.
+partielle: Le poisson est arrivé, avec une grosse morsure de loup. La mère de guerre a ri. Haldor, moins.
+echec: Les loups ont eu le poisson. Haldor est arrivé au festin avec une queue. Le clan en parle encore.
+recompenses: po 20 ; reputation 1 ; objet Élixir de fer 6
+
+=== FRE-I-009 | Le pont du troll
+source: privee
+region: freljord
+palier: inconnue
+type: diplomatie
+ton: drole
+lieu: Monts Ridgeback
+demandeur: Les marchands de fourrures du col, qui ne peuvent plus passer
+accroche: « Un troll des glaces s'est installé sous le seul pont du col. Il réclame un péage. Pas en or : en blagues. Il dit qu'il laissera passer celui qui le fera rire. Personne ne l'a fait rire. Il a mangé deux mulets. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 34 (faire rire un troll des glaces, ou au moins le convaincre de négocier) ; combat 30 (s'il se fâche, le faire reculer sans le tuer : sa tribu ne pardonnerait pas)
+complication: Le troll n'aime pas les blagues. Il s'ennuie. Il a été chassé de son village parce qu'il était trop petit, et personne ne lui parle depuis des mois.
+eclatante: {meneur} ne raconte pas de blague, mais s'assoit à côté du troll et lui demande comment il s'appelle. Le troll, ému, raconte son exil pendant deux heures. Les marchands proposent de l'engager comme gardien du pont, payé en mulets morts de vieillesse. Il accepte. Le col est plus sûr que jamais, et le troll rit enfin, à la blague d'un marchand, la même qu'avant.
+reussite: Le troll finit par rire, ou par faire semblant. Il laisse passer les marchands, et retourne s'ennuyer sous son pont.
+partielle: Le troll a laissé passer la moitié du convoi, puis s'est lassé. Il a gardé un mulet.
+echec: Le troll s'est fâché. Le pont est toujours à lui, et il a désormais un manteau de la guilde.
+recompenses: po 20 ; reputation 2 ; objet Élixir de rage 5
+
+=== FRE-I-010 | Les hurlements de Mourncrow
+source: privee
+region: freljord
+palier: inconnue
+type: enquete
+ton: horreur
+lieu: Village de Mourncrow
+demandeur: Hjördis, femme du chef du village, qui ne dort plus
+accroche: « Depuis l'orage, six hommes du village ne parlent plus. Ils grognent. Ils mangent la viande crue, ils sortent la nuit, et ce matin mon mari s'est réveillé avec du sang sous les ongles. Ce n'était pas le sien. »
+postes: Éclaireur, Support
+duree: 5
+dangereuse: non
+epreuves: discretion 38 (suivre les six hommes dans la forêt, la nuit, sans être vu) ; diplomatie 36 (convaincre le village de ne pas brûler ses propres hommes)
+complication: Les hommes ne sont pas possédés. Un prédicateur des Ursidés est passé pendant l'orage, et leur a fait boire une décoction qui rend fou et fort. Ils se réunissent la nuit pour l'attendre.
+eclatante: {meneur} suit les hommes jusqu'à une clairière, où ils attendent en grognant autour d'un feu. Le prédicateur ne revient pas cette nuit-là, mais l'équipe trouve ses restes de décoction. Saga, la marcheuse d'esprits d'un clan voisin, sait comment purger le mal. En une semaine, les six hommes redeviennent eux-mêmes. Le mari de Hjördis ne se souvient de rien. Elle n'a pas l'intention de lui raconter.
+reussite: L'équipe a découvert la décoction et convaincu le village de soigner les hommes plutôt que de les chasser. Ils guérissent lentement.
+partielle: Trois hommes sont guéris. Les trois autres sont partis dans la forêt, vers le nord. On ne les a pas revus.
+echec: Le village a chassé les six hommes à coups de torches. Hjördis aussi est partie, pour suivre son mari.
+recompenses: po 25 ; reputation 2 ; objet Cristal de saphir 6
+suite: FRE-L-001
+
+=== FRE-I-011 | La dette de sang de Yadulsk
+source: privee
+region: freljord
+palier: inconnue
+type: diplomatie
+ton: politique
+lieu: Yadulsk
+demandeur: Ragnhild, cheffe de la famille des Haugr, au sein de la Griffe hivernale
+accroche: « Il y a vingt ans, un Haugr a tué un Steinn dans un duel. Depuis, les Steinn réclament sa vie. Le Haugr est mort de vieillesse hier. Les Steinn réclament maintenant celle de son petit-fils, qui a douze ans. Chez nous, on paie toujours ses dettes. Mais pas comme ça. »
+postes: Support, Combattant
+duree: 4
+dangereuse: non
+epreuves: diplomatie 40 (obtenir que les Steinn acceptent un autre prix que le sang) ; combat 33 (si les Steinn tiennent à un duel, que le champion de la guilde le remporte à la place de l'enfant)
+complication: La vieille cheffe des Steinn ne veut pas le sang de l'enfant. Elle veut qu'on reconnaisse que le duel de jadis était truqué. Personne ne l'a jamais écoutée.
+eclatante: {meneur} interroge les anciens et découvre que le duel d'il y a vingt ans était bien truqué : une lame brisée exprès. Devant toute la tribu, Ragnhild reconnaît la faute de sa famille. La cheffe des Steinn, qui attendait ces mots depuis vingt ans, efface la dette. Les deux familles partagent l'hydromel. Le petit-fils fera un jour un très bon chef.
+reussite: La dette est payée en fourrures et en bêtes. Les Steinn acceptent, de mauvaise grâce. L'enfant est sauf.
+partielle: Le duel a eu lieu, au premier sang, entre le champion de la guilde et celui des Steinn. Il a été gagné. La dette est éteinte, la rancune non.
+echec: Les Steinn ont refusé tout arrangement. La famille Haugr a dû quitter Yadulsk pendant la nuit, avec l'enfant.
+recompenses: po 20 ; reputation 3 ; objet Épée longue 6
+
+=== FRE-I-012 | Le drüvask enragé
+source: privee
+region: freljord
+palier: inconnue
+type: chasse
+ton: aventure
+lieu: Avarosan
+demandeur: Sigrid, fermière, dont les champs d'orge ont été ravagés
+accroche: « Un drüvask sauvage, gros comme une maison, a traversé mes champs. Puis il est revenu dans l'autre sens, pour être sûr. Il a les défenses rouges, il ne fuit pas les torches, et il fait trembler la cabane quand il passe. »
+postes: Tank
+duree: 5
+dangereuse: non
+epreuves: poursuite 30 (traquer un drüvask qui laisse des traces de la taille d'une tête) ; combat 38 (l'arrêter, ce qui demande plus de courage que d'adresse)
+complication: Le drüvask n'est pas sauvage : il s'est échappé d'une bande de la Griffe hivernale, et son ancien maître le cherche aussi.
+eclatante: {meneur} arrête la charge du drüvask d'un coup qui résonne dans toute la vallée. Il tombe, assommé. Son ancien maître, un guerrier de la Griffe, arrive le lendemain et propose de le racheter. Sigrid accepte, contre de quoi ressemer trois champs. Le guerrier et la fermière concluent l'affaire autour d'un feu, ce qui ne s'était jamais vu. La guilde reçoit une défense de drüvask.
+reussite: Le drüvask est chassé loin des champs et ne revient pas. Sigrid replante son orge.
+partielle: La bête est repoussée, mais elle a eu le temps de détruire la grange. Sigrid paie, et reconstruit.
+echec: Le drüvask a renversé {meneur} et repassé une troisième fois dans les champs. Sigrid est partie vivre chez sa sœur.
+recompenses: po 30 ; reputation 2 ; objet Armure de tissu 7
+
+=== FRE-I-013 | Les grellfeens du lac
+source: privee
+region: freljord
+palier: inconnue
+type: defense
+ton: horreur
+lieu: Mer de Glace
+demandeur: Les pêcheurs du camp de glace, qui ont fui leurs trous de pêche
+accroche: « Quelque chose remonte par les trous de pêche. Des bras longs, blancs, avec trop de doigts. Ils ont emporté un homme sous la glace. On a entendu ses coups pendant un moment. Puis plus rien. »
+postes: Tank, Tireur, Éclaireur
+duree: 5
+dangereuse: non
+risque: oui
+epreuves: discretion 39 (attendre au bord des trous, sans bouger, dans le froid et le silence) ; nuee 46 (repousser les grellfeens qui sortent de la glace tous en même temps)
+complication: Les grellfeens ne viennent pas pour les hommes : ils viennent pour le poisson. Les pêcheurs ont percé leurs trous juste au-dessus de leur terrain de chasse.
+eclatante: Quand les bras blancs sortent de la glace, {meneur} tient bon et l'équipe les repousse sous la surface. En observant leur fuite, elle comprend : les créatures chassent ici depuis toujours. Le camp est déplacé d'une demi-lieue. Plus personne n'est emporté. Les pêcheurs gravent sur la glace, à l'ancien endroit, un signe qui signifie « ne pas pêcher ici ». Il est renouvelé chaque hiver.
+reussite: Les grellfeens sont repoussés et le camp reprend la pêche. Les hommes veillent à tour de rôle, les lances prêtes.
+partielle: L'équipe a tué deux créatures, mais d'autres sont revenues la nuit suivante. Le camp est abandonné.
+echec: Les créatures ont emporté une deuxième personne. Les pêcheurs ne reviendront pas sur ce lac de leur vivant.
+recompenses: po 110 ; reputation 2 ; objet Dague 8
+
+=== FRE-I-014 | Les traces de la Veille
+source: privee
+region: freljord
+palier: inconnue
+type: exploration
+ton: mystere
+lieu: Veille du Yéti
+demandeur: Olaf le Vantard, chasseur, que personne ne croit jamais
+accroche: « J'ai vu un yéti. Personne ne me croit, parce que j'ai déjà dit que j'avais vu un dragon, un géant et la mère de guerre en personne qui me saluait. Cette fois, j'ai des traces. Je veux que quelqu'un d'autre les voie. »
+postes: Éclaireur, Tank
+duree: 6
+dangereuse: non
+epreuves: voyage 39 (monter jusqu'aux ruines de la Veille du Yéti, dans la neige profonde) ; discretion 35 (approcher sans faire fuir ce qui a laissé les traces)
+complication: Le yéti existe, il est vieux, et il ne veut pas être vu. Il protège les ruines de son peuple.
+eclatante: Au milieu des ruines, {meneur} voit une silhouette blanche, immense, qui le regarde un long moment, puis disparaît dans la tempête. Olaf l'a vue aussi. L'équipe décide de ne rien dire de l'endroit exact. Olaf, pour la première fois de sa vie, ne se vante pas. Il dit seulement : « Je l'ai vu, et il m'a vu. » Les gens commencent à le croire.
+reussite: L'équipe a vu les traces, les a mesurées et dessinées. Elles sont énormes. Olaf est cru, au moins par la guilde.
+partielle: Les traces ont été effacées par la tempête. Olaf jure qu'elles existaient. L'équipe le croit, à moitié.
+echec: L'équipe s'est perdue dans les ruines. Olaf a dit à tout le village que la guilde avait eu peur du yéti.
+recompenses: po 20 ; reputation 2 ; objet Bottes 6
+
+=== FRE-I-015 | Le mariage de la discorde
+source: privee
+region: freljord
+palier: inconnue
+type: protection
+ton: drole
+lieu: Vathcaer
+demandeur: Astrid, mariée avarosane, très déterminée
+accroche: « J'épouse un Enfant de la Glace. Ma famille ne viendra pas. La sienne viendra, armée. Mon oncle a juré de “dire deux mots” au marié. Les deux mots de mon oncle sont toujours des coups de poing. Je veux que mon mariage ait lieu. Je veux qu'il ait lieu en entier. »
+postes: Tank, Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 37 (empêcher deux familles qui se détestent de transformer le mariage en champ de bataille) ; combat 32 (neutraliser l'oncle, poliment, quand il se lève pour « dire deux mots »)
+complication: L'oncle et le père du marié se sont battus ensemble contre la Griffe hivernale, il y a trente ans. Ils ne se sont pas revus depuis, à cause d'une dispute dont personne ne connaît l'origine.
+eclatante: {meneur} reconnaît sur les deux vieux guerriers la même cicatrice et le même insigne. L'équipe les fait asseoir à la même table. Ils se regardent, puis éclatent de rire en même temps : la dispute portait sur un pari d'hydromel jamais payé. Ils le paient le soir même, en double. Le mariage dure trois jours. On en parle encore à Vathcaer.
+reussite: Le mariage a lieu jusqu'au bout. L'oncle a été assis loin, très loin, et surveillé. Astrid est mariée et satisfaite.
+partielle: L'oncle a dit ses deux mots. Le marié a un œil au beurre noir sur toutes les peintures du mariage. Mais il est marié.
+echec: La fête a tourné en bagarre générale. Le mariage a eu lieu le lendemain, en secret, sans aucune famille.
+recompenses: po 15 ; reputation 1 ; objet Élixir de fer 5
+
+=== FRE-I-016 | La lettre à la mère du sud
+source: privee
+region: freljord
+palier: inconnue
+type: livraison
+ton: tendre
+lieu: Winterspike
+demandeur: Margaux, née à Demacia, mariée au Freljord depuis douze ans
+accroche: « Ma mère est vieille, elle vit de l'autre côté de la frontière. Elle me croit morte depuis le raid où j'ai été prise. J'ai été prise, oui. Puis j'ai été aimée, et j'ai eu trois enfants. Je voudrais qu'elle le sache avant de mourir. »
+postes: Éclaireur
+duree: 7
+dangereuse: non
+epreuves: voyage 36 (descendre vers la frontière demacienne par les cols de Winterspike, en hiver) ; discretion 32 (passer la frontière sans être pris pour un pillard du nord)
+complication: La mère de Margaux vit à Fossbarrow, et sa maison est surveillée : son fils, le frère de Margaux, est devenu sergent des réserves, et il a juré de tuer tous les gens du nord qu'il croiserait.
+eclatante: {meneur} remet la lettre à la vieille femme, seule, pendant que son fils est de garde. Elle la lit trois fois, puis elle demande qu'on attende : elle écrit une réponse, et y glisse une mèche de ses cheveux blancs pour chacun de ses petits-enfants. Margaux reçoit la lettre au printemps. Elle ne dit rien pendant une heure, puis elle rit.
+reussite: La lettre est remise. La vieille femme ne répond pas, mais elle la garde contre elle, dit-on à {meneur}. Margaux s'en contente.
+partielle: {meneur} a remis la lettre à une voisine, faute de pouvoir approcher la maison. On ne sait pas si elle a été transmise.
+echec: Une patrouille a repéré {meneur} à la frontière, et il a fallu rebrousser chemin. La lettre est revenue, intacte. Margaux la garde, pour une autre fois.
+recompenses: po 20 ; reputation 2 ; objet Bottes 7
+suite: FRE-L-002
+
+=== FRE-I-017 | L'enfant que le froid ne touche pas
+source: privee
+region: freljord
+palier: inconnue
+type: escorte
+ton: tragique
+lieu: Quchar
+demandeur: Embla et Tor, parents d'une fillette de six ans, chez les Ebrataal
+accroche: « Notre fille marche pieds nus dans la neige. Elle dort dehors l'hiver. Elle ne tombe jamais malade. Chez les Ebrataal, on fuit la magie. Les gens du village commencent à la regarder de travers. Et hier, deux étrangers en robe bleue sont venus demander son nom. »
+postes: Éclaireur, Support
+duree: 6
+dangereuse: non
+epreuves: discretion 38 (faire quitter le village à la famille sans être suivie par les Draklorn) ; voyage 36 (les conduire jusqu'à Avarosan, où Ashe protège ceux qu'on chasse)
+complication: La fillette est une Sublimée. Les Gardiens du givre recherchent les enfants comme elle, et ce qu'ils en font, personne ne le sait vraiment.
+eclatante: {meneur} fait passer la famille par un ravin que les Draklorn ne surveillent pas. Ils arrivent à Avarosan à l'aube. Les Avarosans les accueillent sans poser de questions. La fillette, Sól, construit le soir même un bonhomme de neige, les mains nues, en riant. Ses parents pleurent de soulagement. Elle offre à l'équipe un flocon qui ne fond pas. Personne ne sait comment.
+reussite: La famille arrive à Avarosan, épuisée. Elle est accueillie. Le village de Quchar ne saura jamais ce qu'il a perdu.
+partielle: La famille a dû se cacher chez un ermite, à mi-chemin. Les Draklorn rôdent. Il faudra repartir.
+echec: Les Draklorn ont rattrapé la famille. L'équipe n'a rien pu faire. On ne sait pas où ils ont emmené la fillette.
+recompenses: po 20 ; reputation 3 ; objet Cape de négation 7
+suite: FRE-L-003
+
+=== FRE-I-018 | Le bouclier de l'ancêtre
+source: privee
+region: freljord
+palier: inconnue
+type: exploration
+ton: aventure
+lieu: Forteresse des Sublimés
+demandeur: Ketil, seize ans, qui part demain pour sa première expédition
+accroche: « Mon arrière-grand-mère est tombée dans la forteresse des Sublimés, à la dernière grande guerre. Son bouclier est resté là-bas, avec elle. Je voudrais partir avec. Ma mère dit que c'est une folie. Ma mère a raison, mais je pars demain. »
+postes: Tank, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: voyage 37 (traverser les ruines gelées de la forteresse, où les couloirs s'effondrent) ; combat 35 (chasser les loups blancs qui ont fait du caveau leur tanière)
+complication: Le bouclier est toujours dans les mains de l'ancêtre, gelée debout depuis cinquante ans, intacte dans la glace.
+eclatante: Au fond du caveau, {meneur} découvre la guerrière gelée debout, le bouclier levé. Ketil la regarde longtemps. Il ne prend pas le bouclier. Il lui laisse sa propre lance à la place, et raconte à sa mère ce qu'il a vu. Elle ne lui dit plus que c'est une folie. Elle lui offre l'épée de son père. Ketil part le lendemain, plus grand de quelques centimètres.
+reussite: Le bouclier est rapporté, couvert de givre, et Ketil part avec. Sa mère pleure en le voyant le porter, comme son arrière-grand-mère.
+partielle: L'équipe n'a pas pu atteindre le caveau. Elle a rapporté une pierre gravée du nom de l'ancêtre. Ketil la porte en pendentif.
+echec: L'équipe a fait demi-tour devant les loups. Ketil est parti sans bouclier, et sans dire au revoir à la guilde.
+recompenses: po 25 ; reputation 2 ; objet Bouclier de Doran 8
+
+=== FRE-I-019 | L'hydromel du festin
+source: privee
+region: freljord
+palier: inconnue
+type: enquete
+ton: drole
+lieu: Avarosan
+demandeur: Bjarni, maître de l'hydromel, qui prépare le festin du solstice
+accroche: « Six tonneaux d'hydromel ont disparu de ma cave. Le festin est dans trois jours. Sans hydromel, ce n'est pas un festin, c'est un enterrement. Et ce sera le mien. »
+postes: Éclaireur
+duree: 3
+dangereuse: non
+epreuves: discretion 31 (fouiller les caves et les remises du village sans éveiller les soupçons) ; poursuite 29 (suivre la piste des tonneaux, qui ont roulé)
+complication: Les tonneaux ont été volés par les anciens du village, qui veulent organiser leur propre festin, entre eux, la veille, pour ne pas avoir à partager avec les jeunes.
+eclatante: {meneur} suit la piste jusqu'à une grotte où une douzaine de vieillards chantent autour des tonneaux, déjà bien entamés. {meneur} négocie : les anciens rendent quatre tonneaux, et ils sont nommés « gardiens de l'hydromel » pour le festin. Ils servent eux-mêmes les jeunes, avec beaucoup de dignité et un peu de vacillement. Bjarni offre à la guilde le dernier tonneau.
+reussite: Les tonneaux sont retrouvés, trois pleins et trois vides. Le festin a lieu. Bjarni ne saura jamais qui les a pris. Les anciens rient beaucoup ce soir-là.
+partielle: Deux tonneaux seulement ont été retrouvés. Le festin a lieu, mais on y boit de l'eau de neige. Bjarni a quitté la fête tôt.
+echec: Pas d'hydromel. Le festin du solstice a eu lieu dans le silence, et Bjarni s'est enfermé dans sa cave.
+recompenses: po 15 ; reputation 1 ; objet Élixir de rage 6
+
+=== FRE-I-020 | Le chaman sans voix
+source: privee
+region: freljord
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Village de Mourncrow
+demandeur: Dagny, apprentie du chaman de Mourncrow
+accroche: « Mon maître a fait un voyage d'esprit pendant la nuit la plus longue. Il est revenu sans voix. Il dessine dans la cendre, toujours la même chose : un ours avec des éclairs sur le dos. Il ne mange plus. »
+postes: Support, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: diplomatie 37 (comprendre ce que le chaman essaie de dire avec ses dessins) ; discretion 34 (trouver dans la forêt l'endroit où il est allé pendant son voyage)
+complication: Le chaman a vu, en rêve, le grand ours de l'orage passer au-dessus du village. Il croit que c'est un avertissement : les Ursidés vont venir. Il a raison, mais pas tout de suite.
+eclatante: {meneur} reconstitue le message du chaman, dessin après dessin, et trouve dans la forêt un arbre fendu par la foudre, griffé jusqu'à hauteur d'homme. Le village se prépare : on cache les provisions, on renforce les palissades. Le chaman retrouve sa voix quand il voit qu'on l'a compris. Sa première phrase est pour remercier la guilde, sa deuxième pour demander à manger.
+reussite: Le chaman retrouve la parole après plusieurs jours de soins. Son message est confus, mais le village décide d'être prudent.
+partielle: Le chaman a retrouvé la voix, mais pas la mémoire de son voyage. Dagny garde ses dessins, au cas où.
+echec: Le chaman est mort sans avoir pu parler. Dagny garde ses dessins. Elle ne sait pas quoi en faire.
+recompenses: po 20 ; reputation 2 ; objet Tome d'amplification 6
+
+=== FRE-I-021 | La première chasse de Svala
+source: privee
+region: freljord
+palier: inconnue
+type: chasse
+ton: tendre
+lieu: Yadulsk
+demandeur: Hallveig, guerrière de la Griffe hivernale, mère de Svala, treize ans
+accroche: « Chez nous, à treize ans, on chasse seule une griffe-sauvage, ou on reste enfant. Svala part demain. Je ne peux pas l'accompagner, ce serait la déshonorer. Vous, vous pouvez la suivre. De loin. Sans qu'elle le sache. »
+postes: Éclaireur
+duree: 5
+dangereuse: non
+epreuves: discretion 35 (suivre la jeune fille dans la forêt sans jamais être vu par elle) ; poursuite 32 (intervenir au bon moment, sans gâcher sa chasse)
+complication: Svala sait qu'on la suit. Elle a reconnu une trace de botte du sud dès le premier soir. Elle ne dit rien, parce qu'elle a peur.
+eclatante: Quand la griffe-sauvage bondit, {meneur} tire une seule flèche, qui fait dévier la bête, et Svala achève elle-même l'animal. Le soir, au campement, elle vient s'asseoir près du feu de {meneur} et dit simplement : « Merci. » Sa mère ne saura rien. Svala devient adulte aux yeux de la tribu. Dans cinq ans, elle sera la meilleure chasseuse de Yadulsk.
+reussite: Svala tue la bête toute seule, sans aide. {meneur} n'a fait que regarder. Hallveig paie avec une fierté qu'elle ne cherche pas à cacher.
+partielle: {meneur} a dû intervenir franchement. Svala a tué la bête, mais elle sait qu'elle a été aidée. Elle est adulte, et elle a honte.
+echec: La bête a blessé Svala. {meneur} l'a ramenée au village. Elle devra recommencer l'an prochain.
+recompenses: po 20 ; reputation 2 ; objet Dague 6
+
+=== FRE-I-022 | Le pont des Perdus
+source: privee
+region: freljord
+palier: inconnue
+type: exploration
+ton: horreur
+lieu: Abîme hurlant
+demandeur: Finnbogi, berger, dont le fils a poursuivi une chèvre sur le pont
+accroche: « Personne ne traverse le pont des Perdus. Personne. Mon fils est un idiot, ma chèvre aussi, et ils sont tous les deux de l'autre côté depuis hier. Je l'entends m'appeler. Le vent l'entend aussi, et il lui répond avec sa voix. »
+postes: Tank, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: voyage 40 (traverser le pont des Perdus dans le vent hurlant qui monte de l'abîme) ; discretion 36 (retrouver l'enfant sans répondre aux voix qui imitent la sienne)
+complication: Le vent de l'abîme imite les voix. L'enfant croit entendre son père l'appeler plus loin, et il s'éloigne du pont. Il faut le retrouver avant qu'il ne réponde trop longtemps.
+eclatante: {meneur} avance sans répondre à aucune voix, même pas à sa propre voix, qui résonne derrière. L'enfant est retrouvé recroquevillé sous une roche, la chèvre dans les bras. Il faut le porter les yeux bandés pour traverser. Finnbogi les attend au bout du pont, en pleurs. La chèvre, elle, ne veut plus jamais quitter l'enclos. Personne ne le lui reproche.
+reussite: L'enfant est ramené, mais la chèvre est restée de l'autre côté. Finnbogi dit que c'est un prix honnête.
+partielle: L'équipe a dû faire demi-tour au milieu du pont. L'enfant est revenu seul le lendemain, sans dire un mot de ce qu'il avait vu.
+echec: L'équipe a répondu aux voix. Elle s'en est sortie, mais elle a fait demi-tour. L'enfant n'est pas revenu.
+recompenses: po 25 ; reputation 2 ; objet Cape de négation 8
+
+=== FRE-I-023 | Les lingots de Vathcaer
+source: privee
+region: freljord
+palier: inconnue
+type: enquete
+ton: politique
+lieu: Vathcaer
+demandeur: Vigdis, forgeronne, qui forge les pointes de lance pour les troupes d'Ashe
+accroche: « Chaque semaine, je reçois du fer des mines du nord. Chaque semaine, il manque deux lingots. Ce n'est pas beaucoup. Mais deux lingots, c'est quarante pointes de lance, et quarante pointes de lance, c'est quarante guerriers qui partent avec un bâton. »
+postes: Assassin, Support
+duree: 4
+dangereuse: non
+epreuves: discretion 37 (surveiller le convoi de fer depuis la mine jusqu'à la forge) ; diplomatie 35 (faire parler le convoyeur, qui a l'air d'avoir peur)
+complication: Le convoyeur prélève les lingots pour les Gardiens du givre, qui le font chanter : il a une sœur au Village des Enfants trouvés, et ils l'ont menacé de ne plus la nourrir.
+eclatante: {meneur} gagne la confiance du convoyeur, qui avoue tout en larmes. L'équipe porte l'affaire aux Avarosans, qui envoient quelqu'un chercher discrètement sa sœur au refuge. Elle arrive à Vathcaer une semaine plus tard. Les lingots ne disparaissent plus. Le convoyeur donne aux Avarosans tout ce qu'il sait sur les gens qui le faisaient chanter, et c'est beaucoup.
+reussite: Le voleur est identifié et le trafic arrêté. Le convoyeur est renvoyé, et on ne saura pas pour qui il travaillait.
+partielle: Les vols se sont arrêtés pendant la surveillance. Le convoyeur, prudent, attend.
+echec: Le convoyeur a disparu la veille de la surveillance. On a retrouvé son traîneau vide au bord du fleuve gelé.
+recompenses: po 20 ; reputation 2 ; objet Épée longue 6
+
+=== FRE-I-024 | Le géant endormi
+source: privee
+region: freljord
+palier: inconnue
+type: defense
+ton: aventure
+lieu: Winterspike
+demandeur: Les habitants d'un hameau de Winterspike, qui chuchotent depuis une semaine
+accroche: « La colline derrière le hameau s'est mise à ronfler. Ce n'est pas une colline. C'est un géant des glaces, endormi depuis on ne sait quand. Il bouge en dormant. La dernière fois qu'il s'est retourné, il a écrasé un enclos. »
+postes: Tank, Combattant, Éclaireur
+duree: 7
+dangereuse: non
+risque: oui
+epreuves: discretion 41 (approcher le géant sans le réveiller, pour comprendre ce qui le dérange) ; siege 45 (détourner la coulée de neige qui menace de le réveiller, et le hameau avec) ; combat 39 (si le géant s'éveille à moitié, le faire se rendormir sans se faire écraser)
+complication: Le géant ne dort pas tranquille parce qu'une source chaude, née d'un tremblement de terre, coule sous lui et le réveille à moitié.
+eclatante: {meneur} découvre la source chaude qui coule sous le géant. L'équipe la détourne par une tranchée creusée dans la glace. Le géant pousse un grand soupir, se retourne, et dort enfin profondément. Le hameau ne l'entend plus ronfler. Les enfants grimpent sur son pied au printemps, en cachette des parents. Il ne se réveille pas.
+reussite: L'équipe a calmé le géant pour l'hiver. Il ronfle toujours, mais il ne bouge plus. Le hameau dort, à moitié.
+partielle: Le géant s'est à moitié réveillé, a écrasé deux maisons vides, puis s'est rendormi. Le hameau se déplace un peu plus loin.
+echec: Le géant s'est réveillé. Il est parti vers le nord, en laissant derrière lui le hameau à moitié détruit.
+recompenses: po 150 ; reputation 3 ; objet Ceinture du géant 5
+
+=== FRE-I-025 | Les chiens du lac gelé
+source: privee
+region: freljord
+palier: inconnue
+type: sauvetage
+ton: tendre
+lieu: Mer de Glace
+demandeur: Leif, marchand de traîneau, coincé sur la rive avec un traîneau vide
+accroche: « Ma meute de chiens s'est sauvée sur la glace hier soir, en poursuivant un phoque. La glace craque partout à cette saison. Ce sont les meilleurs chiens du nord, et ce sont mes amis. »
+postes: Éclaireur
+duree: 4
+dangereuse: non
+epreuves: voyage 34 (avancer sur une glace qui craque, sans passer à travers) ; poursuite 30 (rassembler une meute affolée, éparpillée sur la mer gelée)
+complication: La cheffe de meute, Neige, est tombée dans un trou de glace. Les autres chiens refusent de partir sans elle.
+eclatante: {meneur} rampe sur la glace jusqu'au trou et tire Neige hors de l'eau glacée. Les autres chiens suivent sans se faire prier. Leif réchauffe sa cheffe contre lui toute la nuit. Le lendemain, elle reprend sa place devant le traîneau, comme si de rien n'était. Leif offre à la guilde un chiot de sa prochaine portée.
+reussite: Toute la meute est ramenée, sauf un chien, perdu sous la glace. Leif pleure le chien perdu, et embrasse les autres.
+partielle: {meneur} a ramené la moitié de la meute. Les autres chiens sont rentrés seuls, plus tard, affamés.
+echec: La glace a cédé sous {meneur}. Tout le monde est sorti de l'eau, mais la meute est partie vers le large, et ne revient pas.
+recompenses: po 20 ; reputation 2 ; objet Bottes 6

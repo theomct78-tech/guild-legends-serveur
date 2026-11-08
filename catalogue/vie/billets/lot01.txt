@@ -1,0 +1,125 @@
+# Guild Legends — billets des héros au maître (8 nov. 2026, demande de Théo).
+# Format : CLÉ|genre|texte[|traduction]
+#   CLÉ : un champion (toutes ses versions, sauf billets doux : version classique ou gammes adultes seulement),
+#         ou @TRAIT pour un billet générique (écrit sans accord de genre pour l'auteur).
+#   genre : doux (flirt léger, jamais explicite, uniquement des adultes choisis), clown, poeme, triste, pensif,
+#           langue (écriture inconnue ; la traduction n'apparaît que si un érudit du repère la déchiffre).
+# Jetons : {Maitre} / {maitre} (Maître ou Maîtresse), {cher} (cher ou chère), {e} (accord féminin du maître),
+#          {chien}, {bourg}, {guilde}, {autre} (un autre héros présent), {nom} (l'auteur).
+
+# ---------- Billets doux : des charmeurs reconnus, adultes, dont le flirt est un jeu ----------
+MissFortune|doux|{Maitre}, j'ai remarqué que tu signes tes ordres de mission avec une jolie fermeté. Ça me plaît. À Bilgewater, on m'aurait déjà offert un navire pour moins que ça. Je me contenterai d'un dîner. Tu choisis la table, je choisis le vin. — Sarah
+MissFortune|doux|Petit rappel, {maitre} : je tire mieux que quiconque dans cette guilde, je danse mieux, et je suis bien meilleure compagnie que les rapports de mission. Je dis ça, je ne dis rien. Ma porte est au bout du couloir. — S.F.
+Ezreal|doux|Salut {maitre} ! J'ai trouvé une carte ancienne qui mène à un belvédère au-dessus de {bourg}. Il paraît que le coucher de soleil y est incroyable. J'ai besoin de quelqu'un pour tenir la lanterne. Enfin… pas besoin. Envie. Voilà. — Ez (ne montre pas ce mot à {autre}, merci)
+Ezreal|doux|{Maitre}, petite question purement scientifique : est-ce que tu souris comme ça à tout le monde, ou est-ce que je peux le noter dans mon carnet d'explorateur comme une découverte rare ? — E.
+Jayce|doux|{Maitre}, j'ai calculé, avec une marge d'erreur négligeable, que cette guilde tournerait deux fois mieux si nous dînions ensemble une fois par semaine pour en parler. Je suis rarement dans l'erreur. Jeudi ? — Jayce Talis
+Jayce|doux|Je t'ai vu{e} regarder mon marteau, hier, à l'atelier. Il est impressionnant, je sais. Le propriétaire aussi, d'ailleurs. Je dis ça pour le progrès. — J.
+TwistedFate|doux|{Cher} {maitre}, j'ai tiré les cartes ce matin. La Reine de cœur est sortie trois fois. Je ne crois pas au destin, mais je crois aux bonnes mains. Une partie, ce soir ? Si tu gagnes, je t'invite. Si je gagne… je t'invite aussi. — T.F.
+TwistedFate|doux|Un conseil de joueur, {maitre} : ne laisse jamais personne lire ton visage. Sauf moi. Moi, j'aime bien ce que j'y lis. — Tobias
+Graves|doux|{Maitre}. Je suis pas doué avec les mots, alors je vais faire court. T'as du cran. J'aime ça. Si un jour t'as envie d'un verre avec quelqu'un qui parle pas trop, tu sais où me trouver. Au fond de la taverne. Comme d'hab. — Malcolm
+Graves|doux|J'ai nettoyé mon fusil trois fois ce soir en pensant à un truc que t'as dit. C'est mauvais signe, d'habitude. Là, je sais pas trop. — G.
+Draven|doux|{Maitre} ! Félicitations : tu fais partie des rares personnes que Draven trouve presque aussi impressionnantes que Draven. Ce mot est un honneur. Tu peux l'encadrer. Draven signera l'encadrement. — DRAVEN
+Draven|doux|Une rumeur dit que tu aurais souri pendant mon dernier lancer de hache. Draven confirme. Draven a tout vu. Draven ne s'en remet pas. Dîner ? Draven paie. Enfin, la guilde paie. — Draven, évidemment
+Samira|doux|{Maitre}, tu sais ce que j'aime ? Le danger, le style, et les gens qui ne baissent pas les yeux. Tu coches deux cases sur trois. Envoie-moi sur une mission vraiment risquée, et on verra pour la troisième. — S.
+Samira|doux|J'ai gagné ma cinquième médaille hier. Je cherche quelqu'un à qui raconter comment. En détail. Avec un verre. Tu as une heure ? — Samira
+Akshan|doux|Ô {maitre}, gardien de mes jours et ordonnateur de mes missions, permets à ce modeste justicier de te dire que ta façon de froncer les sourcils sur les comptes de la guilde est, et je pèse mes mots, parfaitement délicieuse. — Akshan (le beau, à gauche du portail)
+Akshan|doux|Proposition honnête : je te vole une soirée, je te la rends avec les intérêts. Je ne vole que les méchants, d'habitude. Fais une exception, s'il te plaît. — A.
+Rakan|doux|{Maitre} !!! Tu es lumineux{e}, tu es magnifique, tu es presque aussi magnifique que Xayah, mais ne lui dis pas que j'ai écrit « presque », elle m'arracherait les plumes. Une danse ? Une seule ? Elle sera au courant de toute façon. — Rakan ✶
+Rakan|doux|J'ai fait un spectacle pour toute la guilde, mais c'est toi que je regardais. Professionnellement, bien sûr. Pour voir si ça te plaisait. Ça t'a plu ? Dis oui. — R.
+Taric|doux|{Maitre}, il est des gemmes qui ne brillent qu'au soleil, et d'autres qui gardent leur feu dans l'ombre. Je t'ai vu{e} hier soir, seul{e} sur le chemin de ronde. Tu es de la seconde espèce. Ce n'est pas une déclaration. C'est une observation d'orfèvre. — Taric
+Taric|doux|La beauté est une responsabilité, disait mon maître d'armes. Je pense à cette phrase chaque fois que tu entres dans la salle commune. Je ne sais pas encore quoi en conclure. Me ferais-tu l'honneur d'une promenade, pour m'aider à réfléchir ? — T.
+Sett|doux|Boss. J'tourne pas autour du pot : t'as la carrure d'un chef, et j'ai un faible pour les chefs. Ma mère dit qu'il faut inviter les gens bien à manger. Alors voilà. Repas chez moi, je cuisine. T'inquiète, je cuisine mieux que je cogne. — Sett
+Sett|doux|Si quelqu'un t'embête, tu me le dis. Si personne t'embête et que tu t'ennuies, tu me le dis aussi. — S.
+Nilah|doux|{Maitre} ! J'ai ri trois fois aujourd'hui, et deux fois c'était à cause de toi. La troisième, c'était le chien. Tu es donc officiellement plus drôle que {chien}. C'est un grand compliment. Une baignade au lac ce soir ? — Nilah
+Nilah|doux|La joie, je la sens chez les autres comme une marée. Quand tu es dans la pièce, la marée monte. Voilà. Je voulais que tu le saches. — N.
+Sivir|doux|{Maitre}, je ne fais rien gratuitement. Mais pour toi, je pourrais envisager un rabais. Un dîner, et je te raconte comment j'ai volé la lame d'un empereur. Je ne raconte ça qu'aux gens que j'aime bien. — Sivir
+Sivir|doux|Tu paies mal, tu donnes trop d'ordres, et tu as l'air de ne jamais dormir. Bizarrement, c'est la meilleure guilde que j'aie connue. Je mettrai ça sur le compte de qui la dirige. — S.
+Leblanc|doux|{Cher} {maitre}, je mens à tout le monde, c'est mon métier. Alors prends ce mot pour ce qu'il est : peut-être la seule chose vraie que je t'écrirai. Tu m'intéresses. Prudence. — L.
+Leblanc|doux|Il y a deux Leblanc à ta table ce soir. L'une t'admire. L'autre aussi. Devine laquelle a écrit ce billet. — ✧
+Vladimir|doux|{Maitre}, la vie est courte pour les autres et longue pour moi : j'ai donc appris à reconnaître ce qui vaut d'être savouré. Ta compagnie en fait partie. Un verre de vin, ce soir ? Rouge, naturellement. — V.
+Vladimir|doux|Je collectionne les choses rares et belles. Rassure-toi, je ne collectionne pas les maîtres de guilde. Pas encore. — Vladimir
+Ahri|doux|{Maitre}, je sens les souvenirs des gens comme un parfum. Les tiens sentent la pluie sur la pierre et le courage. C'est rare. Je reviendrai les respirer, si tu permets. — Ahri
+Ahri|doux|Tout le monde me regarde. Toi, tu m'écoutes. Tu ne sais pas à quel point c'est différent. Merci. — A.
+
+# ---------- Les clowns ----------
+Jinx|clown|SALUT CHEF ! J'ai repeint la porte de ton bureau. Elle était triste. Maintenant elle est rose avec des têtes de mort. Ne me remercie pas. En fait si, remercie-moi. Avec des roquettes. — Jinx ♥ (PS : {chien} est complice)
+Jinx|clown|RAPPORT OFFICIEL DE LA GUILDE : 1) rien n'a explosé cette semaine. 2) c'est très louche. 3) ça va exploser. Bisous. — J.
+Jinx|clown|Chef, question sérieuse : si je mets Pow-Pow et Fishbones dans la même pièce, est-ce qu'ils vont tomber amoureux ou se tirer dessus ? Je fais l'expérience ce soir. Viens voir. Ou pas. Prends un casque. — Jinx
+Teemo|clown|Rapport d'éclaireur numéro 412. Mission : surveiller la cuisine. Résultat : les biscuits ont disparu. Suspect principal : {chien}. Second suspect : moi. Le dossier est classé. Capitaine Teemo, au rapport !
+Teemo|clown|{Maitre}, conformément à la règle 3 des éclaireurs de Bandle, je signale avoir planté quelques champignons décoratifs autour du repère. Ne marchez pas dessus. Sérieusement. Ne marchez pas dessus. — T.
+Gragas|clown|{Maitre} ! J'ai inventé une nouvelle bière. Elle s'appelle « La Maîtresse de Guilde » ou « Le Maître de Guilde », selon combien t'en as bu. Elle est forte, mais juste. Comme toi. Viens goûter. Apporte un seau. — Gragas
+Gragas|clown|Petite note pour te prévenir que le tonneau qui a explosé dans la cour, c'était pas une attaque. C'était une fermentation. Très réussie, d'ailleurs. — G.
+Corki|clown|Rapport de vol : survolé le repère à 06 h 12. Toit de la salle commune en bon état. Linge de {autre} sur la corde : discutable. Moustache du pilote : impeccable. Terminé. — Corki, as des airs
+Ziggs|clown|{Cher} {maitre}, je voulais juste te dire que la petite fumée au-dessus de l'atelier, c'est normal. La grosse fumée aussi. Si tu vois une très grosse fumée, par contre, cours. — Ziggs, expert en explosifs (diplômé de rien)
+Ziggs|clown|J'ai fabriqué une bombe qui sent la fraise. Elle ne sert à rien. Elle est géniale. Je l'ai appelée « Toi ». Tu veux la voir exploser ? — Z.
+Heimerdinger|clown|{Maitre}, après 6 274 heures d'observation, je conclus que la porte de la cuisine grince en si bémol. J'ai rédigé un mémoire de 40 pages sur la question. Ci-joint le résumé de 38 pages. — Professeur Cecil B. Heimerdinger
+Kled|clown|{MAITRE} ! SKAARL A MANGÉ LE RAPPORT DE MISSION. C'EST PAS MA FAUTE. C'EST DE LA FAUTE DU RAPPORT, IL AVAIT QU'À PAS ÊTRE COMESTIBLE. JE RÉCLAME UNE MÉDAILLE POUR AVOIR SURVÉCU À CETTE SEMAINE. — Sire Kled, chevalier de Noxus, propriétaire légitime de la moitié du repère
+Kled|clown|J'ai annexé la cuisine. C'est mon territoire, maintenant. Pour récupérer une tartine, il faudra négocier. — Kled
+Rammus|clown|Ok.
+Rammus|clown|Hmm. — R.
+Poppy|clown|{Maitre}, je ne suis pas une héroïne, je suis juste une yordle avec un marteau. Mais j'ai quand même réparé l'étagère, la porte, la chaise de {autre} et le toit. Voilà. Ce n'est rien. Vraiment rien. Bon, d'accord, c'était un peu héroïque. — Poppy
+Shaco|clown|Ha ha. Ha. Je t'ai laissé une surprise dans le tiroir de ton bureau. Ou dans l'autre. Ou dans aucun. Ha. Ouvre-les tous, pour voir. Lentement. — ☺
+Tristana|clown|{Maitre} ! Les Artilleurs de Bandle te nomment membre d'honneur ! Il y a un chant ! Il dure douze minutes ! Je te l'apprends demain à l'aube ! — Tristana, artilleuse en chef (autoproclamée)
+Fizz|clown|J'ai caché trois poissons dans le repère. L'un d'eux est vivant. Bonne chance. — Fizz ~><>
+Nunu|clown|{Maitre}, Willump dit que tu as l'air fatigué{e} et qu'il faut que tu fasses une bataille de boules de neige. Il dit que c'est un ordre médical. Il n'est pas médecin, mais il est très grand. — Nunu et Willump
+Rumble|clown|Ok, alors, petit problème. Le robot de la cour a pris son indépendance. Il est gentil. Il marche juste un peu sur les fleurs. Et sur le mur. Et il a peut-être un peu mangé le portail. Je gère. — Rumble
+TahmKench|clown|{Cher} {maitre}, ta guilde est un véritable buffet de talents. Je dis ça avec la plus grande affection, et sans aucune arrière-pensée gastronomique. Mes respects, et mon appétit. — T.K.
+Zoe|clown|COUCOU ! J'ai trouvé une étoile dans ton tiroir. Non, attends, c'était un bouton. J'ai trouvé un bouton dans ton tiroir ! C'est presque pareil ! Est-ce que les boutons rêvent ? JE VEUX SAVOIR. — Zoe ★
+Singed|clown|{Maitre}, le nuage vert au-dessus de l'atelier n'est pas toxique. Pas très. Pas pour tout le monde. Évitez simplement de respirer jusqu'à jeudi. Cordialement. — S.
+Draven|clown|Petit sondage : quel est ton moment préféré de la semaine ? A) Draven. B) Draven qui gagne. C) Draven qui gagne avec style. Réponse obligatoire. Draven compte les voix. — Draven
+@FARCEUR|clown|{Maitre}, je voulais te signaler que la cuillère du chef cuisinier a disparu. Je n'ai rien à voir avec ça. La cuillère est dans ta botte gauche. Je n'ai rien à voir avec ça non plus. — {nom}
+@FARCEUR|clown|Ceci est une lettre très sérieuse. Très. Si tu as souri en lisant cette ligne, tu me dois une tournée. Tu as souri. Je t'ai vu{e}. — {nom}
+@ENJOUE|clown|Bonjour {maitre} ! Aujourd'hui, j'ai : caressé {chien}, perdu une chaussette, retrouvé la chaussette, perdu {autre}, retrouvé {autre} dans la cuisine. Bilan : excellente journée. Et toi ? — {nom}
+@ENJOUE|clown|Il pleut, il fait froid, et j'ai décidé que c'était une journée formidable quand même. Je te prête ma bonne humeur jusqu'à ce soir. Rends-la-moi en bon état. — {nom}
+
+# ---------- Les poèmes sans queue ni tête ----------
+Lulu|poeme|Ô {maitre} aux chaussettes bleues / Le chapeau rêve d'être un bateau / La lune a mangé trois heures / Et le chien les a retrouvées sous le lit / Fin. (Pix dit que ce n'est pas fini. Pix a tort.) — Lulu
+Lulu|poeme|Une tasse qui danse / Un escalier qui rit / Si tu croises une couleur qui n'existe pas / dis-lui bonjour de ma part / elle est timide. — L.
+Zoe|poeme|Les étoiles sont des bonbons que personne ne mange / Moi je les mange / Voilà pourquoi j'ai mal au ventre / et pourquoi il fait nuit. — Zoe, poétesse cosmique (et un peu malade)
+Ivern|poeme|Un champignon m'a raconté / que la pluie est amoureuse du toit / Le toit fait semblant de ne pas savoir / Tous les toits sont comme ça / Bonne journée, ami{e} {maitre}. — Ivern, qui t'embrasse avec ses branches
+Ivern|poeme|J'ai planté une graine sous ta fenêtre / Elle s'appellera Lundi / Elle fleurira un jeudi / Personne ne sait pourquoi / Même pas elle. — I.
+Neeko|poeme|Neeko a écrit un poème ! / Le soleil est un gros œuf / Le repère est un nid / {Maitre} est l'oiseau / Neeko est… aussi l'oiseau ? / Neeko aime être l'oiseau. — Neeko ♥
+Neeko|poeme|Ce matin Neeko était {autre} / À midi Neeko était le chien / Maintenant Neeko est Neeko / C'est le mieux / mais le chien était bien aussi. — N.
+Jhin|poeme|{Maitre}, / La beauté ne se trouve pas, elle s'arrange / quatre fleurs fanées sur une table propre / quatre bougies, la quatrième éteinte / Tu comprendras un jour pourquoi quatre. / Ou pas. — Un admirateur de l'art
+AurelionSol|poeme|Petit mortel en charge de cette petite guilde, / sache que j'ai créé des galaxies plus élégantes que ton escalier, / et pourtant je reviens chaque soir à ta fenêtre. / Ne cherche pas pourquoi. / Moi-même je l'ignore, et c'est vexant. — Aurelion Sol, créateur d'étoiles, locataire temporaire
+Bard|poeme|*ding* … *ding ding* … (Le billet est un dessin : une étoile, un chien, une porte, et un petit bonhomme qui te ressemble, au milieu.)
+
+# ---------- Les tristes ----------
+Amumu|triste|{Maitre}, je ne sais pas écrire très bien. Je voulais juste dire merci de ne pas avoir peur de moi. Les autres non plus, enfin presque. C'est la première fois que ça m'arrive. — Amumu
+Amumu|triste|Aujourd'hui j'ai pleuré, mais c'était un peu de joie, je crois. Je ne sais pas encore bien faire la différence. — A.
+Yorick|triste|{Maitre}. J'ai creusé une tombe aujourd'hui, pour un oiseau trouvé dans la cour. Personne ne l'avait remarqué. Je pense qu'il méritait qu'on le remarque. Comme nous tous. — Yorick
+Lucian|triste|Elle me manque, {maitre}. Je ne le dis jamais à voix haute. Les missions aident. Ce soir, elles n'aident pas. Je voulais juste l'écrire quelque part. — Lucian
+Riven|triste|Je rêve encore de la nuit où tout a brûlé. Je me réveille, je vois le plafond du repère, et je me souviens que je suis ici. C'est ce qui me permet de me rendormir. Merci pour ce plafond. — Riven
+Yasuo|triste|Le vent souffle fort ce soir. Il me rappelle mon frère. Ne t'inquiète pas, {maitre}. Je serai debout demain. Je voulais seulement que quelqu'un sache. — Y.
+Viego|triste|{Maitre}, as-tu déjà aimé quelqu'un au point de briser le monde pour le retrouver ? Ne réponds pas. Je connais la réponse. Elle est plus sage que moi. — V.
+Morgana|triste|Il y a des gens qui portent leurs ailes brisées comme des médailles. J'ai cessé de les cacher. Je voulais te remercier de ne jamais m'avoir demandé ce qui s'est passé. — Morgana
+Irelia|triste|Ce matin, j'ai fait danser mes lames pour personne. C'est ce que je faisais avec ma mère, avant. Le repère était silencieux. Ça m'a fait du bien, et ça m'a fait mal. — I.
+@MELANCOLIQUE|triste|{Maitre}, il pleut, et je n'ai pas quitté la fenêtre de la soirée. Ce n'est rien. Juste une journée où le passé pèse un peu plus que d'habitude. Demain ira mieux. Je voulais que tu le saches, sans que tu aies à t'inquiéter. — {nom}
+@MELANCOLIQUE|triste|Je n'arrive pas à dormir. J'ai pensé à tous ceux que j'ai laissés derrière moi. Puis j'ai entendu les ronflements de {autre}, et ça m'a fait sourire. C'est idiot. Bonne nuit. — {nom}
+@HANTE|triste|Les voix sont revenues cette nuit. Elles se taisent quand {chien} vient dormir au pied de mon lit. Si tu pouvais lui laisser la porte ouverte… — {nom}
+
+# ---------- Les pensifs ----------
+Nasus|pensif|{Maitre}, j'ai vu des empires naître et mourir. Les plus solides n'avaient pas les plus hauts murs, mais les meilleures tables, où chacun avait sa place. Ta guilde a une bonne table. Garde-la. — Nasus
+Ryze|pensif|Les runes n'ont pas de maître, seulement des gardiens. Une guilde, c'est peut-être pareil. Je te livre la réflexion. Fais-en ce que tu veux. — Ryze
+Soraka|pensif|Je soigne les corps depuis très longtemps. Mais ici, j'ai appris que les rires de la salle commune guérissent plus vite que mes herbes. Je voulais t'en remercier. — Soraka
+Karma|pensif|Chaque décision que tu prends résonne plus loin que tu ne le crois, {maitre}. Ce n'est pas un reproche. C'est une raison de prendre ton temps. — Karma
+Zilean|pensif|J'ai regardé la journée de demain. Elle sera bonne. Ne me demande pas plus de détails, ça gâcherait la surprise. Et ça fatigue. — Zilean
+Kayle|pensif|La justice sans miséricorde devient cruauté, ma sœur me l'a souvent dit. Je déteste lui donner raison. Je l'écris ici pour ne pas avoir à le lui dire. — Kayle
+Shen|pensif|L'équilibre ne se trouve pas, il se garde. Tu le gardes mieux que tu ne le crois, {maitre}. Mais tu dors trop peu. — Shen
+Taliyah|pensif|À la maison, on tisse les fils un par un, et c'est seulement à la fin qu'on voit le motif. Je crois que je commence à voir le motif, ici. Il est beau. — Taliyah
+Braum|pensif|Mon ami, un cœur solide se construit comme un bon mur : pierre après pierre, et avec un peu de bonne soupe entre les deux. Je t'en ai laissé un bol sur ton bureau. — Braum
+Galio|pensif|Je suis fait de pierre, et pourtant certains soirs, je me sens léger. Ce sont les soirs où quelqu'un rit dans la cour. Garde ce rire, {maitre}. Il vaut plus que tous les trésors. — Galio
+Garen|pensif|{Maitre}, le devoir a longtemps été ma seule boussole. Ici, j'apprends qu'on peut servir sans obéir aveuglément. Je ne sais pas encore si ça me rassure ou si ça me fait peur. — Garen
+@ERUDIT|pensif|J'ai relu cette nuit un vieux traité sur les guildes d'autrefois. Elles tombaient toutes pour la même raison : on y oubliait pourquoi on s'était réunis. Je voulais te le dire avant d'oublier moi-même. — {nom}
+@PATIENT|pensif|Rien ne presse, {maitre}. Les arbres poussent sans qu'on les regarde, et la guilde aussi. Prends une soirée pour toi. Nous serons encore là demain. — {nom}
+
+# ---------- Les langues inconnues ----------
+Bard|langue|⟡ ∴ ◌ ⟡⟡ ∴∴ ◌ ⟡ … ⋆|(Déchiffré par {traducteur}, qui jure que c'est approximatif :) « Le petit monde tourne bien. Les meeps aiment le chien. Merci pour le pain. »
+KogMaw|langue|GRRRL... MRAAAH. (Le papier est à moitié mangé, et un peu acide.)|({traducteur} hausse les épaules :) « Je crois que ça veut dire : encore. Encore à manger. Et merci. Surtout encore. »
+Skarner|langue|ᚲᚱ·ᛝ·ᚲᚱᚲ ◇◇ ᛝᚲ (Les traits sont gravés dans un éclat de cristal, pas écrits.)|({traducteur} met une heure à lire les vibrations du cristal :) « Ici, mon cœur ne se sent plus seul dans la pierre. »
+Malphite|langue|(Une simple pierre, très lourde, posée sur ton bureau. Elle est tiède.)|({traducteur} la tient longtemps contre son oreille :) « Calme. Solide. Merci. » C'est tout. C'est beaucoup, pour un rocher.
+Kindred|langue|◐ ◑ … ◐ ◑ (deux écritures entrelacées, l'une fine comme une plume, l'autre griffue)|({traducteur} pâlit un peu :) « Agneau dit : pas encore. Loup dit : bientôt ? Agneau dit : pas encore, Loup. Pas pour celui-là. »
+Ornn|langue|ᚠᚢᚦ ᚨᚱ ᛗᛁᛟᛚ… (Des runes du vieux Freljord, frappées au marteau dans une plaque de fer.)|({traducteur} traduit de mémoire :) « Ta forge fume mal. Je l'ai réparée. Ne me remercie pas. Je déteste ça. »
+Volibear|langue|ᚦ ᛋ ᚦ ᛋ ᛋ (Les runes sont brûlées dans le bois, comme par la foudre.)|({traducteur} recule d'un pas en le lisant :) « L'orage a parlé de toi. Il est content. Pour l'instant. »
+Maokai|langue|(Des glyphes tracés avec de la sève sur une large feuille.)|({traducteur} sourit :) « Les racines du repère sont saines. Arrosez plus. Moins de bottes sur la mousse. »
+VelKoz|langue|⊿ ⊿⊿ ◫ ◬ ⊿ ⋄ (Un diagramme d'une précision inquiétante, annoté de symboles.)|({traducteur} déchiffre en frissonnant :) « Observation 9 412 : {le_maitre} de guilde dort 5 h 12 par nuit. Insuffisant. Suggestion : désassemblage partiel pour étude. Plaisanterie. Probablement. »

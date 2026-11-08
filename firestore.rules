@@ -1,0 +1,73 @@
+rules_version = '2';
+// Guild Legends — règles de sécurité Firestore.
+// Principe : le navigateur LIT, le serveur ÉCRIT. Toute donnée de jeu (héros, trésorerie,
+// recrutements, missions, tournois, territoires) n'est modifiée que par les fonctions serveur,
+// qui passent outre ces règles via le SDK Admin.
+service cloud.firestore {
+  match /databases/{db}/documents {
+
+    function signedIn() { return request.auth != null; }
+    function invited() {
+      return signedIn() && exists(/databases/$(db)/documents/invites/$(request.auth.token.email.lower()));
+    }
+    function myGuildId() {
+      return get(/databases/$(db)/documents/users/$(request.auth.uid)).data.guildId;
+    }
+
+    // Liste d'invités : gérée uniquement côté serveur / console.
+    match /invites/{email} { allow read, write: if false; }
+
+    // Profil joueur : seul le pseudo et les réglages d'affichage sont modifiables par le joueur.
+    // Chaque joueur ne lit que son propre profil (l'e-mail n'est pas exposé aux autres).
+    match /users/{uid} {
+      allow read: if invited() && request.auth.uid == uid;
+      allow update: if invited() && request.auth.uid == uid
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['displayName', 'settings']);
+      allow create, delete: if false;
+    }
+
+    // Guildes : visibles par tous les invités (multijoueur), écrites par le serveur.
+    match /guilds/{guildId} {
+      allow read: if invited();
+      allow write: if false;
+
+      // Journal, Panthéon, inventaire : lisibles par tous (la vie des guildes est publique),
+      // sauf les candidatures qui restent privées à la guilde.
+      match /journal/{id}   { allow read: if invited(); allow write: if false; }
+      match /pantheon/{id}  { allow read: if invited(); allow write: if false; }
+      match /inventory/{id} { allow read: if invited(); allow write: if false; }
+      match /candidatures/{id} {
+        allow read: if invited() && myGuildId() == guildId;
+        allow write: if false;
+      }
+    }
+
+    // Héros : fiche publique (identité, rang actuel, statistiques, propriétaire).
+    match /heroes/{heroId} {
+      allow read: if invited();
+      allow write: if false;
+    }
+
+    // Potentiel : collection séparée, lisible SEULEMENT par la guilde propriétaire du héros.
+    // Indispensable car Firestore ne masque pas un champ à l'intérieur d'un document.
+    match /heroSecrets/{heroId} {
+      allow read: if invited()
+        && get(/databases/$(db)/documents/heroes/$(heroId)).data.ownerGuildId == myGuildId();
+      allow write: if false;
+    }
+
+    // Registre, missions, alliances, territoires, tournois : lecture publique, écriture serveur.
+    match /registry/{id}    { allow read: if invited(); allow write: if false; }
+    match /missions/{id}    { allow read: if invited(); allow write: if false; }
+    match /alliances/{id}   { allow read: if invited(); allow write: if false; }
+    match /territories/{id} { allow read: if invited(); allow write: if false; }
+    match /tournaments/{id} { allow read: if invited(); allow write: if false; }
+
+    // Monde partagé et états privés des guildes : lus et écrits seulement par le serveur (fonctions etat / agir).
+    match /monde/{id} { allow read, write: if false; }
+    match /etats/{id} { allow read, write: if false; }
+
+    // Tout le reste : fermé.
+    match /{path=**} { allow read, write: if false; }
+  }
+}

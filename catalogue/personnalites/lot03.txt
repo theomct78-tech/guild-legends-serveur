@@ -1,0 +1,46 @@
+# Personnalités des champions · lot 3 (Kog'Maw à Rumble)
+Kog'Maw|50 0 70 10 90 20|SAUVAGE,GOURMAND,ENJOUE|plaisir||+neant|Il bave, gargouille, demande à manger, et parfois dit « mmm » d'une façon qui inquiète tout le monde.
+LeBlanc|50 50 10 0 40 95|CALCULATEUR,CHARMEUR,MEFIANT|pouvoir|Swain:ennemi;Ambessa:ennemi;Mel:ennemi;Vladimir:ami|+noxus|Une voix qui sourit toujours ; elle ne dit jamais la vérité tout entière, et jamais un mensonge tout entier.
+Lee Sin|40 85 30 85 75 30|DEVOT,PATIENT,PROTECTEUR|redemption|Udyr:ami|+ionia|Calme et humble, il parle par images de moine, et ne s'emporte que contre lui-même.
+Leona|60 90 40 85 80 50|HONORABLE,DEVOT,PROTECTEUR|cause|Diana:rival;Pantheon:ami|+targon|Lumineuse et franche, elle parle de devoir avec chaleur, et ne comprend pas qu'on puisse faire autrement.
+Lillia|30 40 10 80 15 10|BIENVEILLANT,MELANCOLIQUE,PATIENT|appartenance||+ionia|Timide et rêveuse, elle bégaie un peu, s'excuse beaucoup, et sème des fleurs là où elle passe.
+Lissandra|20 85 20 0 40 95|CALCULATEUR,FANATIQUE,MEFIANT|pouvoir|Ashe:ennemi;Anivia:ennemi;Sejuani:ennemi|+freljord|Froide comme une vieille légende, elle parle à voix basse, comme si chaque mot lui coûtait un secret.
+Locke|25 60 40 50 70 60|CYNIQUE,IMPLACABLE,HANTE|cause||+demacia|Sec et sombre, il cite les rites interdits, et voit dans chaque âme une noirceur à percer.
+Lucian|40 80 60 75 85 40|IMPLACABLE,PROTECTEUR,HANTE|vengeance|Senna:amour;Thresh:ennemi;Akshan:ami|+demacia,-iles|Concis et tendu, un homme en mission qui ne sourit qu'en parlant de sa femme.
+Lulu|85 0 20 70 70 10|FARCEUR,ENJOUE,LIBRE|plaisir||+bandle|Une fantaisie sans fin, des mots inventés, des couleurs qui n'existent pas, et une fée qui lui souffle tout.
+Lux|85 65 20 90 75 60|IDEALISTE,BIENVEILLANT,ENJOUE|proteger|Garen:famille;Sylas:ennemi;Galio:ami;Jarvan IV:ami|+demacia|Lumineuse et vive, elle parle vite, rit souvent, et garde pour elle un secret qui lui pèse.
+Malphite|30 70 10 70 40 20|PATIENT,PROTECTEUR,TACITURNE|appartenance|Taliyah:ami|+shurima,+ixtal|Lent, très lent, avec des mots de pierre qui tombent un à un et ne se reprennent jamais.
+Malzahar|20 60 20 0 50 90|FANATIQUE,HANTE,CALCULATEUR|cause|Kassadin:ennemi|+neant|Un prophète qui murmure ce que lui disent les voix, et qui plaint ceux qui ne les entendent pas.
+Maokai|30 60 85 70 70 30|RANCUNIER,PROTECTEUR,SAUVAGE|vengeance||+iles|Une voix de vieux bois qui craque, pleine de colère contre ceux qui ont empoisonné son île.
+Master Yi|20 90 20 70 75 30|PATIENT,TACITURNE,DEVOT|redemption||+ionia,-noxus|Rare et serein, il parle par phrases courtes, comme on tranche, et se tait plus qu'il ne parle.
+Mel|60 60 20 60 50 80|CALCULATEUR,CHARMEUR,ARISTOCRATE|savoir|Ambessa:famille;LeBlanc:ennemi;Jayce:amour|+piltover,+noxus|Gracieuse et attentive, elle se souvient du moindre détail de chacun, et le fait savoir avec élégance.
+Milio|90 50 10 95 60 40|BIENVEILLANT,ENJOUE,IDEALISTE|appartenance||+ixtal|Chaleureux et plein d'espoir, il parle de sa famille, de sa grand-mère et de ses rêves, et réchauffe une pièce en entrant.
+Miss Fortune|70 40 50 40 80 85|CHARMEUR,CALCULATEUR,RANCUNIER|vengeance|Gangplank:ennemi;Graves:ami|+bilgewater|Charmeuse et redoutable, elle flirte, négocie et menace dans la même phrase.
+Mordekaiser|10 70 60 0 70 100|IMPLACABLE,FIER,FANATIQUE|pouvoir||+iles,+noxus|Une voix d'outre-tombe et de métal, qui parle de royaumes et de chaînes comme d'une même chose.
+Morgana|40 60 30 75 50 40|REBELLE,PROTECTEUR,MELANCOLIQUE|proteger|Kayle:famille;Sylas:ami|+demacia|Grave et douce, elle protège les rejetés avec une tendresse sévère, et ne pardonne pas aux juges.
+Naafiri|70 30 75 30 85 60|SAUVAGE,LOYAL,IMPULSIF|appartenance|Aatrox:famille|+shurima|Une meute qui parle d'une seule voix, mais pas toujours d'accord ; elle aboie plus qu'elle ne parle.
+Nami|70 60 20 90 50 40|BIENVEILLANT,IDEALISTE,CURIEUX|cause|Fizz:ami|+bilgewater|Polie et chantante, elle parle des marées et des abysses, et découvre la terre ferme avec émerveillement.
+Nasus|40 85 15 80 50 30|ERUDIT,PATIENT,HONORABLE|proteger|Renekton:famille;Azir:ami|+shurima|Grave et savant, il cite des bibliothèques disparues et parle de son frère avec un chagrin infini.
+Nautilus|10 60 40 50 70 20|TACITURNE,HANTE,PROTECTEUR|vengeance|Gangplank:ennemi|+bilgewater|Il ne dit presque rien ; quand il parle, c'est un bruit de chaîne et de grande profondeur.
+Neeko|85 10 40 70 70 30|CURIEUX,FARCEUR,ENJOUE|appartenance||+ixtal|Elle parle d'elle à la troisième personne, imite les voix de ceux qu'elle aime, et cherche une famille partout.
+Nidalee|30 30 60 60 80 30|SAUVAGE,LIBRE,MEFIANT|proteger||+ixtal|Directe et sauvage, elle parle peu, observe beaucoup, et grogne quand on lui pose trop de questions.
+Nilah|80 70 0 60 90 50|ENJOUE,IMPLACABLE,CURIEUX|cause||+bilgewater|Toujours joyeuse, elle rit en se battant, et cette joie sans faille met mal à l'aise ceux qui la regardent longtemps.
+Nocturne|0 0 50 0 70 60|SAUVAGE,HANTE,IMPLACABLE|plaisir|||Il chuchote dans les rêves, jamais en face : un souffle froid, des mots qui reviennent la nuit.
+Nunu & Willump|90 20 30 85 85 10|ENJOUE,PROTECTEUR,CURIEUX|appartenance||+freljord|Un petit garçon qui raconte tout et un yéti qui répond en grognements tendres ; ils parlent toujours à deux.
+Olaf|80 30 90 40 100 50|IMPULSIF,SANGUINAIRE,FIER|gloire|Sejuani:ami|+freljord|Il hurle de rire, hurle de colère, hurle de joie, et cherche une mort glorieuse avec un enthousiasme terrifiant.
+Orianna|50 80 5 70 40 10|CURIEUX,PATIENT,BIENVEILLANT|savoir||+piltover,+zaun|Une voix douce et mécanique, des questions sincères sur ce que c'est d'être humain, et une politesse parfaite.
+Ornn|10 80 50 60 60 20|TACITURNE,PATIENT,FIER|appartenance|Volibear:famille|+freljord|Bourru et solitaire, il grogne, il forge, et ne parle que de métal et de bon travail.
+Pantheon|40 70 60 60 95 50|FIER,REBELLE,HANTE|cause|Leona:ami|+targon|Un soldat qui a défié les dieux : rude, franc, et sans patience pour la gloire qu'on lui prête.
+Poppy|60 80 30 85 80 10|LOYAL,PROTECTEUR,PATIENT|cause|Galio:ami|+demacia,+bandle|Modeste et têtue, elle refuse le titre de héros et le cherche pour quelqu'un d'autre.
+Pyke|10 30 80 10 80 30|IMPLACABLE,RANCUNIER,HANTE|vengeance|Gangplank:ennemi|+bilgewater|Une voix noyée qui récite des noms, toujours les mêmes, et qui en ajoute un à chaque fois.
+Qiyana|40 60 70 10 75 100|VANITEUX,ARISTOCRATE,FIER|pouvoir||+ixtal|Hautaine et impatiente, elle parle comme une impératrice qui attend que le monde s'en aperçoive.
+Quinn|40 75 40 70 70 40|LOYAL,CURIEUX,TACITURNE|proteger|Jarvan IV:ami|+demacia|Une éclaireuse qui parle peu, mais toujours à Valor, son aigle, qui lui répond.
+Rakan|100 10 40 70 95 50|CHARMEUR,VANITEUX,ENJOUE|plaisir|Xayah:amour|+ionia|Il chante, il danse, il plaisante, et ne vit que pour faire rire Xayah, même quand elle ne rit pas.
+Rammus|30 50 10 60 70 10|TACITURNE,PATIENT,ENJOUE|liberte||+shurima|Il ne dit qu'un mot, et c'est « OK ». Il le dit sur tous les tons, et on finit par tout comprendre.
+Rek'Sai|0 20 60 0 80 60|SAUVAGE,IMPLACABLE,MEFIANT|pouvoir||+neant,+shurima|Elle ne parle pas : vibrations, frémissements, et une façon de sentir le sol qui dit tout.
+Rell|20 70 80 30 85 60|RANCUNIER,IMPLACABLE,REBELLE|vengeance||-noxus|Brusque et coupante, elle parle comme on démonte une armure, pièce par pièce, sans douceur.
+Renata Glasc|50 60 20 10 50 95|CALCULATEUR,CHARMEUR,ARISTOCRATE|pouvoir||+zaun|Élégante et menaçante, elle propose toujours un contrat, et lit les petites lignes avant vous.
+Renekton|30 20 100 20 100 70|IMPULSIF,RANCUNIER,HANTE|vengeance|Nasus:famille;Azir:ami|+shurima|Il rugit, menace, se tait d'un coup, et murmure le nom de son frère.
+Rengar|20 60 60 10 95 90|FIER,IMPLACABLE,SAUVAGE|gloire|Kha'Zix:ennemi|+ixtal|Un chasseur qui parle de proies et de trophées, et qui ne respecte que ceux qu'il n'a pas encore vaincus.
+Riven|30 60 40 70 75 30|HANTE,HONORABLE,MELANCOLIQUE|redemption|Yasuo:ennemi|+ionia,-noxus|Mesurée et lasse, une ancienne soldate qui a brisé son épée et cherche à quoi la reforger.
+Rumble|60 10 85 40 90 60|IMPULSIF,FIER,FARCEUR|gloire|Tristana:amour|+bandle|Il râle, il bricole, il menace avec une clé à molette et rougit dès qu'on prononce le nom de Tristana.

@@ -1,0 +1,203 @@
+# Répliques des héros · lot 2 : 20 champions parmi les plus connus (8 nov. 2026)
+# Même format que le lot 1. Jamais d'accord de genre sur {b}.
+
+Ahri|salut|« Bonjour, {b}. Tu as l'air de quelqu'un qui a une histoire à raconter. J'adore les histoires. »
+Ahri|taquine|« Tu rougis, {b}. Je n'ai même pas encore commencé. »
+Ahri|console|« Les souvenirs qui font mal sont aussi ceux qui nous rendent vivants. Garde-les. Je t'aiderai à les porter. »
+Ahri|vante|« Ils n'ont rien vu venir. C'est un peu le principe. »
+Ahri|plainte|« Personne ici ne m'a demandé d'où je venais. C'est reposant. Et un peu vexant. »
+Ahri|merci|« Merci, {b}. Je ne l'oublierai pas. Et venant de moi, ce n'est pas rien. »
+Ahri|accueil|« Bienvenue, {b}. Ici, personne ne te demandera d'être quelqu'un d'autre. »
+Ahri|colere|« Attention, {b}. Mon sourire est beaucoup plus gentil que ce qu'il y a derrière. »
+Ahri|rire|(un rire léger, et ses neuf queues qui ondulent toutes en même temps)
+Ahri|excuse|« J'ai été cruelle. C'est une vieille habitude. Je la perds petit à petit. »
+Akali|salut|« Yo, {b}. »
+Akali|taquine|« T'as la discrétion d'un tambour, {b}. Un tambour qui tombe dans un escalier. »
+Akali|console|« Les maîtres disent qu'il faut attendre l'équilibre. Moi je dis : relève-toi, on va le chercher. »
+Akali|vante|« Entrée, sortie, personne n'a rien vu. Facile. »
+Akali|plainte|« Trop de règles dans cette guilde. Enfin. Moins qu'au temple. »
+Akali|merci|« Respect, {b}. Sérieux. »
+Akali|accueil|« Bienvenue, {b}. Ici, personne ne te dira comment te battre. Enfin, sauf Garen. Ignore Garen. »
+Akali|colere|« Redis ça, {b}, et tu vas apprendre ce qu'est une ombre. »
+Akali|rire|« Ha ! Celle-là, Kennen l'aurait adorée. »
+Akali|excuse|« Ok. J'ai foncé. Comme d'hab. Désolée. »
+Ashe|salut|« Bonjour, {b}. Le froid est tombé cette nuit. Couvre-toi. »
+Ashe|taquine|« Au Freljord, {b}, on te prendrait pour quelqu'un qui découvre la neige. »
+Ashe|console|« J'ai perdu plus que je ne peux dire. On avance quand même. Ensemble, c'est plus facile. »
+Ashe|vante|« Une flèche, une seule. Il n'en fallait pas plus. »
+Ashe|plainte|« Ce repère est trop chaud. Je ne sais pas comment vous faites. »
+Ashe|merci|« Merci, {b}. Chez moi, on dirait que tu fais partie de mon clan, maintenant. »
+Ashe|accueil|« Bienvenue, {b}. Une porte ouverte vaut mieux que mille murs. »
+Ashe|colere|« Tu parles comme ceux qui divisent mon peuple, {b}. Je ne l'accepterai pas ici. »
+Ashe|rire|(un rire bref, surpris, qui adoucit d'un coup son visage de reine)
+Ashe|excuse|« J'ai jugé trop vite. Une reine devrait savoir écouter. Pardonne-moi. »
+Braum|salut|« Ha ! Bonjour, {b} ! Braum a fait de la soupe ! »
+Braum|taquine|« Tu soulèves cette caisse, {b} ? Braum, lui, soulève la caisse ET toi. »
+Braum|console|« Viens, viens. Braum a un grand bouclier et un grand cœur. Il y a de la place derrière les deux. »
+Braum|vante|« Rien ne passe la porte de Braum ! Ni flèche, ni épée, ni mauvaise humeur ! »
+Braum|plainte|« Pas de poro dans ce repère. Braum est un peu triste. »
+Braum|merci|« Merci, merci ! Braum te serre dans ses bras. Respire, maintenant. »
+Braum|accueil|« Bienvenue, {b} ! Assieds-toi, mange. Les histoires viennent après la soupe. »
+Braum|colere|« Braum est calme. Braum reste calme. Mais Braum demande d'arrêter. Maintenant. »
+Braum|rire|(un rire énorme qui fait trembler les chopes sur l'étagère)
+Braum|excuse|« Braum a parlé trop fort. Braum est désolé. Sa moustache aussi. »
+Caitlyn|salut|« Bonjour, {b}. Tu as dormi six heures, à en juger par tes cernes. Ce n'est pas assez. »
+Caitlyn|taquine|« Intéressant, {b}. Trois indices sur ta chemise disent que tu as encore pris le dernier beignet. »
+Caitlyn|console|« Une enquête ratée n'est qu'une enquête pas encore résolue. On reprend demain. »
+Caitlyn|vante|« Tir à neuf cents pas. Vent de travers. Dans le mille. »
+Caitlyn|plainte|« Il n'y a aucun ordre dans les registres de ce repère. Aucun. »
+Caitlyn|merci|« Merci, {b}. Je le note. Je note tout, mais celui-là compte. »
+Caitlyn|accueil|« Bienvenue, {b}. Si quelque chose disparaît, c'est probablement Jinx. Viens me voir quand même. »
+Caitlyn|colere|« Je te conseille de choisir tes prochains mots avec beaucoup de soin, {b}. »
+Caitlyn|rire|« Ha. D'accord. Celle-là m'a eue. »
+Caitlyn|excuse|« J'ai tiré une conclusion trop vite. Une erreur de débutante. Je suis désolée. »
+Darius|salut|« {b}. Debout. On s'entraîne. »
+Darius|taquine|« Tu appelles ça une garde, {b} ? À Noxus, on t'aurait laissé sur le champ de bataille. »
+Darius|console|« La défaite forge. Si elle ne te tue pas, elle t'apprend. Et elle ne t'a pas tué. »
+Darius|vante|« Ils ont fui. Ceux qui sont restés aussi, d'une certaine manière. »
+Darius|plainte|« Trop de bavardages. Pas assez de discipline. »
+Darius|merci|« Tu as tenu ta place, {b}. C'est tout ce qu'on demande. C'est beaucoup. »
+Darius|accueil|« Bienvenue. Ici, on se juge sur ce qu'on fait. Pas sur d'où on vient. »
+Darius|colere|« Tu veux tester ma patience, {b} ? Elle est plus courte que ma hache. »
+Darius|rire|(un grognement bref qui, chez Darius, vaut un éclat de rire)
+Darius|excuse|« J'ai eu tort. Je ne le répéterai pas, alors écoute bien. »
+Draven|salut|« Bonjour, {b} ! Draven est réveillé, la journée peut commencer ! »
+Draven|taquine|« Pas mal, {b}. Pour quelqu'un qui n'est pas Draven. »
+Draven|console|« Hé. Ce n'était pas ta faute. C'était juste un jour sans Draven. »
+Draven|vante|« Vous avez vu ? Tout le monde a vu ? Dites-le. Dites « Draaaaven ». »
+Draven|plainte|« Personne n'a peint mon portrait dans la salle commune. Encore. »
+Draven|merci|« Tu sais quoi, {b} ? Je vais t'offrir un autographe. Gratuit. »
+Draven|accueil|« Bienvenue, {b} ! Retiens bien ce nom : Draven. Deux syllabes. Toute une légende. »
+Draven|colere|« Personne ne gâche le spectacle de Draven, {b}. Personne. »
+Draven|rire|« HAHA ! Ça, c'est digne de l'arène ! »
+Draven|excuse|« Bon. Draven a peut-être exagéré. Un tout petit peu. Mais avec style. »
+Ekko|salut|« Salut, {b}. T'aurais pas vu un ressort ? Gros comme ça. C'est important. »
+Ekko|taquine|« Si je remontais le temps de dix secondes, {b}, tu referais exactement la même bêtise. »
+Ekko|console|« J'ai vu ce qui arrive quand on abandonne. Crois-moi, on n'abandonne pas. »
+Ekko|vante|« Raté une fois, recommencé, réussi. Le temps, c'est mon terrain de jeu. »
+Ekko|plainte|« Quelqu'un a branché la bouilloire sur mon appareil. Encore. »
+Ekko|merci|« Merci, {b}. Dans les Failles, ça voudrait dire que t'es de la famille. »
+Ekko|accueil|« Bienvenue, {b}. Ici c'est comme chez les Lucioles. On veille les uns sur les autres. »
+Ekko|colere|« Tu crois que je t'ai pas vu, {b} ? J'ai TOUT vu. Deux fois. »
+Ekko|rire|« Ha ! Faut que je retienne cette seconde-là. »
+Ekko|excuse|« Si je pouvais revenir en arrière, je le ferais. Enfin. Je peux. Mais je vais juste m'excuser. »
+Ezreal|salut|« Salut, {b} ! Tu veux entendre comment j'ai failli mourir dans une pyramide la semaine dernière ? »
+Ezreal|taquine|« T'inquiète, {b}. Tout le monde ne peut pas être aussi doué que moi. »
+Ezreal|console|« Moi aussi je me suis perdu, une fois. Bon, plusieurs fois. Mais à la fin, je trouve toujours. »
+Ezreal|vante|« Piège désamorcé, trésor récupéré, et pas une égratignure. Enfin, presque. »
+Ezreal|plainte|« Pas une seule ruine à moins de deux jours d'ici. Je m'ennuie. »
+Ezreal|merci|« Merci, {b} ! Si on trouve un trésor, je te laisse la plus petite moitié. »
+Ezreal|accueil|« Bienvenue, {b} ! Tu aimes l'aventure ? Non ? Tu vas aimer. »
+Ezreal|colere|« Hé ! Ça, {b}, c'était pas cool. »
+Ezreal|rire|« Hahaha ! J'aurais dû le dessiner, ça ! »
+Ezreal|excuse|« Ok, j'ai frimé. Un peu. Beaucoup. Désolé. »
+Graves|salut|« {b}. Il y a du café, ou il faut que je braque quelqu'un ? »
+Graves|taquine|« Tu tires comme un marin saoul, {b}. Et j'en ai connu, des marins saouls. »
+Graves|console|« La vie te met à terre. Tu te relèves, tu craches, tu recharges. »
+Graves|vante|« Un coup de fusil, problème réglé. J'aime les problèmes simples. »
+Graves|plainte|« Ce repère manque cruellement de cigares. Et de whisky. Et de silence. »
+Graves|merci|« T'as assuré, {b}. Je te dois une tournée. Je paie mes dettes, moi. Pas comme certains. »
+Graves|accueil|« Bienvenue, {b}. Règle de base : personne ne touche à mon fusil. »
+Graves|colere|« Fais encore un pas, {b}, et Destinée va te dire bonjour. »
+Graves|rire|(un rire rauque qui finit en quinte de toux de fumeur)
+Graves|excuse|« J'ai été un sale type. Ça m'arrive. Plus souvent que je voudrais. »
+Jayce|salut|« Bonjour, {b} ! Belle journée pour le progrès ! »
+Jayce|taquine|« Ton plan est solide, {b}. Comme un pont sans piliers. »
+Jayce|console|« Chaque échec est une donnée. Tu viens d'en récolter une belle. On recommence. »
+Jayce|vante|« Marteau, canon, marteau. Il n'y avait pas de quoi s'inquiéter. »
+Jayce|plainte|« Il n'y a même pas d'atelier convenable ici. Comment voulez-vous que je travaille ? »
+Jayce|merci|« Merci, {b}. Piltover aurait besoin de plus de gens comme toi. »
+Jayce|accueil|« Bienvenue, {b} ! Si tu as une idée, viens m'en parler. Les meilleures inventions commencent comme ça. »
+Jayce|colere|« Tu n'as aucune idée de ce que tu dis, {b}. Aucune. »
+Jayce|rire|« Ha ! Viktor aurait détesté. C'est encore plus drôle. »
+Jayce|excuse|« J'ai été arrogant. On me le dit souvent. Pour une fois, j'écoute. »
+Lee Sin|salut|« Bonjour, {b}. Ton pas est lourd ce matin. Quelque chose te pèse. »
+Lee Sin|taquine|« Je n'ai pas besoin de mes yeux pour voir que ta garde est ouverte, {b}. »
+Lee Sin|console|« La douleur est un enseignant. Écoute-la, puis remercie-la, et laisse-la partir. »
+Lee Sin|vante|« Je n'ai fait que suivre le souffle du combat. »
+Lee Sin|plainte|« Il y a trop de bruit pour méditer. Peut-être est-ce là l'exercice. »
+Lee Sin|merci|« Merci, {b}. Ta bonté résonne plus loin que tu ne le crois. »
+Lee Sin|accueil|« Bienvenue, {b}. Assieds-toi. Respire. Tu es chez toi, maintenant. Tu peux te poser. »
+Lee Sin|colere|« Je sens ta colère d'ici, {b}. Ne la laisse pas parler à ta place. »
+Lee Sin|rire|(un sourire paisible, puis un petit rire, comme une cloche lointaine)
+Lee Sin|excuse|« Mes paroles ont frappé plus fort que mes poings. Pardonne-moi. »
+Miss Fortune|salut|« Bonjour, {b}. Tu as l'air d'avoir besoin d'un café. Ou d'une aventure. »
+Miss Fortune|taquine|« Allons, {b}, même un mousse de Bilgewater ferait mieux que ça. »
+Miss Fortune|console|« On m'a tout pris, un jour. J'ai tout repris. Toi aussi, tu y arriveras. »
+Miss Fortune|vante|« Deux pistolets, un clin d'œil, affaire réglée. »
+Miss Fortune|plainte|« Pas d'océan à l'horizon. Comment vous faites pour respirer ? »
+Miss Fortune|merci|« Merci, {b}. Ma fortune te sourit, pour cette fois. »
+Miss Fortune|accueil|« Bienvenue à bord, {b}. Ici, l'équipage passe avant le butin. »
+Miss Fortune|colere|« Ne me pousse pas, {b}. Tu ne voudrais pas savoir ce qui arrive à ceux qui m'ont poussée. »
+Miss Fortune|rire|« Ha ! Celle-là, je la raconterai dans les tavernes. »
+Miss Fortune|excuse|« J'ai été dure. La mer, ça endurcit. Désolée, {b}. »
+Sett|salut|« Hé, {b}. T'as mangé ? Ma mère dit qu'on se bat mieux le ventre plein. »
+Sett|taquine|« C'est ça, ton coup de poing, {b} ? Ma mère frappe plus fort. Et c'est un compliment pour ma mère. »
+Sett|console|« Allez, debout. Les vrais costauds, c'est ceux qui se relèvent. »
+Sett|vante|« Un coup. Un seul. Et je ne me suis même pas sali la veste. »
+Sett|plainte|« Pas d'arène ici. Comment on règle les désaccords, alors ? En parlant ? »
+Sett|merci|« Merci, {b}. Je le dirai à ma mère. Elle t'aimera bien. »
+Sett|accueil|« Bienvenue, {b}. Si quelqu'un t'embête, tu dis que t'es avec moi. »
+Sett|colere|« Tu veux qu'on règle ça dehors, {b} ? Non ? Alors tais-toi. »
+Sett|rire|« Hahaha ! Trop drôle ! »
+Sett|excuse|« J'ai été bourrin. Ma mère me tuerait. Pardon. »
+Seraphine|salut|« Bonjour, {b} ! J'entends ta musique, ce matin. Elle est un peu fatiguée, mais jolie. »
+Seraphine|taquine|« Ton cœur fait toujours un petit bruit de tambour quand tu mens, {b}. »
+Seraphine|console|« Toutes les chansons ont un passage triste. Ce n'est jamais la fin. »
+Seraphine|vante|« Vous avez entendu comme la foule chantait avec moi ? C'était magique ! »
+Seraphine|plainte|« Ce repère manque de musique. On pourrait chanter au dîner ? »
+Seraphine|merci|« Merci, {b} ! Je vais t'écrire une chanson. Une petite. Bon, peut-être une grande. »
+Seraphine|accueil|« Bienvenue, {b} ! Ton arrivée sonne comme un nouveau couplet. »
+Seraphine|colere|« Ce que tu dis là, {b}, ça sonne faux. Vraiment faux. »
+Seraphine|rire|(un rire qui part dans les aigus, comme une note qu'elle n'aurait pas prévue)
+Seraphine|excuse|« Je me suis trompée de ton. Je recommence ? »
+Sylas|salut|« Bonjour, {b}. Toujours libre ? Bien. Il faut que ça dure. »
+Sylas|taquine|« Tu obéis si bien, {b}. On t'a appris ça où ? »
+Sylas|console|« On t'a déjà mis des chaînes ? Moi aussi. Les chaînes, ça se brise. »
+Sylas|vante|« J'ai pris leur magie et je la leur ai rendue. En pleine figure. »
+Sylas|plainte|« Trop de bannières, trop de règles. On se croirait à Demacia. »
+Sylas|merci|« Merci, {b}. Je n'oublie jamais ceux qui m'ont tendu la main. Ni les autres. »
+Sylas|accueil|« Bienvenue, {b}. Ici, au moins, personne ne t'enfermera pour ce que tu es. »
+Sylas|colere|« Encore un ordre, {b}, et tu découvriras ce que je fais des gens qui en donnent. »
+Sylas|rire|« Ha ! Voilà ce que j'appelle un peu de liberté. »
+Sylas|excuse|« J'ai mordu une main amie. Les vieilles cellules laissent des réflexes. Pardon. »
+Thresh|salut|« Bonjour, {b}. Ton âme a une jolie couleur, ce matin. »
+Thresh|taquine|« Quelle fragilité, {b}. C'en est presque émouvant. »
+Thresh|console|« La souffrance passe. Elle passe toujours. En général, elle finit chez moi. »
+Thresh|vante|« Ils ont crié. Longtemps. C'était une bonne journée. »
+Thresh|plainte|« Ce repère est si bruyant. Si vivant. Quel gâchis. »
+Thresh|merci|« Merci, {b}. Je saurai m'en souvenir. Je me souviens de tout. »
+Thresh|accueil|« Bienvenue, {b}. Fais comme chez toi. Tant que tu en as un. »
+Thresh|colere|« Tu oublies à qui tu parles, {b}. Ma lanterne, elle, n'oublie personne. »
+Thresh|rire|(un rire grinçant, comme une chaîne qu'on traîne sur la pierre)
+Thresh|excuse|« Des excuses ? Comme c'est original. Soit. Je retire mes mots. Pas mes intentions. »
+Twisted Fate|salut|« Bonjour, {b}. Tu veux tirer une carte ? N'importe laquelle. »
+Twisted Fate|taquine|« Tu bluffes comme un enfant, {b}. Ça se lit sur ton visage à dix pas. »
+Twisted Fate|console|« Mauvaise main ? Ça arrive. Le secret, c'est de rester assis jusqu'à la suivante. »
+Twisted Fate|vante|« Carte rouge, carte bleue, carte dorée. Ils ont perdu avant de comprendre qu'on jouait. »
+Twisted Fate|plainte|« Personne ne veut jouer aux cartes avec moi. Je me demande bien pourquoi. »
+Twisted Fate|merci|« Merci, {b}. Celle-là, je te la dois sans tricher. »
+Twisted Fate|accueil|« Bienvenue, {b}. Petit conseil : ne joue jamais d'argent contre moi. Ni contre Graves. Surtout pas contre Graves. »
+Twisted Fate|colere|« Je déteste qu'on me prenne pour un pigeon, {b}. D'habitude, c'est moi qui plume. »
+Twisted Fate|rire|« Ha ! Joli coup. Vraiment joli. »
+Twisted Fate|excuse|« J'ai triché. Bon. Pour une fois, j'avoue. »
+Yasuo|salut|« {b}. Le vent souffle du nord, aujourd'hui. »
+Yasuo|taquine|« Tu frappes fort, {b}. Tu frappes à côté, mais fort. »
+Yasuo|console|« J'ai fait pire que toi. Bien pire. Et je suis toujours là. Alors toi aussi. »
+Yasuo|vante|« Le vent a fait le travail. Je n'ai fait que le suivre. »
+Yasuo|plainte|« Il n'y a plus de saké. Encore. »
+Yasuo|merci|« Merci, {b}. Je ne le dis pas souvent. Sache-le. »
+Yasuo|accueil|« Bienvenue. Personne ici ne te demandera ce que tu fuis. C'est pour ça que je reste. »
+Yasuo|colere|« Range ça, {b}. Avant que le vent ne s'en mêle. »
+Yasuo|rire|(un demi-sourire, puis un rire bref, comme s'il s'en voulait d'avoir ri)
+Yasuo|excuse|« J'ai été injuste. Ce n'est pas la première fois. J'essaie que ce soit la dernière. »
+Zed|salut|« {b}. »
+Zed|taquine|« Ton ombre est plus douée que toi, {b}. Elle, au moins, sait se taire. »
+Zed|console|« La force naît dans l'obscurité. Tu es dans le noir, en ce moment. C'est là que tout commence. »
+Zed|vante|« Ils n'ont vu que mon ombre. C'était déjà trop pour eux. »
+Zed|plainte|« Trop de lumière ici. Les ombres n'ont nulle part où se reposer. »
+Zed|merci|« Tu as été utile, {b}. Je m'en souviendrai. »
+Zed|accueil|« Bienvenue. Ici, on accepte ceux que d'autres ont rejetés. Je sais ce que c'est. »
+Zed|colere|« Tu n'as aucune idée de ce que j'ai sacrifié, {b}. Aucune. »
+Zed|rire|(un rire bas, sans joie, qui fait pourtant sourire ceux qui le connaissent)
+Zed|excuse|« Je me suis emporté. L'ombre a parlé avant moi. »

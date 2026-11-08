@@ -1,0 +1,505 @@
+# Freljord · palier Locale · lot 1 (missions 001 à 025) · 8 nov. 2026
+# Palier Locale : les affaires d'un clan, d'une mère de guerre, d'un village entier. Dettes, serments et froid.
+# {meneur} : le héros qui a mené l'épreuve décisive.
+
+=== FRE-L-001 | Le conseil des mères
+source: institution
+region: freljord
+palier: locale
+type: protection
+ton: politique
+lieu: Avarosan
+demandeur: la Chambre des Bannières, pour le conseil des mères de guerre d'Avarosan
+accroche: « Les mères de guerre de six clans se réunissent à Avarosan pour discuter d'une alliance contre la Griffe hivernale. Trois d'entre elles se sont déjà battues ensemble, et deux se sont battues l'une contre l'autre. Il faut que la réunion aille au bout, et que tout le monde reparte vivant. »
+postes: Support, Tank, Éclaireur
+duree: 9
+dangereuse: oui
+epreuves: diplomatie 47 (faire asseoir à la même table des mères de guerre qui se détestent) ; discretion 44 (repérer l'espion de la Griffe parmi les serviteurs) ; combat 46 (protéger la réunion quand l'espion passe à l'acte)
+complication: L'espion n'est pas un serviteur : c'est le fils d'une des mères, qui veut faire échouer l'alliance pour prendre la place de sa mère.
+eclatante: {meneur} démasque le fils au moment où il glisse du poison dans la coupe commune. Sa propre mère le condamne à l'exil, devant toutes les autres. Ce geste convainc les cinq autres : une mère capable de cela tiendra parole. L'alliance est signée à l'aube. Six clans, unis contre la Griffe. Le Freljord en parlera longtemps.
+reussite: La réunion va au bout, sans mort. L'espion est démasqué et chassé. Quatre clans signent l'alliance, deux réservent leur réponse. C'est plus qu'on n'en espérait. Les mères de guerre offrent à la guilde une peau d'ours blanc, ce qui ne se fait pas pour n'importe qui.
+partielle: La réunion est interrompue par une dispute, puis reprend le lendemain, avec trois clans seulement. L'alliance est fragile. L'espion s'est enfui vers le nord. Personne ne sait ce qu'il a entendu.
+echec: L'espion empoisonne une mère de guerre pendant le banquet. Elle survit, mais son clan accuse les autres. La réunion se termine en bagarre. Il n'y aura pas d'alliance cet hiver. La Griffe hivernale, elle, n'attendait que ça.
+recompenses: po 160 ; reputation 5 ; objet Bouclier de Doran 12
+
+=== FRE-L-002 | Les loups de Vathcaer
+source: privee
+region: freljord
+palier: locale
+type: defense
+ton: aventure
+lieu: Vathcaer
+demandeur: Hilde Steinn, ancienne du village de Vathcaer, qui a vu grandir Ashe et n'impressionne personne
+accroche: « L'hiver est trop long. Les loups ont faim, et ils sont de plus en plus près. Hier, ils ont tué deux chiens au bord du village. Cette nuit, ils viendront pour les enfants. Il n'y a ici que des vieux, des enfants et moi. Les guerriers sont partis avec la reine. »
+postes: Tireur, Tank, Healer
+duree: 7
+dangereuse: oui
+epreuves: siege 44 (dresser une palissade autour des maisons en une journée) ; nuee 50 (repousser la meute quand elle attaque, à la tombée de la nuit) ; combat 47 (abattre le loup qui la mène)
+complication: La meute est menée par un loup énorme, au pelage gris argenté, que les anciens appellent le Vieux. Il chasse autour de Vathcaer depuis vingt ans, et il est trop intelligent pour les pièges.
+eclatante: {meneur} attend le Vieux au seul endroit où la palissade est volontairement laissée ouverte, et l'abat d'un seul coup. Sans lui, la meute se disperse dans la forêt. Hilde Steinn fait tanner sa peau, et l'accroche dans la grande maison du village. Les enfants de Vathcaer jouent au « héros contre le Vieux » tout l'hiver.
+reussite: La meute est repoussée après une nuit de combat. Le Vieux s'enfuit, blessé. Aucun enfant n'est touché. Hilde Steinn sert à l'équipe un ragoût de renne, le meilleur de sa vie, dit-elle. Elle dit ça à chaque fois.
+partielle: La palissade cède d'un côté. Les loups emportent deux chèvres avant d'être repoussés. Personne n'est blessé, mais les enfants font des cauchemars tout l'hiver. Le Vieux reviendra, tout le monde le sait.
+echec: La meute force la palissade. Les villageois se réfugient dans la grande maison, et y passent la nuit, à écouter les loups dehors. Au matin, le village a perdu ses chèvres et trois chiens. Hilde Steinn envoie un messager à la reine. Il faudra des guerriers.
+recompenses: po 140 ; reputation 4 ; objet Cristal de rubis 12
+
+=== FRE-L-003 | Le troll qui voulait se marier
+source: privee
+region: freljord
+palier: locale
+type: diplomatie
+ton: drole
+lieu: Village des trolls des glaces
+demandeur: Bjarki, marchand de fourrures, qui commerce avec les trolls depuis dix ans et vient de recevoir une demande étrange
+accroche: « Le chef des trolls veut se marier. Avec une humaine. Il dit qu'il a vu une femme dans un village du sud, qu'elle a les cheveux comme le feu, et qu'il l'épousera ou qu'il brûlera tous les comptoirs de la région. Je commerce avec lui depuis dix ans. Je préfère qu'il ne brûle rien. »
+postes: Support
+duree: 8
+dangereuse: non
+epreuves: diplomatie 45 (négocier avec un chef troll amoureux et très susceptible) ; poursuite 42 (retrouver la femme aux cheveux de feu, pour lui expliquer la situation) ; diplomatie 47 (trouver une solution qui ne vexe personne)
+complication: La femme aux cheveux de feu n'est pas une femme : c'est une statue de bois peinte, à l'entrée d'une auberge. Le chef troll l'a vue de loin, de nuit.
+eclatante: {meneur} convainc l'aubergiste de vendre la statue, puis la fait livrer au village des trolls, en grande cérémonie. Le chef troll l'épouse le soir même, devant toute la tribu, et se déclare le troll le plus heureux du Freljord. Les comptoirs sont épargnés. La statue trône désormais dans la caverne royale. Elle a une couronne.
+reussite: L'équipe explique au chef troll, avec beaucoup de précautions, que sa bien-aimée est en bois. Il pleure toute une journée, puis décide qu'il la veut quand même. La statue est achetée. Les comptoirs sont épargnés. Bjarki rembourse la statue à l'aubergiste, en soupirant.
+partielle: Le chef troll comprend que sa bien-aimée est en bois, et se vexe. Il ne brûle rien, mais il double le prix de ses fourrures, pour se consoler. Bjarki fait des affaires bien moins bonnes cette année.
+echec: Le chef troll se sent humilié, et attaque l'auberge pour enlever la statue. Il la ramène, mais il a brûlé l'auberge au passage. L'aubergiste réclame des dommages à la guilde. Le chef troll, lui, est très heureux.
+recompenses: po 65 ; reputation 3 ; objet Charme féerique 10
+
+=== FRE-L-004 | La Glace pure de Ghulfrost
+source: privee
+region: freljord
+palier: locale
+type: exploration
+ton: mystere
+lieu: Ghulfrost
+demandeur: Runa Eld, chamane d'un petit clan, qui sent la Glace pure bouger sous ses pieds
+accroche: « Il y a de la Glace pure sous Ghulfrost. Elle chante, la nuit. Pas comme d'habitude : comme si elle appelait quelqu'un. Mes visions montrent une salle, sous la glace, avec un trône vide. Je veux savoir qui doit s'y asseoir. Et je veux le savoir avant que quelqu'un ne s'y asseye. »
+postes: Support, Éclaireur
+duree: 10
+dangereuse: oui
+epreuves: voyage 46 (descendre dans les crevasses de Ghulfrost, sous la glace éternelle) ; discretion 45 (passer devant les gardiens de glace sans les réveiller) ; diplomatie 47 (comprendre ce que veut la Glace pure, et lui répondre)
+complication: La salle existe. Le trône aussi. Et des Sublimés des Gardiens du givre y sont arrivés la veille, pour y installer quelqu'un de leur choix.
+eclatante: {meneur} arrive dans la salle avant les Sublimés, et pose sur le trône un éclat de Glace pure éteinte, rapporté par Runa Eld. Le chant cesse aussitôt : le trône est « occupé ». Les Sublimés repartent sans comprendre. La chamane dit que la Glace pure dort désormais pour cent ans. Elle refuse de dire qui elle attendait.
+reussite: L'équipe atteint la salle et la scelle, avec les rituels de Runa Eld. Les Sublimés ne pourront pas y entrer avant longtemps. Le chant s'arrête. La chamane remercie la guilde, puis s'enferme une semaine dans sa tente pour méditer.
+partielle: L'équipe atteint la salle, mais les Sublimés y sont déjà. Il faut se replier. Le chant continue, plus faible. Runa Eld dit que rien n'est perdu, mais que le temps presse, désormais.
+echec: L'équipe se perd dans les crevasses et doit remonter après trois jours. Une semaine plus tard, le chant de la Glace pure cesse brusquement. Runa Eld pâlit en l'apprenant. Quelqu'un s'est assis sur le trône.
+recompenses: po 165 ; reputation 5 ; objet Cape de négation 12
+
+=== FRE-L-005 | Le grand hydromel de Quchar
+source: privee
+region: freljord
+palier: locale
+type: livraison
+ton: drole
+lieu: Quchar
+demandeur: Olav le Rond, brasseur de Quchar, dont l'hydromel est attendu au festin de la reine
+accroche: « Douze tonneaux du meilleur hydromel de Quchar, pour le festin de la reine à Avarosan, dans six jours. Il fait si froid que l'hydromel gèle, et si l'hydromel gèle, il éclate les tonneaux. Il faut les garder au chaud tout le long du chemin. Les garder au chaud, et les garder pleins. »
+postes: Tank, Support
+duree: 10
+dangereuse: non
+epreuves: voyage 44 (transporter douze tonneaux dans le blizzard, sans qu'ils gèlent) ; diplomatie 42 (traverser trois villages qui ont très envie de goûter) ; poursuite 40 (rattraper le traîneau, quand les rennes s'emballent dans une descente)
+complication: L'équipe découvre que le seul moyen de garder l'hydromel au chaud, c'est de dormir contre les tonneaux. Les rennes, eux, ont goûté l'hydromel.
+eclatante: {meneur} a l'idée d'organiser, dans chaque village traversé, une petite dégustation payante, avec un seul tonneau ouvert. Les onze autres arrivent pleins au festin, et Olav le Rond est devenu célèbre dans trois villages de plus. La reine en reprend deux fois. Le brasseur reçoit une commande pour toute l'année.
+reussite: Les douze tonneaux arrivent à Avarosan, un peu entamés. Il en manque l'équivalent d'un, bu par trois villages, deux rennes et un membre de l'équipe qui préfère ne pas en parler. Le festin est réussi. Olav le Rond est payé.
+partielle: Trois tonneaux gèlent et éclatent en route. Les autres arrivent. Le festin a lieu, avec un peu moins d'hydromel que prévu. Les invités boivent de la bière à la place, et râlent toute la soirée.
+echec: Les rennes s'emballent dans une descente, et le traîneau se renverse. Huit tonneaux se brisent sur la glace. Pendant une heure, la pente sent l'hydromel. Le festin de la reine a lieu sans Olav le Rond, qui ne s'en remet pas.
+recompenses: po 70 ; reputation 3 ; objet Potion de soin 12
+
+=== FRE-L-006 | Les otages de Yadulsk
+source: privee
+region: freljord
+palier: locale
+type: sauvetage
+ton: tragique
+lieu: Yadulsk
+demandeur: Torvald Ise, chef d'un village avarosan, dont la fille a été enlevée par un raid de la Griffe hivernale
+accroche: « La Griffe hivernale a pillé notre village il y a dix jours. Elle a emmené six des nôtres à Yadulsk, dont ma fille. Ils seront vendus, ou pire, ils deviendront des guerriers de la Griffe, et un jour ils reviendront piller leur propre village. Je ne peux pas y aller : on me reconnaîtrait. »
+postes: Assassin, Healer, Éclaireur
+duree: 12
+dangereuse: oui
+epreuves: voyage 46 (atteindre Yadulsk à travers les terres de la Griffe) ; discretion 49 (entrer dans le village de nuit, et trouver où sont gardés les otages) ; poursuite 47 (fuir avec six prisonniers épuisés, poursuivis par des cavaliers de la Griffe)
+complication: La fille du chef ne veut pas partir. Elle est tombée amoureuse d'un guerrier de la Griffe, qui l'a protégée des autres pendant le voyage.
+eclatante: {meneur} sort les cinq autres otages de Yadulsk, et laisse à la fille du chef le choix qu'elle demande. Elle reste. Torvald Ise apprend la nouvelle, se tait longtemps, puis demande à l'équipe de lui porter une lettre. Un an plus tard, la fille et son guerrier viennent s'installer à mi-chemin des deux villages. Il n'y a plus de raid de ce côté-là.
+reussite: Les six otages sont ramenés, dont la fille du chef, malgré ses protestations. Elle ne parle pas à son père pendant un mois. Puis elle lui raconte tout. Torvald Ise ne sait pas s'il a bien fait. Il garde sa fille. Il perd un peu de sa certitude.
+partielle: Quatre otages sont ramenés. Les deux autres, dont la fille du chef, ont été emmenés plus au nord avant l'arrivée de l'équipe. Torvald Ise remercie la guilde pour les quatre. Il prépare déjà son propre voyage vers le nord.
+echec: L'équipe est repérée à Yadulsk et doit fuir sans les otages. Les cavaliers de la Griffe la poursuivent pendant deux jours. Torvald Ise ne reverra jamais sa fille. Il apprendra plus tard qu'elle est devenue guerrière de la Griffe.
+recompenses: po 170 ; reputation 5 ; objet Dague 12
+
+=== FRE-L-007 | Le chant des corbeaux
+source: privee
+region: freljord
+palier: locale
+type: enquete
+ton: horreur
+lieu: Village de Mourncrow
+demandeur: Ylva Krak, gardienne des morts de Mourncrow, qui prépare les corps pour le grand froid
+accroche: « À Mourncrow, on laisse les morts aux corbeaux, sur les hauts rochers. C'est notre coutume. Depuis un mois, les corbeaux ne mangent plus. Ils restent assis autour des corps, en silence. Et les morts ne pourrissent plus. Ils attendent. »
+postes: Mage, Éclaireur, Support
+duree: 8
+dangereuse: oui
+epreuves: discretion 45 (veiller la nuit sur les hauts rochers, parmi les corps et les corbeaux) ; diplomatie 44 (interroger les anciens, qui savent quelque chose et ne veulent pas le dire) ; combat 47 (affronter ce qui se lève des rochers, la troisième nuit)
+complication: Un des morts n'est pas mort. Un chaman, pris pour mort après une transe trop profonde, a été déposé sur les rochers. Les corbeaux le gardent. Il appelle les autres morts à l'aide, sans le savoir.
+eclatante: {meneur} trouve le chaman vivant parmi les corps, glacé mais respirant, et le ramène au village. Il se réveille au bout de deux jours, et le silence des corbeaux cesse au même moment. Les morts retournent à leur repos. Le chaman, encore faible, raconte qu'il a passé un mois à parler avec les ancêtres. Mourncrow l'écoute pendant tout l'hiver.
+reussite: L'équipe découvre le chaman vivant et le ramène. Les corbeaux reprennent leur festin dès le lendemain. Le chaman ne se souvient de rien. Ylva Krak vérifie désormais chaque corps trois fois avant de le monter sur les rochers.
+partielle: Le chaman est retrouvé trop tard : il meurt dans la nuit, au village. Les corbeaux recommencent à manger. Mais pendant une semaine, on entend encore, la nuit, des voix sur les hauts rochers.
+echec: Les morts se lèvent à la troisième nuit. L'équipe se replie au village, et passe la nuit à barricader les portes. Au matin, les morts sont redescendus, et les corbeaux sont partis. Mourncrow enterre désormais ses morts, comme au sud. C'est la fin d'une coutume.
+recompenses: po 135 ; reputation 4 ; objet Élixir de sorcellerie 10
+
+=== FRE-L-008 | La dette de Bjornsson
+source: privee
+region: freljord
+palier: locale
+type: recuperation
+ton: politique
+lieu: Village des Enfants de la Glace
+demandeur: Astrid Bjornsson, héritière d'un clan des Enfants de la Glace, qui doit rembourser la dette de son père mort
+accroche: « Mon père devait cent têtes de bétail à un clan voisin. Il est mort sans payer. Selon la tradition, la dette passe à sa fille. Je n'ai pas cent têtes de bétail. J'ai un troupeau de vingt bêtes, et un clan voisin qui menace de prendre mes terres. Mais je sais que mon père avait un trésor caché, quelque part. »
+postes: Éclaireur, Support
+duree: 9
+dangereuse: non
+epreuves: poursuite 43 (retrouver le trésor caché du père, d'après les indices qu'il a laissés à sa fille) ; voyage 44 (le rapporter à travers la toundra) ; diplomatie 46 (négocier le paiement de la dette avec un clan qui préfère les terres)
+complication: Le trésor n'est pas de l'or : c'est le serment écrit du clan voisin, qui reconnaît une dette encore plus ancienne envers le père d'Astrid. Les deux dettes s'annulent. Presque.
+eclatante: {meneur} présente le vieux serment devant les anciens des deux clans. Après une longue discussion, ils reconnaissent que les dettes s'annulent, et que le clan voisin doit même encore dix têtes de bétail. Astrid Bjornsson les reçoit, et en offre cinq à la guilde, selon la coutume. Le clan voisin repart en grommelant, mais il tiendra parole. Au Freljord, un serment écrit vaut plus qu'un troupeau.
+reussite: Le serment est retrouvé, et les dettes s'annulent devant les anciens. Astrid garde ses terres. Le clan voisin n'est pas content, mais il ne peut rien contre un serment de ses propres ancêtres. Les deux clans ne se parlent plus. C'est déjà mieux qu'une guerre.
+partielle: Le trésor est retrouvé, mais le clan voisin conteste l'authenticité du serment. Les anciens coupent la poire en deux : Astrid doit cinquante têtes. Elle les paiera en dix ans. Elle garde ses terres, mais elle s'endette pour longtemps.
+echec: L'équipe ne retrouve pas le trésor. Le clan voisin prend la moitié des terres d'Astrid Bjornsson, comme le veut la tradition. Elle garde le reste, et son troupeau. Elle continue de chercher le trésor de son père, chaque été.
+recompenses: po 110 ; reputation 4 ; objet Charme féerique 12
+
+=== FRE-L-009 | Le yéti de la Veille
+source: privee
+region: freljord
+palier: locale
+type: chasse
+ton: aventure
+lieu: Veille du Yéti
+demandeur: Kari Ulf, chasseuse de la Veille du Yéti, qui a juré de venger son frère
+accroche: « Un yéti a tué mon frère, il y a une semaine. Un mâle, énorme, avec une cicatrice sur l'épaule. Il rôde autour de la Veille. Les chasseurs disent qu'on ne chasse pas un yéti à moins de dix. Je ne trouve pas dix chasseurs. Je trouve votre guilde. »
+postes: Tireur, Tank
+duree: 9
+dangereuse: oui
+epreuves: poursuite 46 (suivre les traces du yéti dans la neige profonde) ; voyage 44 (survivre à la tempête qui se lève pendant la traque) ; combat 50 (affronter le yéti dans sa grotte)
+complication: Le yéti n'a pas attaqué le premier : le frère de Kari avait tué son petit, pour la fourrure. Le yéti est blessé, et il est seul.
+eclatante: {meneur} affronte le yéti dans sa grotte, et le blesse gravement, mais ne l'achève pas. Kari Ulf arrive, voit la peau du petit yéti suspendue à l'entrée, comprend tout. Elle baisse son arc. Le yéti s'enfuit dans la tempête. Kari rentre à la Veille, et brûle la peau du petit, en silence. Elle ne chassera plus jamais les yétis.
+reussite: Le yéti est abattu dans sa grotte, après un combat terrible. Kari Ulf rapporte sa peau à la Veille. Le frère est vengé. Elle découvre plus tard, dans la grotte, les restes du petit yéti. Elle ne dit rien. Elle ne se vante jamais de cette chasse.
+partielle: Le yéti s'enfuit, blessé, vers les hauts plateaux. Kari Ulf ne le reverra pas. Elle dit qu'elle continuera de chercher. Les autres chasseurs pensent qu'elle cherchera toute sa vie.
+echec: Le yéti surprend l'équipe dans la tempête, et blesse gravement l'un des siens. Il faut se replier. Kari Ulf reste seule dans les montagnes, malgré les supplications. On ne sait pas si elle est revenue.
+recompenses: po 150 ; reputation 4 ; objet Élixir de rage 12
+
+=== FRE-L-010 | Les enfants trouvés
+source: institution
+region: freljord
+palier: locale
+type: escorte
+ton: tendre
+lieu: Village des Enfants trouvés
+demandeur: la Chambre des Bannières, pour une famille avarosane qui veut adopter un enfant
+accroche: « Une famille d'Avarosan veut adopter un orphelin du Village des Enfants trouvés. Mais le village appartient aux Gardiens du givre, qui n'aiment pas voir partir leurs enfants chez les Avarosans. Il faut conduire la famille là-bas, obtenir l'accord des gardiennes, et revenir avec l'enfant. Sans incident. »
+postes: Support, Healer
+duree: 11
+dangereuse: non
+epreuves: voyage 44 (conduire la famille jusqu'au village, près de la Citadelle des Gardiens du givre) ; diplomatie 48 (convaincre les gardiennes que l'enfant sera bien chez les Avarosans) ; voyage 42 (revenir avec un enfant qui n'a jamais quitté son village)
+complication: L'enfant a une petite sœur au village, dont personne n'avait parlé. Il refuse de partir sans elle.
+eclatante: {meneur} convainc les gardiennes de laisser partir les deux enfants ensemble, et la famille d'Avarosan d'accueillir une fille de plus. La famille accepte sans hésiter. Le retour se fait en chantant des chansons des Gardiens du givre, que la famille apprend en route. Les deux enfants grandiront à Avarosan, avec deux langues et deux chants.
+reussite: Les gardiennes acceptent, après une longue discussion, de laisser partir le garçon. Sa petite sœur reste. La famille promet de revenir la voir chaque été. Elle tient parole. Un jour, elle l'adoptera aussi.
+partielle: Les gardiennes refusent l'adoption, mais acceptent que la famille revienne voir l'enfant chaque année. Ce n'est pas ce qu'elle voulait. C'est un début. La famille rentre à Avarosan avec un dessin d'enfant.
+echec: Les gardiennes refusent sèchement, et accusent la guilde de vouloir voler les enfants de la Garde. La famille rentre à Avarosan les mains vides. Le garçon a regardé partir le traîneau, sans pleurer, jusqu'à ce qu'il disparaisse.
+recompenses: po 90 ; reputation 4 ; objet Charme féerique 12
+
+=== FRE-L-011 | Le marteau d'Ornn
+source: privee
+region: freljord
+palier: locale
+type: recuperation
+ton: mystere
+lieu: Rocs d'Ornnkaal
+demandeur: Brynja, forgeronne d'un petit clan, qui prie le demi-dieu Ornn depuis l'enfance
+accroche: « Au pied des Rocs d'Ornnkaal, il y a une enclume de pierre que personne n'a jamais déplacée. Hier, un marteau est apparu dessus. Un marteau énorme, encore chaud. Des voleurs l'ont pris pendant la nuit. Je ne sais pas ce que c'est. Mais je sais qu'on ne vole pas un marteau qui sort de la montagne. »
+postes: Éclaireur
+duree: 7
+dangereuse: oui
+epreuves: poursuite 46 (suivre les voleurs, qui laissent des traces de brûlure dans la neige) ; diplomatie 44 (convaincre les voleurs de rendre le marteau, qui leur brûle déjà les mains)
+complication: Le marteau ne se laisse porter que par celui qui le mérite. Les voleurs ne peuvent plus le lâcher, ni le porter plus loin. Ils sont coincés au milieu de la toundra, et ils ont peur.
+eclatante: {meneur} retrouve les voleurs, épuisés, accroupis autour du marteau qui leur brûle les mains. Il suffit de quelques mots pour qu'ils acceptent de le rendre. Le marteau se laisse alors porter, comme s'il avait attendu qu'on lui demande. Brynja le repose sur l'enclume. Le lendemain matin, il a disparu, et à sa place, il y a une lame forgée, pour la guilde.
+reussite: Le marteau est retrouvé et rapporté sur l'enclume. Les voleurs ont les mains brûlées, et une leçon pour la vie. Le marteau disparaît dans la nuit. Brynja dit qu'Ornn est content. Elle n'explique pas comment elle le sait.
+partielle: Le marteau est retrouvé, mais il a refroidi : il est devenu un marteau ordinaire, en pierre. Brynja le repose quand même sur l'enclume. Elle dit que le demi-dieu a été vexé. Elle prie deux fois plus cet hiver.
+echec: Les voleurs ont disparu avec le marteau, et leurs traces s'arrêtent net au milieu de la toundra. Personne ne sait ce qu'ils sont devenus. Brynja dit qu'il vaut mieux ne pas savoir.
+recompenses: po 95 ; reputation 3 ; objet Pioche 12
+
+=== FRE-L-012 | La course des traîneaux
+source: privee
+region: freljord
+palier: locale
+type: protection
+ton: drole
+lieu: Mer de Glace
+demandeur: Sven Harl, organisateur de la grande course des traîneaux sur la Mer de Glace, qui a déjà perdu trois participants l'an dernier
+accroche: « La grande course des traîneaux, c'est trente équipages, cent lieues sur la Mer de Glace, et des crevasses partout. L'an dernier, trois équipages ont fini dans l'eau. Cette année, je veux que tout le monde arrive. Même les derniers. Surtout les derniers : ce sont mes cousins. »
+postes: Support, Éclaireur
+duree: 8
+dangereuse: non
+epreuves: voyage 44 (baliser le parcours, en évitant les glaces trop minces) ; poursuite 42 (rattraper les équipages qui s'égarent dans le brouillard) ; diplomatie 40 (empêcher deux clans rivaux de se battre sur la ligne d'arrivée)
+complication: Un équipage triche : il a fait creuser des trous dans la glace sur le parcours de ses concurrents. Les cousins de Sven Harl sont en tête, et droit dessus.
+eclatante: {meneur} repère les trous dans le brouillard, et détourne les cousins de Sven Harl au dernier moment. Les tricheurs, eux, se perdent en voulant couper par leur propre piège, et tombent à l'eau. Ils sont repêchés, glacés et humiliés. Les cousins gagnent la course pour la première fois de l'histoire du clan. Sven Harl organise une fête de trois jours.
+reussite: Les trente équipages arrivent, dont deux un peu mouillés. Les tricheurs sont démasqués et disqualifiés. La course est gagnée par un équipage de Quchar. Les cousins de Sven Harl finissent derniers, mais vivants. Il est ravi.
+partielle: Un équipage tombe à l'eau, et il faut une heure pour le repêcher. Tout le monde survit. La course est gagnée par les tricheurs, qui ne sont pas démasqués. Sven Harl a des soupçons. Il les gardera pour l'an prochain.
+echec: Quatre équipages tombent à l'eau dans le brouillard. Il faut toute une journée pour les retrouver. La course est annulée. Les cousins de Sven Harl ont perdu leur traîneau. Ils jurent de revenir l'an prochain. Sven Harl jure qu'il n'y aura pas d'an prochain.
+recompenses: po 70 ; reputation 3 ; objet Bottes 12
+
+=== FRE-L-013 | L'espion de Noxus
+source: institution
+region: freljord
+palier: locale
+type: traque
+ton: politique
+lieu: Winterspike
+demandeur: la Chambre des Bannières, pour la garnison avarosane de Winterspike
+accroche: « Un espion noxien relève les positions de nos postes de garde depuis des semaines. On a trouvé ses cartes, pas lui. Il se cache à Winterspike, parmi les marchands venus du sud. La garnison veut le prendre vivant. Elle veut savoir pour qui il travaille, et ce qu'il a déjà envoyé. »
+postes: Assassin, Éclaireur
+duree: 8
+dangereuse: oui
+epreuves: discretion 47 (surveiller les marchands du sud sans les alarmer) ; poursuite 46 (suivre l'espion quand il sort à la nuit pour envoyer ses messages) ; combat 45 (le capturer vivant)
+complication: L'espion ne travaille pas pour Noxus : il travaille pour la Griffe hivernale, qui veut faire croire à une menace noxienne pour détourner les guerriers avarosans vers le sud.
+eclatante: {meneur} capture l'espion au moment où il remet ses messages à un cavalier de la Griffe. Les deux sont pris. Leurs aveux révèlent toute la manœuvre. La garnison avarosane ne descend pas vers le sud. La Griffe hivernale, qui comptait sur ce départ, renonce à son attaque. Avarosan apprend le nom de la guilde.
+reussite: L'espion est capturé, et ses cartes saisies. Il refuse de parler, mais les cartes suffisent à montrer qu'il ne travaillait pas pour Noxus. La garnison reste sur ses gardes, et ne bouge pas. C'est ce qu'il fallait.
+partielle: L'espion s'enfuit, mais il abandonne ses dernières cartes. La garnison change toutes ses positions de garde. Elle ne saura jamais pour qui il travaillait. Elle soupçonne Noxus. Elle a tort.
+echec: L'espion s'enfuit avec ses cartes. Une semaine plus tard, un poste de garde avarosan est attaqué par la Griffe hivernale, exactement là où l'espion l'avait marqué. Il y a des morts. La garnison ne fait plus appel à la guilde.
+recompenses: po 155 ; reputation 5 ; objet Dague 12
+
+=== FRE-L-014 | La vieille de la Montagne Brisée
+source: privee
+region: freljord
+palier: locale
+type: livraison
+ton: tendre
+lieu: Montagne Brisée
+demandeur: Leif, jeune berger, dont la grand-mère vit seule au sommet de la Montagne Brisée et refuse de descendre
+accroche: « Ma grand-mère vit là-haut depuis cinquante ans. Elle ne descend jamais. Chaque automne, mon père lui montait des provisions pour l'hiver. Mon père est mort cet été. C'est moi qui dois monter, maintenant. J'ai douze ans. Je ne connais pas le chemin. »
+postes: Éclaireur, Support
+duree: 8
+dangereuse: non
+epreuves: voyage 46 (monter à la Montagne Brisée avec un enfant et un traîneau de provisions) ; diplomatie 43 (annoncer à la grand-mère la mort de son fils) ; voyage 42 (redescendre avant les grandes neiges)
+complication: La grand-mère ne sait pas que son fils est mort. Et elle n'est pas seule là-haut : elle a recueilli trois loups orphelins, qui ne laissent approcher personne.
+eclatante: {meneur} laisse Leif annoncer lui-même la nouvelle, et reste à côté de lui. La grand-mère écoute, puis serre son petit-fils longtemps. Elle décide de descendre passer l'hiver au village, pour la première fois en cinquante ans, avec ses trois loups. Le village a peur au début. Puis les loups gardent les troupeaux. Le printemps venu, elle ne remontera pas.
+reussite: Les provisions sont montées, et la grand-mère apprend la nouvelle. Elle pleure, puis prépare un repas pour tout le monde. Elle reste là-haut, avec ses loups. Leif promet de remonter chaque automne. Il apprend le chemin par cœur, à la descente.
+partielle: Les provisions arrivent, mais la grand-mère refuse de croire à la mort de son fils, et chasse tout le monde. Leif redescend en pleurant. Il remontera le printemps suivant. Elle l'attendra, cette fois, sur le pas de sa porte.
+echec: Les grandes neiges arrivent plus tôt que prévu. Il faut abandonner le traîneau et redescendre en vitesse. La grand-mère passera l'hiver sans provisions. Au printemps, Leif remonte seul. Il la retrouve vivante, maigre, entourée de ses loups. Elle ne se plaint pas.
+recompenses: po 60 ; reputation 3 ; objet Ceinture du géant 10
+
+=== FRE-L-015 | Les Ursidés
+source: privee
+region: freljord
+palier: locale
+type: enquete
+ton: horreur
+lieu: Monts Ridgeback
+demandeur: Erik Gran, chef d'un village au pied des Monts Ridgeback, dont les jeunes disparaissent un à un
+accroche: « Trois de nos jeunes sont partis dans la montagne ce mois-ci. Ils ne sont pas revenus. Les deux premiers ont laissé des griffures sur les murs de leur chambre. Le troisième a laissé un dessin d'ours, en sang. Les anciens disent que ce sont les Ursidés, le culte de Volibear. Ils recrutent. »
+postes: Mage, Combattant, Éclaireur
+duree: 10
+dangereuse: oui
+epreuves: poursuite 47 (suivre les traces des jeunes jusqu'au camp du culte) ; discretion 46 (observer le camp sans être repéré) ; combat 50 (affronter les adeptes, pour ramener les jeunes)
+complication: Les jeunes ne sont pas prisonniers. Ils sont venus de leur plein gré, et le rituel qu'ils subissent les transforme peu à peu. Le plus ancien a déjà des griffes.
+eclatante: {meneur} arrive au camp au moment du rituel, et l'interrompt. Les deux plus jeunes se réveillent comme d'un rêve, et suivent l'équipe. Le troisième reste, avec ses griffes, et regarde partir les autres sans les retenir. Erik Gran récupère deux des siens. Il pleure le troisième, qu'il voit parfois, la nuit, au bord du bois.
+reussite: Deux jeunes sont ramenés, encore marqués par le rituel mais humains. Le troisième a disparu dans la montagne. Le camp du culte est détruit. Les Ursidés reviendront ailleurs. Erik Gran fait surveiller les chambres des jeunes pendant tout l'hiver.
+partielle: Un seul jeune est ramené. Les deux autres refusent de partir, et l'équipe ne peut pas les forcer. Le camp se déplace plus haut dans la montagne. Les disparitions s'arrêtent. Pour l'instant.
+echec: L'équipe est repérée par les adeptes, et doit fuir. Les trois jeunes restent au camp. Au printemps, deux autres disparaissent. Le village décide de partir vers le sud, loin des Monts Ridgeback. Ils emportent leurs chiens, et leurs peurs.
+recompenses: po 160 ; reputation 5 ; objet Armure de tissu 12
+
+=== FRE-L-016 | Le défi du bras de fer
+source: privee
+region: freljord
+palier: locale
+type: protection
+ton: drole
+lieu: Avarosan
+demandeur: Gunnhild la Large, championne de bras de fer d'Avarosan, qui doit défendre son titre et s'est cassé le poignet
+accroche: « Le défi a lieu dans quatre jours. Si je ne me présente pas, je perds mon titre, que j'ai gardé onze ans. Si je me présente, je perds mon poignet. J'ai le droit de désigner un champion. Mais la tradition dit que le champion doit me ressembler. Bon courage. »
+postes: Combattant
+duree: 5
+dangereuse: non
+epreuves: combat 44 (gagner trois manches de bras de fer contre les meilleurs bras d'Avarosan) ; diplomatie 40 (convaincre le jury qu'on « ressemble » assez à Gunnhild la Large)
+complication: Le challenger est le propre mari de Gunnhild la Large, qui rêve depuis onze ans de lui prendre son titre, et qui est très, très fort.
+eclatante: {meneur} gagne les deux premières manches, puis perd la troisième, d'un rien, contre le mari. Gunnhild la Large, debout dans la foule avec son poignet bandé, éclate de rire, et embrasse son mari devant toute la ville. Il devient champion. Elle devient son entraîneuse. Ils gagneront ensemble les dix prochains défis.
+reussite: Le titre est défendu, de justesse, contre un mari furieux et admiratif. Gunnhild la Large garde son titre. Son mari exige une revanche dès que son poignet sera guéri. Le couple s'entraîne désormais ensemble, à la table du petit-déjeuner.
+partielle: Le jury refuse le champion, qui « ne ressemble pas assez » à Gunnhild. Elle se présente elle-même, avec son poignet cassé, et perd en dix secondes. Elle garde l'estime de toute la ville. Son mari aussi, d'ailleurs : il ne fanfaronne pas.
+echec: Le champion perd les trois manches. Le mari de Gunnhild la Large devient champion, et le fait savoir à tout Avarosan. Elle ne lui parle plus pendant une semaine. Puis elle commence à s'entraîner. L'an prochain, il va souffrir.
+recompenses: po 45 ; reputation 2 ; objet Cristal de rubis 10
+
+=== FRE-L-017 | La forteresse des Sublimés
+source: institution
+region: freljord
+palier: locale
+type: exploration
+ton: mystere
+lieu: Forteresse des Sublimés
+demandeur: la Chambre des Bannières, pour un érudit d'Avarosan qui étudie l'histoire des trois sœurs
+accroche: « Une ancienne forteresse des Sublimés, abandonnée depuis des siècles, est réapparue sous la neige fondue cet été. L'érudit veut y entrer, relever les inscriptions, et en ressortir avant que les Gardiens du givre ne la reprennent. Il paie bien. Il est aussi très lent. »
+postes: Mage, Éclaireur, Tank
+duree: 11
+dangereuse: oui
+epreuves: voyage 45 (escorter un érudit âgé jusqu'à la forteresse, à travers les glaciers) ; discretion 46 (déjouer les pièges anciens de la forteresse) ; combat 47 (repousser les sentinelles de glace qui se réveillent)
+complication: Les inscriptions racontent une version de l'histoire des trois sœurs que personne ne connaît. Une version où Lissandra n'est pas celle que l'on croit.
+eclatante: {meneur} garde l'érudit en vie pendant trois jours de relevés, malgré les sentinelles, et ressort avec toutes les inscriptions. L'érudit les traduit pendant l'hiver. Ce qu'il découvre change sa vie, et peut-être l'histoire du Freljord. Il refuse de publier. Il confie une copie à la guilde, « au cas où il lui arriverait quelque chose ».
+reussite: L'érudit relève une partie des inscriptions avant que les Gardiens du givre ne s'approchent. L'équipe le ramène à Avarosan. Il dit avoir trouvé des choses étonnantes. Il ne dit pas lesquelles. Il travaille désormais la nuit, les volets fermés.
+partielle: L'érudit est blessé par une sentinelle, et il faut ressortir en vitesse. Il n'a relevé que quelques lignes. Il dit que ça suffit pour comprendre qu'il faudra revenir. Il ne reviendra jamais : les Gardiens du givre occupent la forteresse dès le mois suivant.
+echec: Les Gardiens du givre arrivent pendant les relevés. L'équipe doit fuir, et l'érudit perd ses notes. La forteresse est reprise, et disparaît de nouveau sous la neige, comme si elle n'avait jamais existé.
+recompenses: po 165 ; reputation 5 ; objet Tome d'amplification 12
+
+=== FRE-L-018 | Les poros de la discorde
+source: privee
+region: freljord
+palier: locale
+type: recuperation
+ton: drole
+lieu: Pic de Frosthorn
+demandeur: Ingrid Hel, éleveuse de poros, qui a perdu tout son troupeau dans une avalanche de neige poudreuse
+accroche: « J'avais quarante poros. L'avalanche les a tous emportés. Ils sont vivants, ne vous inquiétez pas : un poro ne meurt pas dans la neige, il roule. Mais ils ont roulé partout, sur tout le Pic de Frosthorn, et maintenant ils se cachent. Un poro qui a eu peur se cache très bien. »
+postes: Éclaireur, Support
+duree: 6
+dangereuse: non
+epreuves: poursuite 42 (retrouver quarante poros cachés dans la neige d'une montagne entière) ; diplomatie 40 (convaincre des poros terrifiés de sortir de leur cachette) ; voyage 38 (les redescendre, sans qu'ils roulent de nouveau)
+complication: Les poros ne sortent que pour une seule chose : des biscuits de poro. Ingrid Hel n'en a plus. Il faut en trouver, ou en fabriquer.
+eclatante: {meneur} fabrique des biscuits de poro selon une recette approximative, et les poros sortent tous de leur cachette en même temps, en formant une boule géante qui dévale la montagne jusqu'à la ferme d'Ingrid Hel. Pas un ne manque. Il y en a même deux de plus, venus d'on ne sait où. Ingrid Hel garde la recette. Elle dit qu'elle est meilleure que la sienne.
+reussite: Trente-huit poros sont retrouvés. Deux restent introuvables, et Ingrid Hel décide qu'ils sont partis vivre leur vie. Elle remercie la guilde avec un poro en peluche, cousu main. Il ressemble beaucoup à un vrai.
+partielle: L'équipe retrouve la moitié du troupeau. Les autres poros rentreront seuls, un par un, pendant tout l'hiver. Ingrid Hel les accueille à chaque fois avec un biscuit. Elle dit que c'est plus amusant comme ça.
+echec: L'équipe passe trois jours sur le Pic sans trouver un seul poro. Au retour, les quarante poros sont tous rentrés seuls à la ferme, la veille. Ingrid Hel paie quand même la guilde, en riant. Elle dit que les poros savent ce qu'ils font.
+recompenses: po 40 ; reputation 2 ; objet Charme féerique 10
+
+=== FRE-L-019 | La fièvre de l'Abîme
+source: privee
+region: freljord
+palier: locale
+type: livraison
+ton: tragique
+lieu: Abîme hurlant
+demandeur: Hakon, guérisseur d'un village au bord de l'Abîme hurlant, qui voit mourir les siens sans comprendre
+accroche: « Une fièvre tue les enfants du village. Une fièvre bleue, qui glace le sang. Les anciens disent qu'elle monte de l'Abîme hurlant, avec le vent. Le seul remède connu est une mousse qui pousse sur les parois de l'Abîme, là où personne ne descend jamais. »
+postes: Healer, Éclaireur, Tank
+duree: 10
+dangereuse: oui
+epreuves: voyage 48 (descendre dans l'Abîme hurlant, au bout d'une corde, dans un vent qui hurle) ; poursuite 45 (trouver la mousse sur des parois immenses, dans le noir) ; voyage 46 (remonter, et rentrer à temps)
+complication: Quelque chose vit au fond de l'Abîme. Quelque chose qui hurle, et qui n'aime pas qu'on prenne sa mousse.
+eclatante: {meneur} descend jusqu'à la mousse, et en remplit trois sacs, pendant que la chose hurle en bas, sans monter. La remontée prend une nuit entière. Au village, Hakon prépare le remède, et tous les enfants malades guérissent, sauf un, déjà trop faible. Le village fait graver le nom de la guilde sur la pierre de l'Abîme, à côté des noms de ceux qui n'en sont pas revenus.
+reussite: La mousse est rapportée, en quantité suffisante. La plupart des enfants guérissent. Trois meurent avant le retour de l'équipe. Hakon remercie la guilde, puis va s'asseoir seul au bord de l'Abîme, pour écouter le vent.
+partielle: L'équipe ne rapporte qu'un petit sac de mousse. Hakon doit choisir quels enfants soigner. Il soigne les plus jeunes. La fièvre en emporte cinq. Le village ne reproche rien à la guilde. Il ne lui dit pas merci non plus.
+echec: Le vent arrache la corde, et l'équipe doit remonter avant d'atteindre la mousse. La fièvre emporte la moitié des enfants malades. Le village quitte le bord de l'Abîme au printemps. Personne ne veut plus entendre ce vent.
+recompenses: po 150 ; reputation 5 ; objet Potion rechargeable 14
+
+=== FRE-L-020 | La trêve du solstice
+source: privee
+region: freljord
+palier: locale
+type: diplomatie
+ton: tendre
+lieu: Village des Enfants de la Glace
+demandeur: Solveig, mère de guerre des Enfants de la Glace, qui veut faire la paix avec un clan rival pour le solstice
+accroche: « Depuis trois générations, nous nous battons contre le clan du Corbeau Blanc. Personne ne sait plus pourquoi. Au solstice, la tradition veut qu'on partage le feu avec ses ennemis, une nuit, sans armes. Personne ne l'a fait depuis cent ans. Je veux essayer. Il me faut quelqu'un pour porter l'invitation. »
+postes: Support
+duree: 7
+dangereuse: non
+epreuves: voyage 42 (porter l'invitation jusqu'au clan du Corbeau Blanc, à travers des terres hostiles) ; diplomatie 47 (convaincre une mère de guerre méfiante de venir sans armes)
+complication: La mère de guerre du Corbeau Blanc est la sœur jumelle de Solveig, enlevée bébé lors d'un raid. Aucune des deux ne le sait.
+eclatante: {meneur} remarque, en voyant la mère de guerre du Corbeau Blanc, la même tache de naissance que Solveig, sur le même bras. Au feu du solstice, les deux femmes se découvrent, devant les deux clans. Le silence dure longtemps. Puis elles s'assoient côte à côte. Les deux clans ne se battent plus. Ils ont désormais un feu commun, chaque solstice.
+reussite: Le clan du Corbeau Blanc accepte l'invitation. La nuit du solstice se passe sans un coup. Les deux mères de guerre parlent jusqu'à l'aube. Personne ne sait de quoi. Les raids cessent pour un an.
+partielle: Le clan du Corbeau Blanc vient, mais armé. La nuit se passe dans une tension terrible. Personne ne se bat. C'est déjà un miracle. Solveig dit qu'il faudra recommencer l'an prochain. Et l'année d'après.
+echec: Le clan du Corbeau Blanc refuse l'invitation, et la considère comme une insulte. Un raid a lieu la semaine suivante. Solveig ne regrette pas d'avoir essayé. Elle dit qu'un jour, quelqu'un acceptera.
+recompenses: po 75 ; reputation 4 ; objet Charme féerique 12
+
+=== FRE-L-021 | Les mammouths de Winterspike
+source: privee
+region: freljord
+palier: locale
+type: escorte
+ton: aventure
+lieu: Winterspike
+demandeur: Knut Elg, conducteur de mammouths, qui doit mener sa harde à travers les terres de la Griffe hivernale
+accroche: « Six mammouths de trait, à conduire de Winterspike jusqu'à Avarosan, pour la reine. Le seul col praticable passe par les terres de la Griffe hivernale. La Griffe adore les mammouths. Elle les adore tellement qu'elle les vole. »
+postes: Tank, Éclaireur, Tireur
+duree: 13
+dangereuse: oui
+epreuves: voyage 45 (conduire six mammouths dans un col enneigé) ; discretion 46 (traverser les terres de la Griffe sans être repérés, avec six mammouths) ; combat 49 (repousser les cavaliers de la Griffe qui finissent par les repérer)
+complication: On ne cache pas six mammouths. Les cavaliers de la Griffe suivent la harde depuis deux jours, et attendent le meilleur moment.
+eclatante: {meneur} choisit le lieu de l'affrontement : un passage étroit où les mammouths, poussés en avant, chargent les cavaliers de la Griffe. Les cavaliers se dispersent. Les six mammouths arrivent à Avarosan sans une égratignure. Knut Elg dit qu'il n'a jamais vu ses bêtes aussi fières. La reine fait prévenir la guilde qu'elle a apprécié.
+reussite: Les cavaliers de la Griffe attaquent au troisième jour. Ils sont repoussés, mais emportent un mammouth. Cinq arrivent à Avarosan. Knut Elg est payé. Il dit qu'il récupérera le sixième, un jour.
+partielle: La Griffe emporte trois mammouths. Les trois autres arrivent. La reine paie la moitié. Knut Elg rentre à Winterspike en jurant de passer par un autre col l'an prochain. Il n'y a pas d'autre col.
+echec: Les cavaliers de la Griffe prennent la harde entière dans une embuscade. L'équipe et Knut Elg rentrent à pied. La Griffe hivernale aura six mammouths de plus pour ses raids. Le prochain village attaqué saura d'où ils viennent.
+recompenses: po 360 ; reputation 6 ; objet Ceinture du géant 15
+risque: oui
+
+=== FRE-L-022 | Le chaman qui ne rêve plus
+source: privee
+region: freljord
+palier: locale
+type: enquete
+ton: mystere
+lieu: Vathcaer
+demandeur: Arne, apprenti chaman de Vathcaer, dont le maître ne rêve plus depuis un mois
+accroche: « Mon maître est le chaman de Vathcaer. Il guide le village grâce à ses rêves. Depuis un mois, il ne rêve plus. Il dort, mais il n'y a rien. Il dit qu'on lui a volé ses rêves. Le village commence à prendre des décisions au hasard, et ça se passe mal. »
+postes: Mage
+duree: 6
+dangereuse: non
+epreuves: diplomatie 44 (interroger les villageois, et trouver qui en voudrait au chaman) ; discretion 45 (veiller sur le sommeil du chaman, la nuit, pour voir ce qui se passe)
+complication: Personne ne vole ses rêves. Le chaman a perdu sa femme il y a un mois, et il a cessé de rêver le soir même. Il ne veut pas l'admettre.
+eclatante: {meneur} passe une nuit à parler avec le vieux chaman, de sa femme, de leurs cinquante ans ensemble, de ce qu'il n'a pas eu le temps de lui dire. Au matin, il pleure enfin. La nuit suivante, il rêve. Il rêve d'elle. Le village retrouve son guide. Arne dit qu'il a appris plus cette nuit-là qu'en dix ans d'apprentissage.
+reussite: L'équipe comprend la cause du mal, et la dit au chaman, avec douceur. Il refuse d'abord de l'entendre. Puis il commence à parler de sa femme. Les rêves reviennent, lentement. Arne prend en charge les décisions du village en attendant.
+partielle: Le chaman refuse d'écouter. Il continue de ne pas rêver. Arne doit guider le village à sa place, sans rêves, avec son seul bon sens. Il découvre que ça marche presque aussi bien. Il ne le dit à personne.
+echec: L'équipe cherche un voleur de rêves qui n'existe pas, et accuse à tort une vieille femme du village. Elle est chassée. Le chaman ne rêve toujours pas. Arne écrit à la guilde, très poliment, pour lui dire de ne pas revenir.
+recompenses: po 55 ; reputation 2 ; objet Élixir de sorcellerie 10
+
+=== FRE-L-023 | Le raid de la Griffe
+source: institution
+region: freljord
+palier: locale
+type: defense
+ton: tragique
+lieu: Quchar
+demandeur: la Chambre des Bannières, pour les Ebrataal de Quchar
+accroche: « Les Ebrataal de Quchar n'ont pas de magie, et peu de guerriers. Ils vivent à l'abri, grâce à la protection d'Avarosan. Cet hiver, les guerriers d'Avarosan sont loin, et un raid de la Griffe hivernale marche sur Quchar. Il arrive dans deux jours. »
+postes: Tank, Tireur, Support
+duree: 10
+dangereuse: oui
+epreuves: siege 47 (fortifier un village qui n'a jamais eu de murs) ; nuee 53 (repousser le raid de la Griffe, qui arrive à la tombée de la nuit) ; diplomatie 45 (empêcher les Ebrataal, terrifiés, de s'enfuir dans la neige)
+complication: Le chef du raid est un Ebrataal, enlevé enfant par la Griffe. Il connaît Quchar par cœur. Et il a de la famille parmi les défenseurs.
+eclatante: {meneur} reconnaît, dans le chef du raid, les traits d'une vieille femme de Quchar, et la fait monter sur la palissade. Elle l'appelle par son nom d'enfant. Le chef s'arrête au milieu de la charge. Le raid hésite, puis recule. Il n'attaquera pas Quchar. Une semaine plus tard, le chef revient, seul, sans armes. Sa mère l'attend à la porte.
+reussite: Le raid est repoussé après une nuit de combat. Quchar tient. Il y a des blessés, et deux morts parmi les défenseurs. Les Ebrataal enterrent leurs morts, puis construisent des murs. Pour la première fois de leur histoire.
+partielle: Le raid pille les greniers avant d'être repoussé. Quchar tient, mais l'hiver sera long. Avarosan envoie des vivres, en retard. Les Ebrataal se demandent s'ils ne devraient pas apprendre à se battre.
+echec: Le raid prend Quchar. Les Ebrataal s'enfuient dans la neige vers Avarosan. Beaucoup n'y arrivent pas. La reine reprend Quchar au printemps. Le village est vide. Il faudra des années pour qu'il revive.
+recompenses: po 380 ; reputation 6 ; objet Bouclier de Doran 15
+risque: oui
+
+=== FRE-L-024 | Les grellfeens de la Mer de Glace
+source: privee
+region: freljord
+palier: locale
+type: chasse
+ton: horreur
+lieu: Mer de Glace
+demandeur: Nils Fisk, pêcheur sur la Mer de Glace, qui a vu un grellfeen tirer son frère sous la glace
+accroche: « On pêche à travers des trous dans la glace. Il y a trois jours, quelque chose a attrapé mon frère par la jambe, et l'a tiré dans le trou. Je n'ai rien pu faire. C'était un grellfeen, je l'ai vu : un poisson énorme, avec des dents comme des couteaux. Il chasse sous la glace. Il n'a pas fini. »
+postes: Tireur, Tank, Éclaireur
+duree: 7
+dangereuse: oui
+epreuves: discretion 44 (rester immobile des heures au-dessus d'un trou dans la glace, comme appât) ; combat 48 (affronter le grellfeen quand il surgit) ; poursuite 45 (le suivre sous la glace, d'un trou à l'autre)
+complication: Il n'y a pas un grellfeen. Il y en a trois. Ils chassent ensemble.
+eclatante: {meneur} tient l'appât assez longtemps pour que les trois grellfeens sortent en même temps, et le combat se joue sur la glace qui craque. Les trois sont abattus. Nils Fisk retrouve, dans l'estomac du plus gros, la bague de son frère. Il la porte désormais. Les pêcheurs reviennent sur la glace, prudemment, mais ils reviennent.
+reussite: Deux grellfeens sont abattus. Le troisième s'enfuit sous la glace. Les pêcheurs reprennent leur travail, mais par groupes de quatre, désormais, avec un harpon à côté de chaque trou. Nils Fisk ne pêche plus seul.
+partielle: Un grellfeen est abattu. Les deux autres disparaissent sous la glace, vers le large. Les pêcheurs décident de ne plus pêcher qu'au bord. Le poisson y est plus petit. On s'en contentera.
+echec: Les grellfeens brisent la glace sous l'équipe, et l'un des siens manque d'être emporté. Il faut se replier. Les pêcheurs ne retournent plus sur la Mer de Glace cet hiver. Le village a faim. Nils Fisk regarde la glace tous les soirs, sans y aller.
+recompenses: po 145 ; reputation 4 ; objet Élixir de fer 12
+
+=== FRE-L-025 | Le cor de Mourncrow
+source: privee
+region: freljord
+palier: locale
+type: recuperation
+ton: aventure
+lieu: Village de Mourncrow
+demandeur: Ragna, gardienne du cor de Mourncrow, qui sonne l'alerte depuis trois cents ans
+accroche: « Le cor de Mourncrow sonne quand le village est en danger. Il a sonné pour chaque raid, chaque tempête, chaque avalanche, depuis trois cents ans. Hier, on l'a volé. Le voleur a laissé un mot : “Je le rendrai quand Mourncrow aura payé.” Personne ne sait de quoi il parle. »
+postes: Éclaireur
+duree: 6
+dangereuse: non
+epreuves: poursuite 44 (suivre le voleur, qui sait se cacher dans la toundra) ; diplomatie 45 (découvrir ce que Mourncrow doit, et à qui)
+complication: Le voleur est le descendant d'une famille chassée de Mourncrow il y a cent ans, accusée à tort d'avoir laissé passer un raid. Il veut des excuses. Seulement des excuses.
+eclatante: {meneur} retrouve le voleur, écoute son histoire, puis convainc le conseil de Mourncrow de rouvrir le vieux procès. Les anciens reconnaissent l'erreur de leurs ancêtres. Le voleur rend le cor, et sonne lui-même, pour la première fois en cent ans, le retour de sa famille au village. Mourncrow l'accueille avec un festin.
+reussite: Le cor est retrouvé, et rendu à Mourncrow. Le voleur obtient des excuses, du bout des lèvres, de la part du conseil. C'est peu. C'est déjà plus que ce que sa famille avait obtenu en cent ans. Il repart dans la toundra, la tête haute.
+partielle: Le cor est retrouvé, mais fêlé. Il sonne faux, désormais. Le conseil refuse toute excuse. Le voleur s'en va en promettant de revenir. Mourncrow fait réparer son cor. Il ne sonnera plus jamais tout à fait comme avant.
+echec: Le voleur reste introuvable. Mourncrow n'a plus de cor. Un mois plus tard, une avalanche frappe le village, sans alerte. Il n'y a pas de morts, de justesse. Le conseil de Mourncrow commence à se demander ce qu'il doit, et à qui.
+recompenses: po 70 ; reputation 3 ; objet Bottes 10

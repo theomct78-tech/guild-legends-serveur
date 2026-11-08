@@ -1,0 +1,505 @@
+# Bilgewater · palier Inconnue · lot 1 (missions 001 à 025)
+# {meneur} : le héros qui a mené l'épreuve décisive. La Chambre des Bannières : l'organisme supérieur aux guildes.
+
+=== BIL-I-001 | La dîme oubliée
+source: privee
+region: bilgewater
+palier: inconnue
+type: recuperation
+ton: mystere
+lieu: Puits du Serpent
+demandeur: Oyelaran, vieux pêcheur, qui n'a plus pêché un seul poisson depuis douze jours
+accroche: « J'ai accosté sans laisser ma dîme au Puits. Une seule fois, en quarante ans. Depuis, mes filets remontent vides, et cette nuit, quelque chose a frappé ma coque. Trois coups. Comme on frappe à une porte. »
+postes: Support, Éclaireur
+duree: 4
+dangereuse: non
+epreuves: diplomatie 33 (convaincre le gardien buhru du Puits d'accepter une dîme en retard) ; discretion 31 (retrouver de nuit, sous les quais, la bourse que le vieil homme a fait tomber en accostant)
+complication: La bourse n'est pas tombée : un gamin des quais l'a volée ce jour-là, et il fait depuis les mêmes cauchemars que le vieux pêcheur.
+eclatante: {meneur} retrouve le gamin, et la bourse, au fond d'une barque. Le gardien du Puits reçoit deux dîmes au lieu d'une : celle du vieil homme et celle de l'enfant, qui avoue tout en pleurant. Le lendemain, Oyelaran remonte un filet si plein qu'il doit appeler à l'aide. Il prend le gamin comme mousse. Bilgewater dit que Nagakabouros aime les histoires qui finissent sur l'eau.
+reussite: La dîme est versée, avec quelques mots du gardien pour apaiser la Mère Serpent. Les filets d'Oyelaran se remplissent de nouveau, lentement. Il paie en poisson séché autant qu'en pièces.
+partielle: Le gardien accepte la dîme, mais pas les excuses. Les filets reviennent à moitié pleins. Oyelaran se dit que la Mère Serpent a de la rancune, et de la patience.
+echec: La bourse reste introuvable et le gardien refuse une dîme d'emprunt. Oyelaran vend son bateau. Il dit que ce n'était plus le sien, de toute façon.
+recompenses: po 25 ; reputation 2 ; objet Charme féerique 8
+
+=== BIL-I-002 | Le razorfin de Madame Kessa
+source: privee
+region: bilgewater
+palier: inconnue
+type: chasse
+ton: drole
+lieu: Canaux
+demandeur: Madame Kessa, prêteuse sur gages, qui jure que l'animal est « très affectueux »
+accroche: « Bulle s'est échappé. C'est un razorfin, un tout petit, à peine plus long qu'un bras. Il adore les chevilles. Il ne les mange pas, il les goûte. Ramenez-le avant que quelqu'un porte plainte. Encore. »
+postes: Tireur
+duree: 3
+dangereuse: non
+epreuves: poursuite 30 (pister Bulle dans les canaux, de ponton en ponton, en suivant les cris) ; combat 27 (le ramener vivant, sans y laisser une cheville)
+complication: Bulle a trouvé une femelle razorfin sauvage dans un canal. Ils ne veulent plus se quitter, et elle est beaucoup moins affectueuse.
+eclatante: {meneur} ramène Bulle et sa compagne dans un tonneau, sans une égratignure. Madame Kessa, émue, annule la dette d'un pêcheur du quartier pour fêter « le mariage ». Le canal est calme pour la première fois depuis un mois, et la guilde reçoit une invitation à la ponte. Personne n'y va.
+reussite: Bulle retrouve son bocal, la compagne retrouve le canal. Madame Kessa paie sans discuter, ce qui, à Port-aux-Rats, est un événement.
+partielle: Bulle est rentré, mais il a goûté trois chevilles en route. Madame Kessa retient les frais de « dédommagement » sur la paie.
+echec: Bulle et sa belle ont disparu vers la baie. Madame Kessa pleure, puis réclame le remboursement de la caution. Elle n'en a jamais versé.
+recompenses: po 20 ; reputation 1 ; objet Potion de soin 6
+
+=== BIL-I-003 | Le registre des noyés
+source: privee
+region: bilgewater
+palier: inconnue
+type: enquete
+ton: tragique
+lieu: Cimetières marins
+demandeur: Ilse, passeuse des morts, qui tient le registre des bouées depuis vingt ans
+accroche: « Une bouée a changé de nom. Hier, elle portait celui d'un harponneur mort l'hiver dernier. Ce matin, elle porte celui de sa veuve. Et sa veuve est vivante. Pour l'instant. »
+postes: Éclaireur, Support
+duree: 5
+dangereuse: non
+epreuves: discretion 34 (surveiller la nuit le cimetière flottant sans être vu des barques) ; diplomatie 35 (faire parler la veuve, qui sait quelque chose et a peur)
+complication: Le harponneur n'est pas mort. Il a simulé sa noyade pour fuir une dette, et il prépare la « mort » de sa femme pour qu'elle le rejoigne en secret.
+eclatante: {meneur} surprend le harponneur en train de graver la bouée, bien vivant. La veuve, qui ne l'est plus, s'effondre en larmes, puis le gifle. La dette est renégociée devant Ilse, qui raye un nom de son registre, ce qu'elle n'avait jamais fait. Elle offre à la guilde une bouée d'argent miniature : « Pour le jour où vous en aurez besoin. Le plus tard possible. »
+reussite: La supercherie est découverte, la veuve est sauve, et le couple quitte Bilgewater par le premier navire. Ilse corrige son registre en soupirant.
+partielle: La veuve a disparu la nuit même, sans laisser de mot. On ne sait pas si elle a rejoint son mari ou la mer. Ilse laisse la bouée vide.
+echec: La veuve a été retrouvée au Quai Blanc, noyée pour de vrai. Le harponneur n'a jamais reparu. Ilse a gravé son nom à elle, cette fois.
+recompenses: po 30 ; reputation 3 ; objet Potion rechargeable 5
+
+=== BIL-I-004 | Les crochets sur la passerelle
+source: privee
+region: bilgewater
+palier: inconnue
+type: protection
+ton: politique
+lieu: Pont du Boucher
+demandeur: Tobiah, aubergiste, qui refuse de payer les Crochets dentelés
+accroche: « Ils sont revenus. Les Crochets. Gangplank est tombé, mais ses chiens ont gardé leurs dents. Ils veulent un dixième de ma recette. J'ai dit non. Ce soir, ils viennent sur le Pont du Boucher, pour me faire changer d'avis devant tout le quartier. »
+postes: Tank, Combattant, Support
+duree: 4
+dangereuse: non
+risque: oui
+epreuves: combat 44 (tenir le Pont du Boucher face à six Crochets dentelés armés de leurs gaffes) ; diplomatie 40 (faire comprendre à leur chef qu'un aubergiste protégé vaut moins qu'un quartier tranquille) ; nuee 42 (repousser les renforts qui arrivent par les deux bouts du pont)
+complication: Le chef des Crochets est le frère de Tobiah. Il a rejoint le gang pour rembourser la dette de leur père, et il ne voulait pas que ce soit l'auberge.
+eclatante: {meneur} tient le pont jusqu'à ce que les Crochets reculent, un par un. Le chef reste seul face à son frère. Ils parlent une heure, sur le pont, sous la pluie. Au matin, l'auberge a un nouveau serveur, couvert de tatouages, qui casse beaucoup de verres. Les Crochets ne reviennent plus dans la rue.
+reussite: Les Crochets battent en retraite, le quartier a vu Tobiah tenir bon. On dit qu'ils reviendront, mais personne n'y croit vraiment ce soir.
+partielle: Le pont a tenu, mais l'auberge a brûlé en partie pendant le combat. Tobiah rebâtira. Il paie en reconnaissance plus qu'en pièces.
+echec: Les Crochets ont gagné. Tobiah paie le dixième, et maintenant, un cinquième pour « le dérangement ». Il ne parle plus à personne.
+recompenses: po 120 ; reputation 3 ; objet Bouclier de Doran 12
+
+=== BIL-I-005 | Les citrons de la Rue de la Flotte
+source: privee
+region: bilgewater
+palier: inconnue
+type: livraison
+ton: drole
+lieu: Rue de la Flotte
+demandeur: Mama Yaro, cuisinière des tavernes, en guerre ouverte contre le scorbut
+accroche: « Trois caisses d'agrumes amers, à livrer avant le départ de la flotte de chasse. Sans mes citrons, les harponneurs perdent leurs dents en trois semaines. Et sans leurs dents, ils ne peuvent plus mordre dans mes beignets. C'est un cercle. Un cercle sacré. »
+postes: Support
+duree: 3
+dangereuse: non
+epreuves: voyage 29 (traverser la Rue de la Flotte bondée avec trois caisses, en évitant les ivrognes et les marchandages) ; diplomatie 31 (convaincre un capitaine pressé d'attendre les citrons avant de lever l'ancre)
+complication: Un autre cuisinier, jaloux, a soudoyé deux gamins pour voler les caisses en chemin et les revendre deux fois plus cher.
+eclatante: {meneur} livre les trois caisses, déjoue les gamins, et les embauche pour la livraison suivante. Le capitaine attend, les dents des harponneurs sont sauvées, et Mama Yaro offre à la guilde un pot de confiture d'agrumes amers si fort qu'il fait pleurer {chien}. Elle appelle ça « l'amour ».
+reussite: Les caisses arrivent à temps, la flotte part avec ses citrons. Mama Yaro paie et ajoute une douzaine de beignets. Ils sont délicieux.
+partielle: Deux caisses sur trois sont arrivées. La flotte part avec deux tiers de ses dents. Mama Yaro marmonne des malédictions en trois langues.
+echec: Les citrons sont partis chez le concurrent. Mama Yaro a juré de ne plus jamais faire confiance à une guilde. Elle a fait une exception pour la confiture : elle la vend.
+recompenses: po 15 ; reputation 1 ; objet Potion de soin 8
+
+=== BIL-I-006 | La cloche de Port-Gris
+source: privee
+region: bilgewater
+palier: inconnue
+type: exploration
+ton: horreur
+lieu: Port-Gris
+demandeur: Sœur Amaka, prêtresse buhru, qui entend sonner une cloche disparue depuis l'Harrowing
+accroche: « La cloche du vieux temple de Port-Gris est tombée dans la Brume il y a dix ans. Depuis trois nuits, je l'entends sonner. Je dois savoir qui la fait sonner. Ou quoi. »
+postes: Éclaireur, Mage
+duree: 6
+dangereuse: non
+epreuves: voyage 36 (entrer dans Port-Gris par les toits, au-dessus de la brume qui stagne dans les rues) ; discretion 37 (approcher du temple en ruine sans attirer les errants) ; combat 34 (se défaire d'une silhouette de brume qui garde la cloche)
+complication: La cloche n'est pas sonnée par un mort, mais par une survivante, une vieille femme qui vit seule dans les ruines depuis dix ans et sonne pour qu'on vienne la chercher.
+eclatante: {meneur} trouve la vieille femme sous la cloche, maigre, folle de joie, et la ramène au temple de la Mère Serpent. Sœur Amaka la reconnaît : c'était sa maîtresse de chant. La cloche reste à Port-Gris, mais elle ne sonne plus. À Bilgewater, on raconte que la Brume a rendu quelqu'un, pour une fois.
+reussite: L'équipe revient avec la vérité : une survivante, ramenée vivante. La cloche se tait. Sœur Amaka paie et allume une lanterne de plus devant le temple.
+partielle: L'équipe a trouvé des traces de vie, mais pas la sonneuse, qui a fui devant la lumière. La cloche sonne encore, plus faiblement.
+echec: La brume s'est épaissie, l'équipe a dû rebrousser chemin. Cette nuit-là, la cloche a sonné plus fort que jamais. Puis plus du tout.
+recompenses: po 40 ; reputation 3 ; objet Cape de négation 4
+
+=== BIL-I-007 | Le pari de Mudtown
+source: privee
+region: bilgewater
+palier: inconnue
+type: enquete
+ton: drole
+lieu: Mudtown
+demandeur: Pip Corran, joueur professionnel et perdant professionnel
+accroche: « J'ai parié ma maison sur un combat de crabes. Mon crabe a perdu. Mon crabe ne perd jamais. Quelqu'un a triché, et je veux savoir qui avant de devoir déménager dans mon crabe. »
+postes: Assassin
+duree: 3
+dangereuse: non
+epreuves: discretion 30 (se glisser dans l'arrière-salle du tripot où l'on prépare les crabes) ; poursuite 28 (rattraper le tricheur qui file par les pontons)
+complication: Le tricheur est le crabe lui-même, ou plutôt son dresseur : il a été payé pour que l'animal perde, et ce dresseur, c'est la mère de Pip.
+eclatante: {meneur} rattrape le dresseur, qui retire sa capuche : la mère de Pip. Elle a truqué le combat pour que son fils perde enfin la maison au jeu avant de perdre tout le reste. Pip récupère sa maison, perd l'envie de parier, et ouvre une échoppe de crabes de compagnie. Les affaires marchent.
+reussite: La triche est prouvée, le pari annulé, Pip garde sa maison. Le tripot paie une amende. Pip parie l'amende le soir même, et la perd.
+partielle: La triche est prouvée, mais le tripot refuse d'annuler le pari. Pip garde la moitié de sa maison. Il habite désormais la cuisine.
+echec: Le tricheur s'est enfui. Pip a déménagé. On le voit parfois, assis au Pont du Boucher, avec son crabe sur l'épaule.
+recompenses: po 20 ; reputation 1 ; objet Dague 6
+
+=== BIL-I-008 | Le kraken des Baies de découpe
+source: privee
+region: bilgewater
+palier: inconnue
+type: defense
+ton: aventure
+lieu: Baies de découpe
+demandeur: Nkem, contremaîtresse de découpe, dont l'équipe refuse de toucher la prise du jour
+accroche: « On a hissé un jeune kraken mort. Enfin, mort… Il a bougé un tentacule pendant qu'on aiguisait les lames. Mes gars ne veulent plus approcher. Moi non plus, d'ailleurs. Mais il faut le découper avant demain, ou la puanteur va tuer tout le quartier. »
+postes: Tank, DPS
+duree: 4
+dangereuse: non
+epreuves: nuee 35 (tenir la baie quand les tentacules « morts » se mettent à frapper dans tous les sens) ; combat 36 (achever le kraken, proprement, sans abîmer la viande ni les ouvriers)
+complication: Le kraken n'est pas seul : une ponte entière de petits krakens est restée accrochée dans ses replis, et elle vient d'éclore.
+eclatante: {meneur} achève le kraken et rattrape les petits dans des tonneaux d'eau de mer, au milieu des cris des dépeceurs. Nkem vend les petits à un dresseur buhru, qui promet de les relâcher au large une fois grands. La baie est propre avant l'aube, et l'équipe de Nkem paie sa tournée à la guilde à L'Hydre d'airain.
+reussite: Le kraken est achevé, découpé, vendu. La puanteur reste dans les vêtements de l'équipe pendant trois jours. Nkem appelle ça « le parfum du métier ».
+partielle: Le kraken est mort, mais deux dépeceurs ont été blessés et la moitié de la viande est perdue. Nkem paie moins, et ne s'en excuse pas.
+echec: Le kraken a glissé dans la baie et s'est échappé, à moitié mort. Personne ne veut pêcher dans ce coin pendant un mois. Nkem a perdu son contrat.
+recompenses: po 35 ; reputation 2 ; objet Épée longue 7
+
+=== BIL-I-009 | La lettre de la reine
+source: privee
+region: bilgewater
+palier: inconnue
+type: livraison
+ton: politique
+lieu: Place des Coupe-Bourses
+demandeur: un homme masqué, qui paie d'avance et ne dit pas son nom
+accroche: « Une lettre, à remettre en main propre au maître du marché de la Place des Coupe-Bourses. Ne l'ouvrez pas. Ne la perdez pas. Et si quelqu'un vous demande qui l'envoie, dites que c'est la reine. Ce n'est pas tout à fait faux. »
+postes: Éclaireur
+duree: 2
+dangereuse: non
+epreuves: discretion 31 (traverser le marché flottant sans se faire repérer par les espions des capitaines rivaux) ; diplomatie 29 (convaincre le maître du marché de recevoir la lettre sans témoin)
+complication: La lettre ne vient pas de Miss Fortune : c'est un faux, rédigé par un rival pour la compromettre auprès des marchands.
+eclatante: {meneur} sent l'odeur du faux en voyant le sceau trop neuf. La lettre est portée, non pas au maître du marché, mais aux Sirènes, qui remercient la guilde d'un hochement de tête et d'une bourse lourde. Le lendemain, un capitaine quitte précipitamment la ville. Personne ne demande pourquoi.
+reussite: La lettre est remise, sans témoin. Le maître du marché la lit, pâlit, et la brûle. On ne sait jamais ce qu'elle disait.
+partielle: La lettre est arrivée, mais un espion l'a vue passer. Le lendemain, tout le marché parle d'une « lettre de la reine ». Personne ne sait ce qu'elle disait, ce qui est pire.
+echec: La lettre a été volée en chemin. L'homme masqué n'est jamais revenu chercher sa monnaie. Ce n'est pas bon signe.
+recompenses: po 30 ; reputation 2 ; objet Bottes 5
+
+=== BIL-I-010 | Les crabes-pilleurs du cimetière
+source: privee
+region: bilgewater
+palier: inconnue
+type: defense
+ton: horreur
+lieu: Quai Blanc
+demandeur: Dumi, veuf, dont la tombe flottante de sa femme est pillée nuit après nuit
+accroche: « Les crabes, d'accord, ils mangent. C'est la mer. Mais ceux-là ne mangent pas : ils emportent. Les bagues, les colliers, les dents en or. Quelqu'un les a dressés. Et ma femme n'avait que son alliance. »
+postes: Tireur, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: nuee 33 (repousser la marée de crabes-pilleurs qui monte sur les tombes à la nuit) ; poursuite 34 (suivre les crabes chargés jusqu'à leur dresseur, sous le Quai Blanc)
+complication: Le dresseur est un ancien passeur des morts, chassé de sa confrérie, qui récupère l'or des tombes pour payer les funérailles des plus pauvres.
+eclatante: {meneur} remonte jusqu'au dresseur, entouré de ses crabes et d'un registre : chaque bague volée a payé une bouée pour un mort sans famille. Dumi récupère l'alliance, écoute l'histoire, et décide de laisser le reste. Le passeur réintègre sa confrérie. Ilse, la passeuse en chef, envoie un mot de remerciement à la guilde.
+reussite: Les crabes sont dispersés, le dresseur s'enfuit, l'alliance est retrouvée. Dumi la remet sur la tombe, et la soude, cette fois.
+partielle: Les crabes reviennent moins souvent, mais l'alliance n'a pas été retrouvée. Dumi en a fait forger une autre, qui n'est pas la même.
+echec: Les crabes ont gagné la nuit. Dumi a fini par retirer la tombe de sa femme du Quai Blanc. Il l'a emmenée plus au large, où personne ne va.
+recompenses: po 25 ; reputation 2 ; objet Charme féerique 10
+
+=== BIL-I-011 | Le canon de Lomé
+source: privee
+region: bilgewater
+palier: inconnue
+type: recuperation
+ton: aventure
+lieu: Baie de Bilgewater
+demandeur: Lomé, capitaine d'un rafiot qui prend l'eau, et dont le canon repose par six brasses de fond
+accroche: « Mon canon est tombé à l'eau pendant une tempête. C'est le seul canon de mon navire. Sans lui, je ne suis plus un capitaine, je suis un monsieur avec une barque. Il est au pied des falaises. Il y a peut-être un serpent de mer. Peut-être pas. »
+postes: Tank, Support
+duree: 5
+dangereuse: non
+epreuves: voyage 34 (plonger au pied des falaises, dans les courants de la baie) ; siege 36 (hisser le canon jusqu'au rafiot avec des cordes et de la patience) ; combat 33 (éloigner ce qui vit au pied des falaises, serpent ou pas)
+complication: Le « peut-être un serpent de mer » est une mère serpent qui couve, et le canon est tombé juste à côté de ses œufs.
+eclatante: {meneur} remonte le canon sans troubler la couvée, au terme d'une négociation silencieuse avec un œil plus grand qu'une porte. Le serpent laisse faire. Lomé, ému, rebaptise son rafiot « La Mère patiente ». Il promet à la guilde un passage gratuit, n'importe quand, vers n'importe où, tant que c'est à moins d'une journée.
+reussite: Le canon est remonté, un peu rouillé, mais il tire. Lomé l'embrasse. Littéralement.
+partielle: Le canon est remonté, mais fendu. Lomé l'installe quand même, pour l'allure. Il ne tirera plus jamais. L'allure, c'est déjà ça.
+echec: Le serpent n'a pas voulu partager. L'équipe est remontée bredouille, et Lomé navigue désormais sans canon. Il dit qu'il a « une approche diplomatique ».
+recompenses: po 35 ; reputation 2 ; objet Armure de tissu 8
+
+=== BIL-I-012 | Le rhum frelaté de L'Hydre
+source: privee
+region: bilgewater
+palier: inconnue
+type: enquete
+ton: tragique
+lieu: L'Hydre d'airain
+demandeur: Bertine, patronne de L'Hydre d'airain, dont trois clients sont devenus aveugles
+accroche: « Trois clients, trois nuits, trois aveugles. Ils ont bu mon rhum. Mon rhum est bon : je le bois moi-même. Quelqu'un change mes tonneaux. Si je ne trouve pas qui, on brûlera ma taverne, et on aura raison. »
+postes: Assassin, Healer
+duree: 5
+dangereuse: non
+epreuves: discretion 35 (surveiller la cave sans être vu, trois nuits de suite) ; combat 32 (maîtriser le coupable sans le tuer : il faut qu'il parle)
+complication: Le coupable est un ancien fournisseur de Gangplank, ruiné par sa chute, qui écoule son stock pourri dans les tonneaux des autres pour survivre.
+eclatante: {meneur} prend le fournisseur la main dans le tonneau. Il parle, beaucoup : la liste de toutes les tavernes contaminées. Le soin de la guilde rend la vue à deux des trois aveugles. Bertine affiche la liste au Tableau des primes, et Bilgewater fait le reste. Elle offre à la guilde une ardoise illimitée qu'aucun héros n'osera jamais épuiser.
+reussite: Le coupable est pris et livré, les tonneaux sont vidés dans la baie. Les aveugles restent aveugles. Bertine leur sert à boire à vie, gratuitement.
+partielle: Le coupable a fui, mais la cave est protégée. Plus aucun tonneau n'est empoisonné. Les rumeurs, elles, empoisonnent encore la taverne.
+echec: Personne n'a été pris. Une quatrième victime, la nuit suivante. L'Hydre d'airain a fermé ses portes. La rue de la Flotte est plus silencieuse, et ce n'est pas mieux.
+recompenses: po 40 ; reputation 3 ; objet Potion de soin 12
+
+=== BIL-I-013 | Le mousse et l'ocklepod
+source: privee
+region: bilgewater
+palier: inconnue
+type: sauvetage
+ton: tendre
+lieu: Grottes du marché noir
+demandeur: Tavi, neuf ans, mousse sans navire, qui a vendu sa seule chemise pour racheter un animal
+accroche: « Il s'appelle Bulot. C'est un ocklepod. Le marchand voulait le vendre à un capitaine qui coupe les tentacules pour faire des appâts. J'ai donné tout ce que j'avais, mais il en voulait plus. Bulot est encore dans la cage. Il me regarde. »
+postes: Support
+duree: 3
+dangereuse: non
+epreuves: diplomatie 30 (négocier avec un marchand du marché noir qui n'a jamais rien donné à personne) ; discretion 29 (sortir Bulot de la cage si la négociation échoue)
+complication: Bulot n'est pas un ocklepod ordinaire : c'est un éclaireur dressé, échappé d'un navire de contrebandiers, et ils le cherchent.
+eclatante: {meneur} obtient Bulot pour le prix de la chemise de Tavi, plus une histoire, que le marchand écoute en silence. Quand les contrebandiers viennent réclamer l'ocklepod, Bulot les mène droit vers une patrouille des Sirènes. Tavi et Bulot ont maintenant un toit : le navire des Sirènes cherchait un mousse. Et un ocklepod.
+reussite: Bulot sort de la cage, Tavi récupère sa chemise. Ils dorment ensemble sous un ponton, heureux comme des rois.
+partielle: Bulot est libre, mais blessé : il a perdu un tentacule en s'échappant. Tavi dit qu'il en a encore sept, et que c'est bien assez pour l'aimer.
+echec: Bulot a été vendu pendant la négociation. Tavi est resté devant la cage vide toute la nuit. Le lendemain, il n'était plus là non plus.
+recompenses: po 10 ; reputation 2 ; objet Charme féerique 12
+
+=== BIL-I-014 | L'entrepôt pillé
+source: privee
+region: bilgewater
+palier: inconnue
+type: recuperation
+ton: politique
+lieu: Entrepôt de Gangplank
+demandeur: Saadia, marchande d'épices, qui avait confié sa cargaison à Gangplank avant sa chute
+accroche: « Tout le monde a pillé l'entrepôt de Gangplank. Tout le monde, sauf moi : j'étais en mer. Ma cargaison était dedans, payée, avec mon sceau. Quelqu'un dans cette ville a mes épices, et il les vend sous mon nez. »
+postes: Éclaireur, Support
+duree: 4
+dangereuse: non
+epreuves: discretion 33 (fouiller les recoins de l'entrepôt que les pilleurs n'ont pas vus) ; diplomatie 34 (racheter, ou réclamer, les épices au receleur qui les vend)
+complication: Le receleur travaille pour les Sirènes, qui revendent le butin de Gangplank pour payer la reconstruction des quais. Les contrarier, c'est contrarier la reine.
+eclatante: {meneur} retrouve dans l'entrepôt un registre de Gangplank lui-même, avec le sceau de Saadia et celui de dix autres marchands. Présenté aux Sirènes, il change tout : la reine ne veut pas qu'on dise qu'elle vole les honnêtes gens. Les épices sont rendues, avec des excuses officielles. Saadia ouvre une échoppe au Port de Bilgewater, et elle porte le nom de la guilde.
+reussite: Saadia récupère la moitié de sa cargaison, rachetée à bon prix. Elle reste discrète sur la provenance. À Bilgewater, c'est une forme de sagesse.
+partielle: Le receleur a rendu un sac, un seul, « par respect pour la guilde ». Saadia l'a vendu, et elle est repartie en mer.
+echec: Le receleur a fait savoir que la question était close. Saadia a reçu un mot anonyme : « Une épice de moins, c'est mieux qu'une main de moins. » Elle a compris.
+recompenses: po 35 ; reputation 2 ; objet Bottes 6
+
+=== BIL-I-015 | Le chant des pilier-appelants
+source: privee
+region: bilgewater
+palier: inconnue
+type: diplomatie
+ton: mystere
+lieu: Temple de la Mère Serpent
+demandeur: Frère Okoye, prêtre buhru, qui doit réapprendre un chant oublié
+accroche: « Les pilier-appelants chantent pour appeler ou chasser les bêtes de la mer. Le dernier qui connaissait le chant de répulsion est mort la semaine dernière. La saison des serpents commence dans six jours. Il nous faut ce chant. Une vieille femme le connaît, sur les Îles du Serpent. Elle ne parle plus aux prêtres. »
+postes: Support, Mage
+duree: 6
+dangereuse: non
+epreuves: voyage 33 (traverser jusqu'à l'île de la vieille femme, sur une pirogue buhru) ; diplomatie 37 (convaincre une chanteuse brouillée avec le temple depuis trente ans) ; diplomatie 34 (apprendre le chant assez bien pour le transmettre)
+complication: La vieille femme a été chassée du temple pour avoir chanté le chant d'appel au lieu de celui de répulsion, un jour de colère. Elle est la seule à les connaître tous les deux.
+eclatante: {meneur} gagne la confiance de la vieille chanteuse en l'écoutant raconter sa faute, toute une nuit. Elle accepte de revenir, après trente ans, et chante sur les piliers devant tout le temple. Les serpents restent au large toute la saison. Frère Okoye pleure. Il dit que c'est le sel.
+reussite: Le chant est appris, enregistré sur des tablettes, transmis. Les serpents restent au large. La vieille femme, elle, reste sur son île.
+partielle: Le chant est appris, à moitié. Les serpents s'approchent mais repartent. Il faudra y retourner l'an prochain.
+echec: La vieille femme a refusé. La saison des serpents a été mauvaise : deux barques perdues. Frère Okoye prie plus fort.
+recompenses: po 30 ; reputation 3 ; objet Tome d'amplification 6
+
+=== BIL-I-016 | La prime de Rat-Bec
+source: privee
+region: bilgewater
+palier: inconnue
+type: traque
+ton: aventure
+lieu: Port-aux-Rats
+demandeur: le Tableau des primes de Port-aux-Rats, et Ozzie, cordonnier, qui a punaisé l'affiche lui-même
+accroche: « Rat-Bec m'a volé toutes mes bottes. Toutes. Il a ouvert une échoppe de bottes à trois rues de la mienne. Avec mes bottes. Prime : vingt pièces, une paire de bottes gratuite, et ma reconnaissance éternelle, qui ne vaut pas grand-chose mais qui est sincère. »
+postes: Tireur, Éclaireur
+duree: 3
+dangereuse: non
+epreuves: poursuite 33 (traquer Rat-Bec dans le labyrinthe de Port-aux-Rats, de toit en toit) ; combat 30 (le ramener, avec ou sans ses bottes)
+complication: Rat-Bec est un gamin de quinze ans, et il ne vend pas les bottes : il les donne aux marins qui marchent pieds nus sur les quais brûlants.
+eclatante: {meneur} rattrape Rat-Bec, découvre son commerce de bienfaisance, et le ramène chez Ozzie… pour un marché. Ozzie, ému malgré lui, embauche le gamin comme apprenti, et vend désormais une paire « suspendue » sur chaque paire achetée. Port-aux-Rats marche mieux. La prime est payée en bottes. Elles sont excellentes.
+reussite: Rat-Bec est rattrapé, les bottes rendues. Le gamin passe une semaine à réparer des semelles pour rembourser. Il revient la semaine suivante, pour apprendre.
+partielle: Rat-Bec s'est échappé, mais l'échoppe illégale a fermé. Ozzie a récupéré la moitié de ses bottes. L'autre moitié marche sur les quais.
+echec: Rat-Bec a filé. Le lendemain, une affiche est apparue à côté de la prime : « Recherché : une guilde lente. Récompense : une paire de bottes. » Tout Port-aux-Rats a ri.
+recompenses: po 20 ; reputation 2 ; objet Bottes 12
+
+=== BIL-I-017 | Le monstre de la cale
+source: privee
+region: bilgewater
+palier: inconnue
+type: chasse
+ton: horreur
+lieu: Docks de l'Abattoir
+demandeur: Harald, capitaine baleinier, dont l'équipage refuse de descendre dans la cale
+accroche: « On a ramené quelque chose de vivant dans la cale, sans le savoir. Ça gratte, la nuit. Deux hommes sont descendus voir. Un seul est remonté. Il ne parle plus. Je dois décharger demain, sinon je perds tout. »
+postes: Tank, Mage, Éclaireur
+duree: 5
+dangereuse: non
+risque: oui
+epreuves: discretion 40 (descendre dans la cale noire en repérant la chose avant qu'elle ne vous repère) ; combat 45 (affronter un dévoreur aux oreilles d'aile dans un espace où l'on ne peut pas reculer) ; voyage 38 (remonter le marin disparu, s'il vit encore)
+complication: Le dévoreur protège une couvée dans les cordages. Il n'attaque que ceux qui s'en approchent.
+eclatante: {meneur} comprend que la bête défend ses petits et ramène le marin vivant sans toucher à la couvée. Les dévoreurs sont relâchés au large, sous les yeux de l'équipage, qui pensait n'avoir jamais rien vu d'aussi étrange qu'une guilde qui parle aux monstres. Harald paie, double, et fait graver le nom de la guilde sur son mât.
+reussite: La bête est tuée, la cale vidée, le marin retrouvé, vivant, à moitié fou. Harald décharge et repart. Il ne reprendra plus la même route.
+partielle: La bête est tuée, mais le marin était mort depuis le premier soir. L'équipage décharge en silence.
+echec: La bête a gardé la cale. Harald a coulé son propre navire au large, cargaison comprise, plutôt que de la rapporter à quai.
+recompenses: po 140 ; reputation 3 ; objet Élixir de fer 10
+
+=== BIL-I-018 | Le fiancé du Quai Blanc
+source: privee
+region: bilgewater
+palier: inconnue
+type: escorte
+ton: tendre
+lieu: Quai Blanc
+demandeur: Zawadi, jeune veuve, qui veut se remarier sur la tombe de son premier mari
+accroche: « Chez nous, on demande la permission aux morts. Je veux épouser Kofi devant la bouée d'Ébo, au Quai Blanc. La famille d'Ébo dit que c'est une insulte. Ils ont juré d'empêcher la barque d'arriver. Je veux juste qu'Ébo soit là. À sa façon. »
+postes: Support, Combattant
+duree: 4
+dangereuse: non
+epreuves: voyage 32 (mener la barque de mariage jusqu'au Quai Blanc, entre les tombes flottantes) ; diplomatie 34 (parler à la famille d'Ébo avant que ça tourne mal)
+complication: La mère d'Ébo n'est pas en colère : elle a peur que Zawadi oublie son fils. Elle veut seulement qu'on prononce son nom pendant la cérémonie.
+eclatante: {meneur} amène la mère d'Ébo jusqu'à la barque, et c'est elle qui prononce le nom de son fils pendant la cérémonie. Les deux familles pleurent ensemble. Le Quai Blanc n'a jamais vu de mariage aussi beau. Zawadi lance une couronne de fleurs sur la bouée d'Ébo, et la guilde est invitée au banquet. Il dure deux jours.
+reussite: La barque arrive, le mariage a lieu, la famille d'Ébo regarde de loin, sans intervenir. Zawadi dit que c'est déjà beaucoup.
+partielle: Le mariage a lieu, mais pas au Quai Blanc : la barque a dû faire demi-tour. Zawadi a jeté une fleur dans la baie, en pensant très fort à Ébo.
+echec: La famille d'Ébo a renversé la barque. Personne n'a été blessé, mais le mariage n'a pas eu lieu. Kofi attend toujours.
+recompenses: po 20 ; reputation 2 ; objet Charme féerique 6
+
+=== BIL-I-019 | Le tableau de Diver's Bluff
+source: privee
+region: bilgewater
+palier: inconnue
+type: traque
+ton: drole
+lieu: Rue de la Flotte
+demandeur: Lord Fennimore, peintre noble de Piltover en voyage, qui s'est fait voler un portrait de lui-même
+accroche: « Mon autoportrait ! Une huile de deux mètres ! On me l'a dérobé pendant que je dormais à l'auberge. On le voit maintenant dans une taverne de la rue de la Flotte, avec des moustaches ajoutées et le titre « Le roi des naufrageurs ». Je veux mon visage. »
+postes: Assassin
+duree: 2
+dangereuse: non
+epreuves: discretion 29 (décrocher un tableau de deux mètres au-dessus d'un comptoir bondé) ; poursuite 27 (s'enfuir avec, dans des ruelles larges d'un mètre)
+complication: Le tableau est devenu une idole : les marins le touchent pour se porter chance avant de partir en mer. Le décrocher, c'est risquer une émeute.
+eclatante: {meneur} décroche le tableau, puis, devant l'émeute qui gronde, a une idée : Lord Fennimore peint une copie, avec les moustaches, et la signe. La taverne garde son roi des naufrageurs, Lord Fennimore récupère son visage, et il repart pour Piltover avec des commandes pour six autres portraits « à moustaches ». Il est ravi. Les moustaches lui vont bien.
+reussite: Le tableau est récupéré, les moustaches effacées. Lord Fennimore repart pour Piltover sans se retourner. La taverne accroche un poisson à la place.
+partielle: Le tableau est récupéré, mais les moustaches ne partent pas au nettoyage. Lord Fennimore décide que, finalement, elles ont du caractère.
+echec: Le tableau est resté au mur. Lord Fennimore est reparti furieux. On dit que, depuis, les marins qui le touchent rentrent tous au port.
+recompenses: po 25 ; reputation 1 ; objet Pioche 5
+
+=== BIL-I-020 | Les gun'dolas déraillées
+source: privee
+region: bilgewater
+palier: inconnue
+type: protection
+ton: aventure
+lieu: Docks de l'Abattoir
+demandeur: Mirembe, opératrice de gun'dola, qui soupçonne un sabotage
+accroche: « Les plateformes qui portent les carcasses ont déraillé trois fois cette semaine. Trois fois au même endroit. La dernière a écrasé une charrette, et il s'en est fallu d'un rien qu'elle écrase un enfant. Je veux quelqu'un sur la ligne demain soir. »
+postes: Tank, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: discretion 33 (repérer le saboteur parmi les centaines de dockers de la nuit) ; siege 36 (stopper une gun'dola folle chargée d'une carcasse de serpent de mer) ; combat 31 (arrêter le saboteur et ses deux complices)
+complication: Le saboteur travaille pour un consortium de porteurs à dos d'homme, ruiné par les gun'dolas, qui veut prouver que les machines tuent.
+eclatante: {meneur} arrête la gun'dola folle à deux mètres d'une file d'enfants, et le saboteur dans la foulée. Mirembe convainc la compagnie d'embaucher les porteurs ruinés pour entretenir les rails. Plus de sabotages, plus de chômeurs. Elle dit qu'elle n'a jamais vu une mission résoudre deux problèmes à la fois.
+reussite: Le saboteur est pris, la ligne sécurisée. Les gun'dolas roulent à nouveau. Mirembe offre à la guilde un tour gratuit, que personne n'ose accepter.
+partielle: Le saboteur s'est échappé, mais la ligne est réparée. Mirembe fait ses rondes elle-même, maintenant, avec une gaffe.
+echec: Une quatrième gun'dola a déraillé, la nuit même. Il y a eu un blessé. La ligne est fermée pour un mois.
+recompenses: po 35 ; reputation 2 ; objet Bouclier de Doran 8
+
+=== BIL-I-021 | La boussole du grand-père
+source: privee
+region: bilgewater
+palier: inconnue
+type: recuperation
+ton: tendre
+lieu: Canaux
+demandeur: Yetunde, vieille navigatrice aveugle, qui veut retrouver la boussole de son grand-père avant de mourir
+accroche: « Elle est tombée dans un canal il y a soixante ans. J'avais douze ans. Je n'ai jamais osé le dire à mon grand-père. Il est mort en croyant que je l'avais encore. Je veux la tenir une fois, et puis je pourrai partir tranquille. »
+postes: Éclaireur
+duree: 3
+dangereuse: non
+epreuves: voyage 30 (explorer le fond vaseux des vieux canaux, là où la ville a été rebâtie trois fois) ; poursuite 28 (suivre les indications d'une mémoire vieille de soixante ans)
+complication: La boussole a été trouvée il y a des années par un ferrailleur, qui l'a vendue à… Yetunde elle-même, sans qu'elle le sache. Elle l'a sur sa cheminée depuis dix ans.
+eclatante: {meneur} cherche dans les canaux, puis chez les ferrailleurs, puis remonte la piste jusqu'à la cheminée de Yetunde. Elle prend la boussole dans ses mains, reconnaît la rayure qu'elle avait faite enfant, et rit comme on ne l'a pas entendue rire depuis des années. « Il me l'a rendue, le vieux. Il me l'a rendue. »
+reussite: Une boussole est remontée des canaux. Ce n'est peut-être pas la bonne. Yetunde la serre contre elle et dit que c'est la bonne. Personne ne la contredit.
+partielle: La boussole n'a pas été trouvée, mais l'équipe a raconté à Yetunde tous les endroits où elle aurait pu être. Elle a écouté, longtemps. Ça lui a suffi.
+echec: Les canaux n'ont rien rendu. Yetunde a remercié la guilde avec une dignité qui fait plus mal qu'une colère.
+recompenses: po 15 ; reputation 2 ; objet Charme féerique 15
+
+=== BIL-I-022 | Le duel au Pont du Boucher
+source: privee
+region: bilgewater
+palier: inconnue
+type: protection
+ton: drole
+lieu: Pont du Boucher
+demandeur: Archibald Tisk, poète, qui a provoqué en duel le meilleur sabreur de la ville par erreur
+accroche: « J'ai écrit un sonnet. Il parlait d'un hareng. Le capitaine Morvan a cru qu'il parlait de lui. Il a peut-être raison. Le duel est demain, à l'aube, au Pont du Boucher. Je ne sais tenir qu'une plume. Aidez-moi à ne pas mourir, ou au moins à mourir avec élégance. »
+postes: Combattant
+duree: 2
+dangereuse: non
+epreuves: combat 31 (servir de second au poète, et parer ce qui doit l'être) ; diplomatie 28 (trouver la phrase qui permet à un capitaine vexé de garder la face)
+complication: Le capitaine Morvan ne sait pas lire. Il a cru le sonnet sur parole, rapporté par un ennemi commun qui veut voir l'un des deux mourir.
+eclatante: {meneur} lit le sonnet à voix haute, devant tout le pont. C'est vraiment un sonnet sur un hareng. Le capitaine, soulagé et un peu vexé de ne pas en être le sujet, en commande un sur lui. Tisk l'écrit sur place. Il est excellent. L'ennemi commun quitte la ville avant midi.
+reussite: Le duel a lieu, le capitaine désarme le poète, s'estime satisfait, et repart. Tisk a une égratignure, dont il fait un poème de douze strophes.
+partielle: Le duel s'arrête au premier sang. C'est celui du second. La guilde a un héros avec un pansement et une anecdote.
+echec: Le poète s'est enfui avant l'aube. La guilde a dû tenir le duel à sa place, et le perdre. Le sonnet circule dans toute la ville. Il est vraiment très bon.
+recompenses: po 15 ; reputation 1 ; objet Élixir de rage 5
+
+=== BIL-I-023 | Les platewyrms du chantier
+source: privee
+region: bilgewater
+palier: inconnue
+type: defense
+ton: aventure
+lieu: Port de Bilgewater
+demandeur: Chidi, charpentier de marine, dont le chantier est envahi chaque nuit
+accroche: « Des platewyrms. Des jeunes. Ils mangent le bois des coques. Trois navires en construction, et dans une semaine, il ne restera que les clous. Je ne veux pas les tuer, ils ne savent pas ce qu'ils font. Mais je veux qu'ils partent. »
+postes: Tank, Tireur, Support
+duree: 5
+dangereuse: non
+epreuves: nuee 34 (repousser une vingtaine de jeunes platewyrms qui reviennent par vagues) ; voyage 33 (trouver par où ils arrivent, dans les piliers du port) ; diplomatie 31 (convaincre les autres charpentiers de ne pas empoisonner l'eau)
+complication: Les platewyrms fuient une marée noire de bois pourri, rejetée par un chantier noxien au large, qui a tué leur nourriture habituelle.
+eclatante: {meneur} remonte la piste des platewyrms jusqu'au bois pourri, et la guilde fait savoir à la Chambre des Bannières qu'un chantier noxien empoisonne la baie. Les jeunes platewyrms sont menés vers un banc d'algues, au large. Chidi termine ses trois navires, et les baptise de noms de héros de la guilde.
+reussite: Les platewyrms sont repoussés, le chantier protégé par des filets. Les navires seront finis à temps.
+partielle: Le chantier est protégé, mais un navire a été rongé jusqu'à la quille. Chidi en fera une barque. Une grande barque.
+echec: Les platewyrms sont revenus, plus nombreux. Les charpentiers ont empoisonné l'eau. Chidi a quitté le chantier en disant qu'il ne voulait pas construire sur un cimetière.
+recompenses: po 30 ; reputation 2 ; objet Armure de tissu 10
+
+=== BIL-I-024 | La cartographe et le requin-dragon
+source: privee
+region: bilgewater
+palier: inconnue
+type: escorte
+ton: aventure
+lieu: Îles du Serpent
+demandeur: Ingrid Halvar, cartographe venue du Freljord, qui veut dessiner les Îles du Serpent
+accroche: « Personne n'a jamais cartographié les petites îles. Les Buhrus m'ont dit que c'était impossible, que la mer change leur forme. Je crois qu'ils exagèrent. Il me faut une escorte pour quatre jours de dessin. Les requins-dragons, paraît-il, ne mangent pas les cartographes. Je n'ai pas envie de vérifier. »
+postes: Tireur, Healer
+duree: 8
+dangereuse: non
+risque: oui
+epreuves: voyage 42 (naviguer entre les îles dont les courants changent sans prévenir) ; combat 46 (tenir à distance un requin-dragon qui tourne autour de la barque) ; voyage 40 (rapporter la cartographe et ses carnets, au sec)
+complication: Les Buhrus avaient raison : les îles bougent, lentement, au rythme des marées. La carte d'Ingrid est fausse dès qu'elle est finie.
+eclatante: {meneur} remarque que les îles reviennent toujours au même endroit, selon un cycle. Ingrid dessine non pas une carte, mais douze, une par lune. Les prêtres buhrus, impressionnés, l'invitent au temple. La carte des douze lunes est la première du genre. Ingrid offre une copie à la guilde, signée, et l'appelle la Carte des Lanternes.
+reussite: La carte est faite, le requin-dragon tenu à distance. Ingrid rentre au Freljord avec des carnets pleins. La carte est fausse au bout d'une semaine. Elle est belle quand même.
+partielle: Ingrid rapporte la moitié de ses carnets : l'autre moitié est au fond de la mer, avec un morceau de la barque.
+echec: Le requin-dragon a renversé la barque. Tout le monde a été repêché par des Buhrus, en riant. Les carnets, non.
+recompenses: po 160 ; reputation 4 ; objet Tome d'amplification 9
+
+=== BIL-I-025 | Le coffre de Mama Brine
+source: privee
+region: bilgewater
+palier: inconnue
+type: enquete
+ton: mystere
+lieu: Grottes du marché noir
+demandeur: Mama Brine, receleuse respectée, qui a perdu la clé de son propre coffre
+accroche: « La clé était à mon cou. Ce matin, elle n'y est plus, et le coffre est toujours fermé. Personne n'a touché à rien. Quelqu'un est entré dans ma chambre pendant que je dormais, a pris la clé, et n'a pas ouvert le coffre. Je veux savoir pourquoi, plus encore que qui. »
+postes: Assassin, Support
+duree: 4
+dangereuse: non
+epreuves: discretion 33 (fouiller les grottes du marché noir sans réveiller la méfiance de tout le quartier) ; diplomatie 32 (faire parler les apprentis de Mama Brine, qui se taisent tous)
+complication: C'est Mama Brine elle-même, somnambule, qui a caché la clé. Le coffre contient les lettres d'une fille qu'elle n'a jamais revue, et une part d'elle ne veut plus l'ouvrir.
+eclatante: {meneur} retrouve la clé là où une somnambule la cacherait : dans la poche d'un vieux manteau de femme, au fond de l'armoire. Mama Brine comprend, s'assoit, ouvre le coffre, et lit les lettres une par une, devant l'équipe. Le lendemain, elle envoie un apprenti chercher sa fille, à Piltover. Elle paie la guilde avec une perle qu'elle gardait « pour une grande occasion ».
+reussite: La clé est retrouvée dans la chambre même. Mama Brine ouvre le coffre, le referme aussitôt, et paie. Elle ne dit rien d'autre.
+partielle: La clé n'est pas retrouvée, mais l'équipe ouvre le coffre sans l'abîmer. Mama Brine ne regarde pas dedans. Elle le fait porter au fond de la grotte.
+echec: Ni clé, ni réponse. Mama Brine a soupçonné ses apprentis et en a chassé deux. On dit qu'elle dort maintenant assise, devant le coffre.
+recompenses: po 35 ; reputation 2 ; objet Dague 8

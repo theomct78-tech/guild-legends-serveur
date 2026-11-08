@@ -1,0 +1,126 @@
+# Champion|Clé|AVANTAGE:force,...|Ce que la compétence apporte à la guilde
+Skarner|P|SIEGE:1|Des vibrations qui fragilisent l'ennemi.
+Skarner|Q|ASSAUT:1|Il arrache un rocher et le lance.
+Skarner|W|PROTECTION:1,NUEE:1|Un bastion sismique qui le protège et ralentit autour de lui.
+Skarner|E|MAITRISE:2,CELERITE:1|Il charge à travers les murs et écrase sa cible contre la paroi.
+Skarner|R|MAITRISE:2,TRAQUE:2|Il empale ses ennemis et les traîne avec lui.
+Smolder|P|ASSAUT:1|Un petit dragon qui grandit à chaque victoire.
+Smolder|Q|SIEGE:1,ASSAUT:1|Une boule de feu qui devient plus forte avec le temps.
+Smolder|W|NUEE:1|Un éternuement enflammé.
+Smolder|E|CELERITE:2|Il s'envole par-dessus tout.
+Smolder|R|NUEE:2,SOINS:1,INSPIRATION:1|Il appelle sa maman : elle crache du feu et le soigne.
+Sona|P|ASSAUT:1|Un accord de puissance tous les trois sorts.
+Sona|Q|ASSAUT:1|Un hymne de vaillance.
+Sona|W|SOINS:2,PROTECTION:1|Une aria de persévérance qui soigne et protège.
+Sona|E|CELERITE:2|Un chant de célérité pour toute l'équipe.
+Sona|R|MAITRISE:2,NUEE:1,INSPIRATION:1|Un crescendo qui force les ennemis à danser.
+Soraka|P|SOINS:1,CELERITE:1|Elle court vers les alliés blessés.
+Soraka|Q|SURVIE:1,MAITRISE:1|Une chute d'étoile qui la soigne et ralentit.
+Soraka|W|SOINS:3|Une infusion astrale : elle donne sa propre vie pour soigner.
+Soraka|E|MAITRISE:2|Un appel équinoxe qui réduit au silence.
+Soraka|R|SOINS:3,SURVIE:1,CONCORDE:1|Un vœu entendu de tous les alliés, où qu'ils soient.
+Swain|P|SURVIE:1,TRAQUE:1|Ses corbeaux ramènent les ennemis immobilisés.
+Swain|Q|NUEE:1|Une main de la mort.
+Swain|W|RECONNAISSANCE:3|La vision de l'empire : il voit à travers des lieues.
+Swain|E|MAITRISE:2|Une prise inébranlable.
+Swain|R|SURVIE:2,NUEE:1,INSPIRATION:1|Il libère le démon : un général qu'on ne voit pas tomber.
+Sylas|P|ASSAUT:1|Ses chaînes frappent autour de lui.
+Sylas|Q|NUEE:1|Des chaînes qui fouettent.
+Sylas|W|SURVIE:1,SIEGE:1|Un tueur de rois qui se soigne.
+Sylas|E|CELERITE:1,TRAQUE:1|Une évasion puis un enchaînement.
+Sylas|R|ASSAUT:2,MAITRISE:1,INSPIRATION:1|Il vole la magie de l'ennemi ; un symbole pour les opprimés.
+Syndra|P|ASSAUT:1|Sa transcendance renforce ses sorts.
+Syndra|Q|NUEE:1,ASSAUT:1|Une sphère noire.
+Syndra|W|MAITRISE:1|Une volonté de force qui saisit et lance.
+Syndra|E|MAITRISE:2|Elle disperse les faibles.
+Syndra|R|SIEGE:3,INSPIRATION:-1|Un déchaînement de puissance qu'elle peine elle-même à contenir.
+Tahm Kench|P|ASSAUT:1|Il goûte ses adversaires.
+Tahm Kench|Q|MAITRISE:1|Un coup de langue.
+Tahm Kench|W|CELERITE:2|Une plongée abyssale qui le transporte au loin.
+Tahm Kench|E|PROTECTION:1,SURVIE:1|Une peau épaisse qui convertit les coups en bouclier.
+Tahm Kench|R|PROTECTION:2,OR:1|Il avale un allié pour le protéger ; ses pactes se paient toujours.
+Taliyah|P|CELERITE:1|Elle surfe sur la pierre.
+Taliyah|Q|NUEE:1|Un tir tissé.
+Taliyah|W|MAITRISE:2|Une poussée sismique qui projette.
+Taliyah|E|MAITRISE:1,NUEE:1|Un tapis de pierres qui ralentit.
+Taliyah|R|PROTECTION:2,CELERITE:2|Un mur tisseur qui coupe la route ou fait voyager l'équipe.
+Talon|P|ASSAUT:1|Ses coups font saigner.
+Talon|Q|ASSAUT:1,TRAQUE:1|Une diplomatie noxienne.
+Talon|W|NUEE:1|Un râteau de lames.
+Talon|E|CELERITE:2,INFILTRATION:1|La voie de l'assassin : il franchit n'importe quel mur.
+Talon|R|INFILTRATION:2,NUEE:1|Un assaut d'ombres qui le rend invisible.
+Taric|P|ASSAUT:1|Une bravoure qui renforce ses coups.
+Taric|Q|SOINS:2|Une bénédiction des étoiles qui soigne.
+Taric|W|PROTECTION:2|Un bastion qui lie un allié à lui.
+Taric|E|MAITRISE:2|Un éblouissement qui étourdit.
+Taric|R|PROTECTION:3,INSPIRATION:1|Le rayonnement cosmique : ses alliés deviennent invulnérables.
+Teemo|P|INFILTRATION:2|La guérilla : immobile, il devient invisible.
+Teemo|Q|MAITRISE:1|Une fléchette aveuglante.
+Teemo|W|CELERITE:1|Une vélocité d'éclaireur.
+Teemo|E|ASSAUT:1|Un tir toxique.
+Teemo|R|RECONNAISSANCE:2,MAITRISE:1,NUEE:1|Des champignons piégés qui surveillent tout le terrain.
+Thresh|P|SURVIE:1|Il collecte les âmes des morts.
+Thresh|Q|TRAQUE:3|Une condamnation : il harponne sa cible et la ramène.
+Thresh|W|PROTECTION:1,CELERITE:2|Sa lanterne ramène un allié à lui et le protège.
+Thresh|E|MAITRISE:1|Un balayage qui repousse.
+Thresh|R|MAITRISE:2,NUEE:1|Une boîte : des murs spectraux qui ralentissent.
+Tristana|P|ASSAUT:1|Une portée qui augmente avec l'expérience.
+Tristana|Q|ASSAUT:1|Un tir rapide.
+Tristana|W|CELERITE:2|Un saut-fusée.
+Tristana|E|SIEGE:2|Une charge explosive qui fait tomber les murs.
+Tristana|R|MAITRISE:2,PROTECTION:1|Un tir à bout portant qui repousse la menace.
+Trundle|P|SURVIE:1|Le tribut du roi : il se nourrit des morts.
+Trundle|Q|ASSAUT:1|Une morsure qui vole la force.
+Trundle|W|CELERITE:1,PROTECTION:1|Il fait geler le terrain à son avantage.
+Trundle|E|MAITRISE:2|Un pilier de glace qui coupe la route.
+Trundle|R|SIEGE:2,SURVIE:1|Il soumet la cible et vole sa robustesse.
+Tryndamere|P|ASSAUT:1|Une fureur croissante.
+Tryndamere|Q|SURVIE:1|Une soif de sang qui le soigne.
+Tryndamere|W|MAITRISE:1,ASSAUT:1|Un cri moqueur qui affaiblit.
+Tryndamere|E|CELERITE:1,NUEE:1|Un tranchant tournoyant.
+Tryndamere|R|SURVIE:3|Une rage immortelle : il refuse de mourir quelques instants.
+Twisted Fate|P|OR:2|Des dés pipés qui rapportent toujours un peu plus.
+Twisted Fate|Q|NUEE:1|Un tir de cartes en éventail.
+Twisted Fate|W|MAITRISE:1,ASSAUT:1|La bonne carte : étourdir, ralentir ou frapper.
+Twisted Fate|E|ASSAUT:1|Un paquet chargé.
+Twisted Fate|R|RECONNAISSANCE:2,CELERITE:2|La destinée : il révèle tous les ennemis et se téléporte.
+Twitch|P|SIEGE:1|Un poison mortel.
+Twitch|Q|INFILTRATION:3|Une embuscade : il devient invisible.
+Twitch|W|MAITRISE:1,NUEE:1|Une fiole qui ralentit.
+Twitch|E|ASSAUT:1,SIEGE:1|Une contamination qui fait exploser le poison.
+Twitch|R|NUEE:2,TRAQUE:1|Des tirs perforants à longue portée.
+Udyr|P|CELERITE:1|Un pont des moines qui l'accélère entre deux postures.
+Udyr|Q|ASSAUT:1|Une griffe sauvage.
+Udyr|W|PROTECTION:1,SURVIE:1|Un manteau de fer qui le protège et le soigne.
+Udyr|E|CELERITE:1,MAITRISE:1|Une ruée qui étourdit.
+Udyr|R|NUEE:2,MAITRISE:1|Une tempête de l'esprit autour de lui.
+Urgot|P|NUEE:1|Des fusils à pompe sur ses jambes.
+Urgot|Q|NUEE:1,MAITRISE:1|Une charge corrosive.
+Urgot|W|ASSAUT:1,PROTECTION:1|Un feu de mitrailleuse continu.
+Urgot|E|MAITRISE:2|Un dédain : il écrase l'ennemi sur son passage.
+Urgot|R|SIEGE:2,TRAQUE:1,INSPIRATION:-1|Un tir qui achève les blessés et terrifie les autres, alliés compris.
+Varus|P|ASSAUT:1|Une vengeance qui accélère ses tirs.
+Varus|Q|SIEGE:1,TRAQUE:1|Une flèche chargée qui part de très loin.
+Varus|W|SIEGE:1|Un carquois corrompu qui ronge la santé.
+Varus|E|NUEE:1,MAITRISE:1|Une pluie de flèches.
+Varus|R|MAITRISE:2,TRAQUE:1|Une chaîne de corruption qui se propage.
+Vayne|P|TRAQUE:1|Une chasseuse de nuit qui court vers sa proie.
+Vayne|Q|INFILTRATION:1,CELERITE:1|Une roulade, qui devient invisible à la nuit tombée.
+Vayne|W|SIEGE:2|Des carreaux d'argent qui frappent selon la santé maximale.
+Vayne|E|MAITRISE:2|Une condamnation qui plaque l'ennemi contre le mur.
+Vayne|R|ASSAUT:2,INFILTRATION:1|L'heure finale.
+Veigar|P|ASSAUT:1|Sa puissance du mal grandit sans limite.
+Veigar|Q|ASSAUT:1|Une frappe démoniaque qui le rend plus fort.
+Veigar|W|NUEE:1|Une matière noire.
+Veigar|E|MAITRISE:3|Un horizon des événements : une cage qui étourdit.
+Veigar|R|SIEGE:3|Une explosion primordiale qui achève les blessés.
+Vel'Koz|P|SIEGE:1|Une déconstruction organique.
+Vel'Koz|Q|ASSAUT:1,MAITRISE:1|Une fission du plasma.
+Vel'Koz|W|NUEE:1|Une faille du Néant.
+Vel'Koz|E|MAITRISE:2|Une perturbation tectonique qui projette.
+Vel'Koz|R|NUEE:2,RECONNAISSANCE:1,SIEGE:1|Un rayon de désintégration qui analyse ce qu'il touche.
+Vex|P|MAITRISE:1|Une sinistrose qui terrifie.
+Vex|Q|NUEE:1|Une vague de mélancolie.
+Vex|W|PROTECTION:1,MAITRISE:1|Un espace personnel qui la protège.
+Vex|E|NUEE:1,MAITRISE:1|Une gloomification.
+Vex|R|TRAQUE:2,ASSAUT:1|Elle fond sur sa cible en suivant son ombre.

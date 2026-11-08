@@ -1,0 +1,126 @@
+# Champion|Clé|AVANTAGE:force,...|Ce que la compétence apporte à la guilde
+Darius|P|SIEGE:1|Ses saignements usent même les adversaires les plus robustes.
+Darius|Q|NUEE:1,SURVIE:1|Un moulinet de hache qui le soigne pour chaque ennemi touché.
+Darius|W|MAITRISE:1|Un coup estropiant qui ralentit l'adversaire.
+Darius|E|TRAQUE:2|Il agrippe l'ennemi et le ramène à portée de hache.
+Darius|R|SIEGE:2,RENOMMEE:1,INSPIRATION:1|La guillotine noxienne : une exécution qui galvanise les siens.
+Diana|P|NUEE:1|Ses coups de lame lunaire frappent aussi les ennemis voisins.
+Diana|Q|ASSAUT:1|Un arc de lumière lunaire qui marque sa cible.
+Diana|W|PROTECTION:1,SURVIE:1|Des sphères en orbite qui la protègent.
+Diana|E|TRAQUE:2|Elle fond sur une cible marquée par la lune.
+Diana|R|MAITRISE:2,NUEE:2|Elle attire tous les ennemis proches puis les écrase sous la lune.
+Dr. Mundo|P|SURVIE:2|Sa régénération démesurée le remet sur pied après chaque combat.
+Dr. Mundo|Q|TRAQUE:1|Une scie lancée qui ralentit le fuyard.
+Dr. Mundo|W|PROTECTION:1|Il encaisse les coups et les convertit en santé.
+Dr. Mundo|E|ASSAUT:2|Un coup de massue médicale d'autant plus fort qu'il est blessé.
+Dr. Mundo|R|SURVIE:2,CELERITE:1|Une dose maximale qui le soigne et le fait courir.
+Draven|P|OR:2,RENOMMEE:1|Les fans de Draven paient : chaque exploit lui rapporte de l'or.
+Draven|Q|ASSAUT:1|Des haches tournoyantes rattrapées au vol.
+Draven|W|CELERITE:1|Une poussée d'adrénaline qui accélère tout.
+Draven|E|MAITRISE:1,PROTECTION:1|Des haches qui écartent les ennemis.
+Draven|R|NUEE:2,RENOMMEE:1|Deux haches géantes qui traversent tout le champ de bataille sous les vivats.
+Ekko|P|ASSAUT:1|Sa résonance frappe une troisième fois.
+Ekko|Q|NUEE:1|Un convertisseur temporel qui revient sur ses pas.
+Ekko|W|MAITRISE:2,PROTECTION:1|Une convergence parallèle qui étourdit ceux qui y restent.
+Ekko|E|CELERITE:1,TRAQUE:1|Un saut de phase qui le place sur sa cible.
+Ekko|R|SURVIE:3|Il rembobine le temps de quelques secondes et efface une blessure mortelle.
+Elise|P|NUEE:1|Ses araignées l'accompagnent et harcèlent l'ennemi.
+Elise|Q|ASSAUT:2|Une toxine qui ronge la santé de la cible.
+Elise|W|RECONNAISSANCE:1,NUEE:1|Des araignées explosives envoyées en éclaireuses.
+Elise|E|MAITRISE:2,INFILTRATION:1|Un cocon qui immobilise ; en araignée, elle se suspend hors de vue.
+Elise|R|ASSAUT:1,CELERITE:1,SURVIE:1|Elle bascule en forme d'araignée, plus rapide et plus vorace.
+Evelynn|P|INFILTRATION:2|Une ombre démoniaque qui la rend invisible hors combat.
+Evelynn|Q|ASSAUT:1|Des épines de haine lancées en rafale.
+Evelynn|W|INFILTRATION:1,MAITRISE:1|Une séduction qui envoûte puis paralyse sa victime.
+Evelynn|E|ASSAUT:1,CELERITE:1|Un coup de fouet qui la rapproche.
+Evelynn|R|SIEGE:2,CELERITE:1|Elle exécute les affaiblis et disparaît en arrière.
+Ezreal|P|ASSAUT:1|Chaque sort touché accélère ses tirs.
+Ezreal|Q|ASSAUT:1|Un tir mystique précis.
+Ezreal|W|ASSAUT:1|Un orbe qui marque la cible pour un coup plus fort.
+Ezreal|E|CELERITE:2,BUTIN:1|Il se téléporte : l'explorateur trouve toujours un passage, et parfois un trésor.
+Ezreal|R|NUEE:2,TRAQUE:1|Un arc d'énergie qui traverse toute la carte.
+Fiddlesticks|P|RECONNAISSANCE:1,INFILTRATION:1|Des épouvantails semés partout, impossibles à distinguer du vrai.
+Fiddlesticks|Q|MAITRISE:2|La terreur à l'état pur.
+Fiddlesticks|W|SURVIE:1,NUEE:1|Une moisson qui draine la vie de tous les ennemis proches.
+Fiddlesticks|E|MAITRISE:1|Une faux qui réduit au silence.
+Fiddlesticks|R|NUEE:2,INFILTRATION:1,INSPIRATION:-1|Une nuée de corbeaux surgie de nulle part, qui glace aussi ses alliés.
+Fiora|P|ASSAUT:1|Elle repère les failles dans la garde de l'adversaire.
+Fiora|Q|CELERITE:1,ASSAUT:1|Une fente vive.
+Fiora|W|PROTECTION:1,MAITRISE:1|Une riposte qui pare un coup et étourdit.
+Fiora|E|ASSAUT:1|Deux coups rapides.
+Fiora|R|SOINS:2,SIEGE:1,RENOMMEE:1|Grand défi : un duel parfait qui soigne ses alliés et fait sa gloire.
+Fizz|P|PROTECTION:1|Agile, il amortit les coups reçus.
+Fizz|Q|ASSAUT:1,CELERITE:1|Il traverse son ennemi d'un coup de trident.
+Fizz|W|ASSAUT:1|Un trident qui saigne la cible.
+Fizz|E|SURVIE:2,CELERITE:1|Il saute sur son trident et devient insaisissable.
+Fizz|R|MAITRISE:2,NUEE:1|Il lance un appât et appelle un requin.
+Galio|P|NUEE:1|Un coup de colosse qui frappe en zone.
+Galio|Q|NUEE:1|Les vents de la guerre balaient les rangs.
+Galio|W|PROTECTION:2,MAITRISE:1|Le bouclier de Durand : il encaisse et provoque.
+Galio|E|MAITRISE:1,CELERITE:1|Une ruée qui projette en l'air.
+Galio|R|PROTECTION:2,CELERITE:2|Il vole au secours d'un allié n'importe où.
+Gangplank|P|ASSAUT:1|Une épreuve du feu au fil de l'épée.
+Gangplank|Q|OR:2,ASSAUT:1|Un pourparlers au pistolet qui pille l'or de sa victime.
+Gangplank|W|SURVIE:1|Il croque une orange et se débarrasse des entraves.
+Gangplank|E|NUEE:2,SIEGE:1|Des barils de poudre qui explosent en chaîne.
+Gangplank|R|NUEE:2,RENOMMEE:1|Un barrage de canons tiré depuis son navire.
+Garen|P|SURVIE:1|Persévérance : il récupère dès qu'il ne combat plus.
+Garen|Q|MAITRISE:1,CELERITE:1|Un coup qui réduit au silence.
+Garen|W|PROTECTION:2|Le courage : il encaisse les coups sans broncher.
+Garen|E|NUEE:2|Il tourbillonne avec son épée.
+Garen|R|SIEGE:2,RENOMMEE:1,INSPIRATION:1|La justice de Demacia s'abat sur le plus grand criminel.
+Gnar|P|SURVIE:1|Sa rage le fait grandir.
+Gnar|Q|TRAQUE:1,ASSAUT:1|Un boomerang ou un rocher.
+Gnar|W|ASSAUT:1,MAITRISE:1|Des coups répétés ou un écrasement.
+Gnar|E|CELERITE:1|Il saute, rebondit, bondit.
+Gnar|R|MAITRISE:2,NUEE:1|Méga-Gnar projette tout le monde contre les murs.
+Gragas|P|SURVIE:1,CONCORDE:1|Une gorgée entre deux sorts, et une tournée pour tout le monde au repère.
+Gragas|Q|NUEE:1|Un tonneau qui roule puis explose.
+Gragas|W|PROTECTION:1|Il boit et devient moins sensible aux coups.
+Gragas|E|MAITRISE:1,CELERITE:1|Un coup de ventre qui étourdit.
+Gragas|R|MAITRISE:2,NUEE:1|Un tonneau explosif qui disperse les rangs.
+Graves|P|ASSAUT:1|Le Destin : un fusil qui tire en éventail.
+Graves|Q|NUEE:1|Un tir qui explose sur les murs.
+Graves|W|MAITRISE:1,INFILTRATION:1|Un écran de fumée qui aveugle l'ennemi et couvre la retraite.
+Graves|E|CELERITE:1,PROTECTION:1|Une esquive qui renforce sa défense.
+Graves|R|ASSAUT:2,NUEE:1|Un dommage collatéral qui pulvérise la ligne.
+Gwen|P|SIEGE:1|Ses coups percent selon la santé maximale de la cible.
+Gwen|Q|ASSAUT:2|Des coups de ciseaux de plus en plus forts.
+Gwen|W|PROTECTION:2|Le brouillard sacré la protège des coups à distance.
+Gwen|E|CELERITE:1|Elle saute et accélère ses attaques.
+Gwen|R|NUEE:2,MAITRISE:1|Elle coud ses ennemis d'aiguilles.
+Hecarim|P|CELERITE:1|Sa vitesse augmente ses coups.
+Hecarim|Q|NUEE:1|Un rampage qui frappe tout ce qui l'entoure.
+Hecarim|W|SURVIE:1,NUEE:1|Un esprit de terreur qui le soigne.
+Hecarim|E|CELERITE:2,MAITRISE:1|Une charge dévastatrice.
+Hecarim|R|MAITRISE:2,NUEE:1,INSPIRATION:-1|La chevauchée des ombres terrifie tout le monde, alliés compris.
+Heimerdinger|P|SOINS:1|Ses inventions réparent ses alliés à proximité.
+Heimerdinger|Q|SIEGE:1,NUEE:1,BUTIN:1|Des tourelles qui tiennent une position ; l'inventeur récupère toujours quelque chose.
+Heimerdinger|W|ASSAUT:1|Des micro-roquettes.
+Heimerdinger|E|MAITRISE:1|Une grenade électrique qui étourdit.
+Heimerdinger|R|SIEGE:2,NUEE:1|Une amélioration géniale de toutes ses inventions.
+Hwei|P|ASSAUT:1|Sa signature : une touche finale sur les ennemis marqués.
+Hwei|Q|NUEE:2|Il peint des désastres.
+Hwei|W|PROTECTION:1,CONCORDE:1|Il peint des sérénités qui protègent et apaisent.
+Hwei|E|MAITRISE:2|Il peint des tourments qui figent l'ennemi.
+Hwei|R|MAITRISE:1,NUEE:2|Une vision de désespoir qui s'étend sur la toile.
+Illaoi|P|NUEE:1|Des tentacules invoquées qui frappent autour d'elle.
+Illaoi|Q|ASSAUT:1,NUEE:1|Un tentacule de Nagakabouros.
+Illaoi|W|SURVIE:1|Une dure leçon qui la soigne.
+Illaoi|E|SIEGE:2|Elle arrache l'âme de l'ennemi.
+Illaoi|R|NUEE:2,INSPIRATION:1|Un acte de foi qui fait jaillir les tentacules.
+Irelia|P|ASSAUT:1|Sa ferveur ionienne accélère ses coups.
+Irelia|Q|CELERITE:1,SURVIE:1|Elle fond sur sa cible et se soigne.
+Irelia|W|PROTECTION:1|Une danse défiante qui amortit les coups.
+Irelia|E|MAITRISE:2|Deux lames qui étourdissent tout ce qui passe entre elles.
+Irelia|R|NUEE:1,MAITRISE:1,INSPIRATION:1|Une vague de lames qui enferme l'ennemi ; un symbole de la résistance.
+Ivern|P|BUTIN:1,CONCORDE:1|Ami de la nature, il fait pousser les ressources sans rien couper.
+Ivern|Q|TRAQUE:1,CELERITE:1|Une racine qui immobilise et sur laquelle ses alliés bondissent.
+Ivern|W|INFILTRATION:2|Il fait pousser des buissons pour cacher l'équipe.
+Ivern|E|PROTECTION:2|Une graine qui protège un allié.
+Ivern|R|ASSAUT:1,PROTECTION:1,CONCORDE:1|Il appelle Daisy, son amie golem.
+Janna|P|CELERITE:1|Un vent arrière qui accélère ses alliés.
+Janna|Q|MAITRISE:2|Une tornade qui projette les ennemis.
+Janna|W|MAITRISE:1|Un zéphyr qui ralentit.
+Janna|E|PROTECTION:2|L'œil du cyclone protège un allié.
+Janna|R|SOINS:3,PROTECTION:1|La mousson soigne tout le monde et repousse l'ennemi.

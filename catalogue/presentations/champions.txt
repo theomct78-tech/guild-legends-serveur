@@ -1,0 +1,177 @@
+# Présentations des champions (8 nov. 2026)
+# Une ligne par champion pour quelqu'un qui ne connaît rien à League of Legends : qui il est, d'où il vient, ce qui le rend unique.
+# Elle s'affiche à la première rencontre (lettre, fiche, chronique). Elle vaut pour le héros du Runeterra d'origine ; un skin d'une gamme a la présentation de son univers.
+# Format : Champion|présentation
+Aatrox|Un ancien demi-dieu guerrier, enfermé depuis des millénaires dans sa propre épée. Il ne cherche qu'une chose : tout détruire, à commencer par lui-même.
+Ahri|Une renarde à neuf queues, à moitié femme, à moitié esprit d'Ionia. Elle a longtemps volé les souvenirs des autres ; aujourd'hui, elle cherche les siens.
+Akali|Une jeune ninja ionienne qui a claqué la porte de son ordre parce qu'il ne protégeait personne. Elle se bat seule, vite, et sans demander la permission.
+Akshan|Un justicier au charme insolent, armé d'une arme sacrée capable de ramener les morts tués injustement. Il prend ses vengeances avec style.
+Alistar|Un minotaure colossal, ancien esclave des arènes de Noxus. Il a brisé ses chaînes et jure de libérer tous ceux qui portent encore les leurs.
+Ambessa|Une générale de Noxus, chef d'une puissante famille marchande. Redoutable au combat et en politique, elle protège les siens par tous les moyens.
+Amumu|Une petite momie de Shurima, condamnée à pleurer pour l'éternité. Amumu cherche désespérément un ami, et ses larmes peuvent paralyser tout ce qui l'entoure.
+Anivia|Un immense phénix de glace, esprit protecteur du Freljord. Chaque fois qu'elle meurt, elle renaît de son œuf pour veiller encore sur les siens.
+Annie|Une petite fille, mage de feu prodige, qui se promène partout avec son ours en peluche, Tibbers. Quand elle se fâche, Tibbers grandit. Beaucoup.
+Aphelios|Un guerrier silencieux de la Lune, qui a bu un poison pour lier son esprit à celui de sa sœur jumelle. Elle lui parle ; il se bat avec ses armes de lumière lunaire.
+Ashe|La reine-archère du Freljord, héritière d'une légende de glace. Elle rêve d'unir les tribus du Grand Nord par la paix plutôt que par la guerre.
+Aurelion Sol|Un dragon cosmique qui a créé des étoiles de ses propres mains. Longtemps prisonnier des dieux, il est libre, immense, et persuadé de valoir mieux que tout le monde.
+Aurora|Une jeune sorcière du Freljord qui passe d'un monde à l'autre comme on change de pièce. Elle parle aux esprits, et parfois oublie de revenir parler aux vivants.
+Azir|L'empereur de Shurima, mort trahi il y a des millénaires puis ressuscité par la lumière du soleil. Il veut rendre à son empire de sable sa grandeur perdue.
+Bard|Un être céleste, à la fois gardien et vagabond, qui voyage à travers les étoiles en jouant de sa clochette. Il ne parle pas, mais tout le monde finit par l'entendre.
+Bel'Veth|L'impératrice du Néant, née de souvenirs volés à une cité engloutie. Elle dévore le monde pour le refaire à son image, et elle a faim.
+Blitzcrank|Un grand robot de vapeur construit à Zaun, devenu conscient par accident. Il veut aider tout le monde, avec beaucoup d'enthousiasme et un grand crochet.
+Brand|Un homme qui a touché une rune interdite et s'est transformé en flamme vivante. Il ne reste presque rien de lui, sauf l'envie de tout brûler.
+Braum|Le héros au grand cœur du Freljord, avec sa moustache et son bouclier taillé dans une porte magique. Tous les enfants du Nord connaissent ses histoires.
+Briar|Une arme vivante créée par une société secrète de Noxus, qui a brisé le pilori qui la retenait. Elle découvre le monde avec une faim insatiable de tout.
+Caitlyn|La shérif de Piltover, tireuse d'élite et enquêtrice brillante. Elle ne rate jamais une cible, et presque jamais une piste.
+Camille|Une aristocrate de Piltover, au corps augmenté de lames et d'acier, chargée des affaires secrètes de sa famille. Élégante, calculatrice, implacable.
+Cassiopeia|Une noble de Noxus maudite en cherchant un trésor interdit : la moitié de son corps est devenue celle d'un serpent. Son regard peut changer un homme en pierre.
+Cho'Gath|Une créature du Néant qui ne connaît qu'un seul but : manger. Plus elle mange, plus elle grandit. Elle n'a jamais cessé de grandir.
+Corki|Un yordle aviateur, petit, moustachu et très fier de son engin volant. Il livre des colis à Piltover et attaque à la roquette quand il le faut.
+Darius|La Main de Noxus, général colossal à la hache sanglante. Il croit qu'un empire fort se construit par la force, et il donne l'exemple.
+Diana|Une prêtresse de la Lune, rejetée par son peuple qui ne vénère que le Soleil. Elle a survécu au massacre de ses maîtres et se bat pour la vérité.
+Dr. Mundo|Un fou de Zaun, violet, gigantesque, qui se croit médecin. Il va où il veut. Et il parle de lui à la troisième personne. MUNDO PARLE COMME ÇA.
+Draven|Un bourreau de Noxus, star des arènes, qui lance des haches en tournoyant. Il adore son propre nom. Il adore surtout qu'on le prononce.
+Ekko|Un jeune génie des rues de Zaun, inventeur d'un appareil qui remonte le temps de quelques secondes. Il protège son quartier contre tous ceux qui le menacent.
+Elise|Une reine-araignée de Noxus, qui sacrifie des vies à une divinité araignée pour rester jeune et belle à jamais.
+Evelynn|Un démon des Îles obscures qui se nourrit de la souffrance qu'elle provoque. Elle séduit, elle torture, et elle s'ennuie vite.
+Ezreal|Un jeune explorateur de Piltover, charmeur et un peu frimeur, qui fouille les ruines de Runeterra avec un gant magique trouvé à Shurima.
+Fiddlesticks|Un épouvantail possédé par une terreur très ancienne. Il marche dans les champs du Sud et murmure avec la voix de ceux qu'il a pris.
+Fiora|La plus grande duelliste de Demacia, noble de naissance et d'orgueil. Elle a déjà tué son propre père en duel pour l'honneur de sa famille.
+Fizz|Un petit farceur des mers de Bilgewater, à moitié poisson, armé d'un trident. Il se moque de tout, même des requins géants qui le suivent.
+Galio|Un colosse de pierre qui protège Demacia. Il ne s'éveille que lorsque la magie est proche, et il adore ça, parce que ça veut dire se battre.
+Gangplank|L'ancien roi des pirates de Bilgewater, renversé et presque tué. Il est revenu, un bras en moins, plus cruel que jamais, avec des tonneaux de poudre.
+Garen|Le soldat le plus loyal de Demacia, un royaume qui pourchasse les mages. Il ne sait pas encore que sa propre sœur, Lux, en est une.
+Gnar|Un petit yordle préhistorique, sorti de la glace où il dormait depuis des millénaires. Il est adorable. Jusqu'à ce qu'il se mette en colère et devienne énorme.
+Gragas|Un géant joyeux du Freljord, brasseur obsédé par une seule quête : créer la bière parfaite. Il casse beaucoup de tonneaux, et quelques têtes.
+Graves|Un hors-la-loi de Bilgewater, fumeur de cigares, armé d'un fusil à pompe. Il a une vieille rancune avec son ancien partenaire, Twisted Fate.
+Gwen|Une poupée de chiffon animée par la magie et l'amour de sa créatrice. Elle découpe la Brume noire avec ses grands ciseaux et un grand sourire.
+Hecarim|Un ancien chevalier changé en spectre mi-homme mi-cheval par la malédiction des Îles obscures. Il charge à la tête d'une cavalerie de fantômes.
+Heimerdinger|Le plus grand inventeur de Piltover, un yordle professeur un peu dans la lune. Il a toujours une tourelle à installer et une théorie à expliquer.
+Hwei|Un peintre ionien dont les tableaux prennent vie. Hanté par les horreurs qu'il a vues, il peint pour les comprendre et les vaincre.
+Illaoi|La prêtresse d'un dieu-serpent de Bilgewater, colosse aux bras de fer, qui frappe avec une idole géante. Elle ne doute de rien, surtout pas d'elle-même.
+Irelia|Une danseuse ionienne devenue chef de guerre pendant l'invasion noxienne. Ses lames flottent autour d'elle comme des partenaires de danse.
+Ivern|Un vieil homme devenu arbre ambulant, ami de toutes les plantes et de toutes les bêtes. Il se balade avec Daisy, une golem de pierre qui l'adore.
+Janna|L'esprit du vent, protectrice de ceux qui se perdent. Les marins et les petites gens de Zaun prient encore pour elle.
+Jarvan IV|Le prince héritier de Demacia, chef de guerre courageux, qui veut prouver qu'il est digne du trône. Garen est son meilleur ami.
+Jax|Un maître d'armes légendaire, dernier guerrier d'une civilisation disparue. Il se bat avec un lampadaire, et personne ne l'a jamais vu sans son masque.
+Jayce|Un inventeur brillant de Piltover, défenseur de sa ville avec son marteau qui se transforme en canon. Héros pour les uns, prétentieux pour les autres.
+Jhin|Un tueur de Ionia qui voit chaque meurtre comme une œuvre d'art. Il signe ses crimes de quatre balles, toujours quatre.
+Jinx|Une jeune criminelle de Zaun, folle de poudre et de chaos, armée d'un lance-roquettes requin nommé Fishbones. Elle est la petite sœur de Vi. Et elle ne va pas bien.
+K'Sante|Un chasseur de monstres de Shurima, fierté de sa cité, qui protège les siens des bêtes géantes du désert avec deux énormes boucliers.
+Kai'Sa|Une jeune femme tombée dans le Néant enfant, qui y a survécu des années grâce à une armure vivante. Elle chasse les créatures qui ont failli la dévorer.
+Kalista|L'esprit de la vengeance, morte trahie il y a des siècles. Ceux qui ont été trahis l'appellent la nuit, et elle vient toujours.
+Karma|La sagesse vivante d'Ionia, qui porte en elle les âmes de toutes ses vies passées. Elle préfère la paix, mais sait se défendre.
+Karthus|Un liche des Îles obscures, poète de la mort. Il pense que mourir est la plus belle chose qui puisse arriver, et il aimerait vous l'offrir.
+Kassadin|Un explorateur du désert parti dans le Néant pour sauver sa fille. Il en est revenu changé, et il traque désormais les prophètes de l'abîme.
+Katarina|Une assassine de Noxus, la plus rapide de sa génération, fille d'une grande famille. Elle a un faible pour Garen, l'ennemi juré de son pays.
+Kayle|Une guerrière céleste aux ailes de flammes, juge implacable du bien et du mal. Sa propre sœur, Morgana, a choisi l'autre camp.
+Kayn|Un jeune assassin ionien qui a ramassé une faux darkin vivante. Ils se disputent le contrôle de son corps, et Kayn est très sûr de gagner.
+Kennen|Un petit yordle ninja aussi rapide que l'éclair, au service de l'ordre qui maintient l'équilibre d'Ionia. Il est très sérieux. Il fait aussi beaucoup de blagues.
+Kha'Zix|Un insecte prédateur du Néant qui évolue en mangeant ses proies. Chaque combat le rend plus fort, et il le sait.
+Kindred|Deux esprits en un : l'Agneau et le Loup, les visages de la mort. Ils viennent chercher tout le monde, un jour. Certains choisissent le loup.
+Kled|Un yordle de Noxus, soldat colérique, qui chevauche Skaarl, un lézard peureux. Il crie beaucoup et ne recule jamais. Skaarl, lui, recule souvent.
+Kog'Maw|Une créature du Néant qui ressemble à un chien affamé. Elle crache de l'acide et mange tout ce qu'elle trouve, y compris ce qui n'est pas comestible.
+LeBlanc|Une magicienne de Noxus, maîtresse des illusions et des complots, à la tête d'une société secrète. On ne sait jamais si c'est vraiment elle.
+Lee Sin|Un moine aveugle d'Ionia, maître des arts martiaux. Il a perdu la vue pour expier une erreur, et il voit mieux que tout le monde.
+Leona|Une guerrière choisie par le Soleil, sur le mont Targon, qui porte son bouclier comme une lumière. Elle protège, et elle n'abandonne jamais.
+Lillia|Une biche-esprit timide, née d'un rêve dans une forêt d'Ionia, qui veut apporter de beaux rêves aux autres. Elle bégaie quand on la regarde.
+Lissandra|La sorcière des glaces du Freljord, millénaire, qui a scellé sous la glace des êtres terrifiants. Elle manipule le Nord depuis l'ombre.
+Locke|Un exorciste de Demacia, héritier d'une lignée d'occultistes, qui perce les âmes pour en révéler la noirceur. Inquiétant même pour ceux qu'il protège.
+Lucian|Un chasseur de morts-vivants, deux pistolets à la main. Sa femme Senna a été prise par le spectre Thresh, et sa vengeance ne s'éteint jamais.
+Lulu|Une fée yordle complètement imprévisible, qui transforme ses ennemis en écureuils et ses amis en géants. Elle voit le monde en couleurs que personne d'autre ne voit.
+Lux|Une jeune noble de Demacia qui cache un secret : elle est mage, dans un royaume qui enferme les mages. Lumineuse au sens propre, généreuse, et en danger.
+Malphite|Un fragment vivant d'un monolithe de pierre, qui cherche l'ordre dans un monde trop mouvant. Il parle peu. Lentement. Mais il est très, très solide.
+Malzahar|Un prophète de Shurima qui a entendu les voix du Néant et leur obéit. Il croit qu'il sauve le monde en le livrant à l'abîme.
+Maokai|Un arbre géant, autrefois paisible, rendu furieux par la malédiction qui a ravagé son île. Il protège ce qui reste de vivant contre les spectres.
+Master Yi|Le dernier maître d'une école de sabre ionienne, détruite pendant la guerre. Il se bat les yeux couverts de lunettes étranges, et il est d'une vitesse incroyable.
+Mel|Une politicienne brillante de Piltover, héritière d'une famille de Noxus, qui découvre en elle une magie d'or et de lumière. Elle a toujours un coup d'avance.
+Milio|Un jeune garçon d'Ixtal qui maîtrise un feu qui soigne au lieu de brûler. Il veut devenir assez fort pour ramener sa famille à la maison.
+Miss Fortune|Une capitaine de Bilgewater, chasseuse de primes aux deux pistolets. Elle a renversé Gangplank, le pirate qui a tué ses parents sous ses yeux.
+Mordekaiser|Un roi-sorcier mort il y a des siècles, revenu dans une armure de fer. Il règne dans un monde des morts où il enferme les âmes de ses ennemis.
+Morgana|Un ange déchu qui a choisi de vivre parmi les humains et de défendre les rejetés. Sa sœur Kayle la juge. Elle, elle pardonne. Presque toujours.
+Naafiri|Une meute de chiens du désert de Shurima, guidée par l'esprit d'une lame darkin. Une seule voix, cent mâchoires.
+Nami|Une sirène des profondeurs, porteuse de la pierre de lune de son peuple. Elle a quitté l'océan pour retrouver ce qui menace la mer.
+Nasus|Un gardien de Shurima à tête de chacal, savant éternel. Il veille sur les secrets de son empire, et sur son frère Renekton, devenu fou.
+Nautilus|Un scaphandrier titanesque, ancien plongeur de Bilgewater devenu monstre des abysses. Il traîne son ancre géante et cherche à se souvenir de qui il était.
+Neeko|Une vastaya caméléon, curieuse et adorable, qui peut prendre l'apparence de n'importe qui. Elle cherche une famille, et elle adore les fleurs.
+Nidalee|Une chasseuse élevée par les fauves dans la jungle d'Ixtal, qui peut se changer en couguar. Elle se méfie des humains, à raison.
+Nilah|Une guerrière venue d'ailleurs, porteuse d'un démon de la joie, qui affronte les monstres anciens avec un sourire constant et un fouet d'eau.
+Nocturne|Un cauchemar devenu réel, né des pires rêves de Runeterra. Il rôde dans l'ombre et se nourrit de la peur.
+Nunu & Willump|Un petit garçon et son ami yéti géant, qui parcourent le Freljord à la recherche de la mère de Nunu. Willump fait des boules de neige énormes.
+Olaf|Un berserker du Freljord dont toute la vie est guidée par un seul rêve : mourir glorieusement au combat. Il n'y arrive pas. Il insiste.
+Orianna|Une jeune fille mécanique de Piltover, créée par son père inventeur, qui contrôle une boule de métal pleine de magie. Elle apprend ce que c'est d'être humaine.
+Ornn|Le demi-dieu forgeron du Freljord, qui vit seul dans un volcan et forge les plus belles armes du monde. Il n'aime pas qu'on le dérange. Du tout.
+Pantheon|Un soldat de Targon qui a survécu à l'esprit de la guerre censé l'habiter. Il a tué un dieu et porte désormais seul sa lance et son bouclier.
+Poppy|Une petite yordle forgeronne, armée d'un marteau immense, qui cherche le héros d'une légende de Demacia. Elle ne réalise pas que c'est peut-être elle.
+Pyke|Un harponneur de Bilgewater noyé par ses compagnons, revenu des profondeurs. Il a une liste de noms, et il les barre un par un.
+Qiyana|L'héritière ambitieuse d'Ixtal, maîtresse des éléments, qui veut le trône de sa cité dorée. Elle est convaincue d'être l'impératrice que le monde attend.
+Quinn|Une éclaireuse de Demacia, inséparable de Valor, son aigle. Ensemble, ils voient tout et frappent du ciel.
+Rakan|Un vastaya oiseau, danseur et séducteur, compagnon de Xayah. Il fait le spectacle ; elle fait le reste. Ils s'aiment à la folie.
+Rammus|Un tatou armuré de Shurima qui roule en boule à toute vitesse. Il ne dit presque rien, sauf « OK ». Certains le croient dieu.
+Rek'Sai|Une reine du Néant qui nage sous le sable de Shurima et sent ses proies à leurs vibrations. Quand le sol tremble, il est déjà trop tard.
+Rell|Une jeune femme de Noxus enlevée par une secte qui fabriquait des armes humaines. Elle contrôle le métal et a juré de détruire ceux qui l'ont faite ainsi.
+Renata Glasc|Une baronne chimiste de Zaun, à la tête d'un empire de laboratoires. Elle offre des contrats à tout le monde, et tout le monde finit par payer.
+Renekton|Un ancien gardien de Shurima à tête de crocodile, rendu fou par des millénaires d'enfermement. Il en veut à son frère Nasus, et au monde entier.
+Rengar|Un chasseur vastaya à tête de lion, qui collectionne les trophées des proies les plus dangereuses. Il cherche une seule bête : celle qui lui a pris un œil.
+Riven|Une ancienne soldate de Noxus qui a déserté après avoir vu les horreurs de l'invasion d'Ionia. Elle porte une lame brisée et une culpabilité qui ne se brise pas.
+Rumble|Un petit yordle mécanicien qui pilote un robot fait de bric et de broc. Il est fier, susceptible, et fou amoureux de Tristana.
+Ryze|Un vieux mage errant, plus vieux que la plupart des royaumes, qui cache des runes capables de détruire le monde. Il ne fait confiance à personne.
+Samira|Une mercenaire de Shurima, casse-cou adorant le danger et le style, qui se bat avec pistolet et épée. Elle cherche toujours un défi plus grand.
+Sejuani|La cheffe guerrière de la Griffe hivernale, la tribu la plus dure du Freljord. Elle chevauche un sanglier géant et veut unir le Nord par la force.
+Senna|L'épouse de Lucian, longtemps prisonnière de la lanterne de Thresh. Libérée, elle chasse la Brume noire avec un grand canon.
+Seraphine|Une jeune chanteuse de Piltover qui entend les émotions des autres comme de la musique. Elle veut réconcilier sa ville et Zaun en chantant.
+Sett|Le patron des arènes clandestines d'Ionia, moitié vastaya, moitié noxien, aux poings énormes. Il fait tout ça pour sa mère, et il ne s'en cache pas.
+Shaco|Un bouffon démoniaque qui adore les farces mortelles et les boîtes à surprise. Personne ne sait d'où il vient. Personne n'a envie de le savoir.
+Shen|Le chef de l'ordre Kinkou d'Ionia, gardien de l'équilibre entre le monde réel et celui des esprits. Calme, distant, et ancien ami de Zed.
+Shyvana|Une demi-dragonne de Demacia, au service du prince Jarvan, qui peut se transformer en dragon. Dans un royaume qui craint la magie, elle reste loyale.
+Singed|Un chimiste de Zaun sans aucune morale, inventeur des pires poisons. Il court en laissant derrière lui un nuage toxique.
+Sion|Un héros de guerre de Noxus, mort depuis longtemps, ramené à la vie pour se battre encore. Il ne se souvient presque de rien, sauf de la rage.
+Sivir|Une mercenaire de Shurima, cheffe de bande, armée d'une lame en croix. Elle se bat pour l'or, et découvre qu'elle descend d'un empereur.
+Skarner|Un scorpion géant de cristal, gardien d'une race ancienne qui dort sous Shurima. Il protège ses frères endormis contre tous les pillards.
+Smolder|Un dragonnet, héritier d'une lignée de dragons, qui veut tout faire tout seul et cracher du feu comme maman. Il y arrive de mieux en mieux.
+Sona|Une musicienne de Demacia, muette, qui joue d'une harpe magique. Elle parle aux autres par la musique, et ils la comprennent.
+Soraka|Une enfant des étoiles tombée sur Runeterra pour soigner les mortels. Elle a renoncé à l'immortalité pour eux, et elle ne le regrette pas.
+Swain|Le grand général de Noxus, qui a pris le pouvoir de l'empire. Un démon habite son bras, et des corbeaux voient tout pour lui.
+Sylas|Un mage de Demacia, emprisonné pendant des années, qui peut voler la magie des autres. Évadé, il mène la révolte des mages contre le royaume.
+Syndra|Une mage d'Ionia au pouvoir immense, qu'on a enfermée pour la contrôler. Elle s'est libérée, et elle ne laissera plus personne la limiter.
+Tahm Kench|Un démon-poisson des fleuves, beau parleur, qui propose des marchés aux désespérés. On finit toujours dans son ventre.
+Taliyah|Une jeune tisseuse de pierre de Shurima, qui modèle la roche comme d'autres tissent la laine. Elle apprend à maîtriser un pouvoir qui la dépasse.
+Talon|Un assassin de Noxus, élevé dans la rue, adopté par la famille Du Couteau. Il est le frère de cœur de Katarina, et la lame la plus discrète de l'empire.
+Taric|Un ancien chevalier de Demacia, devenu le Bouclier de Valoran sur le mont Targon. Il protège la beauté du monde et le dit avec beaucoup de poésie.
+Teemo|Un petit yordle éclaireur de Bandle, toujours souriant, qui sème des champignons explosifs partout. Il est adorable. Il est aussi un peu terrifiant.
+Thresh|Un spectre geôlier des Îles obscures, qui enferme les âmes dans sa lanterne. Il collectionne la souffrance, et il est très patient.
+Tristana|Une yordle canonnière de Bandle, toute petite avec un énorme canon. Elle a la gâchette facile et le cœur sur la main.
+Trundle|Un roi des trolls de glace du Freljord, armé d'une massue de glace éternelle. Il est grossier, rusé, et redoutable.
+Tryndamere|Un roi barbare du Freljord, dernier survivant de son clan massacré, qui se bat avec une rage qui le garde en vie. Il est l'époux d'Ashe.
+Twisted Fate|Un joueur de cartes et escroc de Bilgewater, capable de se téléporter avec une carte magique. Il a laissé son partenaire, Graves, derrière lui un jour. Graves s'en souvient.
+Twitch|Un rat de Zaun qui a pris taille humaine dans les égouts, armé d'une arbalète empoisonnée. Il méprise les humains, qui gaspillent tout.
+Udyr|Un chaman du Freljord qui canalise les esprits des bêtes. Il porte en lui la force du tigre, de l'ours, de la tortue et du phénix.
+Urgot|Un ancien bourreau de Noxus, laissé pour mort à Zaun, devenu monstre mécanique. Il pense que la souffrance rend fort, et il en a eu beaucoup.
+Varus|Un archer ionien possédé par une arme darkin. Deux hommes et un démon se disputent le même corps.
+Vayne|Une chasseuse de sorcières de Demacia, qui a vu ses parents tués par une créature magique. Elle traque les ténèbres avec une arbalète, et ne fait aucune exception.
+Veigar|Un petit yordle mage noir qui veut conquérir le monde. Il est tout petit. Son pouvoir, lui, est immense.
+Vel'Koz|Une créature du Néant qui veut tout comprendre, et pour ça, tout désintégrer. Elle observe le monde comme un scientifique observe un insecte.
+Vex|Une yordle gothique, sombre et blasée, accompagnée de son ombre qui la protège. Elle déteste la joie, et la joie la poursuit partout.
+Vi|Une bagarreuse de Zaun aux poings d'acier, passée de la rue aux forces de l'ordre de Piltover. Elle cherche à sauver sa petite sœur, Jinx.
+Viego|Le roi déchu qui a provoqué la Ruine, une malédiction qui a changé un royaume entier en Îles obscures. Il ne voulait que ramener sa reine morte.
+Viktor|Un inventeur de Zaun, au corps augmenté de métal, qui rêve de libérer l'humanité de sa faiblesse. Ancien partenaire de Jayce.
+Vladimir|Un mage de Noxus qui manipule le sang, élégant et millénaire. Il se maintient jeune avec celui des autres.
+Volibear|Un dieu-ours du Freljord, fait de foudre et de tempête. Il veut que le Nord reste sauvage, et il n'aime pas les villes.
+Warwick|Un ancien homme de Zaun transformé en bête par des expériences chimiques. Il chasse au flair de la peur, et il ne sait plus très bien qui il était.
+Wukong|Un singe vastaya, farceur et guerrier, armé d'un bâton qui s'allonge. Il cherche toujours un adversaire à sa mesure.
+Xayah|Une vastaya oiseau, rebelle et redoutable, qui lance ses plumes comme des lames. Avec Rakan, son compagnon, elle se bat pour la liberté de son peuple.
+Xerath|Un mage de Shurima devenu pure énergie, enfermé des millénaires dans un sarcophage. Libéré, il veut le pouvoir de tout un empire.
+Xin Zhao|Le sénéchal de Demacia, garde du corps de la famille royale. Ancien esclave des arènes, il doit sa liberté et sa loyauté au roi.
+Yasuo|Un épéiste ionien qui maîtrise le vent, accusé à tort d'avoir tué son maître. Il a fui, et il a tué en fuyant, y compris son propre frère.
+Yone|Le grand frère de Yasuo, tué par lui, revenu de la mort avec deux sabres et un masque de démon. Il chasse les démons, et cherche la paix.
+Yorick|Le dernier d'un ordre de fossoyeurs des Îles obscures, armé d'une pelle. Il enterre les morts que la malédiction refuse de laisser reposer.
+Yunara|Une gardienne de l'ordre Kinkou, revenue après des siècles passés dans le monde des esprits pour purger le monde de la discorde.
+Yuumi|Une chatte magique, compagne d'une enchanteresse disparue, qui voyage dans un livre vivant. Elle s'accroche à ses amis pour les protéger. Elle fait surtout la sieste.
+Zaahen|Un dieu déchu de l'ancien peuple darkin, qui résiste à sa propre corruption et chasse ses frères et sœurs. Peut-être le seul darkin encore digne d'espoir.
+Zac|Une créature de gelée verte, fruit d'une expérience ratée de Zaun. Il peut prendre toutes les formes, et il a choisi d'être un héros.
+Zed|Le maître des ombres, ancien élève de l'ordre Kinkou d'Ionia, qui a choisi des techniques interdites pour défendre son pays. Shen a été son ami.
+Zeri|Une jeune fille de Zaun électrique, rapide comme l'éclair, qui protège son quartier avec un fusil à étincelles. Elle n'arrête jamais de parler, ni de courir.
+Ziggs|Un yordle de Bandle passionné d'explosifs, qui lance des bombes rebondissantes. Pour lui, plus c'est gros, mieux c'est.
+Zilean|Un mage du temps, très vieux, très distrait, qui peut ralentir les secondes ou revenir en arrière. Il cherche à empêcher une catastrophe qu'il a déjà vue.
+Zoe|L'incarnation du crépuscule, une enfant cosmique farceuse qui saute entre les mondes. Elle joue avec les portails. Et avec les gens.
+Zyra|Une plante tueuse devenue femme, née d'une magie ancienne. Elle fait pousser des ronces mortelles partout où elle passe.

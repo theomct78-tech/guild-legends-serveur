@@ -1,0 +1,126 @@
+# Champion|Clé|AVANTAGE:force,...|Ce que la compétence apporte à la guilde
+Poppy|P|PROTECTION:1|Un bouclier lancé qu'elle récupère.
+Poppy|Q|NUEE:1|Un coup de marteau qui fait trembler le sol.
+Poppy|W|PROTECTION:1,MAITRISE:1|Elle reste ferme et arrête ceux qui foncent.
+Poppy|E|MAITRISE:2|Une charge héroïque qui plaque l'ennemi contre un mur.
+Poppy|R|MAITRISE:2,PROTECTION:1,RENOMMEE:1|Le verdict du gardien : elle expédie l'ennemi au loin.
+Pyke|P|INFILTRATION:1,SURVIE:1|Un don des noyés : invisible aux yeux de l'ennemi, il se régénère.
+Pyke|Q|TRAQUE:2|Un harpon qui ramène sa proie.
+Pyke|W|INFILTRATION:2,CELERITE:1|Il plonge dans les eaux fantômes, camouflé.
+Pyke|E|MAITRISE:1|Un courant fantôme qui étourdit.
+Pyke|R|SIEGE:2,OR:2|La mort venue des profondeurs : chaque exécution rapporte de l'or à ses alliés.
+Qiyana|P|ASSAUT:1|Le privilège royal frappe chaque nouvelle cible.
+Qiyana|Q|NUEE:1|Un tranchant élémentaire.
+Qiyana|W|INFILTRATION:1,CELERITE:1|Elle puise dans l'élément, et l'herbe la cache.
+Qiyana|E|CELERITE:1,TRAQUE:1|Une audace qui la projette sur sa cible.
+Qiyana|R|MAITRISE:2,NUEE:2|Une démonstration de force : le terrain explose.
+Quinn|P|ASSAUT:1|Valor marque les ennemis vulnérables.
+Quinn|Q|MAITRISE:1|Une attaque aveuglante.
+Quinn|W|RECONNAISSANCE:3|Des sens aiguisés : Valor révèle toute la zone.
+Quinn|E|MAITRISE:1,CELERITE:1|Une voltige qui repousse.
+Quinn|R|CELERITE:3,RECONNAISSANCE:1|Derrière les lignes : elle voyage avec Valor à une vitesse folle.
+Rakan|P|PROTECTION:1|Un bouclier de plumes.
+Rakan|Q|SOINS:2|Une plume brillante qui soigne ses alliés.
+Rakan|W|MAITRISE:2,CELERITE:1|Une grande entrée qui projette les ennemis.
+Rakan|E|PROTECTION:1,CELERITE:1|Il vole vers un allié pour le protéger.
+Rakan|R|MAITRISE:2,CELERITE:1,INFILTRATION:1|Une danse charmeuse qui envoûte.
+Rammus|P|PROTECTION:1|Une carapace à pointes.
+Rammus|Q|CELERITE:2,MAITRISE:1|Une boule de pointes qui roule à toute vitesse.
+Rammus|W|PROTECTION:2|Il se roule en défense.
+Rammus|E|MAITRISE:2|Une provocation qui attire tous les coups.
+Rammus|R|NUEE:2,MAITRISE:1|Un saut qui fait trembler le sol.
+Rek'Sai|P|SURVIE:1|La fureur des Xer'Sai la soigne.
+Rek'Sai|Q|ASSAUT:1|Une rage de la reine.
+Rek'Sai|W|RECONNAISSANCE:3|Elle s'enfouit et sent chaque mouvement sous le sable.
+Rek'Sai|E|SIEGE:1,CELERITE:1|Une morsure furieuse, ou un tunnel creusé.
+Rek'Sai|R|TRAQUE:2,SIEGE:1|Un assaut du Néant sur une proie marquée.
+Rell|P|ASSAUT:1|Une brisure de fer qui vole l'armure.
+Rell|Q|MAITRISE:1|Une lance brisante.
+Rell|W|MAITRISE:2,PROTECTION:1|Ferromancie : elle descend de cheval et projette l'ennemi.
+Rell|E|PROTECTION:1,CELERITE:1|Une attraction qui lie un allié à elle.
+Rell|R|MAITRISE:2,NUEE:1|Une tempête magnétique qui attire l'ennemi.
+Renata Glasc|P|ASSAUT:1|Un levier qui marque l'ennemi.
+Renata Glasc|Q|TRAQUE:1,MAITRISE:1|Une poignée de main qui attire et projette.
+Renata Glasc|W|SURVIE:3|Un renflouement : un allié qui tombe peut se relever.
+Renata Glasc|E|PROTECTION:1,MAITRISE:1|Un programme de fidélité qui protège et ralentit.
+Renata Glasc|R|MAITRISE:2,NUEE:1,OR:1|Une OPA hostile. Les affaires sont les affaires.
+Renekton|P|ASSAUT:1|Sa fureur grandit à chaque coup.
+Renekton|Q|NUEE:1,SURVIE:1|Il massacre tout autour de lui et se soigne.
+Renekton|W|MAITRISE:1|Une frappe impitoyable qui étourdit.
+Renekton|E|CELERITE:2|Il tranche et fonce.
+Renekton|R|SURVIE:2,NUEE:1,INSPIRATION:-1|Le dominateur : sa folie s'éveille.
+Rengar|P|TRAQUE:1,INFILTRATION:1|Il bondit depuis les hautes herbes.
+Rengar|Q|ASSAUT:1|Une sauvagerie.
+Rengar|W|SURVIE:1|Un cri de guerre qui le soigne.
+Rengar|E|MAITRISE:1|Des bolas qui immobilisent.
+Rengar|R|RECONNAISSANCE:2,TRAQUE:2,INFILTRATION:1|Le frisson de la chasse : il devient invisible et révèle sa proie.
+Riven|P|ASSAUT:1|Sa lame runique renforce ses coups.
+Riven|Q|CELERITE:1,MAITRISE:1|Des ailes brisées : trois bonds, le dernier projette.
+Riven|W|MAITRISE:1|Un ki brut qui étourdit autour d'elle.
+Riven|E|PROTECTION:1,CELERITE:1|Une bravoure qui la protège.
+Riven|R|SIEGE:2,NUEE:1|Lame de l'exil : une onde qui achève les blessés.
+Rumble|P|ASSAUT:1|La surchauffe renforce ses tirs.
+Rumble|Q|NUEE:1|Un lance-flammes.
+Rumble|W|PROTECTION:1,CELERITE:1|Un bouclier de ferraille.
+Rumble|E|MAITRISE:1|Un harpon électrique qui ralentit.
+Rumble|R|NUEE:2,SIEGE:1,BUTIN:1|L'égaliseur ; le mécanicien récupère toujours des pièces.
+Ryze|P|ASSAUT:1,BUTIN:1|Gardien des runes, il sait reconnaître les artefacts de valeur.
+Ryze|Q|ASSAUT:1|Une surcharge de runes.
+Ryze|W|MAITRISE:1|Une prison de runes qui immobilise.
+Ryze|E|NUEE:1|Un flux de sorts qui se propage.
+Ryze|R|CELERITE:3,PROTECTION:1|Un portail qui transporte toute l'équipe à destination.
+Samira|P|ASSAUT:1,RENOMMEE:1|Son style flamboyant : plus elle enchaîne, plus on parle d'elle.
+Samira|Q|ASSAUT:1,NUEE:1|Un tir ou un coup de sabre.
+Samira|W|PROTECTION:1|Une lame tourbillonnante qui détruit les projectiles.
+Samira|E|CELERITE:1|Une ruée sauvage.
+Samira|R|NUEE:2,RENOMMEE:1|L'enfer déchaîné : elle tire dans toutes les directions.
+Sejuani|P|PROTECTION:1|La fureur du nord la cuirasse.
+Sejuani|Q|MAITRISE:1,CELERITE:1|Une charge arctique qui projette.
+Sejuani|W|NUEE:1|La colère de l'hiver.
+Sejuani|E|MAITRISE:1|Un givre permanent qui étourdit.
+Sejuani|R|MAITRISE:2,NUEE:1,INSPIRATION:1|Un glaçon qui fige l'ennemi ; la chef de guerre mène les siens.
+Senna|P|BUTIN:1,SIEGE:1|Elle recueille la brume des âmes et les libère.
+Senna|Q|SOINS:2,ASSAUT:1|Une ténèbre perçante qui soigne les alliés et frappe les ennemis.
+Senna|W|MAITRISE:1|Une dernière étreinte qui immobilise.
+Senna|E|INFILTRATION:2|Une malédiction de la brume noire qui camoufle l'équipe.
+Senna|R|PROTECTION:2,TRAQUE:1|Une ombre d'aube qui protège les alliés sur toute sa ligne.
+Seraphine|P|NUEE:1|Une présence scénique qui renforce ses sorts.
+Seraphine|Q|ASSAUT:1|Une note aiguë.
+Seraphine|W|PROTECTION:1,SOINS:1|Un son surround qui protège et soigne.
+Seraphine|E|MAITRISE:1|Un battement qui ralentit puis immobilise.
+Seraphine|R|MAITRISE:2,INSPIRATION:1,CONCORDE:1|Un rappel qui charme l'ennemi ; sa musique rassemble.
+Sett|P|ASSAUT:1|Des coups de poing alternés.
+Sett|Q|ASSAUT:1,CELERITE:1|Il fonce sur l'ennemi.
+Sett|W|PROTECTION:1,NUEE:1|Il encaisse puis frappe avec sa rage.
+Sett|E|MAITRISE:2|Il cogne les ennemis les uns contre les autres.
+Sett|R|NUEE:1,SIEGE:1,RENOMMEE:1|Le clou du spectacle, devant toute la fosse.
+Shaco|P|ASSAUT:1|Une traîtrise : il frappe dans le dos.
+Shaco|Q|INFILTRATION:3|Une tromperie : il disparaît et réapparaît ailleurs.
+Shaco|W|RECONNAISSANCE:1,MAITRISE:1|Une boîte surprise qui terrifie les intrus.
+Shaco|E|MAITRISE:1|Un poison double qui ralentit.
+Shaco|R|INFILTRATION:2,NUEE:1|Une hallucination : un double trompe l'ennemi.
+Shen|P|PROTECTION:1|Une barrière de ki.
+Shen|Q|ASSAUT:1|Sa lame crépusculaire revient vers lui.
+Shen|W|PROTECTION:2|Un refuge spirituel où les coups ne passent pas.
+Shen|E|MAITRISE:1,CELERITE:1|Une ruée qui provoque.
+Shen|R|PROTECTION:2,CELERITE:2,CONCORDE:1|Il rejoint et protège un allié n'importe où. L'Œil du crépuscule garde l'équilibre.
+Shyvana|P|PROTECTION:1|Une écaille draconique.
+Shyvana|Q|ASSAUT:1|Une morsure double.
+Shyvana|W|NUEE:1,CELERITE:1|Elle s'embrase et court.
+Shyvana|E|SIEGE:1|Un souffle de flammes qui marque.
+Shyvana|R|NUEE:2,CELERITE:1,MAITRISE:1|Elle devient dragon et charge.
+Singed|P|CELERITE:1|Une trace d'empoisonneur qui accélère.
+Singed|Q|NUEE:2|Une trainée de poison.
+Singed|W|MAITRISE:2|Une colle visqueuse.
+Singed|E|MAITRISE:1|Il projette l'ennemi par-dessus son épaule.
+Singed|R|SURVIE:1,CELERITE:1,PROTECTION:1|Un mélange insensé qui le rend plus fort en tout.
+Sion|P|SURVIE:2|Même mort, il continue de se battre quelques instants.
+Sion|Q|MAITRISE:2|Un coup décimateur qui projette.
+Sion|W|PROTECTION:1|Un fourneau d'âme qui le protège.
+Sion|E|NUEE:1|Un rugissement meurtrier.
+Sion|R|MAITRISE:1,CELERITE:2,SIEGE:1|Une charge implacable, impossible à arrêter.
+Sivir|P|CELERITE:1|Une vitesse de combat.
+Sivir|Q|NUEE:1|Une lame boomerang.
+Sivir|W|NUEE:1,OR:1|Un ricochet. La mercenaire ne travaille jamais pour rien.
+Sivir|E|PROTECTION:2|Un bouclier magique qui absorbe un sort.
+Sivir|R|CELERITE:3,INSPIRATION:1|À la chasse ! Toute l'équipe accélère.
