@@ -1,0 +1,37 @@
+# Guild Legends — les lettres entre héros (10 nov. 2026, demande de Théo)
+# Après un contrat mené ensemble, deux héros qui se sont très bien ou très mal entendus s'écrivent. La lettre passe par le
+# maître de guilde, qui la confie à l'oiseau, et arrive dans l'autre repère après le vol. Pure immersion, aucun effet.
+#
+# Format : registre|ton|texte        registre : la voix de l'auteur (noble, rue, sage, brut, joyeux, sombre, singulier)
+#                                     ton : merci (bonne entente) ou reproche (mauvaise entente)
+# Jetons : {b} (le destinataire), {lieu}, {a_lieu}, {mission}.
+# Règles : comme un message qu'on envoie vraiment à quelqu'un. Aucun accord de genre, ni sur l'auteur ni sur le destinataire.
+
+noble|merci|« {b}, je tenais à te l'écrire plutôt qu'à le laisser passer : travailler avec toi {a_lieu} a été un vrai plaisir. Tu as tenu ta place sans jamais lâcher la mienne. Si nos guildes se recroisent, j'espère que ce sera encore toi. »
+noble|merci|« {b}, on ne se connaît que depuis « {mission} », et pourtant j'ai l'impression d'avoir fait dix campagnes avec toi. Merci pour ton sang-froid. Je sais sur qui compter, maintenant. »
+noble|reproche|« {b}, je vais rester calme. Ce que tu as fait {a_lieu} nous a mis en danger, et tu le sais. Je ne demande pas d'excuses, je demande que tu y réfléchisses avant le prochain contrat. »
+noble|reproche|« {b}, j'ai attendu deux jours avant d'écrire, pour ne pas le faire sous le coup de la colère. Je suis toujours en colère. On ne laisse pas son équipe se débrouiller comme tu l'as fait. »
+rue|merci|« {b} ! Bon, j'écris jamais, donc profite. T'as assuré {a_lieu}. Vraiment. Sans toi je rentrais en morceaux. La prochaine tournée est pour moi, où tu veux, quand tu veux. »
+rue|merci|« Salut {b}. Je voulais juste dire : on forme une bonne équipe, toi et moi. Je le dis pas souvent. Je le dis jamais, en fait. Garde cette lettre, y en aura pas deux. »
+rue|reproche|« {b}, t'as un problème ou quoi ? « {mission} », ça devait être simple. T'as tout compliqué, et c'est moi qui ai ramassé. La prochaine fois, tu restes chez toi, ça m'arrange. »
+rue|reproche|« Je vais faire court, {b} : je bosse plus avec toi. T'écoutes rien, tu fonces, et après tu fais comme si de rien n'était. Trouve-toi quelqu'un d'autre à énerver. »
+sage|merci|« {b}, il y a des gens avec qui tout devient plus simple, et tu en fais partie. Je repense souvent à ce moment {a_lieu} où on s'est compris sans se parler. Merci pour ça. Prends soin de toi. »
+sage|merci|« {b}, je t'écris sans raison particulière, sinon celle-ci : j'ai aimé faire ce chemin avec toi. Ça arrive rarement. Je voulais que tu le saches avant que la vie nous envoie ailleurs. »
+sage|reproche|« {b}, je ne t'en veux pas, mais je préfère être honnête : on n'a pas réussi à travailler ensemble, et j'y ai ma part. La tienne, c'est de ne jamais écouter. Pense-y, sans rancune. »
+sage|reproche|« {b}, j'ai cherché ce que j'aurais pu faire autrement {a_lieu}. J'ai trouvé deux ou trois choses. J'aimerais que tu fasses le même effort de ton côté. Ça nous servira à tous les deux. »
+brut|merci|« {b}. Bon travail. Je recommence avec toi quand tu veux. »
+brut|merci|« {b}. Tu parles trop, mais tu te bats bien et tu lâches personne. Ça me va. À la prochaine. »
+brut|reproche|« {b}. Tu as été dans mes jambes tout le long. Ne recommence pas. »
+brut|reproche|« {b}. Mauvais travail. Tu le sais. Fais mieux ou reste loin. »
+joyeux|merci|« {b} !! C'était trop bien ! Même le moment où tout a failli rater, surtout ce moment-là en fait. Dis à ton repère que je t'emprunte dès qu'il y a un nouveau contrat. Je t'embrasse fort ! »
+joyeux|merci|« Coucou {b} ! Je raconte « {mission} » à tout le monde ici et personne ne me croit pour ton coup de la fin. Reviens vite leur prouver. Tu me manques déjà un peu, c'est bête. »
+joyeux|reproche|« {b}, je suis de bonne composition, tout le monde te le dira. Mais là, non. Tu m'as gâché tout le contrat avec ta mauvaise humeur. Je te pardonnerai sûrement. Pas aujourd'hui. »
+joyeux|reproche|« Bon, {b}. J'essaie de trouver un truc gentil à dire sur notre travail {a_lieu}. Je cherche encore. Je te réécris si je trouve. »
+sombre|merci|« {b}. Je fais confiance à très peu de monde. Tu viens d'entrer dans une liste très courte. N'en fais pas toute une histoire. »
+sombre|merci|« {b}, j'ai l'habitude de surveiller mes arrières sans l'aide de personne. Pour une fois, {a_lieu}, je n'ai pas eu à le faire. Je n'oublie pas ce genre de chose. »
+sombre|reproche|« {b}. J'ai une bonne mémoire, et « {mission} » y est rangé à ton nom. On en reparlera, toi et moi, un jour où on aura le temps. »
+sombre|reproche|« {b}, tu as fait une erreur {a_lieu}. Pas pendant le contrat : en me prenant pour quelqu'un qui laisse passer. »
+singulier|merci|« {b} : tu es une des rares choses de ce voyage que je n'avais pas prévues, et la seule que je referais. C'est un compliment. Je crois. Je débute. »
+singulier|merci|« {b}, j'ai observé comment tu travailles. J'ai appris quelque chose, ce qui ne m'arrive presque jamais. Je garde ton nom. C'est bon signe pour toi. »
+singulier|reproche|« {b}, j'ai essayé de comprendre ta façon de faire. Je n'ai pas réussi. Je ne réessaierai pas. »
+singulier|reproche|« {b} : notre collaboration a été une expérience. Le résultat est clair. On ne la refera pas. »

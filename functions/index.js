@@ -153,6 +153,12 @@ const ACTIONS = {
   allianceAccepter: (m, g, d) => W.accepterAlliance(m, d.cle, g),
   allianceRompre: (m, g, d) => W.rompreAlliance(m, g, d.guilde),
   chien: (m, g, d) => W.nommerChien(m, g, d.nom),
+  solde: (m, g, d) => W.changerSolde(m, g, d.heros, d.sens > 0 ? 1 : -1),
+  conges: (m, g, d) => W.donnerConges(m, g, d.heros, Number(d.jours) || 2),
+  action: (m, g, d) => W.lancerAction(m, g, String(d.id || '')),
+  geste: (m, g, d) => W.faireGeste(m, g, d.heros, String(d.id || '')),
+  missive: (m, g, d) => W.envoyerMissive(m, g, d.guilde, d.texte),
+  image: (m, g, d) => W.choisirImage(m, g, { cle: d.cle || null, photo: d.photo || null }),
   lu: (m, g, d) => { const r = (m.guildes[g].rapports || []).find(x => x.id === d.rapport); if (r) r.lu = true; return true; },
 };
 exports.agir = onCall({ region: REGION, memory: '1GiB', timeoutSeconds: 120 }, async (req) => {

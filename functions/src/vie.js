@@ -54,21 +54,24 @@ const LIEUX = {
   sanctuaire: 'le sanctuaire', infirmerie: 'l\'infirmerie', cuisines: 'les cuisines',
   salle_armes: 'la salle d\'armes', ecuries: 'les écuries', forge: 'la forge', salle_cartes: 'la salle des cartes', aile_nord: 'l\'aile nord',
   bains: 'les bains', galerie: 'la galerie des trophées', observatoire: 'l\'observatoire', grand_hall: 'le grand hall',
+  brief: 'la salle de brief', jardin: 'le jardin',
 };
-const LIEUX_DE_BASE = ['dortoirs', 'salle_commune', 'cour', 'remparts', 'ville'];
+const LIEUX_DE_BASE = ['dortoirs', 'salle_commune', 'cour', 'remparts', 'ville', 'brief', 'jardin'];
 
 // gains : effet sur les besoins (énergie, social, élan = envie de progresser, loisir) ; lieux possibles par ordre de préférence.
 const ACTIVITES = {
   dormir:       { lieux: ['dortoirs'], gains: { energie: 30, loisir: 2 }, nuit: true },
-  repos:        { lieux: ['dortoirs', 'aile_nord', 'bains', 'remparts'], gains: { energie: 14, loisir: 4 } },
+  repos:        { lieux: ['dortoirs', 'aile_nord', 'bains', 'jardin', 'remparts'], gains: { energie: 14, loisir: 4 } },
   entrainement: { lieux: ['salle_armes', 'cour'], gains: { energie: -12, elan: 26, loisir: -2 } },
   discussion:   { lieux: ['salle_commune', 'cuisines', 'taverne', 'forge', 'salle_cartes', 'grand_hall', 'galerie'], gains: { energie: -2, social: 22, loisir: 6 } },
   jeux:         { lieux: ['taverne', 'salle_commune'], gains: { energie: -4, social: 14, loisir: 20 } },
   lecture:      { lieux: ['bibliotheque', 'salle_cartes', 'observatoire', 'salle_commune', 'remparts'], gains: { energie: 2, elan: 8, loisir: 14 } },
   ville:        { lieux: ['ville'], gains: { energie: -6, social: 8, loisir: 24 } },
-  solitude:     { lieux: ['remparts', 'ecuries', 'forge'], gains: { energie: 6, loisir: 10 } },
-  recueillement:{ lieux: ['sanctuaire', 'remparts'], gains: { energie: 6, loisir: 8, elan: 4 } },
+  solitude:     { lieux: ['jardin', 'remparts', 'ecuries', 'forge'], gains: { energie: 6, loisir: 10 } },
+  recueillement:{ lieux: ['sanctuaire', 'jardin', 'remparts'], gains: { energie: 6, loisir: 8, elan: 4 } },
   soins:        { lieux: ['infirmerie', 'dortoirs'], gains: { energie: 10 } },
+  // Placé sur un contrat : on prépare le départ en salle de brief (cartes, équipement, consignes), jusqu'à l'heure de partir.
+  brief:        { lieux: ['brief'], gains: { energie: 2, elan: 8 } },
 };
 
 // Attirance des traits pour les activités (s'ajoute à l'utilité).
@@ -297,9 +300,11 @@ function utilite(h, act, nuit, t = 0) {
 function simulerCreneau(g, scenes, detaille = true, arcs = null, quetes = null) {
   const rng = rngDepuis(`${g.id}#${g.t}`);
   const nuit = estNuit(g.t);
+  for (const l of ['brief', 'jardin']) if (!g.lieux.includes(l)) g.lieux.push(l);
   distribuerLettres(g);
   // Retours de congés et de soins (le voyage, lui, se termine par sa lettre de retour)
   for (const h of g.heros) if (h.etat !== 'present' && h.etat !== 'mission' && h.etat !== 'voyage' && h.jusqua != null && g.t >= h.jusqua) {
+    if (h.etat === 'rappel' && detaille) g.chronique.push({ t: g.t, lieu: 'cour', importance: 3, declencheur: 'contrat', scene: 'contrat#rappel_retour', heros: [h.id], texte: F.finir(`${h.nom} repasse le portail, la poussière de la route sur les bottes : le message de rappel a bien été reçu. Le contrat se fera sans ${h.nom}.`) });
     if (h.etat === 'conges') { h.besoins.energie = 95; h.besoins.loisir = 95; souvenir(h, g.t, 10, 'De retour de congés', 36); if (detaille) ecrire(g, scenes, 'retour_conges', [h], null, rng, 2); }
     h.etat = 'present'; h.jusqua = null;
   }
@@ -311,9 +316,10 @@ function simulerCreneau(g, scenes, detaille = true, arcs = null, quetes = null) 
   const lieuxPris = {};
   for (const h of ordre) {
     const options = [];
-    const imposee = h.prochaine; h.prochaine = null;
+    const imposee = h.reserve && !nuit ? 'brief' : h.prochaine; h.prochaine = null;
     for (const act of Object.keys(ACTIVITES)) {
       if (imposee && act !== imposee) continue;
+      if (act === 'brief' && !h.reserve) continue;
       // Le premier lieu disponible d'abord ; parfois un autre, pour que chaque pièce construite vive vraiment.
       const dispo = ACTIVITES[act].lieux.filter(l => g.lieux.includes(l)); if (!dispo.length) continue;
       const alt = rngDepuis(`${g.id}#${g.t}#${h.id}#${act}`)();
@@ -754,7 +760,7 @@ const enRepos = (g, h) => Boolean(h.reposJusqua && g.t < h.reposJusqua);
 function departMission(g, ids, retour) {
   const las = ids.map(id => g.heros.find(x => x.id === id)).filter(h => enRepos(g, h));
   if (las.length) throw new Error(`${las.map(h => h.nom).join(' et ')} ${las.length > 1 ? 'se remettent' : 'se remet'} encore de la dernière mission.`);
-  for (const id of ids) { const h = g.heros.find(x => x.id === id); h.etat = 'mission'; h.jusqua = retour; }
+  for (const id of ids) { const h = g.heros.find(x => x.id === id); h.etat = 'mission'; h.jusqua = retour; h.lieu = null; h.activite = null; }
 }
 function retourMission(g, ids, issue, { blesses = [], morts = [], violente = false, juste = null, mission = null } = {}) {
   // blesses : identifiants (blessure légère) ou { id, niveau: 'legere' | 'grave' }
@@ -860,7 +866,7 @@ function distribuerLettres(g) {
   if (!g.lettres?.length) return;
   const dues = g.lettres.filter(l => l.t <= g.t); g.lettres = g.lettres.filter(l => l.t > g.t);
   for (const l of dues) {
-    if (l.texte) g.chronique.push({ t: g.t, lieu: l.retour ? 'cour' : null, importance: l.retour ? 3 : 2, declencheur: 'voyage', scene: l.scene, heros: l.heros, texte: F.finir(l.texte) });
+    if (l.texte) g.chronique.push({ t: g.t, lieu: l.retour ? 'cour' : null, importance: l.retour ? 3 : 2, declencheur: l.dec || 'voyage', scene: l.scene, heros: l.heros, texte: F.finir(l.texte) });
     if (!l.retour) continue;
     for (const id of l.heros) { const h = g.heros.find(x => x.id === id); if (!h || h.etat !== 'voyage') continue;
       h.etat = 'present'; h.jusqua = null; h.besoins.energie = Math.min(h.besoins.energie, 30); h.aRaconter = 'recit_mission';

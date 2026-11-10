@@ -126,4 +126,22 @@ function accorder(g, texte) {
   return ACCORDS.reduce((t, [re, v]) => t.replace(re, v), texte);
 }
 
-module.exports = { accorder, GOUTS, gout, estime, juger, regardEnMots, raisonEstime, penteFidelite, SEUIL_QUETE };
+/*
+ * Pourquoi ce regard, et comment le faire évoluer : ce que le joueur lit quand il touche « ses griefs » ou « son estime ».
+ * Le point de départ dépend du caractère (un héros méfiant ou rebelle arrive avec des réserves) ; ensuite, chaque décision
+ * du maître compte, selon le ton qu'il ou elle apprécie.
+ */
+const TONS = { ferme: 'la fermeté', dur: 'la dureté', juste: 'les décisions justes', compatissant: 'la compassion', ecoute: 'l\'écoute',
+  genereux: 'la générosité', complice: 'la complicité', ruse: 'la ruse', laxiste: 'le laisser-faire', absent: 'les silences (ne pas répondre)' };
+const DEPART_TRAITS = { MEFIANT: 'se méfie par nature de toute autorité nouvelle', REBELLE: 'n\'aime pas recevoir d\'ordres', LIBRE: 'supporte mal qu\'on décide à sa place',
+  CYNIQUE: 'ne croit pas aux beaux discours d\'un maître de guilde', LOYAL: 'accorde volontiers sa confiance à qui l\'accueille' };
+function regardExplique(g, h) {
+  const r = regardEnMots(g, h), e = estime(g, h).estime;
+  const depart = Object.keys(DEPART_TRAITS).filter(t => h.traits.includes(t)).map(t => DEPART_TRAITS[t]);
+  const scores = Object.keys(TONS).map(t => [t, gout(h, t)]).sort((a, b) => b[1] - a[1]);
+  return { ...r, niveau: e < 48 ? 'griefs' : e > 52 ? 'estime' : 'neutre',
+    depart: accorder(g, depart.length ? `Dès son arrivée, ${h.nom} ${depart.join(', et ')}.` : `À son arrivée, ${h.nom} ne te connaissait pas : ni confiance, ni méfiance.`),
+    aime: scores.filter(x => x[1] >= 1.5).slice(0, 3).map(x => TONS[x[0]]), deteste: scores.filter(x => x[1] <= -1.5).slice(-3).reverse().map(x => TONS[x[0]]) };
+}
+
+module.exports = { accorder, GOUTS, gout, estime, juger, regardEnMots, regardExplique, raisonEstime, penteFidelite, SEUIL_QUETE };

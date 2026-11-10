@@ -1,0 +1,109 @@
+# Guild Legends — courrier des contrats (9 nov. 2026, demande de Théo)
+# Le correspondant de la Chambre des Bannières sur place écrit au maître de guilde : à l'arrivée des héros, puis à l'issue.
+# Les lettres voyagent par la voie des airs : elles arrivent au repère quelques heures après les faits (monde.js, volOiseau).
+#
+# Format : cle|variante|texte. Une lettre se compose de phrases entières, choisies selon ce qui s'est passé :
+#   entete (moment de la journée), moral (humeur et forme de chaque héros), activite (ce que fait le héros, selon son
+#   caractère), fin, puis issue, blessure, mort, retour. Rien n'est inventé au hasard : chaque phrase dépend d'un fait.
+# Jetons : {nom} (un héros), {noms} (tous), {lieu}, {a_lieu}, {de_lieu}, {heure}, {guilde}, {maitre} (« Maître »/« Maîtresse »),
+#          {retour} (« dans 9 h »), {mission}.
+# {e} s'accorde avec le maître ou la maîtresse, {je_e} avec le correspondant.
+# Aucun accord de genre sur un héros : « {nom} a rejoint », jamais « {nom} est arrivé ».
+# Les variantes 1 / n : une phrase pour un héros seul, une pour plusieurs.
+
+# ---------- Correspondants de la Chambre, un par région ----------
+signataire|demacia|Héloïse Brenn, correspondante de la Chambre des Bannières
+signataire|noxus|Varik Dorne, correspondant de la Chambre des Bannières
+signataire|freljord|Sigrun Hall, correspondante de la Chambre des Bannières
+signataire|ionia|Ishan Rei, correspondant de la Chambre des Bannières
+signataire|piltover|Cornélia Talbot, correspondante de la Chambre des Bannières
+signataire|zaun|Grisel Fenn, correspondante de la Chambre des Bannières
+signataire|shurima|Nadir Assa, correspondant de la Chambre des Bannières
+signataire|targon|Tavi Solen, correspondant de la Chambre des Bannières
+signataire|bilgewater|Ronan Quill, dit « Deux-Ancres », correspondant de la Chambre des Bannières
+signataire|ixtal|Ixia Teo, correspondante de la Chambre des Bannières
+signataire|bandle|Pimbo Ardoise, correspondant de la Chambre des Bannières (bureau de Bandle, troisième terrier à gauche)
+
+# ---------- À l'arrivée ----------
+entete|nuit:1|{maitre}, je vous écris à la lueur d'une lampe : {nom} est {a_lieu} depuis cette nuit, {heure}, une heure où tout le monde dormait déjà.
+entete|nuit:n|{maitre}, je vous écris à la lueur d'une lampe : {noms} sont {a_lieu} depuis cette nuit, {heure}, une heure où tout le monde dormait déjà.
+entete|matin:1|{maitre}, {nom} est {a_lieu} depuis ce matin, {heure}. Je suis allé{je_e} l'accueillir en personne, avec le café de la Chambre, qui n'est pas bon.
+entete|matin:n|{maitre}, {noms} sont {a_lieu} depuis ce matin, {heure}. Je suis allé{je_e} les accueillir en personne, avec le café de la Chambre, qui n'est pas bon.
+entete|jour:1|{maitre}, je vous confirme que {nom} est {a_lieu} depuis {heure}, aujourd'hui. Le contrat peut commencer à l'heure prévue.
+entete|jour:n|{maitre}, je vous confirme que {noms} sont {a_lieu} depuis {heure}, aujourd'hui. Le contrat peut commencer à l'heure prévue.
+entete|soir:1|{maitre}, {nom} est {a_lieu} depuis ce soir, {heure}, juste avant la tombée de la nuit. Une chambre l'attendait.
+entete|soir:n|{maitre}, {noms} sont {a_lieu} depuis ce soir, {heure}, juste avant la tombée de la nuit. Des chambres les attendaient.
+
+# Humeur et forme, pour chaque héros (moral : haut ≥ 70, moyen, bas < 45 ; forme : fatigue si l'énergie est basse).
+moral|haut|{nom} a l'air en pleine forme et a hâte de commencer. C'est agréable à voir, ce n'est pas toujours le cas.
+moral|haut|{nom} est de très bonne humeur. On l'a entendu rire depuis l'autre bout du campement.
+moral|haut|{nom} respire la confiance. Les gens d'ici l'ont remarqué, et ça les rassure.
+moral|moyen|{nom} semble d'humeur égale : ni enthousiasme ni mauvaise volonté. Du sérieux, en somme.
+moral|moyen|{nom} garde son calme, toute son attention tournée vers ce qui l'attend. Je n'ai rien à signaler de particulier.
+moral|moyen|{nom} a posé ses affaires sans faire de commentaire, et a demandé les dernières nouvelles. Rien à redire.
+moral|bas|Je me permets de vous le dire : {nom} n'a pas le moral. Peu de mots, le regard ailleurs. Je garde un œil sur la situation.
+moral|bas|Quelque chose préoccupe {nom}, qui n'a rien à voir avec le contrat. Vous savez peut-être de quoi il s'agit.
+moral|bas|{nom} a fait le trajet en silence, d'après les gens de la route, et n'a pas desserré les dents depuis. Je préfère vous prévenir.
+forme|fatigue|Le voyage a laissé des traces : {nom} a demandé un coin pour dormir avant même de poser ses affaires.
+forme|fatigue|La route a été rude pour {nom}. Une nuit de sommeil ne sera pas de trop avant le début du travail.
+forme|blessure|{nom} traîne encore une ancienne blessure. Notre médecin y a jeté un œil, par précaution.
+
+# Ce que fait le héros au moment où j'écris, selon son caractère (un trait suffit ; à défaut, son rôle).
+activite|ARISTOCRATE|À l'heure où j'écris, {nom} inspecte sa chambre avec une moue que je ne commenterai pas.
+activite|BAVARD|À l'heure où j'écris, {nom} a déjà fait le tour du campement pour se présenter à tout le monde. Deux fois.
+activite|BIENVEILLANT|À l'heure où j'écris, {nom} aide la cuisinière à porter l'eau, sans que personne ne l'ait demandé.
+activite|CALCULATEUR|À l'heure où j'écris, {nom} étudie nos cartes et me pose des questions auxquelles je n'avais pas pensé.
+activite|CHARMEUR|À l'heure où j'écris, {nom} discute avec le personnel de l'auberge, qui semble déjà sous le charme.
+activite|CUPIDE|À l'heure où j'écris, {nom} relit les termes du contrat, en particulier la ligne qui concerne la paie.
+activite|CURIEUX|À l'heure où j'écris, {nom} explore les environs. On m'a promis un retour avant la nuit.
+activite|CYNIQUE|À l'heure où j'écris, {nom} m'a expliqué en détail pourquoi notre plan ne marcherait pas. On verra bien.
+activite|DEVOT|À l'heure où j'écris, {nom} prie, à l'écart. Personne n'ose déranger ce moment.
+activite|ENJOUE|À l'heure où j'écris, {nom} joue aux osselets avec les enfants du coin, et perd exprès.
+activite|ERUDIT|À l'heure où j'écris, {nom} lit dans un coin, un livre emprunté à notre bureau. Le livre ne reviendra pas, je le sens.
+activite|FANATIQUE|À l'heure où j'écris, {nom} répète à qui veut l'entendre que la mission est une évidence. Personne n'ose contredire.
+activite|FARCEUR|À l'heure où j'écris, {nom} a déjà caché les bottes de notre garde. Je vous saurais gré de lui en parler.
+activite|FIER|À l'heure où j'écris, {nom} a exigé qu'on lui présente le responsable local. C'était moi. Je crois avoir déçu.
+activite|GOURMAND|À l'heure où j'écris, {nom} est à table. Pour la deuxième fois.
+activite|HANTE|À l'heure où j'écris, {nom} regarde par la fenêtre, longtemps, sans rien dire. Je n'ai pas osé l'interrompre.
+activite|HONORABLE|À l'heure où j'écris, {nom} a tenu à saluer chacun des gens qui ont demandé de l'aide. Ils en ont été très touchés.
+activite|IDEALISTE|À l'heure où j'écris, {nom} écoute les habitants raconter leurs malheurs, avec une attention sincère.
+activite|IMPLACABLE|À l'heure où j'écris, {nom} affûte ses armes, en silence. Les gardes l'évitent.
+activite|IMPULSIF|À l'heure où j'écris, {nom} voulait commencer tout de suite. J'ai dû insister pour qu'on attende l'heure prévue.
+activite|JOUEUR|À l'heure où j'écris, {nom} a déjà organisé une partie de cartes avec nos gardes. Il ne leur reste plus grand-chose.
+activite|LIBRE|À l'heure où j'écris, {nom} a refusé la chambre et préféré dormir à la belle étoile.
+activite|LOYAL|À l'heure où j'écris, {nom} m'a demandé deux fois si vous aviez laissé des instructions particulières.
+activite|MEFIANT|À l'heure où j'écris, {nom} a vérifié chaque porte et chaque fenêtre du bâtiment. Ma serrure aussi.
+activite|MELANCOLIQUE|À l'heure où j'écris, {nom} passe un long moment au bord de l'eau, ou de ce qui en tient lieu. Je laisse faire.
+activite|MERCENAIRE|À l'heure où j'écris, {nom} m'a demandé si la prime était payée en pièces ou en lettre de change. En pièces, j'espère.
+activite|PATIENT|À l'heure où j'écris, {nom} attend, tout simplement. Avec un calme qui ferait du bien à tout le monde ici.
+activite|PROTECTEUR|À l'heure où j'écris, {nom} fait le tour des maisons voisines pour s'assurer que tout le monde va bien.
+activite|RANCUNIER|À l'heure où j'écris, {nom} m'a demandé les noms de ceux qui ont causé ce désordre. Je les lui ai donnés. J'espère avoir bien fait.
+activite|REBELLE|À l'heure où j'écris, {nom} a déjà contesté deux de nos consignes. Les deux, il faut le reconnaître, étaient discutables.
+activite|SANGUINAIRE|À l'heure où j'écris, {nom} demande quand on commence, avec une impatience qui inquiète un peu nos gens.
+activite|SAUVAGE|À l'heure où j'écris, {nom} arpente les bois pour flairer le terrain. Nos chiens refusent de suivre.
+activite|TACITURNE|À l'heure où j'écris, {nom} n'a pas prononcé plus de dix mots. Je les ai comptés.
+activite|VANITEUX|À l'heure où j'écris, {nom} demande si un portraitiste est disponible, pour immortaliser l'arrivée.
+activite|*|À l'heure où j'écris, {nom} se prépare pour la suite et range son équipement.
+
+fin|1|Je vous écrirai de nouveau à l'issue du contrat. Comptez sur moi pour vous tenir informé{e} de tout.
+fin|n|Je vous écrirai de nouveau à l'issue du contrat. Comptez sur moi pour vous tenir informé{e} de tout.
+
+# ---------- À l'issue ----------
+# Le ton dépend de l'issue, et de la notoriété de la guilde (inconnue : on vous découvre ; connue : on vous connaît).
+issue|eclatante:inconnue|{maitre}, je ne connaissais pas votre guilde il y a quelques jours. Je la connais maintenant. Le contrat « {mission} » est rempli, et bien au-delà de ce qu'on espérait. La Chambre en prend bonne note.
+issue|eclatante:connue|{maitre}, votre guilde a encore fait honneur à sa réputation. Le contrat « {mission} » est rempli, et de la plus belle des façons. Les gens d'ici en parleront longtemps.
+issue|reussite:inconnue|{maitre}, le contrat « {mission} » est rempli. Le travail a été fait proprement, dans les temps. La Chambre vous remercie et vous versera la prime convenue.
+issue|reussite:connue|{maitre}, le contrat « {mission} » est rempli, avec le sérieux qu'on attend désormais de votre guilde. La prime vous sera versée au retour de vos héros.
+issue|partielle:*|{maitre}, le contrat « {mission} » n'est rempli qu'en partie. L'essentiel est sauvé ; le reste, non. La prime sera réduite en conséquence.
+issue|echec:inconnue|{maitre}, le contrat « {mission} » a échoué. Je ne vais pas vous mentir : la Chambre attendait mieux.
+issue|echec:connue|{maitre}, le contrat « {mission} » a échoué. Ça arrive, même aux meilleures guildes. Ça ne doit pas arriver deux fois.
+
+depart|1|{nom} a repris la route {de_lieu} à {heure}. Arrivée au repère prévue {retour}.
+depart|n|{noms} ont repris la route {de_lieu} à {heure}. Arrivée au repère prévue {retour}.
+
+blessure|legere|{nom} s'en tire avec des blessures légères. Notre médecin a fait les pansements ; rien qui ne guérisse avec du repos.
+blessure|grave|Les blessures de {nom} sont graves. Notre médecin a fait tout ce qui était possible, et le pire est écarté. La Chambre prend le transport à sa charge : une charrette couverte, avec un soigneur. Arrivée au repère prévue {retour}.
+
+mort|1|{maitre}, c'est avec une profonde tristesse que je vous écris. {nom} a perdu la vie {a_lieu}, pendant le contrat « {mission} ». Tout a été fait pour {nom}, jusqu'au bout. Le corps est veillé par nos gens, et vous sera rendu avec tous les honneurs. Je suis désolé{je_e}, sincèrement.
+
+signature|*|Avec mes respects,

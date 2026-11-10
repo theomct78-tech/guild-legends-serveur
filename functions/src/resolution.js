@@ -86,7 +86,9 @@ function scoreEpreuve(equipe, epreuve, avantages = {}, contexte = {}) {
   const reductionDifficulte = ['combat', 'nuee'].includes(epreuve.type) ? rendement(avantages.MAITRISE || 0, PARAMS.maitriseMax) : 0;
   // Composition : postes vides ou tenus imparfaitement (missions.js). L'ancien drapeau roleManquant reste accepté.
   const composition = contexte.postes ? penaliteComposition(contexte.postes, epreuve.type) : (contexte.roleManquant ? PARAMS.penaliteRoleManquant : 0);
-  const score = base + bonusAvantages + cohesion(contexte.relations) - composition;
+  // L'entente née des contrats précédents (social.js) : quelques points de %, convertis en points de score autour de 50 %.
+  const entente = (contexte.entente || 0) * 0.04 * PARAMS.pente;
+  const score = base + bonusAvantages + cohesion(contexte.relations) + entente - composition;
   return {
     score: Math.round(score * 10) / 10,
     difficulte: Math.round((epreuve.difficulte - reductionDifficulte) * 10) / 10,

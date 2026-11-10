@@ -91,7 +91,7 @@ function repondreBillet(g, c, h, option, parDefaut) {
   if (c.genre === 'langue' && option === 'traduire') {
     // Un érudit présent traduit ; avec la bibliothèque du repère, on finit toujours par trouver le bon dictionnaire.
     const t = g.heros.find(x => x.etat === 'present' && x !== h && (x.traits || []).some(tr => ['ERUDIT', 'CURIEUX'].includes(tr)))
-      || ((g.salles || []).includes('bibliotheque') ? { nom: 'la bibliothèque du repère, après une longue soirée de recherches,' } : null);
+      || ((g.salles || []).includes('savoir') ? { nom: 'la bibliothèque du repère, après une longue soirée de recherches,' } : null);
     if (t && c.traduction) { out.push(remplir(c.traduction, g, h, null, t)); out.push(`Le sourire de ${h.nom} dit assez combien ça compte, qu'on ait pris la peine de comprendre.`); }
     else out.push('Personne au repère ne sait lire cette écriture. La lettre reste un mystère, rangée dans ton tiroir. Peut-être qu\'un jour, un érudit…');
   }

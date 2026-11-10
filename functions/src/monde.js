@@ -20,6 +20,9 @@ const path = require('node:path');
 const V = require('./vie'), S = require('./scenes'), A = require('./arcs'), Q = require('./quetes'), B = require('./billets');
 const M = require('./missions'), RES = require('./resolution'), P = require('./progression'), REC = require('./recrutement');
 const RP = require('./repere'), RG = require('./rangs'), MJ = require('./multijoueur'), RA = require('./rapport'), RULES = require('./rules');
+const CO = require('./courrier'), SO = require('./social'), AC = require('./actions');
+const FIN = require('./langue').finir;
+const MA = () => require('./maitre');
 const EQ = require('./equipement');
 
 const H_MS = 3600000;
@@ -189,12 +192,33 @@ function chanceContrat(monde, cid, ajouts = []) {
     return { type: p.type, heros: { nom: p.heros.nom, stats: h ? statsDe(h) : p.heros.stats, moral: h?.moral ?? 60 }, efficacite: p.efficacite };
   });
   const eq = postes.filter(p => p.heros).map(p => p.heros); if (!eq.length) return 0;
-  return RES.chanceMission(eq, c.mission, {}, { postes });
+  return RES.chanceMission(eq, c.mission, {}, { postes, entente: SO.bonusEntente(monde, clesEquipe(monde, c, ajouts)) });
 }
+/* Les héros d'un contrat (et ceux qu'on envisage d'y ajouter), par clé de fiche : pour retrouver leurs ententes. */
+function clesEquipe(monde, c, ajouts = []) {
+  const cles = c.m.postes.map((p, i) => { const a = ajouts.find(x => x.index === i);
+    const h = a ? monde.guildes[a.gid]?.heros.find(x => x.id === a.heroId) : p.heros ? monde.guildes[p.guilde]?.heros.find(x => x.id === p.heros.id) : null; return h?.cle; });
+  return cles.filter(Boolean);
+}
+/*
+ * Rappeler un héros. Tant qu'il est en salle de brief, il reste au repère. S'il est déjà sur la route, le rappel part par la
+ * voie des airs : l'oiseau le rattrape là où il en est, et il fait demi-tour. Il rentre après le vol de l'oiseau, plus le
+ * chemin déjà parcouru. Si le message arriverait après son arrivée sur place, il est trop tard.
+ */
 function retirer(monde, gid, cid, heroId) {
-  const g = monde.guildes[gid], c = monde.contrats[cid];
-  if (!c || c.statut !== 'ouvert') throw new Error('Trop tard : la mission est partie.');
-  M.retirer(c.m, gid, heroId); const h = g.heros.find(x => x.id === heroId); if (h) h.reserve = null;
+  const g = monde.guildes[gid], c = monde.contrats[cid], t = monde.t;
+  if (!c || !['ouvert', 'route'].includes(c.statut)) throw new Error('Trop tard : le contrat est terminé.');
+  const p = c.m.postes.find(x => x.guilde === gid && x.heros?.id === heroId), h = g.heros.find(x => x.id === heroId);
+  if (!p || !h) throw new Error('Ce héros ne tient aucun poste sur ce contrat.');
+  if (!p.parti) { if (c.statut !== 'ouvert') throw new Error('Trop tard : le contrat a commencé.'); M.retirer(c.m, gid, heroId); h.reserve = null; return { rappel: 'repere' }; }
+  const vol = CO.volOiseau(p.trajet), parcouru = t - p.partiA, recu = parcouru + vol;
+  if (recu >= p.trajet || c.statut !== 'ouvert') throw new Error(`Trop tard : ton message mettrait ${vol} h à rattraper ${h.nom}, qui sera déjà sur place. Il faudra attendre la fin du contrat.`);
+  const retour = t + vol + recu;
+  M.retirer(c.m, gid, heroId);
+  h.etat = 'rappel'; h.jusqua = retour;
+  g.chronique.push({ t, lieu: null, importance: 3, declencheur: 'contrat', scene: 'contrat#rappel', heros: [h.id],
+    texte: FIN(`Un oiseau s'envole du repère avec un message pour ${h.nom} : demi-tour, le contrat « ${c.mission.titre} » se fera sans ${h.nom}. Il lui faudra ${vol} h pour rattraper la route ; retour au repère prévu vers ${V.heureLocale(retour)} h.`) });
+  return { rappel: 'route', vol, retour: retour - t };
 }
 
 /* Départs, résolution, retours. */
@@ -202,13 +226,26 @@ function faireAvancerContrats(monde) {
   const t = monde.t;
   for (const c of Object.values(monde.contrats)) {
     // Chaque héros part à temps pour arriver au départ.
-    if (c.statut === 'ouvert' || c.statut === 'route') for (const p of c.m.postes) {
-      if (!p.heros || p.parti) continue;
-      const g = monde.guildes[p.guilde], h = g?.heros.find(x => x.id === p.heros.id);
-      if (!h || t < c.depart - p.trajet) continue;
-      const cal = M.calendrier(g.region, c.mission, { trajet: RP.effet(g, 'trajet') });
-      p.parti = true; p.retour = c.depart + cal.surPlace + cal.aller; h.reserve = null;
-      try { V.departMission(g, [h.id], p.retour); } catch { p.heros = null; p.guilde = null; p.parti = false; }
+    if (c.statut === 'ouvert' || c.statut === 'route') {
+      const partis = {};
+      for (const p of c.m.postes) {
+        if (!p.heros || p.parti) continue;
+        const g = monde.guildes[p.guilde], h = g?.heros.find(x => x.id === p.heros.id);
+        if (!h || t < c.depart - p.trajet) continue;
+        const cal = M.calendrier(g.region, c.mission, { trajet: RP.effet(g, 'trajet') });
+        p.parti = true; p.partiA = t; p.retour = c.depart + cal.surPlace + cal.aller; h.reserve = null;
+        try { V.departMission(g, [h.id], p.retour); (partis[g.id] ||= []).push(h); } catch { p.heros = null; p.guilde = null; p.parti = false; }
+      }
+      // Le départ se voit dans la cour ; l'arrivée s'apprend plus tard, par la lettre du correspondant de la Chambre.
+      for (const [gid, hs] of Object.entries(partis)) {
+        const g = monde.guildes[gid], p0 = c.m.postes.find(p => p.heros?.id === hs[0].id);
+        const noms = hs.map(x => x.nom), pl = noms.length > 1, liste = pl ? `${noms.slice(0, -1).join(', ')} et ${noms[noms.length - 1]}` : noms[0];
+        g.chronique.push({ t, lieu: 'cour', importance: 3, declencheur: 'contrat', scene: 'contrat#depart', heros: hs.map(x => x.id),
+          texte: FIN(pl ? `${liste} quittent la salle de brief et passent le portail, en route ${Q.avecPreposition(c.mission.lieu, 'vers')} pour le contrat « ${c.mission.titre} ». ${g.monde.chien} les accompagne jusqu'au bout du chemin, puis s'assoit et les regarde partir.`
+            : `${liste} quitte la salle de brief et passe le portail, en route ${Q.avecPreposition(c.mission.lieu, 'vers')} pour le contrat « ${c.mission.titre} ». ${g.monde.chien} suit jusqu'au bout du chemin, puis s'assoit et regarde la silhouette s'éloigner.`) });
+        const vol = CO.volOiseau(p0?.trajet);
+        (g.lettres ||= []).push({ t: c.depart + vol, heros: hs.map(x => x.id), scene: 'contrat#arrivee', texte: CO.lettreArrivee(g, hs, { ...c.mission, id: c.id }, c.depart, V) });
+      }
     }
     if (c.statut === 'ouvert' && t >= c.depart) { c.statut = c.m.postes.some(p => p.heros) ? 'route' : 'clos'; if (c.statut === 'clos') c.abandon = true; }
     // La mission se résout à la fin du travail sur place.
@@ -227,9 +264,20 @@ function resoudre(monde, c) {
   const moy = f => guildes.reduce((s, g) => s + RP.effet(g, f), 0) / guildes.length;
   const relations = Array(Math.round(MJ.cohesionAlliance(monde, postes.map(p => p.guilde), monde.t) / 4)).fill('amis');
   const rng = rngDe(`${c.id}#resolution`);
-  const r = RES.resoudreMission(equipe, c.mission, {}, { postes: c.m.postes.map(p => ({ type: p.type, heros: p.heros, efficacite: p.efficacite })), relations, blessure: moy('blessure'), imprevu: Math.min(...guildes.map(g => RP.effet(g, 'imprevu'))) }, rng);
+  const r = RES.resoudreMission(equipe, c.mission, {}, { postes: c.m.postes.map(p => ({ type: p.type, heros: p.heros, efficacite: p.efficacite })), relations, entente: SO.bonusEntente(monde, clesEquipe(monde, c)), blessure: moy('blessure'), imprevu: Math.min(...guildes.map(g => RP.effet(g, 'imprevu'))) }, rng);
   r.morts = r.mortPossible ? r.blessures.filter(b => b.niveau === 'grave' && rng() < PARAMS.mortSurGrave).map(b => b.nom) : [];
   c.resultat = r;
+  // Ce que chacun retient de ses coéquipiers, et les lettres que ça leur inspire.
+  const membres = postes.map(p => { const g = monde.guildes[p.guilde]; return { g, h: g.heros.find(x => x.id === p.heros.id) }; }).filter(x => x.h && !r.morts.includes(x.h.nom));
+  SO.ecrireEntreHeros(monde, SO.noterEntentes(monde, membres, c.mission, r.issue), c.mission, Object.fromEntries(postes.map(p => [p.heros.id, p.retour])));
+  // Le correspondant écrit à chaque guilde : l'issue, les blessures, l'heure du départ et l'arrivée prévue de chacun.
+  for (const g of guildes) {
+    const mes = postes.filter(p => p.guilde === g.id), hs = mes.map(p => g.heros.find(x => x.id === p.heros.id)).filter(Boolean);
+    const retours = Object.fromEntries(mes.map(p => [p.heros.id, p.retour]));
+    const vol = CO.volOiseau(mes[0]?.trajet);
+    for (const texte of CO.lettresIssue(g, hs, { ...c.mission, id: c.id }, r, monde.t, retours, V, { connue: palierDe(g) !== 'inconnue' }))
+      (g.lettres ||= []).push({ t: monde.t + vol, heros: hs.map(x => x.id), scene: 'contrat#issue', texte });
+  }
 }
 function rentrer(monde, c, p) {
   const g = monde.guildes[p.guilde], h = g.heros.find(x => x.id === p.heros.id), r = c.resultat; if (!h) return;
@@ -308,6 +356,51 @@ function payer(monde, g) {
   g.po -= s; g.dernierePaie = monde.t;
   avis(g, g.po < 0 ? `Les salaires de la semaine (${s} PO) vident le coffre : il manque ${-g.po} PO. Tes héros le remarquent.` : `Salaires de la semaine payés : ${s} PO.`, { type: 'paie' });
   if (g.po < 0) for (const h of actifs(g)) V.souvenir(h, monde.t, -8, 'Un salaire en retard', 72);
+}
+
+/*
+ * Gestes du maître depuis la fiche d'un héros (demande de Théo, 9 nov. 2026) : changer sa solde de la semaine, lui donner
+ * des congés. Le héros juge le geste, et les autres aussi (maitre.js) : une baisse de solde ne passe pas inaperçue.
+ */
+function changerSolde(monde, gid, heroId, sens) {
+  const g = monde.guildes[gid], h = g.heros.find(x => x.id === heroId);
+  if (!h || ['parti', 'mort'].includes(h.etat)) throw new Error('Héros inconnu.');
+  const pas = Math.max(1, Math.round((h.attente || h.salaire || 10) * 0.1));
+  const avant = h.salaire || 0, apres = Math.max(0, Math.min(Math.round((h.attente || avant) * 2), avant + (sens > 0 ? pas : -pas)));
+  if (apres === avant) throw new Error(sens > 0 ? `La solde de ${h.nom} est déjà au double de ses attentes.` : `${h.nom} ne touche plus rien.`);
+  h.salaire = apres;
+  const lignes = sens > 0 ? MA().juger(g, 'genereux', [{ h, poids: 1 }], `l'augmentation de ${h.nom}`, rngDe(`${gid}#solde#${monde.t}`))
+    : MA().juger(g, 'dur', [{ h, poids: -2 }], `la baisse de solde de ${h.nom}`, rngDe(`${gid}#solde#${monde.t}`));
+  V.majMoral?.(g, h);
+  return { salaire: apres, avant, attente: h.attente, lignes };
+}
+function donnerConges(monde, gid, heroId, jours = 2) {
+  const g = monde.guildes[gid], h = g.heros.find(x => x.id === heroId);
+  if (!h || h.etat !== 'present') throw new Error(`${h?.nom || 'Ce héros'} n'est pas au repère.`);
+  if (h.reserve) throw new Error(`${h.nom} est en salle de brief pour un contrat : annule d'abord sa place.`);
+  jours = Math.max(1, Math.min(3, Math.round(jours)));
+  h.etat = 'conges'; h.jusqua = monde.t + 24 * jours; V.souvenir(h, monde.t, 4 + 2 * jours, 'Des congés offerts par le maître', 72);
+  const lignes = MA().juger(g, 'compatissant', [{ h, poids: 1 }], `les congés de ${h.nom}`, rngDe(`${gid}#conges#${monde.t}`));
+  g.chronique.push({ t: monde.t, lieu: 'cour', importance: 2, declencheur: 'conges', heros: [h.id], texte: FIN(`${h.nom} boucle son sac en sifflotant : ${jours > 1 ? `${jours} jours` : 'une journée'} de congés, offerts par la maison. Retour prévu ${jours > 1 ? `dans ${jours} jours` : 'demain'}.`) });
+  return { jours, lignes };
+}
+
+/* ---------- Actions de guilde, gestes envers un héros, missives ---------- */
+const jugerGeste = (g, ton, concernes, motif) => MA().juger(g, ton, concernes, motif, rngDe(`${g.id}#action#${motif}#${g.t}`));
+function lancerAction(monde, gid, id) { const g = monde.guildes[gid], r = AC.lancerAction(g, id, palierDe(g), jugerGeste); monterDeNiveau(monde, g); return r; }
+function faireGeste(monde, gid, heroId, id) { return AC.faireGeste(monde.guildes[gid], heroId, id); }
+function envoyerMissive(monde, gid, vers, texte) { return SO.envoyerMissive(monde, gid, vers, texte); }
+/* L'image de la guilde : le portrait d'un de ses héros, ou une petite photo (réduite par l'appareil avant l'envoi). */
+function choisirImage(monde, gid, { cle = null, photo = null } = {}) {
+  const g = monde.guildes[gid];
+  if (photo) {
+    if (!/^data:image\/(jpeg|webp|png);base64,[A-Za-z0-9+/=]+$/.test(photo) || photo.length > 40000) throw new Error('Cette photo est trop lourde : choisis-en une autre.');
+    g.image = { photo };
+  } else if (cle) {
+    if (!g.heros.some(h => h.cle === cle && !['parti', 'mort'].includes(h.etat))) throw new Error('Choisis le portrait d\'un héros de ta guilde.');
+    g.image = { cle };
+  } else g.image = null;
+  return true;
 }
 
 /* ---------- Pièces, cartes, quêtes, chien ---------- */
@@ -413,8 +506,11 @@ function avancer(monde, jusqua) {
     if (h === PARAMS.heureBilan) { moralTerritoires(monde); if (lundi(t)) recompter(monde); }
     if (h === PARAMS.heureTournoi && premierSamediDuMois(t)) jouerLeTournoi(monde);
     faireAvancerContrats(monde);
+    SO.livrerMissives(monde, avis);
     for (const g of Object.values(monde.guildes)) {
       finirQuetes(monde, g);
+      if (h === SO.PARAMS.habitants.heure) SO.courrierHabitants(g, jourDe(t));
+      if (AC.avancerActions(g, jugerGeste)) monterDeNiveau(monde, g);
       V.simuler(g, t + 2, C.scenes, C.arcs, C.quetes);
       departsVolontaires(monde, g);
       g.candidatures = (g.candidatures || []).filter(c => c.expire > t + 2);
@@ -426,7 +522,7 @@ function avancer(monde, jusqua) {
   return monde;
 }
 
-module.exports = { nommerChien: (monde, gid, nom) => V.nommerChien(monde.guildes[gid], nom), equiper: (monde, gid, heroId, uid) => EQ.equiper(monde.guildes[gid], heroId, uid), desequiper: (monde, gid, heroId, uid) => EQ.desequiper(monde.guildes[gid], heroId, uid),
+module.exports = { changerSolde, donnerConges, lancerAction, faireGeste, envoyerMissive, choisirImage, palierDe, nommerChien: (monde, gid, nom) => V.nommerChien(monde.guildes[gid], nom), equiper: (monde, gid, heroId, uid) => EQ.equiper(monde.guildes[gid], heroId, uid), desequiper: (monde, gid, heroId, uid) => EQ.desequiper(monde.guildes[gid], heroId, uid),
   PARAMS, catalogues, creerMonde, fonderGuilde, nouveauHeros, recruter, refuserCandidature, poserAnnonce, publierContrats, contratsPour, placer, retirer, chanceContrat,
   construire, repondreCarte, lancerQuete, inscrireTournoi, jouerLeTournoi, seMontrerInteresse, avancer, statsDe, disponible, nomRegion,
   proposerAlliance: (monde, de, vers) => MJ.proposerAlliance(monde, de, vers, id => palierDe(monde.guildes[id]), monde.t),

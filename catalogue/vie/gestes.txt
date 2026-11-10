@@ -1,0 +1,99 @@
+# Guild Legends — toucher un héros dans le repère (10 nov. 2026, demande de Théo)
+# Quand on touche un héros sur le plan, on voit ce qu'il fait là, maintenant, et ce qu'on peut lui proposer à cet endroit.
+#
+# fait|lieux|activité|texte        ce que fait le héros (activité : celle du moteur, ou * ; plusieurs variantes possibles)
+# geste|lieux|id|libellé|effets|récit   ce que le maître peut proposer ici (effets pour ce héros : m moral, s compagnie,
+#                                       l détente, e envie de progresser, n énergie)
+# Jetons : {nom}, {chien}, {bourg}. Aucun accord de genre sur le héros. Écrits à la main, ton d'un message d'aujourd'hui.
+
+# ---------- Ce que fait le héros ----------
+fait|dortoirs|dormir|{nom} dort, un bras hors du lit. On entend respirer jusque dans le couloir.
+fait|dortoirs|dormir|{nom} dort, la couverture sur la tête. Ne pas déranger avant demain.
+fait|dortoirs|repos|{nom} fait la sieste en tenue de la veille, les bottes encore aux pieds.
+fait|dortoirs|repos|{nom} regarde le plafond, les mains derrière la tête. Ça ressemble à du repos.
+fait|dortoirs|soins|{nom} refait son pansement au bord du lit, en serrant les dents.
+fait|dortoirs|*|{nom} range ses affaires. Enfin, les déplace d'un tas vers un autre.
+fait|salle_commune|discussion|{nom} discute près de la cheminée, une tasse à la main, sans regarder l'heure.
+fait|salle_commune|discussion|{nom} refait le monde à la grande table. Personne n'ose interrompre.
+fait|salle_commune|jeux|{nom} joue aux cartes et fronce les sourcils sur une très mauvaise main.
+fait|salle_commune|lecture|{nom} lit dans le fauteuil du coin, celui que tout le monde veut.
+fait|salle_commune|*|{nom} traîne dans la salle commune, les pieds sur un banc.
+fait|cour|entrainement|{nom} tape sur le mannequin depuis une heure. Le mannequin commence à pencher.
+fait|cour|entrainement|{nom} répète le même geste, encore et encore, jusqu'à ce qu'il soit propre.
+fait|cour|*|{nom} traverse la cour sans se presser, en lançant un bâton à {chien}.
+fait|remparts|repos|{nom} somnole au soleil, le dos contre un créneau.
+fait|remparts|solitude|{nom} regarde la route de {bourg}, les coudes sur la pierre. Mieux vaut ne pas parler trop fort.
+fait|remparts|lecture|{nom} lit là-haut, les jambes dans le vide. Le vent tourne les pages à sa place.
+fait|remparts|recueillement|{nom} se tient immobile face au vent, les yeux fermés.
+fait|remparts|*|{nom} fait le tour des remparts, lentement, comme une ronde que personne n'a demandée.
+fait|brief|brief|{nom} étudie le contrat, la carte dépliée sur la table, un doigt sur la route.
+fait|brief|brief|{nom} vérifie son sac pour la troisième fois. Le départ approche.
+fait|jardin|repos|{nom} dort dans l'herbe, un brin de paille entre les dents.
+fait|jardin|solitude|{nom} est sous le vieil arbre, à ne rien faire, et le fait très bien.
+fait|jardin|recueillement|{nom} est à genoux près du bassin, en silence.
+fait|jardin|*|{nom} arrache trois mauvaises herbes, puis s'assoit pour regarder le résultat.
+fait|cuisines,taverne|discussion|{nom} parle la bouche pleine, un coude sur le comptoir.
+fait|cuisines,taverne|jeux|{nom} lance les dés sur le comptoir et annonce le résultat avant de regarder.
+fait|cuisines,taverne|*|{nom} goûte ce qui mijote, « juste pour vérifier ». Pour la quatrième fois.
+fait|infirmerie,bains|soins|{nom} se laisse soigner en râlant. C'est bon signe.
+fait|infirmerie,bains|repos|{nom} trempe dans l'eau chaude jusqu'au menton, les yeux fermés.
+fait|infirmerie,bains|*|{nom} attend son tour sur le banc, en lisant les étiquettes des bocaux.
+fait|salle_armes,forge|entrainement|{nom} enchaîne les passes d'armes devant le miroir. Le miroir a déjà une fêlure.
+fait|salle_armes,forge|discussion|{nom} discute près de l'enclume, en criant un peu à cause du bruit.
+fait|salle_armes,forge|*|{nom} affûte une lame, lentement, et vérifie le fil sur l'ongle.
+fait|bibliotheque,salle_cartes|lecture|{nom} lit, trois livres ouverts en même temps, un doigt dans chacun.
+fait|bibliotheque,salle_cartes|discussion|{nom} montre un point sur la grande carte et explique pourquoi tout le monde a tort.
+fait|bibliotheque,salle_cartes|*|{nom} cherche un livre précis et en a déjà sorti douze qui ne sont pas le bon.
+fait|ecuries|solitude|{nom} brosse un cheval sans dire un mot. Le cheval a l'air d'accord.
+fait|ecuries|*|{nom} donne une pomme à chaque cheval, et garde la dernière.
+fait|sanctuaire,grand_hall|recueillement|{nom} est devant l'autel, une bougie allumée, depuis un long moment.
+fait|sanctuaire,grand_hall|discussion|{nom} parle bas sous les bannières, comme tout le monde ici.
+fait|sanctuaire,grand_hall|*|{nom} regarde les noms gravés dans la pierre, un par un.
+
+# ---------- Ce qu'on peut lui proposer, selon l'endroit ----------
+geste|dortoirs|border|Laisser dormir, et fermer les volets|m2 n8|Tu fermes les volets sans faire de bruit. {nom} ne saura jamais qui, mais dormira une heure de plus.
+geste|dortoirs|couverture|Déposer une couverture en plus|m3 n4|Une couverture pliée au pied du lit. {nom} la trouvera en se réveillant, et fera semblant de ne pas avoir remarqué.
+geste|dortoirs|reveil|Réveiller en douceur, avec une tasse chaude|m2 s6 n-4|La tasse fume sur la table de nuit. {nom} ouvre un œil, grogne, puis tend la main. C'est un merci.
+geste|dortoirs|parler_soir|S'asseoir au bord du lit pour parler un peu|m3 s12|Cinq minutes au bord du lit, à voix basse. {nom} parle plus facilement ici qu'ailleurs. Tu ne répéteras rien.
+geste|salle_commune|sasseoir|T'asseoir à sa table|m2 s14|Tu tires une chaise. {nom} pousse son verre pour te faire de la place, sans arrêter sa phrase. Tu fais partie du décor, et c'est très bien.
+geste|salle_commune|partie|Proposer une partie de cartes|m3 s12 l14|Trois manches. {nom} gagne les deux premières et te laisse la dernière, par politesse. Enfin, c'est sa version.
+geste|salle_commune|histoire|Lui demander de raconter sa dernière mission|m3 s14 e4|{nom} commence par « oh, rien de spécial » et parle vingt minutes. Les détails changent un peu à chaque fois. Les meilleurs restent.
+geste|salle_commune|feu|Remettre une bûche et rester un moment|m2 s8 l8|Tu remets une bûche. Vous regardez le feu sans parler, {nom} et toi. Certaines conversations se passent très bien comme ça.
+geste|cour|duel|Proposer un duel d'entraînement|m3 e16 n-10|Épées de bois, trois touches. {nom} ne te ménage pas, et c'est exactement ce que tu voulais. Tu auras un bleu demain.
+geste|cour|conseil|Regarder son entraînement et dire ce que tu en penses|m2 e12|Tu regardes dix minutes, puis tu dis une chose, une seule. {nom} réessaie. C'est mieux. Personne ne le dit, mais tout le monde l'a vu.
+geste|cour|eau|Apporter de l'eau fraîche|m2 n6|Tu poses la cruche sur le muret. {nom} boit d'un trait, s'essuie du revers de la main et repart. Pause accordée : onze secondes.
+geste|cour|baton|Lancer le bâton à {chien}, à deux|m3 s8 l12|Un bâton, deux lanceurs, un chien fou de joie. {nom} lance plus loin que toi et le fait remarquer. {chien} s'en moque, il veut juste que ça dure.
+geste|remparts|vue|Regarder la vue à côté, sans rien dire|m3 s6 l8|Tu t'accoudes au créneau d'à côté. Le vent, la route, les toits de {bourg}. Au bout d'un moment, {nom} dit « c'est pas mal, ici ». C'est tout, et c'est beaucoup.
+geste|remparts|ronde|Faire la ronde ensemble|m2 s10 e4 n-4|Un tour complet des remparts, au pas. {nom} te montre l'endroit d'où on voit le mieux arriver les oiseaux du courrier. Tu ne le savais pas.
+geste|remparts|manteau|Lui prêter ton manteau|m3 n4|Il fait froid là-haut. Tu poses ton manteau sur ses épaules sans demander. {nom} proteste pour la forme, et le garde.
+geste|remparts|souci|Demander ce qui ne va pas|m3 s12|Tu demandes une fois, sans insister. {nom} met du temps à répondre. Ce qui sort n'a rien à voir avec la guilde, et tu écoutes jusqu'au bout.
+geste|brief|carte|Revoir la carte ensemble|m2 e10|Tu refais le trajet du doigt avec {nom} : la route, le gué, l'endroit où dormir. Rien de nouveau, mais ça se voit que ça rassure.
+geste|brief|encourager|Dire un mot avant le départ|m4 s6|Tu ne fais pas de discours. Tu dis juste « reviens en un morceau ». {nom} hausse les épaules, mais le sac est bouclé plus vite.
+geste|brief|provisions|Glisser quelque chose dans son sac|m3 n4|Du pain, des fruits secs, et un mot que {nom} ne trouvera qu'à mi-chemin. Tu refermes le sac comme si de rien n'était.
+geste|brief|materiel|Vérifier son équipement ensemble|m2 e8|Sangles, lames, gourde. Tu trouves une boucle usée, {nom} la change sans discuter. Ce genre de détail décide parfois d'un contrat.
+geste|jardin|sieste|S'allonger dans l'herbe à côté|m3 l12 n8|Tu t'allonges à deux mètres. Personne ne parle. Un nuage ressemble à {chien}, {nom} le dit en premier.
+geste|jardin|arroser|Arroser les plantes ensemble|m2 s8 l8|Deux arrosoirs, un rang chacun. {nom} parle aux tomates quand tu regardes ailleurs. Tu regardes ailleurs exprès.
+geste|jardin|fruit|Cueillir un fruit et le partager|m2 s6 l6|Le premier fruit mûr de l'arbre, coupé en deux au couteau. {nom} prend la plus grosse moitié sans la moindre gêne.
+geste|jardin|banc|S'asseoir sur le banc et écouter|m3 s12|Le banc du fond, celui qu'on ne voit pas depuis la cour. {nom} y vient pour être tranquille, et te fait quand même une place.
+geste|cuisines,taverne|verre|Lui offrir un verre|m3 s12 l8|Tu poses deux verres sur le comptoir. {nom} trinque sans demander à quoi. On trouve toujours.
+geste|cuisines,taverne|cuisiner|Cuisiner quelque chose ensemble|m3 s12 l10|Tu épluches, {nom} assaisonne, beaucoup trop. C'est immangeable et vous finissez le plat quand même, par fierté.
+geste|cuisines,taverne|gouter|Lui faire goûter le plat du jour en premier|m2 s6 l6|Une cuillère tendue par-dessus la marmite. {nom} goûte, réfléchit sérieusement, et dit « plus de sel ». Avait raison.
+geste|cuisines,taverne|vaisselle|Faire la vaisselle à deux|m2 s12|L'un lave, l'autre essuie. C'est là que {nom} raconte ce qu'on ne raconte pas à table. La vaisselle, ça délie les langues.
+geste|infirmerie,bains|chevet|Rester un moment à son chevet|m4 s10|Tu t'assois sur le tabouret. {nom} prétend que ce n'est rien et te montre quand même la blessure, avec une pointe de fierté.
+geste|infirmerie,bains|tisane|Apporter une tisane|m2 n8|Une tisane aux herbes du jardin, qui sent meilleur qu'elle n'a de goût. {nom} boit tout, par respect.
+geste|infirmerie,bains|lecture|Lui lire quelque chose|m3 l10|Tu lis un chapitre à voix haute. {nom} ferme les yeux à la troisième page. Tu continues encore un peu, au cas où.
+geste|infirmerie,bains|laisser|Laisser tranquille, et le dire aux autres|m2 n10|Tu fermes la porte et tu préviens le couloir : personne n'entre. {nom} a droit à une heure de vrai calme.
+geste|salle_armes,forge|passes|Faire quelques passes d'armes|m3 e18 n-10|Dix minutes, à vitesse réelle. {nom} te touche deux fois, tu touches une fois. Le coup que tu places lui arrache un vrai sourire.
+geste|salle_armes,forge|lame|Faire affûter sa lame à tes frais|m3 e6|Tu confies sa lame à la meule, et tu paies le fer neuf. {nom} vérifie le fil du pouce et hoche la tête. Ça coupe.
+geste|salle_armes,forge|technique|Demander de te montrer sa meilleure technique|m4 s8 e10|{nom} te la montre lentement, puis à vitesse réelle. Tu n'as rien vu la deuxième fois. C'est le but, paraît-il.
+geste|salle_armes,forge|soufflet|Tenir le soufflet pendant que ça forge|m2 s8 e6 n-4|Tu actionnes le soufflet, {nom} tape. Vous ne vous entendez pas parler, alors vous ne parlez pas. Le fer, lui, avance bien.
+geste|bibliotheque,salle_cartes|livre|Lui conseiller un livre|m2 l8 e10|Tu sors un livre du rayon du haut. {nom} lit le titre, lève un sourcil, et l'emporte quand même.
+geste|bibliotheque,salle_cartes|carte|Lui montrer où tu aimerais envoyer la guilde|m3 s8 e10|Ton doigt sur la carte, loin d'ici. {nom} regarde longtemps, puis pose le sien juste à côté : « Et là, après. » Vous avez un projet.
+geste|bibliotheque,salle_cartes|question|Poser une question sur ce que {nom} lit|m3 s12 e6|Tu demandes de quoi ça parle. Mauvaise idée, ou très bonne : {nom} t'explique tout, depuis le début, avec des schémas.
+geste|bibliotheque,salle_cartes|silence|Lire à la même table, en silence|m2 l10 e6|Deux livres, une lampe, pas un mot pendant une heure. En partant, {nom} dit « on refait ça quand tu veux ».
+geste|ecuries|balade|Proposer une balade à cheval|m4 s8 l14 n-4|Une heure dans les collines, au pas puis au galop. {nom} rentre les cheveux en bataille et l'air plus léger.
+geste|ecuries|brosser|Brosser les chevaux ensemble|m2 s10 l8|Chacun son cheval, chacun sa brosse. {nom} parle au sien à voix basse. Tu fais semblant de ne pas écouter ce qui se dit.
+geste|ecuries|foin|Rentrer le foin à deux|m2 s8 e4 n-8|Deux fourches, une charrette pleine. {nom} travaille deux fois plus vite que toi et ne fait aucun commentaire. C'est élégant.
+geste|sanctuaire,grand_hall|bougie|Allumer une bougie à côté de la sienne|m3 s4|Tu allumes une bougie et tu la poses près de la sienne. {nom} ne tourne pas la tête, mais te laisse rester.
+geste|sanctuaire,grand_hall|noms|Lire ensemble les noms gravés|m3 s8|Vous lisez les noms un par un. {nom} en connaît quelques-uns et te dit qui c'était, en deux mots à chaque fois.
+geste|sanctuaire,grand_hall|projets|Parler de l'avenir de la guilde|m3 s10 e8|Sous les bannières, ça donne envie de voir grand. {nom} a un avis précis sur ce que la guilde devrait devenir. Il est meilleur que le tien.

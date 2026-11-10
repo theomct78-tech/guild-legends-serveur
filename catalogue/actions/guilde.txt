@@ -1,0 +1,140 @@
+# Guild Legends — les actions de guilde (10 nov. 2026, demande de Théo)
+# Ce que le maître ou la maîtresse peut organiser pour le repère : repas, jeux, concours, sorties, travaux…
+# Certaines sont gratuites et immédiates, d'autres coûtent cher ou demandent plusieurs heures (ou jours) de préparation.
+#
+# Format : id|catégorie|titre|coût|préparation (heures)|ton|effets|récit
+#   coût : en PO au palier Inconnue ; il est multiplié aux paliers suivants (actions.js).
+#   ton : la façon dont les héros jugent le geste (maitre.js) : genereux, complice, ferme, juste, ecoute, compatissant, laxiste.
+#   effets, pour chaque héros présent : m = moral (souvenir de 2 jours), s = envie de voir du monde, l = détente,
+#           e = envie de progresser, n = énergie ; r = réputation de la guilde (une fois).
+# Jetons du récit : {un}, {deux} (deux héros présents), {chien}, {bourg}. Aucun accord de genre sur un héros.
+# Écrits à la main. Le français d'un message qu'on enverrait pour raconter la soirée.
+
+# ---------- À table ----------
+banquet|table|Un grand banquet|40|24|genereux|m7 s25 l20 n-5|Les tables sont mises bout à bout dans la salle commune et il n'y a plus un centimètre de nappe visible. {un} porte un toast que personne n'écoute jusqu'au bout. {chien} fait le tour des genoux, méthodiquement.
+petitdej|table|Un petit-déjeuner pour tout le monde|6|2|genereux|m3 s12 l6 n6|Pain chaud, œufs, confiture : quand le repère descend, tout est déjà sur la table. {un} demande ce qu'on fête. Rien. C'est ça qui fait plaisir.
+barbecue|table|Des grillades dans la cour|15|6|complice|m4 s20 l14|Le feu prend du premier coup, ce qui n'arrive jamais. {un} surveille les braises comme un trésor, {deux} critique la cuisson sans rien faire. Tout est mangé debout, avec les doigts.
+soupe|table|Une soupe du soir, tous ensemble|4|2|compatissant|m3 s14 l5 n5|Une marmite, un pain, pas de discours. On mange serré sur les bancs, et pour une fois personne ne se lève avant la fin.
+gouter|table|Un goûter surprise|5|0|genereux|m3 s10 l8|Des gâteaux apparaissent sur la table à quatre heures, sans explication. {un} en cache deux dans ses poches « pour plus tard ». Tout le monde a vu.
+plat_region|table|Le plat préféré de chacun, à tour de rôle|12|12|ecoute|m5 s14 l8|Ce soir, c'est le plat de {un}. Personne n'en avait jamais mangé. Tout le monde en reprend, et {un} ne dit rien, mais ça se voit.
+cuisine_heros|table|Laisser un héros faire la cuisine|3|4|laxiste|m3 s16 l12|{un} a pris les fourneaux. Le résultat n'a pas de nom et une couleur discutable. {deux} en reprend trois fois par solidarité. On s'en souviendra.
+crepes|table|Une soirée crêpes|8|2|complice|m4 s18 l14|La première crêpe finit au plafond, et elle y est encore. Concours de retourné : {un} gagne, {deux} conteste. {chien} mange toutes les ratées.
+vin_chaud|table|Du vin chaud sur les remparts|10|2|complice|m4 s16 l12|Une marmite fumante, des couvertures, la vue sur {bourg} éclairé. On parle moins fort que d'habitude. Même {un} trouve que c'est bien.
+pique_nique|table|Un pique-nique dans le jardin|8|4|genereux|m4 s16 l16|Une nappe sous le vieil arbre, des paniers, des fourmis. {un} s'endort avant le dessert. Personne ne réveille personne.
+tournee|table|Une tournée générale|12|0|genereux|m4 s18 l12|« C'est la maison qui régale. » Les verres se remplissent, les langues se délient. {un} raconte une histoire que tout le monde connaît et tout le monde rit quand même.
+repas_silence|table|Un dîner aux chandelles, sans un bruit|6|2|ecoute|m2 s6 l10 n4|Pas un mot de tout le repas, c'est la règle. Ça tient onze minutes, jusqu'à ce que {un} éclate de rire sans raison. Puis tout le monde.
+fromages|table|Une dégustation des produits du bourg|14|6|genereux|m4 s14 l12 r1|Le fromager, la boulangère et le brasseur de {bourg} montent au repère avec leurs paniers. On goûte tout, on achète trop. En ville, on dira du bien de la guilde.
+recette_secrete|table|Un concours de cuisine|10|12|juste|m5 s18 l16 e6|Chacun son plat, vote à bulletin secret. {un} gagne d'une voix. {deux} exige un recompte. Le recompte confirme. {deux} exige un deuxième recompte.
+
+# ---------- Jeux ----------
+cartes|jeux|Une soirée cartes|2|0|complice|m3 s16 l18|On joue des haricots, officiellement. {un} gagne trop pour que ce soit honnête. {deux} surveille ses mains toute la soirée et ne trouve rien.
+des|jeux|Un tournoi de dés|4|2|complice|m3 s14 l18|Seize manches, un tableau à la craie, des alliances qui se font et se défont. {un} gagne la dernière manche sur un coup de chance et parle de « technique ».
+cache_cache|jeux|Un cache-cache géant dans le repère|0|2|complice|m5 s18 l22 n-6|Tout le repère y passe, de la cave aux remparts. On retrouve {un} au bout de deux heures, en plein sommeil dans un coffre. {chien} avait trouvé tout le monde depuis longtemps.
+devinettes|jeux|Une veillée de devinettes|0|0|ecoute|m3 s14 l12 e4|Chacun pose la sienne, au coin du feu. Celle de {un} n'a pas de réponse, d'après tout le monde. {un} jure que si.
+echecs|jeux|Un tournoi d'échecs|3|4|juste|m3 s10 l14 e8|Silence complet dans la salle commune. {un} réfléchit vingt minutes par coup. {deux} s'endort en face. Victoire de {un}, par abandon du public.
+mimes|jeux|Une soirée mimes|0|0|complice|m4 s18 l20|{un} mime quelque chose pendant cinq bonnes minutes. Personne ne trouve. C'était « un pont ». Le fou rire dure plus longtemps que le jeu.
+bataille_oreillers|jeux|Une bataille d'oreillers|3|0|laxiste|m5 s16 l22 n-8|Ça part d'un seul oreiller dans le dortoir. Dix minutes plus tard, il neige des plumes jusque dans l'escalier. {un} jure n'avoir rien commencé, un oreiller dans chaque main.
+chasse_tresor|jeux|Une chasse au trésor dans le repère|10|12|complice|m6 s18 l22 e6|Des indices cachés partout, un coffre au bout. {un} et {deux} font équipe et se disputent à chaque énigme. Le coffre est trouvé avant tout le monde, et la dispute reprend sur le contenu.
+paris|jeux|Ouvrir les paris sur n'importe quoi|5|0|laxiste|m3 s14 l18|Sur la météo, sur qui se lèvera en dernier, sur le prochain aboiement de {chien}. {un} tient les comptes, et les comptes tombent curieusement toujours en sa faveur.
+quilles|jeux|Une partie de quilles dans la cour|3|2|complice|m3 s16 l16|Neuf quilles, une boule, et {un} qui vise à peu près dans la bonne direction. {chien} rapporte la boule avant qu'elle arrive. La partie est annulée et recommencée six fois.
+histoires_peur|jeux|Des histoires qui font peur, à la bougie|0|0|complice|m3 s16 l14|Une seule bougie, les volets fermés. L'histoire de {un} est tellement bonne que {deux} demande à laisser la lumière du couloir cette nuit. « Pour le chien. »
+colin_maillard|jeux|Un colin-maillard|0|0|complice|m3 s16 l18|{un} a les yeux bandés et attrape une chaise, un rideau, puis {chien}, et jure que c'est {deux}. On ne corrige pas.
+quiz|jeux|Un grand quiz sur Runeterra|4|6|juste|m4 s14 l14 e10|Géographie, histoire, monstres. {un} sait tout sur un seul sujet et rien sur les autres. {deux} répond au hasard et gagne. La justice n'existe pas.
+bras_de_fer|jeux|Un concours de bras de fer|2|0|juste|m3 s14 l12 e6|La table tient, c'est déjà ça. Finale entre {un} et {deux} : trois minutes sans bouger, tout le repère autour. Match nul, décidé d'un commun accord et de deux bras tremblants.
+jeu_piste_bourg|jeux|Un jeu de piste dans le bourg|12|24|complice|m6 s20 l22 r1|Des énigmes de la fontaine au beffroi, et les habitants de {bourg} dans la confidence. {un} interroge le boulanger comme un suspect. Le boulanger a adoré.
+
+# ---------- Concours et défis ----------
+tournoi_interne|concours|Un tournoi d'entraînement|10|24|juste|m5 s12 l8 e22 n-10|Des duels à l'épée de bois, un arbitre, un tableau. {un} va jusqu'en finale à la surprise générale. {deux} perd au premier tour et réclame déjà la revanche.
+tir|concours|Un concours de tir|6|6|juste|m4 s10 l10 e16|Des cibles au fond de la cour, trois essais chacun. {un} met tout au centre. {deux} touche la girouette, qui n'était pas une cible. Elle tourne mieux, depuis.
+course|concours|Une course autour du repère|0|2|juste|m4 s12 l10 e14 n-12|Trois tours de remparts. {un} part trop vite et finit en marchant. {chien} gagne, de loin, sans avoir compris qu'il y avait une course.
+course_obstacles|concours|Un parcours d'obstacles dans la cour|8|12|ferme|m4 s12 l8 e22 n-14|Des poutres, des cordes, un mur, de la boue à la fin. {un} boucle le parcours sans une tache. {deux} tombe dans la boue dès le départ et décide que c'est plus drôle comme ça.
+eloquence|concours|Un concours d'éloquence|3|6|ecoute|m4 s16 l12 e10|Sujet tiré au sort : « Pourquoi {chien} devrait diriger la guilde. » Le discours de {un} est tellement convaincant qu'il y a un vote. {chien} obtient trois voix.
+force|concours|Les épreuves de force|5|6|ferme|m4 s12 l8 e18 n-12|Lancer de tronc, tir à la corde, porté de tonneau. {un} gagne le tonneau. {deux} gagne le respect général en soulevant {un} et le tonneau.
+chant|concours|Un concours de chant|2|2|complice|m4 s18 l18|Tout le monde y passe, c'est la règle. {un} chante faux avec une assurance totale. {deux} chante juste, tout bas, et la salle se tait d'un coup.
+sculpture|concours|Un concours de sculpture (bois, neige ou sable)|4|6|ecoute|m4 s12 l16 e8|Thème : « le repère ». L'œuvre de {un} ressemble à une pomme de terre. {un} affirme que c'est le repère vu d'en haut. Premier prix, pour l'audace.
+defi_silence|concours|Le défi du silence|0|0|ferme|m2 s4 l6 e6 n4|Le premier qui parle fait la vaisselle une semaine. {un} tient quatre heures. {deux} perd en disant « c'est facile ». Le repère n'a jamais été aussi calme.
+bras_cuisine|concours|Le concours du plus gros mangeur|10|4|laxiste|m4 s16 l16 n-4|Des tourtes, un sablier. {un} en est à sa septième quand {deux} abandonne, la tête sur la table. Personne n'a envie de dîner ce soir.
+enigmes|concours|Une épreuve d'énigmes|4|12|juste|m4 s10 l12 e16|Dix énigmes affichées dans la salle commune, une journée pour les résoudre. {un} en trouve neuf. La dixième était une blague de {deux}, qui n'avait pas de solution.
+grimpe|concours|L'ascension de la tour|0|2|ferme|m4 s10 l8 e18 n-12|Le mur de la vieille tour, à mains nues. {un} arrive en haut avant tout le monde et découvre un nid, trois œufs, et une cigogne pas contente. Redescente record.
+joutes|concours|Des joutes à dos de brouette|4|4|laxiste|m5 s18 l22 n-8|Un pousseur, un cavalier, un balai. {un} et {deux} foncent face à face en hurlant. Les deux brouettes survivent. Le potager, moins.
+peche|concours|Un concours de pêche|5|6|ecoute|m4 s10 l18 n4|Une matinée au bord de l'eau. {un} ne prend rien et jure que c'était « pour le calme ». {deux} sort une botte, puis une deuxième. La paire est complète.
+olympiades|concours|Les olympiades du repère|45|72|juste|m9 s22 l20 e25 n-15 r1|Trois jours d'épreuves, des équipes, des bannières cousues à la main. {un} porte la flamme et la fait tomber deux fois. À la fin, tout le monde a une médaille en bois, et des gens de {bourg} sont venus regarder.
+
+# ---------- Sorties ----------
+foire|sortie|Emmener tout le monde à la foire|20|24|genereux|m6 s20 l24 r1|Jongleurs, stands de tir, pommes au sucre. {un} gagne une peluche énorme et ne la lâche plus. {deux} perd toute sa monnaie au chamboule-tout et accuse le forain.
+baignade|sortie|Une baignade à la rivière|0|4|complice|m5 s16 l22 n-4|L'eau est glacée et personne ne veut le dire en premier. {un} plonge sans prévenir. {chien} suit. À la fin tout le monde est dedans, même ceux qui avaient juré que non.
+randonnee|sortie|Une grande marche dans les collines|3|12|ferme|m4 s14 l12 e10 n-12|Départ à l'aube, sommet à midi. {un} râle pendant toute la montée et ne dit plus rien en haut. La vue, sûrement. Ou le souffle.
+marche_bourg|sortie|Une virée au marché du bourg|8|2|genereux|m3 s14 l16|Quelques pièces chacun, « pour se faire plaisir ». {un} revient avec un objet dont personne ne comprend l'usage. {deux} a tout dépensé en fromage. Pas de regret.
+theatre|sortie|Une soirée au théâtre|18|24|genereux|m5 s14 l22 e4|Une troupe joue à {bourg}. {un} pleure à la fin et prétend avoir une poussière dans l'œil. {deux} commente toute la pièce à voix haute. On a changé de rang à l'entracte.
+etoiles|sortie|Une nuit à regarder les étoiles|0|4|ecoute|m4 s12 l16 n-4|Des couvertures sur la colline, pas de feu. {un} connaît le nom de toutes les constellations. {deux} en invente d'autres, bien meilleures. Quelqu'un voit une étoile filante et ne dit pas son vœu.
+cueillette|sortie|Une cueillette en forêt|0|4|ecoute|m3 s12 l14 n-4|Champignons, mûres, noisettes. {un} remplit trois paniers. {deux} mange au fur et à mesure et rentre les mains violettes. {chien} déterre quelque chose qu'il vaut mieux ne pas identifier.
+bivouac|sortie|Un bivouac d'une nuit|6|12|complice|m6 s20 l18 n-6|Un feu, des tentes mal montées, des histoires jusqu'à tard. Celle de {un} s'écroule à trois heures du matin. Tout le monde finit dans celle de {deux}, serré, à rire dans le noir.
+patinage|sortie|Une sortie sur l'étang|4|6|complice|m5 s16 l22 n-6|Sur la glace ou sur des barques, selon la saison. {un} a une grâce inattendue. {deux} n'en a aucune et tombe avec beaucoup de dignité. Sept fois.
+fete_bourg|sortie|Aller à la fête du bourg|10|24|genereux|m6 s22 l22 r1|Des lampions, un orchestre, toute la ville dehors. {un} danse avec la doyenne. {deux} gagne le concours de tir à la corde pour l'équipe du quartier bas, qui veut l'adopter.
+bains_chauds|sortie|Une journée aux sources chaudes|22|24|genereux|m6 s12 l24 n14|De l'eau fumante, des pierres tièdes, rien à faire. {un} n'a pas dit un mot de la journée, et c'était un compliment. On rentre tout mous, et de très bonne humeur.
+courses_chevaux|sortie|Une après-midi aux courses|14|12|laxiste|m4 s16 l20|{un} mise tout sur un cheval « à cause de son regard ». Le cheval finit dernier, avec le même regard. {deux} gagne trois fois sa mise et paie le retour.
+visite_ruines|sortie|Une visite des vieilles ruines|4|12|ecoute|m4 s12 l14 e12 n-8|Des colonnes, des inscriptions, du lierre. {un} lit tout, touche à tout, et déclenche quelque chose. Rien de grave. Un mur a bougé. On est partis assez vite.
+lever_soleil|sortie|Le lever du soleil depuis les remparts|0|2|ecoute|m3 s10 l10|Tout le monde debout avant l'aube, des couvertures sur les épaules. {un} râle jusqu'à la première lueur. Puis plus personne ne parle, et c'est très bien comme ça.
+mer|sortie|Deux jours au bord de l'eau|50|72|genereux|m9 s20 l28 n10|Deux jours loin de tout, les pieds dans l'eau. {un} construit quelque chose d'immense avec du sable et des galets. {deux} prend un coup de soleil historique. Personne ne voulait rentrer.
+
+# ---------- Fêtes ----------
+bal|fete|Un bal au repère|35|48|genereux|m8 s26 l24 n-6 r1|La salle commune est méconnaissable : des guirlandes, des musiciens venus de {bourg}. {un} ne voulait pas danser et n'a pas quitté la piste. {deux} a tenu le buffet, fidèlement, toute la nuit.
+anniversaire|fete|Fêter l'anniversaire de la guilde|20|24|genereux|m6 s22 l18|Un gâteau à étages, plus ou moins droit, et la bannière de la guilde sortie pour l'occasion. {un} fait un discours de trois mots. C'étaient les bons.
+feu_joie|fete|Un grand feu de joie|8|6|complice|m5 s20 l16|Un bûcher haut comme deux hommes dans la cour. On y jette, sur un bout de papier, ce qu'on veut laisser derrière soi. {un} a écrit longtemps. Personne n'a demandé quoi.
+deguise|fete|Une soirée déguisée|12|24|complice|m6 s22 l24|Thème libre. {un} a choisi le costume de {deux}, et c'est très ressemblant. {deux} met dix bonnes minutes à trouver ça drôle. {chien} porte une cape.
+musique|fete|Faire venir des musiciens|18|12|genereux|m5 s18 l20|Trois musiciens de {bourg}, une vielle, un tambour, une flûte. {un} tape du pied, puis des mains, puis finit par chanter avec eux. Les musiciens proposent de l'embaucher.
+lanternes|fete|Un lâcher de lanternes|10|12|ecoute|m5 s14 l14|Une lanterne par personne, un vœu chacun. Elles montent au-dessus du repère, toutes ensemble. Celle de {un} part de travers, hésite, puis rattrape les autres.
+premiere_neige|fete|Fêter le changement de saison|6|6|complice|m4 s18 l16|On décore le repère avec ce que la saison donne : des branches, des fleurs ou de la neige. {un} prend ça très au sérieux. Le résultat est vraiment beau, et {un} le sait.
+accueil|fete|Une fête pour les nouveaux|10|6|compatissant|m5 s22 l14|Un verre levé pour ceux qui viennent d'arriver. {un} leur explique les règles non écrites du repère : quelle chaise ne pas prendre, quel escalier grince. C'est comme ça qu'on devient d'ici.
+heros_du_mois|fete|Élire le héros du mois|5|6|juste|m4 s14 l8 e12|Vote à bulletin secret, urne dans la salle commune. {un} l'emporte. Le portrait à la craie affiché dans l'entrée n'est pas ressemblant, mais {un} passe devant plus souvent que nécessaire.
+remise_medailles|fete|Une remise de médailles maison|8|12|juste|m5 s14 l8 e14|Des médailles en fer-blanc, des vraies raisons : « meilleur sang-froid », « meilleur ronflement ». {un} reçoit la sienne avec une émotion que personne n'attendait.
+nuit_blanche|fete|Une nuit blanche|15|6|laxiste|m5 s24 l22 n-18|Personne ne se couche, c'est décidé. Jeux, chansons, confidences de quatre heures du matin. {un} tient jusqu'à l'aube. Le lendemain, le repère entier dort debout.
+fete_chien|fete|La fête du chien|4|6|complice|m5 s18 l16|{chien} a droit à un os plus grand que sa tête, une couronne de fleurs et toute l'attention du repère. {un} lui a même écrit une chanson. {chien} préfère l'os.
+feu_artifice|fete|Un feu d'artifice|40|48|genereux|m7 s20 l22 r2|Tout {bourg} est monté sur la colline pour regarder. Le bouquet final éclaire le repère comme en plein jour. {un} avait les yeux qui brillaient, et pas seulement à cause des fusées.
+memoire|fete|Une veillée pour ceux qui ne sont plus là|0|6|compatissant|m3 s14 l4|Une bougie par nom, dans la salle commune. On raconte des souvenirs, les drôles surtout. {un} regarde les flammes longtemps après les autres. {chien} lui tient compagnie.
+
+# ---------- Entraînement et travail ----------
+entrainement_commun|travail|Un entraînement tous ensemble|0|2|ferme|m2 s10 e24 n-14|Tout le monde dans la cour, sans exception. Ça grogne au début. À la fin, {un} corrige la garde de {deux}, qui laisse faire. Ce genre de chose ne se commande pas.
+maitre_armes|travail|Faire venir un maître d'armes|30|24|ferme|m3 s8 e30 n-14|Un vieux bretteur de passage, qui ne sourit jamais. Il regarde {un} dix secondes et corrige un défaut que personne n'avait vu. La journée est dure, et personne ne la regrette.
+conferencier|travail|Inviter un érudit à donner une leçon|20|24|ecoute|m3 s10 l8 e24|Une leçon sur les bêtes des régions voisines, avec des croquis. {un} pose tellement de questions que la leçon dure deux heures de plus. L'érudit est ravi. Les autres, un peu moins.
+exercice_alerte|travail|Un exercice d'alerte en pleine nuit|0|0|ferme|m-2 e18 n-14|La cloche sonne à trois heures du matin. Tout le monde est dans la cour en quatre minutes, armé, pas forcément habillé. {un} n'a toujours pas pardonné. Mais quatre minutes, c'est bien.
+simulation|travail|Rejouer la dernière mission à blanc|4|6|juste|m2 s12 e22 n-8|On refait le dernier contrat dans la cour, avec des tonneaux à la place des ennemis. {un} propose une autre approche. Elle est meilleure. On la garde pour la prochaine fois.
+grand_menage|travail|Le grand ménage du repère|0|2|ferme|m1 s12 e6 n-10|Seaux, balais, fenêtres ouvertes. On retrouve sous un lit trois chaussettes, une épée et un fromage qui a vécu. {un} frotte en chantonnant. Le repère sent bon, c'est troublant.
+potager|travail|Planter un potager dans le jardin|8|6|ecoute|m3 s12 l10 e6 n-6|Des rangs bien droits, des étiquettes, de grands espoirs. {un} parle aux semis en cachette. {chien} a déjà déterré les radis deux fois.
+reparations|travail|Une journée de réparations|12|6|ferme|m2 s12 e10 n-10|Le toit, la porte du dortoir, la marche qui grince. {un} manie le marteau avec plus d'énergie que de précision. La marche ne grince plus. Elle couine.
+inventaire|travail|L'inventaire de l'armurerie|0|2|ferme|m1 s8 e10 n-4|Tout est sorti, compté, graissé, rangé. On retrouve une arme que tout le monde croyait perdue et que {un} « gardait en sécurité ». Sous son matelas.
+repeindre|travail|Repeindre la salle commune|10|12|complice|m4 s16 l10 n-8|La couleur a été votée, trois tours de scrutin. {un} peint proprement. {deux} peint {un}. À la fin, les murs sont finis et tout le monde a la même couleur dans les cheveux.
+bannieres|travail|Coudre une nouvelle bannière|8|24|juste|m5 s14 l8 e8|Chacun y ajoute quelque chose : un point, un symbole, un bout de tissu rapporté de chez soi. {un} a cousu le sien de travers et refuse qu'on y touche. Elle flotte sur le portail, et elle est à tout le monde.
+lettres_famille|travail|Une soirée pour écrire chez soi|2|0|compatissant|m3 s6 l8|Du papier, de l'encre, du silence. Certains écrivent trois pages, d'autres trois lignes. {un} regarde longtemps sa feuille blanche, puis finit par écrire. Les oiseaux partent tous demain matin.
+premiers_soins|travail|Une leçon de premiers soins|6|6|compatissant|m2 s12 e16|Bandages, attelles, garrots. {un} joue la victime et en fait beaucoup trop. {deux} lui bande tout le corps, bouche comprise. La leçon est jugée très utile.
+cartes_region|travail|Étudier les cartes de la région|0|2|juste|m1 s8 e18|Toutes les cartes dépliées sur la grande table. {un} trouve un raccourci que personne n'avait vu. {deux} trouve que le raccourci traverse un marécage. On le note quand même.
+discours|travail|Réunir tout le monde pour parler franchement|0|0|ecoute|m3 s14 e6|Tout le monde dans la salle commune, et chacun dit ce qui ne va pas. C'est long, parfois désagréable. {un} dit une chose difficile, calmement. Ça fait du bien à tout le monde, à la fin.
+
+# ---------- Au calme ----------
+jour_libre|calme|Une journée libre pour tout le monde|0|0|laxiste|m4 l20 n10|Pas d'entraînement, pas de corvée, rien. {un} dort jusqu'à midi. {deux} ne sait pas quoi faire et range ses affaires trois fois. Ça s'apprend, le repos.
+grasse_mat|calme|Une grasse matinée générale|0|0|laxiste|m3 l10 n18|Pas de cloche ce matin. Le repère se réveille à dix heures passées, les cheveux en bataille. {chien} a attendu devant chaque porte, puis a abandonné.
+sieste|calme|Une sieste collective au jardin|0|0|laxiste|m3 l12 n14|Des couvertures sous les arbres, une heure sans bruit. {un} ronfle. {deux} le fait remarquer en ronflant aussi. {chien} dort au milieu, sur le dos.
+lecture_voix|calme|Une lecture à voix haute|2|0|ecoute|m3 s12 l14 e6|Un roman d'aventures, un chapitre par soir. {un} lit, avec les voix. Quand le chapitre se termine, personne ne se lève. « Encore un. » Trois fois.
+meditation|calme|Une heure de méditation|0|0|ecoute|m2 l8 e8 n8|Tout le monde assis dans le jardin, les yeux fermés. {un} tient l'heure entière. {deux} tient six minutes, puis regarde les autres tenir. C'est déjà une forme d'attention.
+bain_pieds|calme|Une soirée soins et bassines d'eau chaude|6|2|compatissant|m4 s12 l16 n10|Des bassines, des herbes, les bottes alignées dehors. {un} soupire de bonheur assez fort pour que tout le repère entende. Personne ne se moque. Tout le monde pense pareil.
+jardinage|calme|Une matinée au jardin|2|0|ecoute|m3 s8 l14 n-2|On taille, on arrose, on arrache ce qui dépasse. {un} a les mains dans la terre et un air qu'on ne lui connaissait pas. {chien} supervise depuis l'ombre.
+the|calme|L'heure du thé|3|0|ecoute|m3 s14 l10|Une théière, des tasses dépareillées, la lumière de fin d'après-midi. {un} et {deux} parlent une heure de choses sans importance. C'est exactement ce qu'il fallait.
+dessin|calme|Un atelier de dessin|4|2|ecoute|m3 s10 l16 e4|Modèle du jour : {chien}, qui ne tient pas en place. Le dessin de {un} ressemble à un nuage avec des pattes. C'est le seul que {chien} a reniflé avec intérêt.
+confidences|calme|Une veillée au coin du feu|0|0|ecoute|m4 s20 l10|Le feu baisse, les voix aussi. {un} raconte d'où vient sa cicatrice, ou son nom, ou sa peur du noir. Personne ne répète rien. C'est la règle du feu.
+massage|calme|Faire venir une soigneuse du bourg|16|12|compatissant|m4 l14 n16|Une heure chacun, les épaules, le dos. {un} entre en traînant les pieds et ressort avec dix ans de moins. Il y a la queue devant la porte jusqu'au soir.
+correspondance|calme|La distribution du courrier, tous ensemble|0|0|ecoute|m3 s12 l6|Les lettres de la semaine, lues dans la salle commune. {un} en a trois. {deux} n'en a pas, et {un} lui lit les siennes à voix haute, pour partager.
+contemplation|calme|Une soirée sans rien de prévu|0|0|laxiste|m2 s8 l12 n6|Rien au programme, et c'est volontaire. {un} joue quelques notes, {deux} taille un bout de bois. La soirée passe toute seule, et on se couche tôt.
+
+# ---------- Pour le bourg ----------
+aide_recolte|bourg|Aider aux récoltes du bourg|0|12|juste|m3 s14 e6 n-14 r2|Une journée dans les champs de {bourg}, avec les fermiers. {un} porte les gerbes par quatre. Le soir, on vous garde à dîner, et le maire lève son verre à la guilde.
+portes_ouvertes|bourg|Une journée portes ouvertes|15|48|genereux|m4 s20 l10 r3|Les habitants de {bourg} visitent le repère. Les enfants essaient les casques. {un} fait le guide et invente la moitié de l'histoire des lieux. Les gens repartent ravis.
+demonstration|bourg|Une démonstration sur la place|8|24|juste|m4 s14 e14 n-8 r2|Duels amicaux et tirs d'adresse sur la place du marché. {un} fait crier la foule. Un gamin demande comment on entre dans la guilde. On lui dit de revenir dans dix ans.
+patrouille|bourg|Une patrouille de nuit, offerte à la ville|0|6|juste|m2 s8 e8 n-12 r2|Une nuit à faire les rondes avec le veilleur. Rien à signaler, à part un chat et un ivrogne. Au matin, la boulangère avait laissé un panier devant le portail.
+reparer_pont|bourg|Réparer quelque chose pour le bourg|20|24|genereux|m4 s14 e8 n-14 r3|Le lavoir fuyait depuis l'hiver. Une journée, quelques planches, beaucoup de bras. {un} a fini avec de l'eau jusqu'à la taille. Une plaque au nom de la guilde est déjà vissée dessus.
+ecole|bourg|Une visite à l'école|0|6|ecoute|m4 s14 l8 r1|{un} raconte une mission aux enfants, en arrangeant un peu la fin. Quarante questions, dont trente sur {chien}. L'institutrice dit que la classe n'a jamais été aussi attentive.
+don|bourg|Un don à l'hospice|25|0|genereux|m3 r3|Une bourse déposée sans cérémonie. La nouvelle fait le tour de {bourg} en une heure. Au repère, {un} hoche la tête en l'apprenant, et c'est tout, mais ça veut dire beaucoup.
+marche_noel|bourg|Tenir un stand au marché|6|24|complice|m4 s18 l12 r1|La guilde vend des gâteaux maison et des démonstrations de bras de fer. {un} tient la caisse et rend trop de monnaie. {deux} perd exprès contre tous les enfants. Bénéfice : quasi nul. Sourires : beaucoup.
+match_bourg|bourg|Un match amical contre l'équipe du bourg|5|24|complice|m5 s20 l18 n-10 r2|Un jeu de ballon dont personne ne maîtrise les règles, la guilde contre {bourg}. {un} marque contre son camp. Le bourg gagne, et paie sa tournée. Tout le monde a gagné, du coup.
+parrainage|bourg|Parrainer la fête de l'école|18|48|genereux|m4 s14 l10 r3|La guilde paie les lampions et les prix. {un} remet les médailles aux enfants avec un sérieux absolu. Un petit garçon lui demande un autographe. {un} ne sait pas quoi écrire, et écrit « Bravo ».
+nettoyage|bourg|Nettoyer la rivière avec les habitants|0|12|juste|m3 s14 n-10 r2|Une matinée les pieds dans l'eau, avec la moitié de {bourg}. On en sort deux roues, une ancre et une quantité surprenante de bottes. {un} et le meunier ne se quittent plus.
+banquet_bourg|bourg|Inviter tout le bourg à dîner|60|72|genereux|m8 s26 l18 r5|Des tables jusque dans la cour, trois cents couverts, des gens qu'on n'avait jamais vus sourire. {un} sert, {deux} trinque avec le maire. Ce soir-là, il n'y avait plus « ceux du repère » et « ceux d'en bas ».
