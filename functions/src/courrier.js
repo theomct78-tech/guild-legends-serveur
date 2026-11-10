@@ -55,8 +55,9 @@ function remplir(g, texte, x) {
 }
 function signer(g, region, corps, x) {
   const sig = phrase('signataire', region, region) || 'Le correspondant de la Chambre des Bannières';
-  const fin = phrase('signature', '*', region) || '';
-  return finir(`Une lettre de la Chambre des Bannières arrive par la voie des airs, envoyée ${Q.avecPreposition(x.lieu || region, 'de')}. « ${remplir(g, corps, { ...x, signataire: sig })} » ${fin} ${sig}.`);
+  const graine = `${x.lieu}#${corps.length}`, fin = phrase('signature', '*', graine) || '';
+  const intro = remplir(g, phrase('intro', '*', graine) || 'Une lettre de la Chambre des Bannières arrive par la voie des airs, envoyée {de_lieu}.', x);
+  return finir(`${intro} « ${remplir(g, corps, { ...x, signataire: sig })} » ${fin} ${sig}.`);
 }
 
 /*

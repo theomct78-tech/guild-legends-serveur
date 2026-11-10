@@ -244,7 +244,7 @@ function faireAvancerContrats(monde) {
           texte: FIN(pl ? `${liste} quittent la salle de brief et passent le portail, en route ${Q.avecPreposition(c.mission.lieu, 'vers')} pour le contrat « ${c.mission.titre} ». ${g.monde.chien} les accompagne jusqu'au bout du chemin, puis s'assoit et les regarde partir.`
             : `${liste} quitte la salle de brief et passe le portail, en route ${Q.avecPreposition(c.mission.lieu, 'vers')} pour le contrat « ${c.mission.titre} ». ${g.monde.chien} suit jusqu'au bout du chemin, puis s'assoit et regarde la silhouette s'éloigner.`) });
         const vol = CO.volOiseau(p0?.trajet);
-        (g.lettres ||= []).push({ t: c.depart + vol, heros: hs.map(x => x.id), scene: 'contrat#arrivee', texte: CO.lettreArrivee(g, hs, { ...c.mission, id: c.id }, c.depart, V) });
+        (g.lettres ||= []).push({ t: c.depart + vol, heros: hs.map(x => x.id), scene: 'contrat#arrivee', dec: 'courrier', texte: CO.lettreArrivee(g, hs, { ...c.mission, id: c.id }, c.depart, V) });
       }
     }
     if (c.statut === 'ouvert' && t >= c.depart) { c.statut = c.m.postes.some(p => p.heros) ? 'route' : 'clos'; if (c.statut === 'clos') c.abandon = true; }
@@ -276,7 +276,7 @@ function resoudre(monde, c) {
     const retours = Object.fromEntries(mes.map(p => [p.heros.id, p.retour]));
     const vol = CO.volOiseau(mes[0]?.trajet);
     for (const texte of CO.lettresIssue(g, hs, { ...c.mission, id: c.id }, r, monde.t, retours, V, { connue: palierDe(g) !== 'inconnue' }))
-      (g.lettres ||= []).push({ t: monde.t + vol, heros: hs.map(x => x.id), scene: 'contrat#issue', texte });
+      (g.lettres ||= []).push({ t: monde.t + vol, heros: hs.map(x => x.id), scene: 'contrat#issue', dec: 'courrier', texte });
   }
 }
 function rentrer(monde, c, p) {

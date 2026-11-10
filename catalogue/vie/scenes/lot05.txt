@@ -12,7 +12,7 @@ VIE-1304|defi|lieu=salle_armes|2||{a} lance un défi à {b} devant le râtelier 
 # --- Les écuries ---
 VIE-1310|solitude|lieu=ecuries|1||{a} passe l'après-midi aux écuries à brosser les chevaux, sans un mot. Les chevaux, eux, ont l'air de comprendre beaucoup de choses.
 VIE-1311|solitude|lieu=ecuries|1||{a} donne une pomme au plus vieux cheval des écuries, puis une deuxième, puis toutes les pommes de la cuisine. Le cuisinier mène l'enquête. Le cheval ne dit rien.
-VIE-1312|bon_moment|lieu=ecuries|1||{a} et {b} se retrouvent aux écuries pour soigner un poulain qui boite. Ils restent avec lui jusqu'au soir, assis dans la paille, à parler de tout sauf des missions.
+VIE-1312|bon_moment|lieu=ecuries|1||{a} et {b} se retrouvent aux écuries pour soigner un poulain qui boite. La soirée y passe, dans la paille, à parler de tout sauf des missions.
 VIE-1313|solitude|lieu=ecuries,soir|1||Tard le soir, {a} s'endort dans la paille des écuries, contre le flanc tiède d'un cheval. Au matin, {chien} est venu se coucher contre ses jambes.
 
 # --- La forge ---
@@ -23,7 +23,7 @@ VIE-1322|solitude|lieu=forge|1||{a} regarde le forgeron travailler pendant une h
 # --- La salle des cartes ---
 VIE-1330|lecture|lieu=salle_cartes|1||{a} passe la soirée dans la salle des cartes, à suivre du doigt des routes où personne de la guilde n'est encore allé. Il y en a beaucoup. C'est bon signe.
 VIE-1331|lecture|lieu=salle_cartes,a:CURIEUX|1||{a} corrige à l'encre rouge une carte de la salle des cartes : un pont qui n'existe plus, un village qui a changé de nom. Personne ne lui a rien demandé. La carte est bien meilleure.
-VIE-1332|bon_moment|lieu=salle_cartes|1||{a} et {b} se penchent sur la grande table de la salle des cartes et préparent, pour le plaisir, une expédition imaginaire. Elle durerait trois ans. Ils ont déjà choisi qui porterait les bagages.
+VIE-1332|bon_moment|lieu=salle_cartes|1||{a} et {b} se penchent sur la grande table de la salle des cartes et préparent, pour le plaisir, une expédition imaginaire. Elle durerait trois ans. Le nom de celui qui porterait les bagages est déjà trouvé.
 
 # --- L'aile nord ---
 VIE-1340|repos|lieu=aile_nord|1||{a} profite du calme de l'aile nord, loin du bruit de la salle commune, et dort d'un sommeil sans rêves, pour une fois.

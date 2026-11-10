@@ -61,7 +61,7 @@ activite|DEVOT|À l'heure où j'écris, {nom} prie, à l'écart. Personne n'ose 
 activite|ENJOUE|À l'heure où j'écris, {nom} joue aux osselets avec les enfants du coin, et perd exprès.
 activite|ERUDIT|À l'heure où j'écris, {nom} lit dans un coin, un livre emprunté à notre bureau. Le livre ne reviendra pas, je le sens.
 activite|FANATIQUE|À l'heure où j'écris, {nom} répète à qui veut l'entendre que la mission est une évidence. Personne n'ose contredire.
-activite|FARCEUR|À l'heure où j'écris, {nom} a déjà caché les bottes de notre garde. Je vous saurais gré de lui en parler.
+activite|FARCEUR|À l'heure où j'écris, {nom} a déjà caché les bottes de notre garde. Si vous pouviez lui en toucher un mot à son retour.
 activite|FIER|À l'heure où j'écris, {nom} a exigé qu'on lui présente le responsable local. C'était moi. Je crois avoir déçu.
 activite|GOURMAND|À l'heure où j'écris, {nom} est à table. Pour la deuxième fois.
 activite|HANTE|À l'heure où j'écris, {nom} regarde par la fenêtre, longtemps, sans rien dire. Je n'ai pas osé l'interrompre.
@@ -98,8 +98,8 @@ issue|partielle:*|{maitre}, le contrat « {mission} » n'est rempli qu'en partie
 issue|echec:inconnue|{maitre}, le contrat « {mission} » a échoué. Je ne vais pas vous mentir : la Chambre attendait mieux.
 issue|echec:connue|{maitre}, le contrat « {mission} » a échoué. Ça arrive, même aux meilleures guildes. Ça ne doit pas arriver deux fois.
 
-depart|1|{nom} a repris la route {de_lieu} à {heure}. Arrivée au repère prévue {retour}.
-depart|n|{noms} ont repris la route {de_lieu} à {heure}. Arrivée au repère prévue {retour}.
+depart|1|{nom} a repris la route {de_lieu} à {heure}. Retour au repère {retour}.
+depart|n|{noms} ont repris la route {de_lieu} à {heure}. Retour au repère {retour}.
 
 blessure|legere|{nom} s'en tire avec des blessures légères. Notre médecin a fait les pansements ; rien qui ne guérisse avec du repos.
 blessure|grave|Les blessures de {nom} sont graves. Notre médecin a fait tout ce qui était possible, et le pire est écarté. La Chambre prend le transport à sa charge : une charrette couverte, avec un soigneur. Arrivée au repère prévue {retour}.
@@ -107,3 +107,62 @@ blessure|grave|Les blessures de {nom} sont graves. Notre médecin a fait tout ce
 mort|1|{maitre}, c'est avec une profonde tristesse que je vous écris. {nom} a perdu la vie {a_lieu}, pendant le contrat « {mission} ». Tout a été fait pour {nom}, jusqu'au bout. Le corps est veillé par nos gens, et vous sera rendu avec tous les honneurs. Je suis désolé{je_e}, sincèrement.
 
 signature|*|Avec mes respects,
+
+# ---------- Variantes (10 nov. 2026) : pour que deux lettres reçues le même jour ne se ressemblent pas ----------
+# La première phrase du récit : comment la lettre arrive au repère.
+intro|*|Une lettre de la Chambre des Bannières arrive par la voie des airs, envoyée {de_lieu}.
+intro|*|Un oiseau de la Chambre se pose sur le chemin de ronde, un pli {de_lieu} à la patte.
+intro|*|Au perchoir, un oiseau bagué aux couleurs de la Chambre. Le pli vient {de_lieu}.
+intro|*|Le sceau de la Chambre des Bannières, une écriture pressée : des nouvelles {de_lieu}.
+
+entete|nuit:1|{maitre}, pardon pour l'écriture, il est tard : {nom} est {a_lieu} depuis {heure}. J'ai été réveillé{je_e} par le garde, et j'ai préféré vous écrire tout de suite.
+entete|nuit:1|{maitre}, {nom} est {a_lieu} depuis {heure}, en pleine nuit. L'auberge était fermée ; j'ai ouvert notre bureau et sorti une paillasse.
+entete|nuit:n|{maitre}, pardon pour l'écriture, il est tard : {noms} sont {a_lieu} depuis {heure}. J'ai été réveillé{je_e} par le garde, et j'ai préféré vous écrire tout de suite.
+entete|nuit:n|{maitre}, {noms} sont {a_lieu} depuis {heure}, en pleine nuit. L'auberge était fermée ; j'ai ouvert notre bureau et sorti des paillasses.
+entete|matin:1|{maitre}, bonne nouvelle pour commencer la journée : {nom} est {a_lieu} depuis {heure}, sans encombre.
+entete|matin:1|{maitre}, {nom} est {a_lieu} depuis {heure}. Le marché ouvrait à peine, et la nouvelle a fait le tour des étals avant moi.
+entete|matin:n|{maitre}, bonne nouvelle pour commencer la journée : {noms} sont {a_lieu} depuis {heure}, sans encombre.
+entete|matin:n|{maitre}, {noms} sont {a_lieu} depuis {heure}. Le marché ouvrait à peine, et la nouvelle a fait le tour des étals avant moi.
+entete|jour:1|{maitre}, un mot rapide : {nom} est {a_lieu} depuis {heure}. Rien à signaler sur la route.
+entete|jour:1|{maitre}, {nom} est {a_lieu} depuis {heure}. Les gens d'ici attendaient quelqu'un de la guilde ; ils sont soulagés.
+entete|jour:n|{maitre}, un mot rapide : {noms} sont {a_lieu} depuis {heure}. Rien à signaler sur la route.
+entete|jour:n|{maitre}, {noms} sont {a_lieu} depuis {heure}. Les gens d'ici attendaient quelqu'un de la guilde ; ils sont soulagés.
+entete|soir:1|{maitre}, {nom} est {a_lieu} depuis {heure}, à l'heure où on allume les lampes. Il restait de la soupe.
+entete|soir:1|{maitre}, je vous écris avant de fermer le bureau : {nom} est {a_lieu} depuis {heure}.
+entete|soir:n|{maitre}, {noms} sont {a_lieu} depuis {heure}, à l'heure où on allume les lampes. Il restait de la soupe pour tout le monde.
+entete|soir:n|{maitre}, je vous écris avant de fermer le bureau : {noms} sont {a_lieu} depuis {heure}.
+
+moral|haut|{nom} a le sourire et pose déjà des questions sur le travail. Franchement, ça fait plaisir.
+moral|haut|{nom} est en forme, ça se voit à dix mètres. J'en connais ici que ça a rassurés.
+moral|moyen|Côté moral, {nom} va bien, sans plus : concentration, peu de mots, l'envie d'en finir proprement.
+moral|moyen|{nom} n'a ni râlé ni plaisanté. Je dirais : au travail.
+moral|bas|Je préfère être honnête : {nom} n'est pas dans un bon jour. Rien d'inquiétant pour le contrat, mais vous devriez le savoir.
+moral|bas|{nom} fait ce qu'il faut, mais le cœur n'y est pas. Ça ne me regarde pas, alors je vous le dis à vous.
+forme|fatigue|{nom} tient debout par habitude. J'ai fait monter un repas et j'ai interdit qu'on frappe à sa porte avant demain.
+forme|blessure|{nom} boite encore un peu d'une vieille blessure. Notre médecin a refait le bandage et n'a rien trouvé d'alarmant.
+
+fin|1|La suite au prochain oiseau, dès que le contrat sera terminé.
+fin|1|Je vous réécris à la fin du contrat, quelle que soit l'issue.
+fin|n|La suite au prochain oiseau, dès que le contrat sera terminé.
+fin|n|Je vous réécris à la fin du contrat, quelle que soit l'issue.
+
+issue|eclatante:inconnue|{maitre}, je vais être direct{je_e} : je n'attendais pas grand-chose d'une guilde dont je n'avais jamais entendu le nom. J'avais tort. « {mission} » est une réussite complète, et tout le monde ici le sait déjà.
+issue|eclatante:connue|{maitre}, « {mission} » : réussite complète. On me demande déjà quand votre guilde revient. Je n'ai pas su quoi répondre, à part « bientôt, j'espère ».
+issue|reussite:inconnue|{maitre}, « {mission} » : c'est fait, et bien fait. Rien à redire sur le travail. La prime part avec vos héros.
+issue|reussite:connue|{maitre}, « {mission} » : contrat rempli, comme prévu. C'est devenu une habitude avec votre guilde, et je ne m'en plains pas.
+issue|partielle:*|{maitre}, « {mission} » : c'est à moitié réussi. Le plus important est fait, mais il reste des dégâts, et la Chambre ne paiera que la moitié.
+issue|echec:inconnue|{maitre}, « {mission} » : échec. Le travail n'a pas été fait. La Chambre ne versera rien, et je devrai l'écrire dans mon rapport.
+issue|echec:connue|{maitre}, « {mission} » : échec. Je m'attendais à mieux de votre part, et tout le bureau aussi. La prime est annulée.
+
+depart|1|{nom} a quitté les lieux à {heure} et devrait être au repère {retour}.
+depart|1|{nom} est sur le chemin du retour depuis {heure}. Comptez une arrivée {retour}.
+depart|n|{noms} ont quitté les lieux à {heure} et devraient être au repère {retour}.
+depart|n|{noms} sont sur le chemin du retour depuis {heure}. Comptez une arrivée {retour}.
+
+blessure|legere|{nom} rentre avec quelques points de suture et beaucoup de mauvaise humeur. Rien de grave : du repos, et ça ira.
+blessure|grave|Je ne vais pas tourner autour du pot : La blessure de {nom} est grave, mais le pire est passé. Notre médecin ne quitte pas son chevet. La Chambre paie le transport, en charrette couverte avec un soigneur. Arrivée prévue {retour}.
+
+mort|1|{maitre}, je ne sais pas comment écrire cette lettre. {nom} a perdu la vie {a_lieu}, pendant « {mission} ». Nous avons tout tenté. Quelqu'un veille le corps jour et nuit, et nous vous le ramènerons nous-mêmes. Si vous voulez savoir comment ça s'est passé, je vous le dirai en face, pas dans une lettre. Toutes mes condoléances, à vous et au repère.
+
+signature|*|Bien à vous,
+signature|*|Je reste à votre disposition,
