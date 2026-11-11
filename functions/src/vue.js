@@ -35,6 +35,32 @@ function images(cle) {
 }
 const slug = cle => cle.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '').toLowerCase();
 
+function tableEpreuves() {
+  const RES = require('./resolution'), M2 = require('./missions'), AV = require('./avantages');
+  const CLE = { Fo: 'Force', Dé: 'Défense', Ma: 'Magie', Ré: 'Résistance magique', Vi: 'Vitesse', Pr: 'Précision', En: 'Endurance', In: 'Intelligence', Le: 'Leadership' };
+  return Object.fromEntries(Object.entries(RES.EPREUVES).map(([type, d]) => [type, { label: d.label,
+    stats: Object.entries(d.stats).map(([k, p]) => ({ nom: k.split('|').map(x => CLE[x]).join(' ou '), poids: Math.round(p * 100) })),
+    postes: Object.entries(M2.POSTES).filter(([, x]) => x.cles.includes(type)).map(([n]) => n),
+    avantages: d.avantages.map(a => AV.PALETTE[a].label) }]));
+}
+/* Les compétences d'un héros : celles qui jouent déjà en mission, et celles qui restent à débloquer en progressant. */
+let COMP = null;
+const SEUILS_TXT = { 3: 80, 4: 85, 5: 90 };
+function competencesVue(h) {
+  COMP ||= JSON.parse(require('node:fs').readFileSync(require('node:path').join(require('./chemins'), 'competences.json'), 'utf8'));
+  const AV = require('./avantages'), lots = AV.chargerLotsCache(), kit = lots[h.champion] || {};
+  const ratio = W.ratioDe(h), cles = AV.clesDebloquees(h.champion, ratio), ordre = AV.clesDebloquees(h.champion, 1);
+  const noms = Object.fromEntries((COMP[h.champion]?.competences || []).map(c => [c.cle, c.nom]));
+  const palier = AV.palierProgression(ratio);
+  const liste = ordre.map((k, i) => ({ cle: k, nom: noms[k] || k, phrase: kit[k]?.phrase || '', debloquee: cles.includes(k),
+    avantages: (kit[k]?.avantages || []).map(a => ({ code: a.code, label: AV.PALETTE[a.code].label, effet: AV.PALETTE[a.code].effet, force: a.force })),
+    seuil: cles.includes(k) ? null : SEUILS_TXT[i + 1] || 90 }));
+  const prochain = liste.find(x => !x.debloquee);
+  // Le chemin vers la prochaine compétence, en %, entre le seuil déjà franchi et le suivant (sans dévoiler le plafond).
+  const bas = [0.75, 0.80, 0.85, 0.90][Math.max(0, cles.length - 2)] ?? 0.9, haut = prochain ? prochain.seuil / 100 : 1;
+  return { liste, prochain: prochain ? { cle: prochain.cle, nom: prochain.nom, avance: Math.max(0, Math.min(100, Math.round((ratio - bas) / Math.max(0.01, haut - bas) * 100))) } : null,
+    force: Math.round((1 + palier / 4) * 100) / 100 };
+}
 function ficheCombat(g, h) {
   const f = W.catalogues().parCle[h.cle];
   return P.ficheCombat({ stats: W.statsDe(h), moral: h.moral }, f.plafonds, f.potentiel, 35 + 10 * ['inconnue', 'locale', 'regionale', 'renommee', 'legendaire'].indexOf(REC.palierDe(g.niveau || 1).cle));
@@ -106,7 +132,7 @@ function vue(monde, gid) {
     // La durée du travail sur place reste secrète : on ne connaît que la route (demande de Théo, 9 nov. 2026).
     const cal = { aller: cal0.aller, possible: cal0.possible };
     return { id: c.id, titre: c.mission.titre, lieu: c.mission.lieu, region: c.mission.region, accroche: c.mission.accroche, demandeur: c.mission.demandeur, postes: c.m.postes.map(p => p.type),
-      po: c.mission.po, risque: c.mission.risque, dangereuse: Boolean(c.mission.dangereuse), cal, rang: c.m.rang, ferme: c.depart - (cal.aller || 0) - monde.t, chance: W.chanceContrat(monde, c.id),
+      po: c.mission.po, risque: c.mission.risque, dangereuse: Boolean(c.mission.dangereuse), cal, rang: c.m.rang, ferme: c.depart - (cal.aller || 0) - monde.t, chance: W.chanceContrat(monde, c.id), detail: W.detailContrat(monde, c.id),
       briefing: c.m.postes.filter(p => p.guilde === gid && p.heros && !p.parti).map(p => ({ id: p.heros.id, nom: p.heros.nom, depart: Math.max(0, c.depart - p.trajet - monde.t) })),
       enRoute: c.m.postes.filter(p => p.guilde === gid && p.heros && p.parti).map(p => p.heros.id),
       detailPostes: c.m.postes.map((p, i) => ({ type: p.type,
@@ -145,6 +171,7 @@ function vue(monde, gid) {
     regions: regionsVue(monde, g, contrats),
     aVenir: aVenir(monde, g),
     charlie: require('./charlie').vue(g, Math.floor(V.heureLocale(monde.t) / 2) * 2),
+    epreuves: tableEpreuves(),
     economie: { palier: palier.nom, revenu: E.revenuHebdo(palier.cle) }, chien: g.monde.chien,
     repere: { region: g.region, bourg: g.monde.bourg, meteo: V.meteo(g) },
     // Les premiers pas déjà faits, d'après la partie elle-même (le carnet de l'intendante ne dépend plus de l'appareil).
@@ -157,7 +184,7 @@ function vue(monde, gid) {
         fait: AC.ceQueFait(g, h), gestes: AC.gestesPour(g, h), ententes: SO.ententesDe(monde, h),
         raisons: V.raisonsMoral(g, h).slice(0, 6), regard: require('./maitre').regardExplique(g, h), traits: h.traits.map(trait), motivation: h.motivation, region: h.regions?.aime?.[0] || null, salaire: h.salaire, attente: h.attente || null,
         relations: actifs.filter(o => o !== h).map(o => { const r = V.relation(g, h, o); return { id: o.id, aff: Math.round(r.aff), type: r.type }; }).sort((a, b) => Math.abs(b.aff) - Math.abs(a.aff)).slice(0, 4),
-        presentation: pres()[h.champion] || null, combat: ficheCombat(g, h), rang: RG.rangPrincipal(W.statsDe(h), f.role), specialites: h.specialites,
+        presentation: pres()[h.champion] || null, combat: ficheCombat(g, h), competences: competencesVue(h), rang: RG.rangPrincipal(W.statsDe(h), f.role), specialites: h.specialites,
         equipement: (h.equipement || []).map(o => ({ uid: o.uid, nom: o.nom, texte: o.texte })), elixir: h.elixir?.nom || null,
         quete: g.quetes?.[h.id] ? { id: g.quetes[h.id].id, titre: (() => { try { return Q.queteDe(C.quetes, h, g.region)?.titre || null; } catch { return null; } })(), etat: g.quetes[h.id].etat, etape: g.quetes[h.id].etape, enCours: Boolean(g.quetes[h.id].enCours) } : null }; }),
     cartes: g.cartes.filter(c => c.etat === 'ouverte').map(c => carteVue(g, c)),

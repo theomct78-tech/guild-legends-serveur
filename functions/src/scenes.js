@@ -174,13 +174,42 @@ function replique(rep, h, sit, autre, rng, usage = {}, t = 0, { registre = false
   return x.replace(/\{b\}/g, autre?.nom ?? 'toi');
 }
 
+
+/* ---------- Cohérence avec le moment (11 nov. 2026, remarque de Théo : « Zyra lit dehors alors qu'il pleut ») ----------
+ * Une variante qui parle de soleil n'est pas jouée sous la pluie, une variante qui parle de pluie n'est pas jouée au soleil
+ * (sauf si la scène est écrite pour ce temps-là), une variante qui situe la scène dans une autre pièce que celle où se trouve
+ * le héros n'est pas jouée, et une variante à deux n'est jamais confiée à un héros seul.
+ */
+const SEC = /\b(soleil|ensoleill\w*|ciel bleu|étoiles?|étoilé|clair de lune|chaleur|poussière de la cour)\b/i;
+const MOUILLE = /\b(pluie|pleut|pleuvait|averse|orage|neige|neiger?|flocons?|gouttière|trempée?s?|ruisselle\w*)\b/i;
+const LIEUX_NOMMES = [
+  ['cour', /\b(dans|sur|de) la cour\b|\bau milieu de la cour\b/i], ['jardin', /\b(au|du|dans le) jardin\b/i], ['remparts', /\b(sur les|des|aux) remparts\b/i],
+  ['salle_commune', /\b(dans|de) la salle commune\b/i], ['taverne', /\b(à|de) la taverne\b/i], ['bibliotheque', /\b(à|dans|de) la bibliothèque\b/i],
+  ['dortoirs', /\b(dans les|des|aux) dortoirs?\b/i], ['cuisines', /\b(aux|des|dans les) cuisines\b/i], ['forge', /\b(à|de) la forge\b/i],
+  ['ecuries', /\b(aux|des) écuries\b/i], ['sanctuaire', /\b(au|du) sanctuaire\b/i], ['bains', /\b(aux|des|dans les) bains\b/i], ['infirmerie', /\b(à|de) l'infirmerie\b/i],
+];
+const DEHORS_SCENE = new Set(['cour', 'jardin', 'remparts']);
+function coherente(s, v, ctx) {
+  if (/\{b[}:]/.test(v) && !ctx.b) return false;
+  const temps = ctx.meteo?.temps, ecritPourLeTemps = s.conditions.some(c => c.type === 'meteo' || c.type === 'saison');
+  const mouille = ['pluie', 'orage', 'neige'].includes(temps);
+  if (temps && !ecritPourLeTemps) {
+    if (mouille && SEC.test(v)) return false;
+    if (!mouille && MOUILLE.test(v)) return false;
+  }
+  const nommes = LIEUX_NOMMES.filter(([, re]) => re.test(v)).map(([l]) => l);
+  if (ctx.lieu && ctx.lieu !== 'ville' && nommes.length && !nommes.includes(ctx.lieu) && !/\{lieu\}/.test(v)) return false;
+  if (mouille && !ecritPourLeTemps && nommes.some(l => DEHORS_SCENE.has(l)) && !/\b(rentre|à l'abri|sous le préau)\b/i.test(v)) return false;
+  return true;
+}
+
 /*
  * Choisit une scène. Les scènes les plus précises (le plus de conditions) sont favorisées, et une scène déjà jouée
  * dans la guilde depuis moins de « delai » heures est écartée. Si plus rien n'est disponible, un moment mineur
  * retombe dans la routine (null) ; un moment important reprend la scène la plus ancienne.
  */
 function choisirScene(scenes, declencheur, ctx, usage, t, delai, rng, obligatoire = false) {
-  const possibles = scenes.filter(s => s.declencheur === declencheur && s.conditions.every(c => verifie(c, ctx)) && s.variantes.some(v => peutParler(scenes.repliques, v, ctx)));
+  const possibles = scenes.filter(s => s.declencheur === declencheur && s.conditions.every(c => verifie(c, ctx)) && s.variantes.some(v => peutParler(scenes.repliques, v, ctx) && coherente(s, v, ctx)));
   if (!possibles.length) return null;
   let libres = possibles.filter(s => usage[s.id] == null || t - usage[s.id] >= delai);
   if (!libres.length) {
@@ -194,7 +223,7 @@ function choisirScene(scenes, declencheur, ctx, usage, t, delai, rng, obligatoir
   const poids = libres.map(s => ((s.conditions.length ? 1 : 0.6) + 2.5 * s.conditions.length + ancree(s)) / (1 + 0.6 * (ctx.vus?.[s.id] || 0)));
   let x = rng() * poids.reduce((a, b) => a + b, 0), s = libres[0];
   for (let i = 0; i < libres.length; i++) { x -= poids[i]; if (x <= 0) { s = libres[i]; break; } }
-  const jouables = s.variantes.filter(v => peutParler(scenes.repliques, v, ctx));
+  const jouables = s.variantes.filter(v => peutParler(scenes.repliques, v, ctx) && coherente(s, v, ctx));
   const variante = jouables[Math.floor(rng() * jouables.length) % jouables.length];
   const autre = k => (k === 'a' ? ctx.b : ctx.a);
   const derniere = k => evenementRecent(ctx, { quoi: 'mission', qui: k }) || {};
@@ -211,4 +240,4 @@ function choisirScene(scenes, declencheur, ctx, usage, t, delai, rng, obligatoir
   return { id: s.id, importance: s.importance, effets: s.effets, texte: finir(texte) };
 }
 
-module.exports = { replique, lireScenes, lireRepliques, evenementRecent, FENETRES, chargerScenes, choisirScene, verifie, lireCondition, lireEffet, LIBELLES_LIEUX };
+module.exports = { coherente, replique, lireScenes, lireRepliques, evenementRecent, FENETRES, chargerScenes, choisirScene, verifie, lireCondition, lireEffet, LIBELLES_LIEUX };

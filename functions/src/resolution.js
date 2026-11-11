@@ -49,9 +49,14 @@ const PARAMS = {
   allegement: { inconnue: 8, locale: 14, regionale: 10, renommee: 4, legendaire: 0 },
   brio: 0.3,                         // part basse du tirage qui fait une réussite éclatante
   chanceComplication: 0.5, surcoutComplication: 3, eclaireurComplication: 10,
+  // 11 nov. 2026, audit : la classe compte aussi quand le poste est tenu. Sur les épreuves clés de son poste (un Tank au combat,
+  // un Éclaireur en discrétion, un Support en diplomatie), le héros pèse 12 % de plus, selon l'efficacité avec laquelle il le tient.
+  bonusPoste: 0.12,
+  // Reconnaissance (compétences) : la complication perd jusqu'à 6 de difficulté. Soins : jusqu'à 60 % de chances qu'une blessure grave reste légère.
+  reconnaissanceMax: 6, soinsMax: 0.6,
 };
 
-const { penaliteComposition, risqueBlessureComposition } = require('./missions');
+const { penaliteComposition, risqueBlessureComposition, POSTES } = require('./missions');
 
 const CLE = { Fo: 'Force', Dé: 'Défense', Ma: 'Magie', Ré: 'Résistance magique', Vi: 'Vitesse', Pr: 'Précision', En: 'Endurance', In: 'Intelligence', Le: 'Leadership' };
 
@@ -82,7 +87,10 @@ function cohesion(relations = []) {
  */
 function scoreEpreuve(equipe, epreuve, avantages = {}, contexte = {}) {
   const def = EPREUVES[epreuve.type];
-  const classes = equipe.map(h => ({ nom: h.nom, valeur: valeurHeros(h, epreuve.type) })).sort((a, b) => b.valeur - a.valeur);
+  const classes = equipe.map(h => {
+    const cle = h.poste && POSTES[h.poste]?.cles.includes(epreuve.type);
+    return { nom: h.nom, valeur: valeurHeros(h, epreuve.type) * (cle ? 1 + PARAMS.bonusPoste * (h.efficacite ?? 1) : 1), poste: cle ? h.poste : null };
+  }).sort((a, b) => b.valeur - a.valeur);
   const somme = PARAMS.poidsRang.slice(0, classes.length).reduce((a, b) => a + b, 0);
   let base = classes.reduce((t, h, i) => t + h.valeur * (PARAMS.poidsRang[i] ?? 0.1), 0) / somme;
   const total = def.avantages.filter(a => a !== 'MAITRISE').reduce((t, a) => t + (avantages[a] || 0), 0);
@@ -117,7 +125,7 @@ function resoudreMission(equipe, mission, avantages = {}, contexte = {}, rng = M
   if (mission.complication && rng() < PARAMS.chanceComplication) {
     const eclaireur = (contexte.postes || []).some(p => p.type === 'Éclaireur' && p.heros);
     // contexte.imprevu : la salle des cartes du repère rend les imprévus moins rudes (valeur négative).
-    const d = Math.max(...mission.epreuves.map(e => e.difficulte)) + PARAMS.surcoutComplication - (eclaireur ? PARAMS.eclaireurComplication : 0) + (contexte.imprevu || 0);
+    const d = Math.max(...mission.epreuves.map(e => e.difficulte)) + PARAMS.surcoutComplication - (eclaireur ? PARAMS.eclaireurComplication : 0) + (contexte.imprevu || 0) - rendement(avantages.RECONNAISSANCE || 0, PARAMS.reconnaissanceMax);
     liste = [...liste, { type: TYPE_COMPLICATION[mission.type] || mission.epreuves[0].type, difficulte: d, recit: mission.complication, complication: true }];
     complication = eclaireur ? 'prevue' : 'surprise';
   }
@@ -137,7 +145,7 @@ function resoudreMission(equipe, mission, avantages = {}, contexte = {}, rng = M
   const blessures = [];
   for (const ep of epreuves.filter(e => !e.reussie && ['combat', 'nuee', 'siege'].includes(e.type))) {
     const risque = Math.min(0.9, (PARAMS.risqueBlessureBase + (contexte.postes ? risqueBlessureComposition(contexte.postes) : 0)) * (mission.risque ? PARAMS.multRisque : 1) * (1 - rendement(avantages.PROTECTION || 0, PARAMS.protectionMax)) * (contexte.blessure ?? 1));  // contexte.blessure : la forge du repère
-    for (const h of equipe) if (rng() < risque) blessures.push({ nom: h.nom, epreuve: ep.type, niveau: ep.grave ? 'grave' : 'legere' });
+    for (const h of equipe) if (rng() < risque) blessures.push({ nom: h.nom, epreuve: ep.type, niveau: ep.grave && !(rng() < rendement(avantages.SOINS || 0, PARAMS.soinsMax)) ? 'grave' : 'legere' });
   }
   return { issue, reussies: n, total, epreuves, blessures, complication, mortPossible: Boolean(mission.dangereuse && epreuves.some(e => e.grave)) };
 }
@@ -152,4 +160,13 @@ function chanceMission(equipe, mission, avantages = {}, contexte = {}) {
   return Math.round(dist.reduce((t, v, k) => t + (k * 2 > total ? v : 0), 0) * 100);
 }
 
-module.exports = { EPREUVES, PARAMS, valeurHeros, cohesion, scoreEpreuve, chanceReussite, resoudreMission, chanceMission };
+/* Le détail d'une chance, épreuve par épreuve, pour que le joueur comprenne ce qui compte (fiche du contrat). */
+function detailChance(equipe, mission, avantages = {}, contexte = {}) {
+  contexte = { allegement: PARAMS.allegement[mission.palier] || 0, ...contexte };
+  return mission.epreuves.map(ep => {
+    const s = scoreEpreuve(equipe, ep, avantages, contexte), def = EPREUVES[ep.type];
+    return { type: ep.type, label: def.label, stats: Object.keys(def.stats).map(k => k.split('|').map(x => CLE[x]).join(' ou ')), chance: Math.round(chanceReussite(s.score, s.difficulte) * 100),
+      meneur: s.meneur, poste: s.detail[0]?.poste || null, avantages: s.bonusAvantages, composition: s.composition, codes: def.avantages };
+  });
+}
+module.exports = { detailChance, EPREUVES, PARAMS, valeurHeros, cohesion, scoreEpreuve, chanceReussite, resoudreMission, chanceMission };

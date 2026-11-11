@@ -25,6 +25,13 @@ const FIN = require('./langue').finir;
 const MA = () => require('./maitre');
 const EQ = require('./equipement');
 const CH = require('./charlie');
+const AV = require('./avantages');
+/* Progression d'un héros (0,75 à l'arrivée environ, 1 au sommet) : moyenne de ses 5 meilleures statistiques vers leur plafond. */
+function ratioDe(h) { const f = ficheDe(h), st = statsDe(h); return Object.keys(f.plafonds).map(k => st[k] / f.plafonds[k]).sort((a, b) => b - a).slice(0, 5).reduce((t, r) => t + r, 0) / 5; }
+const avantagesDe = h => AV.avantagesDeHeros(h.champion || ficheDe(h).champion, ratioDe(h));
+// Rendement décroissant des compétences (même forme que resolution.js) : plafond × (1 − e^(−total / 40)).
+const rend = (total, plafond) => plafond * (1 - Math.exp(-Math.max(0, total || 0) / 40));
+const PLAFONDS_AV = { celerite: 0.2, survie: 0.7, or: 0.15, renommee: 0.25, butin: 0.35 };
 
 const H_MS = 3600000;
 const PARAMS = {
@@ -192,19 +199,32 @@ function placer(monde, gid, cid, index, heroId) {
   return { ...r, rang: RG.rangHeros(heros.stats, c.m.postes[index].type), rangContrat: c.m.rang };
 }
 /* Chances de réussite d'un contrat, avec les héros déjà placés et, si besoin, un héros de plus (pour l'aide au choix). */
-function chanceContrat(monde, cid, ajouts = []) {
-  const c = monde.contrats[cid]; if (!c) return 0;
+function equipeContrat(monde, c, ajouts = []) {
   ajouts = Array.isArray(ajouts) ? ajouts : [ajouts];
   const postes = c.m.postes.map((p, i) => {
     const ajout = ajouts.find(a => a.index === i);
     if (ajout) { const g = monde.guildes[ajout.gid], h = g.heros.find(x => x.id === ajout.heroId);
-      const st = statsDe(h); return { type: p.type, heros: { nom: h.nom, stats: st, moral: h.moral }, efficacite: RG.efficaciteAvecRang({ ...h, stats: st }, p.type, c.m.rang) }; }
+      const st = statsDe(h), ef = RG.efficaciteAvecRang({ ...h, stats: st }, p.type, c.m.rang);
+      return { type: p.type, heros: { nom: h.nom, stats: st, moral: h.moral, poste: p.type, efficacite: ef, av: avantagesDe(h) }, efficacite: ef }; }
     if (!p.heros) return { type: p.type, heros: null, efficacite: 0 };
     const h = monde.guildes[p.guilde]?.heros.find(x => x.id === p.heros.id);
-    return { type: p.type, heros: { nom: p.heros.nom, stats: h ? statsDe(h) : p.heros.stats, moral: h?.moral ?? 60 }, efficacite: p.efficacite };
+    return { type: p.type, heros: { nom: p.heros.nom, stats: h ? statsDe(h) : p.heros.stats, moral: h?.moral ?? 60, poste: p.type, efficacite: p.efficacite, av: h ? avantagesDe(h) : { totaux: {} } }, efficacite: p.efficacite };
   });
-  const eq = postes.filter(p => p.heros).map(p => p.heros); if (!eq.length) return 0;
-  return RES.chanceMission(eq, c.mission, {}, { postes, entente: SO.bonusEntente(monde, clesEquipe(monde, c, ajouts)) });
+  const eq = postes.filter(p => p.heros).map(p => p.heros);
+  const gids = [...new Set([...c.m.postes.filter(p => p.heros).map(p => p.guilde), ...ajouts.map(a => a.gid)])];
+  const relations = Array(Math.round(MJ.cohesionAlliance(monde, gids, monde.t) / 4)).fill('amis');
+  return { postes, eq, avantages: AV.sommer(eq.map(x => x.av)), contexte: { postes, relations, entente: SO.bonusEntente(monde, clesEquipe(monde, c, ajouts)) } };
+}
+function chanceContrat(monde, cid, ajouts = []) {
+  const c = monde.contrats[cid]; if (!c) return 0;
+  const x = equipeContrat(monde, c, ajouts); if (!x.eq.length) return 0;
+  return RES.chanceMission(x.eq, c.mission, x.avantages, x.contexte);
+}
+/* Le détail de la chance, épreuve par épreuve (fiche du contrat). */
+function detailContrat(monde, cid, ajouts = []) {
+  const c = monde.contrats[cid]; if (!c) return [];
+  const x = equipeContrat(monde, c, ajouts); if (!x.eq.length) return [];
+  return RES.detailChance(x.eq, c.mission, x.avantages, x.contexte);
 }
 /* Les héros d'un contrat (et ceux qu'on envisage d'y ajouter), par clé de fiche : pour retrouver leurs ententes. */
 function clesEquipe(monde, c, ajouts = []) {
@@ -245,7 +265,9 @@ function faireAvancerContrats(monde) {
         const g = monde.guildes[p.guilde], h = g?.heros.find(x => x.id === p.heros.id);
         if (!h || t < c.depart - p.trajet) continue;
         const cal = M.calendrier(g.region, c.mission, { trajet: RP.effet(g, 'trajet') });
-        p.parti = true; p.partiA = t; p.retour = c.depart + cal.surPlace + cal.aller; h.reserve = null;
+        // Célérité (compétences de l'équipe) : le chemin du retour raccourcit, jusqu'à un cinquième.
+        const cel = AV.sommer(c.m.postes.filter(q => q.heros).map(q => { const hh = monde.guildes[q.guilde]?.heros.find(x => x.id === q.heros.id); return hh ? avantagesDe(hh) : {}; })).CELERITE;
+        p.parti = true; p.partiA = t; p.retour = c.depart + cal.surPlace + Math.round(cal.aller * (1 - rend(cel, PLAFONDS_AV.celerite))); h.reserve = null;
         try { V.departMission(g, [h.id], p.retour); (partis[g.id] ||= []).push(h); } catch { p.heros = null; p.guilde = null; p.parti = false; }
       }
       // Le départ se voit dans la cour ; l'arrivée s'apprend plus tard, par la lettre du correspondant de la Chambre.
@@ -276,13 +298,17 @@ function faireAvancerContrats(monde) {
 }
 function resoudre(monde, c) {
   const postes = c.m.postes.filter(p => p.heros);
-  const equipe = postes.map(p => { const g = monde.guildes[p.guilde], h = g.heros.find(x => x.id === p.heros.id); return { nom: h.nom, stats: statsDe(h), moral: h.moral }; });
+  const equipe = postes.map(p => { const g = monde.guildes[p.guilde], h = g.heros.find(x => x.id === p.heros.id); return { nom: h.nom, stats: statsDe(h), moral: h.moral, poste: p.type, efficacite: p.efficacite, av: avantagesDe(h) }; });
+  const avantages = AV.sommer(equipe.map(x => x.av));
   const guildes = [...new Set(postes.map(p => p.guilde))].map(id => monde.guildes[id]);
   const moy = f => guildes.reduce((s, g) => s + RP.effet(g, f), 0) / guildes.length;
   const relations = Array(Math.round(MJ.cohesionAlliance(monde, postes.map(p => p.guilde), monde.t) / 4)).fill('amis');
   const rng = rngDe(`${c.id}#resolution`);
-  const r = RES.resoudreMission(equipe, c.mission, {}, { postes: c.m.postes.map(p => ({ type: p.type, heros: p.heros, efficacite: p.efficacite })), relations, entente: SO.bonusEntente(monde, clesEquipe(monde, c)), blessure: moy('blessure'), imprevu: Math.min(...guildes.map(g => RP.effet(g, 'imprevu'))) }, rng);
-  r.morts = r.mortPossible ? r.blessures.filter(b => b.niveau === 'grave' && rng() < PARAMS.mortSurGrave).map(b => b.nom) : [];
+  const r = RES.resoudreMission(equipe, c.mission, avantages, { postes: c.m.postes.map(p => ({ type: p.type, heros: p.heros, efficacite: p.efficacite })), relations, entente: SO.bonusEntente(monde, clesEquipe(monde, c)), blessure: moy('blessure'), imprevu: Math.min(...guildes.map(g => RP.effet(g, 'imprevu'))) }, rng);
+  // Survie : moins de risque de mourir ; une compétence de survie majeure (résurrection, sursis) évite une mort par mission.
+  r.morts = r.mortPossible ? r.blessures.filter(b => b.niveau === 'grave' && rng() < PARAMS.mortSurGrave * (1 - rend(avantages.SURVIE, PLAFONDS_AV.survie))).map(b => b.nom) : [];
+  if (r.morts.length && equipe.some(x => x.av.evitementMort)) { const sauve = r.morts.shift(); r.sauve = sauve; }
+  r.avantages = avantages;
   c.resultat = r;
   // Ce que chacun retient de ses coéquipiers, et les lettres que ça leur inspire.
   const membres = postes.map(p => { const g = monde.guildes[p.guilde]; return { g, h: g.heros.find(x => x.id === p.heros.id) }; }).filter(x => x.h && !r.morts.includes(x.h.nom));
@@ -308,12 +334,14 @@ function rentrer(monde, c, p) {
   if (!premier) return;
   // Partage de la récompense entre guildes : à proportion des postes tenus (proposition, 8 nov. 2026).
   const bonus = MJ.effetsTerritoire(monde.territoires.detenteurs, g.id).bonusPO(c.mission.region);
-  const po = Math.round(c.mission.po * PARAMS.issuePO[r.issue] * part * (1 + bonus + RP.effet(g, 'bonusPO')));
+  const av = r.avantages || {};
+  const po = Math.round(c.mission.po * PARAMS.issuePO[r.issue] * part * (1 + bonus + RP.effet(g, 'bonusPO') + rend(av.OR, PLAFONDS_AV.or)));
   const repBase = r.issue === 'echec' ? 0 : r.issue === 'partielle' ? Math.floor(c.mission.rep / 2) : c.mission.rep + (r.issue === 'eclatante' ? 1 : 0);
-  const rep = Math.max(r.issue === 'echec' ? 0 : 1, Math.round(repBase * part));
+  const rep = Math.max(r.issue === 'echec' ? 0 : 1, Math.round(repBase * part * (1 + rend(av.RENOMMEE, PLAFONDS_AV.renommee))));
   g.po += po; g.reputation = (g.reputation || 0) + rep;
   if (rep) monde.territoires.gains.push({ guilde: g.id, region: c.mission.region, reputation: rep, t: monde.t });
-  const objet = r.issue !== 'echec' ? EQ.tirerObjet(c.mission, rngDe(`${c.id}#${g.id}#objet`)) : null;
+  // Butin : une seconde chance de rapporter un objet.
+  const objet = r.issue !== 'echec' ? EQ.tirerObjet(c.mission, rngDe(`${c.id}#${g.id}#objet`)) || (rngDe(`${c.id}#${g.id}#butin`)() < rend(av.BUTIN, PLAFONDS_AV.butin) ? EQ.tirerObjet(c.mission, rngDe(`${c.id}#${g.id}#objet2`)) : null) : null;
   if (objet) (g.inventaire ||= []).push({ ...objet, gagne: monde.t, mission: c.mission.titre });
   const miens = tenus.filter(x => x.guilde === g.id).map(x => g.heros.find(y => y.id === x.heros.id)).filter(Boolean);
   const allies = tenus.filter(x => x.guilde !== g.id).map(x => ({ id: x.heros.id, nom: x.heros.nom, guilde: x.guilde }));
@@ -569,7 +597,7 @@ function nommerMaitre(monde, gid, { titre = null, nom = undefined } = {}) {
   return { titre: g.maitre.titre, nom: g.maitre.nom };
 }
 module.exports = { nommerMaitre, repondreFil, regionsOuvertes, changerSolde, donnerConges, lancerAction, faireGeste, envoyerMissive, choisirImage, palierDe, nommerChien: (monde, gid, nom) => V.nommerChien(monde.guildes[gid], nom), equiper: (monde, gid, heroId, uid) => EQ.equiper(monde.guildes[gid], heroId, uid), desequiper: (monde, gid, heroId, uid) => EQ.desequiper(monde.guildes[gid], heroId, uid),
-  PARAMS, catalogues, creerMonde, fonderGuilde, nouveauHeros, recruter, refuserCandidature, poserAnnonce, publierContrats, contratsPour, placer, retirer, chanceContrat,
+  PARAMS, catalogues, creerMonde, fonderGuilde, nouveauHeros, recruter, refuserCandidature, poserAnnonce, publierContrats, contratsPour, placer, retirer, chanceContrat, detailContrat, avantagesDe, ratioDe,
   construire, repondreCarte, lancerQuete, inscrireTournoi, jouerLeTournoi, seMontrerInteresse, avancer, statsDe, disponible, nomRegion,
   proposerAlliance: (monde, de, vers) => MJ.proposerAlliance(monde, de, vers, id => palierDe(monde.guildes[id]), monde.t),
   accepterAlliance: (monde, cle, gid) => MJ.accepterAlliance(monde, cle, gid, id => palierDe(monde.guildes[id]), monde.t),

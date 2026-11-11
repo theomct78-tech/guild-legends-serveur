@@ -60,4 +60,29 @@ function avantagesEquipe(lots, membres) {
   return totaux;
 }
 
-module.exports = { PALETTE, PARAMS, chargerLots, avantagesHeros, avantagesEquipe };
+/*
+ * Compétences débloquées (11 nov. 2026, audit des missions : les avantages étaient écrits pour les 173 champions mais
+ * aucune mission ne les comptait). Un héros arrive avec son passif et sa compétence signature (la plus forte de Q, W, E) ;
+ * il débloque les deux autres en progressant, puis son ultime quand son potentiel se révèle.
+ * ratio : progression moyenne de ses 5 meilleures statistiques vers leur plafond (0,75 à l'arrivée environ, 1 au sommet).
+ */
+const SEUILS = [[0, 2], [0.80, 3], [0.85, 4], [0.90, 5]];
+let LOTS = null;
+const lots = () => (LOTS ||= chargerLots());
+function clesDebloquees(champion, ratio, kit = lots()[champion]) {
+  if (!kit) return [];
+  const force = k => (kit[k]?.avantages || []).reduce((t, a) => t + Math.max(0, a.force), 0);
+  const base = ['Q', 'W', 'E'].filter(k => kit[k]).sort((a, b) => force(b) - force(a) || a.localeCompare(b));
+  const ordre = [...(kit.P ? ['P'] : []), ...base, ...(kit.R ? ['R'] : [])];
+  const n = SEUILS.filter(([s]) => ratio >= s).pop()[1];
+  return ordre.slice(0, n);
+}
+const palierProgression = ratio => Math.max(0, Math.min(4, (ratio - 0.75) / 0.25 * 4));
+/* Ce qu'un héros apporte en mission, d'après son champion et sa progression : { totaux, sources, cles }. */
+function avantagesDeHeros(champion, ratio) {
+  const cles = clesDebloquees(champion, ratio);
+  return { ...avantagesHeros(lots(), champion, cles, palierProgression(ratio)), cles, verrouillees: Object.keys(lots()[champion] || {}).filter(k => !cles.includes(k)) };
+}
+function sommer(liste) { const t = {}; for (const x of liste) for (const [k, v] of Object.entries(x.totaux || {})) t[k] = Math.round(((t[k] || 0) + v) * 100) / 100; return t; }
+
+module.exports = { chargerLotsCache: lots, PALETTE, PARAMS, chargerLots, avantagesHeros, avantagesEquipe, clesDebloquees, avantagesDeHeros, palierProgression, sommer };

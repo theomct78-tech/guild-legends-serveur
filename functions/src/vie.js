@@ -78,6 +78,10 @@ const ACTIVITES = {
   brief:        { lieux: ['brief'], gains: { energie: 2, elan: 8 } },
 };
 
+// Les lieux à ciel ouvert, et les activités qui se font à plusieurs.
+const DEHORS = new Set(['cour', 'remparts', 'jardin']);
+const SOCIALES = new Set(['jeux', 'discussion']);
+
 // Attirance des traits pour les activités (s'ajoute à l'utilité).
 const GOUTS = {
   FIER: { entrainement: 6 }, HONORABLE: { entrainement: 3 }, CUPIDE: { jeux: 4, ville: 3 }, MELANCOLIQUE: { solitude: 8, lecture: 3 },
@@ -324,7 +328,9 @@ function simulerCreneau(g, scenes, detaille = true, arcs = null, quetes = null) 
   // Choix d'activité, dans un ordre tiré au hasard : chacun voit où sont déjà les autres.
   // Ceux qui sont à la soirée ce créneau-là n'ont rien d'autre à choisir.
   const ordre = presents.filter(h => !(h.occupeJusqua > g.t)).sort(() => rng() - 0.5);
-  const lieuxPris = {};
+  const lieuxPris = {}, choisis = [];
+  // Le temps du jour : sous la pluie, l'orage ou la neige, on ne lit pas au jardin et on ne se recueille pas sur les remparts.
+  const temps = meteo(g).temps, mouille = ['pluie', 'orage', 'neige'].includes(temps), rude = mouille || ['gel', 'vent'].includes(temps);
   for (const h of ordre) {
     const options = [];
     const imposee = h.reserve && !nuit ? 'brief' : h.prochaine; h.prochaine = null;
@@ -332,10 +338,13 @@ function simulerCreneau(g, scenes, detaille = true, arcs = null, quetes = null) 
       if (imposee && act !== imposee) continue;
       if (act === 'brief' && !h.reserve) continue;
       // Le premier lieu disponible d'abord ; parfois un autre, pour que chaque pièce construite vive vraiment.
-      const dispo = ACTIVITES[act].lieux.filter(l => g.lieux.includes(l)); if (!dispo.length) continue;
+      let dispo = ACTIVITES[act].lieux.filter(l => g.lieux.includes(l)); if (!dispo.length) continue;
+      const abrites = dispo.filter(l => !DEHORS.has(l));
+      if (rude && act !== 'entrainement' && abrites.length) dispo = abrites;   // on rentre, s'il y a de la place à l'abri
+      const exposee = dispo.every(l => DEHORS.has(l)) ? (mouille ? (act === 'entrainement' ? 6 : 30) : rude ? (act === 'entrainement' ? 0 : 6) : 0) : 0;
       const alt = rngDepuis(`${g.id}#${g.t}#${h.id}#${act}`)();
       const lieu = dispo.length > 1 && alt < 0.35 ? dispo[1 + Math.floor(alt / 0.35 * (dispo.length - 1))] : dispo[0];
-      let u = utilite(h, act, nuit, g.t); if (u <= -50 && !imposee) continue;
+      let u = utilite(h, act, nuit, g.t) - exposee - (exposee && h.traits.includes('SAUVAGE') ? -exposee / 2 : 0); if (u <= -50 && !imposee) continue;
       let evite = null;
       for (const o of lieuxPris[lieu] || []) {
         const rel = relation(g, h, o);
@@ -351,12 +360,26 @@ function simulerCreneau(g, scenes, detaille = true, arcs = null, quetes = null) 
     // A-t-il renoncé à mieux pour éviter quelqu'un ? Le joueur doit pouvoir le voir.
     const meilleur = options.reduce((m, o) => (o.u + (o.evite ? 10 : 0) > m.u + (m.evite ? 10 : 0) ? o : m));
     if (detaille && meilleur.evite && meilleur !== choix && rng() < 0.5) ecrire(g, scenes, 'evite', [h, meilleur.evite], meilleur.lieu, rng, 2);
+    (lieuxPris[choix.lieu] ||= []).push(h);
+    choisis.push({ h, choix, options });
+  }
+  // Les jeux et les discussions se font à plusieurs : seul dans la pièce, on fait autre chose (la meilleure option qui se fait seul).
+  for (const x of choisis) {
+    if (!SOCIALES.has(x.choix.act)) continue;
+    const autres = (lieuxPris[x.choix.lieu] || []).filter(o => o !== x.h);
+    if (autres.length) continue;
+    const ailleurs = x.options.filter(o => !SOCIALES.has(o.act) || (lieuxPris[o.lieu] || []).some(o2 => o2 !== x.h && !['dormir', 'soins'].includes(choisis.find(y => y.h === o2)?.choix.act)));
+    if (!ailleurs.length) continue;
+    const mieux = ailleurs.reduce((m, o) => (o.u > m.u ? o : m));
+    lieuxPris[x.choix.lieu] = (lieuxPris[x.choix.lieu] || []).filter(o => o !== x.h);
+    x.choix = mieux; (lieuxPris[mieux.lieu] ||= []).push(x.h);
+  }
+  for (const { h, choix } of choisis) {
     h.activite = choix.act; h.lieu = choix.lieu;
     if (XP_ACTIVITE[choix.act]) {   // un peu de progression au repère (plus avec la salle d'armes ou la bibliothèque)
       const m = choix.act === 'entrainement' ? RP.effet(g, 'xpEntrainement') : choix.act === 'lecture' ? RP.effet(g, 'xpLecture') : 1;
       PR.ajouterExperience(h.xp ||= {}, m === 1 ? XP_ACTIVITE[choix.act] : Object.fromEntries(Object.entries(XP_ACTIVITE[choix.act]).map(([k, v]) => [k, v * m])));
     }
-    (lieuxPris[choix.lieu] ||= []).push(h);
     for (const [k, v] of Object.entries(ACTIVITES[choix.act].gains)) h.besoins[k] = borne(h.besoins[k] + (v > 0 && choix.act !== 'dormir' ? v * PARAMS.echelleGains : v));
     h.routine[choix.act] = (h.routine[choix.act] || 0) + 1;
     if (detaille && h.aRaconter && !nuit && choix.act !== 'dormir' && ecrire(g, scenes, h.aRaconter, [h], choix.lieu, rng, 2)) {
