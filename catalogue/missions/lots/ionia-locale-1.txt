@@ -1,0 +1,504 @@
+# Ionia · palier Locale · lot 1 (missions 001 à 025) · 11 nov. 2026
+# Palier Locale : les affaires d'un village entier, d'un monastère, d'un conseil. La guerre est finie, pas digérée.
+# {meneur} : le héros qui a mené l'épreuve décisive. Aucun accord de genre sur {meneur}.
+
+=== ION-L-001 | Deux villages, une source
+source: institution
+region: ionia
+palier: locale
+type: diplomatie
+ton: politique
+lieu: Fermes d'Azur
+demandeur: la Chambre des Bannières, pour le conseil des Fermes d'Azur
+accroche: « Les villages de Hasa et de Moreth se partagent la même source depuis trois cents ans. Depuis la guerre, Moreth a des veuves et Hasa a des collabos, enfin c'est ce que dit Moreth. Ce matin, quelqu'un a jeté une charogne dans le bassin. Il faut que quelqu'un d'extérieur les fasse asseoir avant que ça finisse au couteau. »
+postes: Support, Éclaireur
+duree: 8
+dangereuse: non
+epreuves: discretion 42 (trouver qui a vraiment jeté la charogne dans le bassin) ; diplomatie 48 (faire asseoir les deux conseils autour de la source)
+complication: Personne des deux villages n'a touché au bassin. C'est un marchand de Nanthee qui veut racheter les terres de Moreth à bas prix, et qui a besoin qu'ils se battent.
+eclatante: {meneur} amène le marchand à la réunion, les mains liées, et le laisse expliquer lui-même son plan. Les deux conseils se regardent un long moment. Puis la doyenne de Moreth propose de nettoyer le bassin ensemble, le lendemain. Les deux villages le font, à la main, et ça finit par un repas. Le marchand, lui, rentre à Nanthee à pied.
+reussite: Le bassin est nettoyé et le coupable démasqué. Les deux conseils signent un accord sur l'eau, du bout des doigts. Ils ne s'aiment pas plus qu'avant, mais ils ne s'empoisonnent plus. Aux Fermes d'Azur, on appelle ça un bon résultat.
+partielle: L'accord est signé, mais Moreth garde ses soupçons sur Hasa, faute de preuve. Chaque village surveille la source à tour de rôle, une lance à la main. Ça tiendra un été, peut-être deux.
+echec: La réunion tourne à la bagarre au bout d'une heure. Hasa creuse son propre puits, Moreth aussi. Ils trouvent de l'eau tous les deux, plus mauvaise. Le marchand de Nanthee rachète trois champs à Moreth avant la fin du mois.
+recompenses: po 120 ; reputation 4 ; objet Charme féerique 10
+
+=== ION-L-002 | Le bruit dans le barrage
+source: privee
+region: ionia
+palier: locale
+type: enquete
+ton: mystere
+lieu: Tevasa
+demandeur: Yun Paiko, gardienne du barrage de Tevasa, qui entretient l'ouvrage avec les Luonn Kon
+accroche: « Les golems de pierre ont arrêté de travailler. Ils restent plantés au pied du barrage et ils écoutent. Moi aussi j'écoute, et il y a bien quelque chose qui cogne là-dessous, toutes les nuits, à la même heure. Si le barrage lâche, Tevasa se retrouve sous trois mètres d'eau. »
+postes: Éclaireur, Support
+duree: 7
+dangereuse: non
+epreuves: discretion 44 (descendre dans les galeries du barrage sans réveiller ce qui cogne) ; diplomatie 46 (comprendre ce que les golems essaient de dire)
+complication: Ce qui cogne, c'est un Luonn Kon plus ancien que les autres, emmuré par erreur pendant la construction. Il frappe pour sortir depuis quarante ans.
+eclatante: {meneur} trouve la pierre qui sonne creux et la fait desceller, doucement, par les golems eux-mêmes. Le vieux Luonn Kon sort dans un nuage de poussière, regarde le lac, et s'assoit au bord pendant toute une journée. Le lendemain, les golems reprennent le travail. Yun Paiko jure qu'ils travaillent plus vite qu'avant.
+reussite: Le golem emmuré est libéré, au prix d'une fissure qu'il faut colmater en urgence. Les Luonn Kon s'en chargent. Le barrage tient. Yun Paiko ajoute une ligne au registre : « Ne jamais emmurer un golem. » Il n'y en avait pas besoin avant.
+partielle: L'équipe trouve d'où vient le bruit, mais n'ose pas ouvrir la paroi. Les golems retournent au travail, à moitié. Le cognement continue, la nuit. À Tevasa, plus personne ne dort près du barrage.
+echec: L'équipe ouvre la mauvaise galerie. L'eau s'engouffre, et il faut une nuit entière pour reboucher. Les golems repartent dans la montagne et ne reviennent pas. Yun Paiko reste seule avec un barrage fissuré et ses deux bras.
+recompenses: po 105 ; reputation 3 ; objet Pioche 12
+
+=== ION-L-003 | Le fils qui revient de Noxus
+source: privee
+region: ionia
+palier: locale
+type: escorte
+ton: tragique
+lieu: Thanze
+demandeur: Mère Hosai, tisseuse-de-bois à Thanze, dont le fils a été enrôlé de force par Noxus pendant l'invasion
+accroche: « Mon fils rentre. Il a porté l'uniforme noxien, ils l'avaient pris à quinze ans, il n'a pas choisi. Mais à Thanze, les gens ne font pas la différence. Il arrive par la route du port dans deux jours. Je voudrais qu'il arrive jusqu'à ma porte. »
+postes: Tank, Support
+duree: 6
+dangereuse: oui
+epreuves: voyage 40 (aller chercher le fils au port et faire la route avec lui) ; diplomatie 47 (traverser Thanze sans que la foule s'en mêle)
+complication: Un groupe de la Fraternité Navori sait qu'il arrive. Ils l'attendent au pont, avec des pierres.
+eclatante: Au pont, {meneur} ne recule pas, et laisse le fils parler. Il donne les noms des Ioniens qu'il a aidés à fuir pendant la guerre. L'un d'eux est dans le groupe. Les pierres tombent par terre, une par une. Le soir, Mère Hosai fait pousser une chambre de plus à sa maison. Ça prend trois semaines.
+reussite: Le fils arrive chez sa mère avec une lèvre fendue et rien de plus grave. La Fraternité tient sa rancune, mais à distance. Mère Hosai garde les volets fermés quelques semaines. Puis un voisin vient prendre le thé, et un autre.
+partielle: Le fils arrive, mais l'escorte a dû le faire passer par les toits, et tout Thanze sait où il habite. On jette des ordures sur la maison de Mère Hosai pendant un mois. Elle ramasse tout, tous les matins, sans un mot.
+echec: La foule bloque la route. L'équipe fait demi-tour pour éviter le pire. Le fils reprend le bateau le soir même, sans avoir vu sa mère. Il lui écrit de Piltover, une fois par mois. Elle répond à chaque fois.
+recompenses: po 110 ; reputation 4 ; objet Armure de tissu 12
+
+=== ION-L-004 | Le dragon qui a mangé les registres
+source: privee
+region: ionia
+palier: locale
+type: recuperation
+ton: drole
+lieu: Placidium de Navori
+demandeur: Frère Ilmo, archiviste du Placidium de Navori, au bord de la crise de nerfs
+accroche: « Un petit dragon s'est installé dans la salle des archives. Il a mangé les registres de naissance de tout le district. Tous. Il dit qu'ils étaient "trop secs". Il parle, évidemment, ils parlent tous. Je voudrais récupérer ce qu'il n'a pas digéré, et qu'il s'en aille. Dans cet ordre. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 44 (négocier avec un dragon qui a réponse à tout) ; poursuite 40 (le rattraper quand il décide de partir avec le dernier registre)
+complication: Le dragon n'a rien mangé. Il a caché les registres dans le clocher pour en faire un nid. Il couve.
+eclatante: {meneur} propose au dragon un meilleur nid : les vieux traités de commerce noxiens que personne ne lit. Il accepte après une heure de négociation sur la qualité du papier. Les registres reviennent intacts, juste un peu tièdes. Trois semaines plus tard, le Placidium compte quatre petits dragons de plus. Frère Ilmo a demandé sa mutation.
+reussite: Les registres sont récupérés, à quelques pages près, mâchouillées. Le dragon garde un coin du clocher, en échange de sa promesse de ne plus entrer aux archives. Il tient parole, à peu près. Frère Ilmo recopie les pages abîmées en marmonnant.
+partielle: La moitié des registres est récupérée. L'autre moitié a servi à garnir le nid, et le dragon refuse de bouger de ses œufs. Le district devra déclarer ses naissances de mémoire. Ça donne des discussions.
+echec: Le dragon s'envole avec le dernier registre et tout le district le suit des yeux. On ne le revoit pas. Pendant un an, au Placidium, l'âge des gens est une question d'opinion.
+recompenses: po 60 ; reputation 3 ; objet Tome d'amplification 10
+
+=== ION-L-005 | La nuit des lanternes de Pallas
+source: privee
+region: ionia
+palier: locale
+type: protection
+ton: tendre
+lieu: Pallas
+demandeur: Mina Oralé, organisatrice de la fête des lanternes de Pallas, qui a tout prévu sauf ça
+accroche: « Chaque année, on lâche des lanternes sur la mer pour nos morts. Cette année, il y en aura mille deux cents, c'est le premier hiver où on a pu compter tout le monde. Et cette année, des vole-vents nichent sur les falaises. Ils attrapent tout ce qui brille. Les lanternes, les bijoux, les enfants, s'ils sont assez petits. »
+postes: Tireur, Tank
+duree: 6
+dangereuse: non
+epreuves: nuee 46 (éloigner les vole-vents des falaises pendant le lâcher) ; combat 43 (repousser les plus téméraires, qui piquent sur la foule)
+complication: Les vole-vents ne volent pas pour voler : ils ont des petits, et la lumière des lanternes les affole.
+eclatante: {meneur} fait installer une rangée de lanternes sur la falaise opposée, à l'écart. Les vole-vents s'y posent, se calment, et regardent la fête de loin. Les mille deux cents lanternes partent sur la mer sans en perdre une. Les gens de Pallas ont pris l'habitude, depuis : chaque année, quelques lanternes pour les vole-vents.
+reussite: Les vole-vents sont tenus à distance toute la nuit. On en perd une cinquantaine de lanternes, et un collier. Personne n'est blessé. Mina Oralé pleure à la fin, et dit que c'est la fatigue.
+partielle: Le lâcher a lieu, mais il faut le faire en trois fois, entre deux attaques. Ça casse un peu le moment. Plusieurs familles relâchent leurs lanternes le lendemain soir, en petit comité.
+echec: Une nuée de vole-vents fond sur la plage, et la fête tourne à la débandade. Des lanternes brûlent sur le sable. On remet la cérémonie à l'année prochaine. Mina Oralé dit qu'elle ne s'en occupera plus.
+recompenses: po 95 ; reputation 4 ; objet Potion de soin 15
+
+=== ION-L-006 | La tatoueuse de Weh'le
+source: privee
+region: ionia
+palier: locale
+type: enquete
+ton: mystere
+lieu: Weh'le
+demandeur: Sarnaï, tatoueuse au marché de Weh'le, dont les clients rêvent tous la même chose
+accroche: « Depuis que j'ai changé de fournisseur d'encre, mes clients font le même rêve. Une porte rouge, une femme qui les appelle. Trois ne se sont pas réveillés ce matin. Ils respirent, ils dorment, c'est tout. Je n'ai rien fait de mal, je veux juste savoir ce qu'il y a dans mon encre. »
+postes: Mage, Éclaireur
+duree: 9
+dangereuse: oui
+epreuves: poursuite 44 (remonter la filière de l'encre jusqu'au fournisseur) ; discretion 47 (entrer chez lui sans se faire voir) ; combat 45 (affronter ce qui garde la porte rouge)
+complication: Le fournisseur mélange à l'encre de l'eau prise à la rivière de Weh'le, là où l'Ordre de l'ombre noie ses traîtres. Les esprits de la rivière veulent qu'on les écoute.
+eclatante: {meneur} va jusqu'à la rivière et écoute. Les noyés donnent leurs noms, un par un. Sarnaï les tatoue sur une planche de bois flotté, qu'on fait partir au fil de l'eau. Les trois dormeurs se réveillent le lendemain, affamés et de très bonne humeur. Sarnaï change de fournisseur, et de quartier.
+reussite: Le fournisseur est démasqué et sa réserve brûlée. Les trois dormeurs se réveillent, deux le premier jour, le troisième une semaine plus tard. Les tatouages faits avec cette encre pâlissent tout seuls en un mois.
+partielle: L'encre est retirée du marché, mais deux dormeurs sur trois seulement se réveillent. Le troisième dort encore. Sa sœur le veille et Sarnaï lui apporte à manger tous les jours.
+echec: Le fournisseur disparaît avec son stock, et l'encre circule toujours dans d'autres échoppes. À Weh'le, on ne se fait plus tatouer avant d'avoir vu le pot fermé. Sarnaï perd tous ses clients.
+recompenses: po 140 ; reputation 4 ; objet Élixir de sorcellerie 10
+
+=== ION-L-007 | Les pommes-soleil de l'hiver
+source: privee
+region: ionia
+palier: locale
+type: livraison
+ton: tendre
+lieu: Vlonqo
+demandeur: Ganzo Taliki, maraîcher des Fermes d'Azur, qui monte chaque hiver ses pommes-soleil au village de Vlonqo
+accroche: « À Vlonqo, l'hiver est long et les vieux n'ont plus de quoi se chauffer. Mes pommes-soleil les tiennent au chaud jusqu'au printemps, une par jour. Je les monte depuis vingt ans. Cette année, mon genou ne veut plus. Il faut que quelqu'un prenne la mule et le chemin, et que les pommes arrivent avant le gel. »
+postes: Combattant
+duree: 7
+dangereuse: non
+epreuves: voyage 45 (monter la charge de pommes jusqu'à Vlonqo par le chemin des crêtes) ; poursuite 40 (récupérer la mule quand elle décide de rentrer seule)
+complication: La mule connaît le chemin mieux que tout le monde, et elle a ses arrêts. Elle ne repartira pas tant qu'on ne l'aura pas laissée faire ses visites.
+eclatante: {meneur} laisse la mule mener, et elle s'arrête chez chaque vieux du chemin, porte après porte. C'est comme ça que Ganzo faisait. Les pommes arrivent jusqu'à la dernière maison de Vlonqo, et on renvoie à Ganzo un bouquet de fleurs séchées gros comme une roue. Il le garde au-dessus de sa cheminée.
+reussite: Les pommes arrivent à Vlonqo un jour avant le gel. Quelques-unes ont roulé dans le ravin. Les vieux de Vlonqo font la queue devant la maison commune. Personne ne demande où est Ganzo, mais tout le monde lui envoie ses vœux.
+partielle: Les pommes arrivent, mais en retard, après les premières gelées. Une partie est perdue. On les distribue en priorité aux plus âgés. Les autres se serrent autour du feu.
+echec: Le chemin des crêtes est bloqué par une coulée, et la mule refuse le détour. Les pommes pourrissent dans les sacoches. Ganzo Taliki monte lui-même au printemps, sur son mauvais genou, pour s'excuser.
+recompenses: po 65 ; reputation 3 ; objet Bottes 14
+
+=== ION-L-008 | Le vulkodalk et les bûcherons
+source: privee
+region: ionia
+palier: locale
+type: chasse
+ton: horreur
+lieu: Forêt de Nistaram
+demandeur: Ama Retsu, cheffe d'une équipe de ramasseurs de bois mort en lisière de la forêt de Nistaram
+accroche: « On ne coupe pas d'arbres, on ramasse le bois tombé, c'est la règle. On n'a jamais dépassé la lisière. Avant-hier, il est sorti de la forêt quand même. Il a pris Ruk devant nous. Il avait des yeux partout, sur la tête, sur le cou. On l'entend encore la nuit. Il revient pour les autres. »
+postes: Tireur, Tank, Éclaireur
+duree: 8
+dangereuse: oui
+risque: oui
+epreuves: poursuite 50 (suivre la piste du vulkodalk sans devenir la proie) ; combat 55 (l'affronter dans les fougères géantes) ; nuee 47 (tenir le camp quand les petits sortent à leur tour)
+complication: Le vulkodalk n'est pas seul : c'est une femelle, et elle a fait son nid juste à la lisière, parce que les bombes de la guerre ont brûlé le cœur de la forêt.
+eclatante: {meneur} abat la femelle au troisième soir, d'un tir qu'on raconte encore au camp. Les petits sont repoussés vers la forêt profonde, où ils ont de quoi vivre. On retrouve les affaires de Ruk, et Ama Retsu les rend à sa famille. L'équipe de ramasseurs reprend le travail une semaine plus tard, à deux cents pas plus loin de la lisière.
+reussite: La bête est tuée, au prix d'une nuit très longue. Deux ramasseurs sont blessés pendant l'attaque des petits, sans gravité. Ama Retsu fait planter un poteau à l'endroit où Ruk a été pris, et personne ne le dépasse.
+partielle: La bête est blessée et retourne dans la forêt. On ne sait pas si elle survivra. Le camp est déplacé d'une demi-journée de marche. Le bois sera plus rare, et plus cher.
+echec: Le vulkodalk attaque le camp pendant la nuit. L'équipe repousse la bête, mais un ramasseur ne s'en relève pas. Ama Retsu ferme le camp. Plus personne ne ramasse de bois mort à Nistaram cet hiver.
+recompenses: po 320 ; reputation 5 ; objet Épée longue 18
+
+=== ION-L-009 | La cloche de Hirana
+source: privee
+region: ionia
+palier: locale
+type: recuperation
+ton: tendre
+lieu: Monastère de Hirana
+demandeur: Sœur Taëlin, la plus jeune des moniales de Hirana, qui a fait tomber la cloche
+accroche: « J'ai fait tomber la cloche. Ce n'est pas exactement de ma faute, la corde était vieille, mais c'est moi qui tirais. Elle a roulé jusqu'au fond de la gorge. Elle sonne la méditation depuis six cents ans. Les anciennes ne disent rien, et c'est pire que si elles me criaient dessus. »
+postes: Combattant, Support
+duree: 6
+dangereuse: non
+epreuves: voyage 44 (descendre au fond de la gorge et trouver la cloche) ; siege 46 (la remonter, avec des cordes, sur trois cents mètres de paroi)
+complication: La cloche n'est pas seule au fond : un claqueur écailleux a fait sa sieste dessous, et il ne veut pas qu'on le dérange.
+eclatante: {meneur} convainc le claqueur de bouger avec une demi-livre de mangues, puis organise la remontée avec Sœur Taëlin à la manœuvre. C'est elle qui donne le dernier coup de corde. La cloche sonne le soir même. Les anciennes ne disent toujours rien, mais l'une d'elles lui laisse sa place à la première rangée.
+reussite: La cloche est remontée, avec une bosse de plus et un son légèrement plus grave. Les anciennes décident qu'il est plus beau. Sœur Taëlin change la corde elle-même, tous les ans, depuis.
+partielle: La cloche remonte à mi-hauteur et reste coincée sur une corniche. On la fait sonner de là, à coups de bâton, en se penchant. Les novices trouvent ça très drôle. Les anciennes, beaucoup moins.
+echec: La corde casse une deuxième fois et la cloche se fend en touchant le fond. Le monastère médite désormais au son d'un gong prêté par Shojin. Sœur Taëlin balaye la cour pendant un an. Personne ne le lui a demandé.
+recompenses: po 70 ; reputation 3 ; objet Ceinture du géant 8
+
+=== ION-L-010 | Les déserteurs de Fae'lor
+source: institution
+region: ionia
+palier: locale
+type: diplomatie
+ton: politique
+lieu: Fae'lor
+demandeur: la Chambre des Bannières, pour le conseil des îles de l'ouest
+accroche: « Une vingtaine de soldats noxiens vivent encore dans les ruines du fort de Fae'lor. Ils n'ont pas voulu rembarquer avec les autres. Ils pêchent, ils cultivent, ils ne font de mal à personne, pour l'instant. Le conseil des îles veut qu'ils partent. Eux veulent rester. Il faut une solution avant que les pêcheurs de l'île ne règlent ça eux-mêmes. »
+postes: Support, Tank
+duree: 10
+dangereuse: oui
+epreuves: voyage 42 (traverser jusqu'au fort sans se faire prendre pour un assaut) ; diplomatie 50 (trouver un accord entre les déserteurs et le conseil) ; combat 45 (tenir la position si les pêcheurs arrivent avant la fin)
+complication: Le chef des déserteurs a épousé une femme de l'île pendant l'occupation. Ils ont deux enfants. Elle est la fille du doyen du conseil.
+eclatante: {meneur} fait venir la femme à la table, avec les enfants. Le doyen voit ses petits-enfants pour la première fois. La discussion dure toute la nuit. Au matin, les déserteurs rendent leurs armes au conseil, et le fort devient un village de pêcheurs comme un autre. Le doyen garde les lames dans sa cave, sous clé, au cas où.
+reussite: Un accord est signé : les déserteurs peuvent rester, sans armes, et devront payer un impôt aux îles pendant dix ans. C'est cher. Ils acceptent. Les pêcheurs grognent, mais personne ne prend la mer avec des torches.
+partielle: Les déserteurs acceptent de partir, mais demandent un an pour s'organiser. Le conseil leur donne trois mois. Il y aura des tensions, et sûrement un départ précipité.
+echec: Les pêcheurs débarquent pendant la négociation. Il y a des blessés des deux côtés. Les déserteurs s'enferment dans le fort. Le conseil demande à Noxus de les reprendre, ce qui ne plaît à personne en Ionia.
+recompenses: po 165 ; reputation 5 ; objet Bouclier de Doran 12
+
+=== ION-L-011 | La plante qui mange les chèvres
+source: privee
+region: ionia
+palier: locale
+type: defense
+ton: drole
+lieu: Raikkon
+demandeur: Pao Pao, chevrier de Raikkon, qui en a perdu trois cette semaine
+accroche: « Il y a une serpentfeuille au milieu de mes baies. Je ne l'ai pas plantée, elle a poussé toute seule, et maintenant elle fait la taille d'une cabane. Elle mange mes chèvres. Elle a essayé de manger mon frère. Mon frère va bien, il a perdu une chaussure. Je voudrais qu'elle parte, ou au moins qu'elle mange autre chose. »
+postes: Combattant
+duree: 4
+dangereuse: non
+epreuves: combat 44 (s'approcher assez pour couper la plante sans se faire avaler) ; siege 41 (arracher la racine, qui court sous tout le champ)
+complication: La serpentfeuille a mis des graines partout dans le champ de baies. Si on l'arrache maintenant, elle les lâche, et il y en aura cinquante au printemps.
+eclatante: {meneur} coupe la tige principale sans toucher aux graines, puis passe la soirée à les ramasser une par une avec Pao Pao. Les moines de Shojin en rachètent la moitié : le cataplasme de serpentfeuille soigne les plaies, et il se vend très bien. Pao Pao se demande sérieusement s'il ne va pas en planter. Exprès, cette fois.
+reussite: La plante est arrachée, racine comprise. Il faudra surveiller le champ au printemps, pour les quelques graines qui auront échappé à tout le monde. Pao Pao retrouve la chaussure de son frère, un peu digérée.
+partielle: La plante est coupée, mais la racine reste. Elle repousse, moins grosse. Pao Pao l'entoure d'une clôture et met un panneau. Les chèvres font un détour.
+echec: La serpentfeuille lâche toutes ses graines pendant le combat. Au printemps, le champ de baies de Pao Pao est une forêt de petites plantes affamées. Il vend le terrain aux moines de Shojin, qui sont ravis.
+recompenses: po 55 ; reputation 2 ; objet Élixir de fer 12
+
+=== ION-L-012 | Les os qu'on n'a pas lavés
+source: privee
+region: ionia
+palier: locale
+type: recuperation
+ton: tragique
+lieu: Wuju
+demandeur: Vieux Senna, laveur d'os, qui vit seul au bord de ce qui reste de Wuju
+accroche: « Chez nous, on laisse les morts au vent, puis on lave les os. À Wuju, après les bombes, personne n'a pu approcher pendant des années. Ils sont encore là-bas, sous les cendres, mes voisins, mes cousins. Je suis trop vieux pour y aller seul et l'air pique encore. Je voudrais les laver avant de mourir. Tous, si possible. »
+postes: Healer, Combattant
+duree: 12
+dangereuse: oui
+epreuves: voyage 46 (entrer dans Wuju, où l'air garde encore la trace des armes chimiques) ; siege 43 (dégager les maisons effondrées pour atteindre les restes) ; voyage 45 (ressortir avec Vieux Senna avant que le poison ne fasse effet)
+complication: Des pilleurs ont déjà fouillé une partie des ruines à la recherche de métal. Ils ont dispersé les os pour prendre les bijoux.
+eclatante: {meneur} retrouve et rassemble chaque famille dans les ruines, à partir de ce que Vieux Senna se rappelle de chaque maison. Il faut trois jours. Le vieil homme lave les os au bord de la rivière, en disant les noms à voix haute, un par un. Il s'arrête à cent quatre. Le village voisin envoie des gens pour l'aider, sans qu'on le leur demande.
+reussite: Une bonne partie des restes est rapportée et lavée. Vieux Senna tousse beaucoup, mais il dit que c'est le prix. Une stèle est dressée au bord de Wuju, avec tous les noms qu'il a pu dire.
+partielle: L'équipe doit ressortir plus tôt que prévu, l'air devient trop lourd. Seule la moitié des familles est rapportée. Vieux Senna lave ce qu'il a, et prie pour les autres, tous les soirs.
+echec: L'équipe est prise de malaise au milieu des ruines et doit faire demi-tour, en portant le vieil homme. Il passe deux semaines au lit. Il dit qu'il réessaiera. Personne n'a le courage de lui dire non.
+recompenses: po 150 ; reputation 5 ; objet Potion rechargeable 10
+
+=== ION-L-013 | Le concours de thé de Hasama
+source: privee
+region: ionia
+palier: locale
+type: protection
+ton: drole
+lieu: Domaine Quenjo
+demandeur: Dame Rhuo, intendante du domaine Quenjo, qui organise le concours de thé blanc de la saison
+accroche: « Le concours de thé du domaine Quenjo, c'est un honneur, c'est une tradition, et c'est une guerre. L'an dernier, quelqu'un a mis du sel dans les théières du favori. Il y a deux ans, une jambe cassée dans l'escalier. Tout le monde sourit, tout le monde s'incline. Je veux que rien n'arrive cette année. Rien. »
+postes: Éclaireur, Assassin
+duree: 6
+dangereuse: non
+epreuves: discretion 46 (surveiller douze concurrents qui s'espionnent tous) ; poursuite 42 (rattraper le saboteur en pleine cérémonie, sans renverser une tasse)
+complication: Il n'y a pas un saboteur, il y en a quatre. Ils ne se connaissent pas. Ils travaillent tous pour des concurrents différents.
+eclatante: {meneur} échange discrètement les théières des quatre saboteurs. Chacun boit le thé qu'il avait préparé pour un autre. Le concours est gagné par une vieille cultivatrice qui ne savait même pas qu'il y avait des tricheurs. Dame Rhuo n'a jamais autant ri, et elle a une réputation à tenir.
+reussite: Les saboteurs sont pris, discrètement, et invités à quitter le domaine avant le service. Le concours se déroule dans un silence parfait. Le gagnant pleure en recevant sa coupe. C'était peut-être le thé.
+partielle: Trois saboteurs sur quatre sont arrêtés. Le quatrième parvient à faire renverser un plateau entier. Le concours continue, avec une heure de retard. On en parlera dans les salons tout l'hiver.
+echec: Le concours tourne au désastre : thé salé, coupe volée, un concurrent dans le bassin aux carpes. Dame Rhuo annule l'édition de l'année suivante. Elle refuse de commenter. Tout le monde commente.
+recompenses: po 85 ; reputation 3 ; objet Charme féerique 12
+
+=== ION-L-014 | Le passeur des Rochers Tourbillons
+source: privee
+region: ionia
+palier: locale
+type: escorte
+ton: aventure
+lieu: Rochers Tourbillons
+demandeur: Kesh Moran, guide des Rochers Tourbillons, qui a un client de trop
+accroche: « Je fais traverser les Rochers aux pèlerins depuis dix ans. Le chemin change tous les jours, les rochers bougent, c'est comme ça. Cette semaine, j'ai quinze pèlerins, deux enfants et un cartographe de Piltover qui veut "tout mesurer". Je ne peux pas surveiller seul tout ce monde. »
+postes: Éclaireur, Tank
+duree: 9
+dangereuse: oui
+epreuves: voyage 47 (guider le groupe à travers les rochers qui bougent) ; poursuite 44 (rattraper le cartographe quand il s'éloigne pour mesurer) ; nuee 42 (repousser les crabes jaunes qui envahissent le passage à marée basse)
+complication: Le cartographe ne mesure pas les rochers par curiosité : une compagnie de Piltover veut y installer une carrière.
+eclatante: {meneur} ramène le cartographe et ses carnets, puis fait faire au groupe le grand tour, celui que Kesh garde pour les jours de chance. Les pèlerins voient les rochers se déplacer au coucher du soleil. Le cartographe aussi. Il brûle ses carnets lui-même, le soir, sans qu'on lui demande rien.
+reussite: Tout le groupe arrive de l'autre côté, avec des pieds en compote et des yeux brillants. Le cartographe repart avec ses mesures, mais Kesh a vu ce qu'il a noté et prévient le conseil de Zhyun.
+partielle: Le groupe passe, mais un pèlerin se tord la cheville et il faut le porter sur la dernière moitié. Le cartographe s'est perdu deux heures. Kesh Moran augmente ses tarifs pour les gens de Piltover.
+echec: Les rochers se referment derrière le groupe et il faut une nuit entière pour trouver un passage. Deux pèlerins rentrent chez eux en jurant qu'on ne les y reprendra plus. Le cartographe ne retrouve jamais la sortie seul. On le récupère trois jours plus tard, affamé.
+recompenses: po 115 ; reputation 4 ; objet Bottes 12
+
+=== ION-L-015 | L'enfant qui parle aux morts
+source: privee
+region: ionia
+palier: locale
+type: sauvetage
+ton: horreur
+lieu: Kotha
+demandeur: Ilia Moro, veuve de Kotha, dont la fille ne dort plus depuis qu'ils sont revenus au village
+accroche: « On est rentrés à Kotha au printemps, pour reconstruire. Ma fille a sept ans. Elle parle la nuit à des gens que je ne vois pas. Hier, elle m'a donné le nom de mon mari. Elle ne l'a jamais connu. Ce matin, elle est partie vers les ruines du temple, et elle n'est pas revenue. »
+postes: Support, Mage
+duree: 6
+dangereuse: oui
+epreuves: poursuite 46 (retrouver la petite dans les ruines avant la nuit) ; diplomatie 49 (parler aux esprits qui l'entourent et la retiennent)
+complication: Le Collectionneur est passé par Kotha. Il retient les morts du village dans leurs souvenirs, et il s'intéresse maintenant à l'enfant, parce qu'elle les voit.
+eclatante: {meneur} trouve la petite au milieu d'un cercle de morts qui ne savent pas qu'ils le sont. Plutôt que de la tirer de là, {meneur} l'aide à leur dire, un par un, qu'ils peuvent partir. Le Collectionneur perd ses prisonniers d'un coup. La fillette rentre chez sa mère et dort quatorze heures d'affilée. Elle ne parle plus aux morts. Elle dit qu'ils n'ont plus besoin.
+reussite: L'enfant est ramenée avant la nuit, glacée mais vivante. Ilia Moro fait venir une moine de Shojin pour bénir la maison. Les voix se taisent, à peu près. La fillette parle parfois encore dans son sommeil.
+partielle: L'enfant est retrouvée, mais elle reste plusieurs jours sans dire un mot. Ilia Moro quitte Kotha et part vivre chez sa sœur à Thanze. La maison qu'elles reconstruisaient reste à moitié faite.
+echec: On ne retrouve la petite qu'au matin, endormie sur l'autel du temple. Elle se réveille, mais ne reconnaît plus sa mère pendant une semaine. Le village entier quitte Kotha avant l'hiver.
+recompenses: po 125 ; reputation 4 ; objet Cape de négation 10
+
+=== ION-L-016 | Les lames qu'on a vendues à Noxus
+source: privee
+region: ionia
+palier: locale
+type: enquete
+ton: politique
+lieu: Kashuri
+demandeur: Maître Jarro, forgeron de Kashuri, qui a des soupçons sur son voisin
+accroche: « Pendant la guerre, des forgerons de Kashuri ont vendu des lames aux Noxiens. Tout le monde le sait, personne n'a de nom. Aujourd'hui, un type se présente au conseil du bourg avec de beaux discours et une forge toute neuve. J'ai vu une de ses vieilles lames. Elle porte le poinçon noxien. Avant d'accuser, je veux en être sûr. »
+postes: Éclaireur, Support
+duree: 7
+dangereuse: non
+epreuves: discretion 45 (fouiller les registres de la forge du candidat) ; diplomatie 47 (faire parler les anciens ouvriers, qui ont peur)
+complication: Le candidat a bien vendu des lames à Noxus. Mais avec l'argent, il a fait passer quarante familles de Kashuri sur des bateaux de Piltover, pendant l'occupation.
+eclatante: {meneur} rassemble les preuves des deux histoires et les met devant le conseil, toutes les deux. La séance dure jusqu'à minuit. Le candidat retire sa candidature. Maître Jarro, qui voulait le voir tomber, se lève à la fin pour dire qu'il a eu tort de vouloir juger seul. On le dit rarement à Kashuri.
+reussite: La vérité sort, complète. Le conseil décide de ne pas poursuivre le candidat, mais il ne sera pas élu. Il garde sa forge. Les quarante familles lui apportent des fleurs, et Maître Jarro ne sait plus quoi penser.
+partielle: L'enquête prouve la vente des lames, mais rien sur les familles. Le candidat est chassé du conseil et de Kashuri. Deux mois plus tard, des lettres arrivent de Piltover pour le défendre. Trop tard.
+echec: Les anciens ouvriers refusent de parler. Le candidat est élu. Maître Jarro passe pour un jaloux et perd la moitié de ses clients. Il garde la vieille lame dans un tiroir.
+recompenses: po 100 ; reputation 4 ; objet Lame de Doran 12
+
+=== ION-L-017 | Le protecteur joyau blessé
+source: privee
+region: ionia
+palier: locale
+type: sauvetage
+ton: tendre
+lieu: Forêt de Lhradi
+demandeur: Lhaëa, jeune vastaya des Lhotlan, qui a trouvé quelque chose dans un piège
+accroche: « Les braconniers ont mis des pièges dans notre forêt, pour les protecteurs joyaux. Les gemmes sur leur dos se vendent cher à Nanthee. Un jeune est pris dans un collet depuis deux jours, au fond du ravin. Les anciens disent qu'il faut le laisser, que c'est la forêt. Moi je ne veux pas le laisser. »
+postes: Healer
+duree: 5
+dangereuse: non
+epreuves: poursuite 43 (trouver le ravin et le jeune protecteur) ; diplomatie 46 (l'approcher et le soigner sans se faire griffer)
+complication: La mère du protecteur rôde autour du ravin. Elle attaque tout ce qui s'approche de son petit.
+eclatante: {meneur} soigne le petit sous le regard de la mère, sans geste brusque, pendant une heure entière. Quand le collet est défait, la mère s'approche et lèche la main de Lhaëa. Les anciens des Lhotlan, qui ont vu la scène de loin, décident de démonter eux-mêmes tous les pièges de la forêt. Lhaëa est tirée de corvée de cueillette pour un an.
+reussite: Le jeune protecteur est libéré et repart en boitant vers sa mère. Lhaëa et {meneur} démontent six autres pièges au retour. Les anciens grognent, mais ils ne les remettent pas.
+partielle: Le petit est libéré, mais sa patte est mal en point. Il ne pourra pas suivre la mère longtemps. Lhaëa vient le nourrir tous les jours en cachette. Les anciens font semblant de ne rien voir.
+echec: La mère attaque, et l'équipe doit battre en retraite. Le lendemain, le collet est vide. On ne sait pas si les braconniers sont passés avant. Lhaëa ne parle plus aux anciens pendant un mois.
+recompenses: po 50 ; reputation 3 ; objet Potion de soin 16
+
+=== ION-L-018 | La prison qui ne ferme plus
+source: institution
+region: ionia
+palier: locale
+type: defense
+ton: aventure
+lieu: Tuula
+demandeur: la Chambre des Bannières, pour le gouverneur de la prison de Tuula
+accroche: « Un tremblement de terre a fendu le mur nord de la prison de Tuula. On a quatre-vingts détenus, dont une vingtaine qui ont fait très mal pendant la guerre, des deux côtés. Les maçons arrivent dans trois jours. D'ici là, il faut que tout le monde reste à l'intérieur. Les gardes ne sont que neuf. »
+postes: Tank, Tireur, Combattant
+duree: 13
+dangereuse: oui
+epreuves: siege 48 (fermer la brèche avec ce qu'on trouve) ; combat 50 (repousser la tentative d'évasion de la deuxième nuit) ; poursuite 44 (rattraper ceux qui sont passés)
+complication: Les détenus noxiens et les détenus de la Fraternité Navori se haïssent. Ils ne vont pas s'évader ensemble : ils vont s'entretuer dans la cour.
+eclatante: {meneur} sépare les deux groupes avant que ça dégénère et propose aux détenus de travailler eux-mêmes à la réparation, contre une ration de plus. La moitié accepte. Le mur est fermé avant l'arrivée des maçons. Le gouverneur demande à garder la méthode. On n'a jamais vu Tuula aussi calme.
+reussite: Personne ne sort de Tuula. La bagarre de la cour fait des blessés, mais pas de mort. Les maçons arrivent et trouvent une brèche bouchée avec des lits, des portes et un piano. Ils mettent une semaine à démonter le tout.
+partielle: Trois détenus s'échappent pendant la nuit. Deux sont repris dans la semaine. Le troisième était de la Fraternité Navori. On le recherche toujours.
+echec: La brèche cède pendant l'assaut de la deuxième nuit. Une douzaine de détenus disparaissent dans la montagne. Les gardes de Tuula mettent des mois à en reprendre la moitié. Le gouverneur est remplacé.
+recompenses: po 170 ; reputation 5 ; objet Bouclier de Doran 14
+
+=== ION-L-019 | Le moine qui veut parler
+source: privee
+region: ionia
+palier: locale
+type: escorte
+ton: tendre
+lieu: Monastère de Shojin
+demandeur: Frère Maku, moine de Shojin, qui a fait vœu de silence il y a trente ans et voudrait revoir sa sœur
+accroche: Une lettre, d'une écriture très soignée : « J'ai fait vœu de silence il y a trente ans. Ma sœur est malade, à Pallas. Je voudrais lui parler avant qu'elle parte. Le prieur dit qu'un vœu rompu ne se reprend pas. Je voudrais quelqu'un pour m'accompagner, et pour m'aider à trouver mes mots. Je ne sais plus comment on fait. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: voyage 40 (accompagner Frère Maku jusqu'à Pallas, par la route côtière) ; diplomatie 45 (l'aider à retrouver sa voix, au chevet de sa sœur)
+complication: La sœur, elle, ne veut pas le voir. Elle lui en veut encore d'être parti au monastère quand leurs parents sont morts.
+eclatante: Au chevet, Frère Maku n'arrive pas à parler. {meneur} reste avec lui jusqu'à ce que le premier mot sorte : « pardon ». Après, ça va plus vite. Le frère et la sœur parlent toute la nuit, d'une voix enrouée pour l'un, fatiguée pour l'autre. Elle part au printemps, en paix. Frère Maku reprend son vœu en rentrant. Le prieur ne dit rien. Il le serre dans ses bras.
+reussite: Frère Maku parle à sa sœur, quelques phrases, maladroites. Elle l'écoute. Elle ne lui pardonne pas tout, mais elle lui tient la main en se rendormant. Il rentre à Shojin le lendemain, sans un mot.
+partielle: La sœur accepte de le voir, mais Frère Maku ne réussit pas à parler. Il lui écrit une longue lettre, qu'elle lit devant lui. Elle pleure. Il repart sans savoir si c'était de colère ou de soulagement.
+echec: La sœur refuse de le recevoir. Frère Maku reste deux jours devant la porte. Le troisième, il repart vers Shojin. Il apprend sa mort par une lettre, au printemps.
+recompenses: po 45 ; reputation 3 ; objet Charme féerique 14
+
+=== ION-L-020 | Les champs d'Epool
+source: privee
+region: ionia
+palier: locale
+type: exploration
+ton: tragique
+lieu: Rivière Epool
+demandeur: Hanu Sarik, cultivatrice au bord de la rivière Epool, qui veut savoir si elle peut replanter
+accroche: « Mon champ est au bord de l'Epool. C'est là que les Noxiens ont versé leurs premières bombes de Zaun. Ça fait des années. Les herbes repoussent sur l'autre rive, pas sur la mienne. J'ai trois enfants. Je ne veux pas les nourrir avec quelque chose qui les tuera dans dix ans. Je veux quelqu'un qui sache regarder. »
+postes: Mage, Éclaireur
+duree: 8
+dangereuse: oui
+epreuves: voyage 44 (remonter la rivière jusqu'à l'endroit où les bombes sont tombées) ; discretion 43 (trouver les fûts enterrés sans les percer) ; siege 46 (les sortir de terre et les emporter loin du champ)
+complication: Les fûts ne sont pas vides. Ils fuient encore, très lentement, depuis tout ce temps.
+eclatante: {meneur} trouve les huit fûts et les fait sortir un par un, avec l'aide d'un alchimiste de Piltover qui passait à Nanthee. On les scelle dans de la terre cuite et on les emporte à la mer de Ghetu, loin de tout. Hanu Sarik replante au printemps. La première récolte est maigre. La deuxième est belle.
+reussite: Six fûts sont sortis de terre, les deux autres sont scellés sur place. Hanu Sarik peut replanter la moitié de son champ, celle qui est la plus éloignée de la rivière. Elle met des fleurs de l'autre côté. C'est mieux que rien.
+partielle: L'équipe trouve les fûts mais ne peut pas les sortir sans risque. On les marque, on les entoure de pierres. Hanu Sarik ne replante pas. Elle loue un champ ailleurs, plus cher.
+echec: Un fût se perce pendant les fouilles. L'équipe s'en sort avec une toux de deux semaines, et la terre du champ est perdue pour longtemps. Hanu Sarik part vivre chez son frère à Tevasa.
+recompenses: po 140 ; reputation 4 ; objet Élixir de fer 14
+
+=== ION-L-021 | La fête de la moisson de Thonx
+source: privee
+region: ionia
+palier: locale
+type: protection
+ton: drole
+lieu: Thonx
+demandeur: Bao Ren, tavernier de Thonx, qui a vendu un peu trop de places pour la fête de la moisson
+accroche: « J'ai vendu trois cents places pour la fête dans mes cavernes. Les cavernes en tiennent cent cinquante. Je sais. Je sais. Il y aura de la musique, de la danse, du vin de riz et trois cents personnes qui vont très mal se répartir. J'ai besoin de gens qui sachent faire de la place sans casser personne. »
+postes: Tank, Support
+duree: 5
+dangereuse: non
+epreuves: diplomatie 44 (faire tourner les invités entre les cavernes sans fâcher personne) ; combat 41 (calmer la bagarre des pêcheurs contre les tisserands, vers minuit)
+complication: Une partie des invités sont venus avec des places fausses. Bao Ren ne s'en est pas aperçu. Il y a quatre cents personnes.
+eclatante: {meneur} ouvre la troisième caverne, celle que Bao Ren gardait pour ses tonneaux, et y installe les musiciens. La fête s'étend sur trois salles et sur la rivière, avec des barques. Les gens de Thonx en parlent encore comme de la meilleure moisson depuis la guerre. Bao Ren n'a plus de vin. Il n'a plus de tonneaux non plus.
+reussite: La fête se passe bien, à peu près. Il y a une bagarre, deux évanouissements et une demande en mariage. Bao Ren rembourse les fausses places à moitié, pour la paix. Il refait ses comptes jusqu'au matin.
+partielle: La fête déborde dans les rues et les voisins se plaignent toute la nuit. Le conseil de Thonx inflige une amende à Bao Ren. Il dit qu'il recommencera l'an prochain. Avec moins de places.
+echec: La foule bloque l'entrée des cavernes et la fête tourne à la cohue. Deux personnes tombent dans la rivière. Le conseil de Thonx interdit les fêtes dans les cavernes pour un an. Bao Ren vend des brochettes sur la place.
+recompenses: po 75 ; reputation 3 ; objet Potion de soin 12
+
+=== ION-L-022 | Le démon de la route de Holn
+source: privee
+region: ionia
+palier: locale
+type: enquete
+ton: horreur
+lieu: Holn
+demandeur: Xiao Tem, conductrice de chariots sur la route de Holn, qui ne veut plus passer devant la statue
+accroche: « Tout le monde sait que Maître Kusho a banni le démon Zogao sur la route de Holn. Il y a une statue pour ça. Depuis la semaine dernière, la statue a les yeux ouverts. Je le jure. Et les chariots qui passent de nuit arrivent avec une personne en moins. Toujours la dernière assise à l'arrière. »
+postes: Assassin, Mage
+duree: 7
+dangereuse: oui
+epreuves: discretion 47 (passer une nuit près de la statue sans se faire remarquer) ; combat 49 (affronter ce qui sort quand le dernier chariot passe)
+complication: Ce n'est pas Zogao. Ce sont des bandits qui se servent de la légende, déguisés, et qui prennent les voyageurs pour les vendre à Weh'le.
+eclatante: {meneur} s'installe à l'arrière du dernier chariot, comme appât. Quand les « démons » grimpent, ils tombent sur quelqu'un qui les attend. Les bandits sont livrés au gouverneur de Tuula, et on retrouve onze voyageurs dans une grange de Weh'le, vivants. Xiao Tem repasse devant la statue le soir même. Elle a toujours les yeux fermés.
+reussite: Les bandits sont arrêtés. Les voyageurs disparus sont retrouvés, sauf deux, déjà vendus plus loin. On les cherche. La route de Holn redevient fréquentée, même la nuit.
+partielle: Les bandits s'enfuient, mais la ruse est éventée. Ils ne reviendront pas sur cette route. Les voyageurs disparus, eux, restent introuvables. La statue a de nouveau des fleurs à ses pieds.
+echec: L'équipe ne voit rien de la nuit, et le chariot du matin arrive avec une personne en moins. Plus personne ne prend la route de Holn de nuit. Xiao Tem change de métier.
+recompenses: po 130 ; reputation 4 ; objet Dague 14
+
+=== ION-L-023 | Les tisseurs-de-bois en grève
+source: privee
+region: ionia
+palier: locale
+type: diplomatie
+ton: drole
+lieu: Omikayalan
+demandeur: Oroni Fehl, porte-parole des tisseurs-de-bois de la Clairière verte, qui en a marre
+accroche: « Nous faisons pousser les maisons. C'est un art. Ça prend des années. Et maintenant, les gens veulent une chambre en plus pour la semaine prochaine, une terrasse pour la fête, un escalier "plus moderne". Nous avons posé nos graines. Nous ne reprendrons pas tant qu'on ne nous respectera pas. Le conseil dit que c'est un caprice. Venez voir si c'est un caprice. »
+postes: Support, Éclaireur
+duree: 5
+dangereuse: non
+epreuves: diplomatie 46 (trouver un terrain d'entente entre les tisseurs et le conseil) ; poursuite 40 (récupérer les graines sacrées volées par un client impatient)
+complication: Pendant la grève, quelqu'un a essayé de faire pousser sa propre maison avec des graines volées. Elle pousse de travers, à toute vitesse, et elle commence à avaler la rue.
+eclatante: {meneur} amène les membres du conseil devant la maison sauvage qui avale la rue. Les tisseurs la ramènent à la raison en une nuit, sous les yeux de tout le monde. Le conseil signe l'accord le lendemain : délai minimum d'un an pour une pièce, et des remerciements à voix haute à chaque fête. La maison sauvage devient la maison commune.
+reussite: Un accord est trouvé : les tisseurs reprennent le travail, avec des délais respectés et un peu plus de riz. La maison sauvage est arrêtée à temps, avec une tour en trop qu'on garde comme curiosité.
+partielle: Les tisseurs reprennent le travail, mais à moitié. Les délais doublent. Le client qui a volé les graines doit vivre dans une maison qui pousse vers le bas.
+echec: La grève dure tout l'hiver. Les familles qui attendaient une maison passent la saison chez des cousins. Au printemps, le conseil cède sur tout. Les tisseurs demandent en plus des excuses écrites, et les obtiennent.
+recompenses: po 80 ; reputation 3 ; objet Tome d'amplification 12
+
+=== ION-L-024 | Les recruteurs de l'Ordre
+source: privee
+region: ionia
+palier: locale
+type: traque
+ton: politique
+lieu: Puboe
+demandeur: Lan Siu, maire de Puboe, qui a perdu six jeunes en un mois
+accroche: « Six garçons et filles de Puboe sont partis en un mois. Tous laissent la même lettre : "Je vais là où on m'apprendra à me défendre." Je sais qui vient les chercher. L'Ordre de l'ombre a tenu notre prison pendant des années, ils connaissent tout le monde ici. Je veux savoir qui leur parle. Et je veux qu'il arrête. »
+postes: Assassin, Éclaireur
+duree: 9
+dangereuse: oui
+epreuves: discretion 48 (repérer le recruteur parmi les gens de Puboe) ; poursuite 46 (le suivre jusqu'au point de rendez-vous) ; combat 47 (le faire arrêter, si ses protecteurs s'en mêlent)
+complication: Le recruteur est l'ancien maître d'armes de Puboe, que tout le monde aime. Il croit sincèrement qu'il sauve ces jeunes.
+eclatante: {meneur} ne l'arrête pas devant tout le monde. On l'attend au point de rendez-vous, et {meneur} lui demande de raconter ce qu'il fait, devant les deux derniers jeunes qui devaient partir. Ils écoutent tout. Ils rentrent chez eux. Le maître d'armes ouvre une salle d'entraînement sur la place, à la vue de tous. Lan Siu y inscrit son fils.
+reussite: Le recruteur est démasqué et chassé de Puboe. Les deux derniers départs sont empêchés. Les six autres jeunes restent dans l'Ordre. Leurs familles reçoivent une lettre par saison, sans adresse.
+partielle: Le recruteur s'enfuit avant d'être pris. On sait qui il est, mais il ne reviendra pas. Les départs s'arrêtent, un temps. Lan Siu craint qu'un autre prenne sa place.
+echec: L'équipe se fait repérer. Le recruteur disparaît avec trois jeunes de plus. Puboe accuse le maire de ne rien avoir fait. Lan Siu démissionne au printemps.
+recompenses: po 155 ; reputation 5 ; objet Dague 16
+
+=== ION-L-025 | Les fleurs qui ne s'ouvrent plus
+source: privee
+region: ionia
+palier: locale
+type: exploration
+ton: mystere
+lieu: Lac des Lys lumineux
+demandeur: Pema Ko, gardienne des barques du lac des Lys lumineux, qui ne vit que de la lumière du soir
+accroche: « Mes barques promènent les amoureux sur le lac, la nuit, quand les lys brillent. C'est mon travail, c'est toute ma vie. Depuis dix jours, les lys restent éteints. Ils sont là, vivants, fermés. Les gens repartent déçus. Moi, je n'ai plus que trois semaines de riz. Il y a quelque chose au fond du lac, j'en suis sûre. »
+postes: Mage
+duree: 6
+dangereuse: non
+epreuves: voyage 42 (plonger jusqu'au fond du lac, dans le noir) ; diplomatie 47 (comprendre pourquoi les lys ne brillent plus)
+complication: Un esprit du lac a perdu quelqu'un : la vieille femme qui venait chanter au bord chaque soir depuis cinquante ans. Elle est morte le mois dernier. L'esprit attend sa chanson.
+eclatante: {meneur} retrouve la petite-fille de la vieille chanteuse à Tevasa et la ramène au bord du lac. Elle ne connaît que le premier couplet. Ça suffit. Les lys s'ouvrent un par un pendant qu'elle chante, jusqu'au milieu du lac. Elle revient chaque soir, maintenant. Pema Ko lui offre la barque du dimanche.
+reussite: {meneur} comprend ce que l'esprit attend et chante soi-même, au bord, tant bien que mal. Les lys se rallument, plus faiblement qu'avant. Pema Ko cherche une chanteuse dans les villages voisins. Elle en trouvera une.
+partielle: Quelques lys se rallument, près de la rive. Le reste du lac reste sombre. Pema Ko propose des promenades « au clair de lune », moins chères. Les amoureux viennent quand même, un peu moins.
+echec: L'équipe ne trouve rien au fond du lac, à part de la vase et des barques coulées. Les lys restent éteints toute la saison. Pema Ko vend deux barques pour passer l'hiver.
+recompenses: po 70 ; reputation 3 ; objet Cristal de saphir 12

@@ -139,7 +139,7 @@ function vue(monde, gid) {
     aVenir: aVenir(monde, g),
     economie: { palier: palier.nom, revenu: E.revenuHebdo(palier.cle) }, chien: g.monde.chien,
     repere: { region: g.region, bourg: g.monde.bourg },
-    maintenant: { jour: jour(monde.t), heure: heure(monde.t) },
+    maintenant: { t: monde.t, jour: jour(monde.t), heure: heure(monde.t) },
     heros: actifs.map(h => { const f = C.parCle[h.cle];
       return { id: h.id, nom: h.nom, apparence: h.apparence || null, cle: h.cle, img: images(h.cle), role: h.role, etat: h.etat, lieu: h.lieu, activite: ACT[h.activite] || '', repos: h.reposJusqua > monde.t ? Math.ceil(h.reposJusqua - monde.t) : 0, blesse: Boolean(h.blesse), reserve: h.reserve || null,
         moral: Math.round(h.moral), fidelite: Math.round(h.fidelite), besoins: Object.fromEntries(Object.entries(h.besoins || {}).map(([k, v]) => [k, Math.round(v)])),
@@ -151,7 +151,7 @@ function vue(monde, gid) {
         quete: g.quetes?.[h.id] ? { id: g.quetes[h.id].id, titre: (() => { try { return Q.queteDe(C.quetes, h, g.region)?.titre || null; } catch { return null; } })(), etat: g.quetes[h.id].etat, etape: g.quetes[h.id].etape, enCours: Boolean(g.quetes[h.id].enCours) } : null }; }),
     cartes: g.cartes.filter(c => c.etat === 'ouverte').map(c => carteVue(g, c)),
     traitees: g.cartes.filter(c => c.etat === 'traitee' && c.parDefaut && monde.t - c.t < 72).map(c => ({ titre: c.titre, reponse: c.options.find(o => o.id === c.reponse)?.libelle, consequences: c.consequences || [] })),
-    chronique: g.chronique.slice(-150).map(e => ({ jour: jour(e.t), heure: heure(e.t), texte: e.texte, importance: e.importance, dec: e.declencheur, heros: e.heros, arc: e.titreArc || null, quete: e.declencheur === 'quete' })),
+    chronique: g.chronique.slice(-150).map(e => ({ t: e.t, depart: e.scene === 'contrat#depart' || undefined, jour: jour(e.t), heure: heure(e.t), texte: e.texte, importance: e.importance, dec: e.declencheur, heros: e.heros, arc: e.titreArc || null, quete: e.declencheur === 'quete' })),
     arcs: (g.arcs?.enCours || []).map(x => ({ titre: x.titre || x.id, a: x.a, b: x.b, etape: x.etape, total: x.total || null })),
     soiree: g.soirees?.[0] ? { jour: jour(g.soirees[0].t), venus: g.soirees[0].venus || [], absents: g.soirees[0].absents || [], moments: (g.soirees[0].moments || []).map(m => m.texte) } : null,
     contrats, missionsEnCours, rapports: (g.rapports || []).slice(0, 15),

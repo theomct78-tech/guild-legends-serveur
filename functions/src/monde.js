@@ -64,6 +64,16 @@ function premierSamediDuMois(t) { const d = new Date(t * H_MS); return d.getUTCD
 const actifs = g => g.heros.filter(h => !['parti', 'mort'].includes(h.etat));
 const palierDe = g => REC.palierDe(g.niveau || 1).cle;
 const ficheDe = h => catalogues().parCle[h.cle];
+/*
+ * 11 nov. 2026, demande de Théo : à la fondation, seules les régions dont les missions sont écrites pour les deux premiers
+ * paliers (Inconnue et Locale) peuvent être choisies. Les autres sont grisées, et s'ouvrent d'elles-mêmes avec leurs missions.
+ */
+const PALIERS_REQUIS = ['inconnue', 'locale'];
+function regionsOuvertes() {
+  const vu = {};
+  for (const m of catalogues().missions) (vu[m.region] ||= new Set()).add(m.palier);
+  return Object.keys(vu).filter(r => PALIERS_REQUIS.every(p => vu[r].has(p))).sort();
+}
 const statsDe = h => EQ.statsEquipees(P.statsActuelles(h.cle, ficheDe(h).plafonds, h.xp || {}), h, ficheDe(h));
 const disponible = (g, h) => h.etat === 'present' && !V.enRepos(g, h) && !h.blesse && !h.reserve;
 function avis(g, texte, extra = {}) { (g.avis ||= []).unshift({ t: g.t, texte, ...extra }); g.avis.length = Math.min(g.avis.length, PARAMS.conserverAvis); }
@@ -522,7 +532,7 @@ function avancer(monde, jusqua) {
   return monde;
 }
 
-module.exports = { changerSolde, donnerConges, lancerAction, faireGeste, envoyerMissive, choisirImage, palierDe, nommerChien: (monde, gid, nom) => V.nommerChien(monde.guildes[gid], nom), equiper: (monde, gid, heroId, uid) => EQ.equiper(monde.guildes[gid], heroId, uid), desequiper: (monde, gid, heroId, uid) => EQ.desequiper(monde.guildes[gid], heroId, uid),
+module.exports = { regionsOuvertes, changerSolde, donnerConges, lancerAction, faireGeste, envoyerMissive, choisirImage, palierDe, nommerChien: (monde, gid, nom) => V.nommerChien(monde.guildes[gid], nom), equiper: (monde, gid, heroId, uid) => EQ.equiper(monde.guildes[gid], heroId, uid), desequiper: (monde, gid, heroId, uid) => EQ.desequiper(monde.guildes[gid], heroId, uid),
   PARAMS, catalogues, creerMonde, fonderGuilde, nouveauHeros, recruter, refuserCandidature, poserAnnonce, publierContrats, contratsPour, placer, retirer, chanceContrat,
   construire, repondreCarte, lancerQuete, inscrireTournoi, jouerLeTournoi, seMontrerInteresse, avancer, statsDe, disponible, nomRegion,
   proposerAlliance: (monde, de, vers) => MJ.proposerAlliance(monde, de, vers, id => palierDe(monde.guildes[id]), monde.t),

@@ -1,0 +1,504 @@
+# Piltover · palier Locale · lot 1 (missions 001 à 025) · 11 nov. 2026
+# Palier Locale : les affaires d'un atelier qui compte, d'un quartier, d'un petit clan. L'invention est le moteur, Zaun n'est jamais loin.
+# {meneur} : le héros qui a mené l'épreuve décisive. Aucun accord de genre sur {meneur}.
+
+=== PIL-L-001 | Le brevet du siècle
+source: privee
+region: piltover
+palier: locale
+type: protection
+ton: politique
+lieu: Archives du Conseil
+demandeur: Ilse Varnow, inventrice indépendante, qui dépose demain le brevet de sa vie
+accroche: « Demain à neuf heures, je dépose aux Archives le brevet d'une pompe qui purifie l'eau de la Falaise. Trois ans de travail. Deux clans du Conseil m'ont déjà proposé de le racheter. J'ai dit non deux fois. Depuis, on fouille ma poubelle et un homme dort sur le banc en face de chez moi. Je veux arriver aux Archives avec mes plans. Et en un seul morceau. »
+postes: Tank, Éclaireur, Support
+duree: 6
+dangereuse: non
+epreuves: discretion 45 (repérer qui surveille l'atelier, et pour qui) ; poursuite 44 (traverser Mid Town jusqu'aux Archives sans se faire voler la serviette) ; diplomatie 47 (faire enregistrer le brevet par un greffier qu'on a déjà acheté)
+complication: Le greffier de garde a reçu de l'argent pour « égarer » le dossier pendant une semaine, le temps qu'un autre dépôt passe avant.
+eclatante: {meneur} demande au greffier, très poliment, de dater et signer le reçu devant témoins, un journaliste de la Gazette qui passait par là « par hasard ». Le brevet est enregistré à neuf heures quatre. L'autre dépôt arrive à dix heures, avec les mêmes plans à deux vis près. La Gazette en fait sa une. Le clan concerné publie un communiqué très sec. Ilse Varnow ne vend pas.
+reussite: Le brevet est déposé à l'heure. Le greffier se fait remplacer dans la semaine, pour raisons de santé. Ilse Varnow passe à la Gazette pour raconter son histoire. Les propositions de rachat doublent, et elle continue de dire non.
+partielle: Les plans arrivent aux Archives, mais avec une heure de retard, et un autre brevet très proche a été déposé entre-temps. Il y aura procès. Ilse Varnow a des chances. Elle n'a pas d'argent pour un avocat.
+echec: La serviette est arrachée sur le Pont du Progrès. Ilse Varnow refait les plans de mémoire en deux semaines, trop tard. La pompe est commercialisée au printemps, sous un autre nom. Elle l'achète, pour voir. Elle marche bien.
+recompenses: po 140 ; reputation 4 ; objet Tome d'amplification 12
+
+=== PIL-L-002 | L'automate qui ne veut pas mourir
+source: privee
+region: piltover
+palier: locale
+type: recuperation
+ton: tendre
+lieu: Mid Town
+demandeur: Hubert Clamm, horloger retraité de Mid Town, dont l'automate a pris la fuite
+accroche: « Mon automate s'appelle Bastien. Il fait le ménage chez moi depuis quarante ans. Ma fille a décidé de le vendre à la ferraille, parce qu'il "fait du bruit". Il a dû l'entendre, ou comprendre, je ne sais pas comment. Ce matin, il est parti. Il fait deux kilomètres-heure, il ne doit pas être loin. Je voudrais qu'il rentre. Et je voudrais parler à ma fille. »
+postes: Éclaireur
+duree: 4
+dangereuse: non
+epreuves: poursuite 42 (retrouver un vieil automate qui se cache dans la foule de Mid Town) ; diplomatie 44 (le convaincre de rentrer, alors qu'il ne parle pas)
+complication: Bastien n'est pas allé n'importe où. Il est allé à la Forge Talis, là où il a été fabriqué, et il attend devant la porte qu'on le répare.
+eclatante: {meneur} le retrouve assis devant la Forge, depuis six heures, et entre demander qui, ici, se souvient de lui. Une vieille compagnonne le reconnaît : c'est elle qui avait fait ses mains. Elle le répare gratuitement, en une après-midi, et il ne fait plus de bruit. La fille de Hubert Clamm vient le chercher elle-même. Elle repart en le tenant par le bras.
+reussite: Bastien est ramené chez lui, par les rues calmes. Hubert Clamm a une longue conversation avec sa fille. L'automate reste. Il fait toujours du bruit, alors ils ont acheté des bouchons d'oreilles.
+partielle: Bastien rentre, mais il s'est abîmé une jambe en chemin. Il boite et met trois fois plus de temps à passer le balai. Hubert Clamm dit qu'ils sont deux, maintenant, à boiter dans cette maison.
+echec: On retrouve Bastien chez un ferrailleur des Docks du Nord, déjà démonté. Hubert Clamm rachète la tête. Elle est sur sa cheminée. Il dit qu'elle regarde encore la poussière.
+recompenses: po 60 ; reputation 3 ; objet Charme féerique 12
+
+=== PIL-L-003 | Le vol de la Porte
+source: institution
+region: piltover
+palier: locale
+type: enquete
+ton: politique
+lieu: Porte Hextech
+demandeur: la Chambre des Bannières, pour l'administration de la Porte Hextech
+accroche: « Une caisse de cristaux hextech est partie par la Porte, et n'est jamais arrivée à destination. Les registres disent qu'elle a été envoyée. Le quai d'arrivée dit qu'il n'a rien reçu. Entre les deux, il y a trois secondes de voyage et douze fonctionnaires. L'administration préfère qu'on règle ça sans gendarmes. Le Conseil, lui, n'est pas au courant. »
+postes: Éclaireur, Support
+duree: 8
+dangereuse: non
+epreuves: discretion 46 (consulter les registres de la Porte sans alerter personne) ; diplomatie 48 (faire parler les opérateurs de nuit) ; poursuite 45 (remonter jusqu'à la caisse)
+complication: La caisse n'a jamais quitté Piltover. Un opérateur a modifié la destination au dernier moment : les cristaux sont partis vers un entrepôt de Nouvelle-Piltover, loué par des Noxiens.
+eclatante: {meneur} trouve l'entrepôt avant que les acheteurs passent prendre la marchandise, et propose à l'administration de laisser la caisse en place, sous surveillance. Les acheteurs noxiens sont pris en flagrant délit, avec un registre de leurs contacts en ville. L'administration de la Porte remercie la guilde par une lettre officielle qu'on ne pourra jamais montrer à personne.
+reussite: Les cristaux sont retrouvés dans l'entrepôt, intacts. L'opérateur est renvoyé et livré aux gendarmes. Les acheteurs ont eu le temps de filer. L'administration change tous les codes de la Porte, ce qui la ferme pendant deux jours.
+partielle: L'opérateur est identifié, mais la caisse est déjà partie vers le sud. L'administration étouffe l'affaire. Le Conseil l'apprend quand même, par la Gazette, un mois plus tard.
+echec: L'enquête n'aboutit pas. Une deuxième caisse disparaît la semaine suivante. Le Conseil est informé et nomme une commission. La commission demande qui a autorisé l'intervention d'une guilde.
+recompenses: po 160 ; reputation 5 ; objet Cristal de saphir 14
+
+=== PIL-L-004 | Le chat qui sait trop de choses
+source: privee
+region: piltover
+palier: locale
+type: protection
+ton: drole
+lieu: Opéra Medarda
+demandeur: Clémence Oldry, couturière de l'Opéra Medarda, chargée de garder le chat de la diva
+accroche: « Le chat de la diva est un chat de Piltover. Il comprend tout, il écoute tout, et il passe ses nuits dans les loges privées de l'Opéra, là où se signent les contrats. Depuis une semaine, des gens essaient de l'attraper. J'ai compris pourquoi : il a entendu quelque chose. Lui s'en fiche. Moi, je suis responsable. »
+postes: Tank
+duree: 5
+dangereuse: non
+epreuves: poursuite 45 (suivre le chat dans les coulisses, les cintres et les loges) ; combat 42 (repousser les deux hommes qui veulent le mettre dans un sac)
+complication: Le chat a effectivement entendu un clan marchand préparer une faillite frauduleuse. Il a aussi décidé qu'il ne le dirait à personne, sauf contre du saumon.
+eclatante: {meneur} négocie avec le chat, sérieusement, à hauteur d'yeux, dans une loge vide. Contre une livre de saumon fumé, il miaule assez de détails pour que la Gazette commence à creuser. Le clan en question fait faillite pour de vrai, mais devant les tribunaux, cette fois. La diva ne sait rien. Le chat dort sur ses genoux pendant les répétitions, très satisfait.
+reussite: Les deux hommes repartent sans le chat, avec des griffures. La diva passe une semaine à l'hôtel, avec son chat, par précaution. Clémence Oldry dort enfin une nuit entière.
+partielle: Le chat est protégé, mais il se cache dans les cintres et refuse d'en descendre pendant trois jours. La première de la saison se joue avec un chat au-dessus de la scène. Le public trouve que c'est voulu.
+echec: Le chat est attrapé pendant l'entracte. On le retrouve le lendemain, relâché sur le quai, très vexé. Il ne remettra plus les pieds à l'Opéra. La diva, effondrée, annule deux représentations.
+recompenses: po 70 ; reputation 3 ; objet Bottes 12
+
+=== PIL-L-005 | Les grues de la Falaise
+source: privee
+region: piltover
+palier: locale
+type: sauvetage
+ton: tragique
+lieu: La Falaise
+demandeur: Ana Vey, contremaîtresse zaunienne d'une équipe de la Falaise, qui a quatre gars bloqués à mi-paroi
+accroche: « La grue du chantier trois a lâché. La plateforme pend à mi-hauteur, au-dessus des cascades. Il y a quatre de mes gars dessus. Le patron dit qu'il attend l'ingénieur. L'ingénieur arrive demain. La plateforme ne tiendra pas jusqu'à demain. Je ne vous demande pas si c'est votre travail. »
+postes: Combattant, Healer
+duree: 5
+dangereuse: oui
+epreuves: voyage 48 (descendre la paroi jusqu'à la plateforme, dans les vapeurs) ; siege 46 (stabiliser la plateforme assez longtemps pour remonter tout le monde)
+complication: La grue n'a pas cédé toute seule. Les câbles étaient usés depuis des mois, signalés trois fois. Le patron a les rapports dans son tiroir.
+eclatante: {meneur} remonte les quatre ouvriers un par un, le dernier juste avant que la plateforme ne tombe dans les cascades. Ana Vey récupère les rapports dans le bureau du patron pendant que tout le monde regarde le ravin. La Gazette les publie la semaine suivante. Le chantier trois ferme, et rouvre avec des câbles neufs et un autre patron.
+reussite: Les quatre ouvriers sont ramenés, l'un avec un bras cassé. Le patron remercie la guilde avec un chèque et un communiqué sur « l'héroïsme des secours ». Ana Vey jette le communiqué. Le chèque, elle le garde pour le blessé.
+partielle: Trois ouvriers sur quatre sont remontés. Le quatrième tombe avec la plateforme, mais s'accroche à une conduite plus bas. On le récupère vivant, à la nuit, très mal en point. Il ne retravaillera pas sur la Falaise.
+echec: La plateforme lâche avant qu'on ait pu remonter plus d'un homme. Les trois autres tombent dans les cascades. Les équipes de la Falaise cessent le travail pendant une semaine. Le patron embauche des remplaçants le lundi suivant.
+recompenses: po 135 ; reputation 5 ; objet Potion rechargeable 10
+
+=== PIL-L-006 | La rivale de Mme Sorbe
+source: privee
+region: piltover
+palier: locale
+type: enquete
+ton: drole
+lieu: Parc de l'Innovation
+demandeur: Mme Adélaïde Sorbe, présidente de la Société horticole de Gold Way, qui ne dort plus
+accroche: « Le concours des roses de Gold Way a lieu dans dix jours. Je l'ai gagné onze fois. Cette année, quelqu'un saccage mes rosiers du Parc de l'Innovation, une fleur par nuit. Je sais qui. Je ne peux pas le prouver. Je veux que vous le prouviez. Discrètement, mais pas trop. »
+postes: Assassin
+duree: 5
+dangereuse: non
+epreuves: discretion 44 (guetter les rosiers du parc, la nuit, dans le froid) ; poursuite 41 (suivre le saboteur jusqu'à chez lui)
+complication: Le saboteur n'est pas sa rivale. C'est le jardinier de Mme Sorbe, qui fait toute la culture depuis onze ans et n'a jamais été cité.
+eclatante: {meneur} ramène le jardinier chez Mme Sorbe, et le laisse dire ce qu'il a sur le cœur. Il y a beaucoup de choses sur le cœur. Mme Sorbe écoute, pâlit, et s'assoit. Le concours est remporté cette année-là par « Mme Sorbe et M. Ferrin, jardinier ». Les deux noms sont sur la coupe. Elle a payé le graveur en plus.
+reussite: Le saboteur est démasqué. Mme Sorbe renvoie son jardinier, puis le réembauche trois jours plus tard, parce que plus rien ne pousse. Elle augmente son salaire sans rien dire. Elle gagne le concours, de justesse.
+partielle: On ne voit qu'une ombre, qui s'enfuit. Les sabotages cessent. Mme Sorbe gagne le concours avec des rosiers à moitié dégarnis. Elle soupçonne tout le monde, et invite tout le monde au thé pour mieux surveiller.
+echec: Le saboteur n'est pas pris, et le dernier rosier tombe la veille du concours. Mme Sorbe perd pour la première fois en onze ans. Elle félicite la gagnante d'une voix qu'on entend jusqu'aux Docks.
+recompenses: po 55 ; reputation 2 ; objet Charme féerique 10
+
+=== PIL-L-007 | Le témoin du tram
+source: institution
+region: piltover
+palier: locale
+type: escorte
+ton: aventure
+lieu: Stillwater Hold
+demandeur: la Chambre des Bannières, pour les gendarmes de Piltover
+accroche: « Un détenu de Stillwater doit être transféré à l'Académie pour témoigner devant le Conseil. Il connaît des noms, du côté des barons de Zaun et de certains clans d'en haut. Le tram mécanique est le seul chemin. Il fait quarante minutes. La dernière fois qu'on a transféré un témoin de ce genre, le tram est arrivé vide. »
+postes: Tank, Tireur, Éclaireur
+duree: 7
+dangereuse: oui
+epreuves: discretion 46 (repérer qui, parmi le personnel, a été payé) ; combat 49 (repousser l'attaque du tram en plein trajet) ; voyage 44 (faire arriver le témoin jusqu'à l'Académie)
+complication: Le témoin ne veut pas témoigner. Il veut s'évader, et il compte sur l'attaque pour le faire.
+eclatante: {meneur} devine le plan du témoin avant l'attaque, et lui dit simplement que ceux qui viennent le chercher ne viennent pas pour le libérer. Il comprend. Il se couche au fond du wagon pendant tout le combat. Il témoigne trois heures devant le Conseil. Deux clans perdent leur siège dans le mois. Le tram de Stillwater a désormais une escorte à chaque voyage.
+reussite: Le témoin arrive à l'Académie, avec une balle dans l'épaule et beaucoup de rancune. Il témoigne quand même, à moitié. Trois arrestations suivent. Le reste des noms reste dans sa tête.
+partielle: L'attaque est repoussée, mais le témoin a profité du chaos pour avaler un poison. Il arrive vivant, incapable de parler pendant une semaine. Quand il retrouve sa voix, il ne se souvient plus de rien. Ou il le dit.
+echec: Le tram est arrêté en plein trajet. Le témoin disparaît avec ses ravisseurs. On ne le revoit pas. Le Conseil ouvre une enquête sur l'enquête.
+recompenses: po 170 ; reputation 5 ; objet Bouclier de Doran 14
+
+=== PIL-L-008 | Le canon à poros de la Fête
+source: privee
+region: piltover
+palier: locale
+type: defense
+ton: drole
+lieu: Place de l'Académie
+demandeur: Gaspard Meunière, organisateur des attractions de la Fête du progrès, en sueur
+accroche: « Le canon à poros, c'est l'attraction de la Fête. On envoie des poros en peluche sur la foule, les enfants adorent. Cette année, un livreur s'est trompé de caisse : il y a de vrais poros dans le magasin. Vivants. Une centaine. Et quelqu'un a déjà allumé la mèche une fois "pour tester". Il y en a trente dans la nature. »
+postes: Combattant, Healer
+duree: 5
+dangereuse: non
+epreuves: nuee 44 (récupérer trente poros paniqués dans la foule de la Fête) ; siege 42 (désarmer le canon avant le grand tir de midi)
+complication: Les poros ne paniquent pas. Ils adorent ça. Ils veulent recommencer.
+eclatante: {meneur} récupère les trente poros, puis propose à Gaspard Meunière un changement de programme : le canon tire les poros dans un grand filet tendu au-dessus de la fontaine, cinq mètres de vol, sous les applaudissements. Les poros font la queue pour repasser. C'est l'attraction la plus populaire de l'histoire de la Fête. L'Académie refuse de la renouveler. Le public n'a pas été consulté.
+reussite: Tous les poros sont récupérés et renvoyés au Freljord, très déçus. Le canon tire des peluches à midi, comme prévu. Quelques enfants pleurent, ils avaient vu les vrais.
+partielle: Vingt-huit poros sont récupérés. Deux restent introuvables. On les signale les mois suivants dans les jardins de Gold Way, où ils mangent les massifs et se font des amis.
+echec: Quelqu'un rallume la mèche avant midi. La centaine de poros survole la Place de l'Académie et se répand dans toute la ville. Piltover a des poros pour un an. L'organisateur est remplacé l'année suivante.
+recompenses: po 65 ; reputation 3 ; objet Potion de soin 12
+
+=== PIL-L-009 | La gamine des égouts gris
+source: privee
+region: piltover
+palier: locale
+type: sauvetage
+ton: tendre
+lieu: Nouvelle-Piltover
+demandeur: Pol Ostend, garde du canal de Nouvelle-Piltover, qui n'a rien dit à ses chefs
+accroche: « Il y a une gamine qui vit dans les canalisations sous Nouvelle-Piltover. Elle doit avoir dix ans. Elle monte la nuit, elle prend à manger, elle redescend. Je fais semblant de ne pas la voir depuis un mois. Hier, elle n'est pas remontée. Avant-hier non plus. Je ne peux pas descendre sans rapport. Vous, vous pouvez. »
+postes: Éclaireur, Healer
+duree: 6
+dangereuse: non
+epreuves: voyage 44 (descendre dans les canalisations et s'y repérer) ; poursuite 43 (retrouver la gamine, qui se cache de tout le monde)
+complication: La gamine est zaunienne. Elle a passé le canal pour fuir un atelier de Zaun où on fait travailler les enfants. Elle a de la fièvre, et une peur bleue des adultes.
+eclatante: {meneur} s'assoit dans la canalisation, pose du pain par terre, et attend. Une heure. Deux. La gamine finit par venir. Pol Ostend l'héberge chez sa sœur, qui tient une boulangerie à Mid Town. Elle s'appelle Lise, elle est très douée pour le feu. Le four marche mieux depuis qu'elle est là. L'atelier zaunien, lui, reçoit la visite des gendarmes du Puisard.
+reussite: La gamine est ramenée, fiévreuse. Elle est confiée à un orphelinat de Mid Town. Pol Ostend passe la voir le dimanche. Elle ne lui dit pas encore son prénom, mais elle garde sa casquette.
+partielle: On retrouve la gamine, mais elle s'enfuit dès qu'on la soigne. Elle laisse un mot sur le rebord du canal : « Merci, pas d'orphelinat. » Pol Ostend continue de laisser à manger. Ça disparaît toujours.
+echec: Les canalisations sont inondées par une marée. L'équipe ne trouve qu'un coin où la gamine dormait, avec un dessin de Pol Ostend en uniforme. Il le garde dans sa poche. Il descend seul, toutes les nuits, pendant un mois.
+recompenses: po 70 ; reputation 4 ; objet Potion de soin 16
+
+=== PIL-L-010 | La gazette qu'on veut faire taire
+source: privee
+region: piltover
+palier: locale
+type: protection
+ton: politique
+lieu: Gazette de Piltover
+demandeur: Margot Lessard, rédactrice en chef adjointe de la Gazette de Piltover
+accroche: « On publie vendredi une enquête sur les cristaux synthétiques du clan Ferros et la brume grise. Tout est vérifié, trois fois. Mardi, on a cassé nos vitrines. Mercredi, une imprimerie a annulé notre contrat. Ce matin, ma journaliste a été suivie jusqu'à chez elle. On publiera vendredi. Je voudrais juste que tout le monde soit encore là samedi. »
+postes: Tank, Assassin, Support
+duree: 10
+dangereuse: oui
+epreuves: discretion 47 (identifier ceux qui suivent la journaliste) ; combat 48 (défendre l'imprimerie la nuit du tirage) ; diplomatie 46 (trouver un autre imprimeur qui accepte)
+complication: Un des journalistes de la Gazette renseigne l'autre camp. C'est lui qui a donné l'adresse de sa collègue.
+eclatante: {meneur} trouve la taupe et lui laisse une seule porte de sortie : avouer à Margot Lessard, et écrire lui-même la suite de l'enquête, avec les noms de ceux qui l'ont payé. Il le fait. La Gazette sort vendredi, à l'heure, avec deux articles au lieu d'un. Le Conseil ouvre une commission sur les cristaux synthétiques le lundi suivant.
+reussite: L'enquête paraît, à l'heure. L'imprimerie tient la nuit, avec quelques vitres de moins. La taupe démissionne sans explication. Le clan Ferros dément, longuement, ce qui fait vendre la Gazette davantage.
+partielle: L'enquête paraît avec deux jours de retard, imprimée à la main dans une cave. Elle fait moins de bruit que prévu. La journaliste quitte Piltover quelque temps, pour sa sécurité.
+echec: L'imprimerie brûle la nuit du tirage. L'enquête ne sort pas. Margot Lessard la fait imprimer à Bilgewater trois mois plus tard. Plus personne ne s'en souvient vraiment.
+recompenses: po 175 ; reputation 6 ; objet Armure de tissu 14
+
+=== PIL-L-011 | Le saule qui parle
+source: privee
+region: piltover
+palier: locale
+type: enquete
+ton: mystere
+lieu: Parc de l'Innovation
+demandeur: Ludovic Prax, gardien de nuit du Parc de l'Innovation, qui hésite à le dire
+accroche: « Je vais vous dire une chose et vous allez rire. Le grand saule, au bord de l'étang, parle. La nuit. Il répète des chiffres, des listes, toujours les mêmes. Je les ai notées. Mon chef dit que je bois. Je ne bois pas. Enfin, pas pendant le service. »
+postes: Mage
+duree: 5
+dangereuse: non
+epreuves: discretion 43 (passer la nuit dans le parc, au pied du saule) ; diplomatie 45 (comprendre d'où viennent ces chiffres)
+complication: Le saule ne parle pas. Un vieux récepteur hextech est enterré à ses pieds, posé là pendant la loi martiale. Il capte encore les messages codés d'un réseau d'espions qui n'a jamais été démantelé.
+eclatante: {meneur} déterre le récepteur et le porte, avec les notes de Ludovic Prax, à l'Académie. Les chiffres sont décodés en trois jours. C'est un réseau noxien, toujours actif. Les gendarmes l'arrêtent en une nuit. Ludovic Prax reçoit une médaille, en privé. Son chef lui présente des excuses, en public.
+reussite: Le récepteur est trouvé et remis aux gendarmes. Ils ne disent rien de ce qu'ils en font. Le saule se tait. Ludovic Prax garde ses notes, au cas où.
+partielle: {meneur} entend les chiffres, mais ne trouve pas d'où ils viennent avant l'aube. Le lendemain, le saule se tait. Quelqu'un est passé avant. Il y a un trou frais au pied de l'arbre.
+echec: Rien ne se passe de la nuit. Le chef de Ludovic Prax le met en congé. Le saule reparle la semaine suivante. Ludovic ne le dit plus à personne.
+recompenses: po 85 ; reputation 3 ; objet Élixir de sorcellerie 10
+
+=== PIL-L-012 | Le tissu d'Ysolde Marchal
+source: privee
+region: piltover
+palier: locale
+type: escorte
+ton: aventure
+lieu: Portes du Soleil
+demandeur: Capitaine Ysolde Marchal, d'un petit cargo de commerce, qui doit passer les Portes du Soleil sans escorte
+accroche: « Mon bateau passe les Portes du Soleil jeudi, avec du tissu ionien. Les grands cargos ont des escortes, payées par les clans. Moi, j'ai trois matelots et une cuisinière. Les pirates de Bilgewater attendent à la sortie du canal, ils le savent très bien. J'ai besoin de gens sur le pont. Je paierai en tissu si vous voulez, il est très beau. »
+postes: Tireur, Combattant
+duree: 9
+dangereuse: oui
+epreuves: voyage 45 (passer le canal en suivant les grands cargos de près) ; combat 49 (repousser l'abordage à la sortie des Portes) ; poursuite 44 (semer le navire pirate jusqu'à la haute mer)
+complication: La cuisinière connaît le capitaine pirate. C'est son frère, et elle lui a donné l'heure de passage.
+eclatante: {meneur} repère le signal de la cuisinière à la lanterne et la fait parler avant la sortie. Elle pleure : son frère doit de l'argent à un baron de Bilgewater. Ysolde Marchal fait une chose que personne n'attendait : elle ouvre la cale, et propose au frère un rouleau de tissu pour rembourser sa dette, sans abordage. Il accepte. Il navigue aujourd'hui pour elle, et la cuisinière fait toujours la cuisine.
+reussite: L'abordage est repoussé, sans mort de notre côté. Le navire pirate se retire. La cuisinière est débarquée au premier port, sans explication devant l'équipage. Ysolde Marchal arrive à temps et paie en monnaie, finalement.
+partielle: Les pirates prennent la moitié de la cargaison avant d'être repoussés. Le bateau arrive avec un trou dans la coque et un matelot blessé. Ysolde Marchal survit à la saison, de justesse.
+echec: Le cargo est pris à la sortie des Portes. L'équipage est laissé sur une chaloupe avec de l'eau. Ysolde Marchal rentre à Piltover à pied, par la côte. Elle rachètera un bateau. Plus petit.
+recompenses: po 150 ; reputation 4 ; objet Épée longue 12
+
+=== PIL-L-013 | Le fondateur décapité
+source: privee
+region: piltover
+palier: locale
+type: recuperation
+ton: drole
+lieu: Académie de Piltover
+demandeur: Professeur Ambroise Tessel, doyen de la faculté de mécanique de l'Académie, extrêmement embarrassé
+accroche: « Pour le bizutage, mes étudiants ont "emprunté" la tête de bronze de la statue de Jayce Talis. Pas une copie : la vraie. La cérémonie de remise des diplômes a lieu dans quatre jours, devant le Conseil, au pied de la statue. Les étudiants refusent de dire où est la tête. Ils sont fiers d'eux. Je ne peux pas les renvoyer tous, ce sont mes meilleurs. »
+postes: Éclaireur, Support
+duree: 4
+dangereuse: non
+epreuves: discretion 41 (fouiller les ateliers étudiants pendant les cours) ; diplomatie 44 (négocier avec les meneurs du bizutage)
+complication: Les étudiants ne savent plus où est la tête. Ils l'avaient cachée dans la serre, et un jardinier l'a vendue à un ferrailleur des Docks.
+eclatante: {meneur} remonte jusqu'au ferrailleur, qui allait fondre la tête le lendemain. Elle est rachetée au poids, puis remise en place la nuit avant la cérémonie par les étudiants eux-mêmes, sous la surveillance du doyen. Au discours, le président du Conseil remarque qu'elle est un peu de travers. Personne ne dit rien. Tout le monde rit sous cape.
+reussite: La tête est retrouvée et remise en place, avec une bosse sur le nez. Les meneurs du bizutage passent leurs vacances à polir toutes les statues de l'Académie. Le doyen dit que c'est éducatif.
+partielle: La tête est retrouvée, mais trop abîmée pour la cérémonie. La statue est recouverte d'un drap « pour restauration ». Le Conseil fait semblant d'y croire.
+echec: La tête est fondue avant qu'on la retrouve. On en coule une nouvelle, qui ressemble vaguement à l'oncle d'un des étudiants. Elle est toujours là. Les touristes la photographient.
+recompenses: po 75 ; reputation 3 ; objet Tome d'amplification 10
+
+=== PIL-L-014 | Les dettes du quai
+source: privee
+region: piltover
+palier: locale
+type: diplomatie
+ton: tragique
+lieu: Docks du Nord
+demandeur: Odette Rimbaud, veuve d'un docker des Docks du Nord, à qui on réclame une dette qu'elle ne connaissait pas
+accroche: « Mon mari est mort sous une caisse il y a un mois. Depuis, un homme vient tous les jeudis réclamer ce qu'il devait. Six cents rouages d'argent. Je n'ai pas six cents rouages. J'ai trois enfants et un emploi de ravaudeuse. Je ne sais même pas si cette dette existe. Je veux qu'on vérifie. »
+postes: Support
+duree: 5
+dangereuse: non
+epreuves: diplomatie 45 (obtenir du prêteur qu'il montre les papiers) ; discretion 43 (vérifier dans les registres du quai ce que le mari devait vraiment)
+complication: La dette existe, mais elle a été contractée pour payer les soins d'un collègue blessé. Le prêteur le sait. Le collègue aussi, et il travaille toujours au quai.
+eclatante: {meneur} retrouve le collègue et lui raconte tout. Il n'en savait rien. Le lendemain, les dockers des Docks du Nord font une collecte sur leur paie, à la pause de midi. Six cent quarante rouages. Le prêteur est payé, et prié de ne plus venir sur le quai. Odette Rimbaud reçoit une lettre signée par quarante dockers. Elle l'a encadrée.
+reussite: La dette est ramenée à la moitié, en contestant les intérêts. Odette Rimbaud rembourse sur deux ans, au mois. Le prêteur vient chercher son argent sans un mot de plus.
+partielle: La dette est confirmée, en entier. Le prêteur accepte d'étaler sur cinq ans. Odette Rimbaud prend un deuxième emploi, de nuit.
+echec: Le prêteur refuse toute discussion et revend la dette à un baron d'en bas. Odette Rimbaud déménage avec ses enfants chez sa mère, à Zaun.
+recompenses: po 50 ; reputation 3 ; objet Charme féerique 12
+
+=== PIL-L-015 | La serre de cristaux
+source: privee
+region: piltover
+palier: locale
+type: chasse
+ton: horreur
+lieu: Forge Talis
+demandeur: Nils Arnaud, chef d'atelier à la Forge Talis, qui a perdu le contrôle de l'aile est
+accroche: « On faisait pousser des cristaux synthétiques dans l'aile est. Contrat avec un clan. Une cuve a fendu pendant la nuit. Ce qui est sorti n'est pas un cristal. Ça bouge. Ça se nourrit du métal et ça grossit. On a fermé les portes, mais elles sont en métal aussi. Les gendarmes ne savent pas. Le clan ne doit pas savoir. »
+postes: Mage, Tank
+duree: 6
+dangereuse: oui
+risque: oui
+epreuves: siege 52 (renforcer les portes de l'aile est avant qu'elles cèdent) ; combat 55 (entrer et détruire la chose avant qu'elle atteigne la fonderie) ; nuee 50 (écraser les éclats qui s'en détachent et cherchent à fuir)
+complication: Un ouvrier est resté coincé dans l'aile, derrière une porte en bois. La chose ne s'intéresse pas au bois. Elle s'intéresse aux outils qu'il porte sur lui.
+eclatante: {meneur} crie à l'ouvrier de lâcher tous ses outils, puis attire la chose vers la cuve de refroidissement avec une barre de fer brûlante. Elle se fige en une masse grise et immobile. L'ouvrier sort en caleçon, sans un bouton métallique, mais vivant. Nils Arnaud fait livrer le bloc à l'Académie, et dénonce le contrat lui-même au Conseil.
+reussite: La chose est détruite, l'ouvrier sauvé avec des brûlures légères. L'aile est est murée. Le clan est remboursé et ne pose pas de questions. Nils Arnaud, lui, en pose beaucoup, à voix basse.
+partielle: La chose est détruite, mais des éclats s'échappent par les conduites. Pendant un mois, les tuyaux de la Forge Talis rouillent en une nuit. On ne sait pas où vont les éclats. On préfère ne pas savoir.
+echec: La chose atteint la fonderie. L'aile entière doit être noyée sous l'eau du canal. La Forge Talis perd trois mois de travail. Le Conseil enquête, et le clan nie tout.
+recompenses: po 360 ; reputation 5 ; objet Cape de négation 16
+
+=== PIL-L-016 | Le prix du sang du pont
+source: privee
+region: piltover
+palier: locale
+type: traque
+ton: politique
+lieu: Pont du Progrès
+demandeur: Erwan Folque, frère d'un gendarme mort dans l'attentat du Pont du Progrès
+accroche: « Mon frère était de garde sur le pont le jour de l'attentat. Ils ont arrêté un gamin de Zaun, il est à Stillwater. Je ne crois pas que ce soit lui. Le gamin avait seize ans et une jambe raide. Le vrai poseur de bombe court toujours, et personne ne veut rouvrir le dossier, parce que c'est pratique, un gamin de Zaun. »
+postes: Éclaireur, Support, Assassin
+duree: 10
+dangereuse: oui
+epreuves: discretion 48 (consulter le dossier de l'enquête aux Archives) ; diplomatie 47 (faire parler les témoins que l'enquête n'a pas interrogés) ; poursuite 50 (remonter jusqu'au poseur)
+complication: Le poseur de bombe a été payé par un Piltovien, membre d'un petit clan, qui voulait faire échouer les pourparlers avec Zaun.
+eclatante: {meneur} rassemble les témoignages, le reçu d'un armurier et une lettre trouvée chez le poseur. Erwan Folque porte le tout à la Gazette, pas aux gendarmes. Le gamin sort de Stillwater après quatre mois. Erwan va l'attendre au tram. Ils ne savent pas quoi se dire, alors ils vont boire un café. Ils en boivent un tous les mois, depuis.
+reussite: Le vrai poseur est identifié et arrêté. Le commanditaire, lui, nie et garde son siège. Le gamin sort de Stillwater. Erwan Folque recommence à dormir.
+partielle: Le dossier est rouvert, mais le poseur a quitté Piltover. Le gamin reste en prison le temps de l'enquête, avec de meilleures chances. Erwan Folque lui écrit.
+echec: Les témoins se rétractent, l'un après l'autre. Le dossier est refermé. Erwan Folque perd son emploi aux Docks, sans qu'on lui dise pourquoi. Il continue de chercher, seul.
+recompenses: po 165 ; reputation 5 ; objet Dague 14
+
+=== PIL-L-017 | Les bains qui débordent
+source: privee
+region: piltover
+palier: locale
+type: defense
+ton: drole
+lieu: Bains de Gold Way
+demandeur: Monsieur Firmin Laroque, directeur des Bains de Gold Way, qui reçoit ce soir le gala annuel des clans
+accroche: « Ce soir, gala annuel. Tous les clans, en tenue de bain de soirée. Ce matin, mon nouveau système de chauffe hextech s'est mis à faire des bulles. Puis des vagues. Puis de petites tempêtes dans le grand bassin. Mon ingénieur a démissionné par lettre, glissée sous ma porte. Il me reste neuf heures. »
+postes: Mage
+duree: 4
+dangereuse: non
+epreuves: siege 44 (trouver le cristal défaillant dans les conduites sous le bassin) ; diplomatie 42 (faire patienter les premiers invités, qui arrivent en avance)
+complication: Le système n'est pas défaillant. Un client renvoyé la semaine dernière a glissé dans la chaudière un cristal synthétique de Ferros, par vengeance.
+eclatante: {meneur} retire le cristal de la chaudière à mains gantées, juste avant que le grand bassin ne déborde sur les invités. Le gala commence avec une demi-heure de retard, que le directeur fait passer pour une « attente musicale ». Les invités trouvent l'eau parfaite. Monsieur Laroque engage la guilde comme « conseillère technique », sur le papier, pour impressionner les clans.
+reussite: Le cristal est trouvé et retiré. Le grand bassin reste un peu agité toute la soirée. On fait passer ça pour un « bain à remous de nouvelle génération ». Trois clans demandent le même.
+partielle: Le bassin principal est fermé, le gala se tient dans les petits bassins, serrés. Monsieur Laroque improvise un discours sur « l'intimité retrouvée ». Personne n'y croit, tout le monde applaudit.
+echec: Le grand bassin déborde sur la terrasse au moment des discours. Le gala se termine en catastrophe, en peignoir. On en rit pendant des mois à Gold Way. Monsieur Laroque, lui, ne rit pas.
+recompenses: po 80 ; reputation 3 ; objet Élixir de sorcellerie 12
+
+=== PIL-L-018 | Le garde-chasse et le braconnier
+source: privee
+region: piltover
+palier: locale
+type: chasse
+ton: tendre
+lieu: Terrains de chasse
+demandeur: Augustin Fève, garde-chasse adjoint des terres des Kiramman, qui doit attraper un braconnier
+accroche: « On braconne dans les Terrains de chasse. Des lapins, une biche. Le régisseur veut que j'attrape le coupable avant la saison, sinon c'est moi qui sors. J'ai suivi les traces. Ce sont des traces d'enfants. Je n'ai pas envie d'attraper un enfant. Mais j'ai envie de garder mon travail. »
+postes: Tireur
+duree: 6
+dangereuse: non
+epreuves: poursuite 44 (suivre les traces dans la forêt privée, sans les effacer) ; diplomatie 42 (parler aux braconniers une fois trouvés)
+complication: Ce sont trois enfants de la Falaise. Leur père est malade, leur mère travaille de nuit. Ils chassent pour manger. Et ils sont très bons.
+eclatante: {meneur} amène les trois enfants au régisseur, avec un panier de lapins proprement préparés, et propose de les embaucher comme rabatteurs pour la saison. Le régisseur hésite, goûte un morceau, et dit oui. Augustin Fève garde son poste et gagne trois apprentis. Le plus jeune tire mieux que lui. Il ne le dit pas au régisseur.
+reussite: Les enfants sont trouvés. Augustin Fève les laisse repartir avec un lièvre, en leur faisant promettre de ne plus revenir. Il rapporte au régisseur que le braconnier « est parti vers le sud ». Il garde son poste, et ses remords.
+partielle: Les enfants sont trouvés et les braconnages cessent, mais le régisseur exige un nom. Augustin Fève donne un faux nom. Il dort mal pendant un moment.
+echec: Les enfants sont pris par les autres gardes avant l'équipe. Ils sont relâchés après une nuit au poste. Augustin Fève donne sa démission le lendemain. Il dit qu'il voulait partir de toute façon.
+recompenses: po 55 ; reputation 3 ; objet Bottes 14
+
+=== PIL-L-019 | La dame de l'horloge
+source: privee
+region: piltover
+palier: locale
+type: enquete
+ton: mystere
+lieu: Tour de l'Horloge
+demandeur: Bérénice Taillandier, nouvelle locataire du logement sous la Tour de l'Horloge
+accroche: « J'ai loué le petit logement sous la Tour de l'Horloge, pas cher, je me suis demandé pourquoi. Maintenant je sais. Toutes les nuits, à trois heures douze, l'horloge s'arrête une minute. Et pendant cette minute, j'entends quelqu'un marcher dans l'escalier, monter, et redescendre. L'escalier est fermé à clé. J'ai la clé. »
+postes: Assassin
+duree: 4
+dangereuse: non
+epreuves: discretion 43 (attendre trois heures douze dans l'escalier) ; poursuite 45 (suivre ce qui monte jusqu'au mécanisme)
+complication: C'est un vieil horloger, mort depuis dix ans, qui vient remonter le mécanisme comme il l'a fait toute sa vie. Il ne sait pas qu'il est mort. L'horloge n'a jamais pris de retard.
+eclatante: {meneur} monte avec lui, et le laisse finir son geste. Puis {meneur} lui dit, simplement, que l'horloge est entre de bonnes mains. Il regarde Bérénice Taillandier, qui a monté l'escalier derrière, et lui tend la clé du mécanisme. Elle la prend. Elle remonte l'horloge elle-même depuis, tous les dimanches. Les pas ont cessé. L'horloge n'a toujours pas une minute de retard.
+reussite: {meneur} parle au vieil horloger, qui disparaît en hochant la tête. L'horloge s'arrête une dernière fois, puis repart. Bérénice Taillandier fait venir un horloger vivant, une fois par mois. Elle dort.
+partielle: Le fantôme s'enfuit en voyant quelqu'un dans l'escalier. Les pas reviennent les nuits suivantes, mais plus vite, comme s'il avait peur. Bérénice Taillandier laisse une lampe allumée en haut. Ça a l'air d'aider.
+echec: Rien ne monte cette nuit-là. Ni la suivante. Puis tout recommence, quand l'équipe est partie. Bérénice Taillandier résilie son bail. Le logement est reloué, encore moins cher.
+recompenses: po 60 ; reputation 2 ; objet Cristal de saphir 10
+
+=== PIL-L-020 | Le chargement des remparts
+source: institution
+region: piltover
+palier: locale
+type: recuperation
+ton: aventure
+lieu: Remparts de la ville
+demandeur: la Chambre des Bannières, pour l'intendance militaire de Piltover
+accroche: « Les vieux canons des remparts ne servent plus, sauf aux cérémonies. On a découvert que leurs réserves de poudre ont été vidées, discrètement, depuis un an. Assez pour faire sauter un quartier. L'intendance veut savoir où elle est passée, et la récupérer avant qu'elle serve. Sans affoler la ville, évidemment. »
+postes: Éclaireur, Combattant
+duree: 9
+dangereuse: oui
+epreuves: discretion 46 (interroger les gardes des remparts sans les mettre sur leurs gardes) ; poursuite 47 (suivre la poudre jusqu'à sa cachette) ; combat 46 (reprendre la cachette à ceux qui la gardent)
+complication: Le voleur est un vieux canonnier à la retraite. Il revend la poudre aux mineurs de la Falaise, qui en manquent depuis que les clans ont fait monter les prix.
+eclatante: {meneur} retrouve la poudre dans une galerie de la Falaise, et le canonnier avec. Il ne se défend pas. L'intendance récupère ce qui reste. {meneur} obtient en échange de son silence que les mineurs aient accès à la poudre de réforme de l'armée, au prix coûtant. Le vieux canonnier est mis à la retraite une deuxième fois, sans procès.
+reussite: La poudre est retrouvée dans une galerie de la Falaise, aux trois quarts. Le canonnier est arrêté. Les mineurs perdent leur fournisseur. Il y aura des grèves à la Falaise cet été.
+partielle: La moitié de la poudre est récupérée. L'autre a déjà servi à creuser des galeries. Le canonnier s'enfuit à Zaun. L'intendance change toutes les serrures des remparts.
+echec: L'équipe arrive trop tard : la cachette est vide. Une explosion dans une mine de la Falaise, le mois suivant, tue deux mineurs. On retrouve dans les débris des sacs marqués du sceau de l'intendance.
+recompenses: po 150 ; reputation 4 ; objet Élixir de fer 12
+
+=== PIL-L-021 | Le dirigeable du mariage
+source: privee
+region: piltover
+palier: locale
+type: livraison
+ton: drole
+lieu: Quai des dirigeables
+demandeur: Hortense de Mallery, mère de la mariée, qui a loué un dirigeable pour le gâteau
+accroche: « Le mariage a lieu à Gold Way, sur une terrasse. Le gâteau fait trois mètres de haut, il vient du meilleur pâtissier de la Nouvelle-Piltover, et il arrive par dirigeable, parce que c'est plus élégant. Le pilote est malade, le remplaçant ne sait pas atterrir, le vent souffle du mauvais côté, et le gâteau est à la crème. »
+postes: Combattant, Tireur
+duree: 5
+dangereuse: non
+epreuves: voyage 44 (faire traverser la ville à un dirigeable chargé, par grand vent) ; siege 42 (descendre le gâteau sur la terrasse avec des cordes, sans le pencher)
+complication: Le gâteau est attendu par quelqu'un d'autre : le frère de la mariée, qui ne veut pas de ce mariage, a payé deux gamins pour le crever au lance-pierre au moment de la descente.
+eclatante: {meneur} repère les deux gamins sur le toit d'en face et leur propose plus d'argent pour tenir les cordes. Le gâteau se pose sur la terrasse comme une plume. La mariée pleure, sa mère aussi, et le frère, qui pensait voir son plan réussir, mange trois parts sans dire un mot. Il prononce un discours à la fin, plutôt joli, apparemment.
+reussite: Le gâteau arrive, avec un étage légèrement penché. Les deux gamins sont chassés avant d'avoir tiré. Hortense de Mallery dit que c'est « artistique ». Elle refuse de payer le pilote remplaçant, qui n'a rien fait.
+partielle: Le gâteau arrive avec deux étages en moins, tombés quelque part au-dessus de Mid Town. Il en reste assez pour tout le monde, à condition de couper fin. Des passants de Mid Town ont mangé de la crème au beurre tombée du ciel.
+echec: Un coup de vent arrache le gâteau des cordes. Il s'écrase dans le Parc de l'Innovation, sur l'étang aux nénuphars. Les canards en parlent encore. Le mariage a lieu quand même, avec des tartes du traiteur d'en face.
+recompenses: po 70 ; reputation 3 ; objet Potion de soin 12
+
+=== PIL-L-022 | Les ouvriers fantômes de la Forge
+source: privee
+region: piltover
+palier: locale
+type: enquete
+ton: politique
+lieu: Forge Talis
+demandeur: Agathe Brune, comptable à la Forge Talis, qui a trouvé un problème dans ses colonnes
+accroche: « La Forge paie quarante-deux ouvriers dans l'atelier sept. J'y suis allée. Il y en a vingt-huit. Les quatorze autres ont des noms, des numéros, des salaires, et pas de visage. Quelqu'un touche quatorze paies par semaine. Si je le dis à la direction, je ne sais pas à qui je le dis. »
+postes: Support, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: discretion 44 (vérifier les registres de paie sans éveiller les soupçons) ; diplomatie 46 (faire parler le contremaître de l'atelier sept)
+complication: Les quatorze paies ne vont pas dans la poche de quelqu'un. Elles servent à payer en secret les soins de quatorze ouvriers zauniens rendus malades par la brume grise, que la Forge refuse de reconnaître.
+eclatante: {meneur} rapporte tout à Agathe Brune, qui passe une nuit à refaire ses comptes. Le lendemain, elle porte à la direction un rapport où les quatorze lignes deviennent « frais médicaux liés aux cristaux synthétiques ». La direction ne peut pas les supprimer sans l'avouer. Elle les garde. Le contremaître envoie des fleurs à la comptabilité, sans signature.
+reussite: Le montage est découvert. Agathe Brune décide de ne rien dire, et ferme les yeux sur quatorze lignes. Elle vérifie juste, tous les mois, que les malades reçoivent bien l'argent.
+partielle: La direction apprend le montage par un autre canal. Les quatorze paies sont supprimées, le contremaître est renvoyé. Les ouvriers de l'atelier sept organisent une collecte. Agathe Brune donne la première pièce.
+echec: Agathe Brune est accusée d'avoir monté le système elle-même et renvoyée. Le contremaître ne dit rien pour la défendre, il a trop peur. Les quatorze paies s'arrêtent le mois suivant.
+recompenses: po 95 ; reputation 4 ; objet Tome d'amplification 12
+
+=== PIL-L-023 | Le dernier pari de Sacha
+source: privee
+region: piltover
+palier: locale
+type: recuperation
+ton: tragique
+lieu: Cimetière
+demandeur: Sacha Lemire, ancien gendarme, qui a perdu quelque chose sur une tombe
+accroche: « Il y a dix ans, j'ai parié avec mon coéquipier sur qui prendrait sa retraite le premier. Il est mort le premier, sur le Pont. Sur sa tombe, j'avais laissé sa montre, celle qu'il avait gagnée au pari d'avant. Elle a disparu. Ce n'est qu'une montre. Je ne dors plus. »
+postes: Healer
+duree: 4
+dangereuse: non
+epreuves: poursuite 41 (trouver qui récupère les objets laissés sur les tombes) ; diplomatie 44 (récupérer la montre auprès de celle ou celui qui l'a)
+complication: La montre a été prise par la fille du coéquipier, qui avait cinq ans à l'enterrement. Elle en a quinze. Elle ne savait pas d'où venait la montre. Elle voulait juste quelque chose de son père.
+eclatante: {meneur} les fait se rencontrer, Sacha et la jeune fille, au cimetière, un dimanche matin. Il lui raconte le pari, et tous les autres, pendant une heure. Elle garde la montre. Il lui en offre une autre, la sienne, pour qu'elle ait les deux. Ils ont rendez-vous tous les ans, à la même date, devant la tombe.
+reussite: La montre est retrouvée. Sacha Lemire apprend qui l'avait prise. Il la lui laisse, et lui écrit une lettre avec l'histoire du pari. Elle répond, trois lignes. Il les relit souvent.
+partielle: La montre est retrouvée chez un prêteur sur gages, vendue la semaine d'avant par une jeune fille. Sacha la rachète. Il ne saura pas qui l'avait prise. Il la remet sur la tombe, attachée cette fois.
+echec: La montre reste introuvable. Sacha Lemire laisse sa propre montre sur la tombe, à la place. Elle disparaît aussi, dans le mois. Il arrête de laisser des choses, et continue de venir.
+recompenses: po 45 ; reputation 2 ; objet Charme féerique 14
+
+=== PIL-L-024 | La brume du canal
+source: privee
+region: piltover
+palier: locale
+type: exploration
+ton: horreur
+lieu: Nouvelle-Piltover
+demandeur: Héloïse Mirande, institutrice de Nouvelle-Piltover, dont l'école donne sur le canal
+accroche: « Depuis une semaine, la brume qui monte du canal le soir est verte. Pas grise, verte. Trois de mes élèves toussent du sang. Les gendarmes disent que c'est l'humidité. Le Conseil dit que Nouvelle-Piltover n'est pas sa priorité. Je ne sais pas d'où elle vient. Je sais que l'école est juste au-dessus. »
+postes: Éclaireur, Mage
+duree: 8
+dangereuse: oui
+epreuves: voyage 46 (remonter le canal jusqu'à l'endroit où la brume se forme) ; discretion 44 (approcher la source sans se faire repérer) ; siege 47 (la fermer, ou au moins la détourner de l'école)
+complication: La source est une canalisation de Zaun, ouverte la nuit par un chimiste du Puisard qui se débarrasse de ses déchets de l'autre côté du canal, chez les riches. Il croit qu'il ne touche que Piltover.
+eclatante: {meneur} ferme la vanne, puis va trouver le chimiste chez lui, dans le Puisard, avec un dessin fait par un des élèves malades : l'école, et la brume verte au-dessus. Le chimiste regarde longtemps le dessin. Il soude lui-même la canalisation le lendemain, et envoie de l'argent pour les soins des trois enfants, sans un mot.
+reussite: La canalisation est trouvée et bouchée. La brume redevient grise, puis disparaît presque. Les trois élèves guérissent lentement. Héloïse Mirande fait signer une pétition au Conseil. Il répond, cette fois.
+partielle: La vanne est fermée, mais le chimiste en ouvre une autre, plus loin, dans le mois. La brume est moins forte au-dessus de l'école. Héloïse Mirande fait cours avec les fenêtres fermées, tout l'été.
+echec: L'équipe ne trouve pas la source et respire assez de brume pour tousser deux semaines. L'école ferme. Les familles de Nouvelle-Piltover qui peuvent partir partent. Les autres restent.
+recompenses: po 130 ; reputation 4 ; objet Élixir de fer 14
+
+=== PIL-L-025 | Le livre de comptes de l'Opéra
+source: privee
+region: piltover
+palier: locale
+type: recuperation
+ton: politique
+lieu: Opéra Medarda
+demandeur: Lucien Vasse, majordome d'une loge privée de l'Opéra Medarda, qui a fait une bêtise
+accroche: « Mon maître, petit marchand, tient un carnet où il note tout ce que ses partenaires lui doivent, ce qu'ils ont fait, ce qu'ils cachent. Je l'ai oublié dans la loge hier soir. Ce matin, il n'y était plus. Si mon maître l'apprend, je suis renvoyé. Si quelqu'un d'autre le lit, beaucoup de gens auront des ennuis. Moi compris. »
+postes: Assassin, Support
+duree: 6
+dangereuse: non
+epreuves: poursuite 44 (retrouver qui est entré dans la loge après la représentation) ; discretion 47 (reprendre le carnet sans que son nouveau propriétaire le sache)
+complication: Le carnet a été trouvé par une ouvreuse, qui l'a lu, et qui a déjà écrit trois lettres de chantage. Elle a besoin d'argent pour quitter Piltover avec son fils.
+eclatante: {meneur} reprend le carnet, et laisse à l'ouvreuse une autre offre que le chantage : Lucien Vasse paie de sa poche un billet pour Demacia et une place dans une maison qu'il connaît. Les trois lettres ne partent jamais. Le maître n'apprend rien. Lucien Vasse, qui n'avait jamais fait un geste pour personne, dit qu'il a trouvé ça étrangement agréable.
+reussite: Le carnet est récupéré avant que les lettres partent. L'ouvreuse est renvoyée de l'Opéra pour une autre raison, sans savoir qu'on savait. Lucien Vasse garde sa place, et le carnet ne quitte plus sa poche intérieure.
+partielle: Le carnet est récupéré, mais une lettre de chantage est déjà partie. Un partenaire du maître se fâche. Personne ne sait d'où vient la fuite. Lucien Vasse transpire beaucoup à chaque dîner.
+echec: Le carnet circule déjà quand l'équipe retrouve sa trace. Trois scandales éclatent à Gold Way dans le mois. Le maître de Lucien Vasse fait faillite. Lucien est renvoyé, et embauché par l'Opéra, comme ouvreur.
+recompenses: po 90 ; reputation 3 ; objet Dague 12

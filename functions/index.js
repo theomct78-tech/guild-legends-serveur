@@ -100,6 +100,7 @@ exports.createGuild = onCall({ region: REGION, memory: '1GiB', timeoutSeconds: 1
   let foundation;
   try { foundation = R.validateFoundation(req.data || {}); }
   catch (e) { throw new HttpsError('invalid-argument', e.message); }
+  if (!W.regionsOuvertes().includes(foundation.region)) throw new HttpsError('invalid-argument', 'Cette région n\'est pas encore ouverte : ses missions sont en cours d\'écriture. Choisis-en une autre.');
   const nomChien = String(req.data?.dog || '').trim().replace(/\s+/g, ' ');
   const chien = /^[\p{L}][\p{L}' -]{0,19}$/u.test(nomChien) ? nomChien[0].toUpperCase() + nomChien.slice(1) : null;
   const maitre = { titre: req.data?.title === 'maîtresse' ? 'maîtresse' : 'maître', billetsDoux: req.data?.flirt !== false };

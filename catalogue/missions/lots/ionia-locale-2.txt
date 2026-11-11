@@ -1,0 +1,506 @@
+# Ionia · palier Locale · lot 2 (missions 026 à 050) · 11 nov. 2026
+# Palier Locale : les affaires d'un village entier, d'un monastère, d'un conseil. La guerre est finie, pas digérée.
+# {meneur} : le héros qui a mené l'épreuve décisive. Aucun accord de genre sur {meneur}.
+
+=== ION-L-026 | Le courrier de Nanthee
+source: privee
+region: ionia
+palier: locale
+type: livraison
+ton: aventure
+lieu: Nanthee
+demandeur: Odalys Brennt, négociante de Piltover installée à Nanthee, qui a un contrat à faire signer avant vendredi
+accroche: « J'ai un contrat de trois ans avec les cultivateurs de thé de Xaolan. Il doit être signé par leur doyenne avant vendredi, sinon mon concurrent prend le marché. La doyenne vit à deux jours de marche, sans route, et elle ne signe qu'en main propre. Mon coursier habituel s'est cassé la jambe. Courez. »
+postes: Éclaireur
+duree: 8
+dangereuse: non
+epreuves: voyage 46 (traverser les collines à thé sans route ni carte fiable) ; poursuite 44 (arriver avant le coursier du concurrent, parti la veille)
+complication: Le coursier du concurrent a payé un passeur pour couler la seule barque du gué.
+eclatante: {meneur} passe le gué à la nage, le contrat entre les dents dans un étui ciré, et arrive chez la doyenne avec une demi-journée d'avance. Elle lit tout, deux fois, fait changer une clause en faveur des cueilleuses, et signe. Odalys Brennt râle sur la clause pendant une semaine. Puis elle admet que c'est un meilleur contrat.
+reussite: Le contrat est signé jeudi soir, à la lampe. Le coursier du concurrent arrive le lendemain matin et repart avec une tasse de thé, par politesse. Odalys Brennt offre une prime, ce qui ne lui ressemble pas.
+partielle: Le contrat est signé, mais avec un jour de retard. La doyenne accepte quand même, en échange d'un meilleur prix. Odalys Brennt y perd un peu. Elle y gagne trois ans de thé.
+echec: Le coursier du concurrent arrive le premier. La doyenne signe avec lui. Odalys Brennt reçoit la nouvelle sans un mot, range ses papiers, et commence à écrire aux cultivateurs de Vlonqo.
+recompenses: po 90 ; reputation 3 ; objet Bottes 16
+
+=== ION-L-027 | Le fauve du domaine
+source: privee
+region: ionia
+palier: locale
+type: chasse
+ton: aventure
+lieu: Hauts de Qaelin
+demandeur: Seigneur Aldo Quenjo, cadet de la maison Quenjo, qui a un problème qu'il préfère ne pas ébruiter
+accroche: « Mon père élevait des fauves pour la chasse. Il est mort, et personne n'a pensé à fermer les cages. Il en reste un, le plus grand, dans les Hauts. Il a tué deux bergers. Les gens croient à un esprit en colère. Je préfère qu'ils continuent de le croire. Réglez ça discrètement, et je saurai m'en souvenir. »
+postes: Tireur
+duree: 9
+dangereuse: oui
+epreuves: poursuite 48 (pister un fauve dressé à ne pas laisser de traces) ; combat 50 (l'affronter sur les hauteurs, où il connaît chaque rocher)
+complication: Le fauve porte encore le collier de la maison Quenjo. Les bergers l'ont vu. Ils savent très bien que ce n'est pas un esprit.
+eclatante: {meneur} abat le fauve, puis rapporte le collier au conseil des bergers, pas au seigneur. Aldo Quenjo doit venir s'expliquer en personne. Il paie le prix du sang aux deux familles, devant tout le monde, et fait démolir les cages de son père. Les bergers disent qu'il a vieilli de dix ans en une journée. En bien.
+reussite: Le fauve est tué. Le collier disparaît dans un ravin, comme demandé. Aldo Quenjo paie rubis sur l'ongle et envoie de l'argent aux familles des bergers, sans dire pourquoi. Elles l'acceptent sans demander.
+partielle: Le fauve est blessé et s'enfuit vers l'autre versant. On ne le revoit plus. Les bergers évitent les Hauts pendant un an. Aldo Quenjo dort mal.
+echec: Le fauve tue un troisième berger pendant la traque. Les bergers montent au domaine avec le collier. La maison Quenjo perd ses pâturages, et beaucoup de son nom.
+recompenses: po 150 ; reputation 4 ; objet Épée longue 14
+
+=== ION-L-028 | Celui qui a vendu Thanze
+source: privee
+region: ionia
+palier: locale
+type: traque
+ton: tragique
+lieu: Temple de Koeshin
+demandeur: Nari Venko, ancienne résistante de Thanze, qui a mis des années à retrouver un nom
+accroche: « Pendant l'invasion, quelqu'un a ouvert la porte sud de Thanze aux Noxiens. Trois cents morts. J'ai mis sept ans à trouver son nom. Il s'est fait moine, il vit caché près du vieux temple de Koeshin. Je ne veux pas qu'on le tue. Je veux qu'il vienne à Thanze, et qu'il le dise devant ceux qui restent. »
+postes: Assassin
+duree: 8
+dangereuse: non
+epreuves: discretion 47 (approcher l'ermitage sans qu'il prenne la fuite) ; diplomatie 48 (le convaincre de revenir à Thanze de son plein gré)
+complication: Il a ouvert la porte parce que les Noxiens tenaient sa fille. Ils l'ont tuée quand même, le lendemain.
+eclatante: {meneur} écoute toute l'histoire, puis lui dit simplement que Nari Venko attend. Il vient. Il parle sur la place de Thanze, une heure, sans se chercher d'excuse. Personne ne lui pardonne. Personne ne lève la main non plus. Nari Venko lui apporte un bol de riz à la fin. Elle dit que ce n'est pas du pardon, que c'est du riz.
+reussite: L'homme accepte d'écrire sa confession, mais pas de venir. La lettre est lue sur la place de Thanze. Nari Venko la garde. Elle dit qu'elle dort un peu mieux, sans être sûre que ce soit lié.
+partielle: Il refuse de venir et refuse d'écrire, mais il ne nie pas. {meneur} rapporte ses mots à Nari Venko, le plus fidèlement possible. Elle écoute jusqu'au bout. Elle ne dit pas ce qu'elle compte faire.
+echec: L'homme s'enfuit pendant la nuit. On retrouve l'ermitage vide, et un jouet d'enfant sur l'autel. Nari Venko reprend ses recherches. Elle a mis sept ans la première fois.
+recompenses: po 95 ; reputation 4 ; objet Cape de négation 10
+
+=== ION-L-029 | Les crabes jaunes de Kashuri
+source: privee
+region: ionia
+palier: locale
+type: defense
+ton: drole
+lieu: Kashuri
+demandeur: Tomo Ireki, patron de l'armurerie du port de Kashuri, envahi
+accroche: « Les crabes jaunes sont remontés du port. Des milliers. Ils adorent le métal chaud, allez savoir pourquoi. Ils sont dans ma forge, dans mes stocks, dans mes bottes. Ce matin, j'en ai trouvé un qui dormait dans un casque. J'ai une commande de deux cents lames à livrer et je ne peux plus poser un pied par terre. »
+postes: Tank, Mage
+duree: 5
+dangereuse: non
+epreuves: nuee 46 (vider la forge et les entrepôts de leurs occupants) ; siege 42 (fermer le passage par où ils remontent du port)
+complication: Les crabes ne sont pas attirés par le métal, mais par le sel que Tomo Ireki utilise pour la trempe. Il en a acheté dix sacs le mois dernier.
+eclatante: {meneur} fait porter les sacs de sel au bout de la jetée. Les crabes suivent, en file, pendant toute une matinée, sous les yeux de tout le port. Tomo Ireki livre ses deux cents lames à temps. Les pêcheurs lui proposent de recommencer chaque année, pour la fête : c'est la meilleure pêche au crabe qu'ils aient jamais faite.
+reussite: La forge est vidée et le passage fermé. Il reste quelques crabes dans les recoins, qu'on retrouvera pendant des semaines. Tomo Ireki livre sa commande avec deux jours de retard, et un crabe oublié dans une caisse.
+partielle: Les crabes sont chassés de la forge, mais ils s'installent dans la rue. Les voisins se plaignent. Tomo Ireki travaille la porte fermée, et paie une tournée générale pour calmer tout le monde.
+echec: Les crabes reviennent plus nombreux le lendemain. Tomo Ireki déménage sa forge sur les hauteurs, à ses frais. La commande part avec un mois de retard. Il ne mange plus de crabe.
+recompenses: po 80 ; reputation 3 ; objet Lame de Doran 10
+
+=== ION-L-030 | Le jardin qui prend
+source: privee
+region: ionia
+palier: locale
+type: sauvetage
+ton: mystere
+lieu: Jardin de l'Oubli
+demandeur: Teya Lun, apprentie herboriste, dont le maître est entré dans le Jardin de l'Oubli il y a neuf jours
+accroche: « Mon maître est entré dans le Jardin pour cueillir une fleur qui ne pousse que là. Il m'a dit : "Si je ne suis pas sorti à la nuit, ne viens pas." Ça fait neuf jours. Je sais ce qu'on dit du Jardin : on y oublie pourquoi on est venu, puis qui on est. Je n'irai pas. Mais je ne peux pas non plus ne rien faire. »
+postes: Mage, Support
+duree: 7
+dangereuse: oui
+epreuves: voyage 47 (avancer dans le Jardin sans perdre le fil de ce qu'on est venu faire) ; diplomatie 49 (obtenir de la Jardinière qu'elle laisse repartir le vieil homme)
+complication: Le maître n'est pas prisonnier. Il a oublié sa femme, morte l'an dernier, et pour la première fois depuis un an, il ne souffre plus. Il ne veut pas sortir.
+eclatante: {meneur} ne le force pas. On lui remet un objet que Teya avait glissé dans le sac : le peigne de sa femme. Il le regarde longtemps. Puis il pleure, se lève, et sort par ses propres moyens. La Jardinière le laisse passer et lui donne la fleur. Dehors, il dit à Teya qu'il préfère se souvenir, même comme ça.
+reussite: Le maître est ramené à la lisière, hagard, sans savoir son nom. Il le retrouve en trois jours, avec l'aide de Teya. La fleur est restée dans le Jardin. Il ne la redemande pas.
+partielle: La Jardinière accepte de le laisser sortir une fois par saison, pour voir son apprentie. C'est lui qui choisit de rentrer chaque soir. Teya tient la boutique seule. Elle se débrouille.
+echec: L'équipe perd le fil au milieu du Jardin et ressort sans savoir ce qu'elle était venue chercher. Teya le leur rappelle, à la lisière. Il est trop tard pour y retourner : le Jardin a déplacé ses chemins.
+recompenses: po 135 ; reputation 4 ; objet Tome d'amplification 14
+
+=== ION-L-031 | Le sable qui chante
+source: institution
+region: ionia
+palier: locale
+type: exploration
+ton: aventure
+lieu: Mer de Ghetu
+demandeur: la Chambre des Bannières, pour le conseil de Galrin
+accroche: « Une caravane de sel a disparu dans la mer de Ghetu il y a un mois. Douze personnes, vingt bêtes. Le conseil de Galrin veut savoir ce qui leur est arrivé, et surtout si la piste est encore sûre. Les caravaniers refusent de repartir tant que personne n'est allé voir. »
+postes: Éclaireur, Tank
+duree: 12
+dangereuse: oui
+risque: oui
+epreuves: voyage 54 (traverser le désert jusqu'au dernier puits connu de la caravane) ; poursuite 50 (suivre ce qui reste de traces dans les dunes) ; combat 52 (affronter ce qui garde le puits)
+complication: La caravane n'a pas été attaquée. Elle a trouvé une cité sous le sable, et ses membres se disputent ce qu'il y a dedans, à l'arme blanche.
+eclatante: {meneur} arrive au milieu de la dispute et met tout le monde d'accord : ce qui est sous le sable appartient au conseil de Galrin, et chacun rentre vivant avec sa part de sel. Neuf survivants sur douze retrouvent leurs familles. Les sages du Placidium envoient des gens étudier la cité. La piste rouvre, avec un puits de plus.
+reussite: Les survivants sont retrouvés et ramenés. La cité est signalée au conseil. Deux caravaniers refusent de quitter les ruines. On les laisse, avec de l'eau pour un mois.
+partielle: L'équipe retrouve le campement et quatre survivants, à moitié fous de soif. Les autres se sont enfoncés dans les ruines. Le conseil de Galrin ferme la piste jusqu'à nouvel ordre.
+echec: Une tempête de sable efface la piste. L'équipe rentre de justesse, sans avoir rien trouvé. La caravane est déclarée perdue. Les familles font les rites sans les corps.
+recompenses: po 340 ; reputation 6 ; objet Ceinture du géant 14
+
+=== ION-L-032 | Les baies noires de Raikkon
+source: privee
+region: ionia
+palier: locale
+type: livraison
+ton: mystere
+lieu: Raikkon
+demandeur: Ilao Fen, cueilleuse de baies à encre de Raikkon, qui a reçu une commande étrange
+accroche: « On m'a commandé cent pots d'encre noire. Payés d'avance, en or, par quelqu'un que je n'ai jamais vu. La livraison se fait de nuit, sur une plage, à la lune noire. Je ne suis pas idiote, je sais que ça sent mauvais. Mais c'est un an de revenus. Livrez pour moi, et dites-moi à qui je vends. »
+postes: Assassin
+duree: 6
+dangereuse: non
+epreuves: voyage 41 (porter cent pots d'encre jusqu'à la plage sans en casser un) ; discretion 46 (voir qui vient chercher la marchandise sans être vu)
+complication: Les acheteurs sont des Kinkou. Ils veulent tatouer les noms de leurs morts sur les murs du temple perdu, en secret, pour que l'Ordre de l'ombre ne l'apprenne pas.
+eclatante: {meneur} livre, observe, comprend, et ne dit rien à personne d'autre qu'à Ilao Fen. Elle écoute, hoche la tête, et prépare vingt pots de plus, offerts. Les Kinkou laissent sur la plage, au matin, une pierre gravée à son nom. Elle la pose devant sa porte. Personne à Raikkon ne sait ce que ça veut dire.
+reussite: La livraison se passe bien. {meneur} ne voit que des silhouettes masquées, polies, qui paient le solde sans discuter. Ilao Fen garde l'or et ses questions. Les commandes reviennent, tous les ans, à la lune noire.
+partielle: Dix pots sont cassés sur le chemin. Les acheteurs prennent le reste et retiennent la différence. Ilao Fen s'en sort avec un bénéfice moyen et aucune réponse.
+echec: L'équipe se fait repérer sur la plage. Les acheteurs disparaissent sans prendre l'encre. Ilao Fen doit rembourser l'avance, et se retrouve avec cent pots d'encre noire sur les bras.
+recompenses: po 75 ; reputation 3 ; objet Dague 12
+
+=== ION-L-033 | La bête des rizières
+source: privee
+region: ionia
+palier: locale
+type: chasse
+ton: drole
+lieu: Fermes d'Azur
+demandeur: Jo Hakuri, éleveur de worax des Fermes d'Azur, ridiculisé par son propre troupeau
+accroche: « Mon plus gros worax s'appelle Douceur. Douceur pèse une tonne. Douceur a cassé la clôture, traversé trois rizières, renversé le chariot du percepteur et s'est installée dans le bassin du temple, où elle mange les nénuphars sacrés. Les moines sont très patients. Ça ne va pas durer. »
+postes: Tank
+duree: 4
+dangereuse: non
+epreuves: poursuite 42 (rattraper Douceur quand elle quitte le bassin au galop) ; siege 45 (la faire monter dans un enclos, contre son avis)
+complication: Douceur n'est pas en colère : elle va mettre bas. Elle cherchait de l'eau calme.
+eclatante: {meneur} comprend en la voyant tourner en rond, et fait dégager le bassin au lieu de l'en sortir. Le petit naît au milieu des nénuphars, devant les moines, qui déclarent la naissance de bon augure. Jo Hakuri offre le petit worax au temple. Les moines l'appellent Nénuphar. Il pèsera une tonne aussi.
+reussite: Douceur est ramenée à la ferme, avec beaucoup de cordes et de carottes. Elle met bas dans la nuit. Jo Hakuri replante les nénuphars lui-même, à genoux, pendant trois jours.
+partielle: Douceur finit par rentrer seule, quand elle a fini les nénuphars. Les moines demandent un dédommagement. Jo Hakuri paie en lait de worax pendant un an.
+echec: Douceur charge, et tout le monde finit dans le bassin. Elle s'en va vers les collines, où elle met bas tranquillement, loin de tous ces gens. Jo Hakuri la retrouve une semaine plus tard, très contente d'elle.
+recompenses: po 60 ; reputation 2 ; objet Ceinture du géant 8
+
+=== ION-L-034 | Les Kinkou de Xuanain
+source: privee
+region: ionia
+palier: locale
+type: protection
+ton: politique
+lieu: Temple de Xuanain
+demandeur: Maîtresse Ren'ji, doyenne des Kinkou réfugiés au temple de Xuanain
+accroche: « Nous sommes trente au temple, dont dix enfants. Nous ne nous battons pas, c'est notre voie. L'Ordre de l'ombre nous a laissé un message : rejoindre, ou partir avant la pleine lune. Nous ne ferons ni l'un ni l'autre. Je ne vous demande pas de tuer pour nous. Je vous demande de faire en sorte que personne n'ait à mourir. »
+postes: Tank, Support, Éclaireur
+duree: 11
+dangereuse: oui
+risque: oui
+epreuves: discretion 50 (repérer par où l'Ordre compte entrer, la nuit de la pleine lune) ; diplomatie 55 (parler à celui qui mène les ombres, avant le premier coup) ; combat 53 (tenir la porte, si les mots ne suffisent pas)
+complication: Celui qui mène l'assaut est un ancien élève de Maîtresse Ren'ji. Il n'est pas venu pour le temple. Il est venu pour qu'elle le regarde en face.
+eclatante: {meneur} obtient que le chef des ombres entre seul, sans arme. Maîtresse Ren'ji le reçoit comme un élève qui rentre tard. Ils parlent jusqu'à l'aube. Il repart avec ses hommes, sans un mot. Il ne revient pas. Deux de ses ombres, en revanche, frappent à la porte du temple un mois plus tard, pour rester.
+reussite: L'assaut est repoussé sans mort, d'un côté comme de l'autre. L'Ordre se retire à l'aube. Maîtresse Ren'ji fait soigner les blessés des deux camps dans la même salle. Certains ne savent pas quoi en penser.
+partielle: Le temple tient, mais une aile brûle. Les Kinkou décident de partir quand même, plus loin dans la montagne, pour les enfants. Ils emportent les rouleaux et laissent les murs.
+echec: L'Ordre entre. Les Kinkou ne se battent pas. Ils sont chassés du temple au matin, avec ce qu'ils peuvent porter. Trois jeunes restent, de leur plein gré, du côté de l'ombre.
+recompenses: po 380 ; reputation 6 ; objet Bouclier de Doran 16
+
+=== ION-L-035 | Le déserteur et le filet
+source: privee
+region: ionia
+palier: locale
+type: traque
+ton: tendre
+lieu: Tevasa
+demandeur: Ma Suli, doyenne des pêcheuses de Tevasa, à qui il manque des poissons et une explication
+accroche: « Quelqu'un relève nos filets la nuit. Il ne prend pas tout, juste de quoi manger. Et il recoud les mailles déchirées avant de partir, mieux que nous. Ça dure depuis un mois. Les jeunes veulent lui tendre un piège avec des gourdins. Moi, quelqu'un qui recoud les filets, j'aimerais d'abord lui parler. »
+postes: Éclaireur
+duree: 5
+dangereuse: non
+epreuves: discretion 44 (guetter les filets une nuit entière sans se faire voir) ; poursuite 43 (suivre le voleur jusqu'à sa cachette dans les rochers)
+complication: C'est un déserteur noxien, à peine vingt ans, fils de pêcheur. Il se cache dans une grotte depuis la fin de la guerre. Il a trop peur pour se montrer et trop faim pour partir.
+eclatante: {meneur} ramène le garçon au village en plein jour, les mains vides, et laisse Ma Suli décider. Elle le regarde, regarde ses mains, et lui tend une aiguille à filet. Il travaille sur la plage depuis. Les jeunes aux gourdins ont mis un an à lui adresser la parole. Maintenant, ils lui demandent conseil pour les nœuds.
+reussite: Le garçon est trouvé. Ma Suli lui fait porter à manger tous les jours, dans la grotte, en attendant que le village se fasse à l'idée. Ça prend un hiver. Il sort au printemps.
+partielle: Le garçon s'enfuit quand il se sait repéré. Il laisse dans la grotte un filet neuf, entièrement fait à la main. Ma Suli l'accroche dans la maison commune.
+echec: Les jeunes du village suivent l'équipe et trouvent la grotte les premiers. Le garçon s'en tire avec des côtes cassées et prend la mer sur une barque volée. Ma Suli ne décolère pas pendant des semaines. Contre les siens.
+recompenses: po 55 ; reputation 3 ; objet Potion de soin 14
+
+=== ION-L-036 | Ce qui dort sous Olgathee
+source: institution
+region: ionia
+palier: locale
+type: defense
+ton: horreur
+lieu: Forêt d'Olgathee
+demandeur: la Chambre des Bannières, pour les gardiens du sceau d'Olgathee
+accroche: « Un démon a été banni dans la forêt d'Olgathee, il y a longtemps. Le sceau est une pierre, entretenue par une famille de gardiens. Le dernier gardien est mort cet hiver, sans héritier. Il faut refaire le rituel avant la nouvelle lune, et quelqu'un doit tenir le cercle pendant que les moines récitent. La nuit sera longue. »
+postes: Mage, Tank
+duree: 9
+dangereuse: oui
+epreuves: voyage 44 (atteindre la pierre du sceau, au cœur de la forêt) ; nuee 49 (repousser ce qui sort de la terre pendant le rituel) ; siege 47 (tenir le cercle jusqu'à l'aube, sans le rompre)
+complication: Le démon parle. Il propose à chacun, à voix basse, la seule chose qui lui manque vraiment.
+eclatante: {meneur} tient le cercle toute la nuit et ne répond à rien de ce qu'on lui murmure. À l'aube, le sceau est refermé. L'une des moines, une novice, demande à rester comme gardienne. Elle dit qu'elle a entendu ce que le démon lui proposait, et qu'elle préfère savoir où il est.
+reussite: Le rituel va au bout. Le sceau tient. Chacun rentre avec ce que la voix lui a dit, et personne n'en parle sur le chemin du retour. Les moines de Shojin envoient un gardien pour l'année.
+partielle: Le sceau est refermé, mais mal. Il faudra recommencer à chaque nouvelle lune. Les moines s'organisent en tours de garde. La forêt d'Olgathee n'est plus un endroit où l'on cueille des champignons.
+echec: Le cercle se rompt avant l'aube. Les moines sauvent le sceau de justesse, au prix d'un des leurs, qui ne parle plus depuis. La forêt est interdite sur une demi-journée de marche autour de la pierre.
+recompenses: po 170 ; reputation 5 ; objet Cape de négation 14
+
+=== ION-L-037 | Le guérisseur de Shojin
+source: privee
+region: ionia
+palier: locale
+type: livraison
+ton: tragique
+lieu: Wuju
+demandeur: Frère Aneko, guérisseur du monastère de Shojin, qui soigne les derniers survivants de Wuju
+accroche: « Il reste onze survivants de Wuju, dans des cabanes au bord de la zone. Leurs poumons sont brûlés, ils ne peuvent pas faire le voyage jusqu'à nous. Je leur prépare un remède qui ne les guérit pas, mais qui leur permet de respirer. Il ne se conserve que quatre jours. Le dernier porteur a mis six jours. »
+postes: Healer
+duree: 6
+dangereuse: non
+epreuves: voyage 47 (porter le remède de Shojin à Wuju en moins de quatre jours) ; diplomatie 42 (convaincre les plus méfiants de le prendre)
+complication: L'un des onze est un ancien soldat noxien, brûlé par ses propres bombes. Les dix autres ne savent pas qui il est.
+eclatante: {meneur} arrive le troisième jour et administre le remède aux onze, sans faire de différence. Le Noxien avoue de lui-même, le soir, aux autres. Il y a un très long silence. Puis la plus vieille des survivantes dit qu'il tousse comme eux. Il reste. Frère Aneko dit que c'est le meilleur remède qu'il ait vu agir.
+reussite: Le remède arrive à temps. Les onze respirent mieux pendant un mois. Frère Aneko demande si la guilde peut refaire le trajet, régulièrement. Il n'a pas grand-chose pour payer. Il a du thé.
+partielle: Le remède arrive le quatrième jour au soir, déjà un peu passé. Il soulage, sans plus. Deux des onze passent une mauvaise semaine. Frère Aneko cherche une recette qui tienne plus longtemps.
+echec: Le remède arrive le sixième jour, tourné. Il faut tout jeter. L'un des onze ne passe pas le mois. Frère Aneko refait une préparation la nuit même, et la porte lui-même, à pied.
+recompenses: po 70 ; reputation 4 ; objet Potion rechargeable 12
+
+=== ION-L-038 | L'arène cachée de Weh'le
+source: privee
+region: ionia
+palier: locale
+type: enquete
+ton: aventure
+lieu: Weh'le
+demandeur: Dorje Ama, mère d'un lutteur de Weh'le, qui n'a plus de nouvelles depuis trois semaines
+accroche: « Mon fils lutte pour de l'argent, je le sais, je n'aime pas ça mais c'est un bon garçon. On lui a proposé un combat "privé", très bien payé. Il est parti il y a trois semaines. À Weh'le, personne ne sait rien, tout le monde baisse les yeux. Quand tout Weh'le baisse les yeux, c'est que c'est grave. »
+postes: Combattant, Éclaireur
+duree: 9
+dangereuse: oui
+epreuves: discretion 46 (trouver où se tiennent les combats privés) ; combat 50 (y entrer de la seule façon possible : en s'inscrivant) ; poursuite 45 (sortir avec le fils avant que les parieurs comprennent)
+complication: Le fils n'est pas retenu de force. Il gagne, il aime ça, et il doit beaucoup d'argent à ceux qui organisent.
+eclatante: {meneur} gagne trois combats, mise tout sur le quatrième, et rachète la dette du fils avec les gains, sous les yeux des organisateurs. Le garçon sort par la grande porte. Il rentre chez sa mère avec un œil au beurre noir et l'air d'avoir compris quelque chose. Il ouvre une école de lutte pour les gamins du port. Sans paris.
+reussite: Le fils est sorti de l'arène, de nuit, par les égouts. Les organisateurs gardent sa dette en mémoire. Il quitte Weh'le avec sa mère pour s'installer à Nanthee. Elle dit que l'air y est meilleur.
+partielle: Le fils refuse de partir. Il promet de rentrer « après le prochain combat ». {meneur} rapporte à Dorje Ama où il est, et qu'il est vivant. Elle y va elle-même, le lendemain.
+echec: L'équipe est reconnue dans l'arène et doit se battre pour ressortir. Les combats déménagent la nuit même. Dorje Ama reçoit de l'argent tous les mois, sans lettre. C'est tout ce qu'elle sait de lui.
+recompenses: po 145 ; reputation 4 ; objet Élixir de rage 12
+
+=== ION-L-039 | Le dernier vol du Sage
+source: privee
+region: ionia
+palier: locale
+type: exploration
+ton: tendre
+lieu: Hauts de Qaelin
+demandeur: Opa Dessa, vieille guide de montagne des Hauts de Qaelin, qui n'a plus les jambes
+accroche: « Le Sage des zéphyrs guide les voyageurs dans nos montagnes depuis toujours. C'est un grand oiseau, un esprit, je l'ai suivi cent fois. Cette année, il ne vole plus. On le voit posé, toujours sur le même pic. Je crois qu'il est vieux, lui aussi. Je voudrais que quelqu'un monte voir. Et lui dise merci, si c'est ça. »
+postes: Support, Éclaireur
+duree: 10
+dangereuse: non
+epreuves: voyage 48 (monter jusqu'au pic où le Sage s'est posé) ; diplomatie 44 (approcher un esprit qui ne veut plus être vu)
+complication: Le Sage n'est pas mourant. Il couve. Il n'y a jamais eu qu'un seul Sage des zéphyrs, et il y en aura bientôt deux.
+eclatante: {meneur} reste trois jours sur le pic, à distance, à tenir compagnie. Le troisième matin, l'œuf éclot. Le petit fait son premier vol au-dessus de la vallée, de travers, et le vieux Sage le suit. Opa Dessa les voit passer depuis son banc. Elle dit qu'elle peut arrêter de s'inquiéter pour les voyageurs.
+reussite: {meneur} monte, voit le nid, comprend, et redescend sans déranger. Opa Dessa rit pendant une bonne minute en apprenant la nouvelle. Elle fait fermer le sentier du pic jusqu'à l'été.
+partielle: L'équipe arrive près du pic, mais le Sage s'agite et il faut reculer. On ne sait pas ce qu'il protège. Opa Dessa envoie ses petits-enfants déposer des offrandes au pied du sentier.
+echec: Une chute de pierres coupe le sentier à mi-hauteur. L'équipe redescend sans avoir rien vu. Le Sage ne guide personne cette saison. Deux voyageurs se perdent dans les Hauts. On les retrouve, à temps.
+recompenses: po 85 ; reputation 3 ; objet Cristal de saphir 12
+
+=== ION-L-040 | Le temple qu'on ne rend pas
+source: institution
+region: ionia
+palier: locale
+type: recuperation
+ton: politique
+lieu: Temple de Thanjuul
+demandeur: la Chambre des Bannières, pour le conseil des anciens de Navori
+accroche: « Le temple de Thanjuul est tenu par l'Ordre de l'ombre. Soit. Mais il contient les rouleaux de généalogie de quarante villages, et l'Ordre refuse de les rendre. Sans eux, impossible de régler les héritages des morts de la guerre. Le conseil a demandé poliment trois fois. Il demande maintenant qu'on aille les chercher. »
+postes: Assassin, Éclaireur
+duree: 8
+dangereuse: oui
+epreuves: discretion 50 (entrer dans un temple gardé par des gens dont c'est le métier) ; discretion 48 (trouver les rouleaux dans la salle des archives) ; poursuite 47 (ressortir avec quarante rouleaux sur le dos)
+complication: L'Ordre ne garde pas les rouleaux par méchanceté. Il s'en sert pour retrouver les orphelins de guerre, et les recruter.
+eclatante: {meneur} sort avec les quarante rouleaux et laisse à leur place une copie de la liste des orphelins, adressée au conseil. Les anciens de Navori envoient quelqu'un dans chaque village avant l'Ordre. Les héritages sont réglés au printemps. L'Ordre ne dit rien. C'est mauvais signe, ou bon signe, personne ne sait.
+reussite: Les rouleaux sont rapportés au conseil, au complet. L'Ordre proteste par lettre, très sèchement. Les héritages commencent à se régler. Certains attendaient depuis dix ans.
+partielle: La moitié des rouleaux est rapportée. Le reste est resté au temple, mieux gardé qu'avant. Vingt villages règlent leurs successions. Les vingt autres attendront.
+echec: L'équipe est repérée dans la salle des archives et ressort les mains vides, de justesse. L'Ordre déplace les rouleaux dans un autre temple. Le conseil renvoie une quatrième lettre, toujours polie.
+recompenses: po 160 ; reputation 5 ; objet Dague 14
+
+=== ION-L-041 | Le pêcheur d'esprits
+source: privee
+region: ionia
+palier: locale
+type: traque
+ton: mystere
+lieu: Lac des Lys lumineux
+demandeur: Hisa Maren, prêtresse du petit sanctuaire du lac des Lys lumineux
+accroche: « Les esprits du lac disparaissent. Les petits, ceux qui ressemblent à des lucioles. Il y en avait des centaines. Hier soir, j'en ai compté douze. J'ai trouvé au bord de l'eau une nasse en verre, vide, avec un bouchon de cire. Quelqu'un les pêche. Je ne savais même pas que c'était possible. »
+postes: Tireur
+duree: 6
+dangereuse: non
+epreuves: discretion 45 (guetter le pêcheur depuis les roseaux, à la tombée de la nuit) ; poursuite 46 (le suivre jusqu'à l'endroit où il garde ses prises)
+complication: Le pêcheur est un lampiste de Piltover. Il enferme les esprits dans des lanternes et les vend à Nanthee comme « lumière éternelle ». Il ne sait pas qu'ils sont vivants.
+eclatante: {meneur} amène le lampiste au sanctuaire avec sa caisse de lanternes, et le laisse en ouvrir une lui-même, devant la prêtresse. L'esprit se pose sur sa main avant de repartir vers le lac. Il ouvre les autres sans qu'on lui dise rien, en s'excusant à chacune. Il reste une semaine à réparer le ponton du sanctuaire.
+reussite: Le lampiste est pris, les lanternes sont ouvertes au bord de l'eau. Presque tous les esprits reviennent. Hisa Maren fait afficher un avis à Nanthee, en trois langues, avec un dessin.
+partielle: Les lanternes trouvées chez le lampiste sont ouvertes, mais il en a déjà vendu une trentaine. Hisa Maren passe l'hiver à faire le tour des maisons de Nanthee pour les racheter une par une.
+echec: Le lampiste repart pour Piltover avec sa cargaison. Le lac reste sombre, à quelques lueurs près. Hisa Maren écrit à l'académie de Piltover. Elle attend la réponse.
+recompenses: po 65 ; reputation 3 ; objet Charme féerique 14
+
+=== ION-L-042 | La relève de Raishai
+source: privee
+region: ionia
+palier: locale
+type: diplomatie
+ton: tendre
+lieu: Temple de Raishai
+demandeur: Grand-mère Uteo, dernière gardienne du temple de Raishai, qui cherche quelqu'un à qui laisser les clés
+accroche: « J'ai quatre-vingt-onze ans et je garde ce temple depuis soixante. Il me faut une relève. J'ai deux candidats : mon petit-neveu, qui veut en faire une auberge, et une jeune femme de Kashuri qui a tué des Noxiens pendant la guerre et qui veut apprendre à ne plus le faire. Le village a son avis. Moi, je n'arrive pas à me décider. »
+postes: Support
+duree: 5
+dangereuse: non
+epreuves: diplomatie 45 (écouter les deux candidats, et ce qu'ils ne disent pas) ; diplomatie 43 (faire accepter le choix au village)
+complication: Le petit-neveu ne veut pas d'une auberge pour l'argent. Il veut que le temple reste ouvert, et il ne voit pas d'autre moyen de payer le toit.
+eclatante: {meneur} les fait parler ensemble, pour la première fois. Il s'avère qu'ils veulent la même chose. La jeune femme prend les clés, le petit-neveu tient une maison de thé dans l'ancienne grange, et le toit est refait avant l'hiver. Grand-mère Uteo s'installe sur le banc de l'entrée. Elle surveille. Elle dit que c'est la retraite.
+reussite: Grand-mère Uteo choisit la jeune femme, avec l'avis de {meneur}. Le village grogne un mois, puis s'habitue. Le petit-neveu boude, puis revient réparer une gouttière.
+partielle: Grand-mère Uteo ne choisit pas. Elle garde les clés un an de plus et met les deux candidats à l'essai, un mois chacun. Elle dit que ça la maintient en vie.
+echec: Les deux candidats se disputent devant le village, et chacun repart de son côté. Grand-mère Uteo garde le temple seule. Elle balaie la cour tous les matins, un peu plus lentement.
+recompenses: po 50 ; reputation 3 ; objet Tome d'amplification 10
+
+=== ION-L-043 | Les mines oubliées de la plage
+source: institution
+region: ionia
+palier: locale
+type: defense
+ton: tragique
+lieu: Fae'lor
+demandeur: la Chambre des Bannières, pour les pêcheurs de Fae'lor
+accroche: « Avant de partir, les Noxiens ont enterré des charges sur la plage nord de Fae'lor, pour couvrir leur retraite. Personne n'a de plan. Un enfant en a trouvé une la semaine dernière. Les pêcheurs veulent récupérer leur plage. Il faut trouver les charges une par une, et les sortir sans les faire parler. »
+postes: Éclaireur, Tank
+duree: 10
+dangereuse: oui
+epreuves: discretion 47 (repérer les charges sous le sable, au toucher) ; siege 49 (les désamorcer une par une, sur toute la longueur de la plage)
+complication: L'un des déserteurs restés au fort a posé ces charges lui-même. Il sait où elles sont. Il a peur de ce qu'on lui fera s'il le dit.
+eclatante: {meneur} va trouver le déserteur et obtient qu'il vienne montrer chaque emplacement. Il le fait à genoux, dans le sable, pendant deux jours, sous les yeux des pêcheurs. Soixante-trois charges. À la fin, le père de l'enfant lui apporte de l'eau. Ce n'est pas grand-chose. Les deux hommes savent que ce n'est pas rien.
+reussite: La plage est nettoyée, charge après charge, sans accident. Les pêcheurs remettent leurs barques à l'eau la semaine suivante. Les enfants ont encore l'interdiction d'y jouer, le temps d'être sûrs.
+partielle: La moitié de la plage est sûre, l'autre est balisée avec des piquets rouges. Les pêcheurs reprennent le travail d'un côté. Il faudra revenir.
+echec: Une charge explose pendant le travail. L'équipe s'en tire avec des brûlures et des oreilles qui sifflent. La plage reste fermée. Les pêcheurs partent s'installer sur la côte sud, où le poisson est plus rare.
+recompenses: po 165 ; reputation 5 ; objet Armure de tissu 14
+
+=== ION-L-044 | Le marché aux fleurs de Vlonqo
+source: privee
+region: ionia
+palier: locale
+type: escorte
+ton: aventure
+lieu: Vlonqo
+demandeur: Sio Penha, doyenne des fleuristes de Vlonqo, qui descend la récolte de l'année
+accroche: « Les fleurs de Vlonqo se vendent une fois par an, à Puboe, pour la Floraison. Toute la vallée vit de ce marché. Il faut descendre quarante hottes par le sentier, en deux jours, et arriver avant que les pétales tournent. L'an dernier, on a perdu un tiers de la récolte dans un éboulement. Cette année, je veux des bras et des yeux. »
+postes: Combattant, Éclaireur
+duree: 10
+dangereuse: non
+epreuves: voyage 47 (descendre quarante hottes par le sentier de montagne) ; siege 44 (dégager l'éboulement qui barre le passage du milieu)
+complication: L'éboulement n'était pas un accident. Un marchand de Puboe veut que les fleurs arrivent en retard, pour les racheter à moitié prix.
+eclatante: {meneur} repère la corde qui retient les rochers avant qu'elle soit coupée, et fait passer tout le monde par le haut. Les quarante hottes arrivent à Puboe fraîches comme le matin. Sio Penha vend tout en une journée. Le marchand, lui, découvre que plus personne à Vlonqo ne lui adresse la parole. Dans une vallée, ça compte.
+reussite: Les fleurs arrivent, avec quelques hottes abîmées. La vente est bonne. Sio Penha fait marquer le sentier pour l'an prochain, et laisse un bouquet à l'endroit de l'éboulement.
+partielle: Un tiers des fleurs arrive trop tard et se vend au rabais. La vallée passera l'année, sans plus. Sio Penha parle de tailler un deuxième sentier.
+echec: L'éboulement emporte dix hottes et coupe le sentier. Le reste de la récolte fane avant d'arriver. Vlonqo doit emprunter pour passer l'hiver. Le marchand de Puboe est le seul à prêter.
+recompenses: po 110 ; reputation 4 ; objet Pioche 10
+
+=== ION-L-045 | Les ombres sur le mur
+source: privee
+region: ionia
+palier: locale
+type: chasse
+ton: horreur
+lieu: Thonx
+demandeur: Reku Oba, batelier des cavernes de Thonx, qui a perdu deux collègues
+accroche: « On fait passer les marchandises par les cavernes, en barque, depuis toujours. Depuis la crue, il y a quelque chose dans la troisième galerie. On voit son ombre sur le mur avant de le voir, lui. Deux bateliers sont entrés. On a retrouvé les barques, rangées, propres, vides. Je ne veux pas savoir ce que c'est. Je veux que ça n'y soit plus. »
+postes: DPS
+duree: 6
+dangereuse: oui
+epreuves: discretion 47 (remonter la troisième galerie sans lampe) ; combat 51 (affronter la chose, dans l'eau jusqu'à la taille)
+complication: La chose est un claqueur écailleux, énorme, aveugle, entré avec la crue. Il n'a rien mangé d'autre que les bateliers. Il ne peut plus ressortir : le passage s'est refermé derrière lui.
+eclatante: {meneur} le trouve, comprend qu'il est coincé, et choisit quand même de finir le travail : une bête aveugle et affamée dans une galerie fréquentée, ça ne se raisonne pas. C'est rapide. Les bateliers de Thonx retrouvent les deux corps au fond de la galerie et leur rendent les rites. La troisième galerie rouvre. On y allume une lampe en plus, à l'entrée.
+reussite: La bête est tuée, après un combat que {meneur} ne raconte pas en détail. Les bateliers reprennent le passage, à deux barques au lieu d'une. Reku Oba fait graver deux noms à l'entrée de la galerie.
+partielle: La bête est blessée et s'enfonce plus loin dans les cavernes. Les bateliers font murer la troisième galerie. Le trajet est plus long par la deuxième. Personne ne se plaint.
+echec: L'équipe ressort de la galerie sans avoir rien pu faire, avec de l'eau jusqu'au cou. Les bateliers ferment les cavernes. Les marchandises passent par la route, trois fois plus cher. Thonx s'en ressent tout l'hiver.
+recompenses: po 150 ; reputation 4 ; objet Élixir de rage 14
+
+=== ION-L-046 | La tombe des deux armées
+source: privee
+region: ionia
+palier: locale
+type: enquete
+ton: tragique
+lieu: Thanze
+demandeur: Isao Nerim, fossoyeur de Thanze, qui garde la fosse où reposent ensemble Ioniens et Noxiens
+accroche: « Après la bataille, on a enterré tout le monde ensemble, on n'avait pas le choix. Trois cents des nôtres, deux cents des leurs. Depuis un mois, quelqu'un vient la nuit et déterre des os. Uniquement des Noxiens, il les reconnaît aux boucles de ceinture. Je ne les aimais pas. Mais ils sont sous ma garde. »
+postes: Éclaireur, Support
+duree: 7
+dangereuse: non
+epreuves: discretion 45 (guetter la fosse, trois nuits de suite) ; diplomatie 47 (parler au profanateur, une fois pris)
+complication: Le profanateur est une veuve noxienne, venue en secret de Noxus. Elle cherche son mari, pour le ramener. Elle ne sait pas lequel c'est.
+eclatante: {meneur} demande au fossoyeur son registre. Isao Nerim avait tout noté, même les noms qu'il ne voulait pas écrire. Ils retrouvent l'homme ensemble, à la lueur d'une lampe. La veuve repart avec une urne. Isao Nerim remet en terre les autres, un par un. Il dit que personne à Thanze n'a besoin de savoir, et {meneur} est d'accord.
+reussite: La veuve est trouvée, écoutée, et raccompagnée au port sans que le village l'apprenne. Elle repart sans son mari, mais avec une poignée de terre de la fosse. Isao Nerim remet tout en ordre.
+partielle: La veuve est surprise par des gens de Thanze avant l'équipe. {meneur} s'interpose à temps. Elle est chassée de l'île le lendemain. La fosse est gardée par quatre hommes, désormais. Isao Nerim trouve que c'est trois de trop.
+echec: Le profanateur n'est pas pris. Les rumeurs s'en mêlent : Thanze croit à un sorcier noxien. Une nuit, des jeunes viennent retourner la moitié de la fosse. Isao Nerim passe l'hiver à tout remettre, seul.
+recompenses: po 105 ; reputation 4 ; objet Cristal de rubis 12
+
+=== ION-L-047 | La montagne qui gronde
+source: privee
+region: ionia
+palier: locale
+type: sauvetage
+ton: aventure
+lieu: Monastère de Hirana
+demandeur: Sœur Dolma, intendante du monastère de Hirana, qui a quatorze novices sur un sentier coupé
+accroche: « Quatorze novices sont montées au sanctuaire d'en haut pour leur retraite. Dix jours de vivres. L'orage d'avant-hier a emporté le pont de cordes. Elles sont à sept jours de vivres. Il y a un autre chemin, par l'arête. Personne ne l'a pris depuis vingt ans, et celles qui le connaissaient sont mortes. »
+postes: Éclaireur, Combattant, Healer
+duree: 11
+dangereuse: oui
+risque: oui
+epreuves: voyage 55 (ouvrir le chemin de l'arête, sans carte, par gros temps) ; siege 50 (tendre un nouveau pont de cordes au-dessus du ravin) ; voyage 52 (faire redescendre quatorze novices, dont deux blessées)
+complication: Le sanctuaire d'en haut s'est en partie effondré. Deux novices sont coincées sous une poutre, et la plus âgée a pris sur elle de rationner l'eau.
+eclatante: {meneur} ouvre l'arête en une journée et tend le pont le lendemain. Les quatorze novices redescendent, les deux blessées sur des brancards faits de bannières de prière. Sœur Dolma les compte trois fois à l'arrivée. La novice qui a rationné l'eau est nommée responsable de la prochaine retraite. Elle a quinze ans.
+reussite: Toutes les novices sont ramenées, épuisées. Les deux blessées garderont une cicatrice. Le pont de cordes est refait à neuf, avec des câbles de Piltover, ce qui fait discuter les anciennes.
+partielle: Douze novices redescendent. Les deux blessées doivent rester au sanctuaire avec une guérisseuse, le temps de pouvoir marcher. On leur monte des vivres par l'arête, une fois par semaine, jusqu'au printemps.
+echec: L'arête est impraticable sous l'orage. L'équipe met cinq jours à passer. Les novices sont vivantes, mais très affaiblies, et l'une des blessées a perdu l'usage d'une jambe. Le sanctuaire d'en haut est fermé.
+recompenses: po 360 ; reputation 6 ; objet Potion rechargeable 16
+
+=== ION-L-048 | L'horloge de Nanthee
+source: privee
+region: ionia
+palier: locale
+type: chasse
+ton: mystere
+lieu: Nanthee
+demandeur: Capitaine Wendel Roth, officier du port piltovien de Nanthee, qui n'aime pas ce qu'il ne comprend pas
+accroche: « Piltover a offert une horloge à la ville de Nanthee. Un beau geste. Depuis qu'elle sonne, quelque chose attaque le quai chaque nuit, à minuit pile. Ça ne vole rien, ça casse l'horloge, et ça repart. On l'a réparée six fois. Mes hommes n'ont jamais rien vu. Je veux savoir ce que c'est, et je veux que ça cesse. »
+postes: Mage
+duree: 5
+dangereuse: non
+epreuves: discretion 44 (veiller sur le quai jusqu'à minuit, sans se faire remarquer) ; diplomatie 48 (parler à ce qui vient, au lieu de lui tirer dessus)
+complication: C'est l'esprit du port. Avant l'horloge, c'est lui qui annonçait les marées aux pêcheurs, avec le vent. Plus personne ne l'écoute.
+eclatante: {meneur} propose un marché que les deux parties trouvent bizarre : l'horloge ne sonnera plus que les heures du jour, et l'esprit gardera la nuit et les marées. Le capitaine Roth accepte en levant les yeux au ciel. Depuis, à Nanthee, les pêcheurs partent au vent, et les marchands arrivent à l'heure. Tout le monde est content, ce qui est rare dans un port.
+reussite: L'esprit accepte de laisser l'horloge tranquille, si on lui laisse une offrande sur le quai à chaque marée. Le capitaine Roth l'inscrit au budget, à la ligne « entretien ».
+partielle: L'esprit se calme, mais l'horloge retarde désormais d'une heure, sans que personne trouve pourquoi. Les Piltoviens enragent. Les pêcheurs de Nanthee trouvent ça très bien.
+echec: Les hommes du capitaine ouvrent le feu sur la brume à minuit. L'esprit ne revient pas. Les marées non plus ne sont plus les mêmes : trois barques s'échouent dans le mois. L'horloge sonne, parfaitement à l'heure.
+recompenses: po 90 ; reputation 3 ; objet Élixir de sorcellerie 12
+
+=== ION-L-049 | Le vieux soldat de Koeshin
+source: privee
+region: ionia
+palier: locale
+type: livraison
+ton: tendre
+lieu: Temple de Koeshin
+demandeur: Azu Tenko, vétéran de la résistance, qui ne peut plus marcher jusqu'au temple
+accroche: « Chaque année, je monte au temple de Koeshin déposer une lame de bois pour chacun de ceux de ma section. On était vingt-deux. Je suis le dernier. Cette année, je ne peux plus monter, c'est le dos. J'ai taillé les vingt et une lames. Portez-les pour moi. Il y a un ordre. Je vous l'écris. »
+postes: Tank
+duree: 6
+dangereuse: non
+epreuves: voyage 43 (monter au temple par les mille marches, avec les lames) ; diplomatie 41 (obtenir des gardiens du temple le droit de les déposer)
+complication: Le temple est abandonné depuis que les Kinkou l'ont quitté. Ceux qui le gardent aujourd'hui sont des squatteurs, d'anciens soldats eux aussi, de l'autre faction de la résistance.
+eclatante: {meneur} explique ce que sont les lames. Les squatteurs se taisent. L'un d'eux connaissait un des noms. Ils aident à les poser, dans l'ordre, et allument un feu. Au retour, {meneur} rapporte à Azu Tenko vingt et une petites branches du cerisier du temple, une par nom, et une invitation à monter l'an prochain. À dos d'homme, s'il le faut. Ils se sont proposés.
+reussite: Les lames sont déposées, dans l'ordre, devant l'autel. {meneur} décrit à Azu Tenko la lumière qu'il y avait ce jour-là. Il écoute les yeux fermés. Il dit que c'est exactement ça.
+partielle: Les gardiens du temple n'autorisent le dépôt que sur le parvis, pas à l'intérieur. Les lames sont alignées sous la pluie. Azu Tenko dit que les gars ont connu pire.
+echec: L'accès au temple est refusé. Les lames redescendent. Azu Tenko les plante dans son jardin, vingt et une, dans l'ordre. Il dit que c'est plus près, finalement.
+recompenses: po 55 ; reputation 3 ; objet Armure de tissu 12
+
+=== ION-L-050 | La Floraison de Navori
+source: institution
+region: ionia
+palier: locale
+type: escorte
+ton: horreur
+lieu: Placidium de Navori
+demandeur: la Chambre des Bannières, pour les maîtres du Placidium de Navori
+accroche: « La nuit de la Floraison spirituelle, le voile s'amincit. D'ordinaire, c'est une fête. Cette année, les maîtres du Placidium craignent que tous les morts de la guerre reviennent en même temps, et qu'ils ne soient pas tous en paix. Il y aura dix mille personnes dans les jardins. Il faut des gens qui restent calmes quand les autres ne le seront plus. »
+postes: Support, Mage, Tank
+duree: 8
+dangereuse: oui
+epreuves: diplomatie 50 (guider la foule quand les premiers morts apparaissent) ; nuee 48 (contenir les esprits en colère, sans les blesser) ; diplomatie 51 (trouver celui qui les excite, et le faire taire)
+complication: Le Collectionneur est dans la foule. Il a pris l'apparence d'un vieux conteur, et il souffle aux morts qu'on les a oubliés.
+eclatante: {meneur} repère le conteur et prend la parole après lui, au milieu des jardins. Les vivants disent les noms de leurs morts, à voix haute, tous ensemble. Dix mille voix. Le Collectionneur n'a plus personne à tromper et s'en va avant l'aube. Les morts restent jusqu'au matin, à écouter. On dit que c'est la plus belle Floraison depuis la guerre. On dit aussi que personne n'a dormi.
+reussite: La nuit est longue, mais la foule tient. Quelques esprits en colère sont raccompagnés par les maîtres. Le conteur disparaît avant d'être pris. À l'aube, les jardins sont couverts de fleurs ouvertes.
+partielle: Une partie de la foule panique vers minuit. Il y a des blessés dans la bousculade, aucun mort. Les maîtres écourtent la cérémonie. Beaucoup de familles repartent sans avoir vu les leurs.
+echec: La peur gagne les jardins. La Floraison est interrompue pour la première fois de mémoire d'ancien. Les morts repartent sans avoir été entendus. Les maîtres du Placidium disent que ça se paiera l'an prochain.
+recompenses: po 175 ; reputation 5 ; objet Cape de négation 12
