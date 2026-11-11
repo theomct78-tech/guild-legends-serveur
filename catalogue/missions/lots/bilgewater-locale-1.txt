@@ -1,0 +1,504 @@
+# Bilgewater · palier Locale · lot 1 (missions 001 à 025) · 11 nov. 2026
+# Palier Locale : les affaires d'un quai, d'une taverne, d'un équipage. Gangplank est tombé, la reine règne, les dettes restent.
+# {meneur} : le héros qui a mené l'épreuve décisive. Aucun accord de genre sur {meneur}.
+
+=== BIL-L-001 | Les Crochets sur le quai neuf
+source: privee
+region: bilgewater
+palier: locale
+type: defense
+ton: aventure
+lieu: Port de Bilgewater
+demandeur: Hab Dorrin, chef des dockers du quai neuf, qui refuse de payer les Crochets dentelés
+accroche: « Les Crochets dentelés sont revenus. Ils réclament la part qu'on payait à Gangplank, avec les intérêts depuis sa chute. On a dit non. Ils ont dit qu'ils viendraient chercher ce soir, et qu'ils prendraient le quai si on ne donnait pas l'argent. On sera là. On aimerait ne pas être seuls. »
+postes: Tank, Combattant, Tireur
+duree: 8
+dangereuse: oui
+epreuves: siege 47 (tenir le quai neuf toute la nuit) ; combat 49 (repousser l'assaut des Crochets depuis les barques)
+complication: Un des dockers a ouvert les écoutilles de l'entrepôt aux Crochets. Il leur doit de l'argent au jeu, depuis des années.
+eclatante: {meneur} surprend le docker au moment où il soulève l'écoutille, et le renvoie vers ses collègues au lieu de le jeter à l'eau. Il prévient Hab, qui referme l'écoutille avec lui. Les Crochets trouvent la porte close et le quai en armes. Ils repartent. Hab rachète la dette de jeu du docker, et la retient sur sa paie, à petits pas.
+reussite: Le quai tient. Les Crochets repartent avec deux barques en moins. Ils reviendront, mais pas tout de suite. Les dockers offrent la tournée à L'Hydre d'airain.
+partielle: Le quai tient, mais l'entrepôt brûle à moitié. Les dockers perdent un mois de marchandises. Ils ne paient pas les Crochets. Ils paient l'assurance, qui n'existe pas.
+echec: Les Crochets prennent le quai. Hab paie pour récupérer les clés. Le quai neuf a un nouveau propriétaire, qui n'apparaît jamais, mais qu'on paie tous les mois.
+recompenses: po 160 ; reputation 5 ; objet Lame de Doran 14
+
+=== BIL-L-002 | Le kraken qui a volé un bateau
+source: privee
+region: bilgewater
+palier: locale
+type: recuperation
+ton: aventure
+lieu: Baie de Bilgewater
+demandeur: Capitaine Ossa Mel, dont le navire a été emporté par un kraken et posé au sommet d'un rocher
+accroche: « Un kraken a pris mon navire hier. Il ne l'a pas coulé. Il l'a soulevé, l'a porté, et l'a posé sur le rocher du Vieux Couteau, à vingt mètres au-dessus de l'eau. Il est là-haut, intact, avec ma cargaison de citrons. Le kraken est en bas. Il a l'air de garder le rocher. »
+postes: Support, Tank
+duree: 10
+dangereuse: oui
+epreuves: voyage 44 (atteindre le rocher en barque entre les tentacules) ; siege 46 (descendre le navire sans le briser)
+complication: Le kraken est une jeune femelle, et le navire est son cadeau. Elle courtise le rocher, où vit un vieux mâle. Elle veut l'impressionner.
+eclatante: {meneur} propose un autre cadeau au kraken : une épave vide du Cimetière marin, beaucoup plus grande. Elle la soulève, la pose sur le rocher, et le vieux mâle sort de son trou pour regarder. Ossa Mel récupère son navire et ses citrons. Les deux krakens vivent désormais au Vieux Couteau. Les touristes paient pour les voir.
+reussite: Le navire est descendu, les citrons sauvés, le kraken repoussé. Ossa Mel repeint la coque. Elle évite le Vieux Couteau, maintenant.
+partielle: On sauve la cargaison, pas le navire, qui reste là-haut. Ossa Mel en fait une auberge. On y monte par une échelle de corde. C'est très à la mode.
+echec: Le kraken écrase la barque de l'équipe, et garde le navire. Ossa Mel engage un équipage pour un autre bateau. Elle dit qu'elle n'aimait pas celui-là.
+recompenses: po 120 ; reputation 4 ; objet Élixir de fer 20
+
+=== BIL-L-003 | La veuve de Mudtown
+source: privee
+region: bilgewater
+palier: locale
+type: enquete
+ton: tragique
+lieu: Mudtown
+demandeur: Rosa Velk, dont le mari est mort au jeu, et à qui on réclame sa dette
+accroche: « Mon mari a perdu une partie de dés à Mudtown, et il est mort le lendemain, noyé dans un canal. On dit qu'il était saoul. Il ne buvait jamais. Maintenant, le tripot me réclame sa dette, et ma maison. Je voudrais savoir ce qui s'est passé, et ne pas être à la rue. »
+postes: Assassin, Support
+duree: 7
+dangereuse: oui
+epreuves: discretion 47 (fouiller le tripot de Mudtown une nuit de jeu) ; diplomatie 44 (faire annuler la dette)
+complication: Le mari n'a pas perdu : il a gagné, gros, contre le patron du tripot. On l'a noyé pour reprendre la mise.
+eclatante: {meneur} retrouve le témoin de la partie, un croupier terrorisé, et le fait parler devant les Sirènes de la reine. Le patron du tripot est arrêté sur le Pont du Boucher. Rosa reçoit la mise que son mari avait gagnée, avec les intérêts que le tripot lui réclamait à elle. Elle ouvre une boutique de cordages. Elle n'entre plus jamais à Mudtown.
+reussite: On prouve que le mari avait gagné. La dette est annulée. Le patron du tripot reste en place, faute de témoin. Rosa garde sa maison.
+partielle: La dette est réduite de moitié. Rosa vend une pièce de sa maison pour payer. Elle ne saura jamais ce qui s'est vraiment passé.
+echec: Le tripot nie tout. Rosa perd sa maison. Elle s'installe chez sa sœur, au Port-aux-Rats. Le canal où son mari est mort, elle ne le longe plus.
+recompenses: po 130 ; reputation 4 ; objet Dague 16
+
+=== BIL-L-004 | Le rhum de la reine
+source: institution
+region: bilgewater
+palier: locale
+type: livraison
+ton: politique
+lieu: Rue de la Flotte
+demandeur: la Chambre des Bannières, pour les Sirènes, qui veulent faire livrer un tonneau sans leur nom
+accroche: « Un tonneau de rhum, cadeau de la reine au capitaine d'un équipage indépendant, pour le remercier de sa neutralité. Il doit arriver ce soir à la taverne du capitaine, rue de la Flotte. Si les Crochets savent d'où vient le cadeau, le capitaine est mort. S'ils ne le savent pas, il est seulement riche. »
+postes: Éclaireur
+duree: 4
+dangereuse: oui
+epreuves: discretion 45 (traverser les quartiers des Crochets avec un tonneau) ; diplomatie 42 (remettre le tonneau sans dire qui l'envoie)
+complication: Le capitaine n'est pas neutre. Il est déjà acheté par les Crochets. Le cadeau de la reine est un test.
+eclatante: {meneur} livre le tonneau, observe le capitaine, et remarque qu'il le fait goûter à un homme des Crochets avant de boire. On le rapporte aux Sirènes. La reine envoie un deuxième tonneau, le lendemain, au second du capitaine. Le second reprend l'équipage dans la semaine. Personne ne voit jamais la reine.
+reussite: Le tonneau est livré, anonyme. Le capitaine boit à la santé de « l'ami inconnu ». Les Sirènes paient bien, et ne disent rien de plus.
+partielle: Le tonneau arrive, mais on a été suivi. Les Crochets se doutent de quelque chose. Le capitaine est convoqué. Il revient, tendu.
+echec: Le tonneau est intercepté par les Crochets, et bu dans leur repaire. Ils trinquent à la reine. Elle n'apprécie pas. La guilde n'est plus appelée par les Sirènes pendant un temps.
+recompenses: po 110 ; reputation 4 ; objet Cristal de rubis 15
+
+=== BIL-L-005 | Les razorfins de l'école
+source: privee
+region: bilgewater
+palier: locale
+type: chasse
+ton: horreur
+lieu: Canaux
+demandeur: Maître Jun, instituteur d'une école des quartiers pauvres, au bord des canaux
+accroche: « Des razorfins dressés ont été lâchés dans le canal sous l'école. Quelqu'un les a nourris là exprès. Hier, un enfant est tombé du ponton. On l'a sorti à temps, il a perdu deux doigts. Les parents veulent fermer l'école. Moi, je veux qu'on sorte ces bêtes de l'eau. »
+postes: Tireur, Combattant
+duree: 6
+dangereuse: oui
+epreuves: nuee 46 (nettoyer le canal des razorfins) ; discretion 43 (trouver qui les a lâchés)
+complication: Les razorfins appartiennent à un promoteur qui veut racheter l'école pour en faire un entrepôt, et qui voulait que les parents la fassent fermer eux-mêmes.
+eclatante: {meneur} vide le canal, puis suit les poissons survivants jusqu'au bassin du promoteur. Le promoteur est arrêté avec ses bassins pleins. L'école rouvre, et Maître Jun fait tendre un filet sous le ponton. Les enfants l'appellent « le filet de la guilde ». Ils s'y jettent pour s'amuser.
+reussite: Les razorfins sont tous sortis du canal. L'école rouvre. Personne ne sait qui les avait lâchés. Maître Jun fait poser une barrière.
+partielle: La plupart des razorfins sont tués, mais il en reste quelques-uns, au fond. L'école rouvre, et on interdit le ponton. Les enfants passent par la rue.
+echec: Les razorfins blessent un membre de l'équipe et restent dans le canal. L'école ferme. Un entrepôt ouvre à sa place trois mois plus tard. Maître Jun enseigne dans sa cuisine.
+recompenses: po 140 ; reputation 5 ; objet Potion de soin 22
+
+=== BIL-L-006 | La dîme du Puits du Serpent
+source: privee
+region: bilgewater
+palier: locale
+type: enquete
+ton: mystere
+lieu: Puits du Serpent
+demandeur: Prêtre Kulo, buhru gardien du Puits du Serpent, qui a vu la dîme disparaître
+accroche: « Les marins jettent leur dîme dans le puits en accostant. Pièces, bagues, dents de monstres. Depuis un mois, le puits est vide quand je descends le nettoyer. Quelqu'un vole Nagakabouros. La Mère Serpent finira par se fâcher, et quand elle se fâche, ce sont les marins qui paient. »
+postes: Assassin
+duree: 5
+dangereuse: non
+epreuves: discretion 44 (guetter le puits la nuit) ; voyage 40 (descendre au fond du puits)
+complication: Le voleur est une loutre de mer apprivoisée par un enfant des quais. L'enfant revend les pièces pour nourrir sa mère malade.
+eclatante: {meneur} trouve l'enfant et sa loutre, et l'amène au prêtre Kulo. Kulo écoute l'histoire, puis prend l'enfant comme apprenti au temple. La loutre remonte maintenant la dîme pour le temple. La mère est soignée par les buhrus. Les marins disent que Nagakabouros a choisi elle-même son nouveau serviteur.
+reussite: Le voleur est découvert, la dîme retrouvée en partie chez un receleur. Le prêtre ne porte pas plainte contre l'enfant. Il ferme le puits avec une grille.
+partielle: On découvre la loutre, mais l'enfant s'enfuit. Le puits est grillagé. La loutre vient s'asseoir sur la grille tous les soirs, déçue.
+echec: On ne trouve rien. La dîme continue de disparaître. Les marins disent qu'ils voient la Mère Serpent bouger dans les vagues, le soir. Ils jettent le double.
+recompenses: po 70 ; reputation 3 ; objet Charme féerique 22
+
+=== BIL-L-007 | Le duel du Pont du Boucher
+source: privee
+region: bilgewater
+palier: locale
+type: protection
+ton: aventure
+lieu: Pont du Boucher
+demandeur: Lenna Strak, jeune capitaine provoquée en duel par un vétéran des Crochets dentelés
+accroche: « Le vieux Marn m'a provoquée en duel sur le Pont du Boucher, demain à l'aube. Je ne peux pas refuser, sinon mon équipage me quitte. Je ne peux pas gagner, il a tué onze personnes sur ce pont. Il me faut un second. Un très bon. »
+postes: Combattant
+duree: 4
+dangereuse: oui
+epreuves: combat 50 (servir de second dans un duel truqué) ; discretion 42 (déjouer la tricherie prévue par le vieux Marn)
+complication: Marn ne se bat jamais seul : un tireur des Crochets attend sur les toits, et tire au signal.
+eclatante: {meneur} grimpe sur les toits avant l'aube et y trouve le tireur, qui finit le duel ligoté à une cheminée. Lenna se bat seule, et tient. Marn, privé de son signal, recule, glisse, et tombe dans le port, sous les rires de la foule. Il n'ose plus jamais remonter sur le pont. Lenna gagne un équipage de plus.
+reussite: Le duel est gagné par Lenna, aidée par son second, de justesse. Marn survit, humilié. Les Crochets se tiennent à distance de Lenna, pour un temps.
+partielle: Le duel se termine sans vainqueur, interrompu par les Sirènes. Lenna garde son équipage. Marn garde sa rancune.
+echec: Lenna est blessée au premier échange. Le duel est perdu. Elle garde la vie, mais perd son navire, mis en jeu par la coutume. Elle s'engage comme second ailleurs.
+recompenses: po 120 ; reputation 5 ; objet Épée longue 18
+
+=== BIL-L-008 | L'enterrement du harponneur
+source: privee
+region: bilgewater
+palier: locale
+type: escorte
+ton: tendre
+lieu: Quai Blanc
+demandeur: les filles de Gorn Hakk, le plus vieux harponneur de Bilgewater, qui veulent l'enterrer en mer comme il l'a demandé
+accroche: « Papa voulait être rendu à la mer, au large du Quai Blanc, avec son harpon. Le problème, c'est qu'il devait de l'argent à la moitié des quais. Les créanciers ont dit qu'ils prendraient le harpon pendant la cérémonie. Ils ont parié dessus. Nous, on voudrait juste lui dire au revoir. »
+postes: Support, Tank
+duree: 6
+dangereuse: non
+epreuves: diplomatie 45 (calmer les créanciers pendant la cérémonie) ; voyage 40 (mener la barque funéraire jusqu'aux bouées)
+complication: Le harpon de Gorn a tué le premier serpent de mer de Bilgewater. Il vaut une fortune, et toutes les dettes du vieux réunies.
+eclatante: {meneur} propose aux créanciers de laisser le harpon à la mer, et d'écrire leurs dettes sur des rubans attachés à la barque. Ils acceptent, gênés, un par un. La barque part avec cent rubans. Les filles de Gorn pleurent en riant. Le lendemain, les créanciers boivent ensemble à L'Hydre d'airain, à la santé du vieux, et personne ne parle d'argent.
+reussite: La cérémonie a lieu, le harpon est rendu à la mer avec Gorn. Les créanciers repartent mécontents. Les filles paieront les dettes, petit à petit.
+partielle: Les créanciers prennent le harpon, mais laissent faire la cérémonie. Gorn part en mer sans son arme. Ses filles sculptent un harpon de bois, et le jettent après lui.
+echec: La cérémonie tourne à la bagarre sur le quai. La barque part de travers, sans prière. Les filles de Gorn ne reviendront plus au Quai Blanc.
+recompenses: po 95 ; reputation 4 ; objet Bouclier de Doran 15
+
+=== BIL-L-009 | Le monstre des Baies de découpe
+source: privee
+region: bilgewater
+palier: locale
+type: defense
+ton: horreur
+lieu: Baies de découpe
+demandeur: Vorsa, cheffe des dépeceurs des Baies de découpe, dont un monstre hissé est revenu à la vie
+accroche: « On a hissé un serpent de mer ce matin. Mort, on était sûrs. On l'a ouvert à moitié. Il s'est réveillé. Il est encore pendu aux chaînes, et il secoue tout. Deux dépeceurs sont à l'eau, trois sont coincés sur la plateforme. Il faut quelqu'un qui finisse le travail. »
+postes: Tank, Combattant, Healer
+duree: 5
+dangereuse: oui
+epreuves: combat 51 (achever un serpent de mer encore vivant) ; siege 44 (tenir la plateforme qui s'effondre)
+complication: Le serpent n'est pas seul : sa compagne tourne dans la baie, attirée par ses cris. Elle est plus grosse.
+risque: oui
+eclatante: {meneur} achève le serpent d'un coup, et fait taire ses cris. La compagne tourne encore une heure, puis repart vers le large. Les dépeceurs sont tous sortis vivants. Vorsa grave le nom de la guilde sur la grande chaîne. C'est la troisième fois en cent ans qu'on y grave un nom qui n'est pas celui d'un dépeceur.
+reussite: Le serpent est achevé, les dépeceurs sauvés. La compagne heurte deux fois la plateforme avant de partir. On répare pendant une semaine.
+partielle: Le serpent est achevé, mais un dépeceur est emporté par la compagne. On le retrouve le lendemain sur la plage, vivant, sans souvenir.
+echec: La plateforme s'effondre. Le serpent retombe à l'eau, et s'enfuit avec sa compagne. Les Baies de découpe sont fermées un mois. Les dépeceurs boivent pour oublier.
+recompenses: po 290 ; reputation 6 ; objet Élixir de rage 22
+
+=== BIL-L-010 | Minuit à Port-Gris
+source: institution
+region: bilgewater
+palier: locale
+type: exploration
+ton: mystere
+lieu: Port-Gris
+demandeur: la Chambre des Bannières, qui veut savoir pourquoi la cloche de Port-Gris sonne de nouveau
+accroche: « Port-Gris est vide depuis l'Harrowing. Il n'y a plus personne. Pourtant, depuis trois nuits, la cloche du temple buhru en ruine sonne à minuit. On l'entend depuis Bilgewater. Les marins refusent de sortir la nuit. La Chambre veut savoir qui sonne. Ou quoi. »
+postes: Mage, Éclaireur
+duree: 9
+dangereuse: oui
+epreuves: voyage 45 (traverser la Brume noire jusqu'au temple) ; discretion 47 (atteindre le clocher sans attirer les errants)
+complication: Ce n'est pas un errant qui sonne : c'est un vieux prêtre buhru, resté seul à Port-Gris, qui sonne pour guider les âmes perdues vers la Mère Serpent.
+eclatante: {meneur} monte au clocher et trouve le vieux prêtre, la corde à la main, aveugle et heureux. Il refuse de partir. On lui laisse des vivres, et on promet de revenir. La guilde revient tous les mois, depuis. La cloche sonne toujours à minuit. Les marins ont fini par trouver ça rassurant.
+reussite: On découvre le prêtre, et on le ramène à Bilgewater, de force et en douceur. La cloche se tait. Les marins ressortent la nuit. Le prêtre, lui, regarde vers le large.
+partielle: On atteint le temple, mais pas le clocher. La cloche sonne pendant qu'on fuit. On ne sait toujours pas qui la tire.
+echec: La Brume noire se lève avant qu'on atteigne le temple. L'équipe fait demi-tour. La cloche sonne quatre nuits de plus. Puis plus jamais.
+recompenses: po 150 ; reputation 5 ; objet Cape de négation 18
+
+=== BIL-L-011 | Le pari de L'Hydre d'airain
+source: privee
+region: bilgewater
+palier: locale
+type: protection
+ton: drole
+lieu: L'Hydre d'airain
+demandeur: Bolk, tenancier de L'Hydre d'airain, qui a parié qu'il pourrait tenir une soirée sans bagarre
+accroche: « J'ai parié contre le patron du bar d'en face que L'Hydre tiendrait une soirée entière sans bagarre. Une seule. Ce soir. J'ai misé la taverne. Je sais, c'était bête. Mais le patron d'en face va envoyer des gars pour déclencher la bagarre. Il faut que personne ne se batte. Personne. »
+postes: Support
+duree: 5
+dangereuse: non
+epreuves: diplomatie 46 (désamorcer chaque début de bagarre) ; discretion 42 (repérer les provocateurs envoyés par le bar d'en face)
+complication: La bagarre la plus dangereuse ne viendra pas des provocateurs : deux équipages rivaux ont choisi L'Hydre ce soir pour régler une vieille histoire.
+eclatante: {meneur} fait asseoir les deux équipages rivaux à la même table, et leur fait raconter leur vieille histoire à voix haute, devant toute la taverne. Elle est si ridicule que tout le monde rit, eux compris. Les provocateurs repartent sans avoir trouvé de bagarre à lancer. Bolk garde sa taverne. Le patron d'en face vient boire chez lui.
+reussite: La soirée se termine sans un coup de poing, de justesse. Une chaise a volé, mais vers le mur, pas vers quelqu'un. Bolk décide que ça ne compte pas. Le patron d'en face aussi.
+partielle: Une bagarre éclate à quatre heures du matin. Le pari portait jusqu'à quatre heures. Les deux patrons se disputent sur l'heure exacte. Ils trouvent un arrangement.
+echec: La bagarre commence à neuf heures. Bolk perd L'Hydre. Le patron d'en face la lui rend une semaine plus tard : il ne sait pas gérer une taverne aussi bruyante.
+recompenses: po 70 ; reputation 3 ; objet Élixir de fer 25
+
+=== BIL-L-012 | La sirène de l'Entrepôt
+source: privee
+region: bilgewater
+palier: locale
+type: recuperation
+ton: aventure
+lieu: Entrepôt de Gangplank
+demandeur: Nils Arbo, ancien comptable de Gangplank, qui veut récupérer un registre resté dans l'entrepôt
+accroche: « J'ai tenu les comptes de Gangplank pendant dix ans. Mon nom est dans un registre resté dans l'entrepôt, sous le plancher. Si les Sirènes le trouvent, je suis pendu. Si les Crochets le trouvent, je suis noyé. L'entrepôt a été pillé, mais personne n'a trouvé le plancher. Pas encore. »
+postes: Assassin, Éclaireur
+duree: 6
+dangereuse: oui
+epreuves: discretion 48 (entrer dans l'entrepôt gardé par les Crochets) ; poursuite 44 (ressortir avec le registre)
+complication: Le registre contient aussi les noms de dix commerçants honnêtes, rackettés par Gangplank, qui ont tout perdu. Ils ont droit à un dédommagement de la reine, s'ils peuvent le prouver.
+eclatante: {meneur} rapporte le registre, et propose à Nils de livrer lui-même la page des commerçants rackettés aux Sirènes, en gardant le reste secret. Il hésite une nuit. Il le fait. Les dix commerçants sont dédommagés. La reine fait venir Nils, et lui propose de tenir ses comptes à elle. Il accepte. Il tremble encore.
+reussite: Le registre est récupéré et brûlé. Nils dort enfin. Les commerçants rackettés n'en sauront jamais rien.
+partielle: On récupère la moitié du registre. Le nom de Nils n'y est pas. Il ne saura jamais où est l'autre moitié. Il dort mal.
+echec: Les Crochets trouvent le registre pendant l'opération. Nils quitte Bilgewater dans la nuit. Personne ne sait où il est allé. On dit qu'il vit à Piltover, sous un autre nom.
+recompenses: po 150 ; reputation 4 ; objet Dague 20
+
+=== BIL-L-013 | La tempête de la Place des Coupe-Bourses
+source: institution
+region: bilgewater
+palier: locale
+type: sauvetage
+ton: tragique
+lieu: Place des Coupe-Bourses
+demandeur: la Chambre des Bannières, pour les marchands de la place flottante arrachée à ses amarres
+accroche: « La tempête a arraché la Place des Coupe-Bourses à ses amarres. Tout le marché flottant dérive vers les rochers de la baie, avec soixante marchands dessus et leurs étals. Il reste une heure, peut-être deux. Les barques de la ville sont déjà toutes dehors. »
+postes: Tank, Tireur, Healer
+duree: 6
+dangereuse: oui
+epreuves: voyage 49 (rejoindre la place dans la tempête) ; siege 46 (rattacher la place à une épave avant les rochers)
+complication: Un des marchands a coupé lui-même une amarre, pour faire couler l'étal de son concurrent, avant la tempête. Il ne pensait pas que tout partirait.
+eclatante: {meneur} lance une amarre vers une épave échouée et y attache la place, juste avant les rochers. Le marché tient la nuit, au bout de sa corde. Au matin, le marchand qui a coupé l'amarre avoue tout, en larmes, devant les autres. Ils le condamnent à recoudre toutes les voiles de la place. Ça lui prend un an.
+reussite: La place est arrêtée avant les rochers. On perd des étals, pas de marchands. Le marché rouvre la semaine suivante, avec des amarres doubles.
+partielle: La place touche les rochers et se brise en deux. Tous les marchands sont repêchés. La moitié du marché coule. On reconstruit avec des épaves.
+echec: La place se brise sur les rochers. On repêche quarante marchands sur soixante. Les autres sont retrouvés sur les plages, les jours suivants. Pas tous vivants.
+recompenses: po 170 ; reputation 6 ; objet Bottes 16
+
+=== BIL-L-014 | Le mousse et le serpent tatoué
+source: privee
+region: bilgewater
+palier: locale
+type: traque
+ton: drole
+lieu: Port-aux-Rats
+demandeur: Bertol, tatoueur du Port-aux-Rats, à qui un mousse a volé l'aiguille de sa grand-mère
+accroche: « Un mousse de douze ans est entré dans ma boutique, m'a demandé un serpent de mer sur le bras, a eu peur à la première piqûre, et s'est enfui avec mon aiguille. L'aiguille de ma grand-mère. Elle a tatoué la moitié des capitaines de Bilgewater avec. Je veux mon aiguille. Le mousse, je m'en fiche. »
+postes: Éclaireur
+duree: 3
+dangereuse: non
+epreuves: poursuite 41 (retrouver le mousse dans le labyrinthe du Port-aux-Rats) ; diplomatie 39 (lui faire rendre l'aiguille)
+complication: Le mousse n'a pas volé l'aiguille pour la revendre. Il veut se tatouer tout seul, pour que son capitaine le prenne au sérieux.
+eclatante: {meneur} retrouve le mousse en train d'essayer de se tatouer un serpent sur le mollet, dans une cale, avec beaucoup de courage et peu de talent. On le ramène chez Bertol, qui finit le serpent lui-même. Il est magnifique. Le capitaine prend le mousse au sérieux. Bertol récupère son aiguille, et un apprenti.
+reussite: L'aiguille est rendue, un peu tordue. Bertol la redresse. Le mousse repart sans tatouage, et avec beaucoup de honte.
+partielle: On retrouve l'aiguille dans une cale, sans le mousse. Bertol la nettoie trois fois. Il ne saura jamais ce qu'elle a fait entre-temps.
+echec: Le mousse embarque avec l'aiguille avant qu'on le trouve. Bertol en commande une autre. Il dit qu'elle n'a pas la même main. Il a raison.
+recompenses: po 45 ; reputation 2 ; objet Charme féerique 28
+
+=== BIL-L-015 | Le cimetière des crabes-pilleurs
+source: privee
+region: bilgewater
+palier: locale
+type: chasse
+ton: horreur
+lieu: Cimetières marins
+demandeur: Dame Ussa, passeuse des morts, dont les tombes flottantes sont attaquées par les crabes-pilleurs
+accroche: « Les crabes-pilleurs remontent sur les bouées funéraires et ils ouvrent les tombes. Pas pour les bijoux. Pour le reste. Les familles n'osent plus venir. Une veuve a trouvé son mari à moitié sorti de sa tombe. Je passe les morts depuis quarante ans. Je n'ai jamais vu ça. »
+postes: Combattant, Mage
+duree: 7
+dangereuse: oui
+epreuves: nuee 47 (nettoyer les bouées des crabes-pilleurs) ; voyage 42 (naviguer entre les tombes dans le brouillard)
+complication: Les crabes ont été attirés par un passeur concurrent, qui veut que les familles le choisissent, lui, avec ses tombes « protégées » plus chères.
+eclatante: {meneur} trouve les appâts accrochés sous les bouées de Dame Ussa et remonte la piste jusqu'au passeur concurrent. Les familles l'apprennent dans la journée. Il quitte Bilgewater, poursuivi par une procession de veuves en colère. Dame Ussa refait toutes les tombes, gratuitement. Elle a les mains qui tremblent, mais elle les refait.
+reussite: Les crabes sont chassés du cimetière. Les tombes sont refermées. Les familles reviennent, prudemment. Dame Ussa pose des filets sous les bouées.
+partielle: La plupart des crabes sont tués, mais ils reviennent par petits groupes. Dame Ussa veille la nuit, avec une lanterne et une gaffe.
+echec: Les crabes repoussent l'équipe dans le brouillard. Le cimetière est abandonné. Les familles rendent leurs morts à la mer, plus loin, sans bouée.
+recompenses: po 135 ; reputation 5 ; objet Élixir de sorcellerie 15
+
+=== BIL-L-016 | La prime de Fil-de-Fer
+source: institution
+region: bilgewater
+palier: locale
+type: traque
+ton: aventure
+lieu: Port de Bilgewater
+demandeur: la Chambre des Bannières, qui affiche la prime de Fil-de-Fer sur le tableau du port
+accroche: « Fil-de-Fer, contrebandier, a coulé deux navires de pêche pour passer sa cargaison. Six morts. Prime de la reine, mort ou vif, de préférence vif. Il connaît chaque crique de la baie. Il n'a jamais été pris. Il a un perroquet qui l'avertit. Ce n'est pas une blague. »
+postes: Éclaireur, Tireur, Assassin
+duree: 10
+dangereuse: oui
+epreuves: poursuite 49 (traquer Fil-de-Fer de crique en crique) ; discretion 46 (approcher sa planque sans que le perroquet donne l'alerte)
+complication: Le perroquet ne crie qu'en voyant une couleur : le rouge des uniformes des Sirènes. Fil-de-Fer est un ancien Sirène.
+eclatante: {meneur} fait approcher l'équipe habillée de gris, sans rien de rouge. Le perroquet reste muet. Fil-de-Fer est pris dans son hamac, en plein sommeil. Il ne résiste pas. Il demande seulement qu'on garde son perroquet. La reine accepte. Le perroquet vit désormais au palais. Il crie en voyant les Sirènes. Elles ont appris à aimer ça.
+reussite: Fil-de-Fer est capturé après une longue poursuite dans les criques. La prime est payée. Le perroquet s'envole. On le voit encore, parfois, au-dessus du port.
+partielle: Fil-de-Fer est tué pendant la poursuite. La prime est payée à moitié : la reine le voulait vivant. Les familles des pêcheurs auraient voulu un procès.
+echec: Le perroquet donne l'alerte. Fil-de-Fer disparaît en mer. On dit qu'il s'est installé à Port-Gris. On dit beaucoup de choses.
+recompenses: po 175 ; reputation 6 ; objet Lame de Doran 16
+
+=== BIL-L-017 | Le temple de la Mère Serpent
+source: privee
+region: bilgewater
+palier: locale
+type: protection
+ton: politique
+lieu: Temple de la Mère Serpent
+demandeur: Grande Prêtresse Ilu, des buhrus, qui reçoit au temple un envoyé de Noxus
+accroche: « Un envoyé de Noxus vient au temple. Il veut parler de commerce avec les îles. Les buhrus n'aiment pas Noxus. Les Crochets non plus. La reine veut que la rencontre se passe bien, sans y paraître. Moi, je veux que personne ne verse de sang dans le temple de la Mère. Ce serait très mauvais pour tout le monde. »
+postes: Support, Tank
+duree: 7
+dangereuse: oui
+epreuves: diplomatie 48 (tenir la rencontre jusqu'au bout) ; combat 44 (empêcher l'attaque contre l'envoyé)
+complication: L'envoyé de Noxus porte une offre honnête. C'est son garde du corps qui a reçu l'ordre de provoquer un incident, pour justifier une intervention noxienne.
+eclatante: {meneur} surveille le garde du corps plutôt que la foule, et l'arrête au moment où il sort sa lame. L'envoyé noxien comprend, devient blanc, et signe l'accord avec les buhrus le soir même, par défi envers ceux qui l'ont envoyé. Il demande à rester à Bilgewater. La Grande Prêtresse accepte.
+reussite: La rencontre a lieu, l'attaque est déjouée. L'envoyé repart avec un accord modeste. Personne ne sait qui avait voulu l'incident.
+partielle: L'attaque est déjouée, mais la rencontre est interrompue. L'envoyé repart sans accord. Noxus et les îles restent froids, comme avant.
+echec: Le sang coule sur les marches du temple. L'envoyé repart blessé. Noxus envoie deux navires au large de la baie. Ils restent un mois, et repartent. Pour cette fois.
+recompenses: po 160 ; reputation 6 ; objet Cristal de saphir 14
+
+=== BIL-L-018 | Le pont du Serpent effondré
+source: privee
+region: bilgewater
+palier: locale
+type: sauvetage
+ton: tragique
+lieu: Pont du Serpent
+demandeur: les familles de pèlerins tombés quand le Pont du Serpent s'est effondré pendant la procession
+accroche: « Le pont s'est effondré pendant la procession de l'aube. Il y avait des enfants dessus. On en a repêché beaucoup. Il en manque quatre. Le courant les a emportés vers les grottes sous le temple. Les buhrus disent que la Mère les a pris. Nous, on veut aller voir. »
+postes: Healer, Éclaireur, Tank
+duree: 8
+dangereuse: oui
+epreuves: voyage 48 (descendre dans les grottes marines sous le temple) ; poursuite 43 (atteindre les enfants avant la marée)
+complication: Les enfants sont vivants, réfugiés sur une corniche dans une grotte. Mais la marée monte, et la corniche sera sous l'eau dans trois heures.
+eclatante: {meneur} atteint la corniche avec la marée aux genoux, et fait sortir les quatre enfants un par un, accrochés à une corde, à travers le courant. Le dernier sort au moment où la corniche disparaît. Les buhrus font une cérémonie de remerciement. Ils remercient la Mère Serpent. Ils remercient aussi la guilde, un peu plus bas, mais sincèrement.
+reussite: Trois enfants sur quatre sont ramenés vivants. Le quatrième est retrouvé sur une plage, deux jours plus tard, affamé et vivant. Personne ne sait comment.
+partielle: Deux enfants sont sauvés. Les deux autres restent dans les grottes. On les cherche encore, chaque marée basse, avec des lanternes.
+echec: La marée monte trop vite. L'équipe ressort seule, épuisée. Les buhrus disent que la Mère les a pris. Les familles ne disent rien.
+recompenses: po 150 ; reputation 5 ; objet Potion rechargeable 20
+
+=== BIL-L-019 | Les citrons amers
+source: privee
+region: bilgewater
+palier: locale
+type: livraison
+ton: drole
+lieu: Docks de l'Abattoir
+demandeur: Capitaine Sel Dorra, dont l'équipage refuse d'embarquer sans ses citrons
+accroche: « Mon équipage refuse de partir sans citrons amers. C'est la coutume, contre le scorbut. Le marchand de citrons a été racheté par un type qui a doublé les prix. On part demain, avec ou sans citrons, sinon on perd le contrat. Il me faut des citrons. Beaucoup. Pas chers. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 42 (négocier avec le nouveau marchand de citrons) ; poursuite 40 (trouver un autre fournisseur avant l'aube)
+complication: Le nouveau marchand n'a racheté le stock que pour revendre plus cher. Il a stocké les citrons dans une cale où ils pourrissent déjà.
+eclatante: {meneur} rachète au marchand ses citrons pourris, très bon marché, puis trouve chez un vieux pêcheur de quoi faire une liqueur de citron amer avec. L'équipage embarque avec trois tonneaux de liqueur. Personne n'a le scorbut. Tout le monde a le moral. Le capitaine en commande pour le voyage suivant.
+reussite: On trouve des citrons chez un autre fournisseur, au prix normal. L'équipage embarque. Le capitaine Sel rapporte une caisse de fruits exotiques au retour.
+partielle: On trouve des citrons, mais pas assez. L'équipage embarque avec une ration réduite. Deux marins attrapent le scorbut. Ils survivent, en se plaignant beaucoup.
+echec: Pas de citrons. L'équipage refuse de partir. Le capitaine perd le contrat. Il ouvre une boutique de citrons. Il fait fortune en un an.
+recompenses: po 60 ; reputation 3 ; objet Potion de soin 25
+
+=== BIL-L-020 | Le dernier navire de Gangplank
+source: privee
+region: bilgewater
+palier: locale
+type: exploration
+ton: mystere
+lieu: Îles du Serpent
+demandeur: un pêcheur des Îles du Serpent, qui a vu un navire de Gangplank qu'on croyait coulé
+accroche: « J'ai vu le Massacre. Le navire de Gangplank. Celui qui a explosé. Il était mouillé dans une crique des Îles du Serpent, intact, avec de la lumière à bord. Je ne suis pas fou. Ma femme dit que si. Je voudrais que quelqu'un aille voir, et revienne me dire que je ne suis pas fou. »
+postes: Éclaireur, Assassin
+duree: 12
+dangereuse: oui
+epreuves: voyage 47 (naviguer jusqu'aux Îles du Serpent) ; discretion 48 (approcher la crique sans être vu)
+complication: Ce n'est pas le Massacre : c'est une réplique, construite par les Crochets dentelés pour faire croire au retour de Gangplank, et rallier les anciens fidèles.
+eclatante: {meneur} monte à bord de nuit, et trouve les plans de la réplique, et la liste des anciens fidèles que les Crochets comptent rallier. On rapporte tout aux Sirènes. La réplique brûle dans la crique la semaine suivante. Le pêcheur rentre chez lui en disant à sa femme qu'il n'était pas fou. Elle dit qu'elle n'en est toujours pas sûre.
+reussite: On découvre la supercherie. La Chambre prévient les Sirènes. La réplique disparaît de la crique avant leur arrivée. Elle navigue quelque part.
+partielle: On voit le navire de loin, sans pouvoir approcher. La rumeur du retour de Gangplank enfle à Bilgewater. Les Crochets en profitent.
+echec: L'équipe est repérée et doit fuir. Le pêcheur est retrouvé mort sur sa barque, une semaine plus tard. La rumeur court : Gangplank est vivant. Personne ne sait plus quoi croire.
+recompenses: po 175 ; reputation 5 ; objet Cape de négation 16
+
+=== BIL-L-021 | Les grottes du marché noir
+source: privee
+region: bilgewater
+palier: locale
+type: enquete
+ton: politique
+lieu: Grottes du marché noir
+demandeur: Ama Selt, marchande d'épices des grottes, accusée d'avoir vendu du poison
+accroche: « Un capitaine est mort après avoir bu du rhum épicé. Mes épices. On m'accuse. Je vends des épices depuis vingt ans, personne n'est jamais mort. Si on ne trouve pas qui a fait ça, les Sirènes ferment ma boutique et les Crochets la reprennent. Et on me pend, sans doute. »
+postes: Assassin, Healer
+duree: 6
+dangereuse: non
+epreuves: discretion 45 (remonter la piste du poison dans le marché noir) ; diplomatie 43 (faire innocenter Ama devant les Sirènes)
+complication: Le poison vient d'un concurrent d'Ama, mais c'est la veuve du capitaine qui l'a acheté. Elle voulait se débarrasser de son mari, qui la battait.
+eclatante: {meneur} découvre la vérité, et la présente aux Sirènes avec le témoignage des voisins de la veuve sur ce que faisait son mari. Les Sirènes écoutent longtemps. Ama est innocentée. La veuve n'est pas pendue : elle quitte Bilgewater, avec un sauf-conduit signé de la reine. Personne ne pose de question.
+reussite: Ama est innocentée. Le concurrent qui a vendu le poison est arrêté. Personne ne cherche à savoir qui l'a acheté. La veuve se tait.
+partielle: Ama est innocentée, faute de preuves contre elle, mais la rumeur reste. Sa boutique perd la moitié de ses clients.
+echec: Ama est arrêtée. Elle est libérée trois mois plus tard, quand la veuve avoue d'elle-même. Sa boutique a été reprise. Elle repart de rien.
+recompenses: po 125 ; reputation 4 ; objet Élixir de sorcellerie 15
+
+=== BIL-L-022 | Le chantier de Mère Grise
+source: privee
+region: bilgewater
+palier: locale
+type: protection
+ton: tendre
+lieu: Port-aux-Rats
+demandeur: Mère Grise, charpentière de marine, qui construit un navire pour des orphelins
+accroche: « Je construis un navire pour les orphelins du Port-aux-Rats. Un vrai navire, qu'ils pourront faire naviguer eux-mêmes. Ça fait deux ans. Il est presque fini. Le propriétaire du terrain veut le récupérer demain, pour sa dette de loyer. Il me reste une nuit pour mettre le navire à l'eau. »
+postes: Tank, Support
+duree: 8
+dangereuse: non
+epreuves: siege 46 (faire glisser le navire jusqu'à l'eau en une nuit) ; diplomatie 43 (faire patienter le propriétaire et ses hommes au matin)
+complication: Le propriétaire n'est pas un méchant homme. Il a été orphelin du Port-aux-Rats, lui aussi, et il ne sait pas pour qui est le navire.
+eclatante: {meneur} fait venir le propriétaire au chantier au milieu de la nuit, au lieu de le retarder. Il voit les orphelins tirer les cordes, couverts de sciure. Il retrousse ses manches et tire avec eux. Le navire touche l'eau à l'aube. Le propriétaire annule la dette. Il vient naviguer avec les enfants, le dimanche.
+reussite: Le navire est mis à l'eau avant le matin. Le propriétaire arrive trop tard. Il réclame sa dette, mais le navire n'est plus sur son terrain. Il rit, malgré lui.
+partielle: Le navire est à moitié dans l'eau quand le propriétaire arrive. Il accepte d'attendre un jour, contre une part de la dette. Mère Grise paie avec ses outils.
+echec: Le navire reste coincé sur le chantier. Le propriétaire le saisit. Il le revend à un marchand. Les orphelins le voient partir de loin. Mère Grise recommence.
+recompenses: po 100 ; reputation 5 ; objet Ceinture du géant 15
+
+=== BIL-L-023 | Le serpent de la cale
+source: privee
+region: bilgewater
+palier: locale
+type: chasse
+ton: drole
+lieu: Docks de l'Abattoir
+demandeur: Capitaine Ferro, dont un bébé serpent de mer s'est caché dans la cale avec la cargaison
+accroche: « Un bébé serpent de mer s'est glissé dans ma cale pendant le déchargement. Il fait trois mètres, il est très gentil, et il a mangé toute ma cargaison de harengs. Mes marins refusent de descendre. Moi aussi. Il ronronne. C'est le plus inquiétant. »
+postes: Healer
+duree: 4
+dangereuse: non
+epreuves: diplomatie 40 (approcher le bébé serpent sans l'effrayer) ; siege 42 (le sortir de la cale sans casser le navire)
+complication: Le bébé ne veut pas sortir : sa mère a été tuée par les dépeceurs des docks, et la cale est le seul endroit où il se sent en sécurité.
+eclatante: {meneur} descend dans la cale et reste une heure avec le bébé serpent, à lui parler doucement. On le fait sortir en lui jetant des harengs, un par un, jusqu'à la mer. Il nage autour du navire pendant trois jours, puis part. Il revient tous les ans, au même mois, plus grand. Le capitaine Ferro lui garde un tonneau de harengs.
+reussite: Le bébé serpent est sorti de la cale, et relâché dans la baie. Le capitaine perd ses harengs. Il dit qu'il a gagné une histoire.
+partielle: On sort le bébé serpent, mais il abîme une partie de la coque en se débattant. Le capitaine reste à quai une semaine pour réparer.
+echec: Le bébé serpent ne sort pas. Le capitaine fait le voyage avec lui dans la cale. Il le relâche au large. Il dit que c'était le meilleur voyage de sa vie.
+recompenses: po 55 ; reputation 3 ; objet Potion de soin 28
+
+=== BIL-L-024 | La dette des Velk
+source: privee
+region: bilgewater
+palier: locale
+type: diplomatie
+ton: tragique
+lieu: Mudtown
+demandeur: Tam Velk, quatorze ans, qui a hérité de la dette de son père et de son grand-père
+accroche: « Mon grand-père a emprunté, mon père aussi, pour rembourser mon grand-père. Maintenant c'est moi. Le prêteur dit que je dois travailler sur son navire pendant dix ans pour rembourser. J'ai quatorze ans. Je voudrais savoir si c'est légal, à Bilgewater. On m'a dit que vous saviez parler aux prêteurs. »
+postes: Support, Assassin
+duree: 6
+dangereuse: non
+epreuves: diplomatie 47 (négocier avec le prêteur) ; discretion 44 (trouver ce que le prêteur cache)
+complication: La dette a déjà été remboursée trois fois. Le prêteur falsifie ses registres depuis deux générations.
+eclatante: {meneur} vole les vrais registres du prêteur, et les fait lire par un notaire devant le tableau des primes du port. La dette est annulée. Toutes celles du prêteur sont revues : on en annule cinquante-trois. Tam Velk embarque quand même sur un navire, comme mousse, mais payé. C'est lui qui a choisi.
+reussite: La dette de Tam est annulée. Le prêteur garde ses autres clients. Tam reste à terre, et apprend un métier.
+partielle: La dette est réduite à deux ans de travail au lieu de dix. Tam accepte. Il compte les jours sur le mur de sa cabine.
+echec: Le prêteur gagne. Tam embarque pour dix ans. Il écrit à la guilde, une fois par an. Il dit que ça va. Il ment, un peu.
+recompenses: po 110 ; reputation 4 ; objet Anneau de Doran 14
+
+=== BIL-L-025 | Le concours de pêche de la reine
+source: institution
+region: bilgewater
+palier: locale
+type: protection
+ton: drole
+lieu: Baie de Bilgewater
+demandeur: la Chambre des Bannières, pour le grand concours de pêche organisé par la reine
+accroche: « La reine organise un concours de pêche dans la baie, pour fêter son règne. Cent barques, des prix énormes, et toute la ville qui parie. Les organisateurs craignent la triche, les sabotages, et les monstres marins, dans cet ordre. Il faut des juges sur l'eau. »
+postes: Tireur, Éclaireur
+duree: 9
+dangereuse: oui
+epreuves: discretion 43 (repérer les tricheurs parmi cent barques) ; combat 45 (repousser le monstre attiré par les appâts)
+complication: Le favori du concours triche en faisant pêcher pour lui un poulpe dressé. Le poulpe, lui, aimerait changer de patron.
+eclatante: {meneur} découvre le poulpe et lui propose un meilleur marché : il pêche pour la barque la plus pauvre du concours. Une vieille pêcheuse remporte le premier prix avec un thon géant. Le favori est disqualifié. Le poulpe reste avec la vieille. Elle l'appelle Majesté. La reine trouve ça très drôle.
+reussite: Le concours se déroule sans sabotage majeur. Un monstre est repoussé au milieu de l'après-midi. Le favori gagne, mais on le soupçonne. On a raison.
+partielle: Le concours est interrompu par un monstre marin. Personne n'est blessé. Le prix est partagé entre tous les participants. Ça fait peu chacun.
+echec: Le monstre renverse dix barques et le concours est annulé. La reine décrète que le monstre a gagné. Elle lui fait porter le trophée en mer. Les gens adorent.
+recompenses: po 130 ; reputation 5 ; objet Élixir de rage 16

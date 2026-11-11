@@ -1,0 +1,503 @@
+# Ixtal · palier Locale · lot 1 (missions 001 à 025) · 11 nov. 2026
+# Palier Locale : les affaires d'une préfecture, d'un marché, d'un village des marges. Les contrats sont rares, précis et surveillés.
+# {meneur} : le héros qui a mené l'épreuve décisive. Aucun accord de genre sur {meneur}.
+
+=== IXT-L-001 | Les prospecteurs de la rive nord
+source: institution
+region: ixtal
+palier: locale
+type: traque
+ton: politique
+lieu: Tikras
+demandeur: la Chambre des Bannières, avec l'autorisation de la préfète de Tikras
+accroche: « Des prospecteurs de Piltover sont revenus. Ils ont un nouveau camp, sur la rive nord, avec des machines à forer. La dernière fois, ils ont détruit la moitié du village. La préfète ne veut pas de guerre avec Piltover. Elle veut qu'ils repartent, sans morts, et sans que Piltover puisse s'en plaindre. »
+postes: Éclaireur, Support, Assassin
+duree: 10
+dangereuse: oui
+epreuves: discretion 47 (repérer le camp et ses machines) ; diplomatie 46 (convaincre le chef des prospecteurs de partir)
+complication: Le chef des prospecteurs n'est pas de Piltover. Il est zaunien, et il a menti à ses patrons sur l'endroit où il cherchait. Piltover ne sait pas qu'il est en Ixtal.
+eclatante: {meneur} fait comprendre au chef des prospecteurs que la préfète écrira à Piltover pour dire où il est. Il blêmit. Le camp est démonté en une nuit, les machines comprises. La préfète garde une foreuse en souvenir, et en fait une fontaine sur la place de Tikras. Les enfants y jouent.
+reussite: Les prospecteurs repartent sans combat. La préfète envoie une lettre polie et glaciale à Piltover. Piltover répond qu'il ne sait pas de quoi elle parle.
+partielle: Les prospecteurs partent, mais laissent leurs machines et un trou de forage plein d'eau sale. La préfète fait garder le trou. On le rebouchera après la saison des pluies.
+echec: Les prospecteurs refusent de partir. La préfète demande l'intervention des mages de la capitale. Le camp disparaît en une nuit, sous un glissement de terrain très opportun. On ne parlera pas de morts.
+recompenses: po 160 ; reputation 5 ; objet Cape de négation 14
+
+=== IXT-L-002 | Le basilic du préfet
+source: privee
+region: ixtal
+palier: locale
+type: recuperation
+ton: drole
+lieu: Kumungu
+demandeur: l'intendant du préfet de Kumungu, très gêné, dont le basilic de bât s'est enfui avec les sceaux de la préfecture
+accroche: « Le basilic du préfet s'est enfui. Avec, sur son dos, le coffret des sceaux officiels. Sans sceaux, aucun acte n'est valable dans toute la préfecture. On ne peut plus marier, enterrer ou vendre une chèvre. Le préfet ne le sait pas encore. Je voudrais qu'il ne le sache jamais. »
+postes: Éclaireur
+duree: 6
+dangereuse: non
+epreuves: poursuite 44 (retrouver le basilic dans la jungle de Kumungu) ; diplomatie 40 (convaincre le basilic de rendre le coffret)
+complication: Le basilic n'a pas fui : il est parti rejoindre une femelle sauvage qu'il a sentie au loin. Le coffret est désormais au fond de leur nid.
+eclatante: {meneur} trouve le nid, et propose un échange au couple : des œufs de dindon de la jungle contre le coffret. Le basilic accepte. Il revient même à la préfecture, avec sa compagne. L'intendant les loge tous les deux. Le préfet ne saura jamais rien. Il remarque seulement que son basilic sourit.
+reussite: Le basilic et le coffret sont ramenés avant le soir. L'intendant remet les sceaux en place, en sueur. Le préfet signe trois actes dans la soirée, sans rien remarquer.
+partielle: On récupère le coffret, pas le basilic. L'intendant raconte au préfet que l'animal est mort de vieillesse. Le préfet porte le deuil une semaine.
+echec: Ni le basilic, ni le coffret. Le préfet l'apprend. L'intendant est rétrogradé au tri des archives. Il dit qu'il préfère, au fond.
+recompenses: po 70 ; reputation 3 ; objet Bottes 20
+
+=== IXT-L-003 | Les Trois Portes
+source: privee
+region: ixtal
+palier: locale
+type: escorte
+ton: tendre
+lieu: Ixaocan
+demandeur: Tiani Hal, jeune mage de bas rang, qui veut épouser un homme d'une caste supérieure
+accroche: « J'aime un homme de la caste des mages de l'eau. Moi, je suis de la caste des cultivateurs. Chez nous, on ne se marie pas hors de sa caste, sauf si on passe l'épreuve des Trois Portes de l'arcologie. Personne ne l'a réussie depuis quarante ans. J'ai besoin qu'on m'accompagne jusqu'à la troisième porte. »
+postes: Mage, Support
+duree: 8
+dangereuse: non
+epreuves: diplomatie 45 (franchir la porte des Anciens, qui posent des questions) ; voyage 44 (franchir la porte de l'Eau, qui noie ceux qui doutent)
+complication: La troisième porte n'est pas une épreuve de magie. C'est une question : « Abandonneras-tu ta caste ? » Tous ceux qui ont échoué ont répondu oui.
+eclatante: {meneur} reste avec Tiani devant la troisième porte, la nuit entière, pendant qu'elle réfléchit. À l'aube, elle répond non : elle ne quittera pas sa caste, elle y fera entrer son mari. La porte s'ouvre. C'est la bonne réponse depuis toujours. Le mariage a lieu dans le jardin des cultivateurs. Le marié apprend à planter.
+reussite: Tiani franchit les trois portes, épuisée. Le mariage est autorisé. Il se fait dans la caste du marié. Tiani change de robe, et de vie.
+partielle: Tiani franchit deux portes et renonce à la troisième. Le mariage est refusé. Elle et son amour se voient en secret, au bord du fleuve, comme avant.
+echec: Tiani échoue à la porte de l'Eau, et sort à moitié noyée. Elle se remet en un mois. Elle ne parle plus de mariage. Lui non plus. Ils se saluent de loin.
+recompenses: po 120 ; reputation 4 ; objet Tome d'amplification 18
+
+=== IXT-L-004 | Le dragon des ruines
+source: privee
+region: ixtal
+palier: locale
+type: exploration
+ton: aventure
+lieu: Ruines anciennes
+demandeur: Nalu Ver, cueilleuse de champignons, qui a trouvé un œuf de dragon élémentaire dans les ruines
+accroche: « J'ai trouvé un œuf dans les ruines. Gros comme une tête, chaud, avec une veine de feu dedans. Je l'ai laissé où il était. Depuis, sa mère tourne au-dessus de mon village. Elle croit que je l'ai volé. Il faut lui montrer que l'œuf est toujours là. Sans qu'elle nous mange. »
+postes: Tank, Éclaireur
+duree: 9
+dangereuse: oui
+epreuves: voyage 46 (traverser les ruines jusqu'au nid) ; discretion 48 (approcher l'œuf sans provoquer la dragonne)
+complication: L'œuf a vraiment été déplacé : par un dresseur de Kumangra, qui veut le vendre. Il l'a caché dans une autre partie des ruines.
+eclatante: {meneur} retrouve l'œuf chez le dresseur et le rapporte au nid, sous les yeux de la dragonne, qui suit chaque pas du haut d'une colonne. Elle se pose, renifle l'œuf, et repart. Le dresseur quitte Ixtal. L'œuf éclot un mois plus tard. Le petit dragon vient souvent voir le village de Nalu. Il aime les champignons.
+reussite: On retrouve l'œuf, on le remet au nid. La dragonne cesse de tourner au-dessus du village. Le dresseur s'enfuit avant d'être pris.
+partielle: L'œuf est remis au nid, mais la dragonne a déjà brûlé deux granges du village. Les villageois rebâtissent en pierre, maintenant.
+echec: On ne retrouve pas l'œuf. La dragonne brûle la moitié des champs avant de repartir. Nalu ne va plus aux ruines. Le dresseur vend l'œuf à Piltover.
+recompenses: po 150 ; reputation 5 ; objet Élixir de rage 16
+
+=== IXT-L-005 | La fièvre de Paretha
+source: privee
+region: ixtal
+palier: locale
+type: livraison
+ton: tragique
+lieu: Paretha
+demandeur: Kalé Oumaro, guérisseuse de Paretha, qui manque de fleurs de taffa pour soigner une fièvre
+accroche: « La fièvre des marais est arrivée à Paretha. Douze malades, dont six enfants. L'eau de fleur de taffa la soigne, mais notre récolte a été vendue à Kumangra la semaine dernière. Il faut racheter les fleurs et les ramener en trois jours. Après, ce sera trop tard pour certains. »
+postes: Éclaireur, Healer
+duree: 10
+dangereuse: oui
+epreuves: voyage 47 (aller à Kumangra et revenir en trois jours) ; diplomatie 43 (racheter les fleurs au marchand qui les a achetées)
+complication: Le marchand qui a acheté la récolte refuse de la revendre : il attend que la fièvre atteigne Kumangra pour vendre au prix fort.
+eclatante: {meneur} fait savoir sur tout le marché de Kumangra que le marchand garde de la taffa pendant qu'à Paretha des enfants meurent. Les autres marchands le forcent à vendre, au prix d'achat. Les fleurs arrivent à Paretha au soir du troisième jour. Les douze malades guérissent. Kalé plante un champ de taffa supplémentaire, qu'elle ne vendra pas.
+reussite: Les fleurs sont rachetées, très cher, et arrivent à temps. Onze malades guérissent. Le douzième, un vieil homme, était déjà trop faible.
+partielle: Les fleurs arrivent avec un jour de retard. Huit malades guérissent. Paretha enterre quatre des siens, dont deux enfants.
+echec: Le marchand refuse de vendre. Les fleurs n'arrivent pas. La fièvre fait six morts à Paretha. Elle atteint Kumangra un mois plus tard. Le marchand vend ses fleurs, au prix fort.
+recompenses: po 140 ; reputation 5 ; objet Potion rechargeable 18
+
+=== IXT-L-006 | Le pont de l'arcologie
+source: institution
+region: ixtal
+palier: locale
+type: defense
+ton: aventure
+lieu: Arcologie de l'eau
+demandeur: la Chambre des Bannières, pour l'arcologie de l'eau, dont le grand pont de glace fond avant la saison
+accroche: « Le grand pont de glace de l'arcologie de l'eau fond, deux mois trop tôt. Les mages le reforment chaque nuit, il refond chaque jour. Quelque chose le chauffe par en dessous. Il y a six cents élèves de l'autre côté du fleuve, et un seul pont. »
+postes: Mage, Tank
+duree: 8
+dangereuse: oui
+epreuves: siege 47 (tenir le pont pendant l'évacuation des élèves) ; combat 45 (affronter ce qui chauffe le pont)
+complication: Sous le pont, un dragon de feu égaré dans le fleuve s'est installé contre les piliers, pour se tenir chaud. Il est blessé.
+eclatante: {meneur} plonge sous le pont et trouve le dragon de feu, frigorifié et blessé, collé aux piliers. Les mages de l'eau le soignent, puis le raccompagnent jusqu'à l'arcologie du magma. Le pont regèle dans la nuit. Les élèves de l'eau et ceux du magma se rencontrent pour la première fois, à cause de lui. Ça se passe bien.
+reussite: Les élèves sont évacués, et le dragon est chassé du fleuve. Le pont est reformé. Les mages renforcent les piliers avec de la pierre.
+partielle: On évacue les élèves, mais le pont s'effondre. Les mages construisent des barques de glace en attendant un nouveau pont. Ça dure un mois.
+echec: Le pont s'effondre pendant l'évacuation. Trois élèves tombent au fleuve, repêchés de justesse. L'arcologie est coupée en deux pendant toute la saison.
+recompenses: po 165 ; reputation 6 ; objet Bouclier de Doran 15
+
+=== IXT-L-007 | Les lys-kraken de Kumangra
+source: privee
+region: ixtal
+palier: locale
+type: enquete
+ton: drole
+lieu: Kumangra
+demandeur: Mama Oxa, marchande de fleurs de Kumangra, dont les lys-kraken mangent les clients
+accroche: « Mes lys-kraken ont mangé un client. Pas entièrement. Ils lui ont mangé le chapeau, et un peu de cheveux. Ils ne font jamais ça. Je les nourris bien. Quelqu'un les a rendus méchants. Et le client veut un nouveau chapeau, et des excuses, et le marché tout entier. »
+postes: Healer
+duree: 4
+dangereuse: non
+epreuves: discretion 41 (surveiller l'étal une journée entière) ; diplomatie 42 (calmer le client et le marché)
+complication: Le concurrent de Mama Oxa a versé du jus de tulipe-cadavre dans l'eau de ses lys. Ça les rend affamés et grincheux.
+eclatante: {meneur} trouve la fiole de jus de tulipe-cadavre dans la poche du concurrent, au moment où il la verse. Mama Oxa le condamne, devant tout le marché, à nourrir ses lys à la main pendant un mois. Il le fait. Il perd deux chapeaux et un doigt de gant. Il finit par aimer les lys. Il les cultive, maintenant.
+reussite: Le coupable est trouvé. Les lys sont soignés, et redeviennent doux. Le client reçoit un chapeau neuf, et accepte des excuses.
+partielle: Les lys sont soignés, mais le coupable n'est pas trouvé. Mama Oxa met une cloche sur l'eau de ses lys. Le marché reste méfiant.
+echec: Les lys mangent un deuxième chapeau, et un bout d'oreille. Mama Oxa doit les vendre à un jardin botanique de Piltover. Elle pleure en les emballant.
+recompenses: po 60 ; reputation 3 ; objet Charme féerique 22
+
+=== IXT-L-008 | Les vastayas de Kiilash
+source: privee
+region: ixtal
+palier: locale
+type: diplomatie
+ton: politique
+lieu: Village de Kiilash
+demandeur: l'ancien du village vastaya de Kiilash, qui refuse de payer le nouveau tribut du préfet
+accroche: « Le préfet a doublé le tribut de Kiilash. Il dit que nous vivons sur les terres d'Ixtal. Nous vivions ici avant Ixtal. Mes jeunes veulent se battre. Les mages du préfet attendent qu'ils le fassent. Il faut quelqu'un qui ne soit ni vastaya, ni ixtalien, pour dire la vérité aux deux. »
+postes: Support, Éclaireur
+duree: 9
+dangereuse: non
+epreuves: diplomatie 50 (faire accepter un compromis au préfet et aux vastayas) ; discretion 43 (prouver que les terres appartenaient à Kiilash avant la préfecture)
+complication: Les archives de la préfecture prouvent que Kiilash est plus ancien. Le préfet le sait. C'est pour ça qu'il veut un incident : sans incident, il ne peut rien prendre.
+eclatante: {meneur} trouve les vieilles cartes dans les archives et les présente aux mages de la capitale, au-dessus du préfet. Les mages, qui détestent qu'on les dérange, réduisent le tribut au niveau d'avant, et mutent le préfet. Kiilash organise une fête de trois jours. Les jeunes vastayas dansent avec les mages. Ce n'était jamais arrivé.
+reussite: Le tribut est ramené à une fois et demie l'ancien. Les jeunes rangent leurs armes. L'ancien dit que c'est une défaite acceptable.
+partielle: Le tribut reste doublé, mais payable en deux ans. Kiilash paie. Des jeunes partent rejoindre d'autres clans, ailleurs.
+echec: Les jeunes attaquent la préfecture. Les mages répondent. Kiilash est puni, et le tribut triplé. L'ancien démissionne. Le village se vide lentement.
+recompenses: po 150 ; reputation 6 ; objet Cristal de saphir 14
+
+=== IXT-L-009 | Le gouffre des Jardins de Zyr
+source: privee
+region: ixtal
+palier: locale
+type: chasse
+ton: horreur
+lieu: Jardins de Zyr
+demandeur: Peret Hul, chercheur en botanique de l'arcologie cardinale, qui veut un échantillon de fleur de mort
+accroche: « Les fleurs de mort poussent dans le noir, au fond des Jardins de Zyr. Elles paralysent ce qui les touche, et le digèrent lentement. J'en veux une, vivante, pour mes études. Je paie très bien. J'ai déjà envoyé deux équipes. Elles n'ont rien ramené. Les équipes non plus, en fait. »
+postes: Mage, Healer, Éclaireur
+duree: 10
+dangereuse: oui
+epreuves: voyage 47 (traverser les Jardins de Zyr jusqu'au gouffre) ; nuee 49 (repousser les plantes carnivores qui défendent la fleur)
+complication: Les deux équipes précédentes sont encore vivantes, paralysées au fond du gouffre, enveloppées dans les racines. Il faut choisir : la fleur, ou les ramener.
+eclatante: {meneur} ne prend pas la fleur. On coupe les racines une à une, et on sort les sept survivants des deux équipes, raides, mais vivants. Peret Hul ne reçoit pas sa fleur. Il reçoit ses deux équipes. Il abandonne la botanique des plantes carnivores, et se consacre aux fougères. Il dit que c'est plus reposant.
+reussite: La fleur est rapportée, vivante, dans une cage de verre. Les équipes précédentes ne sont pas retrouvées. Peret Hul étudie la fleur sans regarder dans le fond de la cage.
+partielle: On rapporte un pétale, pas la fleur. Peret Hul est déçu, mais en tire un traité de dix pages. Il ne renvoie plus d'équipe.
+echec: L'équipe ressort des jardins sans rien, après une nuit horrible. Personne ne veut en parler. Peret Hul retire son annonce.
+recompenses: po 175 ; reputation 5 ; objet Élixir de sorcellerie 18
+
+=== IXT-L-010 | Les fourmis de feu de l'arcologie
+source: privee
+region: ixtal
+palier: locale
+type: defense
+ton: drole
+lieu: Arcologie du magma
+demandeur: Maître Toxal, instructeur à l'arcologie du magma, dont un élève a invoqué une colonie de fourmis de feu par accident
+accroche: « Un élève de première année a invoqué une colonie de fourmis de feu dans le réfectoire. Il voulait des fourmis ordinaires, pour un exposé. Elles mangent les tables. Elles ont mangé le pupitre du directeur. Le directeur n'est pas au courant. Il rentre ce soir. »
+postes: Mage
+duree: 5
+dangereuse: non
+epreuves: nuee 45 (contenir la colonie avant qu'elle atteigne les dortoirs) ; diplomatie 40 (convaincre l'élève d'annuler son invocation)
+complication: L'élève ne peut pas annuler l'invocation : il ne se souvient plus de la formule. Il l'a écrite sur le pupitre du directeur. Les fourmis l'ont mangée.
+eclatante: {meneur} reconstitue la formule avec l'élève, en lisant les traces de brûlure laissées par les fourmis sur le sol. Les fourmis disparaissent dans un petit pop. Le directeur rentre, trouve son pupitre manquant, et l'élève qui lui en fabrique un neuf. Il le prend comme assistant. L'élève récite sa formule avant chaque cours, par sécurité.
+reussite: La colonie est contenue et éteinte par les mages de feu. Le réfectoire a besoin de nouvelles tables. Le directeur fronce les sourcils, et c'est tout.
+partielle: La colonie est détruite, mais elle a dévoré la bibliothèque des premières années. L'élève recopie les livres à la main. Ça va lui prendre un an.
+echec: Les fourmis atteignent les dortoirs. L'arcologie est évacuée une nuit. L'élève est renvoyé, puis réintégré, puis surveillé de très près.
+recompenses: po 80 ; reputation 3 ; objet Élixir de sorcellerie 20
+
+=== IXT-L-011 | Le faux mage de Kumangra
+source: privee
+region: ixtal
+palier: locale
+type: enquete
+ton: politique
+lieu: Kumangra
+demandeur: Ilan Mex, vendeur de graines, dont le frère suit un faux mage qui promet la caste supérieure
+accroche: « Un homme se dit mage de la caste cardinale. Il promet aux gens du marché de les faire changer de caste, contre de l'argent. Mon frère lui a donné tout ce qu'on avait. Les vrais mages ne disent rien. Si c'est un escroc, je veux qu'on le dise. Si c'est un vrai mage, je veux comprendre pourquoi il fait ça. »
+postes: Assassin, Support
+duree: 6
+dangereuse: non
+epreuves: discretion 45 (suivre le faux mage jusqu'à sa cachette) ; diplomatie 44 (convaincre ses disciples sans qu'ils se retournent contre la guilde)
+complication: C'est un vrai mage, de la caste cardinale. Il fait payer les gens du marché parce que la capitale l'a chassé, et qu'il veut se venger en ridiculisant le système des castes.
+eclatante: {meneur} amène le mage à rendre l'argent, en échange d'une chose : qu'il enseigne vraiment. Il ouvre une école sans caste à Kumangra, la première d'Ixtal. La capitale ne sait pas quoi faire. Elle la laisse ouverte, en grognant. Le frère d'Ilan y apprend à faire pousser des graines plus vite. Ça rapporte plus que la caste.
+reussite: Le mage est démasqué et quitte Kumangra. L'argent est rendu en partie. Le frère d'Ilan rentre à la maison, honteux, et s'y fait discret.
+partielle: Le mage quitte Kumangra avec l'argent. Les disciples restent persuadés qu'ils ont été trahis par la guilde. Le frère d'Ilan ne parle plus à personne.
+echec: Le mage est innocenté par la préfecture, qui ne veut pas d'histoires. Il continue. Le frère d'Ilan donne aussi la maison.
+recompenses: po 120 ; reputation 4 ; objet Anneau de Doran 15
+
+=== IXT-L-012 | Les vannes de l'arcologie
+source: institution
+region: ixtal
+palier: locale
+type: sauvetage
+ton: aventure
+lieu: Fleuve Serpentin
+demandeur: la Chambre des Bannières, pour un village de pêcheurs emporté par une crue soudaine
+accroche: « Le Serpentin a débordé dans la nuit. Un village de pêcheurs est sous l'eau jusqu'aux toits. Les mages de l'eau sont occupés à protéger l'arcologie, en amont. Les pêcheurs sont sur leurs toits, avec les crocodiles du fleuve en dessous. »
+postes: Tank, Healer, Tireur
+duree: 9
+dangereuse: oui
+epreuves: voyage 47 (naviguer dans le courant entre les toits) ; combat 44 (tenir les crocodiles à distance pendant l'évacuation)
+complication: La crue n'est pas naturelle : l'arcologie de l'eau a ouvert ses vannes pour se protéger, en sachant que le village serait noyé.
+eclatante: {meneur} évacue le village, puis remonte le fleuve jusqu'à l'arcologie avec les chefs pêcheurs. Les mages de l'eau reconnaissent la faute, devant témoins. Ils reconstruisent le village eux-mêmes, en pierre, et posent une vanne qui préviendra le village la prochaine fois. Les pêcheurs gardent la clé.
+reussite: Le village est évacué sans mort. Les pêcheurs passent un mois dans des abris. Ils reviennent, et reconstruisent. Personne ne sait pourquoi le fleuve a débordé.
+partielle: Le village est évacué, mais on perd les barques et les filets. Les pêcheurs deviennent ouvriers à l'arcologie. Ils détestent ça.
+echec: L'évacuation est trop lente. Trois pêcheurs se noient. Le village est abandonné. Les survivants s'installent à Kumangra, où personne ne les attendait.
+recompenses: po 160 ; reputation 6 ; objet Bottes 16
+
+=== IXT-L-013 | L'élève aux deux éléments
+source: privee
+region: ixtal
+palier: locale
+type: protection
+ton: tendre
+lieu: Arcologie cardinale
+demandeur: Sola Ventan, mère d'un enfant qui maîtrise deux éléments à la fois, ce qui est interdit
+accroche: « Mon fils fait de la glace avec une main et du feu avec l'autre. À huit ans. À l'arcologie, on dit que c'est impossible, ou que c'est un monstre. Le conseil des castes se réunit demain pour décider de son sort. Je voudrais qu'il en ressorte avec moi. »
+postes: Support, Mage
+duree: 7
+dangereuse: non
+epreuves: diplomatie 49 (plaider pour l'enfant devant le conseil des castes) ; discretion 42 (trouver un précédent dans les archives)
+complication: Il y a un précédent : la fondatrice de l'arcologie cardinale maîtrisait deux éléments. Ses archives ont été cachées par le conseil, pour ne pas troubler l'ordre des castes.
+eclatante: {meneur} sort les archives de la fondatrice au milieu du conseil. Le silence dure longtemps. L'enfant reste à l'arcologie, et entre dans les deux écoles à la fois. On lui donne la chambre de la fondatrice. Sa mère pleure dans le couloir. L'enfant demande s'il peut aussi faire de la terre. On lui répond qu'on verra.
+reussite: L'enfant est autorisé à étudier, sous surveillance. Il choisit une école. Il pratique l'autre en secret, avec un vieux maître qui ferme les yeux.
+partielle: L'enfant est autorisé à rester, mais on lui interdit l'un des deux éléments. Il obéit. Sa main gauche reste froide, toujours.
+echec: Le conseil décide de séparer l'enfant de sa mère, pour l'étudier. Sola fuit l'arcologie avec son fils, une nuit. On ne les retrouve pas.
+recompenses: po 135 ; reputation 5 ; objet Tome d'amplification 16
+
+=== IXT-L-014 | Les guérisseurs de la nuit
+source: privee
+region: ixtal
+palier: locale
+type: traque
+ton: aventure
+lieu: Côte amarantine
+demandeur: Hoa Mar, pêcheuse de la côte amarantine, dont le fils travaille pour des contrebandiers zauniens
+accroche: « Des contrebandiers de Zaun viennent la nuit sur notre côte. Ils achètent des plantes rares, interdites à la sortie. Mon fils de seize ans les aide à charger. Il gagne en une nuit ce que je gagne en un mois. Si les mages le trouvent, il passe le reste de sa vie dans les mines du magma. »
+postes: Éclaireur, Combattant
+duree: 10
+dangereuse: oui
+epreuves: discretion 46 (surveiller la côte la nuit) ; poursuite 45 (rattraper les contrebandiers avant qu'ils embarquent)
+complication: Les plantes ne sont pas destinées au commerce : elles servent à soigner la toux grise, à Zaun. Les contrebandiers sont des guérisseurs.
+eclatante: {meneur} rattrape les contrebandiers, écoute leur histoire, et les amène voir la préfète de la côte, avec le fils de Hoa. La préfète, d'abord furieuse, finit par signer une autorisation de vente pour usage médical. Les guérisseurs zauniens reviennent, en plein jour cette fois. Le fils de Hoa charge les caisses, payé, déclaré.
+reussite: Les contrebandiers sont chassés de la côte, sans arrestations. Le fils de Hoa rentre chez sa mère. Il ne dit rien. Il regarde la mer souvent.
+partielle: Les contrebandiers s'enfuient, et le fils avec eux. Il écrit de Zaun, un mois plus tard. Il va bien. Il ne reviendra pas.
+echec: Les mages arrivent en même temps que l'équipe. Le fils de Hoa est arrêté. Il part pour les mines du magma. Hoa écrit à la Chambre toutes les semaines.
+recompenses: po 145 ; reputation 4 ; objet Dague 16
+
+=== IXT-L-015 | Le vieux qui parlait aux arbres
+source: privee
+region: ixtal
+palier: locale
+type: sauvetage
+ton: tendre
+lieu: Jungle d'Ixtal
+demandeur: les petits-enfants d'Oro Pak, cultivateur de quatre-vingt-dix ans, parti dans la jungle parler à son arbre
+accroche: « Grand-père est parti hier matin. Il dit qu'il a un arbre dans la jungle, qui lui parle depuis soixante ans. Il voulait lui dire au revoir. Il n'est pas revenu. Il ne voit presque plus rien, et la saison des pluies commence. »
+postes: Éclaireur
+duree: 6
+dangereuse: non
+epreuves: poursuite 43 (suivre la piste d'un vieil homme dans la jungle) ; voyage 41 (le ramener avant la pluie)
+complication: L'arbre existe, et il parle vraiment : c'est un ancien gardien de la jungle, qui a demandé à Oro de rester avec lui jusqu'à la fin.
+eclatante: {meneur} trouve Oro assis contre l'arbre, la main sur l'écorce, souriant. Il ne veut pas rentrer. On reste avec lui une nuit, sous la pluie, à écouter l'arbre parler dans une langue qu'on ne comprend pas. Au matin, Oro se lève. Il rentre, et dit à ses petits-enfants que l'arbre leur dit bonjour. Ils vont le voir, tous les ans.
+reussite: Oro est ramené chez lui, trempé et ravi. Il raconte son arbre à toute la famille. Personne ne le croit, sauf la plus petite.
+partielle: On trouve Oro trop tard pour éviter la pluie. Il attrape la fièvre. Il guérit en deux semaines, et repart voir son arbre dès qu'il peut marcher.
+echec: On ne retrouve pas Oro. Il rentre seul, trois jours plus tard, en souriant. Il dit que l'arbre l'a raccompagné. Personne ne sait comment.
+recompenses: po 50 ; reputation 3 ; objet Potion de soin 25
+
+=== IXT-L-016 | Le barrage des castors
+source: privee
+region: ixtal
+palier: locale
+type: chasse
+ton: mystere
+lieu: Delta du Serpentin
+demandeur: les pêcheurs du delta, dont les filets sont coupés par des crabes de la faille géants
+accroche: « Les crabes de la faille sont remontés dans le delta. Énormes, la carapace bleue. Ils coupent nos filets, renversent nos barques, et mangent tout ce qui tombe à l'eau. Avant, ils restaient dans la rivière d'en bas. Quelque chose les a fait monter. »
+postes: Combattant, Tank
+duree: 10
+dangereuse: oui
+epreuves: combat 48 (affronter les crabes dans l'eau du delta) ; voyage 43 (remonter jusqu'à leur ancienne rivière)
+complication: Les crabes sont remontés parce que leur rivière a été bouchée par un barrage de branches construit par des castors élémentaires.
+eclatante: {meneur} remonte jusqu'au barrage, et le défait avec les castors, sans les chasser : on leur montre un autre endroit, un peu plus loin. Les crabes redescendent en quelques jours. Les pêcheurs du delta récupèrent leurs eaux. Les castors construisent un barrage plus petit, et plus beau.
+reussite: Les crabes sont repoussés, plusieurs tués. Le delta est de nouveau pêchable. Les pêcheurs mangent du crabe pendant un mois.
+partielle: Les crabes reculent, mais reviennent à chaque marée. Les pêcheurs sortent avec des harpons, et des filets doublés.
+echec: Les crabes renversent la barque de l'équipe. Les pêcheurs abandonnent une partie du delta. Ils pêchent plus haut, moins bien.
+recompenses: po 150 ; reputation 5 ; objet Lame de Doran 14
+
+=== IXT-L-017 | Compter les pierres de Tikras
+source: privee
+region: ixtal
+palier: locale
+type: enquete
+ton: drole
+lieu: Tikras
+demandeur: le second intendant de la préfète de Tikras, qui doit faire un inventaire impossible
+accroche: « La préfète veut l'inventaire complet de la préfecture avant la visite des mages de la capitale. Tout. Les champs, les bêtes, les arbres, les pierres. J'ai dix jours. J'ai compté les pierres pendant trois jours. Il en reste beaucoup. J'aurais besoin d'aide pour compter. Et pour savoir ce qui manque. »
+postes: Support
+duree: 8
+dangereuse: non
+epreuves: diplomatie 42 (faire déclarer leurs biens aux villageois méfiants) ; discretion 40 (comprendre pourquoi les chiffres ne tombent pas juste)
+complication: Les chiffres ne tombent pas juste parce que le premier intendant détourne la moitié des basilics de la préfecture depuis cinq ans.
+eclatante: {meneur} découvre les basilics manquants dans un enclos caché, au fond de la jungle, avec le premier intendant qui les vend à Kumangra. Le second intendant présente l'inventaire et le coupable le même jour. La préfète le nomme premier intendant. Il compte encore les pierres, par habitude.
+reussite: L'inventaire est terminé à temps, avec quelques trous. Les mages de la capitale le jugent « acceptable ». La préfète offre un dîner au second intendant.
+partielle: L'inventaire est terminé, mais les basilics ne sont pas comptés. Les mages remarquent l'absence. La préfète promet de recompter.
+echec: L'inventaire n'est pas fini. Les mages de la capitale font eux-mêmes le compte. Ils trouvent les basilics manquants. Ils accusent le second intendant. Il passe un très mauvais mois.
+recompenses: po 55 ; reputation 2 ; objet Élixir de fer 20
+
+=== IXT-L-018 | La vallée de la Brume d'argent
+source: privee
+region: ixtal
+palier: locale
+type: exploration
+ton: mystere
+lieu: Vallée de la Brume d'argent
+demandeur: Tavu Ren, cartographe de la caste des archivistes, qui veut cartographier la vallée
+accroche: « La vallée de la Brume d'argent n'a jamais été cartographiée. Les cartographes qui y vont reviennent avec des cartes différentes, toutes. Je veux savoir si c'est la brume qui ment, ou les cartographes. Et je veux être le premier à rapporter une carte juste. »
+postes: Éclaireur, Mage
+duree: 12
+dangereuse: oui
+epreuves: voyage 48 (traverser la vallée dans la brume) ; discretion 44 (ne pas s'égarer quand la brume montre des chemins qui n'existent pas)
+complication: La vallée change vraiment de forme, au rythme de la brume. Il n'y a pas une carte juste : il y en a sept, une pour chaque jour de la semaine.
+eclatante: {meneur} reste sept jours dans la vallée avec Tavu, à dessiner chaque matin ce que la brume montre. Ils reviennent avec sept cartes. Les archivistes crient au scandale, puis à la découverte. Les cartes sont exposées à l'arcologie cardinale. Les voyageurs choisissent leur jour de passage. Tavu devient célèbre, et ne retourne jamais dans la vallée.
+reussite: L'équipe rapporte une carte de la vallée, valable au moins un jour sur sept. Tavu la présente aux archivistes, qui la refusent. Il la garde.
+partielle: L'équipe se perd deux jours, et rapporte une carte à moitié faite. Tavu dit que la moitié qui existe est juste. Il n'en est pas sûr.
+echec: L'équipe tourne en rond trois jours, et ressort par le côté où elle était entrée. Tavu jure qu'il reviendra. Il ne reviendra pas.
+recompenses: po 170 ; reputation 5 ; objet Pioche 18
+
+=== IXT-L-019 | Le temple sous les racines
+source: privee
+region: ixtal
+palier: locale
+type: recuperation
+ton: horreur
+lieu: Arbre de la Peste
+demandeur: Zalé Ko, prêtresse de la jungle du sud, qui veut récupérer une relique sous l'Arbre de la Peste
+accroche: « Sous l'Arbre de la Peste, il y a un vieux temple. On y a caché une coupe sacrée, il y a cent ans, pendant une guerre. L'arbre a poussé dessus depuis. On dit qu'il est malade, et qu'il rend malade ceux qui le touchent. La coupe est à notre village. Je voudrais qu'elle rentre. »
+postes: Healer, Mage, Tank
+duree: 10
+dangereuse: oui
+epreuves: voyage 46 (descendre entre les racines jusqu'au temple) ; combat 48 (repousser les bêtes contaminées qui vivent dans le temple)
+complication: L'arbre n'est pas malade. C'est la coupe qui l'est : elle a été maudite pendant la guerre, et elle contamine tout ce qui pousse autour. L'arbre la retient pour protéger la jungle.
+eclatante: {meneur} comprend la vérité devant la coupe, et la laisse où elle est. On referme le temple derrière soi, et on rapporte à Zalé une graine de l'arbre. Elle la plante devant le village. L'arbre qui pousse est sain, et grand en dix ans. Les enfants jouent dessous. La coupe reste sous la jungle, gardée.
+reussite: La coupe est rapportée, dans un coffre de plomb. Les mages de la capitale la purifient pendant un an. Le village la récupère, pâle et inoffensive.
+partielle: On rapporte la coupe, sans coffre. Deux membres de l'équipe tombent malades. Ils guérissent. La coupe est enterrée de nouveau, loin du village.
+echec: L'équipe ne passe pas les racines. Un membre est contaminé. On le soigne pendant un mois. Zalé dit que l'arbre a dit non, et qu'il a raison.
+recompenses: po 165 ; reputation 5 ; objet Élixir de sorcellerie 16
+
+=== IXT-L-020 | Le marché aux tulipes-cadavres
+source: institution
+region: ixtal
+palier: locale
+type: protection
+ton: politique
+lieu: Kumangra
+demandeur: la Chambre des Bannières, pour le marché de Kumangra, menacé de fermeture par la capitale
+accroche: « La capitale veut fermer le marché de Kumangra, qu'elle accuse de vendre des plantes interdites aux étrangers. Les marchands disent qu'ils ne vendent rien d'interdit. Un inspecteur arrive demain. Il faut que le marché soit irréprochable, ou qu'il ait l'air de l'être. »
+postes: Support, Éclaireur
+duree: 7
+dangereuse: non
+epreuves: discretion 44 (repérer les marchands qui vendent vraiment des plantes interdites) ; diplomatie 46 (convaincre l'inspecteur de laisser le marché ouvert)
+complication: L'inspecteur ne vient pas inspecter : il vient fermer, sur ordre d'un mage qui veut récupérer le terrain du marché pour son jardin.
+eclatante: {meneur} fait comprendre à l'inspecteur, avec beaucoup de politesse, que la guilde sait pourquoi il est là, et que la Chambre aussi. Il inspecte, très lentement, et trouve le marché irréprochable. Le mage renonce à son jardin. Le marché de Kumangra fait une fête en l'honneur de l'inspecteur, qui rougit.
+reussite: L'inspecteur repart sans fermer le marché, avec une liste de trois marchands à surveiller. Le marché tient. Les trois marchands changent de produits.
+partielle: Le marché reste ouvert, mais un tiers des étals est fermé. Les marchands se serrent dans ce qui reste. Ils s'en sortent, comme toujours.
+echec: Le marché est fermé pour une saison. Les marchands vendent dans la jungle, en cachette. Le jardin du mage ne verra jamais le jour : la jungle s'en charge.
+recompenses: po 130 ; reputation 5 ; objet Cristal de rubis 14
+
+=== IXT-L-021 | La pluie de grenouilles du delta
+source: privee
+region: ixtal
+palier: locale
+type: enquete
+ton: drole
+lieu: Delta du Serpentin
+demandeur: Pita Mal, gardienne du phare du delta, qui reçoit une pluie de grenouilles tous les soirs
+accroche: « Tous les soirs, à six heures, il pleut des grenouilles sur mon phare. Des vertes, des petites, des vivantes. Elles tombent du ciel, rebondissent sur le toit, et repartent dans le delta. Ça fait un mois. C'est joli, mais je ne dors plus. Et j'ai des grenouilles dans mon thé. »
+postes: Mage
+duree: 5
+dangereuse: non
+epreuves: discretion 40 (guetter la pluie depuis le toit du phare) ; voyage 42 (remonter jusqu'à la source des grenouilles)
+complication: Un apprenti mage de l'eau s'entraîne à soulever l'eau du delta, tous les soirs, en amont. Il soulève aussi les grenouilles. Il ne s'en est pas rendu compte.
+eclatante: {meneur} trouve l'apprenti, très fier de son jet d'eau, et lui montre les grenouilles qui retombent sur le phare. Il est mortifié. Il vient s'excuser auprès de Pita, avec un panier de fruits. Il s'entraîne désormais plus loin, au-dessus d'un étang sans grenouilles. Pita, un peu triste, le regrette presque.
+reussite: La source de la pluie est trouvée. L'apprenti s'entraîne ailleurs. Pita dort. Les grenouilles, privées de voyage, s'ennuient un peu.
+partielle: On trouve l'apprenti, mais il refuse de déménager. Les grenouilles tombent un soir sur deux. Pita met un toit en filet.
+echec: On ne trouve rien. Les grenouilles continuent de tomber tous les soirs. Pita s'y habitue. Elle les nomme toutes. Elle en a trois cents.
+recompenses: po 45 ; reputation 2 ; objet Charme féerique 25
+
+=== IXT-L-022 | L'expédition de Piltover
+source: institution
+region: ixtal
+palier: locale
+type: escorte
+ton: politique
+lieu: Jungle d'Ixtal
+demandeur: la Chambre des Bannières, pour une expédition de la guilde des explorateurs de Piltover, autorisée par la capitale
+accroche: « La capitale a autorisé, pour la première fois, une petite expédition de Piltover à traverser la jungle jusqu'à l'arcologie cardinale. Six explorateurs, un mage d'Ixtal comme guide, et beaucoup de méfiance des deux côtés. Il faut qu'ils arrivent, et qu'ils repartent, sans incident. »
+postes: Support, Tank, Éclaireur
+duree: 12
+dangereuse: oui
+epreuves: voyage 46 (traverser la jungle avec des étrangers peu préparés) ; diplomatie 47 (empêcher que la méfiance tourne à l'incident)
+complication: Un des explorateurs a pour mission secrète de cartographier les défenses de la capitale. Le mage guide le sait, et attend qu'il agisse pour le dénoncer.
+eclatante: {meneur} parle à l'explorateur avant qu'il agisse, une nuit, et le convainc de remettre lui-même ses carnets secrets au mage guide. Le mage les brûle sans un mot. L'expédition arrive, et repart, sans incident. L'année suivante, Ixtal autorise une deuxième expédition. Plus grande.
+reussite: L'expédition arrive à la capitale et repart. Les carnets secrets ne sont pas découverts. On ne saura jamais ce qu'il y avait dedans. Le mage guide, si.
+partielle: L'expédition arrive, mais l'explorateur est surpris à cartographier. Il est expulsé. Les autres repartent avec lui. Personne n'est blessé.
+echec: L'explorateur est surpris en pleine jungle. Le mage l'accuse d'espionnage. L'expédition est renvoyée. Piltover proteste. Ixtal se referme un peu plus.
+recompenses: po 160 ; reputation 6 ; objet Armure de tissu 15
+
+=== IXT-L-023 | Le basilic de course
+source: privee
+region: ixtal
+palier: locale
+type: protection
+ton: tendre
+lieu: Ixaocan
+demandeur: Hama Yo, dresseuse de basilics de course, dont le favori est menacé avant la grande course
+accroche: « Mon basilic, Éclair-de-Mousse, est favori de la grande course de la capitale. Trois jours avant, j'ai trouvé un champignon empoisonné dans sa mangeoire. Quelqu'un ne veut pas qu'il gagne. Il me faut des gens pour le garder, et pour trouver qui. Éclair-de-Mousse mord, mais il aime les gens qui le grattent sous le menton. »
+postes: Tank
+duree: 6
+dangereuse: non
+epreuves: siege 42 (garder l'écurie trois nuits) ; discretion 43 (trouver qui a empoisonné la mangeoire)
+complication: Le coupable est le propre fils de Hama, qui a parié contre son basilic chez un bookmaker, et qui a perdu son argent d'avance.
+eclatante: {meneur} surprend le fils la deuxième nuit, avec un autre champignon. Il avoue en pleurant. Hama ne le dénonce pas. Elle lui fait monter Éclair-de-Mousse pendant la course. Ils gagnent. Le fils rembourse le bookmaker avec le prix, et devient jockey. Éclair-de-Mousse le mord moins souvent qu'avant.
+reussite: Éclair-de-Mousse court et gagne. Le coupable n'est pas trouvé, mais n'agit plus. Hama est ravie. Elle soupçonne quelqu'un. Elle ne dit pas qui.
+partielle: Éclair-de-Mousse court, mais arrive deuxième, un peu malade. Hama l'aime quand même. Elle découvre le coupable plus tard. Elle ne dit rien.
+echec: Éclair-de-Mousse mange un deuxième champignon. Il ne peut pas courir. Il guérit en une semaine. Hama retire ses basilics des courses. Elle les fait labourer. Ils sont ravis.
+recompenses: po 75 ; reputation 3 ; objet Élixir de fer 22
+
+=== IXT-L-024 | Le jade des fondeurs
+source: privee
+region: ixtal
+palier: locale
+type: livraison
+ton: aventure
+lieu: Arcologie du magma
+demandeur: Toko Ral, maître fondeur de jade, qui doit livrer une statue à l'arcologie cardinale
+accroche: « J'ai fondu une statue de jade pour l'anniversaire de l'arcologie cardinale. Elle fait deux mètres. Elle doit traverser la jungle, la rivière, et une montagne, en quatre jours. Si elle arrive cassée, ma caste perd sa place à la cérémonie pour cent ans. Pas de pression. »
+postes: Tank, Éclaireur
+duree: 14
+dangereuse: non
+epreuves: voyage 48 (transporter la statue jusqu'à la capitale) ; siege 44 (la faire passer sur le pont de lianes du ravin)
+complication: Une caste rivale a scié à moitié le pont de lianes du ravin, pour que la statue tombe.
+eclatante: {meneur} vérifie le pont avant de passer, et découvre les cordes sciées. On renforce le pont avec les cordes de la caravane, et la statue passe. Elle arrive à la capitale entière. Toko Ral la dévoile pendant la cérémonie, et désigne publiquement la caste rivale. Les mages font enquête. Les fondeurs gardent leur place pour cent ans.
+reussite: La statue arrive à la capitale, avec une petite fêlure au doigt. Toko Ral la cache sous une fleur. Personne ne voit rien. La caste garde sa place.
+partielle: La statue arrive avec un bras cassé. Toko Ral le recolle en une nuit. La cérémonie a lieu. La caste des fondeurs perd la moitié de sa place.
+echec: Le pont cède, et la statue tombe dans le ravin. Toko Ral rentre seul. Sa caste perd sa place. Il recommence la statue. Il a dix ans devant lui.
+recompenses: po 140 ; reputation 4 ; objet Ceinture du géant 15
+
+=== IXT-L-025 | Les jardins interdits de la préfète
+source: privee
+region: ixtal
+palier: locale
+type: exploration
+ton: mystere
+lieu: Jardins de Zyr
+demandeur: la préfète de Tikras elle-même, qui veut savoir ce que sa grand-mère cachait dans les Jardins de Zyr
+accroche: « Ma grand-mère était préfète avant moi. À sa mort, elle m'a laissé une clé, et un mot : « Les Jardins de Zyr, la porte bleue. » J'y suis allée. Il y a bien une porte bleue, dans un mur que les plantes carnivores n'ont pas touché. Je n'ose pas l'ouvrir seule. »
+postes: Éclaireur, Mage
+duree: 10
+dangereuse: oui
+epreuves: voyage 46 (traverser les Jardins de Zyr jusqu'au mur) ; discretion 44 (passer la porte bleue sans réveiller les plantes)
+complication: Derrière la porte, il y a un jardin intact d'avant les guerres runiques : la seule trace de la jungle telle qu'elle était, que la grand-mère protégeait en secret.
+eclatante: {meneur} ouvre la porte, et la préfète entre dans un jardin vieux de mille ans, intact, plein d'oiseaux qu'on ne voit plus nulle part. Elle reste une heure sans parler. Elle referme la porte, et garde la clé. Elle revient chaque année, seule, comme sa grand-mère. Elle fait jurer le secret à la guilde. La guilde le garde.
+reussite: On ouvre la porte, on voit le jardin. La préfète décide de le laisser fermé. Elle note dans son testament ce que sa grand-mère n'avait pas écrit.
+partielle: On atteint la porte, mais les plantes s'éveillent. On repart sans l'ouvrir. La préfète garde la clé. Elle ne sait toujours pas.
+echec: Les plantes carnivores repoussent l'équipe avant le mur. La préfète renonce. Elle donne la clé à sa fille, avec le même mot.
+recompenses: po 155 ; reputation 5 ; objet Cristal de saphir 16

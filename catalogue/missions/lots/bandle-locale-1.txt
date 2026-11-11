@@ -1,0 +1,503 @@
+# Bandle · palier Locale · lot 1 (missions 001 à 025) · 11 nov. 2026
+# Palier Locale : les affaires d'un quartier yordle, d'un portail, d'une confrérie d'inventeurs. Le danger est rarement grave, mais toujours bizarre.
+# {meneur} : le héros qui a mené l'épreuve décisive. Aucun accord de genre sur {meneur}.
+
+=== BAN-L-001 | L'élection du maire
+source: institution
+region: bandle
+palier: locale
+type: protection
+ton: politique
+lieu: Bandle
+demandeur: la Chambre des Bannières, que les candidats ont choisie comme arbitre neutre de l'élection
+accroche: « Bandle élit son maire. Le maire n'a aucun pouvoir, tout le monde le sait. Mais il a un chapeau, et c'est un très beau chapeau. Il y a quarante-trois candidats. Trois d'entre eux sont le même yordle, déguisé. On aimerait que le vote se passe sans tricherie, si une telle chose existe à Bandle. »
+postes: Support, Éclaireur
+duree: 8
+dangereuse: non
+epreuves: diplomatie 45 (tenir le bureau de vote sans que les candidats se battent) ; discretion 43 (repérer les tricheurs, les déguisés et les urnes truquées)
+complication: Le maire sortant a truqué toutes les urnes, mais pour faire gagner son adversaire : il en a assez de porter le chapeau, qui lui donne mal à la tête.
+eclatante: {meneur} découvre la ruse du maire sortant et lui propose une solution : un deuxième chapeau, plus léger, pour les jours ordinaires. Il accepte d'être réélu, soulagé. Les quarante-deux autres candidats se consolent avec un banquet. Le yordle aux trois déguisements obtient trois places au banquet. Il les occupe toutes, en courant.
+reussite: Le vote a lieu presque sans tricherie. Un nouveau maire est élu, ravi, coiffé du chapeau. Il fait son premier discours. Il dure quatre heures.
+partielle: Le vote est annulé deux fois pour irrégularités, puis validé à la troisième. Personne ne se souvient de ce qu'on votait. Le maire sortant reste en place, épuisé.
+echec: Le bureau de vote est envahi par les partisans d'un candidat qui n'existe pas. Il gagne. Bandle n'a pas de maire pendant un an. Personne ne remarque la différence.
+recompenses: po 110 ; reputation 4 ; objet Charme féerique 20
+
+=== BAN-L-002 | Le portail qui avale les chaussettes
+source: privee
+region: bandle
+palier: locale
+type: enquete
+ton: drole
+lieu: Les Chemins bas
+demandeur: Pimpa Sardrel, blanchisseuse des Chemins bas, dont toutes les chaussettes disparaissent dans un petit portail
+accroche: « Un portail s'est ouvert dans mon lavoir. Il est grand comme un pot de confiture, et il avale les chaussettes. Seulement les chaussettes, et seulement les gauches. J'ai deux cents clients avec un pied froid. Je voudrais savoir où elles vont, et qu'elles reviennent. »
+postes: Mage
+duree: 4
+dangereuse: non
+epreuves: discretion 40 (glisser un œil à travers le petit portail sans être avalé) ; voyage 42 (suivre le chemin des chaussettes de l'autre côté)
+complication: De l'autre côté du portail, il y a la chambre d'une petite fille de Demacia, qui a fait le vœu d'avoir « toutes les chaussettes du monde ».
+eclatante: {meneur} passe la main dans le portail avec une lettre. La petite fille répond, dans une autre écriture, très appliquée : elle est désolée, elle rend tout. Les chaussettes reviennent par paquets de dix. Pimpa et la petite fille s'écrivent toujours par le portail. Il reste ouvert, pour le courrier. Il ne prend plus rien.
+reussite: Le portail est refermé et les chaussettes retrouvées, de l'autre côté, dans un grand panier. Pimpa les relave toutes. Elle en garde une pour le souvenir.
+partielle: Le portail est refermé, mais les chaussettes restent de l'autre côté. Pimpa offre une chaussette gauche neuve à chaque client. Elle les tricote elle-même.
+echec: Le portail avale la manche de l'équipe, puis se referme. Les chaussettes ne reviennent pas. Pimpa ouvre une boutique de chaussettes dépareillées. C'est un succès.
+recompenses: po 50 ; reputation 2 ; objet Charme féerique 30
+
+=== BAN-L-003 | L'Arche et les étoiles
+source: privee
+region: bandle
+palier: locale
+type: escorte
+ton: mystere
+lieu: Arche de pierre
+demandeur: Dorrel Plumefine, astronome yordle, qui doit faire passer un mortel égaré par l'Arche de pierre cette nuit
+accroche: « Un mortel est arrivé par l'Arche il y a trois jours. Il veut rentrer chez lui. L'Arche ne s'ouvre que quand les étoiles s'alignent, et c'est cette nuit, pour quelques minutes. Après, ce sera dans sept ans. Il a une femme et une fille à Piltover. Il ne veut pas leur faire ça. »
+postes: Mage, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: voyage 44 (mener le mortel jusqu'à l'Arche avant l'alignement) ; discretion 42 (franchir les bois sans réveiller les bêtes changées par la magie)
+complication: Le temps passe autrement à Bandle. Pour le mortel, il s'est passé trois jours. À Piltover, il s'est passé quatre ans.
+eclatante: {meneur} prévient le mortel avant de passer l'Arche, avec douceur. Il s'assoit, longtemps. Puis il passe quand même. Une lettre arrive à Bandle un an plus tard, par un autre portail : sa femme l'avait attendu. Sa fille, elle, avait grandi. Il lui a fallu un mois pour la reconnaître. Il dit que ça valait la peine.
+reussite: Le mortel passe l'Arche à temps. On ne saura pas ce qu'il a trouvé de l'autre côté. Dorrel note l'alignement dans son livre, et une phrase : « Il souriait. »
+partielle: L'Arche s'ouvre trop peu de temps : le mortel passe à moitié, et revient. Il attendra sept ans à Bandle. Il apprend à faire des chapeaux.
+echec: L'équipe arrive à l'Arche juste après l'alignement. Le mortel reste. Il s'installe à Bandle, et écrit des lettres qu'il ne peut pas envoyer. Il en a trois cents.
+recompenses: po 100 ; reputation 4 ; objet Cristal de saphir 18
+
+=== BAN-L-004 | Les Artilleurs en manœuvre de nuit
+source: privee
+region: bandle
+palier: locale
+type: defense
+ton: aventure
+lieu: Bois de Bandle
+demandeur: Capitaine Fizzbangle, des Artilleurs de Bandle, qui a besoin de « forces ennemies » pour un exercice
+accroche: « Mes Artilleurs n'ont jamais combattu. Ils sont très bien entraînés, très motivés, et très petits. Je voudrais organiser une manœuvre de nuit, avec de vrais adversaires. Pas trop vrais. Mais assez vrais pour qu'ils comprennent. Vous seriez l'ennemi. Avec des pétards. »
+postes: Assassin
+duree: 5
+dangereuse: non
+epreuves: discretion 44 (infiltrer le campement des Artilleurs la nuit) ; combat 40 (simuler une attaque sans blesser personne)
+complication: Une vraie bête du bois, changée par la magie, rôde autour du campement depuis la veille. Les Artilleurs ne le savent pas.
+eclatante: {meneur} repère la vraie bête pendant l'infiltration, et change de rôle en pleine manœuvre : la guilde rejoint les Artilleurs pour la repousser, pétards compris. Les Artilleurs font face, tremblants et magnifiques. La bête s'enfuit, assourdie. Capitaine Fizzbangle décore tout le monde, y compris la guilde, y compris lui-même.
+reussite: La manœuvre se déroule bien. Les Artilleurs perdent, puis gagnent la revanche. Ils fêtent leur victoire jusqu'à l'aube. Ils l'ont méritée, à peu près.
+partielle: La manœuvre est interrompue par la vraie bête. Tout le monde fuit, Artilleurs et ennemis. On rentre ensemble, en riant nerveusement.
+echec: Les Artilleurs paniquent dès le premier pétard. Le campement prend feu, un peu. Capitaine Fizzbangle écrit un rapport de vingt pages sur la nécessité de recommencer.
+recompenses: po 70 ; reputation 3 ; objet Dague 20
+
+=== BAN-L-005 | La fleur d'argent du marais
+source: privee
+region: bandle
+palier: locale
+type: recuperation
+ton: aventure
+lieu: Portail du marais
+demandeur: Grimble Mousse, jardinier yordle, qui veut ouvrir le portail du marais pour rendre visite à sa sœur
+accroche: « Le portail du marais s'ouvre quand on plante une fleur d'argent dans la boue. Les fleurs d'argent poussent sur les branches les plus hautes du saule pleureur des bois. Les branches les plus hautes sont gardées par des pies. Les pies de Bandle. Vous ne voulez pas savoir. Ma sœur habite de l'autre côté. »
+postes: Éclaireur
+duree: 5
+dangereuse: non
+epreuves: voyage 43 (grimper au sommet du saule) ; poursuite 41 (reprendre la fleur aux pies quand elles la volent)
+complication: Les pies ne volent pas la fleur pour la garder : elles la portent elles-mêmes au marais, chaque printemps. Elles attendent juste qu'on leur demande poliment.
+eclatante: {meneur} demande poliment aux pies, avec une révérence. Elles se regardent, et l'une d'elles descend la fleur d'argent jusqu'au marais. Le portail s'ouvre. Grimble passe voir sa sœur, et revient avec elle, pour une semaine. Les pies reçoivent une rente de graines, à vie. Elles le méritent.
+reussite: La fleur est récupérée, après une poursuite à travers tout le bois. Le portail s'ouvre. Grimble passe. Il revient avec un pot de confiture de sa sœur.
+partielle: La fleur est abîmée pendant la poursuite. Le portail s'ouvre à moitié. Grimble parle à sa sœur à travers, pendant une heure. Il dit que c'est déjà ça.
+echec: Les pies gardent la fleur. Le portail reste fermé. Grimble écrit à sa sœur. La lettre met six mois à arriver, par un autre chemin.
+recompenses: po 60 ; reputation 3 ; objet Bottes 22
+
+=== BAN-L-006 | La maison de Norra
+source: privee
+region: bandle
+palier: locale
+type: exploration
+ton: mystere
+lieu: Maison de Norra
+demandeur: Tilda Couture, voisine de la maison de Norra, qui y a vu de la lumière pour la première fois depuis des années
+accroche: « La maison de Norra est vide depuis qu'elle a disparu. Hier soir, il y avait de la lumière à la fenêtre du grenier. Et de la musique. Une valse, très douce. Je suis allée frapper. Personne n'a répondu, mais la musique s'est arrêtée. Je n'ose pas entrer. Vous, peut-être. »
+postes: Mage
+duree: 5
+dangereuse: non
+epreuves: discretion 42 (entrer dans la maison sans déclencher les enchantements) ; diplomatie 44 (comprendre ce qui joue la valse)
+complication: C'est une boîte à musique enchantée par Norra, qui ne joue que quand quelqu'un pense très fort à elle, quelque part dans Runeterra. Quelqu'un pense très fort à elle, en ce moment.
+eclatante: {meneur} s'installe dans le grenier, près de la boîte, et écoute la valse jusqu'au bout. Elle rejoue trois fois cette nuit-là, et une fois la nuit suivante. Tilda vient l'écouter avec son tricot. Les yordles du quartier viennent aussi, le soir. Ils se disent que Yuumi, quelque part, pense à Norra. Ils ont sans doute raison.
+reussite: On trouve la boîte à musique, et on comprend comment elle marche. Tilda la laisse où elle est. Elle passe écouter, le soir, quand il y a de la lumière.
+partielle: On trouve la boîte, mais elle se tait dès qu'on entre. On n'en saura pas plus. Tilda continue de surveiller la fenêtre.
+echec: Les enchantements de la maison repoussent l'équipe. Tout le monde ressort en dansant la valse, sans pouvoir s'arrêter, pendant une heure. Tilda trouve ça charmant.
+recompenses: po 75 ; reputation 3 ; objet Tome d'amplification 20
+
+=== BAN-L-007 | L'inventeur et l'orage
+source: privee
+region: bandle
+palier: locale
+type: protection
+ton: drole
+lieu: La Clairière
+demandeur: Bobbin Gaufrette, inventeur, qui doit tester sa machine à mettre l'orage en bouteille pendant le prochain orage
+accroche: « Ma machine peut mettre un orage en bouteille. Théoriquement. L'orage arrive ce soir. Il faut quelqu'un pour tenir la machine pendant que je la règle. Et quelqu'un pour tenir la personne qui tient la machine. Et quelqu'un pour éteindre le feu, éventuellement. Probablement. »
+postes: Tank, Mage
+duree: 4
+dangereuse: non
+epreuves: siege 44 (tenir la machine dans le vent de l'orage) ; voyage 40 (récupérer la bouteille quand elle s'envole)
+complication: La machine marche. Le problème, c'est la bouteille : elle est trop petite pour l'orage, qui commence à en déborder.
+eclatante: {meneur} court chercher la grande cuve de la fontaine de la Clairière et la place sous la bouteille au moment où elle déborde. L'orage tout entier s'y loge, en grondant doucement. Bobbin a désormais un orage domestique. Il l'utilise pour arroser son jardin, et pour faire peur aux huissiers.
+reussite: Une partie de l'orage est mise en bouteille. Bobbin la garde sur sa cheminée. Elle tonne parfois la nuit. Il dort très bien.
+partielle: La bouteille se remplit d'un tout petit nuage, qui fait une toute petite pluie sur le bureau de Bobbin. Il est ravi. Ses papiers, moins.
+echec: La machine prend la foudre et s'envole dans les bois. On la retrouve le lendemain, accrochée à un arbre, qui a maintenant une petite tempête dans les branches.
+recompenses: po 65 ; reputation 3 ; objet Ceinture du géant 15
+
+=== BAN-L-008 | Trente ans sous l'Arbre
+source: privee
+region: bandle
+palier: locale
+type: escorte
+ton: tragique
+lieu: Arbre de Bandle
+demandeur: Ilia Bel, fille d'un mortel égaré à Bandle, qui l'a cherché pendant trente ans
+accroche: « Mon père est entré à Bandle quand j'avais six ans. Il voulait juste voir. Je l'ai cherché toute ma vie. On me dit qu'il est là, sous l'Arbre, qu'il n'a pas vieilli d'une journée, et qu'il croit être arrivé hier. J'ai trente-six ans. Je voudrais qu'on le ramène. Je ne sais pas comment le lui dire. »
+postes: Support, Healer
+duree: 6
+dangereuse: non
+epreuves: diplomatie 47 (annoncer la vérité au père sans le briser) ; voyage 42 (le faire sortir par l'Arbre jusqu'au monde matériel)
+complication: S'il sort, le temps le rattrapera : il vieillira de trente ans en une nuit. Il le sait. Les yordles le lui ont dit.
+eclatante: {meneur} fait parler Ilia et son père sous l'Arbre, toute une nuit. Il choisit de sortir quand même. Au matin, il a soixante-six ans, et les cheveux blancs. Il rit, et serre sa fille contre lui. Il dit qu'il a raté trente ans, mais qu'il a encore le temps d'en profiter. Il a le temps. Douze ans.
+reussite: Le père sort, et vieillit d'un coup. Il est sonné pendant des semaines. Puis il apprend à connaître sa fille, qui a l'âge d'être sa sœur. Ils s'y font.
+partielle: Le père refuse de sortir. Ilia reste une semaine à Bandle, avec lui. Elle repart, et revient tous les ans. Lui n'a vieilli que de quelques jours.
+echec: Le père refuse de croire ce qu'on lui dit, et s'enfuit dans les bois. Ilia repart seule. On le revoit parfois, sous l'Arbre, attendant sa petite fille de six ans.
+recompenses: po 95 ; reputation 4 ; objet Potion de soin 25
+
+=== BAN-L-009 | Les règles des éclaireurs
+source: privee
+region: bandle
+palier: locale
+type: diplomatie
+ton: politique
+lieu: Arche de pierre
+demandeur: le conseil des éclaireurs de Bandle, divisé sur la règle numéro deux cent quarante-sept
+accroche: « La règle 247 des éclaireurs dit : "Un éclaireur ne fuit jamais devant un escargot." Personne ne sait pourquoi. La moitié du conseil veut la supprimer. L'autre moitié dit qu'elle a été écrite pour une bonne raison. On se dispute depuis trois semaines. On a fait appel à un arbitre extérieur. Vous. »
+postes: Support
+duree: 5
+dangereuse: non
+epreuves: diplomatie 44 (arbitrer le conseil sans vexer personne) ; discretion 41 (retrouver l'origine de la règle dans les archives)
+complication: La règle a été écrite il y a deux cents ans, après qu'un escargot géant du bois a mis en fuite toute une patrouille. Il vit encore. Il est énorme.
+eclatante: {meneur} retrouve l'origine de la règle, et l'escargot avec, dans une clairière oubliée, plus grand qu'une maison. Le conseil des éclaireurs vient le voir en délégation. Personne ne fuit. L'escargot ne bouge pas. La règle est maintenue, à l'unanimité, et l'escargot nommé éclaireur honoraire. Il ne l'a jamais su.
+reussite: L'origine de la règle est retrouvée. Le conseil la maintient, par respect pour l'histoire. On grave l'escargot dans le registre.
+partielle: Le conseil vote pour une version modifiée : « Un éclaireur ne fuit jamais devant un escargot, sauf s'il est très gros. » Personne n'est satisfait. C'est le signe d'un bon compromis.
+echec: Le conseil se divise en deux confréries rivales d'éclaireurs. Elles patrouillent les mêmes bois, en s'ignorant. Les escargots, eux, n'ont rien remarqué.
+recompenses: po 50 ; reputation 3 ; objet Élixir de fer 25
+
+=== BAN-L-010 | Le crabe-dragon de la baignoire
+source: privee
+region: bandle
+palier: locale
+type: sauvetage
+ton: aventure
+lieu: Caverne des marées
+demandeur: les parents de deux jeunes yordles partis explorer la caverne des marées
+accroche: « Nos deux petits sont partis voir le portail de la caverne des marées. Ils voulaient voir les cercles runiques se remplir. La marée monte. La caverne se remplit avec. Ils ne sont pas revenus. Ils sont peut-être passés par le portail. Ou peut-être pas. »
+postes: Éclaireur, Tank
+duree: 6
+dangereuse: oui
+epreuves: voyage 46 (descendre dans la caverne pendant que la marée monte) ; poursuite 43 (atteindre les enfants avant que les cercles soient pleins)
+complication: Les enfants sont passés par le portail, et en sont revenus avec un ami : un petit crabe-dragon de l'autre côté, qui ne veut pas les quitter. Ils ne veulent pas le laisser.
+eclatante: {meneur} sort les deux yordles et le petit crabe-dragon juste avant que l'eau remplisse les cercles. Les parents pleurent, puis voient le crabe-dragon, puis pleurent encore, pour d'autres raisons. Il vit maintenant dans la baignoire de la famille. Il grandit. Ils vont devoir acheter une plus grande baignoire.
+reussite: Les enfants sont sortis à temps, trempés et ravis. Le crabe-dragon retourne de l'autre côté, avec le reflux. Les enfants vont lui dire bonjour à chaque marée.
+partielle: Un enfant sort tout de suite. L'autre passe une nuit de l'autre côté du portail, et revient à la marée suivante, en parlant une langue de crabe. Ça lui passe.
+echec: La marée remplit la caverne. Les enfants restent de l'autre côté. Ils reviennent à la marée suivante, une semaine plus tard pour eux, un mois pour Bandle. Ils ont grandi.
+recompenses: po 110 ; reputation 4 ; objet Potion rechargeable 18
+
+=== BAN-L-011 | La voix de Pomme Sifflet
+source: privee
+region: bandle
+palier: locale
+type: enquete
+ton: mystere
+lieu: Bois de Bandle
+demandeur: Pomme Sifflet, chanteuse, dont la voix a été volée par un collectionneur d'échos
+accroche: « J'ai chanté dans le bois, près du vieux chêne creux. L'écho m'a répondu. Puis il ne m'a pas rendu ma voix. Je parle, mais je ne chante plus. On dit qu'un collectionneur d'échos vit dans le chêne. Je voudrais ma voix. J'ai un concert dans six jours. »
+postes: Mage, Support
+duree: 5
+dangereuse: non
+epreuves: discretion 43 (entrer dans le chêne creux sans être soi-même collectionné) ; diplomatie 45 (négocier la voix avec le collectionneur)
+complication: Le collectionneur n'est pas méchant. Il est sourd depuis toujours, et les échos sont la seule chose qu'il entend. La voix de Pomme est la plus belle qu'il ait jamais eue.
+eclatante: {meneur} propose un marché au collectionneur : il rend la voix, et Pomme vient chanter pour lui une fois par semaine, dans le chêne. Il accepte en tremblant. Le concert de Pomme a lieu. Elle chante pour la salle, puis, le lendemain, pour le chêne. Le collectionneur pleure des échos de bonheur.
+reussite: La voix est rendue, après une longue négociation. Pomme chante à son concert. Elle chante un peu moins fort près des chênes, maintenant.
+partielle: Pomme récupère la moitié de sa voix : les notes graves. Elle chante en contralto. Le public trouve ça encore mieux.
+echec: Le collectionneur refuse. Pomme annule son concert. Elle apprend la flûte. Elle joue très bien. Elle chante, parfois, quand personne n'écoute, et ça revient lentement.
+recompenses: po 70 ; reputation 3 ; objet Cristal de saphir 18
+
+=== BAN-L-012 | Les bûcherons de Demacia
+source: institution
+region: bandle
+palier: locale
+type: defense
+ton: politique
+lieu: Arbre de Bandle
+demandeur: la Chambre des Bannières, qui a reçu une plainte de bûcherons mortels au pied de l'Arbre
+accroche: « Des bûcherons de Demacia coupent des arbres dans la forêt où pousse le pied de l'Arbre de Bandle, de notre côté du monde. Ils ne savent pas ce qu'ils touchent. S'ils abîment les racines, le passage entre Bandle et le monde matériel peut se fermer pour longtemps. Les yordles sont très inquiets. Les bûcherons, très têtus. »
+postes: Support, Tank
+duree: 8
+dangereuse: non
+epreuves: diplomatie 46 (convaincre les bûcherons d'arrêter de couper) ; siege 42 (protéger les racines pendant la discussion)
+complication: Les bûcherons ont un contrat signé du seigneur local, qui ne croit pas aux yordles et veut ce bois pour son nouveau château.
+eclatante: {meneur} emmène le seigneur au pied de l'Arbre, la nuit, au moment où les yordles traversent avec leurs lanternes. Il voit. Il ne dit rien pendant longtemps. Le chantier s'arrête le lendemain. Le seigneur construit son château en pierre, et fait garder la forêt par ses gardes, qui ne savent pas pourquoi. Les yordles lui envoient un chapeau.
+reussite: Les bûcherons arrêtent de couper près de l'Arbre, convaincus par un mélange de diplomatie et de peur. Le seigneur trouve du bois ailleurs. Les racines sont sauves.
+partielle: Les bûcherons arrêtent, mais deux racines ont été entamées. Le passage reste ouvert, mais grince. Les yordles le soignent avec des cataplasmes.
+echec: Les bûcherons continuent. Une racine principale est coupée. Le passage se ferme pendant un mois. Les yordles qui étaient dehors restent dehors. Ils écrivent beaucoup.
+recompenses: po 130 ; reputation 5 ; objet Bouclier de Doran 15
+
+=== BAN-L-013 | Le favori trop rapide
+source: privee
+region: bandle
+palier: locale
+type: protection
+ton: tendre
+lieu: La Clairière
+demandeur: le comité de la grande course des escargots de la Clairière, qui soupçonne un dopage
+accroche: « La grande course des escargots a lieu demain. Le favori a battu le record de l'an dernier de quarante minutes. C'est énorme, pour un escargot. On soupçonne un dopage magique. Il nous faut un jury indépendant, et quelqu'un pour garder les escargots cette nuit. Ils sont très précieux, et très lents à s'enfuir. »
+postes: Éclaireur
+duree: 4
+dangereuse: non
+epreuves: discretion 40 (surveiller les escargots toute la nuit) ; diplomatie 42 (prononcer le verdict sans déclencher une émeute)
+complication: Le favori n'est pas dopé. C'est un escargot de l'autre côté d'un portail, où le temps passe plus vite. Pour lui, la course est très lente.
+eclatante: {meneur} découvre l'origine de l'escargot, et propose de créer une catégorie spéciale : « escargots d'ailleurs ». Le favori gagne sa catégorie, seul. Les escargots locaux gagnent la leur. Tout le monde est content. Le favori retourne chez lui, par le portail, avec sa médaille. On dit qu'il est très célèbre de l'autre côté.
+reussite: Le favori est déclaré non dopé, et gagne. La foule est partagée. Le propriétaire offre une tournée de jus de pissenlit. La foule est réunie.
+partielle: Le favori est disqualifié, par précaution. On découvrira plus tard qu'il était innocent. Le comité s'excuse, l'année suivante.
+echec: Les escargots s'enfuient pendant la nuit. On les retrouve le lendemain, à dix mètres. La course a lieu avec trois heures de retard. Le favori gagne quand même.
+recompenses: po 45 ; reputation 2 ; objet Charme féerique 28
+
+=== BAN-L-014 | Les chapeaux de la fête
+source: privee
+region: bandle
+palier: locale
+type: livraison
+ton: drole
+lieu: Les Chemins bas
+demandeur: Madame Tric, chapelière, qui doit livrer cent chapeaux pour la fête des chapeaux avant demain matin
+accroche: « Cent chapeaux. Tous plus grands que leurs propriétaires. Ils doivent arriver à la fête de l'autre côté des Chemins bas avant le lever du soleil. Mon chariot s'est cassé. Mon assistant a démissionné. Le vent se lève. Il me faut des bras, et des têtes, si possible. »
+postes: Tank
+duree: 5
+dangereuse: non
+epreuves: voyage 43 (porter cent chapeaux à travers les Chemins bas) ; poursuite 41 (rattraper les chapeaux emportés par le vent)
+complication: Le vent n'est pas naturel : un portail vient de s'ouvrir sur un désert, et il souffle très fort sur les Chemins bas.
+eclatante: {meneur} fait porter les chapeaux sur les têtes de toute l'équipe, empilés, pour qu'ils ne s'envolent pas. L'équipe arrive à la fête coiffée de cent chapeaux, comme une procession. Les yordles croient que c'est un spectacle. Madame Tric reçoit trois cents commandes. Le portail du désert se referme, poliment.
+reussite: Les cent chapeaux arrivent, dont quatre-vingt-dix en bon état. Madame Tric répare les autres pendant la fête, en direct. C'est très apprécié.
+partielle: Soixante chapeaux arrivent. Les quarante autres sont retrouvés le lendemain dans le désert, de l'autre côté du portail. Des nomades shurimans les portent.
+echec: Le vent emporte presque tout. La fête a lieu tête nue, ce qui ne s'était jamais vu. Madame Tric en fait une collection : « Les chapeaux perdus ». Elle se vend très bien.
+recompenses: po 55 ; reputation 3 ; objet Ceinture du géant 20
+
+=== BAN-L-015 | Le vieux yordle et la guerre
+source: privee
+region: bandle
+palier: locale
+type: escorte
+ton: tendre
+lieu: Arbre de Bandle
+demandeur: Ollie Brindille, petit-fils d'un vieux yordle revenu de la guerre en Ionia, qui ne dort plus
+accroche: « Mon grand-père est revenu du monde des mortels il y a un an. Il a vu la guerre, en Ionia. Les yordles qui reviennent gardent leurs souvenirs. Lui, il en a trop. Il voudrait retourner une fois là-bas, voir que c'est fini. Il est très vieux, et les portails sont capricieux. »
+postes: Support, Mage
+duree: 10
+dangereuse: non
+epreuves: voyage 45 (trouver un portail qui mène en Ionia) ; diplomatie 43 (accompagner le vieux yordle dans le village qu'il a connu)
+complication: Le village qu'il a connu a été reconstruit, et ne le reconnaît pas. Sauf une vieille femme, qui était enfant pendant la guerre, et qu'il a cachée dans une cave.
+eclatante: {meneur} reste en retrait pendant que la vieille femme reconnaît le vieux yordle, au marché du village. Elle pose son panier. Ils se regardent, puis rient tous les deux, puis pleurent. Il dort, la nuit suivante, pour la première fois depuis un an. Il rentre à Bandle et raconte enfin son histoire. Elle a une fin, maintenant.
+reussite: Le vieux yordle voit le village reconstruit, en paix. Il rentre à Bandle apaisé. Il dort mieux. Pas toujours, mais mieux.
+partielle: On ne trouve pas le bon portail. On arrive dans un autre village d'Ionia, en paix. Le vieux yordle dit que c'est presque pareil. Il dort un peu mieux.
+echec: Le portail mène ailleurs, loin d'Ionia. Le vieux yordle rentre fatigué. Il dit que ce n'était pas le moment. Il écrit ses souvenirs à la place. Ça l'aide un peu.
+recompenses: po 105 ; reputation 4 ; objet Armure de tissu 18
+
+=== BAN-L-016 | Les champignons chanteurs du marché
+source: privee
+region: bandle
+palier: locale
+type: chasse
+ton: drole
+lieu: Bandle
+demandeur: les marchands du marché de Bandle, envahi par des champignons chanteurs
+accroche: « Des champignons chanteurs ont poussé partout sur le marché. Ils chantent tous la même chanson, très fort, très faux, en boucle. Les clients fuient. On ne peut pas les arracher : ils repoussent en chantant plus fort. On a essayé le silence. Ils ont chanté le silence. »
+postes: Mage, Healer
+duree: 4
+dangereuse: non
+epreuves: nuee 42 (contenir les champignons qui se multiplient) ; discretion 40 (trouver le champignon-mère qui leur donne la note)
+complication: Le champignon-mère n'a qu'une chanson, et il la chante faux parce qu'il n'a jamais entendu la vraie. Il suffirait de la lui chanter juste.
+eclatante: {meneur} trouve le champignon-mère sous l'étal du marchand de fromages, et lui chante la chanson juste, à voix basse. Tous les champignons se taisent, puis reprennent, juste, et doucement. Le marché est envahi d'un chœur parfait. Les clients reviennent pour l'écouter. Les marchands décident de garder les champignons. Ils montent les prix.
+reussite: Le champignon-mère est trouvé et déplacé dans le bois. Les autres se taisent un par un. Le marché retrouve son calme, et un peu d'ennui.
+partielle: Les champignons se taisent le jour, et chantent la nuit. Les marchands ont la paix. Les voisins, moins. Ils déménagent les uns après les autres.
+echec: Les champignons envahissent tout le quartier. On les entend jusqu'à l'Arbre. Ils se fanent d'eux-mêmes au bout d'un mois. Tout Bandle connaît la chanson par cœur. Faux.
+recompenses: po 50 ; reputation 2 ; objet Élixir de sorcellerie 20
+
+=== BAN-L-017 | Le livre qui mord encore
+source: privee
+region: bandle
+palier: locale
+type: recuperation
+ton: aventure
+lieu: Maison de Norra
+demandeur: Bruno Pelisse, bibliothécaire, qui veut récupérer un livre emprunté par Norra avant sa disparition
+accroche: « Norra a emprunté un livre il y a des années. Il n'est jamais revenu. Il est sans doute chez elle. C'est un livre qui mord, et qui grandit quand on ne le lit pas. Après tout ce temps, il doit être énorme. Et affamé. Et en retard de beaucoup. »
+postes: Combattant, Éclaireur
+duree: 5
+dangereuse: oui
+epreuves: discretion 44 (trouver le livre dans la maison de Norra) ; combat 43 (maîtriser le livre devenu très gros)
+complication: Le livre a mangé une partie de la bibliothèque de Norra, et dans ses pages, il y a une note qu'elle a laissée pour Yuumi.
+eclatante: {meneur} maîtrise le livre en lui lisant une histoire à voix haute, ce qui le fait rapetisser. Dans ses pages, on trouve la note de Norra. Bruno la recopie, et confie l'original au Livre des Seuils, par un portail. On ne sait pas s'il arrivera. Bruno récupère son livre, qui ne mord plus, et il pardonne le retard.
+reussite: Le livre est maîtrisé et rapporté, encore un peu grognon. Bruno le range en hauteur. Il le lit tous les soirs, pour qu'il reste petit.
+partielle: Le livre est rapporté, mais il a mordu tout le monde, et mangé un gant. Bruno le met en cage, à côté de son bureau. Il le lit à travers les barreaux.
+echec: Le livre s'enfuit par une fenêtre. On le voit parfois dans les bois, en train de manger des feuilles. Bruno dit qu'au moins il lit, à sa façon.
+recompenses: po 85 ; reputation 3 ; objet Tome d'amplification 18
+
+=== BAN-L-018 | Le duel de poésie du solstice
+source: privee
+region: bandle
+palier: locale
+type: diplomatie
+ton: tendre
+lieu: La Clairière
+demandeur: deux poètes yordles qui se disputent l'honneur de réciter le poème du solstice
+accroche: « Chaque solstice, un poète récite le grand poème à la Clairière. Cette année, nous sommes deux. Nous avons le même poème. Exactement le même. Chacun dit que l'autre l'a copié. Il nous faut un juge, et quelqu'un qui comprenne la poésie. Ou au moins qui fasse semblant. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 45 (départager les deux poètes) ; discretion 40 (découvrir qui a écrit le poème)
+complication: Ni l'un ni l'autre ne l'a copié. Ils l'ont écrit ensemble, il y a soixante ans, quand ils étaient amis. Ils l'ont oublié, tous les deux.
+eclatante: {meneur} retrouve le carnet où le poème est écrit de deux écritures, une ligne sur deux, et le montre aux deux poètes, qui se souviennent, lentement. Ils récitent le poème ensemble au solstice, une ligne chacun. Toute la Clairière pleure. Ils écrivent un deuxième poème, l'année suivante. Il est moins bon. Ils s'en fichent.
+reussite: Le duel est départagé à pile ou face, faute de mieux. Le perdant écoute le gagnant réciter, les yeux humides. Ils prennent un thé après, ensemble.
+partielle: Les deux poètes récitent en même temps, chacun de son côté de la Clairière. Ça fait un très bel écho. Personne ne gagne. Tout le monde applaudit.
+echec: Le duel tourne à la dispute. Le solstice se passe sans poème. Les deux poètes ne se parlent plus. Ils écrivent chacun un poème sur l'autre. Ils sont très bons.
+recompenses: po 45 ; reputation 3 ; objet Charme féerique 25
+
+=== BAN-L-019 | L'éclaireuse perdue
+source: privee
+region: bandle
+palier: locale
+type: sauvetage
+ton: tragique
+lieu: Les Chemins bas
+demandeur: le conseil des éclaireurs, dont une éclaireuse n'est pas revenue de sa patrouille dans les Chemins bas
+accroche: « L'éclaireuse Tamsin est partie il y a quatre jours pour une patrouille d'une journée. Elle connaît les Chemins bas par cœur. Elle n'est pas revenue. Un portail instable s'est ouvert sur son chemin, et s'est refermé. Il se rouvre cette nuit. C'est la seule chance. »
+postes: Éclaireur, Healer, Tank
+duree: 6
+dangereuse: oui
+epreuves: voyage 47 (passer le portail instable et en revenir) ; poursuite 44 (retrouver Tamsin de l'autre côté avant la fermeture)
+complication: De l'autre côté, Tamsin a vécu deux ans. Elle a construit une maison, et elle a quelqu'un. Elle ne sait pas si elle veut revenir.
+eclatante: {meneur} trouve Tamsin, et lui laisse le choix, sans pression. Elle revient, avec la personne qu'elle a rencontrée, qui veut voir Bandle. Le portail se referme derrière eux. Tamsin reprend sa place chez les éclaireurs. Elle ajoute une règle au registre : « Un éclaireur peut revenir avec quelqu'un. » Personne ne la conteste.
+reussite: Tamsin revient, sonnée, deux ans plus vieille qu'au départ. Elle ne parle pas de ce qu'elle a laissé. Elle patrouille près du portail, souvent.
+partielle: Tamsin choisit de rester de l'autre côté. Elle envoie un message par l'équipe. Les éclaireurs l'inscrivent au registre : « En mission permanente. »
+echec: L'équipe passe le portail, mais ne trouve pas Tamsin à temps. On revient de justesse. Le portail ne se rouvrira pas. Les éclaireurs laissent une lanterne allumée sur le chemin.
+recompenses: po 120 ; reputation 5 ; objet Potion rechargeable 20
+
+=== BAN-L-020 | Le maire contre le jardinier
+source: privee
+region: bandle
+palier: locale
+type: diplomatie
+ton: politique
+lieu: Bandle
+demandeur: Grandpré Mûre, jardinier, qui refuse que le maire construise une statue de lui-même dans son potager
+accroche: « Le maire veut une statue de lui-même. Grande. Il a choisi l'emplacement : mon potager. Il n'a aucun pouvoir, il le sait. Il a quand même fait venir les sculpteurs. Ils sont dans mes choux. Je voudrais qu'ils sortent de mes choux. »
+postes: Support
+duree: 5
+dangereuse: non
+epreuves: diplomatie 46 (convaincre le maire de changer d'emplacement) ; discretion 39 (comprendre pourquoi il tient tant à ce potager)
+complication: Le maire a grandi dans cette maison, avant Grandpré. Le potager était celui de sa mère. Il ne l'a jamais dit à personne.
+eclatante: {meneur} fait parler le maire, qui finit par avouer, ému, en tenant un chou. Grandpré l'invite à cultiver un coin du potager avec lui. Pas de statue : un carré de choux, avec un petit panneau au nom de sa mère. Le maire y passe tous les dimanches. Il porte son chapeau, et un tablier par-dessus.
+reussite: La statue est construite ailleurs, sur la place, plus petite. Le maire est content. Grandpré récupère ses choux, piétinés mais vivants.
+partielle: La statue est construite à moitié dans le potager, à moitié dans la rue. Elle penche. Les yordles l'appellent « le maire qui se penche sur les choux ».
+echec: La statue est construite au milieu du potager. Grandpré plante des haricots grimpants autour. En un an, on ne voit plus que le chapeau.
+recompenses: po 55 ; reputation 3 ; objet Élixir de fer 22
+
+=== BAN-L-021 | Les lucioles du portail
+source: privee
+region: bandle
+palier: locale
+type: exploration
+ton: mystere
+lieu: Portail du marais
+demandeur: Lina Rose, gardienne du portail du marais, qui a vu les lucioles du marais traverser le portail fermé
+accroche: « Les lucioles du marais passent à travers le portail. Il est fermé, il n'y a pas de fleur d'argent dans la boue. Elles passent quand même. Elles reviennent avec une lumière différente, plus blanche. Quelque chose les attend de l'autre côté. »
+postes: Mage, Éclaireur
+duree: 6
+dangereuse: non
+epreuves: discretion 42 (suivre les lucioles dans le marais la nuit) ; voyage 44 (passer le portail avec elles, sans fleur)
+complication: De l'autre côté, il y a un esprit de lumière qui a perdu sa propre lumière. Il se reconstitue luciole par luciole, en leur empruntant un peu de la leur.
+eclatante: {meneur} offre à l'esprit une lanterne allumée, puis une autre, puis toutes celles de la guilde. Il se reconstitue en une nuit, au lieu de cent. Il rend leur lumière aux lucioles, et repart vers les étoiles. Le marais brille plus fort que jamais. Lina Rose garde une lanterne vide à la fenêtre. Elle se rallume parfois toute seule.
+reussite: On découvre l'esprit, et on comprend. On le laisse faire. Les lucioles continuent leurs allers-retours, un peu moins brillantes. Lina dit que c'est pour la bonne cause.
+partielle: On suit les lucioles jusqu'au portail, mais on ne passe pas. On ne saura pas ce qu'il y a de l'autre côté. Lina fait des hypothèses. Elles sont toutes belles.
+echec: L'équipe se perd dans le marais et ressort couverte de boue à l'aube. Les lucioles continuent. Lina dit qu'elle préfère ne pas savoir, finalement.
+recompenses: po 80 ; reputation 3 ; objet Cristal de saphir 20
+
+=== BAN-L-022 | L'invention qui rapetisse
+source: privee
+region: bandle
+palier: locale
+type: recuperation
+ton: drole
+lieu: Arche de pierre
+demandeur: Gilbert Ressort, inventeur, dont la machine à rapetisser a rapetissé son atelier, puis a disparu dedans
+accroche: « Ma machine à rapetisser a marché. Trop bien. Elle a rapetissé mon atelier, qui tient maintenant dans une boîte d'allumettes. Puis elle s'est rapetissée elle-même, et elle est quelque part dans l'atelier. Il faut aller la chercher. Je vous rapetisse, vous entrez, vous la trouvez. Facile. »
+postes: Éclaireur, Tank
+duree: 5
+dangereuse: non
+epreuves: voyage 44 (traverser l'atelier rapetissé, où une vis est grande comme une maison) ; combat 41 (repousser la souris qui vit dans l'atelier)
+complication: La machine a rapetissé une souris en même temps que l'atelier. La souris est maintenant de la taille de l'équipe, et elle a faim.
+eclatante: {meneur} amadoue la souris avec une miette de fromage grande comme une barque, et la monte jusqu'à la machine. Gilbert inverse tout. L'atelier reprend sa taille, la souris aussi, et l'équipe aussi, presque : quelqu'un garde un centimètre de moins. Gilbert offre un tabouret, en dédommagement. Il est très confortable.
+reussite: La machine est retrouvée, et l'atelier regrandit. Gilbert jure de ne plus jamais rapetisser quoi que ce soit. Il rapetisse son chapeau, une semaine plus tard, par accident.
+partielle: L'atelier regrandit, mais à moitié. Gilbert travaille courbé. Il dit que c'est bon pour le dos. Ce n'est pas vrai.
+echec: La machine reste introuvable. L'atelier reste dans sa boîte d'allumettes. Gilbert en construit un nouveau. Il garde l'ancien sur sa cheminée. Parfois, la nuit, on entend la souris.
+recompenses: po 60 ; reputation 3 ; objet Élixir de fer 20
+
+=== BAN-L-023 | La patrouille de la marée
+source: institution
+region: bandle
+palier: locale
+type: protection
+ton: aventure
+lieu: Caverne des marées
+demandeur: la Chambre des Bannières, pour un groupe de mortels qui doit passer par la caverne des marées à la marée de demain
+accroche: « Six marchands de Bilgewater se sont retrouvés à Bandle par erreur. La seule sortie vers chez eux, c'est la caverne des marées, à la grande marée de demain. Il faut les y conduire, et les faire passer à temps. Ils ont des caisses. Beaucoup de caisses. Ils refusent de partir sans. »
+postes: Tank, Éclaireur
+duree: 6
+dangereuse: oui
+epreuves: voyage 45 (descendre dans la caverne avec les marchands et leurs caisses) ; siege 43 (tenir le passage pendant que l'eau monte)
+complication: Une des caisses contient un œuf de crabe-dragon volé de l'autre côté. Sa mère attend dans la caverne.
+eclatante: {meneur} remarque que la caisse bouge, l'ouvre, et rend l'œuf à la mère avant qu'elle n'attaque. Les marchands protestent, puis voient la taille de la mère. Ils ne protestent plus. Ils passent le portail à temps, avec les autres caisses. La mère crabe-dragon les regarde partir. Elle n'oubliera pas. Eux non plus.
+reussite: Les marchands passent le portail à temps, avec leurs caisses. On ne saura pas ce qu'il y avait dedans. On entend un cri derrière, longtemps.
+partielle: Les marchands passent, mais il faut abandonner la moitié des caisses. Ils sont furieux. Ils sont surtout chez eux.
+echec: La mère crabe-dragon bloque le passage. Les marchands ratent la marée. Ils restent un mois de plus à Bandle. Ils ouvrent une boutique. Elle marche très bien.
+recompenses: po 115 ; reputation 4 ; objet Bouclier de Doran 15
+
+=== BAN-L-024 | Le chêne qui raconte
+source: privee
+region: bandle
+palier: locale
+type: escorte
+ton: tendre
+lieu: Bois de Bandle
+demandeur: Mamie Brindefer, conteuse, qui veut amener les enfants de Bandle écouter le vieux chêne qui raconte
+accroche: « Le vieux chêne du bois raconte des histoires, une fois par an, la nuit de la première neige. C'est demain. Les enfants n'ont jamais entendu. Je suis trop vieille pour les mener seule à travers le bois, la nuit. Vingt enfants, une conteuse et un chêne. Il faut juste que tout le monde arrive, et reparte. »
+postes: Support, Tank
+duree: 5
+dangereuse: non
+epreuves: voyage 42 (mener vingt enfants à travers le bois de nuit) ; diplomatie 40 (les faire tenir tranquilles pendant que le chêne raconte)
+complication: Le chêne ne raconte que si on lui raconte d'abord une histoire. Mamie Brindefer l'a oublié. C'est sa mère qui le faisait.
+eclatante: {meneur} raconte une histoire au chêne, celle de la guilde, avec tous les héros dedans. Les enfants écoutent, captivés. Puis le chêne répond, et raconte toute la nuit. Au matin, les enfants rentrent en chantant. Mamie Brindefer note l'histoire de la guilde dans son carnet. Elle la raconte maintenant, avec des détails en plus.
+reussite: Le chêne raconte, après que Mamie Brindefer s'est souvenue de la règle. Les enfants écoutent jusqu'au bout. Deux s'endorment. Ils diront le contraire.
+partielle: Le chêne raconte une seule histoire, courte. Les enfants sont un peu déçus. Mamie Brindefer leur raconte le reste sur le chemin du retour.
+echec: Le chêne ne dit rien. Les enfants rentrent bredouilles. Mamie Brindefer leur raconte l'histoire du chêne qui ne raconte pas. C'est presque mieux.
+recompenses: po 55 ; reputation 3 ; objet Charme féerique 22
+
+=== BAN-L-025 | Le relais introuvable
+source: institution
+region: bandle
+palier: locale
+type: livraison
+ton: mystere
+lieu: Portail du marais
+demandeur: la Chambre des Bannières elle-même, qui doit faire parvenir un pli à son propre relais de Bandle
+accroche: « La Chambre a un relais à Bandle. Personne ne l'a jamais trouvé deux fois au même endroit. Nous avons un pli urgent à lui remettre. Le dernier messager est parti il y a un mois. Il nous écrit qu'il cherche toujours. Il a l'air heureux, ce qui est inquiétant. »
+postes: Éclaireur
+duree: 6
+dangereuse: non
+epreuves: poursuite 44 (suivre le relais qui change de place) ; diplomatie 41 (convaincre le relais d'accepter le pli)
+complication: Le relais bouge parce qu'il est installé sur le dos d'une tortue géante du marais, qui se promène. Le relayeur dort dedans. Il ne le sait pas.
+eclatante: {meneur} rattrape la tortue, monte sur son dos, et frappe à la porte du relais. Le relayeur ouvre, en pyjama. Il découvre qu'il habite sur une tortue. Il trouve ça formidable. Le pli est remis. Le messager perdu est retrouvé, assis sur une autre tortue, très heureux. Il refuse de rentrer. La Chambre l'inscrit comme deuxième relais.
+reussite: Le relais est trouvé, et le pli remis. Le relayeur signe un reçu, très surpris de recevoir du courrier. Il en reçoit tous les dix ans.
+partielle: Le relais est trouvé, mais le relayeur est absent. On glisse le pli sous la porte. On ne sait pas s'il le trouvera. Il le trouve, un an plus tard.
+echec: On ne trouve pas le relais. On retrouve le messager perdu, qui se joint à l'équipe pour chercher. Il est toujours là. Il cherche encore.
+recompenses: po 70 ; reputation 3 ; objet Bottes 22

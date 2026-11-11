@@ -1,0 +1,504 @@
+# Targon · palier Locale · lot 1 (missions 001 à 025) · 11 nov. 2026
+# Palier Locale : les affaires d'une tribu, d'un camp de grimpeurs, d'un observatoire. Les temples ne demandent rien à personne.
+# {meneur} : le héros qui a mené l'épreuve décisive. Aucun accord de genre sur {meneur}.
+
+=== TAR-L-001 | La cordée de Hessa
+source: privee
+region: targon
+palier: locale
+type: sauvetage
+ton: tragique
+lieu: Pentes supérieures
+demandeur: Odrin Vael, guide de montagne, dont la cordée n'est pas redescendue
+accroche: « J'ai emmené cinq grimpeurs jusqu'au Bosquet astral. Trois ont voulu continuer. Je les ai laissés, c'est leur droit, c'est la règle. Ça fait quatre jours. La plus jeune, Hessa, a dix-neuf ans. Sa mère est en bas. Elle ne m'a pas encore regardé. »
+postes: Éclaireur, Healer, Tank
+duree: 14
+dangereuse: oui
+epreuves: voyage 51 (monter dans l'air rare des pentes supérieures) ; poursuite 44 (retrouver la cordée avant la tempête)
+complication: Hessa n'est pas perdue. Elle a eu une vision au-dessus du Bosquet et refuse de redescendre. Les deux autres restent avec elle, gelés, parce qu'ils ne veulent pas l'abandonner.
+eclatante: {meneur} ne force pas Hessa. On monte une tente, on chauffe de l'eau, on attend que la vision passe. Elle passe au troisième soir. Hessa redescend sur ses jambes, avec les deux autres. Au pied de la montagne, sa mère la prend dans ses bras, puis regarde Odrin, enfin. Elle hoche la tête.
+reussite: Les trois grimpeurs sont redescendus, les mains gelées, vivants. Hessa ne parle pas de ce qu'elle a vu. Elle dit qu'elle remontera. Sa mère dit que non.
+partielle: On ramène les deux garçons. Hessa refuse de descendre et continue seule vers le haut. On ne la revoit pas. Sa mère fait la cérémonie d'adieu sans elle.
+echec: La tempête bloque l'équipe au Bosquet. On redescend sans la cordée. Au printemps, des Rakkors trouvent trois silhouettes dans la pierre des Motifs des morts.
+recompenses: po 170 ; reputation 6 ; objet Potion rechargeable 20
+
+=== TAR-L-002 | Le chef qui ne voulait pas perdre
+source: privee
+region: targon
+palier: locale
+type: diplomatie
+ton: drole
+lieu: Grottes rakkors
+demandeur: les anciennes des Grottes rakkors, fatiguées des duels de leur chef
+accroche: « Notre chef provoque en duel tout ce qui bouge pour prouver sa valeur. Hier, c'était un erbok. Le jour d'avant, un rocher. Il a gagné contre le rocher. Il est très fier. Il faut que quelqu'un le batte, gentiment, avant qu'il provoque un bolor. »
+postes: Combattant
+duree: 5
+dangereuse: non
+epreuves: combat 46 (accepter le duel du chef et le gagner sans l'humilier) ; diplomatie 42 (lui faire accepter la défaite devant la tribu)
+complication: Le chef provoque tout le monde parce que sa fille part bientôt faire l'ascension, et qu'il a peur pour elle. Il n'arrive pas à le dire.
+eclatante: {meneur} gagne le duel, puis s'assoit avec le chef au lieu de célébrer. Il finit par parler de sa fille, la voix cassée. Le soir, il l'accompagne lui-même jusqu'aux Seuils anciens, pour la cérémonie d'adieu. Il ne provoque plus personne. Il grave la valeur de sa fille sur le mur, à côté de la sienne.
+reussite: Le chef perd le duel et accepte la défaite, en grognant. Il arrête de provoquer les rochers. Il garde une rancune polie envers la guilde, qu'il appelle « mon adversaire ».
+partielle: Le chef perd, et refuse de l'admettre. Il demande une revanche tous les jours. Les anciennes servent du thé fort à toute la guilde, en s'excusant.
+echec: Le chef gagne le duel. Encouragé, il part provoquer un bolor. On le ramène avec une jambe cassée. Les anciennes ne disent rien. Elles ont l'air d'avoir prévu ça.
+recompenses: po 70 ; reputation 3 ; objet Élixir de fer 22
+
+=== TAR-L-003 | L'hérétique des Plaines basses
+source: privee
+region: targon
+palier: locale
+type: escorte
+ton: politique
+lieu: Plaines basses
+demandeur: une bergère des Plaines basses qui ne donne pas son nom, et qui cache un homme chez elle
+accroche: « J'ai un homme dans ma grange. Il prie la lune. Les Solaris le cherchent. Il doit passer de l'autre côté des plaines avant que leurs patrouilles arrivent. Moi, je ne prie rien du tout. Je trouve juste que personne ne devrait mourir pour une prière. »
+postes: Éclaireur, Assassin
+duree: 9
+dangereuse: oui
+epreuves: discretion 48 (traverser les plaines sans croiser les patrouilles solaris) ; poursuite 43 (semer les patrouilles quand elles retrouvent la piste)
+complication: L'homme n'est pas Lunari. Il est fou, et prie tout ce qui brille. Mais pour les Solaris, la différence ne compte pas.
+eclatante: {meneur} fait passer l'homme par les troupeaux d'ibiks, la nuit, cachés au milieu des bêtes. Les patrouilles ne voient que des ibiks. Il arrive au camp des bergers de l'autre côté, qui l'accueillent et lui confient les tamus. Il prie les tamus maintenant. Les tamus ne s'en plaignent pas.
+reussite: L'homme passe les plaines et disparaît dans les collines. La bergère ne sera pas inquiétée. Les patrouilles cherchent encore, sans conviction.
+partielle: L'homme passe, mais la bergère est dénoncée par un voisin. Elle doit quitter les Plaines basses avec ses bêtes. Elle part sans un mot de regret.
+echec: Les patrouilles rattrapent l'homme au gué. Il est emmené au Temple du Solstice. On n'en entend plus parler. La bergère ferme sa grange à clé.
+recompenses: po 140 ; reputation 4 ; objet Cape de négation 15
+
+=== TAR-L-004 | Le télescope de la Matrice
+source: privee
+region: targon
+palier: locale
+type: livraison
+ton: drole
+lieu: Matrices du zénith
+demandeur: Magistre Orbel, astronome de la Matrice du zénith, qui attend une lentille commandée à Piltover depuis deux ans
+accroche: « Ma lentille est arrivée au pied de la montagne. Elle fait un mètre de diamètre, elle pèse le poids d'un âne, et elle est en verre. Le porteur que j'avais engagé a vu la caisse et s'est enfui. La comète passe dans neuf jours. Je ne verrai pas une deuxième comète dans ma vie. »
+postes: Tank
+duree: 12
+dangereuse: non
+epreuves: voyage 47 (monter la caisse jusqu'à la Matrice par les sentiers) ; poursuite 40 (rattraper la caisse quand elle glisse sur la corniche)
+complication: La caisse contient deux lentilles : Piltover a envoyé la commande en double par erreur. Le Magistre ne le sait pas, et la deuxième est pour un observatoire rival.
+eclatante: {meneur} monte les deux lentilles, en deux voyages, et livre la seconde à l'observatoire rival. Les deux astronomes, qui ne se parlaient plus depuis trente ans, observent la comète ensemble et comparent leurs notes. Ils publient à quatre mains. Ils se disputent sur chaque virgule, avec bonheur.
+reussite: La lentille arrive intacte, à temps. Magistre Orbel observe la comète toute la nuit. Il envoie un dessin à la guilde. Elle est très belle, et très floue.
+partielle: La lentille arrive avec une fêlure. Le Magistre observe la comète quand même, à travers la fêlure. Il dit qu'elle a deux queues. Il en est sûr.
+echec: La caisse tombe dans un ravin. Le Magistre regarde la comète à l'œil nu. Il dit que c'était quand même très beau. Il commande une autre lentille. Elle arrivera dans deux ans.
+recompenses: po 95 ; reputation 3 ; objet Ceinture du géant 12
+
+=== TAR-L-005 | Les erboks de la saison des amours
+source: privee
+region: targon
+palier: locale
+type: protection
+ton: drole
+lieu: Anneau de la Montagne
+demandeur: les familles de l'Anneau de la Montagne, dont le village est assiégé par un erbok en rut
+accroche: « C'est la saison des amours, et le grand erbok blanc a décidé que notre village était son rival. Il charge les maisons, les portes, les gens. Il a cassé quatre clôtures et un mariage. On ne peut pas le tuer : c'est le père de la moitié du troupeau. »
+postes: Tank, Support
+duree: 6
+dangereuse: oui
+epreuves: siege 44 (tenir les portes du village contre les charges) ; poursuite 42 (éloigner l'erbok jusqu'aux hauts pâturages)
+complication: L'erbok ne charge pas le village : il charge son reflet dans le grand bouclier de bronze qu'on vient d'accrocher sur la place, pour la fête de la récolte.
+eclatante: {meneur} décroche le bouclier, et l'erbok s'arrête net au milieu de la place. Il renifle, cherche son rival, ne le trouve pas, et retourne paisiblement au troupeau. Le village décide de retourner le bouclier vers le mur jusqu'à la fin de la saison. Le mariage est refait. Le marié porte une tête de casque.
+reussite: L'erbok est mené jusqu'aux hauts pâturages, à grand-peine. Il ne revient pas avant la fin de la saison. Le village répare ses clôtures en chantant.
+partielle: L'erbok est éloigné, mais revient deux fois. On garde les portes fermées pendant un mois. Les enfants passent par les fenêtres.
+echec: L'erbok défonce la porte de la grange et la moitié du troupeau s'échappe. On passe une semaine à rattraper les bêtes. Le grand erbok, lui, rentre seul, l'air content.
+recompenses: po 60 ; reputation 3 ; objet Bouclier de Doran 18
+
+=== TAR-L-006 | La lame de la grand-mère Kova
+source: privee
+region: targon
+palier: locale
+type: recuperation
+ton: tendre
+lieu: Motifs des morts
+demandeur: Kova, rakkor de quatre-vingt-dix ans, qui veut récupérer la lame de sa sœur morte sur la montagne
+accroche: « Ma sœur est morte sur la montagne il y a soixante ans. Les grimpeurs disent qu'on voit sa silhouette dans la pierre, aux Motifs des morts. Sa lame est encore dans sa main. Je voudrais la graver sur notre mur, avec son nom. Avant de rejoindre ma sœur, d'une manière ou d'une autre. »
+postes: Éclaireur, Combattant
+duree: 14
+dangereuse: oui
+epreuves: voyage 52 (monter jusqu'aux crêtes des Motifs des morts) ; discretion 42 (retrouver la bonne silhouette parmi les autres)
+complication: La lame ne peut pas être détachée de la pierre sans briser la main de la morte. Il faut choisir : la lame, ou laisser la sœur entière.
+eclatante: {meneur} ne prend pas la lame. On en dessine le motif, la garde, chaque entaille, et on rapporte un éclat de la pierre où repose la sœur. Kova grave le motif sur le mur des grottes, avec l'éclat incrusté au milieu. Elle dit que c'est mieux : sa sœur garde son arme, et la famille garde son souvenir.
+reussite: La lame est ramenée, intacte. Kova la grave et l'accroche au mur. Elle pleure, puis rit, en racontant les bêtises de sa sœur à vingt ans.
+partielle: On trouve la silhouette, mais pas la lame : la pierre l'a recouverte. On rapporte une description. Kova grave ce qu'elle peut.
+echec: L'équipe est repoussée par le froid avant les crêtes. Kova attend. Elle grave le nom de sa sœur seul, sans la lame, une semaine avant de mourir.
+recompenses: po 160 ; reputation 5 ; objet Épée longue 18
+
+=== TAR-L-007 | Les bolors du col
+source: institution
+region: targon
+palier: locale
+type: chasse
+ton: aventure
+lieu: Seuils anciens
+demandeur: la Chambre des Bannières, pour les tribus qui commercent par le col des Seuils anciens
+accroche: « Une famille de bolors s'est installée au col. Trois adultes, et des petits. Depuis, plus aucune caravane ne passe les Seuils. Les tribus de l'autre côté manquent de sel, et celles d'ici de laine. Les guerriers rakkors refusent d'y aller : ils disent que les bolors sont un signe, et qu'il ne faut pas les combattre en saison. »
+postes: Combattant, Tank, Tireur
+duree: 10
+dangereuse: oui
+epreuves: combat 50 (affronter les bolors adultes sur la pente) ; voyage 44 (franchir le col enneigé)
+complication: Les bolors ne sont pas là par choix : une avalanche a bouché leur caverne habituelle, plus haut. Ils retourneront chez eux si on la dégage.
+eclatante: {meneur} grimpe jusqu'à l'ancienne caverne et dégage l'entrée avec l'aide de deux guerriers rakkors, qui disent que ce n'est pas combattre, donc que c'est permis. Le lendemain, la famille de bolors remonte. Le col est libre. Les Rakkors gravent l'histoire, en se donnant le beau rôle.
+reussite: Les bolors sont chassés du col, deux blessés, aucun tué. Les caravanes repassent. Les Rakkors grommellent, mais achètent le sel.
+partielle: Les bolors sont repoussés, mais restent à proximité. Les caravanes passent en groupe, armées. Le commerce reprend, plus cher.
+echec: Les bolors repoussent l'équipe. Le col reste fermé jusqu'à l'été. Les tribus se rationnent. Les Rakkors disent qu'ils avaient prévenu.
+recompenses: po 165 ; reputation 5 ; objet Lame de Doran 16
+
+=== TAR-L-008 | La pluie d'étoiles
+source: privee
+region: targon
+palier: locale
+type: exploration
+ton: mystere
+lieu: Source des étoiles
+demandeur: Lomé, bergère de stellacornes, dont le troupeau s'est enfui vers les hauteurs après une pluie d'étoiles
+accroche: « Une pluie d'étoiles est tombée sur le pâturage cette nuit. Mes stellacornes ont couru vers le haut, toutes, comme appelées. Elles ne font jamais ça. Je ne peux pas monter si haut sans aide. Et je voudrais savoir ce qui les a appelées. »
+postes: Éclaireur, Mage
+duree: 12
+dangereuse: non
+epreuves: voyage 48 (suivre le troupeau dans la neige) ; discretion 41 (approcher le troupeau sans le faire fuir)
+complication: Les stellacornes se sont rassemblées autour d'un fragment de comète tombé dans la neige. Il est encore tiède, et il chante.
+eclatante: {meneur} reste toute une nuit avec le troupeau, autour du fragment. À l'aube, il cesse de chanter, et les stellacornes redescendent d'elles-mêmes. Lomé rapporte le fragment éteint au village. Les enfants s'assoient autour le soir pour écouter s'il recommence. Il recommence une fois, à la pleine lune.
+reussite: Le troupeau est ramené au pâturage. On a vu le fragment, on n'y a pas touché. Lomé dit que c'est mieux. Elle regarde le ciel plus souvent.
+partielle: La moitié du troupeau redescend. L'autre reste près du fragment, plus haut. Lomé monte les voir une fois par semaine.
+echec: L'équipe ne retrouve pas le troupeau dans la tempête. Les stellacornes redescendent seules, un mois plus tard, plus maigres et plus brillantes.
+recompenses: po 130 ; reputation 4 ; objet Cristal de saphir 18
+
+=== TAR-L-009 | Le traité du sel
+source: institution
+region: targon
+palier: locale
+type: diplomatie
+ton: politique
+lieu: Grottes rakkors
+demandeur: la Chambre des Bannières, pour deux tribus rakkors qui se disputent un gisement de sel
+accroche: « Deux tribus, un gisement, et trois guerriers morts en deux mois. Pour les Rakkors, le combat est une prière : ils pourraient prier comme ça pendant des générations. Les anciens des deux tribus acceptent de se parler, à condition que ce soit dans une grotte neutre, avec des étrangers comme témoins. »
+postes: Support, Combattant
+duree: 9
+dangereuse: non
+epreuves: diplomatie 50 (faire signer un partage du gisement) ; combat 43 (tenir le duel rituel qui doit sceller l'accord)
+complication: Chaque tribu exige un duel pour sceller l'accord, et chacune veut que son champion gagne. Si quelqu'un perd, la guerre reprend.
+eclatante: {meneur} propose que les deux champions affrontent ensemble un champion étranger : celui de la guilde. Ils acceptent, en riant. Le duel dure longtemps, et finit par terre, à trois, épuisés. Les deux tribus gravent le même récit sur leurs deux murs. Le gisement est partagé, et les deux champions deviennent amis.
+reussite: L'accord est signé, le duel se termine par une égalité arrangée. Les tribus partagent le gisement, chacune une semaine sur deux.
+partielle: L'accord est signé pour une saison. Le duel est reporté. On le reportera encore, aussi longtemps que possible.
+echec: Le duel tourne mal. Un champion est blessé, et l'autre tribu crie victoire. La guerre reprend au printemps.
+recompenses: po 150 ; reputation 6 ; objet Élixir de rage 14
+
+=== TAR-L-010 | Le pont de corde du Solstice
+source: privee
+region: targon
+palier: locale
+type: protection
+ton: aventure
+lieu: Temple du Solstice
+demandeur: Venn Torrak, cordier qui entretient les ponts de corde sur la route du Temple du Solstice
+accroche: « Quelqu'un coupe mes ponts. Trois fois ce mois-ci. Le dernier a lâché avec deux pèlerins dessus. On les a rattrapés par miracle. Les Solaris disent que ce sont des hérétiques. Je ne sais pas qui c'est. Je sais que mes ponts tiennent, et que quelqu'un veut qu'ils tombent. »
+postes: Éclaireur, Tank
+duree: 8
+dangereuse: oui
+epreuves: discretion 45 (guetter les ponts plusieurs nuits) ; poursuite 46 (rattraper le saboteur sur les corniches)
+complication: Le saboteur est un ancien novice solaris, chassé du temple. Il coupe les ponts pour que les pèlerins ne puissent plus monter, parce qu'il a vu ce qu'on y fait aux hérétiques.
+eclatante: {meneur} rattrape l'ancien novice sur une corniche, et l'écoute. On ne le livre pas au temple : on le confie à Venn, qui l'embauche comme cordier. Il connaît les ponts mieux que personne. Il les répare maintenant. Les pèlerins montent, et lui reste en bas, à nouer de la corde.
+reussite: Le saboteur est arrêté et remis aux gardes. Les ponts tiennent. Venn dort mieux. Il ne sait pas ce qu'est devenu le saboteur, et préfère ne pas le savoir.
+partielle: Le saboteur s'enfuit. Il ne coupe plus de ponts, mais on trouve des avertissements gravés sur les poteaux. Les pèlerins les lisent, et certains redescendent.
+echec: Un pont est coupé pendant la surveillance. Personne dessus, cette fois. Venn renforce tout en double. Les sabotages s'arrêtent d'eux-mêmes, un mois plus tard.
+recompenses: po 140 ; reputation 5 ; objet Bottes 16
+
+=== TAR-L-011 | Les cendres du Lunari
+source: privee
+region: targon
+palier: locale
+type: livraison
+ton: tendre
+lieu: Temple des Lunaris
+demandeur: une vieille femme qui se présente comme « une amie de la lune », et qui porte une urne
+accroche: « Mon mari priait la lune. Il est mort hier, dans son lit, de vieillesse. C'est rare, chez nous. Il voulait que ses cendres reposent au temple caché. Je ne connais pas le chemin. Je sais seulement qu'il faut y aller la nuit, et ne le dire à personne. »
+postes: Éclaireur
+duree: 9
+dangereuse: oui
+epreuves: discretion 47 (trouver le chemin du temple caché sans attirer les Solaris) ; voyage 43 (monter de nuit, sans lumière)
+complication: Le chemin du temple ne s'ouvre qu'à la lumière de la lune. Cette nuit, il y a des nuages.
+eclatante: {meneur} attend avec la vieille femme, sur une pierre, que les nuages s'écartent. Ils s'écartent à quatre heures. Le chemin apparaît, argenté. Au temple, une Lunari voilée reçoit l'urne, et pose la main sur la tête de la vieille femme. Elle redescend légère. Elle dit qu'elle reviendra, plus tard. Pour de bon.
+reussite: L'urne est déposée au temple, avant l'aube. La vieille femme redescend sans un mot, apaisée. Elle ne dira jamais à personne où elle est allée.
+partielle: On trouve le chemin, mais pas le temple. On disperse les cendres au clair de lune, sur la crête la plus proche. La vieille femme dit que c'est presque pareil.
+echec: Une patrouille solaris croise l'équipe. On fait demi-tour. La vieille femme garde l'urne chez elle, sur la fenêtre qui donne sur la lune.
+recompenses: po 110 ; reputation 4 ; objet Charme féerique 20
+
+=== TAR-L-012 | Le tournoi des Rakkors
+source: privee
+region: targon
+palier: locale
+type: protection
+ton: drole
+lieu: Anneau de la Montagne
+demandeur: le comité du grand tournoi de l'Anneau, qui manque de juges impartiaux
+accroche: « Chaque année, notre tournoi finit en bagarre générale. Les juges sont tous de la famille de quelqu'un. Cette année, on a décidé d'engager des étrangers. Il faut juste survivre trois jours de combats, de chants et d'accusations de tricherie. Et ne jamais, jamais goûter la bière de Grand-père Ul. »
+postes: Support
+duree: 7
+dangereuse: non
+epreuves: diplomatie 46 (arbitrer les combats sans déclencher une guerre de clans) ; combat 40 (séparer la bagarre générale du dernier soir)
+complication: La bière de Grand-père Ul est si forte qu'elle fait voir les ancêtres. Les combattants en boivent avant la finale pour avoir leur bénédiction.
+eclatante: {meneur} fait remplacer la bière de la finale par de l'eau de source, sans le dire à personne. La finale est la plus propre depuis vingt ans. Les combattants disent avoir vu leurs ancêtres quand même. Grand-père Ul est vexé, puis fier, puis ivre. Le comité veut engager la guilde pour dix ans.
+reussite: Le tournoi se termine avec deux bagarres au lieu de quinze. Le comité est ravi. Les juges étrangers sont invités à rester boire. Ils refusent poliment.
+partielle: Le tournoi se termine en bagarre générale, comme chaque année, mais au dernier soir seulement. Le comité dit que c'est un progrès historique.
+echec: La bagarre commence au premier jour. Le tournoi est annulé au deuxième. Les clans se réconcilient au troisième, autour de la bière de Grand-père Ul. Personne ne s'en souvient.
+recompenses: po 75 ; reputation 3 ; objet Élixir de fer 25
+
+=== TAR-L-013 | Le lac qui a craqué
+source: privee
+region: targon
+palier: locale
+type: enquete
+ton: horreur
+lieu: Lac gelé
+demandeur: Tavik Morr, guide du Lac gelé, qui a entendu la glace craquer pour la première fois de sa vie
+accroche: « Le lac est gelé depuis des milliers d'années. Hier, il a craqué. Un grand bruit, une fissure de cent pas. Sous la glace, j'ai vu un visage. Il me regardait. J'ai couru. Je ne cours jamais. »
+postes: Mage, Éclaireur
+duree: 10
+dangereuse: oui
+epreuves: voyage 46 (atteindre le lac par les corniches gelées) ; discretion 44 (approcher la fissure sans la faire s'agrandir)
+complication: Le visage est celui d'un Aspect déchu, enfermé sous la glace il y a des siècles. Il se réveille à mesure que le lac fond, et il ne veut pas qu'on le regarde.
+eclatante: {meneur} fait recouvrir la fissure de neige tassée et de pierres, sans jamais regarder dedans. Le lac se referme en trois jours de froid. Tavik plante un cairn au bord, avec une inscription en trois langues : « Ne regardez pas sous la glace. » Les grimpeurs obéissent. La plupart.
+reussite: La fissure est explorée et le visage aperçu, puis la glace se referme toute seule. Tavik ne guide plus personne au lac. Il dit qu'il a vu les yeux bouger.
+partielle: La fissure reste ouverte. On ne s'approche plus du lac. Les grimpeurs prennent un autre chemin, plus long et plus dangereux. Personne ne le regrette.
+echec: La glace cède sous l'équipe. On s'en sort de justesse, trempé jusqu'aux os, à des heures de tout feu. Tavik ne parle plus du lac. Il déménage dans la vallée.
+recompenses: po 155 ; reputation 5 ; objet Tome d'amplification 16
+
+=== TAR-L-014 | Les sculptures divines
+source: privee
+region: targon
+palier: locale
+type: exploration
+ton: mystere
+lieu: Sculptures divines
+demandeur: Dame Iselle Varr, sculptrice venue de Demacia, qui veut voir les sculptures divines avant de mourir
+accroche: « On dit que les rochers d'altitude ont été sculptés par les dieux eux-mêmes. Je sculpte depuis cinquante ans, et je n'ai jamais rien fait de vrai. Je veux voir comment les dieux tiennent le ciseau. Je paierai bien. Je suis riche et je n'ai personne à qui laisser mon argent. »
+postes: Healer, Éclaireur
+duree: 14
+dangereuse: oui
+epreuves: voyage 52 (monter une femme âgée jusqu'aux sculptures, dans l'hiver éternel) ; poursuite 38 (redescendre avant la tempête)
+complication: Les sculptures ne sont pas l'œuvre des dieux. Ce sont des grimpeurs qui, depuis des siècles, sculptent un détail chacun, avant de continuer ou de redescendre.
+eclatante: {meneur} montre à Dame Iselle les marques de ciseaux humains, des milliers, de toutes les époques. Elle pleure de joie. Elle sculpte un détail, elle aussi : une petite main, au pied d'un visage géant. Elle redescend, rentre à Demacia, et fonde une école de sculpture pour les enfants pauvres, avec tout son argent.
+reussite: Dame Iselle voit les sculptures et redescend éblouie. Elle ne sculpte plus jamais. Elle dit qu'elle n'a plus besoin.
+partielle: La tempête oblige à redescendre avant les sculptures. Dame Iselle les a vues de loin. Elle dit que c'est suffisant, et c'est faux.
+echec: Dame Iselle tombe malade de l'altitude. On la redescend d'urgence. Elle guérit, et rentre à Demacia sans avoir rien vu. Elle laisse son argent à la guilde, par testament, dix ans plus tard.
+recompenses: po 175 ; reputation 5 ; objet Potion rechargeable 22
+
+=== TAR-L-015 | L'apprentie de la forge rakkor
+source: privee
+region: targon
+palier: locale
+type: recuperation
+ton: tendre
+lieu: Seuils anciens
+demandeur: Brenna, apprentie forgeronne rakkor, qui doit rapporter du métal des Seuils pour forger sa première lame
+accroche: « Pour forger ma première lame, la coutume dit qu'il faut du métal des Seuils anciens. Les portes de pierre en sont faites. On a le droit d'en gratter un peu, une fois dans sa vie. Le problème, c'est que les Seuils sont gardés par un ancien qui ne laisse passer personne qui n'a pas de lame. »
+postes: Combattant
+duree: 6
+dangereuse: non
+epreuves: diplomatie 43 (convaincre le vieux gardien) ; voyage 41 (escalader le Seuil jusqu'au métal le plus pur)
+complication: Le vieux gardien est le maître forgeron qui a refusé de prendre Brenna comme apprentie, il y a deux ans. Il la teste.
+eclatante: {meneur} prête sa propre lame à Brenna pour qu'elle passe. Le vieux gardien rit, la laisse passer, puis la suit jusqu'au métal. Il lui montre où gratter. Brenna forge sa lame en dix jours, sous ses yeux. Il la prend comme apprentie. Elle grave le nom de la guilde sur la garde.
+reussite: Brenna rapporte son métal, après une longue discussion avec le gardien. Sa première lame est tordue. Elle la garde quand même, au-dessus de son lit.
+partielle: Brenna rapporte un peu de métal, pas assez pour une lame. Elle forge un couteau. Elle dit que c'est un début.
+echec: Le gardien ne laisse pas passer. Brenna repart sans métal. Elle reviendra l'année prochaine, avec une meilleure réponse.
+recompenses: po 65 ; reputation 3 ; objet Pioche 18
+
+=== TAR-L-016 | La caravane du solstice
+source: institution
+region: targon
+palier: locale
+type: escorte
+ton: aventure
+lieu: Plaines basses
+demandeur: la Chambre des Bannières, pour une caravane de voyageurs venus faire l'ascension au solstice
+accroche: « Cent vingt voyageurs de tout Runeterra arrivent pour l'ascension du solstice. Des Ioniens, des Demaciens, deux Noxiens et un yordle qui jure avoir été invité. Il faut les mener jusqu'aux Seuils sans perte, sans bagarre, et sans que le yordle se fasse manger par un prédateur ailé. »
+postes: Support, Tireur, Éclaireur
+duree: 12
+dangereuse: oui
+epreuves: voyage 45 (mener la caravane à travers les plaines) ; combat 44 (repousser les prédateurs ailés au passage du ravin)
+complication: Les deux Noxiens ne viennent pas pour l'ascension. Ils cartographient la route pour une future expédition militaire.
+eclatante: {meneur} surprend les Noxiens avec leurs cartes, et les échange discrètement contre des cartes fausses, dessinées par le yordle, qui dessine très bien et très mal. Les Noxiens rentrent satisfaits. Leur expédition, l'année suivante, se perd dans un marais. La caravane arrive aux Seuils au complet, chantant dans dix langues.
+reussite: Les cent vingt voyageurs arrivent aux Seuils. Le yordle a été attrapé par un prédateur ailé, puis lâché, puis rattrapé. Il raconte l'histoire à tout le monde.
+partielle: Trois voyageurs sont blessés par les prédateurs, et redescendent. Les autres arrivent, plus silencieux qu'au départ.
+echec: La caravane se disperse dans un orage. On met deux jours à regrouper tout le monde. Le solstice est passé. La moitié fait l'ascension quand même. L'autre moitié rentre chez elle.
+recompenses: po 145 ; reputation 5 ; objet Cristal de rubis 14
+
+=== TAR-L-017 | Le prédicateur des sanctuaires
+source: privee
+region: targon
+palier: locale
+type: enquete
+ton: politique
+lieu: Sanctuaires de prière
+demandeur: Ama Dorrak, gardienne des sanctuaires de prière, inquiète des sermons d'un étranger
+accroche: « Un prédicateur s'est installé aux sanctuaires. Il dit que les Ra'Horak se trompent, que la vraie gloire est de mourir pour la montagne, et que ceux qui redescendent sont des lâches. Cinq jeunes guerriers sont partis grimper sans préparation depuis son arrivée. Deux ne sont pas revenus. »
+postes: Support, Assassin
+duree: 7
+dangereuse: non
+epreuves: discretion 45 (découvrir qui est vraiment le prédicateur) ; diplomatie 47 (retourner les jeunes qui l'écoutent)
+complication: Le prédicateur est payé par un marchand de matériel d'escalade, qui vend du matériel à chaque jeune qui part.
+eclatante: {meneur} fait suivre le prédicateur jusqu'au marchand, et revient avec le livre de comptes. Ama Dorrak le lit devant les jeunes guerriers, à voix haute, ligne par ligne. Le prédicateur est chassé des sanctuaires à coups de bâton. Le marchand aussi. Les jeunes se préparent, maintenant, avant de partir.
+reussite: Le prédicateur est démasqué et quitte les sanctuaires. Les jeunes guerriers arrêtent de partir sans préparation. Les deux morts restent morts.
+partielle: Le prédicateur part, mais trois jeunes le suivent. Ils grimpent ailleurs, sur une autre pente, avec leur matériel neuf.
+echec: Le prédicateur reste et accuse la guilde d'être envoyée par les Solaris. Les jeunes le croient. Deux autres partent la semaine suivante.
+recompenses: po 125 ; reputation 4 ; objet Cape de négation 12
+
+=== TAR-L-018 | Le bosquet astral
+source: privee
+region: targon
+palier: locale
+type: defense
+ton: aventure
+lieu: Bosquet astral
+demandeur: les grimpeurs du campement du Bosquet astral, encerclés par une tempête et des prédateurs ailés
+accroche: « Nous sommes vingt au Bosquet. La tempête dure depuis six jours. Les prédateurs ailés tournent au-dessus des tentes. Ils ont déjà pris deux mules. Il nous reste trois jours de vivres et beaucoup de courage, mais le courage ne se mange pas. »
+postes: Tireur, Tank, Healer
+duree: 12
+dangereuse: oui
+epreuves: voyage 50 (monter jusqu'au Bosquet dans la tempête) ; combat 47 (repousser les prédateurs autour des tentes)
+complication: Les prédateurs ne chassent pas le camp : ils protègent un nid, bâti dans les arbres du bosquet, juste au-dessus des tentes.
+eclatante: {meneur} fait déplacer le campement de cent pas, loin du nid. Les prédateurs cessent d'attaquer dans l'heure. Le campement passe la tempête au nouvel endroit, avec les vivres montées par la guilde. Les grimpeurs baptisent le nouvel emplacement de son nom. Il est gravé sur une pierre, depuis.
+reussite: L'équipe rejoint le Bosquet avec des vivres. Les prédateurs sont repoussés. Le camp redescend quand la tempête tombe, au complet.
+partielle: Le camp est ravitaillé, mais deux grimpeurs sont blessés par les prédateurs. On redescend tous ensemble, en renonçant à l'ascension.
+echec: L'équipe n'atteint pas le Bosquet avant le quatrième jour. Les grimpeurs ont tenu, de justesse, en mangeant leurs mules. Ils redescendent sans un mot pour la guilde.
+recompenses: po 170 ; reputation 6 ; objet Élixir de fer 18
+
+=== TAR-L-019 | L'astronome qui ne dort plus
+source: privee
+region: targon
+palier: locale
+type: enquete
+ton: mystere
+lieu: Matrices du zénith
+demandeur: l'assistant de l'astronome Calen Voss, qui ne dort plus depuis qu'il a calculé quelque chose
+accroche: « Mon maître a calculé la trajectoire d'une comète. Depuis, il ne dort plus, il ne mange plus, il recalcule. Il dit qu'elle va tomber sur la montagne. Personne ne le croit. Moi non plus, mais je voudrais qu'il dorme. »
+postes: Mage
+duree: 6
+dangereuse: non
+epreuves: diplomatie 42 (faire parler l'astronome) ; discretion 40 (vérifier ses calculs en secret)
+complication: Les calculs sont justes. La comète ne tombera pas sur la montagne : elle passera très près, et un fragment tombera sur le Lac gelé. C'est sans danger, mais personne ne l'a jamais vu.
+eclatante: {meneur} refait les calculs avec l'astronome, toute une nuit. Le fragment ne menace personne. Calen Voss dort pendant deux jours. À son réveil, il organise une expédition au Lac gelé pour voir tomber le fragment. Elle tombe à l'heure prévue. On l'entend jusqu'aux Grottes rakkors.
+reussite: On rassure l'astronome : la comète ne menace personne. Il dort. Il recalcule moins. Son assistant envoie des fleurs à la guilde.
+partielle: L'astronome accepte de dormir, mais pas d'arrêter de calculer. Il dort trois heures par nuit. Son assistant fait les courses, la cuisine et les additions.
+echec: On ne réussit pas à le convaincre. Il part seul vers le Lac gelé, pour attendre la comète. On le ramène à moitié gelé. Il avait raison sur la date.
+recompenses: po 85 ; reputation 3 ; objet Tome d'amplification 20
+
+=== TAR-L-020 | La cérémonie d'adieu
+source: privee
+region: targon
+palier: locale
+type: protection
+ton: tragique
+lieu: Anneau de la Montagne
+demandeur: la famille de Teo Barran, jeune guerrier qui part faire l'ascension, et qui a reçu des menaces
+accroche: « Teo part pour l'ascension après-demain. On fait la cérémonie d'adieu, comme il se doit. Mais il a reçu un message : s'il part, quelqu'un tuera sa sœur pendant son absence. On ne sait pas qui. Teo dit qu'il partira quand même. Nous, on voudrait que sa sœur soit vivante à son retour, s'il revient. »
+postes: Assassin, Tank
+duree: 8
+dangereuse: oui
+epreuves: discretion 47 (trouver l'auteur des menaces) ; combat 44 (protéger la sœur la nuit de la cérémonie)
+complication: Les menaces viennent de la sœur elle-même. Elle ne veut pas que son frère parte, et c'est le seul moyen qu'elle a trouvé.
+eclatante: {meneur} parle à la sœur la nuit de la cérémonie, avant tout le monde. Elle avoue en pleurant. On ne dit rien à la famille. Elle va voir son frère elle-même, et lui dit tout. Teo part quand même, le lendemain, après l'avoir serrée longtemps. Il revient trois mois plus tard, changé. Elle est la première à le voir au loin.
+reussite: La sœur est protégée pendant toute l'absence de Teo. Les menaces cessent. On ne saura jamais qui. Teo revient. Elle aussi est vivante.
+partielle: On découvre l'auteur des menaces, et la famille l'apprend en même temps. La cérémonie se passe mal. Teo part fâché contre sa sœur.
+echec: Teo renonce à partir pour protéger sa sœur. Il ne fera jamais l'ascension. Il ne le reprochera jamais à personne. Il le regrettera tous les jours.
+recompenses: po 120 ; reputation 4 ; objet Armure de tissu 16
+
+=== TAR-L-021 | Les ibiks du ravin
+source: privee
+region: targon
+palier: locale
+type: sauvetage
+ton: drole
+lieu: Plaines basses
+demandeur: Pelo, berger de onze ans, qui a perdu les ibiks de son oncle dans un ravin
+accroche: « Mon oncle m'a confié ses ibiks pour la première fois. J'ai joué aux osselets. Quand j'ai levé les yeux, ils étaient tous dans le ravin. Ils ne sont pas tombés, ils sont descendus. Ils sont en bas, et ils ne veulent pas remonter. Mon oncle rentre ce soir. »
+postes: Éclaireur
+duree: 4
+dangereuse: non
+epreuves: voyage 40 (descendre dans le ravin escarpé) ; poursuite 38 (rassembler les ibiks qui s'éparpillent)
+complication: Au fond du ravin, il y a un champ de fleurs sucrées que les ibiks adorent. Ils remonteront quand ils auront tout mangé.
+eclatante: {meneur} cueille un énorme bouquet de fleurs sucrées et remonte avec. Les ibiks suivent, en file indienne, jusqu'au pâturage. L'oncle rentre et trouve ses bêtes au complet, repues, et son neveu assis sur un rocher, l'air responsable. Il ne saura jamais rien. Pelo garde le secret du bouquet pour toujours.
+reussite: Les ibiks sont remontés avant le retour de l'oncle, sauf deux qui arrivent pendant le dîner. L'oncle ne dit rien. Il a remarqué.
+partielle: On remonte la moitié des ibiks. L'oncle trouve le reste le lendemain. Pelo est privé de pâturage pour un mois.
+echec: Les ibiks refusent de bouger tant qu'il reste des fleurs. Ils remontent trois jours plus tard, gras comme des tamus. L'oncle rit tellement qu'il oublie de punir Pelo.
+recompenses: po 40 ; reputation 2 ; objet Charme féerique 25
+
+=== TAR-L-022 | La source tarie des Rakkors
+source: institution
+region: targon
+palier: locale
+type: exploration
+ton: politique
+lieu: Grottes rakkors
+demandeur: la Chambre des Bannières, pour un village rakkor dont la source s'est tarie
+accroche: « La source qui alimente le grand village des grottes s'est arrêtée il y a dix jours. Les Rakkors disent qu'un clan voisin l'a détournée. Le clan voisin dit que c'est la montagne qui l'a décidé. Si personne ne trouve l'eau, il y aura une guerre avant la fin du mois. »
+postes: Éclaireur, Mage
+duree: 9
+dangereuse: oui
+epreuves: voyage 46 (remonter le cours souterrain de la source) ; diplomatie 44 (présenter la vérité aux deux clans)
+complication: L'eau a été détournée par un tremblement de terre vers une grotte du clan voisin. Le clan voisin le sait, et se tait parce qu'il manquait d'eau depuis des années.
+eclatante: {meneur} montre aux deux clans la faille où l'eau a changé de chemin, et propose de creuser un second canal pour partager. Les deux clans creusent ensemble pendant un mois, en se battant pour savoir qui creuse le mieux. L'eau coule dans les deux grottes. Le récit est gravé deux fois, avec deux héros différents.
+reussite: L'eau est retrouvée et le canal rebouché. Le grand village boit de nouveau. Le clan voisin perd l'eau, et garde sa rancune.
+partielle: On trouve l'eau, mais on ne peut pas la ramener. Le grand village achète de l'eau au clan voisin, trop cher. La paix tient, de mauvaise grâce.
+echec: L'équipe ne trouve rien. La guerre de l'eau éclate. Elle durera un hiver, puis s'arrêtera quand la montagne, elle, aura décidé autre chose.
+recompenses: po 150 ; reputation 5 ; objet Pioche 16
+
+=== TAR-L-023 | Les temples ne demandent rien
+source: privee
+region: targon
+palier: locale
+type: escorte
+ton: tendre
+lieu: Temples solaris
+demandeur: une novice solaris, Mira Tal, qui veut descendre voir sa mère malade sans permission
+accroche: « Les novices ne quittent pas le temple. Ma mère est malade, en bas, dans la plaine. Si je pars sans permission, je ne pourrai pas revenir. Si je ne pars pas, je ne la reverrai pas. Je voudrais faire l'aller et le retour avant le prochain lever de soleil. »
+postes: Éclaireur, Support
+duree: 10
+dangereuse: oui
+epreuves: discretion 46 (faire sortir une novice du temple sans être vu) ; voyage 47 (descendre et remonter les ponts de corde en une nuit)
+complication: La supérieure de Mira sait tout. Elle a elle-même fait la même chose, il y a quarante ans, et a été chassée. Elle attend de voir ce que Mira va faire.
+eclatante: {meneur} ramène Mira au temple juste avant l'aube. La supérieure l'attend à la porte. Elle ne dit rien, et lui ouvre. Plus tard, elle convoque {meneur} et lui demande de redescendre une lettre à une vieille femme de la plaine. La lettre fait quarante ans de retard. Elle arrive à temps.
+reussite: Mira voit sa mère et revient avant l'aube. Personne ne remarque rien. Sa mère va mieux une semaine plus tard. Mira prie un peu différemment, maintenant.
+partielle: Mira voit sa mère, mais revient trop tard. Elle est punie, pas chassée. Elle ne regrette rien.
+echec: La sortie est découverte. Mira est chassée du temple. Elle reste auprès de sa mère. Elle ne remontera jamais, et ne dira jamais si elle le regrette.
+recompenses: po 130 ; reputation 4 ; objet Bottes 18
+
+=== TAR-L-024 | Le défi du bouclier
+source: privee
+region: targon
+palier: locale
+type: chasse
+ton: aventure
+lieu: Mont Targon
+demandeur: Karr Ulvar, chasseur rakkor, qui veut prouver sa valeur en rapportant une plume de prédateur ailé
+accroche: « Mon père a rapporté une plume de prédateur ailé. Son père aussi. Moi, j'ai trente ans et trois tentatives ratées. Ma femme dit que ce n'est pas grave. Mon père dit que si. Je veux y aller une dernière fois, avec des gens qui savent viser mieux que moi. »
+postes: Tireur, Éclaireur
+duree: 12
+dangereuse: oui
+epreuves: voyage 47 (atteindre l'aire des prédateurs ailés) ; combat 46 (récupérer une plume sans se faire emporter)
+complication: L'aire est abandonnée. Les prédateurs sont partis plus haut. Il reste des plumes par terre, partout. Ce serait facile de mentir.
+eclatante: {meneur} ramasse une plume par terre et la tend à Karr, en lui laissant le choix. Il la refuse, et monte plus haut, seul, pendant que l'équipe le couvre. Il revient avec une plume arrachée en vol, et une blessure à l'épaule. Son père grave le récit sur le mur. Karr, lui, accroche la plume ramassée par terre à côté. Il dit que c'est celle qui compte.
+reussite: Karr rapporte une plume, arrachée en vol. Il est blessé, fier, et sa femme est furieuse. Son père ne dit rien. Il grave.
+partielle: Karr ne trouve pas de prédateur. Il rapporte une plume ramassée par terre, en le disant honnêtement. Son père grave quand même. Avec une étoile, pour l'honnêteté.
+echec: Karr est emporté par un prédateur, et lâché dans un névé, vivant. On le ramène avec une jambe cassée. Il ne remontera plus. Il rit en le racontant.
+recompenses: po 140 ; reputation 4 ; objet Épée longue 16
+
+=== TAR-L-025 | La forge des étoiles tombées
+source: privee
+region: targon
+palier: locale
+type: recuperation
+ton: mystere
+lieu: Sculptures divines
+demandeur: Hund, forgeron rakkor, qui veut du métal d'étoile tombé pour la lame de son chef
+accroche: « Une étoile est tombée près des Sculptures divines. Son métal ne fond qu'à la chaleur d'un orage. Notre chef a besoin d'une nouvelle lame : la sienne s'est cassée sur un bolor. Je voudrais l'étoile, et un orage, dans cet ordre. »
+postes: Mage, Tank
+duree: 14
+dangereuse: oui
+epreuves: voyage 51 (monter dans l'hiver éternel jusqu'au point de chute) ; siege 43 (rapporter le métal, lourd comme dix hommes)
+complication: Le métal est encore habité par un éclat de lumière stellaire. Il refuse d'être porté par quelqu'un qui ment.
+risque: oui
+eclatante: {meneur} porte le métal tout le long, sans jamais le lâcher, en racontant à voix haute toutes ses peurs pour qu'il reste léger. Hund forge la lame pendant un orage, trois semaines plus tard. Elle brille un peu la nuit. Le chef l'appelle « la Sincère ». Il ne ment plus, maintenant. Il dit que c'est fatigant.
+reussite: Le métal est rapporté, et la lame forgée. Elle est magnifique et très lourde. Le chef s'entraîne deux fois plus pour pouvoir la porter.
+partielle: On rapporte la moitié du métal. Hund forge un poignard. Le chef dit que c'est plus pratique de toute façon.
+echec: Le métal devient trop lourd à mi-chemin. On le laisse sur une corniche. Les Rakkors disent que quelqu'un a menti. Ils ne demandent pas qui.
+recompenses: po 280 ; reputation 6 ; objet Lame de Doran 20

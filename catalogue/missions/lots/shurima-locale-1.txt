@@ -1,0 +1,504 @@
+# Shurima · palier Locale · lot 1 (missions 001 à 025) · 11 nov. 2026
+# Palier Locale : les affaires d'une oasis, d'une caravane, d'un quartier de la capitale. L'empereur est revenu ; l'eau reste rare.
+# {meneur} : le héros qui a mené l'épreuve décisive. Aucun accord de genre sur {meneur}.
+
+=== SHU-L-001 | Le partage de l'oasis
+source: institution
+region: shurima
+palier: locale
+type: diplomatie
+ton: politique
+lieu: Oasis de l'Aube
+demandeur: la Chambre des Bannières, pour les trois clans qui boivent à l'Oasis de l'Aube
+accroche: « Depuis que l'empereur est revenu, ses soldats de sable gardent l'oasis, et décident qui boit. Les clans qui ont juré fidélité boivent le matin. Les autres attendent le soir, quand l'eau est chaude et trouble. Le clan Amesh a sorti les lances. Il faut parler avant le prochain lever de soleil. »
+postes: Support, Tank
+duree: 10
+dangereuse: non
+epreuves: diplomatie 49 (faire entendre les clans au capitaine des soldats de sable) ; siege 42 (tenir le bord de l'eau pendant la discussion)
+complication: Le capitaine n'a reçu aucun ordre de l'empereur sur l'oasis. Il a inventé la règle tout seul, pour se faire bien voir de la capitale.
+eclatante: {meneur} demande au capitaine de montrer l'ordre impérial, devant les trois clans. Il n'en a pas. Les clans rient, et le capitaine aussi, au bout d'un moment. L'oasis retrouve son ancien tour de rôle, que les grands-mères connaissent par cœur. Les soldats de sable gardent toujours l'eau, mais pour tout le monde.
+reussite: Un nouveau tour de rôle est fixé, les clans boivent chacun leur tour, le matin à tour de rôle. Le clan Amesh range ses lances. Il les garde à portée de main.
+partielle: L'accord tient pour deux clans sur trois. Le clan Amesh part chercher une autre source, plus loin, plus petite. Ils reviendront à la prochaine sécheresse, et moins aimables.
+echec: Les lances sortent avant la fin des discussions. Deux morts, et l'oasis fermée par les soldats de sable pendant une semaine. Personne ne boit. Le capitaine est muté.
+recompenses: po 140 ; reputation 5 ; objet Cape de négation 12
+
+=== SHU-L-002 | Quarante chameaux de sel
+source: privee
+region: shurima
+palier: locale
+type: escorte
+ton: aventure
+lieu: Grand Sai
+demandeur: Kesha Dun, cheffe de caravane, qui doit traverser le Grand Sai avec quarante chameaux de sel
+accroche: « Quarante bêtes, quatre-vingts sacs de sel, onze jours de désert, et des Shakkals qui savent compter mieux que moi. Mon frère faisait la route avec ses fils. Ses fils ne sont pas revenus de la dernière. Lui non plus. Il me faut des épées, et des yeux. »
+postes: Tank, Éclaireur, Tireur
+duree: 14
+dangereuse: oui
+epreuves: voyage 47 (traverser les dunes du Grand Sai sans perdre de bêtes) ; combat 48 (repousser l'attaque des Shakkals et de leurs saurens)
+complication: Un des chameliers renseigne les Shakkals. C'est le fils cadet du frère disparu, qui croit que Kesha a vendu son père.
+eclatante: {meneur} surprend le cadet au moment où il allume le feu de signal, la nuit. Au lieu de le livrer, on l'emmène parler à Kesha sous la tente. Elle lui montre la lettre de rançon qu'elle a payée, trop tard. Le cadet éteint le feu lui-même. Les Shakkals attendent en vain. La caravane arrive avec ses quarante bêtes et un chamelier de plus dans la famille.
+reussite: La caravane arrive avec trente-six bêtes. L'attaque a été repoussée. Le cadet a disparu dans la nuit, avant qu'on comprenne. Kesha vend son sel à bon prix et ne fera plus la route.
+partielle: La caravane arrive avec la moitié du sel. Les Shakkals ont pris le reste et six chameaux. Kesha paie la guilde en sel, ce qui, ici, vaut mieux que l'or.
+echec: L'attaque disperse la caravane. Kesha arrive à pied, avec trois bêtes et deux sacs. Elle ne dit rien. Le lendemain, elle rachète des chameaux.
+recompenses: po 175 ; reputation 5 ; objet Bottes 18
+
+=== SHU-L-003 | Les chèvres eka'sul de Zirima
+source: privee
+region: shurima
+palier: locale
+type: recuperation
+ton: drole
+lieu: Zirima
+demandeur: Vieux Batal, chevrier de Zirima, dont le troupeau entier est monté sur le toit du temple
+accroche: « Mes chèvres sont montées sur le toit du temple du Tisserand. Toutes. Trente-deux. Le prêtre dit que c'est un signe. Moi je dis que c'est des chèvres. Elles ne veulent pas redescendre, et le prêtre ne veut pas qu'on les force, à cause du signe. Je voudrais mes chèvres avant qu'elles mangent la toiture. »
+postes: Support
+duree: 4
+dangereuse: non
+epreuves: diplomatie 40 (convaincre le prêtre que ce n'est pas un signe) ; poursuite 42 (rattraper les chèvres une par une sur les corniches)
+complication: Les chèvres ne sont pas montées seules. Un gamin de Zirima les a fait monter avec du sel, pour que le prêtre annule la grande prière du jour, qui l'oblige à rester debout trois heures.
+eclatante: {meneur} trouve le gamin, son sac de sel et son air innocent. Le gamin redescend lui-même les chèvres avec le sel, une par une, sous les yeux du prêtre. Le prêtre décide que c'était quand même un signe : celui qu'il faut raccourcir la grande prière. Tout le village approuve. Vieux Batal récupère trente-deux chèvres et un aide.
+reussite: Les chèvres redescendent, la toiture survit, et le prêtre accepte de ne voir là qu'un accident. Vieux Batal compte ses bêtes deux fois. Il en manque une, qui revient le soir toute seule.
+partielle: Vingt chèvres redescendent. Les douze autres restent sur le toit trois jours de plus. Le prêtre fait la prière sous elles. Elles bêlent aux bons moments.
+echec: Une chèvre tombe et passe à travers le toit, en pleine prière. Personne n'est blessé, la chèvre non plus. Le prêtre interdit le village aux chèvres. Vieux Batal déménage, avec son troupeau.
+recompenses: po 45 ; reputation 2 ; objet Charme féerique 22
+
+=== SHU-L-004 | Le tombeau du marchand d'huile
+source: privee
+region: shurima
+palier: locale
+type: exploration
+ton: horreur
+lieu: Vallée du Chant
+demandeur: Nahim Sefet, pilleur de tombes repenti, qui veut reboucher le tombeau qu'il a ouvert il y a dix ans
+accroche: « J'ai ouvert un tombeau dans la Vallée du Chant, il y a dix ans. Un petit, celui d'un marchand d'huile. J'ai pris trois bracelets. Depuis, mes trois filles rêvent toutes la même chose : un homme sans visage qui leur demande ses bracelets. Je les ai. Je veux les rendre. Je n'ose pas descendre seul. »
+postes: Mage, Éclaireur
+duree: 8
+dangereuse: oui
+epreuves: voyage 44 (retrouver l'entrée du tombeau sous le sable qui chante) ; discretion 46 (redescendre jusqu'à la chambre sans réveiller les gardiens)
+complication: Le marchand d'huile ne réclame pas les bracelets. Il réclame qu'on dise son nom : il a été enterré sans, et personne ne se souvient de lui.
+eclatante: {meneur} déchiffre le nom gravé sous la poussière, au pied du sarcophage, et le dit à voix haute. Nahim pose les bracelets, et dit le nom aussi, trois fois. Le sable de la vallée s'arrête de chanter pendant une heure. Ce soir-là, ses filles dorment d'une traite. Nahim grave le nom au-dessus de sa porte.
+reussite: Les bracelets sont rendus, le tombeau rebouché. Les rêves s'espacent, puis s'arrêtent. Nahim ne parle plus jamais de tombeaux.
+partielle: Les bracelets sont rendus, mais un gardien de pierre se réveille, et l'équipe doit fuir. Deux filles sur trois arrêtent de rêver. La troisième rêve toujours, plus doucement.
+echec: L'équipe ne trouve pas l'entrée. Le sable a tout recouvert. Nahim enterre les bracelets dans la vallée, au hasard. Les rêves continuent.
+recompenses: po 125 ; reputation 4 ; objet Tome d'amplification 15
+
+=== SHU-L-005 | Les filets du Fleuve Mère
+source: privee
+region: shurima
+palier: locale
+type: chasse
+ton: aventure
+lieu: Fleuve Mère de la vie
+demandeur: la confrérie des pêcheurs du Fleuve Mère, dont les filets sont déchirés chaque nuit
+accroche: « Un nageur des sables est remonté dans le fleuve. Il ne devrait pas pouvoir. Il chasse dans l'eau maintenant, il déchire les filets, il a mangé un buffle. Les enfants ne vont plus se baigner. Si on ne pêche plus, on ne mange plus. »
+postes: Tireur, Combattant
+duree: 8
+dangereuse: oui
+epreuves: voyage 42 (remonter le fleuve en barque jusqu'au repaire de la bête) ; combat 49 (affronter la bête dans l'eau peu profonde)
+complication: La bête n'est pas un nageur des sables : c'est une femelle qui a pondu dans un banc de sable du fleuve, et qui défend ses œufs.
+eclatante: {meneur} repère les œufs avant le combat. On les déplace la nuit, à dos de buffle, jusqu'au désert, et la femelle suit. Elle ne revient pas au fleuve. La confrérie garde une écaille au-dessus de la porte de la maison des pêcheurs, et organise une fête. Les enfants retournent se baigner.
+reussite: La bête est tuée. Les pêcheurs reprennent leurs filets. On trouve les œufs une semaine plus tard. On n'en parle pas trop.
+partielle: La bête est chassée, mais revient deux fois. Les pêcheurs pêchent le jour, en groupe. Les enfants se baignent toujours, mais près des barques.
+echec: La bête renverse la barque. L'équipe s'en sort à la nage. Les filets restent au sec un mois. La confrérie pêche à la ligne, depuis les berges.
+recompenses: po 145 ; reputation 5 ; objet Élixir de rage 15
+
+=== SHU-L-006 | La lettre pour Bel'Zhun
+source: privee
+region: shurima
+palier: locale
+type: livraison
+ton: politique
+lieu: Bel'Zhun
+demandeur: une couturière de Nazumah qui ne donne qu'un prénom, Sefa, et qui paie d'avance
+accroche: « Il faut porter cette lettre à Bel'Zhun, au marché des teinturiers, à un homme qui porte un turban grenat. Ne l'ouvrez pas. Les Noxiens fouillent tout le monde à l'entrée de la ville. S'ils la trouvent, celui qui la porte ne ressort pas. »
+postes: Assassin
+duree: 6
+dangereuse: oui
+epreuves: discretion 48 (passer le contrôle noxien à l'entrée de Bel'Zhun) ; diplomatie 42 (trouver le bon homme au turban grenat sans attirer l'attention)
+complication: La lettre contient les plans de patrouille de la garnison noxienne, destinés aux Soleils de Bel'Zhun. Un des deux turbans grenat du marché est un indicateur noxien.
+eclatante: {meneur} remarque que l'un des deux turbans regarde trop souvent vers la garnison, et remet la lettre à l'autre, à l'aveugle. C'est le bon. Une semaine plus tard, une patrouille noxienne trouve un convoi vide là où devait se trouver un dépôt d'armes. Sefa envoie une deuxième lettre : elle ne contient qu'un merci.
+reussite: La lettre est livrée sans encombre. La guilde ne saura jamais ce qu'elle contenait. Sefa paie le double, sans rien expliquer.
+partielle: La lettre est livrée, mais le porteur a été fouillé de près et reconnu. Il vaut mieux ne pas remettre les pieds à Bel'Zhun pendant un temps.
+echec: La lettre doit être avalée au contrôle. Le porteur ressort de Bel'Zhun le lendemain, après une nuit de questions. Sefa ne recontactera plus la guilde.
+recompenses: po 150 ; reputation 4 ; objet Dague 20
+
+=== SHU-L-007 | Le scarabée d'or de Marrowmark
+source: privee
+region: shurima
+palier: locale
+type: enquete
+ton: drole
+lieu: Marrowmark
+demandeur: Ibrin Mesh, marchand de reliques de Marrowmark, qui a vendu trois fois le même scarabée d'or
+accroche: « J'ai vendu un scarabée d'or, une vraie relique. Il est revenu dans ma vitrine le lendemain. Je l'ai revendu. Il est revenu. Trois fois. Mes clients veulent leur argent, et moi je veux savoir si je suis maudit ou volé. Les deux me coûtent cher. »
+postes: Éclaireur
+duree: 4
+dangereuse: non
+epreuves: discretion 41 (surveiller la boutique une nuit entière) ; poursuite 39 (suivre le scarabée quand il bouge)
+complication: Le scarabée est vivant. C'est une relique de l'ancien empire, enchantée pour revenir à son autel. L'autel, c'est la vitrine : Ibrin l'a bâtie sur l'ancien temple sans le savoir.
+eclatante: {meneur} voit le scarabée se lever à minuit, traverser la rue sur ses six pattes dorées, et remonter dans la vitrine. Ibrin rembourse ses trois clients, puis fait payer l'entrée pour voir le scarabée marcher. Il gagne plus en un mois qu'en dix ans de reliques douteuses. Il se met à vendre des fausses reliques avec beaucoup plus de remords.
+reussite: On comprend le phénomène. Ibrin rembourse ses clients et garde le scarabée en vitrine, non vendable. Il lui donne un nom. Le scarabée ne répond pas.
+partielle: On découvre que le scarabée revient tout seul, mais pas pourquoi. Ibrin le jette dans un puits. Il revient trempé.
+echec: L'équipe ne voit rien. Les clients font un scandale. Ibrin ferme boutique et ouvre la même deux rues plus loin. Le scarabée l'y attend.
+recompenses: po 60 ; reputation 3 ; objet Charme féerique 18
+
+=== SHU-L-008 | Les Xer'Sai de Kenethet
+source: institution
+region: shurima
+palier: locale
+type: defense
+ton: horreur
+lieu: Kenethet
+demandeur: la Chambre des Bannières, pour le village de Kenethet, attaqué deux nuits de suite
+accroche: « Ils sortent du sable sous les maisons. Deux nuits de suite. La première, ils ont pris le bétail. La deuxième, ils ont pris une famille. Le village a creusé une tranchée et rempli des jarres d'huile. Il ne sait pas si ça suffira pour la troisième. »
+postes: Tank, Mage, Combattant
+duree: 9
+dangereuse: oui
+epreuves: siege 50 (tenir la tranchée toute la nuit) ; combat 48 (abattre les Xer'Sai qui passent par-dessous)
+complication: Les Xer'Sai suivent les vibrations. Le moulin à eau du village, installé le mois dernier, les attire depuis le désert.
+eclatante: {meneur} fait arrêter le moulin au milieu de la nuit. Le silence tombe sur Kenethet, et les Xer'Sai repartent vers le sud, en suivant les tambours qu'on a fait battre loin dans les dunes. Le village démonte le moulin et le remonte de l'autre côté de la colline. Il tourne toujours.
+reussite: La tranchée tient. On compte onze carcasses au matin. Le village tient, sans pertes. On ne comprend pas pourquoi ils sont venus. Ils reviendront peut-être.
+partielle: La tranchée cède à un endroit. Deux maisons sont englouties, vides heureusement. Le village part s'installer plus au nord, avec ce qu'il peut porter.
+echec: Les Xer'Sai passent sous la tranchée. L'équipe protège la fuite du village vers le nord. Kenethet est abandonné. Le sable recouvre les maisons en un an.
+recompenses: po 170 ; reputation 6 ; objet Bouclier de Doran 14
+
+=== SHU-L-009 | Le scribe aveugle de Vekaura
+source: privee
+region: shurima
+palier: locale
+type: protection
+ton: tendre
+lieu: Vekaura
+demandeur: Aïna, petite-fille d'Omar Kel, le dernier scribe de Vekaura qui connaisse les vieilles écritures
+accroche: « Mon grand-père est aveugle et il connaît par cœur les écritures de l'empire. Depuis le retour de l'empereur, des envoyés de la capitale et des envoyés de Xerath viennent le chercher, chacun de son côté. Il ne veut aller nulle part. Il veut finir son livre ici, avec moi, et que je l'écrive sous sa dictée. »
+postes: Support, Tank
+duree: 8
+dangereuse: non
+epreuves: diplomatie 46 (renvoyer poliment les envoyés des deux camps) ; siege 41 (protéger la maison quand ceux de Xerath reviennent la nuit)
+complication: Omar Kel a déjà promis d'aller à la capitale, il y a soixante ans, à une femme qu'il aimait. Elle y est morte depuis. C'est pour ça qu'il refuse.
+eclatante: {meneur} reste avec Omar pendant la dernière nuit de dictée. Au matin, le livre est fini. Omar décide d'aller à la capitale lui-même, pour poser le livre sur la tombe de celle qu'il aimait, avec Aïna. L'empereur reçoit le livre en cadeau. Il ne leur demande rien de plus. Omar rentre à Vekaura, et ne dicte plus que des poèmes.
+reussite: Les envoyés repartent bredouilles. Omar finit son livre avec Aïna. Il le garde chez lui. Ceux de Xerath ne reviennent pas, pour l'instant.
+partielle: Les envoyés de la capitale repartent, ceux de Xerath reviennent la nuit et emportent une partie des manuscrits. Le livre est fini quand même, avec des trous dedans.
+echec: Ceux de Xerath enlèvent Omar pendant la nuit. Aïna part à sa recherche seule. Elle écrit à la guilde depuis Nerimazeth : il va bien, mais il ne dicte plus.
+recompenses: po 115 ; reputation 4 ; objet Cristal de saphir 15
+
+=== SHU-L-010 | La tempête de Saikhal
+source: privee
+region: shurima
+palier: locale
+type: sauvetage
+ton: tragique
+lieu: Saikhal
+demandeur: le chef du puits de Saikhal, Dorran, dont une famille de pèlerins s'est perdue dans la tempête
+accroche: « Une famille de pèlerins de Rammus est partie hier à l'aube vers le sud. La tempête s'est levée à midi. Ils ont deux enfants et une mule. La tempête souffle encore. Nous, on ne sort pas dans la tempête. Les gens qui sortent dans la tempête ne reviennent pas. »
+postes: Éclaireur, Healer, Tank
+duree: 12
+dangereuse: oui
+epreuves: voyage 50 (marcher dans la tempête sans se perdre) ; poursuite 44 (retrouver les traces avant que le vent les efface)
+complication: La famille n'est pas perdue. Le père les a emmenés vers un rocher où il a vu Rammus passer, des années plus tôt. Il veut le revoir. Il refuse de rentrer.
+eclatante: {meneur} trouve la famille abritée sous le rocher, le père debout face au vent. On attend avec eux que la tempête tombe. Au matin, une forme ronde roule au loin sur l'horizon, s'arrête, et repart. Personne ne sait si c'était lui. Le père rentre à Saikhal en souriant, et les enfants racontent l'histoire pendant des années.
+reussite: La famille est ramenée à Saikhal, épuisée, assoiffée, vivante. Le père regarde le sud tous les soirs. Il ne repartira pas.
+partielle: On retrouve la mère et les enfants. Le père a continué seul vers le sud. On ne le retrouve pas. La mère reste à Saikhal, et attend.
+echec: La tempête dure trois jours. L'équipe revient seule, à moitié aveugle de sable. On retrouve la mule une semaine plus tard, près d'un rocher, en vie.
+recompenses: po 150 ; reputation 5 ; objet Potion rechargeable 18
+
+=== SHU-L-011 | Les fausses pierres-soleil
+source: privee
+region: shurima
+palier: locale
+type: enquete
+ton: politique
+lieu: Shurima, la capitale
+demandeur: Hesse Narim, orfèvre de la capitale, accusée de vendre des pierres-soleil taillées dans du verre
+accroche: « Les gardes du palais disent que mes pierres-soleil sont fausses. Elles ne le sont pas, je les taille depuis trente ans. Mais quelqu'un en a vendu des fausses avec mon poinçon. Si je ne prouve rien d'ici la prochaine audience, on me prend ma boutique, et l'empereur me prend le reste. »
+postes: Éclaireur, Support
+duree: 7
+dangereuse: non
+epreuves: discretion 44 (retrouver l'atelier qui fabrique les fausses pierres) ; diplomatie 47 (présenter la preuve à l'audience du palais)
+complication: Le faussaire est un conseiller de la cour impériale, qui veut récupérer la boutique d'Hesse, la mieux placée du grand marché.
+eclatante: {meneur} amène à l'audience une fausse pierre, le faux poinçon et le registre de l'atelier, où le nom du conseiller apparaît deux fois. L'audience est longue. Le conseiller est renvoyé de la cour, et Hesse reçoit une commande du palais. Elle taille pour l'empereur un disque en pierre-soleil. Il dit que c'est la plus belle pierre de sa capitale. Il dit ça souvent.
+reussite: L'atelier du faussaire est trouvé, et Hesse innocentée. Le faussaire reste introuvable. On devine qui, on ne peut rien prouver. Hesse change de poinçon.
+partielle: Hesse est innocentée de justesse, faute de preuves contre elle. Ses clients ne reviennent pas tous. Elle ouvre une boutique plus petite, plus loin du palais.
+echec: Hesse perd sa boutique à l'audience. Le conseiller la rachète dans la semaine. Hesse taille des pierres dans une arrière-cour, pour des clients qui ne posent pas de questions.
+recompenses: po 135 ; reputation 5 ; objet Anneau de Doran 15
+
+=== SHU-L-012 | Les pèlerins de Rammus
+source: privee
+region: shurima
+palier: locale
+type: escorte
+ton: drole
+lieu: Nazumah
+demandeur: Frère Tokal, guide autoproclamé d'un groupe de pèlerins de Rammus, qui a perdu son chemin et sa foi en ses cartes
+accroche: « Nous sommes dix-sept pèlerins de Rammus. Nous suivons ses traces dans le sable depuis Nazumah. Elles tournent en rond depuis trois jours. Soit le grand Rammus nous met à l'épreuve, soit ce ne sont pas ses traces. Dans les deux cas, il nous faudrait quelqu'un qui sache marcher droit. »
+postes: Éclaireur
+duree: 6
+dangereuse: non
+epreuves: voyage 42 (ramener dix-sept pèlerins sur une piste praticable) ; diplomatie 40 (les convaincre d'arrêter de suivre les traces)
+complication: Les traces sont celles d'un tatou ordinaire, très gros, qui vit près de Nazumah. Il tourne en rond parce qu'il cherche sa sortie de terrier, que les pèlerins piétinent depuis trois jours.
+eclatante: {meneur} libère l'entrée du terrier. Le gros tatou en sort, regarde les pèlerins, se met en boule et roule dans le désert. Frère Tokal tombe à genoux. Les dix-sept pèlerins rentrent à Nazumah transfigurés, persuadés d'avoir vu un signe. Ils n'ont pas tort, d'une certaine façon.
+reussite: Les pèlerins rentrent à Nazumah, un peu vexés, sans avoir vu Rammus. Ils repartiront l'année prochaine, avec de meilleures cartes et le même guide.
+partielle: Une partie du groupe refuse de rentrer et continue de suivre les traces. Ils sont retrouvés le lendemain, déshydratés et ravis. Ils disent avoir vu quelque chose.
+echec: L'équipe perd deux pèlerins dans les dunes pendant une nuit. On les retrouve à l'aube, sains et saufs, à côté du tatou. Frère Tokal crie au miracle. Personne n'ose le contredire.
+recompenses: po 55 ; reputation 3 ; objet Bottes 20
+
+=== SHU-L-013 | Les Sandthrashers du gué
+source: institution
+region: shurima
+palier: locale
+type: traque
+ton: aventure
+lieu: Zuretta
+demandeur: la Chambre des Bannières, pour les marchands de Zuretta, rançonnés au gué du fleuve
+accroche: « Les Sandthrashers tiennent le gué de Zuretta depuis la crue. Une bande de vingt, avec des saurens de selle. Ils prennent un dixième de chaque caravane, et un enfant de temps en temps, qu'ils rendent contre rançon. Ça devient une habitude. Il faut que ça cesse avant que ça devienne une tradition. »
+postes: Combattant, Éclaireur, Tireur
+duree: 11
+dangereuse: oui
+epreuves: discretion 46 (trouver le camp des Sandthrashers dans les rochers) ; combat 51 (déloger la bande et ses saurens)
+complication: La bande garde cinq enfants dans le camp. Ils sont attachés aux saurens : charger le camp, c'est les mettre en danger.
+risque: oui
+eclatante: {meneur} libère les saurens la nuit, avec les enfants encore dessus, et les fait courir vers Zuretta. Les bêtes connaissent le chemin : elles y ont été volées. Les Sandthrashers se réveillent sans montures et sans otages. Ils se rendent le lendemain, à pied, assoiffés. Les enfants rentrent chez eux à dos de sauren. Ils refusent de descendre.
+reussite: Le camp est pris, les enfants libérés, la bande dispersée. Le gué de Zuretta est libre. Les marchands offrent une fête au bord de l'eau.
+partielle: Le camp est pris, mais trois Sandthrashers s'enfuient avec deux enfants. On les rachète une semaine plus tard. Le gué est libre, pour l'instant.
+echec: L'attaque échoue. Les Sandthrashers déplacent leur camp plus loin. Le péage du gué passe à un cinquième. Les marchands prennent un autre chemin, deux jours plus long.
+recompenses: po 300 ; reputation 6 ; objet Élixir de rage 22
+
+=== SHU-L-014 | La source de Nashramae
+source: privee
+region: shurima
+palier: locale
+type: exploration
+ton: mystere
+lieu: Nashramae
+demandeur: Lessa Oumar, hydraulicienne de Nashramae, qui a vu la grande citerne se remplir sans pluie
+accroche: « La citerne de Nashramae est vide depuis cent ans. Ce matin, elle était pleine. D'eau claire, fraîche, qui sent la pierre. Personne ne sait d'où elle vient. Le conseil dit de remercier les dieux. Moi, je dis de remonter le conduit avant qu'on boive. »
+postes: Éclaireur, Mage
+duree: 9
+dangereuse: non
+epreuves: voyage 45 (descendre dans le vieux conduit de l'empire) ; discretion 42 (franchir les salles gardées par des statues qui suivent du regard)
+complication: Le retour de l'empereur a réveillé l'ancien réseau d'eau de l'empire. La source de Nashramae vient de la capitale, à travers cent lieues de conduits oubliés.
+eclatante: {meneur} remonte le conduit jusqu'à une vanne de bronze ornée du disque solaire, ouverte de fraîche date. Les plans copiés sur les murs montrent tout le réseau. Lessa les recopie en trois nuits. Nashramae envoie les copies à toutes les villes voisines. En un an, quatre villages retrouvent leur eau.
+reussite: On comprend d'où vient l'eau : de l'ancien empire, réveillé. Nashramae boit, prudemment. Lessa recopie les plans qu'elle a pu voir.
+partielle: L'équipe ne va pas jusqu'au bout du conduit, bloqué par un éboulement. L'eau continue d'arriver. On la boit en priant pour qu'elle continue.
+echec: L'équipe ne trouve rien, et l'eau s'arrête une semaine plus tard. Nashramae a eu un été. Le conseil dit que les dieux ont repris leur cadeau.
+recompenses: po 120 ; reputation 4 ; objet Pioche 20
+
+=== SHU-L-015 | Les essaims de kmiros
+source: privee
+region: shurima
+palier: locale
+type: chasse
+ton: horreur
+lieu: Kalamanda
+demandeur: les mineurs de Kalamanda, dont les galeries sont envahies par un essaim de kmiros
+accroche: « Les kmiros sont entrés dans la mine du nord. Un essaim. Ils ont mangé le contremaître. Il reste trois gars au fond, coincés derrière un éboulement. On les entend tousser. Personne ne veut descendre. Les kmiros, ça ne se combat pas : ça se brûle. »
+postes: Mage, Tank, Healer
+duree: 8
+dangereuse: oui
+epreuves: nuee 51 (repousser l'essaim dans les galeries) ; siege 44 (dégager l'éboulement pendant que l'essaim revient)
+complication: L'essaim est attiré par un filon de cristal qui chante sous la pioche. Les mineurs l'ont trouvé il y a un mois et l'ont gardé secret pour ne pas partager.
+eclatante: {meneur} fait sauter l'entrée du filon pendant que l'essaim y est rassemblé. Les trois mineurs sont sortis vivants, et le secret du filon aussi : on le partage entre toutes les familles de Kalamanda. L'essaim ne revient pas. La mine rouvre un mois plus tard, avec des tambours pour couvrir le chant du cristal.
+reussite: L'essaim est brûlé, les trois mineurs sortis, affaiblis. La mine reste fermée une saison. Le chant du cristal continue, au fond.
+partielle: Deux mineurs sur trois sont sauvés. L'essaim est repoussé, pas détruit. La mine du nord est murée.
+echec: L'essaim repousse l'équipe. Les trois mineurs restent derrière l'éboulement. Kalamanda mure la mine et grave trois noms sur la pierre.
+recompenses: po 165 ; reputation 5 ; objet Élixir de sorcellerie 15
+
+=== SHU-L-016 | Le mariage de Grand Sai
+source: privee
+region: shurima
+palier: locale
+type: protection
+ton: tendre
+lieu: Grand Sai
+demandeur: deux familles nomades, les Haddu et les Kerim, qui marient leurs enfants au milieu du désert
+accroche: « Nos familles se sont battues pendant quarante ans pour un puits. Nos enfants s'aiment, et nous avons décidé de les laisser se marier. Il y aura deux cents personnes au milieu de nulle part, et des oncles qui ont encore la main sur le couteau. Nous voudrions que ça se passe bien. »
+postes: Support, Combattant
+duree: 8
+dangereuse: non
+epreuves: diplomatie 45 (tenir les oncles pendant les trois jours de fête) ; combat 40 (repousser les pillards attirés par la fête)
+complication: Un des oncles des Haddu a prévenu des pillards, pour que la fête tourne mal et que le mariage soit annulé.
+eclatante: {meneur} met l'oncle à la garde du camp, seul, la nuit où les pillards arrivent. L'oncle les voit venir, et comprend ce qu'il a fait. Il donne l'alerte et se bat avec les autres. Au matin, il porte le toast aux mariés. Personne ne sait ce qu'il a fait, sauf {meneur} et lui. C'est suffisant.
+reussite: La fête dure trois jours, les pillards sont repoussés au deuxième soir. Les mariés partent vers la Vallée du Chant. Les deux familles partagent le puits, à tour de rôle.
+partielle: Le mariage a lieu, mais une bagarre éclate entre oncles le deuxième jour. On sépare les camps. Les mariés partent tôt, un peu tristes.
+echec: Les pillards frappent pendant la cérémonie. Le mariage est interrompu. Les deux familles se rejettent la faute. Les mariés s'enfuient ensemble, une nuit. On dit qu'ils vivent à Nazumah.
+recompenses: po 100 ; reputation 4 ; objet Charme féerique 20
+
+=== SHU-L-017 | Le Cercle de l'Ascension fissuré
+source: institution
+region: shurima
+palier: locale
+type: enquete
+ton: mystere
+lieu: Cercle de l'Ascension
+demandeur: la Chambre des Bannières, pour les tailleurs de pierre qui restaurent le Cercle
+accroche: « Une fissure est apparue dans le Cercle de l'Ascension, juste sous le disque. Les tailleurs la colmatent le jour. La nuit, elle se rouvre. Les gardes impériaux disent qu'il n'y a personne. Les tailleurs disent qu'ils entendent quelqu'un chanter. »
+postes: Mage
+duree: 6
+dangereuse: oui
+epreuves: discretion 44 (veiller une nuit dans le Cercle) ; diplomatie 43 (comprendre ce que dit la voix qui chante)
+complication: La voix est celle d'un Transfiguré mort pendant la chute de l'empire, dont l'âme est restée prise dans la pierre. Il chante pour qu'on le laisse partir.
+eclatante: {meneur} écoute la voix jusqu'à l'aube, et la recopie. C'est une prière d'adieu, inachevée. On la termine ensemble, à voix haute, avec les tailleurs. La fissure se referme toute seule. Les tailleurs gravent la prière au pied du Cercle. On dit que l'empereur s'y arrête parfois, sans rien dire.
+reussite: On découvre la voix et la fissure se calme, après une nuit de veille. Les tailleurs colmatent pour de bon. Ils travaillent en chantant, maintenant, pour couvrir le silence.
+partielle: La fissure se referme à moitié. La voix chante toujours, plus doucement. Les tailleurs ne travaillent plus que le jour.
+echec: La fissure s'élargit pendant la nuit. Les gardes ferment le Cercle aux tailleurs. On dit à la capitale que c'est mauvais signe pour l'empire. Les gens le répètent.
+recompenses: po 130 ; reputation 5 ; objet Tome d'amplification 18
+
+=== SHU-L-018 | La dette des teinturiers
+source: privee
+region: shurima
+palier: locale
+type: diplomatie
+ton: politique
+lieu: Tereshni
+demandeur: la guilde des teinturiers de Tereshni, que la garnison noxienne veut taxer au double
+accroche: « Tereshni est sous Noxus. On le sait, on fait avec. Mais le nouveau commandant a doublé la taxe sur la teinture, et notre grenat se vend moins cher qu'avant. Si on paie, on ferme. Si on ne paie pas, on ferme aussi, autrement. Il faut quelqu'un qui parle le noxien, au sens propre et au sens figuré. »
+postes: Support, Éclaireur
+duree: 8
+dangereuse: non
+epreuves: diplomatie 50 (négocier avec le commandant noxien) ; discretion 43 (savoir ce que veut vraiment le commandant)
+complication: Le commandant ne garde rien pour lui : il doit envoyer la somme à Noxus, ou c'est lui qui sera rappelé. Sa famille vit à Tereshni.
+eclatante: {meneur} propose au commandant de payer en grenat au lieu d'argent : la teinture vaut plus à Noxus qu'à Tereshni. Le commandant envoie trois caisses de grenat à la capitale. Elles y font fureur. On lui demande d'en envoyer plus. Tereshni teint pour l'empire, et paie moins qu'avant. Personne ne sait comment remercier qui.
+reussite: La taxe est ramenée à une fois et demie l'ancienne. Les teinturiers serrent les dents et paient. Ils ferment un atelier sur trois, pas plus.
+partielle: Le commandant accepte un délai, pas une baisse. Les teinturiers paient en retard, avec les intérêts. Deux familles partent pour Bel'Zhun.
+echec: Les discussions échouent. Le commandant fait saisir trois ateliers pour l'exemple. Les teinturiers paient. Certains rejoignent les Soleils de Bel'Zhun, en secret.
+recompenses: po 140 ; reputation 5 ; objet Anneau de Doran 12
+
+=== SHU-L-019 | L'âne de la Cascade
+source: privee
+region: shurima
+palier: locale
+type: sauvetage
+ton: drole
+lieu: Cascade de Zoantha
+demandeur: Pipa, onze ans, qui a économisé pendant un an pour payer quelqu'un
+accroche: « Mon âne s'appelle Prince. Il est tombé dans la gorge sous la cascade de Zoantha. Il n'est pas mort, il brait. Mon père dit qu'on peut pas le remonter. Moi je dis que si. J'ai quarante-trois securis. C'est tout ce que j'ai, et je suis pas sûre que ça fait beaucoup en pièces d'or. »
+postes: Tank
+duree: 5
+dangereuse: non
+epreuves: voyage 43 (descendre dans la gorge glissante) ; siege 41 (remonter un âne furieux à la force des bras)
+complication: Prince n'est pas tombé seul : il est descendu chercher un âne sauvage coincé plus bas depuis des jours. Il ne remontera pas sans l'autre.
+eclatante: {meneur} remonte les deux ânes, l'un après l'autre, en se faisant mordre par les deux. Pipa repart avec Prince et une ânesse sauvage qui ne la quitte plus. Le père de Pipa compte les securis, les rend à sa fille, et paie la guilde lui-même. Pipa appelle l'ânesse Princesse. Logique.
+reussite: Prince est remonté, couvert de boue, de très mauvaise humeur. Pipa lui fait un câlin pendant une heure. L'autre âne reste en bas, et finit par trouver un passage tout seul.
+partielle: Prince est remonté avec une patte foulée. Il boitera un peu. Pipa le soigne tous les jours, et ne compte plus ses securis.
+echec: La pente est trop glissante. On ne remonte pas Prince, mais on descend du foin et de l'eau. Le père de Pipa trouve un passage par l'aval, une semaine plus tard. Prince rentre à pied, maigre et fier.
+recompenses: po 40 ; reputation 3 ; objet Élixir de fer 20
+
+=== SHU-L-020 | Les reliques du roi-soleil
+source: privee
+region: shurima
+palier: locale
+type: recuperation
+ton: aventure
+lieu: Vekaura
+demandeur: Daran Hassef, conservateur du petit musée de Vekaura, cambriolé la nuit dernière
+accroche: « On a volé le masque du roi-soleil, la seule pièce de valeur de notre musée. Ce n'est pas l'or, c'est l'histoire : il vient de la tombe du fondateur de Vekaura. Les voleurs sont partis vers le désert avec des chameaux rapides. Ils ont une demi-journée d'avance. »
+postes: Assassin, Éclaireur
+duree: 9
+dangereuse: oui
+epreuves: poursuite 48 (rattraper les voleurs avant qu'ils atteignent le port) ; discretion 44 (reprendre le masque dans leur camp sans combat)
+complication: Les voleurs sont des descendants du fondateur de Vekaura. Ils estiment que le masque leur appartient, et veulent le remettre dans la tombe.
+eclatante: {meneur} rattrape les voleurs et les écoute. Ils ont raison, au moins à moitié. On ramène le masque au musée, puis on organise une cérémonie où le masque retourne à la tombe, une fois par an, pendant une nuit. Toute la ville y assiste. Le musée de Vekaura n'a jamais eu autant de visiteurs.
+reussite: Le masque est récupéré dans le camp, sans un mort. Les voleurs s'enfuient. Ils reviendront peut-être. Le musée change ses serrures.
+partielle: Le masque est récupéré, abîmé : un des voleurs l'a jeté dans la poursuite. Le conservateur le restaure lui-même, pendant des semaines.
+echec: Les voleurs atteignent le port et embarquent. Le masque est perdu. Le musée garde la vitrine vide, avec une étiquette : « Volé. Nous attendons. »
+recompenses: po 135 ; reputation 4 ; objet Dague 18
+
+=== SHU-L-021 | Le temple du Tisserand
+source: privee
+region: shurima
+palier: locale
+type: defense
+ton: tragique
+lieu: Zirima
+demandeur: Prêtresse Anu, gardienne du temple du Tisserand, que les adorateurs du Néant veulent transformer en sanctuaire
+accroche: « Les adorateurs du Néant ont acheté la moitié des maisons autour de mon temple. Ils sont polis, ils paient, ils prient. Ils prient autre chose. Hier, ils m'ont proposé de racheter le temple. J'ai refusé. Cette nuit, ils viennent le prendre. »
+postes: Tank, Mage, Support
+duree: 7
+dangereuse: oui
+epreuves: siege 47 (tenir le temple une nuit entière) ; diplomatie 44 (rallier le village pour défendre le temple)
+complication: Parmi les adorateurs, il y a le fils de la prêtresse, parti il y a deux ans. C'est lui qui a proposé le rachat.
+eclatante: {meneur} fait parler le fils avec sa mère, entre les deux camps, au milieu de la place. Il ne revient pas au temple. Mais il s'en va, et les adorateurs le suivent : il était leur seul lien avec le village. Anu garde son temple. Elle laisse une lampe allumée à la fenêtre, tous les soirs, au cas où.
+reussite: Le temple tient la nuit, et le village se rallie au matin. Les adorateurs vendent leurs maisons et partent vers le sud. Le fils part avec eux.
+partielle: Le temple tient, mais une partie du village a rejoint les adorateurs. Zirima est coupée en deux, chaque moitié priant son dieu.
+echec: Le temple tombe. Anu est blessée, et emmenée chez une cousine à Nazumah. Le temple est repeint en violet. Personne n'y entre plus, sauf eux.
+recompenses: po 155 ; reputation 6 ; objet Cristal de saphir 14
+
+=== SHU-L-022 | Le banquet du gouverneur
+source: institution
+region: shurima
+palier: locale
+type: protection
+ton: politique
+lieu: Shurima, la capitale
+demandeur: la Chambre des Bannières, pour le gouverneur d'une cité libre invité au banquet de l'empereur
+accroche: « Le gouverneur de Zuretta est invité au banquet impérial. Il doit y prêter allégeance, ou refuser. Il n'a pas encore décidé. Ses ennemis, eux, ont décidé : ils veulent qu'il n'arrive jamais au palais, et que l'empereur pense qu'il a refusé. »
+postes: Assassin, Tank
+duree: 6
+dangereuse: oui
+epreuves: discretion 46 (repérer les assassins dans la foule de la capitale) ; combat 45 (les arrêter avant qu'ils frappent)
+complication: Les assassins sont envoyés par un émissaire de Xerath, qui veut que Zuretta passe dans son camp par dépit.
+eclatante: {meneur} arrête le premier assassin à l'entrée du palais, et lui fait avouer devant le gouverneur qui l'a envoyé. Le gouverneur prête allégeance à l'empereur le soir même, en racontant l'histoire au banquet. L'empereur rit, et nomme Zuretta « cité fidèle ». L'émissaire de Xerath quitte la capitale dans la nuit.
+reussite: Le gouverneur arrive au banquet sain et sauf. Il ne dit pas encore oui. Il dit qu'il réfléchit. L'empereur dit qu'il a le temps, ce qui n'est pas tout à fait vrai.
+partielle: Le gouverneur arrive en retard, blessé au bras. Le banquet est fini. Il présente ses excuses. L'empereur les accepte, froidement.
+echec: Le gouverneur n'arrive pas au palais. Il est sauvé, mais se cache. L'empereur considère que Zuretta a refusé. La cité libre reçoit des soldats de sable le mois suivant.
+recompenses: po 160 ; reputation 6 ; objet Lame de Doran 14
+
+=== SHU-L-023 | Le chant de la vallée
+source: privee
+region: shurima
+palier: locale
+type: exploration
+ton: tendre
+lieu: Vallée du Chant
+demandeur: Ilyas, luthier de Vekaura, qui veut enregistrer le chant de la vallée avant de mourir
+accroche: « On dit que le sable de la Vallée du Chant chante une seule note, toujours la même, depuis la fondation de l'empire. Je l'ai entendue à six ans. Je veux l'accorder sur mon dernier luth avant de mourir. J'ai quatre-vingt-un ans, et un luth à moitié fini. »
+postes: Healer, Éclaireur
+duree: 9
+dangereuse: non
+epreuves: voyage 43 (mener un vieil homme jusqu'au cœur de la vallée) ; poursuite 38 (suivre le chant quand le vent le déplace)
+complication: Le chant n'est pas une note : c'est un accord, de trois notes. On ne l'entend en entier qu'au lever du soleil, debout sur la dune la plus haute.
+eclatante: {meneur} porte Ilyas sur son dos jusqu'à la dune la plus haute, avant l'aube. Quand le soleil se lève, la vallée chante les trois notes. Ilyas accorde son luth en pleurant. Il joue l'accord pour toute la caravane au retour. Il meurt deux mois plus tard. Le luth est accroché dans le musée de Vekaura. Il sonne juste.
+reussite: Ilyas entend le chant, et accorde son luth sur une note. Il dit que c'est suffisant. Il le joue tous les soirs à Vekaura.
+partielle: Le vent tombe avant qu'on entende le chant en entier. Ilyas accorde son luth sur ce qu'il a entendu. Il dit que c'est presque ça.
+echec: Le vieil homme tombe malade en route. On rentre avant d'atteindre la vallée. Ilyas finit son luth sans le chant. Il ne l'accorde jamais.
+recompenses: po 80 ; reputation 4 ; objet Potion de soin 25
+
+=== SHU-L-024 | La crue du fleuve
+source: institution
+region: shurima
+palier: locale
+type: sauvetage
+ton: aventure
+lieu: Fleuve Mère de la vie
+demandeur: la Chambre des Bannières, pour les villages du delta inondés par une crue soudaine
+accroche: « Le fleuve est monté de deux mètres en une nuit. Ça n'arrive jamais à cette saison. Trois villages sont sous l'eau, et les familles sont sur les toits. Les barques des pêcheurs ne suffisent pas. Il y a des crocodiles dans les rues. »
+postes: Tank, Healer, Tireur
+duree: 10
+dangereuse: oui
+epreuves: voyage 47 (naviguer entre les toits dans le courant) ; combat 44 (tenir les crocodiles à distance pendant l'évacuation)
+complication: La crue vient d'un barrage de l'ancien empire, réactivé par erreur par des ouvriers de la capitale qui ne savaient pas ce qu'ils ouvraient.
+eclatante: {meneur} envoie un messager remonter le fleuve jusqu'au barrage, pendant qu'on évacue. La vanne est refermée avant la nuit. L'eau baisse d'un mètre au matin. Tout le monde est sorti des toits, chèvres comprises. La capitale envoie des excuses officielles, et des charpentiers. Les deux arrivent en retard, mais ils arrivent.
+reussite: Les trois villages sont évacués sans morts. L'eau baisse en une semaine. On reconstruit. Les crocodiles restent un mois dans les rues, par habitude.
+partielle: Deux villages sur trois sont évacués à temps. Dans le troisième, on perd deux vieillards et une partie du bétail. L'eau baisse lentement.
+echec: Le courant est trop fort pour les barques. On sauve ce qu'on peut. Les villages sont abandonnés. Leurs habitants s'installent à la capitale, où personne ne les attendait.
+recompenses: po 170 ; reputation 6 ; objet Bouclier de Doran 16
+
+=== SHU-L-025 | Le vendeur de cartes du Grand Sai
+source: privee
+region: shurima
+palier: locale
+type: traque
+ton: drole
+lieu: Marrowmark
+demandeur: un groupe de caravaniers furieux, qui ont acheté de fausses cartes du Grand Sai à un certain « Maître Ozzu »
+accroche: « Maître Ozzu nous a vendu une carte du Grand Sai. Il y avait une oasis tous les deux jours, et un raccourci par la Vallée du Chant. Il n'y avait ni oasis, ni raccourci, ni Vallée du Chant à cet endroit. On a failli mourir trois fois. On voudrait le retrouver, pour lui faire faire le chemin. À pied. »
+postes: Assassin
+duree: 5
+dangereuse: non
+epreuves: poursuite 44 (retrouver Maître Ozzu dans les ruelles de Marrowmark) ; diplomatie 41 (empêcher les caravaniers de le lyncher)
+complication: Maître Ozzu n'a jamais quitté Marrowmark. Il dessine ses cartes d'après les récits des voyageurs, en mélangeant tout. Il croit sincèrement qu'elles sont justes.
+eclatante: {meneur} retrouve Ozzu dans son atelier, au milieu de cinq cents cartes toutes fausses, et l'amène aux caravaniers. Au lieu de le lyncher, ils l'emmènent faire le chemin, pour corriger ses cartes en route. Il en revient bronzé, maigre et transformé. Ses nouvelles cartes sont les meilleures de Marrowmark. Elles sont aussi deux fois plus chères.
+reussite: Ozzu est retrouvé et rembourse les caravaniers, en pleurant. Il brûle ses fausses cartes devant eux. Il en a une copie de chaque, chez lui.
+partielle: Ozzu est retrouvé, mais il n'a plus d'argent. Les caravaniers repartent avec un lot de cartes neuves, tout aussi fausses, en guise de dédommagement.
+echec: Ozzu a quitté Marrowmark la veille. Ses cartes, elles, sont toujours vendues au marché. Les caravaniers placardent un avertissement. Les gens achètent quand même : elles sont jolies.
+recompenses: po 65 ; reputation 3 ; objet Épée longue 15
