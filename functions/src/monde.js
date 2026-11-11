@@ -20,7 +20,7 @@ const path = require('node:path');
 const V = require('./vie'), S = require('./scenes'), A = require('./arcs'), Q = require('./quetes'), B = require('./billets');
 const M = require('./missions'), RES = require('./resolution'), P = require('./progression'), REC = require('./recrutement');
 const RP = require('./repere'), RG = require('./rangs'), MJ = require('./multijoueur'), RA = require('./rapport'), RULES = require('./rules');
-const CO = require('./courrier'), SO = require('./social'), AC = require('./actions');
+const CO = require('./courrier'), SO = require('./social'), AC = require('./actions'), FIL = require('./fil');
 const FIN = require('./langue').finir;
 const MA = () => require('./maitre');
 const EQ = require('./equipement');
@@ -250,9 +250,11 @@ function faireAvancerContrats(monde) {
       for (const [gid, hs] of Object.entries(partis)) {
         const g = monde.guildes[gid], p0 = c.m.postes.find(p => p.heros?.id === hs[0].id);
         const noms = hs.map(x => x.nom), pl = noms.length > 1, liste = pl ? `${noms.slice(0, -1).join(', ')} et ${noms[noms.length - 1]}` : noms[0];
-        g.chronique.push({ t, lieu: 'cour', importance: 3, declencheur: 'contrat', scene: 'contrat#depart', heros: hs.map(x => x.id),
-          texte: FIN(pl ? `${liste} quittent la salle de brief et passent le portail, en route ${Q.avecPreposition(c.mission.lieu, 'vers')} pour le contrat « ${c.mission.titre} ». ${g.monde.chien} les accompagne jusqu'au bout du chemin, puis s'assoit et les regarde partir.`
-            : `${liste} quitte la salle de brief et passe le portail, en route ${Q.avecPreposition(c.mission.lieu, 'vers')} pour le contrat « ${c.mission.titre} ». ${g.monde.chien} suit jusqu'au bout du chemin, puis s'assoit et regarde la silhouette s'éloigner.`) });
+        // Audit du 11 nov. : le même paragraphe de départ revenait seize fois en deux semaines. Ce sont désormais les héros
+        // qui annoncent leur départ, chacun à sa façon, dans le fil de la guilde.
+        if (!FIL.depart(g, hs, c.mission).length)
+          g.chronique.push({ t, lieu: 'cour', importance: 3, declencheur: 'contrat', scene: 'contrat#depart', heros: hs.map(x => x.id),
+            texte: FIN(`${liste} ${pl ? 'passent' : 'passe'} le portail, en route ${Q.avecPreposition(c.mission.lieu, 'vers')} pour « ${c.mission.titre} ».`) });
         const vol = CO.volOiseau(p0?.trajet);
         (g.lettres ||= []).push({ t: c.depart + vol, heros: hs.map(x => x.id), scene: 'contrat#arrivee', dec: 'courrier', texte: CO.lettreArrivee(g, hs, { ...c.mission, id: c.id }, c.depart, V) });
       }
@@ -310,7 +312,7 @@ function rentrer(monde, c, p) {
   if (objet) (g.inventaire ||= []).push({ ...objet, gagne: monde.t, mission: c.mission.titre });
   const miens = tenus.filter(x => x.guilde === g.id).map(x => g.heros.find(y => y.id === x.heros.id)).filter(Boolean);
   const allies = tenus.filter(x => x.guilde !== g.id).map(x => ({ id: x.heros.id, nom: x.heros.nom, guilde: x.guilde }));
-  const paragraphes = RA.rapportMission(c.mission, r, { calendrier: cal, equipe: miens.map(x => ({ nom: x.nom })).concat(allies.map(a => ({ nom: a.nom }))), repos: h.repos, graine: g.id });
+  const paragraphes = RA.rapportMission(c.mission, r, { calendrier: cal, equipe: miens.map(x => ({ nom: x.nom })).concat(allies.map(a => ({ nom: a.nom }))), repos: h.repos, graine: g.id, chien: g.monde?.chien });
   (g.rapports ||= []).unshift({ id: c.id, t: monde.t, titre: c.mission.titre, lieu: c.mission.lieu, region: c.mission.region, issue: r.issue, heros: miens.map(x => x.id), allies, po, reputation: rep, objet: objet?.nom || null, paragraphes, lu: false });
   g.rapports.length = Math.min(g.rapports.length, PARAMS.conserverRapports);
   monterDeNiveau(monde, g);
@@ -363,7 +365,10 @@ function candidatureDuJour(monde, g) {
 function payer(monde, g) {
   if (monde.t - g.fondee < 24 * 6) return;   // la première paie tombe après une semaine pleine
   const s = actifs(g).reduce((t, h) => t + (h.salaire || 0), 0);
-  g.po -= s; g.dernierePaie = monde.t;
+  // Les retenues (une facture du bourg payée sur la solde) reviennent au coffre, jamais plus que le salaire.
+  const ret = actifs(g).reduce((t, h) => { const r = Math.min(h.retenue || 0, h.salaire || 0); h.retenue = (h.retenue || 0) - r; return t + r; }, 0);
+  g.po -= s - ret; g.dernierePaie = monde.t;
+  if (ret) avis(g, `Retenues sur la solde (la facture du bourg) : ${ret} PO reviennent au coffre.`, { type: 'paie' });
   avis(g, g.po < 0 ? `Les salaires de la semaine (${s} PO) vident le coffre : il manque ${-g.po} PO. Tes héros le remarquent.` : `Salaires de la semaine payés : ${s} PO.`, { type: 'paie' });
   if (g.po < 0) for (const h of actifs(g)) V.souvenir(h, monde.t, -8, 'Un salaire en retard', 72);
 }
@@ -401,6 +406,7 @@ function lancerAction(monde, gid, id) { const g = monde.guildes[gid], r = AC.lan
 function faireGeste(monde, gid, heroId, id) { return AC.faireGeste(monde.guildes[gid], heroId, id); }
 function envoyerMissive(monde, gid, vers, texte) { return SO.envoyerMissive(monde, gid, vers, texte); }
 /* L'image de la guilde : le portrait d'un de ses héros, ou une petite photo (réduite par l'appareil avant l'envoi). */
+function repondreFil(monde, gid, id, choix) { return FIL.repondre(monde.guildes[gid], id, choix, jugerGeste); }
 function choisirImage(monde, gid, { cle = null, photo = null } = {}) {
   const g = monde.guildes[gid];
   if (photo) {
@@ -532,7 +538,7 @@ function avancer(monde, jusqua) {
   return monde;
 }
 
-module.exports = { regionsOuvertes, changerSolde, donnerConges, lancerAction, faireGeste, envoyerMissive, choisirImage, palierDe, nommerChien: (monde, gid, nom) => V.nommerChien(monde.guildes[gid], nom), equiper: (monde, gid, heroId, uid) => EQ.equiper(monde.guildes[gid], heroId, uid), desequiper: (monde, gid, heroId, uid) => EQ.desequiper(monde.guildes[gid], heroId, uid),
+module.exports = { repondreFil, regionsOuvertes, changerSolde, donnerConges, lancerAction, faireGeste, envoyerMissive, choisirImage, palierDe, nommerChien: (monde, gid, nom) => V.nommerChien(monde.guildes[gid], nom), equiper: (monde, gid, heroId, uid) => EQ.equiper(monde.guildes[gid], heroId, uid), desequiper: (monde, gid, heroId, uid) => EQ.desequiper(monde.guildes[gid], heroId, uid),
   PARAMS, catalogues, creerMonde, fonderGuilde, nouveauHeros, recruter, refuserCandidature, poserAnnonce, publierContrats, contratsPour, placer, retirer, chanceContrat,
   construire, repondreCarte, lancerQuete, inscrireTournoi, jouerLeTournoi, seMontrerInteresse, avancer, statsDe, disponible, nomRegion,
   proposerAlliance: (monde, de, vers) => MJ.proposerAlliance(monde, de, vers, id => palierDe(monde.guildes[id]), monde.t),

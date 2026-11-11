@@ -16,24 +16,24 @@
 
 // 10 nov. 2026, décision de Théo : « beaucoup moins de pièces (5 ou 6 en plus, au maximum), toutes utiles et bien travaillées,
 // débloquées tous les 7 niveaux contre de l'argent, pour que les pièces soient plus grandes ». Chaque pièce réunit donc deux
-// lieux de vie et leurs effets. Les prix sont une proposition (4 à 12 semaines de contrats au moment où la pièce s'ouvre).
+// lieux de vie et leurs effets. Prix revus le 11 nov. (audit) : environ deux semaines de gains réels au rang où la pièce s'ouvre.
 const SALLES = [
-  { cle: 'table', nom: 'La cuisine et la taverne', niveau: 7, prix: 4000, lieu: 'cuisines', lieux: ['cuisines', 'taverne'], etage: 'rdc',
+  { cle: 'table', nom: 'La cuisine et la taverne', niveau: 7, prix: 600, lieu: 'cuisines', lieux: ['cuisines', 'taverne'], etage: 'rdc',
     effet: "Des repas chauds et un comptoir pour se parler : un peu de moral pour chaque héros présent, chaque midi. Les tensions retombent plus vite, et les petits désaccords tournent moins souvent à la dispute.",
     regles: { moralRepas: 3, tension: 0.7, escalade: 0.65 } },
-  { cle: 'soins', nom: "L'infirmerie et les bains", niveau: 14, prix: 12000, lieu: 'infirmerie', lieux: ['infirmerie', 'bains'], etage: 'etage',
+  { cle: 'soins', nom: "L'infirmerie et les bains", niveau: 14, prix: 2500, lieu: 'infirmerie', lieux: ['infirmerie', 'bains'], etage: 'etage',
     effet: "Des soins dignes de ce nom et de l'eau chaude : le repos après une blessure est un tiers plus court, le repos après une mission un quart plus court.",
     regles: { reposBlessure: 0.67, repos: 0.75 } },
-  { cle: 'armes', nom: "La salle d'armes et la forge", niveau: 21, prix: 40000, lieu: 'salle_armes', lieux: ['salle_armes', 'forge'], etage: 'rdc',
+  { cle: 'armes', nom: "La salle d'armes et la forge", niveau: 21, prix: 8000, lieu: 'salle_armes', lieux: ['salle_armes', 'forge'], etage: 'rdc',
     effet: "De vrais mannequins, des lames affûtées chaque semaine : l'entraînement fait progresser 60 % plus vite, et le risque de blessure en mission baisse d'un cinquième.",
     regles: { xpEntrainement: 1.6, blessure: 0.8 } },
-  { cle: 'savoir', nom: 'La bibliothèque et la salle des cartes', niveau: 28, prix: 70000, lieu: 'bibliotheque', lieux: ['bibliotheque', 'salle_cartes'], etage: 'etage',
+  { cle: 'savoir', nom: 'La bibliothèque et la salle des cartes', niveau: 28, prix: 15000, lieu: 'bibliotheque', lieux: ['bibliotheque', 'salle_cartes'], etage: 'etage',
     effet: "Des livres, des cartes, des informateurs : la lecture fait progresser 60 % plus vite, les billets en langue inconnue sont toujours traduits, un contrat de plus au tableau chaque jour, et les imprévus des missions sont moins rudes.",
     regles: { xpLecture: 1.6, traduction: true, contrats: 1, imprevu: -5 } },
-  { cle: 'ecuries', nom: 'Les écuries', niveau: 35, prix: 85000, lieu: 'ecuries', lieux: ['ecuries'], etage: 'dehors',
+  { cle: 'ecuries', nom: 'Les écuries', niveau: 35, prix: 25000, lieu: 'ecuries', lieux: ['ecuries'], etage: 'dehors',
     effet: "Des chevaux à la guilde : tous les trajets sont un cinquième plus courts. Plus de temps sur place, et des lieux plus lointains à portée de mission.",
     regles: { trajet: 0.8 } },
-  { cle: 'hall', nom: 'Le grand hall et son sanctuaire', niveau: 42, prix: 260000, lieu: 'grand_hall', lieux: ['grand_hall', 'sanctuaire'], etage: 'rdc',
+  { cle: 'hall', nom: 'Le grand hall et son sanctuaire', niveau: 42, prix: 60000, lieu: 'grand_hall', lieux: ['grand_hall', 'sanctuaire'], etage: 'rdc',
     effet: "Une salle digne d'une guilde légendaire, et un lieu pour se recueillir : chaque contrat rapporte 5 % de PO en plus, un contrat de plus au tableau chaque jour, les mauvais souvenirs s'effacent plus vite et la fidélité se perd moins vite dans les moments difficiles.",
     regles: { bonusPO: 0.05, contrats: 1, souvenirsNegatifs: 0.7, perteFidelite: 0.75 } },
 ];

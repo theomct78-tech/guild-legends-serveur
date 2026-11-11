@@ -92,7 +92,7 @@ test('une scène ne revient pas dans la guilde avant cinq jours', () => {
   V.simuler(g, T0 + 24 * 5, scenes);
   const vues = {};
   for (const e of g.chronique) {
-    if (e.importance >= 3 || V.OBLIGATOIRES.includes(e.declencheur)) continue; // un moment majeur peut reprendre la scène la plus ancienne
+    if (e.importance >= 3 || V.OBLIGATOIRES.includes(e.declencheur) || e.declencheur === 'fil') continue; // un moment majeur peut reprendre la scène la plus ancienne ; le fil a sa propre règle (un mois)
     if (vues[e.scene] != null) assert.ok(e.t - vues[e.scene] >= V.PARAMS.delaiReutilisationScene, `${e.scene} répétée`);
     vues[e.scene] = e.t;
   }
@@ -256,7 +256,9 @@ test('quêtes : un compagnon rend la mission plus sûre et rapproche les deux h�
 
 test('répliques : chaque registre couvre les demandes au maître, et les voix communes ne s\'accordent pas', () => {
   const sits = ['plaide', 'demande_conges', 'demande_augmentation', 'demande_soiree', 'depart'];
-  const toutes = [...sits, 'salut', 'taquine', 'console', 'vante', 'plainte', 'merci', 'accueil', 'colere', 'rire', 'excuse'];
+  const toutes = [...sits, 'salut', 'taquine', 'console', 'vante', 'plainte', 'merci', 'accueil', 'colere', 'rire', 'excuse',
+    // Les voix du fil de la guilde, des stories et du courrier (11 nov. 2026)
+    'bande', 'fil_depart', 'fil_retour_bon', 'fil_retour_mauvais', 'fil_blesse', 'fil_ennui', 'fil_maitre', 'fil_pique', 'fil_quotidien', 'story', 'correspondant'];
   const suspect = /\b(je suis|suis) [a-zàâéèêëîïôûç]+(é|ée|eux|euse)(?![a-zàâéèêëîïôûç])|…/;
   for (const r of ['noble', 'rue', 'sage', 'brut', 'joyeux', 'sombre', 'singulier']) for (const s of sits) {
     const l = scenes.repliques[`registre:${r}`]?.[s];

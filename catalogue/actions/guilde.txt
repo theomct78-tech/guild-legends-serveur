@@ -108,7 +108,7 @@ bannieres|travail|Coudre une nouvelle bannière|8|24|juste|m5 s14 l8 e8|Chacun y
 lettres_famille|travail|Une soirée pour écrire chez soi|2|0|compatissant|m3 s6 l8|Du papier, de l'encre, du silence. Certains écrivent trois pages, d'autres trois lignes. {un} regarde longtemps sa feuille blanche, puis finit par écrire. Les oiseaux partent tous demain matin.
 premiers_soins|travail|Une leçon de premiers soins|6|6|compatissant|m2 s12 e16|Bandages, attelles, garrots. {un} joue la victime et en fait beaucoup trop. {deux} lui bande tout le corps, bouche comprise. La leçon est jugée très utile.
 cartes_region|travail|Étudier les cartes de la région|0|2|juste|m1 s8 e18|Toutes les cartes dépliées sur la grande table. {un} trouve un raccourci que personne n'avait vu. {deux} trouve que le raccourci traverse un marécage. On le note quand même.
-discours|travail|Réunir tout le monde pour parler franchement|0|0|ecoute|m3 s14 e6|Tout le monde dans la salle commune, et chacun dit ce qui ne va pas. C'est long, parfois désagréable. {un} dit une chose difficile, calmement. Ça fait du bien à tout le monde, à la fin.
+discours|travail|Réunir tout le monde pour parler franchement|0|0|ecoute|m3 s14 e6|Tout le monde dans la salle commune, et chacun dit ce qui ne va pas. C'est long, parfois désagréable. {un} dit une chose difficile, calmement. Après, on mange tous ensemble, et la soupe est meilleure que d'habitude.
 
 # ---------- Au calme ----------
 jour_libre|calme|Une journée libre pour tout le monde|0|0|laxiste|m4 l20 n10|Pas d'entraînement, pas de corvée, rien. {un} dort jusqu'à midi. {deux} ne sait pas quoi faire et range ses affaires trois fois. Ça s'apprend, le repos.

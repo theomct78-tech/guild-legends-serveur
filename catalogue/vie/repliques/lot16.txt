@@ -1,0 +1,277 @@
+# Voix des champions · lot 16 (Renekton à Syndra) · 11 nov. 2026. Format et règles : voir lot10.txt.
+
+Renekton|bande|gamin
+Renekton|fil_depart|ENFIN ! Du sang ! Enfin, une mission. C'est pareil.
+Renekton|fil_retour_bon|Ils ont crié. J'ai crié plus fort. J'ai gagné.
+Renekton|fil_retour_mauvais|QUI ? QUI a fait rater ça ? Je veux un nom. Maintenant.
+Renekton|fil_blesse|Une morsure ? Sur MOI ? Je vais mordre en retour. Plus tard. Là, j'ai mal.
+Renekton|fil_ennui|J'ai cassé l'abreuvoir. Il me regardait bizarrement. Ne me jugez pas.
+Renekton|fil_maitre|Toi, tu ne m'enfermes pas. Mon frère m'a enfermé. Toi, non. Je m'en souviens.
+Renekton|fil_pique|{b} a prononcé un prénom que je n'aime pas. {b} ne le refera pas.
+Renekton|story|Bain de boue dans le jardin. C'est bon pour les écailles.
+Renekton|story|Il y avait une table. Il n'y en a plus. On mange par terre ce soir.
+Renekton|correspondant|Quelqu'un a prononcé le nom de « Nasus » près de {nom}. Notre abreuvoir n'existe plus. Je vous transmets la liste des prénoms à éviter, établie avec lui.
+
+Rengar|bande|discret
+Rengar|fil_depart|La chasse commence. Ne me suivez pas, vous me feriez rater la proie.
+Rengar|fil_retour_bon|J'ai la tête de la bête. Je la mets au-dessus de la cheminée. Pas de discussion.
+Rengar|fil_retour_mauvais|La proie m'a échappé. Pour l'instant. La chasse n'est jamais finie.
+Rengar|fil_blesse|Une griffe m'a eu. Je garderai la cicatrice. C'est un trophée.
+Rengar|fil_ennui|J'ai traqué le chien toute la matinée. Il ne s'en est pas aperçu. Je suis très fort.
+Rengar|fil_maitre|Tu ne chasses pas, et tu n'es pas une proie non plus. Tu es… autre chose. Je respecte.
+Rengar|fil_pique|{b} a laissé des traces de boue dans tout le couloir. Je les ai suivies. Elles mènent au garde-manger.
+Rengar|story|Trophée numéro quatre. Il est plus gros que le trois.
+Rengar|story|Embuscade réussie sur le cuisinier. Il a lâché la marmite. Je ne regrette rien.
+Rengar|correspondant|{nom} a déposé devant notre porte la tête du sanglier qui ravageait les champs, sans un mot. Puis il a demandé s'il y avait d'autres bêtes à chasser. Il avait l'air sérieusement déçu qu'il n'y en ait pas.
+
+Riven|bande|discret
+Riven|fil_depart|Je pars. Je rentrerai. Je rentre toujours.
+Riven|fil_retour_bon|C'est fait. Personne n'est mort. J'ai fait attention.
+Riven|fil_retour_mauvais|J'aurais dû être plus rapide. Je ne veux pas en parler maintenant.
+Riven|fil_blesse|La lame a tenu. Moi aussi. À peu près.
+Riven|fil_ennui|J'ai labouré le potager. Personne ne me l'avait demandé. Ça m'a fait du bien.
+Riven|fil_maitre|Tu ne me demandes rien sur mon passé. Merci. Un jour, peut-être.
+Riven|fil_pique|{b}, tu tiens ton épée comme si elle allait te mordre. Elle ne mordra pas. Pas toi.
+Riven|story|Le potager au matin. Les radis sortent. C'est bête, mais ça me rend heureuse.
+Riven|story|La lame posée sur la table. Je ne l'ai pas sortie depuis trois jours.
+Riven|correspondant|{nom} a labouré le champ d'une veuve du village, en une journée, sans rien demander. Quand j'ai voulu la payer, elle m'a dit qu'elle avait des dettes plus vieilles que ça.
+
+Rumble|bande|gamin
+Rumble|fil_depart|Le robot est chaud, moi aussi ! On fonce !
+Rumble|fil_retour_bon|On a gagné ! Le robot a encore ses deux bras. Enfin, un et demi.
+Rumble|fil_retour_mauvais|Le robot a surchauffé. C'est pas ma faute. C'est la faute du robot.
+Rumble|fil_blesse|J'ai brûlé ma moustache. Ce qui reste de ma moustache.
+Rumble|fil_ennui|J'ai amélioré la pompe à eau. Elle crache du feu un jour sur deux. Mais l'eau est chaude.
+Rumble|fil_maitre|Hé, chef ! Tu veux voir mon robot ? Il fait du café. Et des flammes.
+Rumble|fil_pique|{b} a touché à mes outils. {b} va se réveiller avec des moustaches. Des fausses.
+Rumble|story|Atelier dans la grange. Rien n'a encore explosé. Encore.
+Rumble|story|J'ai fait un toast avec le lance-flammes. Il est carbonisé. Je le mange quand même.
+Rumble|correspondant|{nom} a « amélioré » la pompe de la place pendant que je remplissais ses papiers. Elle fonctionne mieux. Elle crache aussi des flammes, de temps en temps. Les gens trouvent ça amusant.
+
+Ryze|bande|grand
+Ryze|fil_depart|Je pars. Ne touchez pas à mes parchemins. Vraiment. Ne les touchez pas.
+Ryze|fil_retour_bon|Fait. Personne n'a lu ce qu'il ne fallait pas lire. C'est l'essentiel.
+Ryze|fil_retour_mauvais|Quelqu'un a ouvert un livre qu'il aurait dû laisser fermé. Je dois réfléchir.
+Ryze|fil_blesse|J'ai trois cents ans de blessures. Celle-ci ne changera rien.
+Ryze|fil_ennui|J'ai trié la bibliothèque. Il y avait un livre dangereux dans la section cuisine. Je l'ai brûlé.
+Ryze|fil_maitre|Tu ne demandes pas ce qu'il y a dans mon sac. C'est sage. Continue.
+Ryze|fil_pique|{b} a ouvert mon parchemin. {b} a vu des choses. {b} dormira mal.
+Ryze|story|Thé, parchemins, rune cachée. Personne ne la trouvera.
+Ryze|story|Ce livre de cuisine n'en était pas un. Il est rangé, maintenant.
+Ryze|correspondant|{nom} a feuilleté un livre de notre bibliothèque, a pâli, l'a refermé et est reparti avec en disant « celui-là, non ». C'était un livre de comptes. Je n'ai pas osé lui demander.
+
+Samira|bande|gamin
+Samira|fil_depart|Je pars ! Prévenez le public, ça va être spectaculaire.
+Samira|fil_retour_bon|J'ai fait le grand jeu. Ils n'ont rien vu. Les gens applaudissaient.
+Samira|fil_retour_mauvais|Pas assez de style. La prochaine fois, je prends plus de risques. Ne me dites pas non.
+Samira|fil_blesse|Une égratignure. Elle me va bien. Tout me va bien.
+Samira|fil_ennui|Je m'ennuie à mourir. Quelqu'un a un pari à me proposer ? N'importe quoi.
+Samira|fil_maitre|T'as du cran, chef. Pas autant que moi, mais du cran.
+Samira|fil_pique|{b} joue la sécurité. Tout le temps. C'est d'un ennui.
+Samira|story|Tir sur une pièce en l'air, debout sur une chaise. Réussi. Trois fois.
+Samira|story|Lunettes noires, cour ensoleillée. Le style ne prend pas de jour de congé.
+Samira|correspondant|{nom} a parié avec mes gardes qu'elle toucherait une pièce lancée en l'air en buvant un verre, debout sur une chaise. Elle a gagné trois fois. Ma salle était pleine jusqu'à minuit.
+
+Sejuani|bande|grand
+Sejuani|fil_depart|On part. Les faibles restent au chaud. Les autres, avec moi.
+Sejuani|fil_retour_bon|Le village est sauf. Bristle a mangé trois loups. Bonne journée.
+Sejuani|fil_retour_mauvais|Le froid était plus fort que nous. Il le sera moins la prochaine fois.
+Sejuani|fil_blesse|Ce n'est rien. Le Freljord m'a fait pire avant même que je sache marcher.
+Sejuani|fil_ennui|Ce repère est trop chaud. Ouvrez les fenêtres. Toutes.
+Sejuani|fil_maitre|Tu as une tribu, maintenant. Elle est bruyante et mal élevée. Mais c'est une tribu.
+Sejuani|fil_pique|{b} a froid dès qu'il neige un peu. Chez moi, {b} ne passerait pas l'hiver.
+Sejuani|story|Bristle dans la cour. Il a mangé les rosiers. Il avait faim.
+Sejuani|story|Fenêtre ouverte, neige sur le lit. Je dors mieux comme ça.
+Sejuani|correspondant|{nom} a traversé le col en pleine tempête pour ramener deux enfants perdus. Elle a juste dit : « Chez nous, on ne laisse personne dans la neige. » Puis elle a demandé une bière.
+
+Senna|bande|grand
+Senna|fil_depart|Je pars. Que quelqu'un empêche Lucian de m'attendre devant la porte. Ou pas.
+Senna|fil_retour_bon|Les âmes égarées sont rentrées chez elles. Moi aussi.
+Senna|fil_retour_mauvais|La brume était trop épaisse. Je reviendrai. J'ai l'habitude de revenir.
+Senna|fil_blesse|J'ai connu bien pire que ça, crois-moi. Mais un thé ne serait pas de refus.
+Senna|fil_ennui|J'ai nettoyé mon canon. Trois fois. Il brille. Il a l'air plus heureux que moi.
+Senna|fil_maitre|Tu as une famille ici. Ne laisse personne te la prendre. Jamais.
+Senna|fil_pique|{b} a peur du noir. C'est normal. Je ne dirai rien. Enfin, si.
+Senna|story|Lumière du matin sur la cour. Elle m'avait manqué, celle-là.
+Senna|story|Tir de précision sur le chemin de ronde. Les pigeons ne m'en veulent pas.
+Senna|correspondant|{nom} a passé une nuit dans le caveau du cimetière, pour une affaire que je ne comprends pas. Au matin, le cimetière m'a semblé plus calme. Elle souriait.
+
+Seraphine|bande|gamin
+Seraphine|fil_depart|On part en tournée ! Enfin, en mission. Mais je vais chanter quand même.
+Seraphine|fil_retour_bon|On a réussi ! Et j'ai fait chanter tout le village. Même le vieux grincheux.
+Seraphine|fil_retour_mauvais|Ce n'était pas la bonne note. Demain, on la trouvera. Ensemble.
+Seraphine|fil_blesse|J'ai perdu ma voix une heure. C'était la pire heure de ma vie.
+Seraphine|fil_ennui|J'ai écrit une chanson sur le repère. Il y a un couplet sur chacun de vous. Même le chien.
+Seraphine|fil_maitre|Tu sais ce que j'entends quand je t'écoute ? Une mélodie un peu triste. On pourrait la rendre joyeuse.
+Seraphine|fil_pique|{b} chante faux sous la douche. Très faux. J'ai pris des notes. Littéralement.
+Seraphine|story|Concert improvisé dans la salle commune. Deux spectateurs et le chien. Je compte le chien.
+Seraphine|story|Nouvelle chanson. Elle s'appelle « Les Lanternes ». Je vous la chante ce soir.
+Seraphine|correspondant|{nom} a chanté sur la place « pour essayer l'acoustique ». Il y avait six cents personnes au bout de dix minutes. Mon garde a pleuré. Il dit que c'était la poussière.
+
+Sett|bande|gamin
+Sett|fil_depart|Je pars. Si quelqu'un veut une raclée en route, il sait où me trouver.
+Sett|fil_retour_bon|Mission réussie. J'ai même pas eu besoin d'enlever ma veste.
+Sett|fil_retour_mauvais|Ça s'est mal passé. Mais j'ai encore mes deux poings. On recommence demain.
+Sett|fil_blesse|Une égratignure. Ma mère m'a déjà fait pire avec une cuillère en bois.
+Sett|fil_ennui|J'ai ouvert une arène dans la cour. Personne ne s'inscrit. Lâches.
+Sett|fil_maitre|T'es réglo, chef. Ma mère t'aimerait bien. C'est un vrai compliment.
+Sett|fil_pique|{b} frappe comme une brise de printemps. Viens dans la cour, je t'apprends.
+Sett|story|Veste neuve, cour neuve, adversaires : aucun. Dommage.
+Sett|story|Lettre à ma mère. Je lui dis que je mange bien. C'est faux, mais elle s'inquiète.
+Sett|correspondant|Cinq types ont voulu faire les malins devant {nom}. Il a posé son verre, réglé ça en une minute, repris son verre. Et il a payé la casse sans que je demande.
+
+Shaco|bande|gamin
+Shaco|fil_depart|Je pars ! Ou je suis déjà là-bas ? Ou je ne suis jamais parti ? Hi hi.
+Shaco|fil_retour_bon|Mission accomplie ! Ils n'ont pas ri. Personne ne rit jamais à mes blagues.
+Shaco|fil_retour_mauvais|Ce n'était pas drôle. Vraiment pas drôle. Je vais faire une blague pour me consoler.
+Shaco|fil_blesse|Aïe ! Non, c'était l'autre moi. Celui-là va bien. Enfin, presque.
+Shaco|fil_ennui|J'ai laissé une petite boîte dans la chambre de chacun. Ouvrez-les. Ou ne les ouvrez pas.
+Shaco|fil_maitre|Tu es drôle, toi. Pas exprès, mais drôle. Je t'aime bien. C'est rarement une bonne nouvelle.
+Shaco|fil_pique|{b} a peur des boîtes à musique. Quelle coïncidence. J'en ai plein.
+Shaco|story|Une boîte à musique sur l'oreiller de quelqu'un. Devinez qui.
+Shaco|story|Je me suis caché dans le placard toute la journée. Personne n'a ouvert. C'est vexant.
+Shaco|correspondant|Une boîte à musique est apparue dans chaque bureau de notre bâtiment la nuit où {nom} est arrivé. Personne n'ose les ouvrir. On entend rire dedans.
+
+Shen|bande|grand
+Shen|fil_depart|Je pars. L'équilibre ne se garde pas tout seul.
+Shen|fil_retour_bon|L'équilibre est rétabli. Personne n'a eu besoin de mourir.
+Shen|fil_retour_mauvais|Je suis arrivé trop tard. Je médite là-dessus. Ne vous inquiétez pas.
+Shen|fil_blesse|C'est l'équilibre. On donne, on reçoit. Aujourd'hui, j'ai beaucoup reçu.
+Shen|fil_ennui|J'ai empêché trois disputes dans la salle commune depuis ce matin. Il est onze heures.
+Shen|fil_maitre|Tu veux protéger tout le monde. C'est impossible. C'est aussi ce qui fait de toi la bonne personne pour ce rôle.
+Shen|fil_pique|{b}, tu provoques les autres exprès. Je le vois. Arrête.
+Shen|story|Méditation au bord du bassin. Le poisson aussi médite. Je crois.
+Shen|story|Le calme de la cour, à l'aube. Ça ne durera pas, alors j'en profite.
+Shen|correspondant|Deux bandes allaient en venir aux mains sur la place. {nom} est apparu entre les deux, sans arme tirée. Personne n'a bougé pendant une minute. Puis tout le monde est rentré chez soi.
+
+Shyvana|bande|discret
+Shyvana|fil_depart|Je pars. Que personne n'allume de feu en mon absence. C'est mon travail.
+Shyvana|fil_retour_bon|C'est réglé. J'ai brûlé un peu de forêt. Juste un peu. Un contre-feu.
+Shyvana|fil_retour_mauvais|J'ai perdu le contrôle. Encore. Je vais marcher seule un moment.
+Shyvana|fil_blesse|Mes écailles ont pris le coup. Ma peau, moins. Ça ira.
+Shyvana|fil_ennui|J'ai mangé un mouton entier. Il était cuit. Je ne dirai pas comment.
+Shyvana|fil_maitre|Tu ne me regardes pas comme un monstre. Merci. Je n'ai pas l'habitude.
+Shyvana|fil_pique|{b} a demandé si je crachais du feu sur commande. Non. Mais sur {b}, peut-être.
+Shyvana|story|Coucher de soleil, dragon sur le toit. Non, ce n'est pas un rêve.
+Shyvana|story|J'ai allumé la cheminée d'un souffle. On m'a applaudie. C'était agréable.
+Shyvana|correspondant|Un incendie menaçait la forêt quand {nom} est arrivée. Un dragon est passé au-dessus et a soufflé un contre-feu parfait. Je sais que c'était elle. Elle n'a pas voulu en parler.
+
+Singed|bande|gamin
+Singed|fil_depart|Je pars ! J'ai emporté quelques fioles. Ne vous approchez pas de mon sac.
+Singed|fil_retour_bon|Une réussite ! Ils ont toussé, un peu. Rien de grave. Normalement.
+Singed|fil_retour_mauvais|Un échec. Intéressant. J'ai noté la composition de l'air au moment de l'échec.
+Singed|fil_blesse|Une brûlure chimique. Ça me rappelle ma jeunesse. Que de souvenirs.
+Singed|fil_ennui|J'ai fait une petite expérience dans le lavoir. L'eau est verte. Les grenouilles aussi.
+Singed|fil_maitre|Vous voulez goûter ma nouvelle tisane ? Elle est presque sans danger.
+Singed|fil_pique|{b} m'a demandé ce qu'il y avait dans la fiole bleue. {b} va bientôt savoir.
+Singed|story|Laboratoire dans la cave. Ça sent bizarre. C'est normal.
+Singed|story|J'ai fait repousser les cheveux du cuisinier. Il en a partout maintenant.
+Singed|correspondant|{nom} a demandé à visiter notre cave. En remontant, il souriait. Depuis, la cave sent la pomme et la fumée, et les rats ont tous déménagé.
+
+Sion|bande|gamin
+Sion|fil_depart|BATAILLE. ENFIN.
+Sion|fil_retour_bon|ILS SONT TOMBÉS. MOI, JE TIENS DEBOUT. COMME TOUJOURS.
+Sion|fil_retour_mauvais|PAS ASSEZ D'ENNEMIS. LA PROCHAINE FOIS, PLUS.
+Sion|fil_blesse|JE SUIS DÉJÀ MORT. ÇA NE ME FAIT RIEN.
+Sion|fil_ennui|LE MUR ÉTAIT LÀ. JE SUIS PASSÉ À TRAVERS. IL N'EST PLUS LÀ.
+Sion|fil_maitre|TU M'AS DONNÉ UNE BATAILLE. JE T'EN REMERCIE. À MA FAÇON.
+Sion|fil_pique|{b} BLOQUE LE COULOIR. {b} VA BOUGER. DE GRÉ OU DE FORCE.
+Sion|story|LE MUR DE LA COUR. AUTREFOIS DEBOUT.
+Sion|story|ESSAYEZ DE L'ENLEVER.
+Sion|correspondant|Il fallait abattre le vieux rempart, trois semaines de travail. {nom} l'a traversé en courant. Deux fois, parce qu'on lui a dit merci.
+
+Sivir|bande|grand
+Sivir|fil_depart|Je pars. Ça va me coûter une fortune en fatigue. Je compte bien me faire payer.
+Sivir|fil_retour_bon|Le travail est fait, la paie encaissée. Je ne fais pas de discours pour si peu.
+Sivir|fil_retour_mauvais|Une mauvaise affaire. Ça arrive. Elle sera rattrapée par la suivante.
+Sivir|fil_blesse|Une coupure. Ça va me coûter une journée de repos. Que je compte bien vous facturer.
+Sivir|fil_ennui|J'ai fait les comptes de la guilde. On perd de l'argent sur les bougies. Allez savoir pourquoi.
+Sivir|fil_maitre|Tu payes juste, tu ne mens pas. Tu n'imagines pas comme c'est rare.
+Sivir|fil_pique|{b} négocie comme un enfant. Viens, {b}, je t'apprends. Tarif réduit.
+Sivir|story|Ma lame en croix, sur le lit. Elle a encore du sable dans les rainures.
+Sivir|story|Un dattier pousse dans le jardin. Je l'ai planté. Personne ne me croit.
+Sivir|correspondant|{nom} a négocié son tarif à la hausse, puis le nôtre à la baisse, de tête, en dix secondes. J'ai signé. C'était cher. Ça valait le prix.
+
+Skarner|bande|grand
+Skarner|fil_depart|Je pars. La terre m'appelle. Les cristaux aussi.
+Skarner|fil_retour_bon|Les pierres sont en paix. Le chemin du retour sera calme.
+Skarner|fil_retour_mauvais|Quelque chose a été pris. Je le retrouverai. La terre se souvient.
+Skarner|fil_blesse|Ma carapace est fendue. Elle se refermera. Lentement.
+Skarner|fil_ennui|Je me suis couché sur le sol de la cave. Il est frais. Il parle. Je l'écoute.
+Skarner|fil_maitre|Tu prends soin des tiens. Mon peuple faisait pareil. Il me manque.
+Skarner|fil_pique|{b} piétine le sol sans l'écouter. Le sol s'en souviendra.
+Skarner|story|Un cristal pousse dans la cave. Je le surveille. Il grandit.
+Skarner|story|Soleil sur la cour. Je reste là.
+Skarner|correspondant|En creusant une fondation, nos ouvriers ont trouvé un filon de cristal. {nom} s'est couché dessus et n'a plus bougé. Nous avons déplacé le chantier de dix mètres.
+
+Smolder|bande|gamin
+Smolder|fil_depart|Je pars ! Maman dit que je dois être prudent. Je vais être très prudent ! Presque.
+Smolder|fil_retour_bon|J'ai craché du feu ! Un vrai ! Il a fait « fouf » ! Vous avez vu ?
+Smolder|fil_retour_mauvais|Mon feu a fait « pfff ». C'est pas grave. Il fera « fouf » la prochaine fois.
+Smolder|fil_blesse|J'ai bobo à l'aile. Je suis courageux. Je pleure pas. Un peu.
+Smolder|fil_ennui|J'ai essayé de faire griller des chamallows. Le chamallow a pris feu. La table aussi.
+Smolder|fil_maitre|Tu crois que je serai aussi fort que maman un jour ? Dis oui.
+Smolder|fil_pique|{b} a dit que j'étais trop petit pour être un vrai dragon. Je vais grandir. Beaucoup.
+Smolder|story|Petite flamme sur une bougie. J'ai réussi du premier coup !
+Smolder|story|J'ai éternué. Le rideau a brûlé. Pardon, le rideau.
+Smolder|correspondant|{nom} a voulu montrer à nos employés comment on crache du feu. Ça a fait une toute petite flamme et un énorme éternuement. Tout le bureau a applaudi. Il était si fier.
+
+Sona|bande|discret
+Sona|fil_depart|(Sona effleure les cordes de son étivan. La note suit le groupe jusqu'au portail.)
+Sona|fil_retour_bon|(Sona joue un air joyeux en rentrant. Tout le monde sourit sans savoir pourquoi.)
+Sona|fil_retour_mauvais|(Sona joue une note grave, une seule. Elle reste suspendue dans la salle commune.)
+Sona|fil_blesse|(Sona se laisse soigner en jouant doucement. Le soigneur dit que c'est la première fois qu'il ne tremble pas.)
+Sona|fil_ennui|(Sona a appris une nouvelle mélodie au chien. Il la hurle à chaque repas.)
+Sona|fil_maitre|(Sona pose une petite carte sur ton bureau. Il y a un dessin de toi, souriant, et une note de musique.)
+Sona|fil_pique|(Sona joue une petite mélodie moqueuse chaque fois que {b} trébuche. {b} trébuche beaucoup.)
+Sona|story|L'etwahl prend le soleil.
+Sona|story|« Pour ceux qui sont rentrés. » Ce soir, dans la grande salle.
+Sona|correspondant|{nom} n'a pas dit un mot, évidemment. Elle a joué une heure sur la place. Je n'ai jamais vu autant de gens pleurer en souriant. Le percepteur a annulé deux amendes en rentrant.
+
+Soraka|bande|grand
+Soraka|fil_depart|Je pars soigner. Mangez des légumes en mon absence. Je saurai.
+Soraka|fil_retour_bon|Tout le monde est soigné. Même ceux qui ne voulaient pas.
+Soraka|fil_retour_mauvais|Je n'ai pas pu sauver tout le monde. C'est la partie de mon travail que je n'accepterai jamais.
+Soraka|fil_blesse|Je soigne tout le monde sauf moi. C'est un défaut, je sais.
+Soraka|fil_ennui|J'ai soigné le chien, le cuisinier, et la plante de la salle commune. Quelqu'un d'autre a mal quelque part ?
+Soraka|fil_maitre|Tu as besoin de dormir. Je ne te le demande pas. Je te le prescris.
+Soraka|fil_pique|{b} refuse de boire mes tisanes. {b} va tomber malade, et je ne dirai rien. Si, je dirai quelque chose.
+Soraka|story|Tisanes alignées sur l'étagère. Une pour chacun de vous. Avec vos noms.
+Soraka|story|J'ai planté des herbes au jardin. Personne n'a le droit de les manger. Sauf si je le prescris.
+Soraka|correspondant|{nom} est passée dans trois rues, et tout le monde va mieux. Notre médecin n'a plus de patients. Il ne se plaint pas, mais il ne sait plus quoi faire de ses journées.
+
+Swain|bande|grand
+Swain|fil_depart|Je pars. Les corbeaux me tiendront informé de vos bêtises. Comportez-vous en conséquence.
+Swain|fil_retour_bon|Ils m'ont dit ce que je voulais savoir. Ils croient encore que c'était leur idée.
+Swain|fil_retour_mauvais|Un revers prévisible. Je l'avais prévu. Je n'ai rien dit pour voir.
+Swain|fil_blesse|Une blessure. Elle m'apprendra quelque chose. Elles m'apprennent toujours quelque chose.
+Swain|fil_ennui|J'ai appris quatre secrets sur chacun de vous depuis ce matin. Mes corbeaux sont efficaces.
+Swain|fil_maitre|Tu diriges mieux que tu ne le crois. Mais tu fais confiance trop vite. Je surveille pour toi.
+Swain|fil_pique|{b} croit que je n'ai pas vu. J'ai tout vu. Je vois toujours tout.
+Swain|story|Un corbeau sur la fenêtre. Il me raconte des choses. Vous ne voulez pas savoir lesquelles.
+Swain|story|Thé noir, échiquier, pièces déplacées. Personne n'ose jouer contre moi.
+Swain|correspondant|{nom} est venu « prendre des nouvelles de la ville ». En une heure, j'ai compris que tout ce que je croyais secret ne l'était pas. Il y avait un corbeau sur ma fenêtre ce matin.
+
+Sylas|bande|gamin
+Sylas|fil_depart|Je pars libérer des gens. Ou les aider. C'est souvent la même chose.
+Sylas|fil_retour_bon|Fait. J'ai brisé une ou deux chaînes en route. Elles ne manqueront à personne.
+Sylas|fil_retour_mauvais|J'ai perdu. Ça ne veut pas dire que j'avais tort. Ça veut dire que j'ai perdu.
+Sylas|fil_blesse|J'ai connu des cellules plus douloureuses. Ça, c'est une égratignure.
+Sylas|fil_ennui|Je me suis rendu compte que personne ici n'a de chaînes. C'est rafraîchissant. Presque ennuyeux.
+Sylas|fil_maitre|Tu ne nous enchaînes pas. Ça change tout. Ne l'oublie jamais.
+Sylas|fil_pique|{b} obéit à tous les ordres. Même aux idiots. Un jour, {b} comprendra.
+Sylas|story|Mes chaînes accrochées au mur. Comme un trophée. Elles le méritent.
+Sylas|story|Lecture au jardin : un livre interdit à Demacia. Je l'ai lu deux fois.
+Sylas|correspondant|Mes gardes ont voulu contrôler {nom} à cause des chaînes. Dix minutes plus tard, c'est lui qui leur expliquait leurs droits face à leur propre capitaine. Deux ont demandé une augmentation.
+
+Syndra|bande|gamin
+Syndra|fil_depart|Je pars. Si quelqu'un pense à me dire « fais attention », qu'il s'abstienne.
+Syndra|fil_retour_bon|C'est fait. J'ai été parfaitement contrôlée. Presque.
+Syndra|fil_retour_mauvais|Ils ont essayé de me retenir. Ils ont échoué. Le reste aussi a échoué.
+Syndra|fil_blesse|On m'a touchée. On le regrette. Moi aussi, un peu.
+Syndra|fil_ennui|J'ai fait léviter tous les meubles de la salle commune. Pour voir. Ils sont redescendus. Presque tous.
+Syndra|fil_maitre|Tu ne me demandes jamais de me retenir. C'est peut-être une erreur. Mais j'apprécie.
+Syndra|fil_pique|{b} m'a dit de me calmer. {b} est au plafond, maintenant.
+Syndra|story|Sphères noires qui flottent au-dessus du lit. Elles m'aident à dormir.
+Syndra|story|La charrette du marchand est sur le toit. Ne me demandez pas comment.
+Syndra|correspondant|La charrette de foin, le banc et le percepteur sont redescendus sans dommage. Personne ne sait ce qu'on a dit à {nom} pour en arriver là, et personne ne se dénonce.

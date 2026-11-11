@@ -1,0 +1,89 @@
+# Voix des champions · lot 26 (Viego à Zyra) · 11 nov. 2026 · fil, deuxième passe
+Viego|fil_ennui|Les jours se ressemblent ici. Tous. Sauf qu'aucun ne contient Isolde.
+Viego|fil_pique|{b} a ri pendant que je parlais d'elle. On ne rit pas pendant que je parle d'elle.
+Viego|fil_quotidien|J'ai trouvé une rose blanche au marché du bourg. Je l'ai achetée. Pour personne.
+Viego|fil_quotidien|J'ai écrit un poème. Il est mauvais. Elle l'aurait aimé quand même.
+Vladimir|fil_ennui|Le vin de l'auberge est fade. La compagnie, pire. Je m'enferme pour la soirée.
+Vladimir|fil_pique|{b} s'est entaillé le doigt en cuisinant. Je n'ai rien dit. J'ai seulement regardé. Avec intérêt.
+Vladimir|fil_quotidien|Nouvelle cape, rouge, évidemment. Le tailleur du bourg a fait des merveilles. Il était très nerveux.
+Vladimir|fil_quotidien|J'ai donné une petite réception dans ma chambre. Je me suis invité. C'était parfait.
+Volibear|fil_ennui|LE CIEL EST CALME. JE N'AIME PAS LE CIEL CALME.
+Volibear|fil_pique|{b} A DIT QUE J'ÉTAIS UN GROS NOUNOURS. RÉPÈTE ÇA PENDANT UN ORAGE.
+Volibear|fil_quotidien|L'ORAGE EST ARRIVÉ CETTE NUIT. J'AI DANSÉ DEHORS. VOUS DORMIEZ. DOMMAGE.
+Volibear|fil_quotidien|J'AI MANGÉ UN TONNEAU DE POISSONS. LE PÊCHEUR EST PAYÉ. LE PÊCHEUR EST CONTENT.
+Warwick|fil_ennui|Je sens tout le monde dans ce repère. Personne ne saigne. Bien. Ennuyeux.
+Warwick|fil_pique|{b} a peur de moi. Je le sens. L'odeur est forte.
+Warwick|fil_quotidien|J'ai couru dans la forêt toute la nuit. Je suis rentré calme. Ça ne durera pas.
+Warwick|fil_quotidien|Le chien n'a pas peur de moi. Les chiens comprennent.
+Wukong|fil_ennui|J'ai fait cent saltos dans la cour. Le chien en a fait deux. Il progresse !
+Wukong|fil_pique|{b} a dit que mon bâton était juste un bout de bois. JUSTE ?! Tu veux le prendre dans la tête pour voir ?
+Wukong|fil_quotidien|J'ai volé une pêche au marché. Non, je l'ai payée. Mais j'ai fait semblant de la voler. C'est plus drôle.
+Wukong|fil_quotidien|Maître Yi m'a fait méditer une heure. J'ai tenu dix minutes. C'est un record !
+Xayah|fil_ennui|Pas de mission. Rakan danse pour les poules. Je le regarde. Je ne m'ennuie plus vraiment.
+Xayah|fil_pique|{b} a marché sur une de mes plumes. Elle était à sa place. Toi, non.
+Xayah|fil_quotidien|Rakan m'a apporté le petit-déjeuner au lit. Il a tout renversé. C'était quand même gentil.
+Xayah|fil_quotidien|J'ai écrit aux Vastayas de la forêt. Ils ont répondu. Ils vont bien.
+Xerath|fil_ennui|Les mortels de ce repère passent leurs journées à manger et dormir. Je les observe. Je comprends Shurima.
+Xerath|fil_pique|{b} a osé me tourner le dos pendant que je parlais. Les empires sont tombés pour moins.
+Xerath|fil_quotidien|J'ai étudié les étoiles depuis le toit. Elles n'ont pas changé. Moi si.
+Xerath|fil_quotidien|Un enfant du bourg m'a demandé si j'étais une lampe. Je n'ai pas répondu. J'y réfléchis encore.
+Xin Zhao|fil_ennui|J'ai fait le tour du repère vingt fois. Tout est sûr. Je recommence quand même.
+Xin Zhao|fil_pique|{b} a dit que je ne savais pas rire. Je ris quand c'est drôle. Ce n'était pas drôle.
+Xin Zhao|fil_quotidien|J'ai écrit au prince Jarvan. Je lui ai dit que tout allait bien. C'est vrai.
+Xin Zhao|fil_quotidien|J'ai entraîné les gamins du bourg à la lance. Avec des bâtons. Ils sont doués.
+Yasuo|fil_ennui|Le vent ne souffle pas.
+Yasuo|fil_pique|{b} a pris ma flûte. Rends-la.
+Yasuo|fil_quotidien|J'ai joué de la flûte sur le toit. Personne n'a rien dit. Personne n'a dormi.
+Yasuo|fil_quotidien|Lettre de Yone. Non. Je l'ai rêvée.
+Yone|fil_ennui|J'ai médité près du lac. Le masque était silencieux, pour une fois. J'en ai profité.
+Yone|fil_pique|{b} a demandé à voir sous le masque. Non.
+Yone|fil_quotidien|J'ai regardé Yasuo jouer de la flûte sur le toit. Il ne m'a pas vu. Je suis resté.
+Yone|fil_quotidien|J'ai réparé la porte de la grange. Mes mains se souviennent de ce genre de travail.
+Yorick|fil_ennui|J'ai creusé un trou dans le jardin. Pas pour quelqu'un. Juste pour creuser.
+Yorick|fil_pique|{b} a dit que ma pelle sentait la terre. C'est normal. C'est une pelle.
+Yorick|fil_quotidien|J'ai entretenu les tombes du bourg. Personne ne les entretenait.
+Yorick|fil_quotidien|Le brouillard du matin m'a rappelé les Îles. Pas les mauvais côtés. Les autres.
+Yunara|fil_ennui|J'ai prié toute la matinée. Le reste de la journée est long.
+Yunara|fil_pique|{b} a marché sur mon tapis de prière. Je l'ai remis droit. Je n'ai rien dit.
+Yunara|fil_quotidien|Une grue s'est posée près du lac à l'aube. Elle est restée longtemps.
+Yunara|fil_quotidien|J'ai partagé le thé avec Karma. Elle a parlé. J'ai écouté.
+Yuumi|fil_ennui|Personne ne m'a lu d'histoire aujourd'hui. Le livre est triste. Moi aussi.
+Yuumi|fil_pique|{b} m'a poussée de sa chaise. J'étais là AVANT. C'est la règle du chat.
+Yuumi|fil_quotidien|J'ai dormi sur la tête du chien. Il n'a pas aimé. Moi si.
+Yuumi|fil_quotidien|Il fait soleil dans la grande salle à trois heures. Rendez-vous là. Apportez du poisson.
+Zaahen|fil_ennui|J'ai poli mes ailes. Rien ne se passe. Une arme qui attend s'abîme.
+Zaahen|fil_pique|{b} m'a demandé si je souriais parfois. Non.
+Zaahen|fil_quotidien|J'ai regardé le soleil se lever sur la vallée. Pour une fois, je n'ai pensé à rien d'autre.
+Zaahen|fil_quotidien|Le forgeron du bourg m'a regardé longtemps. Je l'ai laissé regarder.
+Zac|fil_ennui|J'ai pris la forme d'une chaise pour faire une blague. Personne ne s'est assis. Je suis resté chaise.
+Zac|fil_pique|{b} a dit que j'étais dégoûtant. Je suis élastique. Ce n'est pas pareil.
+Zac|fil_quotidien|J'ai aidé le meunier à monter son toit. J'ai servi d'échelle. Il était content.
+Zac|fil_quotidien|J'ai fait rire les enfants du bourg en me transformant en ballon. Un ballon qui rebondit très haut.
+Zed|fil_ennui|Les ombres sont calmes aujourd'hui.
+Zed|fil_pique|{b} m'a surpris dans le couloir. C'est rare. Bien joué.
+Zed|fil_quotidien|J'ai entraîné les ombres dans la cour avant l'aube. Personne n'a vu.
+Zed|fil_quotidien|Lettre de Shen. Je ne l'ai pas encore ouverte.
+Zeri|fil_ennui|Je tourne en rond ! Littéralement ! J'ai fait le tour du repère vingt fois en une minute !
+Zeri|fil_pique|{b} a dit que je parlais trop vite. Je parle normalement ! C'est toi qui écoutes trop lentement !
+Zeri|fil_quotidien|J'ai écrit à ma grand-mère ! Elle va répondre dans trois semaines ! TROIS SEMAINES !
+Zeri|fil_quotidien|J'ai rechargé toutes les lampes du repère. Il y a eu un petit court-circuit. Petit.
+Ziggs|fil_ennui|J'ai fait sauter un vieux tronc dans le pré. Juste un petit. Les vaches ne sont pas encore revenues.
+Ziggs|fil_pique|{b} a confisqué ma poudre. J'en ai d'autre. J'en ai TOUJOURS d'autre.
+Ziggs|fil_quotidien|Nouvelle bombe, nouvelle couleur ! Celle-là fait du violet. C'est très joli.
+Ziggs|fil_quotidien|J'ai réparé la cheminée de la cuisine. Enfin, je l'ai un peu agrandie.
+Zilean|fil_ennui|J'ai regardé la même minute trois fois. Elle n'était pas plus intéressante la troisième fois.
+Zilean|fil_pique|{b} a déréglé ma pendule. Je sais déjà ce que tu vas dire. Ne le dis pas.
+Zilean|fil_quotidien|J'ai pris le thé à quatre heures. Puis à quatre heures encore. C'est pratique, l'âge.
+Zilean|fil_quotidien|J'ai raconté une histoire aux enfants du bourg. Elle se passait dans mille ans. Ils ont adoré.
+Zoe|fil_ennui|Je me suis ennuyée tellement fort que j'ai ouvert un portail juste pour voir. Il y avait des poissons.
+Zoe|fil_pique|{b} m'a pris ma bulle ! Rends ma bulle ! Elle est à moi ! Elle est même pas à moi, mais rends-la !
+Zoe|fil_quotidien|J'ai mangé tous les gâteaux de la cuisine. Je vais en refaire. Peut-être.
+Zoe|fil_quotidien|J'ai trouvé un chat qui parle ! C'est Yuumi. Elle est méchante. Je l'aime bien.
+Zyra|fil_ennui|Mes plantes poussent. Moi, je reste. Je n'aime pas rester.
+Zyra|fil_pique|{b} a piétiné mes jeunes pousses. Elles s'en souviendront. Moi aussi.
+Zyra|fil_quotidien|Les ronces du jardin fleurissent. Elles sont plus belles que vous ne le méritez.
+Zyra|fil_quotidien|La pluie de cette nuit a tout réveillé. Le jardin chante. Vous ne l'entendez pas.
+Viktor|fil_ennui|J'ai amélioré la pompe du puits. Elle est parfaite. Il n'y a plus rien à améliorer ici. C'est inquiétant.
+Viktor|fil_pique|{b} a appelé mon bras « la ferraille ». C'est l'objet le plus précis de ce repère.
+Viktor|fil_quotidien|J'ai réparé le jouet d'un enfant du bourg. Il marche mieux qu'avant. L'enfant aussi, il est content.
+Viktor|fil_quotidien|Lettre de Jayce. Il dit qu'il ne m'en veut plus. Je relis la phrase.

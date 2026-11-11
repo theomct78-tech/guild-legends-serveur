@@ -20,8 +20,9 @@ test('catalogues : 100 actions au moins, une lettre d\'habitant par champion, de
   for (const reg of ['noble', 'rue', 'sage', 'brut', 'joyeux', 'sombre', 'singulier']) for (const ton of ['merci', 'reproche']) assert.ok(SO.lettresHeros()[reg][ton].length >= 2);
 });
 test('action de guilde : payée, préparée, puis racontée dans la chronique ; pas deux fois dans la semaine', () => {
-  const m = monde2(), g = m.guildes.a, po = g.po;
+  const m = monde2(), g = m.guildes.a;
   W.avancer(m, m.t + 30);
+  const po = g.po;   // mesuré après l'attente : une facture du bourg a pu tomber entre-temps
   const r = W.lancerAction(m, 'a', 'barbecue'); assert.equal(r.prepa, 6); assert.equal(g.po, po - 15);
   assert.throws(() => W.lancerAction(m, 'a', 'barbecue'), /déjà en préparation/);
   W.avancer(m, m.t + 8);
@@ -69,4 +70,33 @@ test('fondation : seules les régions dont les missions Inconnue et Locale sont 
   const src = fs.readFileSync(f, 'utf8');
   const site = JSON.parse(src.match(/REGIONS_OUVERTES = (\[[^\]]*\])/)[1].replace(/'/g, '"'));
   assert.deepEqual(site.sort(), ouvertes, 'mettre à jour REGIONS_OUVERTES dans public/js/regions.js');
+});
+test('fil de la guilde : les héros postent eux-mêmes, sans se répéter, et le maître peut répondre', () => {
+  const FIL = require('../src/fil');
+  const m = monde2(), g = m.guildes.a;
+  W.avancer(m, m.t + 24 * 10);
+  const posts = g.chronique.filter(e => e.declencheur === 'fil');
+  assert.ok(posts.length >= 15, `${posts.length} messages en 10 jours`);
+  for (const e of posts) assert.ok(!/\{|\}/.test(e.texte), e.texte);
+  // Aucune ligne identique deux fois en dix jours pour un même héros
+  const vus = new Set(); for (const e of posts.filter(e => !/^fil_(depart|retour|blesse)/.test(e.voix))) { const k = e.auteur + e.texte; assert.ok(!vus.has(k), `répété : ${e.texte}`); vus.add(k); }
+  const q = posts.find(e => e.reponses);
+  assert.ok(q, 'au moins un message adressé au maître');
+  const r = W.repondreFil(m, 'a', q.id, 'taquiner'); assert.ok(r.texte);
+  assert.throws(() => W.repondreFil(m, 'a', q.id, 'encourager'), /déjà répondu/);
+  const v = VUE.vue(m, 'a'); assert.ok(v.stories.length >= 3); assert.ok(v.stories.every(s => s.slides.length && s.slides.every(x => !/\{/.test(x.texte))));
+  assert.ok(['gamin', 'grand', 'discret'].includes(FIL.bande(g.heros[0])));
+});
+test('facture du bourg : une dispute avec un gamin peut finir au bourg, et chaque réponse a un vrai prix', () => {
+  const V = require('../src/vie');
+  const m = monde2(), g = m.guildes.a, [a, b] = g.heros;
+  const gamin = g.heros.find(h => require('../src/fil').bande(h) === 'gamin') || a, autre = g.heros.find(h => h !== gamin);
+  for (const rep of ['payer', 'retenue', 'reparer']) {
+    const c = V.creerCarte(g, 'facture', [gamin, autre], W.catalogues().scenes);
+    assert.ok(c.montant > 0 && c.contexte.length === 2 && !/\{/.test(c.contexte.join(' ')), c.contexte.join(' '));
+    const po = g.po, lignes = W.repondreCarte(m, 'a', c.id, rep);
+    assert.ok(lignes.length >= 1);
+    if (rep !== 'reparer') assert.equal(g.po, po - c.montant); else assert.equal(g.po, po);
+  }
+  assert.ok(gamin.retenue > 0);
 });

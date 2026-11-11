@@ -1,0 +1,81 @@
+# Voix des champions · lot 22 (Kog'Maw à Naafiri) · 11 nov. 2026 · fil, deuxième passe
+Kog'Maw|fil_ennui|Kog'Maw a mangé le paillasson. Kog'Maw s'ennuie encore.
+Kog'Maw|fil_pique|{b} a dit « pas la table ». Kog'Maw a mangé la chaise. C'est pas la table.
+Kog'Maw|fil_quotidien|Kog'Maw a trouvé un savon. Il a goût de fleur. Kog'Maw fait des bulles maintenant.
+Kog'Maw|fil_quotidien|Le chien a partagé son os. Kog'Maw a partagé le chien. Non. Blague. Le chien va bien.
+LeBlanc|fil_ennui|Je me suis regardée dans le miroir. Le reflet s'ennuyait aussi. On a parlé un peu.
+LeBlanc|fil_pique|{b} m'a confondue avec moi-même deux fois aujourd'hui. Ce n'est pas plus mal.
+LeBlanc|fil_quotidien|J'ai écrit trois lettres ce matin. Une seule est vraie. Je ne dirai pas laquelle.
+LeBlanc|fil_quotidien|Le vin du bourg est meilleur que je ne le pensais. Je garde ça pour moi.
+Lee Sin|fil_ennui|Méditation, quatre heures. Coups de pied dans le sac de sable, deux heures. Il reste la soirée.
+Lee Sin|fil_pique|{b} a déplacé mon bol de riz pour voir si je le trouverais. Je l'ai trouvé. Il était vide.
+Lee Sin|fil_quotidien|J'entends la rivière depuis ma chambre la nuit. Je ne l'avais jamais remarqué.
+Lee Sin|fil_quotidien|J'ai appris aux enfants du bourg à tomber sans se faire mal. Ils tombent beaucoup, maintenant.
+Leona|fil_ennui|Le soleil est haut et je n'ai rien à faire sous lui. Je suis allée courir. Deux fois.
+Leona|fil_pique|{b} a dormi jusqu'à midi. Le soleil s'est levé sans toi. Il ne t'attendra pas demain non plus.
+Leona|fil_quotidien|Lever de soleil depuis la crête. Je n'ai réveillé personne. J'ai pensé à vous quand même.
+Leona|fil_quotidien|Lettre de Diana. Trois mots. Je les ai relus toute la matinée.
+Lillia|fil_ennui|J'ai cueilli des fleurs. Puis je les ai remises. Enfin, j'ai essayé.
+Lillia|fil_pique|{b} a fait du bruit pendant ma sieste. C'était pas grave ! Enfin un peu. Pardon.
+Lillia|fil_quotidien|Un papillon s'est posé sur mon bois. Je suis restée immobile. Il est resté longtemps.
+Lillia|fil_quotidien|J'ai parlé avec Ivern ce matin. Il m'a dit que j'étais courageuse. Je le note ici.
+Lissandra|fil_ennui|J'ai gelé la mare pour qu'elle reste silencieuse. Elle l'est. Je ne suis pas plus satisfaite.
+Lissandra|fil_pique|{b} a laissé la porte ouverte. La chaleur entre. C'est intolérable.
+Lissandra|fil_quotidien|J'ai lu dans la bibliothèque toute la journée. Personne n'est entré. Parfait.
+Lissandra|fil_quotidien|Il a neigé un peu cette nuit. J'ai ouvert la fenêtre. Pour regarder, seulement.
+Locke|fil_ennui|Rien. J'ai démonté mon arbalète. Remontée. Toujours rien.
+Locke|fil_pique|{b} a demandé d'où je venais. Je n'ai pas répondu. {b} a demandé encore.
+Locke|fil_quotidien|J'ai mangé dehors. Seul. C'était bien.
+Locke|fil_quotidien|Quelqu'un a mis une couverture sur mon lit. Je l'ai gardée.
+Lucian|fil_ennui|J'ai nettoyé mes pistolets. Les deux. Elle aussi aimait que tout soit propre.
+Lucian|fil_pique|{b} a dit que je souriais jamais. J'ai souri hier. Tu n'étais pas là.
+Lucian|fil_quotidien|J'ai écrit une lettre pour Senna. Je l'ai brûlée. J'en écrirai une autre demain.
+Lucian|fil_quotidien|Café noir au lever du jour. Le seul moment calme de la journée.
+Lulu|fil_ennui|J'ai transformé une chaise en grenouille. Puis en chaise. Elle est un peu verte maintenant, désolée.
+Lulu|fil_pique|{b} n'a pas voulu goûter ma tarte aux nuages ! Elle était délicieuse ! Un peu mouillée.
+Lulu|fil_quotidien|Pix a trouvé un bouton doré sous l'escalier. On va le planter pour voir ce qui pousse.
+Lulu|fil_quotidien|J'ai donné des couleurs aux poules. Elles sont très belles. Elles sont un peu en colère.
+Lux|fil_ennui|J'ai fait des petites lumières pour le chien. Il les poursuit partout. Moi, je m'ennuie toujours.
+Lux|fil_pique|{b} m'a demandé d'éteindre « mon truc » pour dormir. Mon truc, c'est moi. Bonne nuit.
+Lux|fil_quotidien|Lettre de Garen. Il me demande si je mange bien. Trois fois dans la même lettre.
+Lux|fil_quotidien|J'ai lu dans le jardin jusqu'à la nuit, et j'ai continué avec un peu de lumière à moi.
+Malphite|fil_ennui|J'AI REGARDÉ UN CAILLOU TOUTE LA JOURNÉE. IL N'A RIEN FAIT. MOI NON PLUS.
+Malphite|fil_pique|{b} A DIT QUE J'ÉTAIS LENT. JE NE SUIS PAS LENT. JE SUIS SÛR.
+Malphite|fil_quotidien|LES ENFANTS DU BOURG GRIMPENT SUR MOI. ILS SONT LÉGERS. ÇA CHATOUILLE.
+Malphite|fil_quotidien|IL A PLU. JE SUIS PROPRE. JE BRILLE UN PEU.
+Malzahar|fil_ennui|Le Néant murmure. Je l'écoute. Il n'a rien de nouveau à me dire non plus.
+Malzahar|fil_pique|{b} a dit que mes prophéties ressemblaient à la météo. Il pleuvra demain. Sur toi.
+Malzahar|fil_quotidien|J'ai écrit à ma sœur. Je n'ai pas su quoi lui dire. J'ai écrit quand même.
+Malzahar|fil_quotidien|Quelqu'un a laissé des dattes sur ma table. Je ne sais pas qui. C'est le goût de chez moi.
+Maokai|fil_ennui|Je suis resté planté dans le jardin toute la journée. Les oiseaux en ont profité.
+Maokai|fil_pique|{b} a arraché les jeunes pousses en pensant que c'étaient des mauvaises herbes. Elles avaient trois jours.
+Maokai|fil_quotidien|Le pommier de la cour va mieux. Je lui ai parlé longtemps.
+Maokai|fil_quotidien|Il a plu doucement toute la matinée. J'ai bu par les racines. C'était bon.
+Master Yi|fil_ennui|J'ai médité si longtemps que le thé a refroidi deux fois. Je l'ai bu froid.
+Master Yi|fil_pique|{b} a ri pendant ma méditation. Le rire est une bonne chose. Ailleurs.
+Master Yi|fil_quotidien|J'ai taillé un bâton d'entraînement pour Wukong. Il l'a cassé avant midi.
+Master Yi|fil_quotidien|Le vent dans les bambous du jardin. Je ne savais pas qu'il y avait des bambous. Il y en a.
+Mel|fil_ennui|Pas une seule négociation depuis trois jours. J'ai fini par marchander le prix du pain. Je l'ai eu moitié prix.
+Mel|fil_pique|{b} a porté du vert avec du violet. Je ne dirai rien. Je l'ai pensé très fort.
+Mel|fil_quotidien|Lettre de ma mère. Elle est longue et pleine de conseils. Je ne les suivrai pas.
+Mel|fil_quotidien|J'ai réorganisé la grande salle. Elle a enfin l'air de quelque chose.
+Milio|fil_ennui|J'ai allumé un petit feu dans la cheminée. Puis un autre. Ils sont amis maintenant.
+Milio|fil_pique|{b} a soufflé sur ma flamme pour rigoler. Elle était triste. Je l'ai consolée.
+Milio|fil_quotidien|Soupe chaude pour tout le monde ce soir ! Je l'ai faite avec Ookie. Il a goûté avant.
+Milio|fil_quotidien|J'ai écrit à ma famille. Je leur ai dit que j'avais des amis ici. C'est vrai.
+Miss Fortune|fil_ennui|Pas de mission, pas de paye. J'ai joué aux cartes avec moi-même. J'ai perdu.
+Miss Fortune|fil_pique|{b} a pris mon chapeau pour faire le malin. Il te va mal. Rends-le.
+Miss Fortune|fil_quotidien|J'ai nettoyé mes pistolets au bord du lac. On dirait presque la mer. Presque.
+Miss Fortune|fil_quotidien|Un marchand du bourg m'a fait un prix. Je n'ai rien demandé. J'ai juste souri.
+Mordekaiser|fil_ennui|J'ai régné sur des royaumes. Aujourd'hui, je règne sur la cave. Elle est bien tenue.
+Mordekaiser|fil_pique|{b} a touché à ma masse. Elle se souviendra de ta main. Moi aussi.
+Mordekaiser|fil_quotidien|J'ai fait le tour du repère à minuit. Tout le monde dormait. Je suis resté un moment.
+Mordekaiser|fil_quotidien|Les corbeaux se sont posés sur le toit. Ils me reconnaissent.
+Morgana|fil_ennui|J'ai désherbé le jardin pour passer le temps. Les ronces ont protesté. J'ai protesté plus fort.
+Morgana|fil_pique|{b} a cassé ma tasse préférée. Je ne suis pas en colère. Je la recollerai. Tu m'aideras.
+Morgana|fil_quotidien|J'ai trouvé une rose sauvage derrière la grange. Je l'ai laissée où elle était.
+Morgana|fil_quotidien|Lettre de Kayle. Je l'ai lue trois fois. Je répondrai demain. Peut-être.
+Naafiri|fil_ennui|La meute tourne en rond. On a couru jusqu'à la colline. On a couru en revenant.
+Naafiri|fil_pique|{b} a pris mon os. MON OS. La meute est d'accord : c'était mon os.
+Naafiri|fil_quotidien|On a dormi au soleil, tous ensemble. C'était bien. On recommence demain.
+Naafiri|fil_quotidien|Quelqu'un a gratté derrière nos oreilles. Toutes. Il y en a beaucoup. Merci.

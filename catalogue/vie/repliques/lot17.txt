@@ -1,0 +1,277 @@
+# Voix des champions · lot 17 (Tahm Kench à Volibear) · 11 nov. 2026. Format et règles : voir lot10.txt.
+
+Tahm Kench|bande|grand
+Tahm Kench|fil_depart|Je pars en affaires. Ne signez aucun contrat sans moi. Surtout pas avec moi.
+Tahm Kench|fil_retour_bon|Une belle affaire. Tout le monde a eu ce qu'il voulait. Moi surtout.
+Tahm Kench|fil_retour_mauvais|Le client a lu les petites lignes. C'est rare. Je respecte ça.
+Tahm Kench|fil_blesse|Une égratignure sur ma belle peau. Ça me coûtera un bon dîner pour m'en remettre.
+Tahm Kench|fil_ennui|Personne ne veut faire un petit marché avec moi ? Rien de grave. Presque rien.
+Tahm Kench|fil_maitre|Tu sais ce que tu veux ? Non ? Alors ne viens jamais me le demander. Je suis sérieux.
+Tahm Kench|fil_pique|{b} a l'air d'avoir envie de quelque chose. Je peux l'avoir pour toi, {b}. À un prix.
+Tahm Kench|story|Dîner pour un : tout le menu. Le cuisinier pleure de bonheur. Ou de fatigue.
+Tahm Kench|story|Un chapeau neuf. J'ai fait une petite affaire pour l'avoir.
+Tahm Kench|correspondant|{nom} a commandé « tout ». J'ai cru à une blague. Ce n'en était pas une. Tout payé, avec pourboire. Deux de mes employés ont accepté « un petit marché » au dessert. Depuis, ils ont l'air bizarre.
+
+Taliyah|bande|gamin
+Taliyah|fil_depart|Je pars ! J'ai pris un pull. Il fait froid dans les montagnes. Ou il fait chaud ? Je prends les deux.
+Taliyah|fil_retour_bon|On a réussi ! Et j'ai lissé la route en passant. Elle était pleine de bosses.
+Taliyah|fil_retour_mauvais|La pierre n'a pas voulu m'écouter. Je vais m'entraîner. Encore.
+Taliyah|fil_blesse|Un caillou m'est tombé dessus. Ironique, pour moi.
+Taliyah|fil_ennui|J'ai tissé un tapis pour la salle commune. Il a des motifs de mon village. Vous aimez ?
+Taliyah|fil_maitre|Tu me rappelles quelqu'un de chez moi. Quelqu'un qui croyait en moi. Merci.
+Taliyah|fil_pique|{b} a marché dans mon tapis avec des bottes boueuses. {b}. Va. Les. Enlever.
+Taliyah|story|Tissage du soir, au coin du feu. C'est comme à la maison.
+Taliyah|story|J'ai fait une petite montagne dans le jardin. Elle est mignonne. Je l'ai appelée Pierre.
+Taliyah|correspondant|La route des Hauts était coupée par un éboulement. {nom} a tout remis en place d'un geste. Puis elle s'est excusée pour une bosse qu'on n'avait même pas vue.
+
+Talon|bande|discret
+Talon|fil_depart|Je pars. Pas besoin de me dire au revoir.
+Talon|fil_retour_bon|C'est réglé. Personne ne m'a vu. Personne ne me verra.
+Talon|fil_retour_mauvais|J'ai été vu. Une fois. Ça ne se reproduira pas.
+Talon|fil_blesse|C'est rien. Je soigne ça seul. J'ai toujours soigné ça seul.
+Talon|fil_ennui|Je suis sur le toit. Ne montez pas. Personne ne monte.
+Talon|fil_maitre|Tu ne demandes pas où je vais la nuit. Garde cette habitude.
+Talon|fil_pique|{b} marche avec le bruit d'un troupeau. On l'entend du toit.
+Talon|story|Toit.
+Talon|story|Lames nettoyées. Toujours deux. Jamais une seule.
+Talon|correspondant|Le prêteur sur gages qui saignait tout le quartier a quitté la ville la nuit où {nom} est arrivé, très vite, en laissant ses registres ouverts. Personne n'a rien vu. Je classe l'affaire.
+
+Taric|bande|grand
+Taric|fil_depart|Je pars ! Que la beauté du monde nous accompagne. Et mon bouclier aussi.
+Taric|fil_retour_bon|Une réussite éclatante ! Comme la lumière sur une gemme. Ou sur mes cheveux.
+Taric|fil_retour_mauvais|Même la plus belle gemme a ses défauts. Ce sont eux qui la rendent unique.
+Taric|fil_blesse|Une égratignure sur une si belle armure ! Je la polirai demain. Elle le mérite.
+Taric|fil_ennui|J'ai dit à chacun ici ce qu'il avait de beau. Ça m'a pris la matinée. Vous êtes tous magnifiques.
+Taric|fil_maitre|Tu as une beauté rare. Pas celle des gemmes. Celle des gens qui portent les autres.
+Taric|fil_pique|{b} ne se coiffe jamais. Quel gâchis. Viens, {b}, je m'en occupe.
+Taric|story|Gemme polie, armure brillante, coiffure parfaite. La journée peut commencer.
+Taric|story|J'ai mis des fleurs dans la salle commune. Elle est plus belle. Vous aussi.
+Taric|correspondant|{nom} m'a dit que mon travail était magnifique. Puis il l'a dit au boucher, au maréchal-ferrant et au vieux Garn. Le pire, c'est que ça sonnait vrai à chaque fois. Toute la ville sourit depuis.
+
+Teemo|bande|gamin
+Teemo|fil_depart|Capitaine Teemo, en route ! Pas de panique, j'ai tout prévu. Presque tout.
+Teemo|fil_retour_bon|Mission réussie, chef ! Personne ne m'a vu. J'étais caché dans un buisson. Très confortable.
+Teemo|fil_retour_mauvais|J'ai marché sur mon propre champignon. Ne riez pas. Si, vous pouvez rire.
+Teemo|fil_blesse|Une égratignure ! Le règlement des éclaireurs dit qu'on ne pleure pas. Je ne pleure pas.
+Teemo|fil_ennui|J'ai planté des champignons dans le jardin. Partout. Faites attention où vous marchez.
+Teemo|fil_maitre|Capitaine Teemo au rapport ! Il n'y a rien à rapporter. Mais je voulais te dire bonjour.
+Teemo|fil_pique|{b} a marché sur un champignon ce matin. {b} fait la tête. Moi, je rigole.
+Teemo|story|Un champignon de plus dans la collection. Il est violet. Il ne faut pas le manger.
+Teemo|story|Exercice de camouflage dans le jardin. Personne ne m'a trouvé depuis trois heures.
+Teemo|correspondant|{nom} a appris à mes neveux à se cacher dans les bois. Ils sont devenus si bons que nous avons perdu le plus jeune pendant deux heures. Il dormait dans un buisson. Très content.
+
+Thresh|bande|discret
+Thresh|fil_depart|Je pars. Ma lanterne a de la place. Elle en a toujours.
+Thresh|fil_retour_bon|Ils ont souffert juste ce qu'il fallait. Pas plus. Je suis très précis.
+Thresh|fil_retour_mauvais|Une âme m'a échappé. Ça arrive. Rarement. Je m'en souviendrai.
+Thresh|fil_blesse|Une blessure ? Sur moi ? Comme c'est… nouveau.
+Thresh|fil_ennui|J'ai poli ma lanterne. Elle chante un peu quand on la frotte. Vous voulez écouter ?
+Thresh|fil_maitre|Tu as une âme intéressante. Ne t'inquiète pas. Je ne collectionne que celles qu'on me donne.
+Thresh|fil_pique|{b} a regardé dans ma lanterne. {b} n'aurait pas dû. {b} le sait maintenant.
+Thresh|story|Elle attend.
+Thresh|story|Chaînes nettoyées. Elles tintent dans le noir. C'est apaisant. Pour moi.
+Thresh|correspondant|Je vois une lanterne verte au bout de notre rue depuis l'arrivée de {nom}. Elle ne bouge pas. Elle attend. On m'a dit de ne jamais la prendre. Je ne la prendrai pas.
+
+Tristana|bande|gamin
+Tristana|fil_depart|C'est parti ! Boomer est chargé, moi aussi ! On fait du bruit !
+Tristana|fil_retour_bon|Boum, boum, mission réussie ! Je peux tirer un coup de canon pour fêter ça ?
+Tristana|fil_retour_mauvais|Bon, j'ai visé à côté. Une fois. Bon, trois fois. On recommence !
+Tristana|fil_blesse|Une égratignure ! Ça ne m'empêchera pas de tirer. Rien ne m'empêche de tirer.
+Tristana|fil_ennui|Je peux faire un feu d'artifice ? Juste un petit ? Il reste de la poudre…
+Tristana|fil_maitre|Hé chef ! Un jour, je serai la plus grande canonnière de Runeterra. Tu verras.
+Tristana|fil_pique|{b} a sursauté quand Boomer a tiré. Trois mètres. Je l'ai mesuré.
+Tristana|story|Boomer nettoyé, briqué, chargé. Il brille. Moi aussi.
+Tristana|story|J'ai tiré sur la cible depuis l'autre bout de la cour. En plein dedans. Et le mur derrière aussi.
+Tristana|correspondant|{nom} a tiré le feu d'artifice de la fête avec son canon. Le plus beau qu'on ait eu. Le clocher a perdu son coq. On l'a retrouvé dans le champ d'à côté.
+
+Trundle|bande|gamin
+Trundle|fil_depart|Le roi part en campagne ! Préparez la fête de retour. Grosse fête.
+Trundle|fil_retour_bon|Ha ! Victoire ! Je suis le meilleur roi de l'histoire des trolls. Le seul qui compte.
+Trundle|fil_retour_mauvais|C'était un piège. Évidemment, c'était un piège. Je l'ai vu venir. Un peu tard.
+Trundle|fil_blesse|Un troll, ça cicatrise. Ça cicatrise tout. Même l'orgueil. Non, pas l'orgueil.
+Trundle|fil_ennui|J'ai mis ma massue dans la chambre froide pour garder la viande. On dit merci au roi.
+Trundle|fil_maitre|Toi, tu peux m'appeler « Votre Majesté ». Seulement le dimanche. C'est un privilège.
+Trundle|fil_pique|{b} n'a pas salué le roi ce matin. Le roi s'en souviendra.
+Trundle|story|Trône de glace dans la salle commune. Il fond. Ce n'est pas grave, j'en refais un.
+Trundle|story|Le roi déguste une côte de bœuf. Ne dérangez pas le roi.
+Trundle|correspondant|{nom} a posé sa massue de glace dans notre chambre froide « pour rendre service ». Notre viande tient trois fois plus longtemps. En échange, j'ai dû dire qu'il était le roi. Je l'ai dit. Ça ne coûtait rien.
+
+Tryndamere|bande|gamin
+Tryndamere|fil_depart|Je pars. Si je rentre en colère, ne me parlez pas. Si je rentre calme, ne me parlez pas non plus.
+Tryndamere|fil_retour_bon|J'ai gagné. Je gagne toujours, à la fin. C'est la colère qui fait ça.
+Tryndamere|fil_retour_mauvais|J'ai perdu mon sang-froid. Je ne l'ai jamais eu, à vrai dire.
+Tryndamere|fil_blesse|J'aurais dû mourir trois fois. J'ai refusé. C'est tout.
+Tryndamere|fil_ennui|J'ai cassé la table. Puis je l'ai réparée. Mal. Puis je l'ai recassée.
+Tryndamere|fil_maitre|Ashe dirait que tu fais du bon travail. Moi, je dis que tu ne m'énerves pas. C'est pareil.
+Tryndamere|fil_pique|{b}, tu me cherches. Tu vas me trouver.
+Tryndamere|story|Bain froid dans le bassin du jardin. Ça calme. Un peu.
+Tryndamere|story|Petit-déjeuner : trois œufs, une bière. Le reste, c'est pour les faibles.
+Tryndamere|correspondant|Petit récapitulatif de la soirée de l'arrivée de {nom} : une table, quatre tabourets, la porte, et la fierté de six bûcherons. Il s'est excusé au matin et a tout réparé à la main. Mal, mais de bon cœur.
+
+Twisted Fate|bande|gamin
+Twisted Fate|fil_depart|Je pars. Si quelqu'un parie sur mon retour, misez gros.
+Twisted Fate|fil_retour_bon|Mission réussie. Et j'ai gagné une petite fortune au passage. Petite. Assez petite pour ne pas en parler.
+Twisted Fate|fil_retour_mauvais|Mauvaise main. Ça arrive. La prochaine sera meilleure. Elle l'est toujours.
+Twisted Fate|fil_blesse|Une balle m'a frôlé. Elle visait le chapeau. Je ne laisserai jamais personne toucher au chapeau.
+Twisted Fate|fil_ennui|Partie de cartes ce soir. Je promets de ne pas tricher. Je promets beaucoup de choses.
+Twisted Fate|fil_maitre|Tu as un bon jeu, chef. Tu ne le sais pas encore. Moi, je le vois.
+Twisted Fate|fil_pique|{b} a perdu contre moi trois fois hier. {b} veut une revanche. {b} va perdre une quatrième.
+Twisted Fate|story|Une main de cinq cartes, toutes des as. Ne posez pas de questions.
+Twisted Fate|story|Le chapeau, la cape, et une carte qui brille. Prêt pour ce soir.
+Twisted Fate|correspondant|{nom} a plumé toute ma salle au jeu en une soirée, proprement, avec le sourire. Personne n'a rien vu. Je voudrais bien comprendre comment la dame de cœur est arrivée dans ma poche.
+
+Twitch|bande|gamin
+Twitch|fil_depart|Je pars. Ça va sentir bon là-bas ? Non ? Parfait.
+Twitch|fil_retour_bon|J'ai tiré, ils ont couru. J'ai mangé un fromage qui traînait. Belle journée.
+Twitch|fil_retour_mauvais|Ça pue. Pas l'endroit. La mission. La mission pue.
+Twitch|fil_blesse|Une égratignure. Ça va s'infecter. J'adore quand ça s'infecte.
+Twitch|fil_ennui|La cave est trop propre. Qui a nettoyé la cave ? Qui ?
+Twitch|fil_maitre|Toi, t'es pas trop propre sur toi. Je dis ça comme un compliment.
+Twitch|fil_pique|{b} se lave trop. C'est louche, quelqu'un qui se lave autant.
+Twitch|story|Fromage moisi trouvé derrière le buffet. Le meilleur que j'aie jamais mangé.
+Twitch|story|Je dors dans la cave. C'est humide, c'est sombre, c'est parfait.
+Twitch|correspondant|Je ne vais pas mentir, {nom} m'a fait peur en entrant : un rat de la taille d'un enfant, avec une arbalète, qui a demandé si nous avions « du fromage pas frais ». Il a dormi dans notre cave. Les rats l'ont accueilli comme un roi.
+
+Udyr|bande|grand
+Udyr|fil_depart|Je pars. Les esprits sont agités. Je vais les calmer. Ou me battre avec.
+Udyr|fil_retour_bon|Les esprits sont apaisés. Moi aussi. On a couru ensemble toute la nuit.
+Udyr|fil_retour_mauvais|J'ai écouté le mauvais esprit. L'ours voulait se battre. J'aurais dû écouter l'aigle.
+Udyr|fil_blesse|Le tigre m'a mordu de l'intérieur. Ça arrive. Ne vous approchez pas pendant une heure.
+Udyr|fil_ennui|J'ai marché pieds nus dans le jardin toute la matinée. La terre est triste, ici. Plantez des arbres.
+Udyr|fil_maitre|Ton esprit est calme. C'est rare. Garde-le comme ça. Ne laisse personne le troubler.
+Udyr|fil_pique|{b} mange trop vite. L'ours en toi a faim. Laisse-le parler à table, mais pas tout le temps.
+Udyr|story|Méditation pieds nus dans la neige du jardin. Les esprits sont d'accord.
+Udyr|story|Le chien et moi, on court dans la cour. Il a l'esprit du loup. Je l'ai senti.
+Udyr|correspondant|{nom} a passé trois jours dans nos pâtures à marcher pieds nus et à parler aux chiens de berger. Depuis, ils obéissent au regard. Mon voisin veut la même chose pour ses enfants.
+
+Urgot|bande|discret
+Urgot|fil_depart|Je pars. La douleur m'attend là-bas. Je la saluerai.
+Urgot|fil_retour_bon|Ils ont souffert. Je les ai rendus plus forts. Ils ne me remercieront pas.
+Urgot|fil_retour_mauvais|J'ai été faible. Je ne le serai plus. Il me faut plus de pièces.
+Urgot|fil_blesse|La douleur est une leçon. Celle-là était bien enseignée.
+Urgot|fil_ennui|Le hachoir de la cuisine est primitif. J'en ai fait un autre. Il fait peur. Il hache en dix secondes.
+Urgot|fil_maitre|Tu n'as pas peur de moi. C'est soit du courage, soit de l'inconscience. Les deux me vont.
+Urgot|fil_pique|{b} a les mains douces. C'est une faiblesse. Je peux t'aider à corriger ça.
+Urgot|story|Réparations.
+Urgot|story|J'ai réparé la pompe du puits. Elle grince comme moi. On s'entend bien.
+Urgot|correspondant|{nom} a regardé notre hachoir à manivelle pendant très longtemps, puis a dit : « primitif ». Un autre est apparu devant notre porte le lendemain. Il fait peur, il fait du bruit, et il est parfait.
+
+Varus|bande|discret
+Varus|fil_depart|Je pars. Nous partons. Ne me demandez pas lequel de nous deux revient.
+Varus|fil_retour_bon|Trois flèches, trois cibles. Ma main n'a pas tremblé. L'autre voulait plus.
+Varus|fil_retour_mauvais|Il me retenait. Je l'ai retenu. On s'est retenus tous les deux. On a perdu.
+Varus|fil_blesse|Ça fait mal. À nous deux. Mais pas de la même façon.
+Varus|fil_ennui|Je tire sur la cible depuis l'aube. Elle n'a plus de centre. J'ai fini par le trouver.
+Varus|fil_maitre|Tu me parles comme si j'étais une seule personne. Merci. Ça aide.
+Varus|fil_pique|{b} m'a demandé à qui je parlais seul la nuit. Je ne parlais pas seul. Malheureusement.
+Varus|story|Arc tendu, flèche prête, cible au loin. Personne ne m'a demandé de tirer.
+Varus|story|Nous allons bien.
+Varus|correspondant|{nom} a mis trois flèches dans la même cible, de nuit, à une distance que je refuse d'écrire. Puis il s'est disputé à voix basse avec personne. Je n'ai pas osé lui proposer de concours.
+
+Vayne|bande|discret
+Vayne|fil_depart|Je pars. Il reste une ombre dans le coin. Plus pour longtemps.
+Vayne|fil_retour_bon|La créature est morte. Je n'ai pas besoin qu'on me remercie. Ne le faites pas.
+Vayne|fil_retour_mauvais|Elle s'est enfuie. Elle reviendra. Je l'attendrai.
+Vayne|fil_blesse|Un coup de griffe. La créature, elle, a pris trois carreaux d'argent. On est quittes.
+Vayne|fil_ennui|J'ai vérifié toutes les fenêtres. Toutes. Il n'y a rien dehors. Je revérifie.
+Vayne|fil_maitre|Tu ne me demandes pas d'où vient ma colère. Je t'en suis reconnaissante.
+Vayne|fil_pique|{b} rit trop fort la nuit. Ça attire des choses. Je dis ça pour {b}.
+Vayne|story|Carreaux d'argent alignés sur la table. Un pour chaque nuit de la semaine.
+Vayne|story|Lunettes, cape, arbalète. La nuit tombe. Je sors.
+Vayne|correspondant|Ce qui tuait les bêtes près de l'ancien moulin est mort la nuit de l'arrivée de {nom}. J'ai trouvé un carreau d'argent planté dans la porte, et rien d'autre. Elle n'a voulu aucun merci.
+
+Veigar|bande|gamin
+Veigar|fil_depart|Je pars plonger le monde dans les ténèbres ! Enfin, une partie. Le côté ouest.
+Veigar|fil_retour_bon|Ils ont tremblé devant moi ! Enfin, ils ont ri, puis ils ont tremblé. C'est pareil !
+Veigar|fil_retour_mauvais|ILS NE M'ONT PAS PRIS AU SÉRIEUX ! Personne ne me prend jamais au sérieux !
+Veigar|fil_blesse|J'ai trébuché sur ma robe. Personne n'a rien vu. Personne. N'est-ce pas ?
+Veigar|fil_ennui|J'ai jeté une malédiction sur la salle commune. Les gens y sont un peu moins heureux. Un tout petit peu.
+Veigar|fil_maitre|Un jour, je serai le maître du monde. Mais tu pourras garder ton repère. Tu es quelqu'un de gentil avec moi.
+Veigar|fil_pique|{b} m'a tapoté la tête. ON NE TAPOTE PAS LA TÊTE DU MAÎTRE DU MAL.
+Veigar|story|Mon chapeau est plus grand que moi. C'est voulu. C'est intimidant.
+Veigar|story|J'ai fait peur au chien. Il a remué la queue. Il ne comprend pas la peur.
+Veigar|correspondant|{nom} est venu m'annoncer qu'il allait « plonger la ville dans les ténèbres ». Mes employés ont trouvé ça adorable et lui ont offert un goûter. Il boudait encore en partant.
+
+Vel'Koz|bande|discret
+Vel'Koz|fil_depart|Je pars collecter des données. Les humains de là-bas ne savent pas encore qu'ils vont m'aider.
+Vel'Koz|fil_retour_bon|Données collectées. Conclusion : les humains crient beaucoup quand on les étudie.
+Vel'Koz|fil_retour_mauvais|Échec. Les données sont incomplètes. Je déteste les données incomplètes.
+Vel'Koz|fil_blesse|Dommages à mon enveloppe. Analyse : douloureux. Conclusion : à éviter.
+Vel'Koz|fil_ennui|J'ai désintégré une chaise pour l'étudier. Elle était en bois. Je n'en sais pas plus.
+Vel'Koz|fil_maitre|Tu es un spécimen intéressant. Ne t'inquiète pas, je me contente de t'observer.
+Vel'Koz|fil_pique|{b} a mangé six pommes aujourd'hui. Pourquoi ? Les données ne l'expliquent pas.
+Vel'Koz|story|Analyse du coucher de soleil. Conclusion : agréable. Raison : inconnue.
+Vel'Koz|story|J'ai observé le chien pendant trois heures. Il dort. Je ne comprends pas comment.
+Vel'Koz|correspondant|{nom} a observé mon cours de sciences depuis la fenêtre, trois heures, en prenant des notes. Puis il a « prélevé » ma chaise pour étude. Je voudrais ma chaise, ou au moins les résultats.
+
+Vex|bande|gamin
+Vex|fil_depart|Je pars. Ça va être nul. Comme tout.
+Vex|fil_retour_bon|On a gagné. Super. Génial. Je retourne dans ma chambre.
+Vex|fil_retour_mauvais|On a perdu. Évidemment. Je l'avais dit. Personne ne m'écoute.
+Vex|fil_blesse|J'ai mal. C'est la vie. La vie, c'est nul.
+Vex|fil_ennui|Tout le monde est trop joyeux ici. C'est épuisant. Je vais dormir. Pour toujours, peut-être.
+Vex|fil_maitre|T'es pas trop insupportable. Pour quelqu'un de joyeux. C'est déjà ça.
+Vex|fil_pique|{b} sourit tout le temps. C'est suspect. Personne n'est heureux à ce point.
+Vex|story|Chambre noire, rideaux tirés, Ombre à côté de moi. Enfin, la paix.
+Vex|story|Il fait beau. Je déteste quand il fait beau.
+Vex|correspondant|{nom} a dit à mes employés que la joie était surfaite. Les plus jeunes ont trouvé ça génial. J'ai trois stagiaires qui soupirent et s'habillent en noir. Bon. Au moins, ils sont calmes.
+
+Vi|bande|gamin
+Vi|fil_depart|Je pars. Si quelqu'un a besoin d'un coup de poing en route, je suis là.
+Vi|fil_retour_bon|C'est réglé. J'ai frappé ce qu'il fallait. Et une porte qui le méritait.
+Vi|fil_retour_mauvais|Ça s'est mal passé. Je vais taper dans quelque chose. Quelque chose qui ne bouge pas.
+Vi|fil_blesse|Des côtes fêlées. J'ai connu pire. J'ai connu bien pire.
+Vi|fil_ennui|Personne ne veut une revanche au bras de fer ? Même avec un seul gant ?
+Vi|fil_maitre|T'es réglo, chef. Pas trop de discours, pas trop de règles. Ça me va.
+Vi|fil_pique|{b} m'a demandé si mes gants étaient lourds. Viens les essayer, {b}. Allez.
+Vi|story|Gants posés sur la table, café noir. Rien ne bouge. C'est presque inquiétant.
+Vi|story|J'ai réparé la porte que j'ai cassée hier. Elle tient. Pour l'instant.
+Vi|correspondant|Un type embêtait notre serveuse. {nom} lui a demandé une fois d'arrêter, gentiment. Le type a traversé la porte, fermée. La serveuse ne veut pas qu'on lui facture la porte.
+
+Viego|bande|discret
+Viego|fil_depart|Je pars. Si je la vois là-bas, je ne reviendrai peut-être pas.
+Viego|fil_retour_bon|C'est fait. Mais elle n'était pas là. Elle n'est jamais là.
+Viego|fil_retour_mauvais|J'ai perdu. Peu importe. Rien n'a d'importance sans elle.
+Viego|fil_blesse|Une blessure. Elle aurait su la soigner. Elle savait tout soigner.
+Viego|fil_ennui|J'ai demandé à chacun ici s'ils avaient vu ma reine. Personne. Je redemanderai demain.
+Viego|fil_maitre|Tu as l'air de quelqu'un qui a aimé. Ou qui aimera. Ne laisse jamais personne te la prendre.
+Viego|fil_pique|{b} m'a dit de passer à autre chose. {b} ne sait pas ce que c'est, aimer pour toujours.
+Viego|story|Elle aurait aimé ce jardin.
+Viego|story|Un portrait d'elle, au-dessus du lit. Je lui parle le soir.
+Viego|correspondant|{nom} m'a demandé si j'avais vu sa reine. Avec une tristesse que je ne souhaite à personne. J'ai dit non. La brume s'est levée autour du bureau pendant une heure.
+
+Viktor|bande|grand
+Viktor|fil_depart|Je pars. Ma jambe a été recalibrée. Le voyage ne posera aucun problème.
+Viktor|fil_retour_bon|Résultat conforme aux prévisions. Le progrès avance. Lentement, mais il avance.
+Viktor|fil_retour_mauvais|Une erreur d'analyse. La chair est faible. La mienne aussi, encore.
+Viktor|fil_blesse|Une pièce endommagée. Je la remplacerai par une meilleure. C'est le principe.
+Viktor|fil_ennui|J'ai amélioré la jambe de bois du vieux jardinier. Il court, maintenant. Il en a peur.
+Viktor|fil_maitre|Tu te soucies de la santé de chacun. Je peux t'aider avec ça. À ma façon.
+Viktor|fil_pique|{b} est faible. Pas méchamment. Biologiquement. Je peux corriger ça.
+Viktor|story|Atelier dans la grange. Une main mécanique sur la table. Elle bouge les doigts.
+Viktor|story|Le progrès ne dort jamais. Moi non plus. Café noir.
+Viktor|correspondant|{nom} a fabriqué une jambe en métal pour un vieux pêcheur du port. Elle marche mieux que la vraie. C'est quand il a proposé de « corriger » l'autre jambe que j'ai préféré vous écrire.
+
+Vladimir|bande|grand
+Vladimir|fil_depart|Je pars. Prévenez-moi si le dîner est servi avant mon retour. Je reviendrai plus vite.
+Vladimir|fil_retour_bon|Une soirée délicieuse. Ils en garderont un excellent souvenir. Un peu flou, mais excellent.
+Vladimir|fil_retour_mauvais|Une soirée ratée. Il me faut un verre. De quelque chose. Ne posez pas de questions.
+Vladimir|fil_blesse|On m'a fait saigner. C'est d'une impolitesse. D'habitude, c'est l'inverse.
+Vladimir|fil_ennui|J'ai organisé un dîner aux chandelles dans la salle commune. Personne n'est venu. Vous avez peur ?
+Vladimir|fil_maitre|Tu as un teint pâle ce soir. Repose-toi. Je dis ça uniquement pour ta santé.
+Vladimir|fil_pique|{b} a très bonne mine. C'est une observation. Uniquement une observation.
+Vladimir|story|Chandelles, vin rouge, et une table pour un. L'élégance n'a pas besoin de compagnie.
+Vladimir|story|Mon col est parfait. Ma cape aussi. Ma soirée le sera.
+Vladimir|correspondant|Plusieurs de mes employés ont été « un peu fatigués » après une soirée chez {nom}, un invité très élégant. Rien de grave : ils en gardent un excellent souvenir, justement. Je préfère vous le signaler.
+
+Volibear|bande|grand
+Volibear|fil_depart|L'ORAGE PART EN GUERRE. QUE LES FAIBLES S'ABRITENT.
+Volibear|fil_retour_bon|ILS ONT CONNU LA FOUDRE. ILS NE L'OUBLIERONT PAS.
+Volibear|fil_retour_mauvais|L'ORAGE A ÉTÉ CONTENU. IL NE LE SERA PAS DEUX FOIS.
+Volibear|fil_blesse|LA FOUDRE NE SAIGNE PAS. ELLE GRONDE. JE GRONDE.
+Volibear|fil_ennui|CE REPÈRE MANQUE D'ORAGES. J'EN AI FAIT VENIR UN. VOUS POUVEZ ME REMERCIER.
+Volibear|fil_maitre|TU N'AS PAS PEUR DE L'ORAGE. TU AS RAISON. IL NE TE FERA RIEN. À TOI.
+Volibear|fil_pique|{b} A SURSAUTÉ AU TONNERRE. {b} A EU RAISON DE SURSAUTER.
+Volibear|story|ORAGE !
+Volibear|story|L'ORAGE DE CETTE NUIT ÉTAIT MAGNIFIQUE. DE RIEN.
+Volibear|correspondant|L'orage a tourné trois heures au-dessus du bourg sans tomber, avec {nom} debout sur la crête. Mes bêtes n'ont pas bronché. Moi, je me suis mis à genoux sans savoir pourquoi.

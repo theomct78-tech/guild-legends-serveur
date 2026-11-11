@@ -1,0 +1,169 @@
+# Voix des champions · lot 15 (Nunu & Willump à Renata Glasc) · 11 nov. 2026. Format et règles : voir lot10.txt.
+
+Nunu & Willump|bande|gamin
+Nunu & Willump|fil_depart|On part ! Willump a pris son goûter. Et le mien aussi, mais ça va.
+Nunu & Willump|fil_retour_bon|On a gagné ! Willump a fait une boule de neige géante ! Elle a écrasé un méchant ! Un peu !
+Nunu & Willump|fil_retour_mauvais|On a perdu… Willump est triste. Moi aussi. On peut avoir un gâteau ?
+Nunu & Willump|fil_blesse|Willump a un bobo à la patte. Je lui ai mis un bandage. Il fait le courageux.
+Nunu & Willump|fil_ennui|Il neige pas ici ! Comment on fait des bonhommes de neige ? Willump peut aider.
+Nunu & Willump|fil_maitre|Tu veux faire une bataille de boules de neige avec nous ? Willump triche pas. Presque pas.
+Nunu & Willump|fil_pique|{b} a dit que Willump sentait mauvais. Willump a entendu. Willump pleure.
+Nunu & Willump|story|Willump dort dans la cour. Je dors sur Willump. C'est tout doux.
+Nunu & Willump|story|On a fait un bonhomme de neige avec de la farine. C'est pareil.
+Nunu & Willump|correspondant|{nom} sont arrivés à deux : un petit garçon très poli, et un yéti qui a mangé tous les biscuits du bureau. Le petit garçon s'est excusé. Le yéti, non.
+
+Olaf|bande|gamin
+Olaf|fil_depart|ENFIN ! Peut-être que là-bas, quelque chose réussira à me tuer !
+Olaf|fil_retour_bon|J'ai survécu. Encore. C'est décevant. Mais la bière était bonne.
+Olaf|fil_retour_mauvais|On a perdu, mais j'ai bien rigolé. Il y avait un ours. Il était sympa.
+Olaf|fil_blesse|Une hache dans l'épaule ! Enfin ! Non, c'était juste un éclat. Dommage.
+Olaf|fil_ennui|Qui veut se battre ? Vraiment se battre ? Avec des vraies haches ?
+Olaf|fil_maitre|Tu me donnes des missions trop faciles. Je veux mourir glorieusement, pas d'ennui.
+Olaf|fil_pique|{b} boit comme un poro. Deux verres et {b} dort.
+Olaf|story|Bras de fer contre un ours. Nul. On a ri.
+Olaf|story|Petit-déjeuner : trois saucisses et une chope. Le reste est pour les faibles.
+Olaf|correspondant|{nom} m'a demandé où était le monstre le plus dangereux du coin, puis a eu l'air déçu quand je lui ai dit qu'il n'y en avait pas. Il a bu tout notre stock de bière pour se consoler.
+
+Orianna|bande|discret
+Orianna|fil_depart|Je pars. La balle aussi. Elle a hâte, je crois.
+Orianna|fil_retour_bon|Tout a fonctionné comme prévu. C'est rassurant. Pour moi et pour la balle.
+Orianna|fil_retour_mauvais|Une pièce a lâché. Ce n'était pas une pièce importante. Enfin, je crois.
+Orianna|fil_blesse|J'ai un rouage tordu. Ça fait un petit bruit. Ça ne fait pas mal. Je ne sais pas ce que ça fait.
+Orianna|fil_ennui|J'ai remonté toutes les horloges du repère. Elles battent toutes ensemble, maintenant.
+Orianna|fil_maitre|Mon père disait qu'un cœur, ce n'est pas qu'un mécanisme. Je crois qu'il avait raison. Le tien est gentil.
+Orianna|fil_pique|{b} parle trop vite. Je n'arrive pas à suivre. C'est peut-être exprès.
+Orianna|story|Danse dans la salle commune. Elle était vide. C'était mieux.
+Orianna|story|La balle a fait un tour du jardin toute seule. Elle revient toujours.
+Orianna|correspondant|{nom} m'a demandé la permission de remonter notre vieille horloge. Elle bat parfaitement depuis. Mes employés jurent qu'elle a dit merci.
+
+Ornn|bande|grand
+Ornn|fil_depart|Je pars. Que personne ne touche à ma forge. Même pas pour « aider ».
+Ornn|fil_retour_bon|C'est fait. J'ai réparé une charrue en passant. Elle était mal faite.
+Ornn|fil_retour_mauvais|Pas réussi. J'aurais dû forger une meilleure arme. Je vais le faire.
+Ornn|fil_blesse|Une égratignure. J'ai eu pire en tenant un marteau par le mauvais bout.
+Ornn|fil_ennui|Tout ce qui est en métal dans ce repère est mal forgé. Tout. Je refais tout.
+Ornn|fil_maitre|Tu ne demandes jamais rien. Ça me plaît. Alors je vais te forger quelque chose quand même.
+Ornn|fil_pique|{b}, ton épée est une honte. Donne. Je vais la refaire. Ne dis rien.
+Ornn|story|Forge allumée. Personne ne vient me déranger. Parfait.
+Ornn|story|J'ai refait les gonds du portail. Il ne grince plus. Vous me remercierez plus tard.
+Ornn|correspondant|{nom} a regardé l'enclume de notre forgeron, puis le forgeron, et a dit : « Mal entretenue. » Il l'a réparée dans la nuit sans demander. Le forgeron ne sait pas s'il doit être vexé.
+
+Pantheon|bande|grand
+Pantheon|fil_depart|Je pars. Le bouclier et la lance sont prêts. Moi aussi.
+Pantheon|fil_retour_bon|Tenu. Personne n'est passé. C'est tout ce qui compte.
+Pantheon|fil_retour_mauvais|On n'était pas assez nombreux. La prochaine fois, je tiens plus longtemps.
+Pantheon|fil_blesse|Je suis encore debout. C'est mon seul talent, et il suffit.
+Pantheon|fil_ennui|J'ai fait le pain. C'est mon premier métier. Personne ne me croit, mais goûtez.
+Pantheon|fil_maitre|Tu fais des choses simples, et tu les fais bien. Le monde en manque.
+Pantheon|fil_pique|{b} tient son bouclier trop bas. Je le corrigerai pendant le prochain entraînement. Avec ma lance.
+Pantheon|story|Pain chaud, fait maison. Oui, c'est moi. Non, je ne vous apprendrai pas.
+Pantheon|story|Le bouclier contre le mur, la lance à côté. Je dors à côté d'eux.
+Pantheon|correspondant|{nom} s'est levé à quatre heures du matin pour aider notre boulanger au fournil. Le pain du jour était le meilleur de l'année. Il n'a rien voulu dire de plus.
+
+Poppy|bande|discret
+Poppy|fil_depart|Je pars ! Si je trouve le héros, je le ramène. Peut-être que c'est quelqu'un de chez nous.
+Poppy|fil_retour_bon|On a réussi ! Mais je ne suis pas une héroïne, hein. J'ai juste tapé avec le marteau.
+Poppy|fil_retour_mauvais|On a perdu… Peut-être qu'un vrai héros aurait mieux fait. Je dis ça comme ça.
+Poppy|fil_blesse|J'ai pris un coup sur la tête. Mon casque est cabossé. Ma tête aussi, un peu.
+Poppy|fil_ennui|J'ai demandé à tout le monde au repère s'ils étaient le héros. Personne. Je recommence demain.
+Poppy|fil_maitre|Tu sais où je peux trouver un héros ? Un vrai ? Tu as une liste ?
+Poppy|fil_pique|{b} a dit que mon marteau était plus grand que moi. C'est vrai. Mais c'était pas gentil.
+Poppy|story|Marteau poli. Il brille. Il est prêt pour le héros.
+Poppy|story|Je suis montée sur la table pour voir plus loin. C'était pas assez haut.
+Poppy|correspondant|{nom} m'a demandé très sérieusement si j'étais un héros. J'ai dit non. Elle a eu l'air déçue, puis elle a aidé mon garde à ferrer deux chevaux.
+
+Pyke|bande|discret
+Pyke|fil_depart|Il y a un nom sur ma liste. Je vais le rayer.
+Pyke|fil_retour_bon|Le nom est rayé. La liste est plus courte. Elle ne sera jamais vide.
+Pyke|fil_retour_mauvais|Il a filé. Il ne filera pas deux fois.
+Pyke|fil_blesse|Je suis déjà mort une fois. Ça, c'est rien.
+Pyke|fil_ennui|J'ai relu ma liste. Il y a deux noms de plus. Je ne sais pas comment ils sont arrivés là.
+Pyke|fil_maitre|T'es pas sur ma liste. Garde ça comme ça.
+Pyke|fil_pique|{b} ment sur son heure de retour. J'étais dehors. Je suis toujours dehors, la nuit.
+Pyke|story|La liste s'allonge.
+Pyke|story|Le bassin du jardin. Il est trop petit pour se noyer. Dommage.
+Pyke|correspondant|{nom} m'a demandé, avec beaucoup de politesse, la liste des capitaines de navire qui avaient laissé des hommes se noyer. Je ne l'ai pas. Je préférerais ne jamais l'avoir.
+
+Qiyana|bande|gamin
+Qiyana|fil_depart|L'impératrice part. Tâchez de ne pas sombrer dans le chaos en son absence.
+Qiyana|fil_retour_bon|Évidemment que c'est réussi. Vous en doutiez ? Je vois. Je retiens.
+Qiyana|fil_retour_mauvais|La terre n'a pas obéi. Ce n'est pas ma faute. Ça ne l'est jamais.
+Qiyana|fil_blesse|On a abîmé ma tenue. On paiera. En sueur et en larmes.
+Qiyana|fil_ennui|J'ai décidé que la salle commune m'appartenait. Vous pouvez y entrer. Pour l'instant.
+Qiyana|fil_maitre|Tu diriges correctement. Pour quelqu'un du peuple. Venant de moi, c'est un très grand compliment.
+Qiyana|fil_pique|{b} a osé s'asseoir sur mon fauteuil. Le fauteuil a été brûlé. {b}, prochainement.
+Qiyana|story|Couronne sur la tête, cour à mes pieds. Le repère a enfin une reine.
+Qiyana|story|J'ai fait jaillir une fontaine dans le jardin. On m'a dit non. Elle reste.
+Qiyana|correspondant|{nom} a exigé une chambre digne de son rang. Je lui ai donné la meilleure. Elle a soupiré. Elle m'a ensuite demandé de rebaptiser la rue à son nom.
+
+Quinn|bande|discret
+Quinn|fil_depart|Valor et moi, on part. Il a déjà repéré le chemin.
+Quinn|fil_retour_bon|Valor a tout vu d'en haut. Moi, j'ai fait le reste. Bon travail d'équipe.
+Quinn|fil_retour_mauvais|Valor a perdu de vue la cible. Ce n'est pas sa faute. C'est la mienne, je n'ai pas écouté ses cris.
+Quinn|fil_blesse|J'ai un bras en écharpe. Valor me rapporte des souris. C'est sa façon de prendre soin de moi.
+Quinn|fil_ennui|Valor tourne au-dessus du repère depuis une heure. Il dit qu'il n'y a rien d'intéressant. Il a raison.
+Quinn|fil_maitre|Valor t'a à l'œil. C'est bon signe. Il ne regarde pas tout le monde.
+Quinn|fil_pique|{b} a essayé de caresser Valor. Valor a essayé de manger {b}. Égalité.
+Quinn|story|Valor sur mon bras, le soleil derrière. On est prêts.
+Quinn|story|Valor a ramené une perdrix sur la table du petit-déjeuner. Bon appétit.
+Quinn|correspondant|Un aigle est entré par la fenêtre avant {nom}, a fait le tour de mon bureau, puis s'est posé sur son bras quand elle est arrivée. Il a mangé mon déjeuner.
+
+Rakan|bande|gamin
+Rakan|fil_depart|Je pars ! Préparez les applaudissements, je reviens dans le style !
+Rakan|fil_retour_bon|J'ai dansé pendant tout le combat. Ils n'ont rien compris. Moi non plus. C'était beau.
+Rakan|fil_retour_mauvais|Le public n'était pas réceptif. C'est pas moi, c'est eux.
+Rakan|fil_blesse|Une plume cassée ! Ma plus belle ! C'est une tragédie, vraiment.
+Rakan|fil_ennui|Personne ne veut danser ? Le chien danse. Le chien a compris la vie.
+Rakan|fil_maitre|Tu prends tout trop au sérieux, chef. Viens danser. Un petit pas. Juste un.
+Rakan|fil_pique|{b} danse comme un pied. Viens, {b}, je t'apprends. Gratuit.
+Rakan|story|Plumes au vent, sourire au point, la cour est ma scène.
+Rakan|story|J'ai fait danser toute la salle commune hier soir. Même ceux qui ne voulaient pas.
+Rakan|correspondant|{nom} a mis l'ambiance dans notre bureau en cinq minutes. Mon garde a dansé. Ma secrétaire a dansé. J'ai dansé. Je n'ai jamais dansé de ma vie.
+
+Rammus|bande|discret
+Rammus|fil_depart|Ok.
+Rammus|fil_retour_bon|Ok.
+Rammus|fil_retour_mauvais|Hm.
+Rammus|fil_blesse|Ça va.
+Rammus|fil_ennui|(Rammus fait des tours de la cour, roulé en boule. Il en est à quarante.)
+Rammus|fil_maitre|Ok. Merci.
+Rammus|fil_pique|(Rammus regarde {b} longtemps. Puis il dit : « Non. » Puis il s'en va.)
+Rammus|story|Ok.
+Rammus|story|Ok.
+Rammus|correspondant|{nom} n'a pas prononcé plus de dix mots depuis son arrivée. Je les ai comptés. Il a pourtant réussi à me faire comprendre qu'il voulait une chambre au rez-de-chaussée.
+
+Rek'Sai|bande|discret
+Rek'Sai|fil_depart|(Un trou s'ouvre dans la cour. Rek'Sai disparaît dedans. Le trou se referme.)
+Rek'Sai|fil_retour_bon|(Rek'Sai remonte du sol au milieu de la salle commune. Elle a l'air contente. Elle a du sable partout.)
+Rek'Sai|fil_retour_mauvais|(On entend gronder sous le plancher pendant toute la nuit.)
+Rek'Sai|fil_blesse|(Rek'Sai se roule dans la terre fraîche du jardin pour soigner ses plaies.)
+Rek'Sai|fil_ennui|(Il y a trois nouveaux tunnels sous le repère. Le chien les adore.)
+Rek'Sai|fil_maitre|(Rek'Sai dépose un ver géant devant toi. C'est un cadeau. Tu peux le manger.)
+Rek'Sai|fil_pique|(Rek'Sai surgit du sol juste sous les pieds de {b}. {b} hurle. Rek'Sai repart.)
+Rek'Sai|story|Trou.
+Rek'Sai|story|Sous le jardin. Calme.
+Rek'Sai|correspondant|{nom} n'est pas entrée par la porte. Elle est sortie du sol de notre cour. Nous avons rebouché le trou. Il est revenu le lendemain.
+
+Rell|bande|gamin
+Rell|fil_depart|Je pars. Que personne ne laisse traîner de métal derrière moi, il me suivrait.
+Rell|fil_retour_bon|Fait. J'ai défoncé une porte en passant. Elle l'avait mérité.
+Rell|fil_retour_mauvais|Raté. Je déteste rater. Je vais casser quelque chose. Quelque chose d'inutile.
+Rell|fil_blesse|Mon armure est cabossée. Je la redresse moi-même. Personne ne touche.
+Rell|fil_ennui|Tous les couverts du repère sont collés au plafond. Désolée. Pas vraiment.
+Rell|fil_maitre|Tu ne me traites pas comme une arme. Ça change. Ça me plaît.
+Rell|fil_pique|{b} a laissé ses clés sur la table. Elles sont dans mon armure, maintenant.
+Rell|story|Mon cheval de fer et moi, au soleil. On a bien mérité une pause.
+Rell|story|J'ai tordu le portail pour qu'il ferme mieux. Il ferme beaucoup mieux.
+Rell|correspondant|Toute la ferraille de notre atelier a quitté les murs quand {nom} est passée dans la rue. Elle est revenue. Rangée par taille. Ce n'était jamais arrivé.
+
+Renata Glasc|bande|grand
+Renata Glasc|fil_depart|Je pars conclure un accord. Ne signez rien en mon absence.
+Renata Glasc|fil_retour_bon|Ils ont tout accepté. Ils m'appartiennent un peu, maintenant. Discrètement.
+Renata Glasc|fil_retour_mauvais|Une transaction ratée. Il y aura d'autres occasions. Il y en a toujours.
+Renata Glasc|fil_blesse|Une égratignure. J'ai le meilleur médecin de Zaun. Il me doit beaucoup.
+Renata Glasc|fil_ennui|J'ai racheté la dette de la cuisinière. Elle travaille pour moi, maintenant. Vous l'ignoriez ?
+Renata Glasc|fil_maitre|Faire affaire avec toi est intéressant. Pour le moment. Je te conseille que ça dure.
+Renata Glasc|fil_pique|{b} me doit trois services. {b} ne le sait pas encore.
+Renata Glasc|story|Contrat signé, chimie du soir, vue sur la ville. Le travail paie.
+Renata Glasc|story|Une rose noire sur la table. Elle n'est pas pour vous. Ou peut-être que si.
+Renata Glasc|correspondant|{nom} m'a proposé de financer entièrement la rénovation de notre bureau. J'ai dit oui. En relisant le contrat, j'ai commencé à transpirer.

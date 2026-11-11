@@ -43,6 +43,10 @@ const PARAMS = {
   multRisque: 1.6,
   // Complication (cachée dans chaque mission) : une fois sur deux, elle surgit et ajoute une épreuve surprise, plus dure
   // que les autres. Un Éclaireur dans l'équipe l'a vue venir : elle perd 10 de difficulté (FORMAT.md).
+  // 11 nov. 2026, audit : avec des héros tout juste recrutés, un joueur appliqué ratait 11 contrats sur 14. Aux deux premiers
+  // paliers, les épreuves sont allégées pour viser environ 65 % de réussite en jouant normalement. Mesuré sur 28 jours
+  // (3 guildes) : les missions locales restaient à 20-40 % avec une équipe soignée, d'où un allègement plus fort à ce palier.
+  allegement: { inconnue: 8, locale: 14, regionale: 10, renommee: 4, legendaire: 0 },
   brio: 0.3,                         // part basse du tirage qui fait une réussite éclatante
   chanceComplication: 0.5, surcoutComplication: 3, eclaireurComplication: 10,
 };
@@ -91,7 +95,7 @@ function scoreEpreuve(equipe, epreuve, avantages = {}, contexte = {}) {
   const score = base + bonusAvantages + cohesion(contexte.relations) + entente - composition;
   return {
     score: Math.round(score * 10) / 10,
-    difficulte: Math.round((epreuve.difficulte - reductionDifficulte) * 10) / 10,
+    difficulte: Math.round((epreuve.difficulte - reductionDifficulte - (contexte.allegement || 0)) * 10) / 10,
     meneur: classes[0]?.nom, detail: classes, bonusAvantages: Math.round(bonusAvantages * 10) / 10, composition,
   };
 }
@@ -108,6 +112,7 @@ function chanceReussite(score, difficulte) {
 const TYPE_COMPLICATION = { enquete: 'discretion', escorte: 'combat', chasse: 'poursuite', diplomatie: 'diplomatie', sauvetage: 'voyage', defense: 'nuee',
   livraison: 'voyage', exploration: 'voyage', protection: 'combat', recuperation: 'poursuite', traque: 'poursuite' };
 function resoudreMission(equipe, mission, avantages = {}, contexte = {}, rng = Math.random) {
+  contexte = { allegement: PARAMS.allegement[mission.palier] || 0, ...contexte };
   let liste = mission.epreuves, complication = false;
   if (mission.complication && rng() < PARAMS.chanceComplication) {
     const eclaireur = (contexte.postes || []).some(p => p.type === 'Éclaireur' && p.heros);
@@ -139,6 +144,7 @@ function resoudreMission(equipe, mission, avantages = {}, contexte = {}, rng = M
 
 /* Chance globale de réussir (au moins la majorité des épreuves), calculée exactement, pour l'affichage avant le départ. */
 function chanceMission(equipe, mission, avantages = {}, contexte = {}) {
+  contexte = { allegement: PARAMS.allegement[mission.palier] || 0, ...contexte };
   const ps = mission.epreuves.map(ep => { const s = scoreEpreuve(equipe, ep, avantages, contexte); return chanceReussite(s.score, s.difficulte); });
   let dist = [1];
   for (const p of ps) { const nd = new Array(dist.length + 1).fill(0); dist.forEach((v, k) => { nd[k] += v * (1 - p); nd[k + 1] += v * p; }); dist = nd; }

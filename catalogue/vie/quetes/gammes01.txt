@@ -197,7 +197,7 @@ e2_lieu: Monts Ironspike
 e2_duree: 6
 e2_epreuves: combat 1 ; diplomatie 1
 e2_recit: affronter la créature de flammes qui garde le serment et lui rendre ce qui lui appartient
-e2_reussite: Le feu quitte {nom} comme un souffle. Ses mains sont tièdes, pour la première fois. Ça fait un peu peur, et beaucoup de bien.
+e2_reussite: Le feu quitte {nom} comme un souffle. Ses mains sont tièdes, pour la première fois. {nom} les garde serrées contre sa poitrine un long moment.
 e2_echec: La créature garde le serment. Le feu reste, mais plus calme, comme apaisé d'avoir été entendu.
 fin: Au repère, {nom} prend une tasse de thé à pleines mains et la boit sans qu'elle se mette à bouillir.
 refus: {nom} dort désormais sur le sol de pierre de la cour, loin des draps. Par précaution.

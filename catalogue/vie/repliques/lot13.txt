@@ -1,0 +1,205 @@
+# Voix des champions · lot 13 (Katarina à Lux) · 11 nov. 2026. Format et règles : voir lot10.txt.
+
+Katarina|bande|gamin
+Katarina|fil_depart|Je pars. J'emporte six lames. Je compte bien en ramener six.
+Katarina|fil_retour_bon|C'était rapide. Ils n'ont rien vu venir. Personne ne voit jamais rien venir.
+Katarina|fil_retour_mauvais|Quelqu'un a été trop lent. Je ne dirai pas qui. Tout le monde sait que ce n'est pas moi.
+Katarina|fil_blesse|Une entaille. Je vais m'en souvenir, et celui qui me l'a faite aussi.
+Katarina|fil_ennui|J'ai planté douze lames dans la cible de la cour. Toutes au centre. Il me faut une cible qui bouge.
+Katarina|fil_maitre|Tu me laisses faire mon travail sans poser de questions. Continue comme ça.
+Katarina|fil_pique|{b}, tu respires trop fort quand tu te caches. On t'entend depuis l'escalier.
+Katarina|story|Lames alignées sur le lit. Nettoyées. Une par une.
+Katarina|story|Toit du repère, coucher de soleil. Je ne dis pas que c'est joli. Mais c'est joli.
+Katarina|correspondant|{nom} a lancé un couteau dans la mouche qui tournait au-dessus de mon bureau, sans tourner la tête. Le couteau est toujours planté dans le mur. Personne n'ose l'enlever.
+
+Kayle|bande|grand
+Kayle|fil_depart|Je pars rendre justice. Qu'on se tienne bien en mon absence.
+Kayle|fil_retour_bon|Justice est faite. Ils ont compris. Certains plus vite que d'autres.
+Kayle|fil_retour_mauvais|Le monde n'est pas prêt pour la justice. Je reviendrai quand il le sera.
+Kayle|fil_blesse|Une aile froissée. Je n'ai besoin de personne. Mais posez la couverture là.
+Kayle|fil_ennui|Il y a beaucoup de désordre dans ce repère. Moral et matériel.
+Kayle|fil_maitre|Tu es trop indulgent. Mais je reconnais que tu es juste. C'est rare chez les mortels.
+Kayle|fil_pique|{b} a menti trois fois aujourd'hui. Je les ai comptées. Je compte toujours.
+Kayle|story|Le soleil se lève. Mes ailes brillent. Personne n'est réveillé pour le voir.
+Kayle|story|J'ai rangé l'armurerie. Personne ne retrouve plus rien. C'est mieux comme ça.
+Kayle|correspondant|{nom} a jugé trois de mes employés coupables de petits mensonges avant le dîner. Ils ont avoué. Tous les trois. Je n'avais même pas de soupçons.
+
+Kayn|bande|gamin
+Kayn|fil_depart|Je pars. Rhaast ne veut pas, mais Rhaast n'a pas son mot à dire.
+Kayn|fil_retour_bon|Mission réussie. Rhaast dit que c'est grâce à lui. Rhaast ment.
+Kayn|fil_retour_mauvais|C'est Rhaast qui a tout fait rater. Il parle trop. Il parle tout le temps.
+Kayn|fil_blesse|J'ai mal. Rhaast trouve ça drôle. Ce n'est pas drôle, Rhaast.
+Kayn|fil_ennui|Je m'ennuie. Rhaast aussi. Pour une fois, on est d'accord. C'est inquiétant.
+Kayn|fil_maitre|Tu sais, j'aurais pu diriger cette guilde. En mieux. Mais tu te débrouilles.
+Kayn|fil_pique|{b} m'a regardé de travers. Rhaast veut que je règle ça. Je réfléchis.
+Kayn|story|Miroir, cheveux, cicatrices. Tout est parfait. Rhaast dit que non.
+Kayn|story|Rhaast et moi, on s'est disputés toute la nuit. Les voisins ont entendu.
+Kayn|correspondant|{nom} se disputait avec sa faux en entrant. La faux répondait. J'ai fait semblant de ne rien entendre, et elle m'a traité d'idiot.
+
+Kennen|bande|gamin
+Kennen|fil_depart|Je fonce ! Si vous me voyez passer, c'est que je suis déjà parti.
+Kennen|fil_retour_bon|Fini avant que vous ayez fini votre thé ! Bon, j'exagère. À peine.
+Kennen|fil_retour_mauvais|J'ai été trop rapide. Si, ça existe. Trop rapide pour le plan.
+Kennen|fil_blesse|Un petit court-circuit. Ça picote. Évitez de me toucher pendant une heure.
+Kennen|fil_ennui|J'ai fait le tour du repère douze fois en une minute. Le chien a abandonné au troisième.
+Kennen|fil_maitre|Toi, tu réfléchis beaucoup. Moi, j'agis vite. Ensemble, on est parfaits.
+Kennen|fil_pique|{b} est aussi rapide qu'une tortue enrhumée. Je dis ça avec amour.
+Kennen|story|Éclair sur le paratonnerre du repère. Oui, c'était moi.
+Kennen|story|Le chien a les poils tout droits. Pardon, le chien.
+Kennen|correspondant|{nom} est entré, a fait le tour du bureau, a salué tout le monde, et était déjà ressorti avant que je finisse ma phrase. Il a laissé une odeur d'orage.
+
+Kha'Zix|bande|gamin
+Kha'Zix|fil_depart|Je pars chasser. Il y a des proies. Je les sens.
+Kha'Zix|fil_retour_bon|J'ai mangé quelque chose de nouveau. J'ai évolué. Un peu.
+Kha'Zix|fil_retour_mauvais|La proie était plus forte que prévu. Je m'adapterai. Je m'adapte toujours.
+Kha'Zix|fil_blesse|Ma carapace est fendue. Elle repoussera plus dure.
+Kha'Zix|fil_ennui|Pourquoi est-ce que je n'ai pas le droit de chasser les pigeons du toit ? Ce sont des proies.
+Kha'Zix|fil_maitre|Toi, tu n'es pas une proie. Pas encore. C'est un compliment.
+Kha'Zix|fil_pique|{b} passe trop de temps sans personne autour. C'est imprudent. Je dis ça pour {b}.
+Kha'Zix|story|Une aile nouvelle a poussé cette nuit. Elle est brillante.
+Kha'Zix|story|Les pigeons du toit ont disparu. Je ne sais pas comment. Vraiment pas.
+Kha'Zix|correspondant|{nom} s'est installé dans un coin sombre de notre bureau et m'a regardé toute la soirée sans bouger. Je n'ai jamais travaillé aussi vite de ma vie.
+
+Kindred|bande|discret
+Kindred|fil_depart|AGNEAU : Nous partons. LOUP : Il y aura à manger ?
+Kindred|fil_retour_bon|AGNEAU : Personne n'est parti avant son heure. LOUP : Dommage.
+Kindred|fil_retour_mauvais|LOUP : On a couru pour rien. AGNEAU : On ne court jamais pour rien.
+Kindred|fil_blesse|LOUP : J'ai une épine dans la patte. AGNEAU : Ne bouge pas.
+Kindred|fil_ennui|LOUP : Je m'ennuie. AGNEAU : Tu t'ennuies toujours. LOUP : Alors amuse-moi.
+Kindred|fil_maitre|AGNEAU : Tu n'as pas peur de nous. LOUP : Ce serait plus prudent. AGNEAU : Non. Ce serait plus triste.
+Kindred|fil_pique|LOUP : {b} court vite. J'aimerais bien voir à quel point. AGNEAU : Loup.
+Kindred|story|Agneau : Il neige. Loup : Il y a des lapins dessous.
+Kindred|story|LOUP : J'ai trouvé un os. AGNEAU : C'est celui du chien. LOUP : Plus maintenant.
+Kindred|correspondant|{nom} s'est présenté comme deux. Je n'ai vu qu'un masque blanc et une ombre derrière. L'ombre a demandé s'il y avait de la viande. Nous en avons trouvé.
+
+Kled|bande|gamin
+Kled|fil_depart|EN AVANT, SKAARL ! Non, l'autre côté ! L'AUTRE CÔTÉ !
+Kled|fil_retour_bon|J'ai pris trois villages et un moulin ! Ah, c'était juste une mission ? Bah, je les garde quand même.
+Kled|fil_retour_mauvais|C'est la faute de Skaarl. Elle a eu peur d'un caillou. UN CAILLOU.
+Kled|fil_blesse|Ça ? C'est rien ! J'ai perdu une jambe une fois, elle a repoussé. Non, je mens. Mais ça aurait pu.
+Kled|fil_ennui|J'ai annexé la salle commune. C'est à moi maintenant. Vous pouvez venir, mais vous payez.
+Kled|fil_maitre|Toi, t'as des tripes. Petites, mais t'en as. On va faire de grandes choses.
+Kled|fil_pique|{b} a touché à mon chapeau. Personne ne touche à mon chapeau. PERSONNE.
+Kled|story|Skaarl a mangé les rideaux. Je lui ai dit bravo. C'était des rideaux traîtres.
+Kled|story|Drapeau de Kled planté sur le toit. Le repère est à moi. Merci de votre attention.
+Kled|correspondant|{nom} a déclaré notre bureau « territoire conquis » et y a planté un drapeau. Le lézard a mangé ma plante verte. Je n'ai pas su quoi faire, alors je les ai nourris.
+
+Kog'Maw|bande|gamin
+Kog'Maw|fil_depart|(Kog'Maw sautille vers le portail en bavant. Il y a un petit trou dans le sol à chaque pas.)
+Kog'Maw|fil_retour_bon|MIAM. MIAM MIAM. CONTENT.
+Kog'Maw|fil_retour_mauvais|PAS MIAM. PAS CONTENT. VEUT MANGER.
+Kog'Maw|fil_blesse|(Il se roule par terre en gémissant. Puis il mange le pansement.)
+Kog'Maw|fil_ennui|(La chaise de la salle commune a disparu. Kog'Maw a l'air très satisfait.)
+Kog'Maw|fil_maitre|TOI. GENTIL. TOI, PAS MANGER. TOI DONNER MANGER.
+Kog'Maw|fil_pique|{b}. SENT LA CUISINE. MIAM ?
+Kog'Maw|story|Marmite. Vide. Kog'Maw sait pas.
+Kog'Maw|story|LE CHIEN. AMI. PAS MANGER LE CHIEN. JAMAIS.
+Kog'Maw|correspondant|{nom} a mangé le paillasson, une partie de l'escalier et la moitié d'un garde, enfin, son chapeau. Il était adorable pendant tout ce temps. Je ne comprends pas mes sentiments.
+
+LeBlanc|bande|discret
+LeBlanc|fil_depart|Je pars. Ou pas. Vous ne saurez jamais vraiment, n'est-ce pas ?
+LeBlanc|fil_retour_bon|Tout s'est passé exactement comme je l'avais prévu. Comme toujours.
+LeBlanc|fil_retour_mauvais|Ah. Ça, je ne l'avais pas prévu. Ne dites à personne que je l'ai dit.
+LeBlanc|fil_blesse|Ce n'était pas moi. C'était une copie. Enfin, presque. Où est le baume ?
+LeBlanc|fil_ennui|J'ai appris quatre secrets sur chacun de vous depuis ce matin. Voulez-vous savoir lesquels ? Non. Plus tard.
+LeBlanc|fil_maitre|Il y a chez toi plus de choses intéressantes que tu ne crois. Je te garde à l'œil.
+LeBlanc|fil_pique|{b}, tu as parlé à quelqu'un dans le couloir ce matin. C'était moi. Ou pas.
+LeBlanc|story|Deux tasses de thé sur la table. Je bois les deux. Ou nous buvons.
+LeBlanc|story|Miroir, bougie, sourire. Rien n'est jamais ce qu'il semble.
+LeBlanc|correspondant|J'ai reçu {nom} dans mon bureau pendant une heure très agréable. Mon adjoint me jure l'avoir vue au marché au même moment. Je préfère ne pas savoir lequel de nous deux se trompe.
+
+Lee Sin|bande|grand
+Lee Sin|fil_depart|Je pars. Ne vous inquiétez pas, je trouve mon chemin. Je n'ai pas besoin de le voir.
+Lee Sin|fil_retour_bon|Le travail est fait, l'esprit est calme. Je vais méditer.
+Lee Sin|fil_retour_mauvais|Un faux pas. Je l'ai entendu, je l'ai senti. Je le corrigerai.
+Lee Sin|fil_blesse|La douleur est une maîtresse. Aujourd'hui, elle a été bavarde.
+Lee Sin|fil_ennui|J'ai entraîné le chien à méditer. Il a tenu deux secondes. C'est un début.
+Lee Sin|fil_maitre|Ta voix est fatiguée ce soir. Repose-toi. Ce n'est pas un conseil, c'est un ordre de moine.
+Lee Sin|fil_pique|{b}, tu marches comme un éléphant en colère. Je t'entends du toit.
+Lee Sin|story|Méditation dans la cour sous la pluie. Je ne sens pas la pluie.
+Lee Sin|story|Entraînement les yeux bandés. Facile pour moi. J'ai de l'avance.
+Lee Sin|correspondant|{nom} a traversé notre bureau sans renverser une seule chose, alors que nous avions tout déplacé pour le ménage. Il a remercié la cuisinière, en se tournant exactement vers elle.
+
+Leona|bande|grand
+Leona|fil_depart|Je pars ! Le soleil se lève, c'est le meilleur moment.
+Leona|fil_retour_bon|Tout le monde rentre entier ! On fête ça ce soir, je m'occupe du feu.
+Leona|fil_retour_mauvais|Ce n'est pas fini. Demain, le soleil se lève encore. Moi aussi.
+Leona|fil_blesse|Mon bouclier a pris le plus gros. Moi, juste un petit bout.
+Leona|fil_ennui|J'ai réveillé tout le repère à l'aube pour voir le lever du soleil. Ils n'ont pas tous apprécié.
+Leona|fil_maitre|Tu portes beaucoup de choses. Je peux t'aider. Pour ça, je suis là.
+Leona|fil_pique|{b} dort encore à midi. {b} manque le meilleur de la journée.
+Leona|story|Lever de soleil sur le chemin de ronde. Personne ne m'a suivie. Leur perte.
+Leona|story|Bouclier poli. On se voit dedans. Je me trouve très bien, aujourd'hui.
+Leona|correspondant|{nom} est arrivée à l'aube, et le ciel s'est éclairci d'un coup alors qu'il pleuvait depuis trois jours. Mes employés l'ont applaudie sans savoir pourquoi.
+
+Lillia|bande|discret
+Lillia|fil_depart|Je… je pars. Si ça ne vous dérange pas. Même si ça vous dérange, je pars.
+Lillia|fil_retour_bon|Ils se sont endormis ! Tous ! Je ne voulais pas, mais ça a marché.
+Lillia|fil_retour_mauvais|J'ai eu peur. Encore. Je suis désolée. Je vais me cacher un peu.
+Lillia|fil_blesse|Un pétale est tombé. Il repoussera. Je crois. J'espère.
+Lillia|fil_ennui|J'ai endormi toute la salle commune sans le faire exprès. Ils ont l'air contents.
+Lillia|fil_maitre|Tu es… quelqu'un de gentil. Je ne savais pas comment le dire. Voilà, c'est dit.
+Lillia|fil_pique|{b} ronfle très fort. Ce n'est pas méchant de le dire. C'est juste vrai.
+Lillia|story|Petites fleurs au jardin. Elles brillent quand on dort. Je les ai vues.
+Lillia|story|J'ai fait un bouquet. Il endort un peu. Ne le respirez pas trop.
+Lillia|correspondant|{nom} s'est cachée derrière le rideau pendant toute la conversation, puis m'a offert une fleur avant de partir. J'ai dormi douze heures. Je me sens très bien.
+
+Lissandra|bande|discret
+Lissandra|fil_depart|Je pars. La glace garde mieux les secrets que vous.
+Lissandra|fil_retour_bon|C'est réglé. Ils ne se souviendront de rien. Comme je l'avais prévu.
+Lissandra|fil_retour_mauvais|Le froid n'a pas suffi. Ce sera la dernière fois.
+Lissandra|fil_blesse|Une fêlure. La glace se reforme toujours.
+Lissandra|fil_ennui|Ce repère est trop chaud. Beaucoup trop chaud. Qui a fait un feu ?
+Lissandra|fil_maitre|Tu ne sais pas tout de moi. C'est très bien comme ça.
+Lissandra|fil_pique|{b} parle beaucoup. Un jour, la glace aura raison de ce bavardage.
+Lissandra|story|Givre sur les vitres. Je n'ai rien fait. Enfin, presque rien.
+Lissandra|story|Le bassin du jardin a gelé. Les poissons dorment. Personne ne touche.
+Lissandra|correspondant|Il a gelé dans notre bureau le temps que {nom} remplisse le registre. Elle a été très aimable. Mon encre a mis deux jours à dégeler.
+
+Locke|bande|discret
+Locke|fil_depart|Je pars. Si quelqu'un me cherche, il ne me trouvera pas. C'est le but.
+Locke|fil_retour_bon|Fait. Personne ne m'a vu. Personne ne saura. Parfait.
+Locke|fil_retour_mauvais|Quelqu'un m'a vu. Ça ne m'arrive jamais. Je vais devoir y réfléchir.
+Locke|fil_blesse|Une coupure. J'aurais dû l'éviter. Je ne l'ai pas évitée.
+Locke|fil_ennui|Je surveille. Il n'y a rien à surveiller. Je surveille quand même.
+Locke|fil_maitre|Tu ne demandes pas ce que je fais quand je disparais. Merci.
+Locke|fil_pique|{b} fait trop de bruit en marchant. Je l'ai entendu depuis la cave.
+Locke|story|…
+Locke|story|Cape neuve. Plus sombre. Plus silencieuse.
+Locke|correspondant|Je n'ai pas vu {nom} entrer. Je l'ai trouvé assis dans mon fauteuil, en train de lire mon courrier. Il m'a rendu les lettres en disant que mon adjoint me volait.
+
+Lucian|bande|grand
+Lucian|fil_depart|Je pars. Ne m'attendez pas pour dîner.
+Lucian|fil_retour_bon|Ils ne reviendront pas. Ni eux, ni ce qui les poussait.
+Lucian|fil_retour_mauvais|Je n'ai pas été assez rapide. Je ne le suis jamais assez.
+Lucian|fil_blesse|Une égratignure. Senna dirait que je fais trop le dur. Elle aurait raison.
+Lucian|fil_ennui|J'ai nettoyé mes pistolets trois fois. Je vais les nettoyer une quatrième.
+Lucian|fil_maitre|Tu as une famille, ici. Prends-en soin. On ne la garde pas toujours.
+Lucian|fil_pique|{b}, tu tires comme si tu t'excusais. Tire comme si tu le pensais.
+Lucian|story|Deux pistolets sur la table. Un café. Le calme avant la tempête.
+Lucian|story|La lune sur la cour. Elle me fait penser à quelqu'un.
+Lucian|correspondant|{nom} est arrivé tard, a refusé de s'asseoir, et a demandé si quelqu'un avait vu des ombres bizarres dans le coin. Il a souri pour la première fois quand je lui ai dit que non.
+
+Lulu|bande|gamin
+Lulu|fil_depart|On part ! Pix dit qu'il veut faire un détour par les champignons violets !
+Lulu|fil_retour_bon|J'ai transformé le méchant en écureuil ! Il a l'air plus heureux, maintenant.
+Lulu|fil_retour_mauvais|Oups. Pix dit que c'est ma faute. Pix n'a pas tort, mais c'est pas gentil.
+Lulu|fil_blesse|Une égratignure qui chatouille ! Pix l'a léchée. C'est normal ?
+Lulu|fil_ennui|J'ai rendu la salle commune plus grande ! Ou on est devenus plus petits ? Je sais plus.
+Lulu|fil_maitre|Tu veux une fleur qui parle ? J'en ai une. Elle dit surtout des bêtises.
+Lulu|fil_pique|{b} a l'air triste ! Je vais lui donner des moustaches. Ça marche toujours.
+Lulu|story|Le chien est violet. Pix trouve ça mieux. Moi aussi.
+Lulu|story|Thé avec une théière qui marche toute seule. Elle a des pieds, maintenant.
+Lulu|correspondant|{nom} a transformé mon chapeau en lapin. Je l'ai récupéré deux heures après, en chapeau, avec des oreilles en plus. Je l'aime beaucoup.
+
+Lux|bande|gamin
+Lux|fil_depart|J'y vais ! Si quelqu'un voit Garen, dites-lui que je suis prudente. Même si ce n'est pas vrai.
+Lux|fil_retour_bon|On a réussi ! Et j'ai fait une lumière tellement forte qu'ils ont cru que c'était le matin.
+Lux|fil_retour_mauvais|Bon. Ce n'était pas parfait. Mais j'ai appris un nouveau sort, alors ce n'est pas perdu.
+Lux|fil_blesse|Ce n'est rien ! Enfin, si, un peu. Mais ne le dites pas à mon frère.
+Lux|fil_ennui|J'ai éclairé tous les couloirs. On voit tout, maintenant. Même la poussière. Désolée.
+Lux|fil_maitre|Tu sais ce qui rend un endroit chaleureux ? Les gens. Et un peu de lumière. Je m'occupe de la lumière.
+Lux|fil_pique|{b} boude encore. Je vais lui faire un arc-en-ciel. Ça marche à tous les coups.
+Lux|story|Arc-en-ciel dans la cour. Oui, c'est moi. Non, je n'arrêterai pas.
+Lux|story|J'ai fait des gâteaux. Ils sont un peu brûlés. Mais lumineux.
+Lux|correspondant|{nom} a illuminé notre bureau tellement fort en entrant que j'en ai vu des points blancs pendant une heure. Elle s'est excusée dix fois. Elle a tout de suite été adorée.

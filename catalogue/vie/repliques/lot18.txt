@@ -1,0 +1,217 @@
+# Voix des champions · lot 18 (Warwick à Zyra) · 11 nov. 2026. Format et règles : voir lot10.txt.
+
+Warwick|bande|discret
+Warwick|fil_depart|Je pars. Je sens déjà leur peur. C'est par là.
+Warwick|fil_retour_bon|Ils ont couru. Pas assez vite. C'est fini.
+Warwick|fil_retour_mauvais|La piste s'est perdue dans l'eau. Je déteste l'eau.
+Warwick|fil_blesse|Ça saigne. Ne restez pas trop près. Je sens mon propre sang. Ce n'est pas bon pour moi.
+Warwick|fil_ennui|Je sens tout le monde, dans ce repère. Tout le temps. C'est fatigant. Ouvrez les fenêtres.
+Warwick|fil_maitre|Tu n'as pas l'odeur de la peur. C'est rare, avec moi. Merci.
+Warwick|fil_pique|{b} a mangé de l'ail. Beaucoup. Je le sens d'ici. D'ici, c'est-à-dire du toit.
+Warwick|story|Pas moi. Enfin si.
+Warwick|story|J'ai rapporté un lièvre pour le dîner. Il est encore entier. Presque.
+Warwick|correspondant|Les trois voleurs de la ruelle des Tanneurs se sont rendus d'eux-mêmes au poste la nuit de l'arrivée de {nom}, en courant. Ils demandent à être enfermés « tant que ça rôde ».
+
+Wukong|bande|gamin
+Wukong|fil_depart|Le roi des singes part en voyage ! Gardez-moi des pêches !
+Wukong|fil_retour_bon|J'ai gagné ! Et un autre moi a gagné aussi. On était deux. Enfin, trois.
+Wukong|fil_retour_mauvais|Bon, ce n'était pas mon jour. Mais j'ai fait rire tout le monde en tombant.
+Wukong|fil_blesse|Aïe ! C'était le vrai moi, celui-là. Dommage.
+Wukong|fil_ennui|J'ai caché toutes les cuillères du repère. Bonne chance pour la soupe.
+Wukong|fil_maitre|Tu es drôle quand tu fais ta tête sérieuse. Tu le sais ?
+Wukong|fil_pique|{b} a cru parler avec moi ce matin. C'était une copie. {b} n'a rien vu. Hi hi.
+Wukong|story|Perché sur la branche la plus haute du jardin. Avec une pêche. Le bonheur.
+Wukong|story|Trois de moi sur la photo. Lequel est le vrai ? Indice : c'est le plus beau.
+Wukong|correspondant|{nom} m'a pris une pêche au marché en passant. Puis un autre {nom} m'en a pris une. Puis encore un. À la fin, onze pêches, et je ne sais pas lequel doit payer.
+
+Xayah|bande|gamin
+Xayah|fil_depart|On part, Rakan et moi. Enfin, si Rakan arrête de se coiffer.
+Xayah|fil_retour_bon|C'est réglé. Ils ne toucheront plus à la forêt. J'ai été très claire.
+Xayah|fil_retour_mauvais|On a perdu. Je suis furieuse. Ne me parlez pas. Sauf Rakan.
+Xayah|fil_blesse|Une plume arrachée. Celui qui l'a fait le paiera. Plus tard. Là, j'ai mal.
+Xayah|fil_ennui|J'ai planté des plumes dans la porte de la chambre de quelqu'un. Bien nettes. En cercle. Devinez de qui.
+Xayah|fil_maitre|Tu protèges les tiens. Les miens aussi, je crois. On se comprend.
+Xayah|fil_pique|{b} m'a appelée « oiseau ». {b} va apprendre que les oiseaux ont des plumes très pointues.
+Xayah|story|Plumes aiguisées une par une. C'est long. C'est apaisant.
+Xayah|story|Rakan danse dans la cour. Je fais semblant de ne pas regarder.
+Xayah|correspondant|Des plumes ont été retrouvées plantées dans la porte du percepteur, en cercle, bien nettes, le soir de l'arrivée de {nom}. Il voulait saisir la maison d'une vieille femme. Il a changé d'avis.
+
+Xerath|bande|discret
+Xerath|fil_depart|Je pars. Vous ne remarquerez pas mon absence. Je remarquerai la vôtre.
+Xerath|fil_retour_bon|C'est fait. J'ai laissé un cratère. Il était nécessaire.
+Xerath|fil_retour_mauvais|Une fluctuation dans ma puissance. Ça ne se reproduira pas.
+Xerath|fil_blesse|Ce corps est une prison. La prison a une fissure. Je ne m'en plains pas.
+Xerath|fil_ennui|J'ai observé le ciel trois jours. Puis un éclair est tombé sur la colline. Ce n'est pas moi. Si, c'est moi.
+Xerath|fil_maitre|Tu ne crains pas la puissance. Peut-être devrais-tu. Mais ça me plaît.
+Xerath|fil_pique|{b} a touché à mon sarcophage. {b} entend encore un bourdonnement, je suppose.
+Xerath|story|Démonstration terminée.
+Xerath|story|Énergie pure dans la salle commune. Les cheveux de tout le monde sont dressés.
+Xerath|correspondant|L'éclair qui est tombé sur la colline hier n'a touché personne, mais on voit encore le cratère depuis mon bureau. Le temps était clair. {nom} était, paraît-il, de mauvaise humeur.
+
+Xin Zhao|bande|grand
+Xin Zhao|fil_depart|Je pars. Que personne ne fasse de bêtise en mon absence. Je dis ça pour certains.
+Xin Zhao|fil_retour_bon|Mission remplie. Personne n'a été blessé. C'est ce que je voulais.
+Xin Zhao|fil_retour_mauvais|J'ai failli à ma garde. Je recommencerai. Je recommence toujours.
+Xin Zhao|fil_blesse|C'est une égratignure. J'ai été gladiateur, je sais ce qu'est une vraie blessure.
+Xin Zhao|fil_ennui|J'ai entraîné les plus jeunes à la lance toute la matinée. Ils ont mal partout. Ils me remercieront.
+Xin Zhao|fil_maitre|Je te garde. C'est mon devoir. Et c'est aussi ce que j'ai envie de faire.
+Xin Zhao|fil_pique|{b}, ta garde est basse. Dans l'arène, on t'aurait tué trois fois. Viens, on corrige ça.
+Xin Zhao|story|Lance nettoyée, pas d'entraînement aujourd'hui. Mon corps me remercie.
+Xin Zhao|story|Les jeunes s'entraînent dans la cour. Je regarde. Ils ne savent pas que je suis fier.
+Xin Zhao|correspondant|{nom} a tenu le pont, seul, contre une bande de pillards, le temps que mes gardes arrivent. Dix minutes. On a compté onze types par terre. Il s'est excusé de ne pas en avoir gardé pour nous.
+
+Yasuo|bande|discret
+Yasuo|fil_depart|Je pars. Le vent sait où je vais. Moi, pas toujours.
+Yasuo|fil_retour_bon|C'est fait. Personne n'a eu besoin de mourir. Pour une fois.
+Yasuo|fil_retour_mauvais|J'ai encore échoué. J'ai l'habitude. Ce n'est pas une bonne habitude.
+Yasuo|fil_blesse|Une coupure. Elle rejoindra les autres.
+Yasuo|fil_ennui|J'ai joué de la flûte sur le toit toute la soirée. Personne ne s'est plaint. Ou personne n'a osé.
+Yasuo|fil_maitre|Tu ne me juges pas. C'est la première fois depuis longtemps. Ça fait bizarre. Ça fait du bien.
+Yasuo|fil_pique|{b} m'a demandé pourquoi je bois seul. Parce que {b} ne boit pas avec moi.
+Yasuo|story|Flûte, toit, coucher de soleil. Le vent m'écoute. C'est déjà ça.
+Yasuo|story|Une bouteille vide, une feuille qui tourne. La soirée a été calme.
+Yasuo|correspondant|{nom} a passé la soirée au fond de la salle avec une flûte et une bouteille. Deux brutes ont cherché la bagarre. Le vent s'est levé à l'intérieur, et elles sont sorties toutes seules.
+
+Yone|bande|grand
+Yone|fil_depart|Je pars. Il y a quelque chose là-bas qui ne devrait pas y être.
+Yone|fil_retour_bon|Ce qui devait partir est parti. Le village dormira mieux.
+Yone|fil_retour_mauvais|Il m'a échappé. Il ne m'échappera pas deux fois. Je les retrouve toujours.
+Yone|fil_blesse|Une blessure, sur ce corps. Je ne sens plus vraiment. C'est presque dommage.
+Yone|fil_ennui|J'ai enlevé mon masque une heure. Personne ne m'a vu. C'était agréable.
+Yone|fil_maitre|Mon frère aurait aimé être ici. Il ne le dira jamais. Moi, si.
+Yone|fil_pique|{b} a demandé ce qu'il y avait sous mon masque. {b} n'a pas envie de savoir.
+Yone|story|Deux lames. Une seule voit le jour.
+Yone|story|Thé avec mon frère sur le toit. On n'a pas parlé. C'était bien.
+Yone|correspondant|La chose qui rendait folle de chagrin une veuve de notre ville n'est plus là depuis le passage de {nom}. Il est venu, masqué, est resté une nuit, et au matin elle a souri. Je ne pose pas de questions.
+
+Yorick|bande|grand
+Yorick|fil_depart|Je pars. Les morts n'attendent pas. Enfin, si, ils attendent. Mais ils n'aiment pas ça.
+Yorick|fil_retour_bon|Ils reposent en paix, maintenant. J'ai creusé droit. Ça compte.
+Yorick|fil_retour_mauvais|Certains morts refusent de partir. Je les comprends. Je reviendrai les convaincre.
+Yorick|fil_blesse|Ma pelle a pris le coup. Elle a l'habitude. Moi aussi.
+Yorick|fil_ennui|J'ai entretenu le petit cimetière derrière le bourg. Il n'était pas à nous. Il l'est un peu, maintenant.
+Yorick|fil_maitre|Tu prends soin des vivants. Moi, des morts. On fait le même métier, au fond.
+Yorick|fil_pique|{b} a marché sur une tombe en rentrant. {b} ne l'a pas fait exprès. Je l'ai dit au mort.
+Yorick|story|Pelle propre, lanterne allumée, silence. Ma soirée parfaite.
+Yorick|story|Le cimetière du bourg. Tout est propre.
+Yorick|correspondant|{nom} a remis en état tout le carré nord de notre cimetière, creusé droit, proprement, avec respect. Le fossoyeur dit qu'il a enfin un collègue. Il ne voulait plus partir.
+
+Yunara|bande|discret
+Yunara|fil_depart|Je pars. J'ai prié avant. Je prierai pendant. Et au retour.
+Yunara|fil_retour_bon|C'est terminé. J'ai remercié ceux qui nous ont aidés. Il y en avait plus qu'on croit.
+Yunara|fil_retour_mauvais|Ce n'était pas le bon moment. Ma foi me dit d'attendre. Mon cœur, non.
+Yunara|fil_blesse|La douleur est passagère. Je l'offre. Elle partira.
+Yunara|fil_ennui|J'ai prié pour chacun de vous ce matin. Même ceux qui ne le voudraient pas. Surtout eux.
+Yunara|fil_maitre|Tu as une lumière en toi. Je la vois. Fais-y attention.
+Yunara|fil_pique|{b} parle fort pendant que je prie. {b} ne le fait pas exprès. Je pardonne. Une fois de plus.
+Yunara|story|Prière à l'aube dans le jardin. Le chien s'est assis à côté de moi.
+Yunara|story|Une bougie pour ceux qui sont partis en mission. Elle brûle jusqu'à leur retour.
+Yunara|correspondant|{nom} est restée en prière dans la chapelle de la ville une nuit entière. Ce n'est pas notre foi, mais je n'ai jamais vu quelqu'un prier comme ça. Au matin, la cloche fêlée sonnait juste.
+
+Yuumi|bande|gamin
+Yuumi|fil_depart|On part ! Enfin, quelqu'un part, et moi je monte sur sa tête.
+Yuumi|fil_retour_bon|On a gagné ! J'ai fait une sieste pendant le combat. C'est moi qui ai le plus aidé.
+Yuumi|fil_retour_mauvais|On a perdu. C'est pas grave, j'ai bien dormi. Ah, c'est grave ? Oups.
+Yuumi|fil_blesse|J'ai une patte toute bizarre. Quelqu'un peut me porter ? Pour toujours ?
+Yuumi|fil_ennui|J'ai fait une sieste sur chaque coussin du repère. Il en reste un. Où il est ?
+Yuumi|fil_maitre|Tu as des genoux très confortables. Je réserve. Pour toujours.
+Yuumi|fil_pique|{b} m'a poussée de son fauteuil. C'est MON fauteuil. Tous les fauteuils sont à moi.
+Yuumi|story|Sieste au soleil sur le livre. Le livre est d'accord.
+Yuumi|story|Le chien et moi, on s'est battus pour le coussin. On partage. Je suis dessus.
+Yuumi|correspondant|Une chatte s'est installée sur mes genoux pendant deux heures pendant que je remplissais les papiers de {nom}, avec un livre qui flottait à côté. Ma migraine est partie. Je n'ai pas osé bouger.
+
+Zaahen|bande|grand
+Zaahen|fil_depart|Je pars. Que la porte du nord reste fermée jusqu'à mon retour.
+Zaahen|fil_retour_bon|La garde a tenu. Tout le monde est rentré. Bien.
+Zaahen|fil_retour_mauvais|J'ai baissé ma garde une seconde. Une seconde, c'est déjà trop.
+Zaahen|fil_blesse|Ce n'est pas la première blessure. Ce ne sera pas la dernière. Je garde quand même.
+Zaahen|fil_ennui|J'ai monté la garde à la porte nord toute la nuit. Il ne s'est rien passé. C'est bien.
+Zaahen|fil_maitre|Dors tranquille. Je suis à la porte.
+Zaahen|fil_pique|{b} laisse la porte de la cour ouverte. Tous les soirs. {b} va m'entendre.
+Zaahen|story|La porte nord, à l'aube. Rien à signaler. C'est la meilleure des nouvelles.
+Zaahen|story|Passez.
+Zaahen|correspondant|{nom} s'est posté à la porte nord pendant le tour de garde de mes hommes, sans rien dire, jusqu'à l'aube. Ils n'ont jamais passé une nuit aussi tranquille, ni aussi peu à l'aise.
+
+Zac|bande|gamin
+Zac|fil_depart|Je pars ! Je rebondis ! Je pars en rebondissant !
+Zac|fil_retour_bon|On a gagné ! J'ai fait une grosse flaque sur le méchant. Il a pas aimé.
+Zac|fil_retour_mauvais|J'ai perdu des morceaux de moi en route. Ils vont revenir. Ils reviennent toujours.
+Zac|fil_blesse|J'ai un trou ! Ça se rebouche. Regardez ! Non, ne regardez pas, c'est un peu dégoûtant.
+Zac|fil_ennui|J'ai fait toboggan pour les enfants du bourg toute la matinée. Ils veulent que je revienne.
+Zac|fil_maitre|Tu veux un câlin ? Je suis très mou. C'est le meilleur câlin du monde.
+Zac|fil_pique|{b} a dit que je collais. Je colle pas. Enfin, un peu. Sur {b}, maintenant.
+Zac|story|Je suis un trampoline. Le chien saute dessus. Il adore.
+Zac|story|J'ai pris la forme d'une chaise. Quelqu'un s'est assis. Il n'a rien remarqué.
+Zac|correspondant|{nom} s'est transformé en toboggan, en trampoline, puis en chapeau pour les enfants du quartier. Ils veulent l'inviter à tous les anniversaires.
+
+Zed|bande|discret
+Zed|fil_depart|Je pars. Les ombres sont déjà là-bas. Elles m'attendent.
+Zed|fil_retour_bon|Fait. Ils n'ont vu que mon ombre. C'est tout ce qu'ils verront.
+Zed|fil_retour_mauvais|J'ai mal calculé. Ça ne se reproduira pas. L'ombre ne pardonne pas l'erreur.
+Zed|fil_blesse|Une coupure. Mon ombre l'a sentie avant moi.
+Zed|fil_ennui|J'ai entraîné mon ombre toute la journée. Elle progresse plus vite que vous.
+Zed|fil_maitre|Tu ne crains pas l'ombre. C'est rare. Ne laisse personne te faire changer d'avis.
+Zed|fil_pique|{b} a dit pouvoir battre n'importe quel ninja. Mon ombre a fait un croche-pied à {b}.
+Zed|story|Laquelle ?
+Zed|story|Méditation dans le noir. Mon ombre fait la même chose. Mieux.
+Zed|correspondant|Un de mes employés s'est vanté devant {nom} de pouvoir battre « n'importe quel ninja ». Son ombre lui a fait un croche-pied devant tout le bureau. Il est devenu très humble.
+
+Zeri|bande|gamin
+Zeri|fil_depart|Je pars ! Je fonce ! Attendez-moi pas, vous arriverez jamais à suivre !
+Zeri|fil_retour_bon|J'ai fait ça en trois secondes ! Bon, en trois heures. Mais c'était rapide pour trois heures.
+Zeri|fil_retour_mauvais|J'ai couru trop vite. J'ai dépassé la mission. Elle était derrière moi.
+Zeri|fil_blesse|J'ai pris une décharge. Ma propre décharge. C'est la honte.
+Zeri|fil_ennui|J'ai allumé toutes les lampes du repère en courant. On voit tout, maintenant. Même ce qu'on voulait pas voir.
+Zeri|fil_maitre|Tu fais un super boulot, chef ! Si, si, je te jure. Tu veux voir un truc trop cool ?
+Zeri|fil_pique|{b} va trop lentement. Je fais trois tours de cour pendant que {b} lace ses chaussures.
+Zeri|story|Course dans la cour, record battu. Le chien était pas d'accord.
+Zeri|story|Toutes les lumières du couloir sont allumées. C'est moi. Ça sent l'orage.
+Zeri|correspondant|Toutes les lampes de la rue se sont allumées quand {nom} est passée en courant. Elles sont restées allumées trois heures. Nous n'avons pas de lampes électriques. C'était joli.
+
+Ziggs|bande|gamin
+Ziggs|fil_depart|Je pars ! J'ai pris des bombes ! Des petites ! Des moyennes ! Une grosse, aussi !
+Ziggs|fil_retour_bon|BOUM ! Mission réussie ! Il y a un nouveau trou, mais c'est un trou utile !
+Ziggs|fil_retour_mauvais|La bombe a fait pfff. Une bombe ne doit jamais faire pfff. Je vais enquêter.
+Ziggs|fil_blesse|J'ai explosé un peu. Pas beaucoup. Juste les sourcils.
+Ziggs|fil_ennui|Petit test dans la carrière. Il reste moins de carrière qu'avant. Mais plus de cailloux !
+Ziggs|fil_maitre|Tu veux voir une explosion ? Une petite. Promis. Enfin, promis à peu près.
+Ziggs|fil_pique|{b} m'a dit de ranger mes bombes. Je les ai rangées. Dans la chambre de {b}.
+Ziggs|story|Nouvelle bombe. Elle fait des confettis. Ou elle fait tout exploser. On verra.
+Ziggs|story|Mes sourcils ont repoussé ! Pour combien de temps ? Mystère !
+Ziggs|correspondant|Bilan du « petit test » de {nom} dans la carrière : un cratère, zéro blessé, et la moitié de la pierre qu'on devait extraire en six mois déjà en morceaux. Les carriers veulent lui payer un verre.
+
+Zilean|bande|grand
+Zilean|fil_depart|Je pars. Je reviendrai à l'heure. J'ai vérifié.
+Zilean|fil_retour_bon|C'est fait. Je le savais déjà. Mais ça fait plaisir de le vivre.
+Zilean|fil_retour_mauvais|J'aurais dû revenir en arrière. Je n'ai pas voulu. Il faut parfois laisser les choses arriver.
+Zilean|fil_blesse|Une blessure qui guérira dans trois jours. Je le sais. J'y suis déjà allé.
+Zilean|fil_ennui|J'ai remis toutes les horloges à l'heure. Elles avançaient. Ou j'étais en retard. Je ne sais plus.
+Zilean|fil_maitre|Tu vas prendre une bonne décision demain. Je ne te dirai pas laquelle. Ce serait tricher.
+Zilean|fil_pique|{b} va trébucher dans l'escalier dans dix minutes. Je ne dirai rien. Je vais juste regarder.
+Zilean|story|Thé chaud. Ou froid. Ça dépend du moment où vous regardez.
+Zilean|story|J'ai perdu ma montre. Je l'avais déjà. Puis je l'ai perdue. J'ai mal à la tête.
+Zilean|correspondant|{nom} m'a rapporté une montre en disant « tu allais la perdre demain ». Je l'ai cherchée partout, elle était dans ma poche. Puis le lendemain, je l'ai perdue. Et je l'avais déjà.
+
+Zoe|bande|gamin
+Zoe|fil_depart|Je pars ! Ou je suis déjà rentrée ? Le temps, c'est compliqué !
+Zoe|fil_retour_bon|On a gagné ! Et j'ai trouvé une étoile dans ma poche ! Elle est à qui ?
+Zoe|fil_retour_mauvais|C'était nul ! Je veux recommencer ! On peut recommencer ? Allez !
+Zoe|fil_blesse|Aïe ! Ça fait mal ! C'est normal que ça fasse mal ? C'est la première fois que j'ai mal !
+Zoe|fil_ennui|J'ai fait un trou dans le plafond. Il y a un ciel étoilé dedans. C'est mieux que le plafond, non ?
+Zoe|fil_maitre|T'es minuscule ! Non, je veux dire, t'es humain ! C'est mignon ! Tu veux un bonbon ?
+Zoe|fil_pique|{b} prend tout trop au sérieux ! Je vais lui faire une surprise ! Une grosse ! Avec des étoiles !
+Zoe|story|Chocolat chaud, chaussettes dépareillées, une étoile dans le bol. Parfait.
+Zoe|story|Un portail ouvert dans ma chambre. Ne le touchez pas. Moi, si.
+Zoe|correspondant|Toutes les ardoises de notre bureau se sont mises à écrire « CHOCOLAT » à l'envers. Puis un trou s'est ouvert dans le plafond, avec la tête de {nom} dedans, qui a dit « oups ».
+
+Zyra|bande|discret
+Zyra|fil_depart|Je pars. Mes fleurs restent ici. Ne les arrosez pas trop. Ne les arrosez pas pas assez.
+Zyra|fil_retour_bon|La terre est nourrie. Mes fleurs ont mangé. Tout le monde est content. Presque tout le monde.
+Zyra|fil_retour_mauvais|Mes racines n'ont pas tenu. Elles tiendront la prochaine fois. Elles tiennent toujours, à la fin.
+Zyra|fil_blesse|Une épine arrachée. Elle repoussera. Plus longue.
+Zyra|fil_ennui|Le jardin a triplé cette nuit. Ne marchez pas sur les fleurs violettes. Elles mordent.
+Zyra|fil_maitre|Tu as une odeur de terre fraîche. C'est le plus beau compliment que je puisse faire.
+Zyra|fil_pique|{b} a cueilli une de mes fleurs. La fleur a cueilli un doigt de {b}. Égalité.
+Zyra|story|Le jardin à minuit. Tout bouge. Tout pousse. Tout a faim.
+Zyra|story|Une fleur sur l'oreiller de chacun. Elles sont inoffensives. Presque toutes.
+Zyra|correspondant|Notre petit jardin a triplé en une nuit après le passage de {nom}. Des fleurs que je n'ai jamais vues nulle part. Magnifiques. L'une d'elles a mordu le facteur.

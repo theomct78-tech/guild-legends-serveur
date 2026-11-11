@@ -1,0 +1,205 @@
+# Voix des champions · lot 14 (Malphite à Nocturne) · 11 nov. 2026. Format et règles : voir lot10.txt.
+
+Malphite|bande|grand
+Malphite|fil_depart|Je pars. Lentement. Mais je pars.
+Malphite|fil_retour_bon|Tenu. Ils ont tapé. J'ai tenu.
+Malphite|fil_retour_mauvais|La montagne n'a pas bougé. Le reste, si.
+Malphite|fil_blesse|Une fissure. Ça repousse. En mille ans.
+Malphite|fil_ennui|Je suis assis dans la cour depuis ce matin. C'est bien.
+Malphite|fil_maitre|Toi. Solide. Comme un petit rocher.
+Malphite|fil_pique|{b} court partout. {b} va s'user.
+Malphite|story|La cour. Le soleil. Une pierre. Moi.
+Malphite|story|Un oiseau sur mon épaule. Je ne bouge plus jusqu'à demain.
+Malphite|correspondant|{nom} s'est assis devant notre bureau en arrivant, et n'a pas bougé depuis. Les enfants grimpent dessus. Il a l'air d'aimer ça.
+
+Malzahar|bande|discret
+Malzahar|fil_depart|Je pars. Le Néant voit tout. Il me dira si vous vous conduisez mal.
+Malzahar|fil_retour_bon|Ils ont entendu les murmures. Certains ont compris. Ce n'est qu'un début.
+Malzahar|fil_retour_mauvais|Le Néant est patient. Moi, moins. Je vais réfléchir dans le noir.
+Malzahar|fil_blesse|La douleur est une porte. Je ne l'ouvrirai pas aujourd'hui.
+Malzahar|fil_ennui|J'ai prédit la fin du monde trois fois depuis ce matin. Personne ne m'écoute.
+Malzahar|fil_maitre|Tu ne crois pas à mes visions. C'est normal. Au début, personne n'y croit.
+Malzahar|fil_pique|{b}, j'ai eu une vision. Tu renverses ton thé demain. À dix heures.
+Malzahar|story|Elle ne fait pas d'ombre. Regardez bien.
+Malzahar|story|Les étoiles sont mal placées ce soir. Je vous préviens, c'est tout.
+Malzahar|correspondant|{nom} a prédit la mort de ma plante verte. Elle est morte le lendemain. Je ne sais pas s'il a vu l'avenir ou s'il l'a arrosée avec quelque chose.
+
+Maokai|bande|grand
+Maokai|fil_depart|Je pars. Que personne ne coupe d'arbre pendant mon absence.
+Maokai|fil_retour_bon|La terre est apaisée. Les racines respirent mieux.
+Maokai|fil_retour_mauvais|Les ombres ont gagné cette fois. Les arbres sont patients. Moi aussi.
+Maokai|fil_blesse|J'ai perdu une branche. Elle repoussera au printemps.
+Maokai|fil_ennui|Les petits arbres que j'ai plantés ont fait le tour du repère. Ils jouent à chat.
+Maokai|fil_maitre|Ce repère manque d'arbres. Tu pourrais en planter. J'en ai, si tu veux.
+Maokai|fil_pique|{b} a cassé une branche du vieux pommier. {b} va entendre parler de moi.
+Maokai|story|Le jardin respire mieux depuis que je suis là. Vous l'avez remarqué ?
+Maokai|story|Un petit arbre dort sur mon épaule. Il s'appelle Brindille.
+Maokai|correspondant|{nom} est arrivé en marchant, à travers la forêt, et la forêt l'a suivi. Il y a désormais trois jeunes chênes devant notre bureau. Ils n'y étaient pas hier.
+
+Master Yi|bande|grand
+Master Yi|fil_depart|Je pars. Les lames restent affûtées. L'esprit aussi.
+Master Yi|fil_retour_bon|Le combat était équilibré. Il ne l'est plus.
+Master Yi|fil_retour_mauvais|J'ai été trop lent. Mon esprit était ailleurs. Je vais méditer.
+Master Yi|fil_blesse|La douleur passe. La leçon reste.
+Master Yi|fil_ennui|J'ai médité cinq heures. Puis j'ai tranché une mouche en deux. Je médite encore.
+Master Yi|fil_maitre|Personne ne te demande la perfection. Seulement d'être là. Et tu es là.
+Master Yi|fil_pique|{b} a les épaules trop tendues. Respire. Encore. Non, plus profondément.
+Master Yi|story|Méditation sur le toit. Une feuille est tombée. Je l'ai vue tomber.
+Master Yi|story|Lunettes nettoyées, lame affûtée, thé froid. Tout est en ordre.
+Master Yi|correspondant|{nom} est resté assis dans mon bureau toute la matinée, les yeux fermés. Puis une mouche est passée. Nous n'avons plus jamais eu de mouches.
+
+Mel|bande|grand
+Mel|fil_depart|Je pars négocier. Vous avez trois jours pour ne rien casser.
+Mel|fil_retour_bon|Ils ont signé. Ils ont même cru que c'était leur idée.
+Mel|fil_retour_mauvais|J'ai mal lu la pièce. Ça ne m'arrive presque jamais. Je n'en parlerai plus.
+Mel|fil_blesse|Ma robe est fichue. Mon orgueil aussi. Je vais bien, cela dit.
+Mel|fil_ennui|J'ai réorganisé la gestion du repère. Vous économisez trente pour cent. Vous pouvez applaudir.
+Mel|fil_maitre|Tu as un instinct pour les gens. Il te manque juste un peu d'audace. Je peux t'en prêter.
+Mel|fil_pique|{b}, tu négocies comme quelqu'un qui a déjà perdu.
+Mel|story|Robe dorée, thé noir, contrat signé. Bonne journée.
+Mel|story|La salle commune a enfin de jolis rideaux. Je les ai choisis. Personne ne m'a demandé.
+Mel|correspondant|{nom} a pris le thé dans mon bureau. En repartant, j'avais accepté de rénover le bâtiment, de baisser mes tarifs et de lui laisser ma meilleure chambre. Je ne regrette rien.
+
+Milio|bande|gamin
+Milio|fil_depart|Je pars ! J'ai pris mon petit feu, au cas où quelqu'un aurait froid.
+Milio|fil_retour_bon|Tout le monde va bien ! J'ai même réchauffé un vieux monsieur. Il m'a donné un biscuit.
+Milio|fil_retour_mauvais|J'ai pas réussi à aider tout le monde. Je vais faire mieux. Promis.
+Milio|fil_blesse|Ça fait mal, mais mon feu me tient chaud. Ça va aller.
+Milio|fil_ennui|J'ai fait un feu de camp au milieu de la salle commune. On m'a dit non. Gentiment, mais non.
+Milio|fil_maitre|Tu as l'air triste. Tu veux que je te réchauffe ? Ça marche sur le cœur aussi.
+Milio|fil_pique|{b} a dit que j'étais un bébé. Je suis pas un bébé. J'ai presque onze ans.
+Milio|story|Petit feu dans la cheminée, chocolat chaud, chien qui dort. Le bonheur.
+Milio|story|J'ai réchauffé les draps de tout le monde. De rien.
+Milio|correspondant|{nom} a soigné la toux de ma cuisinière en lui tenant les mains. Elle chantait en servant le dîner. Elle ne chante jamais.
+
+Miss Fortune|bande|grand
+Miss Fortune|fil_depart|Je pars. Que personne ne touche à mes pistolets. Ni à mon chapeau.
+Miss Fortune|fil_retour_bon|Mission réussie, paie encaissée, et deux marins m'ont demandée en mariage. Belle journée.
+Miss Fortune|fil_retour_mauvais|La chance a tourné. Elle tourne toujours. Je l'attends au prochain virage.
+Miss Fortune|fil_blesse|Une égratignure. Mon chapeau a pris une balle. Mon chapeau. Je suis furieuse.
+Miss Fortune|fil_ennui|Tir aux bouteilles dans la cour. Qui parie contre moi ? Personne ? Lâches.
+Miss Fortune|fil_maitre|Tu commandes honnêtement. C'est rare. Ne laisse personne te dire que c'est une faiblesse.
+Miss Fortune|fil_pique|{b} m'a regardée trop longtemps ce matin. Je le prends comme un compliment. {b} devrait faire attention.
+Miss Fortune|story|Coucher de soleil sur la mer. Enfin, sur le bassin du jardin. On fait avec.
+Miss Fortune|story|Deux pistolets, un chapeau, un sourire. Je suis prête.
+Miss Fortune|correspondant|{nom} a payé un verre à tout le port avant même de passer chez nous. Deux marins trop bavards ont fini dans l'eau. Ils disent qu'ils l'avaient cherché.
+
+Mordekaiser|bande|grand
+Mordekaiser|fil_depart|JE PARS RÉCLAMER CE QUI M'EST DÛ.
+Mordekaiser|fil_retour_bon|ILS SE SONT INCLINÉS. TOUS FINISSENT PAR S'INCLINER.
+Mordekaiser|fil_retour_mauvais|UN REVERS. JE ME SOUVIENS DE CHAQUE REVERS. ET DE CHAQUE VISAGE.
+Mordekaiser|fil_blesse|MON ARMURE EST FENDUE. QU'ON LA RÉPARE. VITE.
+Mordekaiser|fil_ennui|CE REPÈRE MANQUE DE SOUMISSION. JE POURRAIS EN APPORTER.
+Mordekaiser|fil_maitre|TU AS UNE AUTORITÉ ÉTRANGE. PETITE. MAIS RÉELLE. JE LA RESPECTE. POUR L'INSTANT.
+Mordekaiser|fil_pique|{b} A RI PENDANT MON DISCOURS. {b} NE RIRA PAS DEUX FOIS.
+Mordekaiser|story|LE TRÔNE DE LA SALLE COMMUNE. AUTREFOIS UNE CHAISE.
+Mordekaiser|story|Le mur s'en remettra.
+Mordekaiser|correspondant|{nom} est entré et la température de la pièce a baissé de dix degrés. Il a demandé à voir « le seigneur des lieux ». Je lui ai dit que c'était moi. Il a ri. Longtemps.
+
+Morgana|bande|grand
+Morgana|fil_depart|Je pars. Si quelqu'un a besoin de parler, je reviens vite.
+Morgana|fil_retour_bon|Les plus faibles ont été protégés. Ça suffit à mon bonheur.
+Morgana|fil_retour_mauvais|Certaines chaînes ne se brisent pas en un jour. Je reviendrai.
+Morgana|fil_blesse|Une aile froissée. Je survivrai. On survit toujours, quand on y est obligé.
+Morgana|fil_ennui|Personne n'a de secret à me confier ? Je suis une très bonne oreille.
+Morgana|fil_maitre|Tu as de la compassion. C'est rare. Ne la laisse pas devenir une faiblesse.
+Morgana|fil_pique|{b} se croit irréprochable. Personne ne l'est. {b} non plus.
+Morgana|story|Le jardin à la tombée de la nuit. Ma préférée des heures.
+Morgana|story|Une bougie pour ceux qu'on oublie. Elle brûle toute la nuit.
+Morgana|correspondant|{nom} a écouté ma secrétaire pendant une heure, à l'écart. Ma secrétaire est revenue les yeux rouges et le dos droit. Elle a demandé une augmentation le lendemain. Je la lui ai donnée.
+
+Naafiri|bande|gamin
+Naafiri|fil_depart|Nous partons ! La meute a faim. La meute a toujours faim.
+Naafiri|fil_retour_bon|Nous avons chassé ensemble ! La meute est heureuse. Moi aussi.
+Naafiri|fil_retour_mauvais|Une des nôtres boite. La meute est en colère. Moi aussi.
+Naafiri|fil_blesse|Ça mord. Ça mord fort. La meute me lèche les blessures.
+Naafiri|fil_ennui|Pourquoi est-ce que personne ne veut jouer à « attrape le lièvre » ? C'est le meilleur jeu.
+Naafiri|fil_maitre|Toi, tu fais partie de la meute. Tu ne le savais pas ? Maintenant, tu le sais.
+Naafiri|fil_pique|{b} sent la peur. Trop drôle. On recommence.
+Naafiri|story|La meute dort en tas dans le couloir. Ne marchez pas dessus.
+Naafiri|story|Un os, une cour, et toute la journée devant nous.
+Naafiri|correspondant|{nom} est arrivée accompagnée d'une meute qui a fait le tour du bâtiment en reniflant chaque coin. Mes chiens se sont couchés sur le dos. Je les comprends.
+
+Nami|bande|gamin
+Nami|fil_depart|Je pars ! Il y a de l'eau là-bas ? Dites-moi qu'il y a de l'eau.
+Nami|fil_retour_bon|On a réussi ! Et j'ai trouvé une rivière très gentille en chemin.
+Nami|fil_retour_mauvais|C'était sec. Tout était sec. Il me faut un bain. Maintenant.
+Nami|fil_blesse|J'ai une écaille cassée ! Elle repoussera, mais c'était ma préférée.
+Nami|fil_ennui|Le bassin du jardin est trop petit. Je sais, je l'ai déjà dit. Mais c'est toujours vrai.
+Nami|fil_maitre|Tu ne sais pas nager ? Je t'apprendrai ! C'est la chose la plus importante du monde !
+Nami|fil_pique|{b} a les cheveux tout secs. C'est triste. Viens, je t'arrose.
+Nami|story|Bain de minuit dans le bassin. Les poissons sont d'accord.
+Nami|story|Un coquillage sur ma table de nuit. Il chante quand on l'écoute.
+Nami|correspondant|{nom} a demandé à voir la mer avant de voir sa chambre. Nous n'avons pas la mer. Elle s'est contentée de la fontaine, et a eu l'air très contente.
+
+Nasus|bande|grand
+Nasus|fil_depart|Je pars. La bibliothèque est fermée à clé. Ce n'est pas une invitation.
+Nasus|fil_retour_bon|Une affaire réglée. Je l'inscrirai dans mes archives. Pour les siècles à venir.
+Nasus|fil_retour_mauvais|J'ai vu des empires échouer. Ceci n'est qu'une mauvaise journée.
+Nasus|fil_blesse|Mon corps a des milliers d'années. Il en a vu d'autres.
+Nasus|fil_ennui|J'ai recopié le registre de la guilde. Trois fautes. Je les ai corrigées.
+Nasus|fil_maitre|Tu apprends vite, pour quelqu'un qui ne vivra pas mille ans. C'est un compliment. Je n'en fais pas souvent.
+Nasus|fil_pique|{b} a corné une page de livre. Je ne dirai rien. Je n'oublierai pas non plus.
+Nasus|story|Une pile de livres sur la table. Il en manque un. Qui l'a pris ?
+Nasus|story|Thé, rouleaux anciens, et silence. Le paradis existe.
+Nasus|correspondant|{nom} a consulté nos archives pendant trois heures, puis a corrigé deux dates dans le registre de fondation de la ville. Il a dit : « J'y étais. » Je n'ai pas osé le contredire.
+
+Nautilus|bande|discret
+Nautilus|fil_depart|JE PARS. LE FOND ME MANQUE.
+Nautilus|fil_retour_bon|ILS N'ONT PAS RÉSISTÉ. L'ANCRE NON PLUS.
+Nautilus|fil_retour_mauvais|LE FOND EST LOIN. MOI AUSSI.
+Nautilus|fil_blesse|MON SCAPHANDRE A UNE FUITE. QUELQU'UN A DE LA COLLE ?
+Nautilus|fil_ennui|LE BASSIN DU JARDIN. PAS ASSEZ PROFOND.
+Nautilus|fil_maitre|TU NE M'AS PAS ABANDONNÉ. ON M'A DÉJÀ ABANDONNÉ. TOI NON.
+Nautilus|fil_pique|{b} MARCHE SUR MON ANCRE. ENCORE.
+Nautilus|story|Bassin.
+Nautilus|story|L'ANCRE EST POLIE. ELLE BRILLE. MOI, NON.
+Nautilus|correspondant|{nom} a fait trembler tout le plancher en entrant, puis s'est assis dans le coin le plus sombre et a refusé de bouger. Il a laissé une flaque d'eau de mer. Elle n'a toujours pas séché.
+
+Neeko|bande|gamin
+Neeko|fil_depart|Neeko part ! Neeko sera quelqu'un d'autre là-bas. Neeko adore ça !
+Neeko|fil_retour_bon|Neeko a gagné ! Neeko était un garde. Personne n'a rien vu !
+Neeko|fil_retour_mauvais|Neeko s'est trompée de visage. Ça arrive. Neeko ne recommencera pas. Peut-être.
+Neeko|fil_blesse|Neeko a mal. Neeko veut un câlin. Neeko peut ressembler à quelqu'un que tu aimes, si tu veux.
+Neeko|fil_ennui|Neeko a été le chien pendant une heure. Personne n'a remarqué. Neeko est très fière.
+Neeko|fil_maitre|Tu as une jolie couleur. Neeko voit les couleurs des gens. La tienne est chaude.
+Neeko|fil_pique|{b} n'a pas reconnu Neeko ce matin ! C'était Neeko, la plante de l'entrée !
+Neeko|story|Neeko est toi. Non, Neeko est elle-même. Neeko a mal à la tête.
+Neeko|story|Fleurs dans les cheveux. Ce sont de vraies fleurs. Neeko a vérifié.
+Neeko|correspondant|J'ai discuté dix minutes avec ma sœur dans le couloir avant de me rappeler qu'elle vit à trois jours d'ici. C'était {nom}. Elle m'a dit que j'avais une jolie couleur.
+
+Nidalee|bande|discret
+Nidalee|fil_depart|Je pars chasser. Gardez-moi de la viande, pas trop cuite.
+Nidalee|fil_retour_bon|La forêt est apaisée. Les gens aussi. Et j'ai trouvé un nid de cailles.
+Nidalee|fil_retour_mauvais|J'ai perdu la piste. Ça ne m'arrive jamais. Je vais courir un peu, seule.
+Nidalee|fil_blesse|Une griffe m'a eue. Ce n'était pas la mienne, pour une fois.
+Nidalee|fil_ennui|Les murs me serrent. Je vais dormir dans le jardin. Ne vous inquiétez pas si vous entendez gronder.
+Nidalee|fil_maitre|Tu ne me demandes jamais de rester enfermée. C'est pour ça que je reste.
+Nidalee|fil_pique|{b} a eu peur quand j'ai bondi du toit. J'ai fait exprès. Évidemment.
+Nidalee|story|Le jardin à l'aube. Il y a des traces de pattes. Ce sont les miennes.
+Nidalee|story|Une lance, une cape, et la forêt devant moi. Je reviens ce soir.
+Nidalee|correspondant|{nom} a refusé la chambre et dormi dans le jardin. Au matin, il y avait un grand fauve endormi sous l'arbre. Puis il n'y en avait plus. Elle m'a demandé où était le petit-déjeuner.
+
+Nilah|bande|gamin
+Nilah|fil_depart|Allez, on y va ! Ça va être génial ! Ça l'est toujours !
+Nilah|fil_retour_bon|On a gagné ! J'ai ri pendant tout le combat ! C'était trop bien !
+Nilah|fil_retour_mauvais|On a perdu, mais j'ai appris un nouveau mouvement. C'est une victoire, non ?
+Nilah|fil_blesse|Ça fait mal ! Mais c'est le genre de mal qui fait rire. Si, ça existe.
+Nilah|fil_ennui|Personne ne veut s'entraîner avec moi ? Je promets de ne pas rire. Non, je vais rire.
+Nilah|fil_maitre|Tu souris pas assez ! La vie est trop courte. Viens, on va faire un truc drôle.
+Nilah|fil_pique|{b} rit jamais. Je vais trouver la blague. Je trouve toujours.
+Nilah|story|Fouet d'eau, cour ensoleillée, et moi qui m'entraîne. Le paradis.
+Nilah|story|J'ai fait rire le chien. Si, les chiens rient. J'ai vu.
+Nilah|correspondant|{nom} a raconté comment elle avait battu un monstre des mers, en riant tellement que tout le bureau a fini par rire aussi. Personne n'a compris l'histoire. Ce n'était pas grave.
+
+Nocturne|bande|discret
+Nocturne|fil_depart|(La lampe du couloir s'éteint. Quand on la rallume, Nocturne n'est plus là.)
+Nocturne|fil_retour_bon|ILS NE DORMIRONT PLUS TRANQUILLES. C'ÉTAIT LE BUT.
+Nocturne|fil_retour_mauvais|(Toutes les lampes du repère tremblent pendant une heure. Puis plus rien.)
+Nocturne|fil_blesse|LA LUMIÈRE M'A TOUCHÉ. JE NE L'OUBLIERAI PAS.
+Nocturne|fil_ennui|VOUS DORMEZ TOUS SI PROFONDÉMENT. C'EST… TENTANT.
+Nocturne|fil_maitre|TU NE FAIS JAMAIS DE CAUCHEMARS. POURQUOI ?
+Nocturne|fil_pique|{b} A RÊVÉ DE MOI CETTE NUIT. JE LE SAIS.
+Nocturne|story|Le couloir du fond, cette nuit.
+Nocturne|story|Dormez bien.
+Nocturne|correspondant|Je n'ai pas vu {nom}. J'ai juste fait le pire cauchemar de ma vie la nuit de son arrivée. Mon garde aussi. Le cuisinier aussi. Je préfère qu'il reparte vite.

@@ -1,0 +1,92 @@
+# Voix des champions · lot 19 (Aatrox à Camille) · 11 nov. 2026
+# Deuxième passe du fil de la guilde : une ligne d'ennui et une pique de plus, et deux moments du quotidien au repère
+# (fil_quotidien), pour que chaque héros ait de quoi parler tout un mois sans radoter.
+# Mêmes règles que lot10 : {b} est un autre héros (aucun accord sur lui), rien de genré sur le maître.
+Aatrox|fil_ennui|Trois jours sans combat. Je compte les fissures du plafond. Il y en a quarante et une.
+Aatrox|fil_pique|{b} m'a demandé si je dormais avec mon épée. Oui. Et elle a meilleur caractère que toi.
+Aatrox|fil_quotidien|Quelqu'un a laissé des fleurs dans la salle d'armes. Je ne les ai pas jetées. Ne m'en demandez pas plus.
+Aatrox|fil_quotidien|J'ai réparé la porte que j'ai cassée hier. Elle ferme mieux qu'avant. C'est tout ce que j'ai à dire.
+Ahri|fil_ennui|J'ai essayé de charmer le chien pour passer le temps. Il m'a ignorée. Je ne m'en remets pas.
+Ahri|fil_pique|{b} croit que je triche aux cartes. Je n'ai pas besoin de tricher, j'ai juste besoin que tu me regardes dans les yeux.
+Ahri|fil_quotidien|Thé à la fleur de pêcher dans la cuisine, pour qui en veut. Il en reste deux tasses, pas trois.
+Ahri|fil_quotidien|Il a plu toute la nuit sur le toit. J'ai bien dormi pour une fois.
+Akali|fil_ennui|Personne ne veut s'entraîner. Bon. Je vais aller faire peur aux pigeons.
+Akali|fil_pique|{b} a encore pris mes kunaïs pour ouvrir une boîte de conserve. On va avoir une discussion.
+Akali|fil_quotidien|J'ai trouvé un toit d'où on voit tout le bourg. Je dis pas où. C'est mon coin.
+Akali|fil_quotidien|Couru jusqu'au moulin et retour avant le petit-déj. Qui fait mieux ?
+Akshan|fil_ennui|J'ai poli ma pelle trois fois. Elle brille tellement qu'on me voit arriver. Pas bon pour le métier.
+Akshan|fil_pique|{b} dit que ma cape est de trop. Ma cape a sauvé plus de vies que ton humour.
+Akshan|fil_quotidien|Petit déjeuner sur le toit avec vue sur la vallée. Je recommande. Apportez une couverture.
+Akshan|fil_quotidien|J'ai appris à un gamin du bourg à faire un salto. Sa mère ne me dit plus bonjour.
+Alistar|fil_ennui|Je tourne en rond dans la cour. Le chien tourne avec moi. On est deux à s'ennuyer.
+Alistar|fil_pique|{b} a encore claqué la porte de la grange. Je l'ai remise sur ses gonds. La prochaine fois, c'est toi que je remets.
+Alistar|fil_quotidien|J'ai porté les sacs de farine pour le meunier. Il voulait me payer. J'ai pris une miche.
+Alistar|fil_quotidien|Le foin de la grange sent bon ce matin. Ça me rappelle des choses. Des bonnes, pour une fois.
+Ambessa|fil_ennui|Un repère sans ordre de marche est un repère qui ramollit. Je le dis, c'est tout.
+Ambessa|fil_pique|{b} a laissé son arme rouiller sous la pluie. Chez moi, on dormait dehors pour moins que ça.
+Ambessa|fil_quotidien|Exercices à l'aube dans la cour. Ceux qui veulent apprendre quelque chose sont les bienvenus. Les autres, restez couchés.
+Ambessa|fil_quotidien|J'ai écrit à ma fille. Elle ne répondra pas. J'écris quand même.
+Amumu|fil_ennui|Personne ne m'a parlé aujourd'hui. Le chien, si. Enfin, il m'a reniflé.
+Amumu|fil_pique|{b} m'a encore marché sur une bandelette. Ça va. Ça arrive. Tout le temps.
+Amumu|fil_quotidien|Quelqu'un m'a gardé une part de gâteau. Je ne sais pas qui. Merci, quelqu'un.
+Amumu|fil_quotidien|J'ai essayé de rire avec les autres à la soirée. Je crois que c'était le bon moment.
+Anivia|fil_ennui|Le vent tourne au nord. Rien ne se passe. Je préfère quand le vent annonce quelque chose.
+Anivia|fil_pique|{b} a cassé la glace de l'abreuvoir pour s'amuser. Elle se reformera. Ma patience, moins vite.
+Anivia|fil_quotidien|Première gelée sur les vitres ce matin. Je l'ai regardée longtemps.
+Anivia|fil_quotidien|J'ai trouvé un nid dans la charpente. Personne n'y touche jusqu'au printemps.
+Annie|fil_ennui|Tibbers et moi on a joué à cache-cache. Il gagne toujours. C'est pas juste, il est grand.
+Annie|fil_pique|{b} a dit que Tibbers sentait le brûlé. Tibbers, il a entendu. Moi je dis ça, je dis rien.
+Annie|fil_quotidien|J'ai fait des crêpes ! Elles sont un peu noires. C'est le goût qui compte.
+Annie|fil_quotidien|J'ai donné un nom à toutes les poules. Elles s'appellent toutes Tibbers. Sauf une.
+Aphelios|fil_ennui|La lune ne se lève que dans six heures.
+Aphelios|fil_pique|{b} a touché à Calibrum. Alune l'a vu.
+Aphelios|fil_quotidien|Nuit claire. Je suis resté sur le toit jusqu'à l'aube.
+Aphelios|fil_quotidien|Quelqu'un a laissé une lampe allumée pour moi. Je l'ai éteinte. Merci quand même.
+Ashe|fil_ennui|J'ai vérifié chaque flèche du carquois. Deux fois. Il est temps qu'on me donne quelque chose à faire.
+Ashe|fil_pique|{b} a trouvé ça drôle de mettre de la neige dans mes bottes. On verra si c'est drôle dans les tiennes.
+Ashe|fil_quotidien|Soupe chaude au fond de la marmite. Elle est pour tout le monde, alors on laisse quelque chose aux derniers.
+Ashe|fil_quotidien|Lettre de Freljord ce matin. Tout le monde va bien là-bas. Je respire mieux.
+Aurelion Sol|fil_ennui|J'ai forgé des étoiles. Ici, je regarde un mortel ranger des chaises. Splendide.
+Aurelion Sol|fil_pique|{b} m'a demandé si je savais faire cuire des œufs. J'ai fait naître des soleils. Fais tes œufs toi-même.
+Aurelion Sol|fil_quotidien|Le ciel de ce soir est honnête. Je lui accorde ça.
+Aurelion Sol|fil_quotidien|On m'a servi une tisane. J'ai daigné la boire. Elle n'était pas mauvaise. Ne le répétez pas.
+Aurora|fil_ennui|J'ai parlé avec le vieux chêne derrière la grange. Il s'ennuie aussi, alors on s'ennuie ensemble.
+Aurora|fil_pique|{b} a écrasé un petit esprit dans la cuisine sans le voir. Il va bien. Il est vexé.
+Aurora|fil_quotidien|Il y a un lièvre qui vient chaque matin au bord du potager. Je l'appelle Monsieur.
+Aurora|fil_quotidien|J'ai rangé mes livres. Enfin, je les ai empilés autrement.
+Azir|fil_ennui|Un empereur n'a pas à attendre. Pourtant, me voici. Attendant.
+Azir|fil_pique|{b} a confondu mon sceptre avec un manche à balai. Il y aura des conséquences. Diplomatiques.
+Azir|fil_quotidien|J'ai dessiné les plans d'une nouvelle aile pour le repère. Ils sont dans la grande salle. Admirez-les.
+Azir|fil_quotidien|Le soleil a frappé fort sur la cour aujourd'hui. Enfin un temps digne de ce nom.
+Bard|fil_ennui|Mip.
+Bard|fil_pique|{b} a marché sur un meep. Le meep pardonne. Bard note.
+Bard|fil_quotidien|Une clochette a sonné toute seule dans la grange. Personne n'a cherché pourquoi. Bien.
+Bard|fil_quotidien|Le chien suit Bard partout aujourd'hui. Le chien sait des choses.
+Bel'Veth|fil_ennui|J'ai observé les fourmis du potager toute la journée. Elles sont mieux organisées que vous.
+Bel'Veth|fil_pique|{b} a ri pendant le repas. J'ai demandé pourquoi. Je n'ai toujours pas compris la réponse.
+Bel'Veth|fil_quotidien|J'ai goûté une prune. Puis toutes les prunes. Il n'y a plus de prunes.
+Bel'Veth|fil_quotidien|On m'a appris ce qu'est un « dimanche ». C'est un jour où vous êtes encore plus lents.
+Blitzcrank|fil_ennui|ACTIVITÉ ACTUELLE : AUCUNE. PROPOSITION : NETTOYER LE PLAFOND. EN COURS.
+Blitzcrank|fil_pique|{b} A DÉBRANCHÉ MON ÉCLAIRAGE POUR « VOIR CE QUE ÇA FAIT ». ÇA FAIT NOIR.
+Blitzcrank|fil_quotidien|J'AI PORTÉ LES COURSES DU BOURG. ŒUFS INTACTS : ONZE SUR DOUZE. AMÉLIORATION EN COURS.
+Blitzcrank|fil_quotidien|LE CHIEN A DORMI CONTRE MON CHÂSSIS. TEMPÉRATURE AGRÉABLE. JE NE BOUGE PLUS.
+Brand|fil_ennui|Tout est mouillé ici. Le bois, l'air, les gens. Même l'ennui est humide.
+Brand|fil_pique|{b} m'a demandé d'allumer la cheminée. Je ne suis pas un briquet. Je l'ai allumée quand même.
+Brand|fil_quotidien|J'ai regardé le feu de la forge pendant une heure. Il a de l'ambition, celui-là.
+Brand|fil_quotidien|Quelqu'un a mis un seau d'eau à côté de mon lit. Charmant. Vraiment.
+Braum|fil_ennui|Pas de mission, pas de problème ! Je vais apprendre au chien à donner la patte. Il apprend vite. Moi aussi.
+Braum|fil_pique|{b} a mangé le dernier gâteau au miel. Braum ne se fâche pas. Braum en refait, et cette fois il compte.
+Braum|fil_quotidien|J'ai réparé la clôture du voisin. Mon bouclier fait un très bon marteau, je ne savais pas !
+Braum|fil_quotidien|Grand bol de lait chaud au coin du feu. Il y a de la place à côté de moi, venez !
+Briar|fil_ennui|J'ai FAIM. Pas de mission. Juste faim. C'est pire.
+Briar|fil_pique|{b} a caché le jambon. Je le sens d'ici. Je vais le trouver.
+Briar|fil_quotidien|J'ai mangé une chaise. Juste un pied. Elle tient encore. Plus ou moins.
+Briar|fil_quotidien|Quelqu'un m'a gratté la tête pendant que je dormais. C'était bien. Recommencez.
+Caitlyn|fil_ennui|J'ai résolu les trois énigmes du journal du bourg. Il reste la rubrique des mariages. Ça ne m'intéresse pas.
+Caitlyn|fil_pique|{b} jure ne pas avoir touché aux biscuits. Il y a des miettes sur sa manche. Dossier clos.
+Caitlyn|fil_quotidien|Thé, journal, une chaise près de la fenêtre. Ne me dérangez qu'en cas de meurtre.
+Caitlyn|fil_quotidien|J'ai tiré trois cibles dans le champ à deux cents pas. Le meunier a applaudi. C'était gentil.
+Camille|fil_ennui|J'ai réglé mes jambes au dixième de millimètre. Ensuite celles de la table. Personne ne m'a remerciée.
+Camille|fil_pique|{b} a encore laissé traîner ses bottes dans l'entrée. C'est la dernière fois que je les range.
+Camille|fil_quotidien|Le thé est servi à quatre heures. Pas cinq. Quatre.
+Camille|fil_quotidien|Il y avait une erreur dans les comptes du mois. Je l'ai corrigée. Vous me remercierez plus tard.

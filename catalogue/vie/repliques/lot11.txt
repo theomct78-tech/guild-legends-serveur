@@ -1,0 +1,265 @@
+# Voix des champions · lot 11 (Cassiopeia à Hecarim) · 11 nov. 2026. Format et règles : voir lot10.txt.
+
+Cassiopeia|bande|discret
+Cassiopeia|fil_depart|Je pars. Que personne ne touche à mes flacons. Surtout pas pour « voir ».
+Cassiopeia|fil_retour_bon|C'est réglé. Ils ont été très coopératifs, après m'avoir regardée dans les yeux.
+Cassiopeia|fil_retour_mauvais|Il y a des jours où même le venin ne suffit pas. Laissez-moi tranquille.
+Cassiopeia|fil_blesse|Ma queue a pris un coup. Si quelqu'un rit, je le saurai.
+Cassiopeia|fil_ennui|J'ai mué. C'est dans le couloir. Ne marchez pas dessus, ça porte malheur.
+Cassiopeia|fil_maitre|Tu es la seule personne ici à me regarder sans trembler. J'apprécie. Ne t'y habitue pas.
+Cassiopeia|fil_pique|{b}, tu sursautes chaque fois que je passe. C'est flatteur.
+Cassiopeia|story|Le soleil sur la pierre chaude de la cour. Ne me dérangez pas avant ce soir.
+Cassiopeia|story|Robe neuve, écailles brillantes. Noxus me manque un peu. Juste un peu.
+Cassiopeia|correspondant|J'ai fait l'erreur de regarder {nom} droit dans les yeux. Je ne sens toujours pas ma main gauche.
+
+Cho'Gath|bande|gamin
+Cho'Gath|fil_depart|MANGER. AILLEURS.
+Cho'Gath|fil_retour_bon|J'AI GRANDI. UN PEU. ILS AVAIENT BON GOÛT.
+Cho'Gath|fil_retour_mauvais|PAS ASSEZ MANGÉ. PAS CONTENT.
+Cho'Gath|fil_blesse|ÇA PIQUE. JE VAIS MANGER ÇA AUSSI.
+Cho'Gath|fil_ennui|LA TABLE ÉTAIT EN BOIS. ELLE N'EST PLUS LÀ. PERSONNE NE DOIT SAVOIR.
+Cho'Gath|fil_maitre|TOI. PAS MANGER TOI. TU DONNES LA NOURRITURE.
+Cho'Gath|fil_pique|{b}. SENT BON. TRÈS BON. TROP BON.
+Cho'Gath|story|LA PORTE DU GARDE-MANGER. ELLE ÉTAIT FERMÉE.
+Cho'Gath|story|LE CHIEN COURT VITE. MOI AUSSI. PERSONNE NE GAGNE.
+Cho'Gath|correspondant|{nom} a mangé l'auvent de notre bureau. Puis le panneau. Je vous fais suivre la facture, en vous priant de croire que je n'ai rien pu faire.
+
+Corki|bande|gamin
+Corki|fil_depart|Moteur chaud, lunettes propres, moustache impeccable. Décollage !
+Corki|fil_retour_bon|Mission réussie ! Et j'ai fait le grand tour au-dessus du clocher, pour le style.
+Corki|fil_retour_mauvais|Panne moteur. Ce n'est jamais le pilote, c'est toujours le moteur.
+Corki|fil_blesse|J'ai atterri dans un buisson. Le buisson a perdu, mais moi aussi un peu.
+Corki|fil_ennui|J'ai démonté l'horloge pour voir. Elle sonne maintenant à onze heures quatorze. C'est mieux, non ?
+Corki|fil_maitre|Patron, un tour en machine volante ? Promis, je ne fais qu'un seul looping.
+Corki|fil_pique|{b} a peur de l'altitude. Je dis ça sans méchanceté. Enfin, un peu.
+Corki|story|Vue d'en haut, le repère est presque joli. Presque.
+Corki|story|Bombes de peinture testées sur le toit. Oui, c'est pour ça qu'il est rose.
+Corki|correspondant|{nom} a atterri dans notre cour en coupant trois cordes à linge. Il a salué tout le monde, la moustache pleine de draps, et a demandé où était le thé.
+
+Darius|bande|grand
+Darius|fil_depart|On part. On fait le travail. On revient. Pas de discours.
+Darius|fil_retour_bon|C'était facile. La prochaine fois, donnez-moi un vrai combat.
+Darius|fil_retour_mauvais|Quelqu'un n'a pas tenu sa ligne. On en parlera demain, à l'entraînement.
+Darius|fil_blesse|Une blessure qui ne tue pas, c'est un rappel. J'ai compris le rappel.
+Darius|fil_ennui|Ce repère s'amollit. Entraînement dans la cour, dans cinq minutes. Tout le monde.
+Darius|fil_maitre|Tu leur laisses trop de choses. La force, ça se montre. Mais je respecte ta façon.
+Darius|fil_pique|{b}, tu te bats comme quelqu'un qui demande la permission.
+Darius|story|Entraînement à l'aube. J'étais seul. Ça ne durera pas.
+Darius|story|Hache aiguisée. Cour balayée. Ordre rétabli.
+Darius|correspondant|{nom} n'a rien dit en arrivant. Il n'a pas eu besoin. Les ivrognes de la taverne d'en face sont rentrés chez eux d'eux-mêmes.
+
+Diana|bande|discret
+Diana|fil_depart|Je pars de nuit. C'est mieux comme ça.
+Diana|fil_retour_bon|La lune était pleine. Ça aide toujours.
+Diana|fil_retour_mauvais|Je ne veux pas en parler. Je serai sur le toit.
+Diana|fil_blesse|C'est superficiel. Je soigne ça seule, merci.
+Diana|fil_ennui|Personne ici ne regarde le ciel. C'est dommage. Il est beau, ce soir.
+Diana|fil_maitre|Tu ne m'as jamais demandé ce que je crois. Merci pour ça.
+Diana|fil_pique|{b}, tu parles de la lumière comme si elle était à toi. Elle n'appartient à personne.
+Diana|story|Croissant de lune au-dessus du chemin de ronde. Rien d'autre à dire.
+Diana|story|J'ai gravé un croissant sur la poutre de ma chambre. Ne le dites à personne.
+Diana|correspondant|{nom} est arrivée en pleine nuit et a demandé une chambre avec vue sur le ciel. Je lui ai donné le grenier. Elle a eu l'air ravie.
+
+Dr. Mundo|bande|gamin
+Dr. Mundo|fil_depart|MUNDO PART EN VISITE MÉDICALE ! MUNDO A SA SERINGUE !
+Dr. Mundo|fil_retour_bon|MUNDO A SOIGNÉ TOUT LE MONDE. QUELQUES-UNS ONT CRIÉ. C'EST NORMAL.
+Dr. Mundo|fil_retour_mauvais|PATIENT PAS COOPÉRATIF. MUNDO PAS CONTENT. MUNDO VA RECOMMENCER.
+Dr. Mundo|fil_blesse|MUNDO PAS BLESSÉ. MUNDO JUSTE OUVERT. C'EST DIFFÉRENT.
+Dr. Mundo|fil_ennui|QUI VEUT UNE CONSULTATION ? GRATUITE ! MUNDO GENTIL AUJOURD'HUI !
+Dr. Mundo|fil_maitre|TOI AVOIR L'AIR MALADE. MUNDO A UN REMÈDE. NE PAS DEMANDER CE QU'IL Y A DEDANS.
+Dr. Mundo|fil_pique|{b} A REFUSÉ SON VACCIN. {b} VA LE REGRETTER. MUNDO NOTE.
+Dr. Mundo|story|NOUVEAU CABINET MÉDICAL. DANS LE PLACARD À BALAIS. HEURES D'OUVERTURE : TOUT LE TEMPS.
+Dr. Mundo|story|MUNDO A FAIT UNE OPÉRATION SUR UNE CHAISE. LA CHAISE VA MIEUX.
+Dr. Mundo|correspondant|{nom} a proposé d'examiner gratuitement tout mon personnel. Personne n'a accepté. Il a examiné le garde quand même, qui s'est évanoui.
+
+Draven|bande|gamin
+Draven|fil_depart|Le spectacle part en tournée ! Réservez vos places, le nombre est limité !
+Draven|fil_retour_bon|Évidemment que c'est réussi. Je suis Draven. Vous suivez ou pas ?
+Draven|fil_retour_mauvais|Le public n'était pas à la hauteur. C'est tout. Fin de l'histoire.
+Draven|fil_blesse|Une cicatrice de plus. Ça me va très bien, non ? Dites oui.
+Draven|fil_ennui|Personne ne veut me regarder jongler ? Personne ? Même pas le chien ?
+Draven|fil_maitre|Tu sais ce qui manque à ce repère ? Une statue. De moi. Je peux poser demain.
+Draven|fil_pique|{b} a essayé de me voler la vedette. Mignon. Vraiment.
+Draven|story|Moi, une hache, la cour, le soleil. Vous pouvez remercier.
+Draven|story|J'ai signé un autographe sur le chien. Il était d'accord.
+Draven|correspondant|{nom} m'a payé pour annoncer son arrivée dans toute la ville. J'ai refusé. Il a annoncé lui-même, depuis le toit.
+
+Ekko|bande|gamin
+Ekko|fil_depart|J'y vais. Si je suis en retard, c'est que j'étais en avance.
+Ekko|fil_retour_bon|Réglé. J'ai recommencé deux fois, mais vous n'avez rien vu.
+Ekko|fil_retour_mauvais|Si seulement je pouvais revenir trois minutes en arrière… ah. Pas là, non.
+Ekko|fil_blesse|J'ai pris un coup que j'aurais dû voir venir. Ironique, pour moi.
+Ekko|fil_ennui|J'ai réparé la pendule, le moulin à café et la porte qui grince. Il me faut un vrai problème.
+Ekko|fil_maitre|Tu prends le temps de nous écouter. Ça vaut plus que tu crois. Je m'y connais en temps.
+Ekko|fil_pique|{b}, ça fait la troisième fois que tu racontes cette histoire. Je le sais, j'ai compté. Littéralement.
+Ekko|story|Graffiti sur le mur de la cour. On efface demain, promis.
+Ekko|story|Nouvelle pièce pour ma machine. Trouvée à la ferraille. Elle est parfaite.
+Ekko|correspondant|{nom} est arrivé avant l'heure prévue, puis je l'ai revu arriver à l'heure prévue. Je n'ai pas encore décidé si je l'écrivais dans mon rapport.
+
+Elise|bande|discret
+Elise|fil_depart|Je pars. Mes petites protégées restent ici. Soyez polis avec elles.
+Elise|fil_retour_bon|Une réussite. J'ai même fait de nouvelles connaissances. Elles ne reviendront pas.
+Elise|fil_retour_mauvais|J'ai été trop patiente. Ça ne se reproduira pas.
+Elise|fil_blesse|Une égratignure sur une si jolie peau. Quelqu'un va le payer.
+Elise|fil_ennui|J'ai tissé une toile dans le coin de la salle commune. C'est décoratif. Ne l'enlevez pas.
+Elise|fil_maitre|Tu as un beau repère. Il ferait un nid parfait.
+Elise|fil_pique|{b}, tu as une araignée sur l'épaule. Non, ne bouge pas. Elle t'aime bien.
+Elise|story|Mes petites ont fait le ménage dans la cave. Plus aucun moustique.
+Elise|story|Robe de soirée, salle commune vide. Personne pour la voir. Tant pis pour vous.
+Elise|correspondant|{nom} est charmante. Je tiens à l'écrire avant de dire que, depuis son arrivée, nous avons beaucoup plus d'araignées.
+
+Evelynn|bande|discret
+Evelynn|fil_depart|Je sors. Ne m'attendez pas, je ne rentrerai pas seule.
+Evelynn|fil_retour_bon|Ils ont tout fait pour moi. Je n'ai même pas eu à demander.
+Evelynn|fil_retour_mauvais|Quelle soirée ratée. Il me faut un bain chaud et un peu de silence.
+Evelynn|fil_blesse|On a abîmé mon visage. Celui qui a fait ça a eu une très mauvaise nuit.
+Evelynn|fil_ennui|Le repère est si calme. Il faudrait que quelqu'un s'y amuse. Moi, par exemple.
+Evelynn|fil_maitre|Tu es difficile à lire. J'adore ça. Ne change pas.
+Evelynn|fil_pique|{b}, tu as les yeux qui brillent quand tu me regardes. C'est mignon. Ça passera.
+Evelynn|story|Rouge à lèvres neuf. Couleur : tu ne veux pas savoir.
+Evelynn|story|Soirée en ville. Trois propositions de mariage. J'ai refusé les trois.
+Evelynn|correspondant|{nom} est arrivée, et trois de mes employés ont oublié pourquoi ils étaient là. L'un d'eux l'a suivie jusqu'à sa chambre. Je l'ai fait rentrer chez lui.
+
+Ezreal|bande|gamin
+Ezreal|fil_depart|Nouvelle aventure ! Si je trouve un trésor, je partage. Probablement.
+Ezreal|fil_retour_bon|Mission réussie, et j'ai trouvé une carte. Elle mène sûrement à quelque chose d'incroyable.
+Ezreal|fil_retour_mauvais|Petit contretemps. Les pièges étaient plus anciens que prévu. Et plus pointus.
+Ezreal|fil_blesse|C'est la faute d'une momie. Je vous jure. Une vraie.
+Ezreal|fil_ennui|J'ai exploré le grenier. Il y a une malle fermée. Qui a la clé ? Personne ? Parfait.
+Ezreal|fil_maitre|Tu as déjà pensé à une expédition de groupe ? Shurima, ruines, trésors ? Non ? On en reparle.
+Ezreal|fil_pique|{b} n'a jamais vu de vraie ruine shurimane. Ça se voit. Ça s'entend aussi.
+Ezreal|story|Selfie devant une tombe ancienne. La tombe n'a pas apprécié.
+Ezreal|story|Nouvelle carte accrochée au mur. Trois croix rouges. Une seule est vraie.
+Ezreal|correspondant|{nom} a raconté quatre aventures avant de poser son sac. Deux étaient vraies, à mon avis. Le personnel n'a pas voulu le laisser partir se coucher.
+
+Fiddlesticks|bande|discret
+Fiddlesticks|fil_depart|(Un corbeau se pose sur la fenêtre, puis s'envole vers la route. La chaise de Fiddlesticks est vide.)
+Fiddlesticks|fil_retour_bon|ILS ONT EU PEUR. C'ÉTAIT LE BUT. N'EST-CE PAS ?
+Fiddlesticks|fil_retour_mauvais|(Un épouvantail est retrouvé dans la cour, face au mur. Personne ne l'a vu rentrer.)
+Fiddlesticks|fil_blesse|LA PAILLE REPOUSSE. LA PAILLE REPOUSSE TOUJOURS.
+Fiddlesticks|fil_ennui|QUELQU'UN A ÉTEINT LA LAMPE DU COULOIR. CE N'EST PAS MOI. OU PEUT-ÊTRE QUE SI.
+Fiddlesticks|fil_maitre|TU N'AS PAS PEUR DE MOI. C'EST NOUVEAU. JE N'AIME PAS LA NOUVEAUTÉ.
+Fiddlesticks|fil_pique|{b} DORT LA LUMIÈRE ALLUMÉE. {b} A RAISON.
+Fiddlesticks|story|le champ du meunier. j'y retourne ce soir.
+Fiddlesticks|story|ils regardent tous ta fenêtre.
+Fiddlesticks|correspondant|Je n'ai pas vu {nom} arriver. J'ai trouvé un épouvantail dans notre cour au matin, et mes chiens refusent de sortir depuis. Je suppose que c'est lui.
+
+Fiora|bande|gamin
+Fiora|fil_depart|Je pars. Qu'on prévienne l'adversaire, ce sera plus élégant.
+Fiora|fil_retour_bon|Trois duels, trois victoires. J'ai été magnanime pour le troisième.
+Fiora|fil_retour_mauvais|J'ai perdu. Non, on ne m'aide pas à porter mon épée. Je suis parfaitement capable.
+Fiora|fil_blesse|Une égratignure. Je suis furieuse. Qu'on me laisse seule avec ma rapière.
+Fiora|fil_ennui|Qui ose m'affronter ? Je donne trois touches d'avance. Non, même pas ? Lâches.
+Fiora|fil_maitre|Tu tiens une épée comme une cuillère, mais tu diriges avec justice. Je préfère ça à l'inverse.
+Fiora|fil_pique|{b}, ta posture est une insulte à l'escrime. Viens, je corrige ça. Gratuitement.
+Fiora|story|Entraînement au lever du soleil. Le mannequin a perdu. Comme d'habitude.
+Fiora|story|Rapière neuve, gravée aux armes de ma famille. Personne ne la touche.
+Fiora|correspondant|{nom} a provoqué en duel mon chef de garde dans l'heure qui a suivi son arrivée. Il a perdu en quatre secondes. Il dit que c'était un honneur.
+
+Fizz|bande|gamin
+Fizz|fil_depart|Mission au bord de l'eau ? Dites oui. Dites oui !
+Fizz|fil_retour_bon|J'ai gagné ! Et j'ai trouvé un crabe ! Il s'appelle Gérard, il reste avec nous.
+Fizz|fil_retour_mauvais|Bon, j'ai fait une blague au mauvais moment. Juste une. Une grosse.
+Fizz|fil_blesse|J'ai sauté dans un trou plein de coquillages. Les coquillages ont gagné.
+Fizz|fil_ennui|Le bassin du jardin est trop petit. Je l'ai agrandi. Un peu. Beaucoup.
+Fizz|fil_maitre|Tu sais nager ? Non ? Je t'apprends ! Ce sera drôle, je te jure !
+Fizz|fil_pique|{b} a crié quand j'ai sorti la tête du bassin. Trop drôle. Encore !
+Fizz|story|Plouf dans le bassin. Le chien m'a suivi. On est trempés tous les deux.
+Fizz|story|J'ai caché un poisson dans la botte de quelqu'un. Devinez qui.
+Fizz|correspondant|{nom} a plongé dans la fontaine de la place à peine arrivé. Il a fallu une heure pour l'en faire sortir, et il nous a rendu toutes les pièces du fond. Avec un crabe.
+
+Galio|bande|grand
+Galio|fil_depart|Je pars ! Enfin, si on m'aide à passer la porte. Elle a encore rétréci.
+Galio|fil_retour_bon|Une belle bagarre ! J'ai même été réveillé avant la fin. C'est rare.
+Galio|fil_retour_mauvais|Je n'ai pas été assez grand. C'est la première fois que ça m'arrive.
+Galio|fil_blesse|J'ai une fissure. Rien qu'un bon maçon ne puisse réparer. Qui connaît un maçon ?
+Galio|fil_ennui|Je suis resté immobile toute la matinée. Les oiseaux ont fait un nid sur ma tête. Je ne bouge plus.
+Galio|fil_maitre|Tu sais, j'ai protégé Demacia pendant des siècles. Mais ici, je préfère protéger ces petits-là.
+Galio|fil_pique|{b} m'a pris pour une statue de jardin et a posé ses fesses sur mon pied. Je n'ai rien dit. Pour l'instant.
+Galio|story|Les enfants du bourg m'ont grimpé dessus toute la journée. Meilleure journée de ma vie.
+Galio|story|Un oiseau dort sur ma main. Je ne bougerai pas jusqu'à demain.
+Galio|correspondant|{nom} ne passait pas notre porte. Nous avons ouvert la grange. Il s'est excusé tout le long, avec une voix qui a fait trembler les vitres.
+
+Gangplank|bande|grand
+Gangplank|fil_depart|On part en chasse. Ceux qui traînent, je les laisse sur le quai.
+Gangplank|fil_retour_bon|Butin récupéré, dettes payées, ennemis à l'eau. Belle journée.
+Gangplank|fil_retour_mauvais|Quelqu'un m'a fait perdre de l'argent. Je retiens les visages.
+Gangplank|fil_blesse|J'ai perdu un bras il y a longtemps. Ça, c'est une piqûre de moustique.
+Gangplank|fil_ennui|Ce repère n'a même pas de tonneaux de poudre. Comment vous vivez ?
+Gangplank|fil_maitre|Tu payes bien, tu ne poses pas trop de questions. On va bien s'entendre, toi et moi.
+Gangplank|fil_pique|{b}, tu me dois une orange. Je n'oublie jamais une dette.
+Gangplank|story|Orange, couteau, coucher de soleil. Le luxe, c'est simple.
+Gangplank|story|J'ai trouvé un tonneau de poudre au fond de la cave. Ne posez pas de questions.
+Gangplank|correspondant|{nom} a payé sa chambre en pièces d'or de Bilgewater, puis m'a demandé, en épluchant une orange, qui dans la ville avait des dettes. Je n'ai pas répondu. Il a souri quand même.
+
+Garen|bande|grand
+Garen|fil_depart|Pour Demacia ! Et pour la guilde aussi, évidemment.
+Garen|fil_retour_bon|Justice rendue. Tout le monde est sain et sauf. Maintenant, je veux un repas chaud.
+Garen|fil_retour_mauvais|J'ai fait de mon mieux. Ça n'a pas suffi. Je recommencerai demain.
+Garen|fil_blesse|C'est l'armure qui a tout pris. Je vais bien. Je dis toujours que je vais bien.
+Garen|fil_ennui|J'ai fait cent tours de cour en armure complète. Je n'ai plus rien à faire. Recommencer ?
+Garen|fil_maitre|Tu fais un bon travail, je trouve. Ne le dis à personne, mais tu me rappelles mon ancien capitaine.
+Garen|fil_pique|{b}, ce n'est pas comme ça qu'on tient une épée. Viens, je te montre. Encore.
+Garen|story|Armure polie, épée affûtée, cour balayée. Ordre et discipline.
+Garen|story|Le chien a mangé ma ration de pain. Je ne lui en veux pas. Pas trop.
+Garen|correspondant|{nom} a demandé en arrivant si quelqu'un, dans le village, avait besoin d'aide. Avant même son repas. Il a réparé une barrière et deux charrettes avant la nuit.
+
+Gnar|bande|gamin
+Gnar|fil_depart|Gnar ! Gnar part ! Boomerang prêt !
+Gnar|fil_retour_bon|Gnar a gagné ! Gnar a trouvé un caillou brillant ! Gnar garde le caillou !
+Gnar|fil_retour_mauvais|Gnar pas content. Gnar va casser quelque chose. Non. Gnar va bouder.
+Gnar|fil_blesse|Bobo. Gnar veut un câlin. Pas trop fort.
+Gnar|fil_ennui|Gnar joue avec le chien. Le chien court. Gnar court. Personne ne gagne.
+Gnar|fil_maitre|Toi gentil. Toi donner os ? Gnar aime os.
+Gnar|fil_pique|{b} a pris le boomerang ! Gnar va devenir grand ! Gnar prévient !
+Gnar|story|Gnar dans un tonneau. Gnar caché. Personne trouve Gnar.
+Gnar|story|Gros os. Très gros os. Gnar heureux.
+Gnar|correspondant|{nom} est arrivé tout petit et adorable. Il est reparti dans une colère noire, beaucoup plus grand. Nous refaisons la façade.
+
+Gragas|bande|gamin
+Gragas|fil_depart|Je pars ! Qu'on garde un tonneau au frais pour mon retour !
+Gragas|fil_retour_bon|Mission réussie ! Ce soir, c'est moi qui sers. À volonté !
+Gragas|fil_retour_mauvais|Pas grave, pas grave ! Un bon verre et on oublie. Deux verres, même.
+Gragas|fil_blesse|Ma bedaine a amorti le choc. Elle sert enfin à quelque chose.
+Gragas|fil_ennui|J'ai inventé une nouvelle bière. Au jardin. Elle sent la rose. Qui goûte ?
+Gragas|fil_maitre|Toi, il te faut une soirée ! Une vraie ! Je m'occupe de tout, tu n'as qu'à venir.
+Gragas|fil_pique|{b} ne tient pas l'alcool. Hier, deux chopes et {b} chantait à la lune.
+Gragas|story|Tonneau numéro trois de la semaine. Ne le dites pas à la cuisinière.
+Gragas|story|Concours de bras de fer dans la salle commune. J'ai perdu contre la table.
+Gragas|correspondant|{nom} a fait le tour des auberges avant même de déposer ses affaires. Il en a fermé deux, faute de stock. Toute la ville l'adore déjà.
+
+Graves|bande|grand
+Graves|fil_depart|On y va. Si ça tourne mal, ne restez pas dans ma ligne de tir.
+Graves|fil_retour_bon|C'est fait. J'ai encore toutes mes cartouches. Et une partie de leur argent.
+Graves|fil_retour_mauvais|J'ai déjà perdu plus gros. Mais ça, ça pique. Où est la bouteille ?
+Graves|fil_blesse|Une balle de trop. Pas la mienne. Je déteste quand ce n'est pas la mienne.
+Graves|fil_ennui|Partie de cartes ce soir. Mise minimale : ce que vous avez dans les poches.
+Graves|fil_maitre|Tu n'as pas froid aux yeux, chef. J'apprécie. Ne fais pas trop confiance aux tricheurs, c'est tout.
+Graves|fil_pique|{b} triche aux cartes. Mal. Très mal. C'est presque attendrissant.
+Graves|story|Cigare, chaise, terrasse. Personne ne me tire dessus. Belle soirée.
+Graves|story|Nettoyage de fusil. Ça prend une heure. C'est mon heure.
+Graves|correspondant|{nom} a gagné la paie de mes gardes aux cartes avant minuit, puis la leur a rendue en riant. Ils l'aiment, maintenant. Ça m'inquiète un peu.
+
+Gwen|bande|gamin
+Gwen|fil_depart|Je pars ! J'ai recousu tous mes ourlets pour l'occasion !
+Gwen|fil_retour_bon|On a réussi ! J'ai même recousu le manteau de quelqu'un en chemin. Il était tout triste.
+Gwen|fil_retour_mauvais|Ce n'était pas une bonne journée, mais demain sera mieux. Je l'ai décidé.
+Gwen|fil_blesse|J'ai un petit accroc. Rien qu'un bon fil ne puisse réparer !
+Gwen|fil_ennui|J'ai reprisé toutes les chaussettes du repère. Il y en avait beaucoup. Trop.
+Gwen|fil_maitre|Ta cape a un trou au coude. Donne, je te la répare. Ça me fait plaisir !
+Gwen|fil_pique|{b}, tu as mis ta chemise à l'envers. Encore. Je ne dis rien. Si, je le dis.
+Gwen|story|Nouvelle robe faite avec les rideaux. Les rideaux ne manqueront à personne.
+Gwen|story|Le soleil, l'herbe, et mes ciseaux. Je suis heureuse. Vraiment.
+Gwen|correspondant|{nom} a recousu le tablier de ma cuisinière, l'uniforme de mon garde et le drapeau du bureau, en me parlant tout le long. Je me suis senti réparé, moi aussi.
+
+Hecarim|bande|discret
+Hecarim|fil_depart|LA CHARGE PART. QUE LES FAIBLES S'ÉCARTENT.
+Hecarim|fil_retour_bon|ILS SONT TOMBÉS. TOUS. C'ÉTAIT INÉVITABLE.
+Hecarim|fil_retour_mauvais|LA BRUME ÉTAIT FAIBLE AUJOURD'HUI. DEMAIN, ELLE NE LE SERA PAS.
+Hecarim|fil_blesse|MON ARMURE EST FENDUE. QUE LE FORGERON SE PRÉSENTE.
+Hecarim|fil_ennui|LES CHEVAUX DE L'ÉCURIE ONT PEUR DE MOI. C'EST NORMAL. JE RESTE DEHORS.
+Hecarim|fil_maitre|TU M'AS DONNÉ UNE PLACE. JE NE L'OUBLIERAI PAS. NI TOI.
+Hecarim|fil_pique|{b} A PEUR. JE LE SENS. C'EST AGRÉABLE.
+Hecarim|story|L'herbe repoussera.
+Hecarim|story|LE FORGERON A REFUSÉ DE ME FERRER. JE COMPRENDS.
+Hecarim|correspondant|J'ai entendu des sabots dans le couloir, puis j'ai vu {nom}. Mes chevaux n'ont pas mangé de la nuit. Moi non plus.

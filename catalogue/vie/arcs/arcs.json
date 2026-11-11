@@ -171,7 +171,7 @@
         {
           "delai": 36,
           "textes": [
-            "{b} réussit enfin le geste que {a} enseigne depuis des jours. {a} ne dit rien, mais hoche la tête une fois. C'est la plus belle des félicitations."
+            "{b} réussit enfin le geste que {a} enseigne depuis des jours. {a} ne dit rien, hoche la tête une fois, et repart. {b} en parle encore au dîner."
           ],
           "effets": [
             "b.moral+4:Un geste enfin maîtrisé"

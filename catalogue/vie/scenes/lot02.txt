@@ -172,7 +172,7 @@ VIE-0704|bon_moment|a:LOYAL|1|aff+2|{a} prend la défense de {b} devant un march
 VIE-0705|bon_moment|a:CUPIDE|1||{a} prête de l'argent à {b}. À un taux d'ami, précise {a}, mais à un taux tout de même.
 VIE-0706|bon_moment|a:MERCENAIRE|1||{a} donne à {b} un conseil gratuit sur la négociation des primes. C'est un geste rare.
 VIE-0707|bon_moment|a:TACITURNE|1|aff+2|{a} s'assoit à côté de {b} sans rien dire. Ça dure une heure. C'était parfait.
-VIE-0708|bon_moment|a:CYNIQUE|1||{a} se moque de tout avec {b}, la guilde, les héros, les rois. Ça fait un bien fou.
+VIE-0708|bon_moment|a:CYNIQUE|1||{a} se moque de tout avec {b} : la guilde, les héros, les rois. On les entend rire jusqu'à la cuisine.
 VIE-0709|bon_moment|a:VANITEUX|1||{a} offre à {b} son propre portrait, en miniature, « pour quand je ne serai pas là ».
 VIE-0710|bon_moment|a:MELANCOLIQUE|1|aff+2|{a} joue un air triste pour {b}, qui en redemande.
 VIE-0711|bon_moment|a:IDEALISTE|1||{a} parle à {b} du monde qu'on pourrait construire. {b} n'y croit pas, mais aime l'écouter.
@@ -339,7 +339,7 @@ VIE-0917|dispute|a=Renekton,b=Nasus,lien=famille|3||{a} hurle à {b} des millén
 VIE-0918|bon_moment|a=Sivir,b=Azir,lien=famille|2||{b} parle de dynasties et d'héritage. {a} parle de paie et de contrats. Ils finissent par rire de la même chose.
 VIE-0919|desaccord|a=Leona,b=Diana,lien=rival|2||{a} et {b} se disputent sur le soleil et la lune. La discussion dure jusqu'au crépuscule, ce qui n'arrange rien.
 VIE-0920|confidence|a=Diana,b=Leona,lien=rival|3|aff+5|{a} et {b} regardent ensemble l'éclipse depuis les remparts. Pendant quelques minutes, elles ne sont plus rivales.
-VIE-0921|bon_moment|a=Leona,b=Pantheon,lien=ami|2|aff+2|{a} et {b} évoquent le mont Targon. Ni l'un ni l'autre ne parle du sommet. C'est mieux comme ça.
+VIE-0921|bon_moment|a=Leona,b=Pantheon,lien=ami|2|aff+2|{a} et {b} évoquent le mont Targon. Ni l'un ni l'autre ne parle du sommet.
 VIE-0922|defi|a=Fiora,b=Garen,lien=rival|2|aff+1|{a} défie {b} en duel. {b} accepte. {a} gagne, et le dit à tout le monde.
 VIE-0923|dispute|a=Lux,b=Sylas,lien=ennemi|3|aff-4|{b} rappelle à {a} ce qu'elle lui doit. {a} lui rappelle ce qu'il a fait de sa confiance. Il faut les séparer.
 VIE-0924|bon_moment|a=Galio,b=Lux,lien=ami|2|aff+2|{a} s'assoit à côté de {b} et tout le banc s'effondre. {b} rit aux larmes.

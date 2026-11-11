@@ -1,0 +1,205 @@
+# Voix des champions · lot 12 (Heimerdinger à Kassadin) · 11 nov. 2026. Format et règles : voir lot10.txt.
+
+Heimerdinger|bande|grand
+Heimerdinger|fil_depart|Départ imminent ! J'ai emporté trois tourelles, au cas où. Quatre, en fait.
+Heimerdinger|fil_retour_bon|Hypothèse confirmée ! Le problème était bien le problème. Fascinant.
+Heimerdinger|fil_retour_mauvais|Une expérience ratée reste une expérience. J'ai pris des notes. Beaucoup.
+Heimerdinger|fil_blesse|Mes moustaches ont roussi. Ce n'est pas la première fois, ni la dernière.
+Heimerdinger|fil_ennui|J'ai amélioré la bouilloire. Elle siffle maintenant en trois tons. Ne me remerciez pas.
+Heimerdinger|fil_maitre|Votre organisation est empirique, mais les résultats sont là. Puis-je vous montrer un schéma ?
+Heimerdinger|fil_pique|{b} a confondu une clé à molette avec une cuillère. J'ai documenté l'incident.
+Heimerdinger|story|Tourelle numéro douze installée au jardin. Elle protège les tomates.
+Heimerdinger|story|Le tableau de la salle commune est plein de calculs. Ne l'effacez pas, s'il vous plaît.
+Heimerdinger|correspondant|{nom} a démonté notre horloge en arrivant, pour « vérifier un détail ». Elle est remontée, elle avance de deux minutes, et elle sonne en fa.
+
+Hwei|bande|discret
+Hwei|fil_depart|Je pars. J'emporte mes pinceaux. On ne sait jamais ce qu'on verra.
+Hwei|fil_retour_bon|J'ai peint la vallée avant de partir. C'était plus beau que la mission.
+Hwei|fil_retour_mauvais|Certaines choses ne se peignent pas. Celle-là, je préfère l'oublier.
+Hwei|fil_blesse|Ma main droite va bien. C'est tout ce qui compte.
+Hwei|fil_ennui|J'ai peint le mur du couloir. Je sais, je n'avais pas demandé. Vous aimez ?
+Hwei|fil_maitre|Tu as un visage intéressant. Un jour, je te peindrai. Pas aujourd'hui, la lumière est mauvaise.
+Hwei|fil_pique|{b}, tu bouges trop pour être peint. Assieds-toi, rien qu'une heure.
+Hwei|story|Aquarelle du jardin à l'aube. Les couleurs ne sont pas encore justes.
+Hwei|story|De la peinture partout. Sur les mains, sur le chien, sur le plafond. Ne demandez pas.
+Hwei|correspondant|{nom} a peint le paysage depuis la fenêtre pendant que je parlais. Il m'a offert le tableau en partant. Il est accroché dans mon bureau.
+
+Illaoi|bande|grand
+Illaoi|fil_depart|Je pars. La mer m'attend. Et quelques imbéciles à corriger.
+Illaoi|fil_retour_bon|Ils ont compris la leçon. Certains à genoux, mais ils ont compris.
+Illaoi|fil_retour_mauvais|On ne gagne pas toujours. On apprend toujours. Allez, debout, tout le monde.
+Illaoi|fil_blesse|Le dieu ne protège pas ceux qui ont peur. J'ai mal, mais je n'ai pas peur.
+Illaoi|fil_ennui|Vous êtes tous mous. Qui veut un cours de vie ? Gratuit, mais ça va faire mal.
+Illaoi|fil_maitre|Tu as un bon fond. Mais tu doutes trop. Tu veux que je te montre comment on arrête ?
+Illaoi|fil_pique|{b}, tu crois que tu vis ? Tu survis. Viens dans la cour, on va changer ça.
+Illaoi|story|Petit-déjeuner pour huit. Je mange seule. J'avais faim.
+Illaoi|story|L'idole posée sur la cheminée. Ne la touchez pas, elle mord.
+Illaoi|correspondant|{nom} a demandé à mes employés ce qu'ils voulaient vraiment dans la vie. Deux ont pleuré. Un a démissionné pour devenir pêcheur. Je ne sais pas quoi en penser.
+
+Irelia|bande|grand
+Irelia|fil_depart|Je pars. Que personne ne s'inquiète, mes lames savent le chemin.
+Irelia|fil_retour_bon|Ils sont en sécurité. C'est tout ce que je voulais.
+Irelia|fil_retour_mauvais|J'ai déjà vu pire. Mais ça ne rend pas les choses plus faciles.
+Irelia|fil_blesse|Une coupure. Rien de grave. J'ai l'habitude de danser avec.
+Irelia|fil_ennui|J'ai dansé seule dans la cour, à l'aube. Si quelqu'un veut apprendre, je recommence demain.
+Irelia|fil_maitre|Tu ne commandes pas comme un chef de guerre. Tu commandes comme quelqu'un qui écoute. Garde ça.
+Irelia|fil_pique|{b}, tu as les pieds d'un worax. Viens danser, ça s'arrange.
+Irelia|story|Les lames flottent au-dessus du bassin. Ça calme les nerfs.
+Irelia|story|Thé ionien au jardin. Il manque des cerisiers, mais ça viendra.
+Irelia|correspondant|{nom} a refusé l'escorte que je lui proposais. Une de ses lames tournait au-dessus de sa tête pendant qu'elle parlait. Je l'ai crue sur parole.
+
+Ivern|bande|grand
+Ivern|fil_depart|Je pars voir des amis. Certains ont des feuilles. D'autres ont des pattes. Tout le monde est le bienvenu.
+Ivern|fil_retour_bon|Un arbre m'a dit merci. Ça fait toujours plaisir.
+Ivern|fil_retour_mauvais|Ce n'est pas grave ! Même les ronces finissent par fleurir.
+Ivern|fil_blesse|Un peu de sève a coulé. Daisy m'a porté jusqu'ici. C'est une bonne amie.
+Ivern|fil_ennui|J'ai parlé avec la plante de la salle commune. Elle a des choses à dire sur votre façon de l'arroser.
+Ivern|fil_maitre|Tu sais, tu ressembles à un chêne : solide, avec des nœuds partout. C'est un compliment !
+Ivern|fil_pique|{b} piétine les jonquilles tous les matins. Les jonquilles se souviennent.
+Ivern|story|Le jardin a poussé de trente centimètres cette nuit. Ce n'est pas moi. Enfin, si.
+Ivern|story|Daisy fait la sieste dans la cour. Ne faites pas de bruit, elle a ses humeurs.
+Ivern|correspondant|{nom} a salué chaque arbre de la route avant de me saluer. Le vieux tilleul devant notre bureau a refleuri le lendemain. En novembre.
+
+Janna|bande|grand
+Janna|fil_depart|Je pars avec le vent. Il revient toujours, moi aussi.
+Janna|fil_retour_bon|Personne n'a été blessé. C'est la seule victoire qui compte.
+Janna|fil_retour_mauvais|Le vent a tourné du mauvais côté. Il tournera encore.
+Janna|fil_blesse|Ce n'est qu'une brise mal placée. Ça passera.
+Janna|fil_ennui|J'ai fait sécher tout le linge du repère en dix minutes. On m'appelle si ça recommence.
+Janna|fil_maitre|Tu portes beaucoup de choses sur tes épaules. Pose-en une ou deux, de temps en temps.
+Janna|fil_pique|{b}, tu souffles comme une tempête quand tu dors. Je l'ai entendu depuis le toit.
+Janna|story|Le vent dans les draps, au jardin. J'aime ce bruit.
+Janna|story|Une feuille m'a suivie toute la matinée. Elle est jolie. Je la garde.
+Janna|correspondant|À l'arrivée de {nom}, toutes nos fenêtres se sont ouvertes en même temps, et l'odeur de la ville a disparu. Mes employés respirent mieux. Moi aussi.
+
+Jarvan IV|bande|grand
+Jarvan IV|fil_depart|En avant ! Suivez la bannière, et tout ira bien.
+Jarvan IV|fil_retour_bon|Une victoire nette. Je ferai le rapport moi-même, à toute la guilde, ce soir.
+Jarvan IV|fil_retour_mauvais|Un roi apprend plus de ses défaites que de ses victoires. Malheureusement.
+Jarvan IV|fil_blesse|J'ai eu pire en tombant de cheval à dix ans. Je mens. Mais c'est l'idée.
+Jarvan IV|fil_ennui|J'ai organisé l'inventaire de l'armurerie. Puis celui de la cuisine. On m'a demandé d'arrêter.
+Jarvan IV|fil_maitre|Tu diriges avec le cœur. À Demacia, on préfère les règles. Je commence à me demander qui a raison.
+Jarvan IV|fil_pique|{b}, ta bannière est à l'envers depuis trois jours. Personne ne t'a rien dit ? Moi non plus, avant.
+Jarvan IV|story|Le drapeau de la guilde flotte sur le portail. Je l'ai hissé moi-même.
+Jarvan IV|story|Le chien m'a volé ma couronne pendant que je dormais. On a fait la course. Il a gagné.
+Jarvan IV|correspondant|{nom} a tenu à serrer la main de chaque membre de mon personnel. Le cuisinier n'a pas lavé la sienne depuis. Il dit qu'il ne la lavera plus.
+
+Jax|bande|gamin
+Jax|fil_depart|Je pars. Si quelqu'un veut me suivre, prenez une arme. N'importe laquelle.
+Jax|fil_retour_bon|C'était trop facile. Il me faut un adversaire digne de ce nom. Toujours pas trouvé.
+Jax|fil_retour_mauvais|Le plan n'était pas bon. Moi, si. Juste pour que ce soit dit.
+Jax|fil_blesse|J'ai pris un coup. Le type qui me l'a donné doit encore être en train de s'en vanter. Il a raison.
+Jax|fil_ennui|Qui veut se battre ? J'utilise une lanterne. Juste une lanterne.
+Jax|fil_maitre|Tu ne sais pas te battre, mais tu sais choisir ceux qui le font. C'est un talent.
+Jax|fil_pique|{b} a reculé d'un pas pendant l'entraînement. J'ai vu. Tout le monde a vu.
+Jax|story|Duel contre un balai. Le balai a tenu trois secondes. Un record.
+Jax|story|Lanterne nettoyée. Elle brille. Je suis prêt pour n'importe qui.
+Jax|correspondant|{nom} a désarmé deux de mes gardes avec une lampe de bureau, simplement parce qu'ils lui avaient demandé s'il était dangereux. Il a reposé la lampe. Elle fonctionne encore.
+
+Jayce|bande|gamin
+Jayce|fil_depart|Je pars en mission. Le marteau aussi. Il a besoin de prendre l'air.
+Jayce|fil_retour_bon|Évidemment que ça a marché. J'ai un marteau qui se transforme en canon.
+Jayce|fil_retour_mauvais|Le marteau a surchauffé. Non, ce n'est pas un défaut de conception. C'est un détail.
+Jayce|fil_blesse|J'ai pris un éclat. Ne le dites pas à Piltover, ça ferait mauvaise publicité.
+Jayce|fil_ennui|J'ai amélioré la porte du repère. Elle s'ouvre à la voix, maintenant. Si on crie très fort.
+Jayce|fil_maitre|Tu sais ce qui manque ici ? Un atelier. Un vrai. Je pourrais faire tellement de choses.
+Jayce|fil_pique|{b} a demandé si mon marteau était lourd. Viens le porter, {b}. Allez.
+Jayce|story|Atelier improvisé dans la cour. Personne n'a encore explosé.
+Jayce|story|Portrait de moi avec le marteau. Pour la postérité, et pour ma mère.
+Jayce|correspondant|{nom} a réparé l'horloge de la place en dix minutes, puis a fait un discours sur le progrès devant les gens qui étaient venus regarder. Ils sont restés jusqu'au bout.
+
+Jhin|bande|discret
+Jhin|fil_depart|Le rideau se lève. Je pars pour le premier acte.
+Jhin|fil_retour_bon|Une représentation honnête. Pas parfaite. La perfection demande du temps.
+Jhin|fil_retour_mauvais|Un public décevant. Je ne remonterai pas sur cette scène.
+Jhin|fil_blesse|On a abîmé mon costume. C'est impardonnable.
+Jhin|fil_ennui|J'ai réaccordé le vieux piano. Il manque une touche. Je l'ai trouvée. Elle est revenue.
+Jhin|fil_maitre|Tu comprends la mise en scène, sans le savoir. Chaque mission, un acte. J'aime ça.
+Jhin|fil_pique|{b}, ta façon de te tenir manque cruellement de grâce. Je pourrais t'aider. Ou non.
+Jhin|story|Le jardin, à quatre heures précises. La lumière est parfaite. Demain, elle ne le sera plus.
+Jhin|story|Quatre roses dans un vase. Il en faut quatre. Toujours quatre.
+Jhin|correspondant|{nom} a refusé la chambre numéro trois et demandé la quatre. Il a corrigé l'emplacement des fleurs dans l'entrée. Il n'a rien fait d'autre, et pourtant je n'ai pas dormi.
+
+Jinx|bande|gamin
+Jinx|fil_depart|Mission ! Enfin ! Quelqu'un a vu mes grenades ? Les bleues, pas les autres.
+Jinx|fil_retour_bon|BOUM ! Enfin, petit boum. Il reste des murs. Pas tous.
+Jinx|fil_retour_mauvais|Ça a pas marché. Ça marche jamais quand on suit le plan. Fallait pas faire de plan.
+Jinx|fil_blesse|J'ai une égratignure ! Elle est trop belle. Je vais la dessiner sur le mur.
+Jinx|fil_ennui|Je m'ennuie, je m'ennuie, je m'ennuie. Quelqu'un veut voir un truc qui fait du bruit ?
+Jinx|fil_maitre|Hé, chef. Tu fais pas peur du tout. C'est bizarre. J'aime bien.
+Jinx|fil_pique|{b} a dit que mes tresses étaient trop longues. {b} va avoir une surprise dans son lit.
+Jinx|story|J'ai repeint le chien. En rose. Il est content. Il le sera. Bientôt.
+Jinx|story|Petit test dans la cour. Le trou est plus gros que prévu. Oups.
+Jinx|correspondant|{nom} est arrivée en courant, a fait le tour du bureau deux fois, a renversé ma tasse, et m'a demandé si on avait des fusées. Nous n'avons pas de fusées. Elle a eu l'air sincèrement déçue.
+
+K'Sante|bande|grand
+K'Sante|fil_depart|Je pars. Que quelqu'un surveille les plus jeunes. Je les connais.
+K'Sante|fil_retour_bon|La bête est tombée. Les gens dorment tranquilles. Et moi, je vais faire pareil.
+K'Sante|fil_retour_mauvais|On n'a pas réussi. Mais personne n'est mort. Je compte ça comme une moitié de victoire.
+K'Sante|fil_blesse|Les monstres ont eu de la chance aujourd'hui. Ça ne se reproduira pas.
+K'Sante|fil_ennui|J'ai fait des pompes avec le chien sur le dos. Il adore. On recommence.
+K'Sante|fil_maitre|Tu fais confiance aux gens. C'est une force. Et une faiblesse. Je surveille pour toi.
+K'Sante|fil_pique|{b}, ta tenue est une catastrophe. Viens, je vais t'apprendre ce que c'est, le style.
+K'Sante|story|Tenue impeccable, cheveux nets, trophée au mur. On peut commencer la journée.
+K'Sante|story|J'ai porté le banc de la salle commune jusqu'au jardin. Avec trois personnes assises dessus.
+K'Sante|correspondant|{nom} est arrivé avec une tête de bête sur l'épaule, qu'il a déposée devant la porte des gens qui avaient fait appel à nous. Puis il a demandé où on pouvait se changer.
+
+Kai'Sa|bande|discret
+Kai'Sa|fil_depart|Je pars. Ne vous inquiétez pas, je suis habituée aux endroits où personne ne revient.
+Kai'Sa|fil_retour_bon|C'est terminé. Je me suis souvenue d'une chose : je n'aime pas être seule. Je suis contente d'être rentrée.
+Kai'Sa|fil_retour_mauvais|J'ai senti quelque chose là-bas. Je ne sais pas encore quoi. Ça me suit.
+Kai'Sa|fil_blesse|L'armure s'est refermée sur la blessure. C'est elle qui décide, pas moi.
+Kai'Sa|fil_ennui|Je ne sais pas trop quoi faire, ici. Il y a trop de bruit et pas assez de danger. C'est nouveau.
+Kai'Sa|fil_maitre|Merci de ne pas avoir demandé ce qui m'est arrivé. Un jour, je te raconterai.
+Kai'Sa|fil_pique|{b} rit tout le temps. Je ne comprends pas toujours pourquoi. Mais j'aime l'entendre.
+Kai'Sa|story|J'ai essayé de faire du pain. Il est dur comme une pierre du Néant.
+Kai'Sa|story|Le soleil se lève sur la cour. Je n'en avais pas vu depuis longtemps.
+Kai'Sa|correspondant|{nom} a regardé partout en entrant, les coins, le plafond, les ombres. Elle s'est assise dos au mur. Elle m'a souri, enfin, quand le thé est arrivé.
+
+Kalista|bande|discret
+Kalista|fil_depart|Quelqu'un a juré vengeance. Je pars l'honorer.
+Kalista|fil_retour_bon|Le traître a payé. Le serment est tenu.
+Kalista|fil_retour_mauvais|La vengeance attendra. Elle attend toujours. Elle est patiente, comme moi.
+Kalista|fil_blesse|Ce corps a déjà été tué. Une blessure de plus n'y change rien.
+Kalista|fil_ennui|Personne ici n'a de serment à me confier ? Personne ne vous a jamais trahis ? C'est rare.
+Kalista|fil_maitre|Ta loyauté envers les tiens se voit. Garde-la.
+Kalista|fil_pique|{b} a promis de ranger la vaisselle hier. {b} ne l'a pas fait. Je m'en souviendrai.
+Kalista|story|Pour ceux qui ont tenu parole.
+Kalista|story|Quelqu'un m'a fait une promesse ce matin. Je la garderai pour lui.
+Kalista|correspondant|{nom} m'a demandé si quelqu'un, dans ce bureau, avait trahi un ami. Personne n'a répondu. Mon adjoint a quitté la ville le soir même.
+
+Karma|bande|grand
+Karma|fil_depart|Je pars, l'esprit tranquille. Gardez le vôtre aussi, pendant mon absence.
+Karma|fil_retour_bon|Tout s'est apaisé. Les conflits finissent toujours par se lasser d'eux-mêmes.
+Karma|fil_retour_mauvais|Le déséquilibre fait partie de l'équilibre. Mais ce soir, je prendrai du thé.
+Karma|fil_blesse|Ce n'est que le corps. L'esprit va bien. Apportez quand même une couverture.
+Karma|fil_ennui|J'ai médité trois heures. Puis j'ai fait la vaisselle. C'était plus reposant.
+Karma|fil_maitre|Tu cherches toujours à bien faire. Parfois, il suffit de faire.
+Karma|fil_pique|{b}, tu respires comme si tu courais. Assieds-toi. Expire. Voilà.
+Karma|story|Méditation au bord du bassin. Un poisson est venu me dire bonjour.
+Karma|story|Le thé est prêt pour ceux qui se lèvent. Ceux qui dorment le boiront froid.
+Karma|correspondant|{nom} a mis fin à une dispute entre deux marchands en restant simplement debout entre eux. Je n'ai pas compris ce qui s'est passé. Eux non plus.
+
+Karthus|bande|discret
+Karthus|fil_depart|Je pars. Peut-être pour toujours. Probablement pas. Mais l'idée me plaît.
+Karthus|fil_retour_bon|J'ai entendu la mort chanter, là-bas. Elle n'est pas venue. Pas encore.
+Karthus|fil_retour_mauvais|La fin n'était pas belle. Elle aurait pu l'être. Quelle tristesse.
+Karthus|fil_blesse|La douleur. Enfin quelque chose de vrai.
+Karthus|fil_ennui|J'ai composé un requiem pour la cuisinière. Elle n'est pas morte. Elle n'a pas apprécié.
+Karthus|fil_maitre|Tu as peur de perdre les tiens. Je pourrais t'expliquer pourquoi tu ne devrais pas.
+Karthus|fil_pique|{b} déborde tellement de vie. C'en est presque fatigant.
+Karthus|story|Chant du soir dans la crypte. Il n'y a pas de crypte. J'en ai trouvé une quand même.
+Karthus|story|Une seule s'est éteinte cette nuit.
+Karthus|correspondant|{nom} a demandé où se trouvait notre cimetière. Puis il y est allé chanter. Toute la nuit. Les voisins ne se sont pas plaints. Je crois qu'ils ont eu peur de le faire.
+
+Kassadin|bande|grand
+Kassadin|fil_depart|Je pars. Le Néant ne s'arrête pas. Moi non plus.
+Kassadin|fil_retour_bon|Ce qui devait être scellé l'est. Pour l'instant.
+Kassadin|fil_retour_mauvais|J'ai senti quelque chose s'ouvrir. Je dois réfléchir. Seul.
+Kassadin|fil_blesse|Mon armure a absorbé le pire. Mon corps, le reste.
+Kassadin|fil_ennui|Ce repère est calme. Profitez-en. Ce calme ne durera pas éternellement.
+Kassadin|fil_maitre|Tu protèges ces gens. Je sais ce que ça coûte. Je peux t'aider à porter ça.
+Kassadin|fil_pique|{b}, arrête d'ouvrir des portes juste pour voir ce qu'il y a derrière. Fais-moi confiance.
+Kassadin|story|Vu d'en haut. Tout est calme.
+Kassadin|story|Thé froid, fenêtre ouverte. Le Néant semble très loin d'ici. C'est bien.
+Kassadin|correspondant|{nom} est apparu au milieu de notre bureau, sans entrer par la porte. Il s'est excusé. Il m'a ensuite donné des conseils pour sceller la cave, que je n'avais pas demandés.

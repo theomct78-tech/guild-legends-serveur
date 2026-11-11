@@ -1,0 +1,97 @@
+# Voix des champions · lot 23 (Nami à Riven) · 11 nov. 2026 · fil, deuxième passe
+Nami|fil_ennui|L'abreuvoir est trop petit pour nager. J'ai essayé quand même. Le chien a trouvé ça drôle.
+Nami|fil_pique|{b} a jeté un caillou dans ma bassine. Les vagues, c'est moi qui les fais. Merci.
+Nami|fil_quotidien|Il pleut ! Enfin ! Je suis restée dehors une heure. Je vais très bien.
+Nami|fil_quotidien|J'ai trouvé un coquillage au marché du bourg. Il vient de loin. Il sent encore la mer.
+Nasus|fil_ennui|J'ai lu toute la bibliothèque du repère. Il me faut d'autres livres.
+Nasus|fil_pique|{b} a corné les pages d'un livre. On ne corne pas les pages d'un livre.
+Nasus|fil_quotidien|J'ai recopié une carte de Shurima de mémoire. Elle est exacte. Je l'ai accrochée dans la grande salle.
+Nasus|fil_quotidien|Le chien est venu s'allonger à mes pieds pendant que je lisais. Nous nous sommes compris.
+Nautilus|fil_ennui|Trop sec.
+Nautilus|fil_pique|{b} a fait rouler mon ancre dans la cour. Elle est lourde. Toi, moins.
+Nautilus|fil_quotidien|Pluie. Bien.
+Nautilus|fil_quotidien|Un enfant du bourg m'a donné une coquille. Je la garde.
+Neeko|fil_ennui|Neeko s'est déguisée en chaise toute la matinée ! Personne ne s'est assis. Neeko est un peu vexée.
+Neeko|fil_pique|{b} n'a pas reconnu Neeko déguisée en {b} ! C'est que Neeko est très forte.
+Neeko|fil_quotidien|Neeko a trouvé une fleur bleue ! Neeko la met dans ses cheveux. Neeko est très jolie.
+Neeko|fil_quotidien|Neeko a mangé avec tout le monde ! Neeko aime la famille. C'est une famille, oui ?
+Nidalee|fil_ennui|Je suis allée chasser seule. Le gibier est rare par ici. Les lapins sont malins.
+Nidalee|fil_pique|{b} a crié en me voyant entrer sous ma forme de couguar. C'est toujours moi.
+Nidalee|fil_quotidien|J'ai soigné une patte d'oiseau dans le jardin. Il est reparti. Je l'ai regardé longtemps.
+Nidalee|fil_quotidien|Dormi dans l'arbre près de la grange. Les lits sont trop mous.
+Nilah|fil_ennui|J'ai nagé dans le lac, couru jusqu'au bourg, couru en revenant. Il est neuf heures du matin.
+Nilah|fil_pique|{b} n'a pas rigolé à ma blague. C'était une bonne blague. Je la refais demain.
+Nilah|fil_quotidien|Gros rire avec tout le monde à la soirée. Je l'entends encore. C'est bon signe.
+Nilah|fil_quotidien|J'ai appris à sauter dans le lac depuis le ponton. Trois fois. Quatre. Je vais rester ici.
+Nocturne|fil_ennui|Tout le monde dort bien cette nuit. Ennuyeux.
+Nocturne|fil_pique|{b} laisse une lampe allumée toute la nuit. Je sais pourquoi.
+Nocturne|fil_quotidien|Le chien me suit dans le noir. Il n'a pas peur. Il devrait.
+Nocturne|fil_quotidien|Nuit sans lune. J'ai fait le tour du bourg. Personne ne m'a vu.
+Nunu & Willump|fil_ennui|Nunu : Willump veut jouer ! Moi aussi ! Personne ne veut jouer ! Willump : Hrrmm.
+Nunu & Willump|fil_pique|Nunu : {b} a dit que Willump était un gros tapis ! Willump est vexé. Moi aussi.
+Nunu & Willump|fil_quotidien|Nunu : On a fait une bataille de boules de neige ! Willump a gagné ! C'est un peu de la triche.
+Nunu & Willump|fil_quotidien|Nunu : J'ai fait un dessin de tout le monde. Willump est au milieu, il est le plus grand.
+Olaf|fil_ennui|J'ai cherché une bagarre au bourg. Personne n'a voulu. Lâches. Sympas, mais lâches.
+Olaf|fil_pique|{b} a planqué ma hache. Je dors pas sans ma hache. Je dors JAMAIS sans ma hache.
+Olaf|fil_quotidien|Grande bière, grand feu, grandes histoires. Une soirée comme je les aime.
+Olaf|fil_quotidien|Je me suis baigné dans le lac. Il était tiède. Quel pays de mauviettes.
+Orianna|fil_ennui|J'ai compté les tic-tac de l'horloge. Il y en a eu dix mille. Elle a deux secondes de retard.
+Orianna|fil_pique|{b} a joué avec la balle. La balle n'aime pas qu'on joue avec elle.
+Orianna|fil_quotidien|J'ai dansé dans la grande salle quand tout le monde dormait. C'était silencieux. C'était bien.
+Orianna|fil_quotidien|Quelqu'un a huilé mes articulations pendant la nuit. Je ne grince plus. Merci.
+Ornn|fil_ennui|La forge est froide. Je la rallume. Pour rien. Juste pour qu'elle soit chaude.
+Ornn|fil_pique|{b} m'a demandé de réparer sa fourchette. Une fourchette. Je l'ai réparée. Elle est parfaite.
+Ornn|fil_quotidien|J'ai fabriqué une nouvelle porte pour la grange. Elle tiendra mille ans. Vous, non.
+Ornn|fil_quotidien|J'ai trouvé un filon de bon fer derrière la colline. N'en parlez à personne.
+Pantheon|fil_ennui|Pas de guerre. J'ai fait des pompes jusqu'à ce que le sol abandonne.
+Pantheon|fil_pique|{b} m'a dit de me détendre. Je suis détendu. Je ne serre la lance qu'à moitié.
+Pantheon|fil_quotidien|J'ai cuit le pain ce matin. Comme avant. Personne n'a rien dit. Il était bon.
+Pantheon|fil_quotidien|Un gamin du bourg m'a demandé de lui apprendre à se battre. Je lui ai d'abord appris à courir.
+Poppy|fil_ennui|J'ai poli mon marteau. Ce n'est pas mon marteau. Je le garde pour quelqu'un.
+Poppy|fil_pique|{b} m'a soulevée pour rire. Je n'ai pas ri. Repose-moi.
+Poppy|fil_quotidien|J'ai réparé la barrière de l'enclos des chèvres. Elles ne sortiront plus.
+Poppy|fil_quotidien|Quelqu'un m'a dit merci aujourd'hui. Je ne sais pas trop pourquoi.
+Pyke|fil_ennui|J'ai aiguisé mon harpon. Il n'y a personne sur ma liste aujourd'hui. Pour l'instant.
+Pyke|fil_pique|{b} a pris ma place au bout de la table. Cette place, je la garde. Pour voir la porte.
+Pyke|fil_quotidien|J'ai dormi dans la baignoire. L'eau était froide. Comme il faut.
+Pyke|fil_quotidien|Odeur de poisson grillé ce soir. Ça m'a rappelé le port. Je suis sorti.
+Qiyana|fil_ennui|Pas une seule mission digne de moi cette semaine. Je me demande à quoi sert ce repère.
+Qiyana|fil_pique|{b} m'a coupé la parole au dîner. On ne coupe pas la parole à une impératrice.
+Qiyana|fil_quotidien|J'ai trouvé une pierre précieuse dans le ruisseau. Elle me ressemble : rare et parfaite.
+Qiyana|fil_quotidien|On m'a fait une couronne de fleurs. Ce n'est pas une vraie couronne. Je la porte quand même.
+Quinn|fil_ennui|Valor a fait le tour de la vallée trois fois. Rien à signaler. Il est vexé.
+Quinn|fil_pique|{b} a essayé de nourrir Valor avec du pain. C'est un aigle. Il est vexé, lui aussi.
+Quinn|fil_quotidien|Lettre de mon frère. Enfin, de quelqu'un qui écrit comme lui. Je la garde.
+Quinn|fil_quotidien|J'ai grimpé sur le toit avec Valor pour voir le coucher du soleil. Il a l'air d'aimer ça.
+Rakan|fil_ennui|Pas de mission ? Pas de public ? Je vais danser pour les poules. Elles me regardent avec admiration.
+Rakan|fil_pique|{b} a dit que mes plumes étaient de trop. Mes plumes sont PARFAITES. Xayah, défends-moi.
+Rakan|fil_quotidien|Xayah m'a souri ce matin. Trois secondes. J'ai compté.
+Rakan|fil_quotidien|J'ai appris une nouvelle danse aux enfants du bourg. Ils dansent mieux que vous.
+Rammus|fil_ennui|Ok.
+Rammus|fil_pique|{b} m'a fait rouler dans l'escalier. Ok.
+Rammus|fil_quotidien|Soleil. Ok.
+Rammus|fil_quotidien|Le chien dort contre moi. Ok.
+Rek'Sai|fil_ennui|J'ai creusé sous le potager. Toute la journée. Rien de bon à manger.
+Rek'Sai|fil_pique|{b} marche trop fort dans le couloir. Je l'entends depuis la cave.
+Rek'Sai|fil_quotidien|La terre est humide après la pluie. Bonne terre. Je reste dessous.
+Rek'Sai|fil_quotidien|Le chien est descendu me voir dans le tunnel. Il est remonté vite.
+Rell|fil_ennui|J'ai tordu tout le métal de l'atelier. Puis je l'ai redressé. Ça ne m'a pas calmée.
+Rell|fil_pique|{b} a dit que j'étais trop sérieuse. Je suis sérieuse. C'est toi qui ne l'es pas assez.
+Rell|fil_quotidien|J'ai réparé l'armure de tout le monde. Personne n'a dit merci. Je m'en fiche. Un peu.
+Rell|fil_quotidien|J'ai monté le vieux cheval du meunier. Il est lent. Il est gentil. Je l'aime bien.
+Renata Glasc|fil_ennui|Trois jours sans une seule affaire à conclure. Je commence à proposer des contrats au chien.
+Renata Glasc|fil_pique|{b} m'a dit que je n'étais pas drôle. Je ne suis pas payée pour être drôle.
+Renata Glasc|fil_quotidien|J'ai revu les comptes du repère. On peut faire mieux. On va faire mieux.
+Renata Glasc|fil_quotidien|Le vin de l'auberge est médiocre. Je vais leur proposer un fournisseur.
+Renekton|fil_ennui|Pas de combat. Ça gronde dans ma tête. Ça gronde de plus en plus fort.
+Renekton|fil_pique|{b} m'a regardé de travers au petit-déjeuner. Je n'ai rien fait. J'ai serré les dents.
+Renekton|fil_quotidien|J'ai nagé dans le lac. L'eau est froide. Ça calme un peu.
+Renekton|fil_quotidien|J'ai rêvé de Nasus. Je ne dirai pas ce que j'ai rêvé.
+Rengar|fil_ennui|Pas de proie digne de moi. J'ai traqué un sanglier pour m'entraîner. Il ne savait pas.
+Rengar|fil_pique|{b} a touché à mes trophées. Je compte mes trophées.
+Rengar|fil_quotidien|Nouvelle griffe accrochée au mur. Ne posez pas de questions.
+Rengar|fil_quotidien|J'ai chassé à l'aube. Le repas de ce soir, c'est moi.
+Riven|fil_ennui|Je me suis entraînée seule à l'aube. Je n'arrive pas à m'arrêter. Je ne sais pas faire autre chose.
+Riven|fil_pique|{b} a pris ma lame cassée pour de la ferraille. C'est tout ce qui me reste de quelqu'un.
+Riven|fil_quotidien|J'ai aidé le meunier à rentrer le blé. Le travail des mains, ça aide.
+Riven|fil_quotidien|J'ai dormi d'une traite. Pas de rêve. C'était la première fois depuis longtemps.

@@ -140,7 +140,7 @@ function regardExplique(g, h) {
   const depart = Object.keys(DEPART_TRAITS).filter(t => h.traits.includes(t)).map(t => DEPART_TRAITS[t]);
   const scores = Object.keys(TONS).map(t => [t, gout(h, t)]).sort((a, b) => b[1] - a[1]);
   return { ...r, niveau: e < 48 ? 'griefs' : e > 52 ? 'estime' : 'neutre',
-    depart: accorder(g, depart.length ? `Dès son arrivée, ${h.nom} ${depart.join(', et ')}.` : `À son arrivée, ${h.nom} ne te connaissait pas : ni confiance, ni méfiance.`),
+    depart: accorder(g, depart.length ? `Dès son arrivée, ${h.nom} ${depart.join(', et ')}.` : `À son arrivée, ${h.nom} ne savait rien de toi et attendait de voir.`),
     aime: scores.filter(x => x[1] >= 1.5).slice(0, 3).map(x => TONS[x[0]]), deteste: scores.filter(x => x[1] <= -1.5).slice(-3).reverse().map(x => TONS[x[0]]) };
 }
 

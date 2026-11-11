@@ -1,0 +1,69 @@
+# Voix des champions · lot 25 (Talon à Vi) · 11 nov. 2026 · fil, deuxième passe
+Talon|fil_ennui|Rien.
+Talon|fil_pique|{b} m'a cherché toute la journée. J'étais sur le toit.
+Talon|fil_quotidien|Lettre de Noxus. Je l'ai lue. Je l'ai brûlée.
+Talon|fil_quotidien|Le chien me suit sans faire de bruit. Il apprend.
+Taric|fil_ennui|J'ai poli toutes les gemmes du repère. Elles brillent. Moi aussi, d'ailleurs.
+Taric|fil_pique|{b} a dit que je passais trop de temps devant le miroir. Le miroir ne s'en plaint pas.
+Taric|fil_quotidien|J'ai cueilli un bouquet pour la grande table. Les couleurs vont ensemble. Évidemment.
+Taric|fil_quotidien|J'ai parlé avec Leona du lever du soleil. Elle en parle mieux que moi. C'est rare.
+Teemo|fil_ennui|J'ai planté des champignons dans tout le jardin ! Juste pour voir. Ne marchez pas dans le jardin.
+Teemo|fil_pique|{b} a dit que j'étais trop petit pour faire peur. Hihi. On verra.
+Teemo|fil_quotidien|J'ai fait le tour de la vallée en éclaireur ! Rien à signaler, sauf un écureuil très suspect.
+Teemo|fil_quotidien|J'ai cousu un nouvel insigne sur mon chapeau. Il est super. Il ne sert à rien. Il est super.
+Thresh|fil_ennui|Les couloirs sont trop calmes. J'aime le calme. Pas ce calme-là.
+Thresh|fil_pique|{b} a reculé quand je suis passé. Bien. Continue.
+Thresh|fil_quotidien|J'ai poli ma lanterne. Elle brille d'une lumière qui ne réchauffe personne.
+Thresh|fil_quotidien|Quelqu'un a fait un cauchemar cette nuit. Je l'ai entendu à travers le mur.
+Tristana|fil_ennui|Personne pour un concours de tir ? Personne ? Bon, je tire sur des pommes de pin.
+Tristana|fil_pique|{b} a dit que Boomer était un gros jouet. Boomer n'est PAS un jouet. Boomer est un ami.
+Tristana|fil_quotidien|J'ai grimpé tout en haut du grand chêne. Il y a une vue géniale. Je redescends pas.
+Tristana|fil_quotidien|J'ai écrit à Rumble. Enfin, j'ai dit bonjour. Il va en faire toute une histoire.
+Trundle|fil_ennui|J'ai cassé trois choses pour passer le temps. Personne m'a crié dessus. C'est encore plus ennuyeux.
+Trundle|fil_pique|{b} m'a dit que je sentais mauvais. J'ai pris un bain l'an dernier. C'est suffisant.
+Trundle|fil_quotidien|J'ai pêché un poisson énorme dans le lac. Je l'ai mangé cru. Personne voulait le cuire.
+Trundle|fil_quotidien|J'ai fait une sieste sur le toit. Je suis tombé. Pas grave. Le toit, si.
+Tryndamere|fil_ennui|J'ai couru jusqu'au sommet de la colline avec mon épée. Je suis redescendu. Je recommence.
+Tryndamere|fil_pique|{b} a dit que je ne parlais que de combat. Je parle aussi de manger. Et de dormir.
+Tryndamere|fil_quotidien|Lettre d'Ashe. Elle dit que tout va bien. Elle dit toujours ça.
+Tryndamere|fil_quotidien|Grande soirée hier. Je n'en ai aucun souvenir. Ça devait être bien.
+Twisted Fate|fil_ennui|J'ai fait une réussite avec mes cartes. Trois fois. J'ai gagné trois fois. Tu parles d'une surprise.
+Twisted Fate|fil_pique|{b} prétend que je triche. Je ne triche pas, je gagne. La différence est subtile.
+Twisted Fate|fil_quotidien|Partie de cartes à l'auberge hier. Je suis rentré avec une montre. Pas la mienne.
+Twisted Fate|fil_quotidien|Lettre de Graves. Elle dit seulement « tu me dois de l'argent ». Je lui dois de l'argent.
+Twitch|fil_ennui|J'ai fouillé toutes les poubelles du bourg. Rien de bon. Le bourg est trop propre.
+Twitch|fil_pique|{b} a jeté mon fromage. Il était parfait ! Il avait trois semaines !
+Twitch|fil_quotidien|J'ai trouvé un coin chaud derrière la forge. C'est mon coin maintenant. Ça sent bon.
+Twitch|fil_quotidien|Le chien a essayé de me manger. Puis il a senti. Il a abandonné.
+Udyr|fil_ennui|Les esprits sont calmes aujourd'hui. Moi aussi. C'est étrange.
+Udyr|fil_pique|{b} a dit que je parlais trop aux animaux. Ils répondent mieux que toi.
+Udyr|fil_quotidien|Un ours est passé à la lisière du bois. Il ne viendra pas plus près. Je lui ai demandé.
+Udyr|fil_quotidien|J'ai dormi dehors sous les étoiles. La paille, c'est pour les gens du sud.
+Urgot|fil_ennui|Personne à broyer. Je répare mes moteurs. Ils grincent. Comme moi.
+Urgot|fil_pique|{b} a dit que je faisais trop de bruit en marchant. J'ai six jambes.
+Urgot|fil_quotidien|Un enfant du bourg m'a demandé si j'avais mal. J'ai mal. Je ne lui ai pas dit.
+Urgot|fil_quotidien|J'ai regardé la fumée de la forge monter. Elle me rappelle Zaun.
+Varus|fil_ennui|L'arc est tendu, mais personne en face. Je reste sur le toit. Je surveille.
+Varus|fil_pique|{b} a pris ma place au coin du feu. Je n'ai rien dit. J'ai attendu debout derrière toi.
+Varus|fil_quotidien|J'ai rêvé de Ionia. Les deux voix sont d'accord, pour une fois : c'était un beau rêve.
+Varus|fil_quotidien|J'ai pêché avec le meunier. On n'a rien attrapé. On ne s'est pas parlé. C'était bien.
+Vayne|fil_ennui|Aucune trace, aucune piste. J'ai vérifié deux fois les serrures du repère.
+Vayne|fil_pique|{b} a laissé la porte de derrière ouverte toute la nuit. N'importe quoi aurait pu entrer.
+Vayne|fil_quotidien|J'ai nettoyé mon arbalète au calme. Le calme ne dure jamais. J'en profite.
+Vayne|fil_quotidien|Il a plu toute la nuit. J'ai bien dormi. Je ne sais pas pourquoi.
+Veigar|fil_ennui|J'ai préparé mon plan de domination du monde. Il est prêt. Il manque juste le monde.
+Veigar|fil_pique|{b} m'a tapoté la tête. TAPOTÉ. Tu figures désormais sur ma liste. En première position.
+Veigar|fil_quotidien|J'ai lu toute la nuit. Les sorts sont prêts. Mes chaussettes, moins.
+Veigar|fil_quotidien|Un enfant du bourg m'a demandé si j'étais un gnome. JE SUIS LE MAÎTRE DU MAL. Il m'a donné un bonbon.
+Vel'Koz|fil_ennui|J'ai analysé chaque pierre du repère. Données répétitives. Je propose un changement de décor.
+Vel'Koz|fil_pique|{b} a contesté mes calculs sans les avoir lus. Le savoir ne se conteste pas. Il se vérifie.
+Vel'Koz|fil_quotidien|J'ai observé les rituels du dîner. Vous parlez la bouche pleine. C'est fascinant.
+Vel'Koz|fil_quotidien|Hypothèse : le chien comprend plus de choses qu'il n'en montre. Expérience en cours.
+Vex|fil_ennui|J'me suis ennuyée tellement fort que mon ombre est partie se promener toute seule.
+Vex|fil_pique|{b} a ri trop fort au dîner. J'ai mangé dans ma chambre. Comme d'habitude.
+Vex|fil_quotidien|Il pleut. Enfin. Le soleil, c'est surfait.
+Vex|fil_quotidien|Quelqu'un a frappé à ma porte pour demander si ça allait. Ça va. Laissez-moi.
+Vi|fil_ennui|J'ai tapé sur le sac de sable jusqu'à ce qu'il explose. J'en ai besoin d'un autre.
+Vi|fil_pique|{b} a dit que je tapais comme une brute. C'est un compliment, ça. Merci.
+Vi|fil_quotidien|J'ai écrit à Cait. Trois lignes. C'est beaucoup pour moi.
+Vi|fil_quotidien|J'ai dormi douze heures. J'ai rien raté, hein ? Personne a explosé un truc sans moi ?

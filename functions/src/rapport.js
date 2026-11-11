@@ -170,7 +170,8 @@ function rapportMission(mission, resultat, opts = {}) {
   if (opts.repos > 0) fin.push(opts.repos >= 36 ? `L'équipe rentre épuisée : il lui faudra ${enDuree(opts.repos)} de repos.` : `Au repère, tout le monde a besoin de ${enDuree(opts.repos)} de repos avant de repartir.`);
   if (fin.length) p.push(fin.join(' '));
   // Finitions : élisions autour des noms et des durées (« besoin de une journée » → « d'une journée »).
-  return p.map(t => finir(t.replace(/\bde (une?|huit|onze)\b/g, "d'$1")));
+  // Le chien du repère peut apparaître dans un dénouement : sans son nom, on dit simplement « le chien ».
+  return p.map(t => finir(t.replace(/\{chien\}/g, opts.chien || 'le chien').replace(/\bde (une?)\b/g, "d'$1")));
 }
 
 module.exports = { rapportMission, enDuree };

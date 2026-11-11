@@ -1,0 +1,85 @@
+# Voix des champions · lot 20 (Cassiopeia à Gwen) · 11 nov. 2026 · fil, deuxième passe
+Cassiopeia|fil_ennui|Je me suis enroulée au soleil sur la dalle de la cour. Ne me parlez pas avant ce soir.
+Cassiopeia|fil_pique|{b} a dit que je sifflais en parlant. Approche, que je t'explique ça de plus près.
+Cassiopeia|fil_quotidien|Il fait froid dans ce repère. J'ai pris toutes les couvertures. Débrouillez-vous.
+Cassiopeia|fil_quotidien|Lettre de Katarina. Elle ne m'écrit que quand elle a besoin de quelque chose. Elle a besoin de quelque chose.
+Cho'Gath|fil_ennui|RIEN À MANGER QUI BOUGE. TRISTE.
+Cho'Gath|fil_pique|{b} A DIT « PAS TOUCHE » À LA CHÈVRE. J'AI PAS TOUCHÉ. J'AI REGARDÉ. LONGTEMPS.
+Cho'Gath|fil_quotidien|ON M'A DONNÉ UN SEAU DE POMMES. J'AI MANGÉ LE SEAU AUSSI. C'ÉTAIT UNE ERREUR.
+Cho'Gath|fil_quotidien|LE CHIEN N'A PAS PEUR DE MOI. JE NE COMPRENDS PAS. JE L'AIME BIEN.
+Corki|fil_ennui|J'ai démonté le moteur, je l'ai remonté. Il me reste une vis. Je sais pas d'où elle vient.
+Corki|fil_pique|{b} a demandé si mon engin pouvait porter deux personnes. Non. Et surtout pas toi.
+Corki|fil_quotidien|Petit vol au-dessus du bourg ce matin. Les vaches ont eu peur. Les enfants, non.
+Corki|fil_quotidien|Quelqu'un a mangé mes biscuits de vol. C'étaient des biscuits de VOL. Pour le VOL.
+Darius|fil_ennui|Les lames sont aiguisées. Les hommes sont reposés. Il ne manque qu'un ennemi.
+Darius|fil_pique|{b} s'est plaint de la soupe. Fais-la toi-même, la prochaine fois.
+Darius|fil_quotidien|J'ai montré aux nouveaux comment tenir une hache. Deux sur trois ont compris.
+Darius|fil_quotidien|Lettre de Draven. Trois pages sur lui-même. Une ligne pour demander comment je vais.
+Diana|fil_ennui|J'attends la nuit.
+Diana|fil_pique|{b} a laissé les volets ouverts sur ma chambre en plein midi. Je saurai qui.
+Diana|fil_quotidien|Croissant de lune ce soir. Je serai sur le toit, si quelqu'un veut savoir.
+Diana|fil_quotidien|Quelqu'un a frappé à ma porte pour me proposer du thé. J'ai dit non. J'aurais pu dire oui.
+Dr. Mundo|fil_ennui|MUNDO S'ENNUIE. MUNDO VA OPÉRER UNE CAROTTE.
+Dr. Mundo|fil_pique|{b} DIT QUE MUNDO PAS VRAI DOCTEUR. MUNDO VA EXAMINER {b}. DE TRÈS PRÈS.
+Dr. Mundo|fil_quotidien|MUNDO A SOIGNÉ LE CHIEN. LE CHIEN ALLAIT BIEN. MAINTENANT IL VA TRÈS BIEN.
+Dr. Mundo|fil_quotidien|MUNDO A BU LE SIROP DE TOUT LE MONDE. MUNDO SE SENT FORT.
+Draven|fil_ennui|Pas de mission, pas de public. Je vais jongler pour les poules. Elles adorent.
+Draven|fil_pique|{b} a dit que mon nom était trop long à crier. Il fait six lettres. Entraîne-toi.
+Draven|fil_quotidien|Nouvelle coupe de moustache. Vous l'avez remarquée, hein ? Dites que vous l'avez remarquée.
+Draven|fil_quotidien|J'ai signé des autographes au bourg. Personne n'avait demandé, mais ils étaient contents.
+Ekko|fil_ennui|Si je rembobine trois heures, je m'ennuie encore trois heures. Mauvaise affaire.
+Ekko|fil_pique|{b} a touché à mon établi. Je le sais. J'ai déjà vu ce moment-là trois fois.
+Ekko|fil_quotidien|J'ai réparé l'horloge de la grande salle. Elle avance de deux minutes. C'est fait exprès.
+Ekko|fil_quotidien|Peint un truc sur le mur de la grange. Si personne râle d'ici ce soir, je le garde.
+Elise|fil_ennui|Mes petites ont tissé toute la nuit. Le coin du grenier est magnifique. Personne ne monte le voir.
+Elise|fil_pique|{b} a crié en voyant une araignée dans son lit. Elle ne t'a rien fait. Pas encore.
+Elise|fil_quotidien|J'ai trouvé une robe au marché du bourg. Noire, évidemment. On ne change pas ce qui marche.
+Elise|fil_quotidien|Silence dans le repère ce soir. J'en profite.
+Evelynn|fil_ennui|Je m'ennuie, et quand je m'ennuie, je deviens créative. Vous êtes prévenus.
+Evelynn|fil_pique|{b} a cru que j'étais partie. J'étais juste derrière toi. Tout le dîner.
+Evelynn|fil_quotidien|Bain chaud, bougies, personne pour me déranger. Ça ne durera pas. Ça dure encore.
+Evelynn|fil_quotidien|Le boucher du bourg m'a fait un prix. Je n'ai rien eu à dire. Il a juste eu peur.
+Ezreal|fil_ennui|J'ai trouvé une carte au grenier ! Bon, c'est la carte du bourg. Je la connais déjà.
+Ezreal|fil_pique|{b} m'a encore traité de touriste. Moi, au moins, je reviens avec des souvenirs.
+Ezreal|fil_quotidien|J'ai rangé ma collection de cailloux. Ce ne sont pas des cailloux. Ce sont des artefacts.
+Ezreal|fil_quotidien|J'ai fait le tour du lac en courant. Bon, j'ai triché à la fin, je me suis téléporté.
+Fiddlesticks|fil_ennui|le grenier est calme. trop calme. j'aime ça.
+Fiddlesticks|fil_pique|{b} n'arrive plus à dormir. je me demande pourquoi.
+Fiddlesticks|fil_quotidien|un corbeau s'est posé sur la fenêtre. il est resté. il reste toujours.
+Fiddlesticks|fil_quotidien|quelqu'un a laissé une bougie au pied de l'escalier. c'était gentil. inutile. gentil.
+Fiora|fil_ennui|J'ai battu tout le monde à l'entraînement ce matin. Il est onze heures. Qu'est-ce que je fais du reste de la journée ?
+Fiora|fil_pique|{b} tient son épée comme une fourchette. Je ne dis rien. Je regarde. Ça me suffit.
+Fiora|fil_quotidien|Vin du bourg ce soir. Imbuvable. J'en ai bu deux verres.
+Fiora|fil_quotidien|J'ai donné une leçon d'escrime au fils du forgeron. Il a du talent. Il ne le saura pas de moi.
+Fizz|fil_ennui|Il n'y a pas assez d'eau ici. L'abreuvoir, c'est pas de l'eau, c'est une flaque avec de l'ambition.
+Fizz|fil_pique|{b} a dit que je sentais le poisson. Merci ! C'est le plus beau compliment de la semaine.
+Fizz|fil_quotidien|J'ai attrapé trois truites à la main ce matin. Je les ai relâchées. Elles avaient l'air vexées.
+Fizz|fil_quotidien|Course de bateaux en papier sur la rivière. J'ai gagné. J'étais le seul à jouer, mais j'ai gagné.
+Galio|fil_ennui|Je suis resté immobile si longtemps qu'un pigeon s'est installé sur ma tête. Il y est encore. On est amis.
+Galio|fil_pique|{b} m'a demandé de m'asseoir pendant le repas parce que je cache la lumière. Je suis ASSIS.
+Galio|fil_quotidien|Les enfants du bourg m'ont dessiné. Je suis très beau sur le dessin. Je l'ai accroché.
+Galio|fil_quotidien|J'ai porté la charrette du meunier jusqu'à la côte. Avec le meunier dedans. Il riait.
+Gangplank|fil_ennui|Pas de mer, pas de rhum, pas de mission. Encore une journée et je mets le feu à quelque chose.
+Gangplank|fil_pique|{b} a pris ma chaise près de la cheminée. Tu sais ce qu'on fait des mutins, chez moi ?
+Gangplank|fil_quotidien|J'ai gagné une bouteille aux dés contre le forgeron. Il dit que je triche. Il a raison.
+Gangplank|fil_quotidien|Une orange au petit-déj. Ça me rappelle Bilgewater. Ça me rend de mauvaise humeur.
+Garen|fil_ennui|J'ai fait cent tours de la cour. Je recommence. Ça vide la tête.
+Garen|fil_pique|{b} a mis du piment dans mon assiette. J'ai tout mangé. Je ne dirai pas que j'ai pleuré.
+Garen|fil_quotidien|Lettre de Lux. Elle va bien. Elle dit qu'elle va bien. Je relis entre les lignes.
+Garen|fil_quotidien|J'ai réparé le toit de la grange. Personne ne me l'a demandé. Il fuyait.
+Gnar|fil_ennui|Gnar gnar ! Gnar a creusé un trou dans le potager. Très beau trou. Gnar est fier.
+Gnar|fil_pique|{b} a pris mon boomerang ! Gnar va mordre !
+Gnar|fil_quotidien|Gnar a trouvé une pomme ! La plus grosse ! Gnar la garde. Pour toujours.
+Gnar|fil_quotidien|Gnar a fait une sieste dans le chien. Sur le chien. Le chien est d'accord.
+Gragas|fil_ennui|J'ai fini le tonneau. Pas le dernier. L'avant-dernier. On a un problème quand même.
+Gragas|fil_pique|{b} a dit que ma bière avait un goût de chaussette. Personne ne t'oblige à en reprendre trois fois.
+Gragas|fil_quotidien|Nouvelle recette au miel et au thym. Dégustation ce soir. Les volontaires signent ici.
+Gragas|fil_quotidien|J'ai dormi dans la grange. Je ne sais pas pourquoi. Je me suis réveillé très heureux.
+Graves|fil_ennui|J'ai nettoyé mon fusil. Il était propre. Je l'ai nettoyé quand même.
+Graves|fil_pique|{b} m'a encore piqué un cigare. Je compte, tu sais. Je compte tout.
+Graves|fil_quotidien|Partie de cartes au bourg hier soir. J'ai gagné de quoi payer la tournée. Pas la mienne, la leur.
+Graves|fil_quotidien|Le café d'ici est infect. J'en ai bu trois. On s'habitue à tout.
+Gwen|fil_ennui|J'ai recousu tous les ourlets du repère. Il n'y a plus rien à recoudre ! Cassez quelque chose, s'il vous plaît.
+Gwen|fil_pique|{b} a déchiré sa veste. ENCORE. Je vais la réparer. Mais je vais soupirer très fort.
+Gwen|fil_quotidien|J'ai cousu un petit nœud au collier du chien. Il est très chic maintenant.
+Gwen|fil_quotidien|Il fait beau ! J'ai étendu tout le linge dans la cour. Ça sent bon partout.

@@ -42,7 +42,8 @@ test('niveau de guilde : long terme, jamais au maximum en deux semaines', () => 
   const N = P.niveauGuilde;
   assert.equal(N(0), 1);
   // réputation d'un joueur actif au palier Inconnue : ~2,2 par jour
-  assert.ok(N(14 * 2.2) <= 4, N(14 * 2.2));
+  // Rythme revu le 11 nov. (audit) : les premiers rangs vont vite, mais deux semaines ne mènent pas au-delà du rang 7.
+  assert.ok(N(14 * 2.2) <= 7, N(14 * 2.2));
   for (let L = 2; L <= 50; L++) assert.ok(P.seuilNiveau(L) > P.seuilNiveau(L - 1));
   assert.equal(N(P.seuilNiveau(50)), 50);
   const av = P.avancementGuilde(P.seuilNiveau(7) + 5); assert.equal(av.niveau, 7); assert.ok(av.reste > 0 && av.pourcent >= 0);

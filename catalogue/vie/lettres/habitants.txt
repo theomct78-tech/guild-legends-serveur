@@ -263,7 +263,7 @@ trait:FANATIQUE|le père Anselme, chapelle de {bourg}|{nom} a pris la parole sur
 *|un gamin du quartier bas|Est-ce que c'est vrai que personne dans la guilde ne bat {nom} ? J'ai parié mes billes avec Rémi. Répondez vite s'il vous plaît, il veut les billes avant vendredi.
 *|le facteur|Petit mot en passant : {chien} m'attend au portail tous les matins maintenant et m'accompagne jusqu'au bout de la tournée. Je lui garde un bout de pain. Ne lui en voulez pas s'il rentre sans appétit.
 *|la marchande de quatre-saisons|{nom} m'a aidée à remonter mon étal après le coup de vent et a refusé que je paie quoi que ce soit. J'ai glissé des pommes dans son sac. Ne dites rien.
-*|le maire de {bourg}|Je voulais vous dire que les gens d'ici dorment mieux depuis que {guilde} s'est installée. On ne vous le dit jamais, on est comme ça. Donc voilà, c'est écrit. Ne le répétez pas trop.
+*|le maire de {bourg}|Je voulais vous dire que les gens d'ici dorment mieux depuis que votre guilde s'est installée là-haut. On ne vous le dit jamais, on est comme ça. Donc voilà, c'est écrit. Ne le répétez pas trop.
 *|un voisin du repère|Sans vouloir me plaindre, il y a eu du bruit chez vous jusqu'à deux heures. Des rires, surtout. Bon. En vrai ça fait plaisir d'entendre ça. Mais deux heures, quand même.
 *|Mme Colin|J'ai tricoté une écharpe pour {nom}. Je n'ai pas osé demander la taille, alors elle fait trois mètres. Ça ira à tout le monde, comme ça.
 *|l'aubergiste du Cerf Blanc|{nom} a laissé une ardoise de 4 PO l'autre soir. Rien de grave, je sais où vous trouver. Je le note juste pour que ce soit dit. Et le ragoût de jeudi est pour vous si ça passe régler.
@@ -271,4 +271,4 @@ trait:FANATIQUE|le père Anselme, chapelle de {bourg}|{nom} a pris la parole sur
 *|un détracteur un peu moins anonyme|C'est encore moi. Bon. {nom} a rattrapé ma charrette qui dévalait la côte hier. Ça ne change rien à ce que je pense. Mais ça change un peu quand même. Je ne signe toujours pas.
 *|les enfants de la rue des Tanneurs|On a fait un dessin de toute la guilde. On a dessiné {nom} en très grand parce qu'on préfère {nom}. {chien} a huit pattes parce que Lotte sait pas s'arrêter. Vous pouvez l'accrocher ?
 *|une admiratrice secrète|Je passe devant le repère tous les matins en faisant semblant d'aller au lavoir. Le lavoir est de l'autre côté de la ville. Dites à {nom} que quelqu'un fait un grand détour pour rien.
-*|le boulanger de la rue du Four|Depuis que {guilde} est là, je vends le double. Vos héros mangent comme une armée. Le pain du dimanche sera livré au portail, c'est la maison qui offre. Bonjour à {nom}, qui me prend six pains à chaque passage.
+*|le boulanger de la rue du Four|Depuis que votre guilde est là, je vends le double. Vos héros mangent comme une armée. Le pain du dimanche sera livré au portail, c'est la maison qui offre. Bonjour à {nom}, qui me prend six pains à chaque passage.

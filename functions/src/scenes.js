@@ -143,8 +143,9 @@ function lireRepliques(dossier = path.join(CATALOGUE, 'vie/repliques')) {
     }
   return out;
 }
-// Un skin d'un autre univers (Lux Star Guardian…) n'a pas la voix du champion de Runeterra : il ne parle pas dans les scènes.
-const repliquesDe = (rep, h, sit) => (h && (h.univers ?? 'classic') === 'classic' && rep?.[h.champion]?.[sit]) || [];
+// 11 nov. 2026 (audit) : les héros portent le nom de leur champion, quel que soit leur skin. Ils parlent donc tous avec sa voix ;
+// avant, seuls les skins classiques parlaient, et presque tous les héros tombaient sur des répliques génériques.
+const repliquesDe = (rep, h, sit) => (h && rep?.[h.champion]?.[sit]) || [];
 // Certains héros n'ont pas de corps ordinaire : un golem, une statue, un spectre ou un esprit ne mange pas, ne boit pas et ne dort pas.
 // Une scène de soupe ou de cauchemar ne leur est jamais confiée (respecter le personnage passe avant la variété).
 const SANS_CORPS = new Set(['Blitzcrank', 'Orianna', 'Galio', 'Malphite', 'Thresh', 'Karthus', 'Hecarim', 'Kalista', 'Mordekaiser', 'Viego',

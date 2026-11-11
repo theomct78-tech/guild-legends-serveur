@@ -40,6 +40,9 @@ const PARAMS = {
   chanceSceneSolo: 0.22,            // chance qu'une activité seule donne une scène plutôt qu'une ligne de routine
   delaiReutilisationScene: 336,     // heures avant qu'une même scène puisse revenir (14 jours : constat de la simulation de 3 mois)
   dureeCarte: 24,                   // heures avant qu'une demande sans réponse prenne sa réponse par défaut (24 h : simulation de 3 mois, joueurs occasionnels)
+  factureChance: 0.3,               // une dispute fraîche avec un gamin dedans finit au bourg une fois sur trois…
+  factureVille: 0.1,                // par créneau où un gamin traîne au bourg
+  factureEcart: 24 * 5,             // …pas plus d'une facture tous les cinq jours
   dureeCarteDepart: 72,             // une lettre de départ attend trois jours : on ne perd pas un héros pour un week-end sans connexion
   fideliteDepart: 20,               // en dessous, le héros écrit sa lettre de départ
   usure: { energie: 6, social: 3.5, elan: 2.2, loisir: 5 }, // baisse des besoins par créneau éveillé (avant personnalité)
@@ -379,6 +382,7 @@ function simulerCreneau(g, scenes, detaille = true, arcs = null, quetes = null) 
     }
   }
   if (detaille && arcs && !nuit) vivreArcs(g, arcs, rng, { relation, souvenir, borne });
+  if (detaille && !nuit) require('./fil').vivre(g, rng);
   for (const h of presents) majMoral(g, h);
   // La taverne aide les tensions à retomber (un verre, une partie de cartes, et on se reparle).
   const apaise = RP.effet(g, 'tension');
@@ -437,7 +441,9 @@ const enseigne = (a, b) => (a.traits.includes('ERUDIT') || a.traits.includes('PA
 
 /* ---------- Chronique ---------- */
 // Moments qui doivent toujours apparaître, quitte à reprendre la scène la plus ancienne.
-const OBLIGATOIRES = ['mediation', 'reconciliation', 'retour_conges', 'soiree', 'depart_conges', 'fugue', 'recit_mission', 'arrivee'];
+// Le récit de mission n'est plus obligatoire (audit du 11 nov.) : le héros annonce lui-même son retour dans le fil, et une scène
+// déjà lue dans les deux semaines ne revient plus pour combler le vide.
+const OBLIGATOIRES = ['mediation', 'reconciliation', 'retour_conges', 'soiree', 'depart_conges', 'fugue', 'arrivee'];
 function ecrire(g, scenes, declencheur, heros, lieu, rng, importance) {
   if (!scenes) return null;
   const ctx = { a: heros[0], b: heros[1], c: heros[2], lieu, nuit: estNuit(g.t), heure: heureLocale(g.t), relation: heros[1] ? relation(g, heros[0], heros[1]) : null,
@@ -561,6 +567,17 @@ const CARTES = {
     ],
     defaut: 'laisser',
   },
+  // La facture du bourg : une dispute qui a fini au bourg, et quelqu'un à la porte avec la note (catalogue/vie/factures.txt).
+  facture: {
+    titre: () => 'Une facture du bourg',
+    options: [
+      { id: 'payer', libelle: 'Payer, et ne plus en parler', ton: 'genereux' },
+      { id: 'retenue', libelle: 'Payer, mais sur leur solde', ton: 'juste' },
+      { id: 'contester', libelle: 'Contester la note', ton: 'ruse' },
+      { id: 'reparer', libelle: 'Les envoyer réparer eux-mêmes', ton: 'ferme' },
+    ],
+    defaut: 'payer',
+  },
   billet: { titre: h => `Un mot de ${h.nom}`, options: [{ id: 'garder', libelle: 'Le garder', ton: 'juste' }], defaut: 'garder' },
   quete: {
     titre: h => `${h.nom} te demande une faveur`,
@@ -584,6 +601,15 @@ const CARTES = {
 };
 const COUT_SOIREE = { tournee: 12, financer: 5 }; // or par participant attendu (PROPOSITION)
 
+let FACTURES = null;
+function factures() {
+  if (FACTURES) return FACTURES;
+  try {
+    FACTURES = require('node:fs').readFileSync(require('node:path').join(require('./chemins'), 'vie/factures.txt'), 'utf8').split('\n')
+      .filter(l => l.trim() && !l.startsWith('#')).map(l => { const [m, recit, note] = l.split('|'); return { montant: +m, recit, note }; });
+  } catch { FACTURES = []; }
+  return FACTURES;
+}
 function genererCartes(g, rng, scenes = null) {
   const ouvertes = new Set(g.cartes.filter(c => c.etat === 'ouverte').map(c => `${c.type}|${c.heros.join('|')}`));
   const recente = (type, id, h) => g.cartes.some(c => c.type === type && c.heros.includes(id) && g.t - c.t < h);
@@ -595,10 +621,22 @@ function genererCartes(g, rng, scenes = null) {
       if (def.declenche(h, g) && rng() < (type === 'depart' ? 1 : type === 'soiree' ? 0.1 : 0.25)) creerCarte(g, type, [h], scenes);
     }
   }
+  // Un gamin au bourg, et quelqu'un de la guilde l'y rejoint (de préférence quelqu'un déjà sur place) : il arrive que la
+  // soirée tourne mal, même sans dispute au repère.
+  const presents = g.heros.filter(h => h.etat === 'present'), gamin = presents.find(h => h.lieu === 'ville' && require('./fil').bande(h) === 'gamin');
+  if (gamin && presents.length > 1 && factures().length && !g.cartes.some(c => c.type === 'facture' && g.t - c.t < PARAMS.factureEcart) && rngDepuis(`${g.id}#facture#${g.t}`)() < PARAMS.factureVille) {
+    const autres = presents.filter(h => h !== gamin), surPlace = autres.filter(h => h.lieu === 'ville');
+    const pool = surPlace.length ? surPlace : autres; creerCarte(g, 'facture', [gamin, pool[Math.floor(rng() * pool.length)]], scenes);
+  }
   // Conflit : deux disputes en 48 h entre les mêmes héros
   for (const [k, r] of Object.entries(g.relations)) {
     // Une dispute qui laisse une forte tension, ou deux disputes en quatre jours (calibrage de la simulation de 3 mois)
     const n = (r.disputes || []).filter(t => g.t - t < 96).length, chaud = (r.disputes || []).some(t => g.t - t < 24) && r.tension >= 55;
+    // Une dispute récente entre deux héros, dont au moins un gamin : parfois, elle a fini au bourg, et le bourg envoie la note.
+    const fraiche = (r.disputes || []).some(t => g.t - t < 12), [ia, ib] = k.split('|');
+    const A = g.heros.find(h => h.id === ia), Bh = g.heros.find(h => h.id === ib);
+    if (fraiche && A && Bh && factures().length && !g.cartes.some(c => c.type === 'facture' && g.t - c.t < PARAMS.factureEcart)
+      && [A, Bh].some(h => require('./fil').bande(h) === 'gamin') && rng() < PARAMS.factureChance) { creerCarte(g, 'facture', [A, Bh], scenes); continue; }
     if (n >= 2 || chaud) { const [a, b] = k.split('|'); if (!ouvertes.has(`conflit|${a}|${b}`) && !recente('conflit', a, 72)) creerCarte(g, 'conflit', [a, b].map(id => g.heros.find(h => h.id === id)), scenes); }
   }
 }
@@ -628,6 +666,13 @@ function contexteCarte(g, type, heros, scenes) {
     const contexte = vu ? [`Ce qui s'est passé : ${vu.texte}`, `Depuis, la tension n'est pas retombée. Le reste de la guilde attend de voir ce que tu vas faire.`]
       : [CONFLITS_OPAQUES[Math.floor(rng() * CONFLITS_OPAQUES.length)].replace(/\{a\}/g, a.nom).replace(/\{b\}/g, b.nom)];
     return { contexte, voix: [voix(a, 'plaide', b), voix(b, 'plaide', a)].filter(Boolean) };
+  }
+  if (type === 'facture') {
+    const [a, b] = heros, L = factures(); g.usage ||= {};
+    const neuves = L.filter(f => g.usage[`B:${f.recit}`] == null || g.t - g.usage[`B:${f.recit}`] >= 24 * 30);
+    const f = (neuves.length ? neuves : L)[Math.floor(rng() * (neuves.length || L.length))]; g.usage[`B:${f.recit}`] = g.t;
+    const r = x => F.finir(x.replace(/\{a\}/g, a.nom).replace(/\{b\}/g, b.nom).replace(/\{bourg\}/g, g.monde?.bourg || 'le bourg'));
+    return { montant: f.montant, contexte: [r(f.recit), `La note, posée sur ton bureau : « ${r(f.note)} » Total : ${f.montant} PO.`], voix: [voix(a, 'plaide', b), voix(b, 'plaide', a)].filter(Boolean) };
   }
   const h = heros[0];
   const sit = { conges: 'demande_conges', augmentation: 'demande_augmentation', soiree: 'demande_soiree', depart: 'depart' }[type];
@@ -707,6 +752,21 @@ function repondre(g, scenes, idCarte, option, parDefaut = false) {
     if (option === 'augmenter') { if (h.motivation === 'or' || t.has('CUPIDE') || t.has('MERCENAIRE')) { h.salaire = Math.round(h.salaire * 1.4); h.fidelite = 40; out.push(`${h.nom} reste, pour l'instant. L'or a parlé.`); } else { out.push(`${h.nom} regarde la bourse, puis toi : « Tu n'as rien compris. »`); partir(g, h, out); } }
     if (option === 'laisser') partir(g, h, out);
   }
+  if (c.type === 'facture') {
+    const [a, b] = H, m = c.montant || 40, bourg = g.monde?.bourg || 'le bourg';
+    motif = { payer: `la facture du bourg, payée sans un mot`, retenue: `la facture retenue sur la solde de ${a.nom} et ${b.nom}`, contester: `la facture du bourg, contestée`, reparer: `${a.nom} et ${b.nom}, envoyés réparer au bourg` }[option];
+    if (option === 'payer') { concernes = [{ h: a, poids: 0.6 }, { h: b, poids: 0.6 }]; g.po -= m; out.push(parDefaut ? `Faute de réponse, l'intendance paie les ${m} PO pour que l'affaire ne traîne pas.` : `Tu paies les ${m} PO. ${a.nom} et ${b.nom} évitent ton regard toute la soirée.`); }
+    if (option === 'retenue') { concernes = [{ h: a, poids: -0.3 }, { h: b, poids: -0.3 }]; g.po -= m;
+      for (const x of [a, b]) { x.retenue = (x.retenue || 0) + Math.ceil(m / 2); effet(x, -3, 'La facture retenue sur la solde', 48); }
+      out.push(`Le coffre avance les ${m} PO. ${Math.ceil(m / 2)} PO chacun seront retenus sur la prochaine paie de ${a.nom} et ${b.nom}.`); }
+    if (option === 'contester') { concernes = [{ h: a, poids: 0.3 }, { h: b, poids: 0.3 }];
+      if (rngJ() < 0.5) out.push(`Tu fais remarquer que la vitre était déjà fêlée et que le banc était vermoulu. Le bourg retire la note en grommelant.`);
+      else { const plus = Math.round(m * 1.5); g.po -= plus; out.push(`Le bailli de ${bourg} ne se laisse pas faire, et la note revient avec les frais de l'huissier : ${plus} PO.`); } }
+    if (option === 'reparer') { concernes = [{ h: a, poids: -0.6 }, { h: b, poids: -0.6 }];
+      for (const x of [a, b]) { effet(x, -5, 'Une journée de réparations au bourg', 48); }
+      relation(g, a, b).tension = 0;
+      out.push(`${a.nom} et ${b.nom} passent la journée à ${bourg}, un marteau à la main, sous les yeux de tout le monde. Ils rentrent ensemble, sans se parler, mais ensemble.`); }
+  }
   if (c.type === 'billet') {
     const r = B.repondreBillet(g, c, h, option, parDefaut);
     out.push(...r.lignes);
@@ -785,6 +845,8 @@ function retourMission(g, ids, issue, { blesses = [], morts = [], violente = fal
     h.besoins.energie = borne(h.besoins.energie - 30); h.besoins.elan = borne(h.besoins.elan + 20); h.aRaconter = 'recit_mission';
     if (h.congesApresMission) { h.etat = 'conges'; h.jusqua = g.t + h.congesApresMission; h.congesApresMission = null; }
   }
+  // Les héros annoncent eux-mêmes leur retour dans le fil de la guilde.
+  require('./fil').retour(g, ids.map(id => g.heros.find(x => x.id === id)).filter(h => h && h.etat !== 'mort'), issue, blesses, mission);
   for (const id of morts) {
     const mort = g.heros.find(x => x.id === id);
     for (const o of g.heros) if (o !== mort && o.etat !== 'mort') { const r = relation(g, mort, o); if (r && r.aff >= 30) souvenir(o, g.t, r.aff >= 60 ? -25 : -12, `La mort de ${mort.nom}`, 168); }

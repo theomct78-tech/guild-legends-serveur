@@ -28,7 +28,7 @@ VIE-1020|premiere_rencontre|recent:arrivee:b|2|aff+3|{a} montre à {b} la marche
 VIE-1021|premiere_rencontre|recent:arrivee:b,a:MEFIANT|1||{a} observe {b} déballer ses affaires depuis l'encadrement de la porte, sans rien dire, et note mentalement chaque arme.
 VIE-1022|premiere_rencontre|recent:arrivee:b,a:FARCEUR|1||{a} a placé un seau d'eau au-dessus du lit de {b}. Tradition du repère, affirme {a}. Personne d'autre n'a jamais entendu parler de cette tradition.
 VIE-1023|premiere_rencontre|recent:arrivee:b,a:GOURMAND|1|aff+3|{a} accueille {b} avec une assiette pleine. « Ici, on mange d'abord, on se présente après. »
-VIE-1024|premiere_rencontre|recent:arrivee:b,a.So<35|1||{a} serre la main de {b}, longuement, d'une poigne solide. C'est tout. Pour {a}, c'est déjà beaucoup.
+VIE-1024|premiere_rencontre|recent:arrivee:b,a.So<35|1||{a} serre la main de {b}, longuement, d'une poigne solide, sans un mot. {b} masse ses doigts pendant tout le repas.
 VIE-1025|bon_moment|recent:arrivee:a|1|aff+2|{a} cherche encore où sont rangées les assiettes. {b} lui montre, puis lui montre aussi la cachette des bonnes confitures. C'est un secret, précise {b}. Un secret partagé par toute la guilde.
 VIE-1026|repos|recent:arrivee:a|1||{a} a mal dormi la première nuit : le lit grince, le vent siffle sous la porte, et {chien} est venu se coucher sur ses pieds à trois heures du matin, en ronflant. Au réveil, {a} sourit quand même.
 
@@ -109,4 +109,4 @@ VIE-1124|recit_mission|recent:blessure:a|2||{a} franchit le portail en boitant, 
 VIE-1125|recit_mission||2||{a} vide ses poches sur la grande table au retour de {lieu_mission:a} : trois cailloux, une plume, un bouton d'uniforme qui n'est pas le sien. Chacun a son histoire. Toutes seront racontées.
 VIE-1126|arrivee||2||{a} pose ses affaires au pied d'un lit libre et reste un instant immobile, à regarder la salle commune, les armes au mur, les initiales gravées sous la table. Puis {chien} vient renifler ses bottes, longuement, et donne un coup de langue. L'inspection est validée.
 VIE-1127|arrivee|recent:arrivee:a,soir|2||Le premier soir, {a} dîne au bout de la table, un peu à l'écart. Avant le dessert, quelqu'un a poussé une assiette vers {a}, puis une chope. Au coucher, il y a déjà des surnoms.
-VIE-1128|arrivee|recent:arrivee:a,a.So<40|2||{a} visite le repère en silence, ouvre chaque porte, compte les sorties, et choisit le lit le plus proche de la fenêtre. Personne ne pose de questions. C'est déjà une forme de bienvenue.
+VIE-1128|arrivee|recent:arrivee:a,a.So<40|2||{a} visite le repère en silence, ouvre chaque porte, compte les sorties, et choisit le lit le plus proche de la fenêtre. Personne ne pose de questions. Le soir, il y a une couverture de plus sur ce lit.

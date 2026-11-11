@@ -103,11 +103,13 @@ function ajouterExperience(xpStats, gains) { for (const [s, v] of Object.entries
 /* ---------- Niveau de guilde : la réputation cumulée ----------
  * Les missions rapportent de la réputation (1 à 4 au palier Inconnue, jusqu'à 25 au palier Légendaire). Le niveau se lit
  * dans la réputation cumulée. Seuils calculés pour un joueur actif (missions envoyées chaque jour, 80 % de réussite) :
- * niveau 5 vers 3 semaines, 12 vers 3 mois, 20 vers 8 mois, 35 vers un an et demi, 50 vers trois ans.
+ * rang 3 dans la semaine, 7 vers trois semaines, 12 vers deux mois, 20 vers cinq mois, 35 vers un an, 50 vers deux ans et demi.
  */
 const RYTHME = {
   repMoyenne: { inconnue: 2.5, locale: 4, regionale: 7, renommee: 10.5, legendaire: 17.5 },
-  jours: L => L < 5 ? 5 : L < 12 ? 10 : L < 20 ? 19 : L < 35 ? 21 : 37,  // jours pour passer du niveau L au suivant
+  // 11 nov. 2026, audit : au rythme d'origine, une guilde de bêta finissait sa partie sans avoir ouvert une seule pièce
+  // (rang 7 vers deux mois). Les premiers rangs vont désormais vite : rang 3 dans la semaine, rang 7 vers trois semaines.
+  jours: L => L < 7 ? 2 : L < 12 ? 7 : L < 20 ? 14 : L < 35 ? 21 : 37,  // jours pour passer du niveau L au suivant
 };
 const capaciteNiveau = L => require('./rules').capacity(L);
 const palierNiveau = L => L <= 5 ? 'inconnue' : L <= 12 ? 'locale' : L <= 20 ? 'regionale' : L <= 35 ? 'renommee' : 'legendaire';

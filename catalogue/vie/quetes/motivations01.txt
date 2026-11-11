@@ -169,7 +169,7 @@ e2_epreuves: voyage 2 ; diplomatie 1
 e2_recit: continuer {jusqua_lieu2}, dormir à la belle étoile, et décider, au matin, de rentrer ou non
 e2_reussite: Au matin, sur la colline {de_lieu2}, {nom} regarde le soleil se lever, et décide de rentrer. Pas par devoir. Par envie.
 e2_echec: {nom} se perd un peu en route. Et se retrouve beaucoup. Le retour prend deux jours de plus. Personne ne s'en plaint.
-fin: {nom} rentre au repère avec de la boue sur les bottes et des fleurs sauvages dans les cheveux. Au dîner, on entend son rire plus souvent que d'habitude. Ça fait du bien à tout le monde.
+fin: {nom} rentre au repère avec de la boue sur les bottes et des fleurs sauvages dans les cheveux. Au dîner, on entend son rire jusque dans la cour.
 refus: {nom} serre les poings, puis les desserre. « D'accord. » Le soir, {nom} tourne en rond dans la cour pendant des heures, comme un animal en cage.
 
 === QUM-REDEMPTION | Ce que j'ai fait {a_lieu1}

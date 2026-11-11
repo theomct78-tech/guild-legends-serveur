@@ -13,4 +13,8 @@ function finir(t) {
     .replace(/(^|[.!?] |[.!?…] ?» )([a-zàâéèêîôû])/g, (_, a, c) => a + c.toUpperCase())
     .replace(/ {2,}/g, ' ').trim();
 }
-module.exports = { finir };
+/* Seulement l'élision, pour les répliques du fil : elles sont écrites telles quelles (Fiddlesticks écrit sans majuscules). */
+function elider(t) {
+  return t.replace(new RegExp(`(?<![\\p{L}])(de|que|lorsque|puisque|jusque|presque|De|Que) (${VOYELLE})`, 'gu'), (_, m, v) => `${m.slice(0, -1)}'${v}`);
+}
+module.exports = { finir, elider };

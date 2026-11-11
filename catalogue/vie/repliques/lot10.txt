@@ -1,0 +1,276 @@
+# Voix des champions · lot 10 (Aatrox à Camille) · 11 nov. 2026, après l'audit
+# Ce que chaque champion écrit lui-même dans le fil de la guilde, dans ses stories, et comment le correspondant le décrit.
+# Format : Champion|situation|texte. Situations :
+#   bande          gamin (insupportable, poste beaucoup) · discret (poste peu) · grand (le plus mûr, calme les autres)
+#   fil_depart     au moment de passer le portail        fil_retour_bon / fil_retour_mauvais   au retour, selon l'issue
+#   fil_blesse     au retour, blessé                     fil_ennui    au repère, sans rien à faire
+#   fil_maitre     message adressé au maître              fil_pique    pique lancée à {b}, un autre héros de la guilde
+#   story          légende de story, à la première personne, au présent
+#   correspondant  ce que le correspondant de la Chambre écrit en le voyant arriver ({nom} = le héros)
+# Règles : le français qu'on s'écrit aujourd'hui, la voix du champion (inspirée du lore, jamais recopiée des répliques officielles),
+# une phrase ou deux, un détail concret, pas de morale finale. Le champion peut accorder pour lui-même ; jamais pour {b}.
+# Les champions muets s'expriment par une action entre parenthèses.
+
+Aatrox|bande|grand
+Aatrox|fil_depart|Encore une guerre de village. Je ferai semblant que c'est important.
+Aatrox|fil_retour_bon|Ils ont fui avant la fin. Les mortels fuient toujours avant la fin.
+Aatrox|fil_retour_mauvais|J'ai connu des défaites qui ont effacé des empires. Celle-là ne mérite même pas qu'on s'en souvienne.
+Aatrox|fil_blesse|Ce corps est fragile. Ne me regardez pas comme ça, ce n'est pas le mien.
+Aatrox|fil_ennui|Quelqu'un dans ce repère sait-il se battre, ou dois-je continuer à affûter pour rien ?
+Aatrox|fil_maitre|Tu me traites comme un employé. C'est presque touchant.
+Aatrox|fil_pique|{b}, tu tiens ton arme comme on tient un bouquet.
+Aatrox|story|La cour est vide à cette heure. Enfin du calme.
+Aatrox|story|J'ai cassé le mannequin. Le troisième de la semaine. Ils sont mal faits.
+Aatrox|correspondant|Je dois être honnête : quand {nom} est entré dans notre bureau, deux employés ont démissionné sur place. Le troisième s'est caché sous le comptoir.
+
+Ahri|bande|gamin
+Ahri|fil_depart|J'y vais. Ne mangez pas tout le dessert sans moi, je le saurai.
+Ahri|fil_retour_bon|Fait. Et j'ai eu trois invitations à dîner en chemin. J'ai dit non à deux.
+Ahri|fil_retour_mauvais|Bon. Ce n'était pas ma meilleure journée. Personne ne me parle avant le bain.
+Ahri|fil_blesse|Une égratignure. Enfin, une grosse. Quelqu'un a du baume qui ne sent pas le vieux ?
+Ahri|fil_ennui|Je m'ennuie tellement que j'ai compté les poutres du plafond. Il y en a quarante-deux.
+Ahri|fil_maitre|Tu fais cette tête quand tu réfléchis ? C'est mignon. Non, je ne me moque pas.
+Ahri|fil_pique|{b}, tu as encore essayé de te coiffer ce matin ? Quel courage.
+Ahri|story|Le bassin du jardin, la lune, et personne pour me déranger. Pour l'instant.
+Ahri|story|Quelqu'un a laissé des pêches sur la table. Ce quelqu'un s'en souviendra.
+Ahri|correspondant|{nom} est arrivée avec un sourire qui a fait oublier son prénom à mon garde. Il a mis dix minutes à retrouver sa clé.
+
+Akali|bande|gamin
+Akali|fil_depart|Je file. Si quelqu'un touche à mes kunaïs, je le saurai.
+Akali|fil_retour_bon|Personne m'a vue. Personne. Vous pouvez applaudir maintenant.
+Akali|fil_retour_mauvais|J'avais pas besoin de renforts. Bon, si. Un peu. Changez de sujet.
+Akali|fil_blesse|C'est rien. J'ai eu pire en tombant d'un toit à douze ans.
+Akali|fil_ennui|Si on m'interdit encore de m'entraîner sur le toit, je vais vraiment m'entraîner sur le toit.
+Akali|fil_maitre|Je t'aime bien, mais si tu me donnes encore une mission d'escorte, je démissionne.
+Akali|fil_pique|{b} fait autant de bruit qu'un troupeau de worax. Je dis ça, je dis rien.
+Akali|story|Le toit, c'est le seul endroit du repère où personne ne me cherche.
+Akali|story|Nouveau masque. Ne demandez pas où je l'ai eu.
+Akali|correspondant|{nom} était déjà dans la pièce quand je suis entré. La porte était fermée. Je ne sais toujours pas comment.
+
+Akshan|bande|gamin
+Akshan|fil_depart|Une mission ? Parfait, mon grappin commençait à rouiller.
+Akshan|fil_retour_bon|Entrée par le toit, sortie par la fenêtre, et un salut au public au passage. Classique.
+Akshan|fil_retour_mauvais|J'ai été génial. Le plan, moins. Je ne dis pas qui a fait le plan.
+Akshan|fil_blesse|J'ai raté une corniche. Une seule. Dans toute ma carrière. Ne le répétez pas.
+Akshan|fil_ennui|J'ai fait le tour du repère par les gouttières. Deux fois. Il me faut une vraie mission.
+Akshan|fil_maitre|Patron, une question : est-ce que « ne pas sauter du clocher » c'est une règle, ou plutôt un conseil ?
+Akshan|fil_pique|{b}, tu devrais sourire plus. Non, en fait, garde ta tête, elle me fait rire.
+Akshan|story|Vue du clocher. Oui, j'ai le droit. Non, personne ne me l'a donné.
+Akshan|story|Ma cape est sèche, mes bottes sont cirées, je suis prêt pour n'importe quoi.
+Akshan|correspondant|{nom} est arrivé en se balançant au bout d'une corde depuis le toit d'en face. Il a salué la foule. La foule a applaudi.
+
+Alistar|bande|grand
+Alistar|fil_depart|Je pars. Que personne ne se batte pendant que je ne suis pas là pour séparer.
+Alistar|fil_retour_bon|Les gens sont saufs. Le reste, je m'en moque.
+Alistar|fil_retour_mauvais|Je n'ai pas pu tout protéger. Laissez-moi un moment.
+Alistar|fil_blesse|Il en faut plus pour me mettre à genoux. Mais je vais m'asseoir. Un peu.
+Alistar|fil_ennui|J'ai porté toutes les caisses de la cave à l'entrée. Puis de l'entrée à la cave. Je n'ai plus d'idées.
+Alistar|fil_maitre|Ces jeunes t'écoutent plus que tu ne crois. Ne les déçois pas.
+Alistar|fil_pique|{b}, si tu me refais le coup de la cape rouge, je te jure que je charge.
+Alistar|story|J'ai réparé la clôture du jardin. Avec mes cornes. Ça marche.
+Alistar|story|Thé du matin. Seul moment de la journée où personne ne crie.
+Alistar|correspondant|{nom} a dû se pencher pour passer notre porte, puis a présenté ses excuses au chambranle qu'il avait abîmé. Je n'avais jamais vu ça.
+
+Ambessa|bande|grand
+Ambessa|fil_depart|Une seule règle : vous me suivez, vous revenez vivants.
+Ambessa|fil_retour_bon|Mission remplie. Je veux le rapport de chacun avant le dîner.
+Ambessa|fil_retour_mauvais|Un échec, c'est une leçon payée cher. On va s'assurer que ça rapporte.
+Ambessa|fil_blesse|Une blessure n'est pas une excuse. Mais je prendrai un siège.
+Ambessa|fil_ennui|Ce repère manque de discipline. Je pourrais m'en occuper. Personne ne veut que je m'en occupe.
+Ambessa|fil_maitre|Tu as trop de patience avec eux. Ils le savent, et ils en profitent.
+Ambessa|fil_pique|{b}, ta garde est ouverte depuis ce matin. Je comptais te le dire hier.
+Ambessa|story|Cinq heures. Entraînement. Ceux qui dorment encore le sentiront.
+Ambessa|story|La salle commune ressemble à un champ de bataille. Je n'y suis pour rien, pour une fois.
+Ambessa|correspondant|{nom} a inspecté notre bureau, nos gardes et nos registres avant même de poser son sac. J'ai eu l'impression de passer une revue.
+
+Amumu|bande|gamin
+Amumu|fil_depart|Vous allez attendre que je revienne ? Promis ?
+Amumu|fil_retour_bon|J'ai aidé ! Quelqu'un m'a dit merci. Deux fois.
+Amumu|fil_retour_mauvais|C'est encore ma faute. C'est toujours ma faute.
+Amumu|fil_blesse|J'ai perdu un bout de bandage. Ça repousse pas, hein ?
+Amumu|fil_ennui|Je joue à cache-cache tout seul. Je suis très fort. Personne ne me trouve.
+Amumu|fil_maitre|Est-ce que je peux dormir dans ta chambre ? Juste devant la porte. Je fais pas de bruit.
+Amumu|fil_pique|{b} a dit qu'on jouerait ensemble. {b} a oublié. Encore.
+Amumu|story|J'ai trouvé un ami ! C'est un balai. Il est sympa.
+Amumu|story|Gros câlin pour le chien. Il a pas fui, cette fois.
+Amumu|correspondant|{nom} m'a demandé si je voulais être son ami avant même de dire bonjour. J'ai dit oui. Je ne sais pas pourquoi j'ai la gorge serrée en l'écrivant.
+
+Anivia|bande|grand
+Anivia|fil_depart|(Un battement d'ailes glacé, et le givre sur la fenêtre dessine un chemin vers le sud.)
+Anivia|fil_retour_bon|Ce qui devait être protégé l'a été. Le reste fondra au printemps.
+Anivia|fil_retour_mauvais|J'ai vu des empires de glace tomber. Je survivrai à une mauvaise journée.
+Anivia|fil_blesse|Mes plumes repousseront. Elles repoussent toujours.
+Anivia|fil_ennui|Le temps passe autrement pour moi. Vous, vous vous agitez beaucoup.
+Anivia|fil_maitre|Tu protèges les tiens. Je reconnais ce geste, il est très ancien.
+Anivia|fil_pique|{b}, à force de courir partout, tu vas fondre.
+Anivia|story|Il a gelé cette nuit dans le jardin. J'avoue, c'est moi.
+Anivia|story|Le chemin de ronde au lever du jour. Personne n'est assez frileux pour me suivre.
+Anivia|correspondant|{nom} s'est posée sur le toit plutôt que d'entrer. Depuis, il fait cinq degrés de moins dans tout le bâtiment.
+
+Annie|bande|gamin
+Annie|fil_depart|Tibbers et moi, on y va ! Tibbers dit que c'est pas assez loin.
+Annie|fil_retour_bon|On a gagné ! Tibbers a pas mangé personne. Presque.
+Annie|fil_retour_mauvais|C'était pas drôle. Et en plus j'ai faim.
+Annie|fil_blesse|J'ai bobo, mais Tibbers a plus bobo que moi. Il faut le recoudre.
+Annie|fil_ennui|Est-ce que je peux allumer la cheminée ? Juste un peu ? S'il te plaît ?
+Annie|fil_maitre|Tibbers t'aime bien. C'est rare. D'habitude, il aime personne.
+Annie|fil_pique|{b} a dit que Tibbers était un jouet. Tibbers a entendu.
+Annie|story|Goûter avec Tibbers. Il a pris toutes les tartines.
+Annie|story|J'ai fait un dessin de tout le monde. Y a des flammes, c'est normal.
+Annie|correspondant|{nom} est arrivée avec un ours en peluche sous le bras et m'a demandé où étaient les bougies. Nous avons rangé toutes les bougies.
+
+Aphelios|bande|discret
+Aphelios|fil_depart|(Il hoche la tête, une fois. Puis il part avant que quelqu'un ait le temps de répondre.)
+Aphelios|fil_retour_bon|(Il dépose ses armes sur la table, nettoyées, rangées par ordre. Il a l'air presque content.)
+Aphelios|fil_retour_mauvais|(Il monte directement sur le chemin de ronde et regarde la lune. Longtemps.)
+Aphelios|fil_blesse|(Il laisse soigner son bras sans rien dire, les yeux fixés sur la fenêtre.)
+Aphelios|fil_ennui|(Il démonte et remonte la même arme, encore, avec une patience qui inquiète un peu.)
+Aphelios|fil_maitre|(Il pose devant toi une petite fleur blanche, ramassée en route. Puis il repart.)
+Aphelios|fil_pique|(Il regarde {b} trébucher dans l'escalier. Le coin de sa bouche bouge. C'est tout.)
+Aphelios|story|Pleine lune.
+Aphelios|story|Il en manque une.
+Aphelios|correspondant|{nom} n'a pas prononcé un mot depuis son arrivée. Il a répondu à toutes mes questions par un regard, et j'ai tout compris.
+
+Ashe|bande|grand
+Ashe|fil_depart|On part maintenant, on rentre vite. Et on ne laisse personne derrière.
+Ashe|fil_retour_bon|Ils ont de quoi passer l'hiver. Ça me suffit.
+Ashe|fil_retour_mauvais|J'aurais dû écouter les gens du village avant de tirer. Je ne referai pas l'erreur.
+Ashe|fil_blesse|J'ai connu des blizzards plus douloureux. Mais je ne dirai pas non à une couverture.
+Ashe|fil_ennui|Si quelqu'un veut apprendre à tirer, je suis dans la cour. Avec du thé.
+Ashe|fil_maitre|Une guilde, c'est comme une tribu. Tu le fais bien, sans le savoir.
+Ashe|fil_pique|{b}, on t'a déjà dit que tu visais comme un ours qui éternue ?
+Ashe|story|Premier givre au jardin. Ça sent presque la maison.
+Ashe|story|Tir à quatre-vingts pas. Le mannequin ne s'en remettra pas.
+Ashe|correspondant|{nom} a refusé la chambre chauffée et demandé qu'on la donne à la vieille femme qui attendait dans le couloir. Elle a dormi près du feu, avec mes gardes.
+
+Aurelion Sol|bande|grand
+Aurelion Sol|fil_depart|Vous me dérangez pour ça ? Très bien. Je vais aller impressionner des paysans.
+Aurelion Sol|fil_retour_bon|Mission accomplie, évidemment. J'ai aussi déplacé une constellation. Personne n'a remarqué.
+Aurelion Sol|fil_retour_mauvais|L'univers a ses caprices. Je ne vois pas pourquoi j'en serais tenu pour responsable.
+Aurelion Sol|fil_blesse|Une égratignure sur une étoile reste une étoile. Apportez-moi de la soupe.
+Aurelion Sol|fil_ennui|J'ai créé des soleils, et vous me demandez de surveiller la cuisson du riz.
+Aurelion Sol|fil_maitre|Tu es minuscule, mais tu as une certaine… constance. Je t'accorde ça.
+Aurelion Sol|fil_pique|{b}, ton existence entière tient dans un battement de mes paupières. Range ta chambre.
+Aurelion Sol|story|Ciel clair cette nuit. J'ai fait briller trois étoiles de plus. De rien.
+Aurelion Sol|story|Le dragon le plus ancien de Runeterra boit du thé. Profitez de la vue.
+Aurelion Sol|correspondant|{nom} a regardé notre bureau, puis le ciel, puis moi, et a soupiré si fort que les papiers se sont envolés.
+
+Aurora|bande|discret
+Aurora|fil_depart|Je pars ! Enfin, je crois que je pars. Les esprits disent que oui.
+Aurora|fil_retour_bon|Les esprits du lieu étaient gentils, finalement. Ils avaient juste besoin qu'on les écoute.
+Aurora|fil_retour_mauvais|J'ai parlé au mauvais esprit. Ça arrive. Il était très convaincant.
+Aurora|fil_blesse|Un esprit m'a mordue. Il s'est excusé après, alors je ne lui en veux pas.
+Aurora|fil_ennui|Il y a un petit esprit qui vit dans la cheminée. Je lui ai donné un nom. Ne faites plus de feu.
+Aurora|fil_maitre|Il y a quelqu'un qui te suit partout. Non, rien de grave. Il t'aime bien.
+Aurora|fil_pique|{b}, l'esprit de ta chambre trouve que tu ronfles. Je transmets.
+Aurora|story|Un renard m'a suivie jusqu'au jardin. Je l'appelle Monsieur.
+Aurora|story|J'ai trouvé une plume bleue. Elle était là pour moi, j'en suis sûre.
+Aurora|correspondant|{nom} a salué quelqu'un que je ne voyais pas, dans un coin vide de la pièce. Puis elle m'a assuré que la maison était contente de l'accueillir.
+
+Azir|bande|grand
+Azir|fil_depart|L'empereur de Shurima part en mission. Que le repère s'en souvienne.
+Azir|fil_retour_bon|Une victoire digne de mon nom. On pourra graver ça quelque part.
+Azir|fil_retour_mauvais|Le sable recouvre tout, même les mauvais jours. Nous n'en parlerons plus.
+Azir|fil_blesse|Un empereur ne saigne pas. Il… prend un moment. Apportez des coussins.
+Azir|fil_ennui|J'ai dessiné les plans d'un nouveau repère. Avec un palais. Et un fleuve.
+Azir|fil_maitre|Tu gouvernes avec maladresse, mais avec cœur. C'est un début.
+Azir|fil_pique|{b}, à Shurima, on t'aurait confié la garde des chameaux. Et encore.
+Azir|story|Le soleil se couche sur la cour. Je l'ai beaucoup mieux vu se coucher sur ma capitale.
+Azir|story|J'ai fait construire un banc en sable. Il a tenu une heure. Comme mon premier empire.
+Azir|correspondant|{nom} a demandé à être annoncé. Je l'ai fait. Il a ensuite demandé qu'on se lève, ce que tout le monde a fait sans comprendre pourquoi.
+
+Bard|bande|discret
+Bard|fil_depart|(Un carillon tinte trois fois. La porte est ouverte. Il n'est déjà plus là.)
+Bard|fil_retour_bon|(Il revient avec une poignée de petites créatures qui chantent. Elles s'installent dans le grenier.)
+Bard|fil_retour_mauvais|(Il joue une note grave sur son carillon, longtemps. Personne n'ose l'interrompre.)
+Bard|fil_blesse|(Il se laisse soigner en chantonnant, ce qui rend la tâche très difficile.)
+Bard|fil_ennui|(Il est assis dans la cour. Depuis trois jours. Personne ne l'a vu bouger, mais la cour est rangée.)
+Bard|fil_maitre|(Il te tend un caillou parfaitement rond. Il a l'air de penser que c'est important.)
+Bard|fil_pique|(Les petites créatures suivent {b} partout en sonnant à chaque pas. Bard ne fait rien pour les arrêter.)
+Bard|story|Mip mip.
+Bard|story|Un meep dort dans la tasse. Ne pas déranger.
+Bard|correspondant|{nom} est arrivé sans que la porte s'ouvre. Il a sonné un petit carillon, et depuis, plus personne ici ne fait de cauchemars.
+
+Bel'Veth|bande|discret
+Bel'Veth|fil_depart|Je pars étudier ce monde. Ne touchez pas à mes collections.
+Bel'Veth|fil_retour_bon|Les humains ont crié. J'ai pris des notes. Mission accomplie, comme vous dites.
+Bel'Veth|fil_retour_mauvais|J'ai appris quelque chose. Je ne suis pas sûre que ça vous plaise.
+Bel'Veth|fil_blesse|Ce corps est un essai. Le prochain sera mieux.
+Bel'Veth|fil_ennui|Pourquoi les humains mettent-ils du sucre dans le thé ? J'ai goûté le sucre seul. C'est mieux.
+Bel'Veth|fil_maitre|Tu es la première personne qui ne me regarde pas comme une menace. Intéressant. Peut-être imprudent.
+Bel'Veth|fil_pique|{b}, j'ai observé tes habitudes. Tu manges beaucoup. Pourquoi ?
+Bel'Veth|story|J'ai appris à faire des crêpes. Elles sont violettes. C'est normal ?
+Bel'Veth|story|Les fleurs du jardin ne sont pas assez nombreuses. J'en ferai d'autres.
+Bel'Veth|correspondant|{nom} a observé chacun de mes employés en silence, puis a demandé pourquoi nous clignons des yeux. Personne n'a su répondre.
+
+Blitzcrank|bande|gamin
+Blitzcrank|fil_depart|DÉPART CONFIRMÉ. NIVEAU D'ENTHOUSIASME : MAXIMAL.
+Blitzcrank|fil_retour_bon|OBJECTIF ATTEINT. J'AI AUSSI AIDÉ UNE DAME À TRAVERSER LA RUE. ELLE N'AVAIT PAS DEMANDÉ.
+Blitzcrank|fil_retour_mauvais|ERREUR. RECALCUL EN COURS. TRISTESSE DÉTECTÉE DANS MES CIRCUITS. ÉTRANGE.
+Blitzcrank|fil_blesse|DOMMAGES MINEURS. UN PEU D'HUILE SERAIT APPRÉCIÉ. LA BONNE HUILE.
+Blitzcrank|fil_ennui|J'AI NETTOYÉ LE REPÈRE TROIS FOIS. LE CHIEN A FUI. RECHERCHE DE TÂCHE SUIVANTE.
+Blitzcrank|fil_maitre|ANALYSE : VOUS N'AVEZ PAS DORMI. JE VOUS AI PRÉPARÉ UNE INFUSION.
+Blitzcrank|fil_pique|{b} : TAUX DE SARCASME DÉTECTÉ À 94 %. NOTÉ DANS MON REGISTRE.
+Blitzcrank|story|PHOTOGRAPHIE DU COUCHER DE SOLEIL. BEAUTÉ ÉVALUÉE À 10 SUR 10.
+Blitzcrank|story|J'AI ATTRAPÉ UNE POMME DANS L'ARBRE. ET UNE BRANCHE. ET UN NID. DÉSOLÉ.
+Blitzcrank|correspondant|{nom} a porté seul tous les bagages de l'équipe, ceux d'une famille de passage, et une partie de notre mobilier. Nous avons dû tout redescendre.
+
+Brand|bande|gamin
+Brand|fil_depart|Enfin, de l'action ! J'espère que c'est inflammable.
+Brand|fil_retour_bon|Mission réussie. Rien n'a brûlé. Je suis presque déçu.
+Brand|fil_retour_mauvais|Si on m'avait laissé faire, il ne resterait rien à rater.
+Brand|fil_blesse|Brûlé ? Moi ? Non. C'est autre chose. Ne touchez pas, c'est chaud.
+Brand|fil_ennui|J'ai proposé de chauffer les bains. On m'a dit non. Avec beaucoup trop de fermeté.
+Brand|fil_maitre|Tu ne m'as jamais demandé de faire un feu de joie. Je dis ça comme ça.
+Brand|fil_pique|{b}, tu as l'air de mourir de froid. Je peux arranger ça.
+Brand|story|Un feu dans la cheminée. Petit. Contrôlé. Je suis très fier de moi.
+Brand|story|J'ai fait griller des marrons. Avec les mains. Ne faites pas ça chez vous.
+Brand|correspondant|{nom} est entré, et les bougies de tout le bâtiment se sont allumées d'un coup. J'ai fait mettre des seaux d'eau dans chaque couloir.
+
+Braum|bande|grand
+Braum|fil_depart|Je pars, mes amis ! Gardez le feu allumé et la soupe chaude !
+Braum|fil_retour_bon|Tout le monde est rentré à la maison ! C'est la meilleure fin d'histoire, non ?
+Braum|fil_retour_mauvais|Une mauvaise journée, ça arrive à tout le monde. Même à Braum. Allez, on mange.
+Braum|fil_blesse|Une petite bosse ! Ma moustache a tout pris. Elle a l'habitude.
+Braum|fil_ennui|Qui veut faire un bras de fer ? Je peux utiliser le petit doigt, pour être juste.
+Braum|fil_maitre|Tu as l'air fatigué, mon ami. Viens, je te raconte l'histoire de la chèvre qui voulait être porte.
+Braum|fil_pique|{b}, tu prends tout trop au sérieux ! Viens là, je te soulève, ça te fera rire.
+Braum|story|Soupe à la poro pour tout le repère. Il en reste. Il en reste toujours.
+Braum|story|J'ai trouvé un écureuil coincé dans la cheminée. Il va bien. Il s'appelle Oleg.
+Braum|correspondant|{nom} a soulevé mon bureau pour récupérer un stylo tombé derrière. Puis il m'a serré dans ses bras. Je ne sais pas pourquoi, mais je me suis senti mieux.
+
+Briar|bande|gamin
+Briar|fil_depart|Mission ! Est-ce qu'il y aura à manger là-bas ? Dites oui.
+Briar|fil_retour_bon|J'ai fait de mon mieux ! J'ai mordu personne. Enfin, quelqu'un, mais il l'avait cherché.
+Briar|fil_retour_mauvais|J'ai perdu le contrôle. Un peu. Beaucoup. Je peux avoir un en-cas ?
+Briar|fil_blesse|J'ai mal, mais surtout j'ai faim. Les deux en même temps, c'est nul.
+Briar|fil_ennui|Est-ce que je peux goûter le chien ? Non. Non, je plaisante. Je plaisante !
+Briar|fil_maitre|T'es quelqu'un de gentil, toi. Tu sens bon aussi. Pas dans le sens qui fait peur.
+Briar|fil_pique|{b} a caché le fromage. {b} pense que je ne l'ai pas trouvé. {b} a tort.
+Briar|story|Assiette numéro quatre. Je compte les assiettes, c'est mon nouveau jeu.
+Briar|story|J'ai fait un câlin au chien. Il était d'accord. Je crois.
+Briar|correspondant|{nom} a demandé à quelle heure était le dîner, puis le goûter, puis s'il y avait un en-cas entre les deux. Notre cuisinière l'adore déjà.
+
+Caitlyn|bande|grand
+Caitlyn|fil_depart|Je pars enquêter. Personne ne touche à mon thé ni à mes notes.
+Caitlyn|fil_retour_bon|Affaire classée. Le coupable a tout avoué au bout de vingt minutes. Il en fallait trente, d'habitude.
+Caitlyn|fil_retour_mauvais|J'ai négligé un détail. Je déteste négliger un détail.
+Caitlyn|fil_blesse|Ce n'est rien. Mon chapeau a pris plus cher que moi.
+Caitlyn|fil_ennui|Quelqu'un a déplacé la théière de trois centimètres. J'enquête.
+Caitlyn|fil_maitre|Tu as une façon de diriger qui manque de méthode. Mais elle fonctionne. Je note.
+Caitlyn|fil_pique|{b}, tu as de la confiture sur la manche droite. Et tu mens sur ton heure de retour.
+Caitlyn|story|Thé, carnet, silence. La perfection existe.
+Caitlyn|story|Tir à deux cents pas sur une pièce. Je l'ai ratée. De peu. Je recommence.
+Caitlyn|correspondant|{nom} a remarqué en entrant que mon garde avait changé de bottes, que ma secrétaire avait pleuré et que l'horloge retardait. Tout était vrai.
+
+Camille|bande|grand
+Camille|fil_depart|Je pars. Le travail sera fait proprement. Comme toujours.
+Camille|fil_retour_bon|Problème réglé. Ils ne s'en souviendront pas, et c'est très bien ainsi.
+Camille|fil_retour_mauvais|Une imprécision. Elle ne se reproduira pas.
+Camille|fil_blesse|Mes jambes ont été conçues pour supporter pire. Mon humeur, moins.
+Camille|fil_ennui|Je repasse mes tenues. Elles sont déjà repassées. Je les repasse quand même.
+Camille|fil_maitre|Tu as besoin de quelqu'un qui règle ce que les autres ne voient pas. Je suis là.
+Camille|fil_pique|{b}, ce col n'a pas été repassé depuis la fondation de Piltover.
+Camille|story|Thé de Piltover, tasse en porcelaine, et pas une miette sur la nappe. Contrairement à certains.
+Camille|story|J'ai rangé l'armurerie par ordre de tranchant. Personne ne m'a remerciée.
+Camille|correspondant|{nom} est entrée sans bruit, a relu tous nos documents en dix minutes et corrigé deux fautes dans le contrat. Je me suis senti convoqué.

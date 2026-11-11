@@ -9,7 +9,7 @@ const CATALOGUE = require('./chemins');
  */
 const V = require('./vie'), P = require('./progression'), M = require('./missions'), Q = require('./quetes');
 const REC = require('./recrutement'), RP = require('./repere'), RG = require('./rangs'), E = require('./economie'), EQ = require('./equipement');
-const CO = require('./courrier'), SO = require('./social'), AC = require('./actions');
+const CO = require('./courrier'), SO = require('./social'), AC = require('./actions'), FIL = require('./fil');
 const MJ = require('./multijoueur'), RULES = require('./rules'), PR = require('./presentations'), W = require('./monde');
 const PALETTE = require(require('node:path').join(CATALOGUE, 'personnalites/palette.json'));
 
@@ -29,9 +29,9 @@ function images(cle) {
   ILLUS ||= new Set(require(require('node:path').join(CATALOGUE, 'images.json')));
   DD ||= require(require('node:path').join(CATALOGUE, 'ddragon.json'));
   const s = slug(cle);
-  if (ILLUS.has(s)) return { av: `img/h/${s}-av.webp`, carte: `img/h/${s}-carte.webp` };
+  if (ILLUS.has(s)) return { av: `img/h/${s}-av.webp`, carte: `img/h/${s}-carte.webp`, story: `img/h/${s}-story.webp` };
   const id = DD.champions[cle.split('|')[0]];
-  return id ? { av: `https://ddragon.leagueoflegends.com/cdn/${DD.version}/img/champion/${id}.png`, carte: `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${id}_0.jpg` } : { av: '', carte: '' };
+  return id ? { av: `https://ddragon.leagueoflegends.com/cdn/${DD.version}/img/champion/${id}.png`, carte: `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${id}_0.jpg`, story: `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${id}_0.jpg` } : { av: '', carte: '', story: '' };
 }
 const slug = cle => cle.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '').toLowerCase();
 
@@ -151,7 +151,10 @@ function vue(monde, gid) {
         quete: g.quetes?.[h.id] ? { id: g.quetes[h.id].id, titre: (() => { try { return Q.queteDe(C.quetes, h, g.region)?.titre || null; } catch { return null; } })(), etat: g.quetes[h.id].etat, etape: g.quetes[h.id].etape, enCours: Boolean(g.quetes[h.id].enCours) } : null }; }),
     cartes: g.cartes.filter(c => c.etat === 'ouverte').map(c => carteVue(g, c)),
     traitees: g.cartes.filter(c => c.etat === 'traitee' && c.parDefaut && monde.t - c.t < 72).map(c => ({ titre: c.titre, reponse: c.options.find(o => o.id === c.reponse)?.libelle, consequences: c.consequences || [] })),
-    chronique: g.chronique.slice(-150).map(e => ({ t: e.t, depart: e.scene === 'contrat#depart' || undefined, jour: jour(e.t), heure: heure(e.t), texte: e.texte, importance: e.importance, dec: e.declencheur, heros: e.heros, arc: e.titreArc || null, quete: e.declencheur === 'quete' })),
+    chronique: g.chronique.slice(-150).map(e => ({ t: e.t, depart: e.scene === 'contrat#depart' || undefined, jour: jour(e.t), heure: heure(e.t), texte: e.texte, importance: e.importance, dec: e.declencheur, heros: e.heros, arc: e.titreArc || null, quete: e.declencheur === 'quete',
+      ...(e.declencheur === 'fil' ? { voix: e.voix, auteur: e.auteur, contexte: e.contexte || null, id: e.id || null, attend: Boolean(e.reponses && !e.repondu), repondu: e.repondu || null, enReponseA: e.enReponseA || null } : {}) })),
+    stories: FIL.stories(g),
+    reponsesFil: Object.fromEntries(Object.entries(FIL.REPONSES).map(([k, r]) => [k, r.libelle])),
     arcs: (g.arcs?.enCours || []).map(x => ({ titre: x.titre || x.id, a: x.a, b: x.b, etape: x.etape, total: x.total || null })),
     soiree: g.soirees?.[0] ? { jour: jour(g.soirees[0].t), venus: g.soirees[0].venus || [], absents: g.soirees[0].absents || [], moments: (g.soirees[0].moments || []).map(m => m.texte) } : null,
     contrats, missionsEnCours, rapports: (g.rapports || []).slice(0, 15),

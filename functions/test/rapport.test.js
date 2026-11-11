@@ -17,7 +17,7 @@ test('rapport : chaque mission du catalogue se raconte sans jeton oublié, avec 
     assert.ok(!/[{}]/.test(texte), `${m.id} : jeton oublié\n${texte}`);
     assert.ok(p.length >= r.epreuves.length + 2, `${m.id} : rapport trop court`);
     const meneur = r.epreuves?.find(e => e.reussie)?.meneur || equipe[0].nom;
-    assert.ok(texte.includes(require('../src/langue').finir(m.denouements[r.issue].replace(/\{meneur\}/g, meneur))), `${m.id} : dénouement absent`);
+    assert.ok(texte.includes(require('../src/langue').finir(m.denouements[r.issue].replace(/\{meneur\}/g, meneur).replace(/\{chien\}/g, 'le chien'))), `${m.id} : dénouement absent`);
     assert.ok(!/ à (le|les|Le|Les) /.test(p[0]), `${m.id} : préposition mal accordée\n${p[0]}`);
   }
 });

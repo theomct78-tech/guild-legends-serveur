@@ -1,0 +1,89 @@
+# Voix des champions · lot 24 (Rumble à Taliyah) · 11 nov. 2026 · fil, deuxième passe
+Rumble|fil_ennui|J'ai repeint Tristan. Deux couches. Il est magnifique. Personne ne vient le voir.
+Rumble|fil_pique|{b} a dit que mon robot était un tas de boulons. C'est un tas de boulons TRÈS BIEN RANGÉS.
+Rumble|fil_quotidien|J'ai réparé la pompe du puits. Elle crache un peu de fumée maintenant. C'est normal. Je crois.
+Rumble|fil_quotidien|Lettre de Tristana. Elle dit bonjour. Elle dit bonjour À MOI. Je vais très bien, merci.
+Ryze|fil_ennui|J'ai recopié trois parchemins. Personne ne viendra les lire. C'est sans doute mieux ainsi.
+Ryze|fil_pique|{b} a utilisé une de mes runes comme sous-verre. Une rune. Comme sous-verre.
+Ryze|fil_quotidien|J'ai fait la sieste au soleil. Je n'en avais pas fait depuis un siècle ou deux.
+Ryze|fil_quotidien|Le chien a mangé un parchemin. Rien d'important. Je surveille quand même le chien.
+Samira|fil_ennui|Pas d'action. Pas d'explosion. Pas de style. Je vais mourir d'ennui, et pas avec élégance.
+Samira|fil_pique|{b} a dit que je faisais trop la maligne. Je ne fais pas la maligne. Je suis maligne.
+Samira|fil_quotidien|J'ai fait un tour de moto au bourg. Bon, c'était le cheval du meunier. Pareil.
+Samira|fil_quotidien|Nouvelle cicatrice, nouvelle histoire. Je la raconte ce soir à qui veut l'entendre.
+Sejuani|fil_ennui|Bristle s'ennuie. Moi aussi. Il a cassé la barrière. Moi, pas encore.
+Sejuani|fil_pique|{b} trouve que Bristle sent mauvais. Tu sens pire, et toi, on ne peut pas te mettre dehors.
+Sejuani|fil_quotidien|Il a gelé cette nuit. Enfin un temps à mon goût.
+Sejuani|fil_quotidien|J'ai partagé la viande avec tout le monde. Au Freljord, on partage. Même avec vous.
+Senna|fil_ennui|J'ai lu deux livres, nettoyé mon canon, et regardé la pluie. Il est midi.
+Senna|fil_pique|{b} a dit que mon canon était trop gros. Il fait exactement la taille qu'il faut.
+Senna|fil_quotidien|Lettre de Lucian. Courte. Il écrit toujours court. Je la relis quand même.
+Senna|fil_quotidien|J'ai fait du café pour tout le monde. J'en ai gardé un pour plus tard. Ne le buvez pas.
+Seraphine|fil_ennui|J'ai chanté toute la matinée. Le chien a hurlé avec moi. On devrait faire un duo.
+Seraphine|fil_pique|{b} m'a demandé de chanter moins fort. Je chantais à peine ! Bon, un peu fort.
+Seraphine|fil_quotidien|J'ai écrit une chanson sur le repère. Elle parle de vous tous. Vous l'entendrez ce soir.
+Seraphine|fil_quotidien|La pluie fait une jolie musique sur le toit. Je l'ai écoutée longtemps.
+Sett|fil_ennui|Personne veut se battre. J'ai fait des pompes avec le chien sur le dos.
+Sett|fil_pique|{b} a dit que j'étais un fils à maman. C'est vrai. Tu veux un problème avec ma mère ?
+Sett|fil_quotidien|J'ai envoyé de l'argent à ma mère. Elle va pas aimer. Elle va le garder quand même.
+Sett|fil_quotidien|J'ai fait un bras de fer avec le forgeron. Il a perdu. Il m'a offert à boire.
+Shaco|fil_ennui|J'ai caché une boîte à surprise dans chaque tiroir. Personne n'ouvre de tiroir aujourd'hui.
+Shaco|fil_pique|{b} n'a pas rigolé à ma dernière blague. Je vais en préparer une autre. Spécialement pour toi.
+Shaco|fil_quotidien|Le chien m'a aboyé dessus. Puis il a aboyé derrière moi. Il apprend vite.
+Shaco|fil_quotidien|Quelqu'un a crié dans la cuisine ce matin. Ce n'est pas moi. Pas cette fois.
+Shen|fil_ennui|J'ai médité dans le jardin. L'équilibre est là. L'action, non.
+Shen|fil_pique|{b} a fait du bruit pendant la méditation. Je l'ai entendu. Je n'ai pas réagi.
+Shen|fil_quotidien|Le vent tourne au sud. Il fera beau demain.
+Shen|fil_quotidien|J'ai partagé le thé avec Akali. Elle n'a pas parlé. Moi non plus. C'était bien.
+Shyvana|fil_ennui|Je suis restée dans la forge toute la journée. Il fait trop froid partout ailleurs.
+Shyvana|fil_pique|{b} m'a demandé si je pouvais allumer sa pipe. Je ne suis pas un briquet.
+Shyvana|fil_quotidien|J'ai dormi dans la paille au soleil. Comme avant. Avant tout le reste.
+Shyvana|fil_quotidien|Jarvan m'a écrit. Il me demande si je vais bien. Je vais bien.
+Singed|fil_ennui|J'ai mélangé deux potions pour voir. Il y a un trou dans la table. Intéressant.
+Singed|fil_pique|{b} a goûté une de mes fioles. Ça va ? Ça ira. Probablement.
+Singed|fil_quotidien|L'odeur du laboratoire a fait fuir le chien. Il reviendra quand l'air sera respirable. Dans trois jours.
+Singed|fil_quotidien|J'ai fait pousser une plante bleue dans le jardin. Ne la touchez pas. Ne la sentez pas non plus.
+Sion|fil_ennui|RIEN À TUER. J'AI TAPÉ SUR UN ARBRE. L'ARBRE A PERDU.
+Sion|fil_pique|{b} M'A DIT D'ARRÊTER DE GROGNER. JE NE GROGNE PAS. JE RESPIRE.
+Sion|fil_quotidien|UN ENFANT DU BOURG M'A DONNÉ UNE FLEUR. JE NE SAIS PAS QUOI EN FAIRE. JE LA GARDE.
+Sion|fil_quotidien|J'AI DORMI. JE NE DORS PAS SOUVENT. C'ÉTAIT ÉTRANGE.
+Sivir|fil_ennui|Pas de contrat, pas d'or. Je commence à facturer les gens qui me regardent.
+Sivir|fil_pique|{b} a utilisé ma lame comme frisbee. Elle revient toute seule, mais quand même.
+Sivir|fil_quotidien|J'ai compté l'argent du repère. Il en manque. Je saurai qui.
+Sivir|fil_quotidien|Bain chaud après la journée. Personne ne me dérange. Personne.
+Skarner|fil_ennui|J'ai creusé un tunnel jusqu'au bourg. Puis je l'ai rebouché. Le meunier ne doit pas savoir.
+Skarner|fil_pique|{b} a dit que je faisais trembler les murs en marchant. Je marche doucement. Ce sont tes murs qui sont fragiles.
+Skarner|fil_quotidien|J'ai trouvé un cristal dans la colline. Il chante un peu quand on l'approche.
+Skarner|fil_quotidien|La terre est bonne ici. Elle se souvient de beaucoup de choses.
+Smolder|fil_ennui|J'ai essayé de cracher du feu pendant une heure. Une étincelle. Mais elle était belle !
+Smolder|fil_pique|{b} a dit que je ressemblais à un gros lézard. Je suis un DRAGON. Un petit dragon. Mais un dragon.
+Smolder|fil_quotidien|J'ai réchauffé le thé de tout le monde avec mon souffle ! Bon, il était un peu brûlé.
+Smolder|fil_quotidien|J'ai écrit à maman. Je lui ai dit que je mangeais bien. C'est presque vrai.
+Sona|fil_ennui|J'ai joué de la musique pour le jardin. Les fleurs se sont tournées vers moi.
+Sona|fil_pique|{b} a marché sur mon étui. Il va bien. Moi aussi, je crois.
+Sona|fil_quotidien|J'ai accordé le vieux piano de la grande salle. Ce soir, il chante juste.
+Sona|fil_quotidien|J'ai écouté la pluie sur le toit. Elle avait un très beau rythme.
+Soraka|fil_ennui|Personne n'est blessé aujourd'hui. Je ne m'en plains pas. Je m'ennuie un peu, c'est tout.
+Soraka|fil_pique|{b} a écrasé une fourmi exprès. Elle avait une famille, tu sais.
+Soraka|fil_quotidien|J'ai planté des fleurs devant la porte. Elles ont poussé en une nuit. C'est peut-être un peu moi.
+Soraka|fil_quotidien|J'ai soigné la patte d'un chat du bourg. Il me suit partout depuis.
+Swain|fil_ennui|J'ai observé les corbeaux. Ils m'ont observé. Personne n'a cédé.
+Swain|fil_pique|{b} croit que je ne sais pas ce qui s'est dit hier soir dans la cuisine. Je le sais.
+Swain|fil_quotidien|J'ai lu les journaux de trois régions. Le monde va mal. Je l'avais prévu.
+Swain|fil_quotidien|Un corbeau a laissé une plume sur ma fenêtre. Elle annonce quelque chose. Je verrai quoi.
+Sylas|fil_ennui|Personne à libérer, personne à défier. Je fais des pompes avec mes chaînes.
+Sylas|fil_pique|{b} m'a demandé pourquoi je gardais mes chaînes. Pour me souvenir. Ne demande plus.
+Sylas|fil_quotidien|J'ai partagé le pain avec les ouvriers du bourg. Ils ont des choses à dire sur leurs patrons.
+Sylas|fil_quotidien|J'ai écrit trois pages sur la liberté. J'en ai gardé une. Elle est bonne.
+Syndra|fil_ennui|J'ai fait léviter toutes les chaises du repère. Je les ai reposées. Il ne s'est toujours rien passé.
+Syndra|fil_pique|{b} m'a dit de « me calmer ». Je suis calme. Les chaises flottent toutes seules.
+Syndra|fil_quotidien|Bain chaud, un livre, personne pour me dire quoi faire. Enfin.
+Syndra|fil_quotidien|J'ai regardé les étoiles depuis le toit. J'ai pensé à quelqu'un. Ça ne vous regarde pas.
+Tahm Kench|fil_ennui|J'ai faim d'histoires, mon ami. Et ce repère n'en raconte aucune aujourd'hui.
+Tahm Kench|fil_pique|{b} a refusé de jouer aux cartes avec moi. Sage décision. Très sage.
+Tahm Kench|fil_quotidien|J'ai goûté le ragoût de la cuisine. Pas mal. Il manque quelque chose. Peut-être quelqu'un.
+Tahm Kench|fil_quotidien|Un marchand du bourg m'a proposé un marché. J'ai souri. Il a reculé.
+Taliyah|fil_ennui|J'ai fait voler des cailloux toute la matinée. J'en ai cassé un. Il était beau.
+Taliyah|fil_pique|{b} a marché sur mes cailloux bien rangés. Ils étaient rangés par couleur !
+Taliyah|fil_quotidien|Lettre de ma famille. Ma mère dit que je dois manger plus. Elle dit toujours ça.
+Taliyah|fil_quotidien|J'ai trouvé une pierre en forme de cœur au bord de la rivière. Je l'ai gardée.

@@ -159,6 +159,7 @@ const ACTIONS = {
   action: (m, g, d) => W.lancerAction(m, g, String(d.id || '')),
   geste: (m, g, d) => W.faireGeste(m, g, d.heros, String(d.id || '')),
   missive: (m, g, d) => W.envoyerMissive(m, g, d.guilde, d.texte),
+  fil: (m, g, d) => W.repondreFil(m, g, String(d.id || ''), String(d.choix || '')),
   image: (m, g, d) => W.choisirImage(m, g, { cle: d.cle || null, photo: d.photo || null }),
   lu: (m, g, d) => { const r = (m.guildes[g].rapports || []).find(x => x.id === d.rapport); if (r) r.lu = true; return true; },
 };
