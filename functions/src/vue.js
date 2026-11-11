@@ -138,10 +138,10 @@ function vue(monde, gid) {
     regions: regionsVue(monde, g, contrats),
     aVenir: aVenir(monde, g),
     economie: { palier: palier.nom, revenu: E.revenuHebdo(palier.cle) }, chien: g.monde.chien,
-    repere: { region: g.region, bourg: g.monde.bourg },
+    repere: { region: g.region, bourg: g.monde.bourg, meteo: V.meteo(g) },
     maintenant: { t: monde.t, jour: jour(monde.t), heure: heure(monde.t) },
     heros: actifs.map(h => { const f = C.parCle[h.cle];
-      return { id: h.id, nom: h.nom, apparence: h.apparence || null, cle: h.cle, img: images(h.cle), role: h.role, etat: h.etat, lieu: h.lieu, activite: ACT[h.activite] || '', repos: h.reposJusqua > monde.t ? Math.ceil(h.reposJusqua - monde.t) : 0, blesse: Boolean(h.blesse), reserve: h.reserve || null,
+      return { id: h.id, nom: h.nom, apparence: h.apparence || null, cle: h.cle, img: images(h.cle), role: h.role, etat: h.etat, lieu: h.lieu, activite: ACT[h.activite] || '', act: h.activite || null, blessureNiv: h.blesse?.niveau || null, repos: h.reposJusqua > monde.t ? Math.ceil(h.reposJusqua - monde.t) : 0, blesse: Boolean(h.blesse), reserve: h.reserve || null,
         moral: Math.round(h.moral), fidelite: Math.round(h.fidelite), besoins: Object.fromEntries(Object.entries(h.besoins || {}).map(([k, v]) => [k, Math.round(v)])),
         fait: AC.ceQueFait(g, h), gestes: AC.gestesPour(g, h), ententes: SO.ententesDe(monde, h),
         raisons: V.raisonsMoral(g, h).slice(0, 6), regard: require('./maitre').regardExplique(g, h), traits: h.traits.map(trait), motivation: h.motivation, region: h.regions?.aime?.[0] || null, salaire: h.salaire, attente: h.attente || null,
