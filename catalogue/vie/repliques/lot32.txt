@@ -1,0 +1,131 @@
+# Voix des champions · lot 32 (Shaco à Urgot) · 11 nov. 2026 · fil, troisième passe
+Shaco|fil_ennui|J'ai caché une boîte dans la boîte à pain. Puis une autre dedans. Puis une autre. Bon appétit.
+Shaco|fil_quotidien|J'ai fait un spectacle de marionnettes pour les enfants du bourg. Ils ont ri. Puis ils ont pleuré. Puis ils ont ri.
+Shaco|fil_quotidien|J'ai aidé à mettre la table. J'ai mis une fourchette de trop. Qui va la trouver ?
+Shaco|fil_pique|{b} a dit que mes blagues n'étaient pas drôles. Tu as regardé sous ton oreiller ? Regarde.
+Shaco|fil_pique|{b} m'a demandé où j'étais cette nuit. Juste derrière toi. Comme toujours. Hi hi.
+Shaco|fil_maitre|Toi, je ne te fais pas de farce. Pour l'instant. C'est mon cadeau.
+Shen|fil_ennui|L'équilibre est parfait aujourd'hui. Rien ne bouge. C'est plus difficile à supporter qu'il n'y paraît.
+Shen|fil_quotidien|J'ai réparé le toit du poulailler. Les poules ne m'ont pas remercié. L'équilibre s'en moque.
+Shen|fil_pique|{b} m'a demandé si je ressentais quelque chose. Oui. De l'agacement, en ce moment précis.
+Shen|fil_maitre|Ton jugement est sûr. Je te le dis une fois. Je ne le répéterai pas.
+Shyvana|fil_ennui|Il fait froid partout sauf près de la forge. J'ai passé la journée près de la forge.
+Shyvana|fil_quotidien|J'ai réchauffé le bain de tout le monde en posant la main dans l'eau. Ils ont dit que c'était trop chaud. Il n'y a pas de trop chaud.
+Shyvana|fil_pique|{b} a dit que mes yeux brillaient la nuit. Ils brillent. Ce n'est pas une raison pour crier.
+Shyvana|fil_maitre|Tu ne me regardes pas comme un monstre. Merci. Jarvan non plus. Vous êtes deux.
+Singed|fil_ennui|J'ai mélangé deux fioles pour passer le temps. La table a un nouveau trou. La science avance.
+Singed|fil_quotidien|J'ai trouvé une plante qui fait dormir les vaches. Le fermier n'a pas apprécié l'expérience.
+Singed|fil_quotidien|Nouvelle formule. Elle sent la rose. Ne la buvez pas. Ne la sentez pas non plus, en fait.
+Singed|fil_pique|{b} a goûté à ma soupe. Ce n'était pas une soupe. Comment te sens-tu ? Note tout, s'il te plaît.
+Singed|fil_pique|{b} a jeté mes échantillons. Ils étaient dans la poubelle, certes. C'est un rangement.
+Singed|fil_maitre|Tu me laisses travailler. C'est rare. La science te remercie.
+Sion|fil_ennui|RIEN À DÉTRUIRE. J'AI CASSÉ UN ROCHER. IL N'AVAIT RIEN FAIT. JE M'EN VEUX.
+Sion|fil_quotidien|UN CHAT DORT SUR MOI DEPUIS CE MATIN. JE NE BOUGE PAS. JE SUIS UN GUERRIER. JE NE BOUGE PAS.
+Sion|fil_quotidien|J'AI MANGÉ DE LA SOUPE AVEC UNE CUILLÈRE. COMME LES VIVANTS. C'ÉTAIT DIFFICILE.
+Sion|fil_pique|{b} A DIT QUE JE SENTAIS LE MORT. C'EST VRAI. MAIS IL NE FALLAIT PAS LE DIRE.
+Sion|fil_pique|{b} M'A DEMANDÉ DE NE PAS HURLER LA NUIT. JE NE HURLE PAS. JE RÊVE FORT.
+Sion|fil_maitre|TU ME DONNES DES ORDRES SANS PEUR. JE RESPECTE. JE NE DIS PAS ÇA SOUVENT.
+Sivir|fil_ennui|Pas de contrat aujourd'hui. Mon tarif d'ennui est de cinquante pièces de l'heure. Je vous enverrai la note.
+Sivir|fil_quotidien|J'ai négocié le prix des pommes de terre au marché. Le marchand pleurait. Moi, je souriais.
+Sivir|fil_pique|{b} a dit que je ne pensais qu'à l'argent. Faux. Je pense aussi à ce que je vais acheter avec.
+Sivir|fil_maitre|Tu paies bien et tu ne trahis pas. Dans mon métier, on appelle ça une affaire en or.
+Skarner|fil_ennui|J'ai écouté les pierres de la colline. Elles se souviennent d'un temps plus calme. Moi aussi.
+Skarner|fil_quotidien|Un enfant a voulu monter sur mon dos. Je l'ai porté jusqu'au moulin. Il ne voulait plus descendre.
+Skarner|fil_pique|{b} a dit que j'étais trop lent. La montagne aussi est lente. Elle est toujours là.
+Skarner|fil_maitre|Tu as une âme de pierre. Solide. Patiente. C'est le plus beau compliment de mon peuple.
+Smolder|fil_ennui|J'ai essayé de voler. J'ai sauté du toit de la grange. J'ai atterri dans le foin. C'est presque voler.
+Smolder|fil_quotidien|J'ai craché une flamme ! Une vraie ! Elle était petite. Mais elle était VRAIE.
+Smolder|fil_quotidien|Lettre de maman ! Elle dit qu'elle est fière de moi. Je l'ai relue dix fois.
+Smolder|fil_pique|{b} m'a appelé « le lézard ». Je suis un DRAGON. Un petit dragon. Avec des ailes. Petites.
+Smolder|fil_pique|{b} a soufflé sur ma flamme pour l'éteindre. Elle était fragile ! Elle était toute neuve !
+Smolder|fil_maitre|Quand je serai grand, je te ferai voler sur mon dos. Promis. Dans longtemps.
+Sona|fil_ennui|(Sona joue une mélodie lente, qui s'arrête au milieu, comme une question.)
+Sona|fil_quotidien|(Une partition neuve est posée sur le piano de la grande salle. Elle s'appelle « Pour la pluie ».)
+Sona|fil_pique|(Sona joue trois notes fausses quand {b} passe. Exprès. Tout le monde a compris.)
+Sona|fil_maitre|(Sona te tend une fleur cueillie au jardin, et sourit.)
+Soraka|fil_ennui|Personne n'a besoin de soins aujourd'hui. Je ne m'en plains pas. Je soigne les plantes, alors.
+Soraka|fil_quotidien|Un oiseau s'est cogné contre la fenêtre. Je l'ai soigné. Il chante sur le toit depuis.
+Soraka|fil_pique|{b} a écrasé une araignée. Elle n'avait rien fait. Elles ne font jamais rien.
+Soraka|fil_maitre|Tu portes beaucoup sur tes épaules. Viens me voir si ça pèse trop. Je ne dirai rien.
+Swain|fil_ennui|Pas de complot à déjouer cette semaine. C'est précisément ce qui m'inquiète.
+Swain|fil_quotidien|J'ai écouté les rumeurs du marché. Le boulanger trompe sa femme. Avec le pain de la veille.
+Swain|fil_pique|{b} croit que je ne vois pas ce qu'il se passe la nuit dans la cuisine. Je vois tout. Garde-moi une part.
+Swain|fil_maitre|Tu gouvernes sans paranoïa. C'est imprudent. Et pourtant ça marche. Fascinant.
+Sylas|fil_ennui|Personne à libérer. J'ai ouvert toutes les cages à oiseaux du bourg. Ils sont restés. Lâches.
+Sylas|fil_quotidien|J'ai donné une conférence sur la liberté aux enfants du bourg. Ils ont surtout retenu qu'on peut désobéir.
+Sylas|fil_quotidien|J'ai réparé la porte de la grange. Sans serrure. Les portes sans serrure, c'est mon combat.
+Sylas|fil_pique|{b} m'a demandé d'arrêter de parler de révolution au petit-déjeuner. Le petit-déjeuner est un moment politique.
+Sylas|fil_pique|{b} a fermé la porte à clé. J'ai enlevé la porte. On discute ?
+Sylas|fil_maitre|Tu commandes, mais tu écoutes. Si tous les rois faisaient pareil, je serais au chômage.
+Syndra|fil_ennui|J'ai fait flotter tout le mobilier de la grande salle pour m'occuper. Personne n'a osé s'asseoir depuis.
+Syndra|fil_quotidien|Bain chaud, livre, silence absolu. J'ai menacé le premier qui frappait. Personne n'a frappé.
+Syndra|fil_quotidien|J'ai rangé ma chambre par la pensée. Tout est parfaitement aligné. C'est très reposant.
+Syndra|fil_pique|{b} m'a dit que j'étais trop puissante pour une guilde. Enfin quelqu'un qui comprend.
+Syndra|fil_pique|{b} a touché à mes sphères. Elles sont sensibles. Moi aussi. Ne recommence pas.
+Syndra|fil_maitre|Tu n'essaies pas de me contrôler. C'est la seule raison pour laquelle je reste.
+Tahm Kench|fil_ennui|Ce repère est aussi calme qu'un étang sans poisson. Et j'ai faim d'histoires.
+Tahm Kench|fil_quotidien|J'ai écouté un fermier raconter ses malheurs pendant une heure. Délicieux. Je n'ai rien fait d'autre.
+Tahm Kench|fil_pique|{b} a refusé mon marché. Le premier refus est toujours gratuit. Le deuxième, moins.
+Tahm Kench|fil_maitre|Toi et moi, on pourrait faire de grandes affaires. Mais je te laisse tranquille. Tu me plais trop.
+Taliyah|fil_ennui|J'ai empilé des cailloux en tour. Elle fait deux mètres. Elle est tombée. Je recommence.
+Taliyah|fil_quotidien|J'ai tissé une petite couverture pour le chien. Il dort dessus. Il est content.
+Taliyah|fil_quotidien|Lettre de Yasuo ! Enfin, trois mots. Mais trois mots de Yasuo, c'est beaucoup.
+Taliyah|fil_pique|{b} a dit que je parlais trop de ma famille. Je parle de ma famille juste assez. Tu devrais écrire à la tienne.
+Taliyah|fil_pique|{b} a trébuché sur mes cailloux. Ils étaient rangés ! Toi, tu ne regardais pas où tu marchais !
+Taliyah|fil_maitre|Ma mère t'aimerait bien. Elle aime les gens qui font attention aux autres.
+Talon|fil_ennui|Personne à suivre.
+Talon|fil_quotidien|J'ai dormi sur le toit. Personne ne m'a vu monter. Personne ne m'a vu descendre.
+Talon|fil_pique|{b} a cherché à me surprendre. Mauvaise idée.
+Talon|fil_maitre|Tu ne demandes jamais où je vais. Je reviens toujours.
+Taric|fil_ennui|J'ai poli ma lance jusqu'à ce qu'elle reflète le ciel. Le ciel était gris. Dommage.
+Taric|fil_quotidien|J'ai cueilli des fleurs pour chaque chambre. Chacune correspond à son occupant. J'ai le sens du détail.
+Taric|fil_pique|{b} a dit que j'étais trop élégant pour me battre. On peut être les deux. Je suis la preuve.
+Taric|fil_maitre|Ton regard sur les autres est beau. C'est la plus rare des beautés.
+Teemo|fil_ennui|J'ai fait trois fois le tour du bourg en éclaireur. Pas un seul ennemi. Le bourg est trop sage.
+Teemo|fil_quotidien|J'ai trouvé un nid de champignons dans la forêt. Je les ai tous replantés dans le jardin. Ne marchez plus dans le jardin.
+Teemo|fil_quotidien|Nouvelle fléchette ! Celle-là fait dormir. Je l'ai testée sur moi. J'ai dormi six heures.
+Teemo|fil_pique|{b} a dit que j'avais l'air mignon. Je ne suis pas mignon. Je suis capitaine.
+Teemo|fil_pique|{b} a marché dans un de mes champignons. Il était là pour une raison ! La raison, c'était toi !
+Teemo|fil_maitre|Capitaine Teemo au rapport ! Tout va bien ! Tu peux dormir tranquille !
+Thresh|fil_ennui|Personne n'a peur ce soir. C'est d'un ennui...
+Thresh|fil_quotidien|J'ai ajouté une âme à ma collection. Celle d'un papillon. Elle est très petite. Elle me plaît.
+Thresh|fil_pique|{b} a regardé ma lanterne trop longtemps. Elle aussi, elle regardait.
+Thresh|fil_maitre|Ton âme est intéressante. Je ne la collectionnerai pas. Pas tout de suite.
+Tristana|fil_ennui|J'ai tiré sur toutes les pommes de pin du jardin. Il n'en reste plus. Quelqu'un a des cibles ?
+Tristana|fil_quotidien|Boomer a fait un tout petit boum dans la cour. Les poules vont bien. Le seau, moins.
+Tristana|fil_quotidien|J'ai grimpé sur le toit pour voir le coucher de soleil. Je redescends. Promis. Dans une heure.
+Tristana|fil_pique|{b} a dit que j'étais trop petite pour mon canon. Le canon n'est pas d'accord. Moi non plus.
+Tristana|fil_pique|{b} m'a soulevée pour me poser sur l'étagère. Pour rire. Je vais rire aussi. Bientôt.
+Tristana|fil_maitre|Tu diriges super bien ! Comme Boomer quand il est bien réglé. C'est un énorme compliment !
+Trundle|fil_ennui|J'ai cassé un glaçon en deux. Puis en quatre. Je m'ennuie, c'est grave.
+Trundle|fil_quotidien|J'ai trouvé un trône dans le grenier. C'est une chaise. Mais je l'appelle trône.
+Trundle|fil_quotidien|J'ai mangé le petit-déjeuner de trois personnes. Personne s'est plaint. Ils dormaient.
+Trundle|fil_pique|{b} a dit que mon gourdin était sale. Il est couvert d'histoires. C'est pas pareil.
+Trundle|fil_pique|{b} a pris la plus grosse part de gâteau. La plus grosse est TOUJOURS pour le roi. Je suis le roi.
+Trundle|fil_maitre|Toi, je te nomme ministre. De quoi ? Je sais pas. Mais ministre.
+Tryndamere|fil_ennui|Pas de bataille. J'ai crié dans la forêt pour me calmer. Les oiseaux sont partis.
+Tryndamere|fil_quotidien|J'ai mangé une demi-chèvre au dîner. L'autre moitié, c'est pour demain.
+Tryndamere|fil_quotidien|Ashe m'a écrit. Elle dit de ne pas faire de bêtises. C'est un peu tard.
+Tryndamere|fil_pique|{b} a dit que je ne savais pas me reposer. Je me repose. En courant. C'est pareil.
+Tryndamere|fil_pique|{b} m'a demandé de baisser la voix. JE NE PARLE PAS FORT. JE PARLE COMME UN BARBARE.
+Tryndamere|fil_maitre|Ashe dit que tu diriges bien. Ashe a toujours raison. Bon, presque toujours.
+Twisted Fate|fil_ennui|J'ai tiré la même carte cinquante fois. La chance s'ennuie aussi, à force.
+Twisted Fate|fil_quotidien|J'ai appris un tour de cartes à un gamin du bourg. Il m'a battu au premier essai. Je l'ai engagé.
+Twisted Fate|fil_quotidien|Partie de poker avec le meunier. Il bluffe très mal. Je l'ai laissé gagner une fois. Par charité.
+Twisted Fate|fil_pique|{b} a dit que je trichais. Prouve-le. Non, vraiment, essaie. Je serais curieux.
+Twisted Fate|fil_pique|{b} a joué avec mon jeu de cartes. Il manque l'as de cœur. Je saurai où le chercher.
+Twisted Fate|fil_maitre|Tu joues tes cartes avec prudence. J'aime ça. Mais tu pourrais bluffer plus.
+Twitch|fil_ennui|J'ai fouillé toutes les poubelles. C'est propre. Trop propre. Ça me déprime.
+Twitch|fil_quotidien|J'ai trouvé un fromage de six semaines au fond de la cave. Joyeux anniversaire à moi.
+Twitch|fil_quotidien|Le chien m'a reniflé. Il a éternué trois fois. On est amis.
+Twitch|fil_pique|{b} a dit que je puais. C'est mon parfum. Il a coûté zéro pièce et des années de travail.
+Twitch|fil_pique|{b} a ouvert la fenêtre quand je suis entré. Je l'ai remarqué. Je le remarque toujours.
+Twitch|fil_maitre|Toi, tu fermes pas la fenêtre quand j'arrive. Je dis rien. Mais je l'ai vu.
+Udyr|fil_ennui|Les esprits sont calmes. Moi pas. Je suis allé courir avec un cerf.
+Udyr|fil_quotidien|Un ours est venu boire au lac. On s'est regardés. On s'est compris.
+Udyr|fil_pique|{b} a dit que je sentais la forêt. Merci. C'est mieux que ce que tu sens toi.
+Udyr|fil_maitre|Ton esprit est fort. Il n'a pas d'animal. Mais il est fort.
+Urgot|fil_ennui|Mes moteurs tournent dans le vide. Comme moi.
+Urgot|fil_quotidien|Un enfant m'a apporté de l'huile pour mes articulations. Il ne m'a pas demandé si j'avais mal. Il l'a deviné.
+Urgot|fil_pique|{b} a crié en me voyant au réveil. Ce n'est pas nouveau. Ça fait quand même quelque chose.
+Urgot|fil_maitre|Tu ne demandes pas d'où je viens. Tu demandes où je vais. C'est mieux.

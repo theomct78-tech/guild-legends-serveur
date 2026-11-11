@@ -1,0 +1,107 @@
+# Voix des champions · lot 28 (Cassiopeia à Gwen) · 11 nov. 2026 · fil, troisième passe
+Cassiopeia|fil_ennui|J'ai passé la journée à muer. C'est long, c'est sale, et personne ne m'a apporté de thé.
+Cassiopeia|fil_quotidien|Le soleil tape sur la dalle du jardin à deux heures. Cette dalle est à moi. Qu'on se le dise.
+Cassiopeia|fil_pique|{b} a crié en trouvant ma vieille peau dans la salle de bains. C'est naturel. Tu n'as jamais mué ?
+Cassiopeia|fil_maitre|Tu ne recules pas quand j'entre dans une pièce. Les autres reculent. J'apprécie.
+Cho'Gath|fil_ennui|MANGÉ LE BANC. ENNUI TOUJOURS LÀ. ENNUI PAS COMESTIBLE.
+Cho'Gath|fil_quotidien|UN OISEAU S'EST POSÉ SUR MOI. JE NE L'AI PAS MANGÉ. JE GRANDIS EN SAGESSE.
+Cho'Gath|fil_quotidien|LE CUISINIER M'A DONNÉ UN CHAUDRON DE SOUPE. TOUT LE CHAUDRON. JE L'AIME.
+Cho'Gath|fil_pique|{b} A DIT QUE J'AVAIS MAUVAISE HALEINE. C'EST L'ODEUR DU BANC.
+Cho'Gath|fil_pique|{b} A MIS UN CHAPEAU SUR MA TÊTE PENDANT QUE JE DORMAIS. JE LE GARDE. IL EST PETIT.
+Cho'Gath|fil_maitre|TOI, JE NE TE MANGE PAS. C'EST UNE PROMESSE. PRESQUE.
+Corki|fil_ennui|J'ai poli l'hélice. Puis la carlingue. Puis la moustache. Ça brille partout, il manque juste un ciel.
+Corki|fil_quotidien|Atterrissage dans la mare du jardin. Volontaire. Totalement volontaire. Les canards sont d'accord.
+Corki|fil_quotidien|J'ai livré une lettre au bourg en trois minutes. Le facteur me regarde de travers depuis.
+Corki|fil_pique|{b} a demandé si mon engin était un jouet. On va voir si tu dis ça à deux cents pieds.
+Corki|fil_pique|{b} a assis le chien dans mon cockpit pour une photo. Il y a des poils partout. PARTOUT.
+Corki|fil_maitre|Le jour où tu veux un tour au-dessus de la vallée, je t'emmène. Accroche-toi bien.
+Darius|fil_ennui|Un soldat qui ne se bat pas rouille. J'ai fendu du bois toute la journée. Il en reste pour l'hiver.
+Darius|fil_quotidien|Les jeunes m'ont demandé de raconter une bataille. J'ai raconté la plus courte. Ils voulaient la plus longue.
+Darius|fil_pique|{b} a laissé tomber son arme à l'entraînement. Deux fois. On recommence demain à l'aube. Toi d'abord.
+Darius|fil_maitre|Tu tiens tes promesses. À Noxus, ça vaut plus qu'une médaille.
+Diana|fil_ennui|La lune ne se lève que dans six heures. Je compte chaque minute.
+Diana|fil_quotidien|J'ai gravé un croissant sur la porte de ma chambre. Ce n'est pas une décoration.
+Diana|fil_pique|{b} a demandé si je souriais parfois. Quand la lune est pleine. Reviens dans neuf jours.
+Diana|fil_maitre|Tu ne demandes rien sur mon passé. Merci pour ça.
+Dr. Mundo|fil_ennui|MUNDO A MESURÉ TOUT LE MONDE PENDANT LEUR SIESTE. RÉSULTATS INQUIÉTANTS. POUR EUX.
+Dr. Mundo|fil_quotidien|MUNDO A INVENTÉ UNE TISANE. ELLE EST VIOLETTE. MUNDO SE SENT TRÈS BIEN. MUNDO VOIT DES COULEURS.
+Dr. Mundo|fil_quotidien|MUNDO A RECOUSU LE NOUNOURS D'UNE PETITE DU BOURG. OPÉRATION RÉUSSIE. PATIENT HEUREUX.
+Dr. Mundo|fil_pique|{b} A REFUSÉ LE VACCIN DE MUNDO. MUNDO NE SAIT PAS CE QU'EST UN VACCIN. MAIS {b} DEVAIT DIRE OUI.
+Dr. Mundo|fil_pique|{b} A CACHÉ LE GRAND SCALPEL. MUNDO A LE PETIT. MUNDO EST PATIENT.
+Dr. Mundo|fil_maitre|MUNDO VA FAIRE UN EXAMEN COMPLET DU CHEF. GRATUIT. POUR LE CHEF. MUNDO INSISTE.
+Draven|fil_ennui|J'ai fait des tours avec mes haches devant le miroir pendant deux heures. Le miroir a adoré.
+Draven|fil_quotidien|Un gamin du bourg s'est déguisé en moi. C'est la plus belle chose que j'aie jamais vue. Je l'ai payé.
+Draven|fil_quotidien|J'ai offert la tournée à l'auberge. Puis j'ai fait un discours. Puis on m'a demandé de partir. Grande soirée.
+Draven|fil_pique|{b} a dit que mes haches faisaient trop de bruit au réveil. C'est un réveil de LUXE.
+Draven|fil_pique|{b} a dit « Darius est plus fort ». Je t'aimais bien, avant.
+Draven|fil_maitre|Tu sais ce qui manque à ce repère ? Une statue. De moi. Pense-y.
+Ekko|fil_ennui|J'ai revécu la même heure cinq fois pour voir si quelqu'un remarquait. Personne. Vous êtes trop prévisibles.
+Ekko|fil_quotidien|J'ai fabriqué une horloge qui sonne quand le dîner est prêt. Elle a sonné toute la nuit. Je la règle.
+Ekko|fil_quotidien|Partie de skate dans la cour avec une planche et deux roues de brouette. Le mannequin n'a pas survécu.
+Ekko|fil_pique|{b} m'a demandé de remonter le temps pour récupérer sa chaussette. C'est pas fait pour ça !
+Ekko|fil_pique|{b} a écrit son nom à côté de mon dessin, sur le mur de la grange. J'ai écrit le mien en dessous, deux fois plus gros.
+Ekko|fil_maitre|Si je pouvais rembobiner, je ne changerais pas le jour où je suis arrivé ici. Voilà. C'est dit.
+Elise|fil_ennui|J'ai compté les toiles du grenier. Il y en a deux cents. Il en faudrait deux cent un.
+Elise|fil_quotidien|J'ai invité quelques personnes du bourg à prendre le thé. Elles sont parties tôt. Je ne sais pas pourquoi.
+Elise|fil_pique|{b} a balayé le coin du grenier. Avec la toile. Avec les petites dedans. On en reparlera.
+Elise|fil_maitre|Tu as un certain charme. Ne t'inquiète pas, je dis ça à tout le monde.
+Evelynn|fil_ennui|J'ai fait peur au meunier trois fois aujourd'hui. Il commence à s'y habituer. C'est vexant.
+Evelynn|fil_quotidien|Nouvelle robe, nouvelles chaussures, nouvelle humeur. Personne ne m'a vue passer. Parfait.
+Evelynn|fil_pique|{b} a sursauté quand j'ai dit bonjour derrière son épaule. Bonjour quand même.
+Evelynn|fil_maitre|Tu sais que je pourrais être n'importe où, en ce moment ? Je suis ici. Profites-en.
+Ezreal|fil_ennui|J'ai fouillé le grenier une deuxième fois. J'ai trouvé une deuxième carte du bourg. Pareille que la première.
+Ezreal|fil_quotidien|J'ai dessiné le plan du repère pour mon journal. J'ai ajouté une salle secrète. Elle n'existe pas. Encore.
+Ezreal|fil_quotidien|Les enfants du bourg m'ont demandé un autographe. Je savais que ça finirait par arriver.
+Ezreal|fil_pique|{b} a dit que mes cheveux étaient « trop parfaits pour un aventurier ». Merci. Je crois.
+Ezreal|fil_pique|{b} a utilisé mon gant pour allumer la cheminée. C'est une relique, pas un briquet !
+Ezreal|fil_maitre|Si un jour on trouve un trésor, je t'en garde la moitié. Enfin, un quart. On verra.
+Fiddlesticks|fil_ennui|personne n'est venu au grenier aujourd'hui. j'ai attendu.
+Fiddlesticks|fil_quotidien|la paille de la grange a bougé toute seule. ce n'était pas le vent.
+Fiddlesticks|fil_pique|{b} dit ne pas avoir peur. c'est gentil de mentir.
+Fiddlesticks|fil_maitre|tu dors bien. je l'ai vu.
+Fiora|fil_ennui|J'ai désarmé trois mannequins, deux recrues et un meunier. Le meunier n'avait rien demandé.
+Fiora|fil_quotidien|J'ai trouvé une couturière au bourg qui sait ce qu'est une vraie coupe. Je n'irai plus ailleurs.
+Fiora|fil_quotidien|Duel à l'aube contre mon reflet dans le bassin. Égalité. C'est inacceptable.
+Fiora|fil_pique|{b} m'a défiée en duel. J'ai accepté. C'était court. Tu veux une revanche ? Moi aussi, j'aime gagner deux fois.
+Fiora|fil_pique|{b} a dit que mon épée était « jolie ». Elle est surtout pointue. Je peux te montrer.
+Fiora|fil_maitre|Tu ne baisses jamais les yeux quand je te parle. J'aime ça. Continue.
+Fizz|fil_ennui|J'ai essayé de nager dans la soupe. On m'a dit non. Pourquoi non ?
+Fizz|fil_quotidien|J'ai trouvé une grenouille qui saute plus loin que moi ! Pour l'instant. Je m'entraîne.
+Fizz|fil_quotidien|Il a plu toute la nuit ! J'ai dormi dans une flaque. Meilleure nuit depuis des semaines.
+Fizz|fil_pique|{b} a dit que mon trident était une fourchette. Une fourchette ne fait pas ÇA.
+Fizz|fil_pique|{b} a mis du sel dans mon verre d'eau. Merci ! Ça me rappelle la maison !
+Fizz|fil_maitre|Un jour, je t'emmène voir la mer. La vraie. Avec des requins. Des gentils.
+Galio|fil_ennui|J'ai fait le guet toute la journée. Il ne s'est rien passé. Mais j'étais prêt !
+Galio|fil_quotidien|Un enfant m'a demandé si j'étais une statue. J'ai dit oui. Il m'a escaladé. C'était merveilleux.
+Galio|fil_pique|{b} m'a demandé de ne pas chanter pendant le bain. Je chantais à peine ! Et si bien !
+Galio|fil_maitre|Tu sais que ton histoire ferait une très belle légende ? Je m'y connais en légendes.
+Gangplank|fil_ennui|J'ai taillé une orange avec mon sabre en spirale parfaite. Personne n'a applaudi. Bande d'ingrats.
+Gangplank|fil_quotidien|Le tavernier du bourg me doit de l'argent. Enfin, je lui dois de l'argent. Bref, on se doit.
+Gangplank|fil_pique|{b} a dit que mon chapeau était trop grand. C'est pour que les gens me voient venir. Et qu'ils aient peur.
+Gangplank|fil_maitre|Sur mon navire, je t'aurais fait capitaine en second. C'est le plus grand compliment que je fais.
+Garen|fil_ennui|J'ai poli mon armure. Puis celle des autres. Personne ne l'avait demandé. Elles brillent.
+Garen|fil_quotidien|J'ai mangé une pomme de terre entière, cuite dans la cendre. Simple. Parfait. Demacia.
+Garen|fil_pique|{b} a dit que je tournais trop sur moi-même à l'entraînement. C'est une technique. Une vraie.
+Garen|fil_maitre|Tu as le sens de la justice. Je l'ai vu. Ça me rassure.
+Gnar|fil_ennui|Gnar s'ennuie. Gnar a mordu une chaise. La chaise s'ennuie aussi maintenant.
+Gnar|fil_quotidien|Gnar a trouvé un os de dinosaure ! Non. C'est un os de poulet. Gnar le garde quand même.
+Gnar|fil_quotidien|Gnar a fait une grosse colère. Gnar est désolé pour la porte. Gnar a dit pardon à la porte.
+Gnar|fil_pique|{b} a pris Gnar pour un doudou ! Gnar n'est pas un doudou ! Gnar est un GRAND guerrier !
+Gnar|fil_pique|{b} a mangé la pomme de Gnar ! Gnar va devenir très grand très vite !
+Gnar|fil_maitre|Gnar aime le chef ! Gnar donne son os au chef ! (Gnar le reprend après.)
+Gragas|fil_ennui|Le tonneau est vide, le ciel est gris, et personne ne veut chanter. Triste journée.
+Gragas|fil_quotidien|J'ai brassé une bière aux framboises. Elle est rose. Elle est forte. Elle est merveilleuse.
+Gragas|fil_quotidien|J'ai dormi sur le tonneau. Ou dans le tonneau. Je me suis réveillé heureux, c'est tout ce qui compte.
+Gragas|fil_pique|{b} a dit que je ronflais comme un ours. Merci ! Les ours ronflent très bien.
+Gragas|fil_pique|{b} a dilué ma bière avec de l'eau. Je l'ai senti. Je le sens TOUJOURS.
+Gragas|fil_maitre|À ta santé ! Non, vraiment, à ta santé. Je bois à ta santé tous les soirs.
+Graves|fil_ennui|J'ai compté les cartes du jeu trois fois. Il en manque une. Quelqu'un ici triche.
+Graves|fil_quotidien|J'ai réparé la serrure de la cave. Je l'ai crochetée d'abord, pour voir. Elle tenait bien.
+Graves|fil_pique|{b} a dit que mon fusil faisait trop de bruit. C'est le but.
+Graves|fil_maitre|Tu paies à l'heure. Dans mon métier, c'est la meilleure preuve d'amitié.
+Gwen|fil_ennui|J'ai cousu une poupée à l'image de chacun ! Elles sont toutes rangées sur mon lit. Elles s'ennuient aussi.
+Gwen|fil_quotidien|J'ai fait un bouquet avec des chutes de tissu ! Il ne fanera jamais. Comme ça, c'est mieux.
+Gwen|fil_quotidien|J'ai dansé sous la pluie avec mes ciseaux. Ne vous inquiétez pas, ils sont gentils.
+Gwen|fil_pique|{b} a marché sur ma pelote de laine. Elle est partie jusqu'au bout du couloir. Moi aussi, en courant.
+Gwen|fil_pique|{b} m'a dit que j'étais trop gentille pour être une guerrière. Mes ciseaux pensent autrement.
+Gwen|fil_maitre|Je t'ai cousu un petit insigne. Il est dans ta poche. Ne cherche pas comment il est arrivé là.

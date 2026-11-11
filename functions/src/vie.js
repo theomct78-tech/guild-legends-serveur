@@ -689,6 +689,7 @@ function echoirCartes(g, scenes) { for (const c of g.cartes) if (c.etat === 'ouv
 /* Réponse du maître de guilde. Retourne la liste des conséquences, lisibles. */
 function repondre(g, scenes, idCarte, option, parDefaut = false) {
   const c = g.cartes.find(x => x.id === idCarte); if (!c || c.etat !== 'ouverte') throw new Error('Demande introuvable ou déjà traitée');
+  if (!parDefaut) g.aRepondu = true;   // pour le carnet de l'intendante
   const H = c.heros.map(id => g.heros.find(h => h.id === id)), h = H[0], t = new Set(h.traits), out = [];
   // Les effets chiffrés restent cachés : le joueur voit ce qui se passe, pas les points.
   const effet = (x, v, lib, dv = 36) => souvenir(x, g.t, v, lib, dv);

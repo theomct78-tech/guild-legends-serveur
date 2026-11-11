@@ -139,6 +139,9 @@ function vue(monde, gid) {
     aVenir: aVenir(monde, g),
     economie: { palier: palier.nom, revenu: E.revenuHebdo(palier.cle) }, chien: g.monde.chien,
     repere: { region: g.region, bourg: g.monde.bourg, meteo: V.meteo(g) },
+    // Les premiers pas déjà faits, d'après la partie elle-même (le carnet de l'intendante ne dépend plus de l'appareil).
+    premiersPas: { recruter: g.heros.length > 0, lettre: Boolean(g.aRepondu), batir: RP.etatSalles(g).some(x => x.etat === 'construite'),
+      contrat: Object.values(monde.contrats).some(c => c.m.postes.some(p => p.guilde === gid && p.heros)) || (g.rapports || []).length > 0 },
     maintenant: { t: monde.t, jour: jour(monde.t), heure: heure(monde.t) },
     heros: actifs.map(h => { const f = C.parCle[h.cle];
       return { id: h.id, nom: h.nom, apparence: h.apparence || null, cle: h.cle, img: images(h.cle), role: h.role, etat: h.etat, lieu: h.lieu, activite: ACT[h.activite] || '', act: h.activite || null, blessureNiv: h.blesse?.niveau || null, repos: h.reposJusqua > monde.t ? Math.ceil(h.reposJusqua - monde.t) : 0, blesse: Boolean(h.blesse), reserve: h.reserve || null,

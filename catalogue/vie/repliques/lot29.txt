@@ -1,0 +1,117 @@
+# Voix des champions · lot 29 (Hecarim à Kled) · 11 nov. 2026 · fil, troisième passe
+Hecarim|fil_ennui|Les chevaux du bourg ne veulent plus passer devant le portail. Je n'y peux rien. Je suis resté dedans toute la journée.
+Hecarim|fil_quotidien|J'ai ferré mes propres sabots à la forge. Le forgeron a regardé sans rien dire. Il a bien fait.
+Hecarim|fil_pique|{b} a laissé un seau de carottes devant ma porte. C'est une insulte. Je les ai mangées quand même.
+Hecarim|fil_maitre|Tu n'as jamais essayé de me monter dessus. Les vivants intelligents sont rares.
+Heimerdinger|fil_ennui|J'ai trié mes vis par taille, puis par couleur, puis par date de fabrication. Il est onze heures.
+Heimerdinger|fil_quotidien|Expérience du jour : la confiture colle mieux que la colle. Résultat inattendu. Application immédiate.
+Heimerdinger|fil_pique|{b} a utilisé mes plans comme papier peint. Le salon est ravissant. Mes plans sont perdus.
+Heimerdinger|fil_maitre|Ta logique est remarquable, pour un cerveau de cette taille. C'est un compliment yordle.
+Hwei|fil_ennui|J'ai mélangé toutes mes couleurs pour voir. Ça fait marron. Toujours marron.
+Hwei|fil_quotidien|J'ai peint le chien. Le portrait, pas le chien. Il s'est reconnu, je crois.
+Hwei|fil_pique|{b} a demandé pourquoi mes ciels étaient verts. Parce qu'ils l'étaient, ce jour-là.
+Hwei|fil_maitre|Je voudrais faire ton portrait. Pas maintenant. Quand la lumière sera juste.
+Illaoi|fil_ennui|Personne ne veut se battre avec moi aujourd'hui. Je comprends. Mais je suis déçue.
+Illaoi|fil_quotidien|J'ai porté la barque du pêcheur jusqu'au lac. Il voulait juste de l'aide pour la pousser.
+Illaoi|fil_pique|{b} prie à voix basse. Prie plus fort. La déesse n'entend pas les timides.
+Illaoi|fil_maitre|Tu avances. Même quand ça fait peur. La déesse t'aimerait bien.
+Irelia|fil_ennui|J'ai fait tourner mes lames autour de moi pendant une heure. Les enfants ont compté. Mille deux cents tours.
+Irelia|fil_quotidien|Lettre de Ionia. Les cerisiers ont fleuri près de chez moi. Je n'étais pas là pour les voir.
+Irelia|fil_pique|{b} a demandé si mes lames pouvaient trancher le pain. Elles peuvent tout trancher. Ce n'est pas la question.
+Irelia|fil_maitre|Tu protèges les tiens sans faire de discours. Ça me rappelle quelqu'un. Moi, avant.
+Ivern|fil_ennui|J'ai demandé aux champignons du jardin ce qu'ils faisaient. Ils m'ont dit : « Rien. » Ils avaient raison.
+Ivern|fil_quotidien|Un écureuil a élu domicile dans ma barbe. Je ne dis rien. On cohabite.
+Ivern|fil_pique|{b} a marché sur Daisy. Enfin, sur son pied. Elle n'a rien senti. Elle a dit « aïe » quand même, par politesse.
+Ivern|fil_maitre|Tu as des racines. Je le sens. Elles vont loin, et elles tiennent bien.
+Janna|fil_ennui|Pas un souffle de vent. Je me sens comme une voile un jour de calme plat.
+Janna|fil_quotidien|J'ai fait sécher le linge de tout le monde en une minute. Ça sentait le printemps.
+Janna|fil_pique|{b} a fermé toutes les fenêtres. Je les ai rouvertes. Il faut que l'air circule, sinon on s'étouffe.
+Janna|fil_maitre|Le vent me dit que tu dors mal. Ferme les volets, et laisse-moi m'occuper du reste.
+Jarvan IV|fil_ennui|J'ai fait le tour des remparts six fois. Les remparts sont solides. Moi, je m'ennuie.
+Jarvan IV|fil_quotidien|J'ai partagé le repas des ouvriers du bourg. Ils parlaient librement. Je n'ai pas dit mon nom.
+Jarvan IV|fil_pique|{b} a dit que je marchais comme si j'avais une couronne sur la tête. J'en ai une. Elle est rangée.
+Jarvan IV|fil_maitre|Tu mènes sans titre et sans armée. Mon père devrait voir ça.
+Jax|fil_ennui|J'ai fait cent pompes sur un doigt. Puis cent sur l'autre. Il me reste huit doigts à occuper.
+Jax|fil_quotidien|J'ai appris aux enfants du bourg à jongler avec des pommes. Ils ont appris à jeter des pommes sur les gens.
+Jax|fil_quotidien|Partie de dés à l'auberge. J'ai gagné un lampadaire. Je ne sais pas comment. Je le garde.
+Jax|fil_pique|{b} a dit que je n'avais pas de visage sous le masque. J'en ai un. Il est magnifique. Tu ne le verras jamais.
+Jax|fil_pique|{b} m'a défié au bras de fer. On a tenu une heure. Personne n'a gagné. La table, si : elle a cédé.
+Jax|fil_maitre|T'es le genre de personne que j'emmènerais au bout du monde. Si le monde avait un bout.
+Jayce|fil_ennui|J'ai démonté mon marteau pour le remonter plus vite. Trois minutes douze. Record. Personne n'était là.
+Jayce|fil_quotidien|J'ai réparé la pompe du puits avec trois bouts de ficelle et une idée géniale. Comme d'habitude.
+Jayce|fil_quotidien|J'ai écrit une lettre à Viktor. Je ne l'ai pas envoyée. Je la réécrirai.
+Jayce|fil_pique|{b} a dit que j'étais un peu prétentieux. Un peu ? Merci, j'ai cru que tu allais exagérer.
+Jayce|fil_pique|{b} a pris mon marteau pour casser des noix. Ça a marché. Les noix aussi ont disparu, cela dit.
+Jayce|fil_maitre|Avec tes idées et mes inventions, on pourrait changer Runeterra. Enfin, surtout mes inventions.
+Jhin|fil_ennui|Pas de scène, pas de public. Je répète la même révérence depuis l'aube. Elle n'est toujours pas parfaite.
+Jhin|fil_quotidien|J'ai composé une valse pour le piano de la grande salle. Elle dure exactement quatre minutes. Pas une seconde de plus.
+Jhin|fil_pique|{b} a applaudi au mauvais moment pendant ma répétition. Il y a un moment. Un seul. Ce n'était pas celui-là.
+Jhin|fil_maitre|Tu as le sens du rythme dans tes décisions. Rare. Presque artistique.
+Jinx|fil_ennui|J'ai collé des yeux sur toutes les portes du repère. Elles vous regardent. Bonne journée !
+Jinx|fil_quotidien|Fishbones a un nouveau chapeau. Pow-Pow est jaloux. Je gère un drame familial, là.
+Jinx|fil_quotidien|J'ai fait un feu de camp dans la cour. Il est un peu trop grand. Il faut appeler quelqu'un ? Nan, ça va aller.
+Jinx|fil_pique|{b} a mis mes grenades dans le placard à balais. Le placard à balais n'existe plus. Désolée !
+Jinx|fil_pique|{b} m'a dit de me calmer. J'AI JAMAIS ÉTÉ AUSSI CALME DE MA VIE. REGARDE COMME JE SUIS CALME.
+Jinx|fil_maitre|Tu cries jamais sur moi. Enfin, pas comme les autres. C'est mieux. Je crois.
+K'Sante|fil_ennui|J'ai poncé mes Ntofo jusqu'à pouvoir me voir dedans. Je me trouve fatigué. C'est l'ennui.
+K'Sante|fil_quotidien|Les enfants du bourg m'ont demandé de les porter tous en même temps. Sept. Ça allait.
+K'Sante|fil_pique|{b} a dit que je ne riais jamais. J'ai ri hier. Discrètement. C'était à cause de toi, d'ailleurs.
+K'Sante|fil_maitre|Tu fais attention à chacun. C'est comme ça qu'on protège une ville. Et un repère.
+Kai'Sa|fil_ennui|Le calme me rend nerveuse. J'ai fait douze fois le tour des remparts. Rien. Tant mieux. Rien.
+Kai'Sa|fil_quotidien|J'ai goûté du miel pour la première fois de ma vie. J'en ai repris quatre fois. C'est normal ?
+Kai'Sa|fil_pique|{b} m'a demandé si l'armure me grattait. Elle me répond quand je pense. C'est pire que gratter.
+Kai'Sa|fil_maitre|Ici, je dors. Pour moi, c'est beaucoup plus qu'un toit.
+Kalista|fil_ennui|Aucune trahison à punir depuis dix jours. Ce repère est trop honnête. Ou trop prudent.
+Kalista|fil_quotidien|J'ai regardé les vivants préparer le pain. C'est un rituel aussi, à sa manière.
+Kalista|fil_pique|{b} a promis de nourrir le chien. Il a faim. Je l'ai nourri. Je n'oublie rien.
+Kalista|fil_maitre|Tu ne promets jamais à la légère. Je le vois. Continue ainsi.
+Karma|fil_ennui|J'ai médité si longtemps qu'un oiseau s'est posé sur ma tête. Il est encore là. Je médite avec lui.
+Karma|fil_quotidien|J'ai préparé un thé pour tout le repère. Le chien aussi en a eu. Il l'a renversé. Le chien est très libre.
+Karma|fil_pique|{b} a demandé à quoi servait la méditation. À ne pas répondre à ce genre de question en colère.
+Karma|fil_maitre|Ton esprit est agité. Viens t'asseoir au jardin demain matin. Juste cinq minutes.
+Karthus|fil_ennui|La journée est longue. La nuit sera plus belle. J'attends.
+Karthus|fil_quotidien|J'ai chanté pour les corbeaux du toit. Ils sont restés. Public fidèle.
+Karthus|fil_pique|{b} dit que mon chant donne des frissons. Merci. C'est exactement le but.
+Karthus|fil_maitre|Tu vis pleinement. Je respecte ça, même si ce n'est pas ma spécialité.
+Kassadin|fil_ennui|Rien à signaler sur l'horizon. Je reste vigilant. Je reste toujours vigilant.
+Kassadin|fil_quotidien|J'ai partagé un repas avec le meunier. Il ne m'a pas demandé ce qu'il y avait sous le masque. C'était agréable.
+Kassadin|fil_pique|{b} a touché mon épée par curiosité. Ne le refais pas. Ce n'est pas une menace. C'est un conseil.
+Kassadin|fil_maitre|Tu veilles bien sur eux. Moi, je veille sur ce qui pourrait venir. On fait la paire.
+Katarina|fil_ennui|J'ai lancé des dagues sur un pommier. Il n'a plus de pommes. Il n'a plus vraiment de branches non plus.
+Katarina|fil_quotidien|J'ai trouvé un toit d'où on voit le coucher de soleil sur tout le bourg. Je n'en parle à personne.
+Katarina|fil_quotidien|Nouvelles bottes. Silencieuses. Vous ne m'entendrez plus jamais arriver. Vous ne m'entendiez déjà pas.
+Katarina|fil_pique|{b} a dit que je n'avais pas de patience. Je viens d'attendre cinq secondes avant de répondre. Tu vois ?
+Katarina|fil_pique|{b} a mangé la dernière pomme. Ma pomme. Je compte les pommes. J'ai toujours compté les pommes.
+Katarina|fil_maitre|Je ne fais confiance à personne. Toi, c'est presque. Ne gâche pas ça.
+Kayle|fil_ennui|Je juge que l'ennui n'est pas un péché. Mais c'est limite.
+Kayle|fil_quotidien|J'ai rendu un jugement entre deux voisins du bourg. Pour une chèvre. Justice est faite. La chèvre est contente.
+Kayle|fil_pique|{b} a menti trois fois aujourd'hui. Je les ai comptées. Rien de grave. Mais trois.
+Kayle|fil_maitre|Tu rends la justice sans cruauté. Ma sœur dirait que c'est impossible. Elle aurait tort.
+Kayn|fil_ennui|Rhaast me parle depuis l'aube. Je lui ai dit de se taire. Il ne s'est pas tu. C'est une longue journée.
+Kayn|fil_quotidien|J'ai coupé du bois avec ma faux. Rhaast dit que c'est humiliant. Le bois est parfaitement coupé.
+Kayn|fil_quotidien|Nouvelle coiffure. Rhaast déteste. Donc c'est réussi.
+Kayn|fil_pique|{b} a dit que je parlais tout seul. Je parle à ma faux. Ce n'est pas pareil. Rhaast, dis-lui.
+Kayn|fil_pique|{b} m'a volé la vedette pendant la soirée. Personne ne vole la vedette à Kayn. Personne.
+Kayn|fil_maitre|Rhaast te déteste. C'est bon signe. Il déteste tous ceux qui me font du bien.
+Kennen|fil_ennui|J'ai fait le tour du monde ! Non, du bourg. Quarante fois. C'est presque pareil !
+Kennen|fil_quotidien|J'ai aidé le meunier à rattraper ses moutons. En cinq secondes. Il ne comprend toujours pas ce qui s'est passé.
+Kennen|fil_quotidien|Il y a eu un orage cette nuit. J'ai dansé sur le toit. C'était la meilleure fête de l'année.
+Kennen|fil_pique|{b} a dit que j'étais trop petit pour être pris au sérieux. Je suis petit ET sérieux. Pose cette question à mes éclairs.
+Kennen|fil_pique|{b} m'a confondu avec un écureuil. ENCORE. Je vais porter un écriteau.
+Kennen|fil_maitre|Tu cours moins vite que moi, mais tu arrives toujours au bon moment. C'est aussi un talent.
+Kha'Zix|fil_ennui|Pas de proie digne de moi. J'ai traqué une souris. Elle était plus maligne que prévu.
+Kha'Zix|fil_quotidien|J'ai observé les humains manger. Vous mâchez beaucoup. Pourquoi mâchez-vous autant ?
+Kha'Zix|fil_quotidien|J'ai attrapé une mouche en plein vol. Personne n'a vu. Je le note ici.
+Kha'Zix|fil_pique|{b} a dit que mes ailes étaient « mignonnes ». Mignonnes. MIGNONNES.
+Kha'Zix|fil_pique|{b} a crié quand je suis entré par la fenêtre du dortoir. Les portes sont faites pour les faibles.
+Kha'Zix|fil_maitre|Tu n'es pas une proie. Je l'ai décidé. Tu peux me remercier.
+Kindred|fil_ennui|Agneau : Rien ne meurt aujourd'hui. Loup : C'est ennuyeux. Agneau : C'est bien.
+Kindred|fil_quotidien|Agneau : Un vieil homme du bourg nous a salués. Loup : Il sait. Agneau : Il n'a pas peur. C'est beau.
+Kindred|fil_pique|Loup : {b} a reculé en me voyant. Agneau : Tu as fait exprès. Loup : Un peu.
+Kindred|fil_maitre|Agneau : On ne viendra pas pour toi avant longtemps. Loup : Dommage. Agneau : Loup.
+Kled|fil_ennui|J'ai déclaré la guerre au poulailler. Les poules ont gagné. On négocie la paix.
+Kled|fil_quotidien|J'ai trouvé une pelle. C'est MA pelle maintenant. Y a mon nom dessus. Gravé avec les dents.
+Kled|fil_quotidien|Skaarl a mangé le chapeau du meunier. Le meunier était dessous. Il va bien. Le chapeau, non.
+Kled|fil_pique|{b} a dit que je parlais trop fort. JE PARLE NORMALEMENT. C'EST TOI QUI ÉCOUTES MAL.
+Kled|fil_pique|{b} a regardé Skaarl de travers. Personne ne regarde Skaarl de travers. Skaarl s'en souvient.
+Kled|fil_maitre|Toi, tu commandes bien. Pas aussi bien que moi. Mais bien.

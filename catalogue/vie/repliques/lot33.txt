@@ -1,0 +1,133 @@
+# Voix des champions · lot 33 (Varus à Zyra) · 11 nov. 2026 · fil, troisième passe
+Varus|fil_ennui|Les deux voix se disputent depuis l'aube. Aucune ne gagne. Moi, je perds.
+Varus|fil_quotidien|J'ai tiré une flèche par-dessus la colline. Elle est retombée dans le seau du meunier. Je ne l'ai pas fait exprès.
+Varus|fil_pique|{b} a demandé à qui je parlais. À moi. À nous. C'est compliqué.
+Varus|fil_maitre|Les deux voix sont d'accord sur toi. C'est la première fois.
+Vayne|fil_ennui|J'ai vérifié les serrures. Puis les fenêtres. Puis encore les serrures. Rien. Tant mieux. Rien.
+Vayne|fil_quotidien|J'ai nettoyé chaque carreau de mon arbalète. La nuit tombe tôt. Je préfère être prête.
+Vayne|fil_pique|{b} m'a demandé de me détendre. Je me détendrai quand le monde sera sûr. Pas avant.
+Vayne|fil_maitre|Tu ne poses pas de questions sur mes nuits. Merci.
+Veigar|fil_ennui|J'ai écrit mon plan de conquête du monde. Il fait douze pages. La douzième est un dessin de moi en roi.
+Veigar|fil_quotidien|Un enfant du bourg m'a offert un bonbon. J'ai voulu le refuser. Je l'ai mangé. Le mal a faim aussi.
+Veigar|fil_quotidien|J'ai réussi à faire peur au chien. Une seconde. Il est revenu me lécher la main. Échec partiel.
+Veigar|fil_pique|{b} m'a appelé « petit mage ». Tu seras le premier à tomber quand je régnerai. Enfin, le deuxième. Après le chien.
+Veigar|fil_pique|{b} m'a pris mon chapeau pour le mettre au chien. LE CHIEN PORTE LE CHAPEAU DU MAL.
+Veigar|fil_maitre|Quand je dominerai le monde, tu auras un poste. Pas le meilleur. Mais un poste.
+Vel'Koz|fil_ennui|Les données du jour : identiques à celles d'hier. Hypothèse : le temps tourne en rond ici.
+Vel'Koz|fil_quotidien|J'ai étudié la recette du pain. Résultat : je ne comprends toujours pas pourquoi il lève. Fascinant.
+Vel'Koz|fil_pique|{b} a contesté une de mes conclusions. Avec des arguments. Je note : spécimen intéressant.
+Vel'Koz|fil_maitre|Tu es un sujet d'étude remarquable. Je dis ça comme un compliment. Chez moi, c'en est un.
+Vex|fil_ennui|J'ai regardé le plafond. Il m'a regardée. On s'est ennuyés ensemble.
+Vex|fil_quotidien|Il pleut. Parfait. Je reste dans ma chambre. Ne frappez pas.
+Vex|fil_quotidien|J'ai fait une sieste au soleil sans faire exprès. Mon ombre est furieuse.
+Vex|fil_pique|{b} m'a dit de sourire. Non. Voilà. C'était ma réponse.
+Vex|fil_pique|{b} a organisé une fête. J'étais invitée. J'ai dit non. J'y suis allée cinq minutes. Ne le répète pas.
+Vex|fil_maitre|Tu me laisses tranquille. C'est la meilleure chose qu'on m'ait jamais faite.
+Vi|fil_ennui|J'ai cassé deux sacs de sable. Le troisième tient bon. Respect.
+Vi|fil_quotidien|J'ai aidé le forgeron à soulever son enclume. Il m'a donné une pomme. Bonne affaire.
+Vi|fil_quotidien|Partie de bras de fer à l'auberge. Invaincue. Ils ont arrêté de jouer avec moi.
+Vi|fil_pique|{b} a dit que je réglais tout avec mes poings. Pas tout. Juste ce qui se règle avec des poings.
+Vi|fil_pique|{b} a utilisé mes gants pour sortir les gâteaux du four. Ils sentent la cannelle maintenant. C'est bizarre.
+Vi|fil_maitre|Tu sais quoi ? À Zaun, ta façon de diriger aurait marché. C'est le plus beau compliment que j'ai.
+Viego|fil_ennui|Les jours sont longs sans elle. Ici aussi. Surtout ici.
+Viego|fil_quotidien|J'ai trouvé un médaillon au marché. Il ressemblait au sien. Ce n'était pas le sien.
+Viego|fil_pique|{b} a dit que je parlais trop d'Isolde. Je ne parle pas assez d'elle. Personne ne parle assez d'elle.
+Viego|fil_maitre|Tu n'as jamais perdu quelqu'un comme moi. Tant mieux. Garde-les bien.
+Viktor|fil_ennui|J'ai optimisé la pompe du puits une troisième fois. Elle est parfaite. Le reste du monde ne l'est pas.
+Viktor|fil_quotidien|J'ai réparé l'horloge de l'église. Elle sonne maintenant à l'heure exacte. Les gens du bourg sont désorientés.
+Viktor|fil_pique|{b} a dit que mes inventions faisaient peur. Le progrès fait toujours peur. Il continue quand même.
+Viktor|fil_maitre|Tu améliores ce repère sans le changer de force. C'est une forme d'évolution que je respecte.
+Vladimir|fil_ennui|L'ennui me pâlit. Il me faudrait une soirée. Avec de la compagnie. Et du rouge.
+Vladimir|fil_quotidien|J'ai donné un concert privé au piano. Public : moi. Critique : enthousiaste.
+Vladimir|fil_pique|{b} s'est coupé le doigt en cuisinant. J'ai détourné les yeux. Par politesse. Difficilement.
+Vladimir|fil_maitre|Tu as bon goût. Chez les gens qui dirigent une guilde, c'est rare. Ne le gâche pas.
+Volibear|fil_ennui|LE CIEL DORT. JE NE DORS PAS. C'EST INSUPPORTABLE.
+Volibear|fil_quotidien|J'AI PORTÉ UN ARBRE ENTIER POUR LE FEU DE CE SOIR. IL ÉTAIT TROP GRAND. ON A FAIT UN TRÈS GRAND FEU.
+Volibear|fil_pique|{b} A DIT QUE JE RONFLAIS COMME LE TONNERRE. JE SUIS LE TONNERRE. JE RONFLE COMME MOI.
+Volibear|fil_maitre|TU AS LE CŒUR D'UN OURS. PETIT OURS. MAIS OURS.
+Warwick|fil_ennui|Rien ne saigne. Rien ne fuit. Je tourne en rond dans la cour.
+Warwick|fil_quotidien|J'ai suivi une piste dans la forêt toute la nuit. C'était un renard. Je l'ai laissé partir.
+Warwick|fil_pique|{b} a laissé tomber une assiette en me voyant. Je n'ai rien fait. J'étais juste là.
+Warwick|fil_maitre|Tu n'as pas peur de moi. Ou tu le caches bien. Les deux me vont.
+Wukong|fil_ennui|J'ai fait le poirier sur la girouette du toit. Le meunier a appelé les pompiers. Il n'y a pas de pompiers.
+Wukong|fil_quotidien|J'ai fait une sieste dans le grand arbre du jardin. Je me suis réveillé avec trois écureuils sur moi. Amis.
+Wukong|fil_quotidien|J'ai créé un clone de moi pour faire la vaisselle. Il a refusé. C'est vraiment moi, ce clone.
+Wukong|fil_pique|{b} a dit que je ne tenais pas en place. Je tiens en place ! Regarde ! Non, attends, je reviens.
+Wukong|fil_pique|{b} m'a défié à la course jusqu'au moulin. J'ai triché. Mais j'ai gagné. C'est ce qui compte.
+Wukong|fil_maitre|Ta patience est presque aussi grande que celle de Maître Yi. Presque. Moi, je trouve que c'est encore mieux.
+Xayah|fil_ennui|Rakan danse depuis une heure pour me faire rire. Je ne ris pas. Encore un peu, et je vais céder.
+Xayah|fil_quotidien|J'ai rangé mes plumes par couleur. Rakan les a mélangées. On va avoir une conversation.
+Xayah|fil_quotidien|J'ai protégé un nid de rouges-gorges du chat du meunier. Le chat ne reviendra pas.
+Xayah|fil_pique|{b} a dit que j'étais trop méfiante. Je suis exactement assez méfiante.
+Xayah|fil_pique|{b} a invité Rakan à danser. Rakan danse avec moi. Fin de la discussion.
+Xayah|fil_maitre|Tu protèges les tiens. Les vastayas reconnaissent ça. Je te fais confiance. Un peu.
+Xerath|fil_ennui|J'ai contemplé le cosmos depuis le toit. Il m'a semblé petit. Comme ce repère.
+Xerath|fil_quotidien|Le meunier m'a demandé de l'aide pour son moulin. J'ai foudroyé un rocher qui bloquait la rivière. Il est ravi. Terrifié, mais ravi.
+Xerath|fil_pique|{b} m'a demandé d'éclairer la cave. Je ne suis pas une lanterne. Je suis un ascendant. La cave est éclairée.
+Xerath|fil_maitre|Tu as une ambition modeste. Elle te sied. Garde-la, elle te protège.
+Xin Zhao|fil_ennui|J'ai monté la garde toute la journée. Personne n'a attaqué. Je recommence demain.
+Xin Zhao|fil_quotidien|J'ai appris à un garçon du bourg à tenir une lance. Il la tient mieux qu'un balai, déjà.
+Xin Zhao|fil_pique|{b} a dit que j'étais trop sérieux pour un jour de fête. La sécurité ne prend pas de congé.
+Xin Zhao|fil_maitre|Tu as une vraie stature. Mon prince aussi l'avait, au début.
+Yasuo|fil_ennui|Le vent ne souffle pas. J'attends.
+Yasuo|fil_quotidien|J'ai partagé une bouteille avec le meunier. On n'a pas parlé. C'était parfait.
+Yasuo|fil_pique|{b} m'a demandé de jouer de la flûte. Pas ce soir.
+Yasuo|fil_maitre|Tu ne demandes pas pardon pour rien. Moi, je devrais demander pardon pour beaucoup.
+Yone|fil_ennui|Le masque est silencieux aujourd'hui. Je préfère quand il parle. Au moins, je sais où il est.
+Yone|fil_quotidien|J'ai regardé Yasuo dormir sur le toit. Il ne savait pas que j'étais là. Comme avant.
+Yone|fil_pique|{b} a demandé pourquoi j'avais deux épées. Pour deux raisons. Je n'en dirai qu'une.
+Yone|fil_maitre|Tu me laisses ma place, sans me pousser. Merci.
+Yorick|fil_ennui|J'ai creusé, puis rebouché. C'est ce que je fais quand je pense trop.
+Yorick|fil_quotidien|J'ai entretenu le cimetière du bourg. Une veuve m'a apporté une soupe. C'était bon. Chaud.
+Yorick|fil_pique|{b} a dit que j'étais lugubre. Je suis réaliste. C'est différent, à la longue.
+Yorick|fil_maitre|Tu protèges les vivants. Je m'occupe du reste. Ça fait une bonne équipe.
+Yunara|fil_ennui|J'ai prié trois fois. Le silence a répondu trois fois.
+Yunara|fil_quotidien|J'ai partagé le thé avec Irelia. Elle a parlé de Ionia. J'ai écouté.
+Yunara|fil_pique|{b} a marché sur mon tapis de prière avec des bottes sales. Je l'ai nettoyé. Je n'ai rien dit. Cette fois.
+Yunara|fil_maitre|Tu as une paix en toi. Je la sens quand tu passes.
+Yuumi|fil_ennui|J'ai dormi sur trois livres différents. Aucun ne m'a raconté d'histoire. Livres paresseux.
+Yuumi|fil_quotidien|J'ai trouvé un rayon de soleil dans le couloir. J'ai dormi dedans. Il a bougé. Moi aussi. On a fait ça toute la journée.
+Yuumi|fil_quotidien|Quelqu'un m'a laissé un peu de poisson. Je ne sais pas qui. Je t'aime, qui que tu sois.
+Yuumi|fil_pique|{b} m'a poussée du coussin. C'était MON coussin. J'étais là AVANT. Règle numéro un des chats.
+Yuumi|fil_pique|{b} a dit que j'étais un chat paresseux. Je suis un chat MAGIQUE paresseux. Respect.
+Yuumi|fil_maitre|Tu fais un super coussin. Je dis ça avec beaucoup d'amour.
+Zaahen|fil_ennui|J'ai poli mes ailes. Puis ma lame. Puis mes ailes à nouveau. L'inaction est une prison.
+Zaahen|fil_quotidien|Un enfant du bourg m'a demandé si j'étais un ange. Je n'ai pas répondu. Il est reparti content.
+Zaahen|fil_pique|{b} m'a demandé si je dormais debout. Oui. Et je dors mieux que toi.
+Zaahen|fil_maitre|Tu diriges sans trembler. Une arme sait reconnaître une main ferme.
+Zac|fil_ennui|J'ai pris la forme d'un ballon. Personne n'a joué avec moi. J'ai rebondi tout seul jusqu'au bourg.
+Zac|fil_quotidien|J'ai servi de toboggan aux enfants du bourg tout l'après-midi. Ils veulent revenir demain. Moi aussi.
+Zac|fil_quotidien|J'ai essayé de manger de la soupe. Elle est passée à travers. C'est pas grave. Je réessaie.
+Zac|fil_pique|{b} a dit que je collais partout. Je colle UN PEU. Seulement quand je suis content.
+Zac|fil_pique|{b} m'a utilisé comme oreiller pendant la sieste. J'ai pas bougé. J'étais flatté.
+Zac|fil_maitre|Si tu as besoin d'un câlin, je suis très doué. Je peux m'étirer jusqu'à toi.
+Zed|fil_ennui|Les ombres sont calmes. Elles s'ennuient. Moi aussi.
+Zed|fil_quotidien|J'ai entraîné les ombres jusqu'à l'aube. Elles progressent.
+Zed|fil_pique|{b} a laissé une lumière allumée dans le couloir. Les ombres n'aiment pas ça.
+Zed|fil_maitre|Tu n'as pas de face cachée. Ou elle est très bien cachée. Je respecte les deux.
+Zeri|fil_ennui|J'ai couru autour du repère cent fois ! J'ai pas transpiré ! Je m'ennuie en accéléré !
+Zeri|fil_quotidien|J'ai rechargé toutes les lanternes du bourg. Elles brillent trop fort. On voit le bourg depuis la lune.
+Zeri|fil_quotidien|Ma grand-mère m'a écrit ! Elle dit de ralentir. Je lis sa lettre très vite.
+Zeri|fil_pique|{b} a dit que je parlais trop vite. JE NE PARLE PAS TROP VITE ! TU ÉCOUTES TROP LENTEMENT !
+Zeri|fil_pique|{b} m'a demandé de toucher la poignée de porte. J'ai fait des étincelles. C'était un piège. Bien joué.
+Zeri|fil_maitre|Tu es super cool ! Enfin, cool pour quelqu'un qui marche à vitesse normale !
+Ziggs|fil_ennui|J'ai fabriqué une petite bombe en forme de fleur. Elle ne fait que des confettis. Promis.
+Ziggs|fil_quotidien|J'ai creusé un trou dans le jardin pour une expérience. Le trou est plus grand que prévu. L'expérience est réussie.
+Ziggs|fil_quotidien|J'ai fait un feu d'artifice pour le chien. Il s'est caché sous mon lit. Il a aimé quand même.
+Ziggs|fil_pique|{b} a confisqué ma poudre noire. J'avais de la poudre rouge. Et de la verte. Bonne chance.
+Ziggs|fil_pique|{b} a dit que j'étais un danger public. Un danger public HEUREUX. Il faut préciser.
+Ziggs|fil_maitre|Pour ton anniversaire, je te fais une bombe. Une gentille ! Avec des paillettes !
+Zilean|fil_ennui|J'ai revécu ce mardi trois fois. Il n'est pas meilleur.
+Zilean|fil_quotidien|J'ai offert une montre au meunier. Elle sonne pour lui rappeler de manger. Il l'oublie quand même.
+Zilean|fil_pique|{b} m'a demandé comment je savais l'avenir. Je ne sais pas. Je me souviens.
+Zilean|fil_maitre|J'ai vu ton avenir. Je ne te dirai rien. Mais tu peux dormir tranquille cette nuit.
+Zoe|fil_ennui|J'ai ouvert un portail vers une autre dimension pour voir. Il y avait une autre Zoé qui s'ennuyait aussi.
+Zoe|fil_quotidien|J'ai trouvé une étoile filante ! Elle était pas filante. C'était une luciole. Mais elle brillait bien.
+Zoe|fil_quotidien|J'ai mangé un nuage. Il avait un goût de pluie. Je recommande pas.
+Zoe|fil_pique|{b} a dit que j'étais immature. J'ai des milliers d'années ! Bon, dans ma tête, j'en ai douze.
+Zoe|fil_pique|{b} a crevé ma bulle ! Exprès ! Je vais faire des bulles PARTOUT ce soir !
+Zoe|fil_maitre|Toi, si tu étais une étoile, tu serais une étoile qui reste allumée longtemps. C'est les meilleures.
+Zyra|fil_ennui|Mes plantes ont tout envahi dans la cour. On ne voit plus les mannequins. C'est mieux.
+Zyra|fil_quotidien|J'ai fait fleurir les ronces du portail. Elles piquent toujours. Mais elles sont belles.
+Zyra|fil_pique|{b} a arraché une de mes plantes. Elle repoussera. Plus forte. Plus proche de ton lit.
+Zyra|fil_maitre|Tu laisses pousser ce qui doit pousser. Peu de gens savent faire ça.

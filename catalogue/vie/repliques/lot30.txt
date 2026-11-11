@@ -1,0 +1,111 @@
+# Voix des champions · lot 30 (Kog'Maw à Neeko) · 11 nov. 2026 · fil, troisième passe
+Kog'Maw|fil_ennui|Kog'Maw a léché toutes les fenêtres. Elles ont toutes le même goût. Triste.
+Kog'Maw|fil_quotidien|Kog'Maw a trouvé un trésor ! C'est une chaussette. Kog'Maw la mange. Trésor terminé.
+Kog'Maw|fil_quotidien|Le chien et Kog'Maw sont amis. Le chien ne sait pas encore. Kog'Maw sait.
+Kog'Maw|fil_pique|{b} a dit « non, pas ça » trois fois. Kog'Maw a mangé ça quand même. Les trois fois.
+Kog'Maw|fil_pique|{b} a donné un bain à Kog'Maw. Kog'Maw a bu le bain.
+Kog'Maw|fil_maitre|Le chef sent bon. Kog'Maw ne mangera pas le chef. Pas aujourd'hui.
+LeBlanc|fil_ennui|J'ai tenu trois conversations en même temps avec moi-même. Aucune n'était à la hauteur.
+LeBlanc|fil_quotidien|Le mercier du bourg cache quelque chose. Tout le monde cache quelque chose. Lui, c'est une deuxième famille.
+LeBlanc|fil_pique|{b} croit me connaître. C'est charmant. Absolument faux, mais charmant.
+LeBlanc|fil_maitre|Tu es plus difficile à lire que tu ne le crois. Je trouve ça très agréable.
+Lee Sin|fil_ennui|J'ai frappé le même poteau mille fois. Il est fendu. Moi, je suis calme.
+Lee Sin|fil_quotidien|J'ai écouté la pluie sur le toit toute la nuit. Chaque goutte avait sa voix.
+Lee Sin|fil_pique|{b} a déplacé mes affaires pour voir si je les retrouverais à l'aveugle. Je les ai retrouvées. Et les tiennes aussi.
+Lee Sin|fil_maitre|Tu as le cœur clair. Je le sens. C'est plus rare que la vue.
+Leona|fil_ennui|J'ai poli mon bouclier jusqu'à aveugler le meunier. Ce n'était pas le but. Je me suis excusée.
+Leona|fil_quotidien|J'ai enseigné aux enfants du bourg à saluer le soleil. Ils le font tous les matins. Leurs parents aussi, maintenant.
+Leona|fil_pique|{b} a fermé les volets de la salle commune à midi. On vit dans le noir, maintenant ?
+Leona|fil_maitre|Tu te lèves tôt. Tu crois que je ne l'ai pas remarqué ? Le soleil te voit.
+Lillia|fil_ennui|J'ai essayé de m'endormir. Puis j'ai essayé de faire endormir le chien. Il dort. Moi, non.
+Lillia|fil_quotidien|J'ai trouvé une fleur que je n'avais jamais vue. Je lui ai donné un nom. Elle s'appelle Courage.
+Lillia|fil_pique|{b} m'a fait sursauter. Ce n'est pas grave. Mon cœur bat juste un peu trop vite. Beaucoup trop vite.
+Lillia|fil_maitre|Tu m'as dit bonjour sans me faire peur. Merci. C'est plus difficile qu'on pense.
+Lissandra|fil_ennui|Cette chaleur est une épreuve. J'ai gelé ma tasse de thé pour rester calme.
+Lissandra|fil_quotidien|J'ai rangé la bibliothèque par ordre de froideur. Les livres du nord en premier.
+Lissandra|fil_pique|{b} a laissé une flaque dans l'entrée. Elle est gelée maintenant. Fais attention en passant.
+Lissandra|fil_maitre|Tu ne poses jamais la question qui fâche. Par habileté, ou par chance. Je n'ai pas encore décidé.
+Locke|fil_ennui|Personne. Rien. J'ai attendu quand même.
+Locke|fil_quotidien|Le chien s'est assis à côté de moi. On n'a rien dit. C'était bien.
+Locke|fil_pique|{b} a posé une question sur ma cicatrice. Pas aujourd'hui.
+Locke|fil_maitre|Tu ne poses pas de questions. Merci.
+Lucian|fil_ennui|Trop calme. J'ai l'habitude que le calme cache quelque chose. Je garde mes armes près de moi.
+Lucian|fil_quotidien|J'ai réparé le vieux banc du jardin. Elle aimait les bancs. Je m'y suis assis un moment.
+Lucian|fil_pique|{b} m'a demandé de sourire pour une fois. J'ai essayé. Ne demande plus.
+Lucian|fil_maitre|Tu tiens tes gens debout. Je sais ce que ça coûte.
+Lulu|fil_ennui|J'ai transformé le chien en chat, puis en chien. Il est revenu un peu plus violet qu'avant. Pardon !
+Lulu|fil_quotidien|Pix a trouvé un champignon qui parle ! Il ne parle pas. Pix a fait la voix. Pix est très drôle.
+Lulu|fil_quotidien|J'ai invité une licorne au dîner. Elle n'est pas venue. Je lui garde sa part.
+Lulu|fil_pique|{b} a dit que je n'étais pas sérieuse. Je suis TRÈS sérieuse. Mon chapeau aussi.
+Lulu|fil_pique|{b} n'a pas voulu devenir une grenouille ! C'était pour rire ! Juste pour cinq minutes !
+Lulu|fil_maitre|Toi, si tu étais une couleur, tu serais le mauve du soir. C'est un compliment énorme.
+Lux|fil_ennui|J'ai fait des arcs-en-ciel dans tout le couloir. Personne n'est passé. Ils sont restés pour rien.
+Lux|fil_quotidien|J'ai écrit trois pages à Garen. Il va me répondre en trois lignes. Je le sais déjà.
+Lux|fil_quotidien|Les enfants du bourg m'ont demandé de faire briller leurs lanternes. J'ai fait briller tout le village.
+Lux|fil_pique|{b} m'a dit d'arrêter de chantonner. Je chantonne quand je suis contente. Tu préfères que je sois triste ?
+Lux|fil_pique|{b} a dit que j'étais trop optimiste. C'est un super pouvoir. Le seul qu'on ne m'a jamais reproché, d'habitude.
+Lux|fil_maitre|Tu me laisses être moi. Personne ne l'avait jamais vraiment fait. Merci.
+Malphite|fil_ennui|J'AI ÉCOUTÉ LA PIERRE. ELLE DIT QU'IL VA PLEUVOIR. DANS TROIS ANS.
+Malphite|fil_quotidien|UN PAPILLON S'EST POSÉ SUR MON ÉPAULE. JE N'AI PAS BOUGÉ PENDANT DEUX JOURS.
+Malphite|fil_pique|{b} A DESSINÉ UNE MOUSTACHE SUR MOI. JE L'AI GARDÉE. ELLE EST DISTINGUÉE.
+Malphite|fil_maitre|TU ES SOLIDE. PAS COMME UNE MONTAGNE. MAIS SOLIDE QUAND MÊME.
+Malzahar|fil_ennui|Les voix sont silencieuses aujourd'hui. C'est presque pire que quand elles parlent.
+Malzahar|fil_quotidien|J'ai prédit la pluie au meunier. Il a rentré son foin. Il a plu. Il m'a offert une galette.
+Malzahar|fil_pique|{b} a dit que mes yeux faisaient peur. Ils voient des choses. C'est normal qu'ils fassent peur.
+Malzahar|fil_maitre|Le Néant ne parle jamais de toi. C'est la meilleure nouvelle que je puisse te donner.
+Maokai|fil_ennui|J'ai poussé de trois centimètres aujourd'hui. Personne n'a remarqué.
+Maokai|fil_quotidien|Les oiseaux ont fait un nid sur ma branche gauche. Je ne bougerai plus le bras gauche jusqu'à l'été.
+Maokai|fil_pique|{b} a cassé une branche du vieux pommier. Il a mal. Je le sais. Moi aussi.
+Maokai|fil_maitre|Tu prends soin des choses qui poussent. Les arbres le sentent.
+Master Yi|fil_ennui|Mon thé est froid. Ma méditation aussi. Il me faut un adversaire.
+Master Yi|fil_quotidien|Wukong a fait la vaisselle sans qu'on le lui demande. J'ai vérifié s'il était malade.
+Master Yi|fil_pique|{b} a confondu ma méditation avec une sieste. La différence est subtile. Elle existe.
+Master Yi|fil_maitre|Ta patience est rare. Garde-la. Tu en auras besoin avec Wukong.
+Mel|fil_ennui|Personne ici ne sait négocier. J'ai obtenu une ristourne sur le pain juste pour garder la main.
+Mel|fil_quotidien|J'ai organisé une petite réception au jardin. Trois invités. Tout le monde s'est habillé. C'était charmant.
+Mel|fil_pique|{b} a utilisé une nappe brodée pour essuyer ses bottes. Je respire. Je respire.
+Mel|fil_maitre|Ta façon de trancher entre eux est élégante. On pourrait en faire de la diplomatie.
+Milio|fil_ennui|Ookie et moi on a fait des petites flammes qui dansent. Elles se sont ennuyées aussi. On a arrêté.
+Milio|fil_quotidien|J'ai fait chauffer le lait de tout le monde ce matin. Le chien a eu le sien en premier, il a bien attendu.
+Milio|fil_quotidien|J'ai écrit une lettre à ma famille. J'ai dessiné tout le monde dessus. Même ceux qui font peur.
+Milio|fil_pique|{b} a soufflé sur Ookie pour rigoler. Ookie a eu froid. Je l'ai réchauffé. Ne recommence pas, s'il te plaît.
+Milio|fil_pique|{b} m'a dit que j'étais trop petit pour la mission. Je suis petit, mais je réchauffe bien.
+Milio|fil_maitre|Quand tu es là, il fait plus chaud dans la salle commune. Ookie l'a remarqué aussi.
+Miss Fortune|fil_ennui|Pas de contrat, pas de gloire, pas d'or. J'ai lustré mes pistolets jusqu'à les rendre éblouissants.
+Miss Fortune|fil_quotidien|J'ai battu le forgeron aux fléchettes. Il paie la tournée ce soir. Venez tôt.
+Miss Fortune|fil_pique|{b} a dit que je m'admirais trop. Je m'admire juste assez. C'est toi qui ne m'admires pas assez.
+Miss Fortune|fil_maitre|Tu as de la chance, tu sais ? Celle de m'avoir dans ta guilde.
+Mordekaiser|fil_ennui|Le royaume des morts était plus distrayant. Mais la nourriture était pire.
+Mordekaiser|fil_quotidien|J'ai réparé le portail. Il grinçait. Je n'aime pas ce qui grince sans ma permission.
+Mordekaiser|fil_pique|{b} a dit que mon armure était trop lourde. Pour toi, sans doute.
+Mordekaiser|fil_maitre|Tu ne règnes pas par la peur. Étrange choix. Il fonctionne, pour l'instant.
+Morgana|fil_ennui|J'ai désherbé tout le jardin. Je ne désherbe jamais. Voilà où j'en suis.
+Morgana|fil_quotidien|J'ai recueilli un corbeau blessé. Il va mieux. Il reste quand même. Ils restent toujours.
+Morgana|fil_pique|{b} a dit que j'avais l'air triste. J'ai l'air de quelqu'un qui pense. Ce n'est pas pareil.
+Morgana|fil_maitre|Tu pardonnes facilement. Fais attention. Mais ne change pas.
+Naafiri|fil_ennui|La meute a creusé six trous dans le jardin. On ne cherchait rien. On s'ennuyait. C'est pareil.
+Naafiri|fil_quotidien|On a dormi toutes ensemble sur le tapis de la salle commune. Le tapis est d'accord. Il est chaud.
+Naafiri|fil_quotidien|On a suivi une odeur jusqu'au bourg. C'était une boucherie. On a été polies. Presque.
+Naafiri|fil_pique|{b} a dit qu'on était « trop nombreuses ». On est le bon nombre. Toi, tu n'es qu'une personne. C'est peu.
+Naafiri|fil_pique|{b} a fermé la porte de la cuisine. La meute a ouvert la fenêtre. La meute trouve toujours.
+Naafiri|fil_maitre|La meute a voté. Tu fais partie de la meute, maintenant. C'est fait.
+Nami|fil_ennui|Pas une goutte de pluie depuis trois jours. Je vais finir par dessécher. Littéralement.
+Nami|fil_quotidien|J'ai fait couler de l'eau dans la fontaine sèche du bourg. Les enfants ont dansé autour. Moi aussi.
+Nami|fil_quotidien|J'ai trouvé une perle dans une moule du marché ! Je l'ai rendue à la mer. Enfin, au lac. C'est un début.
+Nami|fil_pique|{b} a dit que je sentais l'algue. C'est le parfum de chez moi. Merci de remarquer.
+Nami|fil_pique|{b} a vidé ma bassine pour y mettre des pommes. MA BASSINE.
+Nami|fil_maitre|Tu es une marée calme. Je le dis comme un compliment. Chez moi, c'en est un grand.
+Nasus|fil_ennui|J'ai fini de recopier l'histoire de Shurima. Il n'y a pas de place pour la ranger.
+Nasus|fil_quotidien|Un enfant m'a demandé si j'étais un chien. J'ai répondu avec patience pendant une heure.
+Nasus|fil_pique|{b} a dit que je lisais trop lentement. Je lis tout. Toi, tu lis la moitié.
+Nasus|fil_maitre|Ce repère mérite d'avoir une histoire écrite. Je m'en occupe. Tu y figures en bonne place.
+Nautilus|fil_ennui|Pas d'eau. Pas assez.
+Nautilus|fil_quotidien|Un enfant a sonné ma cloche. J'ai souri. Sous le casque.
+Nautilus|fil_pique|{b} a tapé sur mon casque pour voir si quelqu'un répondait. Oui.
+Nautilus|fil_maitre|Ancre. Toi. Bien.
+Neeko|fil_ennui|Neeko a été la table toute la matinée ! Personne n'a posé de tasse. Neeko est déçue. Neeko va être la chaise.
+Neeko|fil_quotidien|Neeko a appris un nouveau mot : « tartine ». Neeko le dit très souvent. Tartine. Tartine.
+Neeko|fil_quotidien|Neeko a fait un câlin au chien ! Le chien a fait un câlin à Neeko ! Neeko est très contente !
+Neeko|fil_pique|{b} a dit que Neeko n'était pas drôle. Neeko est devenue {b} pour lui montrer. {b} a ri. Neeko a gagné.
+Neeko|fil_pique|{b} n'a pas reconnu Neeko déguisée en chien ! Mais le chien non plus. Neeko est très forte.
+Neeko|fil_maitre|Neeko aime beaucoup le chef ! Neeko va prendre la forme du chef un jour. Pour rire. Gentiment.

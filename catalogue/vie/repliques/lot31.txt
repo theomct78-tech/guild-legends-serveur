@@ -1,0 +1,131 @@
+# Voix des champions · lot 31 (Nidalee à Sett) · 11 nov. 2026 · fil, troisième passe
+Nidalee|fil_ennui|Les lits sont trop mous et les murs trop proches. J'ai dormi dans l'arbre. Encore.
+Nidalee|fil_quotidien|J'ai trouvé des plantes qui soignent la toux derrière la grange. Je les ai mises à sécher. Ne les mangez pas.
+Nidalee|fil_pique|{b} a laissé de la viande crue sur la table. Je ne suis pas un chat. Enfin, pas tout le temps.
+Nidalee|fil_maitre|Tu ne m'enfermes pas. Je reviens toujours. Tu as compris comment ça marche.
+Nilah|fil_ennui|J'ai fait le poirier dans le lac pendant dix minutes. Record personnel ! Personne pour le voir. Record quand même.
+Nilah|fil_quotidien|J'ai ri tellement fort au dîner que le chien est venu voir si j'allais bien. J'allais TRÈS bien.
+Nilah|fil_quotidien|Baignade à l'aube. L'eau était glacée. J'ai crié. Le meunier a cru à une attaque.
+Nilah|fil_pique|{b} a dit que mon rire était « beaucoup ». Merci ! C'est exactement la quantité prévue.
+Nilah|fil_pique|{b} m'a éclaboussée au lac. Erreur. Erreur de débutant. Tu sais à qui tu as affaire ?
+Nilah|fil_maitre|Tu ris pas assez. Un jour, je t'emmène au lac et on règle ça.
+Nocturne|fil_ennui|Ils dorment tous trop bien. Je m'ennuie.
+Nocturne|fil_quotidien|J'ai éteint une bougie dans le couloir. Quelqu'un l'a rallumée. On joue.
+Nocturne|fil_pique|{b} dort avec une lampe allumée. Je sais pourquoi. On sait tous les deux pourquoi.
+Nocturne|fil_maitre|Toi, tes rêves sont calmes. C'est rare. Je ne les dérangerai pas.
+Nunu & Willump|fil_ennui|Nunu : Willump a mangé toute la neige de la cour. Il n'y en a plus pour les boules de neige ! Willump : Hrrm…
+Nunu & Willump|fil_quotidien|Nunu : On a construit un bonhomme de neige qui ressemble à Braum ! Braum a pleuré. De joie !
+Nunu & Willump|fil_quotidien|Nunu : Willump a appris à faire la révérence ! Il a cassé une table. Mais c'était une belle révérence.
+Nunu & Willump|fil_pique|Nunu : {b} a dit que Willump puait le yéti. Willump EST un yéti ! C'est normal !
+Nunu & Willump|fil_pique|Nunu : {b} a pas voulu jouer à chat avec nous. On a joué quand même. Avec {b} comme chat.
+Nunu & Willump|fil_maitre|Nunu : Tu veux faire un tour sur Willump ? Il dit oui ! Il dit toujours oui pour les gentils.
+Olaf|fil_ennui|J'ai cherché la bagarre au bourg. Personne. Les hommes de ce pays sont trop polis.
+Olaf|fil_quotidien|J'ai coupé du bois torse nu dans la neige. Les voisins ont fermé les rideaux. Je ne sais pas pourquoi.
+Olaf|fil_quotidien|J'ai bu dans une corne de taureau. Le forgeron dit que c'était un entonnoir. Peu importe. Excellente bière.
+Olaf|fil_pique|{b} a dit que je voulais mourir en héros. Oui. Mais pas avant le dîner.
+Olaf|fil_pique|{b} m'a caché ma hache. Je dors avec la hache. Sans hache, je dors avec toi. Rends la hache.
+Olaf|fil_maitre|Le jour où je meurs au combat, tu feras un grand discours. Promets. Un grand.
+Orianna|fil_ennui|J'ai remonté toutes les horloges. Puis je me suis remontée. Puis je suis restée assise.
+Orianna|fil_quotidien|J'ai regardé une fleur s'ouvrir. Ça a pris quatre heures. C'était fascinant.
+Orianna|fil_pique|{b} a dit que je ne ressentais rien. Je ressens les vibrations du sol quand tu marches. Tu marches lourdement.
+Orianna|fil_maitre|Tu parles avec moi comme avec une personne. Je l'ai enregistré.
+Ornn|fil_ennui|J'ai forgé un clou parfait. Puis un autre. Puis j'ai compris que personne ne viendrait.
+Ornn|fil_quotidien|J'ai aiguisé les couteaux de la cuisine. Ils coupent trop bien maintenant. Faites attention.
+Ornn|fil_pique|{b} a laissé traîner un marteau dans la boue. Un marteau. Dans la boue. Je n'ai pas de mots.
+Ornn|fil_maitre|Ce repère a de bonnes fondations. Toi aussi.
+Pantheon|fil_ennui|Pas d'ennemi en vue. J'ai combattu la pluie toute la matinée. Elle a gagné.
+Pantheon|fil_quotidien|J'ai cuit des petits pains pour le petit-déjeuner. Comme quand j'étais boulanger. Ils sont partis en dix minutes.
+Pantheon|fil_pique|{b} a dit que je parlais trop des dieux. Je n'en parle plus. Je les insulte, c'est différent.
+Pantheon|fil_maitre|Tu te bats pour eux, pas pour toi. Je reconnais ça. C'est la bonne raison.
+Poppy|fil_ennui|J'ai aidé à porter des sacs au moulin. Puis j'ai porté le meunier. Il avait mal au dos.
+Poppy|fil_quotidien|J'ai réparé l'horloge de l'église du bourg. Personne ne savait que c'était moi. C'est très bien comme ça.
+Poppy|fil_pique|{b} m'a demandé si j'étais une héroïne. Non. Je cherche quelqu'un qui l'est. Ce n'est pas toi.
+Poppy|fil_maitre|Tu ressembles à quelqu'un que je cherche. Un peu. Je continue de chercher quand même.
+Pyke|fil_ennui|Personne sur la liste aujourd'hui. Je l'ai relue trois fois. Toujours personne.
+Pyke|fil_quotidien|J'ai pêché un brochet au lac. Je l'ai remis à l'eau. Il n'avait rien fait de mal.
+Pyke|fil_pique|{b} a pris ma place près de la fenêtre. Je ne dis rien. Je note.
+Pyke|fil_maitre|Ton nom n'est sur aucune liste. Garde-le comme ça.
+Qiyana|fil_ennui|J'ai fait trembler la terre pour que le meunier m'apporte du thé. Il l'a apporté. Puis il s'est enfui.
+Qiyana|fil_quotidien|J'ai trouvé une pierre précieuse dans le jardin. Elle est à moi. Comme le jardin, d'ailleurs.
+Qiyana|fil_quotidien|J'ai essayé une robe locale. Ça me va. Évidemment, tout me va.
+Qiyana|fil_pique|{b} m'a appelée par mon prénom sans mon titre. Je compte jusqu'à trois. Un.
+Qiyana|fil_pique|{b} a dit que j'étais capricieuse. J'appelle ça avoir des standards.
+Qiyana|fil_maitre|Tu es presque digne de diriger une impératrice. Presque. C'est déjà énorme.
+Quinn|fil_ennui|Valor a trouvé un lapin. Il me l'a apporté. Je lui ai dit que ce n'était pas une mission.
+Quinn|fil_quotidien|J'ai dessiné une carte des environs avec Valor. Il voit mieux que moi. Il me le fait remarquer.
+Quinn|fil_pique|{b} a dit que Valor était « juste un oiseau ». Valor ne l'a pas oublié. Moi non plus.
+Quinn|fil_maitre|Valor t'aime bien. Il ne se pose pas sur n'importe quelle épaule.
+Rakan|fil_ennui|Pas de public. J'ai dansé quand même. Le chien a aimé. Le chien a du goût.
+Rakan|fil_quotidien|J'ai offert une plume dorée à chaque personne du repère. Xayah a dit que j'étais ridicule. Elle a gardé la sienne.
+Rakan|fil_quotidien|Concours de danse au bourg. J'ai gagné. Il n'y avait pas de concours, je l'ai inventé. J'ai gagné quand même.
+Rakan|fil_pique|{b} a dit que je ne faisais que danser. Je fais AUSSI des acrobaties, merci.
+Rakan|fil_pique|{b} a fait rire Xayah. Je l'ai vu. Je vais devoir être plus drôle. Beaucoup plus.
+Rakan|fil_maitre|Tu as un style à toi. Pas aussi bien que le mien, mais un style. Bravo.
+Rammus|fil_ennui|Ok.
+Rammus|fil_quotidien|Roulé jusqu'au bourg. Roulé jusqu'ici. Ok.
+Rammus|fil_pique|{b} a dit « pourquoi tu dis toujours ok ». Ok.
+Rammus|fil_maitre|Ok. (Rammus hoche la tête. C'est beaucoup, venant de lui.)
+Rek'Sai|fil_ennui|(La terre du jardin bouge toute la journée. On ne voit jamais rien sortir.)
+Rek'Sai|fil_quotidien|(Un tunnel s'est ouvert sous la grange cette nuit. Il mène à la cuisine. Personne ne sait depuis quand.)
+Rek'Sai|fil_pique|(Rek'Sai a creusé sous le lit de {b}. Le lit est toujours là. Plus bas.)
+Rek'Sai|fil_maitre|(Rek'Sai sort de terre juste devant toi, te renifle longuement, puis repart. Ça ressemble à un salut.)
+Rell|fil_ennui|J'ai démonté tout le métal de l'atelier et je l'ai remonté en statue. C'est un cheval. Je crois.
+Rell|fil_quotidien|J'ai appris à monter le vieux cheval du meunier. Il est lent. Je l'aime bien quand même.
+Rell|fil_quotidien|J'ai cassé une armure pour en faire un plateau. On mange dessus, maintenant.
+Rell|fil_pique|{b} a dit que j'étais trop sérieuse. Je ris. À l'intérieur. Avec une armure.
+Rell|fil_pique|{b} a laissé ses couverts en métal dans l'évier. Je les ai entendus. Je les entends toujours.
+Rell|fil_maitre|Tu ne donnes pas d'ordres pour le plaisir. Je le vois. C'est pour ça que je les suis.
+Renata Glasc|fil_ennui|Trois jours sans affaire. J'ai racheté la dette du meunier pour garder la main.
+Renata Glasc|fil_quotidien|J'ai proposé à l'aubergiste un partenariat. Il a dit oui avant de comprendre. Ils disent tous oui avant de comprendre.
+Renata Glasc|fil_pique|{b} m'a demandé de l'argent. J'ai sorti un contrat. {b} a reculé d'un pas. Sage.
+Renata Glasc|fil_maitre|Tu gères tes finances avec prudence. J'aurais pu t'engager, dans une autre vie.
+Renekton|fil_ennui|Pas de combat depuis trois jours. Ça gronde. Je mords dans du bois pour me calmer.
+Renekton|fil_quotidien|J'ai nagé dans le lac pendant une heure. L'eau froide. Ça aide un peu. Pas assez.
+Renekton|fil_quotidien|J'ai dormi d'un trait. Pas de cauchemar. Je ne sais pas quoi faire de ça.
+Renekton|fil_pique|{b} a prononcé le nom de mon frère au dîner. Je suis sorti. C'était mieux pour tout le monde.
+Renekton|fil_pique|{b} a dit que j'avais mauvais caractère. JE N'AI PAS MAUVAIS CARACTÈRE.
+Renekton|fil_maitre|Tu me calmes. Je ne sais pas comment tu fais. Continue.
+Rengar|fil_ennui|J'ai traqué le chien toute la matinée. Il m'a repéré au bout de dix minutes. Il est bon.
+Rengar|fil_quotidien|J'ai ramené un cerf pour le dîner. Il y a assez pour tout le repère. Et pour le bourg.
+Rengar|fil_pique|{b} a touché à ma collection de crocs. Je les compte chaque soir. Il en manque un.
+Rengar|fil_maitre|Tu as un œil de chasse. Pas les crocs. Mais l'œil.
+Riven|fil_ennui|J'ai fait les mêmes gestes jusqu'à ce que mes bras tremblent. Ça n'a pas suffi.
+Riven|fil_quotidien|J'ai aidé une paysanne à replanter son champ après l'orage. J'ai aimé ça. Les mains dans la terre.
+Riven|fil_pique|{b} m'a demandé d'où venait ma cicatrice. D'un endroit où je ne retournerai pas.
+Riven|fil_maitre|Tu ne juges pas les gens sur ce qu'ils ont fait. Sur ce qu'ils font. Je t'en suis reconnaissante.
+Rumble|fil_ennui|J'ai fait faire des tours de cour à Tristan. Il a cassé deux mannequins. On en a assez.
+Rumble|fil_quotidien|J'ai inventé un grille-pain à vapeur. Il marche ! Il a juste grillé la cuisine un peu aussi.
+Rumble|fil_quotidien|J'ai écrit à Tristana. Je l'ai réécrit six fois. Je l'ai pas envoyé. Pas encore.
+Rumble|fil_pique|{b} a dit que Tristan sentait l'huile de moteur. C'est un PARFUM. Un parfum d'ingénieur.
+Rumble|fil_pique|{b} m'a soulevé pour atteindre l'étagère. Je pouvais l'atteindre. Avec un escabeau. Et Tristan.
+Rumble|fil_maitre|Si tu veux un robot, je t'en fais un. Gratuit. Bon, presque gratuit. Bon, cher.
+Ryze|fil_ennui|J'ai relu un parchemin que j'ai écrit il y a trois cents ans. J'avais une très mauvaise écriture.
+Ryze|fil_quotidien|J'ai fait pousser des fleurs avec une rune mineure. Elles chantent un peu. C'est un effet secondaire.
+Ryze|fil_pique|{b} a demandé si je pouvais faire disparaître ses devoirs de vaisselle. Non. Mais j'y ai pensé.
+Ryze|fil_maitre|Tu es plus sage que ton âge. Et je sais de quoi je parle, en matière d'âge.
+Samira|fil_ennui|Pas d'explosion, pas de cascade, pas de style. Je vais rouiller sur pied.
+Samira|fil_quotidien|J'ai fait un saut périlleux depuis le toit de la grange. Atterrissage parfait. Les poules ont applaudi.
+Samira|fil_quotidien|Nouvelles lunettes de soleil. Je les porte même la nuit. C'est un choix.
+Samira|fil_pique|{b} a dit que je prenais trop de risques. C'est le principe, mon cœur. C'est tout le principe.
+Samira|fil_pique|{b} a essayé de faire mon saut du toit. Mauvaise idée. Je t'apporte de la glace pour ta cheville.
+Samira|fil_maitre|Tu as du style, quand tu décides. Je le note. C'est rare, chez ceux qui commandent.
+Sejuani|fil_ennui|Bristle s'ennuie. Il a démoli la clôture du jardin. Je lui ai dit « bien ». Il faut l'encourager.
+Sejuani|fil_quotidien|Il a fait froid cette nuit. Enfin. J'ai dormi dehors pour en profiter.
+Sejuani|fil_pique|{b} a dit que je n'étais pas commode. Je suis une chef de guerre. Je ne suis pas une commode.
+Sejuani|fil_maitre|Tu tiens. Même quand c'est dur. Au Freljord, on respecte ça plus que tout.
+Senna|fil_ennui|J'ai nettoyé mon canon jusqu'à voir mon reflet dedans. Je souris mieux qu'avant. C'est déjà ça.
+Senna|fil_quotidien|J'ai donné un cours de tir aux enfants du bourg. Avec des pommes de pin. Ils sont doués.
+Senna|fil_pique|{b} a dit que Lucian était trop sérieux. Je sais. C'est mon travail de le faire rire.
+Senna|fil_maitre|Tu as une lumière à toi. Je la vois. Ne la laisse pas s'éteindre.
+Seraphine|fil_ennui|J'ai chanté pour les plantes. Elles poussent mieux. Le jardinier dit que c'est la pluie. C'est moi.
+Seraphine|fil_quotidien|J'ai écrit une chanson sur le chien ! Il a hurlé pendant le refrain. Il a compris.
+Seraphine|fil_quotidien|Le chœur de l'église du bourg m'a invitée ! Ils chantent faux, mais avec beaucoup de cœur.
+Seraphine|fil_pique|{b} a dit que je chantais trop tôt le matin. Le matin, c'est le meilleur moment pour la voix !
+Seraphine|fil_pique|{b} m'a demandé d'arrêter de fredonner pendant le repas. Je ne fredonnais pas, je digérais en musique.
+Seraphine|fil_maitre|Je t'ai écrit une chanson. Elle n'a pas encore de paroles. Mais la mélodie te ressemble.
+Sett|fil_ennui|Personne veut se battre. J'ai fait des tractions sur la poutre de la grange. Elle a craqué. Moi non.
+Sett|fil_quotidien|J'ai envoyé un colis à ma mère. Des fleurs du jardin et du miel du bourg. Elle va dire que c'est trop.
+Sett|fil_quotidien|J'ai arbitré un combat de coqs au bourg. Je les ai séparés. Personne se bat dans ma juridiction.
+Sett|fil_pique|{b} a dit que je frappais comme un ours. Merci. C'est le plus beau compliment de la semaine.
+Sett|fil_pique|{b} a parlé de ma mère au dîner. Gentiment. Heureusement. Pour toi, surtout.
+Sett|fil_maitre|Tu sais quoi ? Ma mère t'aimerait bien. Et elle aime pas grand monde.
