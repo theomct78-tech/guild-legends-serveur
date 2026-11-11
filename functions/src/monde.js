@@ -38,7 +38,8 @@ const PARAMS = {
   echelle: { po: { inconnue: 1, locale: 3.3, regionale: 7.5, renommee: 17, legendaire: 40 }, rep: { inconnue: 1, locale: 1.6, regionale: 2.8, renommee: 4.2, legendaire: 7 }, diff: { inconnue: 0, locale: 10, regionale: 20, renommee: 30, legendaire: 40 } },
   issuePO: { eclatante: 1.15, reussite: 1, partielle: 0.5, echec: 0 },
   mortSurGrave: 0.25,                    // mission dangereuse, épreuve ratée gravement : une blessure grave sur quatre est mortelle
-  conserverChronique: 300, conserverRapports: 30, conserverAvis: 60,
+  conserverChronique: 1200,   // environ un mois de vie d'une guilde de six héros (audit du 11 nov.) ; un document Firestore tient 1 Mo
+  conserverRapports: 30, conserverAvis: 60,
 };
 
 /* ---------- Catalogues (chargés une fois) ---------- */
@@ -256,7 +257,10 @@ function faireAvancerContrats(monde) {
           g.chronique.push({ t, lieu: 'cour', importance: 3, declencheur: 'contrat', scene: 'contrat#depart', heros: hs.map(x => x.id),
             texte: FIN(`${liste} ${pl ? 'passent' : 'passe'} le portail, en route ${Q.avecPreposition(c.mission.lieu, 'vers')} pour « ${c.mission.titre} ».`) });
         const vol = CO.volOiseau(p0?.trajet);
-        (g.lettres ||= []).push({ t: c.depart + vol, heros: hs.map(x => x.id), scene: 'contrat#arrivee', dec: 'courrier', texte: CO.lettreArrivee(g, hs, { ...c.mission, id: c.id }, c.depart, V) });
+        // Audit du 11 nov., deuxième passe : deux lettres par contrat, c'était trop. Le correspondant n'écrit à l'arrivée que
+        // s'il a quelque chose à dire : une mission dangereuse ou lointaine, un héros mal en point, ou un héros qu'il découvre.
+        const aDire = c.mission.dangereuse || (p0?.trajet || 0) >= 6 || hs.some(x => (x.moral ?? 60) < 45 || (x.besoins?.energie ?? 60) < 35 || x.blesse || !g.usage?.[`P:${x.id}`]);
+        if (aDire) (g.lettres ||= []).push({ t: c.depart + vol, heros: hs.map(x => x.id), scene: 'contrat#arrivee', dec: 'courrier', texte: CO.lettreArrivee(g, hs, { ...c.mission, id: c.id }, c.depart, V) });
       }
     }
     if (c.statut === 'ouvert' && t >= c.depart) { c.statut = c.m.postes.some(p => p.heros) ? 'route' : 'clos'; if (c.statut === 'clos') c.abandon = true; }
@@ -313,7 +317,7 @@ function rentrer(monde, c, p) {
   const miens = tenus.filter(x => x.guilde === g.id).map(x => g.heros.find(y => y.id === x.heros.id)).filter(Boolean);
   const allies = tenus.filter(x => x.guilde !== g.id).map(x => ({ id: x.heros.id, nom: x.heros.nom, guilde: x.guilde }));
   const paragraphes = RA.rapportMission(c.mission, r, { calendrier: cal, equipe: miens.map(x => ({ nom: x.nom })).concat(allies.map(a => ({ nom: a.nom }))), repos: h.repos, graine: g.id, chien: g.monde?.chien });
-  (g.rapports ||= []).unshift({ id: c.id, t: monde.t, titre: c.mission.titre, lieu: c.mission.lieu, region: c.mission.region, issue: r.issue, heros: miens.map(x => x.id), allies, po, reputation: rep, objet: objet?.nom || null, paragraphes, lu: false });
+  (g.rapports ||= []).unshift({ id: c.id, t: monde.t, titre: c.mission.titre, lieu: c.mission.lieu, region: c.mission.region, issue: r.issue, heros: miens.map(x => x.id), allies, po, reputation: rep, objet: objet?.nom || null, paragraphes, lu: false, resume: resumeMission(c, r) });
   g.rapports.length = Math.min(g.rapports.length, PARAMS.conserverRapports);
   monterDeNiveau(monde, g);
 }
@@ -497,9 +501,26 @@ function jouerLeTournoi(monde) {
   return res;
 }
 
+/*
+ * En une ou deux phrases, en tête du rapport : combien d'épreuves réussies, et surtout ce qui a manqué (audit du 11 nov. :
+ * « on ne sait pas pourquoi on a échoué »). Seulement des faits du tirage, jamais une explication inventée.
+ */
+const NOM_EPREUVE = { combat: 'le combat', nuee: 'la mêlée contre le nombre', siege: 'le siège', discretion: 'la discrétion', poursuite: 'la poursuite', voyage: 'la route', diplomatie: 'la parole' };
+function resumeMission(c, r) {
+  const vides = c.m.postes.filter(p => !p.heros).map(p => p.type), ratees = r.epreuves.filter(e => !e.reussie);
+  const bilan = `${r.reussies} épreuve${r.reussies > 1 ? 's' : ''} réussie${r.reussies > 1 ? 's' : ''} sur ${r.total}.`;
+  if (!ratees.length) return `${bilan}${r.issue === 'eclatante' ? ' Avec un coup d\'éclat en prime.' : ''}`;
+  const pire = [...ratees].sort((a, b) => a.chance - b.chance)[0];
+  const quoi = `Ce qui a coincé : ${NOM_EPREUVE[pire.type] || pire.type}${pire.complication ? ', une complication que personne n\'avait vue venir' : ''}, avec ${pire.chance} % de chances${pire.meneur ? ` (menée par ${pire.meneur})` : ''}.`;
+  const poste = vides.length ? ` ${vides.length > 1 ? `Les postes de ${vides.join(' et ')} étaient vides` : `Le poste de ${vides[0]} était vide`} : c'est souvent là que ça se joue.` : '';
+  return FIN(`${bilan} ${quoi}${poste}`);
+}
+
 /* Une fois par jour : on garde l'état d'une guilde assez léger pour la base de données (un document de moins de 1 Mo). */
 function elaguer(g) {
   if (g.chronique.length > PARAMS.conserverChronique) g.chronique.splice(0, g.chronique.length - PARAMS.conserverChronique);
+  // La mémoire des phrases déjà lues ne sert que sur un mois : au-delà de deux, on l'oublie, pour garder le document léger.
+  if (g.usage) for (const [k, v] of Object.entries(g.usage)) if (typeof v === 'number' && g.t - v > 24 * 60 && /^[A-Z]:/.test(k)) delete g.usage[k];
   g.cartes = g.cartes.filter(c => c.etat === 'ouverte' || g.t - c.t < 24 * 7);
   if (g.soirees?.length > 5) g.soirees.length = 5;
   if (g.memoire?.length > 120) g.memoire.splice(0, g.memoire.length - 120);

@@ -18,7 +18,7 @@
 // débloquées tous les 7 niveaux contre de l'argent, pour que les pièces soient plus grandes ». Chaque pièce réunit donc deux
 // lieux de vie et leurs effets. Prix revus le 11 nov. (audit) : environ deux semaines de gains réels au rang où la pièce s'ouvre.
 const SALLES = [
-  { cle: 'table', nom: 'La cuisine et la taverne', niveau: 7, prix: 600, lieu: 'cuisines', lieux: ['cuisines', 'taverne'], etage: 'rdc',
+  { cle: 'table', nom: 'La cuisine et la taverne', niveau: 7, prix: 400, lieu: 'cuisines', lieux: ['cuisines', 'taverne'], etage: 'rdc',
     effet: "Des repas chauds et un comptoir pour se parler : un peu de moral pour chaque héros présent, chaque midi. Les tensions retombent plus vite, et les petits désaccords tournent moins souvent à la dispute.",
     regles: { moralRepas: 3, tension: 0.7, escalade: 0.65 } },
   { cle: 'soins', nom: "L'infirmerie et les bains", niveau: 14, prix: 2500, lieu: 'infirmerie', lieux: ['infirmerie', 'bains'], etage: 'etage',

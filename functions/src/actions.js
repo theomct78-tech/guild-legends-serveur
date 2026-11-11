@@ -35,8 +35,11 @@ function gestes() {
   GES = { fait: [], geste: [] };
   for (const l of lignes('vie/gestes.txt')) {
     if (l[0] === 'fait') GES.fait.push({ lieux: l[1].split(','), act: l[2], texte: l.slice(3).join('|').trim() });
-    else if (l[0] === 'geste') GES.geste.push({ lieux: l[1].split(','), id: l[2], libelle: l[3], effets: effets(l[4]), recit: l.slice(5).join('|').trim() });
+    else if (l[0] === 'geste') GES.geste.push({ lieux: l[1].split(','), id: l[2], libelle: l[3], effets: effets(l[4]), recit: l.slice(5).join('|').trim(), recits: [l.slice(5).join('|').trim()] });
+    else if (l[0] === 'recit') (GES.variantes ||= []).push({ id: l[1], texte: l.slice(2).join('|').trim() });
   }
+  // Les variantes s'ajoutent à tous les gestes qui portent cet identifiant (« carte » existe en salle de brief et en bibliothèque).
+  for (const v of GES.variantes || []) for (const x of GES.geste.filter(x => x.id === v.id)) x.recits.push(v.texte);
   return GES;
 }
 function appliquer(h, ef) { for (const [k, v] of Object.entries(ef)) if (BESOINS[k] && h.besoins) h.besoins[BESOINS[k]] = borne(h.besoins[BESOINS[k]] + v); }
@@ -110,7 +113,12 @@ function faireGeste(g, heroId, id) {
   h.dernierGeste = g.t;
   if (x.effets.m) V.souvenir(h, g.t, x.effets.m, 'Un moment avec toi', PARAMS.geste.souvenir);
   appliquer(h, x.effets);
-  const texte = finir(V.MA.accorder(g, x.recit).replace(/\{nom\}/g, h.nom).replace(/\{chien\}/g, g.monde.chien).replace(/\{bourg\}/g, g.monde.bourg));
+  // Un récit déjà lu dans le mois ne revient pas tant qu'il en reste d'autres (audit du 11 nov.).
+  g.usage ||= {};
+  const frais = x.recits.filter(r => g.usage[`G:${r}`] == null || g.t - g.usage[`G:${r}`] >= 24 * 30);
+  const recit = (frais.length ? frais : x.recits)[hash(`${h.id}#${g.t}`) % (frais.length || x.recits.length)];
+  g.usage[`G:${recit}`] = g.t;
+  const texte = finir(V.MA.accorder(g, recit).replace(/\{nom\}/g, h.nom).replace(/\{chien\}/g, g.monde.chien).replace(/\{bourg\}/g, g.monde.bourg));
   g.chronique.push({ t: g.t, lieu: h.lieu, importance: 2, declencheur: 'geste', heros: [h.id], texte });
   return { texte };
 }

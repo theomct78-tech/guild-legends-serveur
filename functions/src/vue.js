@@ -99,7 +99,7 @@ function vue(monde, gid) {
     // La durée du travail sur place reste secrète : on ne connaît que la route (demande de Théo, 9 nov. 2026).
     const cal = { aller: cal0.aller, possible: cal0.possible };
     return { id: c.id, titre: c.mission.titre, lieu: c.mission.lieu, region: c.mission.region, accroche: c.mission.accroche, demandeur: c.mission.demandeur, postes: c.m.postes.map(p => p.type),
-      po: c.mission.po, risque: c.mission.risque, cal, rang: c.m.rang, ferme: c.depart - (cal.aller || 0) - monde.t, chance: W.chanceContrat(monde, c.id),
+      po: c.mission.po, risque: c.mission.risque, dangereuse: Boolean(c.mission.dangereuse), cal, rang: c.m.rang, ferme: c.depart - (cal.aller || 0) - monde.t, chance: W.chanceContrat(monde, c.id),
       briefing: c.m.postes.filter(p => p.guilde === gid && p.heros && !p.parti).map(p => ({ id: p.heros.id, nom: p.heros.nom, depart: Math.max(0, c.depart - p.trajet - monde.t) })),
       enRoute: c.m.postes.filter(p => p.guilde === gid && p.heros && p.parti).map(p => p.heros.id),
       detailPostes: c.m.postes.map((p, i) => ({ type: p.type,
@@ -154,12 +154,12 @@ function vue(monde, gid) {
         quete: g.quetes?.[h.id] ? { id: g.quetes[h.id].id, titre: (() => { try { return Q.queteDe(C.quetes, h, g.region)?.titre || null; } catch { return null; } })(), etat: g.quetes[h.id].etat, etape: g.quetes[h.id].etape, enCours: Boolean(g.quetes[h.id].enCours) } : null }; }),
     cartes: g.cartes.filter(c => c.etat === 'ouverte').map(c => carteVue(g, c)),
     traitees: g.cartes.filter(c => c.etat === 'traitee' && c.parDefaut && monde.t - c.t < 72).map(c => ({ titre: c.titre, reponse: c.options.find(o => o.id === c.reponse)?.libelle, consequences: c.consequences || [] })),
-    chronique: g.chronique.slice(-150).map(e => ({ t: e.t, depart: e.scene === 'contrat#depart' || undefined, jour: jour(e.t), heure: heure(e.t), texte: e.texte, importance: e.importance, dec: e.declencheur, heros: e.heros, arc: e.titreArc || null, quete: e.declencheur === 'quete',
+    chronique: g.chronique.filter(e => monde.t - e.t <= 24 * 30).slice(-450).map(e => ({ t: e.t, depart: e.scene === 'contrat#depart' || undefined, jour: jour(e.t), heure: heure(e.t), texte: e.texte, importance: e.importance, dec: e.declencheur, heros: e.heros, arc: e.titreArc || null, quete: e.declencheur === 'quete',
       ...(e.declencheur === 'fil' ? { voix: e.voix, auteur: e.auteur, contexte: e.contexte || null, id: e.id || null, attend: Boolean(e.reponses && !e.repondu), repondu: e.repondu || null, enReponseA: e.enReponseA || null } : {}) })),
     stories: FIL.stories(g),
     reponsesFil: Object.fromEntries(Object.entries(FIL.REPONSES).map(([k, r]) => [k, r.libelle])),
     arcs: (g.arcs?.enCours || []).map(x => ({ titre: x.titre || x.id, a: x.a, b: x.b, etape: x.etape, total: x.total || null })),
-    soiree: g.soirees?.[0] ? { jour: jour(g.soirees[0].t), venus: g.soirees[0].venus || [], absents: g.soirees[0].absents || [], moments: (g.soirees[0].moments || []).map(m => m.texte) } : null,
+    soiree: g.soirees?.[0] ? { t: g.soirees[0].t, jour: jour(g.soirees[0].t), venus: g.soirees[0].venus || [], absents: g.soirees[0].absents || [], moments: (g.soirees[0].moments || []).map(m => m.texte) } : null,
     contrats, missionsEnCours, rapports: (g.rapports || []).slice(0, 15),
     avis: (g.avis || []).slice(0, 30).map(a => ({ ...a, jour: jour(a.t), heure: heure(a.t) })),
     candidatures: (g.candidatures || []).map(c => { const f = C.parCle[c.cle], p = C.perso[c.cle] || C.base[f.champion];

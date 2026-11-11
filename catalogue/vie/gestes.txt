@@ -97,3 +97,97 @@ geste|ecuries|foin|Rentrer le foin à deux|m2 s8 e4 n-8|Deux fourches, une charr
 geste|sanctuaire,grand_hall|bougie|Allumer une bougie à côté de la sienne|m3 s4|Tu allumes une bougie et tu la poses près de la sienne. {nom} ne tourne pas la tête, mais te laisse rester.
 geste|sanctuaire,grand_hall|noms|Lire ensemble les noms gravés|m3 s8|Vous lisez les noms un par un. {nom} en connaît quelques-uns et te dit qui c'était, en deux mots à chaque fois.
 geste|sanctuaire,grand_hall|projets|Parler de l'avenir de la guilde|m3 s10 e8|Sous les bannières, ça donne envie de voir grand. {nom} a un avis précis sur ce que la guilde devrait devenir. Il est meilleur que le tien.
+
+# ---------- D'autres façons dont le moment se passe (11 nov. 2026, audit : un geste choisi souvent ne doit pas se raconter pareil) ----------
+# recit|id|texte : une variante du récit d'un geste. Le jeu ne la répète pas avant un mois.
+recit|border|Tu tires les rideaux, tu ramasses une botte tombée au milieu du passage, tu ressors sur la pointe des pieds. {nom} n'a pas bougé d'un cil.
+recit|border|Le soleil tapait sur l'oreiller. Tu fermes un volet, puis l'autre. Dans le lit, {nom} soupire et se retourne vers le mur.
+recit|couverture|Tu poses la couverture sur le lit. {nom} grogne un « merci » sans ouvrir les yeux, et tire la couverture jusqu'au nez.
+recit|couverture|La nuit sera froide. Une couverture de plus, bien bordée. Au matin, {nom} dira qu'il faisait chaud et qu'il n'en fallait pas. Elle sera encore sur le lit.
+recit|reveil|Tu toques deux fois au montant du lit. {nom} sort une main de sous la couverture, attrape la tasse, et reste assis dix minutes avant de dire un mot.
+recit|reveil|« C'est l'heure. » {nom} répond que non, que l'heure est une invention, puis boit la tasse d'une traite et se lève quand même.
+recit|parler_soir|La lampe est presque éteinte. {nom} parle de chez soi, d'une rue, d'une odeur. Tu ne poses pas de questions. Ça finit par un bâillement.
+recit|parler_soir|Tu t'assois au bord du lit. {nom} dit qu'il n'y a rien à dire, puis raconte toute sa journée, dans l'ordre, avec les noms.
+recit|sasseoir|Tu t'assois. {nom} te tend sans un mot la moitié de son assiette, comme si c'était prévu depuis le début.
+recit|sasseoir|La table est bruyante. {nom} te fait de la place sur le banc d'un coup de hanche, et reprend l'histoire là où elle en était, pour toi.
+recit|partie|Une partie de cartes qui dégénère en débat sur les règles. {nom} gagne le débat. Tu gagnes la partie. Chacun repart content.
+recit|partie|{nom} bat les cartes comme un professionnel et perd quand même. On réclame une revanche. Tu acceptes. Il est minuit.
+recit|histoire|« Tu veux vraiment savoir ? » Oui. {nom} raconte la mission en mimant les coups. La table entière finit par écouter.
+recit|histoire|{nom} raconte une version de la mission que personne d'autre n'a vécue. C'est la plus belle des trois. Personne ne corrige.
+recit|feu|La bûche crépite. {nom} tend les mains vers le feu et dit, au bout d'un long moment : « On est bien, là. » C'est tout.
+recit|feu|Tu tisonnes le feu. {nom} te prend le tisonnier des mains, parce que tu t'y prends mal. C'est vrai, tu t'y prends mal.
+recit|duel|Trois touches chacun, et la dernière se joue longtemps. {nom} gagne d'un rien, et passe la soirée à te réexpliquer le coup.
+recit|duel|{nom} te désarme au premier échange, te rend ton épée et dit « encore ». Tu tiens plus longtemps la deuxième fois. Pas beaucoup.
+recit|conseil|Tu montres un détail, le placement du pied. {nom} hausse les épaules, essaie, et ne dit rien. Au dixième essai, ça marche.
+recit|conseil|Tu ne dis rien. Tu regardes jusqu'au bout. Ça suffit : {nom} s'applique deux fois plus quand quelqu'un regarde.
+recit|eau|La cruche passe de main en main, puis revient vide. {nom} essuie la sueur de son front et te la rend en souriant.
+recit|eau|Tu apportes l'eau trop tard : {nom} a déjà bu au seau du chien. Vous en riez. Le chien, beaucoup moins.
+recit|baton|Le bâton atterrit sur le toit de la grange. {chien} regarde le toit, puis vous deux, avec un reproche immense. {nom} grimpe le chercher.
+recit|baton|{chien} rapporte le bâton à {nom}, jamais à toi. Tu insistes une demi-heure. {chien} a choisi son camp.
+recit|vue|Le soleil se couche sur {bourg}. Vous restez au créneau jusqu'à ce que les premières lampes s'allument en bas. {nom} les compte à voix basse.
+recit|vue|Un oiseau du courrier passe au-dessus de vous. {nom} le suit du regard jusqu'à ce qu'il disparaisse. « Il en reste combien, avant que ce soit pour moi ? »
+recit|ronde|La ronde dure une heure au lieu d'un quart d'heure. {nom} s'arrête à chaque créneau pour raconter quelque chose. Tu ne regrettes pas.
+recit|ronde|{nom} marche en tête et te fait remarquer chaque pierre branlante. Il y en a beaucoup. Tu notes. Un jour, tu feras réparer.
+recit|manteau|{nom} prend le manteau sans rien dire et le rend une heure plus tard, plié en quatre, encore chaud.
+recit|manteau|Le manteau est trop grand, ou trop petit. {nom} le garde quand même, et le porte au dîner sans aucune explication.
+recit|souci|{nom} dit que tout va bien. Tu restes. Au bout d'un moment, ça ne va plus si bien, et ça sort enfin.
+recit|souci|Tu demandes. {nom} répond par une question sur toi. Vous parlez de toi pendant une heure. En partant, {nom} sourit quand même.
+recit|carte|{nom} connaît déjà le trajet par cœur, mais te laisse l'expliquer. Tu te trompes de gué. On corrige en riant.
+recit|carte|Vous repassez la route trois fois. À la troisième, {nom} trace au crayon un raccourci que la Chambre n'a pas vu.
+recit|encourager|Tu poses une main sur l'épaule. {nom} dit « oui, oui », sans te regarder, mais ne se dégage pas tout de suite.
+recit|encourager|« Ramène-moi une histoire. » {nom} promet. Les histoires, ça se ramène toujours, même quand le reste ne revient pas.
+recit|provisions|Tu glisses un gâteau de la cuisine dans la poche du haut. {nom} le trouvera au premier arrêt, et saura d'où il vient.
+recit|provisions|{nom} te surprend la main dans son sac. Tu dis que c'est une inspection. Personne n'y croit, mais le pain reste dans le sac.
+recit|materiel|Tout est en ordre. Vraiment tout. {nom} te regarde chercher une erreur et finit par dire : « Il n'y en a pas, je vérifie toujours deux fois. »
+recit|materiel|Une sangle cède dans tes mains. {nom} pâlit, puis rit : mieux ici que là-bas. Vous allez en chercher une neuve ensemble.
+recit|sieste|Tu t'endors avant {nom}. Au réveil, tu as une fleur posée sur le ventre. Personne ne sait d'où elle vient.
+recit|sieste|L'herbe est chaude. {nom} parle des nuages, puis ne parle plus. Une demi-heure passe. Personne ne s'en plaint.
+recit|arroser|Un arrosoir fuit. C'est le tien. {nom} te prête le sien et prend le tien, sans un mot, et finit trempé jusqu'aux genoux.
+recit|arroser|Vous arrosez tout le jardin, puis un peu {chien}, qui passait par là. {chien} s'ébroue sur vous deux. Égalité.
+recit|fruit|Le fruit n'est pas mûr. Vous le mangez quand même, en grimaçant ensemble. {nom} dit que c'est « une expérience ».
+recit|fruit|{nom} grimpe dans l'arbre pour attraper le plus beau, tout en haut. Il est parfait. {nom} te le lance, et tu le rattrapes de justesse.
+recit|banc|Sur le banc, {nom} montre un nid dans la haie, invisible si on ne sait pas où regarder. Maintenant tu sais.
+recit|banc|Vous restez assis jusqu'à ce que le soleil passe derrière le mur. {nom} dit « bon », se lève, et c'est fini. C'était bien.
+recit|verre|Deux verres, puis un troisième pour fêter le deuxième. {nom} raconte une histoire qui commence bien et finit très mal. Tout le monde rit.
+recit|verre|{nom} commande « la même chose que d'habitude ». Le tavernier sait. Toi aussi, maintenant.
+recit|cuisiner|Vous faites un gâteau. Il est plat. {nom} le baptise « galette » et le sert comme si c'était prévu.
+recit|cuisiner|{nom} cuisine un plat de chez soi, et refuse de dire ce qu'il y a dedans. C'est très bon. Tu ne poses pas de question.
+recit|gouter|{nom} goûte, ferme les yeux, et ne dit rien pendant longtemps. Puis : « C'est comme chez ma grand-mère. » Ça veut dire oui.
+recit|gouter|{nom} goûte et grimace. Puis reprend une cuillère, pour être sûr. Puis une troisième. Le verdict reste « trop épicé ».
+recit|vaisselle|Une assiette glisse. {nom} la rattrape au vol, sans même regarder. Vous continuez comme si de rien n'était, et vous n'en revenez pas.
+recit|vaisselle|Pendant la vaisselle, {nom} chante. Faux, et fort. Tu chantes aussi. La cuisine se vide très vite.
+recit|chevet|{nom} dort quand tu entres. Tu restes quand même un moment. Au réveil, on lui dira que tu étais là. Ça compte.
+recit|chevet|{nom} te raconte comment c'est arrivé, avec les gestes. La blessure grandit à chaque version. Tu écoutes sérieusement.
+recit|tisane|La tisane est trop chaude. {nom} souffle dessus avec une patience qu'on ne lui connaissait pas, et la boit jusqu'au bout.
+recit|tisane|{nom} fait la grimace à la première gorgée et finit la tasse. « Ça soigne, c'est pour ça que c'est mauvais. »
+recit|lecture|Tu lis mal, en sautant des lignes. {nom} s'en rend compte et te corrige, les yeux fermés : cette histoire, {nom} la connaît par cœur.
+recit|lecture|Tu lis un poème. {nom} dit que c'est nul. À la fin, {nom} demande de le relire.
+recit|laisser|Une heure de calme. Quand tu repasses, {nom} dort, la fenêtre ouverte. Tu refermes doucement.
+recit|laisser|Tu montes la garde devant la porte. Deux visiteurs repartent bredouilles. {nom} ne saura jamais combien tu en as renvoyé.
+recit|passes|{nom} te laisse prendre l'avantage, pour voir. Puis reprend tout en trois coups. Tu as compris la leçon.
+recit|passes|Vous transpirez tous les deux au bout de dix minutes. {nom} dit « pas mal » en rangeant les armes. C'est un compliment.
+recit|lame|Le forgeron rend la lame, et {nom} coupe une feuille en l'air pour l'essayer. La feuille tombe en deux. Satisfaction totale.
+recit|lame|{nom} fait le tour de la forge en tenant la lame à la lumière. « Elle n'a jamais été aussi belle. » Le forgeron rougit.
+recit|technique|{nom} décompose la technique en sept temps. Tu en retiens trois. C'est déjà plus que les autres, paraît-il.
+recit|technique|{nom} te montre, puis te fait essayer, puis te corrige la main, la hanche, le regard. Tu as mal partout. Ça viendra.
+recit|soufflet|La chaleur, le bruit, les étincelles. À la fin, {nom} plonge le fer dans l'eau et la vapeur monte entre vous. Beau travail.
+recit|soufflet|Tu souffles trop fort. Le feu monte, {nom} recule d'un pas en riant, et t'apprend le bon rythme. Un, deux. Un, deux.
+recit|livre|{nom} te rend le livre deux jours plus tard, avec une page cornée. C'est celle qui compte, apparemment.
+recit|livre|{nom} lit la première page devant toi, puis la deuxième, puis s'assoit. Tu repars sans qu'on te dise au revoir. C'est bon signe.
+recit|carte|Une carte du monde entier. {nom} pose le doigt sur un endroit où personne n'est jamais allé. « Un jour. » Tu notes.
+recit|question|{nom} lit un traité sur les champignons. Tu le sais, maintenant. Tu sais même lesquels ne pas manger, et pourquoi.
+recit|question|Ta question tombe pile sur ce que {nom} ne comprenait pas. Vous cherchez ensemble. Vous trouvez, presque.
+recit|silence|Une heure de silence. À la fin, {nom} te tend une page avec une phrase soulignée. Tu la lis. Tu comprends pourquoi.
+recit|silence|Vous lisez. {nom} rit tout seul, deux fois, sans rien expliquer. Tu ne demandes pas. C'est mieux ainsi.
+recit|balade|Au retour, {nom} te dépasse au galop sur le dernier chemin, juste pour gagner. Il n'y avait pas de course.
+recit|balade|Une averse vous surprend dans les collines. Vous rentrez sous l'averse, en riant. {nom} dit que c'était la meilleure balade.
+recit|brosser|Le cheval de {nom} pose la tête sur son épaule. {nom} ne bouge plus, pour ne pas le déranger. Tu finis les deux chevaux.
+recit|brosser|{nom} te montre comment brosser dans le sens du poil. Tu le savais. Tu fais comme si tu ne le savais pas.
+recit|foin|Une botte de foin te tombe dessus. {nom} t'en sort en riant et te fait asseoir sur la charrette pour la suite.
+recit|foin|À la fin, vous vous allongez sur le foin rentré. {nom} dit qu'il n'y a pas de meilleur lit au monde. Ça sent l'été.
+recit|bougie|Ta bougie s'éteint. {nom} la rallume avec la sienne, sans rien dire, et la remet à sa place.
+recit|bougie|Deux bougies côte à côte. {nom} dit un nom, tout bas. Tu ne demandes pas qui c'était.
+recit|noms|Un nom est mal gravé. {nom} le touche du doigt et dit qu'il faudra le refaire. Tu promets.
+recit|noms|Vous lisez jusqu'au dernier nom. {nom} reste un moment, puis dit : « Il faudra laisser de la place. » Pour qui, on ne dit pas.
+recit|projets|{nom} voit la guilde dans dix ans, avec une aile de plus et un drapeau sur la tour. Tu demandes qui paiera. {nom} te regarde.
+recit|projets|Vous parlez de l'avenir jusqu'à ce que les bougies soient basses. Rien n'est décidé. Tout semble possible.

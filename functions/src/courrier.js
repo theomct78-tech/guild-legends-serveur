@@ -44,6 +44,14 @@ function phrase(cle, variante, graine, g) {
   const pool = neuves.length ? neuves : [...L].sort((a, b) => g.usage[`C:${a}`] - g.usage[`C:${b}`]).slice(0, 1);
   const x = une(pool, graine); g.usage[`C:${x}`] = g.t; return x;
 }
+// La façon du correspondant de cette région, mêlée aux formules communes : on la reconnaît sans la lire à chaque fois.
+function parmi(g, cle, region, graine) {
+  const L = [...(modeles()[cle]?.[region] || []), ...(modeles()[cle]?.['*'] || [])]; if (!L.length) return null;
+  g.usage ||= {};
+  const neuves = L.filter(x => g.usage[`C:${x}`] == null || g.t - g.usage[`C:${x}`] >= 24 * 7);
+  const pool = neuves.length ? neuves : [...L].sort((a, b) => g.usage[`C:${a}`] - g.usage[`C:${b}`]).slice(0, 1);
+  const x = une(pool, graine); g.usage[`C:${x}`] = g.t; return x;
+}
 let VOIX = null;
 const voix = (h, sit) => (VOIX ||= require('./scenes').lireRepliques())[h.champion]?.[sit] || [];
 
@@ -67,8 +75,9 @@ function remplir(g, texte, x) {
 }
 function signer(g, region, corps, x) {
   const sig = phrase('signataire', region, region) || 'Le correspondant de la Chambre des Bannières';
-  const graine = `${x.lieu}#${corps.length}`, fin = phrase('signature', '*', graine, g) || '';
-  const intro = remplir(g, phrase('intro', '*', graine, g) || 'Une lettre de la Chambre des Bannières arrive par la voie des airs, envoyée {de_lieu}.', x);
+  // Chaque correspondant a sa façon de signer, et sa façon d'envoyer ses lettres (11 nov. 2026).
+  const graine = `${x.lieu}#${corps.length}`, fin = parmi(g, 'signature', region, graine) || '';
+  const intro = remplir(g, parmi(g, 'intro', region, graine) || 'Une lettre de la Chambre des Bannières arrive par la voie des airs, envoyée {de_lieu}.', x);
   return finir(`${intro} « ${remplir(g, corps, { ...x, signataire: sig })} » ${fin} ${sig}.`);
 }
 
@@ -90,8 +99,6 @@ function lettreArrivee(g, heros, mission, tArrivee, V) {
     if ((x.besoins?.energie ?? 60) < 35) parties.push(remplir(g, phrase('forme', 'fatigue', `${graine}#${x.id}#f`, g) || '', { nom: x.nom }));
     else if (x.blesse) parties.push(remplir(g, phrase('forme', 'blessure', `${graine}#${x.id}#b`, g) || '', { nom: x.nom }));
     else parties.push(remplir(g, phrase('moral', band, `${graine}#${x.id}`, g) || '', { nom: x.nom }));
-    const trait = (x.traits || []).find(t => modeles().activite?.[t]);
-    if (!plur) parties.push(remplir(g, phrase('activite', trait || '*', `${graine}#${x.id}#a`, g) || '', { nom: x.nom }));
   }
   parties.push(phrase('fin', plur ? 'n' : '1', graine, g));
   return signer(g, mission.region, parties.filter(Boolean).join(' '), base);
@@ -120,7 +127,10 @@ function lettresIssue(g, heros, mission, res, tFin, retours, V, { connue = false
     if (groupe.every(x => (res.blessures || []).find(y => y.nom === x.nom && y.niveau === 'grave'))) continue;   // déjà dit avec la blessure
     parties.push(remplir(g, phrase('depart', groupe.length > 1 ? 'n' : '1', graine, g) || '', { nom: groupe[0].nom, noms: listeNoms(groupe.map(x => x.nom)), lieu: mission.lieu, heure: heureTxt(V, tFin), retour: dans(V, +tr, tFin) }));
   }
-  if (vivants.length) out.push(signer(g, mission.region, parties.filter(Boolean).join(' '), { mission: mission.titre, lieu: mission.lieu, signataire: sig }));
+  // Audit du 11 nov., deuxième passe : le rapport dit déjà l'issue. Le correspondant n'écrit au retour que s'il y a
+  // des blessés, ou un coup d'éclat dont tout le pays parle.
+  const aDire = (res.blessures || []).length || res.issue === 'eclatante';
+  if (vivants.length && aDire) out.push(signer(g, mission.region, parties.filter(Boolean).join(' '), { mission: mission.titre, lieu: mission.lieu, signataire: sig }));
   return out;
 }
 

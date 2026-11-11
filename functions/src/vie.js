@@ -35,6 +35,7 @@ const PARAMS = {
   rattrapageDetailleMax: 72,        // au-delà, les heures sont résumées (pas de scènes, besoins et moral seulement)
   inertieMoral: 0.12,               // part de l'écart à la cible rattrapée à chaque créneau
   moralBase: 55,
+  moralJoie: 1.5,                   // poids des raisons positives du moral (audit du 11 nov.)
   temperature: 7,                   // plus elle est basse, plus le héros suit strictement ses envies
   chanceInteraction: 0.55,          // chance qu'une paire réunie au même endroit interagisse
   chanceSceneSolo: 0.22,            // chance qu'une activité seule donne une scène plutôt qu'une ligne de routine
@@ -244,7 +245,9 @@ function raisonsMoral(g, h, t = g.t) {
 }
 
 function majMoral(g, h) {
-  const cible = borne(PARAMS.moralBase + raisonsMoral(g, h).reduce((s, x) => s + x.valeur, 0));
+  // Audit du 11 nov. : tout le monde stagnait entre 50 et 60, personne n'était vraiment heureux. Les bonnes choses comptent
+  // désormais un peu plus que les mauvaises, pour qu'un héros comblé se voie.
+  const cible = borne(PARAMS.moralBase + raisonsMoral(g, h).reduce((s, x) => s + (x.valeur > 0 ? x.valeur * PARAMS.moralJoie : x.valeur), 0));
   let k = PARAMS.inertieMoral;
   if (h.traits.includes('MELANCOLIQUE') && cible > h.moral) k /= 2;   // remonte lentement
   if (h.traits.includes('ENJOUE') && cible > h.moral) k *= 1.5;

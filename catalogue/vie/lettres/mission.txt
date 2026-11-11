@@ -90,13 +90,13 @@ fin|n|Je vous écrirai de nouveau à l'issue du contrat. Comptez sur moi pour vo
 
 # ---------- À l'issue ----------
 # Le ton dépend de l'issue, et de la notoriété de la guilde (inconnue : on vous découvre ; connue : on vous connaît).
-issue|eclatante:inconnue|{maitre}, je ne connaissais pas votre guilde il y a quelques jours. Je la connais maintenant. Le contrat « {mission} » est rempli, et bien au-delà de ce qu'on espérait. La Chambre en prend bonne note.
-issue|eclatante:connue|{maitre}, votre guilde a encore fait honneur à sa réputation. Le contrat « {mission} » est rempli, et de la plus belle des façons. Les gens d'ici en parleront longtemps.
-issue|reussite:inconnue|{maitre}, le contrat « {mission} » est rempli. Le travail a été fait proprement, dans les temps. La Chambre vous remercie et vous versera la prime convenue.
-issue|reussite:connue|{maitre}, le contrat « {mission} » est rempli, avec le sérieux qu'on attend désormais de votre guilde. La prime vous sera versée au retour de vos héros.
-issue|partielle:*|{maitre}, le contrat « {mission} » n'est rempli qu'en partie. L'essentiel est sauvé ; le reste, non. La prime sera réduite en conséquence.
-issue|echec:inconnue|{maitre}, le contrat « {mission} » a échoué. Je ne vais pas vous mentir : la Chambre attendait mieux.
-issue|echec:connue|{maitre}, le contrat « {mission} » a échoué. Ça arrive, même aux meilleures guildes. Ça ne doit pas arriver deux fois.
+issue|eclatante:inconnue|{maitre}, je ne connaissais pas votre guilde il y a quelques jours. Je la connais maintenant. Le contrat “{mission}” est rempli, et bien au-delà de ce qu'on espérait. La Chambre en prend bonne note.
+issue|eclatante:connue|{maitre}, votre guilde a encore fait honneur à sa réputation. Le contrat “{mission}” est rempli, et de la plus belle des façons. Les gens d'ici en parleront longtemps.
+issue|reussite:inconnue|{maitre}, le contrat “{mission}” est rempli. Le travail a été fait proprement, dans les temps. La Chambre vous remercie et vous versera la prime convenue.
+issue|reussite:connue|{maitre}, le contrat “{mission}” est rempli, avec le sérieux qu'on attend désormais de votre guilde. La prime vous sera versée au retour de vos héros.
+issue|partielle:*|{maitre}, le contrat “{mission}” n'est rempli qu'en partie. L'essentiel est sauvé ; le reste, non. La prime sera réduite en conséquence.
+issue|echec:inconnue|{maitre}, le contrat “{mission}” a échoué. Je ne vais pas vous mentir : la Chambre attendait mieux.
+issue|echec:connue|{maitre}, le contrat “{mission}” a échoué. Ça arrive, même aux meilleures guildes. Ça ne doit pas arriver deux fois.
 
 depart|1|{nom} a repris la route {de_lieu} à {heure}. Retour au repère {retour}.
 depart|n|{noms} ont repris la route {de_lieu} à {heure}. Retour au repère {retour}.
@@ -104,7 +104,7 @@ depart|n|{noms} ont repris la route {de_lieu} à {heure}. Retour au repère {ret
 blessure|legere|{nom} s'en tire avec des blessures légères. Notre médecin a fait les pansements ; rien qui ne guérisse avec du repos.
 blessure|grave|Les blessures de {nom} sont graves. Notre médecin a fait tout ce qui était possible, et le pire est écarté. La Chambre prend le transport à sa charge : une charrette couverte, avec un soigneur. Arrivée au repère prévue {retour}.
 
-mort|1|{maitre}, c'est avec une profonde tristesse que je vous écris. {nom} a perdu la vie {a_lieu}, pendant le contrat « {mission} ». Tout a été fait pour {nom}, jusqu'au bout. Le corps est veillé par nos gens, et vous sera rendu avec tous les honneurs. Je suis désolé{je_e}, sincèrement.
+mort|1|{maitre}, c'est avec une profonde tristesse que je vous écris. {nom} a perdu la vie {a_lieu}, pendant le contrat “{mission}”. Tout a été fait pour {nom}, jusqu'au bout. Le corps est veillé par nos gens, et vous sera rendu avec tous les honneurs. Je suis désolé{je_e}, sincèrement.
 
 signature|*|Avec mes respects,
 
@@ -146,13 +146,13 @@ fin|1|Je vous réécris à la fin du contrat, quelle que soit l'issue.
 fin|n|La suite au prochain oiseau, dès que le contrat sera terminé.
 fin|n|Je vous réécris à la fin du contrat, quelle que soit l'issue.
 
-issue|eclatante:inconnue|{maitre}, je vais être direct{je_e} : je n'attendais pas grand-chose d'une guilde dont je n'avais jamais entendu le nom. J'avais tort. « {mission} » est une réussite complète, et tout le monde ici le sait déjà.
-issue|eclatante:connue|{maitre}, « {mission} » : réussite complète. On me demande déjà quand votre guilde revient. Je n'ai pas su quoi répondre, à part « bientôt, j'espère ».
-issue|reussite:inconnue|{maitre}, « {mission} » : c'est fait, et bien fait. Rien à redire sur le travail. La prime part avec vos héros.
-issue|reussite:connue|{maitre}, « {mission} » : contrat rempli, comme prévu. C'est devenu une habitude avec votre guilde, et je ne m'en plains pas.
-issue|partielle:*|{maitre}, « {mission} » : c'est à moitié réussi. Le plus important est fait, mais il reste des dégâts, et la Chambre ne paiera que la moitié.
-issue|echec:inconnue|{maitre}, « {mission} » : échec. Le travail n'a pas été fait. La Chambre ne versera rien, et je devrai l'écrire dans mon rapport.
-issue|echec:connue|{maitre}, « {mission} » : échec. Je m'attendais à mieux de votre part, et tout le bureau aussi. La prime est annulée.
+issue|eclatante:inconnue|{maitre}, je vais être direct{je_e} : je n'attendais pas grand-chose d'une guilde dont je n'avais jamais entendu le nom. J'avais tort. “{mission}” est une réussite complète, et tout le monde ici le sait déjà.
+issue|eclatante:connue|{maitre}, “{mission}” : réussite complète. On me demande déjà quand votre guilde revient. Je n'ai pas su quoi répondre, à part « bientôt, j'espère ».
+issue|reussite:inconnue|{maitre}, “{mission}” : c'est fait, et bien fait. Rien à redire sur le travail. La prime part avec vos héros.
+issue|reussite:connue|{maitre}, “{mission}” : contrat rempli, comme prévu. C'est devenu une habitude avec votre guilde, et je ne m'en plains pas.
+issue|partielle:*|{maitre}, “{mission}” : c'est à moitié réussi. Le plus important est fait, mais il reste des dégâts, et la Chambre ne paiera que la moitié.
+issue|echec:inconnue|{maitre}, “{mission}” : échec. Le travail n'a pas été fait. La Chambre ne versera rien, et je devrai l'écrire dans mon rapport.
+issue|echec:connue|{maitre}, “{mission}” : échec. Je m'attendais à mieux de votre part, et tout le bureau aussi. La prime est annulée.
 
 depart|1|{nom} a quitté les lieux à {heure} et devrait être au repère {retour}.
 depart|1|{nom} est sur le chemin du retour depuis {heure}. Comptez une arrivée {retour}.
@@ -160,9 +160,67 @@ depart|n|{noms} ont quitté les lieux à {heure} et devraient être au repère {
 depart|n|{noms} sont sur le chemin du retour depuis {heure}. Comptez une arrivée {retour}.
 
 blessure|legere|{nom} rentre avec quelques points de suture et beaucoup de mauvaise humeur. Rien de grave : du repos, et ça ira.
-blessure|grave|Je ne vais pas tourner autour du pot : La blessure de {nom} est grave, mais le pire est passé. Notre médecin ne quitte pas son chevet. La Chambre paie le transport, en charrette couverte avec un soigneur. Arrivée prévue {retour}.
+blessure|grave|Je ne vais pas tourner autour du pot : la blessure de {nom} est grave, mais le pire est passé. Notre médecin ne quitte pas son chevet. La Chambre paie le transport, en charrette couverte avec un soigneur. Arrivée prévue {retour}.
 
-mort|1|{maitre}, je ne sais pas comment écrire cette lettre. {nom} a perdu la vie {a_lieu}, pendant « {mission} ». Nous avons tout tenté. Quelqu'un veille le corps jour et nuit, et nous vous le ramènerons nous-mêmes. Si vous voulez savoir comment ça s'est passé, je vous le dirai en face, pas dans une lettre. Toutes mes condoléances, à vous et au repère.
+mort|1|{maitre}, je ne sais pas comment écrire cette lettre. {nom} a perdu la vie {a_lieu}, pendant “{mission}”. Nous avons tout tenté. Quelqu'un veille le corps jour et nuit, et nous vous le ramènerons nous-mêmes. Si vous voulez savoir comment ça s'est passé, je vous le dirai en face, pas dans une lettre. Toutes mes condoléances, à vous et au repère.
 
 signature|*|Bien à vous,
 signature|*|Je reste à votre disposition,
+
+# ---------- Les correspondants ont chacun leur voix (11 nov. 2026, audit) ----------
+# Une façon d'envoyer la lettre et une façon de signer par correspondant : on reconnaît Héloïse ou Deux-Ancres avant la signature.
+intro|demacia|Le pli de la Chambre arrive {de_lieu}, plié en trois, cacheté droit. Héloïse Brenn ne laisse jamais rien de travers.
+intro|demacia|Un pigeon blanc de la Chambre, un ruban bleu à la patte : le courrier {de_lieu}.
+signature|demacia|Avec mes respects, et ceux de Demacia,
+signature|demacia|Fidèlement,
+signature|demacia|Je reste à votre service, comme toujours,
+intro|noxus|Un corbeau noxien, une lettre courte, écrite serré : Varik Dorne écrit {de_lieu}.
+intro|noxus|Le sceau de la Chambre, et en dessous, à la main : « À lire tout de suite ». Le pli vient {de_lieu}.
+signature|noxus|Sans fioritures,
+signature|noxus|Pour la Chambre, et pour personne d'autre,
+signature|noxus|Rien d'autre à ajouter,
+intro|freljord|Un faucon du nord se pose sur le chemin de ronde, les plumes encore givrées. Le pli vient {de_lieu}.
+intro|freljord|Une lettre {de_lieu}, qui sent le feu de bois. Sigrun Hall écrit toujours près de la cheminée.
+signature|freljord|Que le froid vous épargne,
+signature|freljord|Avec la chaleur qu'on peut mettre dans une lettre,
+signature|freljord|Du nord, en amitié,
+intro|ionia|Un oiseau aux ailes peintes apporte un pli {de_lieu}. L'écriture d'Ishan Rei est fine comme un trait de pinceau.
+intro|ionia|Une lettre {de_lieu}, avec une fleur séchée glissée dedans. Ishan Rei en met une à chaque fois.
+signature|ionia|Que l'équilibre vous garde,
+signature|ionia|En paix,
+signature|ionia|Avec mes salutations, et celles du vent,
+intro|piltover|Un pli {de_lieu}, tapé à la machine et signé à l'encre violette. Cornélia Talbot aime le travail propre.
+intro|piltover|Le messager mécanique de la Chambre dépose une enveloppe {de_lieu}, puis repart en cliquetant.
+signature|piltover|Cordialement, et dans les délais,
+signature|piltover|Avec mes compliments,
+signature|piltover|Bien à vous, et à la prochaine affaire,
+intro|zaun|Une lettre {de_lieu}, tachée de suie sur un coin. Grisel Fenn s'excuse toujours pour la suie, et toujours en bas de page.
+intro|zaun|Un pigeon de Zaun, maigre et de mauvais poil, apporte un pli {de_lieu}. Il repart sans attendre de miettes.
+signature|zaun|Par la grâce de Janna, et pardon pour la suie,
+signature|zaun|D'en bas, avec respect,
+signature|zaun|Tenez bon là-haut,
+intro|shurima|Un pli {de_lieu}, avec du sable dans les plis. Nadir Assa écrit toujours dehors, à l'ombre d'un mur.
+intro|shurima|Un faucon du désert se pose au repère avec une lettre {de_lieu}, roulée dans un étui de cuir.
+signature|shurima|Que le Tisserand vous garde,
+signature|shurima|Sous le même soleil que vous,
+signature|shurima|De l'ombre de mon mur,
+intro|targon|Un pli {de_lieu}, écrit d'une main qui a froid. Tavi Solen monte jusqu'au bureau à pied, chaque matin.
+intro|targon|Un oiseau de montagne apporte une lettre {de_lieu}. Le papier est épais, fait pour durer.
+signature|targon|De la montagne, qui vous salue,
+signature|targon|Avec les étoiles pour témoins,
+signature|targon|Respectueusement, d'un peu plus haut,
+intro|bilgewater|Une mouette dépose un pli {de_lieu}, et vole un morceau de pain avant de repartir. Deux-Ancres écrit comme il parle.
+intro|bilgewater|Une lettre {de_lieu}, qui sent le sel et un peu le rhum. Deux-Ancres jure que c'est la mer.
+signature|bilgewater|Que la Mère Serpent vous soit douce,
+signature|bilgewater|Bon vent,
+signature|bilgewater|À la vôtre,
+intro|ixtal|Un pli {de_lieu}, écrit sur une feuille si fine qu'elle laisse passer la lumière. Ixia Teo a reçu l'autorisation du préfet pour l'envoyer.
+intro|ixtal|Un colibri de la jungle apporte une lettre {de_lieu}, pliée en forme de fleur.
+signature|ixtal|Avec l'autorisation du préfet, et la mienne,
+signature|ixtal|Des arcologies, avec déférence,
+signature|ixtal|Respectueusement, de très loin,
+intro|bandle|Une lettre {de_lieu} tombe du ciel, sans oiseau. Pimbo Ardoise n'a jamais expliqué comment il faisait.
+intro|bandle|Un pli {de_lieu}, écrit en tout petit, avec un dessin dans la marge. Pimbo Ardoise dessine toujours quelque chose dans la marge.
+signature|bandle|Chapeau bas,
+signature|bandle|Avec mes amitiés, et celles du troisième terrier à gauche,
+signature|bandle|Votre dévoué, en espérant que la lettre arrive avant moi,

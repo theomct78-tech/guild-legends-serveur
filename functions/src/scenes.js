@@ -163,7 +163,12 @@ function replique(rep, h, sit, autre, rng, usage = {}, t = 0, { registre = false
   let toutes = repliquesDe(rep, h, sit);
   if (!toutes.length && registre && h) toutes = rep?.[`registre:${registreDe(h.champion)}`]?.[sit] || [];
   if (!toutes.length) return null;
-  const neuves = toutes.filter(x => usage['R:' + x] == null || t - usage['R:' + x] >= 48), l = neuves.length ? neuves : toutes;
+  // Audit du 11 nov. : une réplique ne revient pas avant deux semaines. Si le champion a tout dit, on prend une réplique de
+  // son registre (gamin, grand, discret…) encore neuve, plutôt que de lui faire répéter la même phrase.
+  const neuf = x => usage['R:' + x] == null || t - usage['R:' + x] >= 24 * 14;
+  let neuves = toutes.filter(neuf);
+  if (!neuves.length && h) neuves = (rep?.[`registre:${registreDe(h.champion)}`]?.[sit] || []).filter(neuf);
+  const l = neuves.length ? neuves : [...toutes].sort((a, b) => (usage['R:' + a] ?? -1e9) - (usage['R:' + b] ?? -1e9)).slice(0, 1);
   const x = l[Math.floor(rng() * l.length) % l.length];
   usage['R:' + x] = t;
   return x.replace(/\{b\}/g, autre?.nom ?? 'toi');

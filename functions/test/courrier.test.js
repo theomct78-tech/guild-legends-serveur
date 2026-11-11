@@ -41,7 +41,10 @@ test('le correspondant écrit à l\'arrivée puis à l\'issue, avec le délai de
   W.avancer(monde, x.c.depart + 72);
   const ch = monde.guildes.a.chronique.filter(e => /contrat#(arrivee|issue)/.test(e.scene));
   assert.ok(ch.some(e => e.scene === 'contrat#arrivee'), 'lettre d\'arrivée');
-  assert.ok(ch.some(e => e.scene === 'contrat#issue'), 'lettre d\'issue');
+  // À l'issue, le correspondant n'écrit que s'il a du neuf à dire : une blessure ou un exploit.
+  const rap = (monde.guildes.a.rapports || []).find(r => r.id === x.c.id);
+  assert.ok(rap, 'rapport de mission');
+  if (rap.issue === 'eclatante') assert.ok(ch.some(e => e.scene === 'contrat#issue'), 'lettre d\'issue après un exploit');
   const arr = ch.find(e => e.scene === 'contrat#arrivee');
   assert.ok(arr.t >= x.c.depart + 1, 'la lettre arrive après les faits');
   assert.match(arr.texte, /Chambre des Bannières/); assert.match(arr.texte, /Maîtresse/); assert.doesNotMatch(arr.texte, /\{[a-z_]+\}/);
