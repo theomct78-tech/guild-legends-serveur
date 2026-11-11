@@ -123,8 +123,13 @@ function creerHeros(h, t = null) {
 
 const VALEUR_LIEN = { famille: 60, amour: 50, ami: 45, mentor: 40, eleve: 40, rival: 0, ennemi: -60 };
 
+/* Le nom qui suit « maître » ou « maîtresse » : des lettres, une apostrophe, un tiret, une espace ; 20 signes au plus. */
+function nomMaitre(n) {
+  const x = String(n || '').trim().replace(/\s+/g, ' ');
+  return /^[\p{L}][\p{L}' -]{0,19}$/u.test(x) ? x[0].toUpperCase() + x.slice(1) : null;
+}
 function creerGuilde({ id, nom = 'la guilde', region = 'demacia', niveau = 1, po = 0, or = undefined, lieux = LIEUX_DE_BASE, t, heros, liens = {}, seConnaissent = false, chien = null, maitre = null }) {
-  const g = { id, nom, region, maitre: { titre: maitre?.titre === 'maîtresse' ? 'maîtresse' : 'maître', billetsDoux: maitre?.billetsDoux !== false }, monde: creerMonde(id, region, chien), memoire: [], niveau, po: or ?? po, lieux: [...lieux], t, heros: heros.map(h => creerHeros(h, t)), relations: {}, cartes: [], chronique: [], usage: {}, soirees: [], seqCarte: 0 };
+  const g = { id, nom, region, maitre: { titre: maitre?.titre === 'maîtresse' ? 'maîtresse' : 'maître', billetsDoux: maitre?.billetsDoux !== false, nom: nomMaitre(maitre?.nom) }, monde: creerMonde(id, region, chien), memoire: [], niveau, po: or ?? po, lieux: [...lieux], t, heros: heros.map(h => creerHeros(h, t)), relations: {}, cartes: [], chronique: [], usage: {}, soirees: [], seqCarte: 0 };
   for (let i = 0; i < g.heros.length; i++) for (let j = i + 1; j < g.heros.length; j++) relationInitiale(g, g.heros[i], g.heros[j], liens);
   if (seConnaissent) for (const r of Object.values(g.relations)) r.rencontres = Math.max(r.rencontres, 5);
   return g;
@@ -961,6 +966,7 @@ function resumerAbsence(g, depuis) {
 }
 
 module.exports = {
+  nomMaitre,
   MA, PARAMS, nommerChien, CHIENS, OBLIGATOIRES, creerCarte, LIEUX, LIEUX_DE_BASE, ACTIVITES, CARTES,
   rngDepuis, heureLocale, estNuit, enRepos, meteo, memoriser, creerGuilde, ajouterHeros, compatibilite, relation, raisonsMoral, souvenir,
   simulerCreneau, simuler, organiserSoiree, enregistrerQuetes, finMissionQuete, repondre, departMission, retourMission, partirEnVoyage, distribuerLettres, resumerAbsence,

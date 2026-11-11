@@ -57,6 +57,7 @@ exports.enter = onCall({ region: REGION }, async (req) => {
  */
 const W = require('./src/monde');
 const VU = require('./src/vue');
+const V = require('./src/vie');
 const maintenant = () => Date.now() / 3600000;
 const MONDE = () => db.doc('monde/etat');
 
@@ -103,7 +104,7 @@ exports.createGuild = onCall({ region: REGION, memory: '1GiB', timeoutSeconds: 1
   if (!W.regionsOuvertes().includes(foundation.region)) throw new HttpsError('invalid-argument', 'Cette région n\'est pas encore ouverte : ses missions sont en cours d\'écriture. Choisis-en une autre.');
   const nomChien = String(req.data?.dog || '').trim().replace(/\s+/g, ' ');
   const chien = /^[\p{L}][\p{L}' -]{0,19}$/u.test(nomChien) ? nomChien[0].toUpperCase() + nomChien.slice(1) : null;
-  const maitre = { titre: req.data?.title === 'maîtresse' ? 'maîtresse' : 'maître', billetsDoux: req.data?.flirt !== false };
+  const maitre = { titre: req.data?.title === 'maîtresse' ? 'maîtresse' : 'maître', billetsDoux: req.data?.flirt !== false, nom: V.nomMaitre(req.data?.masterName) };
 
   const userRef = db.doc(`users/${req.auth.uid}`);
   const nameRef = db.doc(`guildNames/${foundation.nameKey}`);
@@ -117,9 +118,9 @@ exports.createGuild = onCall({ region: REGION, memory: '1GiB', timeoutSeconds: 1
     const monde = await chargerMonde(tx);
     W.avancer(monde, maintenant());
     const COUL = { ambre: '#f0a43a', braise: '#e0703a', mousse: '#8fbf6a', riviere: '#6fb3c8', prune: '#c58fd0', ivoire: '#efe2c4' };
-    W.fonderGuilde(monde, { id: guildRef.id, nom: foundation.name, region: foundation.region, chien, maitre, devise: foundation.motto, maitreNom: user.data().displayName || null, couleur: COUL[foundation.emblem.color] || null });
+    W.fonderGuilde(monde, { id: guildRef.id, nom: foundation.name, region: foundation.region, chien, maitre, devise: foundation.motto, maitreNom: maitre.nom || user.data().displayName || null, couleur: COUL[foundation.emblem.color] || null });
 
-    tx.set(guildRef, { ...R.newGuild({ ownerUid: req.auth.uid, foundation, now: FieldValue.serverTimestamp() }), master: user.data().displayName || null });
+    tx.set(guildRef, { ...R.newGuild({ ownerUid: req.auth.uid, foundation, now: FieldValue.serverTimestamp() }), master: maitre.nom || user.data().displayName || null });
     tx.set(nameRef, { guildId: guildRef.id });
     tx.update(userRef, { guildId: guildRef.id });
     sauverMonde(tx, monde);
@@ -154,6 +155,7 @@ const ACTIONS = {
   allianceAccepter: (m, g, d) => W.accepterAlliance(m, d.cle, g),
   allianceRompre: (m, g, d) => W.rompreAlliance(m, g, d.guilde),
   chien: (m, g, d) => W.nommerChien(m, g, d.nom),
+  maitre: (m, g, d) => W.nommerMaitre(m, g, { titre: d.titre || null, nom: d.nom === undefined ? undefined : String(d.nom) }),
   solde: (m, g, d) => W.changerSolde(m, g, d.heros, d.sens > 0 ? 1 : -1),
   conges: (m, g, d) => W.donnerConges(m, g, d.heros, Number(d.jours) || 2),
   action: (m, g, d) => W.lancerAction(m, g, String(d.id || '')),

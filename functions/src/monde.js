@@ -24,6 +24,7 @@ const CO = require('./courrier'), SO = require('./social'), AC = require('./acti
 const FIN = require('./langue').finir;
 const MA = () => require('./maitre');
 const EQ = require('./equipement');
+const CH = require('./charlie');
 
 const H_MS = 3600000;
 const PARAMS = {
@@ -549,6 +550,7 @@ function avancer(monde, jusqua) {
       if (h === SO.PARAMS.habitants.heure) SO.courrierHabitants(g, jourDe(t));
       if (AC.avancerActions(g, jugerGeste)) monterDeNiveau(monde, g);
       V.simuler(g, t + 2, C.scenes, C.arcs, C.quetes);
+      CH.observer(g, creneauLocal(t + 2));
       departsVolontaires(monde, g);
       g.candidatures = (g.candidatures || []).filter(c => c.expire > t + 2);
       if (h === PARAMS.heureBilan) elaguer(g);
@@ -559,7 +561,14 @@ function avancer(monde, jusqua) {
   return monde;
 }
 
-module.exports = { repondreFil, regionsOuvertes, changerSolde, donnerConges, lancerAction, faireGeste, envoyerMissive, choisirImage, palierDe, nommerChien: (monde, gid, nom) => V.nommerChien(monde.guildes[gid], nom), equiper: (monde, gid, heroId, uid) => EQ.equiper(monde.guildes[gid], heroId, uid), desequiper: (monde, gid, heroId, uid) => EQ.desequiper(monde.guildes[gid], heroId, uid),
+/* Le maître change son titre ou le nom qui le suit (« Maîtresse Ysolde »). Charlie change d'apparence avec le titre. */
+function nommerMaitre(monde, gid, { titre = null, nom = undefined } = {}) {
+  const g = monde.guildes[gid];
+  if (titre) g.maitre.titre = titre === 'maîtresse' ? 'maîtresse' : 'maître';
+  if (nom !== undefined) { const n = V.nomMaitre(nom); if (nom && !n) throw new Error('Un nom de 20 lettres au plus, sans chiffres ni signes.'); g.maitre.nom = n; if (n) g.maitreNom = n; }
+  return { titre: g.maitre.titre, nom: g.maitre.nom };
+}
+module.exports = { nommerMaitre, repondreFil, regionsOuvertes, changerSolde, donnerConges, lancerAction, faireGeste, envoyerMissive, choisirImage, palierDe, nommerChien: (monde, gid, nom) => V.nommerChien(monde.guildes[gid], nom), equiper: (monde, gid, heroId, uid) => EQ.equiper(monde.guildes[gid], heroId, uid), desequiper: (monde, gid, heroId, uid) => EQ.desequiper(monde.guildes[gid], heroId, uid),
   PARAMS, catalogues, creerMonde, fonderGuilde, nouveauHeros, recruter, refuserCandidature, poserAnnonce, publierContrats, contratsPour, placer, retirer, chanceContrat,
   construire, repondreCarte, lancerQuete, inscrireTournoi, jouerLeTournoi, seMontrerInteresse, avancer, statsDe, disponible, nomRegion,
   proposerAlliance: (monde, de, vers) => MJ.proposerAlliance(monde, de, vers, id => palierDe(monde.guildes[id]), monde.t),

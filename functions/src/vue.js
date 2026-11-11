@@ -86,6 +86,13 @@ function aVenir(monde, g) {
 
 const imageGuilde = g => g.image?.photo || (g.image?.cle ? images(g.image.cle).av : null);
 
+/* Ce que tout le monde voit d'une guilde sur la carte : où partent ses héros, et s'ils reviennent (sans le détail des contrats). */
+function enMission(monde, gid) {
+  return Object.values(monde.contrats).flatMap(c => {
+    const ps = c.m.postes.filter(p => p.guilde === gid && p.heros && p.parti && !p.rentre); if (!ps.length) return [];
+    return [{ id: c.id, region: c.mission.region, n: ps.length, phase: monde.t < c.depart ? 'route' : !c.resultat ? 'surPlace' : 'retour' }];
+  });
+}
 function vue(monde, gid) {
   const g = monde.guildes[gid], C = W.catalogues(), palier = REC.palierDe(g.niveau || 1);
   const H = id => g.heros.find(h => h.id === id);
@@ -129,7 +136,7 @@ function vue(monde, gid) {
   }
   const detenteurs = monde.territoires.detenteurs;
   return {
-    t: monde.t, version: monde.version, guilde: { id: g.id, nom: g.nom, devise: g.devise || '', region: g.region, niveau: g.niveau || 1, reputation: g.reputation || 0, avancement: P.avancementGuilde(g.reputation || 0), image: imageGuilde(g), titre: g.maitre?.titre || 'maître', billetsDoux: g.maitre?.billetsDoux !== false },
+    t: monde.t, version: monde.version, guilde: { id: g.id, nom: g.nom, devise: g.devise || '', region: g.region, niveau: g.niveau || 1, reputation: g.reputation || 0, avancement: P.avancementGuilde(g.reputation || 0), image: imageGuilde(g), couleur: g.couleur || null, fondee: g.fondee || 0, titre: g.maitre?.titre || 'maître', nomMaitre: g.maitre?.nom || null, billetsDoux: g.maitre?.billetsDoux !== false },
     po: g.po, niveau: g.niveau || 1, capacite: RULES.capacity(g.niveau || 1), effectif: actifs.length,
     salles: RP.etatSalles(g).map(({ cle, nom, niveau, prix, effet, etat, lieux, etage }) => ({ cle, nom, niveau, prix, effet, etat, lieux, etage })),
     lieux: g.lieux,
@@ -137,6 +144,7 @@ function vue(monde, gid) {
     missives: SO.missivesDe(monde, gid),
     regions: regionsVue(monde, g, contrats),
     aVenir: aVenir(monde, g),
+    charlie: require('./charlie').vue(g, Math.floor(V.heureLocale(monde.t) / 2) * 2),
     economie: { palier: palier.nom, revenu: E.revenuHebdo(palier.cle) }, chien: g.monde.chien,
     repere: { region: g.region, bourg: g.monde.bourg, meteo: V.meteo(g) },
     // Les premiers pas déjà faits, d'après la partie elle-même (le carnet de l'intendante ne dépend plus de l'appareil).
@@ -172,7 +180,7 @@ function vue(monde, gid) {
     pantheon: g.pantheon || [],
     registre: monde.registre.map(r => { const f = C.parCle[r.cle]; return { cle: r.cle, nom: f.skin === 'Classic' ? f.champion : f.skin, img: images(r.cle), role: f.role, depuis: r.depuis, interessee: (r.interessees || []).indexOf(gid) + 1, perdu: (r.perduPar || []).includes(gid) }; }),
     guildes: autres.map(o => ({ id: o.id, nom: o.nom, devise: o.devise || '', region: o.region, image: imageGuilde(o), vol: SO.volEntre(g.region, o.region), couleur: o.couleur || COULEURS[[...o.id].reduce((t, c) => t + c.charCodeAt(0), 0) % COULEURS.length], maitre: o.maitreNom || (o.maitre?.titre === 'maîtresse' ? 'une maîtresse' : 'un maître'), niveau: o.niveau || 1, palier: REC.palierDe(o.niveau || 1).nom, heros: o.heros.filter(x => !['parti', 'mort'].includes(x.etat)).map(x => x.id),
-      missions: (o.rapports || []).length, regions: Object.entries(detenteurs).filter(([, d]) => d === o.id).map(([r]) => r), allie: MJ.sontAllies(monde, gid, o.id, monde.t) })),
+      missions: (o.rapports || []).length, enMission: enMission(monde, o.id), fondee: o.fondee || 0, regions: Object.entries(detenteurs).filter(([, d]) => d === o.id).map(([r]) => r), allie: MJ.sontAllies(monde, gid, o.id, monde.t) })),
     etrangers,
     alliances: { allies: MJ.alliesDe(monde, gid, monde.t), max: MJ.PARAMS.alliances.max[palier.cle], recues: (monde.invitations || []).filter(i => i.vers === gid && i.expire > monde.t).map(i => ({ cle: i.cle, de: i.de })), envoyees: (monde.invitations || []).filter(i => i.de === gid && i.expire > monde.t).map(i => i.vers) },
     territoires: { detenteurs, influences: MJ.influences(monde.territoires.gains, monde.t) },

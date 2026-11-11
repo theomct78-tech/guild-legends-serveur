@@ -1,0 +1,96 @@
+# Charlie, au comptoir du repère. Elle ou il sert à boire, s'occupe de tout et de tout le monde, et parle au maître.
+# Une ligne : clé|texte. Repères : {h} (un héros), {patron} / {Patron} (« patron » ou « patronne » selon le titre),
+# {chien}, {salle} (la pièce, en minuscule), {prix}.
+# Règles d'écriture : aucun accord sur le héros (ni il, ni elle, ni adjectif accordé) ; aucun accord sur Charlie
+# (ni « contente », ni « sûr ») ; Charlie tutoie le maître.
+
+# Un héros passe sous le seuil du moral bas.
+triste|{h} n'a pas touché à sa chope hier soir. Ça ne lui ressemble pas. Tu devrais aller voir ce qui pèse, {patron}.
+triste|J'ai servi {h} trois fois sans avoir droit à un mot. D'habitude, on rigole. Quelque chose ne va pas.
+triste|{h} reste dans son coin depuis deux jours, {patron}. Je ne pose pas de questions, mais toi, tu peux.
+triste|Le moral de {h} est au fond de la cave. Si ça dure, on risque de trouver un matin la chambre vide et le lit fait.
+triste|{h} m'a demandé si la guilde comptait vraiment sur sa présence. Ce genre de question ne vient pas de nulle part.
+triste|Je garde une part de tarte pour {h}, mais je crois que ça ne suffira pas. Ouvre sa fiche, tu verras ce qui coince.
+triste|{h} a laissé son assiette pleine et la porte de sa chambre fermée. Je n'aime pas ça, {patron}.
+
+# Le moral remonte au-dessus du seuil bas.
+mieux|{h} a repris un deuxième verre hier soir, et a même ri à une bêtise de {chien}. Ça va mieux, {patron}.
+mieux|Tu as vu ? {h} relève la tête. Je ne sais pas ce qui a changé, mais ça fait plaisir à voir.
+mieux|{h} a donné un coup de main pour ranger la salle sans qu'on demande rien. Bon signe, ça.
+mieux|Le sourire de {h} revient. Pas encore en entier, mais il revient.
+mieux|{h} chante faux en essuyant les tables. Ça faisait longtemps. Je préfère ça au silence.
+mieux|{h} a passé la soirée en bas avec tout le monde. Ça faisait des jours. Je n'ai rien dit, j'ai juste rempli la chope.
+
+# Le moral passe au-dessus du seuil haut.
+heureux|{h} rayonne en ce moment. On entend son rire jusque dans la cour.
+heureux|Si toute ta troupe avait le moral de {h} en ce moment, je pourrais fermer le comptoir plus tôt.
+heureux|{h} m'a payé une tournée. À moi ! Ça n'arrive jamais. De ce côté-là, tout va bien, {patron}.
+heureux|{h} se sent bien ici, et ça se voit. Ce genre d'humeur, ça déteint sur toute la table.
+heureux|{h} parle de la guilde comme de sa maison, maintenant. Je voulais que tu le saches.
+heureux|{h} a appris une chanson de taverne à tout le monde hier soir. Même {chien} a hurlé avec. Une bonne soirée.
+
+# Besoins : l'énergie au plus bas.
+fatigue|{h} a piqué du nez sur sa soupe. Une ou deux journées de repos ne seraient pas du luxe, {patron}.
+fatigue|{h} tient debout par habitude. Si tu peux accorder quelques jours de congé, c'est le moment.
+fatigue|J'ai vu {h} bâiller entre deux phrases, trois fois de suite. Un peu de repos, et tu retrouveras la meilleure version.
+fatigue|{h} monte l'escalier comme on monte une montagne. Laisse souffler, {patron}, sinon c'est sur la route que ça lâchera.
+
+# Besoins : personne à qui parler.
+seul|{h} prend ses repas à l'écart en ce moment. Une soirée tous ensemble ferait du bien, je crois.
+seul|Personne n'a vraiment parlé à {h} depuis des jours. Moi j'essaie, mais je ne compte pas : je sers les verres.
+seul|{h} tourne autour des autres sans oser s'asseoir. Un petit coup de pouce de ta part, {patron} ?
+seul|{h} discute avec {chien} plus qu'avec quiconque ici. {chien} écoute bien, mais ça ne remplace pas une table pleine.
+
+# Besoins : l'ennui.
+ennui|{h} a compté les poutres du plafond. Deux fois. Une sortie, un jeu, n'importe quoi : il faut de l'air.
+ennui|{h} m'a demandé s'il y avait une fête prévue. Il n'y en a pas. Tu pourrais en organiser une ?
+ennui|Les journées de {h} se ressemblent toutes en ce moment. Un peu de nouveauté, et l'humeur suivrait.
+ennui|{h} a démonté et remonté le même tabouret tout l'après-midi. Le tabouret n'avait rien. Il faut lui changer les idées.
+
+# Besoins : l'impression de stagner.
+stagne|{h} parle de son entraînement comme d'une vieille histoire. Un contrat, une quête, quelque chose pour avancer, et ça repartira.
+stagne|{h} a l'impression de tourner en rond. Ça se sent à la façon de poser sa chope sur le comptoir.
+stagne|{h} a besoin de se mesurer à quelque chose. Si un contrat se présente, pense à lui donner sa chance.
+stagne|{h} regarde partir les autres avec une drôle de tête. Le tableau de la Chambre démange, inutile de faire semblant.
+
+# Le salaire est loin des attentes.
+salaire|{h} a recompté sa paie deux fois lundi. Pas un mot, mais je connais ce regard. Le salaire ne suit pas, {patron}.
+salaire|Entre nous : {h} trouve que sa solde ne paie pas ce que ça coûte de risquer sa peau. Ce n'est pas tout à fait faux.
+salaire|{h} m'a demandé combien on payait chez les autres guildes. Moi, je dis ça, je ne dis rien.
+
+# Un héros est blessé.
+blesse|J'ai monté un bouillon à {h}. La blessure est propre, mais il faudra du temps. Pas de contrat pour l'instant, hein ?
+blesse|{h} serre les dents à chaque marche. Laisse cette blessure se refermer avant de renvoyer qui que ce soit sur la route.
+blesse|{h} a rapporté une sale entaille de la route. Je m'en occupe. Toi, tu laisses le temps faire.
+
+# Une pièce est au rang du repère et le coffre suffit.
+construire:table|Je me disais qu'on pourrait peut-être construire une vraie cuisine, avec une taverne à côté. Le coffre le permet. {Patron}, t'en penses quoi ?
+construire:table|Il y a de quoi payer une cuisine et une taverne, et moi, je sers toujours sur un coin de table. Je dis ça… {Patron}, t'en penses quoi ?
+construire:soins|Je me disais qu'on pourrait peut-être construire une infirmerie, avec des bains. Les bandages sur la table de la salle commune, ça coupe l'appétit. T'en penses quoi, {patron} ?
+construire:soins|Le coffre est assez lourd pour une infirmerie et des bains. Je me disais qu'on pourrait peut-être s'y mettre. {Patron}, t'en penses quoi ?
+construire:armes|Je me disais qu'on pourrait peut-être construire une salle d'armes et une forge. Les mannequins en paille ne tiennent plus. {Patron}, t'en penses quoi ?
+construire:armes|On a de quoi payer une salle d'armes et une forge. Je me disais qu'on pourrait peut-être, enfin, entendre l'enclume sonner ici. T'en penses quoi, {patron} ?
+construire:savoir|Je me disais qu'on pourrait peut-être construire une bibliothèque et une salle des cartes. Il y a des livres empilés jusque dans ma réserve. T'en penses quoi, {patron} ?
+construire:savoir|Une bibliothèque, une salle des cartes… Le coffre suit, maintenant. Je me disais qu'on pourrait peut-être. {Patron}, t'en penses quoi ?
+construire:ecuries|Je me disais qu'on pourrait peut-être construire des écuries. Ta troupe use ses bottes plus vite que je ne lave les verres. {Patron}, t'en penses quoi ?
+construire:ecuries|On a de quoi s'offrir des écuries. Je me disais qu'on pourrait peut-être arrêter de tout faire à pied. T'en penses quoi, {patron} ?
+construire:hall|Je me disais qu'on pourrait peut-être construire le grand hall, avec son sanctuaire. Le coffre est assez lourd, et la guilde le mérite. {Patron}, t'en penses quoi ?
+construire:hall|Le grand hall… J'en rêve depuis le premier jour. Le coffre aussi, on dirait. Je me disais qu'on pourrait peut-être. T'en penses quoi, {patron} ?
+
+# Rien de neuf : Charlie parle du moment.
+calme_vide|La salle est vide, la bière est fraîche. Il ne manque que du monde.
+calme_vide|J'ai mis trois couverts de trop, par habitude. Il est temps que ça se remplisse ici, {patron}.
+calme_mission|La moitié de la troupe est sur les routes. Je garde les assiettes au chaud.
+calme_mission|C'est calme. Trop calme. Je compte les jours avant les retours.
+calme_mission|Les chambres vides, je les aère. Comme ça, quand tout le monde rentre, ça sent le propre.
+calme_matin|Café pour tout le monde, et un os pour {chien}. La journée peut commencer.
+calme_matin|J'ai ouvert les volets. Le tableau de la Chambre doit déjà être plein, à cette heure.
+calme_matin|Le pain est chaud. Si tu te dépêches, il en reste.
+calme_soir|Dernière tournée dans une heure. Après, tout le monde au lit, même toi, {patron}.
+calme_soir|Les chopes sont lavées, les bougies allumées. Bonne soirée, {patron}.
+calme_soir|Quelqu'un a sorti les dés dans la salle commune. Je surveille, il y a toujours un tricheur.
+calme_jour|Rien à signaler, {patron}. Les verres sont propres et personne ne se dispute. Pour l'instant.
+calme_jour|{chien} a encore volé une saucisse. À part ça, tout va bien.
+calme_jour|J'ai recousu deux capes et réparé un volet. Une journée normale, quoi.
+calme_contents|Tout le monde a le sourire en ce moment. Je ne sais pas ce que tu fais, mais continue.
+calme_contents|Une bonne ambiance, ça s'entend : les rires montent jusqu'au grenier. Ça fait du bien, {patron}.
